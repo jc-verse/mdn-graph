@@ -29,7 +29,7 @@ This creates the JSON files in `data/`. You need to redo the building steps ever
 Finally, build the website script:
 
 ```sh
-bun build src/client/index.ts --outdir build --minify
+bun build src/client/index.ts --outdir docs --minify
 ```
 
-Now you can open `build/index.html` in your browser.
+Now you can open `docs/index.html` in your browser.
