@@ -33,3 +33,7 @@ bun build src/client/index.ts --outdir docs --minify
 ```
 
 Now you can open `docs/index.html` in your browser.
+
+## Attribution
+
+- [anvaka/ngragph](https://github.com/anvaka/ngraph) and its lots of subpackages for actually rendering the graph
