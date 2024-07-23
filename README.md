@@ -17,6 +17,14 @@ cd content
 yarn build --nohtml
 ```
 
+We recommend adding a `build/last-commit` file, containing the HEAD commit hash of the repository. You can create one with `git rev-parse HEAD > build/last-commit`. Then, you can build again with
+
+```sh
+yarn build --nohtml $(git diff --name-only $(cat build/last-commit) HEAD) && git rev-parse HEAD > build/last-commit
+```
+
+Which only builds the changed files since the last commit.
+
 Then, build the graph:
 
 ```sh

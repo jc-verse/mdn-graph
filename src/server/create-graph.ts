@@ -98,18 +98,25 @@ graph.forEachNode((node) => {
 graph.forEachNode((node) => {
   for (const linkTarget of node.data.links) {
     if (linkTarget.startsWith("/en-US/")) {
+      if (
+        ["/en-US/", "/en-US/curriculum/", "/en-US/observatory"].includes(
+          linkTarget
+        ) ||
+        linkTarget.startsWith("/en-US/blog/")
+      )
+        continue;
       const url = new URL(linkTarget, "https://developer.mozilla.org");
       const targetNode = graph.getNode(url.pathname);
       if (!targetNode) {
         report(node, "Broken link to", url.pathname);
-        return;
+        continue;
       }
-      if (url.hash) {
-        if (
-          !targetNode.data.ids.includes(decodeURIComponent(url.hash.slice(1)))
-        ) {
-          report(node, "Broken anchor", url.pathname, url.hash);
-        }
+      if (
+        url.hash &&
+        !url.hash.startsWith("#:~:") &&
+        !targetNode.data.ids.includes(decodeURIComponent(url.hash.slice(1)))
+      ) {
+        report(node, "Broken anchor", url.pathname, url.hash);
       }
       graph.addLink(node.id, url.pathname);
     } else if (linkTarget.startsWith("#")) {
@@ -120,11 +127,10 @@ graph.forEachNode((node) => {
       if (
         linkTarget.startsWith("mailto:") ||
         (linkTarget.startsWith("http://localhost:5042") &&
-          linkTarget.includes("_sample.")) ||
-        linkTarget === "/" ||
-        linkTarget === "/discord"
+          linkTarget.includes("_sample_.")) ||
+        ["/", "/discord"].includes(linkTarget)
       ) {
-        return;
+        continue;
       } else if (linkTarget.startsWith("http:")) {
         report(node, "HTTP link", linkTarget);
       } else {

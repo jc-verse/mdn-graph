@@ -39,8 +39,8 @@ const pathToLabel = [
     "files/en-us/learn/tools_and_testing/cross_browser_testing/",
     "Content:Learn:Cross-Browser-Testing",
   ],
-  ["files/en-us/learn/css/", "Content:Learn:CSS"],
-  ["files/en-us/learn/server-side/django/", "Content:Learn:Django"],
+  ["files/en-us/learn/css", "Content:Learn:CSS"],
+  ["files/en-us/learn/server-side/django", "Content:Learn:Django"],
   ["files/en-us/learn/server-side/express_nodejs/", "Content:Learn:Express"],
   ["files/en-us/learn/forms/", "Content:Learn:Forms"],
   ["files/en-us/learn/tools_and_testing/github/", "Content:Learn:GitHub"],
@@ -112,8 +112,8 @@ renderGraph(graph, {
   link(l) {
     const fromNode = graph.getNode(l.fromId);
     const toNode = graph.getNode(l.toId);
-    const sourceLabel = pathToLabel.find(([path]) => `files/${fromNode.data.metadata.source.folder}`.startsWith(path))?.[1] ?? "Content:Other";
-    const targetLabel = pathToLabel.find(([path]) => `files/${toNode.data.metadata.source.folder}`.startsWith(path))?.[1] ?? "Content:Other";
+    const sourceLabel = pathToLabel.find(([path]) => `files/${fromNode.data.metadata.source.folder}/index.md`.startsWith(path))?.[1] ?? "Content:Other";
+    const targetLabel = pathToLabel.find(([path]) => `files/${toNode.data.metadata.source.folder}/index.md`.startsWith(path))?.[1] ?? "Content:Other";
     return {
       fromColor: parseInt(colorMap[sourceLabel] ?? colorMap['Content:Other'], 16),
       toColor: parseInt(colorMap[targetLabel] ?? colorMap['Content:Other'], 16),
