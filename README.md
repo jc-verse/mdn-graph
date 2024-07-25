@@ -20,7 +20,7 @@ yarn build --nohtml
 We recommend adding a `build/last-commit` file, containing the HEAD commit hash of the repository. You can create one with `git rev-parse HEAD > build/last-commit`. Then, you can build again with
 
 ```sh
-yarn build --nohtml $(git diff --name-only $(cat build/last-commit) HEAD) && git rev-parse HEAD > build/last-commit
+yarn build $(git diff --name-only $(cat build/last-commit) HEAD) --nohtml && git rev-parse HEAD > build/last-commit
 ```
 
 Which only builds the changed files since the last commit.
@@ -41,6 +41,24 @@ bun build src/client/index.ts --outdir docs --minify
 ```
 
 Now you can open `docs/index.html` in your browser.
+
+## Aggregating reports
+
+We want to filter out some known broken links. Go to https://openwebdocs.github.io/web-docs-backlog/all/ and run:
+
+```js
+JSON.stringify([...document.querySelectorAll(".features a")].map((x) => x.innerText))
+```
+
+Copy the output into `data/missing-features.json`. Then:
+
+```sh
+echo -e "\n" > data/no-page.txt
+bun src/server/process-warnings.ts > warnings.txt
+(grep -o 'Broken link to [^ ]*' warnings.txt | sed 's/Broken link to //' && grep -o 'Flaw macros [^ ]* \([^ ]*\) does not exist' warnings.txt | sed 's/Flaw macros [^ ]* \(.*\) does not exist/\1/') | sort -u > data/no-page.txt
+```
+
+And in the future, just run `bun src/server/process-warnings.ts > warnings.txt`.
 
 ## Attribution
 

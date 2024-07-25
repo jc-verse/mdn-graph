@@ -81,7 +81,7 @@ graph.forEachNode((node) => {
       }
       ids.push(id);
     });
-    $("a").each((i, a) => {
+    $("a:not(svg a)").each((i, a) => {
       const href = $(a).attr("href");
       if (!href) {
         report(node, "Missing href", $(a).text());
@@ -97,9 +97,11 @@ graph.forEachNode((node) => {
 
 graph.forEachNode((node) => {
   for (const linkTarget of node.data.links) {
-    if (linkTarget.startsWith("/en-US/")) {
+    if (/\.(?:jpe?g|png|svg|gif)$/.test(linkTarget)) {
+      report(node, "Image link", linkTarget);
+    } else if (linkTarget.startsWith("/en-US/")) {
       if (
-        ["/en-US/", "/en-US/curriculum/", "/en-US/observatory"].includes(
+        ["/en-US/", "/en-US/curriculum/", "/en-US/observatory", "/en-US/play", "/en-US/plus"].includes(
           linkTarget
         ) ||
         linkTarget.startsWith("/en-US/blog/")
@@ -117,6 +119,10 @@ graph.forEachNode((node) => {
         !targetNode.data.ids.includes(decodeURIComponent(url.hash.slice(1)))
       ) {
         report(node, "Broken anchor", url.pathname, url.hash);
+      }
+      if (node.id === url.pathname && !linkTarget.startsWith("#")) {
+        report(node, "Self link", url.pathname);
+        continue;
       }
       graph.addLink(node.id, url.pathname);
     } else if (linkTarget.startsWith("#")) {
