@@ -47,18 +47,16 @@ Now you can open `docs/index.html` in your browser.
 We want to filter out some known broken links. Go to https://openwebdocs.github.io/web-docs-backlog/all/ and run:
 
 ```js
-JSON.stringify([...document.querySelectorAll(".features a")].map((x) => x.innerText))
+console.log([...document.querySelectorAll(".features a")].map((x) => x.innerText).join("\n"))
 ```
 
-Copy the output into `data/missing-features.json`. Then:
+Copy the output into `config/missing-features.txt`.
+
+Generate warning reports any time with
 
 ```sh
-echo -e "\n" > data/no-page.txt
-bun src/server/process-warnings.ts > warnings.txt
-(grep -o 'Broken link to [^ ]*' warnings.txt | sed 's/Broken link to //' && grep -o 'Flaw macros [^ ]* \([^ ]*\) does not exist' warnings.txt | sed 's/Flaw macros [^ ]* \(.*\) does not exist/\1/') | sort -u > data/no-page.txt
+bun src/server/process-warnings.ts > warnings.txt`
 ```
-
-And in the future, just run `bun src/server/process-warnings.ts > warnings.txt`.
 
 ## Attribution
 

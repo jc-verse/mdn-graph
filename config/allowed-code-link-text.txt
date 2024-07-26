@@ -1,0 +1,86 @@
+  CSS syntax:
+/ <counter>
+/ <string>
+:is(td, tr):nth-child(n)
+<'grid-template-rows'> / <'grid-template-columns'>
+<'grid-template-rows'> / [ auto-flow && dense? ] <'grid-auto-columns'>?
+<geometry-box> | no-clip
+<integer> && <custom-ident>?
+<length-percentage [0,∞]>
+<list of numbers>
+<number> <number> <number>
+<number> <number>
+<number> [; <number>] ;?
+<offset-x> <offset-y>
+<string> <number>
+<timeline-range-name> <length-percentage>
+[ <character> | <urange> ]#
+[ <integer [0,∞]> <absolute-color-base> ]
+[ <line-names>? <string> <track-size>? <line-names>? ]+ [ / <explicit-track-list> ]?
+[ [ <integer> | infinite ]{2} ]#
+[ auto-flow && dense? ] <'grid-auto-rows'>? / <'grid-template-columns'>
+[attr operator value i]
+[attr operator value s]
+at <position>
+auto && <ratio>
+auto <angle>
+auto <length>
+auto [<length> | none]
+color(srgb ...)
+fit-content( [ <length> | <percentage> ] )
+from <color>
+from <coordinate-pair>
+only light
+repeat( [ <positive-integer> | auto-fill | auto-fit ] , <track-list> )
+round <'border-radius'>
+span && [ <integer> || <custom-ident> ]
+steps(n, <jumpterm>)
+
+  Code:
+"x" in obj
+FileSystemHandle.requestPermission({mode: 'readwrite'})
+Math.floor(x + 0.5)
+Object.defineProperty(obj, prop, { get: func, configurable: true, enumerable: true })
+Object.defineProperty(obj, prop, { set: func, configurable: true, enumerable: true })
+Object.getOwnPropertyDescriptor(obj, prop)?.enumerable ?? false
+Object.hasOwn(element.dataset, 'keyname')
+Promise.try(() => value)
+ReadableStream.getReader({mode: 'byob'})
+String.prototype.split(" ")
+arr.concat([element0, element1, /* ... ,*/ elementN])
+arr.slice(0, -1)
+canvas.getContext('2d', { alpha: false })
+canvas.toDataURL('image/jpeg', quality)
+concat([v1, v2])
+cubic-bezier(0, 0, 1, 1)
+cubic-bezier(p1, p2, p3, p4)
+delete obj.x
+instanceof Array
+minmax(auto, max-content)
+navigation.entries().length - 1
+navigator.credentials.create({publicKey: ..., ...})
+navigator.credentials.get({otp: ..., ...})
+navigator.credentials.get({publicKey: ..., ...})
+new Proxy(target, handler)
+slice(0, -1)
+
+  Other stuff:
+<full version>
+<module specifier map>
+<significant version>
+<etag_value>
+<MIME_type>/*
+<MIME_type>/<MIME_subtype>
+
+ALLOW-FROM origin
+NPP_ClearSiteData
+element id
+session id
+
+gl.COLOR_ATTACHMENT{0-15}
+gl.getProgramParameter(program, gl.ACTIVE_ATTRIBUTES)
+gl.getProgramParameter(program, gl.ACTIVE_UNIFORMS)
+
+non-standard_header
+non-standard_inline
+secureContext_header
