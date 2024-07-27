@@ -66,3 +66,5 @@ jobs:
           publish_dir: ./mdn-graph/docs
           publish_branch: gh-pages
           commit_message: ${{ env.message }}
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
