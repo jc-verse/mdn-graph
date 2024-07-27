@@ -1,0 +1,68 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *' # Runs at midnight UTC every day
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout this repo
+        uses: actions/checkout@v4
+
+      - name: Checkout mdn/content repo
+        uses: actions/checkout@v4
+        with:
+          repository: mdn/content
+          path: ../content
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Set up Bun
+        run: |
+          curl https://bun.sh/install | bash
+          echo "Bun installed"
+          export BUN_INSTALL="$HOME/.bun"
+          export PATH="$BUN_INSTALL/bin:$PATH"
+
+      - name: Install dependencies for mdn/content
+        run: yarn install
+        working-directory: ../content
+
+      - name: Build mdn/content
+        run: yarn build --nohtml
+        working-directory: ../content
+
+      - name: Install dependencies for this repo
+        run: bun install
+
+      - name: Build this repo
+        run: bun run build
+
+      - name: Determine commit message
+        id: commit-message
+        run: |
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            echo "message=Manual update by ${{ github.actor }}" >> $GITHUB_ENV
+          elif [ "${{ github.event_name }}" == "schedule" ]; then
+            echo "message=Scheduled update" >> $GITHUB_ENV
+          else
+            echo "message=Update based on ${{ github.sha }}" >> $GITHUB_ENV
+          fi
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+          publish_branch: gh-pages
+          commit_message: ${{ env.message }}
