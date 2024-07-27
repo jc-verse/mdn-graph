@@ -69,11 +69,15 @@ function createTree(
     }
     const subCount = createTree(details, value, depth + 1, predicate) + messages.length;
     if (subCount === 0) continue;
-    if (depth === 0 || (depth === 1 && key === "web") || subCount < 5)
+    if (depth === 0 || (depth === 1 && key === "web"))
       details.open = true;
     summary.append(` (${subCount})`);
     count += subCount;
     ul.append(li);
+  }
+  if (count <= 10) {
+    for (const li of ul.children as HTMLCollectionOf<HTMLLIElement>)
+      (li.children[0] as HTMLDetailsElement).open = true;
   }
   root.append(ul);
   return count;
