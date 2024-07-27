@@ -3,7 +3,7 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - main
+      - master
   workflow_dispatch:
   schedule:
     - cron: '0 0 * * *' # Runs at midnight UTC every day
@@ -15,12 +15,14 @@ jobs:
     steps:
       - name: Checkout this repo
         uses: actions/checkout@v4
+        with:
+          path: mdn-graph
 
       - name: Checkout mdn/content repo
         uses: actions/checkout@v4
         with:
           repository: mdn/content
-          path: ../content
+          path: content
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -36,17 +38,19 @@ jobs:
 
       - name: Install dependencies for mdn/content
         run: yarn install
-        working-directory: ../content
+        working-directory: ./content
 
       - name: Build mdn/content
         run: yarn build --nohtml
-        working-directory: ../content
+        working-directory: ./content
 
       - name: Install dependencies for this repo
         run: bun install
+        working-directory: ./mdn-graph
 
       - name: Build this repo
         run: bun run build
+        working-directory: ./mdn-graph
 
       - name: Determine commit message
         id: commit-message
@@ -63,6 +67,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs
+          publish_dir: ./mdn-graph/docs
           publish_branch: gh-pages
           commit_message: ${{ env.message }}
