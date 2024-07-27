@@ -1,4 +1,4 @@
-import createGraph, { type Node } from "ngraph.graph";
+import createGraph, { type Node, type Link } from "ngraph.graph";
 import FS from "node:fs/promises";
 import { load } from "cheerio";
 
@@ -8,17 +8,6 @@ const allowedCodeLinkTextRec = new Map(
       Bun.fileURLToPath(
         import.meta.resolve("../../config/allowed-code-link-text.txt")
       )
-    ).text()
-  )
-    .split("\n")
-    .filter((x) => x && !x.startsWith("  "))
-    .map((x) => [x, false])
-);
-
-const allowedHTTPSitesRec = new Map(
-  (
-    await Bun.file(
-      Bun.fileURLToPath(import.meta.resolve("../../config/http-sites.txt"))
     ).text()
   )
     .split("\n")
@@ -48,12 +37,18 @@ for await (const file of listdir("../content/build/en-us/docs")) {
     } else {
       graph.addNode(content.mdn_url, { metadata: content });
     }
-  } else {
+  } else if (file.endsWith("index.json")) {
     const existingNode = graph.getNode(content.url);
     if (existingNode) {
       existingNode.data.content = content.doc.body;
+      existingNode.data.sidebarHTML = content.doc.sidebarHTML;
+      existingNode.data.sidebarMacro = content.doc.sidebarMacro;
     } else {
-      graph.addNode(content.url, { content: content.doc.body });
+      graph.addNode(content.url, {
+        content: content.doc.body,
+        sidebarHTML: content.doc.sidebarHTML,
+        sidebarMacro: content.doc.sidebarMacro,
+      });
     }
   }
 }
@@ -194,7 +189,11 @@ graph.forEachNode((node) => {
 
 graph.forEachNode((node) => {
   for (const linkTarget of node.data.links) {
-    if (/\.(?:jpe?g|png|svg|gif)$/.test(linkTarget)) {
+    // Internal image links cannot be resolved by the graph so report them separately
+    if (
+      /\.(?:jpe?g|png|svg|gif)$/.test(linkTarget) &&
+      !linkTarget.startsWith("https:")
+    ) {
       report(node, "Image link", linkTarget);
     } else if (linkTarget.startsWith("/en-US/")) {
       if (
@@ -239,13 +238,7 @@ graph.forEachNode((node) => {
       ) {
         continue;
       } else if (linkTarget.startsWith("http:")) {
-        if (
-          !(
-            allowedHTTPSitesRec.has(new URL(linkTarget).origin) &&
-            (allowedHTTPSitesRec.set(new URL(linkTarget).origin, true), true)
-          )
-        )
-          report(node, "HTTP link", linkTarget);
+        report(node, "HTTP link", linkTarget);
       } else {
         report(node, "Bad href", linkTarget);
       }
@@ -253,22 +246,107 @@ graph.forEachNode((node) => {
   }
 });
 
-await FS.writeFile("data/warnings.json", JSON.stringify(warnings, null, 2));
-
-const nodes = [];
+const nodes: Node[] = [];
 
 graph.forEachNode((node) => {
   nodes.push(node);
 });
 
-const links = [];
+const links: Link[] = [];
 
 graph.forEachLink((link) => {
   links.push(link);
 });
 
-await FS.writeFile("data/nodes.json", JSON.stringify(nodes, null, 2));
-await FS.writeFile("data/links.json", JSON.stringify(links, null, 2));
+const unreachableViaPage = new Set<Node>(nodes);
+const unreachableViaSidebar = new Set<Node>(nodes);
+const visited = new Set<Node>();
+
+const queue = [graph.getNode("/en-US/docs/Web")];
+while (queue.length) {
+  const node = queue.shift()!;
+  graph.forEachLinkedNode(
+    node.id,
+    (linkedNode) => {
+      if (!visited.has(linkedNode)) {
+        visited.add(linkedNode);
+        unreachableViaPage.delete(linkedNode);
+        queue.push(linkedNode);
+      }
+    },
+    true
+  );
+}
+
+await FS.rmdir("sidebars", { recursive: true });
+await FS.mkdir("sidebars");
+const processedSidebars = new Map<string, string>();
+
+for (const node of nodes) {
+  const { sidebarHTML, sidebarMacro } = node.data;
+  delete node.data.sidebarHTML;
+  delete node.data.sidebarMacro;
+  if (!sidebarHTML) {
+    report(node, "Missing sidebar");
+    continue;
+  }
+  const normalizedHTML = sidebarHTML
+    .replace(/ open(="[^"]*")?| aria-current="page"|<\/?em>/g, "")
+    .replace(
+      `<code>${node.data.metadata.short_title}</code> `,
+      () =>
+        `<a href="${node.id}"><code>${node.data.metadata.short_title}</code></a>`
+    );
+  if (processedSidebars.has(normalizedHTML)) continue;
+  const $ = load(normalizedHTML);
+  $("a").each((i, a) => {
+    const href = $(a).attr("href");
+    if (href && href.startsWith("/en-US/")) {
+      const targetNode = graph.getNode(href);
+      if (targetNode) {
+        unreachableViaSidebar.delete(targetNode);
+      }
+    } else {
+      report(node, "Bad sidebar link", $(a).text(), href);
+    }
+  });
+  processedSidebars.set(normalizedHTML, sidebarMacro);
+}
+
+const counter = new Map<string, number>();
+for (const [html, macro] of processedSidebars) {
+  const number = counter.get(macro) ?? 0;
+  counter.set(macro, number + 1);
+  await Bun.write(`sidebars/${macro}-${number}.html`, html);
+}
+
+const unreachable = unreachableViaPage.union(unreachableViaSidebar);
+
+for (const node of unreachable) {
+  if (unreachableViaPage.has(node) && unreachableViaSidebar.has(node)) {
+    report(node, "Unreachable", "via both page and sidebar");
+  } else if (unreachableViaPage.has(node)) {
+    report(node, "Unreachable", "via page");
+  } else {
+    report(node, "Unreachable", "via sidebar");
+  }
+}
+
+for (const node of nodes) {
+  node.data.metadata = Object.fromEntries(
+    [
+      "flaws",
+      "title",
+      "browserCompat",
+      "summary",
+      "popularity",
+      "modified",
+      "source",
+      "short_title",
+    ].map((key) => [key, node.data.metadata[key]])
+  );
+  node.data.links = node.data.links.filter((link) => !link.startsWith("/en-US/"));
+}
 
 for (const [text, used] of allowedCodeLinkTextRec) {
   if (!used) {
@@ -276,8 +354,6 @@ for (const [text, used] of allowedCodeLinkTextRec) {
   }
 }
 
-for (const [site, used] of allowedHTTPSitesRec) {
-  if (!used) {
-    console.error(`${site} is no longer referenced in content`);
-  }
-}
+await FS.writeFile("data/warnings.json", JSON.stringify(warnings, null, 2));
+await FS.writeFile("data/nodes.json", JSON.stringify(nodes, null, 2));
+await FS.writeFile("data/links.json", JSON.stringify(links, null, 2));

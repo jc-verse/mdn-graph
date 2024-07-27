@@ -1,0 +1,16 @@
+body {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+}
+
+summary {
+  cursor: pointer;
+  user-select: none;
+}
+
+pre {
+  margin: 0;
+}

@@ -55,7 +55,13 @@ Copy the output into `config/missing-features.txt`.
 Generate warning reports any time with
 
 ```sh
-bun src/server/process-warnings.ts > warnings.txt`
+bun src/server/process-warnings.ts
+```
+
+Deploy to the website:
+
+```sh
+bun build src/client/warnings.ts --outdir docs --minify
 ```
 
 ## Attribution

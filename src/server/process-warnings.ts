@@ -58,6 +58,17 @@ const noPageRec = new Map(
     .map((x) => [x, false])
 );
 
+const allowedHTTPSitesRec = new Map(
+  (
+    await Bun.file(
+      Bun.fileURLToPath(import.meta.resolve("../../config/http-sites.txt"))
+    ).text()
+  )
+    .split("\n")
+    .filter((x) => x && !x.startsWith("  "))
+    .map((x) => [x, false])
+);
+
 for (const node of nodes) {
   if (Object.keys(node.data.metadata.flaws).length === 0) continue;
   const nodeWarnings = (warnings[node.data.metadata.source.folder] ??= []);
@@ -126,6 +137,8 @@ for (const [nodeId, messages] of warningList) {
   }
 }
 
+const tree = { children: {}, slug: "" };
+
 for (const [nodeId, baseMessages] of warningList) {
   const messages = baseMessages.filter(
     (x) =>
@@ -137,21 +150,34 @@ for (const [nodeId, baseMessages] of warningList) {
             (missingFeatures.has(x.data[0]) ||
               (noPageRec.has(x.data[0]) &&
                 (noPageRec.set(x.data[0], true), true)))) ||
-          x.message === "Broken anchor"
+          (x.message === "HTTP link" &&
+            allowedHTTPSitesRec.has(new URL(x.data[0]).origin) &&
+            (allowedHTTPSitesRec.set(new URL(x.data[0]).origin, true), true))
         )
       )
   );
   if (nodeId.includes("/mozilla/") || messages.length === 0) continue;
-  console.log(`../content/files/${nodeId}/index.md`);
-  for (const { message, data } of messages) {
-    console.log(`  ${message} ${data.join(" ")}`);
+  const parts = nodeId.split("/");
+  let current = tree;
+  for (const part of parts) {
+    current = current.children[part] ??= { children: {} };
   }
+  current.slug = nodeId;
+  current.messages = messages;
 }
+
+Bun.write("data/warnings-processed.json", JSON.stringify(tree, null, 2));
 
 brokenAnchorsWriter.end();
 
 for (const [url, used] of noPageRec) {
   if (!used) {
     console.error(`${url} is no longer referenced`);
+  }
+}
+
+for (const [site, used] of allowedHTTPSitesRec) {
+  if (!used) {
+    console.error(`${site} is no longer referenced in content`);
   }
 }
