@@ -51,6 +51,7 @@ api.CSSPageDescriptors.marginBottom
 api.CSSPageDescriptors.marginLeft
 api.CSSPageDescriptors.marginRight
 api.CSSPageDescriptors.marginTop
+api.CSSPageDescriptors.size
 api.CSSStyleValue.toString
 api.CSSViewTransitionRule
 api.CSSViewTransitionRule.navigation
@@ -186,8 +187,6 @@ api.GPUAdapter.info
 api.GPUComputePassEncoder.writeTimestamp
 api.GPURenderPassEncoder.writeTimestamp
 api.GamepadHapticActuator.canPlayEffectType
-api.GamepadHapticActuator.effects
-api.GamepadHapticActuator.reset
 api.GestureEvent.altKey
 api.GestureEvent.clientX
 api.GestureEvent.clientY
@@ -211,6 +210,7 @@ api.HTMLAreaElement.coords
 api.HTMLAreaElement.download
 api.HTMLAreaElement.noHref
 api.HTMLAreaElement.shape
+api.HTMLBRElement.clear
 api.HTMLBodyElement.aLink
 api.HTMLBodyElement.background
 api.HTMLBodyElement.bgColor
@@ -277,6 +277,7 @@ api.HTMLFrameSetElement.rows
 api.HTMLHRElement.align
 api.HTMLHRElement.color
 api.HTMLHRElement.noShade
+api.HTMLHRElement.size
 api.HTMLHRElement.width
 api.HTMLHeadElement.profile
 api.HTMLHeadingElement.align
@@ -320,6 +321,7 @@ api.HTMLInputElement.pattern
 api.HTMLInputElement.placeholder
 api.HTMLInputElement.readOnly
 api.HTMLInputElement.required
+api.HTMLInputElement.size
 api.HTMLInputElement.src
 api.HTMLInputElement.step
 api.HTMLInputElement.useMap
@@ -393,6 +395,7 @@ api.HTMLOptionElement.label
 api.HTMLOptionElement.selected
 api.HTMLOptionElement.text
 api.HTMLOptionElement.value
+api.HTMLOptionsCollection.add
 api.HTMLOptionsCollection.length
 api.HTMLOptionsCollection.remove
 api.HTMLOptionsCollection.selectedIndex
@@ -426,6 +429,7 @@ api.HTMLSelectElement.multiple
 api.HTMLSelectElement.name
 api.HTMLSelectElement.reportValidity
 api.HTMLSelectElement.required
+api.HTMLSelectElement.size
 api.HTMLSelectElement.validationMessage
 api.HTMLSelectElement.validity
 api.HTMLSelectElement.willValidate
@@ -434,15 +438,10 @@ api.HTMLSourceElement.sizes
 api.HTMLSourceElement.src
 api.HTMLSourceElement.srcset
 api.HTMLSourceElement.type
-api.HTMLTableCaptionElement.align
 api.HTMLTableCellElement.axis
 api.HTMLTableCellElement.height
 api.HTMLTableCellElement.width
 api.HTMLTableColElement.width
-api.HTMLTableRowElement.align
-api.HTMLTableRowElement.vAlign
-api.HTMLTableSectionElement.align
-api.HTMLTableSectionElement.vAlign
 api.HTMLTextAreaElement.autocomplete
 api.HTMLTextAreaElement.checkValidity
 api.HTMLTextAreaElement.cols
@@ -505,6 +504,7 @@ api.MLGraph
 api.MLGraphBuilder
 api.MLGraphBuilder.MLGraphBuilder
 api.MLGraphBuilder.abs
+api.MLGraphBuilder.add
 api.MLGraphBuilder.argMax
 api.MLGraphBuilder.argMin
 api.MLGraphBuilder.averagePool2d
@@ -662,6 +662,7 @@ api.PluginArray.item
 api.PluginArray.length
 api.PluginArray.namedItem
 api.PluginArray.refresh
+api.PointerEvent.persistentDeviceId
 api.PopStateEvent.hasUAVisualTransition
 api.PresentationConnectionCloseEvent.PresentationConnectionCloseEvent
 api.PresentationConnectionCloseEvent.message
@@ -790,6 +791,7 @@ api.SVGFEColorMatrixElement.height
 api.SVGFEColorMatrixElement.in1
 api.SVGFEColorMatrixElement.result
 api.SVGFEColorMatrixElement.type
+api.SVGFEColorMatrixElement.values
 api.SVGFEColorMatrixElement.width
 api.SVGFEColorMatrixElement.x
 api.SVGFEColorMatrixElement.y
@@ -981,6 +983,7 @@ api.SVGLength.value
 api.SVGLength.valueAsString
 api.SVGLength.valueInSpecifiedUnits
 api.SVGLengthList.appendItem
+api.SVGLengthList.clear
 api.SVGLengthList.getItem
 api.SVGLengthList.initialize
 api.SVGLengthList.insertItemBefore
@@ -1000,6 +1003,7 @@ api.SVGMPathElement.href
 api.SVGMarkerElement.orient
 api.SVGNumber.value
 api.SVGNumberList.appendItem
+api.SVGNumberList.clear
 api.SVGNumberList.getItem
 api.SVGNumberList.initialize
 api.SVGNumberList.insertItemBefore
@@ -1102,6 +1106,7 @@ api.SVGScriptElement.href
 api.SVGScriptElement.type
 api.SVGStopElement.offset
 api.SVGStringList.appendItem
+api.SVGStringList.clear
 api.SVGStringList.getItem
 api.SVGStringList.initialize
 api.SVGStringList.insertItemBefore
@@ -1141,6 +1146,7 @@ api.SVGTransform.setSkewY
 api.SVGTransform.setTranslate
 api.SVGTransform.type
 api.SVGTransformList.appendItem
+api.SVGTransformList.clear
 api.SVGTransformList.consolidate
 api.SVGTransformList.createSVGTransformFromMatrix
 api.SVGTransformList.getItem
@@ -1176,6 +1182,8 @@ api.StorageBucket.persist
 api.StorageBucket.persisted
 api.StorageBucket.setExpires
 api.StorageBucketManager
+api.StorageBucketManager.delete
+api.StorageBucketManager.keys
 api.StorageBucketManager.open
 api.StyleMedia
 api.StyleMedia.matchMedium
@@ -1332,8 +1340,6 @@ css.properties.baseline-source
 css.properties.clip-rule
 css.properties.color-adjust
 css.properties.color-interpolation-filters
-css.properties.cx
-css.properties.cy
 css.properties.d
 css.properties.dominant-baseline
 css.properties.fill
