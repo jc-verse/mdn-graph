@@ -210,7 +210,7 @@ graph.forEachNode((node) => {
       const url = new URL(linkTarget, "https://developer.mozilla.org");
       const targetNode = graph.getNode(url.pathname);
       if (!targetNode) {
-        report(node, "Broken link to", url.pathname);
+        report(node, "Broken link", url.pathname);
         continue;
       }
       if (
@@ -304,11 +304,13 @@ for (const node of nodes) {
   if (processedSidebars.has(normalizedHTML)) continue;
   const $ = load(normalizedHTML);
   $("a").each((i, a) => {
-    const href = $(a).attr("href");
+    const href = $(a).attr("href")?.replace(/\/$/, "");
     if (href && href.startsWith("/en-US/")) {
       const targetNode = graph.getNode(href);
       if (targetNode) {
         unreachableViaSidebar.delete(targetNode);
+      } else {
+        report(node, "Broken sidebar link", $(a).text(), href);
       }
     } else {
       report(node, "Bad sidebar link", $(a).text(), href);

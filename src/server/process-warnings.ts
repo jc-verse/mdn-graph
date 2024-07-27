@@ -77,7 +77,7 @@ for (const node of nodes) {
       if (id === "broken_links") {
         const correspondingWarning = nodeWarnings.find(
           (w) =>
-            w.message === "Broken link to" &&
+            w.message === "Broken link" &&
             w.data[0] === d.href.replace(/#.+/, "") &&
             w.data.at(-1) !== "(and flaw)"
         );
@@ -146,7 +146,7 @@ for (const [nodeId, baseMessages] of warningList) {
         // Caused by broken macros which are reported
         (
           x.message === "Missing href" ||
-          (x.message === "Broken link to" &&
+          (x.message === "Broken link" &&
             (missingFeatures.has(x.data[0]) ||
               (noPageRec.has(x.data[0]) &&
                 (noPageRec.set(x.data[0], true), true)))) ||
