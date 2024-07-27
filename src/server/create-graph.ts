@@ -15,6 +15,54 @@ const allowedCodeLinkTextRec = new Map(
     .map((x) => [x, false])
 );
 
+const allowedSpacedCodeLink = [
+  // HTML tags
+  /^<(a|area|font|iframe|input|link|meta|object|ol|script|th|tr)( [a-z-]+="[\w .…-]+"| ping| defer)+>$/,
+  /^<\?xml[^>]+\?>$/,
+  /^<xsl:[^>]+>$/,
+  /^[a-z-]+="[\w .…-]+"$/,
+  // JS code
+  /^(async function\*?|"use strict"|typeof [a-z]+( === "[a-z]+")?|extends null|export default|import (\* as )?\w+ from "\w+";?|(if|catch) \(\w*\)|for await\.\.\.of|\w+: "\w+"|(await|delete|void|yield\*?) \w+|\w+ (instanceof|in) \w+|\( \)|\(\w+ \? \w+ : \w+\))$/,
+  // Method calls with parameters. Lots of false positives but we actually
+  // want to check that methods in interface DLs don't have params
+  /^[\w.]+\([\w.]+(, [\w.]+)*\)$/,
+  // CSS code
+  /^([a-z-]+: ([a-z-]+|\d+(px|em|vh|vw|%)|0);?|@(container|import|media|namespace|supports) [()a-z: -]+|transform: [\w-]+\(\);?|transform-style: [\w-]+;?)$/,
+  // Shell commands
+  /^(ng|npm) [a-z\d]+$/,
+  // HTTP status
+  /^\d+ [\w '-]+$/,
+  // HTTP header
+  /^(Cache-Control|Clear-Site-Data|Connection|Content-Security-Policy|Cross-Origin-Opener-Policy|Cross-Origin-Resource-Policy|Permissions-Policy|Sec-Purpose): ([\w-]+|"[\w-]+")$/,
+  // MIME
+  /^[a-z]+\/[\w+-]+; [a-z]+=("[\w ,.-]+"|\w+);?$/,
+  // Macro calls
+  /^\{\{[^}]+\}\}$/,
+  // PAC stuff
+  /^(HTTP|HTTPS|PROXY|SOCKS|SOCKS4)/,
+  // TODO: this is probably bad (CSS reference uses this syntax)
+  /^[a-z-]+ \(@[a-z-]+\)$|^::([a-z-]+) \(:\1\)$/,
+];
+
+const allowedUnderscoreCodeLink = [
+  // Constants (uppercase)
+  /^(\w+\.)*[A-Z_\d]+$/,
+  // Non-JS properties (lowercase)
+  /^((dns|tcp|webgl|AppConfig|http(\.[a-z]+)?)\.)?[a-z\d_]+(\(\))?$/,
+  // WebGL prefixes
+  /^(WEBGL|OES|EXT|ANGLE|OCULUS|OVR|KHR)_\w+(\.[A-Za-z]+\(\))?$/,
+  // Object methods
+  /^(Object\.prototype\.)?__((define|lookup)(Getter|Setter)|proto)__(\(\))?$/,
+  // Link targets
+  /^_(blank|parent|replace|self|top)$/,
+  // File names
+  /\.(js|html)$/,
+  // String constants
+  /^"\w+"$/,
+  // Macro calls
+  /^\{\{[\w-]+\}\}$/,
+];
+
 const graph = createGraph();
 
 async function* listdir(dir: string): AsyncGenerator<string> {
@@ -100,6 +148,14 @@ graph.forEachNode((node) => {
       }
       ids.push(id);
     });
+    $("ul li").each((i, li) => {
+      const children = $(li).contents();
+      if (children.length === 0 || children[0].type === "text" && children[0].data.startsWith(":")) {
+        report(node, "Bad DL", $(li).text().slice(0, 50));
+      }
+    });
+    if (part.value.content.includes("-: "))
+      report(node, "Bad DL", part.value.content.match(/-: .*$/m)?.[0].slice(0, 50));
     $("a:not(svg a)").each((i, a) => {
       const href = $(a).attr("href");
       if (!href) {
@@ -115,34 +171,7 @@ graph.forEachNode((node) => {
         const code = $(childNodes[0]).text();
         if (
           code.includes(" ") &&
-          ![
-            // HTML tags
-            /^<(a|area|font|iframe|input|link|meta|object|ol|script|th|tr)( [a-z-]+="[\w .…-]+"| ping| defer)+>$/,
-            /^<\?xml[^>]+\?>$/,
-            /^<xsl:[^>]+>$/,
-            /^[a-z-]+="[\w .…-]+"$/,
-            // JS code
-            /^(async function\*?|"use strict"|typeof [a-z]+( === "[a-z]+")?|extends null|export default|import (\* as )?\w+ from "\w+";?|(if|catch) \(\w*\)|for await\.\.\.of|\w+: "\w+"|(await|delete|void|yield\*?) \w+|\w+ (instanceof|in) \w+|\( \)|\(\w+ \? \w+ : \w+\))$/,
-            // Method calls with parameters. Lots of false positives but we actually
-            // want to check that methods in interface DLs don't have params
-            /^[\w.]+\([\w.]+(, [\w.]+)*\)$/,
-            // CSS code
-            /^([a-z-]+: ([a-z-]+|\d+(px|em|vh|vw|%)|0);?|@(container|import|media|namespace|supports) [()a-z: -]+|transform: [\w-]+\(\);?|transform-style: [\w-]+;?)$/,
-            // Shell commands
-            /^(ng|npm) [a-z\d]+$/,
-            // HTTP status
-            /^\d+ [\w '-]+$/,
-            // HTTP header
-            /^(Cache-Control|Clear-Site-Data|Connection|Content-Security-Policy|Cross-Origin-Opener-Policy|Cross-Origin-Resource-Policy|Permissions-Policy|Sec-Purpose): ([\w-]+|"[\w-]+")$/,
-            // MIME
-            /^[a-z]+\/[\w+-]+; [a-z]+=("[\w ,.-]+"|\w+);?$/,
-            // Macro calls
-            /^\{\{[^}]+\}\}$/,
-            // PAC stuff
-            /^(HTTP|HTTPS|PROXY|SOCKS|SOCKS4)/,
-            // TODO: this is probably bad (CSS reference uses this syntax)
-            /^[a-z-]+ \(@[a-z-]+\)$|^::([a-z-]+) \(:\1\)$/,
-          ].some((re) => re.test(code)) &&
+          !allowedSpacedCodeLink.some((re) => re.test(code)) &&
           !(
             allowedCodeLinkTextRec.has(code) &&
             (allowedCodeLinkTextRec.set(code, true), true)
@@ -153,24 +182,7 @@ graph.forEachNode((node) => {
           report(node, "Code with space", code);
         } else if (
           code.includes("_") &&
-          ![
-            // Constants (uppercase)
-            /^(\w+\.)*[A-Z_\d]+$/,
-            // Non-JS properties (lowercase)
-            /^((dns|tcp|webgl|AppConfig|http(\.[a-z]+)?)\.)?[a-z\d_]+(\(\))?$/,
-            // WebGL prefixes
-            /^(WEBGL|OES|EXT|ANGLE|OCULUS|OVR|KHR)_\w+(\.[A-Za-z]+\(\))?$/,
-            // Object methods
-            /^(Object\.prototype\.)?__((define|lookup)(Getter|Setter)|proto)__(\(\))?$/,
-            // Link targets
-            /^_(blank|parent|replace|self|top)$/,
-            // File names
-            /\.(js|html)$/,
-            // String constants
-            /^"\w+"$/,
-            // Macro calls
-            /^\{\{[\w-]+\}\}$/,
-          ].some((re) => re.test(code)) &&
+          !allowedUnderscoreCodeLink.some((re) => re.test(code)) &&
           !(
             allowedCodeLinkTextRec.has(code) &&
             (allowedCodeLinkTextRec.set(code, true), true)
