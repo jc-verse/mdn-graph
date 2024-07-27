@@ -15,6 +15,17 @@ const allowedCodeLinkTextRec = new Map(
     .map((x) => [x, false])
 );
 
+const allowedHTTPSitesRec = new Map(
+  (
+    await Bun.file(
+      Bun.fileURLToPath(import.meta.resolve("../../config/http-sites.txt"))
+    ).text()
+  )
+    .split("\n")
+    .filter((x) => x && !x.startsWith("  "))
+    .map((x) => [x, false])
+);
+
 const graph = createGraph();
 
 async function* listdir(dir: string): AsyncGenerator<string> {
@@ -211,7 +222,7 @@ graph.forEachNode((node) => {
         report(node, "Broken anchor", url.pathname, url.hash);
       }
       if (node.id === url.pathname && !linkTarget.startsWith("#")) {
-        report(node, "Self link", url.pathname);
+        report(node, "Self link", linkTarget);
         continue;
       }
       graph.addLink(node.id, url.pathname);
@@ -228,7 +239,13 @@ graph.forEachNode((node) => {
       ) {
         continue;
       } else if (linkTarget.startsWith("http:")) {
-        report(node, "HTTP link", linkTarget);
+        if (
+          !(
+            allowedHTTPSitesRec.has(new URL(linkTarget).origin) &&
+            (allowedHTTPSitesRec.set(new URL(linkTarget).origin, true), true)
+          )
+        )
+          report(node, "HTTP link", linkTarget);
       } else {
         report(node, "Bad href", linkTarget);
       }
@@ -256,5 +273,11 @@ await FS.writeFile("data/links.json", JSON.stringify(links, null, 2));
 for (const [text, used] of allowedCodeLinkTextRec) {
   if (!used) {
     console.error(`${text} is no longer used in content`);
+  }
+}
+
+for (const [site, used] of allowedHTTPSitesRec) {
+  if (!used) {
+    console.error(`${site} is no longer referenced in content`);
   }
 }
