@@ -47,7 +47,6 @@ function createTree(
     li.append(details);
     const summary = document.createElement("summary");
     details.append(summary);
-    if (depth === 0 || (depth === 1 && key === "web")) details.open = true;
     const messages = (value.messages ?? []).filter(predicate);
     if (messages.length) {
       summary.append(
@@ -70,6 +69,8 @@ function createTree(
     }
     const subCount = createTree(details, value, depth + 1, predicate) + messages.length;
     if (subCount === 0) continue;
+    if (depth === 0 || (depth === 1 && key === "web") || subCount < 5)
+      details.open = true;
     summary.append(` (${subCount})`);
     count += subCount;
     ul.append(li);
