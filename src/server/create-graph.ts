@@ -227,7 +227,11 @@ graph.forEachNode((node) => {
       graph.addLink(node.id, url.pathname);
     } else if (linkTarget.startsWith("#")) {
       if (!node.data.ids.includes(decodeURIComponent(linkTarget.slice(1)))) {
-        report(node, "Broken anchor", linkTarget);
+        if (linkTarget === "#browser_compatibility") {
+          report(node, "Broken browser compat anchor");
+        } else {
+          report(node, "Broken anchor", linkTarget);
+        }
       }
     } else if (!linkTarget.startsWith("https:")) {
       if (
