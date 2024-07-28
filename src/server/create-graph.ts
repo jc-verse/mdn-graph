@@ -150,12 +150,19 @@ graph.forEachNode((node) => {
     });
     $("ul li").each((i, li) => {
       const children = $(li).contents();
-      if (children.length === 0 || children[0].type === "text" && children[0].data.startsWith(":")) {
+      if (
+        children.length === 0 ||
+        (children[0].type === "text" && children[0].data.startsWith(":"))
+      ) {
         report(node, "Bad DL", $(li).text().slice(0, 50));
       }
     });
     if (part.value.content.includes("-: "))
-      report(node, "Bad DL", part.value.content.match(/-: .*$/m)?.[0].slice(0, 50));
+      report(
+        node,
+        "Bad DL",
+        part.value.content.match(/-: .*$/m)?.[0].slice(0, 50)
+      );
     $("a:not(svg a)").each((i, a) => {
       const href = $(a).attr("href");
       if (!href) {
@@ -245,16 +252,16 @@ graph.forEachNode((node) => {
           report(node, "Broken anchor", linkTarget);
         }
       }
-    } else if (!linkTarget.startsWith("https:")) {
+    } else if (
+      !linkTarget.startsWith("http") ||
+      (linkTarget.includes("//localhost") &&
+        !linkTarget.includes("_sample_."))
+    ) {
       if (
         linkTarget.startsWith("mailto:") ||
-        (linkTarget.startsWith("http://localhost:5042") &&
-          linkTarget.includes("_sample_.")) ||
         ["/", "/discord"].includes(linkTarget)
       ) {
         continue;
-      } else if (linkTarget.startsWith("http:")) {
-        report(node, "HTTP link", linkTarget);
       } else {
         report(node, "Bad href", linkTarget);
       }
@@ -363,7 +370,12 @@ for (const node of nodes) {
       "short_title",
     ].map((key) => [key, node.data.metadata[key]])
   );
-  node.data.links = node.data.links.filter((link) => !link.startsWith("/en-US/"));
+  node.data.links = node.data.links.filter(
+    (link) =>
+      !link.startsWith("/en-US/") &&
+      !link.startsWith("#") &&
+      !link.includes("//localhost")
+  );
 }
 
 for (const [text, used] of allowedCodeLinkTextRec) {

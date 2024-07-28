@@ -58,17 +58,6 @@ const noPageRec = new Map(
     .map((x) => [x, false])
 );
 
-const allowedHTTPSitesRec = new Map(
-  (
-    await Bun.file(
-      Bun.fileURLToPath(import.meta.resolve("../../config/http-sites.txt"))
-    ).text()
-  )
-    .split("\n")
-    .filter((x) => x && !x.startsWith("  "))
-    .map((x) => [x, false])
-);
-
 for (const node of nodes) {
   if (Object.keys(node.data.metadata.flaws).length === 0) continue;
   const nodeWarnings = (warnings[node.data.metadata.source.folder] ??= []);
@@ -113,6 +102,167 @@ for (const node of nodes) {
   });
 }
 
+async function checkLink(href: string) {
+  if (href.startsWith("http:")) {
+    try {
+      const res = await fetch(href.replace("http:", "https:"), {
+        signal: AbortSignal.timeout(3000),
+      });
+      if (res.ok) {
+        return {
+          type: "HTTP link",
+          data: "has HTTPS alternative",
+        };
+      }
+    } catch {}
+  }
+  try {
+    const res = await fetch(href, {
+      signal: AbortSignal.timeout(10000),
+    });
+    if (!res.ok) {
+      return {
+        type: "error status",
+        data: res.status,
+      };
+    }
+    if (res.url !== href) {
+      return {
+        type: "redirected",
+        data: res.url,
+      };
+    } else if (href.startsWith("http:")) {
+      return {
+        type: "HTTP link",
+        data: "",
+      };
+    } else {
+      return {
+        type: "ok",
+      };
+    }
+  } catch (e) {
+    return {
+      type: "request error",
+      data: (e as Error).message,
+    };
+  }
+}
+
+const linkRequests: (() => Promise<void>)[] = [];
+const checkedLinks = new Map<string, { type: string; data?: any } | undefined>();
+
+function report(node, ...data) {
+  const nodeWarnings = (warnings[node.data.metadata.source.folder] ??= []);
+  nodeWarnings.push({
+    message: data[0],
+    data: data.slice(1),
+  });
+}
+
+for (const node of nodes) {
+  for (const link of node.data.links) {
+    if (/https:\/\/(jsfiddle\.net|codepen\.io|jsbin\.com)\/./.test(link)) {
+      report(node, "External sandbox link", link);
+      continue;
+    }
+    if (
+      [
+        // Sites that don't do redirects or break links, should save us some time
+        "https://stackoverflow.com",
+        "https://tc39.es",
+        "https://drafts.csswg.org",
+        "https://unicode.org",
+        "https://www.unicode.org",
+        "https://datatracker.ietf.org",
+        "https://github.com/tc39",
+        "https://github.com/w3c",
+        "https://github.com/whatwg",
+        "https://bugzilla.mozilla.org",
+        "https://bugzil.la",
+        "https://webkit.org/b/",
+        "https://caniuse.com",
+        "https://chromestatus.com",
+        "https://chromium.googlesource.com",
+        // Youtube uses queries, so there's no real 404
+        "https://www.youtube.com",
+        "https://youtu.be",
+        "https://www.wolframalpha.com/input",
+        // Is this safe?
+        "https://www.w3.org",
+        "https://www.npmjs.com",
+      ].some((domain) => link.startsWith(domain)) ||
+      link.includes(".spec.whatwg.org")
+    ) {
+      continue;
+    }
+    if (link.startsWith("http")) {
+      const url = new URL(link);
+      url.hash = "";
+      const href = url.href;
+      if (!checkedLinks.has(href)) {
+        checkedLinks.set(href, undefined);
+        linkRequests.push(() => checkLink(href).then((res) => {
+          checkedLinks.set(href, res);
+        }));
+      }
+    }
+  }
+}
+
+// Every time, parallel at most 25 requests, wait until any of them settles,
+// remove it from the queue and pull in the next one
+async function depleteQueue() {
+  if (linkRequests.length <= 25) {
+    await Promise.all(linkRequests.map((req) => req()));
+    return;
+  }
+  let curReq = 25;
+  const promisePool: Promise<number>[] = [];
+  for (let i = 0; i < 25; i++) {
+    promisePool.push(linkRequests[i]().then(() => i));
+  }
+  while (curReq < linkRequests.length) {
+    if (curReq % 100 === 0) {
+      console.log(`Processed ${curReq}/${linkRequests.length} links`);
+    }
+    const completedSlot = await Promise.race(promisePool);
+    promisePool[completedSlot] = linkRequests[curReq++]().then(() => completedSlot);
+  }
+  await Promise.all(promisePool);
+  console.log(`Processed ${curReq}/${linkRequests.length} links`);
+}
+
+await depleteQueue();
+
+for (const node of nodes) {
+  for (const link of node.data.links) {
+    if (!link.startsWith("http")) continue;
+    const url = new URL(link);
+    url.hash = "";
+    const checked = checkedLinks.get(url.href);
+    if (!checked) continue;
+    if (checked.type === "ok") continue;
+    switch (checked.type) {
+      case "HTTP link":
+        report(node, "HTTP link", url.href, checked.data);
+        break;
+      case "error status":
+        report(node, "Broken external link", url.href, checked.data);
+        break;
+      case "redirected":
+        report(node, "Redirected external link", url.href, checked.data);
+        break;
+      case "request error":
+        report(node, "Broken external link", url.href, checked.data);
+        break;
+      default:
+        console.error("Unexpected checked link type:", checked);
+        break;
+    }
+  }
+}
+
 const warningList = Object.entries(warnings);
 warningList.sort(([a], [b]) =>
   a.replaceAll("/", "").localeCompare(b.replaceAll("/", ""))
@@ -149,10 +299,7 @@ for (const [nodeId, baseMessages] of warningList) {
           (x.message === "Broken link" &&
             (missingFeatures.has(x.data[0]) ||
               (noPageRec.has(x.data[0]) &&
-                (noPageRec.set(x.data[0], true), true)))) ||
-          (x.message === "HTTP link" &&
-            allowedHTTPSitesRec.has(new URL(x.data[0]).origin) &&
-            (allowedHTTPSitesRec.set(new URL(x.data[0]).origin, true), true))
+                (noPageRec.set(x.data[0], true), true))))
         )
       )
   );
@@ -173,11 +320,5 @@ brokenAnchorsWriter.end();
 for (const [url, used] of noPageRec) {
   if (!used) {
     console.error(`${url} is no longer referenced`);
-  }
-}
-
-for (const [site, used] of allowedHTTPSitesRec) {
-  if (!used) {
-    console.error(`${site} is no longer referenced in content`);
   }
 }

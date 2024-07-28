@@ -44,8 +44,12 @@ jobs:
         run: bun install
         working-directory: ./mdn-graph
 
-      - name: Build this repo
-        run: bun run build
+      - name: Build MDN graph
+        run: bun run build-graph
+        working-directory: ./mdn-graph
+
+      - name: Generate warning report
+        run: bun run build-warnings
         working-directory: ./mdn-graph
 
       - name: Determine commit message
