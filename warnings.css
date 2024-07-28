@@ -1,5 +1,12 @@
 body {
   display: flex;
+  margin: 1em;
+  height: calc(100vh - 2em);
+}
+
+select {
+  min-width: 300px;
+  height: 100%;
 }
 
 ul {
