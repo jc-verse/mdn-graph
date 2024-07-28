@@ -150,7 +150,10 @@ async function checkLink(href: string) {
 }
 
 const linkRequests: (() => Promise<void>)[] = [];
-const checkedLinks = new Map<string, { type: string; data?: any } | undefined>();
+const checkedLinks = new Map<
+  string,
+  { type: string; data?: any } | undefined
+>();
 
 function report(node, ...data) {
   const nodeWarnings = (warnings[node.data.metadata.source.folder] ??= []);
@@ -160,10 +163,51 @@ function report(node, ...data) {
   });
 }
 
+// Copied from BCD
+const bugLinkShorteners: [RegExp, string][] = [
+  [
+    /^https?:\/\/bugzilla\.mozilla\.org\/show_bug\.cgi\?id=(\d+)/g,
+    "https://bugzil.la/$1",
+  ],
+  [
+    /^https?:\/\/(issues\.chromium\.org)\/issues\/(\d+)/g,
+    "https://crbug.com/$2",
+  ],
+  [
+    /^https?:\/\/(bugs\.chromium\.org|code\.google\.com)\/p\/chromium\/issues\/detail\?id=(\d+)/g,
+    "https://crbug.com/$2",
+  ],
+  [
+    /^https?:\/\/(bugs\.chromium\.org|code\.google\.com)\/p\/((?!chromium)\w+)\/issues\/detail\?id=(\d+)/g,
+    "https://crbug.com/$2/$3",
+  ],
+  [
+    /^https?:\/\/chromium\.googlesource\.com\/chromium\/src\/\+\/([\w\d]+)/g,
+    "https://crrev.com/$1",
+  ],
+  [
+    /^https?:\/\/bugs\.webkit\.org\/show_bug\.cgi\?id=(\d+)/g,
+    "https://webkit.org/b/$1",
+  ],
+];
+
 for (const node of nodes) {
   for (const link of node.data.links) {
-    if (/https:\/\/(jsfiddle\.net|codepen\.io|jsbin\.com)\/./.test(link)) {
+    if (/^https:\/\/(jsfiddle\.net|codepen\.io|jsbin\.com)\/./.test(link)) {
       report(node, "External sandbox link", link);
+      continue;
+    }
+    const bugLinkShortener = bugLinkShorteners.find(([prefix]) =>
+      prefix.test(link)
+    );
+    if (bugLinkShortener) {
+      report(
+        node,
+        "Unshortened bug link",
+        link,
+        "replace with",
+        link.replace(...bugLinkShortener)
+      );
       continue;
     }
     if (
@@ -178,9 +222,10 @@ for (const node of nodes) {
         "https://github.com/tc39",
         "https://github.com/w3c",
         "https://github.com/whatwg",
-        "https://bugzilla.mozilla.org",
         "https://bugzil.la",
         "https://webkit.org/b/",
+        "https://crbug.com",
+        "https://crrev.com",
         "https://caniuse.com",
         "https://chromestatus.com",
         "https://chromium.googlesource.com",
@@ -202,9 +247,11 @@ for (const node of nodes) {
       const href = url.href;
       if (!checkedLinks.has(href)) {
         checkedLinks.set(href, undefined);
-        linkRequests.push(() => checkLink(href).then((res) => {
-          checkedLinks.set(href, res);
-        }));
+        linkRequests.push(() =>
+          checkLink(href).then((res) => {
+            checkedLinks.set(href, res);
+          })
+        );
       }
     }
   }
@@ -227,7 +274,9 @@ async function depleteQueue() {
       console.log(`Processed ${curReq}/${linkRequests.length} links`);
     }
     const completedSlot = await Promise.race(promisePool);
-    promisePool[completedSlot] = linkRequests[curReq++]().then(() => completedSlot);
+    promisePool[completedSlot] = linkRequests[curReq++]().then(
+      () => completedSlot
+    );
   }
   await Promise.all(promisePool);
   console.log(`Processed ${curReq}/${linkRequests.length} links`);
