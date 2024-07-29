@@ -1,5 +1,6 @@
 import nodes from "../../data/nodes.json" with { type: "json" };
 import links from "../../data/links.json" with { type: "json" };
+import lastUpdate from "../../data/last-update.json" with { type: "json" };
 import createGraph from "ngraph.graph";
 import renderGraph from "ngraph.pixel";
 import createLayout from "ngraph.forcelayout";
@@ -14,7 +15,7 @@ for (const link of links) {
 
 const layoutSettings = {
   dimensions: 3,
-}
+};
 
 const pathToLabel = [
   ["files/en-us/web/accessibility/", "Content:Accessibility"],
@@ -120,4 +121,14 @@ renderGraph(graph, {
     };
   },
   ...layoutSettings,
-})
+});
+
+const note = document.createElement("div");
+const buildTime = new Date(lastUpdate.buildTimestamp);
+const commitTime = new Date(lastUpdate.commitTimestamp);
+note.innerHTML = `
+Last updated: <time datetime="${buildTime.toISOString()}" title="${commitTime.toISOString()}">${buildTime.toLocaleString()}</time><br>
+Based on commit <a href="https://github.com/mdn/content/tree/${lastUpdate.commitHash}"><code>${lastUpdate.commitHash.slice(0, 7)}</code></a> (<time datetime="${commitTime.toISOString()}" title="${commitTime.toISOString()}">${commitTime.toLocaleString()}</time>)
+`;
+note.id = "note";
+document.body.appendChild(note);

@@ -1,4 +1,5 @@
 import warnings from "../../data/warnings-processed.json" with { type: "json" };
+import lastUpdate from "../../data/last-update.json" with { type: "json" };
 
 type Message = { message: string; data: string[] };
 
@@ -105,3 +106,13 @@ messagesFilter.addEventListener("change", () => {
   createTree(root, warnings, 0, (m) => selected.has(m.message === "Flaw" ? `${m.message} ${m.data[0]}` : 
 m.message));
 });
+
+const note = document.createElement("div");
+const buildTime = new Date(lastUpdate.buildTimestamp);
+const commitTime = new Date(lastUpdate.commitTimestamp);
+note.innerHTML = `
+Last updated: <time datetime="${buildTime.toISOString()}" title="${commitTime.toISOString()}">${buildTime.toLocaleString()}</time><br>
+Based on commit <a href="https://github.com/mdn/content/tree/${lastUpdate.commitHash}"><code>${lastUpdate.commitHash.slice(0, 7)}</code></a> (<time datetime="${commitTime.toISOString()}" title="${commitTime.toISOString()}">${commitTime.toLocaleString()}</time>)
+`;
+note.id = "note";
+document.body.appendChild(note);

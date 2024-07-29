@@ -270,7 +270,7 @@ async function depleteQueue() {
     promisePool.push(linkRequests[i]().then(() => i));
   }
   while (curReq < linkRequests.length) {
-    if (curReq % 100 === 0) {
+    if (curReq % 100 === 0 || linkRequests.length - curReq < 100) {
       console.log(`Processed ${curReq}/${linkRequests.length} links`);
     }
     const completedSlot = await Promise.race(promisePool);
@@ -282,7 +282,11 @@ async function depleteQueue() {
   console.log(`Processed ${curReq}/${linkRequests.length} links`);
 }
 
-await depleteQueue();
+if (!Bun.argv.includes("--no-external-link-check")) {
+  await depleteQueue();
+} else {
+  console.warn("Skipping external link check");
+}
 
 for (const node of nodes) {
   for (const link of node.data.links) {

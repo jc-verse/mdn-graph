@@ -1,5 +1,6 @@
 import createGraph, { type Node, type Link } from "ngraph.graph";
 import FS from "node:fs/promises";
+import { $ } from "bun";
 import { load } from "cheerio";
 
 const allowedCodeLinkTextRec = new Map(
@@ -254,8 +255,7 @@ graph.forEachNode((node) => {
       }
     } else if (
       !linkTarget.startsWith("http") ||
-      (linkTarget.includes("//localhost") &&
-        !linkTarget.includes("_sample_."))
+      (linkTarget.includes("//localhost") && !linkTarget.includes("_sample_."))
     ) {
       if (
         linkTarget.startsWith("mailto:") ||
@@ -370,6 +370,10 @@ for (const node of nodes) {
       "short_title",
     ].map((key) => [key, node.data.metadata[key]])
   );
+  node.data.metadata.source = {
+    folder: node.data.metadata.source.folder,
+    last_commit_url: node.data.metadata.source.last_commit_url,
+  };
   node.data.links = node.data.links.filter(
     (link) =>
       !link.startsWith("/en-US/") &&
@@ -384,6 +388,22 @@ for (const [text, used] of allowedCodeLinkTextRec) {
   }
 }
 
+const commit = await $`git log -1 --format="%H %ct"`
+  .cwd(Bun.fileURLToPath(import.meta.resolve("../../../content")))
+  .text();
+
 await FS.writeFile("data/warnings.json", JSON.stringify(warnings, null, 2));
 await FS.writeFile("data/nodes.json", JSON.stringify(nodes, null, 2));
 await FS.writeFile("data/links.json", JSON.stringify(links, null, 2));
+await FS.writeFile(
+  "data/last-update.json",
+  JSON.stringify(
+    {
+      commitHash: commit.split(" ")[0],
+      commitTimestamp: parseInt(commit.split(" ")[1]) * 1000,
+      buildTimestamp: Date.now(),
+    },
+    null,
+    2
+  )
+);
