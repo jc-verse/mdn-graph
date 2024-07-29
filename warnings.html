@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>MDN warnings</title>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="./warnings.css">
-  <script src="./warnings.js" defer></script>
-</head>
-<body>
-  <select id="messages-filter" multiple size="20"></select>
-  <div id="tree-root"></div>
-</body>
+  <head>
+    <title>MDN warnings</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./warnings.css" />
+    <script src="./warnings.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/">The graph</a></li>
+          <li><a href="/warning-info">Warning docs</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <select id="messages-filter" multiple size="20"></select>
+      <div id="tree-root"></div>
+    </main>
+  </body>
 </html>
