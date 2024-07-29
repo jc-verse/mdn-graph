@@ -80,7 +80,9 @@ function createTree(
     for (const li of ul.children as HTMLCollectionOf<HTMLLIElement>)
       (li.children[0] as HTMLDetailsElement).open = true;
   }
-  root.append(ul);
+  if (ul.childElementCount > 0) {
+    root.append(ul);
+  }
   return count;
 }
 

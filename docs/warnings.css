@@ -3,31 +3,39 @@ body {
 }
 
 header {
-  height: 2em;
+  height: 2rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
 }
 
 nav ul {
   display: flex;
-  gap: 2em;
+  gap: 2rem;
 }
 
 main {
   display: flex;
-  margin: 1em;
-  height: calc(100vh - 5em);
+  margin: 1rem 0 0 0;
 }
 
 select {
-  min-width: 300px;
-  height: 100%;
+  flex: none;
+  position: sticky;
+  top: 1rem;
+  padding: 0.4rem;
+  height: calc(100vh - 5rem);
+  overflow-y: auto;
+}
+
+option {
+  margin: 0;
+  padding: 0;
 }
 
 ul {
   list-style: none;
+  padding-inline-start: 1rem;
 }
 
 summary {
@@ -36,13 +44,13 @@ summary {
 }
 
 pre {
-  margin: 0;
+  margin: 0 0 0.4rem 1rem;
 }
 
 #note {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
-  padding: 10px;
+  padding: 0.4rem;
   background-color: lightgray;
 }
