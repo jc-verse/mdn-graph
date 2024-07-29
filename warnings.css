@@ -38,3 +38,11 @@ summary {
 pre {
   margin: 0;
 }
+
+#note {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  background-color: lightgray;
+}
