@@ -3,4 +3,4 @@ data/*
 !data/.keep
 sidebars
 docs/*.js
-broken-anchors.txt
+*.txt
