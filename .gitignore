@@ -4,3 +4,4 @@ data/*
 sidebars
 docs/*.js
 *.txt
+.env

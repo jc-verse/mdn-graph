@@ -1,7 +1,9 @@
 import createGraph, { type Node, type Link } from "ngraph.graph";
 import FS from "node:fs/promises";
+import Path from "node:path";
 import { $ } from "bun";
 import { load } from "cheerio";
+import { CONTENT_ROOT } from "./config.js";
 
 const allowedCodeLinkTextRec = new Map(
   (
@@ -76,7 +78,7 @@ async function* listdir(dir: string): AsyncGenerator<string> {
   }
 }
 
-for await (const file of listdir("../content/build/en-us/docs")) {
+for await (const file of listdir(Path.join(CONTENT_ROOT, "build/en-us/docs"))) {
   if (!file.endsWith(".json")) continue;
   const content = await Bun.file(file).json();
   if (file.endsWith("metadata.json")) {

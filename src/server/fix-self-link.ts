@@ -1,3 +1,5 @@
+import Path from "node:path";
+import { CONTENT_ROOT } from "./config.js";
 import selfLinks from "../../self-links.txt" with { type: "text" };
 
 function urlToMacro(url: string) {
@@ -31,7 +33,7 @@ function urlToMacro(url: string) {
 
 for (const [location, target] of selfLinks.split("\n").map((x) => x.split("\t"))) {
   if (!location) continue;
-  const file = Bun.file(`../content/${location}`);
+  const file = Bun.file(Path.join(CONTENT_ROOT, location));
   const content = await file.text();
   const args = urlToMacro(target);
   if (args) {
