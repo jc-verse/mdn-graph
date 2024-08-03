@@ -160,12 +160,23 @@ graph.forEachNode((node) => {
         report(node, "Bad DL", $(li).text().slice(0, 50));
       }
     });
-    if (part.value.content.includes("-: "))
+    if (part.value.content.includes("-: ")) {
       report(
         node,
         "Bad DL",
         part.value.content.match(/-: .*$/m)?.[0].slice(0, 50)
       );
+    }
+    $(":not(code, code *, pre, pre *, math, math *)").each((i, el) => {
+      const texts = $(el)
+        .contents()
+        .filter((i, el) => el.type === "text");
+      for (const text of texts) {
+        if (/`.*`|\*.*\*|\[.*\]\(.*\)|\b_.*_\b/.test(text.data)) {
+          report(node, "Possibly unrendered Markdown", text.data);
+        }
+      }
+    });
     $("a:not(svg a)").each((i, a) => {
       const href = $(a).attr("href");
       if (!href) {

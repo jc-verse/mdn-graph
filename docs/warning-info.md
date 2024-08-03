@@ -124,6 +124,10 @@ This rule reports internal image links (ending in one of the image extensions). 
 
 This rule reports pages without a sidebar. All pages should be associated with a sidebar.
 
+## Possibly unrendered Markdown
+
+This rule reports plain text that looks like Markdown. This can either be because the Markdown is nested within other HTML (usually tables), or because it's using awkward text that must be escaped. The former should be replaced with the HTML equivalent and the latter should preferably be put into code spans.
+
 ## Redirected external link
 
 This rule reports external links that are redirected to a different URL, including when the trailing slash is different. Replace the link with the redirected location.
