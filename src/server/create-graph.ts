@@ -129,12 +129,13 @@ graph.forEachNode((node) => {
           report(node, "Duplicate specifications");
         }
         node.data.specifications = part.value.specifications;
+        ids.push(part.value.id);
         continue;
       case "browser_compatibility":
         // We use metadata.browserCompat
-        if (!node.data.metadata.browserCompat?.includes(part.value.query)) {
+        if (!node.data.metadata.browserCompat?.includes(part.value.query))
           report(node, "Bad browser compat query", part.value.query);
-        }
+        ids.push(part.value.id);
         continue;
       case "prose":
         break;
