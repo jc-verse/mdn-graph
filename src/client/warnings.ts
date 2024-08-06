@@ -50,10 +50,7 @@ function createTree(
       summary.append(
         Object.assign(document.createElement("a"), {
           textContent: key,
-          href: `https://developer.mozilla.org/${value.slug.replace(
-            /^en-us/,
-            "en-us/docs"
-          )}`,
+          href: `https://developer.mozilla.org${value.slug}`,
           target: "_blank",
           rel: "noopener noreferrer",
         })
@@ -106,10 +103,7 @@ function createTable(
           document.createElement("a"),
           {
             textContent: parentPath,
-            href: `https://developer.mozilla.org/${data.slug.replace(
-              /^en-us/,
-              "en-us/docs"
-            )}`,
+            href: `https://developer.mozilla.org${data.slug}`,
             target: "_blank",
             rel: "noopener noreferrer",
           }

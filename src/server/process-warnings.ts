@@ -286,13 +286,13 @@ async function depleteQueue() {
       () => completedSlot
     );
     curReq++;
-    if (curReq % 100 === queueLen || linkRequests.length - curReq < 100) {
+    if (curReq % 100 === queueLen || linkRequests.length - curReq < 100 - queueLen) {
       console.log(`Processed ${curReq - queueLen}/${linkRequests.length} links`);
     }
   }
   for (let i = 1; i <= queueLen; i++) {
     const completedSlot = await Promise.race(promisePool);
-    console.log(`Processed ${curReq - queueLen + i}/${linkRequests.length} links (${linksInPool[completedSlot]})`);
+    console.log(`Processed ${curReq - queueLen + i}/${linkRequests.length} links`);
   }
 }
 
@@ -335,26 +335,9 @@ warningList.sort(([a], [b]) =>
   a.replaceAll("/", "").localeCompare(b.replaceAll("/", ""))
 );
 
-const brokenAnchors = Bun.file("broken-anchors.txt");
-Bun.write(brokenAnchors, "");
-const brokenAnchorsWriter = brokenAnchors.writer();
-
-for (const [nodeId, messages] of warningList) {
-  if (nodeId.includes("/mozilla/") || messages.length === 0) continue;
-  for (const { message, data } of messages) {
-    if (message === "Broken anchor") {
-      brokenAnchorsWriter.write(
-        `files/${nodeId}/index.md\t${
-          data.length === 1
-            ? [nodeId.replace(/^en-us/, "/en-us/docs"), ...data].join("")
-            : data.join("")
-        }\n`
-      );
-    }
-  }
-}
-
 const tree = { children: {}, slug: "" };
+
+const nodeToSlug = new Map(nodes.map((x) => [x.data.metadata.source.folder, x.id]));
 
 for (const [nodeId, baseMessages] of warningList) {
   const messages = baseMessages.filter(
@@ -374,16 +357,18 @@ for (const [nodeId, baseMessages] of warningList) {
   for (const part of parts) {
     current = current.children[part] ??= { children: {} };
   }
-  current.slug = nodeId;
+  current.slug = nodeToSlug.get(nodeId);
   current.messages = messages;
 }
 
-Bun.write("data/warnings-processed.json", JSON.stringify(tree, null, 2));
-
-brokenAnchorsWriter.end();
+await Bun.write("data/warnings-processed.json", JSON.stringify(tree, null, 2));
 
 for (const [url, used] of noPage) {
   if (!used) {
     console.error(`${url} is no longer referenced`);
   }
 }
+
+// TODO why do I need to do this?
+// Otherwise CI is stuck for 10min
+process.exit(0);
