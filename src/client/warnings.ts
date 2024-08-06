@@ -21,11 +21,7 @@ function inc<K>(map: Map<K, number>, key: K) {
 
 function collectMessages(node: Warning) {
   if (node.messages) {
-    node.messages.forEach((m) =>
-      m.message === "Flaw"
-        ? inc(messages, `${m.message} ${m.data[0]}`)
-        : inc(messages, m.message)
-    );
+    node.messages.forEach((m) => inc(messages, m.message));
   }
   for (const child of Object.values(node.children)) {
     collectMessages(child);
@@ -38,7 +34,8 @@ function createTree(
   root: HTMLElement,
   data: Warning,
   depth: number,
-  predicate: (m: Message) => boolean
+  predicate: (m: Message) => boolean,
+  showMessage: boolean,
 ): number {
   const ul = document.createElement("ul");
   let count = 0;
@@ -53,7 +50,10 @@ function createTree(
       summary.append(
         Object.assign(document.createElement("a"), {
           textContent: key,
-          href: `https://developer.mozilla.org/${value.slug.replace(/^en-us/, "en-us/docs")}`,
+          href: `https://developer.mozilla.org/${value.slug.replace(
+            /^en-us/,
+            "en-us/docs"
+          )}`,
           target: "_blank",
           rel: "noopener noreferrer",
         })
@@ -61,17 +61,17 @@ function createTree(
       details.append(
         Object.assign(document.createElement("pre"), {
           textContent: messages
-            .map((message) => `${message.message} ${message.data.join(" ")}`)
+            .map((message) => showMessage ? `${message.message} ${message.data.join(" ")}` : message.data.join(" "))
             .join("\n"),
         })
       );
     } else {
       summary.textContent = key;
     }
-    const subCount = createTree(details, value, depth + 1, predicate) + messages.length;
+    const subCount =
+      createTree(details, value, depth + 1, predicate, showMessage) + messages.length;
     if (subCount === 0) continue;
-    if (depth === 0 || (depth === 1 && key === "web"))
-      details.open = true;
+    if (depth === 0 || (depth === 1 && key === "web")) details.open = true;
     summary.append(` (${subCount})`);
     count += subCount;
     ul.append(li);
@@ -86,8 +86,61 @@ function createTree(
   return count;
 }
 
-const root = document.getElementById("tree-root")!;
-createTree(root, warnings, 0, () => true);
+function createTable(
+  root: HTMLElement,
+  data: Warning,
+  predicate: (m: Message) => boolean,
+  showMessage: boolean,
+) {
+  const table = document.createElement("table");
+  const thead = document.createElement("thead");
+  const tbody = document.createElement("tbody");
+  table.append(thead, tbody);
+  let maxDataLen = 0;
+  function createRow(data: Warning, parentPath: string) {
+    if (data.messages) {
+      for (const message of data.messages.filter(predicate)) {
+        const tr = document.createElement("tr");
+        tbody.append(tr);
+        tr.appendChild(document.createElement("td")).append(Object.assign(
+          document.createElement("a"),
+          {
+            textContent: parentPath,
+            href: `https://developer.mozilla.org/${data.slug.replace(
+              /^en-us/,
+              "en-us/docs"
+            )}`,
+            target: "_blank",
+            rel: "noopener noreferrer",
+          }
+        ));
+        if (showMessage) {
+          tr.appendChild(document.createElement("td")).textContent =
+            message.message;
+        }
+        for (const value of message.data) {
+          tr.appendChild(document.createElement("td")).textContent = value;
+        }
+        maxDataLen = Math.max(maxDataLen, message.data.length);
+      }
+    }
+    for (const [key, value] of Object.entries(data.children)) {
+      createRow(value, `${parentPath}/${key}`);
+    }
+  }
+  createRow(data, "");
+  const tr = document.createElement("tr");
+  for (const header of showMessage ? ["Path", "Message", "Data"] : ["Path", "Data"]) {
+    const th = document.createElement("th");
+    th.textContent = header;
+    if (header === "Data") {
+      th.colSpan = maxDataLen;
+    }
+    tr.append(th);
+  }
+  thead.append(tr);
+  root.append(table);
+}
 
 const messagesFilter = document.getElementById(
   "messages-filter"
@@ -101,20 +154,43 @@ for (const message of [...messages].sort()) {
 }
 
 messagesFilter.addEventListener("change", () => {
+  displayWarnings();
+});
+
+const viewToggle = document.getElementById("view-toggle") as HTMLSelectElement;
+viewToggle.addEventListener("change", () => {
+  displayWarnings();
+});
+
+function displayWarnings() {
+  const root = document.getElementById("tree-root")!;
+  root.textContent = "";
   const selected = new Set(
     [...messagesFilter.selectedOptions].map((o) => o.value)
   );
   root.textContent = "";
-  createTree(root, warnings, 0, (m) => selected.has(m.message === "Flaw" ? `${m.message} ${m.data[0]}` : 
-m.message));
-});
+  const predicate = (m) => selected.has(m.message);
+  const showMessage = selected.size > 1;
+  if (document.getElementById("view-toggle")!.value === "tree") {
+    createTree(root, warnings, 0, predicate, showMessage);
+  } else {
+    createTable(root, warnings, predicate, showMessage);
+  }
+}
+
+displayWarnings();
 
 const note = document.createElement("div");
 const buildTime = new Date(lastUpdate.buildTimestamp);
 const commitTime = new Date(lastUpdate.commitTimestamp);
 note.innerHTML = `
 Last updated: <time datetime="${buildTime.toISOString()}" title="${commitTime.toISOString()}">${buildTime.toLocaleString()}</time><br>
-Based on commit <a href="https://github.com/mdn/content/tree/${lastUpdate.commitHash}"><code>${lastUpdate.commitHash.slice(0, 7)}</code></a> (<time datetime="${commitTime.toISOString()}" title="${commitTime.toISOString()}">${commitTime.toLocaleString()}</time>)
+Based on commit <a href="https://github.com/mdn/content/tree/${
+  lastUpdate.commitHash
+}"><code>${lastUpdate.commitHash.slice(
+  0,
+  7
+)}</code></a> (<time datetime="${commitTime.toISOString()}" title="${commitTime.toISOString()}">${commitTime.toLocaleString()}</time>)
 `;
 note.id = "note";
 document.body.appendChild(note);

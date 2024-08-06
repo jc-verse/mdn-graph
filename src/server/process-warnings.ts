@@ -95,8 +95,8 @@ for (const node of nodes) {
         }
       }
       nodeWarnings.push({
-        message: "Flaw",
-        data: [id, d.macroName, d.explanation],
+        message: `Flaw ${id}`,
+        data: [d.macroName, d.explanation],
       });
     });
   });
