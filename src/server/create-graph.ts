@@ -122,20 +122,20 @@ graph.forEachNode((node) => {
   const linkTargets: string[] = [];
   const ids: string[] = [];
   for (const part of content) {
-    if (part.value.id) ids.push(part.value.id);
+    // TODO Yari does this case folding but it should just output lowercase IDs
+    // in the build output
+    if (part.value.id) ids.push(part.value.id.toLowerCase());
     switch (part.type) {
       case "specifications":
         if (node.data.specifications) {
           report(node, "Duplicate specifications");
         }
         node.data.specifications = part.value.specifications;
-        ids.push(part.value.id);
         continue;
       case "browser_compatibility":
         // We use metadata.browserCompat
         if (!node.data.metadata.browserCompat?.includes(part.value.query))
           report(node, "Bad browser compat query", part.value.query);
-        ids.push(part.value.id);
         continue;
       case "prose":
         break;
