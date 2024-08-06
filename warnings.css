@@ -19,7 +19,7 @@ main {
   margin: 1rem 0 0 0;
 }
 
-select {
+main select {
   flex: none;
   position: sticky;
   top: 1rem;
@@ -28,7 +28,7 @@ select {
   overflow-y: auto;
 }
 
-option {
+main option {
   margin: 0;
   padding: 0;
 }
@@ -45,6 +45,20 @@ summary {
 
 pre {
   margin: 0 0 0.4rem 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 0 0 1rem;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 0.2rem;
+}
+
+td:not(:first-child) {
+  font-family: monospace;
 }
 
 #note {
