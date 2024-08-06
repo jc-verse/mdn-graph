@@ -1,0 +1,7 @@
+https://codepen.io/
+https://live.browserstack.com/dashboard
+https://onlinelibrary.wiley.com/doi/{.*}
+https://www.browserstack.com/{(users|accounts)/.*}
+https://www.java.com/
+https://www.openwebanalytics.com/
+https://www.webpagetest.org/

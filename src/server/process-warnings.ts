@@ -1,61 +1,62 @@
 import warnings from "../../data/warnings.json" with { type: "json" };
 import nodes from "../../data/nodes.json" with { type: "json" };
+import { readConfig, configHas } from "./config.js";
 
 const missingFeatures = new Set(
-  (
-    await Bun.file(
-      Bun.fileURLToPath(
-        import.meta.resolve("../../config/missing-features.txt")
-      )
-    ).text()
-  )
-    .split("\n")
-    .filter((x) => x && !x.startsWith("  "))
-    .map((x) => {
-      // JS has no undocumented things
-      if (x.startsWith("javascript.")) return;
-      const [scope, interfac, member, ...rest] = x.split(".");
-      if (rest.length) {
-        console.error("Unexpected data:", x);
-        return;
-      }
-      if (!member && scope !== "api" && scope !== "webassembly") {
-        console.error("Unexpected data:", x);
-        return;
-      }
-      switch (scope) {
-        case "api":
-          if (!member) return `/en-US/docs/Web/API/${interfac}`;
-          return `/en-US/docs/Web/API/${interfac}/${member}`;
-        case "css":
-          return `/en-US/docs/Web/CSS/${member}`;
-        case "http":
-          if (interfac === "headers") {
-            return `/en-US/docs/Web/HTTP/Headers/${member}`;
-          }
-          break;
-        case "webdriver":
-          if (interfac === "commands") {
-            return `/en-US/docs/Web/WebDriver/Commands/${member}`;
-          }
-          break;
-        case "webassembly":
-          // Not structured enough
-          return;
-      }
+  (await readConfig("missing-features.txt")).map((x) => {
+    // JS has no undocumented things
+    if (x.startsWith("javascript.")) return;
+    const [scope, interfac, member, ...rest] = x.split(".");
+    if (rest.length) {
       console.error("Unexpected data:", x);
-    })
+      return;
+    }
+    if (!member && scope !== "api" && scope !== "webassembly") {
+      console.error("Unexpected data:", x);
+      return;
+    }
+    switch (scope) {
+      case "api":
+        if (!member) return `/en-US/docs/Web/API/${interfac}`;
+        return `/en-US/docs/Web/API/${interfac}/${member}`;
+      case "css":
+        return `/en-US/docs/Web/CSS/${member}`;
+      case "http":
+        if (interfac === "headers") {
+          return `/en-US/docs/Web/HTTP/Headers/${member}`;
+        }
+        break;
+      case "webdriver":
+        if (interfac === "commands") {
+          return `/en-US/docs/Web/WebDriver/Commands/${member}`;
+        }
+        break;
+      case "webassembly":
+        // Not structured enough
+        return;
+    }
+    console.error("Unexpected data:", x);
+  })
 );
 
-const noPageRec = new Map(
-  (
-    await Bun.file(
-      Bun.fileURLToPath(import.meta.resolve("../../config/no-page.txt"))
-    ).text()
-  )
-    .split("\n")
-    .filter((x) => x && !x.startsWith("  "))
-    .map((x) => [x, false])
+const noPage = new Map(
+  (await readConfig("no-page.txt")).map((x) => [x, false])
+);
+
+const knownInaccessibleLinks = new Map(
+  (await readConfig("inaccessible-links.txt")).map((x) => [
+    new RegExp(
+      `^${x
+        .split(/(\{.*\})/)
+        .map((part, i) =>
+          i % 2 === 0
+            ? part.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+            : part.slice(1, -1)
+        )
+        .join("")}$`
+    ),
+    false,
+  ])
 );
 
 for (const node of nodes) {
@@ -80,11 +81,7 @@ for (const node of nodes) {
       } else if (id === "macros") {
         if (d.explanation.endsWith("does not exist")) {
           const url = d.explanation.replace(" does not exist", "");
-          if (missingFeatures.has(url)) return;
-          else if (noPageRec.has(url)) {
-            noPageRec.set(url, true);
-            return;
-          }
+          if (missingFeatures.has(url) || configHas(noPage, url)) return;
         }
       } else if (id === "images") {
         if (
@@ -192,7 +189,7 @@ const bugLinkShorteners: [RegExp, string][] = [
 ];
 
 for (const node of nodes) {
-  for (const link of node.data.links) {
+  visitLinks: for (const link of node.data.links) {
     if (/^https:\/\/(jsfiddle\.net|codepen\.io|jsbin\.com)\/./.test(link)) {
       report(node, "External sandbox link", link);
       continue;
@@ -229,6 +226,7 @@ for (const node of nodes) {
         "https://caniuse.com",
         "https://chromestatus.com",
         "https://chromium.googlesource.com",
+        "https://web.archive.org",
         // Youtube uses queries, so there's no real 404
         "https://www.youtube.com",
         "https://youtu.be",
@@ -240,6 +238,12 @@ for (const node of nodes) {
       link.includes(".spec.whatwg.org")
     ) {
       continue;
+    }
+    for (const [regex, _] of knownInaccessibleLinks) {
+      if (regex.test(link)) {
+        knownInaccessibleLinks.set(regex, true);
+        continue visitLinks;
+      }
     }
     if (link.startsWith("http")) {
       const url = new URL(link);
@@ -350,9 +354,7 @@ for (const [nodeId, baseMessages] of warningList) {
         (
           x.message === "Missing href" ||
           (x.message === "Broken link" &&
-            (missingFeatures.has(x.data[0]) ||
-              (noPageRec.has(x.data[0]) &&
-                (noPageRec.set(x.data[0], true), true))))
+            (missingFeatures.has(x.data[0]) || configHas(noPage, x.data[0])))
         )
       )
   );
@@ -370,7 +372,7 @@ Bun.write("data/warnings-processed.json", JSON.stringify(tree, null, 2));
 
 brokenAnchorsWriter.end();
 
-for (const [url, used] of noPageRec) {
+for (const [url, used] of noPage) {
   if (!used) {
     console.error(`${url} is no longer referenced`);
   }

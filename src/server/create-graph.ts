@@ -3,19 +3,10 @@ import FS from "node:fs/promises";
 import Path from "node:path";
 import { $ } from "bun";
 import { load } from "cheerio";
-import { CONTENT_ROOT } from "./config.js";
+import { CONTENT_ROOT, readConfig, configHas } from "./config.js";
 
 const allowedCodeLinkTextRec = new Map(
-  (
-    await Bun.file(
-      Bun.fileURLToPath(
-        import.meta.resolve("../../config/allowed-code-link-text.txt")
-      )
-    ).text()
-  )
-    .split("\n")
-    .filter((x) => x && !x.startsWith("  "))
-    .map((x) => [x, false])
+  (await readConfig("allowed-code-link-text.txt")).map((x) => [x, false])
 );
 
 const allowedSpacedCodeLink = [
@@ -194,10 +185,7 @@ graph.forEachNode((node) => {
         if (
           code.includes(" ") &&
           !allowedSpacedCodeLink.some((re) => re.test(code)) &&
-          !(
-            allowedCodeLinkTextRec.has(code) &&
-            (allowedCodeLinkTextRec.set(code, true), true)
-          ) &&
+          !configHas(allowedCodeLinkTextRec, code) &&
           // Canvas tutorial uses example code in DL, not worth fixing
           !node.id.includes("Canvas_API/Tutorial")
         ) {
@@ -205,10 +193,7 @@ graph.forEachNode((node) => {
         } else if (
           code.includes("_") &&
           !allowedUnderscoreCodeLink.some((re) => re.test(code)) &&
-          !(
-            allowedCodeLinkTextRec.has(code) &&
-            (allowedCodeLinkTextRec.set(code, true), true)
-          )
+          !configHas(allowedCodeLinkTextRec, code)
         ) {
           report(node, "Code with underscore", code);
         }

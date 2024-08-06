@@ -17,17 +17,17 @@ This rule checks for Markdown syntax that's supposed to turn into a `<dl>` but i
 To fix this, check the source code. For example:
 
 ```diff
-- Item1
-  - : Description1
-- Item2
-+ - : Description2
+  - Item1
+    - : Description1
+  - Item2
++   - : Description2
 
-- Item1
-  - : Description1
-- Item2
-  - : Description2
-- - : Description3
-+     Description3
+  - Item1
+    - : Description1
+  - Item2
+    - : Description2
+-   - : Description3
++       Description3
 ```
 
 ## Bad href
@@ -145,3 +145,14 @@ This rule reports pages that are unreachable via any in-page links (starting fro
 ## Unshortened bug link
 
 This rule reports bug links where a known shortened version exists. For more information, see the [BCD lint rule](https://github.com/mdn/browser-compat-data/blob/main/lint/linter/test-links.ts).
+
+In an editor, you can do the following regex replacements:
+
+| Find                                                                                                  | Replace                   |
+| ----------------------------------------------------------------------------------------------------- | ------------------------- |
+| `https?:\/\/bugzilla\.mozilla\.org\/show_bug\.cgi\?id=(\d+)`                                          | `https://bugzil.la/$1`    |
+| `https?:\/\/(issues\.chromium\.org)\/issues\/(\d+)`                                                   | `https://crbug.com/$2`    |
+| `https?:\/\/(bugs\.chromium\.org\|code\.google\.com)\/p\/chromium\/issues\/detail\?id=(\d+)`          | `https://crbug.com/$2`    |
+| `https?:\/\/(bugs\.chromium\.org\|code\.google\.com)\/p\/((?!chromium)\w+)\/issues\/detail\?id=(\d+)` | `https://crbug.com/$2/$3` |
+| `https?:\/\/chromium\.googlesource\.com\/chromium\/src\/\+\/([\w\d]+)`                                | `https://crrev.com/$1`    |
+| `https?:\/\/bugs\.webkit\.org\/show_bug\.cgi\?id=(\d+)`                                               | `https://webkit.org/b/$1` |
