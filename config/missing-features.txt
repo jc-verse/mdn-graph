@@ -1,3 +1,6 @@
+  This file is autogenrated. Run `console.log([...document.querySelectorAll(".features a")].map((x) => x.innerText).join("\n"))` on https://openwebdocs.github.io/web-docs-backlog/all/ to get the new list.
+  Use two-space indent for comments.
+
 api.AbortPaymentEvent
 api.AbortPaymentEvent.AbortPaymentEvent
 api.AbortPaymentEvent.respondWith

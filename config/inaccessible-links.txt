@@ -1,3 +1,6 @@
+  Links in this file will be ignored by the link checker, usually because they are behind auth or crawler checks.
+  Use two-space indent for comments.
+
   Cloudflare protection (response status 403 and returned HTML contains "Just a moment..."):
 https://codepen.io{/?}
 https://gitlab.com/projects/new
@@ -16,3 +19,13 @@ https://www.openwebanalytics.com{/?}
 https://www.techopedia.com/definition/{.*}
 https://www.webpagetest.org{/?}
 https://www.reddit.com/r/{.*}
+
+  Goes to login:
+https://cloud.mongodb.com/v2
+https://console.cloud.google.com/{.*}
+https://docs.google.com/drawings
+https://shell.cloud.google.com/{.*}
+https://sites.google.com/{.*}
+https://github.com/new
+https://github.com/{.*}/issues/new{.*}
+https://github.com/orgs/mdn/teams{.*}

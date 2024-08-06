@@ -1,3 +1,8 @@
+  Links in this file will be ignored by the "Broken link" and "Flaw broken_links" checks.
+  They represent pages that should be created. If a page below should not be created,
+  it should be removed from this file so the broken link can be fixed.
+  Use two-space indent for comments.
+
 /en-US/docs/Glossary/IME
 /en-US/docs/Glossary/IP
 /en-US/docs/Glossary/SMIL
@@ -19,7 +24,6 @@
 /en-US/docs/Web/API/BluetoothRemoteGATTCharacteristic/characteristicvaluechanged_event
 /en-US/docs/Web/API/CSSMarginRule
 /en-US/docs/Web/API/CSSNumericType
-/en-US/docs/Web/API/CSSStyleDeclaration/named_properties
 /en-US/docs/Web/API/DOMMatrix/fromFloat32Array
 /en-US/docs/Web/API/DOMMatrix/fromFloat64Array
 /en-US/docs/Web/API/DOMMatrix/fromMatrix
@@ -96,7 +100,6 @@
 /en-US/docs/Web/API/RTCReceivedRtpStreamStats/framesDecoded
 /en-US/docs/Web/API/RTCReceiverAudioTrackAttachmentStats
 /en-US/docs/Web/API/RTCReceiverVideoTrackAttachmentStats
-/en-US/docs/Web/API/RTCRemoteInboundRtpStreamStats
 /en-US/docs/Web/API/RTCRtcpParameters
 /en-US/docs/Web/API/RTCSenderAudioTrackAttachmentStats
 /en-US/docs/Web/API/RTCSenderVideoTrackAttachmentStats

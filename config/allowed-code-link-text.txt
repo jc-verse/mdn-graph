@@ -1,3 +1,6 @@
+  Texts in this file will not be reported by the "Code with space" or "Code with underscore" checks.
+  Use two-space indent for comments.
+
   CSS syntax:
 / <counter>
 / <string>
