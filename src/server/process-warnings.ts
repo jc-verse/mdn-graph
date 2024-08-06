@@ -1,3 +1,4 @@
+import type { Node } from "ngraph.graph";
 import warnings from "../../data/warnings.json" with { type: "json" };
 import nodes from "../../data/nodes.json" with { type: "json" };
 import { readConfig, configHas } from "./config.js";
@@ -146,13 +147,13 @@ async function checkLink(href: string) {
   }
 }
 
-const linkRequests: (() => Promise<void>)[] = [];
+const linkRequests: [string, () => Promise<void>][] = [];
 const checkedLinks = new Map<
   string,
   { type: string; data?: any } | undefined
 >();
 
-function report(node, ...data) {
+function report(node: Node, ...data: string[]) {
   const nodeWarnings = (warnings[node.data.metadata.source.folder] ??= []);
   nodeWarnings.push({
     message: data[0],
@@ -251,11 +252,13 @@ for (const node of nodes) {
       const href = url.href;
       if (!checkedLinks.has(href)) {
         checkedLinks.set(href, undefined);
-        linkRequests.push(() =>
-          checkLink(href).then((res) => {
-            checkedLinks.set(href, res);
-          })
-        );
+        linkRequests.push([
+          href,
+          () =>
+            checkLink(href).then((res) => {
+              checkedLinks.set(href, res);
+            }),
+        ]);
       }
     }
   }
@@ -264,24 +267,30 @@ for (const node of nodes) {
 // Every time, parallel at most 25 requests, wait until any of them settles,
 // remove it from the queue and pull in the next one
 async function depleteQueue() {
-  if (linkRequests.length <= 25) {
-    await Promise.all(linkRequests.map((req) => req()));
+  const queueLen = 25;
+  if (linkRequests.length <= queueLen) {
+    await Promise.all(linkRequests.map((req) => req[1]()));
     return;
   }
-  let curReq = 25;
+  let curReq = queueLen;
+  const linksInPool: string[] = [];
   const promisePool: Promise<number>[] = [];
-  for (let i = 0; i < 25; i++) {
-    promisePool.push(linkRequests[i]().then(() => i));
+  for (let i = 0; i < queueLen; i++) {
+    linksInPool.push(linkRequests[i][0]);
+    promisePool.push(linkRequests[i][1]().then(() => i));
   }
   while (curReq < linkRequests.length) {
     if (curReq % 100 === 0 || linkRequests.length - curReq < 100) {
-      console.log(`Processed ${curReq}/${linkRequests.length} links`);
+      console.log(`Processed ${curReq - queueLen}/${linkRequests.length} links`);
     }
     const completedSlot = await Promise.race(promisePool);
-    promisePool[completedSlot] = linkRequests[curReq++]().then(
+    linksInPool[completedSlot] = linkRequests[curReq][0];
+    promisePool[completedSlot] = linkRequests[curReq][1]().then(
       () => completedSlot
     );
+    curReq++;
   }
+  console.log(`Waiting for the last requests to finish:\n${linksInPool.join("\n")}`);
   await Promise.all(promisePool);
   console.log(`Processed ${curReq}/${linkRequests.length} links`);
 }
