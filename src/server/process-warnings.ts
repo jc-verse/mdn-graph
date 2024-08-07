@@ -140,6 +140,18 @@ async function checkLink(href: string) {
       };
     }
     if (res.url !== href) {
+      const resURL = new URL(res.url);
+      const hrefURL = new URL(href);
+      if (
+        // Allow root URLs even if the root URL goes elsewhere
+        (hrefURL.pathname === "/" && res.url.startsWith(href)) ||
+        // Allow if the only change is addition of queries
+        resURL.href === hrefURL.href && hrefURL.search === ""
+      ) {
+        return {
+          type: "ok",
+        };
+      }
       return {
         type: "redirected",
         data: res.url,
@@ -301,13 +313,20 @@ async function depleteQueue() {
       () => completedSlot
     );
     curReq++;
-    if (curReq % 100 === queueLen || linkRequests.length - curReq < 100 - queueLen) {
-      console.log(`Processed ${curReq - queueLen}/${linkRequests.length} links`);
+    if (
+      curReq % 100 === queueLen ||
+      linkRequests.length - curReq < 100 - queueLen
+    ) {
+      console.log(
+        `Processed ${curReq - queueLen}/${linkRequests.length} links`
+      );
     }
   }
   for (let i = 1; i <= queueLen; i++) {
     const completedSlot = await Promise.race(promisePool);
-    console.log(`Processed ${curReq - queueLen + i}/${linkRequests.length} links`);
+    console.log(
+      `Processed ${curReq - queueLen + i}/${linkRequests.length} links`
+    );
   }
 }
 
@@ -352,7 +371,9 @@ warningList.sort(([a], [b]) =>
 
 const tree = { children: {}, slug: "" };
 
-const nodeToSlug = new Map(nodes.map((x) => [x.data.metadata.source.folder, x.id]));
+const nodeToSlug = new Map(
+  nodes.map((x) => [x.data.metadata.source.folder, x.id])
+);
 
 for (const [nodeId, baseMessages] of warningList) {
   const messages = baseMessages.filter(
