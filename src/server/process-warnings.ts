@@ -119,6 +119,21 @@ async function checkLink(href: string) {
       signal: AbortSignal.timeout(10000),
     });
     if (!res.ok) {
+      if (res.status === 429) {
+        const retryAfter = Number(res.headers.get("Retry-After"));
+        if (!Number.isNaN(retryAfter)) {
+          // Tolerate up to 5min of waiting
+          if (retryAfter < 300) {
+            await Bun.sleep((retryAfter + 5) * 1000);
+            return checkLink(href);
+          } else {
+            return {
+              type: "error status",
+              data: `429 Retry-After: ${retryAfter}`,
+            };
+          }
+        }
+      }
       return {
         type: "error status",
         data: res.status,
