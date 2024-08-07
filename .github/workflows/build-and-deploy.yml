@@ -33,7 +33,9 @@ jobs:
         uses: oven-sh/setup-bun@v2
 
       - name: Install dependencies for mdn/content
-        run: yarn install
+        # Remove lock file so it always installs the latest dependencies,
+        # especially data and BCD
+        run: rm yarn.lock && yarn install
         working-directory: ./content
 
       - name: Build mdn/content
