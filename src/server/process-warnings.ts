@@ -48,7 +48,7 @@ const knownInaccessibleLinks = new Map(
   (await readConfig("inaccessible-links.txt")).map((x) => [
     new RegExp(
       `^${x
-        .split(/(\{.*\})/)
+        .split(/(\{.*?\})/)
         .map((part, i) =>
           i % 2 === 0
             ? part.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
