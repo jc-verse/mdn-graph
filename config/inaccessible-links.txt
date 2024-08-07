@@ -1,5 +1,5 @@
   Links in this file will be ignored by the link checker, usually because they are behind auth or crawler checks.
-  Use two-space indent for comments.
+  Use two-space indent for comments. Use {...} to embed regex.
 
   Cloudflare protection (response status 403 and returned HTML contains "Just a moment..."):
 https://codepen.io{/?}

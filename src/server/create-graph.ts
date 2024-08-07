@@ -106,7 +106,7 @@ function report(node: Node, message: string, ...args: any[]) {
 
 graph.forEachNode((node) => {
   if (!node.data || !node.data.content) {
-    report(node, "Missing content");
+    console.error(node.id, "has no content");
     return;
   }
   const content = node.data.content;
@@ -118,9 +118,8 @@ graph.forEachNode((node) => {
     if (part.value.id) ids.push(part.value.id.toLowerCase());
     switch (part.type) {
       case "specifications":
-        if (node.data.specifications) {
+        if (node.data.specifications)
           report(node, "Duplicate specifications");
-        }
         node.data.specifications = part.value.specifications;
         continue;
       case "browser_compatibility":
@@ -131,7 +130,7 @@ graph.forEachNode((node) => {
       case "prose":
         break;
       default:
-        report(node, "Unknown part type", part.type);
+        console.error(node.id, "Unknown part type", part.type);
         continue;
     }
     const partContent = part.value.content;
@@ -344,17 +343,10 @@ for (const [html, macro] of processedSidebars) {
   await Bun.write(`sidebars/${macro}-${number}.html`, html);
 }
 
-const unreachable = unreachableViaPage.union(unreachableViaSidebar);
-
-for (const node of unreachable) {
-  if (unreachableViaPage.has(node) && unreachableViaSidebar.has(node)) {
-    report(node, "Unreachable", "via both page and sidebar");
-  } else if (unreachableViaPage.has(node)) {
-    report(node, "Unreachable", "via page");
-  } else {
-    report(node, "Unreachable", "via sidebar");
-  }
-}
+for (const node of unreachableViaPage)
+  report(node, "Unreachable via page");
+for (const node of unreachableViaSidebar)
+  report(node, "Unreachable via sidebar");
 
 for (const node of nodes) {
   node.data.metadata = Object.fromEntries(
