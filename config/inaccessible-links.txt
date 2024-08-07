@@ -4,14 +4,16 @@
   Cloudflare protection (response status 403 and returned HTML contains "Just a moment..."):
 https://codepen.io{/?}
 https://gitlab.com/projects/new
+https://help.glitch.com/hc/{.*}
+https://journals.sagepub.com/doi/{.*}
 https://linux.die.net/man/{.*}
 https://live.browserstack.com/dashboard
 https://onlinelibrary.wiley.com/doi/{.*}
 https://pixabay.com/
 https://www.browserstack.com/{(users|accounts)/.*}
-https://www.udemy.com/{(topic|course)/.*}
+https://www.cloudflare.com/{.*}
 https://www.researchgate.net/publication/{.*}
-https://journals.sagepub.com/doi/{.*}
+https://www.udemy.com/{(topic|course)/.*}
 
   Other kinds of firewall:
 https://www.canva.com/colors/color-wheel/

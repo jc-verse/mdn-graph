@@ -118,8 +118,7 @@ graph.forEachNode((node) => {
     if (part.value.id) ids.push(part.value.id.toLowerCase());
     switch (part.type) {
       case "specifications":
-        if (node.data.specifications)
-          report(node, "Duplicate specifications");
+        if (node.data.specifications) report(node, "Duplicate specifications");
         node.data.specifications = part.value.specifications;
         continue;
       case "browser_compatibility":
@@ -330,7 +329,16 @@ for (const node of nodes) {
       const targetNode = graph.getNode(href);
       if (targetNode) {
         unreachableViaSidebar.delete(targetNode);
-      } else {
+      } else if (
+        ![
+          "/en-US/",
+          "/en-US/curriculum/",
+          "/en-US/observatory",
+          "/en-US/play",
+          "/en-US/plus",
+        ].includes(href) &&
+        !href.startsWith("/en-US/blog/")
+      ) {
         report(node, "Broken sidebar link", $(a).text(), href);
       }
     } else {
@@ -347,8 +355,7 @@ for (const [html, macro] of processedSidebars) {
   await Bun.write(`sidebars/${macro}-${number}.html`, html);
 }
 
-for (const node of unreachableViaPage)
-  report(node, "Unreachable via page");
+for (const node of unreachableViaPage) report(node, "Unreachable via page");
 for (const node of unreachableViaSidebar)
   report(node, "Unreachable via sidebar");
 

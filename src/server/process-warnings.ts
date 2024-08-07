@@ -347,7 +347,9 @@ for (const [nodeId, baseMessages] of warningList) {
         (
           x.message === "Missing href" ||
           (x.message === "Broken link" &&
-            (missingFeatures.has(x.data[0]) || configHas(noPage, x.data[0])))
+            (missingFeatures.has(x.data[0]) || configHas(noPage, x.data[0]))) ||
+          (x.message === "Broken sidebar link" &&
+            (missingFeatures.has(x.data[1]) || configHas(noPage, x.data[1])))
         )
       )
   );

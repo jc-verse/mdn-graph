@@ -272,6 +272,7 @@
 /en-US/docs/Web/CSS/glyph-orientation-horizontal
 /en-US/docs/Web/CSS/hash-token
 /en-US/docs/Web/CSS/ident-token
+/en-US/docs/Web/CSS/intrinsic-size-keyword
 /en-US/docs/Web/CSS/line-clamp
 /en-US/docs/Web/CSS/linear-color-hint
 /en-US/docs/Web/CSS/linear-color-stop
@@ -284,6 +285,7 @@
 /en-US/docs/Web/CSS/outline-line-style
 /en-US/docs/Web/CSS/page-size
 /en-US/docs/Web/CSS/palette-identifier
+/en-US/docs/Web/CSS/position-area
 /en-US/docs/Web/CSS/position-try-options
 /en-US/docs/Web/CSS/progress
 /en-US/docs/Web/CSS/qualified-rule-list
@@ -324,6 +326,7 @@
 
 /en-US/docs/Web/MathML/Element/style
 
+/en-US/docs/Web/SVG/Attribute/color-rendering
 /en-US/docs/Web/SVG/Attribute/hreflang
 /en-US/docs/Web/SVG/Attribute/offset
 /en-US/docs/Web/SVG/Attribute/ping
