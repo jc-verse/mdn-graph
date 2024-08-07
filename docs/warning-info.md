@@ -82,7 +82,7 @@ This rule is the sidebar counterpart of [broken link](#broken-link). Broken link
 
 ## Code with space
 
-This rule checks for `<a>` whose sole child is `<code>` whose text content contains a space. This is usually an error, such as using `domxref` to reference an API, but forgetting to remove code formatting (e.g. `\{{domxref("Fetch_API", "Fetch API")}}`). Code formatting should only be used when indicating code entities, but linkable code rarely contains spaces (unless it's demonstrating a function call, for example).
+This rule checks for `<a>` whose sole child is `<code>` whose text content contains a space. This is usually an error, such as using `domxref` to reference an API, but forgetting to remove code formatting (e.g. `{ {domxref("Fetch_API", "Fetch API")}}`). Code formatting should only be used when indicating code entities, but linkable code rarely contains spaces (unless it's demonstrating a function call, for example).
 
 We have a wealth of exempted patterns and specific texts to filter out false positives. If false positives occur, consider adding them to [`create-graph.ts`](https://github.com/jc-verse/mdn-graph/blob/master/src/server/create-graph.ts) (for generalizable patterns) or [`allowed-code-link-text.txt`](https://github.com/jc-verse/mdn-graph/blob/master/config/allowed-code-link-text.txt) (for specific texts).
 
@@ -90,7 +90,7 @@ To fix these errors, the recommended way is to refactor it into a Markdown link 
 
 ## Code with underscore
 
-This is the underscore counterpart of [code with space](#code-with-space) and could arise from usage of macros such as `\{{domxref("Fetch_API")}}`. We also have exceptions encoded in `create-graph.ts` and `allowed-code-link-text.txt`.
+This is the underscore counterpart of [code with space](#code-with-space) and could arise from usage of macros such as `{ {domxref("Fetch_API")}}`. We also have exceptions encoded in `create-graph.ts` and `allowed-code-link-text.txt`.
 
 ## Duplicate ID
 
@@ -98,7 +98,7 @@ This rule reports identical `id`s on the same page. Unless the content is hand-w
 
 ## Duplicate specifications
 
-This rule reports multiple `\{{Specifications}}` macros on the same page. This is generally a content bug.
+This rule reports multiple `{ {Specifications}}` macros on the same page. This is generally a content bug.
 
 ## External sandbox link
 
@@ -123,6 +123,10 @@ This rule reports `http:` links. It would be mentioned if the `https:` equivalen
 ## Image link
 
 This rule reports internal image links (ending in one of the image extensions). It's generally a bad idea to provide links to them rather than directly displaying them and could be a typo. You don't need to wrap images in another `<a>`.
+
+## Missing data
+
+Yari does not generate flaws for `{ {CSSSyntax}}` and `{ {CSSInfo}}` that are missing data. See [mdn/yari#8436](https://github.com/mdn/yari/issues/8436) and [mdn/yari#4487](https://github.com/mdn/yari/pull/4487).
 
 ## Missing sidebar
 

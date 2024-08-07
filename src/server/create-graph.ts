@@ -158,6 +158,10 @@ graph.forEachNode((node) => {
         part.value.content.match(/-: .*$/m)?.[0].slice(0, 50)
       );
     }
+    if (part.value.content.includes("could not find syntax for this item"))
+      report(node, "Missing data", "CSS formal syntax");
+    if (part.value.content.includes("Value not found in DB"))
+      report(node, "Missing data", "CSS info");
     $(":not(code, code *, pre, pre *, math, math *)").each((i, el) => {
       const texts = $(el)
         .contents()
