@@ -325,6 +325,22 @@ for (const node of nodes) {
   const $ = load(normalizedHTML);
   $("a").each((i, a) => {
     const href = $(a).attr("href")?.replace(/\/$/, "");
+    if (
+      href &&
+      sidebarMacro === "AddonSidebar" &&
+      [
+        "#",
+        "https://blog.mozilla.org/addons",
+        "https://discourse.mozilla.org/c/add-ons",
+        "https://chat.mozilla.org/#/room/%23addons:mozilla.org",
+        "https://extensionworkshop.com/documentation/develop",
+        "https://extensionworkshop.com/documentation/publish",
+        "https://extensionworkshop.com/documentation/manage",
+        "https://extensionworkshop.com/documentation/enterprise",
+      ].includes(href)
+    ) {
+      return;
+    }
     if (href && href.startsWith("/en-US/")) {
       const targetNode = graph.getNode(href);
       if (targetNode) {
