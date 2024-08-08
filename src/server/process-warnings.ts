@@ -389,7 +389,7 @@ for (const [nodeId, baseMessages] of warningList) {
         )
       )
   );
-  if (nodeId.includes("/mozilla/") || messages.length === 0) continue;
+  if (messages.length === 0) continue;
   const parts = nodeId.split("/");
   let current = tree;
   for (const part of parts) {

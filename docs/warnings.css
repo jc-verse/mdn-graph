@@ -61,6 +61,20 @@ td:not(:first-child) {
   font-family: monospace;
 }
 
+dialog > div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+dialog input {
+  width: 90%;
+}
+
+dialog ul button {
+  margin-right: 0.4rem;
+}
+
 #note {
   position: fixed;
   top: 0;

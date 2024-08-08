@@ -16,6 +16,7 @@
             <option value="tree">Tree view</option>
             <option value="table">Table view</option>
           </select>
+          <button id="include-exclude-toggle">Configure include/exclude</button>
         </ul>
       </nav>
     </header>
@@ -23,5 +24,23 @@
       <select id="messages-filter" multiple size="20"></select>
       <div id="tree-root"></div>
     </main>
+    <dialog id="include-exclude-dialog">
+      <p>
+        Patterns to match file paths, beginning with <code>/en-us/</code>.<br>
+        Regex is supported. e.g. <code>^/en-us/mozilla\b</code> to exclude all Mozilla pages.
+      </p>
+      <p>Press <kbd>Enter</kbd> to confirm</p>
+      <div>
+        <select id="include-exclude-select">
+          <option value="include">Include</option>
+          <option value="exclude">Exclude</option>
+        </select>
+        <input type="text" id="include-exclude-input" />
+      </div>
+      <ul id="include-exclude-list"></ul>
+      <div>
+        <button autofocus id="include-exclude-dialog-close">Close</button>
+      </div>
+    </dialog>
   </body>
 </html>
