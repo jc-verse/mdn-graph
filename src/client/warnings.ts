@@ -9,7 +9,86 @@ type Warning = {
   slug: string;
 };
 
-const messages = new Map<string, number>();
+type IncludeExcludeConfig = {
+  type: "include" | "exclude";
+  pattern: RegExp;
+};
+
+const messagesFilter = document.getElementById(
+  "messages-filter"
+) as HTMLSelectElement;
+const viewToggle = document.getElementById("view-toggle") as HTMLSelectElement;
+const includeExcludeToggle = document.getElementById(
+  "include-exclude-toggle"
+) as HTMLButtonElement;
+const includeExcludeDialog = document.getElementById(
+  "include-exclude-dialog"
+) as HTMLDialogElement;
+const includeExcludeDialogClose = document.getElementById(
+  "include-exclude-dialog-close"
+) as HTMLButtonElement;
+const includeExcludeInput = document.getElementById(
+  "include-exclude-input"
+) as HTMLInputElement;
+const includeExcludeList = document.getElementById(
+  "include-exclude-list"
+) as HTMLUListElement;
+const includeExcludeSelect = document.getElementById(
+  "include-exclude-select"
+) as HTMLSelectElement;
+const treeRoot = document.getElementById("tree-root") as HTMLDivElement;
+const noteBox = document.getElementById("note") as HTMLDivElement;
+
+const messageCounts = new Map<string, number>();
+const includeExclude: IncludeExcludeConfig[] = [];
+const stored = localStorage.getItem("includeExclude");
+if (stored) {
+  includeExclude.push(
+    ...JSON.parse(stored).map((x: IncludeExcludeConfig) => ({
+      ...x,
+      pattern: new RegExp(x.pattern.source, x.pattern.flags),
+    }))
+  );
+}
+
+displayIncludeExclude();
+displayWarnings();
+
+const buildTime = new Date(lastUpdate.buildTimestamp);
+const commitTime = new Date(lastUpdate.commitTimestamp);
+noteBox.innerHTML = `
+Last updated: <time datetime="${buildTime.toISOString()}" title="${commitTime.toISOString()}">${buildTime.toLocaleString()}</time><br>
+Based on commit <a href="https://github.com/mdn/content/tree/${
+  lastUpdate.commitHash
+}"><code>${lastUpdate.commitHash.slice(
+  0,
+  7
+)}</code></a> (<time datetime="${commitTime.toISOString()}" title="${commitTime.toISOString()}">${commitTime.toLocaleString()}</time>)
+`;
+
+messagesFilter.addEventListener("change", () => {
+  displayWarnings();
+});
+viewToggle.addEventListener("change", () => {
+  displayWarnings();
+});
+includeExcludeToggle.addEventListener("click", () => {
+  includeExcludeDialog.showModal();
+});
+includeExcludeDialogClose.addEventListener("click", () => {
+  includeExcludeDialog.close();
+});
+includeExcludeInput.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") {
+    includeExclude.push({
+      type: includeExcludeSelect.value,
+      pattern: new RegExp(includeExcludeInput.value),
+    });
+    includeExcludeInput.value = "";
+    displayIncludeExclude();
+    displayWarnings();
+  }
+});
 
 function inc<K>(map: Map<K, number>, key: K) {
   if (map.has(key)) {
@@ -19,22 +98,12 @@ function inc<K>(map: Map<K, number>, key: K) {
   }
 }
 
-function collectMessages(node: Warning) {
-  if (node.messages) {
-    node.messages.forEach((m) => inc(messages, m.message));
-  }
-  for (const child of Object.values(node.children)) {
-    collectMessages(child);
-  }
-}
-
-collectMessages(warnings);
-
 function createTree(
   root: HTMLElement,
   data: Warning,
   rootPath: string,
-  predicate: (m: Message, key: string) => boolean,
+  displayedMessages: Set<string> | undefined,
+  fileIncluded: (key: string) => boolean,
   showMessage: boolean
 ): number {
   const ul = document.createElement("ul");
@@ -45,9 +114,9 @@ function createTree(
     li.append(details);
     const summary = document.createElement("summary");
     details.append(summary);
-    const messages = (value.messages ?? []).filter((m) =>
-      predicate(m, `${rootPath}/${key}`)
-    );
+    let messages = fileIncluded(`${rootPath}/${key}`) ? value.messages ?? [] : [];
+    for (const message of messages) inc(messageCounts, message.message);
+    if (displayedMessages) messages = messages.filter((m) => displayedMessages.has(m.message));
     if (messages.length) {
       summary.append(
         Object.assign(document.createElement("a"), {
@@ -72,7 +141,7 @@ function createTree(
       summary.textContent = key;
     }
     const subCount =
-      createTree(details, value, `${rootPath}/${key}`, predicate, showMessage) +
+      createTree(details, value, `${rootPath}/${key}`, displayedMessages, fileIncluded, showMessage) +
       messages.length;
     if (subCount === 0) continue;
     if (rootPath === "" || (rootPath === "/en-us" && key === "web"))
@@ -94,7 +163,8 @@ function createTree(
 function createTable(
   root: HTMLElement,
   data: Warning,
-  predicate: (m: Message, key: string) => boolean,
+  displayedMessages: Set<string> | undefined,
+  fileIncluded: (key: string) => boolean,
   showMessage: boolean
 ) {
   const table = document.createElement("table");
@@ -103,29 +173,28 @@ function createTable(
   table.append(thead, tbody);
   let maxDataLen = 0;
   function createRow(data: Warning, parentPath: string) {
-    if (data.messages) {
-      for (const message of data.messages.filter((m) =>
-        predicate(m, parentPath)
-      )) {
-        const tr = document.createElement("tr");
-        tbody.append(tr);
-        tr.appendChild(document.createElement("td")).append(
-          Object.assign(document.createElement("a"), {
-            textContent: parentPath,
-            href: `https://developer.mozilla.org${data.slug}`,
-            target: "_blank",
-            rel: "noopener noreferrer",
-          })
-        );
-        if (showMessage) {
-          tr.appendChild(document.createElement("td")).textContent =
-            message.message;
-        }
-        for (const value of message.data) {
-          tr.appendChild(document.createElement("td")).textContent = value;
-        }
-        maxDataLen = Math.max(maxDataLen, message.data.length);
+    let messages = fileIncluded(parentPath) ? data.messages ?? [] : [];
+    for (const message of messages) inc(messageCounts, message.message);
+    if (displayedMessages) messages = messages.filter((m) => displayedMessages.has(m.message));
+    for (const message of messages) {
+      const tr = document.createElement("tr");
+      tbody.append(tr);
+      tr.appendChild(document.createElement("td")).append(
+        Object.assign(document.createElement("a"), {
+          textContent: parentPath,
+          href: `https://developer.mozilla.org${data.slug}`,
+          target: "_blank",
+          rel: "noopener noreferrer",
+        })
+      );
+      if (showMessage) {
+        tr.appendChild(document.createElement("td")).textContent =
+          message.message;
       }
+      for (const value of message.data) {
+        tr.appendChild(document.createElement("td")).textContent = value;
+      }
+      maxDataLen = Math.max(maxDataLen, message.data.length);
     }
     for (const [key, value] of Object.entries(data.children)) {
       createRow(value, `${parentPath}/${key}`);
@@ -147,56 +216,6 @@ function createTable(
   root.append(table);
 }
 
-const messagesFilter = document.getElementById(
-  "messages-filter"
-) as HTMLSelectElement;
-for (const message of [...messages].sort()) {
-  const option = document.createElement("option");
-  option.textContent = `${message[0]} (${message[1]})`;
-  option.value = message[0];
-  option.selected = true;
-  messagesFilter.append(option);
-}
-
-messagesFilter.addEventListener("change", () => {
-  displayWarnings();
-});
-
-const viewToggle = document.getElementById("view-toggle") as HTMLSelectElement;
-viewToggle.addEventListener("change", () => {
-  displayWarnings();
-});
-
-type IncludeExcludeConfig = {
-  type: "include" | "exclude";
-  pattern: RegExp;
-};
-const includeExclude: IncludeExcludeConfig[] = [];
-const stored = localStorage.getItem("includeExclude");
-if (stored) {
-  includeExclude.push(
-    ...JSON.parse(stored).map((x: IncludeExcludeConfig) => ({
-      ...x,
-      pattern: new RegExp(x.pattern.source, x.pattern.flags),
-    }))
-  );
-}
-
-const includeExcludeToggle = document.getElementById(
-  "include-exclude-toggle"
-) as HTMLButtonElement;
-const includeExcludeDialog = document.getElementById(
-  "include-exclude-dialog"
-) as HTMLDialogElement;
-const includeExcludeDialogClose = document.getElementById(
-  "include-exclude-dialog-close"
-) as HTMLButtonElement;
-const includeExcludeInput = document.getElementById(
-  "include-exclude-input"
-) as HTMLInputElement;
-const includeExcludeList = document.getElementById(
-  "include-exclude-list"
-) as HTMLUListElement;
 function displayIncludeExclude() {
   localStorage.setItem(
     "includeExclude",
@@ -220,61 +239,35 @@ function displayIncludeExclude() {
     includeExcludeList.append(li);
   }
 }
-includeExcludeToggle.addEventListener("click", () => {
-  includeExcludeDialog.showModal();
-});
-includeExcludeDialogClose.addEventListener("click", () => {
-  includeExcludeDialog.close();
-});
-includeExcludeInput.addEventListener("keydown", (e) => {
-  if (e.key === "Enter") {
-    includeExclude.push({
-      type: document.getElementById("include-exclude-select")!.value,
-      pattern: new RegExp(includeExcludeInput.value),
-    });
-    includeExcludeInput.value = "";
-    displayIncludeExclude();
-    displayWarnings();
-  }
-});
 
 function displayWarnings() {
-  const root = document.getElementById("tree-root")!;
-  root.textContent = "";
-  const selected = new Set(
+  treeRoot.textContent = "";
+  // On initial render there's no options yet, which are only available after a
+  // tree traversal
+  const selected = messagesFilter.hasChildNodes() ? new Set(
     [...messagesFilter.selectedOptions].map((o) => o.value)
-  );
-  root.textContent = "";
-  const predicate = (m: Message, key: string) => {
-    if (!selected.has(m.message)) return false;
+  ) : undefined;
+  treeRoot.textContent = "";
+  const fileIncluded = (path: string) => {
     for (const { type, pattern } of includeExclude) {
-      if (type === "include" && !pattern.test(key)) return false;
-      if (type === "exclude" && pattern.test(key)) return false;
+      if (type === "include" && !pattern.test(path)) return false;
+      if (type === "exclude" && pattern.test(path)) return false;
     }
     return true;
   };
-  const showMessage = selected.size > 1;
-  if (document.getElementById("view-toggle")!.value === "tree") {
-    createTree(root, warnings, "", predicate, showMessage);
+  const showMessage = !selected || selected.size > 1;
+  messageCounts.clear();
+  if (viewToggle.value === "tree") {
+    createTree(treeRoot, warnings, "", selected, fileIncluded, showMessage);
   } else {
-    createTable(root, warnings, predicate, showMessage);
+    createTable(treeRoot, warnings, selected, fileIncluded, showMessage);
+  }
+  messagesFilter.textContent = "";
+  for (const message of [...messageCounts].sort()) {
+    const option = document.createElement("option");
+    option.textContent = `${message[0]} (${message[1]})`;
+    option.value = message[0];
+    option.selected = selected ? selected.has(message[0]) : true;
+    messagesFilter.append(option);
   }
 }
-
-displayIncludeExclude();
-displayWarnings();
-
-const note = document.createElement("div");
-const buildTime = new Date(lastUpdate.buildTimestamp);
-const commitTime = new Date(lastUpdate.commitTimestamp);
-note.innerHTML = `
-Last updated: <time datetime="${buildTime.toISOString()}" title="${commitTime.toISOString()}">${buildTime.toLocaleString()}</time><br>
-Based on commit <a href="https://github.com/mdn/content/tree/${
-  lastUpdate.commitHash
-}"><code>${lastUpdate.commitHash.slice(
-  0,
-  7
-)}</code></a> (<time datetime="${commitTime.toISOString()}" title="${commitTime.toISOString()}">${commitTime.toLocaleString()}</time>)
-`;
-note.id = "note";
-document.body.appendChild(note);

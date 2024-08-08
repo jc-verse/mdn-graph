@@ -72,6 +72,7 @@ tabs.query({active: true})
 tabs.query({currentWindow: true})
 
 JS_DoubleToInt32()
+JS_DoubleToUint32()
 NPN_GetValue()
 NPP_GetValue()
 

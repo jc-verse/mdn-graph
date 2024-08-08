@@ -50,7 +50,7 @@ const allowedUnderscoreCodeLink = [
   // Link targets
   /^_(blank|parent|replace|self|top)$/,
   // File names
-  /\.(js|html|json)$/,
+  /\.(js|html|json|py)$/,
   // String constants
   /^"\w+"$/,
   // Macro calls
@@ -122,9 +122,10 @@ graph.forEachNode((node) => {
         node.data.specifications = part.value.specifications;
         continue;
       case "browser_compatibility":
-        // We use metadata.browserCompat
-        if (!node.data.metadata.browserCompat?.includes(part.value.query))
-          report(node, "Bad browser compat query", part.value.query);
+        // We use metadata.browserCompat instead of part.value.query.
+        // The only way for part.value.query to not be included in
+        // metadata.browserCompat is by using the argument of the {{Compat}}
+        // macro, but that is reported as a flaw.
         continue;
       case "prose":
         break;
@@ -166,7 +167,7 @@ graph.forEachNode((node) => {
         .contents()
         .filter((i, el) => el.type === "text");
       for (const text of texts) {
-        if (/`.+`|\*.+\*|\[.+\]\(.+\)|\b_.+_\b/.test(text.data)) {
+        if (/`[^`]+`|```|\*[^*]+\*|\[.+\]\(.+\)|\b_[^_]+_\b/.test(text.data)) {
           report(node, "Possibly unrendered Markdown", text.data);
         }
       }
