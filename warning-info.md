@@ -108,7 +108,7 @@ This rule reports `jsfiddle.net`/`jsbin.com`/`codepen.io` links. Internal exampl
 
 This rule reports the Yari `bad_bcd_queries` flaw. Fix reports by either adding BCD data, changing the query, or removing the compat table.
 
-## FLaw broken_links
+## Flaw broken_links
 
 This rule reports the Yari `broken_links` flaw. Most of them are also caught by our warnings system, in which case [broken link](#broken-link) is emitted instead. Other times it reports [self links](#self-link), but its reports are not as complete because it doesn't seem to report macro-generated links. This report is generally ignorable and other broken link warnings should be prioritized.
 
