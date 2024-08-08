@@ -206,10 +206,11 @@ const bugLinkShorteners: [RegExp, string][] = [
     /^https?:\/\/(bugs\.chromium\.org|code\.google\.com)\/p\/((?!chromium)\w+)\/issues\/detail\?id=(\d+)/g,
     "https://crbug.com/$2/$3",
   ],
-  [
-    /^https?:\/\/chromium\.googlesource\.com\/chromium\/src\/\+\/([\w\d]+)/g,
-    "https://crrev.com/$1",
-  ],
+  // I don't think it works
+  // [
+  //   /^https?:\/\/chromium\.googlesource\.com\/chromium\/src\/\+\/([\w\d]+)/g,
+  //   "https://crrev.com/$1",
+  // ],
   [
     /^https?:\/\/bugs\.webkit\.org\/show_bug\.cgi\?id=(\d+)/g,
     "https://webkit.org/b/$1",

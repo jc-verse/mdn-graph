@@ -43,6 +43,7 @@ steps(n, <jumpterm>)
 "x" in obj
 FileSystemHandle.requestPermission({mode: 'readwrite'})
 Math.floor(x + 0.5)
+MediaStream.addEventListener('addtrack', ...)
 Object.defineProperty(obj, prop, { get: func, configurable: true, enumerable: true })
 Object.defineProperty(obj, prop, { set: func, configurable: true, enumerable: true })
 Object.getOwnPropertyDescriptor(obj, prop)?.enumerable ?? false
@@ -55,6 +56,7 @@ arr.slice(0, -1)
 canvas.getContext('2d', { alpha: false })
 canvas.toDataURL('image/jpeg', quality)
 concat([v1, v2])
+contain-intrinsic-size: auto none
 cubic-bezier(0, 0, 1, 1)
 cubic-bezier(p1, p2, p3, p4)
 delete obj.x
@@ -66,8 +68,15 @@ navigator.credentials.get({otp: ..., ...})
 navigator.credentials.get({publicKey: ..., ...})
 new Proxy(target, handler)
 slice(0, -1)
+tabs.query({active: true})
+tabs.query({currentWindow: true})
+
+JS_DoubleToInt32()
+NPN_GetValue()
+NPP_GetValue()
 
   Other stuff:
+<all_urls>
 <full version>
 <module specifier map>
 <significant version>
@@ -87,3 +96,6 @@ gl.getProgramParameter(program, gl.ACTIVE_UNIFORMS)
 non-standard_header
 non-standard_inline
 secureContext_header
+
+declarative_net_request.rule_resources
+browser_specific_settings.gecko.id

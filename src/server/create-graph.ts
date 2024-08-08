@@ -11,7 +11,7 @@ const allowedCodeLinkTextRec = new Map(
 
 const allowedSpacedCodeLink = [
   // HTML tags
-  /^<(a|area|font|iframe|input|link|meta|object|ol|script|th|tr)( [a-z-]+="[\w .…-]+"| ping| defer)+>$/,
+  /^<(a|area|font|iframe|input|link|meta|object|ol|script|th|tr)( [a-z-]+="[\w .…-]+"| ping| defer| sandbox| nomodule)+>$/,
   /^<\?xml[^>]+\?>$/,
   /^<xsl:[^>]+>$/,
   /^[a-z-]+="[\w .…-]+"$/,
@@ -21,13 +21,13 @@ const allowedSpacedCodeLink = [
   // want to check that methods in interface DLs don't have params
   /^[\w.]+\([\w.]+(, [\w.]+)*\)$/,
   // CSS code
-  /^([a-z-]+: ([a-z-]+|\d+(px|em|vh|vw|%)|0);?|@(container|import|media|namespace|supports) [()a-z: -]+|transform: [\w-]+\(\);?|transform-style: [\w-]+;?)$/,
+  /^([a-z-]+: ([a-z-]+|\d+(px|em|vh|vw|%)|0);?|@(container|import|media|namespace|supports) [()a-z\d: -]+|transform: [\w-]+\(\);?|transform-style: [\w-]+;?)$/,
   // Shell commands
   /^(ng|npm) [a-z\d]+$/,
   // HTTP status
   /^\d+ [\w '-]+$/,
   // HTTP header
-  /^(Cache-Control|Clear-Site-Data|Connection|Content-Length|Content-Security-Policy|Cross-Origin-Opener-Policy|Cross-Origin-Resource-Policy|Permissions-Policy|Sec-Purpose|Transfer-Encoding): ([\w-]+|"[\w-]+")$/,
+  /^(Cache-Control|Clear-Site-Data|Connection|Content-Length|Content-Security-Policy|Cross-Origin-Opener-Policy|Cross-Origin-Resource-Policy|Feature-Policy|Permissions-Policy|Sec-Purpose|Transfer-Encoding): ([\w-]+|"[\w-]+")$/,
   // MIME
   /^[a-z]+\/[\w+-]+; [a-z]+=("[\w ,.-]+"|\w+);?$/,
   // Macro calls
@@ -50,7 +50,7 @@ const allowedUnderscoreCodeLink = [
   // Link targets
   /^_(blank|parent|replace|self|top)$/,
   // File names
-  /\.(js|html)$/,
+  /\.(js|html|json)$/,
   // String constants
   /^"\w+"$/,
   // Macro calls
@@ -166,7 +166,7 @@ graph.forEachNode((node) => {
         .contents()
         .filter((i, el) => el.type === "text");
       for (const text of texts) {
-        if (/`.*`|\*.*\*|\[.*\]\(.*\)|\b_.*_\b/.test(text.data)) {
+        if (/`.+`|\*.+\*|\[.+\]\(.+\)|\b_.+_\b/.test(text.data)) {
           report(node, "Possibly unrendered Markdown", text.data);
         }
       }
