@@ -133,6 +133,17 @@ async function checkLink(href: string) {
             };
           }
         }
+      } else if (res.status === 403) {
+        const text = await res.text();
+        // Cloudflare firewall & similar
+        if (
+          text.includes("<title>Just a moment...</title>") ||
+          text.includes("Verify you are human")
+        ) {
+          return {
+            type: "ok",
+          };
+        }
       }
       return {
         type: "error status",
@@ -140,13 +151,14 @@ async function checkLink(href: string) {
       };
     }
     if (res.url !== href) {
-      const resURL = new URL(res.url);
       const hrefURL = new URL(href);
       if (
         // Allow root URLs even if the root URL goes elsewhere
         (hrefURL.pathname === "/" && res.url.startsWith(href)) ||
         // Allow if the only change is addition of queries
-        resURL.href === hrefURL.href && hrefURL.search === ""
+        hrefURL.href === res.url.split("?")[0] ||
+        // Allow redirection to login
+        /\/(login|signin)\b/.test(res.url)
       ) {
         return {
           type: "ok",
