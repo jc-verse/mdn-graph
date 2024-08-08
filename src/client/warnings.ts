@@ -1,12 +1,12 @@
 import warnings from "../../data/warnings-processed.json" with { type: "json" };
 import lastUpdate from "../../data/last-update.json" with { type: "json" };
 
-type Message = { message: string; data: string[] };
+type Message = { message: string; data: (string | null)[] };
 
 type Warning = {
   messages?: Message[];
   children: Record<string, Warning>;
-  slug: string;
+  slug?: string;
 };
 
 type IncludeExcludeConfig = {
@@ -114,9 +114,12 @@ function createTree(
     li.append(details);
     const summary = document.createElement("summary");
     details.append(summary);
-    let messages = fileIncluded(`${rootPath}/${key}`) ? value.messages ?? [] : [];
+    let messages = fileIncluded(`${rootPath}/${key}`)
+      ? value.messages ?? []
+      : [];
     for (const message of messages) inc(messageCounts, message.message);
-    if (displayedMessages) messages = messages.filter((m) => displayedMessages.has(m.message));
+    if (displayedMessages)
+      messages = messages.filter((m) => displayedMessages.has(m.message));
     if (messages.length) {
       summary.append(
         Object.assign(document.createElement("a"), {
@@ -141,8 +144,14 @@ function createTree(
       summary.textContent = key;
     }
     const subCount =
-      createTree(details, value, `${rootPath}/${key}`, displayedMessages, fileIncluded, showMessage) +
-      messages.length;
+      createTree(
+        details,
+        value,
+        `${rootPath}/${key}`,
+        displayedMessages,
+        fileIncluded,
+        showMessage
+      ) + messages.length;
     if (subCount === 0) continue;
     if (rootPath === "" || (rootPath === "/en-us" && key === "web"))
       details.open = true;
@@ -175,7 +184,8 @@ function createTable(
   function createRow(data: Warning, parentPath: string) {
     let messages = fileIncluded(parentPath) ? data.messages ?? [] : [];
     for (const message of messages) inc(messageCounts, message.message);
-    if (displayedMessages) messages = messages.filter((m) => displayedMessages.has(m.message));
+    if (displayedMessages)
+      messages = messages.filter((m) => displayedMessages.has(m.message));
     for (const message of messages) {
       const tr = document.createElement("tr");
       tbody.append(tr);
@@ -219,10 +229,12 @@ function createTable(
 function displayIncludeExclude() {
   localStorage.setItem(
     "includeExclude",
-    JSON.stringify(includeExclude.map((x) => ({
-      ...x,
-      pattern: { source: x.pattern.source, flags: x.pattern.flags}
-    })))
+    JSON.stringify(
+      includeExclude.map((x) => ({
+        ...x,
+        pattern: { source: x.pattern.source, flags: x.pattern.flags },
+      }))
+    )
   );
   includeExcludeList.textContent = "";
   for (const item of includeExclude) {
@@ -235,7 +247,9 @@ function displayIncludeExclude() {
       displayWarnings();
     });
     li.appendChild(remove);
-    li.appendChild(document.createElement("code")).textContent = `${item.type === "include" ? "[+]" : "[-]"} ${item.pattern.source.replaceAll("\\/", "/")}`;
+    li.appendChild(document.createElement("code")).textContent = `${
+      item.type === "include" ? "[+]" : "[-]"
+    } ${item.pattern.source.replaceAll("\\/", "/")}`;
     includeExcludeList.append(li);
   }
 }
@@ -244,9 +258,9 @@ function displayWarnings() {
   treeRoot.textContent = "";
   // On initial render there's no options yet, which are only available after a
   // tree traversal
-  const selected = messagesFilter.hasChildNodes() ? new Set(
-    [...messagesFilter.selectedOptions].map((o) => o.value)
-  ) : undefined;
+  const selected = messagesFilter.hasChildNodes()
+    ? new Set([...messagesFilter.selectedOptions].map((o) => o.value))
+    : undefined;
   treeRoot.textContent = "";
   const fileIncluded = (path: string) => {
     for (const { type, pattern } of includeExclude) {
@@ -263,11 +277,77 @@ function displayWarnings() {
     createTable(treeRoot, warnings, selected, fileIncluded, showMessage);
   }
   messagesFilter.textContent = "";
+  const internalLinkIssues = document.createElement("optgroup");
+  internalLinkIssues.label = "Internal link issues";
+  const externalLinkIssues = document.createElement("optgroup");
+  externalLinkIssues.label = "External link issues";
+  const badContent = document.createElement("optgroup");
+  badContent.label = "Bad content";
+  const yariFlaws = document.createElement("optgroup");
+  yariFlaws.label = "Yari flaws";
+  const reachability = document.createElement("optgroup");
+  reachability.label = "Reachability";
+  const other = document.createElement("optgroup");
+  other.label = "Other";
   for (const message of [...messageCounts].sort()) {
     const option = document.createElement("option");
     option.textContent = `${message[0]} (${message[1]})`;
     option.value = message[0];
     option.selected = selected ? selected.has(message[0]) : true;
-    messagesFilter.append(option);
+    if (
+      [
+        "Broken anchor",
+        "Broken link",
+        "Broken sidebar link",
+        "Image link",
+        "Self link",
+      ].includes(message[0])
+    ) {
+      internalLinkIssues.append(option);
+    } else if (
+      [
+        "Broken external link",
+        "External sandbox link",
+        "HTTP link",
+        "Redirected external link",
+        "Unshortened bug link",
+      ].includes(message[0])
+    ) {
+      externalLinkIssues.append(option);
+    } else if (
+      [
+        "Bad DL",
+        "Bad href",
+        "Code with space",
+        "Code with underscore",
+        "Duplicate specifications",
+        "Missing data",
+        "Missing sidebar",
+        "Possibly unrendered Markdown",
+      ].includes(message[0])
+    ) {
+      badContent.append(option);
+    } else if (message[0].startsWith("Flaw")) {
+      yariFlaws.append(option);
+    } else if (
+      ["Unreachable via page", "Unreachable via sidebar"].includes(message[0])
+    ) {
+      reachability.append(option);
+    } else {
+      other.append(option);
+    }
+  }
+  for (const optgroup of [
+    internalLinkIssues,
+    externalLinkIssues,
+    badContent,
+    yariFlaws,
+    reachability,
+    other,
+  ]) {
+    if (optgroup.hasChildNodes()) {
+      messagesFilter.append(document.createElement("hr"));
+      messagesFilter.append(optgroup);
+    }
   }
 }
