@@ -5,6 +5,7 @@
   "scripts": {
     "build-graph": "bun src/server/create-graph.ts && bun build src/client/index.ts --outdir docs --minify",
     "build-warnings": "bun src/server/process-warnings.ts && bun build src/client/warnings.ts --outdir docs --minify",
+    "build-warnings-fast": "bun src/server/process-warnings.ts --no-external-link-check && bun build src/client/warnings.ts --outdir docs --minify",
     "build": "bun run build-graph && bun run build-warnings"
   },
   "devDependencies": {

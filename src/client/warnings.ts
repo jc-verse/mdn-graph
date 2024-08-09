@@ -301,6 +301,7 @@ function displayWarnings() {
         "Broken sidebar link",
         "Image link",
         "Self link",
+        "Replace DT link with real target",
       ].includes(message[0])
     ) {
       internalLinkIssues.append(option);

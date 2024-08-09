@@ -138,7 +138,8 @@ async function checkLink(href: string) {
         // Cloudflare firewall & similar
         if (
           text.includes("<title>Just a moment...</title>") ||
-          text.includes("Verify you are human")
+          text.includes("Verify you are human") ||
+          text.includes("complete a security check")
         ) {
           return {
             type: "ok",
