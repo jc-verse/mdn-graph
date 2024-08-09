@@ -38,7 +38,8 @@ jobs:
           # especially data and BCD
           rm yarn.lock
           # TODO: https://github.com/Borewit/strtok3/issues/1143
-          jq '.resolutions.strtok3 = "8.0.1"' package.json > tmp.$$.json && mv tmp.$$.json package.json
+          # TODO: Yari is not compatible with cheerio 1.0.0
+          jq '.resolutions.strtok3 = "8.0.1" | .resolutions.cheerio = "1.0.0-rc.12"' package.json > tmp.$$.json && mv tmp.$$.json package.json
           yarn install
         working-directory: ./content
 
