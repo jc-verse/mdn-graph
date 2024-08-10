@@ -301,7 +301,8 @@ graph.forEachNode((node) => {
           const targetDtLink = dtIdToLink
             .get(url.pathname)
             ?.get(url.hash.slice(1));
-          if (targetDtLink) {
+          // Only report if the link to be replaced with is a subpage
+          if (targetDtLink && targetDtLink.href.startsWith(url.pathname)) {
             report(
               node,
               "Replace DT link with real target",
@@ -326,7 +327,7 @@ graph.forEachNode((node) => {
         }
       } else {
         const targetDtLink = dtIdToLink.get(node.id)?.get(linkTarget.slice(1));
-        if (targetDtLink) {
+        if (targetDtLink && targetDtLink.href.startsWith(node.id)) {
           report(
             node,
             "Replace DT link with real target",
