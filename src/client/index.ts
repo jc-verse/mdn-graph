@@ -103,9 +103,12 @@ const colorMap = {
 renderGraph(graph, {
   createLayout,
   node(n) {
-    const label = pathToLabel.find(([path]) => `files/${n.data.metadata.source.folder}`.startsWith(path))?.[1] ?? "Content:Other";
+    const label =
+      pathToLabel.find(([path]) =>
+        `files/${n.data.metadata.source.folder}`.startsWith(path),
+      )?.[1] ?? "Content:Other";
     return {
-      color: parseInt(colorMap[label] ?? colorMap['Content:Other'], 16),
+      color: parseInt(colorMap[label] ?? colorMap["Content:Other"], 16),
       size: 5,
       label,
     };
@@ -113,11 +116,22 @@ renderGraph(graph, {
   link(l) {
     const fromNode = graph.getNode(l.fromId);
     const toNode = graph.getNode(l.toId);
-    const sourceLabel = pathToLabel.find(([path]) => `files/${fromNode.data.metadata.source.folder}/index.md`.startsWith(path))?.[1] ?? "Content:Other";
-    const targetLabel = pathToLabel.find(([path]) => `files/${toNode.data.metadata.source.folder}/index.md`.startsWith(path))?.[1] ?? "Content:Other";
+    const sourceLabel =
+      pathToLabel.find(([path]) =>
+        `files/${fromNode.data.metadata.source.folder}/index.md`.startsWith(
+          path,
+        ),
+      )?.[1] ?? "Content:Other";
+    const targetLabel =
+      pathToLabel.find(([path]) =>
+        `files/${toNode.data.metadata.source.folder}/index.md`.startsWith(path),
+      )?.[1] ?? "Content:Other";
     return {
-      fromColor: parseInt(colorMap[sourceLabel] ?? colorMap['Content:Other'], 16),
-      toColor: parseInt(colorMap[targetLabel] ?? colorMap['Content:Other'], 16),
+      fromColor: parseInt(
+        colorMap[sourceLabel] ?? colorMap["Content:Other"],
+        16,
+      ),
+      toColor: parseInt(colorMap[targetLabel] ?? colorMap["Content:Other"], 16),
     };
   },
   ...layoutSettings,

@@ -15,26 +15,26 @@ type IncludeExcludeConfig = {
 };
 
 const messagesFilter = document.getElementById(
-  "messages-filter"
+  "messages-filter",
 ) as HTMLSelectElement;
 const viewToggle = document.getElementById("view-toggle") as HTMLSelectElement;
 const includeExcludeToggle = document.getElementById(
-  "include-exclude-toggle"
+  "include-exclude-toggle",
 ) as HTMLButtonElement;
 const includeExcludeDialog = document.getElementById(
-  "include-exclude-dialog"
+  "include-exclude-dialog",
 ) as HTMLDialogElement;
 const includeExcludeDialogClose = document.getElementById(
-  "include-exclude-dialog-close"
+  "include-exclude-dialog-close",
 ) as HTMLButtonElement;
 const includeExcludeInput = document.getElementById(
-  "include-exclude-input"
+  "include-exclude-input",
 ) as HTMLInputElement;
 const includeExcludeList = document.getElementById(
-  "include-exclude-list"
+  "include-exclude-list",
 ) as HTMLUListElement;
 const includeExcludeSelect = document.getElementById(
-  "include-exclude-select"
+  "include-exclude-select",
 ) as HTMLSelectElement;
 const treeRoot = document.getElementById("tree-root") as HTMLDivElement;
 const noteBox = document.getElementById("note") as HTMLDivElement;
@@ -47,7 +47,7 @@ if (stored) {
     ...JSON.parse(stored).map((x: IncludeExcludeConfig) => ({
       ...x,
       pattern: new RegExp(x.pattern.source, x.pattern.flags),
-    }))
+    })),
   );
 }
 
@@ -62,7 +62,7 @@ Based on commit <a href="https://github.com/mdn/content/tree/${
   lastUpdate.commitHash
 }"><code>${lastUpdate.commitHash.slice(
   0,
-  7
+  7,
 )}</code></a> (<time datetime="${commitTime.toISOString()}" title="${commitTime.toISOString()}">${commitTime.toLocaleString()}</time>)
 `;
 
@@ -104,7 +104,7 @@ function createTree(
   rootPath: string,
   displayedMessages: Set<string> | undefined,
   fileIncluded: (key: string) => boolean,
-  showMessage: boolean
+  showMessage: boolean,
 ): number {
   const ul = document.createElement("ul");
   let count = 0;
@@ -115,7 +115,7 @@ function createTree(
     const summary = document.createElement("summary");
     details.append(summary);
     let messages = fileIncluded(`${rootPath}/${key}`)
-      ? value.messages ?? []
+      ? (value.messages ?? [])
       : [];
     for (const message of messages) inc(messageCounts, message.message);
     if (displayedMessages)
@@ -127,7 +127,7 @@ function createTree(
           href: `https://developer.mozilla.org${value.slug}`,
           target: "_blank",
           rel: "noopener noreferrer",
-        })
+        }),
       );
       details.append(
         Object.assign(document.createElement("pre"), {
@@ -135,10 +135,10 @@ function createTree(
             .map((message) =>
               showMessage
                 ? `${message.message} ${message.data.join(" ")}`
-                : message.data.join(" ")
+                : message.data.join(" "),
             )
             .join("\n"),
-        })
+        }),
       );
     } else {
       summary.textContent = key;
@@ -150,7 +150,7 @@ function createTree(
         `${rootPath}/${key}`,
         displayedMessages,
         fileIncluded,
-        showMessage
+        showMessage,
       ) + messages.length;
     if (subCount === 0) continue;
     if (rootPath === "" || (rootPath === "/en-us" && key === "web"))
@@ -174,7 +174,7 @@ function createTable(
   data: Warning,
   displayedMessages: Set<string> | undefined,
   fileIncluded: (key: string) => boolean,
-  showMessage: boolean
+  showMessage: boolean,
 ) {
   const table = document.createElement("table");
   const thead = document.createElement("thead");
@@ -182,7 +182,7 @@ function createTable(
   table.append(thead, tbody);
   let maxDataLen = 0;
   function createRow(data: Warning, parentPath: string) {
-    let messages = fileIncluded(parentPath) ? data.messages ?? [] : [];
+    let messages = fileIncluded(parentPath) ? (data.messages ?? []) : [];
     for (const message of messages) inc(messageCounts, message.message);
     if (displayedMessages)
       messages = messages.filter((m) => displayedMessages.has(m.message));
@@ -195,7 +195,7 @@ function createTable(
           href: `https://developer.mozilla.org${data.slug}`,
           target: "_blank",
           rel: "noopener noreferrer",
-        })
+        }),
       );
       if (showMessage) {
         tr.appendChild(document.createElement("td")).textContent =
@@ -233,8 +233,8 @@ function displayIncludeExclude() {
       includeExclude.map((x) => ({
         ...x,
         pattern: { source: x.pattern.source, flags: x.pattern.flags },
-      }))
-    )
+      })),
+    ),
   );
   includeExcludeList.textContent = "";
   for (const item of includeExclude) {

@@ -1,17 +1,17 @@
 import Path from "node:path";
 
-export const CONTENT_ROOT = Path.resolve(process.env.CONTENT_ROOT ?? "../content");
+export const CONTENT_ROOT = Path.resolve(
+  process.env.CONTENT_ROOT ?? "../content",
+);
 
 export async function readConfig(path: string) {
   return (
     await Bun.file(
-      Bun.fileURLToPath(
-        import.meta.resolve(`../../config/${path}`)
-      )
+      Bun.fileURLToPath(import.meta.resolve(`../../config/${path}`)),
     ).text()
   )
     .split("\n")
-    .filter((x) => x && !x.startsWith("  "))
+    .filter((x) => x && !x.startsWith("  "));
 }
 
 export function configHas<T>(config: Map<T, boolean>, key: T) {

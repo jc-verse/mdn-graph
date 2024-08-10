@@ -47,7 +47,11 @@ Now you can open `docs/index.html` in your browser.
 We want to filter out some known broken links. Go to https://openwebdocs.github.io/web-docs-backlog/all/ and run:
 
 ```js
-console.log([...document.querySelectorAll(".features a")].map((x) => x.innerText).join("\n"))
+console.log(
+  [...document.querySelectorAll(".features a")]
+    .map((x) => x.innerText)
+    .join("\n"),
+);
 ```
 
 Copy the output into `config/missing-features.txt`.

@@ -84,13 +84,13 @@ This rule is the sidebar counterpart of [broken link](#broken-link). Broken link
 
 This rule checks for `<a>` whose sole child is `<code>` whose text content contains a space. This is usually an error, such as using `domxref` to reference an API, but forgetting to remove code formatting (e.g. `{ {domxref("Fetch_API", "Fetch API")}}`). Code formatting should only be used when indicating code entities, but linkable code rarely contains spaces (unless it's demonstrating a function call, for example).
 
-We have a wealth of exempted patterns and specific texts to filter out false positives. If false positives occur, consider adding them to [`create-graph.ts`](https://github.com/jc-verse/mdn-graph/blob/master/src/server/create-graph.ts) (for generalizable patterns) or [`allowed-code-link-text.txt`](https://github.com/jc-verse/mdn-graph/blob/master/config/allowed-code-link-text.txt) (for specific texts).
+We have a wealth of exempted patterns and specific texts to filter out false positives. If false positives occur, consider adding them to [`check-content.ts`](https://github.com/jc-verse/mdn-graph/blob/master/src/server/check-content.ts) (for generalizable patterns) or [`allowed-code-link-text.txt`](https://github.com/jc-verse/mdn-graph/blob/master/config/allowed-code-link-text.txt) (for specific texts).
 
 To fix these errors, the recommended way is to refactor it into a Markdown link (`[Fetch API](/en-US/docs/Web/API/Fetch_API)`), or, for the macros that support nocode-formatting, you can also pass the `"nocode"` parameter.
 
 ## Code with underscore
 
-This is the underscore counterpart of [code with space](#code-with-space) and could arise from usage of macros such as `{ {domxref("Fetch_API")}}`. We also have exceptions encoded in `create-graph.ts` and `allowed-code-link-text.txt`.
+This is the underscore counterpart of [code with space](#code-with-space) and could arise from usage of macros such as `{ {domxref("Fetch_API")}}`. We also have exceptions encoded in `check-content.ts` and `allowed-code-link-text.txt`.
 
 ## Duplicate ID
 

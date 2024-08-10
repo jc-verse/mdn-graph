@@ -37,11 +37,11 @@ const missingFeatures = new Set(
         return;
     }
     console.error("Unexpected data:", x);
-  })
+  }),
 );
 
 const noPage = new Map(
-  (await readConfig("no-page.txt")).map((x) => [x, false])
+  (await readConfig("no-page.txt")).map((x) => [x, false]),
 );
 
 const knownInaccessibleLinks = new Map(
@@ -52,12 +52,12 @@ const knownInaccessibleLinks = new Map(
         .map((part, i) =>
           i % 2 === 0
             ? part.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
-            : part.slice(1, -1)
+            : part.slice(1, -1),
         )
-        .join("")}$`
+        .join("")}$`,
     ),
     false,
-  ])
+  ]),
 );
 
 for (const node of nodes) {
@@ -70,7 +70,7 @@ for (const node of nodes) {
           (w) =>
             w.message === "Broken link" &&
             w.data[0] === d.href.replace(/#.+/, "") &&
-            w.data.at(-1) !== "(and flaw)"
+            w.data.at(-1) !== "(and flaw)",
         );
         if (correspondingWarning) {
           correspondingWarning.data.push("(and flaw)");
@@ -237,7 +237,7 @@ for (const node of nodes) {
       continue;
     }
     const bugLinkShortener = bugLinkShorteners.find(([prefix]) =>
-      prefix.test(link)
+      prefix.test(link),
     );
     if (bugLinkShortener) {
       report(
@@ -245,7 +245,7 @@ for (const node of nodes) {
         "Unshortened bug link",
         link,
         "replace with",
-        link.replace(...bugLinkShortener)
+        link.replace(...bugLinkShortener),
       );
       continue;
     }
@@ -324,7 +324,7 @@ async function depleteQueue() {
     const completedSlot = await Promise.race(promisePool);
     linksInPool[completedSlot] = linkRequests[curReq][0];
     promisePool[completedSlot] = linkRequests[curReq][1]().then(
-      () => completedSlot
+      () => completedSlot,
     );
     curReq++;
     if (
@@ -332,14 +332,14 @@ async function depleteQueue() {
       linkRequests.length - curReq < 100 - queueLen
     ) {
       console.log(
-        `Processed ${curReq - queueLen}/${linkRequests.length} links`
+        `Processed ${curReq - queueLen}/${linkRequests.length} links`,
       );
     }
   }
   for (let i = 1; i <= queueLen; i++) {
     const completedSlot = await Promise.race(promisePool);
     console.log(
-      `Processed ${curReq - queueLen + i}/${linkRequests.length} links`
+      `Processed ${curReq - queueLen + i}/${linkRequests.length} links`,
     );
   }
 }
@@ -380,13 +380,13 @@ for (const node of nodes) {
 
 const warningList = Object.entries(warnings);
 warningList.sort(([a], [b]) =>
-  a.replaceAll("/", "").localeCompare(b.replaceAll("/", ""))
+  a.replaceAll("/", "").localeCompare(b.replaceAll("/", "")),
 );
 
 const tree = { children: {}, slug: "" };
 
 const nodeToSlug = new Map(
-  nodes.map((x) => [x.data.metadata.source.folder, x.id])
+  nodes.map((x) => [x.data.metadata.source.folder, x.id]),
 );
 
 for (const [nodeId, baseMessages] of warningList) {
@@ -401,7 +401,7 @@ for (const [nodeId, baseMessages] of warningList) {
           (x.message === "Broken sidebar link" &&
             (missingFeatures.has(x.data[1]) || configHas(noPage, x.data[1])))
         )
-      )
+      ),
   );
   if (messages.length === 0) continue;
   const parts = nodeId.split("/");

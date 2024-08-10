@@ -3,59 +3,8 @@ import FS from "node:fs/promises";
 import Path from "node:path";
 import { $ } from "bun";
 import { load } from "cheerio";
-import { CONTENT_ROOT, readConfig, configHas } from "./config.js";
-
-const allowedCodeLinkTextRec = new Map(
-  (await readConfig("allowed-code-link-text.txt")).map((x) => [x, false])
-);
-
-const allowedSpacedCodeLink = [
-  // HTML tags
-  /^<(a|area|font|iframe|input|link|meta|object|ol|script|th|tr)( [a-z-]+="[\w .…-]+"| ping| defer| sandbox| nomodule)+>$/,
-  /^<\?xml[^>]+\?>$/,
-  /^<xsl:[^>]+>$/,
-  /^[a-z-]+="[\w .…-]+"$/,
-  // JS code
-  /^(async function\*?|"use strict"|typeof [a-z]+( === "[a-z]+")?|extends null|export default|import (\* as )?\w+ from "\w+";?|(if|catch) \(\w*\)|for await\.\.\.of|\w+: "\w+"|(await|delete|void|yield\*?) \w+|\w+ (instanceof|in) \w+|\( \)|\(\w+ \? \w+ : \w+\))$/,
-  // Method calls with parameters. Lots of false positives but we actually
-  // want to check that methods in interface DLs don't have params
-  /^[\w.]+\([\w.]+(, [\w.]+)*\)$/,
-  // CSS code
-  /^([a-z-]+: ([a-z-]+|\d+(px|em|vh|vw|%)|0);?|@(container|import|media|namespace|supports) [()a-z\d: -]+|transform: [\w-]+\(\);?|transform-style: [\w-]+;?)$/,
-  // Shell commands
-  /^(ng|npm) [a-z\d]+$/,
-  // HTTP status
-  /^\d+ [\w '-]+$/,
-  // HTTP header
-  /^(Cache-Control|Clear-Site-Data|Connection|Content-Length|Content-Security-Policy|Cross-Origin-Opener-Policy|Cross-Origin-Resource-Policy|Expect|Feature-Policy|Permissions-Policy|Sec-Purpose|Transfer-Encoding): ([\w-]+|"[\w-]+")$/,
-  // MIME
-  /^[a-z]+\/[\w+-]+; [a-z]+=("[\w ,.-]+"|\w+);?$/,
-  // Macro calls
-  /^\{\{[^}]+\}\}$/,
-  // PAC stuff
-  /^(HTTP|HTTPS|PROXY|SOCKS|SOCKS4)/,
-  // TODO: this is probably bad (CSS reference uses this syntax)
-  /^[a-z-]+ \(@[a-z-]+\)$|^::([a-z-]+) \(:\1\)$/,
-];
-
-const allowedUnderscoreCodeLink = [
-  // Constants (uppercase)
-  /^(\w+\.)*[A-Z_\d]+$/,
-  // Non-JS properties (lowercase)
-  /^((dns|tcp|webgl|AppConfig|http(\.[a-z]+)?)\.)?[a-z\d_]+(\(\))?$/,
-  // WebGL prefixes
-  /^(WEBGL|OES|EXT|ANGLE|OCULUS|OVR|KHR)_\w+(\.[A-Za-z]+\(\))?$/,
-  // Object methods
-  /^(Object\.prototype\.)?__((define|lookup)(Getter|Setter)|proto)__(\(\))?$/,
-  // Link targets
-  /^_(blank|parent|replace|self|top)$/,
-  // File names
-  /\.(js|html|json|py)$/,
-  // String constants
-  /^"\w+"$/,
-  // Macro calls
-  /^\{\{[\w-]+\}\}$/,
-];
+import { CONTENT_ROOT } from "./config.js";
+import { checkContent, postCheckContent } from "./check-content.js";
 
 const graph = createGraph();
 
@@ -102,7 +51,7 @@ graph.forEachNode((node) => {
     CONTENT_ROOT,
     "files",
     node.data.metadata.source.folder,
-    "index.md"
+    "index.md",
   );
   promises.push(
     FS.readFile(sourcePath, "utf8")
@@ -114,7 +63,7 @@ graph.forEachNode((node) => {
       })
       .catch((e) => {
         console.error("Error reading file", sourcePath, e);
-      })
+      }),
   );
 });
 
@@ -165,71 +114,17 @@ graph.forEachNode((node) => {
     }
     const partContent = part.value.content;
     const $ = load(partContent);
+    checkContent(partContent, $, report.bind(null, node), { slug: node.id });
     $("[id]").each((i, el) => {
       const id = $(el).attr("id")!;
-      if (ids.includes(id)) {
-        report(node, "Duplicate ID", id);
-      }
+      if (ids.includes(id)) report(node, "Duplicate ID", id);
       ids.push(id);
-    });
-    $("ul li").each((i, li) => {
-      const children = $(li).contents();
-      if (
-        children.length === 0 ||
-        (children[0].type === "text" && children[0].data.startsWith(":"))
-      ) {
-        report(node, "Bad DL", $(li).text().slice(0, 50));
-      }
-    });
-    if (part.value.content.includes("-: ")) {
-      report(
-        node,
-        "Bad DL",
-        part.value.content.match(/-: .*$/m)?.[0].slice(0, 50)
-      );
-    }
-    if (part.value.content.includes("could not find syntax for this item"))
-      report(node, "Missing data", "CSS formal syntax");
-    if (part.value.content.includes("Value not found in DB"))
-      report(node, "Missing data", "CSS info");
-    $(":not(code, code *, pre, pre *, math, math *)").each((i, el) => {
-      const texts = $(el)
-        .contents()
-        .filter((i, el) => el.type === "text");
-      for (const text of texts) {
-        if (/`[^`]+`|```|\*[^*]+\*|\[.+\]\(.+\)|\b_[^_]+_\b/.test(text.data)) {
-          report(node, "Possibly unrendered Markdown", text.data);
-        }
-      }
     });
     $("a:not(svg a)").each((i, a) => {
       const href = $(a).attr("href");
       if (!href) {
         report(node, "Missing href", $(a).text());
         return;
-      }
-      const childNodes = $(a).contents();
-      if (
-        childNodes.length === 1 &&
-        childNodes[0].type === "tag" &&
-        childNodes[0].name === "code"
-      ) {
-        const code = $(childNodes[0]).text();
-        if (
-          code.includes(" ") &&
-          !allowedSpacedCodeLink.some((re) => re.test(code)) &&
-          !configHas(allowedCodeLinkTextRec, code) &&
-          // Canvas tutorial uses example code in DL, not worth fixing
-          !node.id.includes("Canvas_API/Tutorial")
-        ) {
-          report(node, "Code with space", code);
-        } else if (
-          code.includes("_") &&
-          !allowedUnderscoreCodeLink.some((re) => re.test(code)) &&
-          !configHas(allowedCodeLinkTextRec, code)
-        ) {
-          report(node, "Code with underscore", code);
-        }
       }
       if ($(a).parent().attr("id") === href.slice(1)) {
         // This link is autogenerated; we should still do the check above but
@@ -239,22 +134,18 @@ graph.forEachNode((node) => {
       linkTargets.push(href);
     });
     $("dt").each((i, dt) => {
-      const id = $(dt).attr("id");
-      if (!id) {
-        report(node, "Missing DT ID", $(dt).text());
-        return;
-      }
+      // The ID is injected by Yari
+      const id = $(dt).attr("id")!;
       const link = $(dt)
         .find("a")
-        .toArray()
-        .filter((a) => a.attribs.href && a.attribs.href !== `#${id}`);
+        .filter((i, a) => !!a.attribs.href && a.attribs.href !== `#${id}`);
       if (link.length === 1) {
         const href = link[0].attribs.href;
         // Missing href is already reported above
         if (!dtIdToLink.has(node.id)) dtIdToLink.set(node.id, new Map());
         const pageExists =
           graph.getNode(
-            new URL(href, "https://developer.mozilla.org").pathname
+            new URL(href, "https://developer.mozilla.org").pathname,
           ) !== undefined;
         dtIdToLink.get(node.id)!.set(id, { href, pageExists });
       }
@@ -264,6 +155,8 @@ graph.forEachNode((node) => {
   node.data.ids = ids;
   delete node.data.content;
 });
+
+postCheckContent();
 
 graph.forEachNode((node) => {
   for (const linkTarget of node.data.links) {
@@ -308,7 +201,7 @@ graph.forEachNode((node) => {
               "Replace DT link with real target",
               linkTarget,
               targetDtLink.href,
-              ...[targetDtLink.pageExists ? [] : ["(page does not exist)"]]
+              ...[targetDtLink.pageExists ? [] : ["(page does not exist)"]],
             );
           }
         }
@@ -333,7 +226,7 @@ graph.forEachNode((node) => {
             "Replace DT link with real target",
             linkTarget,
             targetDtLink.href,
-            ...[targetDtLink.pageExists ? [] : ["(page does not exist)"]]
+            ...[targetDtLink.pageExists ? [] : ["(page does not exist)"]],
           );
         }
       }
@@ -381,7 +274,7 @@ while (queue.length) {
         queue.push(linkedNode);
       }
     },
-    true
+    true,
   );
 }
 
@@ -402,7 +295,7 @@ for (const node of nodes) {
     .replace(
       `<code>${node.data.metadata.short_title}</code> `,
       () =>
-        `<a href="${node.id}"><code>${node.data.metadata.short_title}</code></a>`
+        `<a href="${node.id}"><code>${node.data.metadata.short_title}</code></a>`,
     );
   if (processedSidebars.has(normalizedHTML)) continue;
   const $ = load(normalizedHTML);
@@ -470,7 +363,7 @@ for (const node of nodes) {
       "modified",
       "source",
       "short_title",
-    ].map((key) => [key, node.data.metadata[key]])
+    ].map((key) => [key, node.data.metadata[key]]),
   );
   node.data.metadata.source = {
     folder: node.data.metadata.source.folder,
@@ -480,14 +373,8 @@ for (const node of nodes) {
     (link) =>
       !link.startsWith("/en-US/") &&
       !link.startsWith("#") &&
-      !link.includes("//localhost")
+      !link.includes("//localhost"),
   );
-}
-
-for (const [text, used] of allowedCodeLinkTextRec) {
-  if (!used) {
-    console.error(`${text} is no longer used in content`);
-  }
 }
 
 const commit = await $`git log -1 --format="%H %ct"`
@@ -506,6 +393,6 @@ await FS.writeFile(
       buildTimestamp: Date.now(),
     },
     null,
-    2
-  )
+    2,
+  ),
 );

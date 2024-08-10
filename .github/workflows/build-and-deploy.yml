@@ -6,7 +6,7 @@ on:
       - master
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *' # Runs at midnight UTC every day
+    - cron: "0 0 * * *" # Runs at midnight UTC every day
 
 jobs:
   build:
@@ -27,7 +27,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22'
+          node-version: "22"
 
       - name: Set up Bun
         uses: oven-sh/setup-bun@v2
@@ -77,6 +77,6 @@ jobs:
           publish_dir: ./mdn-graph/docs
           publish_branch: gh-pages
           commit_message: ${{ env.message }}
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
           enable_jekyll: true
