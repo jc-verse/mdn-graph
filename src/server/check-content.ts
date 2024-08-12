@@ -1,4 +1,5 @@
 import type { CheerioAPI } from "cheerio";
+import type { Element } from "domhandler";
 import { readConfig, configHas } from "./config.js";
 
 const allowedCodeLinkTextRec = new Map(
@@ -53,6 +54,74 @@ const allowedUnderscoreCodeLink = [
   /^\{\{[\w-]+\}\}$/,
 ];
 
+const inlineLevelElements = new Set([
+  "a",
+  "abbr",
+  "acronym",
+  "b",
+  "bdi",
+  "bdo",
+  "big",
+  "button",
+  "cite",
+  "code",
+  "data",
+  "datalist",
+  "del",
+  "dfn",
+  "em",
+  "font",
+  "i",
+  "img",
+  "ins",
+  "kbd",
+  "label",
+  "map",
+  "mark",
+  "meter",
+  "output",
+  "progress",
+  "q",
+  "ruby",
+  "s",
+  "samp",
+  "small",
+  "span",
+  "strike",
+  "strong",
+  "sub",
+  "sup",
+  "time",
+  "tt",
+  "u",
+  "var",
+]);
+
+function getSurroundingText(
+  node: Element,
+  $: CheerioAPI,
+  direction: "previous" | "next",
+) {
+  while (!node[`${direction}Sibling`]) {
+    if (!node.parentNode || node.parentNode.type !== "tag") return "";
+    if (
+      node[`${direction}Sibling`]?.type === "tag" &&
+      node[`${direction}Sibling`].tagName === "br"
+    )
+      return "";
+    node = node.parentNode;
+    if (!inlineLevelElements.has(node.tagName.toLowerCase())) return "";
+  }
+  const siblingNode = node[`${direction}Sibling`]!;
+  const siblingText =
+    siblingNode.nodeType === 3
+      ? siblingNode.nodeValue
+      : inlineLevelElements.has((siblingNode as Element).tagName?.toLowerCase())
+        ? $(siblingNode as Element).text()
+        : "";
+  return siblingText;
+}
+
 export function checkContent(
   rawContent: string,
   $: CheerioAPI,
@@ -101,6 +170,30 @@ export function checkContent(
       ) {
         report("Code with underscore", code);
       }
+    }
+  });
+  $("code").each((i, code) => {
+    const textBefore = getSurroundingText(code, $, "previous");
+    const textAfter = getSurroundingText(code, $, "next");
+    if (/^(?!'s)['"]/.test(textAfter) || /['"]$/.test(textBefore)) {
+      report("Quoted code", $(code).text());
+    } else if (
+      textAfter &&
+      !/^([\s.,?!:;…—–\-"')/]|e?s\b|th\b|⚠️)/.test(textAfter)
+    ) {
+      report(
+        "Text stuck to code",
+        $(code).text(),
+        "Text after:",
+        textAfter.slice(0, 50),
+      );
+    } else if (textBefore && !/[\s—–\-"'(/±]$/.test(textBefore)) {
+      report(
+        "Text stuck to code",
+        $(code).text(),
+        "Text before:",
+        textBefore.slice(-50),
+      );
     }
   });
   if (rawContent.includes("-: "))

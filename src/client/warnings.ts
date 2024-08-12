@@ -325,6 +325,8 @@ function displayWarnings() {
         "Missing data",
         "Missing sidebar",
         "Possibly unrendered Markdown",
+        "Quoted code",
+        "Text stuck to code",
       ].includes(message[0])
     ) {
       badContent.append(option);
