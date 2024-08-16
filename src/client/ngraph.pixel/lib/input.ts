@@ -7,10 +7,11 @@ import createHitTest from "./hitTest.js";
 export default function createInput(camera: THREE.Camera, graph: Graph, domElement: HTMLElement, layout) {
   const controls = new FlyControls(camera, domElement, THREE);
   const hitTest = createHitTest(domElement);
-  controls.movementSpeed = 1;
+  let speedFactor = 1;
+  controls.movementSpeed = 0;
   controls.rollSpeed = 0.2;
 
-  const api = { update, reset };
+  const api = { update, reset, setSpeed };
 
   eventify(api);
 
@@ -23,7 +24,7 @@ export default function createInput(camera: THREE.Camera, graph: Graph, domEleme
 
   function update() {
     const rect = layout.getGraphRect();
-    controls.movementSpeed = Math.max(200, (rect.max_x - rect.min_x) * 0.05);
+    controls.movementSpeed = Math.max(200, (rect.max_x - rect.min_x) * 0.03) * speedFactor;
     controls.update(0.1);
   }
 
@@ -45,5 +46,11 @@ export default function createInput(camera: THREE.Camera, graph: Graph, domEleme
 
   function reset() {
     hitTest.reset();
+  }
+
+  function setSpeed(newSpeed: number) {
+    const rect = layout.getGraphRect();
+    speedFactor = newSpeed;
+    controls.movementSpeed = Math.max(200, (rect.max_x - rect.min_x) * 0.03) * speedFactor;
   }
 }

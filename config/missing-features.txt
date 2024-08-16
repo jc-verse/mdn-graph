@@ -44,7 +44,6 @@ api.CSSMathClamp.CSSMathClamp
 api.CSSMathClamp.lower
 api.CSSMathClamp.upper
 api.CSSMathClamp.value
-api.CSSPageDescriptors
 api.CSSPageDescriptors.margin
 api.CSSPageDescriptors.margin-bottom
 api.CSSPageDescriptors.margin-left
@@ -68,10 +67,6 @@ api.CanvasFilter.CanvasFilter
 api.CaretPosition.getClientRect
 api.CaretPosition.offset
 api.CaretPosition.offsetNode
-api.ChapterInformation
-api.ChapterInformation.artwork
-api.ChapterInformation.startTime
-api.ChapterInformation.title
 api.Counter
 api.Counter.identifier
 api.Counter.listStyle
@@ -616,7 +611,6 @@ api.MediaController.unpause
 api.MediaController.volume
 api.MediaDevices.setCaptureHandleConfig
 api.MediaList.toString
-api.MediaMetadata.chapterInfo
 api.MediaStreamTrack.getCaptureHandle
 api.MessageEvent.initMessageEvent
 api.MimeType.description
@@ -651,7 +645,6 @@ api.PaymentRequestEvent.changeShippingAddress
 api.PaymentRequestEvent.changeShippingOption
 api.PaymentRequestEvent.paymentOptions
 api.PaymentRequestEvent.shippingOptions
-api.PerformanceResourceTiming.contentType
 api.Permissions.request
 api.Permissions.requestAll
 api.Plugin.description
@@ -1060,7 +1053,6 @@ api.SVGRadialGradientElement.fy
 api.SVGRadialGradientElement.r
 api.SVGRect.height
 api.SVGRect.width
-api.SVGRect.x
 api.SVGRect.y
 api.SVGRectElement.height
 api.SVGRectElement.rx
@@ -1165,7 +1157,6 @@ api.SVGUseElement.x
 api.SVGUseElement.y
 api.SVGViewElement.preserveAspectRatio
 api.SVGViewElement.viewBox
-api.Sanitizer.getConfiguration
 api.ShadowRoot.elementFromPoint
 api.ShadowRoot.elementsFromPoint
 api.ShadowRoot.getSelection
@@ -1339,14 +1330,9 @@ css.properties.alignment-baseline
 css.properties.alt
 css.properties.baseline-shift
 css.properties.baseline-source
-css.properties.clip-rule
 css.properties.color-adjust
-css.properties.color-interpolation-filters
 css.properties.d
 css.properties.dominant-baseline
-css.properties.fill
-css.properties.fill-opacity
-css.properties.fill-rule
 css.properties.flood-color
 css.properties.flood-opacity
 css.properties.glyph-orientation-vertical
@@ -1357,11 +1343,8 @@ css.properties.marker-end
 css.properties.marker-mid
 css.properties.marker-start
 css.properties.object-view-box
-css.properties.shape-rendering
 css.properties.speak
 css.properties.speak-as
-css.properties.stop-color
-css.properties.stop-opacity
 css.properties.stroke
 css.properties.stroke-color
 css.properties.stroke-dasharray
@@ -1371,12 +1354,9 @@ css.properties.stroke-linejoin
 css.properties.stroke-miterlimit
 css.properties.stroke-opacity
 css.properties.stroke-width
-css.properties.text-anchor
 css.properties.vector-effect
 css.properties.view-transition-class
 css.properties.word-wrap
-css.properties.x
-css.properties.y
 css.selectors.active-view-transition
 css.selectors.active-view-transition-type
 css.selectors.buffering

@@ -285,7 +285,6 @@
 /en-US/docs/Web/CSS/outline-line-style
 /en-US/docs/Web/CSS/page-size
 /en-US/docs/Web/CSS/palette-identifier
-/en-US/docs/Web/CSS/position-area
 /en-US/docs/Web/CSS/position-try-options
 /en-US/docs/Web/CSS/progress
 /en-US/docs/Web/CSS/qualified-rule-list
@@ -326,20 +325,32 @@
 
 /en-US/docs/Web/MathML/Element/style
 
-/en-US/docs/Web/SVG/Attribute/color-rendering
+  These are defined in https://svgwg.org/svg2-draft/attindex.html
 /en-US/docs/Web/SVG/Attribute/hreflang
 /en-US/docs/Web/SVG/Attribute/offset
 /en-US/docs/Web/SVG/Attribute/ping
+/en-US/docs/Web/SVG/Attribute/referrerPolicy
+/en-US/docs/Web/SVG/Attribute/rel
+/en-US/docs/Web/SVG/Attribute/requiredExtensions
+/en-US/docs/Web/SVG/Attribute/title
+
+  https://svgwg.org/svg2-draft/text.html
+/en-US/docs/Web/SVG/Attribute/line-height
+/en-US/docs/Web/SVG/Attribute/inline-size
+
+  https://svgwg.org/svg2-draft/painting.html
+/en-US/docs/Web/SVG/Attribute/marker
+
+  https://github.com/mdn/browser-compat-data/issues/24053
+/en-US/docs/Web/SVG/Attribute/color-rendering
+
+  https://drafts.fxtf.org/filter-effects/
 /en-US/docs/Web/SVG/Attribute/pointAtX
 /en-US/docs/Web/SVG/Attribute/pointAtY
 /en-US/docs/Web/SVG/Attribute/pointAtZ
-/en-US/docs/Web/SVG/Attribute/referrerPolicy
-/en-US/docs/Web/SVG/Attribute/rel
-/en-US/docs/Web/SVG/Attribute/rendering-intent
-/en-US/docs/Web/SVG/Attribute/requiredExtensions
 /en-US/docs/Web/SVG/Attribute/stdDeviationX
 /en-US/docs/Web/SVG/Attribute/stdDeviationY
-/en-US/docs/Web/SVG/Attribute/title
+
 /en-US/docs/Web/SVG/Attribute/xlink:actuate
 /en-US/docs/Web/SVG/Attribute/xlink:role
 

@@ -125,6 +125,11 @@ export default function pixel(graph: Graph, inputOptions: Partial<Options>) {
     }
   });
 
+  document.getElementById("speed")!.addEventListener("input", (e) => {
+    const speed = (e.target as HTMLInputElement).value;
+    input.setSpeed(parseFloat(speed));
+  });
+
   graph.forEachNode((node) => {
     const nodeModelConfig = options.node(node);
     if (!nodeModelConfig) return;
