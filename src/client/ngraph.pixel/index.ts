@@ -1,6 +1,6 @@
 import THREE from "three";
 import type { Graph, Node, Link } from "ngraph.graph";
-import createLayout, { type PhysicsSettings} from "ngraph.forcelayout";
+import createLayout, { type PhysicsSettings } from "ngraph.forcelayout";
 
 import createNodeView from "./lib/createNodeView.js";
 import createEdgeView from "./lib/createEdgeView.js";

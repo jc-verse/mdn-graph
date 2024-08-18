@@ -4,7 +4,12 @@ import type { Graph } from "ngraph.graph";
 import eventify from "ngraph.events";
 import createHitTest from "./hitTest.js";
 
-export default function createInput(camera: THREE.Camera, graph: Graph, domElement: HTMLElement, layout) {
+export default function createInput(
+  camera: THREE.Camera,
+  graph: Graph,
+  domElement: HTMLElement,
+  layout,
+) {
   const controls = new FlyControls(camera, domElement, THREE);
   const hitTest = createHitTest(domElement);
   let speedFactor = 1;
@@ -24,7 +29,8 @@ export default function createInput(camera: THREE.Camera, graph: Graph, domEleme
 
   function update() {
     const rect = layout.getGraphRect();
-    controls.movementSpeed = Math.max(200, (rect.max_x - rect.min_x) * 0.03) * speedFactor;
+    controls.movementSpeed =
+      Math.max(200, (rect.max_x - rect.min_x) * 0.03) * speedFactor;
     controls.update(0.1);
   }
 
@@ -51,6 +57,7 @@ export default function createInput(camera: THREE.Camera, graph: Graph, domEleme
   function setSpeed(newSpeed: number) {
     const rect = layout.getGraphRect();
     speedFactor = newSpeed;
-    controls.movementSpeed = Math.max(200, (rect.max_x - rect.min_x) * 0.03) * speedFactor;
+    controls.movementSpeed =
+      Math.max(200, (rect.max_x - rect.min_x) * 0.03) * speedFactor;
   }
 }

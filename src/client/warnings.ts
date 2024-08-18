@@ -287,6 +287,8 @@ function displayWarnings() {
   yariFlaws.label = "Yari flaws";
   const reachability = document.createElement("optgroup");
   reachability.label = "Reachability";
+  const metadataIssues = document.createElement("optgroup");
+  metadataIssues.label = "Metadata issues";
   const other = document.createElement("optgroup");
   other.label = "Other";
   for (const message of [...messageCounts].sort()) {
@@ -336,6 +338,12 @@ function displayWarnings() {
       ["Unreachable via page", "Unreachable via sidebar"].includes(message[0])
     ) {
       reachability.append(option);
+    } else if (
+      ["Not in BCD", "Unexpected BCD keys", "Unexpected page type"].includes(
+        message[0],
+      )
+    ) {
+      metadataIssues.append(option);
     } else {
       other.append(option);
     }
@@ -346,6 +354,7 @@ function displayWarnings() {
     badContent,
     yariFlaws,
     reachability,
+    metadataIssues,
     other,
   ]) {
     if (optgroup.hasChildNodes()) {

@@ -48,7 +48,9 @@ jobs:
         working-directory: ./content
 
       - name: Install dependencies for this repo
-        run: bun install
+        run: |
+          bun install
+          bun update @mdn/browser-compat-data
         working-directory: ./mdn-graph
 
       - name: Build MDN graph

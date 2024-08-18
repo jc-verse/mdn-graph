@@ -2,10 +2,7 @@ import THREE from "three";
 import createMaterial from "./createMaterial.js";
 import type { NodeModel } from "../index.js";
 
-export default function createNodeView(
-  scene: THREE.Scene,
-  nodes: NodeModel[],
-) {
+export default function createNodeView(scene: THREE.Scene, nodes: NodeModel[]) {
   const particleMaterial = createMaterial();
   const total = nodes.length;
   const colors = new Float32Array(total * 3);

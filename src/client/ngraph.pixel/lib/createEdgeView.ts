@@ -1,10 +1,7 @@
 import THREE from "three";
 import type { EdgeModel } from "..";
 
-export default function createEdgeView(
-  scene: THREE.Scene,
-  edges: EdgeModel[],
-) {
+export default function createEdgeView(scene: THREE.Scene, edges: EdgeModel[]) {
   const total = edges.length;
   const colors = new Float32Array(total * 6);
   const points = new Float32Array(total * 6);

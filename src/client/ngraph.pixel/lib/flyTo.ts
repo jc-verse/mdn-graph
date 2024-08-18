@@ -1,4 +1,3 @@
-
 import THREE from "three";
 import intersect from "./intersect.js";
 import type { Coord } from "..";
@@ -6,7 +5,11 @@ import type { Coord } from "..";
 /**
  * Moves camera to given point, and stops it and given radius
  */
-export default function flyTo(camera: THREE.PerspectiveCamera, to: Coord, radius: number) {
+export default function flyTo(
+  camera: THREE.PerspectiveCamera,
+  to: Coord,
+  radius: number,
+) {
   const cameraOffset = radius / Math.tan((Math.PI / 180.0) * camera.fov * 0.5);
 
   const from = {

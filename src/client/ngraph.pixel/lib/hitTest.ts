@@ -172,14 +172,14 @@ export default function createHitTest(domElement: HTMLElement) {
     return raycast(
       positions,
       raycaster.ray,
-      particleSystem.matrixWorld.elements
+      particleSystem.matrixWorld.elements,
     );
   }
 
   function raycast(
     positions: THREE.TypedArray,
     ray: THREE.Ray,
-    worldMatrix: number[]
+    worldMatrix: number[],
   ) {
     const pointCount = positions.length / 3;
     let minDistance = Number.POSITIVE_INFINITY;
@@ -203,7 +203,7 @@ export default function createHitTest(domElement: HTMLElement) {
         positions[3 * i],
         positions[3 * i + 1],
         positions[3 * i + 2],
-        i
+        i,
       );
     }
 
@@ -219,7 +219,7 @@ export default function createHitTest(domElement: HTMLElement) {
         distance = Math.sqrt(
           (ox - ip.x) * (ox - ip.x) +
             (oy - ip.y) * (oy - ip.y) +
-            (oz - ip.z) * (oz - ip.z)
+            (oz - ip.z) * (oz - ip.z),
         );
         if (distance < minDistance) {
           minDistance = distance;
@@ -256,7 +256,7 @@ export default function createHitTest(domElement: HTMLElement) {
       if (directionDistance < 0) {
         // point behind ray
         return Math.sqrt(
-          (ox - x) * (ox - x) + (oy - y) * (oy - y) + (oz - z) * (oz - z)
+          (ox - x) * (ox - x) + (oy - y) * (oy - y) + (oz - z) * (oz - z),
         );
       }
       const vx = dx * directionDistance + ox;
@@ -264,7 +264,7 @@ export default function createHitTest(domElement: HTMLElement) {
       const vz = dz * directionDistance + oz;
 
       return Math.sqrt(
-        (vx - x) * (vx - x) + (vy - y) * (vy - y) + (vz - z) * (vz - z)
+        (vx - x) * (vx - x) + (vy - y) * (vy - y) + (vz - z) * (vz - z),
       );
     }
   }
