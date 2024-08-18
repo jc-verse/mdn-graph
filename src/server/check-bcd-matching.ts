@@ -1,5 +1,10 @@
 import nodes from "../../data/nodes.json" with { type: "json" };
 import bcdData from "@mdn/browser-compat-data" with { type: "json" };
+import { readConfig, configHas } from "./config.js";
+
+const dictionaries = new Map(
+  (await readConfig("dictionaries.txt")).map((x) => [x, false]),
+);
 
 function htmlAttrToBCD(attrName: string, elemName: string) {
   if (attrName === "data-*") {
@@ -8,7 +13,7 @@ function htmlAttrToBCD(attrName: string, elemName: string) {
   if (elemName === "Global_attributes") {
     return [`html.global_attributes.${attrName}`];
   } else if (elemName === "Attributes") {
-    const allKeys = [];
+    const allKeys: string[] = [];
     for (const elemName in bcdData.html.elements) {
       if (attrName in bcdData.html.elements[elemName]) {
         allKeys.push(`html.elements.${elemName}.${attrName}`);
@@ -17,6 +22,51 @@ function htmlAttrToBCD(attrName: string, elemName: string) {
     return allKeys;
   }
   return [`html.elements.${elemName}.${attrName}`];
+}
+
+function dictionaryToBCD(path: string) {
+  return path.replace(
+    /^(?:MediaTrackSettings|MediaTrackConstraints|MediaTrackSupportedConstraints).(.+)$/,
+    "MediaStreamTrack.applyConstraints.$1_constraint",
+  )
+  .replace(
+    /^RTCIceCandidatePairStats\b/,
+    "RTCStatsReport.type_candidate-pair",
+  )
+  .replace(/^RTCCertificateStats\b/, "RTCStatsReport.type_certificate")
+  .replace(/^RTCCodecStats\b/, "RTCStatsReport.type_codec")
+  .replace(/^RTCDataChannelStats\b/, "RTCStatsReport.type_data-channel")
+  .replace(
+    /^RTCInboundRtpStreamStats\b/,
+    "RTCStatsReport.type_inbound-rtp",
+  )
+  .replace(
+    /^RTCIceCandidateStats\b/,
+    "RTCStatsReport.type_local-candidate",
+  )
+  .replace(/^RTCAudioSourceStats\b/, "RTCStatsReport.type_media-source")
+  .replace(/^RTCVideoSourceStats\b/, "RTCStatsReport.type_media-source")
+  .replace(
+    /^RTCOutboundRtpStreamStats\b/,
+    "RTCStatsReport.type_outbound-rtp",
+  )
+  .replace(
+    /^RTCPeerConnectionStats\b/,
+    "RTCStatsReport.type_peer-connection",
+  )
+  .replace(
+    /^RTCIceCandidateStats\b/,
+    "RTCStatsReport.type_remote-candidate",
+  )
+  .replace(
+    /^RTCRemoteInboundRtpStreamStats\b/,
+    "RTCStatsReport.type_remote-inbound-rtp",
+  )
+  .replace(
+    /^RTCRemoteOutboundRtpStreamStats\b/,
+    "RTCStatsReport.type_remote-outbound-rtp",
+  )
+  .replace(/^RTCTransportStats\b/, "RTCStatsReport.type_transport");
 }
 
 function getBCD(data: any, key: string) {
@@ -83,7 +133,7 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
       if (attrName in bcdData.svg.global_attributes) {
         return [`svg.global_attributes.${attrName}`];
       } else {
-        const allKeys = [];
+        const allKeys: string[] = [];
         for (const elemName in bcdData.svg.elements) {
           if (attrName in bcdData.svg.elements[elemName]) {
             allKeys.push(`svg.elements.${elemName}.${attrName}`);
@@ -180,7 +230,8 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
     case "webgl-extension": {
       const match = node.id.match(/^\/en-US\/docs\/Web\/API\/([^/]+)$/);
       if (!match) return "Unexpected page type";
-      const apiName = match[1];
+      const apiName = dictionaryToBCD(match[1]);
+      if (configHas(dictionaries, apiName)) return [];
       return [`api.${apiName}`];
     }
     case "web-api-constructor":
@@ -192,13 +243,10 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
     case "webgl-extension-method": {
       const match = node.id.match(/^\/en-US\/docs\/Web\/API\/(.+)$/);
       if (!match) return "Unexpected page type";
-      const path = match[1]
+      const path = dictionaryToBCD(match[1]
         .replaceAll("/", ".")
-        .replace(/^CSS\.factory_functions_static$/, "CSS")
-        .replace(
-          /^MediaTrackSettings.(.+)$/,
-          "MediaStreamTrack.applyConstraints.$1_constraint",
-        );
+        .replace(/^CSS\.factory_functions_static$/, "CSS"));
+      if (configHas(dictionaries, path.split(".")[0])) return [];
       return [`api.${path}`];
     }
     // Web/CSS/
@@ -469,5 +517,11 @@ export function checkBCDMatching(
         expected.join("\n") || "[None]",
       );
     }
+  }
+}
+
+export function postCheckBCDMatching() {
+  for (const [name, used] of dictionaries) {
+    if (!used) console.warn(name, "is no longer documented");
   }
 }
