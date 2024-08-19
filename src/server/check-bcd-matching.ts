@@ -25,48 +25,34 @@ function htmlAttrToBCD(attrName: string, elemName: string) {
 }
 
 function dictionaryToBCD(path: string) {
-  return path.replace(
-    /^(?:MediaTrackSettings|MediaTrackConstraints|MediaTrackSupportedConstraints).(.+)$/,
-    "MediaStreamTrack.applyConstraints.$1_constraint",
-  )
-  .replace(
-    /^RTCIceCandidatePairStats\b/,
-    "RTCStatsReport.type_candidate-pair",
-  )
-  .replace(/^RTCCertificateStats\b/, "RTCStatsReport.type_certificate")
-  .replace(/^RTCCodecStats\b/, "RTCStatsReport.type_codec")
-  .replace(/^RTCDataChannelStats\b/, "RTCStatsReport.type_data-channel")
-  .replace(
-    /^RTCInboundRtpStreamStats\b/,
-    "RTCStatsReport.type_inbound-rtp",
-  )
-  .replace(
-    /^RTCIceCandidateStats\b/,
-    "RTCStatsReport.type_local-candidate",
-  )
-  .replace(/^RTCAudioSourceStats\b/, "RTCStatsReport.type_media-source")
-  .replace(/^RTCVideoSourceStats\b/, "RTCStatsReport.type_media-source")
-  .replace(
-    /^RTCOutboundRtpStreamStats\b/,
-    "RTCStatsReport.type_outbound-rtp",
-  )
-  .replace(
-    /^RTCPeerConnectionStats\b/,
-    "RTCStatsReport.type_peer-connection",
-  )
-  .replace(
-    /^RTCIceCandidateStats\b/,
-    "RTCStatsReport.type_remote-candidate",
-  )
-  .replace(
-    /^RTCRemoteInboundRtpStreamStats\b/,
-    "RTCStatsReport.type_remote-inbound-rtp",
-  )
-  .replace(
-    /^RTCRemoteOutboundRtpStreamStats\b/,
-    "RTCStatsReport.type_remote-outbound-rtp",
-  )
-  .replace(/^RTCTransportStats\b/, "RTCStatsReport.type_transport");
+  return path
+    .replace(
+      /^(?:MediaTrackSettings|MediaTrackConstraints|MediaTrackSupportedConstraints).(.+)$/,
+      "MediaStreamTrack.applyConstraints.$1_constraint",
+    )
+    .replace(
+      /^RTCIceCandidatePairStats\b/,
+      "RTCStatsReport.type_candidate-pair",
+    )
+    .replace(/^RTCCertificateStats\b/, "RTCStatsReport.type_certificate")
+    .replace(/^RTCCodecStats\b/, "RTCStatsReport.type_codec")
+    .replace(/^RTCDataChannelStats\b/, "RTCStatsReport.type_data-channel")
+    .replace(/^RTCInboundRtpStreamStats\b/, "RTCStatsReport.type_inbound-rtp")
+    .replace(/^RTCIceCandidateStats\b/, "RTCStatsReport.type_local-candidate")
+    .replace(/^RTCAudioSourceStats\b/, "RTCStatsReport.type_media-source")
+    .replace(/^RTCVideoSourceStats\b/, "RTCStatsReport.type_media-source")
+    .replace(/^RTCOutboundRtpStreamStats\b/, "RTCStatsReport.type_outbound-rtp")
+    .replace(/^RTCPeerConnectionStats\b/, "RTCStatsReport.type_peer-connection")
+    .replace(/^RTCIceCandidateStats\b/, "RTCStatsReport.type_remote-candidate")
+    .replace(
+      /^RTCRemoteInboundRtpStreamStats\b/,
+      "RTCStatsReport.type_remote-inbound-rtp",
+    )
+    .replace(
+      /^RTCRemoteOutboundRtpStreamStats\b/,
+      "RTCStatsReport.type_remote-outbound-rtp",
+    )
+    .replace(/^RTCTransportStats\b/, "RTCStatsReport.type_transport");
 }
 
 function getBCD(data: any, key: string) {
@@ -243,9 +229,11 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
     case "webgl-extension-method": {
       const match = node.id.match(/^\/en-US\/docs\/Web\/API\/(.+)$/);
       if (!match) return "Unexpected page type";
-      const path = dictionaryToBCD(match[1]
-        .replaceAll("/", ".")
-        .replace(/^CSS\.factory_functions_static$/, "CSS"));
+      const path = dictionaryToBCD(
+        match[1]
+          .replaceAll("/", ".")
+          .replace(/^CSS\.factory_functions_static$/, "CSS"),
+      );
       if (configHas(dictionaries, path.split(".")[0])) return [];
       return [`api.${path}`];
     }
@@ -283,6 +271,35 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
         .replace("/", ".")
         .replace(/_function$/, "")
         .replace(/_value\b/, "");
+      if (["cross-fade", "element"].includes(functionName)) {
+        return [`css.types.image.${functionName}`];
+      } else if (functionName.startsWith("gradient.")) {
+        return [`css.types.image.${functionName}`];
+      } else if (getBCD(bcdData, `css.types.${functionName}`)) {
+        return [`css.types.${functionName}`];
+      } else if (functionName.includes(".")) {
+        const subtree = getBCD(
+          bcdData,
+          `css.properties.${functionName.split(".")[0]}`,
+        );
+        if (subtree) {
+          if (`${functionName.split(".")[1]}_function` in subtree) {
+            return [`css.properties.${functionName}_function`];
+          } else if (functionName.split(".")[1] in subtree) {
+            return [`css.properties.${functionName}`];
+          }
+        }
+      } else {
+        const keys: string[] = [];
+        for (const prop in bcdData.css.properties) {
+          if (`${functionName}_function` in bcdData.css.properties[prop]) {
+            keys.push(`css.properties.${prop}.${functionName}_function`);
+          } else if (functionName in bcdData.css.properties[prop]) {
+            keys.push(`css.properties.${prop}.${functionName}`);
+          }
+        }
+        if (keys.length) return keys;
+      }
       return [`css.types.${functionName}`];
     }
     case "css-keyword":
@@ -305,16 +322,21 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
       const match = node.id.match(/^\/en-US\/docs\/Web\/CSS\/::?([^/]+)$/);
       if (!match) return "Unexpected page type";
       const pseudoName = match[1].replaceAll(":", "").replace(/_function$/, "");
+      if (node.id.endsWith("host_function")) {
+        return [`css.selectors.hostfunction`];
+      }
       return [`css.selectors.${pseudoName}`];
     }
     case "css-type": {
       const match = node.id.match(/^\/en-US\/docs\/Web\/CSS\/([^/]+)$/);
       if (!match) return "Unexpected page type";
-      const typeName = match[1].replace(/_type$/, "");
-      if (typeName in bcdData.css.types) {
-        return [`css.types.${typeName}`];
+      const typeName = match[1].replace(/_type$/, "").replace(/_value$/, "");
+      if (typeName === "gradient") {
+        return [`css.types.image.${typeName}`];
+      } else if (["custom-ident", "dashed-ident", "ident"].includes(typeName)) {
+        return [];
       }
-      return "ignore";
+      return [`css.types.${typeName}`];
     }
     // Web/JavaScript/
     case "javascript-class":
@@ -389,6 +411,10 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
     // WebAssembly/
     case "webassembly-function":
     case "webassembly-interface": {
+      if (node.id === "/en-US/docs/WebAssembly/JavaScript_interface") {
+        // This page is not a "webassembly-interface" per se but it works
+        return ["webassembly.api"];
+      }
       const match = node.id.match(
         /^\/en-US\/docs\/WebAssembly\/JavaScript_interface\/([^/]+)$/,
       );
