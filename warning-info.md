@@ -218,6 +218,20 @@ This rule reports pages that are unreachable via any in-page links (starting fro
 
 This rule reports pages that are unreachable via any sidebar. This is slightly trickier to fix until Yari fully exposes sidebar configuration to content; however, API sidebars are fully customizable.
 
+## Metadata issues
+
+### Not in BCD
+
+This rule reports pages whose derived BCD keys are all missing in BCD. This should be fixed in BCD before a content fix.
+
+### Unexpected BCD keys
+
+This rule reports pages whose BCD keys don't match the derived ones. This can be because of typos in the page slug or the BCD key, or because you should add or remove BCD keys. Note that the suggested keys may not all exist, but at least one of them is (otherwise [not in BCD](#not-in-bcd) would be reported).
+
+### Unexpected page type
+
+This rule reports pages whose `page-type` doesn't match its location.
+
 ## Other
 
 These are warnings that are unlikely to be fixable in content and therefore deprioritized.
