@@ -60,6 +60,7 @@ contain-intrinsic-size: auto none
 cubic-bezier(0, 0, 1, 1)
 cubic-bezier(p1, p2, p3, p4)
 delete obj.x
+import ... with { type: "css" }
 instanceof Array
 minmax(auto, max-content)
 navigation.entries().length - 1
