@@ -30,13 +30,16 @@ auto <angle>
 auto <length>
 auto [<length> | none]
 color(srgb ...)
+cubic-bezier(<number [0,1]> , <number> , <number [0,1]> , <number>)
 fit-content( [ <length> | <percentage> ] )
 from <color>
 from <coordinate-pair>
+linear(<number> <percentage>{1,2}, …)
 only light
 repeat( [ <positive-integer> | auto-fill | auto-fit ] , <track-list> )
 round <'border-radius'>
 span && [ <integer> || <custom-ident> ]
+steps(<integer>, <step-position>)
 steps(n, <jumpterm>)
 
   Code:

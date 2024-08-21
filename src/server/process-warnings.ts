@@ -105,7 +105,7 @@ for (const node of nodes) {
         const correspondingWarning = nodeWarnings.find(
           (w) =>
             w.message === "Not in BCD" ||
-            (w.message === "Unexpected BCD keys" && w.expected === "[None]")
+            (w.message === "Unexpected BCD keys" && w.data.at(-1) === "[None]")
         );
         if (correspondingWarning) {
           correspondingWarning.data.push("(and flaw)");

@@ -89,14 +89,13 @@ const inlineLevelElements = new Set([
   "span",
   "strike",
   "strong",
-  "sub",
-  "sup",
   "time",
   "tt",
   "u",
   "var",
 ]);
 
+// Allow a<sup><code>b</code></sup> or <code>a</code><sup>b</sup>
 function getSurroundingText(
   node: Element,
   $: CheerioAPI,
