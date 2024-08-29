@@ -52,11 +52,11 @@ const missingFeatures = new Set(
         return;
     }
     console.error("Unexpected data:", x);
-  })
+  }),
 );
 
 const noPage = new Map(
-  (await readConfig("no-page.txt")).map((x) => [x, false])
+  (await readConfig("no-page.txt")).map((x) => [x, false]),
 );
 
 const { checkedLinks, linkRequests } = createLinkRequests(report);
@@ -80,7 +80,7 @@ for (const node of nodes) {
           (w) =>
             w.message === "Broken link" &&
             w.data[0] === d.href.replace(/#.+/, "") &&
-            w.data.at(-1) !== "(and flaw)"
+            w.data.at(-1) !== "(and flaw)",
         );
         if (correspondingWarning) {
           correspondingWarning.data.push("(and flaw)");
@@ -105,7 +105,7 @@ for (const node of nodes) {
         const correspondingWarning = nodeWarnings.find(
           (w) =>
             w.message === "Not in BCD" ||
-            (w.message === "Unexpected BCD keys" && w.data.at(-1) === "[None]")
+            (w.message === "Unexpected BCD keys" && w.data.at(-1) === "[None]"),
         );
         if (correspondingWarning) {
           correspondingWarning.data.push("(and flaw)");
@@ -122,13 +122,13 @@ for (const node of nodes) {
 
 const warningList = Object.entries(warnings);
 warningList.sort(([a], [b]) =>
-  a.replaceAll("/", "").localeCompare(b.replaceAll("/", ""))
+  a.replaceAll("/", "").localeCompare(b.replaceAll("/", "")),
 );
 
 const tree = { children: {}, slug: "" };
 
 const nodeToSlug = new Map(
-  nodes.map((x) => [x.data.metadata.source.folder, x.id])
+  nodes.map((x) => [x.data.metadata.source.folder, x.id]),
 );
 
 for (const [nodeId, baseMessages] of warningList) {
@@ -143,7 +143,7 @@ for (const [nodeId, baseMessages] of warningList) {
           (x.message === "Broken sidebar link" &&
             (missingFeatures.has(x.data[1]) || configHas(noPage, x.data[1])))
         )
-      )
+      ),
   );
   if (messages.length === 0) continue;
   const parts = nodeId.split("/");

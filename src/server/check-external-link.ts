@@ -1,20 +1,31 @@
 import nodes from "../../data/nodes.json" with { type: "json" };
 import { readConfig } from "./config.js";
 
+function strToRegex(str: string) {
+  return new RegExp(
+    `^${str
+      .split(/(\{.*?\})/)
+      .map((part, i) =>
+        i % 2 === 0
+          ? part.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+          : part.slice(1, -1),
+      )
+      .join("")}$`,
+  );
+}
+
 const knownInaccessibleLinks = new Map(
   (await readConfig("inaccessible-links.txt")).map((x) => [
-    new RegExp(
-      `^${x
-        .split(/(\{.*?\})/)
-        .map((part, i) =>
-          i % 2 === 0
-            ? part.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
-            : part.slice(1, -1),
-        )
-        .join("")}$`,
-    ),
+    strToRegex(x),
     false,
   ]),
+);
+
+const knownRedirects = new Map(
+  (await readConfig("allowed-redirects.txt")).map((x) => {
+    const [from, to] = x.split("\t");
+    return [[strToRegex(from), to] as const, false];
+  }),
 );
 
 async function checkLink(href: string) {
@@ -78,6 +89,22 @@ async function checkLink(href: string) {
         // Allow redirection to login
         /\/(login|signin)\b/.test(res.url)
       ) {
+        return {
+          type: "ok",
+        };
+      }
+      const allowedRedirect = [...knownRedirects.keys()].find(
+        ([source, target]) => {
+          const m = source.exec(href);
+          if (!m) return false;
+          const targetRegex = strToRegex(
+            target.replace(/\$([0-9]+)/g, (_, p1) => m[p1]),
+          );
+          return targetRegex.test(res.url);
+        },
+      );
+      if (allowedRedirect) {
+        knownRedirects.set(allowedRedirect, true);
         return {
           type: "ok",
         };
@@ -294,6 +321,9 @@ export function reportBrokenLinks(
 
 export function postExternalLinkCheck() {
   for (const [link, used] of knownInaccessibleLinks) {
+    if (!used) console.warn(link, "is no longer used in content");
+  }
+  for (const [link, used] of knownRedirects) {
     if (!used) console.warn(link, "is no longer used in content");
   }
 }

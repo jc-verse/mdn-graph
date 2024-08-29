@@ -41,7 +41,7 @@ const allowedUnderscoreCodeLink = [
   // Non-JS properties (lowercase)
   /^((dns|tcp|webgl|AppConfig|http(\.[a-z]+)?)\.)?[a-z\d_]+(\(\))?$/,
   // WebGL prefixes
-  /^(WEBGL|OES|EXT|ANGLE|OCULUS|OVR|KHR)_\w+(\.[A-Za-z]+\(\))?$/,
+  /^(WEBGL|OES|EXT|ANGLE|OCULUS|OVR|KHR|gl)_\w+(\.[A-Za-z]+\(\))?$/,
   // Object methods
   /^(Object\.prototype\.)?__((define|lookup)(Getter|Setter)|proto)__(\(\))?$/,
   // Link targets
@@ -52,6 +52,8 @@ const allowedUnderscoreCodeLink = [
   /^"\w+"$/,
   // Macro calls
   /^\{\{[\w-]+\}\}$/,
+  // URLs
+  /^https?:\/\//,
 ];
 
 const inlineLevelElements = new Set([
