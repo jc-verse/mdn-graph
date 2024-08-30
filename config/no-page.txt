@@ -40,8 +40,6 @@
 /en-US/docs/Web/API/FileError/code
 /en-US/docs/Web/API/FileWriter
 
-/en-US/docs/Web/API/HTMLSelectElement/invalid_event
-
 /en-US/docs/Web/API/InterestGroupReportingScriptRunnerGlobalScope/registerAdBeacon
 /en-US/docs/Web/API/LayoutWorklet
 /en-US/docs/Web/API/MediaSource/sourceclose_event

@@ -208,7 +208,11 @@ This rule reports the Yari `broken_links` flaw. Most of them are also caught by 
 
 This rule reports the Yari `macros` flaw. This includes non-existent pages (which are not reported by [broken link](#broken-link) because broken xref macros do not contain `href`), incorrect macros (due to redirects), deprecated parameters, etc.
 
-## Reachability
+## Graph structure issues
+
+### Not linked from parent page
+
+This rule is sort of a superset of [unreachable via page](#unreachable-via-page). It reports pages whose parent page (page with the last segment removed) does not link to it. For example, you may add a method page but forget to link to it on the interface page.
 
 ### Unreachable via page
 

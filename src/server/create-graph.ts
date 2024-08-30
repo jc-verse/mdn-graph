@@ -215,7 +215,7 @@ graph.forEachNode((node) => {
       if (!node.data.ids.includes(decodeURIComponent(linkTarget.slice(1)))) {
         if (linkTarget === "#browser_compatibility") {
           report(node, "Broken browser compat anchor");
-        } else {
+        } else if (!linkTarget.startsWith("#:~:")) {
           report(node, "Broken anchor", linkTarget);
         }
       } else {
@@ -277,6 +277,20 @@ while (queue.length) {
     true,
   );
 }
+
+graph.forEachNode((node) => {
+  const id = node.id;
+  let parentId = node.id.replace(/\/[^/]+$/, "");
+  const parentOverride = {
+    "/en-US/docs/Glossary": null,
+    "/en-US/docs/Web/CSS": null,
+    "/en-US/docs": "/en-US/docs/Web",
+  };
+  parentId = parentId in parentOverride ? parentOverride[parentId] : parentId;
+  if (parentId && !graph.hasLink(parentId, id)) {
+    report(node, "Not linked from parent page", parentId);
+  }
+});
 
 await FS.rmdir("sidebars", { recursive: true });
 await FS.mkdir("sidebars");
