@@ -287,7 +287,10 @@ graph.forEachNode((node) => {
     "/en-US/docs": "/en-US/docs/Web",
   };
   parentId = parentId in parentOverride ? parentOverride[parentId] : parentId;
-  if (parentId && !graph.hasLink(parentId, id)) {
+  if (parentId === "/en-US/docs/Web/API" && node.data.metadata.pageType === "webgl-extension") {
+    return;
+  }
+  if (parentId && parentId !== id && !graph.hasLink(parentId, id)) {
     report(node, "Not linked from parent page", parentId);
   }
 });
