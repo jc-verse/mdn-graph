@@ -19,4 +19,4 @@ https://vercel.com/import/{(\w*)}	https://vercel.com/new/clone?repository-url=ht
 https://www.sublimelinter.com/	http://www.sublimelinter.com/en/master/
 
   This site seems to redirect to a honeypot
-https://microformats.org/	https://qltuh.check-tl-ver-{(.*)}.com/space-robot/{(.*)}
+https://microformats.org/	https://qltuh.check-tl-ver-{(.*)}/space-robot/{(.*)}

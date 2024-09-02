@@ -3,6 +3,9 @@ import FS from "node:fs/promises";
 import Path from "node:path";
 import { $ } from "bun";
 import { load } from "cheerio";
+import matter from "gray-matter";
+import bcdData from "@mdn/browser-compat-data" with { type: "json" };
+import { getBCD } from "./check-bcd-matching.js";
 import { CONTENT_ROOT } from "./config.js";
 import { checkContent, postCheckContent } from "./check-content.js";
 
@@ -56,9 +59,46 @@ graph.forEachNode((node) => {
   promises.push(
     FS.readFile(sourcePath, "utf8")
       .then((source) => {
-        node.data.metadata.pageType = source.match(/page-type: (.+)$/m)?.[1];
+        const { data } = matter(source);
+        node.data.metadata.pageType = data["page-type"];
         if (!node.data.metadata.pageType) {
           report(node, "Missing page type");
+        }
+        node.data.metadata.frontMatter = data;
+        if (data["browser-compat"]) {
+          data["browser-compat"] = Array.isArray(data["browser-compat"])
+            ? data["browser-compat"]
+            : [data["browser-compat"]];
+        }
+        if (data["spec-urls"]) {
+          data["spec-urls"] = Array.isArray(data["spec-urls"])
+            ? data["spec-urls"]
+            : [data["spec-urls"]];
+        }
+        if (
+          (data["browser-compat"] && !node.data.metadata.browserCompat) ||
+          (!data["browser-compat"] && node.data.metadata.browserCompat)
+        ) {
+          console.warn(
+            "Mismatched browser compat",
+            node.id,
+            data["browser-compat"],
+            node.data.metadata.browserCompat,
+          );
+        } else if (data["browser-compat"]) {
+          for (let i = 0; i < data["browser-compat"].length; i++) {
+            if (
+              data["browser-compat"][i] !== node.data.metadata.browserCompat[i]
+            ) {
+              console.warn(
+                "Mismatched browser compat",
+                node.id,
+                data["browser-compat"],
+                node.data.metadata.browserCompat,
+              );
+              break;
+            }
+          }
         }
       })
       .catch((e) => {
@@ -91,6 +131,7 @@ graph.forEachNode((node) => {
   const content = node.data.content;
   const linkTargets: string[] = [];
   const ids: string[] = [];
+  let hasBCDTable = false;
   for (const part of content) {
     // TODO Yari does this case folding but it should just output lowercase IDs
     // in the build output
@@ -105,6 +146,7 @@ graph.forEachNode((node) => {
         // The only way for part.value.query to not be included in
         // metadata.browserCompat is by using the argument of the {{Compat}}
         // macro, but that is reported as a flaw.
+        hasBCDTable = true;
         continue;
       case "prose":
         break;
@@ -150,6 +192,17 @@ graph.forEachNode((node) => {
         dtIdToLink.get(node.id)!.set(id, { href, pageExists });
       }
     });
+  }
+  const specURLs =
+    node.data.metadata.frontMatter["spec-urls"] ??
+    node.data.metadata.browserCompat
+      ?.map((k: string) => getBCD(bcdData, k)?.__compat?.spec_url)
+      .filter(Boolean);
+  if (specURLs?.length && !node.data.specifications) {
+    report(node, "Missing specifications");
+  }
+  if (node.data.metadata.browserCompat && !hasBCDTable) {
+    report(node, "Missing BCD table");
   }
   node.data.links = linkTargets;
   node.data.ids = ids;
@@ -288,7 +341,10 @@ graph.forEachNode((node) => {
     "/en-US/docs": "/en-US/docs/Web",
   };
   parentId = parentId in parentOverride ? parentOverride[parentId] : parentId;
-  if (parentId === "/en-US/docs/Web/API" && node.data.metadata.pageType === "webgl-extension") {
+  if (
+    parentId === "/en-US/docs/Web/API" &&
+    node.data.metadata.pageType === "webgl-extension"
+  ) {
     return;
   }
   if (parentId && parentId !== id && !graph.hasLink(parentId, id)) {
