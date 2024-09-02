@@ -142,9 +142,9 @@ This rule checks for `<a>` `href`s in content that's not:
 - An internal link starting with `/en-US/`
 - An internal anchor link starting with `#`
 - An `http` link. Note that `localhost` URLs are also considered "bad", unless they point to live samples (because Yari generates localhost URLs for local builds)
-- A `mailto:` link. We are considering whether this should be allowed but there are quite a few of these.
+- A `mailto:` or `irc:` link. We are considering whether they should be allowed but there are quite a few of these.
 
-Common cases including `irc:` links (maybe they should be allowed?) and accidental relative links (`foo` instead of `/en-US/docs/Web/.../foo`).
+Common cases include accidental relative links (`foo` instead of `/en-US/docs/Web/.../foo`).
 
 ### Code with space
 
