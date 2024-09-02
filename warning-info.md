@@ -162,6 +162,10 @@ This is the underscore counterpart of [code with space](#code-with-space) and co
 
 This rule reports multiple `{ {Specifications}}` macros on the same page. This is generally a content bug.
 
+### Missing BCD table
+
+This rule reports pages that has `browser-compat` keys in front matter but no `{ {Compat}}` macros in content. Either remove the `browser-compat` key if it doesn't exist in BCD, or add the table.
+
 ### Missing data
 
 Yari does not generate flaws for `{ {CSSSyntax}}` and `{ {CSSInfo}}` that are missing data. See [mdn/yari#8436](https://github.com/mdn/yari/issues/8436) and [mdn/yari#4487](https://github.com/mdn/yari/pull/4487).
@@ -169,6 +173,10 @@ Yari does not generate flaws for `{ {CSSSyntax}}` and `{ {CSSInfo}}` that are mi
 ### Missing sidebar
 
 This rule reports pages without a sidebar. All pages should be associated with a sidebar.
+
+### Missing specifications
+
+This rule reports pages that has `spec-urls` or the `browser-compat` keys map to valid spec URLs, but has no `{ {Specifications}}` macros in content. Add the macro.
 
 ### Possibly unrendered Markdown
 
