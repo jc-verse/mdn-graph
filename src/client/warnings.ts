@@ -57,7 +57,7 @@ displayWarnings();
 const buildTime = new Date(lastUpdate.buildTimestamp);
 const commitTime = new Date(lastUpdate.commitTimestamp);
 noteBox.innerHTML = `
-Last updated: <time datetime="${buildTime.toISOString()}" title="${commitTime.toISOString()}">${buildTime.toLocaleString()}</time><br>
+Last updated: <time datetime="${buildTime.toISOString()}" title="${buildTime.toISOString()}">${buildTime.toLocaleString()}</time><br>
 Based on commit <a href="https://github.com/mdn/content/tree/${
   lastUpdate.commitHash
 }"><code>${lastUpdate.commitHash.slice(
