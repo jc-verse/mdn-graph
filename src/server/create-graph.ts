@@ -236,6 +236,7 @@ graph.forEachNode((node) => {
     ) {
       if (
         linkTarget.startsWith("mailto:") ||
+        linkTarget.startsWith("irc:") ||
         ["/", "/discord"].includes(linkTarget)
       ) {
         continue;
