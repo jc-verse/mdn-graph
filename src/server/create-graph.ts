@@ -5,7 +5,7 @@ import { $ } from "bun";
 import { load } from "cheerio";
 import matter from "gray-matter";
 import bcdData from "@mdn/browser-compat-data" with { type: "json" };
-import { getBCD } from "./check-bcd-matching.js";
+import { getBCD } from "./utils.js";
 import { CONTENT_ROOT } from "./config.js";
 import { checkContent, postCheckContent } from "./check-content.js";
 
@@ -202,7 +202,10 @@ graph.forEachNode((node) => {
     report(node, "Missing specifications");
   }
   if (node.data.metadata.browserCompat && !hasBCDTable) {
-    report(node, "Missing BCD table");
+    const notExist = node.data.metadata.browserCompat.some(
+      (k: string) => !getBCD(bcdData, k),
+    );
+    report(node, "Missing BCD table", ...(notExist ? ["(key invalid)"] : []));
   }
   node.data.links = linkTargets;
   node.data.ids = ids;

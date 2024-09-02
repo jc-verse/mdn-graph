@@ -1,6 +1,7 @@
 import nodes from "../../data/nodes.json" with { type: "json" };
 import bcdData from "@mdn/browser-compat-data" with { type: "json" };
 import { readConfig, configHas } from "./config.js";
+import { getBCD } from "./utils.js";
 
 const dictionaries = new Map(
   (await readConfig("dictionaries.txt")).map((x) => [x, false]),
@@ -53,15 +54,6 @@ function dictionaryToBCD(path: string) {
       "RTCStatsReport.type_remote-outbound-rtp",
     )
     .replace(/^RTCTransportStats\b/, "RTCStatsReport.type_transport");
-}
-
-export function getBCD(data: any, key: string) {
-  const keys = key.split(".");
-  for (const key of keys) {
-    if (!(key in data)) return undefined;
-    data = data[key];
-  }
-  return data;
 }
 
 function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
