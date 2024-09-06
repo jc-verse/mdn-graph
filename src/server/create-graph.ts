@@ -259,6 +259,7 @@ graph.forEachNode((node) => {
     ) {
       if (
         linkTarget.startsWith("mailto:") ||
+        linkTarget.startsWith("news:") ||
         ["/", "/discord"].includes(linkTarget)
       ) {
         continue;
