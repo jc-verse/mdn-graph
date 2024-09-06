@@ -46,3 +46,17 @@ pre {
   padding: 10px;
   background-color: lightgray;
 }
+
+#tree-root > table {
+  position: relative;
+}
+
+#tree-root > table > thead {
+  background-color: lightblue;
+  position: sticky;
+  top: 0;
+}
+
+#tree-root > table tr:nth-child(2n) {
+  background: #ccc;
+}
