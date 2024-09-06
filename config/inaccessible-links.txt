@@ -1,0 +1,15 @@
+  Links in this file will be ignored by the link checker, usually because they are behind auth or crawler checks.
+  Note that known firewall pages and redirections to login are handled generically in the link checker.
+  You are encouraged to manually check these links.
+  Use two-space indent for comments. Use {...} to embed regex.
+
+  Custom firewalls:
+https://www.canva.com/colors/color-wheel/
+https://www.openwebanalytics.com{/?}
+https://www.reddit.com/r/{.*}
+
+  404 on purpose:
+https://konmari.com/404
+
+  glitch.me apps go to sleep and takes a while to wake up:
+https://{.*}.glitch.me{.*}

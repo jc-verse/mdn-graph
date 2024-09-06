@@ -6,7 +6,7 @@ on:
       - master
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *' # Runs at midnight UTC every day
+    - cron: "0 0 * * *" # Runs at midnight UTC every day
 
 jobs:
   build:
@@ -27,13 +27,20 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22'
+          node-version: "22"
 
       - name: Set up Bun
         uses: oven-sh/setup-bun@v2
 
       - name: Install dependencies for mdn/content
-        run: yarn install
+        run: |
+          # Remove lock file so it always installs the latest dependencies,
+          # especially data and BCD
+          rm yarn.lock
+          # TODO: https://github.com/Borewit/strtok3/issues/1143
+          # TODO: Yari is not compatible with cheerio 1.0.0
+          jq '.resolutions.strtok3 = "8.0.1" | .resolutions.cheerio = "1.0.0-rc.12"' package.json > tmp.$$.json && mv tmp.$$.json package.json
+          yarn install
         working-directory: ./content
 
       - name: Build mdn/content
@@ -41,7 +48,9 @@ jobs:
         working-directory: ./content
 
       - name: Install dependencies for this repo
-        run: bun install
+        run: |
+          bun install
+          bun update @mdn/browser-compat-data
         working-directory: ./mdn-graph
 
       - name: Build MDN graph
@@ -70,6 +79,6 @@ jobs:
           publish_dir: ./mdn-graph/docs
           publish_branch: gh-pages
           commit_message: ${{ env.message }}
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
           enable_jekyll: true

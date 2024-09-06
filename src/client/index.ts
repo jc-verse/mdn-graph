@@ -2,8 +2,7 @@ import nodes from "../../data/nodes.json" with { type: "json" };
 import links from "../../data/links.json" with { type: "json" };
 import lastUpdate from "../../data/last-update.json" with { type: "json" };
 import createGraph from "ngraph.graph";
-import renderGraph from "ngraph.pixel";
-import createLayout from "ngraph.forcelayout";
+import renderGraph from "./ngraph.pixel";
 
 const graph = createGraph();
 for (const node of nodes) {
@@ -101,34 +100,45 @@ const colorMap = {
 };
 
 renderGraph(graph, {
-  createLayout,
   node(n) {
-    const label = pathToLabel.find(([path]) => `files/${n.data.metadata.source.folder}`.startsWith(path))?.[1] ?? "Content:Other";
+    const label =
+      pathToLabel.find(([path]) =>
+        `files/${n.data.metadata.source.folder}`.startsWith(path),
+      )?.[1] ?? "Content:Other";
     return {
-      color: parseInt(colorMap[label] ?? colorMap['Content:Other'], 16),
+      color: parseInt(colorMap[label] ?? colorMap["Content:Other"], 16),
       size: 5,
       label,
     };
   },
   link(l) {
-    const fromNode = graph.getNode(l.fromId);
-    const toNode = graph.getNode(l.toId);
-    const sourceLabel = pathToLabel.find(([path]) => `files/${fromNode.data.metadata.source.folder}/index.md`.startsWith(path))?.[1] ?? "Content:Other";
-    const targetLabel = pathToLabel.find(([path]) => `files/${toNode.data.metadata.source.folder}/index.md`.startsWith(path))?.[1] ?? "Content:Other";
+    const fromNode = graph.getNode(l.fromId)!;
+    const toNode = graph.getNode(l.toId)!;
+    const sourceLabel =
+      pathToLabel.find(([path]) =>
+        `files/${fromNode.data.metadata.source.folder}/index.md`.startsWith(
+          path,
+        ),
+      )?.[1] ?? "Content:Other";
+    const targetLabel =
+      pathToLabel.find(([path]) =>
+        `files/${toNode.data.metadata.source.folder}/index.md`.startsWith(path),
+      )?.[1] ?? "Content:Other";
     return {
-      fromColor: parseInt(colorMap[sourceLabel] ?? colorMap['Content:Other'], 16),
-      toColor: parseInt(colorMap[targetLabel] ?? colorMap['Content:Other'], 16),
+      fromColor: parseInt(
+        colorMap[sourceLabel] ?? colorMap["Content:Other"],
+        16,
+      ),
+      toColor: parseInt(colorMap[targetLabel] ?? colorMap["Content:Other"], 16),
     };
   },
   ...layoutSettings,
 });
 
-const note = document.createElement("div");
+const note = document.getElementById("note");
 const buildTime = new Date(lastUpdate.buildTimestamp);
 const commitTime = new Date(lastUpdate.commitTimestamp);
 note.innerHTML = `
 Last updated: <time datetime="${buildTime.toISOString()}" title="${commitTime.toISOString()}">${buildTime.toLocaleString()}</time><br>
 Based on commit <a href="https://github.com/mdn/content/tree/${lastUpdate.commitHash}"><code>${lastUpdate.commitHash.slice(0, 7)}</code></a> (<time datetime="${commitTime.toISOString()}" title="${commitTime.toISOString()}">${commitTime.toLocaleString()}</time>)
 `;
-note.id = "note";
-document.body.appendChild(note);

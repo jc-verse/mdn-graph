@@ -1,0 +1,22 @@
+  Redirections in this file will not be reported. Usually they are redirecting
+  from a versionless URL to a versioned URL.
+  Note that redirections from the site root to a subpage is always allowed.
+  Each line has two URLs, separated by a tab. The second URL can use $n to refer
+  to capture groups in the first URL.
+  Use two-space indent for comments. Use {...} to embed regex.
+
+https://angular.io/{(.+)}	https://v17.angular.io/$1
+https://phaser.io/docs/	https://phaser.io/docs/2.{[\d.]+}/index
+https://scrimba.com/{(.*)}	https://v2.scrimba.com/$1
+https://docs.djangoproject.com/en/stable/{(.*)}	https://docs.djangoproject.com/en/{[\d.]+}/$1
+https://laravel.com/docs/{(.*)}	https://laravel.com/docs/{[\d.x]+}/$1
+
+https://www.sqlite.org/wasm	https://www.sqlite.org/wasm/doc/trunk/index.md
+https://svelte.dev/repl	https://svelte.dev/repl/{(.*)}
+https://vercel.com/import/{(\w*)}	https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fvercel%2Ftree%2Fmain%2Fexamples%2F$1
+
+  This is weird—the HTTPS URL is redirecting to HTTP in the action runner
+https://www.sublimelinter.com/	http://www.sublimelinter.com/en/master/
+
+  This site seems to redirect to a honeypot
+https://microformats.org/	https://qltuh.check-tl-ver-{(.*)}/space-robot/{(.*)}

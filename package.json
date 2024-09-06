@@ -5,16 +5,23 @@
   "scripts": {
     "build-graph": "bun src/server/create-graph.ts && bun build src/client/index.ts --outdir docs --minify",
     "build-warnings": "bun src/server/process-warnings.ts && bun build src/client/warnings.ts --outdir docs --minify",
+    "build-warnings-fast": "bun src/server/process-warnings.ts --no-external-link-check && bun build src/client/warnings.ts --outdir docs --minify",
     "build": "bun run build-graph && bun run build-warnings"
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "prettier": "^3.3.3"
   },
   "dependencies": {
-    "cheerio": "^1.0.0-rc.12",
+    "@mdn/browser-compat-data": "5",
+    "@types/three": "^0.167.1",
+    "cheerio": "^1.0.0",
+    "gray-matter": "^4.0.3",
     "leven": "^4.0.0",
+    "ngraph.events": "0.0.3",
     "ngraph.forcelayout": "^3.3.1",
     "ngraph.graph": "^20.0.1",
-    "ngraph.pixel": "^2.4.1"
+    "three": "^0.73.0",
+    "three.fly": "0.1.6"
   }
 }

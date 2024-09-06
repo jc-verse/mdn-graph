@@ -1,68 +1,13 @@
 import createGraph, { type Node, type Link } from "ngraph.graph";
 import FS from "node:fs/promises";
+import Path from "node:path";
 import { $ } from "bun";
 import { load } from "cheerio";
-
-const allowedCodeLinkTextRec = new Map(
-  (
-    await Bun.file(
-      Bun.fileURLToPath(
-        import.meta.resolve("../../config/allowed-code-link-text.txt")
-      )
-    ).text()
-  )
-    .split("\n")
-    .filter((x) => x && !x.startsWith("  "))
-    .map((x) => [x, false])
-);
-
-const allowedSpacedCodeLink = [
-  // HTML tags
-  /^<(a|area|font|iframe|input|link|meta|object|ol|script|th|tr)( [a-z-]+="[\w .…-]+"| ping| defer)+>$/,
-  /^<\?xml[^>]+\?>$/,
-  /^<xsl:[^>]+>$/,
-  /^[a-z-]+="[\w .…-]+"$/,
-  // JS code
-  /^(async function\*?|"use strict"|typeof [a-z]+( === "[a-z]+")?|extends null|export default|import (\* as )?\w+ from "\w+";?|(if|catch) \(\w*\)|for await\.\.\.of|\w+: "\w+"|(await|delete|void|yield\*?) \w+|\w+ (instanceof|in) \w+|\( \)|\(\w+ \? \w+ : \w+\))$/,
-  // Method calls with parameters. Lots of false positives but we actually
-  // want to check that methods in interface DLs don't have params
-  /^[\w.]+\([\w.]+(, [\w.]+)*\)$/,
-  // CSS code
-  /^([a-z-]+: ([a-z-]+|\d+(px|em|vh|vw|%)|0);?|@(container|import|media|namespace|supports) [()a-z: -]+|transform: [\w-]+\(\);?|transform-style: [\w-]+;?)$/,
-  // Shell commands
-  /^(ng|npm) [a-z\d]+$/,
-  // HTTP status
-  /^\d+ [\w '-]+$/,
-  // HTTP header
-  /^(Cache-Control|Clear-Site-Data|Connection|Content-Security-Policy|Cross-Origin-Opener-Policy|Cross-Origin-Resource-Policy|Permissions-Policy|Sec-Purpose): ([\w-]+|"[\w-]+")$/,
-  // MIME
-  /^[a-z]+\/[\w+-]+; [a-z]+=("[\w ,.-]+"|\w+);?$/,
-  // Macro calls
-  /^\{\{[^}]+\}\}$/,
-  // PAC stuff
-  /^(HTTP|HTTPS|PROXY|SOCKS|SOCKS4)/,
-  // TODO: this is probably bad (CSS reference uses this syntax)
-  /^[a-z-]+ \(@[a-z-]+\)$|^::([a-z-]+) \(:\1\)$/,
-];
-
-const allowedUnderscoreCodeLink = [
-  // Constants (uppercase)
-  /^(\w+\.)*[A-Z_\d]+$/,
-  // Non-JS properties (lowercase)
-  /^((dns|tcp|webgl|AppConfig|http(\.[a-z]+)?)\.)?[a-z\d_]+(\(\))?$/,
-  // WebGL prefixes
-  /^(WEBGL|OES|EXT|ANGLE|OCULUS|OVR|KHR)_\w+(\.[A-Za-z]+\(\))?$/,
-  // Object methods
-  /^(Object\.prototype\.)?__((define|lookup)(Getter|Setter)|proto)__(\(\))?$/,
-  // Link targets
-  /^_(blank|parent|replace|self|top)$/,
-  // File names
-  /\.(js|html)$/,
-  // String constants
-  /^"\w+"$/,
-  // Macro calls
-  /^\{\{[\w-]+\}\}$/,
-];
+import matter from "gray-matter";
+import bcdData from "@mdn/browser-compat-data" with { type: "json" };
+import { getBCD } from "./utils.js";
+import { CONTENT_ROOT } from "./config.js";
+import { checkContent, postCheckContent } from "./check-content.js";
 
 const graph = createGraph();
 
@@ -76,7 +21,7 @@ async function* listdir(dir: string): AsyncGenerator<string> {
   }
 }
 
-for await (const file of listdir("../content/build/en-us/docs")) {
+for await (const file of listdir(Path.join(CONTENT_ROOT, "build/en-us/docs"))) {
   if (!file.endsWith(".json")) continue;
   const content = await Bun.file(file).json();
   if (file.endsWith("metadata.json")) {
@@ -102,6 +47,68 @@ for await (const file of listdir("../content/build/en-us/docs")) {
   }
 }
 
+const promises: Promise<void>[] = [];
+
+graph.forEachNode((node) => {
+  const sourcePath = Path.join(
+    CONTENT_ROOT,
+    "files",
+    node.data.metadata.source.folder,
+    "index.md",
+  );
+  promises.push(
+    FS.readFile(sourcePath, "utf8")
+      .then((source) => {
+        const { data } = matter(source);
+        node.data.metadata.pageType = data["page-type"];
+        if (!node.data.metadata.pageType) {
+          report(node, "Missing page type");
+        }
+        node.data.metadata.frontMatter = data;
+        if (data["browser-compat"]) {
+          data["browser-compat"] = Array.isArray(data["browser-compat"])
+            ? data["browser-compat"]
+            : [data["browser-compat"]];
+        }
+        if (data["spec-urls"]) {
+          data["spec-urls"] = Array.isArray(data["spec-urls"])
+            ? data["spec-urls"]
+            : [data["spec-urls"]];
+        }
+        if (
+          (data["browser-compat"] && !node.data.metadata.browserCompat) ||
+          (!data["browser-compat"] && node.data.metadata.browserCompat)
+        ) {
+          console.warn(
+            "Mismatched browser compat",
+            node.id,
+            data["browser-compat"],
+            node.data.metadata.browserCompat,
+          );
+        } else if (data["browser-compat"]) {
+          for (let i = 0; i < data["browser-compat"].length; i++) {
+            if (
+              data["browser-compat"][i] !== node.data.metadata.browserCompat[i]
+            ) {
+              console.warn(
+                "Mismatched browser compat",
+                node.id,
+                data["browser-compat"],
+                node.data.metadata.browserCompat,
+              );
+              break;
+            }
+          }
+        }
+      })
+      .catch((e) => {
+        console.error("Error reading file", sourcePath, e);
+      }),
+  );
+});
+
+await Promise.all(promises);
+
 const warnings: { [nodeId: string]: { message: string; data: any }[] } = {};
 
 function report(node: Node, message: string, ...args: any[]) {
@@ -111,101 +118,101 @@ function report(node: Node, message: string, ...args: any[]) {
   });
 }
 
+const dtIdToLink = new Map<
+  string,
+  Map<string, { href: string; pageExists: boolean }>
+>();
+
 graph.forEachNode((node) => {
   if (!node.data || !node.data.content) {
-    report(node, "Missing content");
+    console.error(node.id, "has no content");
     return;
   }
   const content = node.data.content;
   const linkTargets: string[] = [];
   const ids: string[] = [];
+  let hasBCDTable = false;
   for (const part of content) {
-    if (part.value.id) ids.push(part.value.id);
+    // TODO Yari does this case folding but it should just output lowercase IDs
+    // in the build output
+    if (part.value.id) ids.push(part.value.id.toLowerCase());
     switch (part.type) {
       case "specifications":
-        if (node.data.specifications) {
-          report(node, "Duplicate specifications");
-        }
-        node.data.specifications = part.specifications;
+        if (node.data.specifications) report(node, "Duplicate specifications");
+        node.data.specifications = part.value.specifications;
         continue;
       case "browser_compatibility":
-        if (node.data.browser_compatibility) {
-          report(node, "Duplicate browser_compatibility");
-        }
-        node.data.browser_compatibility = part.query;
+        // We use metadata.browserCompat instead of part.value.query.
+        // The only way for part.value.query to not be included in
+        // metadata.browserCompat is by using the argument of the {{Compat}}
+        // macro, but that is reported as a flaw.
+        hasBCDTable = true;
         continue;
       case "prose":
         break;
       default:
-        report(node, "Unknown part type", part.type);
+        console.error(node.id, "Unknown part type", part.type);
         continue;
     }
     const partContent = part.value.content;
     const $ = load(partContent);
+    checkContent(partContent, $, report.bind(null, node), { slug: node.id });
     $("[id]").each((i, el) => {
       const id = $(el).attr("id")!;
-      if (ids.includes(id)) {
-        report(node, "Duplicate ID", id);
-      }
+      if (ids.includes(id)) report(node, "Duplicate ID", id);
       ids.push(id);
     });
-    $("ul li").each((i, li) => {
-      const children = $(li).contents();
-      if (
-        children.length === 0 ||
-        (children[0].type === "text" && children[0].data.startsWith(":"))
-      ) {
-        report(node, "Bad DL", $(li).text().slice(0, 50));
-      }
-    });
-    if (part.value.content.includes("-: "))
-      report(
-        node,
-        "Bad DL",
-        part.value.content.match(/-: .*$/m)?.[0].slice(0, 50)
-      );
     $("a:not(svg a)").each((i, a) => {
       const href = $(a).attr("href");
       if (!href) {
         report(node, "Missing href", $(a).text());
         return;
       }
-      const childNodes = $(a).contents();
-      if (
-        childNodes.length === 1 &&
-        childNodes[0].type === "tag" &&
-        childNodes[0].name === "code"
-      ) {
-        const code = $(childNodes[0]).text();
-        if (
-          code.includes(" ") &&
-          !allowedSpacedCodeLink.some((re) => re.test(code)) &&
-          !(
-            allowedCodeLinkTextRec.has(code) &&
-            (allowedCodeLinkTextRec.set(code, true), true)
-          ) &&
-          // Canvas tutorial uses example code in DL, not worth fixing
-          !node.id.includes("Canvas_API/Tutorial")
-        ) {
-          report(node, "Code with space", code);
-        } else if (
-          code.includes("_") &&
-          !allowedUnderscoreCodeLink.some((re) => re.test(code)) &&
-          !(
-            allowedCodeLinkTextRec.has(code) &&
-            (allowedCodeLinkTextRec.set(code, true), true)
-          )
-        ) {
-          report(node, "Code with underscore", code);
-        }
+      if ($(a).parent().attr("id") === href.slice(1)) {
+        // This link is autogenerated; we should still do the check above but
+        // don't treat it as a real link target
+        return;
       }
       linkTargets.push(href);
     });
+    $("dt").each((i, dt) => {
+      // The ID is injected by Yari
+      const id = $(dt).attr("id")!;
+      const link = $(dt)
+        .find("a")
+        .filter((i, a) => !!a.attribs.href && a.attribs.href !== `#${id}`);
+      if (link.length === 1) {
+        const href = link[0].attribs.href;
+        // Missing href is already reported above
+        if (!dtIdToLink.has(node.id)) dtIdToLink.set(node.id, new Map());
+        const pageExists =
+          graph.getNode(
+            new URL(href, "https://developer.mozilla.org").pathname,
+          ) !== undefined;
+        dtIdToLink.get(node.id)!.set(id, { href, pageExists });
+      }
+    });
+  }
+  const specURLs =
+    node.data.metadata.frontMatter["spec-urls"] ??
+    node.data.metadata.browserCompat
+      ?.map((k: string) => getBCD(bcdData, k)?.__compat?.spec_url)
+      .filter(Boolean);
+  if (specURLs?.length && !node.data.specifications) {
+    report(node, "Missing specifications");
+  }
+  if (node.data.metadata.browserCompat && !hasBCDTable) {
+    const notExist = node.data.metadata.browserCompat.some(
+      (k: string) => !getBCD(bcdData, k),
+    );
+    report(node, "Missing BCD table", ...(notExist ? ["(key invalid)"] : []));
   }
   node.data.links = linkTargets;
   node.data.ids = ids;
   delete node.data.content;
 });
+
+postCheckContent();
 
 graph.forEachNode((node) => {
   for (const linkTarget of node.data.links) {
@@ -233,12 +240,27 @@ graph.forEachNode((node) => {
         report(node, "Broken link", url.pathname);
         continue;
       }
-      if (
-        url.hash &&
-        !url.hash.startsWith("#:~:") &&
-        !targetNode.data.ids.includes(decodeURIComponent(url.hash.slice(1)))
-      ) {
-        report(node, "Broken anchor", url.pathname, url.hash);
+      if (url.hash && !url.hash.startsWith("#:~:")) {
+        if (
+          !targetNode.data.ids.includes(decodeURIComponent(url.hash.slice(1)))
+        ) {
+          report(node, "Broken anchor", url.pathname, url.hash);
+        } else {
+          // The target may have no DT links
+          const targetDtLink = dtIdToLink
+            .get(url.pathname)
+            ?.get(url.hash.slice(1));
+          // Only report if the link to be replaced with is a subpage
+          if (targetDtLink && targetDtLink.href.startsWith(url.pathname)) {
+            report(
+              node,
+              "Replace DT link with real target",
+              linkTarget,
+              targetDtLink.href,
+              ...[targetDtLink.pageExists ? [] : ["(page does not exist)"]],
+            );
+          }
+        }
       }
       if (node.id === url.pathname && !linkTarget.startsWith("#")) {
         report(node, "Self link", linkTarget);
@@ -249,8 +271,19 @@ graph.forEachNode((node) => {
       if (!node.data.ids.includes(decodeURIComponent(linkTarget.slice(1)))) {
         if (linkTarget === "#browser_compatibility") {
           report(node, "Broken browser compat anchor");
-        } else {
+        } else if (!linkTarget.startsWith("#:~:")) {
           report(node, "Broken anchor", linkTarget);
+        }
+      } else {
+        const targetDtLink = dtIdToLink.get(node.id)?.get(linkTarget.slice(1));
+        if (targetDtLink && targetDtLink.href.startsWith(node.id)) {
+          report(
+            node,
+            "Replace DT link with real target",
+            linkTarget,
+            targetDtLink.href,
+            ...[targetDtLink.pageExists ? [] : ["(page does not exist)"]],
+          );
         }
       }
     } else if (
@@ -260,6 +293,7 @@ graph.forEachNode((node) => {
       if (
         linkTarget.startsWith("mailto:") ||
         linkTarget.startsWith("news:") ||
+        linkTarget.startsWith("irc:") ||
         ["/", "/discord"].includes(linkTarget)
       ) {
         continue;
@@ -298,9 +332,29 @@ while (queue.length) {
         queue.push(linkedNode);
       }
     },
-    true
+    true,
   );
 }
+
+graph.forEachNode((node) => {
+  const id = node.id;
+  let parentId = node.id.replace(/\/[^/]+$/, "");
+  const parentOverride = {
+    "/en-US/docs/Glossary": null,
+    "/en-US/docs/Web/CSS": null,
+    "/en-US/docs": "/en-US/docs/Web",
+  };
+  parentId = parentId in parentOverride ? parentOverride[parentId] : parentId;
+  if (
+    parentId === "/en-US/docs/Web/API" &&
+    node.data.metadata.pageType === "webgl-extension"
+  ) {
+    return;
+  }
+  if (parentId && parentId !== id && !graph.hasLink(parentId, id)) {
+    report(node, "Not linked from parent page", parentId);
+  }
+});
 
 await FS.rmdir("sidebars", { recursive: true });
 await FS.mkdir("sidebars");
@@ -319,17 +373,42 @@ for (const node of nodes) {
     .replace(
       `<code>${node.data.metadata.short_title}</code> `,
       () =>
-        `<a href="${node.id}"><code>${node.data.metadata.short_title}</code></a>`
+        `<a href="${node.id}"><code>${node.data.metadata.short_title}</code></a>`,
     );
   if (processedSidebars.has(normalizedHTML)) continue;
   const $ = load(normalizedHTML);
   $("a").each((i, a) => {
     const href = $(a).attr("href")?.replace(/\/$/, "");
+    if (
+      href &&
+      sidebarMacro === "AddonSidebar" &&
+      [
+        "#",
+        "https://blog.mozilla.org/addons",
+        "https://discourse.mozilla.org/c/add-ons",
+        "https://chat.mozilla.org/#/room/%23addons:mozilla.org",
+        "https://extensionworkshop.com/documentation/develop",
+        "https://extensionworkshop.com/documentation/publish",
+        "https://extensionworkshop.com/documentation/manage",
+        "https://extensionworkshop.com/documentation/enterprise",
+      ].includes(href)
+    ) {
+      return;
+    }
     if (href && href.startsWith("/en-US/")) {
       const targetNode = graph.getNode(href);
       if (targetNode) {
         unreachableViaSidebar.delete(targetNode);
-      } else {
+      } else if (
+        ![
+          "/en-US/",
+          "/en-US/curriculum/",
+          "/en-US/observatory",
+          "/en-US/play",
+          "/en-US/plus",
+        ].includes(href) &&
+        !href.startsWith("/en-US/blog/")
+      ) {
         report(node, "Broken sidebar link", $(a).text(), href);
       }
     } else {
@@ -346,30 +425,23 @@ for (const [html, macro] of processedSidebars) {
   await Bun.write(`sidebars/${macro}-${number}.html`, html);
 }
 
-const unreachable = unreachableViaPage.union(unreachableViaSidebar);
-
-for (const node of unreachable) {
-  if (unreachableViaPage.has(node) && unreachableViaSidebar.has(node)) {
-    report(node, "Unreachable", "via both page and sidebar");
-  } else if (unreachableViaPage.has(node)) {
-    report(node, "Unreachable", "via page");
-  } else {
-    report(node, "Unreachable", "via sidebar");
-  }
-}
+for (const node of unreachableViaPage) report(node, "Unreachable via page");
+for (const node of unreachableViaSidebar)
+  report(node, "Unreachable via sidebar");
 
 for (const node of nodes) {
   node.data.metadata = Object.fromEntries(
     [
       "flaws",
       "title",
+      "pageType",
       "browserCompat",
       "summary",
       "popularity",
       "modified",
       "source",
       "short_title",
-    ].map((key) => [key, node.data.metadata[key]])
+    ].map((key) => [key, node.data.metadata[key]]),
   );
   node.data.metadata.source = {
     folder: node.data.metadata.source.folder,
@@ -379,14 +451,8 @@ for (const node of nodes) {
     (link) =>
       !link.startsWith("/en-US/") &&
       !link.startsWith("#") &&
-      !link.includes("//localhost")
+      !link.includes("//localhost"),
   );
-}
-
-for (const [text, used] of allowedCodeLinkTextRec) {
-  if (!used) {
-    console.error(`${text} is no longer used in content`);
-  }
 }
 
 const commit = await $`git log -1 --format="%H %ct"`
@@ -405,6 +471,6 @@ await FS.writeFile(
       buildTimestamp: Date.now(),
     },
     null,
-    2
-  )
+    2,
+  ),
 );

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <title>MDN graph</title>
@@ -13,6 +13,15 @@
         margin: 0;
       }
 
+      #help {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 10px;
+        background-color: darkslategray;
+        color: white;
+      }
+
       #note {
         position: absolute;
         top: 0;
@@ -21,7 +30,51 @@
         background-color: darkslategray;
         color: white;
       }
+
+      .ngraph-tooltip {
+        position: absolute;
+        color: white;
+        pointer-events: none;
+        padding: 3px;
+        background: rgba(0, 0, 0, 0.6);
+      }
     </style>
   </head>
-  <body></body>
+  <body>
+    <div id="help">
+      <table>
+        <thead>
+          <tr>
+            <th>Key</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <kbd>Q</kbd><kbd>E</kbd><kbd>←</kbd><kbd>→</kbd><kbd>↑</kbd
+              ><kbd>↓</kbd>
+            </td>
+            <td>Rotate camera</td>
+          </tr>
+          <tr>
+            <td>
+              <kbd>W</kbd><kbd>S</kbd><kbd>A</kbd><kbd>D</kbd><kbd>R</kbd
+              ><kbd>F</kbd>
+            </td>
+            <td>Move camera</td>
+          </tr>
+          <tr>
+            <td><kbd>Space</kbd></td>
+            <td>Pause animation</td>
+          </tr>
+        </tbody>
+      </table>
+      <label>
+        Speed:
+        <input type="range" id="speed" min="0" max="2" value="1" step="0.05" />
+      </label>
+    </div>
+    <div id="note"></div>
+  </body>
 </html>

@@ -3,3 +3,6 @@ data/*
 !data/.keep
 sidebars
 docs/*.js
+*.txt
+!config/*.txt
+.env
