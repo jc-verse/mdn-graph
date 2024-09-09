@@ -18,6 +18,12 @@ jobs:
         with:
           path: mdn-graph
 
+      - name: Checkout mdn/yari repo
+        uses: actions/checkout@v4
+        with:
+          repository: mdn/yari
+          path: yari
+
       - name: Checkout mdn/content repo
         uses: actions/checkout@v4
         with:
@@ -32,6 +38,12 @@ jobs:
       - name: Set up Bun
         uses: oven-sh/setup-bun@v2
 
+      - name: Install dependencies for mdn/yari
+        run: |
+          rm yarn.lock
+          yarn install
+        working-directory: ./yari
+
       - name: Install dependencies for mdn/content
         run: |
           rm yarn.lock
@@ -39,8 +51,10 @@ jobs:
         working-directory: ./content
 
       - name: Build mdn/content
-        run: yarn build --nohtml
-        working-directory: ./content
+        run: |
+          echo "CONTENT_ROOT=../content/files" > .env
+          yarn build --nohtml
+        working-directory: ./yari
 
       - name: Install dependencies for this repo
         run: |
@@ -51,6 +65,8 @@ jobs:
       - name: Build MDN graph
         run: bun run build-graph
         working-directory: ./mdn-graph
+        env:
+          CONTENT_ROOT: ../yari/client
 
       - name: Generate warning report
         run: bun run build-warnings
