@@ -20,3 +20,15 @@ https://www.sublimelinter.com/	http://www.sublimelinter.com/en/master/
 
   This site seems to redirect to a honeypot
 https://microformats.org/	https://qltuh.check-tl-ver-{(.*)}/space-robot/{(.*)}
+
+  login redirections
+https://testingbot.com/members{(.*)}	https://testingbot.com/users/sign_in
+
+  Locale redirections
+https://www.mozilla.org/firefox/{(.*)}	https://www.mozilla.org/en-US/firefox/$1
+https://support.mozilla.org/kb/{(.+)}	https://support.mozilla.org/en-US/kb/$1
+https://addons.mozilla.org/firefox/{(.*)}	https://addons.mozilla.org/en-US/firefox/$1
+https://wikiversity.org/{(.+)}	https://en.wikiversity.org/$1
+
+  Shortened links
+https://mzl.la/{.+}	{.+}
