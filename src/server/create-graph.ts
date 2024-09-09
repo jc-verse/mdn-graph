@@ -6,7 +6,7 @@ import { load } from "cheerio";
 import matter from "gray-matter";
 import bcdData from "@mdn/browser-compat-data" with { type: "json" };
 import { getBCD } from "./utils.js";
-import { CONTENT_ROOT } from "./config.js";
+import { CONTENT_SOURCE_ROOT, BUILT_CONTENT_ROOT } from "./config.js";
 import { checkContent, postCheckContent } from "./check-content.js";
 
 const graph = createGraph();
@@ -21,7 +21,7 @@ async function* listdir(dir: string): AsyncGenerator<string> {
   }
 }
 
-for await (const file of listdir(Path.join(CONTENT_ROOT, "build/en-us/docs"))) {
+for await (const file of listdir(Path.join(BUILT_CONTENT_ROOT, "en-us/docs"))) {
   if (!file.endsWith(".json")) continue;
   const content = await Bun.file(file).json();
   if (file.endsWith("metadata.json")) {
@@ -51,8 +51,7 @@ const promises: Promise<void>[] = [];
 
 graph.forEachNode((node) => {
   const sourcePath = Path.join(
-    CONTENT_ROOT,
-    "files",
+    CONTENT_SOURCE_ROOT,
     node.data.metadata.source.folder,
     "index.md",
   );

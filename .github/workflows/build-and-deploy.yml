@@ -40,7 +40,9 @@ jobs:
 
       - name: Install dependencies for mdn/yari
         run: |
-          rm yarn.lock
+          # Don't remove lock for now, Yari code is often bad and doesn't work
+          # with latest dependencies
+          # rm yarn.lock
           yarn install
         working-directory: ./yari
 
@@ -50,23 +52,24 @@ jobs:
           yarn install
         working-directory: ./content
 
-      - name: Build mdn/content
-        run: |
-          echo "CONTENT_ROOT=../content/files" > .env
-          yarn build --nohtml
-        working-directory: ./yari
-
       - name: Install dependencies for this repo
         run: |
           bun install
           bun update @mdn/browser-compat-data
         working-directory: ./mdn-graph
 
+      - name: Build mdn/content
+        run: |
+          echo "CONTENT_ROOT=../content/files" > .env
+          yarn build:prepare
+          yarn build --nohtml
+        working-directory: ./yari
+
       - name: Build MDN graph
         run: bun run build-graph
         working-directory: ./mdn-graph
         env:
-          CONTENT_ROOT: ../yari/client
+          BUILT_CONTENT_ROOT: ../yari/client/build
 
       - name: Generate warning report
         run: bun run build-warnings
