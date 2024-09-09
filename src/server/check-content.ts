@@ -173,26 +173,34 @@ export function checkContent(
       }
     }
   });
-  $("code").each((i, code) => {
+  $("code:not(pre code), a:not(pre a)").each((i, code) => {
     const textBefore = getSurroundingText(code, $, "previous");
     const textAfter = getSurroundingText(code, $, "next");
-    if (/^(?!'s)['"]/.test(textAfter) || /['"]$/.test(textBefore)) {
+    if (
+      code.tagName === "code" &&
+      (/^(?!'s)['"]/.test(textAfter) || /['"]$/.test(textBefore))
+    ) {
       report("Quoted code", $(code).text());
     } else if (
       textAfter &&
-      !/^([\s.,?!:;…—–\-"')/]|e?s\b|th\b|⚠️)/.test(textAfter)
+      !/^([\s.,?!:;…—–\-"')/]|e?s\b|th\b|⚠️)/.test(textAfter) &&
+      !(code.tagName === "a" && $(code).text().endsWith(" "))
     ) {
       report(
-        "Text stuck to code",
+        "Text stuck to code/link",
         $(code).text(),
-        "Text after:",
+        `Text after ${code.tagName === "a" ? "link" : "code"}:`,
         textAfter.slice(0, 50),
       );
-    } else if (textBefore && !/[\s—–\-"'(/±]$/.test(textBefore)) {
+    } else if (
+      textBefore &&
+      !/[\s—–\-"'(/±]$/.test(textBefore) &&
+      !(code.tagName === "a" && $(code).text().startsWith(" "))
+    ) {
       report(
-        "Text stuck to code",
+        "Text stuck to code/link",
         $(code).text(),
-        "Text before:",
+        `Text before ${code.tagName === "a" ? "link" : "code"}:`,
         textBefore.slice(-50),
       );
     }

@@ -240,7 +240,6 @@
 /en-US/docs/Web/CSS/@media/vertical-viewport-segments
 /en-US/docs/Web/CSS/@media/video-color-gamut
 
-/en-US/docs/Web/CSS/At-rule_functions
 /en-US/docs/Web/CSS/align
 /en-US/docs/Web/CSS/any-value
 /en-US/docs/Web/CSS/background-position-block
@@ -265,7 +264,6 @@
 /en-US/docs/Web/CSS/declaration-value
 /en-US/docs/Web/CSS/dimension-unit
 /en-US/docs/Web/CSS/ending-shape
-/en-US/docs/Web/CSS/example-property
 /en-US/docs/Web/CSS/function-token
 /en-US/docs/Web/CSS/glyph-orientation-horizontal
 /en-US/docs/Web/CSS/hash-token
@@ -283,7 +281,6 @@
 /en-US/docs/Web/CSS/outline-line-style
 /en-US/docs/Web/CSS/page-size
 /en-US/docs/Web/CSS/palette-identifier
-/en-US/docs/Web/CSS/position-try-options
 /en-US/docs/Web/CSS/progress
 /en-US/docs/Web/CSS/qualified-rule-list
 /en-US/docs/Web/CSS/ruby-merge
@@ -300,13 +297,10 @@
 /en-US/docs/Web/CSS/user-input
 /en-US/docs/Web/CSS/zero
 
-/en-US/docs/Web/HTTP/Connection_management_in_HTTP_2
-/en-US/docs/Web/HTTP/Frame_and_message_structure_in_HTTP_2
 /en-US/docs/Web/HTTP/Headers/Accept-Push-Policy
 /en-US/docs/Web/HTTP/Headers/Accept-Signature
 /en-US/docs/Web/HTTP/Headers/Origin-Isolation
 /en-US/docs/Web/HTTP/Headers/Push-Policy
-/en-US/docs/Web/HTTP/Headers/Refresh
 /en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Form-Factor
 /en-US/docs/Web/HTTP/Headers/Sec-CH-UA-WoW64
 /en-US/docs/Web/HTTP/Headers/Sec-WebSocket-Extensions

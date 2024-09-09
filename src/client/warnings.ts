@@ -330,7 +330,7 @@ function displayWarnings() {
         "Missing specifications",
         "Possibly unrendered Markdown",
         "Quoted code",
-        "Text stuck to code",
+        "Text stuck to code/link",
       ].includes(message[0])
     ) {
       badContent.append(option);
