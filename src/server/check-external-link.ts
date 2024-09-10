@@ -87,7 +87,7 @@ async function checkLink(href: string) {
         // Allow if the only change is addition of queries
         hrefURL.href === res.url.split("?")[0] ||
         // Allow redirection to login
-        /\/(login|signin)\b/.test(res.url)
+        /\/(login|signin|sign_in)\b/.test(res.url)
       ) {
         return {
           type: "ok",
@@ -170,7 +170,7 @@ export function createLinkRequests(
   >();
   for (const node of nodes) {
     visitLinks: for (const link of node.data.links) {
-      if (/^https:\/\/(jsfiddle\.net|codepen\.io|jsbin\.com)\/./.test(link)) {
+      if (/^https:\/\/(jsfiddle\.net|codepen\.io|jsbin\.com|mzl\.la)\/./.test(link)) {
         report(node, "External sandbox link", link);
         continue;
       }
