@@ -20,4 +20,3 @@ https://www.sublimelinter.com/	http://www.sublimelinter.com/en/master/
 
   This site seems to redirect to a honeypot
 https://microformats.org/	https://qltuh.check-tl-ver-{(.*)}/space-robot/{(.*)}
-
