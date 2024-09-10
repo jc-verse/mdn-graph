@@ -45,6 +45,9 @@ async function checkLink(href: string) {
   try {
     const res = await fetch(href, {
       signal: AbortSignal.timeout(10000),
+      headers: {
+        "Accept-Language": "en-US",
+      },
     });
     if (!res.ok) {
       if (res.status === 429) {
@@ -170,7 +173,7 @@ export function createLinkRequests(
   >();
   for (const node of nodes) {
     visitLinks: for (const link of node.data.links) {
-      if (/^https:\/\/(jsfiddle\.net|codepen\.io|jsbin\.com|mzl\.la)\/./.test(link)) {
+      if (/^https:\/\/(jsfiddle\.net|codepen\.io|jsbin\.com)\/./.test(link)) {
         report(node, "External sandbox link", link);
         continue;
       }
@@ -211,6 +214,8 @@ export function createLinkRequests(
           "https://www.youtube.com",
           "https://youtu.be",
           "https://www.wolframalpha.com/input",
+          // URL shortners
+          "https://mzl.la",
           // Is this safe?
           "https://www.w3.org",
           "https://www.npmjs.com",
