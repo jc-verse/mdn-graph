@@ -455,7 +455,7 @@ for (const node of nodes) {
 }
 
 const commit = await $`git log -1 --format="%H %ct"`
-  .cwd(Bun.fileURLToPath(import.meta.resolve("../../../content")))
+  .cwd(Bun.fileURLToPath(import.meta.resolve(CONTENT_SOURCE_ROOT)))
   .text();
 
 await FS.writeFile("data/warnings.json", JSON.stringify(warnings, null, 2));

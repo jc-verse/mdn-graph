@@ -45,6 +45,9 @@ async function checkLink(href: string) {
   try {
     const res = await fetch(href, {
       signal: AbortSignal.timeout(10000),
+      headers: {
+        "Accept-Language": "en-US",
+      },
     });
     if (!res.ok) {
       if (res.status === 429) {
@@ -87,7 +90,7 @@ async function checkLink(href: string) {
         // Allow if the only change is addition of queries
         hrefURL.href === res.url.split("?")[0] ||
         // Allow redirection to login
-        /\/(login|signin)\b/.test(res.url)
+        /\/(login|signin|sign_in)\b/.test(res.url)
       ) {
         return {
           type: "ok",
@@ -211,6 +214,8 @@ export function createLinkRequests(
           "https://www.youtube.com",
           "https://youtu.be",
           "https://www.wolframalpha.com/input",
+          // URL shortners
+          "https://mzl.la",
           // Is this safe?
           "https://www.w3.org",
           "https://www.npmjs.com",
