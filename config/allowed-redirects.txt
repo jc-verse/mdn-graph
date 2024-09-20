@@ -17,6 +17,3 @@ https://vercel.com/import/{(\w*)}	https://vercel.com/new/clone?repository-url=ht
 
   This is weird—the HTTPS URL is redirecting to HTTP in the action runner
 https://www.sublimelinter.com/	http://www.sublimelinter.com/en/master/
-
-  This site seems to redirect to a honeypot
-https://microformats.org/	https://qltuh.check-tl-ver-{(.*)}/space-robot/{(.*)}

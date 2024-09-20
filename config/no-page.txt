@@ -303,9 +303,6 @@
 /en-US/docs/Web/HTTP/Headers/Push-Policy
 /en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Form-Factor
 /en-US/docs/Web/HTTP/Headers/Sec-CH-UA-WoW64
-/en-US/docs/Web/HTTP/Headers/Sec-WebSocket-Extensions
-/en-US/docs/Web/HTTP/Headers/Sec-WebSocket-Protocol
-/en-US/docs/Web/HTTP/Headers/Sec-WebSocket-Version
 /en-US/docs/Web/HTTP/Headers/Signature
 /en-US/docs/Web/HTTP/Headers/Signed-Headers
 /en-US/docs/Web/HTTP/Headers/X-Permitted-Cross-Domain-Policies
