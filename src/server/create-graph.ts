@@ -316,7 +316,6 @@ graph.forEachLink((link) => {
 });
 
 const unreachableViaPage = new Set<Node>(nodes);
-const unreachableViaSidebar = new Set<Node>(nodes);
 const visited = new Set<Node>();
 
 const queue = [graph.getNode("/en-US/docs/Web")];
@@ -357,7 +356,12 @@ graph.forEachNode((node) => {
 
 await FS.rmdir("sidebars", { recursive: true });
 await FS.mkdir("sidebars");
-const processedSidebars = new Map<string, string>();
+const processedSidebars = new Map<
+  string,
+  { id: number; macro: string; links: [string | undefined, string][]; includedPages: string[] }
+>();
+const pageToSidebarId = new Map<string, number>();
+let sidebarId = 0;
 
 for (const node of nodes) {
   const { sidebarHTML, sidebarMacro } = node.data;
@@ -374,13 +378,32 @@ for (const node of nodes) {
       () =>
         `<a href="${node.id}"><code>${node.data.metadata.short_title}</code></a>`,
     );
-  if (processedSidebars.has(normalizedHTML)) continue;
-  const $ = load(normalizedHTML);
-  $("a").each((i, a) => {
-    const href = $(a).attr("href")?.replace(/\/$/, "");
+  if (processedSidebars.has(normalizedHTML)) {
+    processedSidebars.get(normalizedHTML)!.includedPages.push(node.id);
+    pageToSidebarId.set(node.id, processedSidebars.get(normalizedHTML)!.id);
+    continue;
+  }
+  const $ = load(sidebarHTML);
+  const links = $("a").map((i, a) => [$(a).attr("href")?.replace(/\/$/, ""), $(a).text()]).get() as unknown as [string | undefined, string][];
+  processedSidebars.set(normalizedHTML, {
+    id: sidebarId++,
+    macro: sidebarMacro,
+    links,
+    includedPages: [node.id],
+  });
+  pageToSidebarId.set(node.id, processedSidebars.get(normalizedHTML)!.id);
+}
+
+const sidebarIds = new Map<number, { macro: string; links: [string | undefined, string][]; includedPages: string[] }>();
+for (const { id, macro, links, includedPages } of processedSidebars.values()) {
+  sidebarIds.set(id, { macro, links, includedPages });
+}
+
+for (const { macro, links, includedPages } of sidebarIds.values()) {
+  for (const [href, text] of links) {
     if (
       href &&
-      sidebarMacro === "AddonSidebar" &&
+      macro === "AddonSidebar" &&
       [
         "#",
         "https://blog.mozilla.org/addons",
@@ -392,13 +415,12 @@ for (const node of nodes) {
         "https://extensionworkshop.com/documentation/enterprise",
       ].includes(href)
     ) {
-      return;
+      continue;
     }
     if (href && href.startsWith("/en-US/")) {
       const targetNode = graph.getNode(href);
-      if (targetNode) {
-        unreachableViaSidebar.delete(targetNode);
-      } else if (
+      if (
+        !targetNode &&
         ![
           "/en-US/",
           "/en-US/curriculum/",
@@ -408,25 +430,32 @@ for (const node of nodes) {
         ].includes(href) &&
         !href.startsWith("/en-US/blog/")
       ) {
-        report(node, "Broken sidebar link", $(a).text(), href);
+        report(
+          graph.getNode(includedPages[0]!)!,
+          "Broken sidebar link",
+          text,
+          href,
+        );
       }
     } else {
-      report(node, "Bad sidebar link", $(a).text(), href);
+      report(
+        graph.getNode(includedPages[0]!)!,
+        "Bad sidebar link",
+        text,
+        href,
+      );
     }
-  });
-  processedSidebars.set(normalizedHTML, sidebarMacro);
+  }
 }
 
-const counter = new Map<string, number>();
-for (const [html, macro] of processedSidebars) {
-  const number = counter.get(macro) ?? 0;
-  counter.set(macro, number + 1);
-  await Bun.write(`sidebars/${macro}-${number}.html`, html);
+for (const node of nodes) {
+  const sidebar = sidebarIds.get(pageToSidebarId.get(node.id)!);
+  if (!sidebar) continue;
+  if (!sidebar.links.some(([href]) => href === node.id)) {
+    report(node, "Unreachable via sidebar");
+  }
 }
-
 for (const node of unreachableViaPage) report(node, "Unreachable via page");
-for (const node of unreachableViaSidebar)
-  report(node, "Unreachable via sidebar");
 
 for (const node of nodes) {
   node.data.metadata = Object.fromEntries(
