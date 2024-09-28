@@ -354,11 +354,14 @@ graph.forEachNode((node) => {
   }
 });
 
-await FS.rmdir("sidebars", { recursive: true });
-await FS.mkdir("sidebars");
 const processedSidebars = new Map<
   string,
-  { id: number; macro: string; links: [string | undefined, string][]; includedPages: string[] }
+  {
+    id: number;
+    macro: string;
+    links: { href: string | undefined; text: string }[];
+    includedPages: string[];
+  }
 >();
 const pageToSidebarId = new Map<string, number>();
 let sidebarId = 0;
@@ -384,7 +387,12 @@ for (const node of nodes) {
     continue;
   }
   const $ = load(sidebarHTML);
-  const links = $("a").map((i, a) => [$(a).attr("href")?.replace(/\/$/, ""), $(a).text()]).get() as unknown as [string | undefined, string][];
+  const links = $("a")
+    .map((i, a) => ({
+      href: $(a).attr("href")?.replace(/\/$/, ""),
+      text: $(a).text(),
+    }))
+    .get();
   processedSidebars.set(normalizedHTML, {
     id: sidebarId++,
     macro: sidebarMacro,
@@ -394,13 +402,20 @@ for (const node of nodes) {
   pageToSidebarId.set(node.id, processedSidebars.get(normalizedHTML)!.id);
 }
 
-const sidebarIds = new Map<number, { macro: string; links: [string | undefined, string][]; includedPages: string[] }>();
+const sidebarIds = new Map<
+  number,
+  {
+    macro: string;
+    links: { href: string | undefined; text: string }[];
+    includedPages: string[];
+  }
+>();
 for (const { id, macro, links, includedPages } of processedSidebars.values()) {
   sidebarIds.set(id, { macro, links, includedPages });
 }
 
 for (const { macro, links, includedPages } of sidebarIds.values()) {
-  for (const [href, text] of links) {
+  for (const { href, text } of links) {
     if (
       href &&
       macro === "AddonSidebar" &&
@@ -438,12 +453,7 @@ for (const { macro, links, includedPages } of sidebarIds.values()) {
         );
       }
     } else {
-      report(
-        graph.getNode(includedPages[0]!)!,
-        "Bad sidebar link",
-        text,
-        href,
-      );
+      report(graph.getNode(includedPages[0]!)!, "Bad sidebar link", text, href);
     }
   }
 }
@@ -451,7 +461,7 @@ for (const { macro, links, includedPages } of sidebarIds.values()) {
 for (const node of nodes) {
   const sidebar = sidebarIds.get(pageToSidebarId.get(node.id)!);
   if (!sidebar) continue;
-  if (!sidebar.links.some(([href]) => href === node.id)) {
+  if (!sidebar.links.some(({ href }) => href === node.id)) {
     report(node, "Unreachable via sidebar");
   }
 }
