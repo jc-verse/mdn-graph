@@ -7,6 +7,8 @@ const dictionaries = new Map(
   (await readConfig("dictionaries.txt")).map((x) => [x, false]),
 );
 
+const noBCD = new Map((await readConfig("no-bcd.txt")).map((x) => [x, false]));
+
 function htmlAttrToBCD(attrName: string, elemName: string) {
   if (attrName === "data-*") {
     attrName = "data_attributes";
@@ -166,7 +168,14 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
       return [`html.elements.${elemName}`];
     }
     // Mozilla/Add-ons/WebExtensions/
-    case "webextension-api-function":
+    case "webextension-api-function": {
+      const match = node.id.match(
+        /^\/en-US\/docs\/Mozilla\/Add-ons\/WebExtensions\/Content_scripts\/([^/]+)$/,
+      );
+      if (match) {
+        return [`webextensions.content_scripts.${match[1]}`];
+      }
+    }
     case "webextension-api-event":
     case "webextension-api-property":
     case "webextension-api-type": {
@@ -221,11 +230,33 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
     case "webgl-extension-method": {
       const match = node.id.match(/^\/en-US\/docs\/Web\/API\/(.+)$/);
       if (!match) return "Unexpected page type";
-      const path = dictionaryToBCD(
-        match[1]
-          .replaceAll("/", ".")
-          .replace(/^CSS\.factory_functions_static$/, "CSS"),
-      );
+      switch (match[1]) {
+        case "CSS/factory_functions_static":
+          return [`api.CSS`];
+        // These pages coalesce multiple methods into one, and only display one BCD
+        case "WebGL2RenderingContext/clearBuffer":
+          return [`api.WebGL2RenderingContext.clearBufferiv`];
+        case "WebGL2RenderingContext/samplerParameter":
+          return [`api.WebGL2RenderingContext.samplerParameteri`];
+        case "WebGL2RenderingContext/uniform":
+          return [`api.WebGL2RenderingContext.uniform1ui`];
+        case "WebGL2RenderingContext/uniformMatrix":
+          return [`api.WebGL2RenderingContext.uniformMatrix2fv`];
+        case "WebGL2RenderingContext/vertexAttribI":
+          return [`api.WebGL2RenderingContext.vertexAttribI4i`];
+        case "WebGLRenderingContext/texParameter":
+          return [
+            `api.WebGLRenderingContext.texParameterf`,
+            `api.WebGLRenderingContext.texParameteri`,
+          ];
+        case "WebGLRenderingContext/uniform":
+          return [`api.WebGLRenderingContext.uniform1f`];
+        case "WebGLRenderingContext/uniformMatrix":
+          return [`api.WebGLRenderingContext.uniformMatrix2fv`];
+        case "WebGLRenderingContext/vertexAttrib":
+          return [`api.WebGLRenderingContext.vertexAttrib1f`];
+      }
+      const path = dictionaryToBCD(match[1].replaceAll("/", "."));
       if (configHas(dictionaries, path.split(".")[0])) return [];
       return [`api.${path}`];
     }
@@ -521,6 +552,7 @@ export function checkBCDMatching(
     }
     const expectedExisting = expected.filter((x) => getBCD(bcdData, x));
     if (!expectedExisting.length && expected.length) {
+      if (expected.length === 1 && configHas(noBCD, expected[0]!)) continue;
       report(node, "Not in BCD", expected.join("\n"));
       continue;
     }
@@ -540,6 +572,9 @@ export function checkBCDMatching(
 
 export function postCheckBCDMatching() {
   for (const [name, used] of dictionaries) {
+    if (!used) console.warn(name, "is no longer documented");
+  }
+  for (const [name, used] of noBCD) {
     if (!used) console.warn(name, "is no longer documented");
   }
 }

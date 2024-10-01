@@ -386,7 +386,7 @@ for (const node of nodes) {
     pageToSidebarId.set(node.id, processedSidebars.get(normalizedHTML)!.id);
     continue;
   }
-  const $ = load(sidebarHTML);
+  const $ = load(normalizedHTML);
   const links = $("a")
     .map((i, a) => ({
       href: $(a).attr("href")?.replace(/\/$/, ""),
