@@ -43,6 +43,7 @@ steps(<integer>, <step-position>)
 steps(n, <jumpterm>)
 
   Code:
+"display": "browser"
 "x" in obj
 FileSystemHandle.requestPermission({mode: 'readwrite'})
 Math.floor(x + 0.5)

@@ -200,7 +200,12 @@ graph.forEachNode((node) => {
   if (specURLs?.length && !node.data.specifications) {
     report(node, "Missing specifications");
   }
-  if (node.data.metadata.browserCompat && !hasBCDTable) {
+  if (
+    node.data.metadata.browserCompat &&
+    !hasBCDTable &&
+    node.id !==
+      "/en-US/docs/MDN/Writing_guidelines/Page_structures/Specification_tables"
+  ) {
     const notExist = node.data.metadata.browserCompat.some(
       (k: string) => !getBCD(bcdData, k),
     );
@@ -418,16 +423,20 @@ for (const { macro, links, includedPages } of sidebarIds.values()) {
   for (const { href, text } of links) {
     if (
       href &&
-      macro === "AddonSidebar" &&
+      ["AddonSidebar", "AddonSidebarMain", "FirefoxSidebar"].includes(macro) &&
       [
         "#",
         "https://blog.mozilla.org/addons",
         "https://discourse.mozilla.org/c/add-ons",
         "https://chat.mozilla.org/#/room/%23addons:mozilla.org",
+        "https://firefox-source-docs.mozilla.org",
+        "https://extensionworkshop.com/documentation/themes",
         "https://extensionworkshop.com/documentation/develop",
         "https://extensionworkshop.com/documentation/publish",
         "https://extensionworkshop.com/documentation/manage",
         "https://extensionworkshop.com/documentation/enterprise",
+        "https://stackoverflow.com/questions/tagged/firefox-addon",
+        "/en-US/docs/Mozilla/Add-ons#contact_us",
       ].includes(href)
     ) {
       continue;
