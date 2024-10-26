@@ -296,10 +296,8 @@
 /en-US/docs/Web/CSS/user-input
 /en-US/docs/Web/CSS/zero
 
-/en-US/docs/Web/HTTP/Headers/Accept-Push-Policy
 /en-US/docs/Web/HTTP/Headers/Accept-Signature
 /en-US/docs/Web/HTTP/Headers/Origin-Isolation
-/en-US/docs/Web/HTTP/Headers/Push-Policy
 /en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Form-Factor
 /en-US/docs/Web/HTTP/Headers/Sec-CH-UA-WoW64
 /en-US/docs/Web/HTTP/Headers/Signature

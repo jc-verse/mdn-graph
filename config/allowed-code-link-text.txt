@@ -40,7 +40,7 @@ repeat( [ <positive-integer> | auto-fill | auto-fit ] , <track-list> )
 round <'border-radius'>
 span && [ <integer> || <custom-ident> ]
 steps(<integer>, <step-position>)
-steps(n, <jumpterm>)
+steps(n, <jump-term>)
 
   Code:
 "display": "browser"
@@ -100,9 +100,13 @@ gl.COLOR_ATTACHMENT{0-15}
 gl.getProgramParameter(program, gl.ACTIVE_ATTRIBUTES)
 gl.getProgramParameter(program, gl.ACTIVE_UNIFORMS)
 
-non-standard_header
-non-standard_inline
-secureContext_header
+Deprecated_Header
+Non-standard_Header
+SecureContext_Header
+Deprecated_Inline
+Experimental_Inline
+Non-standard_Inline
+Optional_Inline
 
 declarative_net_request.rule_resources
 browser_specific_settings.gecko.id
