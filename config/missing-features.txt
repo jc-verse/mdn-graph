@@ -56,10 +56,6 @@ api.CanvasFilter.CanvasFilter
 api.CaretPosition.getClientRect
 api.CaretPosition.offset
 api.CaretPosition.offsetNode
-api.CommandEvent
-api.CommandEvent.CommandEvent
-api.CommandEvent.command
-api.CommandEvent.source
 api.Counter
 api.Counter.identifier
 api.Counter.listStyle
@@ -120,6 +116,10 @@ api.DataCue.value
 api.DataTransfer.mozCursor
 api.DataTransfer.mozSourceNode
 api.DataTransfer.mozUserCancelled
+api.DelegatedInkTrailPresenter
+api.DelegatedInkTrailPresenter.expectedImprovement
+api.DelegatedInkTrailPresenter.presentationArea
+api.DelegatedInkTrailPresenter.updateInkTrailStartPoint
 api.DevicePosture
 api.DevicePosture.type
 api.Directory
@@ -168,7 +168,6 @@ api.FileSystemHandle.move
 api.FileSystemSync.name
 api.FileSystemSync.root
 api.FontFaceSet.FontFaceSet
-api.GPUAdapter.info
 api.GPUComputePassEncoder.writeTimestamp
 api.GPURenderPassEncoder.writeTimestamp
 api.GamepadHapticActuator.canPlayEffectType
@@ -187,6 +186,7 @@ api.GestureEvent.target
 api.HTMLAnchorElement.attributionSourceId
 api.HTMLAnchorElement.charset
 api.HTMLAnchorElement.coords
+api.HTMLAnchorElement.hrefTranslate
 api.HTMLAnchorElement.name
 api.HTMLAnchorElement.rev
 api.HTMLAnchorElement.shape
@@ -202,10 +202,7 @@ api.HTMLBodyElement.bgColor
 api.HTMLBodyElement.link
 api.HTMLBodyElement.text
 api.HTMLBodyElement.vLink
-api.HTMLButtonElement.command
 api.HTMLButtonElement.commandfor
-api.HTMLButtonElement.formNoValidate
-api.HTMLButtonElement.formTarget
 api.HTMLCanvasElement.mozPrintCallback
 api.HTMLDListElement.compact
 api.HTMLDirectoryElement
@@ -217,7 +214,6 @@ api.HTMLEmbedElement.align
 api.HTMLEmbedElement.getSVGDocument
 api.HTMLEmbedElement.name
 api.HTMLEmbedElement.type
-api.HTMLFormElement.noValidate
 api.HTMLFormElement.rel
 api.HTMLFormElement.relList
 api.HTMLFrameElement
@@ -254,8 +250,6 @@ api.HTMLImageElement.lowsrc
 api.HTMLImageElement.sharedStorageWritable
 api.HTMLInputElement.align
 api.HTMLInputElement.dirName
-api.HTMLInputElement.formNoValidate
-api.HTMLInputElement.formTarget
 api.HTMLInputElement.incremental
 api.HTMLInputElement.useMap
 api.HTMLLIElement.type
@@ -314,7 +308,6 @@ api.HTMLQuoteElement.cite
 api.HTMLScriptElement.charset
 api.HTMLScriptElement.event
 api.HTMLScriptElement.htmlFor
-api.HTMLSelectElement.autocomplete
 api.HTMLSourceElement.media
 api.HTMLSourceElement.sizes
 api.HTMLSourceElement.src
@@ -473,11 +466,9 @@ api.MimeTypeArray.item
 api.MimeTypeArray.length
 api.MimeTypeArray.namedItem
 api.NDEFReader.makeReadOnly
-api.NavigateEvent.canTransition
 api.NavigateEvent.hasUAVisualTransition
 api.NavigateEvent.restoreScroll
 api.NavigateEvent.transitionWhile
-api.Navigation.activation
 api.Navigator.audioSession
 api.Navigator.authentication
 api.Navigator.devicePosture
@@ -1002,6 +993,11 @@ api.SerialPort.connected
 api.ShadowRoot.elementFromPoint
 api.ShadowRoot.elementsFromPoint
 api.ShadowRoot.getSelection
+api.SharedStorage.createWorklet
+api.SharedStorage.get
+api.SharedStorage.run
+api.SharedStorage.selectURL
+api.SharedStorage.worklet
 api.SharedStorageWorklet.run
 api.SharedStorageWorklet.selectURL
 api.SpeechRecognitionErrorEvent.SpeechRecognitionErrorEvent
@@ -1192,6 +1188,12 @@ css.selectors.volume-locked
 css.types.calc-constant
 javascript.builtins.RegExp.source.escaping
 javascript.builtins.RegExp.toString.escaping
+javascript.builtins.Uint8Array.fromBase64
+javascript.builtins.Uint8Array.fromHex
+javascript.builtins.Uint8Array.setFromBase64
+javascript.builtins.Uint8Array.setFromHex
+javascript.builtins.Uint8Array.toBase64
+javascript.builtins.Uint8Array.toHex
 http.headers.Attribution-Reporting-Support
 http.headers.Sec-CH-Save-Data
 http.headers.Snapshot-Content-Location

@@ -88,8 +88,6 @@ NPP_GetValue()
 <module specifier map>
 <significant version>
 <etag_value>
-<MIME_type>/*
-<MIME_type>/<MIME_subtype>
 
 ALLOW-FROM origin
 NPP_ClearSiteData

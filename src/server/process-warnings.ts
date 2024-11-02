@@ -76,6 +76,8 @@ for (const node of nodes) {
   Object.entries(node.data.metadata.flaws).forEach(([id, data]) => {
     data.forEach((d) => {
       if (id === "broken_links") {
+        // TODO: Yari bug
+        if (["/en-US/play", "/en-US/plus"].includes(d.href)) return;
         const correspondingWarning = nodeWarnings.find(
           (w) =>
             w.message === "Broken link" &&
@@ -87,7 +89,16 @@ for (const node of nodes) {
           return;
         }
         if (d.explanation !== "Link points to the page it's already on") {
-          console.error("Broken link not caught by warnings:", d.href);
+          // After https://github.com/mdn/yari/pull/12045, Yari no longer
+          // emits broken links with hrefs. This means that our broken link
+          // check is essentially useless. However we do want to keep the
+          // config-based exclusion mechanism, so we restore to the former
+          // state by migrating flaws to warnings.
+          nodeWarnings.push({
+            message: "Broken link",
+            data: [d.href, d.explanation.replace(d.href, "").trim()],
+          });
+          return;
         }
       } else if (id === "macros") {
         if (d.explanation.endsWith("does not exist")) {

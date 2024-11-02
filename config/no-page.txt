@@ -22,7 +22,6 @@
 /en-US/docs/Web/API/BluetoothDevice/gattserverdisconnected_event
 /en-US/docs/Web/API/BluetoothDevice/watchAdvertisements
 /en-US/docs/Web/API/BluetoothRemoteGATTCharacteristic/characteristicvaluechanged_event
-/en-US/docs/Web/API/CSSMarginRule
 /en-US/docs/Web/API/CSSNumericType
 /en-US/docs/Web/API/DOMMatrix/fromFloat32Array
 /en-US/docs/Web/API/DOMMatrix/fromFloat64Array
