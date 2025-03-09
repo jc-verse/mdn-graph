@@ -43,7 +43,7 @@ const missingFeatures = new Set(
         }
         break;
       case "webdriver":
-        if (interfac === "commands") {
+        if (interfac === "bidi" || interfac === "classic") {
           return `/en-US/docs/Web/WebDriver/Commands/${member}`;
         }
         break;
@@ -71,7 +71,7 @@ postExternalLinkCheck();
 checkBCDMatching(report);
 
 for (const node of nodes) {
-  if (Object.keys(node.data.metadata.flaws).length === 0) continue;
+  if (!node.data.metadata.flaws || Object.keys(node.data.metadata.flaws).length === 0) continue;
   const nodeWarnings = (warnings[node.data.metadata.source.folder] ??= []);
   Object.entries(node.data.metadata.flaws).forEach(([id, data]) => {
     data.forEach((d) => {

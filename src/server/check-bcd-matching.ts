@@ -63,6 +63,7 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
     // The page types are copied from front-matter-config.json
     case "guide":
     case "landing-page":
+    case "listing-page":
       // Generic pages may or may not actually be a reference
       return "ignore";
     case "how-to":
@@ -175,6 +176,7 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
       if (match) {
         return [`webextensions.content_scripts.${match[1]}`];
       }
+      // Fallthrough
     }
     case "webextension-api-event":
     case "webextension-api-property":
@@ -367,7 +369,7 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
     case "javascript-function":
     case "javascript-global-property": {
       const match = node.id.match(
-        /^\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/([^/]+|Intl\/(?:[^/]+)|Intl\/Segmenter\/segment\/Segments)$/,
+        /^\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/([^/]+|(?:Intl|Temporal)\/(?:[^/]+)|Intl\/Segmenter\/segment\/Segments)$/,
       );
       if (!match) return "Unexpected page type";
       const className = match[1]
@@ -426,7 +428,7 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
     }
     // Web/Manifest/
     case "web-manifest-member": {
-      const match = node.id.match(/^\/en-US\/docs\/Web\/Manifest\/([^/]+)$/);
+      const match = node.id.match(/^\/en-US\/docs\/Web\/Progressive_web_apps\/Manifest\/Reference\/([^/]+)$/);
       if (!match) return "Unexpected page type";
       const memberName = match[1];
       return [`html.manifest.${memberName}`];
@@ -434,12 +436,12 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
     // WebAssembly/
     case "webassembly-function":
     case "webassembly-interface": {
-      if (node.id === "/en-US/docs/WebAssembly/JavaScript_interface") {
+      if (node.id === "/en-US/docs/WebAssembly/Reference/JavaScript_interface") {
         // This page is not a "webassembly-interface" per se but it works
         return ["webassembly.api"];
       }
       const match = node.id.match(
-        /^\/en-US\/docs\/WebAssembly\/JavaScript_interface\/([^/]+)$/,
+        /^\/en-US\/docs\/WebAssembly\/Reference\/JavaScript_interface\/([^/]+)$/,
       );
       if (!match) return "Unexpected page type";
       const memberName = match[1];
@@ -450,7 +452,7 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
     case "webassembly-instance-method":
     case "webassembly-static-method": {
       const match = node.id.match(
-        /^\/en-US\/docs\/WebAssembly\/JavaScript_interface\/(.+)$/,
+        /^\/en-US\/docs\/WebAssembly\/Reference\/JavaScript_interface\/(.+)$/,
       );
       if (!match) return "Unexpected page type";
       const path = match[1].replaceAll("/", ".");
@@ -461,11 +463,11 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
     // Web/WebDriver/
     case "webdriver-command": {
       const match = node.id.match(
-        /^\/en-US\/docs\/Web\/WebDriver\/Commands\/([^/]+)$/,
+        /^\/en-US\/docs\/Web\/WebDriver\/Reference\/Commands\/([^/]+)$/,
       );
       if (!match) return "Unexpected page type";
       const commandName = match[1];
-      return [`webdriver.commands.${commandName}`];
+      return [`webdriver.classic.${commandName}`];
     }
     case "webdriver-capability": {
       return [];

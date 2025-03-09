@@ -162,7 +162,8 @@ graph.forEachNode((node) => {
       ids.push(id);
     });
     $("a:not(svg a)").each((i, a) => {
-      const href = $(a).attr("href");
+      const href = $(a).attr("href") || $(a).attr("data-href");
+      if (href?.includes("runAdAuction") || href?.includes("AsyncIterator/AsyncIterator")) console.log(node.id, href);
       if (!href) {
         report(node, "Missing href", $(a).text());
         return;

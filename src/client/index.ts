@@ -28,27 +28,60 @@ const pathToLabel = [
   ["files/en-us/web/http/", "Content:HTTP"],
   ["files/en-us/web/javascript/", "Content:JS"],
   [
-    "files/en-us/learn/tools_and_testing/client-side_javascript_frameworks/",
+    "files/en-us/learn_web_development/core/accessibility/",
+    "Content:Learn:Accessibility",
+  ],
+  [
+    "files/en-us/learn_web_development/core/frameworks_libraries/",
     "Content:Learn:Client-side",
   ],
   [
-    "files/en-us/learn/tools_and_testing/understanding_client-side_tools/",
+    "files/en-us/learn_web_development/extensions/client-side_apis/",
     "Content:Learn:Client-side",
   ],
   [
-    "files/en-us/learn/tools_and_testing/cross_browser_testing/",
+    "files/en-us/learn_web_development/extensions/client-side_tools/",
+    "Content:Learn:Client-side",
+  ],
+  [
+    "files/en-us/learn_web_development/extensions/testing/",
     "Content:Learn:Cross-Browser-Testing",
   ],
-  ["files/en-us/learn/css", "Content:Learn:CSS"],
-  ["files/en-us/learn/server-side/django", "Content:Learn:Django"],
-  ["files/en-us/learn/server-side/express_nodejs/", "Content:Learn:Express"],
-  ["files/en-us/learn/forms/", "Content:Learn:Forms"],
-  ["files/en-us/learn/tools_and_testing/github/", "Content:Learn:GitHub"],
-  ["files/en-us/learn/html/", "Content:Learn:HTML"],
-  ["files/en-us/learn/javascript/", "Content:Learn:JavaScript"],
-  ["files/en-us/learn/", "Content:Learn"],
-  ["files/en-us/tutorials/", "Content:Learn"],
-  ["files/en-us/web/manifest/", "Content:Manifest"],
+  [
+    "files/en-us/learn_web_development/core/styling_basics/",
+    "Content:Learn:CSS",
+  ],
+  ["files/en-us/learn_web_development/core/text_styling/", "Content:Learn:CSS"],
+  ["files/en-us/learn_web_development/core/css_layout/", "Content:Learn:CSS"],
+  [
+    "files/en-us/learn_web_development/extensions/server-side/django/",
+    "Content:Learn:Django",
+  ],
+  [
+    "files/en-us/learn_web_development/extensions/server-side/express_nodejs/",
+    "Content:Learn:Express",
+  ],
+  [
+    "files/en-us/learn_web_development/extensions/forms/",
+    "Content:Learn:Forms",
+  ],
+  [
+    "files/en-us/learn_web_development/core/structuring_content/",
+    "Content:Learn:HTML",
+  ],
+  [
+    "files/en-us/learn_web_development/core/scripting/",
+    "Content:Learn:JavaScript",
+  ],
+  [
+    "files/en-us/learn_web_development/extensions/advanced_javascript_objects/",
+    "Content:Learn:JavaScript",
+  ],
+  [
+    "files/en-us/learn_web_development/extensions/async_js/",
+    "Content:Learn:JavaScript",
+  ],
+  ["files/en-us/learn_web_development/", "Content:Learn"],
   ["files/en-us/web/mathml/", "Content:MathML"],
   ["files/en-us/web/media/", "Content:Media"],
   ["files/en-us/mdn/", "Content:Meta"],
@@ -62,48 +95,45 @@ const pathToLabel = [
 ];
 
 const colorMap = {
-  "Content:CSS": "0069c2",
-  "Content:HTML": "d30038",
-  "Content:WebExt": "442be5",
-  "Content:WebAPI": "f204a7",
-  "Content:JS": "cfc100",
-  "Content:Learn": "5846ba",
-  "Content:Other": "9adaf9",
-  "Content:HTTP": "AAE890",
-  "Content:DevTools": "000000",
   "Content:Accessibility": "65AFC3",
-  "Content:SVG": "0052CC",
-  "Content:Media": "592477",
+  "Content:CSS": "0069c2",
+  "Content:DevTools": "000000",
+  "Content:Events": "67366C",
+  "Content:Firefox": "8A6948",
+  "Content:Games": "A3AFA3",
+  "Content:Glossary": "C2E0C6",
+  "Content:HTML": "d30038",
+  "Content:HTTP": "AAE890",
+  "Content:JS": "cfc100",
+  "Content:Learn:Accessibility": "ededed",
+  "Content:Learn:Client-side": "306B93",
+  "Content:Learn:Cross-Browser-Testing": "ededed",
+  "Content:Learn:CSS": "92C2C1",
   "Content:Learn:Django": "BFDADC",
   "Content:Learn:Express": "5C3B16",
-  "Content:wasm": "29ED02",
-  "Content:MathML": "BEDBB2",
-  "Content:Glossary": "C2E0C6",
-  "Content:WebDriver": "d93f0b",
-  "Content:Games": "A3AFA3",
-  "Content:Performance": "F04AD9",
-  "Content:Guide": "bfd4f2",
-  "Content:Events": "67366C",
-  "Content:Security": "0052cc",
-  "Content:Learn:Client-side": "306B93",
-  "Content:Learn:JavaScript": "F299BF",
-  "Content:Firefox": "8A6948",
-  "Content:Meta": "c5def5",
-  "Content:Learn:CSS": "92C2C1",
-  "Content:Learn:HTML": "ededed",
-  "Content:Learn:Accessibility": "ededed",
   "Content:Learn:Forms": "ededed",
-  "Content:Manifest": "ededed",
-  "Content:Learn:Cross-Browser-Testing": "ededed",
+  "Content:Learn:HTML": "ededed",
+  "Content:Learn:JavaScript": "F299BF",
+  "Content:Learn": "F26F8C",
+  "Content:MathML": "BEDBB2",
+  "Content:Media": "592477",
+  "Content:Meta": "c5def5",
+  "Content:Other": "9adaf9",
+  "Content:Performance": "F04AD9",
   "Content:PWA": "41AEE3",
-  "Content:Learn:GitHub": "ededed",
+  "Content:Security": "0052cc",
+  "Content:SVG": "0052CC",
+  "Content:wasm": "29ED02",
+  "Content:WebAPI": "f204a7",
+  "Content:WebDriver": "d93f0b",
+  "Content:WebExt": "442be5",
 };
 
 renderGraph(graph, {
   node(n) {
     const label =
       pathToLabel.find(([path]) =>
-        `files/${n.data.metadata.source.folder}`.startsWith(path),
+        `files/${n.data.metadata.source.folder}`.startsWith(path)
       )?.[1] ?? "Content:Other";
     return {
       color: parseInt(colorMap[label] ?? colorMap["Content:Other"], 16),
@@ -117,17 +147,17 @@ renderGraph(graph, {
     const sourceLabel =
       pathToLabel.find(([path]) =>
         `files/${fromNode.data.metadata.source.folder}/index.md`.startsWith(
-          path,
-        ),
+          path
+        )
       )?.[1] ?? "Content:Other";
     const targetLabel =
       pathToLabel.find(([path]) =>
-        `files/${toNode.data.metadata.source.folder}/index.md`.startsWith(path),
+        `files/${toNode.data.metadata.source.folder}/index.md`.startsWith(path)
       )?.[1] ?? "Content:Other";
     return {
       fromColor: parseInt(
         colorMap[sourceLabel] ?? colorMap["Content:Other"],
-        16,
+        16
       ),
       toColor: parseInt(colorMap[targetLabel] ?? colorMap["Content:Other"], 16),
     };

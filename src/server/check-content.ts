@@ -13,24 +13,26 @@ const allowedSpacedCodeLink = [
   /^<xsl:[^>]+>$/,
   /^[a-z-]+="[\w .…-]+"$/,
   // JS code
-  /^(async function\*?|"use strict"|typeof [a-z]+( === "[a-z]+")?|extends null|export default|import (\* as )?\w+ from "\w+";?|(if|catch) \(\w*\)|for await\.\.\.of|\w+: "\w+"|(await|delete|void|yield\*?) \w+|\w+ (instanceof|in) \w+|\( \)|\(\w+ \? \w+ : \w+\))$/,
+  /^(async function\*?|"use strict"|typeof [a-z]+( === "[a-z]+")?|extends null|export default|import (\* as )?\w+ from "\w+";?|(if|catch) \(\w*\)|for await\.\.\.of|\w+: "\w+"|(await|delete|void|yield\*?) \w+|\w+ in \w+|\( \)|\(\w+ \? \w+ : \w+\)|(\w+ )?instanceof \w+|new [\w.]+\(\))$/,
   // Method calls with parameters. Lots of false positives but we actually
   // want to check that methods in interface DLs don't have params
   /^[\w.]+\([\w.]+(, [\w.]+)*\)$/,
   // CSS code
-  /^([a-z-]+: ([a-z-]+|\d+(px|em|vh|vw|%)|0);?|@(container|import|media|namespace|supports) [()a-z\d: -]+|transform: [\w-]+\(\);?|transform-style: [\w-]+;?)$/,
+  /^([a-z-]+: ([a-z-]+|\d+(px|em|vh|vw|%)|0);?|@(container|import|media|namespace|supports) [()a-z\d: -]+|transform: [\w-]+\(\);?|transform-style: [\w-]+;?|flex-grow: \d+)$/,
   // Shell commands
   /^(ng|npm) [a-z\d]+$/,
   // HTTP status
   /^\d+ [\w '-]+$/,
   // HTTP header
-  /^(Accept-Ranges|Cache-Control|Clear-Site-Data|Connection|Content-Length|Content-Security-Policy|Cross-Origin-Opener-Policy|Cross-Origin-Resource-Policy|Expect|Feature-Policy|Permissions-Policy|Sec-Purpose|Transfer-Encoding): ([\w-]+|"[\w-]+")$/,
+  /^(Accept-Ranges|Cache-Control|Clear-Site-Data|Connection|Content-Length|Content-Security-Policy|Cross-Origin-Opener-Policy|Cross-Origin-Resource-Policy|Expect|Feature-Policy|Permissions-Policy|Sec-Purpose|Transfer-Encoding|Vary): ([\w-]+|"[\w-]+")$/,
   // MIME
   /^[a-z]+\/[\w+-]+; [a-z]+=("[\w ,.-]+"|\w+);?$/,
   // Macro calls
   /^\{\{[^}]+\}\}$/,
   // PAC stuff
   /^(HTTP|HTTPS|PROXY|SOCKS|SOCKS4)/,
+  // Wasm JS builtins
+  /^"wasm:js-string" "\w+"$/,
   // TODO: this is probably bad (CSS reference uses this syntax)
   /^[a-z-]+(?:\(\))? \(@[a-z-]+\)$|^::([a-z-]+) \(:\1\)$/,
 ];

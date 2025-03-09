@@ -55,24 +55,24 @@ Object.hasOwn(element.dataset, 'keyname')
 Promise.try(() => value)
 ReadableStream.getReader({mode: 'byob'})
 String.prototype.split(" ")
+SVG_FECOMPONENTTRANSFER_TYPE_*
 arr.concat([element0, element1, /* ... ,*/ elementN])
 arr.slice(0, -1)
 canvas.getContext('2d', { alpha: false })
 canvas.toDataURL('image/jpeg', quality)
 concat([v1, v2])
 contain-intrinsic-size: auto none
-cubic-bezier(0, 0, 1, 1)
 cubic-bezier(p1, p2, p3, p4)
 delete obj.x
 for each...in
 import ... with { type: "css" }
-instanceof Array
 minmax(auto, max-content)
 navigation.entries().length - 1
 navigator.credentials.create({publicKey: ..., ...})
 navigator.credentials.get({otp: ..., ...})
 navigator.credentials.get({publicKey: ..., ...})
 new Proxy(target, handler)
+preferCurrentTab: true
 slice(0, -1)
 tabs.query({active: true})
 tabs.query({currentWindow: true})
@@ -85,11 +85,19 @@ NPP_GetValue()
   Other stuff:
 <all_urls>
 <full version>
+<hashed key>
 <module specifier map>
 <significant version>
 <etag_value>
+'nonce-<nonce_value>'
+'<hash_algorithm>-<hash_value>'
+[time_zone_id]
+max-snippet: <number>
+max-image-preview: <setting>
+max-video-preview: <number>
+unavailable_after: <date/time>
+1; mode=block
 
-ALLOW-FROM origin
 NPP_ClearSiteData
 element id
 session id
@@ -105,6 +113,9 @@ Deprecated_Inline
 Experimental_Inline
 Non-standard_Inline
 Optional_Inline
+{{JSRef("<JS_topic>")}}
+block_ID
 
 declarative_net_request.rule_resources
 browser_specific_settings.gecko.id
+storage.managed_schema

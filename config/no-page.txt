@@ -3,19 +3,14 @@
   it should be removed from this file so the broken link can be fixed.
   Use two-space indent for comments.
 
-/en-US/docs/Glossary/IME
 /en-US/docs/Glossary/IP
 /en-US/docs/Glossary/SMIL
 /en-US/docs/Glossary/binary
 /en-US/docs/Glossary/contextual_forms
 /en-US/docs/Glossary/dictionary_attack
-/en-US/docs/Glossary/dominant_baseline
 /en-US/docs/Glossary/ideographic
 /en-US/docs/Glossary/interface
 /en-US/docs/Glossary/kerning
-
-/en-US/docs/Learn/Performance/Fonts
-/en-US/docs/Learn/Performance/Mobile
 
 /en-US/docs/Web/API/AnimationWorklet
 /en-US/docs/Web/API/BluetoothDevice/forget
@@ -26,7 +21,6 @@
 /en-US/docs/Web/API/DOMMatrix/fromFloat32Array
 /en-US/docs/Web/API/DOMMatrix/fromFloat64Array
 /en-US/docs/Web/API/DOMMatrix/fromMatrix
-/en-US/docs/Web/API/DOMMatrix/scaleNonUniformSelf
 /en-US/docs/Web/API/DOMMatrixReadOnly/fromFloat32Array
 /en-US/docs/Web/API/DOMMatrixReadOnly/fromFloat64Array
 /en-US/docs/Web/API/DOMMatrixReadOnly/fromMatrix
@@ -52,7 +46,6 @@
 /en-US/docs/Web/API/Navigator/receiver
 /en-US/docs/Web/API/Navigator/runAdAuction
 /en-US/docs/Web/API/Navigator/standalone
-/en-US/docs/Web/API/Performance_API/Element_timing
 /en-US/docs/Web/API/PresentationAvailability/change_event
 /en-US/docs/Web/API/PresentationConnection/close_event
 /en-US/docs/Web/API/PresentationConnection/connect_event
@@ -62,7 +55,6 @@
 /en-US/docs/Web/API/PrivateAggregation/contributeToHistogramOnEvent
 
 /en-US/docs/Web/API/RTCAudioReceiverStats
-/en-US/docs/Web/API/RTCAudioSenderStats
 /en-US/docs/Web/API/RTCCertificateExpiration
 /en-US/docs/Web/API/RTCCodecStats/codec
 /en-US/docs/Web/API/RTCDtlsTransport/onerror
@@ -71,43 +63,23 @@
 /en-US/docs/Web/API/RTCIdentityProvider
 /en-US/docs/Web/API/RTCIdentityProviderRegistrar
 /en-US/docs/Web/API/RTCInboundRtpStreamStats/audioLevel
-/en-US/docs/Web/API/RTCInboundRtpStreamStats/codecId
-/en-US/docs/Web/API/RTCInboundRtpStreamStats/framesEncoded
 /en-US/docs/Web/API/RTCInboundRtpStreamStats/jitter
-/en-US/docs/Web/API/RTCInboundRtpStreamStats/kind
 /en-US/docs/Web/API/RTCInboundRtpStreamStats/packetsDiscarded
 /en-US/docs/Web/API/RTCInboundRtpStreamStats/packetsLost
 /en-US/docs/Web/API/RTCInboundRtpStreamStats/packetsReceived
-/en-US/docs/Web/API/RTCInboundRtpStreamStats/packetsSent
-/en-US/docs/Web/API/RTCInboundRtpStreamStats/retransmittedPacketsSent
-/en-US/docs/Web/API/RTCInboundRtpStreamStats/ssrc
 /en-US/docs/Web/API/RTCInboundRtpStreamStats/totalAudioEnergy
 /en-US/docs/Web/API/RTCInboundRtpStreamStats/totalSamplesDuration
-/en-US/docs/Web/API/RTCInboundRtpStreamStats/transportId
-/en-US/docs/Web/API/RTCMediaStreamTrackStats
-/en-US/docs/Web/API/RTCOutboundRtpStreamStats/qualityLimitationDurations
-/en-US/docs/Web/API/RTCOutboundRtpStreamStats/retransmittedBytesSent
-/en-US/docs/Web/API/RTCOutboundRtpStreamStats/retransmittedPacketsSent
-/en-US/docs/Web/API/RTCOutboundRtpStreamStats/senderId
-/en-US/docs/Web/API/RTCOutboundRtpStreamStats/targetBitrate
-/en-US/docs/Web/API/RTCOutboundRtpStreamStats/totalEncodeTime
-/en-US/docs/Web/API/RTCOutboundRtpStreamStats/totalEncodedBytesTarget
 /en-US/docs/Web/API/RTCPeerConnect/setConfiguration
 /en-US/docs/Web/API/RTCPeerConnection/removetrack_event
 /en-US/docs/Web/API/RTCReceivedRtpStreamStats/framesDecoded
 /en-US/docs/Web/API/RTCReceiverAudioTrackAttachmentStats
 /en-US/docs/Web/API/RTCReceiverVideoTrackAttachmentStats
 /en-US/docs/Web/API/RTCRtcpParameters
-/en-US/docs/Web/API/RTCSenderAudioTrackAttachmentStats
-/en-US/docs/Web/API/RTCSenderVideoTrackAttachmentStats
-/en-US/docs/Web/API/RTCSentRtpStreamStats
 /en-US/docs/Web/API/RTCSentRtpStreamStats/bytesSent
 /en-US/docs/Web/API/RTCSentRtpStreamStats/framesEncoded
 /en-US/docs/Web/API/RTCSentRtpStreamStats/packetsSent
 /en-US/docs/Web/API/RTCTransportStats/selectedCandidatePairId
 /en-US/docs/Web/API/RTCVideoReceiverStats
-/en-US/docs/Web/API/RTCVideoSenderStats
-/en-US/docs/Web/API/SFrameTransform
 
 /en-US/docs/Web/API/SVGAElement/hash
 /en-US/docs/Web/API/SVGAElement/host
@@ -130,9 +102,6 @@
 /en-US/docs/Web/API/SVGFECompositeElement/type
 /en-US/docs/Web/API/SVGFECompositeElement/values
 /en-US/docs/Web/API/SVGFEImageElement/crossOrigin
-/en-US/docs/Web/API/SVGFESpotLightElement/pointAtX
-/en-US/docs/Web/API/SVGFESpotLightElement/pointAtY
-/en-US/docs/Web/API/SVGFESpotLightElement/pointAtZ
 /en-US/docs/Web/API/SVGPathSegArcAbs
 /en-US/docs/Web/API/SVGPathSegArcRel
 /en-US/docs/Web/API/SVGPathSegClosePath
@@ -175,16 +144,12 @@
 /en-US/docs/Web/API/XRPermissionStatus
 
 /en-US/docs/Web/CSS/-moz-alt-content
-/en-US/docs/Web/CSS/-moz-box
-/en-US/docs/Web/CSS/-moz-inline-box
 /en-US/docs/Web/CSS/-webkit-border-after
 /en-US/docs/Web/CSS/-webkit-border-before-color
 /en-US/docs/Web/CSS/-webkit-border-before-style
 /en-US/docs/Web/CSS/-webkit-border-before-width
 /en-US/docs/Web/CSS/-webkit-border-end
 /en-US/docs/Web/CSS/-webkit-border-start
-/en-US/docs/Web/CSS/-webkit-box
-/en-US/docs/Web/CSS/-webkit-inline-box
 /en-US/docs/Web/CSS/:-moz-full-screen-ancestor
 /en-US/docs/Web/CSS/:-moz-lwtheme
 /en-US/docs/Web/CSS/:-moz-lwtheme-brighttext
@@ -192,9 +157,6 @@
 /en-US/docs/Web/CSS/:-moz-native-anonymous
 /en-US/docs/Web/CSS/:-moz-read-only
 /en-US/docs/Web/CSS/:-moz-read-write
-/en-US/docs/Web/CSS/:-moz-tree-checkbox
-/en-US/docs/Web/CSS/:-moz-tree-image
-/en-US/docs/Web/CSS/:-moz-tree-twisty
 /en-US/docs/Web/CSS/::-moz-anonymous-block
 /en-US/docs/Web/CSS/::-moz-anonymous-positioned-block
 /en-US/docs/Web/CSS/::-moz-canvas
@@ -296,16 +258,10 @@
 /en-US/docs/Web/CSS/zero
 
 /en-US/docs/Web/HTTP/Headers/Accept-Signature
-/en-US/docs/Web/HTTP/Headers/Origin-Isolation
-/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Form-Factor
-/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-WoW64
 /en-US/docs/Web/HTTP/Headers/Signature
 /en-US/docs/Web/HTTP/Headers/Signed-Headers
-/en-US/docs/Web/HTTP/Headers/X-Permitted-Cross-Domain-Policies
-/en-US/docs/Web/HTTP/Headers/X-Powered-By
-/en-US/docs/Web/HTTP/Headers/X-Robots-Tag
 
-/en-US/docs/Web/JavaScript/Reference/AsyncIterator/AsyncIterator
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/AsyncIterator/AsyncIterator
 
 /en-US/docs/Web/MathML/Element/style
 
@@ -324,16 +280,6 @@
 
   https://svgwg.org/svg2-draft/painting.html
 /en-US/docs/Web/SVG/Attribute/marker
-
-  https://github.com/mdn/browser-compat-data/issues/24053
-/en-US/docs/Web/SVG/Attribute/color-rendering
-
-  https://drafts.fxtf.org/filter-effects/
-/en-US/docs/Web/SVG/Attribute/pointAtX
-/en-US/docs/Web/SVG/Attribute/pointAtY
-/en-US/docs/Web/SVG/Attribute/pointAtZ
-/en-US/docs/Web/SVG/Attribute/stdDeviationX
-/en-US/docs/Web/SVG/Attribute/stdDeviationY
 
 /en-US/docs/Web/SVG/Attribute/xlink:actuate
 /en-US/docs/Web/SVG/Attribute/xlink:role
@@ -370,10 +316,8 @@
 /en-US/docs/Web/WebDriver/Errors/UnsupportedOperation
 /en-US/docs/Web/WebDriver/Response
 /en-US/docs/Web/WebDriver/SetWindowRect
-/en-US/docs/Web/WebDriver/Types
 /en-US/docs/Web/WebDriver/WebElement
 /en-US/docs/Web/WebDriver/WebWindow
 /en-US/docs/Web/WebDriver/WindowRect
 
 /en-US/docs/Web/XSLT/Element/for-each-group
-/en-US/docs/WebAssembly/Caching_modules
