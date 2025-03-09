@@ -428,7 +428,9 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
     }
     // Web/Manifest/
     case "web-manifest-member": {
-      const match = node.id.match(/^\/en-US\/docs\/Web\/Progressive_web_apps\/Manifest\/Reference\/([^/]+)$/);
+      const match = node.id.match(
+        /^\/en-US\/docs\/Web\/Progressive_web_apps\/Manifest\/Reference\/([^/]+)$/,
+      );
       if (!match) return "Unexpected page type";
       const memberName = match[1];
       return [`html.manifest.${memberName}`];
@@ -436,7 +438,9 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
     // WebAssembly/
     case "webassembly-function":
     case "webassembly-interface": {
-      if (node.id === "/en-US/docs/WebAssembly/Reference/JavaScript_interface") {
+      if (
+        node.id === "/en-US/docs/WebAssembly/Reference/JavaScript_interface"
+      ) {
         // This page is not a "webassembly-interface" per se but it works
         return ["webassembly.api"];
       }

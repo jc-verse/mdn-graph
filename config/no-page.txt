@@ -43,8 +43,6 @@
 /en-US/docs/Web/API/MediaTrackConstraints/resizeMode
 /en-US/docs/Web/API/MediaTrackSettings/resizeMode
 /en-US/docs/Web/API/MediaTrackSupportedConstraints/resizeMode
-/en-US/docs/Web/API/Navigator/receiver
-/en-US/docs/Web/API/Navigator/runAdAuction
 /en-US/docs/Web/API/Navigator/standalone
 /en-US/docs/Web/API/PresentationAvailability/change_event
 /en-US/docs/Web/API/PresentationConnection/close_event

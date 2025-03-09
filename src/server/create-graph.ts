@@ -163,7 +163,6 @@ graph.forEachNode((node) => {
     });
     $("a:not(svg a)").each((i, a) => {
       const href = $(a).attr("href") || $(a).attr("data-href");
-      if (href?.includes("runAdAuction") || href?.includes("AsyncIterator/AsyncIterator")) console.log(node.id, href);
       if (!href) {
         report(node, "Missing href", $(a).text());
         return;
@@ -462,7 +461,17 @@ for (const { macro, links, includedPages } of sidebarIds.values()) {
           href,
         );
       }
-    } else {
+    } else if (
+      ![
+        "https://mozdevs.github.io/html5-games-workshop/en/guides/platformer/start-here",
+        "https://extensionworkshop.com/documentation/",
+        "https://discourse.mozilla.org/c/add-ons",
+        "https://blog.mozilla.org/addons",
+        "https://stackoverflow.com/questions/tagged/firefox-addon",
+        "https://chat.mozilla.org/#/room/",
+        "https://firefox-source-docs.mozilla.org",
+      ].some((url) => href?.startsWith(url))
+    ) {
       report(graph.getNode(includedPages[0]!)!, "Bad sidebar link", text, href);
     }
   }

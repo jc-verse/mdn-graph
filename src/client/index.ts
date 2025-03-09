@@ -133,7 +133,7 @@ renderGraph(graph, {
   node(n) {
     const label =
       pathToLabel.find(([path]) =>
-        `files/${n.data.metadata.source.folder}`.startsWith(path)
+        `files/${n.data.metadata.source.folder}`.startsWith(path),
       )?.[1] ?? "Content:Other";
     return {
       color: parseInt(colorMap[label] ?? colorMap["Content:Other"], 16),
@@ -147,17 +147,17 @@ renderGraph(graph, {
     const sourceLabel =
       pathToLabel.find(([path]) =>
         `files/${fromNode.data.metadata.source.folder}/index.md`.startsWith(
-          path
-        )
+          path,
+        ),
       )?.[1] ?? "Content:Other";
     const targetLabel =
       pathToLabel.find(([path]) =>
-        `files/${toNode.data.metadata.source.folder}/index.md`.startsWith(path)
+        `files/${toNode.data.metadata.source.folder}/index.md`.startsWith(path),
       )?.[1] ?? "Content:Other";
     return {
       fromColor: parseInt(
         colorMap[sourceLabel] ?? colorMap["Content:Other"],
-        16
+        16,
       ),
       toColor: parseInt(colorMap[targetLabel] ?? colorMap["Content:Other"], 16),
     };
