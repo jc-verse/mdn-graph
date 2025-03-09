@@ -214,7 +214,7 @@ export function createLinkRequests(
           "https://www.youtube.com",
           "https://youtu.be",
           "https://www.wolframalpha.com/input",
-          // URL shortners
+          // URL shorteners
           "https://mzl.la",
           // Is this safe?
           "https://www.w3.org",
