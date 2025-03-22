@@ -16,10 +16,10 @@ export default async function processWarnings(fast: boolean = false) {
       data,
     });
   }  
-  const warnings = await import("../../data/warnings.json", {
+  const { default: warnings } = await import("../../data/warnings.json", {
     with: { type: "json" },
   });
-  const nodes = await import("../../data/nodes.json", {
+  const { default: nodes } = await import("../../data/nodes.json", {
     with: { type: "json" },
   });
   
