@@ -119,3 +119,7 @@ block_ID
 declarative_net_request.rule_resources
 browser_specific_settings.gecko.id
 storage.managed_schema
+
+first baseline	/en-US/docs/Web/CSS/baseline-position
+last baseline	/en-US/docs/Web/CSS/baseline-position
+string text	/en-US/docs/Web/JavaScript/Reference/Template_literals

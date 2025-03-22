@@ -162,6 +162,7 @@ export function checkContent(
         code.includes(" ") &&
         !allowedSpacedCodeLink.some((re) => re.test(code)) &&
         !configHas(allowedCodeLinkTextRec, code) &&
+        !configHas(allowedCodeLinkTextRec, `${code}\t${context.slug}`) &&
         // Canvas tutorial uses example code in DL, not worth fixing
         !context.slug.includes("Canvas_API/Tutorial")
       ) {
@@ -169,7 +170,8 @@ export function checkContent(
       } else if (
         code.includes("_") &&
         !allowedUnderscoreCodeLink.some((re) => re.test(code)) &&
-        !configHas(allowedCodeLinkTextRec, code)
+        !configHas(allowedCodeLinkTextRec, code) &&
+        !configHas(allowedCodeLinkTextRec, `${code}\t${context.slug}`)
       ) {
         report("Code with underscore", code);
       }

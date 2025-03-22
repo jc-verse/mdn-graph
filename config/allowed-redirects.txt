@@ -17,3 +17,6 @@ https://vercel.com/import/{(\w*)}	https://vercel.com/new/clone?repository-url=ht
 
   This is weird—the HTTPS URL is redirecting to HTTP in the action runner
 https://www.sublimelinter.com/	http://www.sublimelinter.com/en/master/
+
+https://github.com/mdn/curriculum/releases/latest/download/MDN-Curriculum.pdf	https://objects.githubusercontent.com/github-production-release-asset-{.+}
+https://github.com/{([^/]+)}/{([^/]+)}/archive/{(\w+)}.zip	https://codeload.github.com/$1/$2/zip/refs/heads/$3

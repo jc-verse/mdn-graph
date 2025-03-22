@@ -121,7 +121,6 @@ api.FontFaceSet.FontFaceSet
 api.GPUAdapterInfo.subgroupMaxSize
 api.GPUAdapterInfo.subgroupMinSize
 api.GPUComputePassEncoder.writeTimestamp
-api.GPUDevice.adapterInfo
 api.GPURenderPassEncoder.writeTimestamp
 api.GamepadHapticActuator.canPlayEffectType
 api.GestureEvent.altKey
@@ -541,7 +540,13 @@ api.SVGPathElement.createSVGPathSegLinetoVerticalAbs
 api.SVGPathElement.createSVGPathSegLinetoVerticalRel
 api.SVGPathElement.createSVGPathSegMovetoAbs
 api.SVGPathElement.createSVGPathSegMovetoRel
+api.SVGPathElement.getPathData
 api.SVGPathElement.getPathSegAtLength
+api.SVGPathElement.getPathSegmentAtLength
+api.SVGPathElement.getPointAtLength
+api.SVGPathElement.getTotalLength
+api.SVGPathElement.pathLength
+api.SVGPathElement.setPathData
 api.SVGPoint.matrixTransform
 api.SVGPoint.x
 api.SVGPoint.y
@@ -745,7 +750,10 @@ css.properties.text-autospace
 css.properties.view-transition-class
 css.selectors.active-view-transition
 css.selectors.active-view-transition-type
+css.selectors.checkmark
 css.selectors.closed
+css.selectors.picker
+css.selectors.picker-icon
 css.selectors.scroll-marker
 css.selectors.scroll-marker-group
 css.selectors.target-current
@@ -758,7 +766,6 @@ javascript.builtins.AsyncDisposableStack.disposeAsync
 javascript.builtins.AsyncDisposableStack.disposed
 javascript.builtins.AsyncDisposableStack.move
 javascript.builtins.AsyncDisposableStack.use
-javascript.builtins.Atomics.pause
 javascript.builtins.DisposableStack
 javascript.builtins.DisposableStack.DisposableStack
 javascript.builtins.DisposableStack.adopt
@@ -774,6 +781,7 @@ javascript.builtins.SuppressedError.SuppressedError
 javascript.builtins.Symbol.asyncDispose
 javascript.builtins.Symbol.dispose
 javascript.statements.using
+html.elements.selectedcontent
 http.headers.Attribution-Reporting-Support
 http.headers.Snapshot-Content-Location
 webassembly.BigInt-to-i64-integration
