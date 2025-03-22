@@ -1,6 +1,4 @@
 import type { Node } from "ngraph.graph";
-import warnings from "../../data/warnings.json" with { type: "json" };
-import nodes from "../../data/nodes.json" with { type: "json" };
 import { checkBCDMatching } from "./check-bcd-matching.js";
 import {
   createLinkRequests,
@@ -10,15 +8,21 @@ import {
 } from "./check-external-link.js";
 import { readConfig, configHas } from "./config.js";
 
-function report(node: Node, message: string, ...data: string[]) {
-  const nodeWarnings = (warnings[node.data.metadata.source.folder] ??= []);
-  nodeWarnings.push({
-    message,
-    data,
-  });
-}
-
 export default async function processWarnings(fast: boolean = false) {
+  function report(node: Node, message: string, ...data: string[]) {
+    const nodeWarnings = (warnings[node.data.metadata.source.folder] ??= []);
+    nodeWarnings.push({
+      message,
+      data,
+    });
+  }  
+  const warnings = await import("../../data/warnings.json", {
+    with: { type: "json" },
+  });
+  const nodes = await import("../../data/nodes.json", {
+    with: { type: "json" },
+  });
+  
   const missingFeatures = new Set(
     (await readConfig("missing-features.txt")).map((x) => {
       // JS has no undocumented things
@@ -60,16 +64,16 @@ export default async function processWarnings(fast: boolean = false) {
     (await readConfig("no-page.txt")).map((x) => [x, false]),
   );
 
-  const { checkedLinks, linkRequests } = createLinkRequests(report);
+  const { checkedLinks, linkRequests } = createLinkRequests(nodes, report);
   if (!fast) {
     await depleteQueue(linkRequests);
   } else {
     console.warn("Skipping external link check");
   }
-  reportBrokenLinks(report, checkedLinks);
+  reportBrokenLinks(nodes, report, checkedLinks);
   postExternalLinkCheck();
 
-  checkBCDMatching(report);
+  checkBCDMatching(nodes, report);
 
   for (const node of nodes) {
     if (

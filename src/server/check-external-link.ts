@@ -1,4 +1,3 @@
-import nodes from "../../data/nodes.json" with { type: "json" };
 import { readConfig } from "./config.js";
 
 function strToRegex(str: string) {
@@ -164,6 +163,7 @@ const bugLinkShorteners: [RegExp, string][] = [
 ];
 
 export function createLinkRequests(
+  nodes: any[],
   report: (node: any, message: string, ...data: string[]) => void,
 ) {
   const linkRequests: [string, () => Promise<void>][] = [];
@@ -292,6 +292,7 @@ export async function depleteQueue(
 }
 
 export function reportBrokenLinks(
+  nodes: any[],
   report: (node: any, message: string, ...data: string[]) => void,
   checkedLinks: Map<string, { type: string; data?: any } | undefined>,
 ) {

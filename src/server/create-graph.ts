@@ -9,18 +9,18 @@ import { getBCD } from "./utils.js";
 import { CONTENT_SOURCE_ROOT, BUILT_CONTENT_ROOT } from "./config.js";
 import { checkContent, postCheckContent } from "./check-content.js";
 
-export default async function createContentGraph() {
-  const graph = createGraph();
-
-  async function* listdir(dir: string): AsyncGenerator<string> {
-    for await (const dirent of await FS.readdir(dir, { withFileTypes: true })) {
-      if (dirent.isDirectory()) {
-        yield* listdir(`${dir}/${dirent.name}`);
-      } else {
-        yield `${dir}/${dirent.name}`;
-      }
+async function* listdir(dir: string): AsyncGenerator<string> {
+  for await (const dirent of await FS.readdir(dir, { withFileTypes: true })) {
+    if (dirent.isDirectory()) {
+      yield* listdir(`${dir}/${dirent.name}`);
+    } else {
+      yield `${dir}/${dirent.name}`;
     }
   }
+}
+
+export default async function createContentGraph() {
+  const graph = createGraph();
 
   for await (const file of listdir(Path.join(BUILT_CONTENT_ROOT, "en-us/docs"))) {
     if (!file.endsWith(".json")) continue;

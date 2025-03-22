@@ -1,4 +1,3 @@
-import nodes from "../../data/nodes.json" with { type: "json" };
 import bcdData from "@mdn/browser-compat-data" with { type: "json" };
 import { readConfig, configHas } from "./config.js";
 import { getBCD } from "./utils.js";
@@ -546,6 +545,7 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
 }
 
 export function checkBCDMatching(
+  nodes: any[],
   report: (node: any, message: string, ...data: string[]) => void,
 ) {
   for (const node of nodes) {
