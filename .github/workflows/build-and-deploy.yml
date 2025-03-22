@@ -50,14 +50,10 @@ jobs:
         working-directory: ./content
 
       - name: Build MDN graph
-        run: bun run build-graph
+        run: bun build.ts graph warnings external-links
         working-directory: ./mdn-graph
         env:
           BUILT_CONTENT_ROOT: ../content/build
-
-      - name: Generate warning report
-        run: bun run build-warnings
-        working-directory: ./mdn-graph
 
       - name: Determine commit message
         id: commit-message
