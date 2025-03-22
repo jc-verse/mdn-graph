@@ -72,12 +72,12 @@ checkBCDMatching(report);
 
 for (const node of nodes) {
   if (
-    !node.data.metadata.flaws ||
-    Object.keys(node.data.metadata.flaws).length === 0
+    !node.data.flaws ||
+    Object.keys(node.data.flaws).length === 0
   )
     continue;
   const nodeWarnings = (warnings[node.data.metadata.source.folder] ??= []);
-  Object.entries(node.data.metadata.flaws).forEach(([id, data]) => {
+  Object.entries(node.data.flaws).forEach(([id, data]) => {
     data.forEach((d) => {
       if (id === "broken_links") {
         // TODO: Yari bug

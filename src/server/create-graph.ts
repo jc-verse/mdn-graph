@@ -34,6 +34,9 @@ for await (const file of listdir(Path.join(BUILT_CONTENT_ROOT, "en-us/docs"))) {
   } else if (file.endsWith("index.json")) {
     const existingNode = graph.getNode(content.url);
     if (existingNode) {
+      // TODO: currently has too many flaws (mostly redirects)
+      // existingNode.data.flaws = content.doc.flaws;
+      existingNode.data.flaws = {};
       existingNode.data.content = content.doc.body;
       existingNode.data.sidebarHTML = content.doc.sidebarHTML;
       existingNode.data.sidebarMacro = content.doc.sidebarMacro;
@@ -492,7 +495,6 @@ for (const node of unreachableViaPage) report(node, "Unreachable via page");
 for (const node of nodes) {
   node.data.metadata = Object.fromEntries(
     [
-      "flaws",
       "title",
       "pageType",
       "browserCompat",
