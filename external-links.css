@@ -1,0 +1,37 @@
+body {
+  height: 100%;
+}
+
+header {
+  height: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+}
+
+ul {
+  list-style: none;
+  padding-inline-start: 1rem;
+}
+
+main {
+  display: flex;
+  margin: 1rem 0 0 0;
+}
+
+#note {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 0.4rem;
+  background-color: lightgray;
+}
+
+details > *:not(summary) {
+  margin-left: 1em;
+}
