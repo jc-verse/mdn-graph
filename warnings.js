@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-p1ss1ryt.js";
+} from "./chunk-248ks04v.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -716,6 +716,13 @@ var warnings_processed_default = {
                 "http://buildnewgames.com/",
                 ""
               ]
+            },
+            {
+              message: "HTTP link",
+              data: [
+                "http://creativejs.com/",
+                ""
+              ]
             }
           ]
         },
@@ -965,6 +972,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            first_cpu_idle: {
+              children: {},
+              slug: "/en-US/docs/Glossary/First_CPU_idle",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://developer.chrome.com/docs/lighthouse/performance/lighthouse-total-blocking-time/",
+                    500
+                  ]
+                }
+              ]
+            },
             fragmentainer: {
               children: {},
               slug: "/en-US/docs/Glossary/Fragmentainer",
@@ -1082,6 +1102,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            interaction_to_next_paint: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Interaction_to_next_paint",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://web.dev/articles/inp",
+                    500
+                  ]
                 }
               ]
             },
@@ -1694,7 +1727,7 @@ var warnings_processed_default = {
                   message: "Redirected external link",
                   data: [
                     "https://v2.scrimba.com/the-frontend-developer-career-path-c0j:details?via=mdn",
-                    "https://scrimba.com/the-frontend-developer-career-path-c0j:details?via=mdn&rt=gjg5aeg6&redir=1"
+                    "https://scrimba.com/the-frontend-developer-career-path-c0j:details?via=mdn&rt=vb7ok2fe&redir=1"
                   ]
                 }
               ]
@@ -1767,7 +1800,7 @@ var warnings_processed_default = {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/learn-accessible-web-design-c031?via=mdn",
-                        "https://scrimba.com/learn-accessible-web-design-c031?via=mdn&rt=qlq0tvis&redir=1"
+                        "https://scrimba.com/learn-accessible-web-design-c031?via=mdn&rt=gijv4cts&redir=1"
                       ]
                     }
                   ]
@@ -1956,7 +1989,7 @@ var warnings_processed_default = {
                       message: "Redirected external link",
                       data: [
                         "https://scrimba.com/learn/design?via=mdn",
-                        "https://scrimba.com/intro-to-ui-design-fundamentals-c0q?via=mdn&rt=v78vfqlq&redir=1"
+                        "https://scrimba.com/intro-to-ui-design-fundamentals-c0q?via=mdn&rt=osvsmkb6&redir=1"
                       ]
                     }
                   ]
@@ -2135,7 +2168,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/learn-react-c0e?via=mdn",
-                            "https://scrimba.com/learn-react-c0e?via=mdn&rt=u8of4k0r&redir=1"
+                            "https://scrimba.com/learn-react-c0e?via=mdn&rt=v2343n8d&redir=1"
                           ]
                         }
                       ]
@@ -2385,7 +2418,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~06e?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~06e?via=mdn&rt=b0g5gb1e&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~06e?via=mdn&rt=uq0u4qln&redir=1"
                           ]
                         }
                       ]
@@ -2398,7 +2431,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~04g?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~04g?via=mdn&rt=sgvvgho5&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~04g?via=mdn&rt=8ik1h7kd&redir=1"
                           ]
                         }
                       ]
@@ -2570,7 +2603,7 @@ var warnings_processed_default = {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/learn-javascript-c0v?via=mdn",
-                        "https://scrimba.com/learn-javascript-c0v?via=mdn&rt=blg0rsij&redir=1"
+                        "https://scrimba.com/learn-javascript-c0v?via=mdn&rt=885atcf5&redir=1"
                       ]
                     }
                   ]
@@ -2660,13 +2693,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://inkscape.org/",
-                            403
-                          ]
                         }
                       ]
                     },
@@ -2725,14 +2751,14 @@ var warnings_processed_default = {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/learn-html-and-css-c0p?via=mdn",
-                        "https://scrimba.com/learn-html-and-css-c0p?via=mdn&rt=o53eknln&redir=1"
+                        "https://scrimba.com/learn-html-and-css-c0p?via=mdn&rt=h2d2h73a&redir=1"
                       ]
                     },
                     {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~0xid?via=mdn",
-                        "https://scrimba.com/the-frontend-developer-career-path-c0j/~0xid?via=mdn&rt=rn3ia1sk&redir=1"
+                        "https://scrimba.com/the-frontend-developer-career-path-c0j/~0xid?via=mdn&rt=entrfrg2&redir=1"
                       ]
                     }
                   ]
@@ -2774,7 +2800,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~01d?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~01d?via=mdn&rt=7ss78d69&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~01d?via=mdn&rt=ahcfk14h&redir=1"
                           ]
                         }
                       ]
@@ -2960,14 +2986,14 @@ var warnings_processed_default = {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/learn-html-and-css-c0p?via=mdn",
-                        "https://scrimba.com/learn-html-and-css-c0p?via=mdn&rt=o53eknln&redir=1"
+                        "https://scrimba.com/learn-html-and-css-c0p?via=mdn&rt=h2d2h73a&redir=1"
                       ]
                     },
                     {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~015?via=mdn",
-                        "https://scrimba.com/the-frontend-developer-career-path-c0j/~015?via=mdn&rt=0hkt2bjv&redir=1"
+                        "https://scrimba.com/the-frontend-developer-career-path-c0j/~015?via=mdn&rt=a9ck9nkb&redir=1"
                       ]
                     }
                   ]
@@ -2982,7 +3008,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~02b?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~02b?via=mdn&rt=f278fltu&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~02b?via=mdn&rt=snpkolul&redir=1"
                           ]
                         }
                       ]
@@ -2996,7 +3022,7 @@ var warnings_processed_default = {
                   message: "Redirected external link",
                   data: [
                     "https://v2.scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
-                    "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=gjdegehn&redir=1"
+                    "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=3futb0sn&redir=1"
                   ]
                 }
               ]
@@ -3009,14 +3035,14 @@ var warnings_processed_default = {
                   message: "Redirected external link",
                   data: [
                     "https://v2.scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
-                    "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=gjdegehn&redir=1"
+                    "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=3futb0sn&redir=1"
                   ]
                 },
                 {
                   message: "Redirected external link",
                   data: [
                     "https://v2.scrimba.com/teams?via=mdn-edu",
-                    "https://scrimba.com/teams?via=mdn-edu&rt=1aubqk02&redir=1"
+                    "https://scrimba.com/teams?via=mdn-edu&rt=rgqtbcbk&redir=1"
                   ]
                 }
               ]
@@ -3288,6 +3314,19 @@ var warnings_processed_default = {
                 },
                 performance: {
                   children: {
+                    measuring_performance: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Measuring_performance",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://developer.chrome.com/docs/devtools/network/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     web_performance_basics: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Web_Performance_Basics",
@@ -3295,6 +3334,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://web.dev/learn/performance/why-speed-matters",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -3603,6 +3649,23 @@ var warnings_processed_default = {
                         }
                       ]
                     },
+                    first_steps: {
+                      children: {
+                        "client-server_overview": {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://websniffer.com/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     node_server_without_framework: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Node_server_without_framework",
@@ -3685,7 +3748,7 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.getpaint.net/",
+                            "https://www.adobe.com/express/",
                             "The operation timed out."
                           ]
                         }
@@ -3703,7 +3766,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~0xyi?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~0xyi?via=mdn&rt=9pgkjnr2&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~0xyi?via=mdn&rt=8qkt8ljt&redir=1"
                           ]
                         }
                       ]
@@ -3716,7 +3779,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~0156?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~0156?via=mdn&rt=jkgcm2n4&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~0156?via=mdn&rt=gsjhn7fi&redir=1"
                           ]
                         }
                       ]
@@ -3772,7 +3835,7 @@ var warnings_processed_default = {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
-                        "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=gjdegehn&redir=1"
+                        "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=3futb0sn&redir=1"
                       ]
                     }
                   ]
@@ -4238,15 +4301,42 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    how_much_does_it_cost: {
+                    how_do_you_host_your_website_on_google_app_engine: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_much_does_it_cost",
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.getpaint.net/",
-                            "The operation timed out."
+                            "https://gaesamplesite.appspot.com/downloads.html",
+                            503
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gaesamplesite.appspot.com/",
+                            503
+                          ]
+                        }
+                      ]
+                    },
+                    what_are_browser_developer_tools: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_are_browser_developer_tools",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://developer.chrome.com/docs/devtools/javascript/",
+                            500
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://developer.chrome.com/docs/devtools/console/",
+                            500
                           ]
                         }
                       ]
@@ -4322,14 +4412,14 @@ var warnings_processed_default = {
               message: "Redirected external link",
               data: [
                 "https://v2.scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
-                "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=gjdegehn&redir=1"
+                "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=3futb0sn&redir=1"
               ]
             },
             {
               message: "Redirected external link",
               data: [
                 "https://v2.scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
-                "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=gjdegehn&redir=1"
+                "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=3futb0sn&redir=1"
               ]
             }
           ]
@@ -5059,6 +5149,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/action",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -5069,6 +5166,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/action",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -5079,6 +5183,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/action",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -5089,6 +5200,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/action",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -5099,6 +5217,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/action",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -5109,6 +5234,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/action",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -5119,6 +5251,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/action",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -5129,6 +5268,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/action",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -5139,6 +5285,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/action",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -5149,6 +5302,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/action",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -5169,6 +5329,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/action",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -5189,6 +5356,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/action",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -5199,6 +5373,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/action",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -5209,6 +5390,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/action",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -5219,6 +5407,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/action",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -5229,6 +5424,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/action",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -5239,10 +5441,27 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/action",
+                                    500
+                                  ]
                                 }
                               ]
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://developer.chrome.com/docs/extensions/reference/api/action",
+                                500
+                              ]
+                            }
+                          ]
                         },
                         alarms: {
                           children: {
@@ -6463,13 +6682,6 @@ var warnings_processed_default = {
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies/SameSiteStatus",
                               messages: [
                                 {
-                                  message: "Broken anchor",
-                                  data: [
-                                    "/en-US/docs/Web/HTTP/Guides/Cookies",
-                                    "#samesite_cookies"
-                                  ]
-                                },
-                                {
                                   message: "Unreachable via sidebar",
                                   data: []
                                 },
@@ -6686,6 +6898,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/declarativeNetRequest",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -6831,12 +7050,6 @@ var warnings_processed_default = {
                                     "id",
                                     "Text before code:",
                                     "."
-                                  ]
-                                },
-                                {
-                                  message: "Broken anchor",
-                                  data: [
-                                    "#whocanonical_domain"
                                   ]
                                 },
                                 {
@@ -7004,6 +7217,13 @@ var warnings_processed_default = {
                                         "http://www.softwareishard.com/blog/har-12-spec/",
                                         ""
                                       ]
+                                    },
+                                    {
+                                      message: "Broken external link",
+                                      data: [
+                                        "https://developer.chrome.com/docs/extensions/reference/api/devtools/network",
+                                        500
+                                      ]
                                     }
                                   ]
                                 },
@@ -7053,6 +7273,13 @@ var warnings_processed_default = {
                                   data: [
                                     "http://www.softwareishard.com/blog/har-12-spec/",
                                     ""
+                                  ]
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/devtools/network",
+                                    500
                                   ]
                                 }
                               ]
@@ -7249,6 +7476,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -7259,6 +7493,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -7269,6 +7510,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -7279,6 +7527,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -7289,6 +7544,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -7299,6 +7561,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -7309,6 +7578,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -7319,6 +7595,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -7329,6 +7612,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -7339,6 +7629,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -7349,6 +7646,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -7359,6 +7663,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -7369,6 +7680,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -7379,6 +7697,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -7389,6 +7714,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -7399,6 +7731,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -7409,6 +7748,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -7419,6 +7765,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -7429,6 +7782,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -7439,6 +7799,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -7449,6 +7816,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -7459,6 +7833,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -7469,6 +7850,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -7479,6 +7867,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -7489,6 +7884,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -7499,10 +7901,27 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/downloads",
+                                    500
+                                  ]
                                 }
                               ]
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://developer.chrome.com/docs/extensions/reference/api/downloads",
+                                500
+                              ]
+                            }
+                          ]
                         },
                         events: {
                           children: {
@@ -7761,6 +8180,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/extensionTypes",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -7771,6 +8197,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/extensionTypes",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -7797,10 +8230,27 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/extensionTypes",
+                                    500
+                                  ]
                                 }
                               ]
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extensionTypes",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://developer.chrome.com/docs/extensions/reference/api/extensionTypes",
+                                500
+                              ]
+                            }
+                          ]
                         },
                         find: {
                           children: {
@@ -8913,7 +9363,17 @@ var warnings_processed_default = {
                                 }
                               ]
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/proxy",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://developer.chrome.com/docs/extensions/reference/api/proxy",
+                                500
+                              ]
+                            }
+                          ]
                         },
                         runtime: {
                           children: {
@@ -9107,20 +9567,6 @@ var warnings_processed_default = {
                               children: {},
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onMessage",
                               messages: [
-                                {
-                                  message: "Broken anchor",
-                                  data: [
-                                    "/en-US/docs/Mozilla/Add-ons/WebExtensions/Anatomy_of_a_WebExtension",
-                                    "#options_pages"
-                                  ]
-                                },
-                                {
-                                  message: "Broken anchor",
-                                  data: [
-                                    "/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface",
-                                    "#popups"
-                                  ]
-                                },
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
@@ -9790,13 +10236,6 @@ var warnings_processed_default = {
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/local",
                               messages: [
                                 {
-                                  message: "Broken anchor",
-                                  data: [
-                                    "/en-US/docs/Web/API/Storage_API/Storage_quotas_and_eviction_criteria",
-                                    "#storage_limits"
-                                  ]
-                                },
-                                {
                                   message: "Unreachable via sidebar",
                                   data: []
                                 }
@@ -9809,6 +10248,13 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/manifest/storage",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -10058,13 +10504,6 @@ var warnings_processed_default = {
                               children: {},
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/getCurrent",
                               messages: [
-                                {
-                                  message: "Broken anchor",
-                                  data: [
-                                    "/en-US/docs/Mozilla/Add-ons/WebExtensions/Anatomy_of_a_WebExtension",
-                                    "#options_pages"
-                                  ]
-                                },
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
@@ -10644,6 +11083,13 @@ var warnings_processed_default = {
                                       data: []
                                     },
                                     {
+                                      message: "Broken external link",
+                                      data: [
+                                        "https://developer.chrome.com/docs/extensions/reference/api/types",
+                                        500
+                                      ]
+                                    },
+                                    {
                                       message: "Not in BCD",
                                       data: [
                                         "webextensions.api.types.BrowserSetting.clear"
@@ -10660,6 +11106,13 @@ var warnings_processed_default = {
                                       data: []
                                     },
                                     {
+                                      message: "Broken external link",
+                                      data: [
+                                        "https://developer.chrome.com/docs/extensions/reference/api/types",
+                                        500
+                                      ]
+                                    },
+                                    {
                                       message: "Not in BCD",
                                       data: [
                                         "webextensions.api.types.BrowserSetting.get"
@@ -10674,6 +11127,13 @@ var warnings_processed_default = {
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
+                                    },
+                                    {
+                                      message: "Broken external link",
+                                      data: [
+                                        "https://developer.chrome.com/docs/extensions/reference/api/types",
+                                        500
+                                      ]
                                     }
                                   ]
                                 },
@@ -10692,6 +11152,13 @@ var warnings_processed_default = {
                                       data: []
                                     },
                                     {
+                                      message: "Broken external link",
+                                      data: [
+                                        "https://developer.chrome.com/docs/extensions/reference/api/types",
+                                        500
+                                      ]
+                                    },
+                                    {
                                       message: "Not in BCD",
                                       data: [
                                         "webextensions.api.types.BrowserSetting.set"
@@ -10705,12 +11172,33 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/types",
+                                    500
+                                  ]
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/types",
+                                    500
+                                  ]
                                 }
                               ]
                             }
                           },
                           slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/types",
                           messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://developer.chrome.com/docs/extensions/reference/api/types",
+                                500
+                              ]
+                            },
                             {
                               message: "Unexpected BCD keys",
                               data: [
@@ -11625,6 +12113,41 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Mozilla/Add-ons/WebExtensions"
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://developer.chrome.com/docs/extensions/reference/api/proxy",
+                            500
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://developer.chrome.com/docs/extensions/reference/api/proxy",
+                            500
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://developer.chrome.com/docs/extensions/reference/api/proxy",
+                            500
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://developer.chrome.com/docs/extensions/reference/api/proxy",
+                            500
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://developer.chrome.com/docs/extensions/reference/api/proxy",
+                            500
+                          ]
                         }
                       ]
                     },
@@ -11773,19 +12296,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    internationalization: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Internationalization",
-                      messages: [
-                        {
-                          message: "HTTP link",
-                          data: [
-                            "http://i18njs.com/",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
                     "manifest.json": {
                       children: {
                         chrome_settings_overrides: {
@@ -11831,32 +12341,6 @@ var warnings_processed_default = {
                             }
                           ]
                         },
-                        page_action: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/page_action",
-                          messages: [
-                            {
-                              message: "Broken anchor",
-                              data: [
-                                "/en-US/docs/Mozilla/Add-ons/WebExtensions/Anatomy_of_a_WebExtension",
-                                "#background_pages"
-                              ]
-                            }
-                          ]
-                        },
-                        theme: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/theme",
-                          messages: [
-                            {
-                              message: "Broken anchor",
-                              data: [
-                                "/en-US/docs/Web/CSS/color_value",
-                                "#rgb_syntax_variations"
-                              ]
-                            }
-                          ]
-                        },
                         version: {
                           children: {
                             format: {
@@ -11869,7 +12353,30 @@ var warnings_processed_default = {
                                 }
                               ]
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/version",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://developer.chrome.com/docs/extensions/reference/manifest/version",
+                                500
+                              ]
+                            }
+                          ]
+                        },
+                        version_name: {
+                          children: {},
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/version_name",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://developer.chrome.com/docs/extensions/reference/manifest/version",
+                                500
+                              ]
+                            }
+                          ]
                         }
                       },
                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json",
@@ -14412,6 +14919,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/web-animations/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -17246,7 +17760,7 @@ var warnings_processed_default = {
                           message: "Broken external link",
                           data: [
                             "https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.532.7063&rep=rep1&type=pdf",
-                            502
+                            401
                           ]
                         },
                         {
@@ -17260,14 +17774,14 @@ var warnings_processed_default = {
                           message: "Broken external link",
                           data: [
                             "https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.106.9473&rep=rep1&type=pdf",
-                            502
+                            401
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
                             "https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.532.7063&rep=rep1&type=pdf",
-                            502
+                            401
                           ]
                         }
                       ]
@@ -17303,6 +17817,13 @@ var warnings_processed_default = {
                             "[4]",
                             "Text before link:",
                             "."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://colorusage.arc.nasa.gov/flashing.php",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         },
                         {
@@ -17566,6 +18087,49 @@ var warnings_processed_default = {
                       ]
                     }
                   ]
+                },
+                audiocontext: {
+                  children: {
+                    setsinkid: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/AudioContext/setSinkId",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://developer.chrome.com/blog/audiocontext-setsinkid/",
+                            500
+                          ]
+                        }
+                      ]
+                    },
+                    sinkchange_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/AudioContext/sinkchange_event",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://developer.chrome.com/blog/audiocontext-setsinkid/",
+                            500
+                          ]
+                        }
+                      ]
+                    },
+                    sinkid: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/AudioContext/sinkId",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://developer.chrome.com/blog/audiocontext-setsinkid/",
+                            500
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 audioparamdescriptor: {
                   children: {},
@@ -18245,6 +18809,19 @@ var warnings_processed_default = {
                         }
                       ]
                     },
+                    visibilitychange_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document/visibilitychange_event",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://developer.chrome.com/docs/web-platform/page-lifecycle-api",
+                            500
+                          ]
+                        }
+                      ]
+                    },
                     write: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Document/write",
@@ -18679,6 +19256,85 @@ api.SubtleCrypto.verify`,
                     }
                   }
                 },
+                hiddevice: {
+                  children: {
+                    collections: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HIDDevice/collections",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://developer.chrome.com/docs/capabilities/hid",
+                            500
+                          ]
+                        }
+                      ]
+                    },
+                    inputreport_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HIDDevice/inputreport_event",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://developer.chrome.com/docs/capabilities/hid",
+                            500
+                          ]
+                        }
+                      ]
+                    },
+                    sendfeaturereport: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HIDDevice/sendFeatureReport",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://developer.chrome.com/docs/capabilities/hid",
+                            500
+                          ]
+                        }
+                      ]
+                    },
+                    sendreport: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HIDDevice/sendReport",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://developer.chrome.com/docs/capabilities/hid",
+                            500
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/HIDDevice",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://developer.chrome.com/docs/capabilities/hid",
+                        500
+                      ]
+                    }
+                  ]
+                },
+                hidinputreportevent: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/HIDInputReportEvent",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://developer.chrome.com/docs/capabilities/hid",
+                        500
+                      ]
+                    }
+                  ]
+                },
                 history_api: {
                   children: {
                     working_with_the_history_api: {
@@ -19036,6 +19692,36 @@ api.HTMLElement.toggle_event.dialog_elements`,
                             "select",
                             "Text after code:",
                             "events."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                htmlvideoelement: {
+                  children: {
+                    cancelvideoframecallback: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLVideoElement/cancelVideoFrameCallback",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://web.dev/articles/requestvideoframecallback-rvfc",
+                            500
+                          ]
+                        }
+                      ]
+                    },
+                    requestvideoframecallback: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLVideoElement/requestVideoFrameCallback",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://web.dev/articles/requestvideoframecallback-rvfc",
+                            500
                           ]
                         }
                       ]
@@ -19472,6 +20158,19 @@ api.HTMLElement.toggle_event.dialog_elements`,
                 },
                 navigator: {
                   children: {
+                    clearappbadge: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Navigator/clearAppBadge",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://developer.chrome.com/docs/capabilities/web-apis/badging-api/",
+                            500
+                          ]
+                        }
+                      ]
+                    },
                     getbattery: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Navigator/getBattery",
@@ -19486,6 +20185,45 @@ api.HTMLElement.toggle_event.dialog_elements`,
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/battery"
+                          ]
+                        }
+                      ]
+                    },
+                    scheduling: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Navigator/scheduling",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://developer.chrome.com/docs/capabilities/web-apis/isinputpending",
+                            500
+                          ]
+                        }
+                      ]
+                    },
+                    sendbeacon: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Navigator/sendBeacon",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://developer.chrome.com/docs/web-platform/page-lifecycle-api",
+                            500
+                          ]
+                        }
+                      ]
+                    },
+                    setappbadge: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Navigator/setAppBadge",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://developer.chrome.com/docs/capabilities/web-apis/badging-api/",
+                            500
                           ]
                         }
                       ]
@@ -19671,6 +20409,19 @@ api.HTMLElement.toggle_event.dialog_elements`,
                     }
                   }
                 },
+                paintworkletglobalscope: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/PaintWorkletGlobalScope",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.css-houdini.org/css-paint-api/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 payment_request_api: {
                   children: {
                     concepts: {
@@ -19729,6 +20480,19 @@ api.HTMLElement.toggle_event.dialog_elements`,
                 },
                 performance_api: {
                   children: {
+                    long_animation_frame_timing: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Performance_API/Long_animation_frame_timing",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://web.dev/articles/inp",
+                            500
+                          ]
+                        }
+                      ]
+                    },
                     monitoring_bfcache_blocking_reasons: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Performance_API/Monitoring_bfcache_blocking_reasons",
@@ -19864,6 +20628,45 @@ api.HTMLElement.toggle_event.dialog_elements`,
                           message: "Not in BCD",
                           data: [
                             "api.PublicKeyCredential.id"
+                          ]
+                        }
+                      ]
+                    },
+                    signalallacceptedcredentials_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PublicKeyCredential/signalAllAcceptedCredentials_static",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://developer.chrome.com/docs/identity/webauthn-signal-api",
+                            500
+                          ]
+                        }
+                      ]
+                    },
+                    signalcurrentuserdetails_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PublicKeyCredential/signalCurrentUserDetails_static",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://developer.chrome.com/docs/identity/webauthn-signal-api",
+                            500
+                          ]
+                        }
+                      ]
+                    },
+                    signalunknowncredential_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PublicKeyCredential/signalUnknownCredential_static",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://developer.chrome.com/docs/identity/webauthn-signal-api",
+                            500
                           ]
                         }
                       ]
@@ -20735,6 +21538,33 @@ api.HTMLElement.toggle_event.dialog_elements`,
                     }
                   ]
                 },
+                scheduling: {
+                  children: {
+                    isinputpending: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Scheduling/isInputPending",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://developer.chrome.com/docs/capabilities/web-apis/isinputpending",
+                            500
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/Scheduling",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://developer.chrome.com/docs/capabilities/web-apis/isinputpending",
+                        500
+                      ]
+                    }
+                  ]
+                },
                 screen_capture_api: {
                   children: {
                     element_region_capture: {
@@ -20898,6 +21728,33 @@ api.HTMLElement.toggle_event.dialog_elements`,
                       message: "Not in BCD",
                       data: [
                         "api.SharedStorageSelectURLOperation"
+                      ]
+                    }
+                  ]
+                },
+                storage_api: {
+                  children: {
+                    storage_quotas_and_eviction_criteria: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Storage_API/Storage_quotas_and_eviction_criteria",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://web.dev/articles/storage-for-the-web",
+                            500
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/Storage_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://web.dev/articles/storage-for-the-web",
+                        500
                       ]
                     }
                   ]
@@ -21436,6 +22293,92 @@ api.HTMLElement.toggle_event.dialog_elements`,
                     }
                   }
                 },
+                transformstream: {
+                  children: {
+                    transformstream: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/TransformStream/TransformStream",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://web.dev/articles/streams",
+                            500
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/TransformStream",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://web.dev/articles/streams",
+                        500
+                      ]
+                    }
+                  ]
+                },
+                trusted_types_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Trusted_Types_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://web.dev/articles/trusted-types",
+                        500
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://web.dev/articles/trusted-types",
+                        500
+                      ]
+                    }
+                  ]
+                },
+                trustedhtml: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/TrustedHTML",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://web.dev/articles/trusted-types",
+                        500
+                      ]
+                    }
+                  ]
+                },
+                trustedscript: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/TrustedScript",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://web.dev/articles/trusted-types",
+                        500
+                      ]
+                    }
+                  ]
+                },
+                trustedscripturl: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/TrustedScriptURL",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://web.dev/articles/trusted-types",
+                        500
+                      ]
+                    }
+                  ]
+                },
                 ui_events: {
                   children: {
                     keyboard_event_code_values: {
@@ -21486,6 +22429,46 @@ api.HTMLElement.toggle_event.dialog_elements`,
                       ]
                     }
                   }
+                },
+                urlsearchparams: {
+                  children: {
+                    append: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/URLSearchParams/append",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://developer.chrome.com/blog/urlsearchparams/",
+                            500
+                          ]
+                        }
+                      ]
+                    },
+                    tostring: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/URLSearchParams/toString",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://developer.chrome.com/blog/urlsearchparams/",
+                            500
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/URLSearchParams",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://developer.chrome.com/blog/urlsearchparams/",
+                        500
+                      ]
+                    }
+                  ]
                 },
                 vrlayerinit: {
                   children: {
@@ -21642,6 +22625,19 @@ api.HTMLElement.toggle_event.dialog_elements`,
                 },
                 web_audio_api: {
                   children: {
+                    advanced_techniques: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://web.dev/articles/audio-scheduling",
+                            500
+                          ]
+                        }
+                      ]
+                    },
                     best_practices: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Best_practices",
@@ -22228,6 +23224,20 @@ api.HTMLElement.toggle_event.dialog_elements`,
                     {
                       message: "Broken browser compat anchor",
                       data: []
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://developer.chrome.com/docs/identity/web-apis/web-otp",
+                        500
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://web.dev/articles/web-otp-iframe",
+                        500
+                      ]
                     }
                   ]
                 },
@@ -22556,6 +23566,19 @@ api.HTMLElement.toggle_event.dialog_elements`,
                     }
                   ]
                 },
+                window_controls_overlay_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Window_Controls_Overlay_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://web.dev/articles/window-controls-overlay",
+                        500
+                      ]
+                    }
+                  ]
+                },
                 window_management_api: {
                   children: {
                     "multi-screen_origin": {
@@ -22594,6 +23617,19 @@ api.HTMLElement.toggle_event.dialog_elements`,
                           message: "Not in BCD",
                           data: [
                             "api.Window.back"
+                          ]
+                        }
+                      ]
+                    },
+                    beforeunload_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/beforeunload_event",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://developer.chrome.com/docs/web-platform/page-lifecycle-api",
+                            500
                           ]
                         }
                       ]
@@ -22706,19 +23742,6 @@ api.HTMLElement.toggle_event.dialog_elements`,
                         }
                       ]
                     },
-                    external: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/external",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Web/XML/Guides/OpenSearch",
-                            "#autodiscovery_of_search_plugins"
-                          ]
-                        }
-                      ]
-                    },
                     fetch: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Window/fetch",
@@ -22775,6 +23798,26 @@ api.HTMLElement.toggle_event.dialog_elements`,
                           message: "Not in BCD",
                           data: [
                             "api.Window.origin"
+                          ]
+                        }
+                      ]
+                    },
+                    pagehide_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/pagehide_event",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://developer.chrome.com/docs/web-platform/page-lifecycle-api",
+                            500
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://developer.chrome.com/docs/web-platform/page-lifecycle-api",
+                            500
                           ]
                         }
                       ]
@@ -22883,6 +23926,26 @@ api.HTMLElement.toggle_event.dialog_elements`,
                           message: "Not in BCD",
                           data: [
                             "api.Window.trustedTypes"
+                          ]
+                        }
+                      ]
+                    },
+                    unload_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/unload_event",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://developer.chrome.com/docs/web-platform/page-lifecycle-api",
+                            500
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://developer.chrome.com/docs/web-platform/page-lifecycle-api",
+                            500
                           ]
                         }
                       ]
@@ -23189,6 +24252,13 @@ api.HTMLElement.toggle_event.dialog_elements`,
                       slug: "/en-US/docs/Web/API/WorkerNavigator/clearAppBadge",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://developer.chrome.com/docs/capabilities/web-apis/badging-api/",
+                            500
+                          ]
+                        },
+                        {
                           message: "Not in BCD",
                           data: [
                             "api.WorkerNavigator.clearAppBadge"
@@ -23201,6 +24271,13 @@ api.HTMLElement.toggle_event.dialog_elements`,
                       slug: "/en-US/docs/Web/API/WorkerNavigator/setAppBadge",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://developer.chrome.com/docs/capabilities/web-apis/badging-api/",
+                            500
+                          ]
+                        },
+                        {
                           message: "Not in BCD",
                           data: [
                             "api.WorkerNavigator.setAppBadge"
@@ -23209,6 +24286,26 @@ api.HTMLElement.toggle_event.dialog_elements`,
                       ]
                     }
                   }
+                },
+                worklet: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Worklet",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.css-houdini.org/css-layout-api-1/",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://developer.chrome.com/docs/css-ui/houdini",
+                        500
+                      ]
+                    }
+                  ]
                 },
                 workletsharedstorage: {
                   children: {
@@ -25184,24 +26281,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/CSS_box_alignment/Box_alignment",
                       messages: [
                         {
-                          message: "Broken anchor",
-                          data: [
-                            "#positional-alignment"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#baseline-alignment"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#distributed-alignment"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -25370,121 +26449,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Broken anchor",
                           data: [
-                            "#computed-value"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#initial-value"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#specified-value"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#initial-value"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#specified-value"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#computed-value"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#used-value"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#rendered-values"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#specified-value"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#specified-value"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#used-value"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#computed-value"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#actual-value"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#resolved-value"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#used-value"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#specified-valuespecified_value"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#computed-value"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#used-value"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#computed-value"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#used-value"
+                            "#specified_valuespecified_value"
                           ]
                         },
                         {
@@ -25564,6 +26529,13 @@ css.selectors.-webkit-resizer`,
                             "Text after link:",
                             "Container scroll-state queries"
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://developer.chrome.com/docs/css-ui/style-queries",
+                            500
+                          ]
                         }
                       ]
                     }
@@ -25622,23 +26594,6 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                css_flexible_box_layout: {
-                  children: {
-                    basic_concepts_of_flexbox: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Web/CSS/CSS_Values_and_Units/CSS_data_types",
-                            "#css-wide_values"
-                          ]
                         }
                       ]
                     }
@@ -26103,48 +27058,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/CSS_Values_and_Units/Numeric_data_types",
                       messages: [
                         {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Web/CSS/length",
-                            "#dynamic"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Web/CSS/length",
-                            "#dynamic"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Web/CSS/length",
-                            "#large"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Web/CSS/length",
-                            "#large"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Web/CSS/length",
-                            "#small"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Web/CSS/length",
-                            "#small"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -26178,244 +27091,6 @@ css.selectors.-webkit-resizer`,
                       data: [
                         "/en-US/docs/Web/CSS/attr",
                         "#attr-unit"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/length",
-                        "#deg"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/length",
-                        "#dpcm"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/length",
-                        "#dpi"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/length",
-                        "#dppx"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/length",
-                        "#dvb"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/length",
-                        "#dvh"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/length",
-                        "#dvi"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/length",
-                        "#dvmax"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/length",
-                        "#dvmin"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/length",
-                        "#dvw"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/length",
-                        "#grad"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/length",
-                        "#hz"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/length",
-                        "#khz"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/length",
-                        "#left"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/length",
-                        "#lvb"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/length",
-                        "#lvh"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/length",
-                        "#lvi"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/length",
-                        "#lvmax"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/length",
-                        "#lvmin"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/length",
-                        "#lvw"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/length",
-                        "#ms"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/length",
-                        "#pi"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/length",
-                        "#rad"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/length",
-                        "#s"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/length",
-                        "#size"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/length",
-                        "#svb"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/length",
-                        "#svh"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/length",
-                        "#svi"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/length",
-                        "#svmax"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/length",
-                        "#svmin"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/length",
-                        "#svw"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/length",
-                        "#turn"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/length",
-                        "#up"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/length",
-                        "#x"
                       ]
                     }
                   ]
@@ -26536,6 +27211,19 @@ css.selectors.-webkit-resizer`,
                     }
                   }
                 },
+                env: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/env",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://web.dev/articles/window-controls-overlay",
+                        500
+                      ]
+                    }
+                  ]
+                },
                 filter: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/filter",
@@ -26584,24 +27272,6 @@ css.properties.min-height.fit-content_function
 css.properties.min-inline-size.fit-content_function
 css.properties.min-width.fit-content_function
 css.properties.width.fit-content_function`
-                      ]
-                    }
-                  ]
-                },
-                flex: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/flex",
-                  messages: [
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "#auto"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "#initial"
                       ]
                     }
                   ]
@@ -27823,6 +28493,19 @@ css.properties.list-style-type.symbols`
                     }
                   ]
                 },
+                "text-wrap": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/text-wrap",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://developer.chrome.com/blog/css-text-wrap-pretty/",
+                        500
+                      ]
+                    }
+                  ]
+                },
                 "time-percentage": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/time-percentage",
@@ -27903,33 +28586,6 @@ That is, all elements whose layout is governed`
                         "[None]",
                         "Expected:",
                         "css.types.url"
-                      ]
-                    }
-                  ]
-                },
-                var: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/var",
-                  messages: [
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/CSS_Values_and_Units/CSS_data_types",
-                        "#css-wide_values"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/CSS_Values_and_Units/CSS_data_types",
-                        "#css-wide_values"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/CSS_Values_and_Units/CSS_data_types",
-                        "#css-wide_values"
                       ]
                     }
                   ]
@@ -28354,6 +29010,13 @@ html.elements.textarea.disabled`
                             {
                               message: "Unreachable via sidebar",
                               data: []
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://web.dev/articles/modulepreload",
+                                500
+                              ]
                             }
                           ]
                         },
@@ -28908,7 +29571,21 @@ html.elements.select.size`
                   ]
                 },
                 global_attributes: {
-                  children: {},
+                  children: {
+                    inert: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTML/Global_attributes/inert",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://web.dev/articles/inert",
+                            500
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/HTML/Global_attributes",
                   messages: [
                     {
@@ -28964,6 +29641,13 @@ html.elements.select.size`
                     {
                       message: "Unreachable via sidebar",
                       data: []
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://developer.chrome.com/docs/devtools/network/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -29770,6 +30454,13 @@ html.elements.select.size`
                               slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/require-trusted-types-for",
                               messages: [
                                 {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://web.dev/articles/trusted-types",
+                                    500
+                                  ]
+                                },
+                                {
                                   message: "Unexpected page type",
                                   data: [
                                     "http-csp-directive"
@@ -29865,6 +30556,13 @@ html.elements.select.size`
                               children: {},
                               slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/trusted-types",
                               messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://web.dev/articles/trusted-types",
+                                    500
+                                  ]
+                                },
                                 {
                                   message: "Unexpected page type",
                                   data: [
@@ -29976,6 +30674,13 @@ html.elements.select.size`
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy",
                           messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://web.dev/articles/why-coop-coep",
+                                500
+                              ]
+                            },
                             {
                               message: "Unexpected page type",
                               data: [
@@ -30962,6 +31667,13 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Save-Data",
                           messages: [
                             {
+                              message: "Broken external link",
+                              data: [
+                                "https://web.dev/articles/optimizing-content-efficiency-save-data",
+                                500
+                              ]
+                            },
+                            {
                               message: "Unexpected page type",
                               data: [
                                 "http-header"
@@ -31369,6 +32081,13 @@ html.elements.select.size`
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/SourceMap",
                           messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://web.dev/articles/source-maps",
+                                500
+                              ]
+                            },
                             {
                               message: "Unexpected page type",
                               data: [
@@ -33039,6 +33758,19 @@ html.elements.select.size`
                             }
                           }
                         },
+                        json: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://tools.learningcontainer.com/json-validator/",
+                                "Unable to connect. Is the computer able to access the url?"
+                              ]
+                            }
+                          ]
+                        },
                         map: {
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
@@ -34332,10 +35064,10 @@ The timers run concurrently, which means the c`
                               ]
                             },
                             {
-                              message: "Broken external link",
+                              message: "HTTP link",
                               data: [
                                 "http://hevc.info/",
-                                "The operation timed out."
+                                ""
                               ]
                             }
                           ]
@@ -34524,7 +35256,21 @@ The timers run concurrently, which means the c`
                   ]
                 },
                 how_to: {
-                  children: {},
+                  children: {
+                    define_app_icons: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Progressive_web_apps/How_to/Define_app_icons",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://web.dev/learn/pwa/app-design",
+                            500
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/Progressive_web_apps/How_to",
                   messages: [
                     {
@@ -34542,7 +35288,21 @@ The timers run concurrently, which means the c`
                 manifest: {
                   children: {
                     reference: {
-                      children: {},
+                      children: {
+                        display_override: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/display_override",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://web.dev/articles/window-controls-overlay",
+                                500
+                              ]
+                            }
+                          ]
+                        }
+                      },
                       slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference",
                       messages: [
                         {
@@ -34686,12 +35446,6 @@ The timers run concurrently, which means the c`
                       children: {},
                       slug: "/en-US/docs/Web/Security/Attacks/CSRF",
                       messages: [
-                        {
-                          message: "Bad href",
-                          data: [
-                            "fetch_metadata"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -41454,15 +42208,15 @@ The timers run concurrently, which means the c`
                   children: {
                     svg_from_scratch: {
                       children: {
-                        introduction: {
+                        getting_started: {
                           children: {},
-                          slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Introduction",
+                          slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Getting_started",
                           messages: [
                             {
                               message: "Broken external link",
                               data: [
-                                "https://inkscape.org/",
-                                403
+                                "https://websniffer.com/",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -41484,13 +42238,6 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Tools_for_SVG",
                           messages: [
                             {
-                              message: "Broken external link",
-                              data: [
-                                "https://inkscape.org/",
-                                403
-                              ]
-                            },
-                            {
                               message: "HTTP link",
                               data: [
                                 "http://snapsvg.io/",
@@ -41499,17 +42246,7 @@ The timers run concurrently, which means the c`
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://inkscape.org/learn/",
-                            403
-                          ]
-                        }
-                      ]
+                      }
                     }
                   },
                   slug: "/en-US/docs/Web/SVG/Tutorials",
@@ -41523,27 +42260,10 @@ The timers run concurrently, which means the c`
                     {
                       message: "Unreachable via page",
                       data: []
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://inkscape.org/learn/",
-                        403
-                      ]
                     }
                   ]
                 }
-              },
-              slug: "/en-US/docs/Web/SVG",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://inkscape.org/learn/",
-                    403
-                  ]
-                }
-              ]
+              }
             },
             uri: {
               children: {
@@ -41672,6 +42392,23 @@ The timers run concurrently, which means the c`
               children: {
                 reference: {
                   children: {
+                    capabilities: {
+                      children: {
+                        firefoxoptions: {
+                          children: {},
+                          slug: "/en-US/docs/Web/WebDriver/Reference/Capabilities/firefoxOptions",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://developer.chrome.com/docs/chromedriver/capabilities",
+                                500
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     commands: {
                       children: {},
                       slug: "/en-US/docs/Web/WebDriver/Reference/Commands",
@@ -41969,6 +42706,13 @@ The timers run concurrently, which means the c`
                     {
                       message: "Unreachable via sidebar",
                       data: []
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://web.dev/articles/emscripting-a-c-library",
+                        500
+                      ]
                     }
                   ]
                 },
@@ -43065,7 +43809,17 @@ webassembly.multiMemory`,
                 }
               ]
             }
-          }
+          },
+          slug: "/en-US/docs/WebAssembly",
+          messages: [
+            {
+              message: "Broken external link",
+              data: [
+                "https://web.dev/articles/emscripting-a-c-library",
+                500
+              ]
+            }
+          ]
         }
       }
     }
