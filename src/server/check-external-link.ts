@@ -289,7 +289,7 @@ export async function depleteQueue(
     }
     completedReqs++;
     if (
-      completedReqs % 100 === queueLen ||
+      completedReqs % 100 === 0 ||
       linkRequests.length - completedReqs < 100 - queueLen
     ) {
       console.log(

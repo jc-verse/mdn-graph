@@ -67,6 +67,7 @@ export default async function processWarnings(fast: boolean = false) {
   const { checkedLinks, linkRequests } = createLinkRequests(nodes, report);
   if (!fast) {
     await depleteQueue(linkRequests);
+    console.log("External link check completed");
   } else {
     console.warn("Skipping external link check");
   }
