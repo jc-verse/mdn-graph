@@ -103,7 +103,7 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
     // Web/SVG/
     case "svg-attribute": {
       const match = node.id.match(
-        /^\/en-US\/docs\/Web\/SVG\/Attribute\/([^/]+)$/,
+        /^\/en-US\/docs\/Web\/SVG\/Reference\/Attribute\/([^/]+)$/,
       );
       if (!match) return "Unexpected page type";
       let attrName = match[1].replace(":", "_");
@@ -124,7 +124,7 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
     }
     case "svg-element": {
       const match = node.id.match(
-        /^\/en-US\/docs\/Web\/SVG\/Element\/([^/]+)$/,
+        /^\/en-US\/docs\/Web\/SVG\/Reference\/Element\/([^/]+)$/,
       );
       if (!match) return "Unexpected page type";
       const elemName = match[1];
@@ -475,65 +475,65 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
     case "webdriver-capability": {
       return [];
     }
-    // Web/HTTP/Headers/Content-Security-Policy/
+    // Web/HTTP/Reference/Headers/Content-Security-Policy/
     case "http-csp-directive": {
       const match = node.id.match(
-        /^\/en-US\/docs\/Web\/HTTP\/Headers\/Content-Security-Policy\/([^/]+)$/,
+        /^\/en-US\/docs\/Web\/HTTP\/Reference\/Headers\/Content-Security-Policy\/([^/]+)$/,
       );
       if (!match) return "Unexpected page type";
       const directiveName = match[1];
       if (directiveName === "Sources") return [];
       return [`http.headers.Content-Security-Policy.${directiveName}`];
     }
-    // Web/HTTP/Headers/Permissions-Policy/
+    // Web/HTTP/Reference/Headers/Permissions-Policy/
     case "http-permissions-policy-directive": {
       const match = node.id.match(
-        /^\/en-US\/docs\/Web\/HTTP\/Headers\/Permissions-Policy\/([^/]+)$/,
+        /^\/en-US\/docs\/Web\/HTTP\/Reference\/Headers\/Permissions-Policy\/([^/]+)$/,
       );
       if (!match) return "Unexpected page type";
       const directiveName = match[1];
       return [`http.headers.Permissions-Policy.${directiveName}`];
     }
-    // Web/HTTP/Headers/
+    // Web/HTTP/Reference/Headers/
     case "http-header": {
       const match = node.id.match(
-        /^\/en-US\/docs\/Web\/HTTP\/Headers\/([^/]+)$/,
+        /^\/en-US\/docs\/Web\/HTTP\/Reference\/Headers\/([^/]+)$/,
       );
       if (!match) return "Unexpected page type";
       const headerName = match[1];
       return [`http.headers.${headerName}`];
     }
-    // Web/HTTP/Methods/
+    // Web/HTTP/Reference/Methods/
     case "http-method": {
       const match = node.id.match(
-        /^\/en-US\/docs\/Web\/HTTP\/Methods\/([^/]+)$/,
+        /^\/en-US\/docs\/Web\/HTTP\/Reference\/Methods\/([^/]+)$/,
       );
       if (!match) return "Unexpected page type";
       const methodName = match[1];
       return [`http.methods.${methodName}`];
     }
-    // Web/HTTP/Status/
+    // Web/HTTP/Reference/Status/
     case "http-status-code": {
       const match = node.id.match(
-        /^\/en-US\/docs\/Web\/HTTP\/Status\/([^/]+)$/,
+        /^\/en-US\/docs\/Web\/HTTP\/Reference\/Status\/([^/]+)$/,
       );
       if (!match) return "Unexpected page type";
       const statusCode = match[1];
       return [`http.status.${statusCode}`];
     }
-    // Web/MathML/Element/
+    // Web/MathML/Reference/Element/
     case "mathml-element": {
       const match = node.id.match(
-        /^\/en-US\/docs\/Web\/MathML\/Element\/([^/]+)$/,
+        /^\/en-US\/docs\/Web\/MathML\/Reference\/Element\/([^/]+)$/,
       );
       if (!match) return "Unexpected page type";
       const elemName = match[1];
       return [`mathml.elements.${elemName}`];
     }
-    // Web/MathML/Global_attributes/
+    // Web/MathML/Reference/Global_attributes/
     case "mathml-attribute": {
       const match = node.id.match(
-        /^\/en-US\/docs\/Web\/MathML\/Global_attributes\/([^/]+)$/,
+        /^\/en-US\/docs\/Web\/MathML\/Reference\/Global_attributes\/([^/]+)$/,
       );
       if (!match) return "Unexpected page type";
       const attrName = match[1];

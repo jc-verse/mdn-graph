@@ -271,34 +271,31 @@ export async function depleteQueue(
     await Promise.all(linkRequests.map((req) => req[1]()));
     return;
   }
-  let curReq = queueLen;
+  let completedReqs = 0;
   const linksInPool: string[] = [];
   const promisePool: Promise<number>[] = [];
   for (let i = 0; i < queueLen; i++) {
     linksInPool.push(linkRequests[i][0]);
     promisePool.push(linkRequests[i][1]().then(() => i));
   }
-  while (curReq < linkRequests.length) {
+  while (completedReqs < linkRequests.length) {
     const completedSlot = await Promise.race(promisePool);
-    linksInPool[completedSlot] = linkRequests[curReq][0];
-    promisePool[completedSlot] = linkRequests[curReq][1]().then(
-      () => completedSlot,
-    );
-    curReq++;
-    if (
-      curReq % 100 === queueLen ||
-      linkRequests.length - curReq < 100 - queueLen
-    ) {
-      console.log(
-        `Processed ${curReq - queueLen}/${linkRequests.length} links`,
+    const nextReq = completedReqs + queueLen;
+    if (nextReq < linkRequests.length) {
+      linksInPool[completedSlot] = linkRequests[nextReq][0];
+      promisePool[completedSlot] = linkRequests[nextReq][1]().then(
+        () => completedSlot,
       );
     }
-  }
-  for (let i = 1; i <= queueLen; i++) {
-    const completedSlot = await Promise.race(promisePool);
-    console.log(
-      `Processed ${curReq - queueLen + i}/${linkRequests.length} links`,
-    );
+    completedReqs++;
+    if (
+      completedReqs % 100 === queueLen ||
+      linkRequests.length - completedReqs < 100 - queueLen
+    ) {
+      console.log(
+        `Processed ${completedReqs}/${linkRequests.length} links`,
+      );
+    }
   }
 }
 
