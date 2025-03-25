@@ -42,6 +42,11 @@ export default async function processWarnings(fast: boolean = false) {
           return `/en-US/docs/Web/API/${interfac}/${member}`;
         case "css":
           return `/en-US/docs/Web/CSS/${member}`;
+        case "html":
+          if (interfac === "elements") {
+            return `/en-US/docs/Web/HTML/Element/${member}`;
+          }
+          break;
         case "http":
           if (interfac === "headers") {
             return `/en-US/docs/Web/HTTP/Headers/${member}`;
@@ -67,14 +72,15 @@ export default async function processWarnings(fast: boolean = false) {
   const { checkedLinks, linkRequests } = createLinkRequests(nodes, report);
   if (!fast) {
     await depleteQueue(linkRequests);
-    console.log("External link check completed");
   } else {
     console.warn("Skipping external link check");
   }
   reportBrokenLinks(nodes, report, checkedLinks);
   postExternalLinkCheck();
+  console.log("External link check completed");
 
   checkBCDMatching(nodes, report);
+  console.log("BCD check completed");
 
   for (const node of nodes) {
     if (
@@ -177,6 +183,7 @@ export default async function processWarnings(fast: boolean = false) {
   }
 
   await Bun.write("data/warnings-processed.json", JSON.stringify(tree, null, 2));
+  console.log("Warnings written to data/warnings-processed.json");
 
   for (const [url, used] of noPage) {
     if (!used) {
