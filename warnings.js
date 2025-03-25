@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-r7h6kdr9.js";
+} from "./chunk-8bq8b5wd.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -1701,7 +1701,7 @@ var warnings_processed_default = {
                   message: "Redirected external link",
                   data: [
                     "https://v2.scrimba.com/the-frontend-developer-career-path-c0j:details?via=mdn",
-                    "https://scrimba.com/the-frontend-developer-career-path-c0j:details?via=mdn&rt=gpbtc7nu&redir=1"
+                    "https://scrimba.com/the-frontend-developer-career-path-c0j:details?via=mdn&rt=nlopf4lm&redir=1"
                   ]
                 }
               ]
@@ -1774,7 +1774,7 @@ var warnings_processed_default = {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/learn-accessible-web-design-c031?via=mdn",
-                        "https://scrimba.com/learn-accessible-web-design-c031?via=mdn&rt=3r7f7otk&redir=1"
+                        "https://scrimba.com/learn-accessible-web-design-c031?via=mdn&rt=rhcr3rm6&redir=1"
                       ]
                     }
                   ]
@@ -1963,7 +1963,7 @@ var warnings_processed_default = {
                       message: "Redirected external link",
                       data: [
                         "https://scrimba.com/learn/design?via=mdn",
-                        "https://scrimba.com/intro-to-ui-design-fundamentals-c0q?via=mdn&rt=hsbgt55r&redir=1"
+                        "https://scrimba.com/intro-to-ui-design-fundamentals-c0q?via=mdn&rt=kdeq8skm&redir=1"
                       ]
                     }
                   ]
@@ -2113,13 +2113,6 @@ var warnings_processed_default = {
                           data: [
                             "https://codepen.io/mxmason/pen/XWbPNmw"
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://new.drupal.org/",
-                            403
-                          ]
                         }
                       ]
                     },
@@ -2149,7 +2142,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/learn-react-c0e?via=mdn",
-                            "https://scrimba.com/learn-react-c0e?via=mdn&rt=rn8msirn&redir=1"
+                            "https://scrimba.com/learn-react-c0e?via=mdn&rt=acc97nj0&redir=1"
                           ]
                         }
                       ]
@@ -2399,7 +2392,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~06e?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~06e?via=mdn&rt=v6nvrv7r&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~06e?via=mdn&rt=fnvio121&redir=1"
                           ]
                         }
                       ]
@@ -2412,7 +2405,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~04g?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~04g?via=mdn&rt=ctud4rk9&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~04g?via=mdn&rt=3ubidpa5&redir=1"
                           ]
                         }
                       ]
@@ -2584,7 +2577,7 @@ var warnings_processed_default = {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/learn-javascript-c0v?via=mdn",
-                        "https://scrimba.com/learn-javascript-c0v?via=mdn&rt=53i320p2&redir=1"
+                        "https://scrimba.com/learn-javascript-c0v?via=mdn&rt=2bedrek5&redir=1"
                       ]
                     }
                   ]
@@ -2729,14 +2722,14 @@ var warnings_processed_default = {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/learn-html-and-css-c0p?via=mdn",
-                        "https://scrimba.com/learn-html-and-css-c0p?via=mdn&rt=ri6nau7u&redir=1"
+                        "https://scrimba.com/learn-html-and-css-c0p?via=mdn&rt=tfmho41p&redir=1"
                       ]
                     },
                     {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~0xid?via=mdn",
-                        "https://scrimba.com/the-frontend-developer-career-path-c0j/~0xid?via=mdn&rt=0r4jhiat&redir=1"
+                        "https://scrimba.com/the-frontend-developer-career-path-c0j/~0xid?via=mdn&rt=e8d873kd&redir=1"
                       ]
                     }
                   ]
@@ -2778,7 +2771,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~01d?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~01d?via=mdn&rt=lj5b2pgt&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~01d?via=mdn&rt=vcejnocs&redir=1"
                           ]
                         }
                       ]
@@ -2964,14 +2957,14 @@ var warnings_processed_default = {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/learn-html-and-css-c0p?via=mdn",
-                        "https://scrimba.com/learn-html-and-css-c0p?via=mdn&rt=ri6nau7u&redir=1"
+                        "https://scrimba.com/learn-html-and-css-c0p?via=mdn&rt=tfmho41p&redir=1"
                       ]
                     },
                     {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~015?via=mdn",
-                        "https://scrimba.com/the-frontend-developer-career-path-c0j/~015?via=mdn&rt=ljp1q3ib&redir=1"
+                        "https://scrimba.com/the-frontend-developer-career-path-c0j/~015?via=mdn&rt=e4o3vgks&redir=1"
                       ]
                     }
                   ]
@@ -2986,7 +2979,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~02b?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~02b?via=mdn&rt=7p9jvjaf&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~02b?via=mdn&rt=inu35j7d&redir=1"
                           ]
                         }
                       ]
@@ -3000,7 +2993,7 @@ var warnings_processed_default = {
                   message: "Redirected external link",
                   data: [
                     "https://v2.scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
-                    "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=pb94ipdi&redir=1"
+                    "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=anj6nhaf&redir=1"
                   ]
                 }
               ]
@@ -3013,14 +3006,14 @@ var warnings_processed_default = {
                   message: "Redirected external link",
                   data: [
                     "https://v2.scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
-                    "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=pb94ipdi&redir=1"
+                    "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=anj6nhaf&redir=1"
                   ]
                 },
                 {
                   message: "Redirected external link",
                   data: [
                     "https://v2.scrimba.com/teams?via=mdn-edu",
-                    "https://scrimba.com/teams?via=mdn-edu&rt=3aah9hji&redir=1"
+                    "https://scrimba.com/teams?via=mdn-edu&rt=bj75gamv&redir=1"
                   ]
                 }
               ]
@@ -3726,7 +3719,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~0xyi?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~0xyi?via=mdn&rt=hkoi1uj3&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~0xyi?via=mdn&rt=aq52b8dr&redir=1"
                           ]
                         }
                       ]
@@ -3739,7 +3732,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~0156?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~0156?via=mdn&rt=rjdcmsvu&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~0156?via=mdn&rt=3mqfdl8f&redir=1"
                           ]
                         }
                       ]
@@ -3767,7 +3760,7 @@ var warnings_processed_default = {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
-                        "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=pb94ipdi&redir=1"
+                        "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=anj6nhaf&redir=1"
                       ]
                     }
                   ]
@@ -4297,14 +4290,14 @@ var warnings_processed_default = {
               message: "Redirected external link",
               data: [
                 "https://v2.scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
-                "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=pb94ipdi&redir=1"
+                "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=anj6nhaf&redir=1"
               ]
             },
             {
               message: "Redirected external link",
               data: [
                 "https://v2.scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
-                "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=pb94ipdi&redir=1"
+                "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=anj6nhaf&redir=1"
               ]
             }
           ]
@@ -4613,22 +4606,6 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Links",
                       messages: [
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "Commonly-used macros",
-                            "Text after link:",
-                            "Other macros"
-                          ]
-                        },
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "Other macros",
-                            "Text before link:",
-                            "Commonly-used macros"
-                          ]
-                        },
                         {
                           message: "Quoted code",
                           data: [
@@ -8185,12 +8162,6 @@ var warnings_processed_default = {
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/create",
                               messages: [
                                 {
-                                  message: "Quoted code",
-                                  data: [
-                                    "%s"
-                                  ]
-                                },
-                                {
                                   message: "Unreachable via sidebar",
                                   data: []
                                 }
@@ -8300,12 +8271,6 @@ var warnings_processed_default = {
                               children: {},
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/update",
                               messages: [
-                                {
-                                  message: "Quoted code",
-                                  data: [
-                                    "%s"
-                                  ]
-                                },
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
@@ -9285,12 +9250,6 @@ var warnings_processed_default = {
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting/executeScript",
                               messages: [
                                 {
-                                  message: "Quoted code",
-                                  data: [
-                                    "my result"
-                                  ]
-                                },
-                                {
                                   message: "Unreachable via sidebar",
                                   data: []
                                 }
@@ -9902,12 +9861,6 @@ var warnings_processed_default = {
                               children: {},
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/executeScript",
                               messages: [
-                                {
-                                  message: "Quoted code",
-                                  data: [
-                                    "my result"
-                                  ]
-                                },
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
@@ -10555,12 +10508,6 @@ var warnings_processed_default = {
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/types/BrowserSetting/set",
                                   messages: [
                                     {
-                                      message: "Quoted code",
-                                      data: [
-                                        "levelOfControl"
-                                      ]
-                                    },
-                                    {
                                       message: "Unreachable via sidebar",
                                       data: []
                                     },
@@ -11010,12 +10957,6 @@ var warnings_processed_default = {
                               children: {},
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onAuthRequired",
                               messages: [
-                                {
-                                  message: "Quoted code",
-                                  data: [
-                                    '"digest'
-                                  ]
-                                },
                                 {
                                   message: "Broken anchor",
                                   data: [
@@ -11522,22 +11463,7 @@ var warnings_processed_default = {
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts",
-                      messages: [
-                        {
-                          message: "Quoted code",
-                          data: [
-                            "about:debugging"
-                          ]
-                        },
-                        {
-                          message: "Quoted code",
-                          data: [
-                            "about:addons"
-                          ]
-                        }
-                      ]
+                      }
                     },
                     developing_webextensions_for_thunderbird: {
                       children: {},
@@ -11604,12 +11530,6 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Implement_a_settings_page",
                       messages: [
                         {
-                          message: "Quoted code",
-                          data: [
-                            "about:addons"
-                          ]
-                        },
-                        {
                           message: "Not linked from parent page",
                           data: [
                             "/en-US/docs/Mozilla/Add-ons/WebExtensions"
@@ -11648,36 +11568,6 @@ var warnings_processed_default = {
                     },
                     "manifest.json": {
                       children: {
-                        chrome_settings_overrides: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/chrome_settings_overrides",
-                          messages: [
-                            {
-                              message: "Quoted code",
-                              data: [
-                                "{searchTerms}"
-                              ]
-                            }
-                          ]
-                        },
-                        commands: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/commands",
-                          messages: [
-                            {
-                              message: "Quoted code",
-                              data: [
-                                "+"
-                              ]
-                            },
-                            {
-                              message: "Quoted code",
-                              data: [
-                                "+"
-                              ]
-                            }
-                          ]
-                        },
                         content_security_policy: {
                           children: {},
                           slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/content_security_policy",
@@ -11709,38 +11599,8 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json",
                       messages: [
                         {
-                          message: "Quoted code",
-                          data: [
-                            "//"
-                          ]
-                        },
-                        {
-                          message: "Quoted code",
-                          data: [
-                            "_locales"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    },
-                    match_patterns: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Match_patterns",
-                      messages: [
-                        {
-                          message: "Quoted code",
-                          data: [
-                            "*://*/*"
-                          ]
-                        },
-                        {
-                          message: "Quoted code",
-                          data: [
-                            "file:///*"
-                          ]
                         }
                       ]
                     },
@@ -11783,18 +11643,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    },
-                    native_messaging: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_messaging",
-                      messages: [
-                        {
-                          message: "Quoted code",
-                          data: [
-                            "native-messaging"
-                          ]
                         }
                       ]
                     },
@@ -11850,18 +11698,6 @@ var warnings_processed_default = {
                             }
                           ]
                         },
-                        extension_pages: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Extension_pages",
-                          messages: [
-                            {
-                              message: "Quoted code",
-                              data: [
-                                "history"
-                              ]
-                            }
-                          ]
-                        },
                         popups: {
                           children: {},
                           slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Popups",
@@ -11910,42 +11746,6 @@ var warnings_processed_default = {
                           message: "Not linked from parent page",
                           data: [
                             "/en-US/docs/Mozilla/Add-ons/WebExtensions"
-                          ]
-                        }
-                      ]
-                    },
-                    your_first_webextension: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension",
-                      messages: [
-                        {
-                          message: "Quoted code",
-                          data: [
-                            "mozilla.org"
-                          ]
-                        },
-                        {
-                          message: "Quoted code",
-                          data: [
-                            "about:addons"
-                          ]
-                        },
-                        {
-                          message: "Quoted code",
-                          data: [
-                            "https://www.mozilla.org/en-US/"
-                          ]
-                        },
-                        {
-                          message: "Quoted code",
-                          data: [
-                            "addons.mozilla.org"
-                          ]
-                        },
-                        {
-                          message: "Quoted code",
-                          data: [
-                            "about:debugging"
                           ]
                         }
                       ]
@@ -17048,7 +16848,7 @@ var warnings_processed_default = {
                           message: "Broken external link",
                           data: [
                             "https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.532.7063&rep=rep1&type=pdf",
-                            401
+                            502
                           ]
                         },
                         {
@@ -17062,14 +16862,14 @@ var warnings_processed_default = {
                           message: "Broken external link",
                           data: [
                             "https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.106.9473&rep=rep1&type=pdf",
-                            401
+                            502
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
                             "https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.532.7063&rep=rep1&type=pdf",
-                            401
+                            502
                           ]
                         }
                       ]
@@ -17356,21 +17156,6 @@ var warnings_processed_default = {
                     }
                   ]
                 },
-                audioparamdescriptor: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/AudioParamDescriptor",
-                  messages: [
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        "api.AudioParamDescriptor",
-                        "Expected:",
-                        "[None]"
-                      ]
-                    }
-                  ]
-                },
                 audioworkletprocessor: {
                   children: {
                     parameterdescriptors: {
@@ -17561,20 +17346,6 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                cssnesteddeclarations: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/CSSNestedDeclarations",
-                  messages: [
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "Browser versions",
-                        "Text before link:",
-                        ">"
-                      ]
-                    }
-                  ]
                 },
                 datatransfer: {
                   children: {
@@ -18258,24 +18029,6 @@ api.SubtleCrypto.verify`,
                     }
                   }
                 },
-                gpudevice: {
-                  children: {
-                    createrenderpipeline: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/GPUDevice/createRenderPipeline",
-                      messages: [
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "frontFace",
-                            "Text before code:",
-                            ">"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 history_api: {
                   children: {
                     working_with_the_history_api: {
@@ -18585,32 +18338,6 @@ api.HTMLElement.toggle_event.dialog_elements`,
                     }
                   }
                 },
-                htmltextareaelement: {
-                  children: {
-                    selectionstart: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLTextAreaElement/selectionStart",
-                      messages: [
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "select",
-                            "Text after link:",
-                            "events."
-                          ]
-                        },
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "select",
-                            "Text after code:",
-                            "events."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 identitycredentialrequestoptions: {
                   children: {},
                   slug: "/en-US/docs/Web/API/IdentityCredentialRequestOptions",
@@ -18675,28 +18402,6 @@ api.HTMLElement.toggle_event.dialog_elements`,
                           message: "Not in BCD",
                           data: [
                             "api.KeyboardEvent.initKeyEvent"
-                          ]
-                        }
-                      ]
-                    },
-                    keycode: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/KeyboardEvent/keyCode",
-                      messages: [
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "0xAD (173)",
-                            "Text after code:",
-                            "[1]"
-                          ]
-                        },
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "0xBB (187)",
-                            "Text after code:",
-                            "[1]"
                           ]
                         }
                       ]
@@ -19023,84 +18728,6 @@ api.HTMLElement.toggle_event.dialog_elements`,
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/battery"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                ndefmessage: {
-                  children: {
-                    ndefmessage: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/NDEFMessage/NDEFMessage",
-                      messages: [
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            '"absolute-url"',
-                            "Text after code:",
-                            "An absolute URL to the data."
-                          ]
-                        },
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            '"empty"',
-                            "Text before code:",
-                            "An absolute URL to the data."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                ndefreadingevent: {
-                  children: {
-                    ndefreadingevent: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/NDEFReadingEvent/NDEFReadingEvent",
-                      messages: [
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            '"absolute-url"',
-                            "Text after code:",
-                            "An absolute URL to the data."
-                          ]
-                        },
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            '"empty"',
-                            "Text before code:",
-                            "An absolute URL to the data."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                ndefrecord: {
-                  children: {
-                    ndefrecord: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/NDEFRecord/NDEFRecord",
-                      messages: [
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            '"absolute-url"',
-                            "Text after code:",
-                            "An absolute URL to the data."
-                          ]
-                        },
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            '"empty"',
-                            "Text before code:",
-                            "An absolute URL to the data."
                           ]
                         }
                       ]
@@ -20401,6 +20028,56 @@ api.HTMLElement.toggle_event.dialog_elements`,
                     }
                   ]
                 },
+                svganimationelement: {
+                  children: {
+                    requiredextensions: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGAnimationElement/requiredExtensions",
+                      messages: [
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/SVG/Reference/Attribute/requiredExtensions"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/SVGAnimationElement",
+                  messages: [
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/SVG/Reference/Attribute/requiredExtensions"
+                      ]
+                    }
+                  ]
+                },
+                svgcomponenttransferfunctionelement: {
+                  children: {
+                    offset: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGComponentTransferFunctionElement/offset",
+                      messages: [
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/SVG/Reference/Attribute/offset"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/SVGComponentTransferFunctionElement",
+                  messages: [
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/SVG/Reference/Attribute/offset"
+                      ]
+                    }
+                  ]
+                },
                 svgevent: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SVGEvent",
@@ -20424,13 +20101,13 @@ api.HTMLElement.toggle_event.dialog_elements`,
                     {
                       message: "Broken link",
                       data: [
-                        "/en-US/docs/Web/SVG/Attribute/glyphRef"
+                        "/en-US/docs/Web/SVG/Reference/Attribute/glyphRef"
                       ]
                     },
                     {
                       message: "Broken link",
                       data: [
-                        "/en-US/docs/Web/SVG/Attribute/format"
+                        "/en-US/docs/Web/SVG/Reference/Attribute/format"
                       ]
                     }
                   ]
@@ -20472,8 +20149,29 @@ api.HTMLElement.toggle_event.dialog_elements`,
                           ]
                         }
                       ]
+                    },
+                    requiredextensions: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGGraphicsElement/requiredExtensions",
+                      messages: [
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/SVG/Reference/Attribute/requiredExtensions"
+                          ]
+                        }
+                      ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/SVGGraphicsElement",
+                  messages: [
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/SVG/Reference/Attribute/requiredExtensions"
+                      ]
+                    }
+                  ]
                 },
                 svgrenderingintent: {
                   children: {},
@@ -20482,13 +20180,38 @@ api.HTMLElement.toggle_event.dialog_elements`,
                     {
                       message: "Broken link",
                       data: [
-                        "/en-US/docs/Web/SVG/Attribute/rendering-intent"
+                        "/en-US/docs/Web/SVG/Reference/Attribute/rendering-intent"
                       ]
                     },
                     {
                       message: "Broken link",
                       data: [
-                        "/en-US/docs/Web/SVG/Attribute/rendering-intent"
+                        "/en-US/docs/Web/SVG/Reference/Attribute/rendering-intent"
+                      ]
+                    }
+                  ]
+                },
+                svgstopelement: {
+                  children: {
+                    offset: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGStopElement/offset",
+                      messages: [
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/SVG/Reference/Attribute/offset"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/SVGStopElement",
+                  messages: [
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/SVG/Reference/Attribute/offset"
                       ]
                     }
                   ]
@@ -20500,324 +20223,43 @@ api.HTMLElement.toggle_event.dialog_elements`,
                     {
                       message: "Broken link",
                       data: [
-                        "/en-US/docs/Web/SVG/Attribute/currentView"
+                        "/en-US/docs/Web/SVG/Reference/Attribute/currentView"
                       ]
                     },
                     {
                       message: "Broken link",
                       data: [
-                        "/en-US/docs/Web/SVG/Attribute/currentView"
+                        "/en-US/docs/Web/SVG/Reference/Attribute/currentView"
                       ]
                     },
                     {
                       message: "Broken link",
                       data: [
-                        "/en-US/docs/Web/SVG/Attribute/currentView"
+                        "/en-US/docs/Web/SVG/Reference/Attribute/currentView"
                       ]
                     },
                     {
                       message: "Broken link",
                       data: [
-                        "/en-US/docs/Web/SVG/Attribute/currentView"
+                        "/en-US/docs/Web/SVG/Reference/Attribute/currentView"
                       ]
                     },
                     {
                       message: "Broken link",
                       data: [
-                        "/en-US/docs/Web/SVG/Attribute/currentView"
+                        "/en-US/docs/Web/SVG/Reference/Attribute/currentView"
                       ]
                     },
                     {
                       message: "Broken link",
                       data: [
-                        "/en-US/docs/Web/SVG/Attribute/currentView"
+                        "/en-US/docs/Web/SVG/Reference/Attribute/currentView"
                       ]
                     },
                     {
                       message: "Broken link",
                       data: [
-                        "/en-US/docs/Web/SVG/Attribute/currentView"
-                      ]
-                    }
-                  ]
-                },
-                svgtextpositioningelement: {
-                  children: {
-                    rotate: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGTextPositioningElement/rotate",
-                      messages: [
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "api.SVGAnimationElement.rotate",
-                            "Expected:",
-                            "api.SVGTextPositioningElement.rotate"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                svgtransform: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/SVGTransform",
-                  messages: [
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "setMatrix",
-                        "Text after link:",
-                        "(in "
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "setMatrix",
-                        "Text after code:",
-                        "(in "
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "setTranslate",
-                        "Text after link:",
-                        "(in float "
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "setTranslate",
-                        "Text after code:",
-                        "(in float "
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "setScale",
-                        "Text after link:",
-                        "(in float "
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "setScale",
-                        "Text after code:",
-                        "(in float "
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "setRotate",
-                        "Text after link:",
-                        "(in float "
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "setRotate",
-                        "Text after code:",
-                        "(in float "
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "setSkewX",
-                        "Text after link:",
-                        "(in float "
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "setSkewX",
-                        "Text after code:",
-                        "(in float "
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "setSkewY",
-                        "Text after link:",
-                        "(in float "
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "setSkewY",
-                        "Text after code:",
-                        "(in float "
-                      ]
-                    }
-                  ]
-                },
-                svgtransformlist: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/SVGTransformList",
-                  messages: [
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "clear",
-                        "Text after link:",
-                        "()"
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "clear",
-                        "Text after code:",
-                        "()"
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "initialize",
-                        "Text after link:",
-                        `(in
-          `
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "initialize",
-                        "Text after code:",
-                        `(in
-          `
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "getItem",
-                        "Text after link:",
-                        "(in unsigned long "
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "getItem",
-                        "Text after code:",
-                        "(in unsigned long "
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "insertItemBefore",
-                        "Text after link:",
-                        `(in
-          `
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "insertItemBefore",
-                        "Text after code:",
-                        `(in
-          `
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "replaceItem",
-                        "Text after link:",
-                        `(in
-          `
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "replaceItem",
-                        "Text after code:",
-                        `(in
-          `
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "removeItem",
-                        "Text after link:",
-                        "(in unsigned long "
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "removeItem",
-                        "Text after code:",
-                        "(in unsigned long "
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "appendItem",
-                        "Text after link:",
-                        `(in
-          `
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "appendItem",
-                        "Text after code:",
-                        `(in
-          `
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "createSVGTransformFromMatrix",
-                        "Text after link:",
-                        `(in
-          `
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "createSVGTransformFromMatrix",
-                        "Text after code:",
-                        `(in
-          `
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "consolidate",
-                        "Text after link:",
-                        "()"
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "consolidate",
-                        "Text after code:",
-                        "()"
+                        "/en-US/docs/Web/SVG/Reference/Attribute/currentView"
                       ]
                     }
                   ]
@@ -20832,21 +20274,6 @@ api.HTMLElement.toggle_event.dialog_elements`,
                         "/en-US/docs/Web/API/AbortController#abortcontroller.signal",
                         "/en-US/docs/Web/API/AbortController/signal",
                         []
-                      ]
-                    }
-                  ]
-                },
-                timeevent: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/TimeEvent",
-                  messages: [
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        "[None]",
-                        "Expected:",
-                        "api.TimeEvent"
                       ]
                     }
                   ]
@@ -21666,19 +21093,7 @@ api.HTMLElement.toggle_event.dialog_elements`,
                           data: [
                             "GLboolean",
                             "Text after link:",
-                            `>
-        (with 4 values)
-      `
-                          ]
-                        },
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "GLboolean",
-                            "Text after code:",
-                            `>
-        (with 4 values)
-      `
+                            ">"
                           ]
                         }
                       ]
@@ -23115,20 +22530,6 @@ api.HTMLElement.toggle_event.dialog_elements`,
                     }
                   ]
                 },
-                "_colon_has-slotted": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:has-slotted",
-                  messages: [
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        ":has-slotted",
-                        "Text before code:",
-                        " single whitespace text node is sufficient to make"
-                      ]
-                    }
-                  ]
-                },
                 "_colon_local-link": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/:local-link",
@@ -24400,14 +23801,6 @@ css.selectors.-webkit-resizer`,
                   slug: "/en-US/docs/Web/CSS/calc-size",
                   messages: [
                     {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "width",
-                        "Text before code:",
-                        ", and set the"
-                      ]
-                    },
-                    {
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/CSS/calc-size()"
@@ -24531,8 +23924,11 @@ css.selectors.-webkit-resizer`,
                   slug: "/en-US/docs/Web/CSS/Column_combinator",
                   messages: [
                     {
-                      message: "Not in BCD",
+                      message: "Unexpected BCD keys",
                       data: [
+                        "Actual:",
+                        "[None]",
+                        "Expected:",
                         "css.selectors.column"
                       ]
                     }
@@ -24879,22 +24275,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/CSS_images/Replaced_element_properties",
                       messages: [
                         {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "background-position",
-                            "Text before link:",
-                            " value, the same value type at used in for"
-                          ]
-                        },
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "background-position",
-                            "Text before code:",
-                            " value, the same value type at used in for"
-                          ]
-                        },
-                        {
                           message: "Not linked from parent page",
                           data: [
                             "/en-US/docs/Web/CSS/CSS_images"
@@ -25174,6 +24554,13 @@ css.selectors.-webkit-resizer`,
                       message: "External sandbox link",
                       data: [
                         "https://codepen.io/KristopherVanSant/post/css-shapes-resources"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://www.webdesignerdepot.com/how-to-get-started-with-css-shapes/",
+                        "https://webdesignerdepot.com/how-to-get-started-with-css-shapes/"
                       ]
                     }
                   ]
@@ -25715,28 +25102,6 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
-                "grid-template-columns": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid-template-columns",
-                  messages: [
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "",
-                        "Text after link:",
-                        "fit-content( [ <length> | <percentage> ] )"
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "",
-                        "Text after code:",
-                        "fit-content( [ <length> | <percentage> ] )"
-                      ]
-                    }
-                  ]
-                },
                 height: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/height",
@@ -25883,6 +25248,18 @@ css.properties.width.fit-content_function`
                       ]
                     }
                   }
+                },
+                marker: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/marker",
+                  messages: [
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/SVG/Reference/Attribute/marker"
+                      ]
+                    }
+                  ]
                 },
                 "mask-border-mode": {
                   children: {},
@@ -26081,14 +25458,6 @@ css.properties.grid-template-rows.minmax`
                   children: {},
                   slug: "/en-US/docs/Web/CSS/Mozilla_Extensions",
                   messages: [
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        ":visited",
-                        "Text after code:",
-                        "]"
-                      ]
-                    },
                     {
                       message: "Unreachable via sidebar",
                       data: []
@@ -26671,20 +26040,6 @@ css.properties.list-style-type.symbols`
                       message: "Self link",
                       data: [
                         "/en-US/docs/Web/CSS/text-box"
-                      ]
-                    }
-                  ]
-                },
-                "text-emphasis-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-emphasis-position",
-                  messages: [
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "under",
-                        "Text after code:",
-                        "and one of "
                       ]
                     }
                   ]
@@ -29362,6 +28717,12 @@ The timers run concurrently, which means the c`
                       slug: "/en-US/docs/Web/MathML/Reference/Global_attributes",
                       messages: [
                         {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/MathML/Reference/Element/style"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -29539,6 +28900,19 @@ The timers run concurrently, which means the c`
                               data: [
                                 "https://en.flossmanuals.net/ogg-theora/_full/",
                                 "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
+                        image_types: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Image_types",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://ev.buaa.edu.cn/",
+                                403
                               ]
                             }
                           ]
@@ -29783,7 +29157,323 @@ The timers run concurrently, which means the c`
                 manifest: {
                   children: {
                     reference: {
-                      children: {},
+                      children: {
+                        background_color: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/background_color",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "manifests.webapp.background_color",
+                                "Expected:",
+                                "html.manifest.background_color"
+                              ]
+                            }
+                          ]
+                        },
+                        description: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/description",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "manifests.webapp.description",
+                                "Expected:",
+                                "html.manifest.description"
+                              ]
+                            }
+                          ]
+                        },
+                        display: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/display",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "manifests.webapp.display",
+                                "Expected:",
+                                "html.manifest.display"
+                              ]
+                            }
+                          ]
+                        },
+                        display_override: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/display_override",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "manifests.webapp.display_override",
+                                "Expected:",
+                                "html.manifest.display_override"
+                              ]
+                            }
+                          ]
+                        },
+                        file_handlers: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/file_handlers",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "manifests.webapp.file_handlers",
+                                "Expected:",
+                                "html.manifest.file_handlers"
+                              ]
+                            }
+                          ]
+                        },
+                        icons: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/icons",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "manifests.webapp.icons",
+                                "Expected:",
+                                "html.manifest.icons"
+                              ]
+                            }
+                          ]
+                        },
+                        id: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/id",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "manifests.webapp.id",
+                                "Expected:",
+                                "html.manifest.id"
+                              ]
+                            }
+                          ]
+                        },
+                        launch_handler: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/launch_handler",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "manifests.webapp.launch_handler",
+                                "Expected:",
+                                "html.manifest.launch_handler"
+                              ]
+                            }
+                          ]
+                        },
+                        name: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/name",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "manifests.webapp.name",
+                                "Expected:",
+                                "html.manifest.name"
+                              ]
+                            }
+                          ]
+                        },
+                        note_taking: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/note_taking",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "manifests.webapp.note_taking",
+                                "Expected:",
+                                "html.manifest.note_taking"
+                              ]
+                            }
+                          ]
+                        },
+                        orientation: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/orientation",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "manifests.webapp.orientation",
+                                "Expected:",
+                                "html.manifest.orientation"
+                              ]
+                            }
+                          ]
+                        },
+                        prefer_related_applications: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/prefer_related_applications",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "manifests.webapp.prefer_related_applications",
+                                "Expected:",
+                                "html.manifest.prefer_related_applications"
+                              ]
+                            }
+                          ]
+                        },
+                        protocol_handlers: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/protocol_handlers",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "manifests.webapp.protocol_handlers",
+                                "Expected:",
+                                "html.manifest.protocol_handlers"
+                              ]
+                            }
+                          ]
+                        },
+                        related_applications: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/related_applications",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "manifests.webapp.related_applications",
+                                "Expected:",
+                                "html.manifest.related_applications"
+                              ]
+                            }
+                          ]
+                        },
+                        scope: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/scope",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "manifests.webapp.scope",
+                                "Expected:",
+                                "html.manifest.scope"
+                              ]
+                            }
+                          ]
+                        },
+                        serviceworker: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/serviceworker",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "manifests.webapp.serviceworker",
+                                "Expected:",
+                                "html.manifest.serviceworker"
+                              ]
+                            }
+                          ]
+                        },
+                        share_target: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/share_target",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "manifests.webapp.share_target",
+                                "Expected:",
+                                "html.manifest.share_target"
+                              ]
+                            }
+                          ]
+                        },
+                        short_name: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/short_name",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "manifests.webapp.short_name",
+                                "Expected:",
+                                "html.manifest.short_name"
+                              ]
+                            }
+                          ]
+                        },
+                        shortcuts: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/shortcuts",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "manifests.webapp.shortcuts",
+                                "Expected:",
+                                "html.manifest.shortcuts"
+                              ]
+                            }
+                          ]
+                        },
+                        start_url: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/start_url",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "manifests.webapp.start_url",
+                                "Expected:",
+                                "html.manifest.start_url"
+                              ]
+                            }
+                          ]
+                        },
+                        theme_color: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/theme_color",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "manifests.webapp.theme_color",
+                                "Expected:",
+                                "html.manifest.theme_color"
+                              ]
+                            }
+                          ]
+                        }
+                      },
                       slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference",
                       messages: [
                         {
@@ -30112,6 +29802,18 @@ The timers run concurrently, which means the c`
                                 "[None]",
                                 "Expected:",
                                 "svg.elements.animate.attributeType"
+                              ]
+                            }
+                          ]
+                        },
+                        "baseline-shift": {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/baseline-shift",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/SVG/Reference/Attribute/line-height"
                               ]
                             }
                           ]
@@ -30752,6 +30454,18 @@ svg.elements.path.d`
                             }
                           ]
                         },
+                        direction: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/direction",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/SVG/Reference/Attribute/inline-size"
+                              ]
+                            }
+                          ]
+                        },
                         dx: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/dx",
@@ -31122,6 +30836,18 @@ svg.elements.tspan.lengthAdjust`
                             }
                           ]
                         },
+                        markerunits: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/markerUnits",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/SVG/Reference/Attribute/marker"
+                              ]
+                            }
+                          ]
+                        },
                         method: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/method",
@@ -31346,7 +31072,25 @@ svg.elements.view.preserveAspectRatio`
                             {
                               message: "Broken link",
                               data: [
-                                "/en-US/docs/Web/SVG/Attribute/enable-background"
+                                "/en-US/docs/Web/SVG/Reference/Attribute/enable-background"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/SVG/Reference/Attribute/requiredExtensions"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/SVG/Reference/Attribute/xlink:role"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/SVG/Reference/Attribute/xlink:actuate"
                               ]
                             },
                             {
@@ -32019,43 +31763,115 @@ svg.elements.feSpotLight.z`
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/SVG/Attribute/local"
+                            "/en-US/docs/Web/SVG/Reference/Attribute/hreflang"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/SVG/Attribute/rendering-intent"
+                            "/en-US/docs/Web/SVG/Reference/Attribute/local"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/SVG/Attribute/speed"
+                            "/en-US/docs/Web/SVG/Reference/Attribute/offset"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/SVG/Attribute/mask-type"
+                            "/en-US/docs/Web/SVG/Reference/Attribute/ping"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/SVG/Attribute/text-overflow"
+                            "/en-US/docs/Web/SVG/Reference/Attribute/referrerPolicy"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/SVG/Attribute/white-space"
+                            "/en-US/docs/Web/SVG/Reference/Attribute/rel"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/SVG/Attribute/autoReverse"
+                            "/en-US/docs/Web/SVG/Reference/Attribute/rendering-intent"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/SVG/Reference/Attribute/requiredExtensions"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/SVG/Reference/Attribute/speed"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/SVG/Reference/Attribute/xlink:actuate"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/SVG/Reference/Attribute/xlink:role"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/SVG/Reference/Attribute/requiredExtensions"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/SVG/Reference/Attribute/xlink:role"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/SVG/Reference/Attribute/xlink:actuate"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/SVG/Reference/Attribute/mask-type"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/SVG/Reference/Attribute/text-overflow"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/SVG/Reference/Attribute/white-space"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/SVG/Reference/Attribute/offset"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/SVG/Reference/Attribute/autoReverse"
                           ]
                         }
                       ]
@@ -32525,13 +32341,13 @@ svg.elements.feSpotLight.z`
                             {
                               message: "Broken link",
                               data: [
-                                "/en-US/docs/Web/SVG/Attribute/glyphRef"
+                                "/en-US/docs/Web/SVG/Reference/Attribute/glyphRef"
                               ]
                             },
                             {
                               message: "Broken link",
                               data: [
-                                "/en-US/docs/Web/SVG/Attribute/format"
+                                "/en-US/docs/Web/SVG/Reference/Attribute/format"
                               ]
                             }
                           ]
@@ -33449,6 +33265,24 @@ svg.elements.feSpotLight.z`
                                 "Text before link:",
                                 "|"
                               ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/SVG/Reference/Attribute/offset"
+                              ]
+                            }
+                          ]
+                        },
+                        style: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Element/style",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/SVG/Reference/Attribute/title"
+                              ]
                             }
                           ]
                         },
@@ -33614,6 +33448,12 @@ svg.elements.feSpotLight.z`
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Element/switch",
                           messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/SVG/Reference/Attribute/requiredExtensions"
+                              ]
+                            },
                             {
                               message: "Self link",
                               data: [
