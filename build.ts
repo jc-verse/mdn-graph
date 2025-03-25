@@ -27,3 +27,6 @@ await Bun.build({
   outdir: "./docs",
   splitting: true,
 });
+
+// TODO: not sure why I need this
+process.exit(0);
