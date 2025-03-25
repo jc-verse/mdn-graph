@@ -27,24 +27,34 @@ const knownRedirects = new Map(
   }),
 );
 
+// TODO: there's something wrong with Bun's timeout when it
+// cannot reach the server
+function fetchWithTimeout(url: string, options?: RequestInit) {
+  return Promise.race([
+    fetch(url, { ...options, signal: AbortSignal.timeout(10000) }),
+    new Promise<never>((_, reject) =>
+      setTimeout(
+        () => reject(new Error("Cannot reach server and Bun hangs")),
+        15000,
+      ),
+    ),
+  ]);
+}
+
 async function checkLink(href: string) {
-  // TODO: Bun hangs if the server can't be connected
-  // if (href.startsWith("http:")) {
-  //   try {
-  //     const res = await fetch(href.replace("http:", "https:"), {
-  //       signal: AbortSignal.timeout(3000),
-  //     });
-  //     if (res.ok) {
-  //       return {
-  //         type: "HTTP link",
-  //         data: "has HTTPS alternative",
-  //       };
-  //     }
-  //   } catch {}
-  // }
+  if (href.startsWith("http:")) {
+    try {
+      const res = await fetchWithTimeout(href.replace("http:", "https:"));
+      if (res.ok) {
+        return {
+          type: "HTTP link",
+          data: "has HTTPS alternative",
+        };
+      }
+    } catch {}
+  }
   try {
-    const res = await fetch(href, {
-      signal: AbortSignal.timeout(10000),
+    const res = await fetchWithTimeout(href, {
       headers: {
         "Accept-Language": "en-US",
       },
