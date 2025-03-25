@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-zv30kcv0.js";
+} from "./chunk-r7h6kdr9.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -1701,7 +1701,7 @@ var warnings_processed_default = {
                   message: "Redirected external link",
                   data: [
                     "https://v2.scrimba.com/the-frontend-developer-career-path-c0j:details?via=mdn",
-                    "https://scrimba.com/the-frontend-developer-career-path-c0j:details?via=mdn&rt=5ddg9fqv&redir=1"
+                    "https://scrimba.com/the-frontend-developer-career-path-c0j:details?via=mdn&rt=gpbtc7nu&redir=1"
                   ]
                 }
               ]
@@ -1774,7 +1774,7 @@ var warnings_processed_default = {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/learn-accessible-web-design-c031?via=mdn",
-                        "https://scrimba.com/learn-accessible-web-design-c031?via=mdn&rt=vg2djs0u&redir=1"
+                        "https://scrimba.com/learn-accessible-web-design-c031?via=mdn&rt=3r7f7otk&redir=1"
                       ]
                     }
                   ]
@@ -1963,7 +1963,7 @@ var warnings_processed_default = {
                       message: "Redirected external link",
                       data: [
                         "https://scrimba.com/learn/design?via=mdn",
-                        "https://scrimba.com/intro-to-ui-design-fundamentals-c0q?via=mdn&rt=05tbua5h&redir=1"
+                        "https://scrimba.com/intro-to-ui-design-fundamentals-c0q?via=mdn&rt=hsbgt55r&redir=1"
                       ]
                     }
                   ]
@@ -2149,7 +2149,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/learn-react-c0e?via=mdn",
-                            "https://scrimba.com/learn-react-c0e?via=mdn&rt=1nu3pks8&redir=1"
+                            "https://scrimba.com/learn-react-c0e?via=mdn&rt=rn8msirn&redir=1"
                           ]
                         }
                       ]
@@ -2399,7 +2399,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~06e?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~06e?via=mdn&rt=3m5msq8q&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~06e?via=mdn&rt=v6nvrv7r&redir=1"
                           ]
                         }
                       ]
@@ -2412,7 +2412,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~04g?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~04g?via=mdn&rt=tf1ci2ha&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~04g?via=mdn&rt=ctud4rk9&redir=1"
                           ]
                         }
                       ]
@@ -2584,7 +2584,7 @@ var warnings_processed_default = {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/learn-javascript-c0v?via=mdn",
-                        "https://scrimba.com/learn-javascript-c0v?via=mdn&rt=a6l534ip&redir=1"
+                        "https://scrimba.com/learn-javascript-c0v?via=mdn&rt=53i320p2&redir=1"
                       ]
                     }
                   ]
@@ -2666,13 +2666,6 @@ var warnings_processed_default = {
                           data: []
                         },
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://inkscape.org/",
-                            403
-                          ]
-                        },
-                        {
                           message: "HTTP link",
                           data: [
                             "http://tavmjong.free.fr/INKSCAPE/MANUAL/html/Web-Inkscape.html",
@@ -2736,14 +2729,14 @@ var warnings_processed_default = {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/learn-html-and-css-c0p?via=mdn",
-                        "https://scrimba.com/learn-html-and-css-c0p?via=mdn&rt=pvrn9c37&redir=1"
+                        "https://scrimba.com/learn-html-and-css-c0p?via=mdn&rt=ri6nau7u&redir=1"
                       ]
                     },
                     {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~0xid?via=mdn",
-                        "https://scrimba.com/the-frontend-developer-career-path-c0j/~0xid?via=mdn&rt=1qm3r7ma&redir=1"
+                        "https://scrimba.com/the-frontend-developer-career-path-c0j/~0xid?via=mdn&rt=0r4jhiat&redir=1"
                       ]
                     }
                   ]
@@ -2785,7 +2778,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~01d?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~01d?via=mdn&rt=8lbdh7a5&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~01d?via=mdn&rt=lj5b2pgt&redir=1"
                           ]
                         }
                       ]
@@ -2971,14 +2964,14 @@ var warnings_processed_default = {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/learn-html-and-css-c0p?via=mdn",
-                        "https://scrimba.com/learn-html-and-css-c0p?via=mdn&rt=pvrn9c37&redir=1"
+                        "https://scrimba.com/learn-html-and-css-c0p?via=mdn&rt=ri6nau7u&redir=1"
                       ]
                     },
                     {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~015?via=mdn",
-                        "https://scrimba.com/the-frontend-developer-career-path-c0j/~015?via=mdn&rt=3hbk90dv&redir=1"
+                        "https://scrimba.com/the-frontend-developer-career-path-c0j/~015?via=mdn&rt=ljp1q3ib&redir=1"
                       ]
                     }
                   ]
@@ -2993,7 +2986,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~02b?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~02b?via=mdn&rt=65hqvlck&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~02b?via=mdn&rt=7p9jvjaf&redir=1"
                           ]
                         }
                       ]
@@ -3007,7 +3000,7 @@ var warnings_processed_default = {
                   message: "Redirected external link",
                   data: [
                     "https://v2.scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
-                    "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=em6h909a&redir=1"
+                    "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=pb94ipdi&redir=1"
                   ]
                 }
               ]
@@ -3020,14 +3013,14 @@ var warnings_processed_default = {
                   message: "Redirected external link",
                   data: [
                     "https://v2.scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
-                    "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=em6h909a&redir=1"
+                    "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=pb94ipdi&redir=1"
                   ]
                 },
                 {
                   message: "Redirected external link",
                   data: [
                     "https://v2.scrimba.com/teams?via=mdn-edu",
-                    "https://scrimba.com/teams?via=mdn-edu&rt=ue6j2m4e&redir=1"
+                    "https://scrimba.com/teams?via=mdn-edu&rt=3aah9hji&redir=1"
                   ]
                 }
               ]
@@ -3733,7 +3726,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~0xyi?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~0xyi?via=mdn&rt=oc8avk09&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~0xyi?via=mdn&rt=hkoi1uj3&redir=1"
                           ]
                         }
                       ]
@@ -3746,7 +3739,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~0156?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~0156?via=mdn&rt=vook5h5l&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~0156?via=mdn&rt=rjdcmsvu&redir=1"
                           ]
                         }
                       ]
@@ -3767,42 +3760,14 @@ var warnings_processed_default = {
                   }
                 },
                 your_first_website: {
-                  children: {
-                    styling_the_content: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/What_will_your_website_look_like",
-                            "#font"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/What_will_your_website_look_like",
-                            "#font"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/What_will_your_website_look_like",
-                            "#theme_color"
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website",
                   messages: [
                     {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
-                        "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=em6h909a&redir=1"
+                        "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=pb94ipdi&redir=1"
                       ]
                     }
                   ]
@@ -4332,14 +4297,14 @@ var warnings_processed_default = {
               message: "Redirected external link",
               data: [
                 "https://v2.scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
-                "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=em6h909a&redir=1"
+                "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=pb94ipdi&redir=1"
               ]
             },
             {
               message: "Redirected external link",
               data: [
                 "https://v2.scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
-                "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=em6h909a&redir=1"
+                "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=pb94ipdi&redir=1"
               ]
             }
           ]
@@ -4445,19 +4410,6 @@ var warnings_processed_default = {
                   ]
                 }
               }
-            },
-            guides: {
-              children: {},
-              slug: "/en-US/docs/MDN/Guides",
-              messages: [
-                {
-                  message: "Broken anchor",
-                  data: [
-                    "/en-US/docs/Web/Progressive_web_apps",
-                    "#core_pwa_guides"
-                  ]
-                }
-              ]
             },
             kitchensink: {
               children: {},
@@ -4641,13 +4593,6 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Feature_status",
                       messages: [
                         {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/CSS_function_page_template",
-                            "#sect1"
-                          ]
-                        },
-                        {
                           message: "Broken browser compat anchor",
                           data: []
                         },
@@ -4753,13 +4698,6 @@ var warnings_processed_default = {
                           slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/API_constructor_subpage_template",
                           messages: [
                             {
-                              message: "Broken anchor",
-                              data: [
-                                "/en-US/docs/Web/API/Web_Workers_API/Functions_and_classes_available_to_workers",
-                                "#supported_web_apis"
-                              ]
-                            },
-                            {
                               message: "Unreachable via sidebar",
                               data: []
                             }
@@ -4769,13 +4707,6 @@ var warnings_processed_default = {
                           children: {},
                           slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/API_event_subpage_template",
                           messages: [
-                            {
-                              message: "Broken anchor",
-                              data: [
-                                "/en-US/docs/Web/API/Web_Workers_API/Functions_and_classes_available_to_workers",
-                                "#supported_web_apis"
-                              ]
-                            },
                             {
                               message: "Unreachable via sidebar",
                               data: []
@@ -4787,13 +4718,6 @@ var warnings_processed_default = {
                           slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/API_landing_page_template",
                           messages: [
                             {
-                              message: "Broken anchor",
-                              data: [
-                                "/en-US/docs/Web/API/Web_Workers_API/Functions_and_classes_available_to_workers",
-                                "#supported_web_apis"
-                              ]
-                            },
-                            {
                               message: "Unreachable via sidebar",
                               data: []
                             }
@@ -4803,13 +4727,6 @@ var warnings_processed_default = {
                           children: {},
                           slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/API_method_subpage_template",
                           messages: [
-                            {
-                              message: "Broken anchor",
-                              data: [
-                                "/en-US/docs/Web/API/Web_Workers_API/Functions_and_classes_available_to_workers",
-                                "#supported_web_apis"
-                              ]
-                            },
                             {
                               message: "Unreachable via sidebar",
                               data: []
@@ -4821,13 +4738,6 @@ var warnings_processed_default = {
                           slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/API_property_subpage_template",
                           messages: [
                             {
-                              message: "Broken anchor",
-                              data: [
-                                "/en-US/docs/Web/API/Web_Workers_API/Functions_and_classes_available_to_workers",
-                                "#supported_web_apis"
-                              ]
-                            },
-                            {
                               message: "Unreachable via sidebar",
                               data: []
                             }
@@ -4837,13 +4747,6 @@ var warnings_processed_default = {
                           children: {},
                           slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/API_reference_page_template",
                           messages: [
-                            {
-                              message: "Broken anchor",
-                              data: [
-                                "/en-US/docs/Web/API/Web_Workers_API/Functions_and_classes_available_to_workers",
-                                "#supported_web_apis"
-                              ]
-                            },
                             {
                               message: "Unreachable via sidebar",
                               data: []
@@ -9046,12 +8949,6 @@ var warnings_processed_default = {
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/MessageSender",
                               messages: [
                                 {
-                                  message: "Broken link",
-                                  data: [
-                                    "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/port/sender"
-                                  ]
-                                },
-                                {
                                   message: "Unreachable via sidebar",
                                   data: []
                                 }
@@ -11563,19 +11460,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    browser_support_for_javascript_apis: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Browser_support_for_JavaScript_APIs",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json",
-                            "#Browser_compatibility"
-                          ]
-                        }
-                      ]
-                    },
                     build_a_cross_browser_extension: {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Build_a_cross_browser_extension",
@@ -11911,13 +11795,6 @@ var warnings_processed_default = {
                           data: [
                             "native-messaging"
                           ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_manifests",
-                            "#mac_os_x"
-                          ]
                         }
                       ]
                     },
@@ -12037,19 +11914,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    working_with_files: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Working_with_files",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Web/API/Permissions",
-                            "#api_permissions"
-                          ]
-                        }
-                      ]
-                    },
                     your_first_webextension: {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension",
@@ -12132,13 +11996,7 @@ var warnings_processed_default = {
                     {
                       message: "Broken link",
                       data: [
-                        "/en-US/docs/Web/API/HTMLScriptElement/innerText"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/API/HTMLScriptElement/textContent"
+                        "/en-US/docs/Web/API/HTMLElement/textContent"
                       ]
                     }
                   ]
@@ -17009,12 +16867,6 @@ var warnings_processed_default = {
                           slug: "/en-US/docs/Web/Accessibility/ARIA/How_to/File_ARIA-related_bugs",
                           messages: [
                             {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Mozilla/Developer_guide/Inner_and_outer_windows"
-                              ]
-                            },
-                            {
                               message: "Unreachable via page",
                               data: []
                             }
@@ -17196,7 +17048,7 @@ var warnings_processed_default = {
                           message: "Broken external link",
                           data: [
                             "https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.532.7063&rep=rep1&type=pdf",
-                            502
+                            401
                           ]
                         },
                         {
@@ -17217,7 +17069,7 @@ var warnings_processed_default = {
                           message: "Broken external link",
                           data: [
                             "https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.532.7063&rep=rep1&type=pdf",
-                            502
+                            401
                           ]
                         }
                       ]
@@ -17303,19 +17155,6 @@ var warnings_processed_default = {
                               ]
                             }
                           }
-                        },
-                        understandable: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Understandable",
-                          messages: [
-                            {
-                              message: "Broken anchor",
-                              data: [
-                                "/en-US/docs/Learn_web_development/Core/Structuring_content/Advanced_text_features",
-                                "#description_lists"
-                              ]
-                            }
-                          ]
                         }
                       }
                     }
@@ -17563,138 +17402,6 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                authenticatorassertionresponse: {
-                  children: {
-                    authenticatordata: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/AuthenticatorAssertionResponse/authenticatorData",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Web/API/CredentialsContainer/get",
-                            "#user_login_using_the_webauthn_api"
-                          ]
-                        }
-                      ]
-                    },
-                    signature: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/AuthenticatorAssertionResponse/signature",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Web/API/CredentialsContainer/get",
-                            "#user_login_using_the_webauthn_api"
-                          ]
-                        }
-                      ]
-                    },
-                    userhandle: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/AuthenticatorAssertionResponse/userHandle",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Web/API/CredentialsContainer/get",
-                            "#user_login_using_the_webauthn_api"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/AuthenticatorAssertionResponse",
-                  messages: [
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/API/CredentialsContainer/get",
-                        "#user_login_using_the_webauthn_api"
-                      ]
-                    }
-                  ]
-                },
-                authenticatorattestationresponse: {
-                  children: {
-                    attestationobject: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/AuthenticatorAttestationResponse/attestationObject",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Web/API/CredentialsContainer/create",
-                            "#creating_a_public_key_credential_using_the_webauthn_api"
-                          ]
-                        }
-                      ]
-                    },
-                    getauthenticatordata: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/AuthenticatorAttestationResponse/getAuthenticatorData",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Web/API/CredentialsContainer/create",
-                            "#creating_a_public_key_credential_using_the_webauthn_api"
-                          ]
-                        }
-                      ]
-                    },
-                    getpublickey: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/AuthenticatorAttestationResponse/getPublicKey",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Web/API/CredentialsContainer/create",
-                            "#creating_a_public_key_credential_using_the_webauthn_api"
-                          ]
-                        }
-                      ]
-                    },
-                    getpublickeyalgorithm: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/AuthenticatorAttestationResponse/getPublicKeyAlgorithm",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Web/API/CredentialsContainer/create",
-                            "#creating_a_public_key_credential_using_the_webauthn_api"
-                          ]
-                        }
-                      ]
-                    },
-                    gettransports: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/AuthenticatorAttestationResponse/getTransports",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Web/API/CredentialsContainer/create",
-                            "#creating_a_public_key_credential_using_the_webauthn_api"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/AuthenticatorAttestationResponse",
-                  messages: [
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/API/CredentialsContainer/create",
-                        "#creating_a_public_key_credential_using_the_webauthn_api"
-                      ]
-                    }
-                  ]
                 },
                 canvas_api: {
                   children: {
@@ -18306,19 +18013,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                dommatrix: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/DOMMatrix",
-                  messages: [
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/API/DOMMatrixReadOnly",
-                        "#is2d"
-                      ]
-                    }
-                  ]
-                },
                 dragevent: {
                   children: {},
                   slug: "/en-US/docs/Web/API/DragEvent",
@@ -18458,23 +18152,6 @@ api.SubtleCrypto.verify`,
                     }
                   }
                 },
-                fedcm_api: {
-                  children: {
-                    idp_integration: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/FedCM_API/IDP_integration",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Web/API/CredentialsContainer/get",
-                            "#providers_2"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 fetchevent: {
                   children: {
                     replacesclientid: {
@@ -18593,36 +18270,6 @@ api.SubtleCrypto.verify`,
                             "frontFace",
                             "Text before code:",
                             ">"
-                          ]
-                        }
-                      ]
-                    },
-                    createrenderpipelineasync: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/GPUDevice/createRenderPipelineAsync",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#depthbias"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#depthbiasclamp"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#depthbiasslopescale"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#topology"
                           ]
                         }
                       ]
@@ -18789,22 +18436,6 @@ api.SubtleCrypto.verify`,
                     }
                   }
                 },
-                htmlcanvaselement: {
-                  children: {
-                    transfercontroltooffscreen: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLCanvasElement/transferControlToOffscreen",
-                      messages: [
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Web/API/HTMLCanvasElement/transferControlToOffscreen"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 htmldetailselement: {
                   children: {},
                   slug: "/en-US/docs/Web/API/HTMLDetailsElement",
@@ -18921,18 +18552,6 @@ api.HTMLElement.toggle_event.dialog_elements`,
                     }
                   }
                 },
-                htmlmediaelement: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/HTMLMediaElement",
-                  messages: [
-                    {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/API/HTMLMediaElement"
-                      ]
-                    }
-                  ]
-                },
                 htmlolistelement: {
                   children: {},
                   slug: "/en-US/docs/Web/API/HTMLOListElement",
@@ -18986,22 +18605,6 @@ api.HTMLElement.toggle_event.dialog_elements`,
                             "select",
                             "Text after code:",
                             "events."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                idbrequest: {
-                  children: {
-                    error: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/IDBRequest/error",
-                      messages: [
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Web/API/IDBRequest/error"
                           ]
                         }
                       ]
@@ -19094,22 +18697,6 @@ api.HTMLElement.toggle_event.dialog_elements`,
                             "0xBB (187)",
                             "Text after code:",
                             "[1]"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                largestcontentfulpaint: {
-                  children: {
-                    rendertime: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/LargestContentfulPaint/renderTime",
-                      messages: [
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Web/API/LargestContentfulPaint/renderTime"
                           ]
                         }
                       ]
@@ -19686,22 +19273,6 @@ api.HTMLElement.toggle_event.dialog_elements`,
                         {
                           message: "Missing specifications",
                           data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                performanceresourcetiming: {
-                  children: {
-                    requeststart: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PerformanceResourceTiming/requestStart",
-                      messages: [
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Web/API/PerformanceResourceTiming/requestStart"
-                          ]
                         }
                       ]
                     }
@@ -20463,20 +20034,7 @@ api.HTMLElement.toggle_event.dialog_elements`,
                   ]
                 },
                 rtcoutboundrtpstreamstats: {
-                  children: {
-                    qualitylimitationdurations: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/RTCOutboundRtpStreamStats/qualityLimitationDurations",
-                      messages: [
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Web/API/RTCOutboundRtpStreamStats/qualityLimitationDurations"
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/API/RTCOutboundRtpStreamStats",
                   messages: [
                     {
@@ -20735,16 +20293,7 @@ api.HTMLElement.toggle_event.dialog_elements`,
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/SecurityPolicyViolationEvent",
-                  messages: [
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "#effectivedirective"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 "server-sent_events": {
                   children: {
@@ -20868,54 +20417,6 @@ api.HTMLElement.toggle_event.dialog_elements`,
                     }
                   ]
                 },
-                svgfefloodelement: {
-                  children: {
-                    result: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEFloodElement/result",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/SVGFEFloodElement/in1"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                svgfeimageelement: {
-                  children: {
-                    result: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEImageElement/result",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/SVGFEImageElement/in1"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                svgfeturbulenceelement: {
-                  children: {
-                    result: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFETurbulenceElement/result",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/SVGFETurbulenceElement/in1"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 svgglyphrefelement: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SVGGlyphRefElement",
@@ -20968,22 +20469,6 @@ api.HTMLElement.toggle_event.dialog_elements`,
                           message: "Not in BCD",
                           data: [
                             "api.SVGGraphicsElement.paste_event"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                svgpathelement: {
-                  children: {
-                    getpathdata: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGPathElement/getPathData",
-                      messages: [
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Web/API/SVGPathElement/getPathData#normalize"
                           ]
                         }
                       ]
@@ -21608,6 +21093,19 @@ api.HTMLElement.toggle_event.dialog_elements`,
                 },
                 web_audio_api: {
                   children: {
+                    advanced_techniques: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://soundbible.com/1573-DTMF-Tones.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
                     best_practices: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Best_practices",
@@ -25205,18 +24703,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/CSS_cascade/Value_processing",
                       messages: [
                         {
-                          message: "Quoted code",
-                          data: [
-                            "p { font-size: 1.25em; }"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#specified_valuespecified_value"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -25544,18 +25030,6 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    },
-                    "understanding_z-index": {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#stacking_context"
-                          ]
                         }
                       ]
                     },
@@ -27710,13 +27184,6 @@ html.elements.textarea.disabled`
                           slug: "/en-US/docs/Web/HTML/Attributes/rel/modulepreload",
                           messages: [
                             {
-                              message: "Broken anchor",
-                              data: [
-                                "/en-US/docs/Web/HTML/Attributes/crossorigin",
-                                "#sect1"
-                              ]
-                            },
-                            {
                               message: "Unreachable via sidebar",
                               data: []
                             }
@@ -28072,44 +27539,6 @@ html.elements.select.size`
                 },
                 element: {
                   children: {
-                    button: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Element/button",
-                      messages: [
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Web/HTML/Element/button"
-                          ]
-                        }
-                      ]
-                    },
-                    dialog: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Element/dialog",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Web/HTML/Element/Heading_Elements",
-                            "#sectioning_roots"
-                          ]
-                        }
-                      ]
-                    },
-                    fieldset: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Element/fieldset",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Web/HTML/Element/Heading_Elements",
-                            "#sectioning_root"
-                          ]
-                        }
-                      ]
-                    },
                     footer: {
                       children: {},
                       slug: "/en-US/docs/Web/HTML/Element/footer",
@@ -28239,26 +27668,6 @@ html.elements.select.size`
                             "#importmap",
                             "/en-US/docs/Web/HTML/Element/script/type/importmap",
                             []
-                          ]
-                        }
-                      ]
-                    },
-                    table: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Element/table",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility",
-                            "#tables_for_visually_impaired_users"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility",
-                            "#tables_for_visually_impaired_users"
                           ]
                         }
                       ]
@@ -28492,218 +27901,14 @@ html.elements.select.size`
                   children: {
                     headers: {
                       children: {
-                        accept: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "accept-ch": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept-CH",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "accept-encoding": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept-Encoding",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "accept-language": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept-Language",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "accept-patch": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept-Patch",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "accept-post": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept-Post",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "accept-ranges": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept-Ranges",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "access-control-allow-credentials": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Access-Control-Allow-Credentials",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "access-control-allow-headers": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Access-Control-Allow-Headers",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "access-control-allow-methods": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Access-Control-Allow-Methods",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "access-control-allow-origin": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Access-Control-Allow-Origin",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "access-control-expose-headers": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Access-Control-Expose-Headers",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "access-control-max-age": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Access-Control-Max-Age",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "access-control-request-headers": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Access-Control-Request-Headers",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "access-control-request-method": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Access-Control-Request-Method",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        age: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Age",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
                         allow: {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Allow",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Not in BCD",
                               data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "alt-svc": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Alt-Svc",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
+                                "http.headers.Allow"
                               ]
                             }
                           ]
@@ -28713,93 +27918,9 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Alt-Used",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Not in BCD",
                               data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "attribution-reporting-eligible": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Attribution-Reporting-Eligible",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "attribution-reporting-register-source": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Attribution-Reporting-Register-Source",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "attribution-reporting-register-trigger": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Attribution-Reporting-Register-Trigger",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        authorization: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Authorization",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "cache-control": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Cache-Control",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "clear-site-data": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Clear-Site-Data",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        connection: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Connection",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
+                                "http.headers.Alt-Used"
                               ]
                             }
                           ]
@@ -28809,195 +27930,15 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Digest",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Not in BCD",
                               data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "content-disposition": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Disposition",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "content-dpr": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-DPR",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "content-encoding": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Encoding",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "content-language": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Language",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "content-length": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Length",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "content-location": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Location",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "content-range": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Range",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
+                                "http.headers.Content-Digest"
                               ]
                             }
                           ]
                         },
                         "content-security-policy": {
                           children: {
-                            "base-uri": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/base-uri",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-csp-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "block-all-mixed-content": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/block-all-mixed-content",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-csp-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "child-src": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/child-src",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-csp-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "connect-src": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/connect-src",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-csp-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "default-src": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/default-src",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-csp-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "fenced-frame-src": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/fenced-frame-src",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-csp-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "font-src": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/font-src",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-csp-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "form-action": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/form-action",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-csp-directive"
-                                  ]
-                                }
-                              ]
-                            },
                             "frame-ancestors": {
                               children: {},
                               slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/frame-ancestors",
@@ -29008,36 +27949,6 @@ html.elements.select.size`
                                     ": deny",
                                     "Text before code:",
                                     "X-Frame-Options"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-csp-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "frame-src": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/frame-src",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-csp-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "img-src": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/img-src",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-csp-directive"
                                   ]
                                 }
                               ]
@@ -29052,60 +27963,6 @@ html.elements.select.size`
                                     ": manifest-src",
                                     "Text before code:",
                                     "Content-Security-Policy"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-csp-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "media-src": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/media-src",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-csp-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "object-src": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/object-src",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-csp-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "prefetch-src": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/prefetch-src",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-csp-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "report-to": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/report-to",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-csp-directive"
                                   ]
                                 }
                               ]
@@ -29129,144 +27986,6 @@ html.elements.select.size`
                                     "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/style-src",
                                     []
                                   ]
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-csp-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "require-trusted-types-for": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/require-trusted-types-for",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-csp-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            sandbox: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/sandbox",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-csp-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "script-src": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/script-src",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-csp-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "script-src-attr": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/script-src-attr",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-csp-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "script-src-elem": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/script-src-elem",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-csp-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "style-src": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/style-src",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-csp-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "style-src-attr": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/style-src-attr",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-csp-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "style-src-elem": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/style-src-elem",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-csp-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "trusted-types": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/trusted-types",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-csp-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "upgrade-insecure-requests": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/upgrade-insecure-requests",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-csp-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "worker-src": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/worker-src",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-csp-directive"
-                                  ]
                                 }
                               ]
                             }
@@ -29288,192 +28007,6 @@ html.elements.select.size`
                                 "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/report-to",
                                 []
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "content-security-policy-report-only": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy-Report-Only",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "content-type": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Type",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        cookie: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Cookie",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "critical-ch": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Critical-CH",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "cross-origin-embedder-policy": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "cross-origin-opener-policy": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Opener-Policy",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "cross-origin-resource-policy": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Resource-Policy",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        date: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Date",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "device-memory": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Device-Memory",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        dnt: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/DNT",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        downlink: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Downlink",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        dpr: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/DPR",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "early-data": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Early-Data",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        ect: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/ECT",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        etag: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/ETag",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
                             }
                           ]
                         },
@@ -29482,33 +28015,9 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Expect",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Not in BCD",
                               data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "expect-ct": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Expect-CT",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        expires: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Expires",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
+                                "http.headers.Expect"
                               ]
                             }
                           ]
@@ -29518,141 +28027,9 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Forwarded",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Not in BCD",
                               data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        from: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/From",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        host: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Host",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "if-match": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/If-Match",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "if-modified-since": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/If-Modified-Since",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "if-none-match": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/If-None-Match",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "if-range": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/If-Range",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "if-unmodified-since": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/If-Unmodified-Since",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "keep-alive": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Keep-Alive",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "last-modified": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Last-Modified",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        link: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Link",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        location: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Location",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
+                                "http.headers.Forwarded"
                               ]
                             }
                           ]
@@ -29662,431 +28039,23 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Max-Forwards",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Not in BCD",
                               data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        nel: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/NEL",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "no-vary-search": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/No-Vary-Search",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "observe-browsing-topics": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Observe-Browsing-Topics",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        origin: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Origin",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "origin-agent-cluster": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Origin-Agent-Cluster",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
+                                "http.headers.Max-Forwards"
                               ]
                             }
                           ]
                         },
                         "permissions-policy": {
                           children: {
-                            accelerometer: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/accelerometer",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-permissions-policy-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "ambient-light-sensor": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/ambient-light-sensor",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-permissions-policy-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "attribution-reporting": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/attribution-reporting",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-permissions-policy-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            autoplay: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/autoplay",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-permissions-policy-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            bluetooth: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/bluetooth",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-permissions-policy-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "browsing-topics": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/browsing-topics",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-permissions-policy-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            camera: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/camera",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-permissions-policy-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "compute-pressure": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/compute-pressure",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-permissions-policy-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "cross-origin-isolated": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/cross-origin-isolated",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-permissions-policy-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "display-capture": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/display-capture",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-permissions-policy-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "document-domain": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/document-domain",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-permissions-policy-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "encrypted-media": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/encrypted-media",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-permissions-policy-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            fullscreen: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/fullscreen",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-permissions-policy-directive"
-                                  ]
-                                }
-                              ]
-                            },
                             gamepad: {
                               children: {},
                               slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/gamepad",
                               messages: [
                                 {
-                                  message: "Unexpected page type",
+                                  message: "Not in BCD",
                                   data: [
-                                    "http-permissions-policy-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            geolocation: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/geolocation",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-permissions-policy-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            gyroscope: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/gyroscope",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-permissions-policy-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            hid: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/hid",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-permissions-policy-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "identity-credentials-get": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/identity-credentials-get",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-permissions-policy-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "idle-detection": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/idle-detection",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-permissions-policy-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "local-fonts": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/local-fonts",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-permissions-policy-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            magnetometer: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/magnetometer",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-permissions-policy-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            microphone: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/microphone",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-permissions-policy-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            midi: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/midi",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-permissions-policy-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "otp-credentials": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/otp-credentials",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-permissions-policy-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            payment: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/payment",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-permissions-policy-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "picture-in-picture": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/picture-in-picture",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-permissions-policy-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "publickey-credentials-create": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/publickey-credentials-create",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-permissions-policy-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "publickey-credentials-get": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/publickey-credentials-get",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-permissions-policy-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "screen-wake-lock": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/screen-wake-lock",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-permissions-policy-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            serial: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/serial",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-permissions-policy-directive"
+                                    "http.headers.Permissions-Policy.gamepad"
                                   ]
                                 }
                               ]
@@ -30096,200 +28065,23 @@ html.elements.select.size`
                               slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/speaker-selection",
                               messages: [
                                 {
-                                  message: "Unexpected page type",
+                                  message: "Not in BCD",
                                   data: [
-                                    "http-permissions-policy-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "storage-access": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/storage-access",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-permissions-policy-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            usb: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/usb",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-permissions-policy-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "web-share": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/web-share",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-permissions-policy-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "window-management": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/window-management",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-permissions-policy-directive"
-                                  ]
-                                }
-                              ]
-                            },
-                            "xr-spatial-tracking": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/xr-spatial-tracking",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "http-permissions-policy-directive"
+                                    "http.headers.Permissions-Policy.speaker-selection"
                                   ]
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        pragma: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Pragma",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        priority: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Priority",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "proxy-authenticate": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Proxy-Authenticate",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
+                          }
                         },
                         "proxy-authorization": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Proxy-Authorization",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Not in BCD",
                               data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        range: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Range",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        referer: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Referer",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "referrer-policy": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Referrer-Policy",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        refresh: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Refresh",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "report-to": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Report-To",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "reporting-endpoints": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Reporting-Endpoints",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
+                                "http.headers.Proxy-Authorization"
                               ]
                             }
                           ]
@@ -30299,513 +28091,9 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Repr-Digest",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Not in BCD",
                               data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "retry-after": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Retry-After",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        rtt: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/RTT",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "save-data": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Save-Data",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "sec-browsing-topics": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Browsing-Topics",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "sec-ch-prefers-color-scheme": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-CH-Prefers-Color-Scheme",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "sec-ch-prefers-reduced-motion": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-CH-Prefers-Reduced-Motion",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "sec-ch-prefers-reduced-transparency": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-CH-Prefers-Reduced-Transparency",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "sec-ch-ua": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-CH-UA",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "sec-ch-ua-arch": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-CH-UA-Arch",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "sec-ch-ua-bitness": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-CH-UA-Bitness",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "sec-ch-ua-form-factors": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-CH-UA-Form-Factors",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "sec-ch-ua-full-version": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-CH-UA-Full-Version",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "sec-ch-ua-full-version-list": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-CH-UA-Full-Version-List",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "sec-ch-ua-mobile": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-CH-UA-Mobile",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "sec-ch-ua-model": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-CH-UA-Model",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "sec-ch-ua-platform": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-CH-UA-Platform",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "sec-ch-ua-platform-version": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-CH-UA-Platform-Version",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "sec-ch-ua-wow64": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-CH-UA-WoW64",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "sec-fetch-dest": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Dest",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "sec-fetch-mode": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Mode",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "sec-fetch-site": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Site",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "sec-fetch-user": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-User",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "sec-gpc": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-GPC",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "sec-purpose": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Purpose",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "sec-websocket-accept": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-WebSocket-Accept",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "sec-websocket-extensions": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-WebSocket-Extensions",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "sec-websocket-key": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-WebSocket-Key",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "sec-websocket-protocol": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-WebSocket-Protocol",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "sec-websocket-version": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-WebSocket-Version",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        server: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Server",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "server-timing": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Server-Timing",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "service-worker": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Service-Worker",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "service-worker-allowed": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Service-Worker-Allowed",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "service-worker-navigation-preload": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Service-Worker-Navigation-Preload",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "set-cookie": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Set-Cookie",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "set-login": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Set-Login",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        sourcemap: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/SourceMap",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "speculation-rules": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Speculation-Rules",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "strict-transport-security": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Strict-Transport-Security",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "supports-loading-mode": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Supports-Loading-Mode",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        te: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/TE",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "timing-allow-origin": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Timing-Allow-Origin",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
+                                "http.headers.Repr-Digest"
                               ]
                             }
                           ]
@@ -30819,57 +28107,9 @@ html.elements.select.size`
                               data: []
                             },
                             {
-                              message: "Unexpected page type",
+                              message: "Not in BCD",
                               data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        trailer: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Trailer",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "transfer-encoding": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Transfer-Encoding",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        upgrade: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Upgrade",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "upgrade-insecure-requests": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Upgrade-Insecure-Requests",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
+                                "http.headers.Tk"
                               ]
                             }
                           ]
@@ -30883,71 +28123,19 @@ html.elements.select.size`
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Redirected external link",
-                                  data: [
-                                    "https://hg.mozilla.org/releases",
-                                    "https://hg-edge.mozilla.org/releases"
-                                  ]
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/User-Agent",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        vary: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Vary",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        via: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Via",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "viewport-width": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Viewport-Width",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
+                          }
                         },
                         "want-content-digest": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Want-Content-Digest",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Not in BCD",
                               data: [
-                                "http-header"
+                                "http.headers.Want-Content-Digest"
                               ]
                             }
                           ]
@@ -30957,69 +28145,9 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Want-Repr-Digest",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Not in BCD",
                               data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        warning: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Warning",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        width: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Width",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "www-authenticate": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/WWW-Authenticate",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "x-content-type-options": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/X-Content-Type-Options",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "x-dns-prefetch-control": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/X-DNS-Prefetch-Control",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
+                                "http.headers.Want-Repr-Digest"
                               ]
                             }
                           ]
@@ -31029,9 +28157,9 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/X-Forwarded-For",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Not in BCD",
                               data: [
-                                "http-header"
+                                "http.headers.X-Forwarded-For"
                               ]
                             }
                           ]
@@ -31041,9 +28169,9 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/X-Forwarded-Host",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Not in BCD",
                               data: [
-                                "http-header"
+                                "http.headers.X-Forwarded-Host"
                               ]
                             }
                           ]
@@ -31053,21 +28181,9 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/X-Forwarded-Proto",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Not in BCD",
                               data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "x-frame-options": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/X-Frame-Options",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
+                                "http.headers.X-Forwarded-Proto"
                               ]
                             }
                           ]
@@ -31083,9 +28199,9 @@ html.elements.select.size`
                               ]
                             },
                             {
-                              message: "Unexpected page type",
+                              message: "Not in BCD",
                               data: [
-                                "http-header"
+                                "http.headers.X-Permitted-Cross-Domain-Policies"
                               ]
                             }
                           ]
@@ -31095,9 +28211,9 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/X-Powered-By",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Not in BCD",
                               data: [
-                                "http-header"
+                                "http.headers.X-Powered-By"
                               ]
                             }
                           ]
@@ -31107,21 +28223,9 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/X-Robots-Tag",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Not in BCD",
                               data: [
-                                "http-header"
-                              ]
-                            }
-                          ]
-                        },
-                        "x-xss-protection": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/X-XSS-Protection",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-header"
+                                "http.headers.X-Robots-Tag"
                               ]
                             }
                           ]
@@ -31130,62 +28234,17 @@ html.elements.select.size`
                     },
                     methods: {
                       children: {
-                        connect: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Methods/CONNECT",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-method"
-                              ]
-                            }
-                          ]
-                        },
                         delete: {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Methods/DELETE",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "http-method"
-                              ]
-                            }
-                          ]
-                        },
-                        get: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Methods/GET",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-method"
-                              ]
-                            }
-                          ]
-                        },
-                        head: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Methods/HEAD",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-method"
-                              ]
-                            }
-                          ]
-                        },
-                        options: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Methods/OPTIONS",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-method"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.methods.DELETE"
                               ]
                             }
                           ]
@@ -31195,21 +28254,9 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/HTTP/Reference/Methods/PATCH",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Not in BCD",
                               data: [
-                                "http-method"
-                              ]
-                            }
-                          ]
-                        },
-                        post: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Methods/POST",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-method"
+                                "http.methods.PATCH"
                               ]
                             }
                           ]
@@ -31219,9 +28266,12 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/HTTP/Reference/Methods/PUT",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "http-method"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.methods.PUT"
                               ]
                             }
                           ]
@@ -31231,9 +28281,9 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/HTTP/Reference/Methods/TRACE",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Not in BCD",
                               data: [
-                                "http-method"
+                                "http.methods.TRACE"
                               ]
                             }
                           ]
@@ -31242,486 +28292,6 @@ html.elements.select.size`
                     },
                     status: {
                       children: {
-                        "100": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/100",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "101": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/101",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "102": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/102",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "103": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/103",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "200": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/200",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "201": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/201",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "202": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/202",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "203": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/203",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "204": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/204",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "205": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/205",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "206": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/206",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "207": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/207",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "208": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/208",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "226": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/226",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "300": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/300",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "301": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/301",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "302": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/302",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "303": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/303",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "304": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/304",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "307": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/307",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "308": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/308",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "400": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/400",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "401": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/401",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "402": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/402",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "403": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/403",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "404": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/404",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "405": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/405",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "406": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/406",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "407": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/407",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "408": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/408",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "409": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/409",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "410": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/410",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "411": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/411",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "412": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/412",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "413": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/413",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "414": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/414",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "415": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/415",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "416": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/416",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "417": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/417",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "418": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/418",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
                         "421": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Status/421",
@@ -31731,252 +28301,6 @@ html.elements.select.size`
                               data: [
                                 "https://svn.apache.org/viewvc?view=revision&revision=1705672",
                                 403
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "422": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/422",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "423": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/423",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "424": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/424",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "425": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/425",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "426": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/426",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "428": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/428",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "429": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/429",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "431": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/431",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "451": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/451",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "500": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/500",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "501": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/501",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "502": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/502",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "503": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/503",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "504": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/504",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "505": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/505",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "506": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/506",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "507": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/507",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "508": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/508",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "510": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/510",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
-                              ]
-                            }
-                          ]
-                        },
-                        "511": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/511",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "http-status-code"
                               ]
                             }
                           ]
@@ -33024,392 +29348,7 @@ The timers run concurrently, which means the c`
                 reference: {
                   children: {
                     element: {
-                      children: {
-                        annotation: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/annotation",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-element"
-                              ]
-                            }
-                          ]
-                        },
-                        "annotation-xml": {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/annotation-xml",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-element"
-                              ]
-                            }
-                          ]
-                        },
-                        maction: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/maction",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-element"
-                              ]
-                            }
-                          ]
-                        },
-                        math: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/math",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-element"
-                              ]
-                            }
-                          ]
-                        },
-                        menclose: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/menclose",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-element"
-                              ]
-                            }
-                          ]
-                        },
-                        merror: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/merror",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-element"
-                              ]
-                            }
-                          ]
-                        },
-                        mfenced: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/mfenced",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-element"
-                              ]
-                            }
-                          ]
-                        },
-                        mfrac: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/mfrac",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-element"
-                              ]
-                            }
-                          ]
-                        },
-                        mi: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/mi",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-element"
-                              ]
-                            }
-                          ]
-                        },
-                        mmultiscripts: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/mmultiscripts",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-element"
-                              ]
-                            }
-                          ]
-                        },
-                        mn: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/mn",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-element"
-                              ]
-                            }
-                          ]
-                        },
-                        mo: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/mo",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-element"
-                              ]
-                            }
-                          ]
-                        },
-                        mover: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/mover",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-element"
-                              ]
-                            }
-                          ]
-                        },
-                        mpadded: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/mpadded",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-element"
-                              ]
-                            }
-                          ]
-                        },
-                        mphantom: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/mphantom",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-element"
-                              ]
-                            }
-                          ]
-                        },
-                        mprescripts: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/mprescripts",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-element"
-                              ]
-                            }
-                          ]
-                        },
-                        mroot: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/mroot",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-element"
-                              ]
-                            }
-                          ]
-                        },
-                        mrow: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/mrow",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-element"
-                              ]
-                            }
-                          ]
-                        },
-                        ms: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/ms",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-element"
-                              ]
-                            }
-                          ]
-                        },
-                        mspace: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/mspace",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-element"
-                              ]
-                            }
-                          ]
-                        },
-                        msqrt: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/msqrt",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-element"
-                              ]
-                            }
-                          ]
-                        },
-                        mstyle: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/mstyle",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-element"
-                              ]
-                            }
-                          ]
-                        },
-                        msub: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/msub",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-element"
-                              ]
-                            }
-                          ]
-                        },
-                        msubsup: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/msubsup",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-element"
-                              ]
-                            }
-                          ]
-                        },
-                        msup: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/msup",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-element"
-                              ]
-                            }
-                          ]
-                        },
-                        mtable: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/mtable",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-element"
-                              ]
-                            }
-                          ]
-                        },
-                        mtd: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/mtd",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-element"
-                              ]
-                            }
-                          ]
-                        },
-                        mtext: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/mtext",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-element"
-                              ]
-                            }
-                          ]
-                        },
-                        mtr: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/mtr",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-element"
-                              ]
-                            }
-                          ]
-                        },
-                        munder: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/munder",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-element"
-                              ]
-                            }
-                          ]
-                        },
-                        munderover: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/munderover",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-element"
-                              ]
-                            }
-                          ]
-                        },
-                        semantics: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/semantics",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-element"
-                              ]
-                            }
-                          ]
-                        }
-                      },
+                      children: {},
                       slug: "/en-US/docs/Web/MathML/Reference/Element",
                       messages: [
                         {
@@ -33419,92 +29358,7 @@ The timers run concurrently, which means the c`
                       ]
                     },
                     global_attributes: {
-                      children: {
-                        dir: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Global_attributes/dir",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        displaystyle: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Global_attributes/displaystyle",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        href: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Global_attributes/href",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        mathbackground: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Global_attributes/mathbackground",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        mathcolor: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Global_attributes/mathcolor",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        mathsize: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Global_attributes/mathsize",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        scriptlevel: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Global_attributes/scriptlevel",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "mathml-attribute"
-                              ]
-                            }
-                          ]
-                        }
-                      },
+                      children: {},
                       slug: "/en-US/docs/Web/MathML/Reference/Global_attributes",
                       messages: [
                         {
@@ -33572,19 +29426,6 @@ The timers run concurrently, which means the c`
                               message: "External sandbox link",
                               data: [
                                 "https://jsbin.com/badimipi/1/edit"
-                              ]
-                            }
-                          ]
-                        },
-                        cross_browser_video_player: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/cross_browser_video_player",
-                          messages: [
-                            {
-                              message: "Broken anchor",
-                              data: [
-                                "/en-US/docs/Web/Media/Guides/Formats",
-                                "#browser_compatibility"
                               ]
                             }
                           ]
@@ -33689,6 +29530,19 @@ The timers run concurrently, which means the c`
                     },
                     formats: {
                       children: {
+                        containers: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Containers",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://en.flossmanuals.net/ogg-theora/_full/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -33716,6 +29570,13 @@ The timers run concurrently, which means the c`
                               data: [
                                 "http://hevc.info/",
                                 "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://en.flossmanuals.net/ogg-theora/_full/",
+                                "Cannot reach server and Bun hangs"
                               ]
                             }
                           ]
@@ -34221,110 +30082,17 @@ The timers run concurrently, which means the c`
                   children: {
                     attribute: {
                       children: {
-                        "accent-height": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/accent-height",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        accumulate: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/accumulate",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        additive: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/additive",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "alignment-baseline": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/alignment-baseline",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        alphabetic: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/alphabetic",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        amplitude: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/amplitude",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "arabic-form": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/arabic-form",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        ascent: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/ascent",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
                         attributename: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/attributeName",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "svg.elements.animate.attributeName"
                               ]
                             }
                           ]
@@ -34338,45 +30106,12 @@ The timers run concurrently, which means the c`
                               data: []
                             },
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        azimuth: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/azimuth",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        basefrequency: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/baseFrequency",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "baseline-shift": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/baseline-shift",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "svg.elements.animate.attributeType"
                               ]
                             }
                           ]
@@ -34390,21 +30125,12 @@ The timers run concurrently, which means the c`
                               data: []
                             },
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        bbox: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/bbox",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "svg.elements.svg.baseProfile"
                               ]
                             }
                           ]
@@ -34442,36 +30168,6 @@ The timers run concurrently, which means the c`
                               data: [
                                 "begin-5-accesskey.svg"
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        bias: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/bias",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        by: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/by",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
                             }
                           ]
                         },
@@ -34480,69 +30176,12 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/calcMode",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "cap-height": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/cap-height",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        class: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/class",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        clip: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/clip",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "clip-path": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/clip-path",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "clip-rule": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/clip-rule",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "svg.elements.animateMotion.calcMode"
                               ]
                             }
                           ]
@@ -34552,45 +30191,12 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/clipPathUnits",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        color: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/color",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "color-interpolation": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/color-interpolation",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "color-interpolation-filters": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/color-interpolation-filters",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "svg.elements.clipPath.clipPathUnits"
                               ]
                             }
                           ]
@@ -34600,9 +30206,13 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/crossorigin",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "svg.elements.image.crossorigin",
+                                "Expected:",
+                                `svg.elements.feImage.crossorigin
+svg.elements.image.crossorigin`
                               ]
                             }
                           ]
@@ -34618,36 +30228,6 @@ The timers run concurrently, which means the c`
                                 "Text before link:",
                                 `
         [[`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        cx: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/cx",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        cy: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/cy",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
                               ]
                             }
                           ]
@@ -35145,9 +30725,14 @@ The timers run concurrently, which means the c`
                               ]
                             },
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "svg.elements.path.d",
+                                "Expected:",
+                                `svg.elements.glyph.d
+svg.elements.missing-glyph.d
+svg.elements.path.d`
                               ]
                             }
                           ]
@@ -35157,105 +30742,12 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/data-*",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        decoding: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/decoding",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        descent: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/descent",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        diffuseconstant: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/diffuseConstant",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        direction: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/direction",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        display: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/display",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        divisor: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/divisor",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "dominant-baseline": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/dominant-baseline",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        dur: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/dur",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "svg.global_attributes.data",
+                                "Expected:",
+                                "[None]"
                               ]
                             }
                           ]
@@ -35265,9 +30757,16 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/dx",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                `svg.elements.feDropShadow.dx
+svg.elements.feOffset.dx
+svg.elements.glyphRef.dx
+svg.elements.text.dx
+svg.elements.tspan.dx`
                               ]
                             }
                           ]
@@ -35277,9 +30776,16 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/dy",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                `svg.elements.feDropShadow.dy
+svg.elements.feOffset.dy
+svg.elements.glyphRef.dy
+svg.elements.text.dy
+svg.elements.tspan.dy`
                               ]
                             }
                           ]
@@ -35289,45 +30795,13 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/edgeMode",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        elevation: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/elevation",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        end: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/end",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        exponent: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/exponent",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                `svg.elements.feConvolveMatrix.edgeMode
+svg.elements.feGaussianBlur.edgeMode`
                               ]
                             }
                           ]
@@ -35337,177 +30811,34 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/fill",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "fill-opacity": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/fill-opacity",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "fill-rule": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/fill-rule",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        filter: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/filter",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        filterunits: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/filterUnits",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "flood-color": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/flood-color",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "flood-opacity": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/flood-opacity",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-family": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/font-family",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-size": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/font-size",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-size-adjust": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/font-size-adjust",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-stretch": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/font-stretch",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-style": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/font-style",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-variant": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/font-variant",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-weight": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/font-weight",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        fr: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/fr",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                `svg.elements.circle.fill
+svg.elements.ellipse.fill
+svg.elements.path.fill
+svg.elements.polygon.fill
+svg.elements.polyline.fill
+svg.elements.rect.fill
+svg.elements.text.fill
+svg.elements.textPath.fill
+svg.elements.tref.fill
+svg.elements.tspan.fill`,
+                                "Expected:",
+                                `svg.elements.animate.fill
+svg.elements.animateMotion.fill
+svg.elements.animateTransform.fill
+svg.elements.circle.fill
+svg.elements.ellipse.fill
+svg.elements.path.fill
+svg.elements.polygon.fill
+svg.elements.polyline.fill
+svg.elements.rect.fill
+svg.elements.set.fill
+svg.elements.text.fill
+svg.elements.textPath.fill
+svg.elements.tref.fill
+svg.elements.tspan.fill`
                               ]
                             }
                           ]
@@ -35517,33 +30848,12 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/From",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        fx: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/fx",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        fy: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/fy",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "svg.elements.animate.from",
+                                "Expected:",
+                                "[None]"
                               ]
                             }
                           ]
@@ -35561,9 +30871,13 @@ The timers run concurrently, which means the c`
                               ]
                             },
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "svg.elements.hkern.g1",
+                                "Expected:",
+                                `svg.elements.hkern.g1
+svg.elements.vkern.g1`
                               ]
                             }
                           ]
@@ -35581,81 +30895,13 @@ The timers run concurrently, which means the c`
                               ]
                             },
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "glyph-name": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/glyph-name",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "glyph-orientation-horizontal": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/glyph-orientation-horizontal",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "glyph-orientation-vertical": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/glyph-orientation-vertical",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        gradienttransform: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/gradientTransform",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        gradientunits: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/gradientUnits",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        hanging: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/hanging",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "svg.elements.hkern.g2",
+                                "Expected:",
+                                `svg.elements.hkern.g2
+svg.elements.vkern.g2`
                               ]
                             }
                           ]
@@ -35665,9 +30911,19 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/height",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                `svg.elements.filter.height
+svg.elements.foreignObject.height
+svg.elements.image.height
+svg.elements.mask.height
+svg.elements.pattern.height
+svg.elements.rect.height
+svg.elements.svg.height
+svg.elements.use.height`
                               ]
                             }
                           ]
@@ -35677,33 +30933,14 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/horiz-adv-x",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "horiz-origin-x": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/horiz-origin-x",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "horiz-origin-y": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/horiz-origin-y",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "svg.elements.font.horiz-adv-x",
+                                "Expected:",
+                                `svg.elements.font.horiz-adv-x
+svg.elements.glyph.horiz-adv-x
+svg.elements.missing-glyph.horiz-adv-x`
                               ]
                             }
                           ]
@@ -35713,45 +30950,39 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/href",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        id: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/id",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        ideographic: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/ideographic",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "image-rendering": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/image-rendering",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                `svg.elements.a.href
+svg.elements.animate.href
+svg.elements.animateMotion.href
+svg.elements.animateTransform.href
+svg.elements.feImage.href
+svg.elements.image.href
+svg.elements.linearGradient.href
+svg.elements.mpath.href
+svg.elements.pattern.href
+svg.elements.radialGradient.href
+svg.elements.script.href
+svg.elements.set.href
+svg.elements.textPath.href
+svg.elements.use.href`,
+                                "Expected:",
+                                `svg.elements.a.href
+svg.elements.animate.href
+svg.elements.animateMotion.href
+svg.elements.animateTransform.href
+svg.elements.cursor.href
+svg.elements.feImage.href
+svg.elements.image.href
+svg.elements.linearGradient.href
+svg.elements.mpath.href
+svg.elements.pattern.href
+svg.elements.radialGradient.href
+svg.elements.script.href
+svg.elements.set.href
+svg.elements.textPath.href
+svg.elements.use.href`
                               ]
                             }
                           ]
@@ -35761,9 +30992,25 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/in",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                `svg.elements.feBlend.in
+svg.elements.feColorMatrix.in
+svg.elements.feComponentTransfer.in
+svg.elements.feComposite.in
+svg.elements.feConvolveMatrix.in
+svg.elements.feDiffuseLighting.in
+svg.elements.feDisplacementMap.in
+svg.elements.feDropShadow.in
+svg.elements.feGaussianBlur.in
+svg.elements.feMergeNode.in
+svg.elements.feMorphology.in
+svg.elements.feOffset.in
+svg.elements.feSpecularLighting.in
+svg.elements.feTile.in`
                               ]
                             }
                           ]
@@ -35773,9 +31020,14 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/in2",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                `svg.elements.feBlend.in2
+svg.elements.feComposite.in2
+svg.elements.feDisplacementMap.in2`
                               ]
                             }
                           ]
@@ -35785,9 +31037,12 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/intercept",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "svg.elements.feFuncR",
+                                "Expected:",
+                                "[None]"
                               ]
                             }
                           ]
@@ -35797,69 +31052,13 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/k",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        k1: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/k1",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        k2: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/k2",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        k3: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/k3",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        k4: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/k4",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        kernelmatrix: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/kernelMatrix",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "svg.elements.hkern.k",
+                                "Expected:",
+                                `svg.elements.hkern.k
+svg.elements.vkern.k`
                               ]
                             }
                           ]
@@ -35873,9 +31072,14 @@ The timers run concurrently, which means the c`
                               data: []
                             },
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                `svg.elements.feConvolveMatrix.kernelUnitLength
+svg.elements.feDiffuseLighting.kernelUnitLength
+svg.elements.feSpecularLighting.kernelUnitLength`
                               ]
                             }
                           ]
@@ -35899,48 +31103,6 @@ The timers run concurrently, which means the c`
                                 "Text after code:",
                                 "]* ;?"
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        keysplines: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/keySplines",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        keytimes: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/keyTimes",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        lang: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/lang",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
                             }
                           ]
                         },
@@ -35949,189 +31111,13 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/lengthAdjust",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "letter-spacing": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/letter-spacing",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "lighting-color": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/lighting-color",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        limitingconeangle: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/limitingConeAngle",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "marker-end": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/marker-end",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "marker-mid": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/marker-mid",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "marker-start": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/marker-start",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        markerheight: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/markerHeight",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        markerunits: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/markerUnits",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        markerwidth: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/markerWidth",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        mask: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/mask",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        maskcontentunits: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/maskContentUnits",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        maskunits: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/maskUnits",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        mathematical: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/mathematical",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        max: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/max",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        media: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/media",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "svg.elements.text.lengthAdjust",
+                                "Expected:",
+                                `svg.elements.text.lengthAdjust
+svg.elements.tspan.lengthAdjust`
                               ]
                             }
                           ]
@@ -36143,36 +31129,6 @@ The timers run concurrently, which means the c`
                             {
                               message: "Broken browser compat anchor",
                               data: []
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        min: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/min",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        mode: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/mode",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
                             }
                           ]
                         },
@@ -36185,33 +31141,12 @@ The timers run concurrently, which means the c`
                               data: []
                             },
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        numoctaves: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/numOctaves",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        opacity: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/opacity",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "svg.elements.font-face-name.name"
                               ]
                             }
                           ]
@@ -36221,45 +31156,13 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/operator",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        order: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/order",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        orient: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/orient",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        orientation: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/orientation",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                `svg.elements.feComposite.operator
+svg.elements.feMorphology.operator`
                               ]
                             }
                           ]
@@ -36269,21 +31172,12 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/origin",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        overflow: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/overflow",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "svg.elements.animateMotion.origin"
                               ]
                             }
                           ]
@@ -36293,9 +31187,12 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/overline-position",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "svg.elements.font-face.overline-position"
                               ]
                             }
                           ]
@@ -36305,21 +31202,12 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/overline-thickness",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "paint-order": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/paint-order",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "svg.elements.font-face.overline-thickness"
                               ]
                             }
                           ]
@@ -36335,12 +31223,6 @@ The timers run concurrently, which means the c`
                                 "Text after link:",
                                 "{10}"
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
                             }
                           ]
                         },
@@ -36349,69 +31231,13 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/path",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        pathlength: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/pathLength",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        patterncontentunits: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/patternContentUnits",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        patterntransform: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/patternTransform",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        patternunits: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/patternUnits",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "pointer-events": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/pointer-events",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                `svg.elements.animateMotion.path
+svg.elements.textPath.path`
                               ]
                             }
                           ]
@@ -36453,57 +31279,13 @@ The timers run concurrently, which means the c`
                               ]
                             },
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        pointsatx: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/pointsAtX",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        pointsaty: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/pointsAtY",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        pointsatz: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/pointsAtZ",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        preservealpha: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/preserveAlpha",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                `svg.elements.polygon.points
+svg.elements.polyline.points`
                               ]
                             }
                           ]
@@ -36513,45 +31295,16 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/preserveAspectRatio",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        primitiveunits: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/primitiveUnits",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        r: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/r",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        radius: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/radius",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                `svg.elements.feImage.preserveAspectRatio
+svg.elements.image.preserveAspectRatio
+svg.elements.svg.preserveAspectRatio
+svg.elements.symbol.preserveAspectRatio
+svg.elements.view.preserveAspectRatio`
                               ]
                             }
                           ]
@@ -36561,9 +31314,12 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/refX",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "svg.elements.marker.refX"
                               ]
                             }
                           ]
@@ -36573,33 +31329,12 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/refY",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        repeatcount: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/repeatCount",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        repeatdur: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/repeatDur",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "svg.elements.marker.refY"
                               ]
                             }
                           ]
@@ -36615,33 +31350,12 @@ The timers run concurrently, which means the c`
                               ]
                             },
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        restart: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/restart",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        result: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/result",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "svg.global_attributes.requiredFeatures",
+                                "Expected:",
+                                "[None]"
                               ]
                             }
                           ]
@@ -36651,9 +31365,14 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/rotate",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                `svg.elements.animateMotion.rotate
+svg.elements.text.rotate
+svg.elements.tspan.rotate`
                               ]
                             }
                           ]
@@ -36663,9 +31382,13 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/rx",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                `svg.elements.ellipse.rx
+svg.elements.rect.rx`
                               ]
                             }
                           ]
@@ -36675,57 +31398,13 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/ry",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        scale: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/scale",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        seed: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/seed",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "shape-rendering": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/shape-rendering",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        side: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/side",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                `svg.elements.ellipse.ry
+svg.elements.rect.ry`
                               ]
                             }
                           ]
@@ -36735,33 +31414,12 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/slope",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        spacing: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/spacing",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        specularconstant: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/specularConstant",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "svg.elements.feFuncR",
+                                "Expected:",
+                                "svg.elements.font-face.slope"
                               ]
                             }
                           ]
@@ -36771,33 +31429,13 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/specularExponent",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        spreadmethod: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/spreadMethod",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        startoffset: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/startOffset",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                `svg.elements.feSpecularLighting.specularExponent
+svg.elements.feSpotLight.specularExponent`
                               ]
                             }
                           ]
@@ -36807,69 +31445,13 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/stdDeviation",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        stemh: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/stemh",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        stemv: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/stemv",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        stitchtiles: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/stitchTiles",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "stop-color": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/stop-color",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "stop-opacity": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/stop-opacity",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "svg.elements.feGaussianBlur.stdDeviation",
+                                "Expected:",
+                                `svg.elements.feDropShadow.stdDeviation
+svg.elements.feGaussianBlur.stdDeviation`
                               ]
                             }
                           ]
@@ -36879,9 +31461,12 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/strikethrough-position",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "svg.elements.font-face.strikethrough-position"
                               ]
                             }
                           ]
@@ -36891,69 +31476,12 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/strikethrough-thickness",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        string: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/string",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        stroke: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/stroke",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "stroke-dasharray": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/stroke-dasharray",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "stroke-dashoffset": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/stroke-dashoffset",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "stroke-linecap": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/stroke-linecap",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "svg.elements.font-face.strikethrough-thickness"
                               ]
                             }
                           ]
@@ -36969,66 +31497,6 @@ The timers run concurrently, which means the c`
                                 "Text before code:",
                                 " |"
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "stroke-miterlimit": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/stroke-miterlimit",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "stroke-opacity": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/stroke-opacity",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "stroke-width": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/stroke-width",
-                          messages: [
-                            {
-                              message: "Self link",
-                              data: [
-                                "/en-US/docs/Web/SVG/Reference/Attribute/stroke-width"
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        style: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/style",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
                             }
                           ]
                         },
@@ -37037,9 +31505,13 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/surfaceScale",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                `svg.elements.feDiffuseLighting.surfaceScale
+svg.elements.feSpecularLighting.surfaceScale`
                               ]
                             }
                           ]
@@ -37049,45 +31521,38 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/systemLanguage",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        tabindex: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/tabindex",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        tablevalues: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/tableValues",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        target: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/target",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "svg.global_attributes.systemLanguage",
+                                "Expected:",
+                                `svg.elements.a.systemLanguage
+svg.elements.animate.systemLanguage
+svg.elements.animateMotion.systemLanguage
+svg.elements.animateTransform.systemLanguage
+svg.elements.circle.systemLanguage
+svg.elements.clipPath.systemLanguage
+svg.elements.cursor.systemLanguage
+svg.elements.defs.systemLanguage
+svg.elements.ellipse.systemLanguage
+svg.elements.foreignObject.systemLanguage
+svg.elements.g.systemLanguage
+svg.elements.image.systemLanguage
+svg.elements.line.systemLanguage
+svg.elements.mask.systemLanguage
+svg.elements.path.systemLanguage
+svg.elements.pattern.systemLanguage
+svg.elements.polygon.systemLanguage
+svg.elements.polyline.systemLanguage
+svg.elements.rect.systemLanguage
+svg.elements.set.systemLanguage
+svg.elements.svg.systemLanguage
+svg.elements.switch.systemLanguage
+svg.elements.text.systemLanguage
+svg.elements.textPath.systemLanguage
+svg.elements.tref.systemLanguage
+svg.elements.tspan.systemLanguage
+svg.elements.use.systemLanguage`
                               ]
                             }
                           ]
@@ -37111,12 +31576,6 @@ The timers run concurrently, which means the c`
                                 "Text after code:",
                                 "X / 2)"
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
                             }
                           ]
                         },
@@ -37139,48 +31598,6 @@ The timers run concurrently, which means the c`
                                 "Text after code:",
                                 "Y / 2)"
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "text-anchor": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/text-anchor",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "text-decoration": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/text-decoration",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "text-rendering": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/text-rendering",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
                             }
                           ]
                         },
@@ -37189,21 +31606,14 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/textLength",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        to: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/To",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "svg.elements.text.textLength",
+                                "Expected:",
+                                `svg.elements.text.textLength
+svg.elements.textPath.textLength
+svg.elements.tspan.textLength`
                               ]
                             }
                           ]
@@ -37213,21 +31623,12 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/transform",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "transform-origin": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/transform-origin",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "svg.global_attributes.transform"
                               ]
                             }
                           ]
@@ -37237,9 +31638,17 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/type",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                `svg.elements.a.type
+svg.elements.animateTransform.type
+svg.elements.feColorMatrix.type
+svg.elements.feTurbulence.type
+svg.elements.script.type
+svg.elements.style.type`
                               ]
                             }
                           ]
@@ -37265,9 +31674,13 @@ The timers run concurrently, which means the c`
                               ]
                             },
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "svg.elements.hkern.u1",
+                                "Expected:",
+                                `svg.elements.hkern.u1
+svg.elements.vkern.u1`
                               ]
                             }
                           ]
@@ -37293,9 +31706,13 @@ The timers run concurrently, which means the c`
                               ]
                             },
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "svg.elements.hkern.u2",
+                                "Expected:",
+                                `svg.elements.hkern.u2
+svg.elements.vkern.u2`
                               ]
                             }
                           ]
@@ -37305,9 +31722,12 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/underline-position",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "svg.elements.font-face.underline-position"
                               ]
                             }
                           ]
@@ -37317,33 +31737,12 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/underline-thickness",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        unicode: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/unicode",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "unicode-bidi": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/unicode-bidi",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "svg.elements.font-face.underline-thickness"
                               ]
                             }
                           ]
@@ -37359,72 +31758,6 @@ The timers run concurrently, which means the c`
                                 "Text before link:",
                                 "<urange>"
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "units-per-em": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/units-per-em",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "v-alphabetic": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/v-alphabetic",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "v-hanging": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/v-hanging",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "v-ideographic": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/v-ideographic",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "v-mathematical": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/v-mathematical",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
                             }
                           ]
                         },
@@ -37433,33 +31766,12 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/values",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "vector-effect": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/vector-effect",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        version: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/version",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "svg.elements.feColorMatrix.values"
                               ]
                             }
                           ]
@@ -37469,9 +31781,14 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/vert-adv-y",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "svg.elements.font.vert-adv-y",
+                                "Expected:",
+                                `svg.elements.font.vert-adv-y
+svg.elements.glyph.vert-adv-y
+svg.elements.missing-glyph.vert-adv-y`
                               ]
                             }
                           ]
@@ -37481,9 +31798,14 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/vert-origin-x",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "svg.elements.font.vert-origin-x",
+                                "Expected:",
+                                `svg.elements.font.vert-origin-x
+svg.elements.glyph.vert-origin-x
+svg.elements.missing-glyph.vert-origin-x`
                               ]
                             }
                           ]
@@ -37493,9 +31815,14 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/vert-origin-y",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "svg.elements.font.vert-origin-y",
+                                "Expected:",
+                                `svg.elements.font.vert-origin-y
+svg.elements.glyph.vert-origin-y
+svg.elements.missing-glyph.vert-origin-y`
                               ]
                             }
                           ]
@@ -37505,21 +31832,15 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/viewBox",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        visibility: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/visibility",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                `svg.elements.marker.viewBox
+svg.elements.svg.viewBox
+svg.elements.symbol.viewBox
+svg.elements.view.viewBox`
                               ]
                             }
                           ]
@@ -37529,45 +31850,19 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/width",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        widths: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/widths",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "word-spacing": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/word-spacing",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "writing-mode": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/writing-mode",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                `svg.elements.filter.width
+svg.elements.foreignObject.width
+svg.elements.image.width
+svg.elements.mask.width
+svg.elements.pattern.width
+svg.elements.rect.width
+svg.elements.svg.width
+svg.elements.use.width`
                               ]
                             }
                           ]
@@ -37577,57 +31872,25 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/x",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        "x-height": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/x-height",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        x1: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/x1",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        x2: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/x2",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        xchannelselector: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/xChannelSelector",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                `svg.elements.cursor.x
+svg.elements.fePointLight.x
+svg.elements.feSpotLight.x
+svg.elements.filter.x
+svg.elements.foreignObject.x
+svg.elements.glyphRef.x
+svg.elements.image.x
+svg.elements.mask.x
+svg.elements.pattern.x
+svg.elements.rect.x
+svg.elements.svg.x
+svg.elements.text.x
+svg.elements.tspan.x
+svg.elements.use.x`
                               ]
                             }
                           ]
@@ -37637,9 +31900,12 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/xlink:arcrole",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "svg.global_attributes.xlink_arcrole",
+                                "Expected:",
+                                "[None]"
                               ]
                             }
                           ]
@@ -37649,21 +31915,26 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/xlink:href",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        xlink_colon_show: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/xlink:show",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "svg.elements.a.xlink_href",
+                                "Expected:",
+                                `svg.elements.a.xlink_href
+svg.elements.cursor.xlink_href
+svg.elements.feImage.xlink_href
+svg.elements.filter.xlink_href
+svg.elements.font-face-uri.xlink_href
+svg.elements.glyphRef.xlink_href
+svg.elements.image.xlink_href
+svg.elements.linearGradient.xlink_href
+svg.elements.mpath.xlink_href
+svg.elements.pattern.xlink_href
+svg.elements.radialGradient.xlink_href
+svg.elements.script.xlink_href
+svg.elements.textPath.xlink_href
+svg.elements.tref.xlink_href
+svg.elements.use.xlink_href`
                               ]
                             }
                           ]
@@ -37673,9 +31944,12 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/xlink:title",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "svg.global_attributes.xlink_title",
+                                "Expected:",
+                                "svg.elements.a.xlink_title"
                               ]
                             }
                           ]
@@ -37685,33 +31959,12 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/xlink:type",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        xml_colon_lang: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/xml:lang",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        xml_colon_space: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/xml:space",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "svg.global_attributes.xlink_type",
+                                "Expected:",
+                                "[None]"
                               ]
                             }
                           ]
@@ -37721,45 +31974,25 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/y",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        y1: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/y1",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        y2: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/y2",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        ychannelselector: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/yChannelSelector",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                `svg.elements.cursor.y
+svg.elements.fePointLight.y
+svg.elements.feSpotLight.y
+svg.elements.filter.y
+svg.elements.foreignObject.y
+svg.elements.glyphRef.y
+svg.elements.image.y
+svg.elements.mask.y
+svg.elements.pattern.y
+svg.elements.rect.y
+svg.elements.svg.y
+svg.elements.text.y
+svg.elements.tspan.y
+svg.elements.use.y`
                               ]
                             }
                           ]
@@ -37769,21 +32002,13 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/z",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "svg-attribute"
-                              ]
-                            }
-                          ]
-                        },
-                        zoomandpan: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/zoomAndPan",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-attribute"
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                `svg.elements.fePointLight.z
+svg.elements.feSpotLight.z`
                               ]
                             }
                           ]
@@ -37942,24 +32167,6 @@ The timers run concurrently, which means the c`
                               data: [
                                 "/en-US/docs/Web/SVG/Reference/Element/a"
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        animate: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/animate",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
                             }
                           ]
                         },
@@ -37997,24 +32204,6 @@ The timers run concurrently, which means the c`
                                 "auto-reverse",
                                 "Text before code:",
                                 "|"
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        animatetransform: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/animateTransform",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
                               ]
                             }
                           ]
@@ -38070,12 +32259,6 @@ The timers run concurrently, which means the c`
                                 "Text before link:",
                                 "|"
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
                             }
                           ]
                         },
@@ -38098,48 +32281,6 @@ The timers run concurrently, which means the c`
                                 "Text before code:",
                                 "|"
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        cursor: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/cursor",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        defs: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/defs",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        desc: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/desc",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
                             }
                           ]
                         },
@@ -38158,12 +32299,6 @@ The timers run concurrently, which means the c`
                               data: [
                                 "http://xn--dahlstrm-t4a.net/svg/smil/svgt12_discard.svg",
                                 ""
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
                               ]
                             }
                           ]
@@ -38251,72 +32386,6 @@ The timers run concurrently, which means the c`
                                 "Text before link:",
                                 "|"
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        feblend: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feBlend",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        fecolormatrix: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feColorMatrix",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        fecomponenttransfer: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feComponentTransfer",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        fecomposite: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feComposite",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        feconvolvematrix: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feConvolveMatrix",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
                             }
                           ]
                         },
@@ -38336,192 +32405,6 @@ The timers run concurrently, which means the c`
                               data: [
                                 "/en-US/docs/Web/SVG/Reference/Element",
                                 "#lightsource"
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        fedisplacementmap: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feDisplacementMap",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        fedistantlight: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feDistantLight",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        fedropshadow: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feDropShadow",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        feflood: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feFlood",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        fefunca: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feFuncA",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        fefuncb: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feFuncB",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        fefuncg: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feFuncG",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        fefuncr: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feFuncR",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        fegaussianblur: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feGaussianBlur",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        feimage: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feImage",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        femerge: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feMerge",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        femergenode: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feMergeNode",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        femorphology: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feMorphology",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        feoffset: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feOffset",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        fepointlight: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/fePointLight",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
                               ]
                             }
                           ]
@@ -38543,72 +32426,6 @@ The timers run concurrently, which means the c`
                                 "/en-US/docs/Web/SVG/Reference/Element",
                                 "#descriptive"
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        fespotlight: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feSpotLight",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        fetile: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feTile",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        feturbulence: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feTurbulence",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        filter: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/filter",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        font: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/font",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
                             }
                           ]
                         },
@@ -38627,60 +32444,6 @@ The timers run concurrently, which means the c`
                               message: "Self link",
                               data: [
                                 "/en-US/docs/Web/SVG/Reference/Element/font-face"
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-face-format": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/font-face-format",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-face-name": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/font-face-name",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-face-src": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/font-face-src",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-face-uri": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/font-face-uri",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
                               ]
                             }
                           ]
@@ -38752,36 +32515,6 @@ The timers run concurrently, which means the c`
                                 "Text before link:",
                                 "|"
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        g: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/g",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        glyph: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/glyph",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
                             }
                           ]
                         },
@@ -38799,24 +32532,6 @@ The timers run concurrently, which means the c`
                               message: "Broken link",
                               data: [
                                 "/en-US/docs/Web/SVG/Attribute/format"
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        hkern: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/hkern",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
                               ]
                             }
                           ]
@@ -38976,12 +32691,6 @@ The timers run concurrently, which means the c`
                                 "Text before code:",
                                 "|"
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
                             }
                           ]
                         },
@@ -39084,12 +32793,6 @@ The timers run concurrently, which means the c`
                                 "Text before link:",
                                 "|"
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
                             }
                           ]
                         },
@@ -39135,12 +32838,6 @@ The timers run concurrently, which means the c`
                                 "repeat",
                                 "Text before code:",
                                 "|"
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
                               ]
                             }
                           ]
@@ -39346,12 +33043,6 @@ The timers run concurrently, which means the c`
                               data: [
                                 "/en-US/docs/Web/SVG/Reference/Element/marker"
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
                             }
                           ]
                         },
@@ -39395,60 +33086,6 @@ The timers run concurrently, which means the c`
                               message: "Self link",
                               data: [
                                 "/en-US/docs/Web/SVG/Reference/Element/mask"
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        metadata: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/metadata",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        "missing-glyph": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/missing-glyph",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        mpath: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/mpath",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        path: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/path",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
                               ]
                             }
                           ]
@@ -39582,12 +33219,6 @@ The timers run concurrently, which means the c`
                               data: [
                                 "/en-US/docs/Web/SVG/Reference/Element/pattern"
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
                             }
                           ]
                         },
@@ -39602,12 +33233,6 @@ The timers run concurrently, which means the c`
                                 "Text after link:",
                                 "+ ; "
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
                             }
                           ]
                         },
@@ -39621,12 +33246,6 @@ The timers run concurrently, which means the c`
                                 "<number>",
                                 "Text after link:",
                                 "+ ; "
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
                               ]
                             }
                           ]
@@ -39673,12 +33292,6 @@ The timers run concurrently, which means the c`
                                 "repeat",
                                 "Text before code:",
                                 "|"
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
                               ]
                             }
                           ]
@@ -39814,36 +33427,6 @@ The timers run concurrently, which means the c`
                                 "Text before link:",
                                 "|"
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        script: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/script",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        set: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/set",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
                             }
                           ]
                         },
@@ -39865,24 +33448,6 @@ The timers run concurrently, which means the c`
                                 "<percentage>",
                                 "Text before link:",
                                 "|"
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        style: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/style",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
                               ]
                             }
                           ]
@@ -40042,12 +33607,6 @@ The timers run concurrently, which means the c`
                                 "Text before link:",
                                 "|"
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
                             }
                           ]
                         },
@@ -40059,12 +33618,6 @@ The timers run concurrently, which means the c`
                               message: "Self link",
                               data: [
                                 "/en-US/docs/Web/SVG/Reference/Element/switch"
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
                               ]
                             }
                           ]
@@ -40304,12 +33857,6 @@ The timers run concurrently, which means the c`
                                 "Text before link:",
                                 "|"
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
                             }
                           ]
                         },
@@ -40411,12 +33958,6 @@ The timers run concurrently, which means the c`
                                 "<percentage>",
                                 "Text before link:",
                                 "|"
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
                               ]
                             }
                           ]
@@ -40536,36 +34077,6 @@ The timers run concurrently, which means the c`
                                 "Text before link:",
                                 "|"
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        title: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/title",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        tref: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/tref",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
                             }
                           ]
                         },
@@ -40674,24 +34185,6 @@ The timers run concurrently, which means the c`
                               data: [
                                 "/en-US/docs/Web/SVG/Reference/Element/tspan"
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        use: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/use",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
                             }
                           ]
                         },
@@ -40786,24 +34279,6 @@ The timers run concurrently, which means the c`
                                 "Text before code:",
                                 "|"
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
-                            }
-                          ]
-                        },
-                        vkern: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/vkern",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "svg-element"
-                              ]
                             }
                           ]
                         }
@@ -40828,19 +34303,6 @@ The timers run concurrently, which means the c`
                   children: {
                     svg_from_scratch: {
                       children: {
-                        introduction: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Introduction",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://inkscape.org/",
-                                403
-                              ]
-                            }
-                          ]
-                        },
                         paths: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Paths",
@@ -40858,13 +34320,6 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Tools_for_SVG",
                           messages: [
                             {
-                              message: "Broken external link",
-                              data: [
-                                "https://inkscape.org/",
-                                403
-                              ]
-                            },
-                            {
                               message: "HTTP link",
                               data: [
                                 "http://snapsvg.io/",
@@ -40873,17 +34328,7 @@ The timers run concurrently, which means the c`
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://inkscape.org/learn/",
-                            403
-                          ]
-                        }
-                      ]
+                      }
                     }
                   },
                   slug: "/en-US/docs/Web/SVG/Tutorials",
@@ -40897,27 +34342,10 @@ The timers run concurrently, which means the c`
                     {
                       message: "Unreachable via page",
                       data: []
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://inkscape.org/learn/",
-                        403
-                      ]
                     }
                   ]
                 }
-              },
-              slug: "/en-US/docs/Web/SVG",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://inkscape.org/learn/",
-                    403
-                  ]
-                }
-              ]
+              }
             },
             uri: {
               children: {
