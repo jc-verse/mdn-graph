@@ -15,14 +15,14 @@ export default async function processWarnings(fast: boolean = false) {
       message,
       data,
     });
-  }  
+  }
   const { default: warnings } = await import("../../data/warnings.json", {
     with: { type: "json" },
   });
   const { default: nodes } = await import("../../data/nodes.json", {
     with: { type: "json" },
   });
-  
+
   const missingFeatures = new Set(
     (await readConfig("missing-features.txt")).map((x) => {
       // JS has no undocumented things

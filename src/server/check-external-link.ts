@@ -28,19 +28,20 @@ const knownRedirects = new Map(
 );
 
 async function checkLink(href: string) {
-  if (href.startsWith("http:")) {
-    try {
-      const res = await fetch(href.replace("http:", "https:"), {
-        signal: AbortSignal.timeout(3000),
-      });
-      if (res.ok) {
-        return {
-          type: "HTTP link",
-          data: "has HTTPS alternative",
-        };
-      }
-    } catch {}
-  }
+  // TODO: Bun hangs if the server can't be connected
+  // if (href.startsWith("http:")) {
+  //   try {
+  //     const res = await fetch(href.replace("http:", "https:"), {
+  //       signal: AbortSignal.timeout(3000),
+  //     });
+  //     if (res.ok) {
+  //       return {
+  //         type: "HTTP link",
+  //         data: "has HTTPS alternative",
+  //       };
+  //     }
+  //   } catch {}
+  // }
   try {
     const res = await fetch(href, {
       signal: AbortSignal.timeout(10000),
