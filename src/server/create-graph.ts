@@ -9,6 +9,15 @@ import { getBCD } from "./utils.js";
 import { CONTENT_SOURCE_ROOT, BUILT_CONTENT_ROOT } from "./config.js";
 import { checkContent, postCheckContent } from "./check-content.js";
 
+const nonContentPaths = [
+  "/en-US/",
+  "/en-US/about",
+  "/en-US/curriculum/",
+  "/en-US/observatory",
+  "/en-US/play",
+  "/en-US/plus",
+];
+
 async function* listdir(dir: string): AsyncGenerator<string> {
   for await (const dirent of await FS.readdir(dir, { withFileTypes: true })) {
     if (dirent.isDirectory()) {
@@ -235,13 +244,7 @@ export default async function createContentGraph() {
         report(node, "Image link", linkTarget);
       } else if (linkTarget.startsWith("/en-US/")) {
         if (
-          [
-            "/en-US/",
-            "/en-US/curriculum/",
-            "/en-US/observatory",
-            "/en-US/play",
-            "/en-US/plus",
-          ].includes(linkTarget) ||
+          nonContentPaths.includes(linkTarget) ||
           linkTarget.startsWith("/en-US/blog/")
         )
           continue;
@@ -449,17 +452,13 @@ export default async function createContentGraph() {
         continue;
       }
       if (href && href.startsWith("/en-US/")) {
-        const targetNode = graph.getNode(href);
+        const url = new URL(href, "https://developer.mozilla.org");
+        const targetNode = graph.getNode(url.pathname);
         if (
-          !targetNode &&
-          ![
-            "/en-US/",
-            "/en-US/curriculum/",
-            "/en-US/observatory",
-            "/en-US/play",
-            "/en-US/plus",
-          ].includes(href) &&
-          !href.startsWith("/en-US/blog/")
+          (!targetNode &&
+          !nonContentPaths.includes(url.pathname) &&
+          !url.pathname.startsWith("/en-US/blog/")) ||
+          (url.hash && targetNode && !targetNode.data.ids.includes(url.hash.slice(1)))
         ) {
           report(
             graph.getNode(includedPages[0]!)!,
