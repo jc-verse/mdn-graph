@@ -4,10 +4,13 @@
   Use two-space indent for comments. Use {...} to embed regex.
 
   Custom firewalls:
-https://www.canva.com/colors/color-wheel/
+https://www.canva.com/{.*}
 https://www.openwebanalytics.com{/?}
 https://www.reddit.com/r/{.*}
 https://wiki.mozilla.org/{.*}
+https://inkscape.org/{(learn)?}
+https://x.com/{.*}
+https://automate.browserstack.com/dashboard/
 
   404 on purpose:
 https://konmari.com/404

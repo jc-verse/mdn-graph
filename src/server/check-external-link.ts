@@ -80,8 +80,10 @@ async function checkLink(href: string) {
         if (
           text.includes("<title>Just a moment...</title>") ||
           text.includes("Verify you are human") ||
+          text.includes("<title>403 Forbidden</title>") ||
           text.includes("complete a security check")
         ) {
+          console.error("Rejected:", href);
           return {
             type: "ok",
           };
