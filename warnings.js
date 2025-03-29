@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-dydzedfv.js";
+} from "./chunk-q1836ph5.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -177,13 +177,6 @@ var warnings_processed_default = {
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://api.playcanvas.com/classes/Engine.StandardMaterial.html",
-                                404
-                              ]
                             }
                           ]
                         }
@@ -1741,7 +1734,7 @@ var warnings_processed_default = {
                   message: "Redirected external link",
                   data: [
                     "https://v2.scrimba.com/the-frontend-developer-career-path-c0j:details?via=mdn",
-                    "https://scrimba.com/the-frontend-developer-career-path-c0j:details?via=mdn&rt=qe2fsjfq&redir=1"
+                    "https://scrimba.com/the-frontend-developer-career-path-c0j:details?via=mdn&rt=f7if4php&redir=1"
                   ]
                 }
               ]
@@ -1793,19 +1786,6 @@ var warnings_processed_default = {
                           ]
                         }
                       }
-                    },
-                    what_is_accessibility: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/What_is_accessibility",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.ninds.nih.gov/health-information/disorders/learning-disabilities",
-                            403
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Learn_web_development/Core/Accessibility",
@@ -1814,7 +1794,7 @@ var warnings_processed_default = {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/learn-accessible-web-design-c031?via=mdn",
-                        "https://scrimba.com/learn-accessible-web-design-c031?via=mdn&rt=vogsp2gm&redir=1"
+                        "https://scrimba.com/learn-accessible-web-design-c031?via=mdn&rt=qd9trlts&redir=1"
                       ]
                     }
                   ]
@@ -2003,7 +1983,7 @@ var warnings_processed_default = {
                       message: "Redirected external link",
                       data: [
                         "https://scrimba.com/learn/design?via=mdn",
-                        "https://scrimba.com/intro-to-ui-design-fundamentals-c0q?via=mdn&rt=3n5ap98a&redir=1"
+                        "https://scrimba.com/intro-to-ui-design-fundamentals-c0q?via=mdn&rt=roo0tb7k&redir=1"
                       ]
                     }
                   ]
@@ -2157,6 +2137,13 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://emberjs.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://new.drupal.org/",
                             403
                           ]
@@ -2189,7 +2176,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/learn-react-c0e?via=mdn",
-                            "https://scrimba.com/learn-react-c0e?via=mdn&rt=nopciq4q&redir=1"
+                            "https://scrimba.com/learn-react-c0e?via=mdn&rt=ce37rf3f&redir=1"
                           ]
                         }
                       ]
@@ -2439,7 +2426,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~06e?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~06e?via=mdn&rt=nq0dugf9&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~06e?via=mdn&rt=fh1b9vru&redir=1"
                           ]
                         }
                       ]
@@ -2452,7 +2439,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~04g?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~04g?via=mdn&rt=68l6tgur&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~04g?via=mdn&rt=vanv4p1g&redir=1"
                           ]
                         }
                       ]
@@ -2624,7 +2611,7 @@ var warnings_processed_default = {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/learn-javascript-c0v?via=mdn",
-                        "https://scrimba.com/learn-javascript-c0v?via=mdn&rt=r20shcv3&redir=1"
+                        "https://scrimba.com/learn-javascript-c0v?via=mdn&rt=5io6q5o0&redir=1"
                       ]
                     }
                   ]
@@ -2779,14 +2766,14 @@ var warnings_processed_default = {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/learn-html-and-css-c0p?via=mdn",
-                        "https://scrimba.com/learn-html-and-css-c0p?via=mdn&rt=981sst66&redir=1"
+                        "https://scrimba.com/learn-html-and-css-c0p?via=mdn&rt=l5q2fhq8&redir=1"
                       ]
                     },
                     {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~0xid?via=mdn",
-                        "https://scrimba.com/the-frontend-developer-career-path-c0j/~0xid?via=mdn&rt=s68vpsd4&redir=1"
+                        "https://scrimba.com/the-frontend-developer-career-path-c0j/~0xid?via=mdn&rt=eg0hrrka&redir=1"
                       ]
                     }
                   ]
@@ -2828,7 +2815,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~01d?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~01d?via=mdn&rt=rattco7t&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~01d?via=mdn&rt=pr7i3c09&redir=1"
                           ]
                         }
                       ]
@@ -2908,13 +2895,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/guide/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -3021,14 +3001,14 @@ var warnings_processed_default = {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/learn-html-and-css-c0p?via=mdn",
-                        "https://scrimba.com/learn-html-and-css-c0p?via=mdn&rt=981sst66&redir=1"
+                        "https://scrimba.com/learn-html-and-css-c0p?via=mdn&rt=l5q2fhq8&redir=1"
                       ]
                     },
                     {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~015?via=mdn",
-                        "https://scrimba.com/the-frontend-developer-career-path-c0j/~015?via=mdn&rt=uqjnanrl&redir=1"
+                        "https://scrimba.com/the-frontend-developer-career-path-c0j/~015?via=mdn&rt=olnopges&redir=1"
                       ]
                     }
                   ]
@@ -3043,7 +3023,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~02b?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~02b?via=mdn&rt=u2mefu7g&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~02b?via=mdn&rt=f22qfgpq&redir=1"
                           ]
                         }
                       ]
@@ -3070,7 +3050,7 @@ var warnings_processed_default = {
                   message: "Redirected external link",
                   data: [
                     "https://v2.scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
-                    "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=borvkq9e&redir=1"
+                    "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=dj3qc4de&redir=1"
                   ]
                 }
               ]
@@ -3083,14 +3063,14 @@ var warnings_processed_default = {
                   message: "Redirected external link",
                   data: [
                     "https://v2.scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
-                    "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=borvkq9e&redir=1"
+                    "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=dj3qc4de&redir=1"
                   ]
                 },
                 {
                   message: "Redirected external link",
                   data: [
                     "https://v2.scrimba.com/teams?via=mdn-edu",
-                    "https://scrimba.com/teams?via=mdn-edu&rt=i85ujqsd&redir=1"
+                    "https://scrimba.com/teams?via=mdn-edu&rt=0bo7852u&redir=1"
                   ]
                 }
               ]
@@ -3127,6 +3107,23 @@ var warnings_processed_default = {
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/mikethomas/pen/kQjKLW"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                "client-side_tools": {
+                  children: {
+                    overview: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://emberjs.com/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -3393,19 +3390,6 @@ var warnings_processed_default = {
                           data: [
                             "https://www.gnu.org/software/gzip/",
                             "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    why_web_performance: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/why_web_performance",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whatdoesmysitecost.com/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -3770,32 +3754,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    code_editors: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Code_editors",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://code.visualstudio.com/docs/editor/codebasics",
-                            "https://code.visualstudio.com/docs/editing/codebasics"
-                          ]
-                        }
-                      ]
-                    },
-                    dealing_with_files: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Dealing_with_files",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://code.visualstudio.com/docs/editor/keybindings",
-                            "https://code.visualstudio.com/docs/configure/keybindings"
-                          ]
-                        }
-                      ]
-                    },
                     installing_software: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Installing_software",
@@ -3821,7 +3779,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~0xyi?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~0xyi?via=mdn&rt=rlrkvk0l&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~0xyi?via=mdn&rt=cnru6u1j&redir=1"
                           ]
                         }
                       ]
@@ -3834,7 +3792,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~0156?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~0156?via=mdn&rt=95f78270&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~0156?via=mdn&rt=b60ssbla&redir=1"
                           ]
                         }
                       ]
@@ -3875,7 +3833,7 @@ var warnings_processed_default = {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
-                        "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=borvkq9e&redir=1"
+                        "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=dj3qc4de&redir=1"
                       ]
                     }
                   ]
@@ -3893,13 +3851,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via page",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://tools.dynamicdrive.com/imageoptimizer/",
-                            "Unable to connect. Is the computer able to access the url?"
-                          ]
                         }
                       ]
                     },
@@ -4113,19 +4064,6 @@ var warnings_processed_default = {
                 },
                 solve_html_problems: {
                   children: {
-                    "author_fast-loading_html_pages": {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Solve_HTML_problems/Author_fast-loading_HTML_pages",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.imperva.com/Learn_web_development/Extensions/Performance/what-is-cdn-how-it-works/",
-                            404
-                          ]
-                        }
-                      ]
-                    },
                     cheatsheet: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Solve_HTML_problems/Cheatsheet",
@@ -4339,13 +4277,6 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.notepad-plus-plus.org/",
-                            'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://www.notepad-plus-plus.org/". For more information, pass `verbose: true` in the second argument to fetch()'
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://x.com/macromates",
                             400
                           ]
@@ -4362,6 +4293,19 @@ var warnings_processed_default = {
                         }
                       ]
                     },
+                    how_do_you_host_your_website_on_google_app_engine: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gaesamplesite.appspot.com/",
+                            503
+                          ]
+                        }
+                      ]
+                    },
                     what_software_do_i_need: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
@@ -4371,13 +4315,6 @@ var warnings_processed_default = {
                           data: [
                             "https://www.gnu.org/software/emacs/",
                             "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://wiki.gnome.org/action/show/Apps/Files?action=show&redirect=Apps%2FNautilus",
-                            403
                           ]
                         }
                       ]
@@ -4433,14 +4370,14 @@ var warnings_processed_default = {
               message: "Redirected external link",
               data: [
                 "https://v2.scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
-                "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=borvkq9e&redir=1"
+                "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=dj3qc4de&redir=1"
               ]
             },
             {
               message: "Redirected external link",
               data: [
                 "https://v2.scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
-                "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=borvkq9e&redir=1"
+                "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=dj3qc4de&redir=1"
               ]
             }
           ]
@@ -4458,19 +4395,6 @@ var warnings_processed_default = {
                       data: [
                         "https://x.com/MozDevNet",
                         400
-                      ]
-                    }
-                  ]
-                },
-                community_participation_guidelines: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Community/Community_Participation_Guidelines",
-                  messages: [
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://mdn.dev/discord",
-                        "https://discord.com/invite/Gt4Qf6q67h"
                       ]
                     }
                   ]
@@ -4583,58 +4507,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            kitchensink: {
-              children: {},
-              slug: "/en-US/docs/MDN/Kitchensink",
-              messages: [
-                {
-                  message: "Code with space",
-                  data: [
-                    "Fetch API"
-                  ]
-                },
-                {
-                  message: "Missing specifications",
-                  data: []
-                },
-                {
-                  message: "Replace DT link with real target",
-                  data: [
-                    "/en-US/docs/Web/HTML/Global_attributes#dir",
-                    "/en-US/docs/Web/HTML/Global_attributes/dir",
-                    []
-                  ]
-                },
-                {
-                  message: "Replace DT link with real target",
-                  data: [
-                    "/en-US/docs/Web/HTML/Global_attributes#lang",
-                    "/en-US/docs/Web/HTML/Global_attributes/lang",
-                    []
-                  ]
-                },
-                {
-                  message: "Image link",
-                  data: [
-                    "iceberg.jpg"
-                  ]
-                },
-                {
-                  message: "Not linked from parent page",
-                  data: [
-                    "/en-US/docs/MDN"
-                  ]
-                },
-                {
-                  message: "Missing sidebar",
-                  data: []
-                },
-                {
-                  message: "Unreachable via page",
-                  data: []
-                }
-              ]
-            },
             writing_guidelines: {
               children: {
                 attrib_copyright_license: {
@@ -4683,19 +4555,6 @@ var warnings_processed_default = {
                 },
                 howto: {
                   children: {
-                    document_an_http_header: {
-                      children: {},
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Howto/Document_an_HTTP_header",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/content/tree/main/files/en-us/web/http/headers",
-                            404
-                          ]
-                        }
-                      ]
-                    },
                     write_an_api_reference: {
                       children: {
                         information_contained_in_a_webidl_file: {
@@ -4771,13 +4630,6 @@ var warnings_processed_default = {
                         {
                           message: "Broken browser compat anchor",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/search?q=repo%3Amdn%2Fcontent+Synchronize+with+BCD&type=pullrequests",
-                            "429 Retry-After: 3600"
-                          ]
                         }
                       ]
                     },
@@ -5089,19 +4941,6 @@ var warnings_processed_default = {
           children: {
             "add-ons": {
               children: {
-                contact_us: {
-                  children: {},
-                  slug: "/en-US/docs/Mozilla/Add-ons/Contact_us",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://mail.mozilla.org/pipermail/dev-addons/",
-                        "Unable to connect. Is the computer able to access the url?"
-                      ]
-                    }
-                  ]
-                },
                 webextensions: {
                   children: {
                     api: {
@@ -7035,17 +6874,17 @@ var warnings_processed_default = {
                                       data: []
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "Cannot reach server and Bun hangs"
                                       ]
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "Cannot reach server and Bun hangs"
                                       ]
                                     }
                                   ]
@@ -7069,17 +6908,17 @@ var warnings_processed_default = {
                                       data: []
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "Cannot reach server and Bun hangs"
                                       ]
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "Cannot reach server and Bun hangs"
                                       ]
                                     }
                                   ]
@@ -7092,10 +6931,10 @@ var warnings_processed_default = {
                                   data: []
                                 },
                                 {
-                                  message: "HTTP link",
+                                  message: "Broken external link",
                                   data: [
                                     "http://www.softwareishard.com/blog/har-12-spec/",
-                                    ""
+                                    "Cannot reach server and Bun hangs"
                                   ]
                                 }
                               ]
@@ -11925,6 +11764,20 @@ var warnings_processed_default = {
                             "http://www.aha-soft.com/free-icons/free-retina-icon-set/",
                             ""
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.iconbeast.com/free/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.iconbeast.com/faq/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -14107,13 +13960,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://mpeg.chiariglione.org/standards/mpeg-4/open-font-format/text-isoiec-cd-14496-22-3rd-edition",
-                            404
-                          ]
                         }
                       ]
                     },
@@ -14791,13 +14637,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://nvd.nist.gov/vuln/detail/CVE-2017-5384",
-                            503
-                          ]
                         }
                       ]
                     },
@@ -16862,61 +16701,6 @@ var warnings_processed_default = {
                         },
                         roles: {
                           children: {
-                            gridcell_role: {
-                              children: {},
-                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/gridcell_role",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://www.maxability.co.in/wai-aria-overview/grid-role/",
-                                    403
-                                  ]
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://www.maxability.co.in/wai-aria-overview/row-role/",
-                                    403
-                                  ]
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://www.maxability.co.in/2018/09/07/aria-rowcount-property/",
-                                    403
-                                  ]
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://www.maxability.co.in/wai-aria-overview/rowgroup-role/",
-                                    403
-                                  ]
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://www.maxability.co.in/wai-aria-overview/columnheader-role/",
-                                    403
-                                  ]
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://www.maxability.co.in/2017/07/26/aria-colcount-property/",
-                                    403
-                                  ]
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://www.maxability.co.in/wai-aria-overview/gridcell-role/",
-                                    403
-                                  ]
-                                }
-                              ]
-                            },
                             timer_role: {
                               children: {},
                               slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/timer_role",
@@ -16986,19 +16770,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    cognitive_accessibility: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Accessibility/Guides/Cognitive_accessibility",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.cdc.gov/ncbddd/disabilityandhealth/",
-                            403
-                          ]
-                        }
-                      ]
-                    },
                     colors_and_luminance: {
                       children: {},
                       slug: "/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance",
@@ -17033,19 +16804,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    "keyboard-navigable_javascript_widgets": {
-                      children: {},
-                      slug: "/en-US/docs/Web/Accessibility/Guides/Keyboard-navigable_JavaScript_widgets",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://files.paciellogroup.com/training/WWW2012/samples/Samples/aria/tree/index.html",
-                            "Unable to connect. Is the computer able to access the url?"
-                          ]
-                        }
-                      ]
-                    },
                     seizure_disorders: {
                       children: {},
                       slug: "/en-US/docs/Web/Accessibility/Guides/Seizure_disorders",
@@ -17069,15 +16827,8 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://epilepsysociety.org.uk/3d-films-and-virtual-reality",
-                            403
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://npm.runkit.com/animated-gif-detector",
-                            404
+                            "https://pubmed.ncbi.nlm.nih.gov/?term=Harding%20G%5BAuthor%5D&cauthor=true&cauthor_uid=16146438",
+                            500
                           ]
                         },
                         {
@@ -17359,26 +17110,6 @@ var warnings_processed_default = {
                               message: "External sandbox link",
                               data: [
                                 "https://codepen.io/search/pens?q=canvas"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.html5canvastutorials.com/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        pixel_manipulation_with_canvas: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/Canvas_API/Tutorial/Pixel_manipulation_with_canvas",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.html5canvastutorials.com/",
-                                "The operation timed out."
                               ]
                             }
                           ]
@@ -17955,22 +17686,6 @@ var warnings_processed_default = {
                     }
                   ]
                 },
-                ecdsaparams: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/EcdsaParams",
-                  messages: [
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        `api.SubtleCrypto.sign
-api.SubtleCrypto.verify`,
-                        "Expected:",
-                        "[None]"
-                      ]
-                    }
-                  ]
-                },
                 element: {
                   children: {
                     animate: {
@@ -18347,39 +18062,6 @@ api.SubtleCrypto.verify`,
                       ]
                     }
                   }
-                },
-                htmldetailselement: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/HTMLDetailsElement",
-                  messages: [
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        `api.HTMLDetailsElement
-api.HTMLElement.toggle_event.details_elements`,
-                        "Expected:",
-                        "api.HTMLDetailsElement"
-                      ]
-                    }
-                  ]
-                },
-                htmldialogelement: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/HTMLDialogElement",
-                  messages: [
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        `api.HTMLDialogElement
-api.HTMLElement.beforetoggle_event.dialog_elements
-api.HTMLElement.toggle_event.dialog_elements`,
-                        "Expected:",
-                        "api.HTMLDialogElement"
-                      ]
-                    }
-                  ]
                 },
                 htmlelement: {
                   children: {
@@ -18903,7 +18585,16 @@ api.HTMLElement.toggle_event.dialog_elements`,
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/Navigator",
+                  messages: [
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/API/Navigator/standalone"
+                      ]
+                    }
+                  ]
                 },
                 node: {
                   children: {
@@ -19128,20 +18819,6 @@ api.HTMLElement.toggle_event.dialog_elements`,
                     }
                   }
                 },
-                prioritized_task_scheduling_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Prioritized_Task_Scheduling_API",
-                  messages: [
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "await",
-                        "Text after code:",
-                        "ed in any "
-                      ]
-                    }
-                  ]
-                },
                 profiler: {
                   children: {
                     samplebufferfull_event: {
@@ -19157,21 +18834,6 @@ api.HTMLElement.toggle_event.dialog_elements`,
                       ]
                     }
                   }
-                },
-                publickeycredentialcreationoptions: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/PublicKeyCredentialCreationOptions",
-                  messages: [
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        "api.CredentialsContainer.create.publicKey_option",
-                        "Expected:",
-                        "[None]"
-                      ]
-                    }
-                  ]
                 },
                 publickeycredential: {
                   children: {
@@ -19477,19 +19139,6 @@ api.HTMLElement.toggle_event.dialog_elements`,
                     }
                   ]
                 },
-                rtcdtlstransport: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/RTCDtlsTransport",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://webrtcstandards.info/sdp-bundle/",
-                        404
-                      ]
-                    }
-                  ]
-                },
                 rtcencodedvideoframe: {
                   children: {
                     getmetadata: {
@@ -19515,12 +19164,9 @@ api.HTMLElement.toggle_event.dialog_elements`,
                       slug: "/en-US/docs/Web/API/RTCIceCandidatePair/local",
                       messages: [
                         {
-                          message: "Unexpected BCD keys",
+                          message: "Not in BCD",
                           data: [
-                            "Actual:",
-                            "api.RTCIceCandidatePair.local",
-                            "Expected:",
-                            "[None]"
+                            "api.RTCIceCandidatePair.local"
                           ]
                         }
                       ]
@@ -19530,12 +19176,9 @@ api.HTMLElement.toggle_event.dialog_elements`,
                       slug: "/en-US/docs/Web/API/RTCIceCandidatePair/remote",
                       messages: [
                         {
-                          message: "Unexpected BCD keys",
+                          message: "Not in BCD",
                           data: [
-                            "Actual:",
-                            "api.RTCIceCandidatePair.remote",
-                            "Expected:",
-                            "[None]"
+                            "api.RTCIceCandidatePair.remote"
                           ]
                         }
                       ]
@@ -19544,12 +19187,9 @@ api.HTMLElement.toggle_event.dialog_elements`,
                   slug: "/en-US/docs/Web/API/RTCIceCandidatePair",
                   messages: [
                     {
-                      message: "Unexpected BCD keys",
+                      message: "Not in BCD",
                       data: [
-                        "Actual:",
-                        "api.RTCIceCandidatePair",
-                        "Expected:",
-                        "[None]"
+                        "api.RTCIceCandidatePair"
                       ]
                     }
                   ]
@@ -19855,19 +19495,6 @@ api.HTMLElement.toggle_event.dialog_elements`,
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Web/API/AlgorithmIdentifier"
-                          ]
-                        }
-                      ]
-                    },
-                    rtcpeerconnection: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/RTCPeerConnection/RTCPeerConnection",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webrtcstandards.info/sdp-bundle/",
-                            404
                           ]
                         }
                       ]
@@ -20199,56 +19826,6 @@ api.HTMLElement.toggle_event.dialog_elements`,
                     }
                   ]
                 },
-                svganimationelement: {
-                  children: {
-                    requiredextensions: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGAnimationElement/requiredExtensions",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/SVG/Reference/Attribute/requiredExtensions"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/SVGAnimationElement",
-                  messages: [
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/SVG/Reference/Attribute/requiredExtensions"
-                      ]
-                    }
-                  ]
-                },
-                svgcomponenttransferfunctionelement: {
-                  children: {
-                    offset: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGComponentTransferFunctionElement/offset",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/SVG/Reference/Attribute/offset"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/SVGComponentTransferFunctionElement",
-                  messages: [
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/SVG/Reference/Attribute/offset"
-                      ]
-                    }
-                  ]
-                },
                 svgevent: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SVGEvent",
@@ -20320,29 +19897,8 @@ api.HTMLElement.toggle_event.dialog_elements`,
                           ]
                         }
                       ]
-                    },
-                    requiredextensions: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGGraphicsElement/requiredExtensions",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/SVG/Reference/Attribute/requiredExtensions"
-                          ]
-                        }
-                      ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/SVGGraphicsElement",
-                  messages: [
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/SVG/Reference/Attribute/requiredExtensions"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 svgrenderingintent: {
                   children: {},
@@ -20358,31 +19914,6 @@ api.HTMLElement.toggle_event.dialog_elements`,
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/SVG/Reference/Attribute/rendering-intent"
-                      ]
-                    }
-                  ]
-                },
-                svgstopelement: {
-                  children: {
-                    offset: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGStopElement/offset",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/SVG/Reference/Attribute/offset"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/SVGStopElement",
-                  messages: [
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/SVG/Reference/Attribute/offset"
                       ]
                     }
                   ]
@@ -20711,13 +20242,6 @@ api.HTMLElement.toggle_event.dialog_elements`,
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/Rumyra/pen/oPxvYB/"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://ece.uccs.edu/~mwickert/ece2610/lecture_notes/ece2610_chap8.pdf",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -21065,13 +20589,6 @@ api.HTMLElement.toggle_event.dialog_elements`,
                           message: "External sandbox link",
                           data: [
                             "https://jsfiddle.net/ptkyewhx/"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://registry.khronos.org/vulkan/specs/1.2/html/chap9.html",
-                            "https://docs.vulkan.org/spec/latest/chapters/shaders.html"
                           ]
                         }
                       ]
@@ -22741,18 +22258,6 @@ css.selectors.-webkit-scrollbar-corner
 css.selectors.-webkit-resizer`,
                         "Expected:",
                         "css.selectors.-webkit-scrollbar"
-                      ]
-                    }
-                  ]
-                },
-                "--_star_": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/--*",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.properties.--*"
                       ]
                     }
                   ]
@@ -24794,24 +24299,6 @@ css.selectors.-webkit-resizer`,
                     }
                   }
                 },
-                css_transforms: {
-                  children: {
-                    using_css_transforms: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_transforms/Using_CSS_transforms",
-                      messages: [
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "transform",
-                            "Text after code:",
-                            "ed; that is, all elements whose layout is governed"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 css_values_and_units: {
                   children: {
                     css_data_types: {
@@ -25423,18 +24910,6 @@ css.properties.width.fit-content_function`
                       ]
                     }
                   }
-                },
-                marker: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/marker",
-                  messages: [
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/SVG/Reference/Attribute/marker"
-                      ]
-                    }
-                  ]
                 },
                 "mask-border-mode": {
                   children: {},
@@ -26227,21 +25702,6 @@ css.properties.list-style-type.symbols`
                       message: "Not in BCD",
                       data: [
                         "css.types.time-percentage"
-                      ]
-                    }
-                  ]
-                },
-                transform: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/transform",
-                  messages: [
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "transform",
-                        "Text after code:",
-                        `ed.
-That is, all elements whose layout is governed`
                       ]
                     }
                   ]
@@ -27474,38 +26934,26 @@ html.elements.select.size`
                             }
                           ]
                         },
-                        allow: {
+                        "accept-patch": {
                           children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Allow",
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept-Patch",
                           messages: [
                             {
                               message: "Not in BCD",
                               data: [
-                                "http.headers.Allow"
+                                "http.headers.Accept-Patch"
                               ]
                             }
                           ]
                         },
-                        "alt-used": {
+                        "accept-post": {
                           children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Alt-Used",
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept-Post",
                           messages: [
                             {
                               message: "Not in BCD",
                               data: [
-                                "http.headers.Alt-Used"
-                              ]
-                            }
-                          ]
-                        },
-                        "content-digest": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Digest",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "http.headers.Content-Digest"
+                                "http.headers.Accept-Post"
                               ]
                             }
                           ]
@@ -27583,42 +27031,6 @@ html.elements.select.size`
                             }
                           ]
                         },
-                        expect: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Expect",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "http.headers.Expect"
-                              ]
-                            }
-                          ]
-                        },
-                        forwarded: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Forwarded",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "http.headers.Forwarded"
-                              ]
-                            }
-                          ]
-                        },
-                        "max-forwards": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Max-Forwards",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "http.headers.Max-Forwards"
-                              ]
-                            }
-                          ]
-                        },
                         "permissions-policy": {
                           children: {
                             gamepad: {
@@ -27662,48 +27074,6 @@ html.elements.select.size`
                               data: [
                                 "202 (Accepted)"
                               ]
-                            },
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "http.headers.Prefer"
-                              ]
-                            }
-                          ]
-                        },
-                        "preference-applied": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Preference-Applied",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "http.headers.Preference-Applied"
-                              ]
-                            }
-                          ]
-                        },
-                        "proxy-authorization": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Proxy-Authorization",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "http.headers.Proxy-Authorization"
-                              ]
-                            }
-                          ]
-                        },
-                        "repr-digest": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Repr-Digest",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "http.headers.Repr-Digest"
-                              ]
                             }
                           ]
                         },
@@ -27714,12 +27084,6 @@ html.elements.select.size`
                             {
                               message: "Broken browser compat anchor",
                               data: []
-                            },
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "http.headers.Tk"
-                              ]
                             }
                           ]
                         },
@@ -27737,66 +27101,6 @@ html.elements.select.size`
                             }
                           }
                         },
-                        "want-content-digest": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Want-Content-Digest",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "http.headers.Want-Content-Digest"
-                              ]
-                            }
-                          ]
-                        },
-                        "want-repr-digest": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Want-Repr-Digest",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "http.headers.Want-Repr-Digest"
-                              ]
-                            }
-                          ]
-                        },
-                        "x-forwarded-for": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/X-Forwarded-For",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "http.headers.X-Forwarded-For"
-                              ]
-                            }
-                          ]
-                        },
-                        "x-forwarded-host": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/X-Forwarded-Host",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "http.headers.X-Forwarded-Host"
-                              ]
-                            }
-                          ]
-                        },
-                        "x-forwarded-proto": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/X-Forwarded-Proto",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "http.headers.X-Forwarded-Proto"
-                              ]
-                            }
-                          ]
-                        },
                         "x-permitted-cross-domain-policies": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/X-Permitted-Cross-Domain-Policies",
@@ -27805,36 +27109,6 @@ html.elements.select.size`
                               message: "Broken link",
                               data: [
                                 "/en-US/observatory/"
-                              ]
-                            },
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "http.headers.X-Permitted-Cross-Domain-Policies"
-                              ]
-                            }
-                          ]
-                        },
-                        "x-powered-by": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/X-Powered-By",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "http.headers.X-Powered-By"
-                              ]
-                            }
-                          ]
-                        },
-                        "x-robots-tag": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/X-Robots-Tag",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "http.headers.X-Robots-Tag"
                               ]
                             }
                           ]
@@ -27858,18 +27132,6 @@ html.elements.select.size`
                             }
                           ]
                         },
-                        patch: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Methods/PATCH",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "http.methods.PATCH"
-                              ]
-                            }
-                          ]
-                        },
                         put: {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Methods/PUT",
@@ -27881,48 +27143,6 @@ html.elements.select.size`
                                 "[None]",
                                 "Expected:",
                                 "http.methods.PUT"
-                              ]
-                            }
-                          ]
-                        },
-                        trace: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Methods/TRACE",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "http.methods.TRACE"
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    status: {
-                      children: {
-                        "308": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/308",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://developers.google.com/drive/api/guides/manage-uploads",
-                                "https://developers.google.com/workspace/drive/api/guides/manage-uploads"
-                              ]
-                            }
-                          ]
-                        },
-                        "421": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/421",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://svn.apache.org/viewvc?view=revision&revision=1705672",
-                                403
                               ]
                             }
                           ]
@@ -28034,20 +27254,6 @@ html.elements.select.size`
                         }
                       ]
                     },
-                    iterators_and_generators: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Iterators_and_generators",
-                      messages: [
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "yield",
-                            "Text after code:",
-                            "ed values "
-                          ]
-                        }
-                      ]
-                    },
                     keyed_collections: {
                       children: {},
                       slug: "/en-US/docs/Web/JavaScript/Guide/Keyed_collections",
@@ -28081,13 +27287,6 @@ html.elements.select.size`
                           message: "Not linked from parent page",
                           data: [
                             "/en-US/docs/Web/JavaScript/Guide"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://nodejs.org/en/learn/getting-started/debugging",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -28844,21 +28043,6 @@ html.elements.select.size`
                     },
                     statements: {
                       children: {
-                        async_function: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Statements/async_function",
-                          messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "await",
-                                "Text after code:",
-                                `ed.
-The timers run concurrently, which means the c`
-                              ]
-                            }
-                          ]
-                        },
                         expression_statement: {
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Statements/Expression_statement",
@@ -28938,19 +28122,6 @@ The timers run concurrently, which means the c`
                         }
                       ]
                     },
-                    fonts: {
-                      children: {},
-                      slug: "/en-US/docs/Web/MathML/Guides/Fonts",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/notofonts/math/issues/14",
-                            404
-                          ]
-                        }
-                      ]
-                    },
                     proving_the_pythagorean_theorem: {
                       children: {},
                       slug: "/en-US/docs/Web/MathML/Guides/Proving_the_Pythagorean_theorem",
@@ -28990,12 +28161,6 @@ The timers run concurrently, which means the c`
                       children: {},
                       slug: "/en-US/docs/Web/MathML/Reference/Global_attributes",
                       messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/MathML/Reference/Element/style"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -29400,12 +28565,9 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/background_color",
                           messages: [
                             {
-                              message: "Unexpected BCD keys",
+                              message: "Not in BCD",
                               data: [
-                                "Actual:",
-                                "manifests.webapp.background_color",
-                                "Expected:",
-                                "html.manifest.background_color"
+                                "manifests.webapp.background_color"
                               ]
                             }
                           ]
@@ -29415,12 +28577,9 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/description",
                           messages: [
                             {
-                              message: "Unexpected BCD keys",
+                              message: "Not in BCD",
                               data: [
-                                "Actual:",
-                                "manifests.webapp.description",
-                                "Expected:",
-                                "html.manifest.description"
+                                "manifests.webapp.description"
                               ]
                             }
                           ]
@@ -29430,12 +28589,9 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/display",
                           messages: [
                             {
-                              message: "Unexpected BCD keys",
+                              message: "Not in BCD",
                               data: [
-                                "Actual:",
-                                "manifests.webapp.display",
-                                "Expected:",
-                                "html.manifest.display"
+                                "manifests.webapp.display"
                               ]
                             }
                           ]
@@ -29445,12 +28601,9 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/display_override",
                           messages: [
                             {
-                              message: "Unexpected BCD keys",
+                              message: "Not in BCD",
                               data: [
-                                "Actual:",
-                                "manifests.webapp.display_override",
-                                "Expected:",
-                                "html.manifest.display_override"
+                                "manifests.webapp.display_override"
                               ]
                             }
                           ]
@@ -29460,12 +28613,9 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/file_handlers",
                           messages: [
                             {
-                              message: "Unexpected BCD keys",
+                              message: "Not in BCD",
                               data: [
-                                "Actual:",
-                                "manifests.webapp.file_handlers",
-                                "Expected:",
-                                "html.manifest.file_handlers"
+                                "manifests.webapp.file_handlers"
                               ]
                             }
                           ]
@@ -29475,12 +28625,9 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/icons",
                           messages: [
                             {
-                              message: "Unexpected BCD keys",
+                              message: "Not in BCD",
                               data: [
-                                "Actual:",
-                                "manifests.webapp.icons",
-                                "Expected:",
-                                "html.manifest.icons"
+                                "manifests.webapp.icons"
                               ]
                             }
                           ]
@@ -29490,12 +28637,9 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/id",
                           messages: [
                             {
-                              message: "Unexpected BCD keys",
+                              message: "Not in BCD",
                               data: [
-                                "Actual:",
-                                "manifests.webapp.id",
-                                "Expected:",
-                                "html.manifest.id"
+                                "manifests.webapp.id"
                               ]
                             }
                           ]
@@ -29505,12 +28649,9 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/launch_handler",
                           messages: [
                             {
-                              message: "Unexpected BCD keys",
+                              message: "Not in BCD",
                               data: [
-                                "Actual:",
-                                "manifests.webapp.launch_handler",
-                                "Expected:",
-                                "html.manifest.launch_handler"
+                                "manifests.webapp.launch_handler"
                               ]
                             }
                           ]
@@ -29520,12 +28661,9 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/name",
                           messages: [
                             {
-                              message: "Unexpected BCD keys",
+                              message: "Not in BCD",
                               data: [
-                                "Actual:",
-                                "manifests.webapp.name",
-                                "Expected:",
-                                "html.manifest.name"
+                                "manifests.webapp.name"
                               ]
                             }
                           ]
@@ -29535,12 +28673,9 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/note_taking",
                           messages: [
                             {
-                              message: "Unexpected BCD keys",
+                              message: "Not in BCD",
                               data: [
-                                "Actual:",
-                                "manifests.webapp.note_taking",
-                                "Expected:",
-                                "html.manifest.note_taking"
+                                "manifests.webapp.note_taking"
                               ]
                             }
                           ]
@@ -29550,12 +28685,9 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/orientation",
                           messages: [
                             {
-                              message: "Unexpected BCD keys",
+                              message: "Not in BCD",
                               data: [
-                                "Actual:",
-                                "manifests.webapp.orientation",
-                                "Expected:",
-                                "html.manifest.orientation"
+                                "manifests.webapp.orientation"
                               ]
                             }
                           ]
@@ -29565,12 +28697,9 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/prefer_related_applications",
                           messages: [
                             {
-                              message: "Unexpected BCD keys",
+                              message: "Not in BCD",
                               data: [
-                                "Actual:",
-                                "manifests.webapp.prefer_related_applications",
-                                "Expected:",
-                                "html.manifest.prefer_related_applications"
+                                "manifests.webapp.prefer_related_applications"
                               ]
                             }
                           ]
@@ -29580,12 +28709,9 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/protocol_handlers",
                           messages: [
                             {
-                              message: "Unexpected BCD keys",
+                              message: "Not in BCD",
                               data: [
-                                "Actual:",
-                                "manifests.webapp.protocol_handlers",
-                                "Expected:",
-                                "html.manifest.protocol_handlers"
+                                "manifests.webapp.protocol_handlers"
                               ]
                             }
                           ]
@@ -29595,12 +28721,9 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/related_applications",
                           messages: [
                             {
-                              message: "Unexpected BCD keys",
+                              message: "Not in BCD",
                               data: [
-                                "Actual:",
-                                "manifests.webapp.related_applications",
-                                "Expected:",
-                                "html.manifest.related_applications"
+                                "manifests.webapp.related_applications"
                               ]
                             }
                           ]
@@ -29610,12 +28733,9 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/scope",
                           messages: [
                             {
-                              message: "Unexpected BCD keys",
+                              message: "Not in BCD",
                               data: [
-                                "Actual:",
-                                "manifests.webapp.scope",
-                                "Expected:",
-                                "html.manifest.scope"
+                                "manifests.webapp.scope"
                               ]
                             }
                           ]
@@ -29625,12 +28745,9 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/serviceworker",
                           messages: [
                             {
-                              message: "Unexpected BCD keys",
+                              message: "Not in BCD",
                               data: [
-                                "Actual:",
-                                "manifests.webapp.serviceworker",
-                                "Expected:",
-                                "html.manifest.serviceworker"
+                                "manifests.webapp.serviceworker"
                               ]
                             }
                           ]
@@ -29640,12 +28757,9 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/share_target",
                           messages: [
                             {
-                              message: "Unexpected BCD keys",
+                              message: "Not in BCD",
                               data: [
-                                "Actual:",
-                                "manifests.webapp.share_target",
-                                "Expected:",
-                                "html.manifest.share_target"
+                                "manifests.webapp.share_target"
                               ]
                             }
                           ]
@@ -29655,12 +28769,9 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/short_name",
                           messages: [
                             {
-                              message: "Unexpected BCD keys",
+                              message: "Not in BCD",
                               data: [
-                                "Actual:",
-                                "manifests.webapp.short_name",
-                                "Expected:",
-                                "html.manifest.short_name"
+                                "manifests.webapp.short_name"
                               ]
                             }
                           ]
@@ -29670,12 +28781,9 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/shortcuts",
                           messages: [
                             {
-                              message: "Unexpected BCD keys",
+                              message: "Not in BCD",
                               data: [
-                                "Actual:",
-                                "manifests.webapp.shortcuts",
-                                "Expected:",
-                                "html.manifest.shortcuts"
+                                "manifests.webapp.shortcuts"
                               ]
                             }
                           ]
@@ -29685,12 +28793,9 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/start_url",
                           messages: [
                             {
-                              message: "Unexpected BCD keys",
+                              message: "Not in BCD",
                               data: [
-                                "Actual:",
-                                "manifests.webapp.start_url",
-                                "Expected:",
-                                "html.manifest.start_url"
+                                "manifests.webapp.start_url"
                               ]
                             }
                           ]
@@ -29700,12 +28805,9 @@ The timers run concurrently, which means the c`
                           slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/theme_color",
                           messages: [
                             {
-                              message: "Unexpected BCD keys",
+                              message: "Not in BCD",
                               data: [
-                                "Actual:",
-                                "manifests.webapp.theme_color",
-                                "Expected:",
-                                "html.manifest.theme_color"
+                                "manifests.webapp.theme_color"
                               ]
                             }
                           ]
@@ -29917,19 +29019,6 @@ The timers run concurrently, which means the c`
                     }
                   ]
                 },
-                insecure_passwords: {
-                  children: {},
-                  slug: "/en-US/docs/Web/Security/Insecure_passwords",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.lightbluetouchpaper.org/2011/02/09/measuring-password-re-use-empirically/",
-                        503
-                      ]
-                    }
-                  ]
-                },
                 practical_implementation_guides: {
                   children: {
                     csp: {
@@ -30052,18 +29141,6 @@ The timers run concurrently, which means the c`
                                 "[None]",
                                 "Expected:",
                                 "svg.elements.animate.attributeType"
-                              ]
-                            }
-                          ]
-                        },
-                        "baseline-shift": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/baseline-shift",
-                          messages: [
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/SVG/Reference/Attribute/line-height"
                               ]
                             }
                           ]
@@ -30658,24 +29735,9 @@ svg.elements.path.d`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/data-*",
                           messages: [
                             {
-                              message: "Unexpected BCD keys",
+                              message: "Not in BCD",
                               data: [
-                                "Actual:",
-                                "svg.global_attributes.data",
-                                "Expected:",
-                                "[None]"
-                              ]
-                            }
-                          ]
-                        },
-                        direction: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/direction",
-                          messages: [
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/SVG/Reference/Attribute/inline-size"
+                                "svg.global_attributes.data"
                               ]
                             }
                           ]
@@ -31050,18 +30112,6 @@ svg.elements.tspan.lengthAdjust`
                             }
                           ]
                         },
-                        markerunits: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/markerUnits",
-                          messages: [
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/SVG/Reference/Attribute/marker"
-                              ]
-                            }
-                          ]
-                        },
                         method: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/method",
@@ -31287,24 +30337,6 @@ svg.elements.view.preserveAspectRatio`
                               message: "Broken link",
                               data: [
                                 "/en-US/docs/Web/SVG/Reference/Attribute/enable-background"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/SVG/Reference/Attribute/requiredExtensions"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/SVG/Reference/Attribute/xlink:role"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/SVG/Reference/Attribute/xlink:actuate"
                               ]
                             },
                             {
@@ -31977,37 +31009,7 @@ svg.elements.feSpotLight.z`
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/SVG/Reference/Attribute/hreflang"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
                             "/en-US/docs/Web/SVG/Reference/Attribute/local"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/SVG/Reference/Attribute/offset"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/SVG/Reference/Attribute/ping"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/SVG/Reference/Attribute/referrerPolicy"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/SVG/Reference/Attribute/rel"
                           ]
                         },
                         {
@@ -32019,43 +31021,7 @@ svg.elements.feSpotLight.z`
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/SVG/Reference/Attribute/requiredExtensions"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
                             "/en-US/docs/Web/SVG/Reference/Attribute/speed"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/SVG/Reference/Attribute/xlink:actuate"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/SVG/Reference/Attribute/xlink:role"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/SVG/Reference/Attribute/requiredExtensions"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/SVG/Reference/Attribute/xlink:role"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/SVG/Reference/Attribute/xlink:actuate"
                           ]
                         },
                         {
@@ -32074,12 +31040,6 @@ svg.elements.feSpotLight.z`
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Web/SVG/Reference/Attribute/white-space"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/SVG/Reference/Attribute/offset"
                           ]
                         },
                         {
@@ -33479,24 +32439,6 @@ svg.elements.feSpotLight.z`
                                 "Text before link:",
                                 "|"
                               ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/SVG/Reference/Attribute/offset"
-                              ]
-                            }
-                          ]
-                        },
-                        style: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/style",
-                          messages: [
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/SVG/Reference/Attribute/title"
-                              ]
                             }
                           ]
                         },
@@ -33662,12 +32604,6 @@ svg.elements.feSpotLight.z`
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Element/switch",
                           messages: [
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/SVG/Reference/Attribute/requiredExtensions"
-                              ]
-                            },
                             {
                               message: "Self link",
                               data: [
@@ -34382,17 +33318,7 @@ svg.elements.feSpotLight.z`
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://inkscape.org/learn/",
-                            "https://inkscape.org/nl/leren/"
-                          ]
-                        }
-                      ]
+                      }
                     }
                   },
                   slug: "/en-US/docs/Web/SVG/Tutorials",
@@ -34406,27 +33332,10 @@ svg.elements.feSpotLight.z`
                     {
                       message: "Unreachable via page",
                       data: []
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://inkscape.org/learn/",
-                        "https://inkscape.org/nl/leren/"
-                      ]
                     }
                   ]
                 }
-              },
-              slug: "/en-US/docs/Web/SVG",
-              messages: [
-                {
-                  message: "Redirected external link",
-                  data: [
-                    "https://inkscape.org/learn/",
-                    "https://inkscape.org/nl/leren/"
-                  ]
-                }
-              ]
+              }
             },
             uri: {
               children: {
@@ -34448,18 +33357,6 @@ svg.elements.feSpotLight.z`
                 },
                 reference: {
                   children: {
-                    authority: {
-                      children: {},
-                      slug: "/en-US/docs/Web/URI/Reference/Authority",
-                      messages: [
-                        {
-                          message: "Unexpected page type",
-                          data: [
-                            "uri-component"
-                          ]
-                        }
-                      ]
-                    },
                     fragment: {
                       children: {
                         text_fragments: {
@@ -34467,23 +33364,19 @@ svg.elements.feSpotLight.z`
                           slug: "/en-US/docs/Web/URI/Reference/Fragment/Text_fragments",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "uri-component"
+                                "Actual:",
+                                `html.elements.a.text_fragments
+api.FragmentDirective
+css.selectors.target-text`,
+                                "Expected:",
+                                "[None]"
                               ]
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Web/URI/Reference/Fragment",
-                      messages: [
-                        {
-                          message: "Unexpected page type",
-                          data: [
-                            "uri-component"
-                          ]
-                        }
-                      ]
+                      }
                     },
                     schemes: {
                       children: {
@@ -34492,47 +33385,17 @@ svg.elements.feSpotLight.z`
                           slug: "/en-US/docs/Web/URI/Reference/Schemes/data",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Unexpected BCD keys",
                               data: [
-                                "uri-scheme"
-                              ]
-                            }
-                          ]
-                        },
-                        javascript: {
-                          children: {},
-                          slug: "/en-US/docs/Web/URI/Reference/Schemes/javascript",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "uri-scheme"
-                              ]
-                            }
-                          ]
-                        },
-                        resource: {
-                          children: {},
-                          slug: "/en-US/docs/Web/URI/Reference/Schemes/resource",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "uri-scheme"
+                                "Actual:",
+                                "http.data-url",
+                                "Expected:",
+                                "[None]"
                               ]
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Web/URI/Reference/Schemes",
-                      messages: [
-                        {
-                          message: "Unexpected page type",
-                          data: [
-                            "uri-component"
-                          ]
-                        }
-                      ]
+                      }
                     }
                   },
                   slug: "/en-US/docs/Web/URI/Reference",
@@ -35193,20 +34056,7 @@ svg.elements.feSpotLight.z`
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Memory",
-                      messages: [
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            `webassembly.api.Memory
-webassembly.multiMemory`,
-                            "Expected:",
-                            "webassembly.api.Memory"
-                          ]
-                        }
-                      ]
+                      }
                     },
                     module: {
                       children: {
