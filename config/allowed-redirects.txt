@@ -20,3 +20,5 @@ https://www.sublimelinter.com/	http://www.sublimelinter.com/en/master/
 
 https://github.com/mdn/curriculum/releases/latest/download/MDN-Curriculum.pdf	https://objects.githubusercontent.com/github-production-release-asset-{.+}
 https://github.com/{([^/]+)}/{([^/]+)}/archive/{(\w+)}.zip	https://codeload.github.com/$1/$2/zip/refs/heads/$3
+
+https://mdn.dev/discord	https://discord.com/invite/{[A-Za-z0-9]+}

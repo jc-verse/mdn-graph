@@ -33,6 +33,7 @@ export default async function createContentGraph() {
 
   for await (const file of listdir(Path.join(BUILT_CONTENT_ROOT, "en-us/docs"))) {
     if (!file.endsWith(".json")) continue;
+    if (file.includes("en-us/docs/mdn/kitchensink")) continue;
     const content = await Bun.file(file).json();
     if (file.endsWith("metadata.json")) {
       const existingNode = graph.getNode(content.mdn_url);

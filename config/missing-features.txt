@@ -42,10 +42,6 @@ api.CSSStyleValue.toString
 api.CSSViewTransitionRule
 api.CSSViewTransitionRule.navigation
 api.CSSViewTransitionRule.types
-api.CanMakePaymentEvent.methodData
-api.CanMakePaymentEvent.modifiers
-api.CanMakePaymentEvent.paymentRequestOrigin
-api.CanMakePaymentEvent.topOrigin
 api.CanvasFilter
 api.CanvasFilter.CanvasFilter
 api.CanvasRenderingContext2D.lang
@@ -426,9 +422,6 @@ api.NavigatorManagedData
 api.NavigatorManagedData.getManagedConfiguration
 api.OffscreenCanvasRenderingContext2D.getContextAttributes
 api.OffscreenCanvasRenderingContext2D.lang
-api.PaymentInstruments
-api.PaymentInstruments.set
-api.PaymentManager.instruments
 api.PaymentRequestEvent.changeShippingAddress
 api.PaymentRequestEvent.changeShippingOption
 api.PaymentRequestEvent.paymentOptions

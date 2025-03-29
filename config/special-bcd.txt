@@ -1,0 +1,28 @@
+  This file contains content pages that use non-typical BCD keys, usually
+  to provide extra support information.
+  Use two-space indent for comments.
+
+/en-US/docs/Web/API/CSS/factory_functions_static	api.CSS
+/en-US/docs/Web/API/EcdsaParams	api.SubtleCrypto.sign,api.SubtleCrypto.verify
+/en-US/docs/Web/API/HTMLDetailsElement	api.HTMLDetailsElement,api.HTMLElement.toggle_event.details_elements
+/en-US/docs/Web/API/HTMLDialogElement	api.HTMLDialogElement,api.HTMLElement.beforetoggle_event.dialog_elements,api.HTMLElement.toggle_event.dialog_elements
+/en-US/docs/Web/API/PublicKeyCredentialCreationOptions	api.CredentialsContainer.create.publicKey_option
+  These pages coalesce multiple methods into one, and only display one BCD
+/en-US/docs/Web/API/WebGL2RenderingContext/clearBuffer	api.WebGL2RenderingContext.clearBufferiv
+/en-US/docs/Web/API/WebGL2RenderingContext/samplerParameter	api.WebGL2RenderingContext.samplerParameteri
+/en-US/docs/Web/API/WebGL2RenderingContext/uniform	api.WebGL2RenderingContext.uniform1ui
+/en-US/docs/Web/API/WebGL2RenderingContext/uniformMatrix	api.WebGL2RenderingContext.uniformMatrix2fv
+/en-US/docs/Web/API/WebGL2RenderingContext/vertexAttribI	api.WebGL2RenderingContext.vertexAttribI4i
+/en-US/docs/Web/API/WebGLRenderingContext/texParameter	api.WebGLRenderingContext.texParameterf,api.WebGLRenderingContext.texParameteri
+/en-US/docs/Web/API/WebGLRenderingContext/uniform	api.WebGLRenderingContext.uniform1f
+/en-US/docs/Web/API/WebGLRenderingContext/uniformMatrix	api.WebGLRenderingContext.uniformMatrix2fv
+/en-US/docs/Web/API/WebGLRenderingContext/vertexAttrib	api.WebGLRenderingContext.vertexAttrib1f
+
+/en-US/docs/Web/CSS/--*	css.properties.custom-property
+  Interesting case: css.selectors.column is `::column`, not the column combinator
+/en-US/docs/Web/CSS/Column_combinator	css.selectors.column
+
+/en-US/docs/Web/HTML/Element/Heading_Elements	html.elements.h1,html.elements.h2,html.elements.h3,html.elements.h4,html.elements.h5,html.elements.h6
+
+/en-US/docs/Web/SVG/Reference/Attribute/data-*	svg.global_attributes.data
+/en-US/docs/WebAssembly/Reference/JavaScript_interface/Memory	webassembly.api.Memory,webassembly.multiMemory

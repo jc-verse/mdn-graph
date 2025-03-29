@@ -8,7 +8,7 @@ const allowedCodeLinkTextRec = new Map(
 
 const allowedSpacedCodeLink = [
   // HTML tags
-  /^<(a|area|font|iframe|input|link|meta|object|ol|script|th|tr)( [a-z-]+="[\w .…-]+"| ping| defer| sandbox| nomodule)+>$/,
+  /^<(a|area|font|iframe|input|link|meta|object|ol|script|select|th|tr)( [a-z-]+="[\w .…-]+"| ping| defer| sandbox| nomodule)+>$/,
   /^<\?xml[^>]+\?>$/,
   /^<xsl:[^>]+>$/,
   /^[a-z-]+="[\w .…-]+"$/,
@@ -188,6 +188,7 @@ export function checkContent(
     } else if (
       textAfter &&
       !/^([\s.,?!:;…—–\-"')/]|e?s\b|th\b|⚠️)/.test(textAfter) &&
+      !(code.tagName === "code" && ["transform", "await", "yield"].includes($(code).text()) && /^ed\b/.test(textAfter)) &&
       !(code.tagName === "a" && $(code).text().endsWith(" "))
     ) {
       report(

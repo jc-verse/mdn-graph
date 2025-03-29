@@ -43,7 +43,6 @@
 /en-US/docs/Web/API/MediaTrackConstraints/resizeMode
 /en-US/docs/Web/API/MediaTrackSettings/resizeMode
 /en-US/docs/Web/API/MediaTrackSupportedConstraints/resizeMode
-/en-US/docs/Web/API/Navigator/standalone
 /en-US/docs/Web/API/PresentationAvailability/change_event
 /en-US/docs/Web/API/PresentationConnection/close_event
 /en-US/docs/Web/API/PresentationConnection/connect_event
@@ -286,26 +285,26 @@
 /en-US/docs/Web/HTTP/Reference/Headers/Signed-Headers
 /en-US/docs/Web/HTTP/Reference/Methods/TRACK
 
-/en-US/docs/Web/MathML/Element/style
+/en-US/docs/Web/MathML/Reference/Element/style
 
   These are defined in https://svgwg.org/svg2-draft/attindex.html
-/en-US/docs/Web/SVG/Attribute/hreflang
-/en-US/docs/Web/SVG/Attribute/offset
-/en-US/docs/Web/SVG/Attribute/ping
-/en-US/docs/Web/SVG/Attribute/referrerPolicy
-/en-US/docs/Web/SVG/Attribute/rel
-/en-US/docs/Web/SVG/Attribute/requiredExtensions
-/en-US/docs/Web/SVG/Attribute/title
+/en-US/docs/Web/SVG/Reference/Attribute/hreflang
+/en-US/docs/Web/SVG/Reference/Attribute/offset
+/en-US/docs/Web/SVG/Reference/Attribute/ping
+/en-US/docs/Web/SVG/Reference/Attribute/referrerPolicy
+/en-US/docs/Web/SVG/Reference/Attribute/rel
+/en-US/docs/Web/SVG/Reference/Attribute/requiredExtensions
+/en-US/docs/Web/SVG/Reference/Attribute/title
 
   https://svgwg.org/svg2-draft/text.html
-/en-US/docs/Web/SVG/Attribute/line-height
-/en-US/docs/Web/SVG/Attribute/inline-size
+/en-US/docs/Web/SVG/Reference/Attribute/line-height
+/en-US/docs/Web/SVG/Reference/Attribute/inline-size
 
   https://svgwg.org/svg2-draft/painting.html
-/en-US/docs/Web/SVG/Attribute/marker
+/en-US/docs/Web/SVG/Reference/Attribute/marker
 
-/en-US/docs/Web/SVG/Attribute/xlink:actuate
-/en-US/docs/Web/SVG/Attribute/xlink:role
+/en-US/docs/Web/SVG/Reference/Attribute/xlink:actuate
+/en-US/docs/Web/SVG/Reference/Attribute/xlink:role
 
 /en-US/docs/Web/WebDriver/Capabilities/browserName
 /en-US/docs/Web/WebDriver/Capabilities/browserVersion

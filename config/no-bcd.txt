@@ -9,9 +9,25 @@ html.global_attributes.itemref
 html.global_attributes.itemscope
 html.global_attributes.itemtype
 
-http.headers.Accept-Charset
-http.headers.Accept-Patch
-http.headers.Accept-Post
+http.headers.Allow
+http.headers.Alt-Used
+http.headers.Content-Digest
+http.headers.Expect
+http.headers.Forwarded
+http.headers.Max-Forwards
+http.headers.Prefer
+http.headers.Preference-Applied
+http.headers.Proxy-Authorization
+http.headers.Repr-Digest
+http.headers.Tk
+http.headers.Want-Content-Digest
+http.headers.Want-Repr-Digest
+http.headers.X-Forwarded-For
+http.headers.X-Forwarded-Host
+http.headers.X-Forwarded-Proto
+http.headers.X-Permitted-Cross-Domain-Policies
+http.headers.X-Powered-By
+http.headers.X-Robots-Tag
 
   https://github.com/mdn/browser-compat-data/pull/23529
 http.status.100
@@ -73,6 +89,11 @@ http.status.508
 http.status.510
 http.status.511
 
+http.methods.DELETE
+http.methods.PATCH
+http.methods.PUT
+http.methods.TRACE
+
   https://github.com/mdn/browser-compat-data/pull/23774
-html.manifest.categories
-html.manifest.screenshots
+manifests.webapp.categories
+manifests.webapp.screenshots

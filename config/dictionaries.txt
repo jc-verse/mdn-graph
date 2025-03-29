@@ -33,7 +33,6 @@ RTCAudioSourceStats
 RTCCertificateStats
 RTCCodecStats
 RTCDataChannelStats
-RTCIceCandidatePair
 RTCIceCandidatePairStats
 RTCIceCandidateStats
 RTCIceParameters

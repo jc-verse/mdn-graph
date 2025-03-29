@@ -7,6 +7,12 @@ const dictionaries = new Map(
 );
 
 const noBCD = new Map((await readConfig("no-bcd.txt")).map((x) => [x, false]));
+const specialBCD = new Map(
+  (await readConfig("special-bcd.txt")).map((x) => {
+    const [key, value] = x.split("\t");
+    return [key, value.split(",")];
+  }),
+);
 
 function htmlAttrToBCD(attrName: string, elemName: string) {
   if (attrName === "data-*") {
@@ -58,6 +64,7 @@ function dictionaryToBCD(path: string) {
 }
 
 function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
+  if (specialBCD.has(node.id)) return specialBCD.get(node.id)!;
   switch (node.data.metadata.pageType) {
     // The page types are copied from front-matter-config.json
     case "guide":
@@ -161,9 +168,6 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
       if (match[2]) {
         return [`html.elements.input.type_${match[2]}`];
       }
-      if (match[1] === "Heading_Elements") {
-        return [1, 2, 3, 4, 5, 6].map((n) => `html.elements.h${n}`);
-      }
       const elemName = match[1];
       return [`html.elements.${elemName}`];
     }
@@ -231,32 +235,6 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
     case "webgl-extension-method": {
       const match = node.id.match(/^\/en-US\/docs\/Web\/API\/(.+)$/);
       if (!match) return "Unexpected page type";
-      switch (match[1]) {
-        case "CSS/factory_functions_static":
-          return [`api.CSS`];
-        // These pages coalesce multiple methods into one, and only display one BCD
-        case "WebGL2RenderingContext/clearBuffer":
-          return [`api.WebGL2RenderingContext.clearBufferiv`];
-        case "WebGL2RenderingContext/samplerParameter":
-          return [`api.WebGL2RenderingContext.samplerParameteri`];
-        case "WebGL2RenderingContext/uniform":
-          return [`api.WebGL2RenderingContext.uniform1ui`];
-        case "WebGL2RenderingContext/uniformMatrix":
-          return [`api.WebGL2RenderingContext.uniformMatrix2fv`];
-        case "WebGL2RenderingContext/vertexAttribI":
-          return [`api.WebGL2RenderingContext.vertexAttribI4i`];
-        case "WebGLRenderingContext/texParameter":
-          return [
-            `api.WebGLRenderingContext.texParameterf`,
-            `api.WebGLRenderingContext.texParameteri`,
-          ];
-        case "WebGLRenderingContext/uniform":
-          return [`api.WebGLRenderingContext.uniform1f`];
-        case "WebGLRenderingContext/uniformMatrix":
-          return [`api.WebGLRenderingContext.uniformMatrix2fv`];
-        case "WebGLRenderingContext/vertexAttrib":
-          return [`api.WebGLRenderingContext.vertexAttrib1f`];
-      }
       const path = dictionaryToBCD(match[1].replaceAll("/", "."));
       if (configHas(dictionaries, path.split(".")[0])) return [];
       return [`api.${path}`];
@@ -432,7 +410,7 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
       );
       if (!match) return "Unexpected page type";
       const memberName = match[1];
-      return [`html.manifest.${memberName}`];
+      return [`manifests.webapp.${memberName}`];
     }
     // WebAssembly/
     case "webassembly-function":
@@ -539,6 +517,9 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
       const attrName = match[1];
       return [`mathml.global_attributes.${attrName}`];
     }
+    case "uri-component":
+    case "uri-scheme":
+      return [];
     default:
       return "Unexpected page type";
   }
