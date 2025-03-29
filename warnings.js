@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-88hz3w8e.js";
+} from "./chunk-dydzedfv.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -1019,6 +1019,26 @@ var warnings_processed_default = {
                 }
               ]
             },
+            gpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/GPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-faq.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                }
+              ]
+            },
             "high-level_programming_language": {
               children: {},
               slug: "/en-US/docs/Glossary/High-level_programming_language",
@@ -1175,6 +1195,19 @@ var warnings_processed_default = {
                     "",
                     "Text after link:",
                     "Grid layout"
+                  ]
+                }
+              ]
+            },
+            lgpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/LGPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/lgpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
                   ]
                 }
               ]
@@ -1708,7 +1741,7 @@ var warnings_processed_default = {
                   message: "Redirected external link",
                   data: [
                     "https://v2.scrimba.com/the-frontend-developer-career-path-c0j:details?via=mdn",
-                    "https://scrimba.com/the-frontend-developer-career-path-c0j:details?via=mdn&rt=20q1tr02&redir=1"
+                    "https://scrimba.com/the-frontend-developer-career-path-c0j:details?via=mdn&rt=qe2fsjfq&redir=1"
                   ]
                 }
               ]
@@ -1781,7 +1814,7 @@ var warnings_processed_default = {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/learn-accessible-web-design-c031?via=mdn",
-                        "https://scrimba.com/learn-accessible-web-design-c031?via=mdn&rt=rtvct56p&redir=1"
+                        "https://scrimba.com/learn-accessible-web-design-c031?via=mdn&rt=vogsp2gm&redir=1"
                       ]
                     }
                   ]
@@ -1970,7 +2003,7 @@ var warnings_processed_default = {
                       message: "Redirected external link",
                       data: [
                         "https://scrimba.com/learn/design?via=mdn",
-                        "https://scrimba.com/intro-to-ui-design-fundamentals-c0q?via=mdn&rt=lo26hk0k&redir=1"
+                        "https://scrimba.com/intro-to-ui-design-fundamentals-c0q?via=mdn&rt=3n5ap98a&redir=1"
                       ]
                     }
                   ]
@@ -2120,6 +2153,13 @@ var warnings_processed_default = {
                           data: [
                             "https://codepen.io/mxmason/pen/XWbPNmw"
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://new.drupal.org/",
+                            403
+                          ]
                         }
                       ]
                     },
@@ -2149,7 +2189,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/learn-react-c0e?via=mdn",
-                            "https://scrimba.com/learn-react-c0e?via=mdn&rt=lv4ep5pa&redir=1"
+                            "https://scrimba.com/learn-react-c0e?via=mdn&rt=nopciq4q&redir=1"
                           ]
                         }
                       ]
@@ -2399,7 +2439,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~06e?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~06e?via=mdn&rt=u2tmh32d&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~06e?via=mdn&rt=nq0dugf9&redir=1"
                           ]
                         }
                       ]
@@ -2412,7 +2452,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~04g?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~04g?via=mdn&rt=b3fb4pj6&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~04g?via=mdn&rt=68l6tgur&redir=1"
                           ]
                         }
                       ]
@@ -2584,7 +2624,7 @@ var warnings_processed_default = {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/learn-javascript-c0v?via=mdn",
-                        "https://scrimba.com/learn-javascript-c0v?via=mdn&rt=fn21vffb&redir=1"
+                        "https://scrimba.com/learn-javascript-c0v?via=mdn&rt=r20shcv3&redir=1"
                       ]
                     }
                   ]
@@ -2631,7 +2671,17 @@ var warnings_processed_default = {
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
                     },
                     html_video_and_audio: {
                       children: {
@@ -2729,14 +2779,14 @@ var warnings_processed_default = {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/learn-html-and-css-c0p?via=mdn",
-                        "https://scrimba.com/learn-html-and-css-c0p?via=mdn&rt=n88hj93f&redir=1"
+                        "https://scrimba.com/learn-html-and-css-c0p?via=mdn&rt=981sst66&redir=1"
                       ]
                     },
                     {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~0xid?via=mdn",
-                        "https://scrimba.com/the-frontend-developer-career-path-c0j/~0xid?via=mdn&rt=jtq41ef5&redir=1"
+                        "https://scrimba.com/the-frontend-developer-career-path-c0j/~0xid?via=mdn&rt=s68vpsd4&redir=1"
                       ]
                     }
                   ]
@@ -2778,7 +2828,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~01d?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~01d?via=mdn&rt=9vr1rfna&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~01d?via=mdn&rt=rattco7t&redir=1"
                           ]
                         }
                       ]
@@ -2858,6 +2908,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/guide/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2964,14 +3021,14 @@ var warnings_processed_default = {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/learn-html-and-css-c0p?via=mdn",
-                        "https://scrimba.com/learn-html-and-css-c0p?via=mdn&rt=n88hj93f&redir=1"
+                        "https://scrimba.com/learn-html-and-css-c0p?via=mdn&rt=981sst66&redir=1"
                       ]
                     },
                     {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~015?via=mdn",
-                        "https://scrimba.com/the-frontend-developer-career-path-c0j/~015?via=mdn&rt=2sl4kol8&redir=1"
+                        "https://scrimba.com/the-frontend-developer-career-path-c0j/~015?via=mdn&rt=uqjnanrl&redir=1"
                       ]
                     }
                   ]
@@ -2986,7 +3043,20 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~02b?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~02b?via=mdn&rt=aurrhlsp&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~02b?via=mdn&rt=u2mefu7g&redir=1"
+                          ]
+                        }
+                      ]
+                    },
+                    web_fonts: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.exljbris.com/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -3000,7 +3070,7 @@ var warnings_processed_default = {
                   message: "Redirected external link",
                   data: [
                     "https://v2.scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
-                    "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=nj8dcjbf&redir=1"
+                    "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=borvkq9e&redir=1"
                   ]
                 }
               ]
@@ -3013,14 +3083,14 @@ var warnings_processed_default = {
                   message: "Redirected external link",
                   data: [
                     "https://v2.scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
-                    "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=nj8dcjbf&redir=1"
+                    "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=borvkq9e&redir=1"
                   ]
                 },
                 {
                   message: "Redirected external link",
                   data: [
                     "https://v2.scrimba.com/teams?via=mdn-edu",
-                    "https://scrimba.com/teams?via=mdn-edu&rt=4p4k66t8&redir=1"
+                    "https://scrimba.com/teams?via=mdn-edu&rt=i85ujqsd&redir=1"
                   ]
                 }
               ]
@@ -3065,6 +3135,24 @@ var warnings_processed_default = {
                 },
                 forms: {
                   children: {
+                    customizable_select: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select",
+                      messages: [
+                        {
+                          message: "Code with space",
+                          data: [
+                            "<select multiple>"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Glossary/inert"
+                          ]
+                        }
+                      ]
+                    },
                     how_to_build_custom_form_controls: {
                       children: {
                         example_1: {
@@ -3299,6 +3387,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     },
@@ -3607,23 +3702,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    first_steps: {
-                      children: {
-                        web_frameworks: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Web_frameworks",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.techuseful.com/drone-definitions-learning-the-drone-lingo/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
                     node_server_without_framework: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Node_server_without_framework",
@@ -3743,7 +3821,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~0xyi?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~0xyi?via=mdn&rt=p511c159&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~0xyi?via=mdn&rt=rlrkvk0l&redir=1"
                           ]
                         }
                       ]
@@ -3756,7 +3834,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~0156?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~0156?via=mdn&rt=lgue81u2&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~0156?via=mdn&rt=95f78270&redir=1"
                           ]
                         }
                       ]
@@ -3797,7 +3875,7 @@ var warnings_processed_default = {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
-                        "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=nj8dcjbf&redir=1"
+                        "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=borvkq9e&redir=1"
                       ]
                     }
                   ]
@@ -4240,6 +4318,27 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://www.notepad-plus-plus.org/",
                             'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://www.notepad-plus-plus.org/". For more information, pass `verbose: true` in the second argument to fetch()'
                           ]
@@ -4263,23 +4362,17 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    how_do_you_host_your_website_on_google_app_engine: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gaesamplesite.appspot.com/",
-                            503
-                          ]
-                        }
-                      ]
-                    },
                     what_software_do_i_need: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -4340,14 +4433,14 @@ var warnings_processed_default = {
               message: "Redirected external link",
               data: [
                 "https://v2.scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
-                "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=nj8dcjbf&redir=1"
+                "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=borvkq9e&redir=1"
               ]
             },
             {
               message: "Redirected external link",
               data: [
                 "https://v2.scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
-                "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=nj8dcjbf&redir=1"
+                "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=borvkq9e&redir=1"
               ]
             }
           ]
@@ -11832,20 +11925,6 @@ var warnings_processed_default = {
                             "http://www.aha-soft.com/free-icons/free-retina-icon-set/",
                             ""
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iconbeast.com/free/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iconbeast.com/faq/",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     }
@@ -14717,7 +14796,7 @@ var warnings_processed_default = {
                           message: "Broken external link",
                           data: [
                             "https://nvd.nist.gov/vuln/detail/CVE-2017-5384",
-                            "The operation timed out."
+                            503
                           ]
                         }
                       ]
@@ -18394,6 +18473,18 @@ api.HTMLElement.toggle_event.dialog_elements`,
                       data: [
                         "/en-US/docs/Web/HTML/Element/ol",
                         "#compact"
+                      ]
+                    }
+                  ]
+                },
+                htmlselectedcontentelement: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/HTMLSelectedContentElement",
+                  messages: [
+                    {
+                      message: "Not in BCD",
+                      data: [
+                        "api.HTMLSelectedContentElement"
                       ]
                     }
                   ]
@@ -23719,6 +23810,18 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
+                appearance: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/appearance",
+                  messages: [
+                    {
+                      message: "Self link",
+                      data: [
+                        "/en-US/docs/Web/CSS/appearance"
+                      ]
+                    }
+                  ]
+                },
                 "baseline-position": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/baseline-position",
@@ -24633,13 +24736,6 @@ css.selectors.-webkit-resizer`,
                       message: "External sandbox link",
                       data: [
                         "https://codepen.io/KristopherVanSant/post/css-shapes-resources"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://www.webdesignerdepot.com/how-to-get-started-with-css-shapes/",
-                        "https://webdesignerdepot.com/how-to-get-started-with-css-shapes/"
                       ]
                     }
                   ]
@@ -27019,6 +27115,18 @@ html.elements.select.size`
                         }
                       }
                     },
+                    legend: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTML/Element/legend",
+                      messages: [
+                        {
+                          message: "Self link",
+                          data: [
+                            "/en-US/docs/Web/HTML/Element/legend"
+                          ]
+                        }
+                      ]
+                    },
                     meta: {
                       children: {
                         name: {
@@ -27102,6 +27210,24 @@ html.elements.select.size`
                             "#importmap",
                             "/en-US/docs/Web/HTML/Element/script/type/importmap",
                             []
+                          ]
+                        }
+                      ]
+                    },
+                    selectedcontent: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTML/Element/selectedcontent",
+                      messages: [
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Glossary/inert"
+                          ]
+                        },
+                        {
+                          message: "Not linked from parent page",
+                          data: [
+                            "/en-US/docs/Web/HTML/Element"
                           ]
                         }
                       ]
@@ -27335,6 +27461,19 @@ html.elements.select.size`
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         allow: {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Allow",
@@ -27507,6 +27646,42 @@ html.elements.select.size`
                               ]
                             }
                           }
+                        },
+                        prefer: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Prefer",
+                          messages: [
+                            {
+                              message: "Code with space",
+                              data: [
+                                "202 (Accepted)"
+                              ]
+                            },
+                            {
+                              message: "Code with space",
+                              data: [
+                                "202 (Accepted)"
+                              ]
+                            },
+                            {
+                              message: "Not in BCD",
+                              data: [
+                                "http.headers.Prefer"
+                              ]
+                            }
+                          ]
+                        },
+                        "preference-applied": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Preference-Applied",
+                          messages: [
+                            {
+                              message: "Not in BCD",
+                              data: [
+                                "http.headers.Preference-Applied"
+                              ]
+                            }
+                          ]
                         },
                         "proxy-authorization": {
                           children: {},
@@ -27906,6 +28081,13 @@ html.elements.select.size`
                           message: "Not linked from parent page",
                           data: [
                             "/en-US/docs/Web/JavaScript/Guide"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://nodejs.org/en/learn/getting-started/debugging",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -28977,6 +29159,19 @@ The timers run concurrently, which means the c`
                     },
                     formats: {
                       children: {
+                        containers: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Containers",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://en.flossmanuals.net/ogg-theora/_full/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -28986,6 +29181,13 @@ The timers run concurrently, which means the c`
                               data: [
                                 "http://hevc.info/",
                                 ""
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://en.flossmanuals.net/ogg-theora/_full/",
+                                "Cannot reach server and Bun hangs"
                               ]
                             }
                           ]
@@ -29723,7 +29925,7 @@ The timers run concurrently, which means the c`
                       message: "Broken external link",
                       data: [
                         "https://www.lightbluetouchpaper.org/2011/02/09/measuring-password-re-use-empirically/",
-                        "Cannot reach server and Bun hangs"
+                        503
                       ]
                     }
                   ]
@@ -34180,7 +34382,17 @@ svg.elements.feSpotLight.z`
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://inkscape.org/learn/",
+                            "https://inkscape.org/nl/leren/"
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/SVG/Tutorials",
@@ -34194,10 +34406,27 @@ svg.elements.feSpotLight.z`
                     {
                       message: "Unreachable via page",
                       data: []
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://inkscape.org/learn/",
+                        "https://inkscape.org/nl/leren/"
+                      ]
                     }
                   ]
                 }
-              }
+              },
+              slug: "/en-US/docs/Web/SVG",
+              messages: [
+                {
+                  message: "Redirected external link",
+                  data: [
+                    "https://inkscape.org/learn/",
+                    "https://inkscape.org/nl/leren/"
+                  ]
+                }
+              ]
             },
             uri: {
               children: {
@@ -34226,7 +34455,7 @@ svg.elements.feSpotLight.z`
                         {
                           message: "Unexpected page type",
                           data: [
-                            "reference"
+                            "uri-component"
                           ]
                         }
                       ]
@@ -34240,7 +34469,7 @@ svg.elements.feSpotLight.z`
                             {
                               message: "Unexpected page type",
                               data: [
-                                "reference"
+                                "uri-component"
                               ]
                             }
                           ]
@@ -34251,7 +34480,7 @@ svg.elements.feSpotLight.z`
                         {
                           message: "Unexpected page type",
                           data: [
-                            "reference"
+                            "uri-component"
                           ]
                         }
                       ]
@@ -34265,7 +34494,7 @@ svg.elements.feSpotLight.z`
                             {
                               message: "Unexpected page type",
                               data: [
-                                "reference"
+                                "uri-scheme"
                               ]
                             }
                           ]
@@ -34277,7 +34506,7 @@ svg.elements.feSpotLight.z`
                             {
                               message: "Unexpected page type",
                               data: [
-                                "reference"
+                                "uri-scheme"
                               ]
                             }
                           ]
@@ -34289,7 +34518,7 @@ svg.elements.feSpotLight.z`
                             {
                               message: "Unexpected page type",
                               data: [
-                                "reference"
+                                "uri-scheme"
                               ]
                             }
                           ]
@@ -34300,7 +34529,7 @@ svg.elements.feSpotLight.z`
                         {
                           message: "Unexpected page type",
                           data: [
-                            "reference"
+                            "uri-component"
                           ]
                         }
                       ]
