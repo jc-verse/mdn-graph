@@ -7,7 +7,7 @@
     "prettier": "^3.3.3"
   },
   "dependencies": {
-    "@mdn/browser-compat-data": "5",
+    "@mdn/browser-compat-data": "6",
     "@types/three": "^0.167.1",
     "cheerio": "^1.0.0",
     "gray-matter": "^4.0.3",

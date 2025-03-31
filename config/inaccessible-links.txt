@@ -8,9 +8,10 @@ https://www.canva.com/{.*}
 https://www.openwebanalytics.com{/?}
 https://www.reddit.com/r/{.*}
 https://wiki.mozilla.org/{.*}
-https://inkscape.org/{(learn)?}
+https://inkscape.org/{(learn)?/?}
 https://x.com/{.*}
 https://automate.browserstack.com/dashboard/
+https://chatgpt.com/
 
   404 on purpose:
 https://konmari.com/404
