@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-xx670neh.js";
+} from "./chunk-dmt7a2cx.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -2063,13 +2063,6 @@ var warnings_processed_default = {
                           data: [
                             "https://codepen.io/mxmason/pen/XWbPNmw"
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://phabricator.wikimedia.org/T241180",
-                            "429 Retry-After: 1000"
-                          ]
                         }
                       ]
                     },
@@ -2121,6 +2114,13 @@ var warnings_processed_default = {
                           data: [
                             "https://svelte-native.technology/",
                             "https://svelte.nativescript.org/"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://livebook.manning.com/book/svelte-and-sapper-in-action/welcome",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -2800,19 +2800,6 @@ var warnings_processed_default = {
                 }
               }
             },
-            educators: {
-              children: {},
-              slug: "/en-US/docs/Learn_web_development/Educators",
-              messages: [
-                {
-                  message: "Redirected external link",
-                  data: [
-                    "https://scrimba.com/teams?via=mdn-edu",
-                    "https://scrimba.com/teams?via=mdn-edu&rt=80ij78t3&redir=1"
-                  ]
-                }
-              ]
-            },
             extensions: {
               children: {
                 advanced_javascript_objects: {
@@ -3113,6 +3100,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://securityheaders.com/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -3127,7 +3121,21 @@ var warnings_processed_default = {
                       ]
                     },
                     django: {
-                      children: {},
+                      children: {
+                        deployment: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Deployment",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://whitenoise.readthedocs.io/en/stable/django.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      },
                       slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django",
                       messages: [
                         {
@@ -3386,6 +3394,19 @@ var warnings_processed_default = {
                           ]
                         }
                       ]
+                    },
+                    html_and_css: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.sublimelinter.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     }
                   }
                 }
@@ -3393,23 +3414,6 @@ var warnings_processed_default = {
             },
             getting_started: {
               children: {
-                environment_setup: {
-                  children: {
-                    browsing_the_web: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Browsing_the_web",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://chatgpt.com/",
-                            403
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 soft_skills: {
                   children: {
                     research_and_learning: {
@@ -3840,6 +3844,26 @@ var warnings_processed_default = {
                           data: []
                         }
                       ]
+                    },
+                    how_do_you_host_your_website_on_google_app_engine: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://shell.cloud.google.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gaesamplesite.appspot.com/",
+                            503
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup",
@@ -3913,6 +3937,13 @@ var warnings_processed_default = {
                       message: "Not linked from parent page",
                       data: [
                         "/en-US/docs/MDN/Community"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/orgs/mdn/discussions/categories/localization",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -13416,13 +13447,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://bugzilla.mozilla.org/buglist.cgi?resolution=FIXED&chfieldto=2014-04-29&chfield=resolution&query_format=advanced&chfieldfrom=2014-03-18&chfieldvalue=FIXED&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&product=Add-on%20SDK&list_id=10493962",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -13547,13 +13571,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://bugzilla.mozilla.org/buglist.cgi?resolution=FIXED&chfieldto=2014-10-13&chfield=resolution&query_format=advanced&chfieldfrom=2014-09-02&chfieldvalue=FIXED&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&product=Add-on%20SDK&list_id=11562840",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -19574,6 +19591,19 @@ var warnings_processed_default = {
                 },
                 web_audio_api: {
                   children: {
+                    advanced_techniques: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://soundbible.com/1573-DTMF-Tones.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
                     best_practices: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Best_practices",
@@ -27620,13 +27650,6 @@ html.elements.select.size`
                           ]
                         },
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.getmiro.com/",
-                            503
-                          ]
-                        },
-                        {
                           message: "HTTP link",
                           data: [
                             "http://www.firefogg.org/",
@@ -27878,260 +27901,7 @@ html.elements.select.size`
                 manifest: {
                   children: {
                     reference: {
-                      children: {
-                        background_color: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/background_color",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "manifests.webapp.background_color"
-                              ]
-                            }
-                          ]
-                        },
-                        description: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/description",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "manifests.webapp.description"
-                              ]
-                            }
-                          ]
-                        },
-                        display: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/display",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "manifests.webapp.display"
-                              ]
-                            }
-                          ]
-                        },
-                        display_override: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/display_override",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "manifests.webapp.display_override"
-                              ]
-                            }
-                          ]
-                        },
-                        file_handlers: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/file_handlers",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "manifests.webapp.file_handlers"
-                              ]
-                            }
-                          ]
-                        },
-                        icons: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/icons",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "manifests.webapp.icons"
-                              ]
-                            }
-                          ]
-                        },
-                        id: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/id",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "manifests.webapp.id"
-                              ]
-                            }
-                          ]
-                        },
-                        launch_handler: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/launch_handler",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "manifests.webapp.launch_handler"
-                              ]
-                            }
-                          ]
-                        },
-                        name: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/name",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "manifests.webapp.name"
-                              ]
-                            }
-                          ]
-                        },
-                        note_taking: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/note_taking",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "manifests.webapp.note_taking"
-                              ]
-                            }
-                          ]
-                        },
-                        orientation: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/orientation",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "manifests.webapp.orientation"
-                              ]
-                            }
-                          ]
-                        },
-                        prefer_related_applications: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/prefer_related_applications",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "manifests.webapp.prefer_related_applications"
-                              ]
-                            }
-                          ]
-                        },
-                        protocol_handlers: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/protocol_handlers",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "manifests.webapp.protocol_handlers"
-                              ]
-                            }
-                          ]
-                        },
-                        related_applications: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/related_applications",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "manifests.webapp.related_applications"
-                              ]
-                            }
-                          ]
-                        },
-                        scope: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/scope",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "manifests.webapp.scope"
-                              ]
-                            }
-                          ]
-                        },
-                        serviceworker: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/serviceworker",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "manifests.webapp.serviceworker"
-                              ]
-                            }
-                          ]
-                        },
-                        share_target: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/share_target",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "manifests.webapp.share_target"
-                              ]
-                            }
-                          ]
-                        },
-                        short_name: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/short_name",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "manifests.webapp.short_name"
-                              ]
-                            }
-                          ]
-                        },
-                        shortcuts: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/shortcuts",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "manifests.webapp.shortcuts"
-                              ]
-                            }
-                          ]
-                        },
-                        start_url: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/start_url",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "manifests.webapp.start_url"
-                              ]
-                            }
-                          ]
-                        },
-                        theme_color: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/theme_color",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "manifests.webapp.theme_color"
-                              ]
-                            }
-                          ]
-                        }
-                      },
+                      children: {},
                       slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference",
                       messages: [
                         {
@@ -32631,17 +32401,7 @@ svg.elements.feSpotLight.z`
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://inkscape.org/learn/",
-                            "https://inkscape.org/zh-hans/simplified-chinese-learn/"
-                          ]
-                        }
-                      ]
+                      }
                     }
                   },
                   slug: "/en-US/docs/Web/SVG/Tutorials",
@@ -32655,27 +32415,10 @@ svg.elements.feSpotLight.z`
                     {
                       message: "Unreachable via page",
                       data: []
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://inkscape.org/learn/",
-                        "https://inkscape.org/zh-hans/simplified-chinese-learn/"
-                      ]
                     }
                   ]
                 }
-              },
-              slug: "/en-US/docs/Web/SVG",
-              messages: [
-                {
-                  message: "Redirected external link",
-                  data: [
-                    "https://inkscape.org/learn/",
-                    "https://inkscape.org/zh-hans/simplified-chinese-learn/"
-                  ]
-                }
-              ]
+              }
             },
             uri: {
               children: {
