@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-dmt7a2cx.js";
+} from "./chunk-3rkr382j.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -1012,6 +1012,26 @@ var warnings_processed_default = {
                 }
               ]
             },
+            gpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/GPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-faq.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                }
+              ]
+            },
             "high-level_programming_language": {
               children: {},
               slug: "/en-US/docs/Glossary/High-level_programming_language",
@@ -1168,6 +1188,19 @@ var warnings_processed_default = {
                     "",
                     "Text after link:",
                     "Grid layout"
+                  ]
+                }
+              ]
+            },
+            lgpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/LGPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/lgpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
                   ]
                 }
               ]
@@ -2115,13 +2148,6 @@ var warnings_processed_default = {
                             "https://svelte-native.technology/",
                             "https://svelte.nativescript.org/"
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://livebook.manning.com/book/svelte-and-sapper-in-action/welcome",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2497,7 +2523,17 @@ var warnings_processed_default = {
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
                     },
                     html_video_and_audio: {
                       children: {
@@ -2797,6 +2833,23 @@ var warnings_processed_default = {
                       ]
                     }
                   }
+                },
+                text_styling: {
+                  children: {
+                    web_fonts: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.exljbris.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 }
               }
             },
@@ -2832,6 +2885,23 @@ var warnings_processed_default = {
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/mikethomas/pen/kQjKLW"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                "client-side_tools": {
+                  children: {
+                    introducing_complete_toolchain: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://preset-env.cssdb.org/features/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -3086,6 +3156,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -3100,13 +3177,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://securityheaders.com/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -3121,21 +3191,7 @@ var warnings_processed_default = {
                       ]
                     },
                     django: {
-                      children: {
-                        deployment: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Deployment",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://whitenoise.readthedocs.io/en/stable/django.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      },
+                      children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django",
                       messages: [
                         {
@@ -3391,19 +3447,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Learn_web_development/Core/Scripting/Debugging_JavaScript",
                             "#dont_browser_sniff"
-                          ]
-                        }
-                      ]
-                    },
-                    html_and_css: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.sublimelinter.com/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -3835,6 +3878,33 @@ var warnings_processed_default = {
                 },
                 tools_and_setup: {
                   children: {
+                    available_text_editors: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -3852,15 +3922,28 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://shell.cloud.google.com/",
+                            "https://console.cloud.google.com/projectselector/appengine",
                             "The operation timed out."
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://gaesamplesite.appspot.com/",
-                            503
+                            "https://shell.cloud.google.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    what_software_do_i_need: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -3938,13 +4021,6 @@ var warnings_processed_default = {
                       data: [
                         "/en-US/docs/MDN/Community"
                       ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/orgs/mdn/discussions/categories/localization",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -4018,6 +4094,19 @@ var warnings_processed_default = {
                     {
                       message: "Unreachable via page",
                       data: []
+                    }
+                  ]
+                },
+                translated_content: {
+                  children: {},
+                  slug: "/en-US/docs/MDN/Community/Translated_content",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/davbrito",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 }
@@ -5389,12 +5478,6 @@ var warnings_processed_default = {
                               children: {},
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/RemovalOptions",
                               messages: [
-                                {
-                                  message: "Quoted code",
-                                  data: [
-                                    "unprotectedWeb"
-                                  ]
-                                },
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
@@ -7136,16 +7219,7 @@ var warnings_processed_default = {
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extension",
-                          messages: [
-                            {
-                              message: "Quoted code",
-                              data: [
-                                "split"
-                              ]
-                            }
-                          ]
+                          }
                         },
                         extensiontypes: {
                           children: {
@@ -7402,12 +7476,6 @@ var warnings_processed_default = {
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/LanguageCode",
                               messages: [
                                 {
-                                  message: "Quoted code",
-                                  data: [
-                                    "fr"
-                                  ]
-                                },
-                                {
                                   message: "Unreachable via sidebar",
                                   data: []
                                 }
@@ -7423,16 +7491,7 @@ var warnings_processed_default = {
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n",
-                          messages: [
-                            {
-                              message: "Quoted code",
-                              data: [
-                                "fr"
-                              ]
-                            }
-                          ]
+                          }
                         },
                         identity: {
                           children: {
@@ -12579,12 +12638,6 @@ var warnings_processed_default = {
                           slug: "/en-US/docs/Mozilla/Firefox/Releases/8/Updating_add-ons",
                           messages: [
                             {
-                              message: "Quoted code",
-                              data: [
-                                "security.ssl2."
-                              ]
-                            },
-                            {
                               message: "Broken link",
                               data: [
                                 "/en-US/docs/Mozilla/Developer_guide/Interface_Compatibility"
@@ -12640,12 +12693,6 @@ var warnings_processed_default = {
                       },
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/9",
                       messages: [
-                        {
-                          message: "Quoted code",
-                          data: [
-                            "moz-json"
-                          ]
-                        },
                         {
                           message: "Broken anchor",
                           data: [
@@ -12743,12 +12790,6 @@ var warnings_processed_default = {
                       },
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/10",
                       messages: [
-                        {
-                          message: "Quoted code",
-                          data: [
-                            "moz-json"
-                          ]
-                        },
                         {
                           message: "Broken anchor",
                           data: [
@@ -12959,12 +13000,6 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/13",
                       messages: [
-                        {
-                          message: "Quoted code",
-                          data: [
-                            "right 10px bottom 20px"
-                          ]
-                        },
                         {
                           message: "Broken link",
                           data: [
@@ -13179,12 +13214,6 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/20",
                       messages: [
                         {
-                          message: "Quoted code",
-                          data: [
-                            "8pt"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -13267,12 +13296,6 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/24",
                       messages: [
                         {
-                          message: "Quoted code",
-                          data: [
-                            "updiagonalarrow"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -13324,12 +13347,6 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/27",
                       messages: [
                         {
-                          message: "Quoted code",
-                          data: [
-                            "true"
-                          ]
-                        },
-                        {
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Web/JavaScript/ECMAScript_6_support_in_Mozilla"
@@ -13345,12 +13362,6 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/28",
                       messages: [
-                        {
-                          message: "Quoted code",
-                          data: [
-                            "2d"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -13396,18 +13407,6 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/31",
                       messages: [
-                        {
-                          message: "Quoted code",
-                          data: [
-                            "align"
-                          ]
-                        },
-                        {
-                          message: "Quoted code",
-                          data: [
-                            "center"
-                          ]
-                        },
                         {
                           message: "Broken link",
                           data: [
@@ -13637,18 +13636,6 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/38",
                       messages: [
-                        {
-                          message: "Quoted code",
-                          data: [
-                            "set"
-                          ]
-                        },
-                        {
-                          message: "Quoted code",
-                          data: [
-                            "get"
-                          ]
-                        },
                         {
                           message: "Text stuck to code/link",
                           data: [
@@ -13964,12 +13951,6 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/49",
                       messages: [
                         {
-                          message: "Quoted code",
-                          data: [
-                            "'no-referrer-when-downgrade"
-                          ]
-                        },
-                        {
                           message: "Text stuck to code/link",
                           data: [
                             ":baseline",
@@ -14092,12 +14073,6 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/51",
                       messages: [
                         {
-                          message: "Quoted code",
-                          data: [
-                            "let"
-                          ]
-                        },
-                        {
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Mozilla/Add-ons/WebExtensions/Embedded_WebExtensions"
@@ -14124,6 +14099,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://nvd.nist.gov/vuln/detail/CVE-2017-5384",
+                            503
+                          ]
                         }
                       ]
                     },
@@ -14164,24 +14146,6 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "Quoted code",
-                          data: [
-                            "locales"
-                          ]
-                        },
-                        {
-                          message: "Quoted code",
-                          data: [
-                            "options"
-                          ]
-                        },
-                        {
-                          message: "Quoted code",
-                          data: [
-                            "let \\u{61} = 123"
-                          ]
-                        },
-                        {
                           message: "Broken anchor",
                           data: [
                             "/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters",
@@ -14218,24 +14182,6 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/53",
                       messages: [
-                        {
-                          message: "Quoted code",
-                          data: [
-                            '/x?a=true&b=false"'
-                          ]
-                        },
-                        {
-                          message: "Quoted code",
-                          data: [
-                            "/x"
-                          ]
-                        },
-                        {
-                          message: "Quoted code",
-                          data: [
-                            '?a=true&b=false"'
-                          ]
-                        },
                         {
                           message: "Broken anchor",
                           data: [
@@ -14605,12 +14551,6 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/69",
                       messages: [
                         {
-                          message: "Quoted code",
-                          data: [
-                            "*"
-                          ]
-                        },
-                        {
                           message: "Broken anchor",
                           data: [
                             "/en-US/docs/Web/CSS/text-transform",
@@ -14647,18 +14587,6 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/72",
                       messages: [
-                        {
-                          message: "Quoted code",
-                          data: [
-                            "a=simulcast: send rid=7 recv rid=8"
-                          ]
-                        },
-                        {
-                          message: "Quoted code",
-                          data: [
-                            "a=simulcast: send 7 recv 8"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -15579,12 +15507,6 @@ var warnings_processed_default = {
                           children: {},
                           slug: "/en-US/docs/Mozilla/Firefox/Releases/3.5/Security_changes",
                           messages: [
-                            {
-                              message: "Quoted code",
-                              data: [
-                                '"certerror'
-                              ]
-                            },
                             {
                               message: "Broken link",
                               data: [
@@ -16984,24 +16906,6 @@ var warnings_processed_default = {
                           ]
                         }
                       ]
-                    },
-                    write: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/write",
-                      messages: [
-                        {
-                          message: "Quoted code",
-                          data: [
-                            "<plaintext>"
-                          ]
-                        },
-                        {
-                          message: "Quoted code",
-                          data: [
-                            "<!--"
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/API/Document",
@@ -18143,6 +18047,20 @@ var warnings_processed_default = {
                           message: "Not linked from parent page",
                           data: [
                             "/en-US/docs/Web/API/Payment_Request_API"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.emvco.com/emv-technologies/3-d-secure/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.emvco.com/emv-technologies/secure-remote-commerce/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -19591,19 +19509,6 @@ var warnings_processed_default = {
                 },
                 web_audio_api: {
                   children: {
-                    advanced_techniques: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://soundbible.com/1573-DTMF-Tones.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     best_practices: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Best_practices",
@@ -26296,6 +26201,19 @@ html.elements.select.size`
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         "accept-patch": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept-Patch",
@@ -26420,24 +26338,6 @@ html.elements.select.size`
                               ]
                             }
                           }
-                        },
-                        prefer: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Prefer",
-                          messages: [
-                            {
-                              message: "Code with space",
-                              data: [
-                                "202 (Accepted)"
-                              ]
-                            },
-                            {
-                              message: "Code with space",
-                              data: [
-                                "202 (Accepted)"
-                              ]
-                            }
-                          ]
                         },
                         tk: {
                           children: {},
