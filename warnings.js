@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-g5c5n1p2.js";
+} from "./chunk-wm0qq6rj.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -1012,6 +1012,26 @@ var warnings_processed_default = {
                 }
               ]
             },
+            gpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/GPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-faq.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                }
+              ]
+            },
             "high-level_programming_language": {
               children: {},
               slug: "/en-US/docs/Glossary/High-level_programming_language",
@@ -1168,6 +1188,19 @@ var warnings_processed_default = {
                     "",
                     "Text after link:",
                     "Grid layout"
+                  ]
+                }
+              ]
+            },
+            lgpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/LGPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/lgpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
                   ]
                 }
               ]
@@ -1380,6 +1413,18 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            recursion: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Recursion",
+              messages: [
+                {
+                  message: "Invalid code block language",
+                  data: [
+                    "brush: py notranslate"
+                  ]
                 }
               ]
             },
@@ -2074,54 +2119,6 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features",
                       messages: [
                         {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
                           message: "Self link",
                           data: [
                             "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features"
@@ -2131,780 +2128,6 @@ var warnings_processed_default = {
                           message: "Self link",
                           data: [
                             "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features"
-                          ]
-                        }
-                      ]
-                    },
-                    react_accessibility: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_accessibility",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    react_components: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_components",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    react_getting_started: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    react_interactivity_events_state: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_interactivity_events_state",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    react_interactivity_filtering_conditional_rendering: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_interactivity_filtering_conditional_rendering",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    react_resources: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_resources",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    react_todo_list_beginning: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_todo_list_beginning",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
                           ]
                         }
                       ]
@@ -3315,7 +2538,17 @@ var warnings_processed_default = {
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
                     },
                     html_video_and_audio: {
                       children: {
@@ -3761,18 +2994,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    sending_and_retrieving_form_data: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Sending_and_retrieving_form_data",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: python notranslate"
-                          ]
-                        }
-                      ]
-                    },
                     sending_forms_through_javascript: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Sending_forms_through_JavaScript",
@@ -3916,6 +3137,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -3945,252 +3173,6 @@ var warnings_processed_default = {
                     },
                     django: {
                       children: {
-                        admin_site: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Admin_site",
-                          messages: [
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            }
-                          ]
-                        },
-                        authentication: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Authentication",
-                          messages: [
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            }
-                          ]
-                        },
                         deployment: {
                           children: {},
                           slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Deployment",
@@ -4198,325 +3180,13 @@ var warnings_processed_default = {
                             {
                               message: "Invalid code block language",
                               data: [
-                                "brush: python notranslate"
+                                "brush: py notranslate"
                               ]
                             },
                             {
                               message: "Invalid code block language",
                               data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            }
-                          ]
-                        },
-                        django_assessment_blog: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/django_assessment_blog",
-                          messages: [
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            }
-                          ]
-                        },
-                        forms: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Forms",
-                          messages: [
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            }
-                          ]
-                        },
-                        generic_views: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Generic_views",
-                          messages: [
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            }
-                          ]
-                        },
-                        home_page: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Home_page",
-                          messages: [
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            }
-                          ]
-                        },
-                        introduction: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Introduction",
-                          messages: [
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
+                                "brush: py notranslate"
                               ]
                             }
                           ]
@@ -4528,361 +3198,7 @@ var warnings_processed_default = {
                             {
                               message: "Invalid code block language",
                               data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            }
-                          ]
-                        },
-                        sessions: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Sessions",
-                          messages: [
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            }
-                          ]
-                        },
-                        skeleton_website: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/skeleton_website",
-                          messages: [
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            }
-                          ]
-                        },
-                        testing: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Testing",
-                          messages: [
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
+                                "brush: py notranslate"
                               ]
                             }
                           ]
@@ -5127,76 +3443,10 @@ var warnings_processed_default = {
                           slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview",
                           messages: [
                             {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
                               message: "Broken external link",
                               data: [
                                 "https://websniffer.com/",
                                 "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        web_frameworks: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Web_frameworks",
-                          messages: [
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            }
-                          ]
-                        },
-                        website_security: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Website_security",
-                          messages: [
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
                               ]
                             }
                           ]
@@ -5657,6 +3907,33 @@ var warnings_processed_default = {
                 },
                 tools_and_setup: {
                   children: {
+                    available_text_editors: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -5664,6 +3941,19 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    what_software_do_i_need: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -13045,24 +11335,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    native_messaging: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_messaging",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: python notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: python notranslate"
-                          ]
-                        }
-                      ]
-                    },
                     safely_inserting_external_content_into_a_page: {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Safely_inserting_external_content_into_a_page",
@@ -17945,6 +16217,58 @@ var warnings_processed_default = {
                         },
                         roles: {
                           children: {
+                            complementary_role: {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/complementary_role",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://html5doctor.com/aside-revisited/",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
+                            contentinfo_role: {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/contentinfo_role",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://html5doctor.com/the-footer-element-update/",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
+                            main_role: {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/main_role",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://html5doctor.com/the-main-element/",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
+                            navigation_role: {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/navigation_role",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://html5doctor.com/nav-element/",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
                             timer_role: {
                               children: {},
                               slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/timer_role",
@@ -18807,18 +17131,6 @@ var warnings_processed_default = {
                 },
                 document_object_model: {
                   children: {
-                    introduction: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document_Object_Model/Introduction",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: python notranslate"
-                          ]
-                        }
-                      ]
-                    },
                     locating_dom_elements_using_selectors: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Document_Object_Model/Locating_DOM_elements_using_selectors",
@@ -19126,17 +17438,7 @@ var warnings_processed_default = {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/Geolocation_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://lbs.amap.com/api/javascript-api/guide/services/geolocation",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
+                  }
                 },
                 history_api: {
                   children: {
@@ -23521,134 +21823,14 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                "-webkit-text-fill-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-webkit-text-fill-color",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "-webkit-text-stroke": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-webkit-text-stroke",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "-webkit-text-stroke-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-webkit-text-stroke-color",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "-webkit-text-stroke-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-webkit-text-stroke-width",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
                 "@color-profile": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/@color-profile",
                   messages: [
                     {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
-                    {
                       message: "Not in BCD",
                       data: [
                         "css.at-rules.color-profile"
-                      ]
-                    }
-                  ]
-                },
-                "@container": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/@container",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/block-contents"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/size-feature"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/general-enclosed"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/style-feature"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/scroll-state-feature"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/style-feature"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/general-enclosed"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/scroll-state-feature"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/general-enclosed"
                       ]
                     }
                   ]
@@ -23660,12 +21842,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@counter-style/additive-symbols",
                       messages: [
                         {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -23675,12 +21851,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@counter-style/fallback",
                       messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -23692,12 +21862,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@counter-style/negative",
                       messages: [
                         {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -23707,12 +21871,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@counter-style/pad",
                       messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -23724,12 +21882,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@counter-style/prefix",
                       messages: [
                         {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -23739,12 +21891,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@counter-style/range",
                       messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -23756,12 +21902,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@counter-style/speak-as",
                       messages: [
                         {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -23771,12 +21911,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@counter-style/suffix",
                       messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -23788,12 +21922,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@counter-style/symbols",
                       messages: [
                         {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -23804,27 +21932,12 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@counter-style/system",
                       messages: [
                         {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/CSS/@counter-style",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 "@font-face": {
                   children: {
@@ -23832,12 +21945,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@font-face/ascent-override",
                       messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -23849,12 +21956,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@font-face/descent-override",
                       messages: [
                         {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -23864,12 +21965,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@font-face/font-display",
                       messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -23881,12 +21976,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@font-face/font-family",
                       messages: [
                         {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -23896,12 +21985,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@font-face/font-feature-settings",
                       messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -23929,12 +22012,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@font-face/font-style",
                       messages: [
                         {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -23944,12 +22021,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@font-face/font-variation-settings",
                       messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -23961,12 +22032,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@font-face/font-weight",
                       messages: [
                         {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -23977,12 +22042,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@font-face/line-gap-override",
                       messages: [
                         {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -23992,12 +22051,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@font-face/size-adjust",
                       messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -24019,33 +22072,12 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@font-face/unicode-range",
                       messages: [
                         {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/CSS/unicode-range-token"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/CSS/@font-face",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 "@font-feature-values": {
                   children: {
@@ -24065,16 +22097,7 @@ css.selectors.-webkit-resizer`,
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/CSS/@font-feature-values",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 "@font-palette-values": {
                   children: {
@@ -24082,12 +22105,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@font-palette-values/base-palette",
                       messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -24099,12 +22116,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@font-palette-values/font-family",
                       messages: [
                         {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -24115,27 +22126,12 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@font-palette-values/override-colors",
                       messages: [
                         {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/CSS/@font-palette-values",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 "@import": {
                   children: {
@@ -24167,46 +22163,7 @@ css.selectors.-webkit-resizer`,
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/CSS/@import",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/general-enclosed"
-                      ]
-                    }
-                  ]
-                },
-                "@keyframes": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/@keyframes",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "@layer": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/@layer",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 "@media": {
                   children: {
@@ -24688,28 +22645,7 @@ css.selectors.-webkit-resizer`,
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/CSS/@media",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "@namespace": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/@namespace",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 "@page": {
                   children: {
@@ -24717,12 +22653,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@page/page-orientation",
                       messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -24734,39 +22664,12 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@page/size",
                       messages: [
                         {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/CSS/@page",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "@position-try": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/@position-try",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 "@property": {
                   children: {
@@ -24774,12 +22677,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@property/inherits",
                       messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -24791,12 +22688,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@property/initial-value",
                       messages: [
                         {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -24807,45 +22698,12 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@property/syntax",
                       messages: [
                         {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/CSS/@property",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "@scope": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/@scope",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/block-contents"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 "@starting-style": {
                   children: {},
@@ -24855,48 +22713,6 @@ css.selectors.-webkit-resizer`,
                       message: "Missing data",
                       data: [
                         "CSS formal syntax"
-                      ]
-                    }
-                  ]
-                },
-                "@supports": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/@supports",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/general-enclosed"
-                      ]
-                    }
-                  ]
-                },
-                "@view-transition": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/@view-transition",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                abs: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/abs",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
                       ]
                     }
                   ]
@@ -24913,345 +22729,14 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                "accent-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/accent-color",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                acos: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/acos",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "align-content": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/align-content",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "align-items": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/align-items",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "align-self": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/align-self",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "alignment-baseline": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/alignment-baseline",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                all: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/all",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
                 "alpha-value": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/alpha-value",
                   messages: [
                     {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
-                    {
                       message: "Not in BCD",
                       data: [
                         "css.types.alpha-value"
-                      ]
-                    }
-                  ]
-                },
-                anchor: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/anchor",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "anchor-name": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/anchor-name",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "anchor-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/anchor-size",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "angle-percentage": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/angle-percentage",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                animation: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/animation",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "animation-composition": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/animation-composition",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "animation-delay": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/animation-delay",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "animation-direction": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/animation-direction",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "animation-duration": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/animation-duration",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "animation-fill-mode": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/animation-fill-mode",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "animation-iteration-count": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/animation-iteration-count",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "animation-name": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/animation-name",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "animation-play-state": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/animation-play-state",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "animation-range": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/animation-range",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "animation-range-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/animation-range-end",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "animation-range-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/animation-range-start",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "animation-timeline": {
-                  children: {
-                    scroll: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/animation-timeline/scroll",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    view: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/animation-timeline/view",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/CSS/animation-timeline",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "animation-timing-function": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/animation-timing-function",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
                       ]
                     }
                   ]
@@ -25261,243 +22746,9 @@ css.selectors.-webkit-resizer`,
                   slug: "/en-US/docs/Web/CSS/appearance",
                   messages: [
                     {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
-                    {
                       message: "Self link",
                       data: [
                         "/en-US/docs/Web/CSS/appearance"
-                      ]
-                    }
-                  ]
-                },
-                asin: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/asin",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "aspect-ratio": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/aspect-ratio",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                atan: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/atan",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                atan2: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/atan2",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                attr: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/attr",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "backdrop-filter": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/backdrop-filter",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "backface-visibility": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/backface-visibility",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                background: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/background",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "background-attachment": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/background-attachment",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "background-blend-mode": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/background-blend-mode",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "background-clip": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/background-clip",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "background-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/background-color",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "background-image": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/background-image",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "background-origin": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/background-origin",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "background-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/background-position",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "background-position-x": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/background-position-x",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "background-position-y": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/background-position-y",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "background-repeat": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/background-repeat",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "background-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/background-size",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
                       ]
                     }
                   ]
@@ -25514,440 +22765,10 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                "basic-shape": {
-                  children: {
-                    circle: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/basic-shape/circle",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    ellipse: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/basic-shape/ellipse",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    inset: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/basic-shape/inset",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    path: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/basic-shape/path",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    polygon: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/basic-shape/polygon",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    rect: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/basic-shape/rect",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    shape: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/basic-shape/shape",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    xywh: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/basic-shape/xywh",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                "blend-mode": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/blend-mode",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "block-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/block-size",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                border: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-block": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-block",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-block-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-block-color",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-block-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-block-end",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-block-end-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-block-end-color",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-block-end-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-block-end-style",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-block-end-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-block-end-width",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-block-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-block-start",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-block-start-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-block-start-color",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-block-start-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-block-start-style",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-block-start-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-block-start-width",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-block-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-block-style",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-block-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-block-width",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-bottom": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-bottom",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-bottom-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-bottom-color",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-bottom-left-radius": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-bottom-left-radius",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-bottom-right-radius": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-bottom-right-radius",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-bottom-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-bottom-style",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-bottom-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-bottom-width",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-collapse": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-collapse",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-color",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-end-end-radius": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-end-end-radius",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-end-start-radius": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-end-start-radius",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-image": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-image",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-image-outset": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-image-outset",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
                 "border-image-repeat": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/border-image-repeat",
                   messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
                     {
                       message: "Broken anchor",
                       data: [
@@ -25964,244 +22785,10 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                "border-image-slice": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-image-slice",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-image-source": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-image-source",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-image-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-image-width",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-inline": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-inline",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-inline-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-inline-color",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-inline-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-inline-end",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-inline-end-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-inline-end-color",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-inline-end-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-inline-end-style",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-inline-end-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-inline-end-width",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-inline-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-inline-start",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-inline-start-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-inline-start-color",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-inline-start-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-inline-start-style",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-inline-start-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-inline-start-width",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-inline-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-inline-style",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-inline-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-inline-width",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-left": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-left",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-left-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-left-color",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-left-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-left-style",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-left-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-left-width",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
                 "border-radius": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/border-radius",
                   messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
                     {
                       message: "External sandbox link",
                       data: [
@@ -26230,210 +22817,6 @@ css.selectors.-webkit-resizer`,
                       message: "External sandbox link",
                       data: [
                         "https://jsfiddle.net/Tripad/qnGKj/6/"
-                      ]
-                    }
-                  ]
-                },
-                "border-right": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-right",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-right-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-right-color",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-right-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-right-style",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-right-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-right-width",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-spacing": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-spacing",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-start-end-radius": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-start-end-radius",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-start-start-radius": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-start-start-radius",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-style",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-top": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-top",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-top-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-top-color",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-top-left-radius": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-top-left-radius",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-top-right-radius": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-top-right-radius",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-top-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-top-style",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-top-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-top-width",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "border-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-width",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                bottom: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/bottom",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "box-decoration-break": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/box-decoration-break",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
                       ]
                     }
                   ]
@@ -26507,105 +22890,9 @@ css.selectors.-webkit-resizer`,
                   slug: "/en-US/docs/Web/CSS/box-shadow",
                   messages: [
                     {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
-                    {
                       message: "Self link",
                       data: [
                         "/en-US/docs/Web/CSS/box-shadow#interpolation"
-                      ]
-                    }
-                  ]
-                },
-                "box-sizing": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/box-sizing",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "break-after": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/break-after",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "break-before": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/break-before",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "break-inside": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/break-inside",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                calc: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/calc",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "calc-keyword": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/calc-keyword",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "calc-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/calc-size",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/calc-size()"
                       ]
                     }
                   ]
@@ -26615,45 +22902,9 @@ css.selectors.-webkit-resizer`,
                   slug: "/en-US/docs/Web/CSS/calc-sum",
                   messages: [
                     {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
-                    {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/CSS/calc-sum"
-                      ]
-                    },
-                    {
                       message: "Not in BCD",
                       data: [
                         "css.types.calc-sum"
-                      ]
-                    }
-                  ]
-                },
-                "caption-side": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/caption-side",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "caret-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/caret-color",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
                       ]
                     }
                   ]
@@ -26693,111 +22944,15 @@ css.selectors.-webkit-resizer`,
                         "Text after code:",
                         "(VAL, MAX))"
                       ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                clear: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/clear",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                clip: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/clip",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "clip-path": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/clip-path",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "clip-rule": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/clip-rule",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                color: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/color",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
                     }
                   ]
                 },
                 color_value: {
                   children: {
-                    color: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/color_value/color",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    "color-mix": {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/color_value/color-mix",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
                     "device-cmyk": {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/color_value/device-cmyk",
                       messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
                         {
                           message: "Not linked from parent page",
                           data: [
@@ -26812,30 +22967,6 @@ css.selectors.-webkit-resizer`,
                         }
                       ]
                     },
-                    hsl: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/color_value/hsl",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    hwb: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/color_value/hwb",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
                     lab: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/color_value/lab",
@@ -26845,154 +22976,19 @@ css.selectors.-webkit-resizer`,
                           data: [
                             " functional notation expresses a given color in the CIE L*a*b* "
                           ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    lch: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/color_value/lch",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    "light-dark": {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/color_value/light-dark",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    oklab: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/color_value/oklab",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    oklch: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/color_value/oklch",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    rgb: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/color_value/rgb",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/CSS/color_value",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
-                    {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/CSS/color_value"
-                      ]
-                    },
-                    {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/CSS/color_value"
-                      ]
-                    },
-                    {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/CSS/color_value"
-                      ]
-                    }
-                  ]
-                },
-                "color-interpolation": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/color-interpolation",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "color-interpolation-filters": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/color-interpolation-filters",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 "color-interpolation-method": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/color-interpolation-method",
                   messages: [
                     {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
-                    {
                       message: "Not in BCD",
                       data: [
                         "css.types.color-interpolation-method"
-                      ]
-                    }
-                  ]
-                },
-                "color-scheme": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/color-scheme",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
                       ]
                     }
                   ]
@@ -27008,246 +23004,6 @@ css.selectors.-webkit-resizer`,
                         "[None]",
                         "Expected:",
                         "css.selectors.column"
-                      ]
-                    }
-                  ]
-                },
-                "column-count": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/column-count",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "column-fill": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/column-fill",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "column-gap": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/column-gap",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "column-rule": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/column-rule",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "column-rule-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/column-rule-color",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "column-rule-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/column-rule-style",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "column-rule-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/column-rule-width",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "column-span": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/column-span",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "column-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/column-width",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                columns: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/columns",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                contain: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/contain",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "contain-intrinsic-block-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/contain-intrinsic-block-size",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "contain-intrinsic-height": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/contain-intrinsic-height",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "contain-intrinsic-inline-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/contain-intrinsic-inline-size",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "contain-intrinsic-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/contain-intrinsic-size",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "contain-intrinsic-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/contain-intrinsic-width",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                container: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/container",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "container-name": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/container-name",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "container-type": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/container-type",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                content: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/content",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
                       ]
                     }
                   ]
@@ -27278,102 +23034,6 @@ css.selectors.-webkit-resizer`,
                       message: "Not in BCD",
                       data: [
                         "css.types.content-position"
-                      ]
-                    }
-                  ]
-                },
-                "content-visibility": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/content-visibility",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                cos: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/cos",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                counter: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/counter",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "counter-increment": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/counter-increment",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "counter-reset": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/counter-reset",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "counter-set": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/counter-set",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                counters: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/counters",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "cross-fade": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/cross-fade",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
                       ]
                     }
                   ]
@@ -28134,88 +23794,10 @@ css.selectors.-webkit-resizer`,
                     }
                   }
                 },
-                cursor: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/cursor",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                cx: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/cx",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                cy: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/cy",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                d: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/d",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                direction: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/direction",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                display: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/display",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
                 "display-box": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/display-box",
                   messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
                     {
                       message: "Not in BCD",
                       data: [
@@ -28229,12 +23811,6 @@ css.selectors.-webkit-resizer`,
                   slug: "/en-US/docs/Web/CSS/display-inside",
                   messages: [
                     {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
-                    {
                       message: "Not in BCD",
                       data: [
                         "css.types.display-inside"
@@ -28246,12 +23822,6 @@ css.selectors.-webkit-resizer`,
                   children: {},
                   slug: "/en-US/docs/Web/CSS/display-internal",
                   messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
                     {
                       message: "Not in BCD",
                       data: [
@@ -28265,12 +23835,6 @@ css.selectors.-webkit-resizer`,
                   slug: "/en-US/docs/Web/CSS/display-legacy",
                   messages: [
                     {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
-                    {
                       message: "Not in BCD",
                       data: [
                         "css.types.display-legacy"
@@ -28282,12 +23846,6 @@ css.selectors.-webkit-resizer`,
                   children: {},
                   slug: "/en-US/docs/Web/CSS/display-listitem",
                   messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
                     {
                       message: "Not in BCD",
                       data: [
@@ -28301,12 +23859,6 @@ css.selectors.-webkit-resizer`,
                   slug: "/en-US/docs/Web/CSS/display-outside",
                   messages: [
                     {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
-                    {
                       message: "Not in BCD",
                       data: [
                         "css.types.display-outside"
@@ -28314,42 +23866,12 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                "dominant-baseline": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/dominant-baseline",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
                 "easing-function": {
                   children: {
-                    "cubic-bezier": {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/easing-function/cubic-bezier",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
                     linear: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/easing-function/linear",
                       messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
                         {
                           message: "Not in BCD",
                           data: [
@@ -28357,273 +23879,17 @@ css.selectors.-webkit-resizer`,
                           ]
                         }
                       ]
-                    },
-                    steps: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/easing-function/steps",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/CSS/easing-function",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                element: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/element",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "empty-cells": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/empty-cells",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                env: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/env",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                exp: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/exp",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "field-sizing": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/field-sizing",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                fill: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/fill",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "fill-opacity": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/fill-opacity",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "fill-rule": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/fill-rule",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 filter: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/filter",
                   messages: [
                     {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
-                    {
                       message: "Self link",
                       data: [
                         "/en-US/docs/Web/CSS/filter#interpolation"
-                      ]
-                    }
-                  ]
-                },
-                "filter-function": {
-                  children: {
-                    blur: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/filter-function/blur",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    brightness: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/filter-function/brightness",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    contrast: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/filter-function/contrast",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    "drop-shadow": {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/filter-function/drop-shadow",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    grayscale: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/filter-function/grayscale",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    "hue-rotate": {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/filter-function/hue-rotate",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    invert: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/filter-function/invert",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    opacity: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/filter-function/opacity",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    saturate: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/filter-function/saturate",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    sepia: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/filter-function/sepia",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/CSS/filter-function",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
                       ]
                     }
                   ]
@@ -28642,12 +23908,6 @@ css.selectors.-webkit-resizer`,
                   children: {},
                   slug: "/en-US/docs/Web/CSS/fit-content_function",
                   messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
                     {
                       message: "Unexpected BCD keys",
                       data: [
@@ -28674,136 +23934,10 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
-                flex: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/flex",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "flex-basis": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/flex-basis",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "flex-direction": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/flex-direction",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "flex-flow": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/flex-flow",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "flex-grow": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/flex-grow",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "flex-shrink": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/flex-shrink",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "flex-wrap": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/flex-wrap",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                float: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/float",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "flood-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/flood-color",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "flood-opacity": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/flood-opacity",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
                 font: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/font",
                   messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
                     {
                       message: "Broken anchor",
                       data: [
@@ -28820,131 +23954,10 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
-                "font-family": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-family",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "font-feature-settings": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-feature-settings",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "font-kerning": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-kerning",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "font-language-override": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-language-override",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "font-optical-sizing": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-optical-sizing",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "font-palette": {
-                  children: {
-                    "palette-mix": {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/font-palette/palette-mix",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/CSS/palette-mix()"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/CSS/font-palette",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "font-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-size",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "font-size-adjust": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-size-adjust",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
                 "font-stretch": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/font-stretch",
                   messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
                     {
                       message: "Broken anchor",
                       data: [
@@ -28960,196 +23973,10 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
-                "font-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-style",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "font-synthesis": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-synthesis",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "font-synthesis-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-synthesis-position",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "font-synthesis-small-caps": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-synthesis-small-caps",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "font-synthesis-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-synthesis-style",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "font-synthesis-weight": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-synthesis-weight",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "font-variant": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-variant",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "font-variant-alternates": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-variant-alternates",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "font-variant-caps": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-variant-caps",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "font-variant-east-asian": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-variant-east-asian",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "font-variant-emoji": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-variant-emoji",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "font-variant-ligatures": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-variant-ligatures",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "font-variant-numeric": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-variant-numeric",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "font-variant-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-variant-position",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "font-variation-settings": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-variation-settings",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
                 "font-weight": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/font-weight",
                   messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
                     {
                       message: "Broken anchor",
                       data: [
@@ -29161,18 +23988,6 @@ css.properties.width.fit-content_function`
                       message: "Self link",
                       data: [
                         "/en-US/docs/Web/CSS/font-weight#interpolation"
-                      ]
-                    }
-                  ]
-                },
-                "forced-color-adjust": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/forced-color-adjust",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
                       ]
                     }
                   ]
@@ -29194,27 +24009,9 @@ css.properties.width.fit-content_function`
                   slug: "/en-US/docs/Web/CSS/frequency-percentage",
                   messages: [
                     {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
-                    {
                       message: "Not in BCD",
                       data: [
                         "css.types.frequency-percentage"
-                      ]
-                    }
-                  ]
-                },
-                gap: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/gap",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
                       ]
                     }
                   ]
@@ -29238,12 +24035,6 @@ css.properties.width.fit-content_function`
                       slug: "/en-US/docs/Web/CSS/gradient/conic-gradient",
                       messages: [
                         {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
-                        {
                           message: "Not in BCD",
                           data: [
                             "css.types.image.gradient.conic-gradient"
@@ -29255,12 +24046,6 @@ css.properties.width.fit-content_function`
                       children: {},
                       slug: "/en-US/docs/Web/CSS/gradient/linear-gradient",
                       messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
                         {
                           message: "Not in BCD",
                           data: [
@@ -29274,12 +24059,6 @@ css.properties.width.fit-content_function`
                       slug: "/en-US/docs/Web/CSS/gradient/radial-gradient",
                       messages: [
                         {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
-                        {
                           message: "Not in BCD",
                           data: [
                             "css.types.image.gradient.radial-gradient"
@@ -29291,12 +24070,6 @@ css.properties.width.fit-content_function`
                       children: {},
                       slug: "/en-US/docs/Web/CSS/gradient/repeating-conic-gradient",
                       messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
                         {
                           message: "Not in BCD",
                           data: [
@@ -29310,12 +24083,6 @@ css.properties.width.fit-content_function`
                       slug: "/en-US/docs/Web/CSS/gradient/repeating-linear-gradient",
                       messages: [
                         {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
-                        {
                           message: "Not in BCD",
                           data: [
                             "css.types.image.gradient.repeating-linear-gradient"
@@ -29328,12 +24095,6 @@ css.properties.width.fit-content_function`
                       slug: "/en-US/docs/Web/CSS/gradient/repeating-radial-gradient",
                       messages: [
                         {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
-                        {
                           message: "Not in BCD",
                           data: [
                             "css.types.image.gradient.repeating-radial-gradient"
@@ -29345,159 +24106,9 @@ css.properties.width.fit-content_function`
                   slug: "/en-US/docs/Web/CSS/gradient",
                   messages: [
                     {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
-                    {
                       message: "Not in BCD",
                       data: [
                         "css.types.image.gradient"
-                      ]
-                    }
-                  ]
-                },
-                grid: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "grid-area": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid-area",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "grid-auto-columns": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid-auto-columns",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "grid-auto-flow": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid-auto-flow",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "grid-auto-rows": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid-auto-rows",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "grid-column": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid-column",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "grid-column-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid-column-end",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "grid-column-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid-column-start",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "grid-row": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid-row",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "grid-row-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid-row-end",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "grid-row-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid-row-start",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "grid-template": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid-template",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
                       ]
                     }
                   ]
@@ -29537,48 +24148,6 @@ css.properties.width.fit-content_function`
                         "Text after code:",
                         "+"
                       ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "grid-template-columns": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid-template-columns",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "grid-template-rows": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid-template-rows",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "hanging-punctuation": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/hanging-punctuation",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
                     }
                   ]
                 },
@@ -29601,12 +24170,6 @@ css.properties.width.fit-content_function`
                         "Text after code:",
                         "<length-percentage>)"
                       ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
                     }
                   ]
                 },
@@ -29627,12 +24190,6 @@ css.properties.width.fit-content_function`
                   slug: "/en-US/docs/Web/CSS/hue",
                   messages: [
                     {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
-                    {
                       message: "Not in BCD",
                       data: [
                         "css.types.hue"
@@ -29645,12 +24202,6 @@ css.properties.width.fit-content_function`
                   slug: "/en-US/docs/Web/CSS/hue-interpolation-method",
                   messages: [
                     {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
-                    {
                       message: "Not in BCD",
                       data: [
                         "css.types.hue-interpolation-method"
@@ -29658,50 +24209,14 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
-                "hyphenate-character": {
+                "image-resolution": {
                   children: {},
-                  slug: "/en-US/docs/Web/CSS/hyphenate-character",
+                  slug: "/en-US/docs/Web/CSS/image-resolution",
                   messages: [
                     {
-                      message: "Invalid code block language",
+                      message: "Not in BCD",
                       data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "hyphenate-limit-chars": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/hyphenate-limit-chars",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                hyphens: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/hyphens",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                hypot: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/hypot",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
+                        "css.properties.image-resolution"
                       ]
                     }
                   ]
@@ -29713,95 +24228,14 @@ css.properties.width.fit-content_function`
                       slug: "/en-US/docs/Web/CSS/image/image",
                       messages: [
                         {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        },
-                        {
                           message: "Not in BCD",
                           data: [
                             "css.types.image.image"
                           ]
                         }
                       ]
-                    },
-                    "image-set": {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/image/image-set",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    paint: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/image/paint",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/CSS/image",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "image-orientation": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/image-orientation",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "image-rendering": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/image-rendering",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "image-resolution": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/image-resolution",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.properties.image-resolution"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 important: {
                   children: {},
@@ -29830,174 +24264,6 @@ css.properties.width.fit-content_function`
                     {
                       message: "Unreachable via sidebar",
                       data: []
-                    }
-                  ]
-                },
-                "initial-letter": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/initial-letter",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "inline-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/inline-size",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                inset: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/inset",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "inset-block": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/inset-block",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "inset-block-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/inset-block-end",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "inset-block-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/inset-block-start",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "inset-inline": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/inset-inline",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "inset-inline-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/inset-inline-end",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "inset-inline-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/inset-inline-start",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "interpolate-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/interpolate-size",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                isolation: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/isolation",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "justify-content": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/justify-content",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "justify-items": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/justify-items",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "justify-self": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/justify-self",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
                     }
                   ]
                 },
@@ -30032,404 +24298,14 @@ css.properties.width.fit-content_function`
                     }
                   }
                 },
-                left: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/left",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "length-percentage": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/length-percentage",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "letter-spacing": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/letter-spacing",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "lighting-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/lighting-color",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "line-break": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/line-break",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "line-clamp": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/line-clamp",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "line-height": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/line-height",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "line-height-step": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/line-height-step",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "list-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/list-style",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "list-style-image": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/list-style-image",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "list-style-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/list-style-position",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "list-style-type": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/list-style-type",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                log: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/log",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                margin: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/margin",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "margin-block": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/margin-block",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "margin-block-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/margin-block-end",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "margin-block-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/margin-block-start",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "margin-bottom": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/margin-bottom",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "margin-inline": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/margin-inline",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "margin-inline-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/margin-inline-end",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "margin-inline-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/margin-inline-start",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "margin-left": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/margin-left",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "margin-right": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/margin-right",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "margin-top": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/margin-top",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "margin-trim": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/margin-trim",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                marker: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/marker",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "marker-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/marker-end",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "marker-mid": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/marker-mid",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "marker-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/marker-start",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                mask: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "mask-border": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-border",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
                 "mask-border-mode": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/mask-border-mode",
                   messages: [
                     {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
-                    {
                       message: "Not in BCD",
                       data: [
                         "css.properties.mask-border-mode"
-                      ]
-                    }
-                  ]
-                },
-                "mask-border-outset": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-border-outset",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
                       ]
                     }
                   ]
@@ -30439,160 +24315,10 @@ css.properties.width.fit-content_function`
                   slug: "/en-US/docs/Web/CSS/mask-border-repeat",
                   messages: [
                     {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
-                    {
                       message: "Broken anchor",
                       data: [
                         "/en-US/docs/Web/CSS/border-image-slice",
                         "#edge-regions"
-                      ]
-                    }
-                  ]
-                },
-                "mask-border-slice": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-border-slice",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "mask-border-source": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-border-source",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "mask-border-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-border-width",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "mask-clip": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-clip",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "mask-composite": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-composite",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "mask-image": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-image",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "mask-mode": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-mode",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "mask-origin": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-origin",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "mask-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-position",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "mask-repeat": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-repeat",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "mask-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-size",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "mask-type": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-type",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
                       ]
                     }
                   ]
@@ -30616,48 +24342,6 @@ css.properties.width.fit-content_function`
                         "Text after code:",
                         "<integer>)"
                       ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "math-shift": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/math-shift",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "math-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/math-style",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                max: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/max",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
                     }
                   ]
                 },
@@ -30679,12 +24363,6 @@ css.properties.width.fit-content_function`
                         "fit-content(",
                         "Text after code:",
                         "<length-percentage>)"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
                       ]
                     }
                   ]
@@ -30718,24 +24396,6 @@ css.properties.width.fit-content_function`
                         "Text after code:",
                         "<length-percentage>)"
                       ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "max-inline-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/max-inline-size",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
                     }
                   ]
                 },
@@ -30757,36 +24417,6 @@ css.properties.width.fit-content_function`
                         "fit-content(",
                         "Text after code:",
                         "<length-percentage>)"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                min: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/min",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "min-block-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/min-block-size",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
                       ]
                     }
                   ]
@@ -30820,24 +24450,6 @@ css.properties.width.fit-content_function`
                         "Text after code:",
                         "<length-percentage>)"
                       ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "min-inline-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/min-inline-size",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
                     }
                   ]
                 },
@@ -30860,12 +24472,6 @@ css.properties.width.fit-content_function`
                         "Text after code:",
                         "<length-percentage>)"
                       ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
                     }
                   ]
                 },
@@ -30874,12 +24480,6 @@ css.properties.width.fit-content_function`
                   slug: "/en-US/docs/Web/CSS/minmax",
                   messages: [
                     {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
-                    {
                       message: "Unexpected BCD keys",
                       data: [
                         "Actual:",
@@ -30887,30 +24487,6 @@ css.properties.width.fit-content_function`
                         "Expected:",
                         `css.properties.grid-template-columns.minmax
 css.properties.grid-template-rows.minmax`
-                      ]
-                    }
-                  ]
-                },
-                "mix-blend-mode": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mix-blend-mode",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                mod: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mod",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
                       ]
                     }
                   ]
@@ -30937,76 +24513,10 @@ css.properties.grid-template-rows.minmax`
                     }
                   ]
                 },
-                "object-fit": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/object-fit",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "object-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/object-position",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                offset: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/offset",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "offset-anchor": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/offset-anchor",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "offset-distance": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/offset-distance",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
                 "offset-path": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/offset-path",
                   messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
                     {
                       message: "External sandbox link",
                       data: [
@@ -31033,189 +24543,15 @@ css.properties.grid-template-rows.minmax`
                     }
                   ]
                 },
-                "offset-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/offset-position",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "offset-rotate": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/offset-rotate",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                opacity: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/opacity",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
                 order: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/order",
                   messages: [
                     {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
-                    {
                       message: "Broken anchor",
                       data: [
                         "/en-US/docs/Web/CSS/@media",
                         "#speech"
-                      ]
-                    }
-                  ]
-                },
-                orphans: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/orphans",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                outline: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/outline",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "outline-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/outline-color",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "outline-offset": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/outline-offset",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "outline-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/outline-style",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "outline-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/outline-width",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                overflow: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/overflow",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "overflow-anchor": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/overflow-anchor",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "overflow-block": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/overflow-block",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "overflow-clip-margin": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/overflow-clip-margin",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "overflow-inline": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/overflow-inline",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
                       ]
                     }
                   ]
@@ -31232,28 +24568,10 @@ css.properties.grid-template-rows.minmax`
                     }
                   ]
                 },
-                "overflow-wrap": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/overflow-wrap",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
                 "overflow-x": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/overflow-x",
                   messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
                     {
                       message: "Self link",
                       data: [
@@ -31267,399 +24585,9 @@ css.properties.grid-template-rows.minmax`
                   slug: "/en-US/docs/Web/CSS/overflow-y",
                   messages: [
                     {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
-                    {
                       message: "Self link",
                       data: [
                         "/en-US/docs/Web/CSS/overflow-y"
-                      ]
-                    }
-                  ]
-                },
-                overlay: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/overlay",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "overscroll-behavior": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/overscroll-behavior",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "overscroll-behavior-block": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/overscroll-behavior-block",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "overscroll-behavior-inline": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/overscroll-behavior-inline",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "overscroll-behavior-x": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/overscroll-behavior-x",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "overscroll-behavior-y": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/overscroll-behavior-y",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                padding: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/padding",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "padding-block": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/padding-block",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "padding-block-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/padding-block-end",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "padding-block-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/padding-block-start",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "padding-bottom": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/padding-bottom",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "padding-inline": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/padding-inline",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "padding-inline-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/padding-inline-end",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "padding-inline-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/padding-inline-start",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "padding-left": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/padding-left",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "padding-right": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/padding-right",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "padding-top": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/padding-top",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                page: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/page",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "page-break-after": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/page-break-after",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "page-break-before": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/page-break-before",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "page-break-inside": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/page-break-inside",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "paint-order": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/paint-order",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                perspective: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/perspective",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "perspective-origin": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/perspective-origin",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "place-content": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/place-content",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "place-items": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/place-items",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "place-self": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/place-self",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "pointer-events": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/pointer-events",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                position: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/position",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                position_value: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/position_value",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "position-anchor": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/position-anchor",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "position-area": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/position-area",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
                       ]
                     }
                   ]
@@ -31672,78 +24600,6 @@ css.properties.grid-template-rows.minmax`
                       message: "Not in BCD",
                       data: [
                         "css.types.position-area"
-                      ]
-                    }
-                  ]
-                },
-                "position-try": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/position-try",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "position-try-fallbacks": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/position-try-fallbacks",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "position-try-order": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/position-try-order",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "position-visibility": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/position-visibility",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                pow: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/pow",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "print-color-adjust": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/print-color-adjust",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
                       ]
                     }
                   ]
@@ -31810,48 +24666,6 @@ css.properties.grid-template-rows.minmax`
                         "<string>",
                         "Text before code:",
                         "["
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                r: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/r",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                ratio: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/ratio",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                ray: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/ray",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
                       ]
                     }
                   ]
@@ -32124,28 +24938,10 @@ css.properties.grid-template-rows.minmax`
                     }
                   ]
                 },
-                rem: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/rem",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
                 repeat: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/repeat",
                   messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
                     {
                       message: "Unexpected BCD keys",
                       data: [
@@ -32156,18 +24952,6 @@ css.properties.grid-template-rows.minmax`
 css.properties.border-image-repeat.repeat
 css.properties.grid-template-columns.repeat
 css.properties.grid-template-rows.repeat`
-                      ]
-                    }
-                  ]
-                },
-                resize: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/resize",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
                       ]
                     }
                   ]
@@ -32192,498 +24976,6 @@ css.properties.grid-template-rows.repeat`
                     }
                   ]
                 },
-                right: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/right",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                rotate: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/rotate",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                round: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/round",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "row-gap": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/row-gap",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "ruby-align": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/ruby-align",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "ruby-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/ruby-position",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                rx: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/rx",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                ry: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/ry",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                scale: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scale",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-behavior": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-behavior",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-margin": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-margin",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-margin-block": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-margin-block",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-margin-block-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-margin-block-end",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-margin-block-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-margin-block-start",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-margin-bottom": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-margin-bottom",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-margin-inline": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-margin-inline",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-margin-inline-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-margin-inline-end",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-margin-inline-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-margin-inline-start",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-margin-left": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-margin-left",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-margin-right": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-margin-right",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-margin-top": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-margin-top",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-padding": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-padding",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-padding-block": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-padding-block",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-padding-block-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-padding-block-end",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-padding-block-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-padding-block-start",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-padding-bottom": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-padding-bottom",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-padding-inline": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-padding-inline",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-padding-inline-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-padding-inline-end",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-padding-inline-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-padding-inline-start",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-padding-left": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-padding-left",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-padding-right": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-padding-right",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-padding-top": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-padding-top",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-snap-align": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-snap-align",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-snap-stop": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-snap-stop",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-snap-type": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-snap-type",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-timeline": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-timeline",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-timeline-axis": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-timeline-axis",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-timeline-name": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-timeline-name",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "scrollbar-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scrollbar-color",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "scrollbar-gutter": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scrollbar-gutter",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "scrollbar-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scrollbar-width",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
                 "self-position": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/self-position",
@@ -32696,104 +24988,14 @@ css.properties.grid-template-rows.repeat`
                     }
                   ]
                 },
-                "shape-image-threshold": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/shape-image-threshold",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "shape-margin": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/shape-margin",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
                 "shape-outside": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/shape-outside",
                   messages: [
                     {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
-                    {
                       message: "Self link",
                       data: [
                         "/en-US/docs/Web/CSS/shape-outside"
-                      ]
-                    }
-                  ]
-                },
-                "shape-rendering": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/shape-rendering",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                sign: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/sign",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                sin: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/sin",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "speak-as": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/speak-as",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                sqrt: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/sqrt",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
                       ]
                     }
                   ]
@@ -32822,18 +25024,6 @@ css.properties.grid-template-rows.repeat`
                     }
                   ]
                 },
-                stroke: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
                 "stroke-dasharray": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/stroke-dasharray",
@@ -32842,12 +25032,6 @@ css.properties.grid-template-rows.repeat`
                       message: "Possibly unrendered Markdown",
                       data: [
                         ", or of the viewport itself if no `viewBox` is specified"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
                       ]
                     }
                   ]
@@ -32861,60 +25045,6 @@ css.properties.grid-template-rows.repeat`
                       data: [
                         ", or of the viewport itself if no `viewBox` is specified"
                       ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "stroke-linecap": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-linecap",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "stroke-linejoin": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-linejoin",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "stroke-miterlimit": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-miterlimit",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "stroke-opacity": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-opacity",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
                     }
                   ]
                 },
@@ -32927,12 +25057,6 @@ css.properties.grid-template-rows.repeat`
                       data: [
                         ", or of the viewport itself if no `viewBox` is specified"
                       ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
                     }
                   ]
                 },
@@ -32940,12 +25064,6 @@ css.properties.grid-template-rows.repeat`
                   children: {},
                   slug: "/en-US/docs/Web/CSS/symbols",
                   messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
                     {
                       message: "Unexpected BCD keys",
                       data: [
@@ -32970,428 +25088,14 @@ css.properties.list-style-type.symbols`
                     }
                   ]
                 },
-                "tab-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/tab-size",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "table-layout": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/table-layout",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                tan: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/tan",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "text-align": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-align",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "text-align-last": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-align-last",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "text-anchor": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-anchor",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
                 "text-box": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/text-box",
                   messages: [
                     {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
-                    {
                       message: "Self link",
                       data: [
                         "/en-US/docs/Web/CSS/text-box"
-                      ]
-                    }
-                  ]
-                },
-                "text-box-edge": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-box-edge",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "text-box-trim": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-box-trim",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "text-combine-upright": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-combine-upright",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "text-decoration": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-decoration",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "text-decoration-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-decoration-color",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "text-decoration-line": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-decoration-line",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "text-decoration-skip": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-decoration-skip",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "text-decoration-skip-ink": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-decoration-skip-ink",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "text-decoration-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-decoration-style",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "text-decoration-thickness": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-decoration-thickness",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "text-emphasis": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-emphasis",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "text-emphasis-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-emphasis-color",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "text-emphasis-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-emphasis-position",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "text-emphasis-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-emphasis-style",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "text-indent": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-indent",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "text-justify": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-justify",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "text-orientation": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-orientation",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "text-overflow": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-overflow",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "text-rendering": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-rendering",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "text-shadow": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-shadow",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "text-size-adjust": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-size-adjust",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "text-spacing-trim": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-spacing-trim",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "text-transform": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-transform",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "text-underline-offset": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-underline-offset",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "text-underline-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-underline-position",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "text-wrap": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-wrap",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "text-wrap-mode": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-wrap-mode",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "text-wrap-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-wrap-style",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
                       ]
                     }
                   ]
@@ -33401,63 +25105,9 @@ css.properties.list-style-type.symbols`
                   slug: "/en-US/docs/Web/CSS/time-percentage",
                   messages: [
                     {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
-                    {
                       message: "Not in BCD",
                       data: [
                         "css.types.time-percentage"
-                      ]
-                    }
-                  ]
-                },
-                "timeline-scope": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/timeline-scope",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                top: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/top",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "touch-action": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/touch-action",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                transform: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/transform",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
                       ]
                     }
                   ]
@@ -33466,12 +25116,6 @@ css.properties.list-style-type.symbols`
                   children: {},
                   slug: "/en-US/docs/Web/CSS/transform-box",
                   messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
                     {
                       message: "External sandbox link",
                       data: [
@@ -33482,370 +25126,6 @@ css.properties.list-style-type.symbols`
                       message: "External sandbox link",
                       data: [
                         "https://codepen.io/giaco/pen/OwowJQ"
-                      ]
-                    }
-                  ]
-                },
-                "transform-function": {
-                  children: {
-                    matrix: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/transform-function/matrix",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    matrix3d: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/transform-function/matrix3d",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    perspective: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/transform-function/perspective",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    rotate: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/transform-function/rotate",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    rotate3d: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/transform-function/rotate3d",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    rotatex: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/transform-function/rotateX",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    rotatey: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/transform-function/rotateY",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    rotatez: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/transform-function/rotateZ",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    scale: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/transform-function/scale",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    scale3d: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/transform-function/scale3d",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    scalex: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/transform-function/scaleX",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    scaley: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/transform-function/scaleY",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    scalez: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/transform-function/scaleZ",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    skew: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/transform-function/skew",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    skewx: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/transform-function/skewX",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    skewy: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/transform-function/skewY",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    translate: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/transform-function/translate",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    translate3d: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/transform-function/translate3d",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    translatex: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/transform-function/translateX",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    translatey: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/transform-function/translateY",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    translatez: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/transform-function/translateZ",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "notranslate"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                "transform-origin": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/transform-origin",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "transform-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/transform-style",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                transition: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/transition",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "transition-behavior": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/transition-behavior",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "transition-delay": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/transition-delay",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "transition-duration": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/transition-duration",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "transition-property": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/transition-property",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "transition-timing-function": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/transition-timing-function",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                translate: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/translate",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
                       ]
                     }
                   ]
@@ -33864,18 +25144,6 @@ css.properties.list-style-type.symbols`
                     }
                   ]
                 },
-                "unicode-bidi": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/unicode-bidi",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
                 unset: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/unset",
@@ -33883,18 +25151,6 @@ css.properties.list-style-type.symbols`
                     {
                       message: "Unreachable via sidebar",
                       data: []
-                    }
-                  ]
-                },
-                url_function: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/url_function",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
                     }
                   ]
                 },
@@ -33913,124 +25169,10 @@ css.properties.list-style-type.symbols`
                     }
                   ]
                 },
-                "user-select": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/user-select",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                var: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/var",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "vector-effect": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/vector-effect",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "vertical-align": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/vertical-align",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "view-timeline": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/view-timeline",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "view-timeline-axis": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/view-timeline-axis",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "view-timeline-inset": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/view-timeline-inset",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "view-timeline-name": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/view-timeline-name",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "view-transition-name": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/view-transition-name",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
                 visibility: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/visibility",
                   messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    },
                     {
                       message: "Self link",
                       data: [
@@ -34097,42 +25239,6 @@ css.properties.list-style-type.symbols`
                     }
                   ]
                 },
-                "white-space": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/white-space",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "white-space-collapse": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/white-space-collapse",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                widows: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/widows",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
                 width: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/width",
@@ -34151,108 +25257,6 @@ css.properties.list-style-type.symbols`
                         "fit-content(",
                         "Text after code:",
                         "<length-percentage>)"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "will-change": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/will-change",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "word-break": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/word-break",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "word-spacing": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/word-spacing",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "writing-mode": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/writing-mode",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                x: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/x",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                y: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/y",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                "z-index": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/z-index",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
-                      ]
-                    }
-                  ]
-                },
-                zoom: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/zoom",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "notranslate"
                       ]
                     }
                   ]
@@ -35355,6 +26359,19 @@ html.elements.select.size`
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         "accept-patch": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept-Patch",
@@ -36869,19 +27886,6 @@ html.elements.select.size`
               children: {
                 guides: {
                   children: {
-                    redirect_tracking_protection: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Privacy/Guides/Redirect_tracking_protection",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     storage_access_policy: {
                       children: {
                         errors: {
@@ -37185,12 +28189,6 @@ html.elements.select.size`
                       children: {},
                       slug: "/en-US/docs/Web/Security/Attacks/XSS",
                       messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: jsx notranslate"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -41659,73 +32657,8 @@ css.selectors.target-text`,
               children: {
                 reference: {
                   children: {
-                    capabilities: {
-                      children: {
-                        acceptinsecurecerts: {
-                          children: {},
-                          slug: "/en-US/docs/Web/WebDriver/Reference/Capabilities/acceptInsecureCerts",
-                          messages: [
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
                     commands: {
-                      children: {
-                        closewindow: {
-                          children: {},
-                          slug: "/en-US/docs/Web/WebDriver/Reference/Commands/CloseWindow",
-                          messages: [
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            }
-                          ]
-                        },
-                        getelementattribute: {
-                          children: {},
-                          slug: "/en-US/docs/Web/WebDriver/Reference/Commands/GetElementAttribute",
-                          messages: [
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            }
-                          ]
-                        },
-                        getelementproperty: {
-                          children: {},
-                          slug: "/en-US/docs/Web/WebDriver/Reference/Commands/GetElementProperty",
-                          messages: [
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            }
-                          ]
-                        },
-                        getelementtagname: {
-                          children: {},
-                          slug: "/en-US/docs/Web/WebDriver/Reference/Commands/GetElementTagName",
-                          messages: [
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            }
-                          ]
-                        }
-                      },
+                      children: {},
                       slug: "/en-US/docs/Web/WebDriver/Reference/Commands",
                       messages: [
                         {
@@ -41766,134 +32699,10 @@ css.selectors.target-text`,
                         }
                       ]
                     },
-                    errors: {
-                      children: {
-                        insecurecertificate: {
-                          children: {},
-                          slug: "/en-US/docs/Web/WebDriver/Reference/Errors/InsecureCertificate",
-                          messages: [
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            }
-                          ]
-                        },
-                        invalidargument: {
-                          children: {},
-                          slug: "/en-US/docs/Web/WebDriver/Reference/Errors/InvalidArgument",
-                          messages: [
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            }
-                          ]
-                        },
-                        invalidcookiedomain: {
-                          children: {},
-                          slug: "/en-US/docs/Web/WebDriver/Reference/Errors/InvalidCookieDomain",
-                          messages: [
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            }
-                          ]
-                        },
-                        invalidsessionid: {
-                          children: {},
-                          slug: "/en-US/docs/Web/WebDriver/Reference/Errors/InvalidSessionID",
-                          messages: [
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            }
-                          ]
-                        },
-                        javascripterror: {
-                          children: {},
-                          slug: "/en-US/docs/Web/WebDriver/Reference/Errors/JavaScriptError",
-                          messages: [
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            }
-                          ]
-                        },
-                        scripttimeout: {
-                          children: {},
-                          slug: "/en-US/docs/Web/WebDriver/Reference/Errors/ScriptTimeout",
-                          messages: [
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            }
-                          ]
-                        },
-                        staleelementreference: {
-                          children: {},
-                          slug: "/en-US/docs/Web/WebDriver/Reference/Errors/StaleElementReference",
-                          messages: [
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: python notranslate"
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
                     timeouts: {
                       children: {},
                       slug: "/en-US/docs/Web/WebDriver/Reference/Timeouts",
                       messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: python notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "brush: python notranslate"
-                          ]
-                        },
                         {
                           message: "Unexpected page type",
                           data: [
@@ -41935,16 +32744,7 @@ css.selectors.target-text`,
                     }
                   ]
                 }
-              },
-              slug: "/en-US/docs/Web/WebDriver",
-              messages: [
-                {
-                  message: "Invalid code block language",
-                  data: [
-                    "brush: python notranslate"
-                  ]
-                }
-              ]
+              }
             },
             xml: {
               children: {
@@ -43500,7 +34300,7 @@ function displayWarnings() {
       graphStructure.append(option);
     } else if (["Not in BCD", "Unexpected BCD keys", "Unexpected page type"].includes(message[0])) {
       metadataIssues.append(option);
-    } else if (["ESLint error"].includes(message[0])) {
+    } else if (["Invalid code block language", "ESLint error"].includes(message[0])) {
       codeIssues.append(option);
     } else {
       other.append(option);
