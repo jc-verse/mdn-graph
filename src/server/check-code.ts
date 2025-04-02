@@ -4,6 +4,7 @@ import stylelint from "stylelint";
 
 const eslintConfig = [
 	{
+    files: ["**/*.js", "**/*.jsx", "**/*.ts", "**/*.tsx"],
     languageOptions: {
       parser: tseslint.parser,
     },
@@ -35,11 +36,11 @@ export async function checkCode(nodes: any[], report: (node: any, message: strin
     if (!blocks) continue;
     for (const block of blocks) {
       const { language, content } = block;
-      if (["js", "ts"].includes(language)) {
+      if (["js", "ts", "jsx", "tsx"].includes(language)) {
         const results = await eslint.lintText(content, { filePath: `test.${language}` });
         for (const result of results) {
           result.messages.forEach((msg) => {
-            report(node, "ESLint error", msg.message, content.split("\n")[msg.line - 1], `${msg.line}:${msg.column} - ${msg.endLine}:${msg.endColumn}`);
+            report(node, "ESLint error", msg.message, content.split("\n")[msg.line - 1], msg.endLine ? `${msg.line}:${msg.column} - ${msg.endLine}:${msg.endColumn}` : `${msg.line}:${msg.column}`);
           });
         }
       } else if (["css"].includes(language)) {

@@ -2,6 +2,11 @@
   to provide extra support information.
   Use two-space indent for comments.
 
+  Used for demonstration
+/en-US/docs/Learn_web_development/Core/CSS_layout/Supporting_Older_Browsers	css.properties.grid-template-columns
+/en-US/docs/MDN/Writing_guidelines/Page_structures/Compatibility_tables	api.AbortController
+/en-US/docs/MDN/Writing_guidelines/Page_structures/Specification_tables	css.properties.text-align
+
 /en-US/docs/Web/API/CSS/factory_functions_static	api.CSS
 /en-US/docs/Web/API/EcdsaParams	api.SubtleCrypto.sign,api.SubtleCrypto.verify
 /en-US/docs/Web/API/HTMLDetailsElement	api.HTMLDetailsElement,api.HTMLElement.toggle_event.details_elements
@@ -26,3 +31,5 @@
 
 /en-US/docs/Web/SVG/Reference/Attribute/data-*	svg.global_attributes.data
 /en-US/docs/WebAssembly/Reference/JavaScript_interface/Memory	webassembly.api.Memory,webassembly.multiMemory
+/en-US/docs/Web/URI/Reference/Fragment/Text_fragments	html.elements.a.text_fragments,api.FragmentDirective,css.selectors.target-text
+/en-US/docs/Web/URI/Reference/Schemes/data	http.data-url
