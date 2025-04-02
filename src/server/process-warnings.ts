@@ -83,6 +83,9 @@ export default async function processWarnings(fast: boolean = false) {
   checkBCDMatching(nodes, report);
   console.log("BCD check completed");
 
+  await checkCode(nodes, report);
+  console.log("Code check completed");
+
   for (const node of nodes) {
     if (
       !node.data.flaws ||
@@ -93,8 +96,6 @@ export default async function processWarnings(fast: boolean = false) {
     Object.entries(node.data.flaws).forEach(([id, data]) => {
       data.forEach((d) => {
         if (id === "broken_links") {
-          // TODO: Yari bug
-          if (["/en-US/play", "/en-US/plus"].includes(d.href)) return;
           const correspondingWarning = nodeWarnings.find(
             (w) =>
               w.message === "Broken link" &&
@@ -182,8 +183,6 @@ export default async function processWarnings(fast: boolean = false) {
     current.slug = nodeToSlug.get(nodeId);
     current.messages = messages;
   }
-
-  await checkCode(nodes, report);
 
   await Bun.write("data/warnings-processed.json", JSON.stringify(tree, null, 2));
   console.log("Warnings written to data/warnings-processed.json");
