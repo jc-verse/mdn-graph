@@ -353,8 +353,8 @@ function displayWarnings() {
       )
     ) {
       metadataIssues.append(option);
-    }  else if (
-      ["ESLint error"].includes(
+    } else if (
+      ["Invalid code block language", "ESLint error"].includes(
         message[0],
       )
     ) {
