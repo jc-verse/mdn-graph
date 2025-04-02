@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-v9kw5nmy.js";
+} from "./chunk-x55v1h3g.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -254,7 +254,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "connect(event) {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -262,7 +262,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "disconnect(event) {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -270,7 +270,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "update() {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -278,7 +278,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "pressed(button, hold) {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -286,7 +286,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "create() {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -294,7 +294,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "update() {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -302,7 +302,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "create() {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         }
                       ]
@@ -334,7 +334,7 @@ var warnings_processed_default = {
                       data: [
                         "Parsing error: ';' expected.",
                         "create() {",
-                        "1:9 - undefined:undefined"
+                        "1:9"
                       ]
                     },
                     {
@@ -342,7 +342,7 @@ var warnings_processed_default = {
                       data: [
                         "Parsing error: ';' expected.",
                         "update() {",
-                        "1:9 - undefined:undefined"
+                        "1:9"
                       ]
                     }
                   ]
@@ -366,7 +366,7 @@ var warnings_processed_default = {
                       data: [
                         "Parsing error: Expression expected.",
                         "],",
-                        "5:9 - undefined:undefined"
+                        "5:9"
                       ]
                     },
                     {
@@ -374,7 +374,7 @@ var warnings_processed_default = {
                       data: [
                         "Parsing error: ';' expected.",
                         "connect(evt) {",
-                        "1:9 - undefined:undefined"
+                        "1:9"
                       ]
                     },
                     {
@@ -382,7 +382,7 @@ var warnings_processed_default = {
                       data: [
                         "Parsing error: ';' expected.",
                         "disconnect(evt) {",
-                        "1:9 - undefined:undefined"
+                        "1:9"
                       ]
                     },
                     {
@@ -390,7 +390,7 @@ var warnings_processed_default = {
                       data: [
                         "Parsing error: ';' expected.",
                         "update() {",
-                        "1:9 - undefined:undefined"
+                        "1:9"
                       ]
                     },
                     {
@@ -398,15 +398,7 @@ var warnings_processed_default = {
                       data: [
                         "Parsing error: ';' expected.",
                         "buttonPressed(button, hold) {",
-                        "1:9 - undefined:undefined"
-                      ]
-                    },
-                    {
-                      message: "ESLint error",
-                      data: [
-                        "File ignored because no matching configuration was supplied.",
-                        null,
-                        "undefined:undefined - undefined:undefined"
+                        "1:9"
                       ]
                     }
                   ]
@@ -823,7 +815,7 @@ var warnings_processed_default = {
                       data: [
                         "Parsing error: ';' expected.",
                         "handleOrientation(e) {",
-                        "1:9 - undefined:undefined"
+                        "1:9"
                       ]
                     },
                     {
@@ -831,7 +823,7 @@ var warnings_processed_default = {
                       data: [
                         "Parsing error: ';' expected.",
                         "showLevel(level) {",
-                        "1:9 - undefined:undefined"
+                        "1:9"
                       ]
                     },
                     {
@@ -839,7 +831,7 @@ var warnings_processed_default = {
                       data: [
                         "Parsing error: ';' expected.",
                         "updateCounter() {",
-                        "1:9 - undefined:undefined"
+                        "1:9"
                       ]
                     },
                     {
@@ -847,7 +839,7 @@ var warnings_processed_default = {
                       data: [
                         "Parsing error: ';' expected.",
                         "finishLevel() {",
-                        "1:9 - undefined:undefined"
+                        "1:9"
                       ]
                     }
                   ]
@@ -942,7 +934,7 @@ var warnings_processed_default = {
                   data: [
                     "Parsing error: ')' expected.",
                     "if (boolean conditional) {",
-                    "2:9 - undefined:undefined"
+                    "2:9"
                   ]
                 }
               ]
@@ -964,6 +956,13 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://trac.webkit.org/wiki/JavaScriptCore",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -1179,7 +1178,7 @@ var warnings_processed_default = {
                   data: [
                     "Parsing error: Expression expected.",
                     "}();",
-                    "3:9 - undefined:undefined"
+                    "3:9"
                   ]
                 }
               ]
@@ -1201,26 +1200,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            gpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/GPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/gpl-faq.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/gpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
                 }
               ]
             },
@@ -1311,89 +1290,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            layout_mode: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Layout_mode",
-              messages: [
-                {
-                  message: "Text stuck to code/link",
-                  data: [
-                    "",
-                    "Text after link:",
-                    "Flow layout or normal flow"
-                  ]
-                },
-                {
-                  message: "Text stuck to code/link",
-                  data: [
-                    "",
-                    "Text after link:",
-                    "Block layout"
-                  ]
-                },
-                {
-                  message: "Text stuck to code/link",
-                  data: [
-                    "",
-                    "Text after link:",
-                    "Inline layout"
-                  ]
-                },
-                {
-                  message: "Text stuck to code/link",
-                  data: [
-                    "",
-                    "Text after link:",
-                    "Table layout"
-                  ]
-                },
-                {
-                  message: "Text stuck to code/link",
-                  data: [
-                    "",
-                    "Text after link:",
-                    "Positioned layout"
-                  ]
-                },
-                {
-                  message: "Text stuck to code/link",
-                  data: [
-                    "",
-                    "Text after link:",
-                    "Multi-column layout"
-                  ]
-                },
-                {
-                  message: "Text stuck to code/link",
-                  data: [
-                    "",
-                    "Text after link:",
-                    "Flexible box layout"
-                  ]
-                },
-                {
-                  message: "Text stuck to code/link",
-                  data: [
-                    "",
-                    "Text after link:",
-                    "Grid layout"
-                  ]
-                }
-              ]
-            },
-            lgpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/LGPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/lgpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
                 }
               ]
             },
@@ -1630,19 +1526,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            rest: {
-              children: {},
-              slug: "/en-US/docs/Glossary/REST",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.service-architecture.com/articles/web-services/representational-state-transfer-rest.html",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             ril: {
               children: {},
               slug: "/en-US/docs/Glossary/RIL",
@@ -1862,7 +1745,7 @@ var warnings_processed_default = {
                   data: [
                     "Parsing error: Expression expected.",
                     "if (-Infinity)",
-                    "13:9 - undefined:undefined"
+                    "13:9"
                   ]
                 },
                 {
@@ -1870,21 +1753,7 @@ var warnings_processed_default = {
                   data: [
                     "Parsing error: An element access expression should take an argument.",
                     '[] && "dog"',
-                    "4:9 - undefined:undefined"
-                  ]
-                }
-              ]
-            },
-            typescript: {
-              children: {},
-              slug: "/en-US/docs/Glossary/TypeScript",
-              messages: [
-                {
-                  message: "ESLint error",
-                  data: [
-                    "File ignored because no matching configuration was supplied.",
-                    null,
-                    "undefined:undefined - undefined:undefined"
+                    "4:9"
                   ]
                 }
               ]
@@ -2200,15 +2069,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "css.properties.grid-template-columns",
-                            "Expected:",
-                            "[None]"
-                          ]
                         }
                       ]
                     }
@@ -2237,9 +2097,9 @@ var warnings_processed_default = {
                         {
                           message: "ESLint error",
                           data: [
-                            "File ignored because no matching configuration was supplied.",
-                            null,
-                            "undefined:undefined - undefined:undefined"
+                            "Parsing error: ';' expected.",
+                            "filter: 'all' | 'active' | 'done' = 'all';",
+                            "1:9"
                           ]
                         }
                       ]
@@ -2257,7 +2117,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration expected.",
                             "})",
-                            "5:9 - undefined:undefined"
+                            "5:9"
                           ]
                         },
                         {
@@ -2265,7 +2125,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration expected.",
                             "})",
-                            "5:9 - undefined:undefined"
+                            "5:9"
                           ]
                         },
                         {
@@ -2273,7 +2133,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration expected.",
                             "})",
-                            "10:9 - undefined:undefined"
+                            "10:9"
                           ]
                         }
                       ]
@@ -2291,15 +2151,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration expected.",
                             "})",
-                            "7:9 - undefined:undefined"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "File ignored because no matching configuration was supplied.",
-                            null,
-                            "undefined:undefined - undefined:undefined"
+                            "7:9"
                           ]
                         },
                         {
@@ -2307,7 +2159,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ',' expected.",
                             "remove(item: Item) {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -2315,7 +2167,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration expected.",
                             "})",
-                            "7:9 - undefined:undefined"
+                            "7:9"
                           ]
                         },
                         {
@@ -2323,7 +2175,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Expression expected.",
                             "  @Output() remove = new EventEmitter<Item>();",
-                            "6:9 - undefined:undefined"
+                            "6:9"
                           ]
                         },
                         {
@@ -2331,7 +2183,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: '}' expected.",
                             "",
-                            "4:9 - undefined:undefined"
+                            "4:9"
                           ]
                         },
                         {
@@ -2339,7 +2191,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration expected.",
                             "})",
-                            "7:9 - undefined:undefined"
+                            "7:9"
                           ]
                         }
                       ]
@@ -2365,17 +2217,9 @@ var warnings_processed_default = {
                         {
                           message: "ESLint error",
                           data: [
-                            "File ignored because no matching configuration was supplied.",
-                            null,
-                            "undefined:undefined - undefined:undefined"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "File ignored because no matching configuration was supplied.",
-                            null,
-                            "undefined:undefined - undefined:undefined"
+                            "Parsing error: ',' expected.",
+                            "addItem(description: string) {",
+                            "1:9"
                           ]
                         }
                       ]
@@ -2393,7 +2237,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Unexpected keyword or identifier.",
                             "get incomplete() {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -2401,7 +2245,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration expected.",
                             "@action",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -2409,7 +2253,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Unexpected keyword or identifier.",
                             "get todoCountIsOne() {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -2417,7 +2261,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration expected.",
                             "@action",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         }
                       ]
@@ -2452,7 +2296,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration expected.",
                             "@service('todo-data') todos;",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -2460,7 +2304,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Unexpected keyword or identifier.",
                             "get all() {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         }
                       ]
@@ -2488,7 +2332,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Unexpected keyword or identifier.",
                             "get completed() {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         }
                       ]
@@ -2534,9 +2378,111 @@ var warnings_processed_default = {
                         {
                           message: "ESLint error",
                           data: [
-                            "File ignored because no matching configuration was supplied.",
-                            null,
-                            "undefined:undefined - undefined:undefined"
+                            "Parsing error: '...' expected.",
+                            "      <AuthorCredit {/* props */} />",
+                            "4:9"
+                          ]
+                        }
+                      ]
+                    },
+                    react_components: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_components",
+                      messages: [
+                        {
+                          message: "ESLint error",
+                          data: [
+                            "Parsing error: JSX expressions must have one parent element.",
+                            '<Todo name="Eat" />',
+                            "1:9"
+                          ]
+                        },
+                        {
+                          message: "ESLint error",
+                          data: [
+                            "Parsing error: JSX expressions must have one parent element.",
+                            '<Todo name="Eat" completed />',
+                            "1:9"
+                          ]
+                        },
+                        {
+                          message: "ESLint error",
+                          data: [
+                            "Parsing error: JSX expressions must have one parent element.",
+                            '<Todo name="Eat" id="todo-0" completed />',
+                            "1:9"
+                          ]
+                        }
+                      ]
+                    },
+                    react_getting_started: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started",
+                      messages: [
+                        {
+                          message: "ESLint error",
+                          data: [
+                            "Parsing error: Expression expected.",
+                            "  );",
+                            "5:9"
+                          ]
+                        }
+                      ]
+                    },
+                    react_interactivity_events_state: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_interactivity_events_state",
+                      messages: [
+                        {
+                          message: "ESLint error",
+                          data: [
+                            "Parsing error: JSX element 'form' has no corresponding closing tag.",
+                            "<form onSubmit={handleSubmit}>",
+                            "1:9"
+                          ]
+                        },
+                        {
+                          message: "ESLint error",
+                          data: [
+                            "Parsing error: Declaration or statement expected.",
+                            "...",
+                            "6:9"
+                          ]
+                        }
+                      ]
+                    },
+                    react_interactivity_filtering_conditional_rendering: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_interactivity_filtering_conditional_rendering",
+                      messages: [
+                        {
+                          message: "ESLint error",
+                          data: [
+                            "Parsing error: JSX element 'form' has no corresponding closing tag.",
+                            '<form className="stack-small" onSubmit={handleSubmit}>',
+                            "1:9"
+                          ]
+                        },
+                        {
+                          message: "ESLint error",
+                          data: [
+                            "Parsing error: JSX expressions must have one parent element.",
+                            "<FilterButton />",
+                            "1:9"
+                          ]
+                        }
+                      ]
+                    },
+                    react_todo_list_beginning: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_todo_list_beginning",
+                      messages: [
+                        {
+                          message: "ESLint error",
+                          data: [
+                            "Parsing error: JSX expressions must have one parent element.",
+                            '<input id="todo-0" type="checkbox" defaultChecked />',
+                            "1:9"
                           ]
                         }
                       ]
@@ -2578,7 +2524,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ']' expected.",
                             "",
-                            "25:9 - undefined:undefined"
+                            "25:9"
                           ]
                         },
                         {
@@ -2586,7 +2532,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "  ],",
-                            "12:9 - undefined:undefined"
+                            "12:9"
                           ]
                         }
                       ]
@@ -2656,225 +2602,17 @@ var warnings_processed_default = {
                         {
                           message: "ESLint error",
                           data: [
-                            "File ignored because no matching configuration was supplied.",
-                            null,
-                            "undefined:undefined - undefined:undefined"
+                            "Parsing error: '}' expected.",
+                            "",
+                            "9:9"
                           ]
                         },
                         {
                           message: "ESLint error",
                           data: [
-                            "File ignored because no matching configuration was supplied.",
-                            null,
-                            "undefined:undefined - undefined:undefined"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "File ignored because no matching configuration was supplied.",
-                            null,
-                            "undefined:undefined - undefined:undefined"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "File ignored because no matching configuration was supplied.",
-                            null,
-                            "undefined:undefined - undefined:undefined"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "File ignored because no matching configuration was supplied.",
-                            null,
-                            "undefined:undefined - undefined:undefined"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "File ignored because no matching configuration was supplied.",
-                            null,
-                            "undefined:undefined - undefined:undefined"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "File ignored because no matching configuration was supplied.",
-                            null,
-                            "undefined:undefined - undefined:undefined"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "File ignored because no matching configuration was supplied.",
-                            null,
-                            "undefined:undefined - undefined:undefined"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "File ignored because no matching configuration was supplied.",
-                            null,
-                            "undefined:undefined - undefined:undefined"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "File ignored because no matching configuration was supplied.",
-                            null,
-                            "undefined:undefined - undefined:undefined"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "File ignored because no matching configuration was supplied.",
-                            null,
-                            "undefined:undefined - undefined:undefined"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "File ignored because no matching configuration was supplied.",
-                            null,
-                            "undefined:undefined - undefined:undefined"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "File ignored because no matching configuration was supplied.",
-                            null,
-                            "undefined:undefined - undefined:undefined"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "File ignored because no matching configuration was supplied.",
-                            null,
-                            "undefined:undefined - undefined:undefined"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "File ignored because no matching configuration was supplied.",
-                            null,
-                            "undefined:undefined - undefined:undefined"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "File ignored because no matching configuration was supplied.",
-                            null,
-                            "undefined:undefined - undefined:undefined"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "File ignored because no matching configuration was supplied.",
-                            null,
-                            "undefined:undefined - undefined:undefined"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "File ignored because no matching configuration was supplied.",
-                            null,
-                            "undefined:undefined - undefined:undefined"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "File ignored because no matching configuration was supplied.",
-                            null,
-                            "undefined:undefined - undefined:undefined"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "File ignored because no matching configuration was supplied.",
-                            null,
-                            "undefined:undefined - undefined:undefined"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "File ignored because no matching configuration was supplied.",
-                            null,
-                            "undefined:undefined - undefined:undefined"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "File ignored because no matching configuration was supplied.",
-                            null,
-                            "undefined:undefined - undefined:undefined"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "File ignored because no matching configuration was supplied.",
-                            null,
-                            "undefined:undefined - undefined:undefined"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "File ignored because no matching configuration was supplied.",
-                            null,
-                            "undefined:undefined - undefined:undefined"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "File ignored because no matching configuration was supplied.",
-                            null,
-                            "undefined:undefined - undefined:undefined"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "File ignored because no matching configuration was supplied.",
-                            null,
-                            "undefined:undefined - undefined:undefined"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "File ignored because no matching configuration was supplied.",
-                            null,
-                            "undefined:undefined - undefined:undefined"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "File ignored because no matching configuration was supplied.",
-                            null,
-                            "undefined:undefined - undefined:undefined"
+                            "Parsing error: '?' expected.",
+                            "export const localStore = <T extends JsonValue>(key: string, initial: T)",
+                            "1:9"
                           ]
                         }
                       ]
@@ -2902,7 +2640,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "  listSummary() {",
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         },
                         {
@@ -2910,7 +2648,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "updateDoneStatus(toDoId) {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         }
                       ]
@@ -2928,7 +2666,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "data() {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -2936,7 +2674,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "    deleteToDo() {",
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         },
                         {
@@ -2944,7 +2682,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "},",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         },
                         {
@@ -2952,7 +2690,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "itemEdited(newLabel) {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -2960,7 +2698,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "editCancelled() {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -2968,7 +2706,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "deleteToDo(toDoId) {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -2976,7 +2714,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Expression expected.",
                             "isDone: this.done,",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -2984,7 +2722,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "  isDone() {",
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         }
                       ]
@@ -3002,7 +2740,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "data() {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         }
                       ]
@@ -3030,7 +2768,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Expression expected.",
                             "}",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         },
                         {
@@ -3038,7 +2776,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "  onSubmit() {",
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         },
                         {
@@ -3046,7 +2784,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "onSubmit() {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -3054,7 +2792,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "  addToDo(toDoLabel) {",
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         },
                         {
@@ -3062,7 +2800,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "addToDo(toDoLabel) {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -3070,7 +2808,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "onSubmit() {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -3078,7 +2816,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "onSubmit() {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         }
                       ]
@@ -3096,7 +2834,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "toggleToItemEditForm() {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -3104,7 +2842,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "focusOnEditButton() {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -3112,7 +2850,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "itemEdited(newItemName) {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -3120,7 +2858,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "focusOnEditButton() {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -3128,7 +2866,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "mounted() {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -3136,7 +2874,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "mounted() {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -3144,7 +2882,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "deleteToDo(toDoId) {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         }
                       ]
@@ -3192,7 +2930,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "  ...",
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         },
                         {
@@ -3200,7 +2938,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: '}' expected.",
                             "",
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         },
                         {
@@ -3208,7 +2946,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: '}' expected.",
                             "",
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         }
                       ]
@@ -3222,7 +2960,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Expression expected.",
                             "else /* run some other code instead */",
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         },
                         {
@@ -3230,7 +2968,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ':' expected.",
                             "condition ? run this code : run this code instead",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         }
                       ]
@@ -3244,7 +2982,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Invalid left-hand side expression in unary operation",
                             "3++;",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         }
                       ]
@@ -3258,7 +2996,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "introduceSelf() {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         }
                       ]
@@ -3272,7 +3010,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ',' expected.",
                             "const badString1 = This is a test;",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -3280,7 +3018,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Unterminated string literal.",
                             `const badQuotes = 'This is not allowed!";`,
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -3288,7 +3026,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ',' expected.",
                             'const badQuotes = "She said "I think so!"";',
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         }
                       ]
@@ -3462,7 +3200,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: '}' expected.",
                             "",
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         },
                         {
@@ -3470,7 +3208,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: '}' expected.",
                             "",
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         },
                         {
@@ -3478,7 +3216,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: '}' expected.",
                             "",
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         },
                         {
@@ -3486,7 +3224,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: '}' expected.",
                             "",
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         }
                       ]
@@ -3535,17 +3273,7 @@ var warnings_processed_default = {
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
+                      }
                     },
                     html_video_and_audio: {
                       children: {
@@ -3789,13 +3517,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/guide/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -3912,7 +3633,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "collisionDetect() {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         }
                       ]
@@ -3926,7 +3647,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "draw() {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -3934,7 +3655,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "update() {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -3942,7 +3663,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "collisionDetect() {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         }
                       ]
@@ -4231,7 +3952,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Identifier expected.",
                             'import { function } from "important-module.js";',
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         }
                       ]
@@ -4243,17 +3964,23 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/gzip/",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     }
                   }
+                },
+                security_privacy: {
+                  children: {},
+                  slug: "/en-US/docs/Learn_web_development/Extensions/Security_privacy",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.gov.uk/data-protection",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 "server-side": {
                   children: {
@@ -4534,7 +4261,7 @@ var warnings_processed_default = {
                               data: [
                                 "Parsing error: '(' expected.",
                                 "async function myFunction {",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             },
                             {
@@ -4542,7 +4269,7 @@ var warnings_processed_default = {
                               data: [
                                 "Parsing error: '(' expected.",
                                 "async function myFunction {",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -4563,23 +4290,6 @@ var warnings_processed_default = {
                           ]
                         }
                       ]
-                    },
-                    first_steps: {
-                      children: {
-                        "client-server_overview": {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://websniffer.com/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
                     },
                     node_server_without_framework: {
                       children: {},
@@ -4631,7 +4341,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Unexpected keyword or identifier.",
                             "npm install axios",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         }
                       ]
@@ -4653,7 +4363,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Unterminated string literal.",
                             'const helloChris = createGreeting("Chris);',
-                            "6:9 - undefined:undefined"
+                            "6:9"
                           ]
                         }
                       ]
@@ -5081,33 +4791,6 @@ var warnings_processed_default = {
                 },
                 tools_and_setup: {
                   children: {
-                    available_text_editors: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/efaq.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -5115,19 +4798,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via page",
                           data: []
-                        }
-                      ]
-                    },
-                    how_do_you_host_your_website_on_google_app_engine: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gaesamplesite.appspot.com/",
-                            503
-                          ]
                         }
                       ]
                     },
@@ -5140,20 +4810,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Unterminated string literal.",
                             'alert("hello!);',
-                            "1:9 - undefined:undefined"
-                          ]
-                        }
-                      ]
-                    },
-                    what_software_do_i_need: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
+                            "1:9"
                           ]
                         }
                       ]
@@ -5381,7 +5038,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Invalid character.",
                             "  …",
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         }
                       ]
@@ -5401,11 +5058,18 @@ var warnings_processed_default = {
                               data: []
                             },
                             {
+                              message: "Broken external link",
+                              data: [
+                                "https://trac.webkit.org/wiki/WebKitIDL",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
                               message: "ESLint error",
                               data: [
                                 "Parsing error: Unexpected keyword or identifier.",
                                 "TextTrack addTextTrack(TextTrackKind kind,",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -5459,21 +5123,6 @@ var warnings_processed_default = {
                 },
                 page_structures: {
                   children: {
-                    compatibility_tables: {
-                      children: {},
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Compatibility_tables",
-                      messages: [
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "api.AbortController",
-                            "Expected:",
-                            "[None]"
-                          ]
-                        }
-                      ]
-                    },
                     feature_status: {
                       children: {},
                       slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Feature_status",
@@ -5742,21 +5391,6 @@ var warnings_processed_default = {
                         }
                       }
                     },
-                    specification_tables: {
-                      children: {},
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Specification_tables",
-                      messages: [
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "css.properties.text-align",
-                            "Expected:",
-                            "[None]"
-                          ]
-                        }
-                      ]
-                    },
                     syntax_sections: {
                       children: {},
                       slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Syntax_sections",
@@ -5772,7 +5406,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Expression expected.",
                             "arr.slice([begin[, end]])",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         }
                       ]
@@ -5809,588 +5443,12 @@ var warnings_processed_default = {
                   children: {
                     api: {
                       children: {
-                        action: {
-                          children: {
-                            colorarray: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/ColorArray",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            disable: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/disable",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            enable: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/enable",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getbadgebackgroundcolor: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/getBadgeBackgroundColor",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getbadgetext: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/getBadgeText",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getbadgetextcolor: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/getBadgeTextColor",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getpopup: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/getPopup",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            gettitle: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/getTitle",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getusersettings: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/getUserSettings",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            imagedatatype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/ImageDataType",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            isenabled: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/isEnabled",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onclicked: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/onClicked",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            openpopup: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/openPopup",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setbadgebackgroundcolor: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/setBadgeBackgroundColor",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setbadgetext: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/setBadgeText",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setbadgetextcolor: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/setBadgeTextColor",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            seticon: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/setIcon",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setpopup: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/setPopup",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            settitle: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/setTitle",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        alarms: {
-                          children: {
-                            alarm: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/alarms/Alarm",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            clear: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/alarms/clear",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            clearall: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/alarms/clearAll",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            create: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/alarms/create",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            get: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/alarms/get",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getall: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/alarms/getAll",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onalarm: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/alarms/onAlarm",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        bookmarks: {
-                          children: {
-                            bookmarktreenode: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/BookmarkTreeNode",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            bookmarktreenodetype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/BookmarkTreeNodeType",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            bookmarktreenodeunmodifiable: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/BookmarkTreeNodeUnmodifiable",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            create: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/create",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            createdetails: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/CreateDetails",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            get: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/get",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getchildren: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/getChildren",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getrecent: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/getRecent",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getsubtree: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/getSubTree",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            gettree: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/getTree",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            move: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/move",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onchanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/onChanged",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onchildrenreordered: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/onChildrenReordered",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            oncreated: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/onCreated",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onimportbegan: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/onImportBegan",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onimportended: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/onImportEnded",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onmoved: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/onMoved",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onremoved: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/onRemoved",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            remove: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/remove",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            removetree: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/removeTree",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            search: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/search",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            update: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/update",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
                         browseraction: {
                           children: {
-                            colorarray: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/ColorArray",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            disable: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/disable",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            enable: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/enable",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getbadgebackgroundcolor: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/getBadgeBackgroundColor",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getbadgetext: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/getBadgeText",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getbadgetextcolor: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/getBadgeTextColor",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getpopup: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/getPopup",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            gettitle: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/getTitle",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
                             getusersettings: {
                               children: {},
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/getUserSettings",
                               messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                },
                                 {
                                   message: "Not in BCD",
                                   data: [
@@ -6398,301 +5456,11 @@ var warnings_processed_default = {
                                   ]
                                 }
                               ]
-                            },
-                            imagedatatype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/ImageDataType",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            isenabled: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/isEnabled",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onclicked: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/onClicked",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            openpopup: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/openPopup",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setbadgebackgroundcolor: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/setBadgeBackgroundColor",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setbadgetext: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/setBadgeText",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setbadgetextcolor: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/setBadgeTextColor",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            seticon: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/setIcon",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setpopup: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/setPopup",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            settitle: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/setTitle",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
                             }
                           }
                         },
                         browsersettings: {
                           children: {
-                            allowpopupsforuserevents: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/allowPopupsForUserEvents",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            cacheenabled: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/cacheEnabled",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            closetabsbydoubleclick: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/closeTabsByDoubleClick",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            colormanagement: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/colorManagement",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            contextmenushowevent: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/contextMenuShowEvent",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            ftpprotocolenabled: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/ftpProtocolEnabled",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            homepageoverride: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/homepageOverride",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            imageanimationbehavior: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/imageAnimationBehavior",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            newtabpageoverride: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/newTabPageOverride",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            newtabposition: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/newTabPosition",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            openbookmarksinnewtabs: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/openBookmarksInNewTabs",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            opensearchresultsinnewtabs: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/openSearchResultsInNewTabs",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            openurlbarresultsinnewtabs: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/openUrlbarResultsInNewTabs",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            overridecontentcolorscheme: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/overrideContentColorScheme",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            overridedocumentcolors: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/overrideDocumentColors",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            tlsversionrestrictionconfig: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/tlsVersionRestrictionConfig",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            usedocumentfonts: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/useDocumentFonts",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            webnotificationsdisabled: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/webNotificationsDisabled",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            zoomfullpage: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/zoomFullPage",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
                             zoomsitespecific: {
                               children: {},
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/zoomSiteSpecific",
@@ -6704,10 +5472,6 @@ var warnings_processed_default = {
                                     "Text before code:",
                                     "privacy.websites"
                                   ]
-                                },
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
                                 }
                               ]
                             }
@@ -6724,284 +5488,8 @@ var warnings_processed_default = {
                             }
                           ]
                         },
-                        browsingdata: {
-                          children: {
-                            datatypeset: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/DataTypeSet",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            removaloptions: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/RemovalOptions",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            remove: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/remove",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            removecache: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/removeCache",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            removecookies: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/removeCookies",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            removedownloads: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/removeDownloads",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            removeformdata: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/removeFormData",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            removehistory: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/removeHistory",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            removelocalstorage: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/removeLocalStorage",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            removepasswords: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/removePasswords",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            removeplugindata: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/removePluginData",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            settings: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/settings",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        captiveportal: {
-                          children: {
-                            canonicalurl: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/captivePortal/canonicalURL",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getlastchecked: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/captivePortal/getLastChecked",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getstate: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/captivePortal/getState",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onconnectivityavailable: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/captivePortal/onConnectivityAvailable",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onstatechanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/captivePortal/onStateChanged",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        clipboard: {
-                          children: {
-                            setimagedata: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/clipboard/setImageData",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        commands: {
-                          children: {
-                            command: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/commands/Command",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getall: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/commands/getAll",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onchanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/commands/onChanged",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            oncommand: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/commands/onCommand",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            openshortcutsettings: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/commands/openShortcutSettings",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            reset: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/commands/reset",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            update: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/commands/update",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
                         contentscripts: {
                           children: {
-                            register: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/contentScripts/register",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
                             registeredcontentscript: {
                               children: {
                                 unregister: {
@@ -7014,211 +5502,16 @@ var warnings_processed_default = {
                                     }
                                   ]
                                 }
-                              },
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/contentScripts/RegisteredContentScript",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        contextualidentities: {
-                          children: {
-                            contextualidentity: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/contextualIdentities/ContextualIdentity",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            create: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/contextualIdentities/create",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            get: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/contextualIdentities/get",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            move: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/contextualIdentities/move",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            oncreated: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/contextualIdentities/onCreated",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onremoved: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/contextualIdentities/onRemoved",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onupdated: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/contextualIdentities/onUpdated",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            query: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/contextualIdentities/query",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            remove: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/contextualIdentities/remove",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            update: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/contextualIdentities/update",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
+                              }
                             }
                           }
                         },
                         cookies: {
                           children: {
-                            cookie: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies/Cookie",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            cookiestore: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies/CookieStore",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            get: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies/get",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getall: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies/getAll",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getallcookiestores: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies/getAllCookieStores",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onchanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies/onChanged",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onchangedcause: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies/OnChangedCause",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            remove: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies/remove",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
                             samesitestatus: {
                               children: {},
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies/SameSiteStatus",
                               messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                },
                                 {
                                   message: "Not in BCD",
                                   data: [
@@ -7226,111 +5519,11 @@ var warnings_processed_default = {
                                   ]
                                 }
                               ]
-                            },
-                            set: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies/set",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
                             }
                           }
                         },
                         declarativenetrequest: {
                           children: {
-                            dynamic_ruleset_id: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/DYNAMIC_RULESET_ID",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getavailablestaticrulecount: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/getAvailableStaticRuleCount",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getdisabledruleids: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/getDisabledRuleIds",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getdynamicrules: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/getDynamicRules",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getenabledrulesets: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/getEnabledRulesets",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getmatchedrules: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/getMatchedRules",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getmatchedrules_quota_interval: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/GETMATCHEDRULES_QUOTA_INTERVAL",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getsessionrules: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/getSessionRules",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            guaranteed_minimum_static_rules: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/GUARANTEED_MINIMUM_STATIC_RULES",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
                             headerinfo: {
                               children: {},
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/HeaderInfo",
@@ -7366,10 +5559,6 @@ var warnings_processed_default = {
                                   ]
                                 },
                                 {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                },
-                                {
                                   message: "Not in BCD",
                                   data: [
                                     "webextensions.api.declarativeNetRequest.HeaderInfo"
@@ -7388,100 +5577,6 @@ var warnings_processed_default = {
                                     "Text before code:",
                                     "declarativeNetRequest.RuleCondition"
                                   ]
-                                },
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            matchedrule: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/MatchedRule",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            max_getmatchedrules_calls_per_interval: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/MAX_GETMATCHEDRULES_CALLS_PER_INTERVAL",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            max_number_of_disabled_static_rules: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/MAX_NUMBER_OF_DISABLED_STATIC_RULES",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            max_number_of_dynamic_and_session_rules: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/MAX_NUMBER_OF_DYNAMIC_AND_SESSION_RULES",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            max_number_of_dynamic_rules: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/MAX_NUMBER_OF_DYNAMIC_RULES",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            max_number_of_enabled_static_rulesets: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/MAX_NUMBER_OF_ENABLED_STATIC_RULESETS",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            max_number_of_regex_rules: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/MAX_NUMBER_OF_REGEX_RULES",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            max_number_of_session_rules: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/MAX_NUMBER_OF_SESSION_RULES",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            max_number_of_static_rulesets: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/MAX_NUMBER_OF_STATIC_RULESETS",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
                                 }
                               ]
                             },
@@ -7498,64 +5593,10 @@ var warnings_processed_default = {
                                   ]
                                 },
                                 {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                },
-                                {
                                   message: "Not in BCD",
                                   data: [
                                     "webextensions.api.declarativeNetRequest.ModifyHeaderInfo"
                                   ]
-                                }
-                              ]
-                            },
-                            onrulematcheddebug: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/onRuleMatchedDebug",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            redirect: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/Redirect",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            resourcetype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/ResourceType",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            rule: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/Rule",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            ruleaction: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/RuleAction",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
                                 }
                               ]
                             },
@@ -7578,90 +5619,6 @@ var warnings_processed_default = {
                                     "Text before code:",
                                     "."
                                   ]
-                                },
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            session_ruleset_id: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/SESSION_RULESET_ID",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setextensionactionoptions: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/setExtensionActionOptions",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            testmatchoutcome: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/testMatchOutcome",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            updatedynamicrules: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/updateDynamicRules",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            updateenabledrulesets: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/updateEnabledRulesets",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            updatesessionrules: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/updateSessionRules",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            updatestaticrules: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/updateStaticRules",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            urltransform: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/URLTransform",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
                                 }
                               ]
                             }
@@ -7712,14 +5669,7 @@ var warnings_processed_default = {
                                     }
                                   ]
                                 }
-                              },
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/inspectedWindow",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
+                              }
                             },
                             network: {
                               children: {
@@ -7784,10 +5734,6 @@ var warnings_processed_default = {
                               },
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
                               messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                },
                                 {
                                   message: "HTTP link",
                                   data: [
@@ -7941,306 +5887,7 @@ var warnings_processed_default = {
                                     }
                                   ]
                                 }
-                              },
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/panels",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        dns: {
-                          children: {
-                            resolve: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/dns/resolve",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        dom: {
-                          children: {
-                            openorclosedshadowroot: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/dom/openOrClosedShadowRoot",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        downloads: {
-                          children: {
-                            acceptdanger: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/acceptDanger",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            booleandelta: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/BooleanDelta",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            cancel: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/cancel",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            dangertype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/DangerType",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            doubledelta: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/DoubleDelta",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            download: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/download",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            downloaditem: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/DownloadItem",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            downloadquery: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/DownloadQuery",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            downloadtime: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/DownloadTime",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            erase: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/erase",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            filenameconflictaction: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/FilenameConflictAction",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getfileicon: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/getFileIcon",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            interruptreason: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/InterruptReason",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onchanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/onChanged",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            oncreated: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/onCreated",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onerased: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/onErased",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            open: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/open",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            pause: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/pause",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            removefile: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/removeFile",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            resume: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/resume",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            search: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/search",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setshelfenabled: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/setShelfEnabled",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            show: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/show",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            showdefaultfolder: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/showDefaultFolder",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            state: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/State",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            stringdelta: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/StringDelta",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
+                              }
                             }
                           }
                         },
@@ -8318,174 +5965,23 @@ var warnings_processed_default = {
                                     }
                                   ]
                                 }
-                              },
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/events/Event",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            rule: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/events/Rule",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            urlfilter: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/events/UrlFilter",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
+                              }
                             }
                           }
                         },
                         extension: {
                           children: {
-                            getbackgroundpage: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extension/getBackgroundPage",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getextensiontabs: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extension/getExtensionTabs",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            geturl: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extension/getURL",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getviews: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extension/getViews",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            inincognitocontext: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extension/inIncognitoContext",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            isallowedfileschemeaccess: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extension/isAllowedFileSchemeAccess",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            isallowedincognitoaccess: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extension/isAllowedIncognitoAccess",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            lasterror: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extension/lastError",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
                             onrequest: {
                               children: {},
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extension/onRequest",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                },
-                                {
                                   message: "ESLint error",
                                   data: [
                                     "Parsing error: Parameter declaration expected.",
                                     "  () => {/* … */}  // function",
-                                    "4:9 - undefined:undefined"
+                                    "4:9"
                                   ]
-                                }
-                              ]
-                            },
-                            onrequestexternal: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extension/onRequestExternal",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            sendrequest: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extension/sendRequest",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setupdateurldata: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extension/setUpdateUrlData",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            viewtype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extension/ViewType",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
                                 }
                               ]
                             }
@@ -8493,34 +5989,10 @@ var warnings_processed_default = {
                         },
                         extensiontypes: {
                           children: {
-                            imagedetails: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extensionTypes/ImageDetails",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            imageformat: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extensionTypes/ImageFormat",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
                             injectdetails: {
                               children: {},
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extensionTypes/InjectDetails",
                               messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                },
                                 {
                                   message: "Not in BCD",
                                   data: [
@@ -8528,229 +6000,11 @@ var warnings_processed_default = {
                                   ]
                                 }
                               ]
-                            },
-                            runat: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extensionTypes/RunAt",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        find: {
-                          children: {
-                            find: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/find/find",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            highlightresults: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/find/highlightResults",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            removehighlighting: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/find/removeHighlighting",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        history: {
-                          children: {
-                            addurl: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/history/addUrl",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            deleteall: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/history/deleteAll",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            deleterange: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/history/deleteRange",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            deleteurl: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/history/deleteUrl",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getvisits: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/history/getVisits",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            historyitem: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/history/HistoryItem",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            ontitlechanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/history/onTitleChanged",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onvisited: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/history/onVisited",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onvisitremoved: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/history/onVisitRemoved",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            search: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/history/search",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            transitiontype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/history/TransitionType",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            visititem: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/history/VisitItem",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
                             }
                           }
                         },
                         i18n: {
                           children: {
-                            detectlanguage: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/detectLanguage",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getacceptlanguages: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/getAcceptLanguages",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getmessage: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/getMessage",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getuilanguage: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/getUILanguage",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            languagecode: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/LanguageCode",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
                             "locale-specific_message_reference": {
                               children: {},
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/Locale-Specific_Message_reference",
@@ -8763,873 +6017,19 @@ var warnings_processed_default = {
                             }
                           }
                         },
-                        identity: {
-                          children: {
-                            getredirecturl: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/identity/getRedirectURL",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            launchwebauthflow: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/identity/launchWebAuthFlow",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        idle: {
-                          children: {
-                            idlestate: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/idle/IdleState",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onstatechanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/idle/onStateChanged",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            querystate: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/idle/queryState",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setdetectioninterval: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/idle/setDetectionInterval",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        management: {
-                          children: {
-                            extensioninfo: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management/ExtensionInfo",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            get: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management/get",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getall: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management/getAll",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getpermissionwarningsbyid: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management/getPermissionWarningsById",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getpermissionwarningsbymanifest: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management/getPermissionWarningsByManifest",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getself: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management/getSelf",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            install: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management/install",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            ondisabled: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management/onDisabled",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onenabled: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management/onEnabled",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            oninstalled: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management/onInstalled",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onuninstalled: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management/onUninstalled",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setenabled: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management/setEnabled",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            uninstall: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management/uninstall",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            uninstallself: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management/uninstallSelf",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
                         menus: {
                           children: {
-                            action_menu_top_level_limit: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/ACTION_MENU_TOP_LEVEL_LIMIT",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            contexttype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/ContextType",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            create: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/create",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            gettargetelement: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/getTargetElement",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            itemtype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/ItemType",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onclickdata: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/OnClickData",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onclicked: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/onClicked",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onhidden: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/onHidden",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
                             onshown: {
                               children: {},
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/onShown",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                },
-                                {
                                   message: "ESLint error",
                                   data: [
                                     "Parsing error: Expression expected.",
                                     "  await /* the function to call */ ;",
-                                    "9:9 - undefined:undefined"
+                                    "9:9"
                                   ]
-                                }
-                              ]
-                            },
-                            overridecontext: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/overrideContext",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            refresh: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/refresh",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            remove: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/remove",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            removeall: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/removeAll",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            update: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/update",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        notifications: {
-                          children: {
-                            clear: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/notifications/clear",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            create: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/notifications/create",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getall: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/notifications/getAll",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            notificationoptions: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/notifications/NotificationOptions",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onbuttonclicked: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/notifications/onButtonClicked",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onclicked: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/notifications/onClicked",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onclosed: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/notifications/onClosed",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onshown: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/notifications/onShown",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            templatetype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/notifications/TemplateType",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            update: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/notifications/update",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        omnibox: {
-                          children: {
-                            ondeletesuggestion: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/onDeleteSuggestion",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            oninputcancelled: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/onInputCancelled",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            oninputchanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/onInputChanged",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            oninputentered: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/onInputEntered",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            oninputentereddisposition: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/OnInputEnteredDisposition",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            oninputstarted: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/onInputStarted",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setdefaultsuggestion: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/setDefaultSuggestion",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            suggestresult: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/SuggestResult",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        pageaction: {
-                          children: {
-                            getpopup: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/getPopup",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            gettitle: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/getTitle",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            hide: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/hide",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            imagedatatype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/ImageDataType",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            isshown: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/isShown",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onclicked: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/onClicked",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            openpopup: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/openPopup",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            seticon: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/setIcon",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setpopup: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/setPopup",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            settitle: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/setTitle",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            show: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/show",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        permissions: {
-                          children: {
-                            contains: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/permissions/contains",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getall: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/permissions/getAll",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onadded: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/permissions/onAdded",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onremoved: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/permissions/onRemoved",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            permissions: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/permissions/Permissions",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            remove: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/permissions/remove",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            request: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/permissions/request",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        pkcs11: {
-                          children: {
-                            getmoduleslots: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pkcs11/getModuleSlots",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            installmodule: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pkcs11/installModule",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            ismoduleinstalled: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pkcs11/isModuleInstalled",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            uninstallmodule: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pkcs11/uninstallModule",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        privacy: {
-                          children: {
-                            network: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/privacy/network",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            services: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/privacy/services",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            websites: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/privacy/websites",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        proxy: {
-                          children: {
-                            onerror: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/proxy/onError",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onrequest: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/proxy/onRequest",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            proxyinfo: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/proxy/ProxyInfo",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            requestdetails: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/proxy/RequestDetails",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            settings: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/proxy/settings",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
                                 }
                               ]
                             }
@@ -9637,346 +6037,6 @@ var warnings_processed_default = {
                         },
                         runtime: {
                           children: {
-                            connect: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/connect",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            connectnative: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/connectNative",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getbackgroundpage: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/getBackgroundPage",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getbrowserinfo: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/getBrowserInfo",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getcontexts: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/getContexts",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getframeid: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/getFrameId",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getmanifest: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/getManifest",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getpackagedirectoryentry: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/getPackageDirectoryEntry",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getplatforminfo: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/getPlatformInfo",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            geturl: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/getURL",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            id: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/id",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            lasterror: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/lastError",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            messagesender: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/MessageSender",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onbrowserupdateavailable: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onBrowserUpdateAvailable",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onconnect: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onConnect",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onconnectexternal: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onConnectExternal",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            oninstalled: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onInstalled",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            oninstalledreason: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/OnInstalledReason",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onmessage: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onMessage",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onmessageexternal: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onMessageExternal",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onperformancewarning: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onPerformanceWarning",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onperformancewarningcategory: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/OnPerformanceWarningCategory",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onperformancewarningseverity: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/OnPerformanceWarningSeverity",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onrestartrequired: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onRestartRequired",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onrestartrequiredreason: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/OnRestartRequiredReason",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onstartup: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onStartup",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onsuspend: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onSuspend",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onsuspendcanceled: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onSuspendCanceled",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onupdateavailable: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onUpdateAvailable",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onuserscriptconnect: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onUserScriptConnect",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onuserscriptmessage: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onUserScriptMessage",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            openoptionspage: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/openOptionsPage",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            platformarch: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/PlatformArch",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            platforminfo: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/PlatformInfo",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
                             platformnaclarch: {
                               children: {},
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/PlatformNaclArch",
@@ -9986,90 +6046,6 @@ var warnings_processed_default = {
                                   data: [
                                     "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime"
                                   ]
-                                },
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            platformos: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/PlatformOs",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            port: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/Port",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            reload: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/reload",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            requestupdatecheck: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/requestUpdateCheck",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            requestupdatecheckstatus: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/RequestUpdateCheckStatus",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            sendmessage: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/sendMessage",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            sendnativemessage: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/sendNativeMessage",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setuninstallurl: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/setUninstallURL",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
                                 }
                               ]
                             }
@@ -10082,396 +6058,10 @@ var warnings_processed_default = {
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting/ContentScriptFilter",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                },
-                                {
                                   message: "Not in BCD",
                                   data: [
                                     "webextensions.api.scripting.ContentScriptFilter"
                                   ]
-                                }
-                              ]
-                            },
-                            executescript: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting/executeScript",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            executionworld: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting/ExecutionWorld",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getregisteredcontentscripts: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting/getRegisteredContentScripts",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            injectiontarget: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting/InjectionTarget",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            insertcss: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting/insertCSS",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            registercontentscripts: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting/registerContentScripts",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            registeredcontentscript: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting/RegisteredContentScript",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            removecss: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting/removeCSS",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            unregistercontentscripts: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting/unregisterContentScripts",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            updatecontentscripts: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting/updateContentScripts",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        search: {
-                          children: {
-                            get: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/search/get",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            query: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/search/query",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            search: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/search/search",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        sessions: {
-                          children: {
-                            filter: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions/Filter",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            forgetclosedtab: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions/forgetClosedTab",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            forgetclosedwindow: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions/forgetClosedWindow",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getrecentlyclosed: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions/getRecentlyClosed",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            gettabvalue: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions/getTabValue",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getwindowvalue: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions/getWindowValue",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            max_session_results: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions/MAX_SESSION_RESULTS",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onchanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions/onChanged",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            removetabvalue: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions/removeTabValue",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            removewindowvalue: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions/removeWindowValue",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            restore: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions/restore",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            session: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions/Session",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            settabvalue: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions/setTabValue",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setwindowvalue: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions/setWindowValue",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        sidebaraction: {
-                          children: {
-                            close: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sidebarAction/close",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getpanel: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sidebarAction/getPanel",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            gettitle: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sidebarAction/getTitle",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            imagedatatype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sidebarAction/ImageDataType",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            isopen: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sidebarAction/isOpen",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            open: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sidebarAction/open",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            seticon: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sidebarAction/setIcon",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setpanel: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sidebarAction/setPanel",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            settitle: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sidebarAction/setTitle",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            toggle: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sidebarAction/toggle",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
                                 }
                               ]
                             }
@@ -10479,36 +6069,6 @@ var warnings_processed_default = {
                         },
                         storage: {
                           children: {
-                            local: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/local",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            managed: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/managed",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onchanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/onChanged",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
                             session: {
                               children: {
                                 quota_bytes: {
@@ -10521,14 +6081,7 @@ var warnings_processed_default = {
                                     }
                                   ]
                                 }
-                              },
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/session",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
+                              }
                             },
                             storagearea: {
                               children: {
@@ -10545,7 +6098,7 @@ var warnings_processed_default = {
                                       data: [
                                         "Parsing error: Identifier expected.",
                                         "let clearing = browser.storage.<storageType>.clear()",
-                                        "1:9 - undefined:undefined"
+                                        "1:9"
                                       ]
                                     }
                                   ]
@@ -10563,7 +6116,7 @@ var warnings_processed_default = {
                                       data: [
                                         "Parsing error: Identifier expected.",
                                         "let results = browser.storage.<storageType>.get(",
-                                        "1:9 - undefined:undefined"
+                                        "1:9"
                                       ]
                                     }
                                   ]
@@ -10581,7 +6134,7 @@ var warnings_processed_default = {
                                       data: [
                                         "Parsing error: Identifier expected.",
                                         "let gettingSpace = browser.storage.<storageType>.getBytesInUse(",
-                                        "1:9 - undefined:undefined"
+                                        "1:9"
                                       ]
                                     }
                                   ]
@@ -10609,7 +6162,7 @@ var warnings_processed_default = {
                                       data: [
                                         "Parsing error: Identifier expected.",
                                         "let removingItem = browser.storage.<storageType>.remove(",
-                                        "1:9 - undefined:undefined"
+                                        "1:9"
                                       ]
                                     }
                                   ]
@@ -10627,7 +6180,7 @@ var warnings_processed_default = {
                                       data: [
                                         "Parsing error: Identifier expected.",
                                         "let settingItem = browser.storage.<storageType>.set(",
-                                        "1:9 - undefined:undefined"
+                                        "1:9"
                                       ]
                                     }
                                   ]
@@ -10645,711 +6198,12 @@ var warnings_processed_default = {
                                       data: [
                                         "Parsing error: Identifier expected.",
                                         "await browser.storage.<storageType>.setAccessLevel(",
-                                        "1:9 - undefined:undefined"
+                                        "1:9"
                                       ]
                                     }
                                   ]
                                 }
-                              },
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/StorageArea",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            storagechange: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/StorageChange",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            sync: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/sync",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        tabs: {
-                          children: {
-                            capturetab: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/captureTab",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            capturevisibletab: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/captureVisibleTab",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            connect: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/connect",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            create: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/create",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            detectlanguage: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/detectLanguage",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            discard: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/discard",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            duplicate: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/duplicate",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            executescript: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/executeScript",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            get: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/get",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getallinwindow: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/getAllInWindow",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getcurrent: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/getCurrent",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getselected: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/getSelected",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getzoom: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/getZoom",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getzoomsettings: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/getZoomSettings",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            goback: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/goBack",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            goforward: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/goForward",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            hide: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/hide",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            highlight: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/highlight",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            insertcss: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/insertCSS",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            move: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/move",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            moveinsuccession: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/moveInSuccession",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            mutedinfo: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/MutedInfo",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            mutedinforeason: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/MutedInfoReason",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onactivated: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onActivated",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onactivechanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onActiveChanged",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onattached: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onAttached",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            oncreated: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onCreated",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            ondetached: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onDetached",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onhighlightchanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onHighlightChanged",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onhighlighted: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onHighlighted",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onmoved: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onMoved",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onremoved: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onRemoved",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onreplaced: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onReplaced",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onselectionchanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onSelectionChanged",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onupdated: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onUpdated",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onzoomchange: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onZoomChange",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            pagesettings: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/PageSettings",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            print: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/print",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            printpreview: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/printPreview",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            query: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/query",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            reload: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/reload",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            remove: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/remove",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            removecss: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/removeCSS",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            saveaspdf: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/saveAsPDF",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            sendmessage: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/sendMessage",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            sendrequest: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/sendRequest",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setzoom: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/setZoom",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setzoomsettings: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/setZoomSettings",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            show: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/show",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            tab: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/Tab",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            tab_id_none: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/TAB_ID_NONE",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            tabstatus: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/TabStatus",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            togglereadermode: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/toggleReaderMode",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            update: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/update",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            warmup: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/warmup",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            windowtype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/WindowType",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            zoomsettings: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/ZoomSettings",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            zoomsettingsmode: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/ZoomSettingsMode",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            zoomsettingsscope: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/ZoomSettingsScope",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        theme: {
-                          children: {
-                            getcurrent: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/theme/getCurrent",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onupdated: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/theme/onUpdated",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            reset: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/theme/reset",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            theme: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/theme/Theme",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            update: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/theme/update",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        topsites: {
-                          children: {
-                            get: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/topSites/get",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            mostvisitedurl: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/topSites/MostVisitedURL",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
+                              }
                             }
                           }
                         },
@@ -11415,39 +6269,12 @@ var warnings_processed_default = {
                                     }
                                   ]
                                 }
-                              },
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/types/BrowserSetting",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
+                              }
                             }
                           }
                         },
                         userscripts_legacy: {
                           children: {
-                            onbeforescript: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts_legacy/onBeforeScript",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            register: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts_legacy/register",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
                             registereduserscript: {
                               children: {
                                 unregister: {
@@ -11460,14 +6287,7 @@ var warnings_processed_default = {
                                     }
                                   ]
                                 }
-                              },
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts_legacy/RegisteredUserScript",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
+                              }
                             },
                             userscriptoptions: {
                               children: {},
@@ -11478,10 +6298,6 @@ var warnings_processed_default = {
                                   data: [
                                     "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts_legacy"
                                   ]
-                                },
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
                                 },
                                 {
                                   message: "Unreachable via page",
@@ -11507,336 +6323,8 @@ var warnings_processed_default = {
                             }
                           }
                         },
-                        userscripts: {
-                          children: {
-                            configureworld: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/configureWorld",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            executionworld: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/ExecutionWorld",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getscripts: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/getScripts",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getworldconfigurations: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/getWorldConfigurations",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            register: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/register",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            registereduserscript: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/RegisteredUserScript",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            resetworldconfiguration: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/resetWorldConfiguration",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            scriptsource: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/ScriptSource",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            unregister: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/unregister",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            update: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/update",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            userscriptfilter: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/UserScriptFilter",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            worldproperties: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/WorldProperties",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        webnavigation: {
-                          children: {
-                            getallframes: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation/getAllFrames",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getframe: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation/getFrame",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onbeforenavigate: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation/onBeforeNavigate",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            oncommitted: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation/onCommitted",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            oncompleted: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation/onCompleted",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            oncreatednavigationtarget: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation/onCreatedNavigationTarget",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            ondomcontentloaded: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation/onDOMContentLoaded",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onerroroccurred: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation/onErrorOccurred",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onhistorystateupdated: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation/onHistoryStateUpdated",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onreferencefragmentupdated: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation/onReferenceFragmentUpdated",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            ontabreplaced: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation/onTabReplaced",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            transitionqualifier: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation/TransitionQualifier",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            transitiontype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation/TransitionType",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
                         webrequest: {
                           children: {
-                            blockingresponse: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/BlockingResponse",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            certificateinfo: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/CertificateInfo",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            filterresponsedata: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/filterResponseData",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getsecurityinfo: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/getSecurityInfo",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            handlerbehaviorchanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/handlerBehaviorChanged",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            httpheaders: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/HttpHeaders",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            max_handler_behavior_changed_calls_per_10_minutes: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/MAX_HANDLER_BEHAVIOR_CHANGED_CALLS_PER_10_MINUTES",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
                             onauthrequired: {
                               children: {},
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onAuthRequired",
@@ -11847,120 +6335,6 @@ var warnings_processed_default = {
                                     "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/proxy",
                                     "#findproxyforurl()_return_value"
                                   ]
-                                },
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onbeforeredirect: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onBeforeRedirect",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onbeforerequest: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onBeforeRequest",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onbeforesendheaders: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onBeforeSendHeaders",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            oncompleted: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onCompleted",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onerroroccurred: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onErrorOccurred",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onheadersreceived: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onHeadersReceived",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onresponsestarted: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onResponseStarted",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onsendheaders: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onSendHeaders",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            requestfilter: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/RequestFilter",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            resourcetype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/ResourceType",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            securityinfo: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/SecurityInfo",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
                                 }
                               ]
                             },
@@ -12076,198 +6450,7 @@ var warnings_processed_default = {
                                     }
                                   ]
                                 }
-                              },
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/StreamFilter",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            uploaddata: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/UploadData",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        windows: {
-                          children: {
-                            create: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/create",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            createtype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/CreateType",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            get: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/get",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getall: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/getAll",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getcurrent: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/getCurrent",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getlastfocused: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/getLastFocused",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onboundschanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/onBoundsChanged",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            oncreated: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/onCreated",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onfocuschanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/onFocusChanged",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onremoved: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/onRemoved",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            remove: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/remove",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            update: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/update",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            window: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/Window",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            window_id_current: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/WINDOW_ID_CURRENT",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            window_id_none: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/WINDOW_ID_NONE",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            windowstate: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/WindowState",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            windowtype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/WindowType",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
+                              }
                             }
                           }
                         }
@@ -12731,7 +6914,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: '}' expected.",
                             "",
-                            "4:9 - undefined:undefined"
+                            "4:9"
                           ]
                         },
                         {
@@ -12739,7 +6922,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: '}' expected.",
                             "",
-                            "7:9 - undefined:undefined"
+                            "7:9"
                           ]
                         },
                         {
@@ -12747,7 +6930,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "  });",
-                            "12:9 - undefined:undefined"
+                            "12:9"
                           ]
                         },
                         {
@@ -12755,7 +6938,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: '}' expected.",
                             "",
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         },
                         {
@@ -12763,7 +6946,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "}",
-                            "9:9 - undefined:undefined"
+                            "9:9"
                           ]
                         }
                       ]
@@ -12787,7 +6970,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: '}' expected.",
                             "",
-                            "5:9 - undefined:undefined"
+                            "5:9"
                           ]
                         },
                         {
@@ -12795,7 +6978,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: '}' expected.",
                             "",
-                            "5:9 - undefined:undefined"
+                            "5:9"
                           ]
                         }
                       ]
@@ -12815,7 +6998,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: '}' expected.",
                             "",
-                            "7:9 - undefined:undefined"
+                            "7:9"
                           ]
                         },
                         {
@@ -12823,7 +7006,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: '}' expected.",
                             "",
-                            "6:9 - undefined:undefined"
+                            "6:9"
                           ]
                         },
                         {
@@ -12831,7 +7014,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: '}' expected.",
                             "",
-                            "6:9 - undefined:undefined"
+                            "6:9"
                           ]
                         }
                       ]
@@ -12845,7 +7028,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: '}' expected.",
                             "",
-                            "9:9 - undefined:undefined"
+                            "9:9"
                           ]
                         },
                         {
@@ -12853,7 +7036,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "  });",
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         },
                         {
@@ -12861,7 +7044,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             'else if (e.target.id === "tabs-alert-info") {',
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -12869,7 +7052,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ')' expected.",
                             "",
-                            "12:9 - undefined:undefined"
+                            "12:9"
                           ]
                         },
                         {
@@ -12877,7 +7060,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             '  else if (e.target.id === "tabs-add-zoom") {',
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         }
                       ]
@@ -14386,14 +8569,6 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "Replace DT link with real target",
-                          data: [
-                            "/en-US/docs/Web/API/Worker#worker",
-                            "/en-US/docs/Web/API/Worker/Worker",
-                            []
-                          ]
-                        },
-                        {
                           message: "Broken anchor",
                           data: [
                             "/en-US/docs/Web/API/IDBIndex",
@@ -15080,11 +9255,18 @@ var warnings_processed_default = {
                           data: []
                         },
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/web-animations/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "ESLint error",
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "    width: { min: 640 },",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         }
                       ]
@@ -15169,14 +9351,6 @@ var warnings_processed_default = {
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_6_support_in_Mozilla"
-                          ]
-                        },
-                        {
-                          message: "Replace DT link with real target",
-                          data: [
-                            "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy#form-action",
-                            "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/form-action",
-                            []
                           ]
                         },
                         {
@@ -15333,14 +9507,6 @@ var warnings_processed_default = {
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Web/API/Directory/getContents"
-                          ]
-                        },
-                        {
-                          message: "Replace DT link with real target",
-                          data: [
-                            "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy#upgrade-insecure-requests",
-                            "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/upgrade-insecure-requests",
-                            []
                           ]
                         },
                         {
@@ -15629,22 +9795,6 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "Replace DT link with real target",
-                          data: [
-                            "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy#connect-src",
-                            "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/connect-src",
-                            []
-                          ]
-                        },
-                        {
-                          message: "Replace DT link with real target",
-                          data: [
-                            "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy#sandbox",
-                            "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/sandbox",
-                            []
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -15913,14 +10063,6 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/59",
                       messages: [
                         {
-                          message: "Replace DT link with real target",
-                          data: [
-                            "/en-US/docs/Web/HTML/Element/script#type",
-                            "/en-US/docs/Web/HTML/Element/script/type",
-                            []
-                          ]
-                        },
-                        {
                           message: "Broken anchor",
                           data: [
                             "/en-US/docs/Web/JavaScript/Reference/Statements/try...catch",
@@ -15948,14 +10090,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Web/HTML/Global_attributes/contenteditable",
                             "#differences_in_markup_generation"
-                          ]
-                        },
-                        {
-                          message: "Replace DT link with real target",
-                          data: [
-                            "/en-US/docs/Web/HTML/Element/script#type",
-                            "/en-US/docs/Web/HTML/Element/script/type",
-                            []
                           ]
                         },
                         {
@@ -16558,14 +10692,6 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/109",
                       messages: [
                         {
-                          message: "Replace DT link with real target",
-                          data: [
-                            "/en-US/docs/Web/API/SVGElement#svgelement.viewportelement",
-                            "/en-US/docs/Web/API/SVGElement/viewportElement",
-                            []
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -16793,14 +10919,6 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/129",
                       messages: [
                         {
-                          message: "Replace DT link with real target",
-                          data: [
-                            "/en-US/docs/Web/CSS/@page#size",
-                            "/en-US/docs/Web/CSS/@page/size",
-                            []
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -16896,6 +11014,16 @@ var warnings_processed_default = {
                     "138": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/138",
+                      messages: [
+                        {
+                          message: "Unreachable via sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    "139": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/139",
                       messages: [
                         {
                           message: "Unreachable via sidebar",
@@ -17765,6 +11893,20 @@ var warnings_processed_default = {
                           ]
                         },
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.cedars-sinai.org/health-library/diseases-and-conditions/p/photosensitive-seizures.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.cedars-sinai.org/health-library/diseases-and-conditions/p/photosensitive-seizures.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "HTTP link",
                           data: [
                             "http://diagramcenter.org/",
@@ -17967,11 +12109,74 @@ var warnings_processed_default = {
                           data: []
                         },
                         {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/attribution-reporting/custom-report-windows",
+                            "https://privacysandbox.google.com/private-advertising/attribution-reporting/custom-report-windows"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/attribution-reporting/summary-reports-intro",
+                            "https://privacysandbox.google.com/private-advertising/attribution-reporting/summary-reports-intro"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/aggregation-service",
+                            "https://privacysandbox.google.com/private-advertising/aggregation-service"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/attribution-reporting/custom-report-windows",
+                            "https://privacysandbox.google.com/private-advertising/attribution-reporting/custom-report-windows"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/attribution-reporting/understanding-noise",
+                            "https://privacysandbox.google.com/private-advertising/attribution-reporting/understanding-noise"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/attribution-reporting/working-with-noise",
+                            "https://privacysandbox.google.com/private-advertising/attribution-reporting/working-with-noise"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/attribution-reporting/attribution-reporting-debugging/",
+                            "https://privacysandbox.google.com/private-advertising/attribution-reporting/attribution-reporting-debugging"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/attribution-reporting/attribution-reporting-debugging/part-2/",
+                            "https://privacysandbox.google.com/private-advertising/attribution-reporting/attribution-reporting-debugging/part-2"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/attribution-reporting/attribution-reporting-debugging/part-3/",
+                            "https://privacysandbox.google.com/private-advertising/attribution-reporting/attribution-reporting-debugging/part-3"
+                          ]
+                        },
+                        {
                           message: "ESLint error",
                           data: [
                             "Parsing error: ';' expected.",
                             '  "operation": "histogram",  // Allows for the service to support other operations in the future',
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         }
                       ]
@@ -17995,11 +12200,10 @@ var warnings_processed_default = {
                           data: []
                         },
                         {
-                          message: "ESLint error",
+                          message: "Redirected external link",
                           data: [
-                            "Parsing error: ')' expected.",
-                            "  });",
-                            "12:9 - undefined:undefined"
+                            "https://developers.google.com/privacy-sandbox/private-advertising/attribution-reporting/prevent-duplication",
+                            "https://privacysandbox.google.com/private-advertising/attribution-reporting/prevent-duplication"
                           ]
                         },
                         {
@@ -18007,7 +12211,15 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ')' expected.",
                             "  });",
-                            "19:9 - undefined:undefined"
+                            "12:9"
+                          ]
+                        },
+                        {
+                          message: "ESLint error",
+                          data: [
+                            "Parsing error: ')' expected.",
+                            "  });",
+                            "19:9"
                           ]
                         }
                       ]
@@ -18019,6 +12231,27 @@ var warnings_processed_default = {
                       message: "Quoted code",
                       data: [
                         "shop.example"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/attribution-reporting/",
+                        "https://privacysandbox.google.com/private-advertising/attribution-reporting"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/attribution-reporting/enable-conversion-measurement",
+                        "https://privacysandbox.google.com/private-advertising/attribution-reporting/enable-conversion-measurement"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/",
+                        "https://privacysandbox.google.com/"
                       ]
                     }
                   ]
@@ -18034,7 +12267,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: '}' expected.",
                             "",
-                            "27:9 - undefined:undefined"
+                            "27:9"
                           ]
                         },
                         {
@@ -18042,7 +12275,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "  }",
-                            "10:9 - undefined:undefined"
+                            "10:9"
                           ]
                         }
                       ]
@@ -18122,7 +12355,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ')' expected.",
                             "};",
-                            "8:9 - undefined:undefined"
+                            "8:9"
                           ]
                         }
                       ]
@@ -18136,7 +12369,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ')' expected.",
                             "};",
-                            "4:9 - undefined:undefined"
+                            "4:9"
                           ]
                         }
                       ]
@@ -18150,7 +12383,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ')' expected.",
                             "const signalWatcher = new CloseWatcher({ signal: controller.signal };",
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         }
                       ]
@@ -18186,30 +12419,7 @@ var warnings_processed_default = {
                   ]
                 },
                 cspviolationreportbody: {
-                  children: {
-                    sample: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSPViolationReportBody/sample",
-                      messages: [
-                        {
-                          message: "Replace DT link with real target",
-                          data: [
-                            "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy#script-src",
-                            "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/script-src",
-                            []
-                          ]
-                        },
-                        {
-                          message: "Replace DT link with real target",
-                          data: [
-                            "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy#style-src",
-                            "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/style-src",
-                            []
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/API/CSPViolationReportBody",
                   messages: [
                     {
@@ -18217,7 +12427,7 @@ var warnings_processed_default = {
                       data: [
                         "Parsing error: ';' expected.",
                         '    "type": "csp-violation",',
-                        "2:9 - undefined:undefined"
+                        "2:9"
                       ]
                     }
                   ]
@@ -18280,7 +12490,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "static get inputArguments() { return ['*']; }",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -18288,7 +12498,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "paint(ctx, size, props, args) {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -18296,7 +12506,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "static get inputArguments() { return ['*', '<length>']; }",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -18304,7 +12514,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "paint(ctx, size, props, args) {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         }
                       ]
@@ -18630,7 +12840,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             '  modelVersion: "1",',
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         }
                       ]
@@ -18817,23 +13027,12 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "  offset: CSS.percent('100'),",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/Element",
-                  messages: [
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#element.innerhtml",
-                        "/en-US/docs/Web/API/Element/innerHTML",
-                        []
-                      ]
-                    }
-                  ]
+                  }
                 },
                 elementinternals: {
                   children: {
@@ -18846,7 +13045,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Unexpected keyword or identifier.",
                             "set checked(flag) {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         }
                       ]
@@ -18937,6 +13136,301 @@ var warnings_processed_default = {
                     }
                   }
                 },
+                fedcm_api: {
+                  children: {
+                    idp_integration: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/FedCM_API/IDP_integration",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/blog/fedcm-chrome-120-updates",
+                            "https://privacysandbox.google.com/blog/fedcm-chrome-120-updates"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/blog/fedcm-chrome-120-updates",
+                            "https://privacysandbox.google.com/blog/fedcm-chrome-120-updates"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/cookies/fedcm",
+                            "https://privacysandbox.google.com/cookies/fedcm"
+                          ]
+                        }
+                      ]
+                    },
+                    "rp_sign-in": {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/FedCM_API/RP_sign-in",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/cookies/fedcm",
+                            "https://privacysandbox.google.com/cookies/fedcm"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/cookies/fedcm",
+                            "https://privacysandbox.google.com/cookies/fedcm"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/FedCM_API",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/cookies/fedcm",
+                        "https://privacysandbox.google.com/cookies/fedcm"
+                      ]
+                    }
+                  ]
+                },
+                fence: {
+                  children: {
+                    getnestedconfigs: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Fence/getNestedConfigs",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
+                            "https://privacysandbox.google.com/private-advertising/protected-audience"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/fenced-frame",
+                            "https://privacysandbox.google.com/private-advertising/fenced-frame"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox",
+                            "https://privacysandbox.google.com/"
+                          ]
+                        }
+                      ]
+                    },
+                    reportevent: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Fence/reportEvent",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
+                            "https://privacysandbox.google.com/private-advertising/protected-audience"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
+                            "https://privacysandbox.google.com/private-advertising/protected-audience"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/shared-storage",
+                            "https://privacysandbox.google.com/private-advertising/shared-storage"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/fenced-frame",
+                            "https://privacysandbox.google.com/private-advertising/fenced-frame"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox",
+                            "https://privacysandbox.google.com/"
+                          ]
+                        }
+                      ]
+                    },
+                    setreporteventdataforautomaticbeacons: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Fence/setReportEventDataForAutomaticBeacons",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
+                            "https://privacysandbox.google.com/private-advertising/protected-audience"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/shared-storage",
+                            "https://privacysandbox.google.com/private-advertising/shared-storage"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/fenced-frame",
+                            "https://privacysandbox.google.com/private-advertising/fenced-frame"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox",
+                            "https://privacysandbox.google.com/"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/Fence",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
+                        "https://privacysandbox.google.com/private-advertising/protected-audience"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
+                        "https://privacysandbox.google.com/private-advertising/protected-audience"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/fenced-frame",
+                        "https://privacysandbox.google.com/private-advertising/fenced-frame"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox",
+                        "https://privacysandbox.google.com/"
+                      ]
+                    }
+                  ]
+                },
+                fenced_frame_api: {
+                  children: {
+                    communication_with_embedded_frames: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Fenced_frame_API/Communication_with_embedded_frames",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
+                            "https://privacysandbox.google.com/private-advertising/protected-audience"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/Fenced_frame_API",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/shared-storage",
+                        "https://privacysandbox.google.com/private-advertising/shared-storage"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
+                        "https://privacysandbox.google.com/private-advertising/protected-audience"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/private-aggregation",
+                        "https://privacysandbox.google.com/private-advertising/private-aggregation"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
+                        "https://privacysandbox.google.com/private-advertising/protected-audience"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/shared-storage",
+                        "https://privacysandbox.google.com/private-advertising/shared-storage"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox",
+                        "https://privacysandbox.google.com/"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/shared-storage",
+                        "https://privacysandbox.google.com/private-advertising/shared-storage"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
+                        "https://privacysandbox.google.com/private-advertising/protected-audience"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
+                        "https://privacysandbox.google.com/private-advertising/protected-audience"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/fenced-frame",
+                        "https://privacysandbox.google.com/private-advertising/fenced-frame"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox",
+                        "https://privacysandbox.google.com/"
+                      ]
+                    }
+                  ]
+                },
                 fencedframeconfig: {
                   children: {
                     setsharedstoragecontext: {
@@ -18944,11 +13438,53 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Web/API/FencedFrameConfig/setSharedStorageContext",
                       messages: [
                         {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/shared-storage",
+                            "https://privacysandbox.google.com/private-advertising/shared-storage"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/private-aggregation",
+                            "https://privacysandbox.google.com/private-advertising/private-aggregation"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
+                            "https://privacysandbox.google.com/private-advertising/protected-audience"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/shared-storage",
+                            "https://privacysandbox.google.com/private-advertising/shared-storage"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/fenced-frame",
+                            "https://privacysandbox.google.com/private-advertising/fenced-frame"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox",
+                            "https://privacysandbox.google.com/"
+                          ]
+                        },
+                        {
                           message: "ESLint error",
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "  convertEventIdToBucket(eventId) { ... }",
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         }
                       ]
@@ -18957,11 +13493,74 @@ var warnings_processed_default = {
                   slug: "/en-US/docs/Web/API/FencedFrameConfig",
                   messages: [
                     {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
+                        "https://privacysandbox.google.com/private-advertising/protected-audience"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
+                        "https://privacysandbox.google.com/private-advertising/protected-audience"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/shared-storage",
+                        "https://privacysandbox.google.com/private-advertising/shared-storage"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/private-aggregation",
+                        "https://privacysandbox.google.com/private-advertising/private-aggregation"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
+                        "https://privacysandbox.google.com/private-advertising/protected-audience"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/shared-storage",
+                        "https://privacysandbox.google.com/private-advertising/shared-storage"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/private-aggregation",
+                        "https://privacysandbox.google.com/private-advertising/private-aggregation"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/fenced-frame",
+                        "https://privacysandbox.google.com/private-advertising/fenced-frame"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox",
+                        "https://privacysandbox.google.com/"
+                      ]
+                    },
+                    {
                       message: "ESLint error",
                       data: [
                         "Parsing error: Declaration or statement expected.",
                         "  convertEventIdToBucket(eventId) { ... }",
-                        "2:9 - undefined:undefined"
+                        "2:9"
                       ]
                     }
                   ]
@@ -19036,28 +13635,6 @@ var warnings_processed_default = {
                     }
                   ]
                 },
-                filesystementry: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/FileSystemEntry",
-                  messages: [
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#tourl",
-                        "/en-US/docs/Web/API/FileSystemEntry/toURL",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#tourl",
-                        "/en-US/docs/Web/API/FileSystemEntry/toURL",
-                        []
-                      ]
-                    }
-                  ]
-                },
                 geolocation_api: {
                   children: {
                     using_the_geolocation_api: {
@@ -19083,7 +13660,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: '}' expected.",
                             "",
-                            "16:9 - undefined:undefined"
+                            "16:9"
                           ]
                         }
                       ]
@@ -19101,7 +13678,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "  g: 0.5,",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         }
                       ]
@@ -19115,7 +13692,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "  y: 0,",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         },
                         {
@@ -19123,7 +13700,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "  height: 16,",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         }
                       ]
@@ -19137,7 +13714,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "  y: 0,",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         },
                         {
@@ -19145,7 +13722,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "  height: 16,",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         }
                       ]
@@ -19159,7 +13736,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "  height: 16,",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         },
                         {
@@ -19167,7 +13744,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "  y: 0,",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         }
                       ]
@@ -19185,7 +13762,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "}",
-                            "10:9 - undefined:undefined"
+                            "10:9"
                           ]
                         }
                       ]
@@ -19199,7 +13776,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "}",
-                            "10:9 - undefined:undefined"
+                            "10:9"
                           ]
                         }
                       ]
@@ -19213,7 +13790,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "}",
-                            "10:9 - undefined:undefined"
+                            "10:9"
                           ]
                         }
                       ]
@@ -19227,7 +13804,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "}",
-                            "10:9 - undefined:undefined"
+                            "10:9"
                           ]
                         }
                       ]
@@ -19241,7 +13818,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "}",
-                            "10:9 - undefined:undefined"
+                            "10:9"
                           ]
                         }
                       ]
@@ -19255,7 +13832,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "}",
-                            "10:9 - undefined:undefined"
+                            "10:9"
                           ]
                         }
                       ]
@@ -19273,7 +13850,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "    0: false,",
-                            "4:9 - undefined:undefined"
+                            "4:9"
                           ]
                         }
                       ]
@@ -19287,7 +13864,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "    0: false,",
-                            "4:9 - undefined:undefined"
+                            "4:9"
                           ]
                         },
                         {
@@ -19295,7 +13872,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "    0: false,",
-                            "4:9 - undefined:undefined"
+                            "4:9"
                           ]
                         }
                       ]
@@ -19309,7 +13886,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "  height: 16,",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         }
                       ]
@@ -19327,7 +13904,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "  y: 0",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         },
                         {
@@ -19335,7 +13912,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "  y: 0,",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         },
                         {
@@ -19343,7 +13920,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "  height: 1,",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         }
                       ]
@@ -19357,7 +13934,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "  y: 0,",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         }
                       ]
@@ -19513,11 +14090,9 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Web/API/HTMLButtonElement/type",
                       messages: [
                         {
-                          message: "Replace DT link with real target",
+                          message: "Self link",
                           data: [
-                            "/en-US/docs/Web/API/HTMLButtonElement#htmlbuttonelement.type",
-                            "/en-US/docs/Web/API/HTMLButtonElement/type",
-                            []
+                            "/en-US/docs/Web/API/HTMLButtonElement/type"
                           ]
                         }
                       ]
@@ -19571,7 +14146,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             'elt.addEventListener("load", (event) => { ... });',
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         }
                       ]
@@ -19595,6 +14170,149 @@ var warnings_processed_default = {
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/API/HTMLElement/cancel_event"
+                      ]
+                    }
+                  ]
+                },
+                htmlfencedframeelement: {
+                  children: {
+                    allow: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLFencedFrameElement/allow",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/fenced-frame",
+                            "https://privacysandbox.google.com/private-advertising/fenced-frame"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox",
+                            "https://privacysandbox.google.com/"
+                          ]
+                        }
+                      ]
+                    },
+                    config: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLFencedFrameElement/config",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
+                            "https://privacysandbox.google.com/private-advertising/protected-audience"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
+                            "https://privacysandbox.google.com/private-advertising/protected-audience"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/shared-storage",
+                            "https://privacysandbox.google.com/private-advertising/shared-storage"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/fenced-frame",
+                            "https://privacysandbox.google.com/private-advertising/fenced-frame"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox",
+                            "https://privacysandbox.google.com/"
+                          ]
+                        }
+                      ]
+                    },
+                    height: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLFencedFrameElement/height",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/fenced-frame",
+                            "https://privacysandbox.google.com/private-advertising/fenced-frame"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox",
+                            "https://privacysandbox.google.com/"
+                          ]
+                        }
+                      ]
+                    },
+                    width: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLFencedFrameElement/width",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/fenced-frame",
+                            "https://privacysandbox.google.com/private-advertising/fenced-frame"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox",
+                            "https://privacysandbox.google.com/"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/HTMLFencedFrameElement",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
+                        "https://privacysandbox.google.com/private-advertising/protected-audience"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
+                        "https://privacysandbox.google.com/private-advertising/protected-audience"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/shared-storage",
+                        "https://privacysandbox.google.com/private-advertising/shared-storage"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/fenced-frame",
+                        "https://privacysandbox.google.com/private-advertising/fenced-frame"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox",
+                        "https://privacysandbox.google.com/"
                       ]
                     }
                   ]
@@ -19677,7 +14395,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Identifier expected.",
                             "continue()",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         }
                       ]
@@ -19691,12 +14409,52 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Expression expected.",
                             "delete()",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         }
                       ]
                     }
                   }
+                },
+                identitycredential: {
+                  children: {
+                    isautoselected: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/IdentityCredential/isAutoSelected",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/cookies/fedcm",
+                            "https://privacysandbox.google.com/cookies/fedcm"
+                          ]
+                        }
+                      ]
+                    },
+                    token: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/IdentityCredential/token",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/cookies/fedcm",
+                            "https://privacysandbox.google.com/cookies/fedcm"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/IdentityCredential",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/cookies/fedcm",
+                        "https://privacysandbox.google.com/cookies/fedcm"
+                      ]
+                    }
+                  ]
                 },
                 identitycredentialrequestoptions: {
                   children: {},
@@ -19705,6 +14463,46 @@ var warnings_processed_default = {
                     {
                       message: "Broken browser compat anchor",
                       data: []
+                    }
+                  ]
+                },
+                identityprovider: {
+                  children: {
+                    close_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/IdentityProvider/close_static",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/cookies/fedcm",
+                            "https://privacysandbox.google.com/cookies/fedcm"
+                          ]
+                        }
+                      ]
+                    },
+                    getuserinfo_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/IdentityProvider/getUserInfo_static",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/cookies/fedcm",
+                            "https://privacysandbox.google.com/cookies/fedcm"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/IdentityProvider",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/cookies/fedcm",
+                        "https://privacysandbox.google.com/cookies/fedcm"
+                      ]
                     }
                   ]
                 },
@@ -19731,7 +14529,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: '}' expected.",
                             "",
-                            "8:9 - undefined:undefined"
+                            "8:9"
                           ]
                         },
                         {
@@ -19739,7 +14537,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "   else {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -19747,7 +14545,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "  }",
-                            "12:9 - undefined:undefined"
+                            "12:9"
                           ]
                         },
                         {
@@ -19755,7 +14553,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "};",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         },
                         {
@@ -19763,7 +14561,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: '}' expected.",
                             "",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         },
                         {
@@ -19771,7 +14569,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: '}' expected.",
                             "",
-                            "8:9 - undefined:undefined"
+                            "8:9"
                           ]
                         },
                         {
@@ -19779,7 +14577,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: '}' expected.",
                             "",
-                            "24:9 - undefined:undefined"
+                            "24:9"
                           ]
                         },
                         {
@@ -19787,7 +14585,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "    }",
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         }
                       ]
@@ -19867,7 +14665,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             '  "autoGainControl": [',
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         }
                       ]
@@ -19877,19 +14675,11 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Web/API/Media_Capture_and_Streams_API/Taking_still_photos",
                       messages: [
                         {
-                          message: "Replace DT link with real target",
+                          message: "ESLint error",
                           data: [
-                            "/en-US/docs/Web/API/HTMLMediaElement#play",
-                            "/en-US/docs/Web/API/HTMLMediaElement/play_event",
-                            []
-                          ]
-                        },
-                        {
-                          message: "Replace DT link with real target",
-                          data: [
-                            "/en-US/docs/Web/API/HTMLMediaElement#play",
-                            "/en-US/docs/Web/API/HTMLMediaElement/play_event",
-                            []
+                            "Parsing error: '}' expected.",
+                            "",
+                            "11:9"
                           ]
                         },
                         {
@@ -19897,15 +14687,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: '}' expected.",
                             "",
-                            "11:9 - undefined:undefined"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: '}' expected.",
-                            "",
-                            "6:9 - undefined:undefined"
+                            "6:9"
                           ]
                         },
                         {
@@ -19913,7 +14695,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "  }",
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         }
                       ]
@@ -19964,7 +14746,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             '  "autoGainControl": [',
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         }
                       ]
@@ -20013,130 +14795,7 @@ var warnings_processed_default = {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/MediaTrackSupportedConstraints",
-                  messages: [
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "/en-US/docs/Web/API/MediaTrackConstraints#autogaincontrol",
-                        "/en-US/docs/Web/API/MediaTrackConstraints/autoGainControl",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "/en-US/docs/Web/API/MediaTrackConstraints#width",
-                        "/en-US/docs/Web/API/MediaTrackConstraints/width",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "/en-US/docs/Web/API/MediaTrackConstraints#height",
-                        "/en-US/docs/Web/API/MediaTrackConstraints/height",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "/en-US/docs/Web/API/MediaTrackConstraints#aspectratio",
-                        "/en-US/docs/Web/API/MediaTrackConstraints/aspectRatio",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "/en-US/docs/Web/API/MediaTrackConstraints#framerate",
-                        "/en-US/docs/Web/API/MediaTrackConstraints/frameRate",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "/en-US/docs/Web/API/MediaTrackConstraints#facingmode",
-                        "/en-US/docs/Web/API/MediaTrackConstraints/facingMode",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "/en-US/docs/Web/API/MediaTrackConstraints#volume",
-                        "/en-US/docs/Web/API/MediaTrackConstraints/volume",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "/en-US/docs/Web/API/MediaTrackConstraints#samplerate",
-                        "/en-US/docs/Web/API/MediaTrackConstraints/sampleRate",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "/en-US/docs/Web/API/MediaTrackConstraints#samplesize",
-                        "/en-US/docs/Web/API/MediaTrackConstraints/sampleSize",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "/en-US/docs/Web/API/MediaTrackConstraints#echocancellation",
-                        "/en-US/docs/Web/API/MediaTrackConstraints/echoCancellation",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "/en-US/docs/Web/API/MediaTrackConstraints#latency",
-                        "/en-US/docs/Web/API/MediaTrackConstraints/latency",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "/en-US/docs/Web/API/MediaTrackConstraints#noisesuppression",
-                        "/en-US/docs/Web/API/MediaTrackConstraints/noiseSuppression",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "/en-US/docs/Web/API/MediaTrackConstraints#channelcount",
-                        "/en-US/docs/Web/API/MediaTrackConstraints/channelCount",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "/en-US/docs/Web/API/MediaTrackConstraints#deviceid",
-                        "/en-US/docs/Web/API/MediaTrackConstraints/deviceId",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "/en-US/docs/Web/API/MediaTrackConstraints#groupid",
-                        "/en-US/docs/Web/API/MediaTrackConstraints/groupId",
-                        []
-                      ]
-                    }
-                  ]
+                  }
                 },
                 mouseevent: {
                   children: {
@@ -20204,6 +14863,26 @@ var warnings_processed_default = {
                 },
                 navigator: {
                   children: {
+                    deprecatedreplaceinurn: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Navigator/deprecatedReplaceInURN",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
+                            "https://privacysandbox.google.com/private-advertising/protected-audience"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox",
+                            "https://privacysandbox.google.com/"
+                          ]
+                        }
+                      ]
+                    },
                     getbattery: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Navigator/getBattery",
@@ -20229,6 +14908,13 @@ var warnings_processed_default = {
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/API/Navigator/standalone"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox",
+                        "https://privacysandbox.google.com/"
                       ]
                     }
                   ]
@@ -20334,6 +15020,19 @@ var warnings_processed_default = {
                     }
                   }
                 },
+                paintworkletglobalscope: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/PaintWorkletGlobalScope",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.css-houdini.org/css-paint-api/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 payment_request_api: {
                   children: {
                     concepts: {
@@ -20375,7 +15074,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: '}' expected.",
                             "",
-                            "15:9 - undefined:undefined"
+                            "15:9"
                           ]
                         }
                       ]
@@ -20405,7 +15104,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Invalid character.",
                             "…",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         }
                       ]
@@ -20423,7 +15122,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ')' expected.",
                             "  };",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         }
                       ]
@@ -20445,7 +15144,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "  id: null,",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         },
                         {
@@ -20453,7 +15152,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "  id: null,",
-                            "22:9 - undefined:undefined"
+                            "22:9"
                           ]
                         },
                         {
@@ -20461,7 +15160,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "  id: null,",
-                            "12:9 - undefined:undefined"
+                            "12:9"
                           ]
                         }
                       ]
@@ -20479,7 +15178,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "  breakdown: [",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         }
                       ]
@@ -20493,7 +15192,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "  usedJSHeapSize: 39127515,",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         }
                       ]
@@ -20511,7 +15210,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "  id: null,",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         }
                       ]
@@ -20581,7 +15280,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ',' expected.",
                             "const observer = new PressureObserver(callback):",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         }
                       ]
@@ -20627,7 +15326,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Expression expected.",
                             "      challenge: ****,",
-                            "12:9 - undefined:undefined"
+                            "12:9"
                           ]
                         }
                       ]
@@ -20641,7 +15340,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Expression expected.",
                             "    challenge: new Uint8Array([139, 66, 181, 87, 7, 203, ...]),",
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         }
                       ]
@@ -20655,7 +15354,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Expression expected.",
                             "  challenge: new Uint8Array([139, 66, 181, 87, 7, 203, ...]),",
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         }
                       ]
@@ -20703,82 +15402,12 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ',' expected.",
                             "  body: JSON.stringify(pushSubscription);",
-                            "18:9 - undefined:undefined"
+                            "18:9"
                           ]
                         }
                       ]
                     }
                   }
-                },
-                readablebytestreamcontroller: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/ReadableByteStreamController",
-                  messages: [
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#readablebytestreamcontroller.byobrequest",
-                        "/en-US/docs/Web/API/ReadableByteStreamController/byobRequest",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#readablebytestreamcontroller.enqueue",
-                        "/en-US/docs/Web/API/ReadableByteStreamController/enqueue",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#readablebytestreamcontroller.byobrequest",
-                        "/en-US/docs/Web/API/ReadableByteStreamController/byobRequest",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#readablebytestreamcontroller.enqueue",
-                        "/en-US/docs/Web/API/ReadableByteStreamController/enqueue",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#readablebytestreamcontroller.byobrequest",
-                        "/en-US/docs/Web/API/ReadableByteStreamController/byobRequest",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#readablebytestreamcontroller.close",
-                        "/en-US/docs/Web/API/ReadableByteStreamController/close",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#readablebytestreamcontroller.error",
-                        "/en-US/docs/Web/API/ReadableByteStreamController/error",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#readablebytestreamcontroller.desiredsize",
-                        "/en-US/docs/Web/API/ReadableByteStreamController/desiredSize",
-                        []
-                      ]
-                    }
-                  ]
                 },
                 readablestreambyobreader: {
                   children: {
@@ -20791,7 +15420,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "{ value: theChunk, done: false }",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -20799,7 +15428,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "{ value: theChunk, done: true }",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -20807,69 +15436,12 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "{ value: undefined, done: true }",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/ReadableStreamBYOBReader",
-                  messages: [
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#readablestreambyobreader.read",
-                        "/en-US/docs/Web/API/ReadableStreamBYOBReader/read",
-                        []
-                      ]
-                    }
-                  ]
-                },
-                readablestreambyobrequest: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/ReadableStreamBYOBRequest",
-                  messages: [
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#readablestreambyobrequest.view",
-                        "/en-US/docs/Web/API/ReadableStreamBYOBRequest/view",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#readablestreambyobrequest.respond",
-                        "/en-US/docs/Web/API/ReadableStreamBYOBRequest/respond",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#readablestreambyobrequest.respondwithnewview",
-                        "/en-US/docs/Web/API/ReadableStreamBYOBRequest/respondWithNewView",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#readablestreambyobrequest.view",
-                        "/en-US/docs/Web/API/ReadableStreamBYOBRequest/view",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#readablestreambyobrequest.view",
-                        "/en-US/docs/Web/API/ReadableStreamBYOBRequest/view",
-                        []
-                      ]
-                    }
-                  ]
+                  }
                 },
                 readablestream: {
                   children: {
@@ -20887,28 +15459,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                rtcaudiosourcestats: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/RTCAudioSourceStats",
-                  messages: [
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#type",
-                        "/en-US/docs/Web/API/RTCAudioSourceStats/type",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#kind",
-                        "/en-US/docs/Web/API/RTCAudioSourceStats/kind",
-                        []
-                      ]
-                    }
-                  ]
-                },
                 rtccertificate: {
                   children: {
                     getfingerprints: {
@@ -20920,102 +15470,12 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Expression expected.",
                             "const fingerprintsFromServer = ...;",
-                            "7:9 - undefined:undefined"
+                            "7:9"
                           ]
                         }
                       ]
                     }
                   }
-                },
-                rtccertificatestats: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/RTCCertificateStats",
-                  messages: [
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#type",
-                        "/en-US/docs/Web/API/RTCCertificateStats/type",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#fingerprintalgorithm",
-                        "/en-US/docs/Web/API/RTCCertificateStats/fingerprintAlgorithm",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#fingerprint",
-                        "/en-US/docs/Web/API/RTCCertificateStats/fingerprint",
-                        []
-                      ]
-                    }
-                  ]
-                },
-                rtccodecstats: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/RTCCodecStats",
-                  messages: [
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#type",
-                        "/en-US/docs/Web/API/RTCCodecStats/type",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "/en-US/docs/Web/API/RTCInboundRtpStreamStats#codecid",
-                        "/en-US/docs/Web/API/RTCInboundRtpStreamStats/codecId",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#id",
-                        "/en-US/docs/Web/API/RTCCodecStats/id",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#sdpfmtpline",
-                        "/en-US/docs/Web/API/RTCCodecStats/sdpFmtpLine",
-                        []
-                      ]
-                    }
-                  ]
-                },
-                rtcdatachannelstats: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/RTCDataChannelStats",
-                  messages: [
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#type",
-                        "/en-US/docs/Web/API/RTCDataChannelStats/type",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#datachannelidentifier",
-                        "/en-US/docs/Web/API/RTCDataChannelStats/dataChannelIdentifier",
-                        []
-                      ]
-                    }
-                  ]
                 },
                 rtcencodedaudioframe: {
                   children: {
@@ -21028,7 +15488,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ',' expected.",
                             "  const async transform = new TransformStream({",
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         },
                         {
@@ -21036,7 +15496,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             '  "payloadType": 109,',
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         }
                       ]
@@ -21049,7 +15509,7 @@ var warnings_processed_default = {
                       data: [
                         "Parsing error: ',' expected.",
                         "  const async transform = new TransformStream({",
-                        "2:9 - undefined:undefined"
+                        "2:9"
                       ]
                     }
                   ]
@@ -21061,19 +15521,11 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Web/API/RTCEncodedVideoFrame/getMetadata",
                       messages: [
                         {
-                          message: "Replace DT link with real target",
-                          data: [
-                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats#ssrc",
-                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/ssrc",
-                            []
-                          ]
-                        },
-                        {
                           message: "ESLint error",
                           data: [
                             "Parsing error: ',' expected.",
                             "  const async transform = new TransformStream({",
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         },
                         {
@@ -21081,7 +15533,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             '  "contributingSources": [],',
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         }
                       ]
@@ -21094,7 +15546,7 @@ var warnings_processed_default = {
                       data: [
                         "Parsing error: ',' expected.",
                         "  const async transform = new TransformStream({",
-                        "2:9 - undefined:undefined"
+                        "2:9"
                       ]
                     }
                   ]
@@ -21186,18 +15638,7 @@ var warnings_processed_default = {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/RTCIceCandidatePairStats",
-                  messages: [
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#type",
-                        "/en-US/docs/Web/API/RTCIceCandidatePairStats/type",
-                        []
-                      ]
-                    }
-                  ]
+                  }
                 },
                 rtcicecandidatestats: {
                   children: {
@@ -21237,18 +15678,7 @@ var warnings_processed_default = {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/RTCIceCandidateStats",
-                  messages: [
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#type",
-                        "/en-US/docs/Web/API/RTCIceCandidateStats/type",
-                        []
-                      ]
-                    }
-                  ]
+                  }
                 },
                 rtcicetransport: {
                   children: {
@@ -21344,39 +15774,9 @@ var warnings_processed_default = {
                   slug: "/en-US/docs/Web/API/RTCInboundRtpStreamStats",
                   messages: [
                     {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#type",
-                        "/en-US/docs/Web/API/RTCInboundRtpStreamStats/type",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#timestamp",
-                        "/en-US/docs/Web/API/RTCInboundRtpStreamStats/timestamp",
-                        []
-                      ]
-                    },
-                    {
                       message: "Self link",
                       data: [
                         "/en-US/docs/Web/API/RTCInboundRtpStreamStats"
-                      ]
-                    }
-                  ]
-                },
-                rtcoutboundrtpstreamstats: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/RTCOutboundRtpStreamStats",
-                  messages: [
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#type",
-                        "/en-US/docs/Web/API/RTCOutboundRtpStreamStats/type",
-                        []
                       ]
                     }
                   ]
@@ -21396,20 +15796,6 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                rtcpeerconnectionstats: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/RTCPeerConnectionStats",
-                  messages: [
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#type",
-                        "/en-US/docs/Web/API/RTCPeerConnectionStats/type",
-                        []
-                      ]
-                    }
-                  ]
                 },
                 rtcremoteinboundrtpstreamstats: {
                   children: {
@@ -21431,72 +15817,7 @@ var warnings_processed_default = {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/RTCRemoteInboundRtpStreamStats",
-                  messages: [
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#type",
-                        "/en-US/docs/Web/API/RTCRemoteInboundRtpStreamStats/type",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#ssrc",
-                        "/en-US/docs/Web/API/RTCRemoteInboundRtpStreamStats/ssrc",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#roundtriptimemeasurements",
-                        "/en-US/docs/Web/API/RTCRemoteInboundRtpStreamStats/roundTripTimeMeasurements",
-                        []
-                      ]
-                    }
-                  ]
-                },
-                rtcremoteoutboundrtpstreamstats: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/RTCRemoteOutboundRtpStreamStats",
-                  messages: [
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#type",
-                        "/en-US/docs/Web/API/RTCRemoteOutboundRtpStreamStats/type",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#ssrc",
-                        "/en-US/docs/Web/API/RTCRemoteOutboundRtpStreamStats/ssrc",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#ssrc",
-                        "/en-US/docs/Web/API/RTCRemoteOutboundRtpStreamStats/ssrc",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#roundtriptimemeasurements",
-                        "/en-US/docs/Web/API/RTCRemoteOutboundRtpStreamStats/roundTripTimeMeasurements",
-                        []
-                      ]
-                    }
-                  ]
+                  }
                 },
                 rtcrtpscripttransformer: {
                   children: {
@@ -21509,26 +15830,12 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ')' expected.",
                             "  };",
-                            "4:9 - undefined:undefined"
+                            "4:9"
                           ]
                         }
                       ]
                     }
                   }
-                },
-                rtcsctptransport: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/RTCSctpTransport",
-                  messages: [
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#rtcsctptransport.maxmessagesize",
-                        "/en-US/docs/Web/API/RTCSctpTransport/maxMessageSize",
-                        []
-                      ]
-                    }
-                  ]
                 },
                 rtcstatsreport: {
                   children: {
@@ -21545,42 +15852,6 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                rtctransportstats: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/RTCTransportStats",
-                  messages: [
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#type",
-                        "/en-US/docs/Web/API/RTCTransportStats/type",
-                        []
-                      ]
-                    }
-                  ]
-                },
-                rtcvideosourcestats: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/RTCVideoSourceStats",
-                  messages: [
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#type",
-                        "/en-US/docs/Web/API/RTCVideoSourceStats/type",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#kind",
-                        "/en-US/docs/Web/API/RTCVideoSourceStats/kind",
-                        []
-                      ]
-                    }
-                  ]
                 },
                 screen_capture_api: {
                   children: {
@@ -21603,32 +15874,6 @@ var warnings_processed_default = {
                         {
                           message: "Missing specifications",
                           data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                securitypolicyviolationevent: {
-                  children: {
-                    sample: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SecurityPolicyViolationEvent/sample",
-                      messages: [
-                        {
-                          message: "Replace DT link with real target",
-                          data: [
-                            "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy#script-src",
-                            "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/script-src",
-                            []
-                          ]
-                        },
-                        {
-                          message: "Replace DT link with real target",
-                          data: [
-                            "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy#style-src",
-                            "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/style-src",
-                            []
-                          ]
                         }
                       ]
                     }
@@ -21669,19 +15914,87 @@ var warnings_processed_default = {
                   slug: "/en-US/docs/Web/API/ShadowRoot",
                   messages: [
                     {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#shadowroot.innerhtml",
-                        "/en-US/docs/Web/API/ShadowRoot/innerHTML",
-                        []
-                      ]
-                    },
-                    {
                       message: "ESLint error",
                       data: [
                         "Parsing error: ';' expected.",
                         "connectedCallback() {",
-                        "1:9 - undefined:undefined"
+                        "1:9"
+                      ]
+                    }
+                  ]
+                },
+                shared_storage_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Shared_Storage_API",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/select-url/creative-rotation",
+                        "https://privacysandbox.google.com/private-advertising/select-url/creative-rotation"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/select-url/ab-testing",
+                        "https://privacysandbox.google.com/private-advertising/select-url/ab-testing"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/select-url/known-customer",
+                        "https://privacysandbox.google.com/private-advertising/select-url/known-customer"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/private-aggregation",
+                        "https://privacysandbox.google.com/private-advertising/private-aggregation"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/private-aggregation/unique-reach",
+                        "https://privacysandbox.google.com/private-advertising/private-aggregation/unique-reach"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/private-aggregation/user-demographics",
+                        "https://privacysandbox.google.com/private-advertising/private-aggregation/user-demographics"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/private-aggregation/k-freq-reach",
+                        "https://privacysandbox.google.com/private-advertising/private-aggregation/k-freq-reach"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/select-url/ab-testing",
+                        "https://privacysandbox.google.com/private-advertising/select-url/ab-testing"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/shared-storage",
+                        "https://privacysandbox.google.com/private-advertising/shared-storage"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox",
+                        "https://privacysandbox.google.com/"
                       ]
                     }
                   ]
@@ -21690,6 +16003,13 @@ var warnings_processed_default = {
                   children: {},
                   slug: "/en-US/docs/Web/API/SharedStorageOperation",
                   messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/private-aggregation",
+                        "https://privacysandbox.google.com/private-advertising/private-aggregation"
+                      ]
+                    },
                     {
                       message: "Not in BCD",
                       data: [
@@ -21715,6 +16035,13 @@ var warnings_processed_default = {
                   },
                   slug: "/en-US/docs/Web/API/SharedStorageRunOperation",
                   messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/private-aggregation/unique-reach",
+                        "https://privacysandbox.google.com/private-advertising/private-aggregation/unique-reach"
+                      ]
+                    },
                     {
                       message: "Not in BCD",
                       data: [
@@ -21748,6 +16075,30 @@ var warnings_processed_default = {
                     }
                   ]
                 },
+                storage_access_api: {
+                  children: {
+                    related_website_sets: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Storage_Access_API/Related_website_sets",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/cookies/related-website-sets",
+                            "https://privacysandbox.google.com/cookies/related-website-sets"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/cookies/related-website-sets-integration",
+                            "https://privacysandbox.google.com/cookies/related-website-sets-integration"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 svganimatedrect: {
                   children: {
                     animval: {
@@ -21759,7 +16110,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "</script>",
-                            "9:9 - undefined:undefined"
+                            "9:9"
                           ]
                         }
                       ]
@@ -21906,16 +16257,36 @@ var warnings_processed_default = {
                     }
                   ]
                 },
-                taskcontroller: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/TaskController",
+                topics_api: {
+                  children: {
+                    using: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Topics_API/Using",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/topics",
+                            "https://privacysandbox.google.com/private-advertising/topics"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/Topics_API",
                   messages: [
                     {
-                      message: "Replace DT link with real target",
+                      message: "Redirected external link",
                       data: [
-                        "/en-US/docs/Web/API/AbortController#abortcontroller.signal",
-                        "/en-US/docs/Web/API/AbortController/signal",
-                        []
+                        "https://developers.google.com/privacy-sandbox/private-advertising/topics",
+                        "https://privacysandbox.google.com/private-advertising/topics"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox",
+                        "https://privacysandbox.google.com/"
                       ]
                     }
                   ]
@@ -22011,7 +16382,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Expression expected.",
                             '    const editor = document.getElementById("editor");',
-                            "5:9 - undefined:undefined"
+                            "5:9"
                           ]
                         }
                       ]
@@ -22062,7 +16433,7 @@ var warnings_processed_default = {
                       data: [
                         "Parsing error: ';' expected.",
                         "  rightBounds: [/* … */],",
-                        "3:9 - undefined:undefined"
+                        "3:9"
                       ]
                     }
                   ]
@@ -22202,7 +16573,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: '}' expected.",
                             "",
-                            "24:9 - undefined:undefined"
+                            "24:9"
                           ]
                         },
                         {
@@ -22210,7 +16581,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "}",
-                            "16:9 - undefined:undefined"
+                            "16:9"
                           ]
                         }
                       ]
@@ -22224,7 +16595,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "process(inputList, outputList, parameters) {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -22232,7 +16603,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "process(inputList, outputList, parameters) {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -22240,7 +16611,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "static get parameterDescriptors() {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -22248,7 +16619,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "process(inputList, outputList, parameters) {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         }
                       ]
@@ -22292,7 +16663,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: '}' expected.",
                             "",
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         },
                         {
@@ -22300,7 +16671,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "}",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         },
                         {
@@ -22308,7 +16679,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: '}' expected.",
                             "",
-                            "8:9 - undefined:undefined"
+                            "8:9"
                           ]
                         }
                       ]
@@ -22328,7 +16699,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "case 'back':",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -22336,7 +16707,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "case 'rotate-left':",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -22344,7 +16715,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "case 'rotate-right':",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         }
                       ]
@@ -22411,7 +16782,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Expression expected.",
                             "  challenge: new Uint8Array([117, 61, 252, 231, 191, 241, ...]),",
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         },
                         {
@@ -22419,7 +16790,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ',' expected.",
                             "    id: arrayBuffer, // needs to contain decoded binary form of id",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         },
                         {
@@ -22427,7 +16798,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ',' expected.",
                             "    id: arrayBuffer, // needs to contain decoded binary form of id",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         },
                         {
@@ -22435,7 +16806,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "  enforceCredentialProtectionPolicy: true",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         },
                         {
@@ -22443,7 +16814,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             '{ "credProtect": 0x01 }',
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -22451,7 +16822,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             '{"minPinLength": uint}',
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         }
                       ]
@@ -22464,7 +16835,7 @@ var warnings_processed_default = {
                       data: [
                         "Parsing error: Expression expected.",
                         "    challenge: new Uint8Array([117, 61, 252, 231, 191, 241, ...]),",
-                        "3:9 - undefined:undefined"
+                        "3:9"
                       ]
                     },
                     {
@@ -22472,7 +16843,7 @@ var warnings_processed_default = {
                       data: [
                         "Parsing error: Expression expected.",
                         "    challenge: new Uint8Array([139, 66, 181, 87, 7, 203, ...]),",
-                        "3:9 - undefined:undefined"
+                        "3:9"
                       ]
                     }
                   ]
@@ -22488,7 +16859,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "constructor() {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -22496,7 +16867,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "connectedCallback() {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -22504,7 +16875,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "disconnectedCallback() {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -22512,7 +16883,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "attributeChangedCallback(name, oldValue, newValue) {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -22520,7 +16891,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "static get observedAttributes() {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         }
                       ]
@@ -22554,7 +16925,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: '}' expected.",
                             "",
-                            "14:9 - undefined:undefined"
+                            "14:9"
                           ]
                         },
                         {
@@ -22562,7 +16933,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "}",
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         }
                       ]
@@ -22684,7 +17055,7 @@ var warnings_processed_default = {
                               data: [
                                 "Parsing error: '}' expected.",
                                 "",
-                                "3:9 - undefined:undefined"
+                                "3:9"
                               ]
                             },
                             {
@@ -22692,7 +17063,7 @@ var warnings_processed_default = {
                               data: [
                                 "Parsing error: Declaration or statement expected.",
                                 "})();",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -22710,7 +17081,7 @@ var warnings_processed_default = {
                               data: [
                                 "Parsing error: '}' expected.",
                                 "",
-                                "3:9 - undefined:undefined"
+                                "3:9"
                               ]
                             },
                             {
@@ -22718,7 +17089,7 @@ var warnings_processed_default = {
                               data: [
                                 "Parsing error: Declaration or statement expected.",
                                 "})();",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -22736,7 +17107,7 @@ var warnings_processed_default = {
                               data: [
                                 "Parsing error: '}' expected.",
                                 "",
-                                "3:9 - undefined:undefined"
+                                "3:9"
                               ]
                             },
                             {
@@ -22744,7 +17115,7 @@ var warnings_processed_default = {
                               data: [
                                 "Parsing error: Declaration or statement expected.",
                                 "})();",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -22762,7 +17133,7 @@ var warnings_processed_default = {
                               data: [
                                 "Parsing error: '}' expected.",
                                 "",
-                                "3:9 - undefined:undefined"
+                                "3:9"
                               ]
                             },
                             {
@@ -22770,7 +17141,7 @@ var warnings_processed_default = {
                               data: [
                                 "Parsing error: Declaration or statement expected.",
                                 "})();",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -22798,7 +17169,7 @@ var warnings_processed_default = {
                               data: [
                                 "Parsing error: '}' expected.",
                                 "",
-                                "3:9 - undefined:undefined"
+                                "3:9"
                               ]
                             },
                             {
@@ -22806,7 +17177,7 @@ var warnings_processed_default = {
                               data: [
                                 "Parsing error: Declaration or statement expected.",
                                 "})();",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -22888,7 +17259,7 @@ var warnings_processed_default = {
                               data: [
                                 "Parsing error: '}' expected.",
                                 "",
-                                "2:9 - undefined:undefined"
+                                "2:9"
                               ]
                             }
                           ]
@@ -22902,7 +17273,7 @@ var warnings_processed_default = {
                               data: [
                                 "Parsing error: '}' expected.",
                                 "",
-                                "2:9 - undefined:undefined"
+                                "2:9"
                               ]
                             }
                           ]
@@ -22916,7 +17287,7 @@ var warnings_processed_default = {
                               data: [
                                 "Parsing error: '}' expected.",
                                 "",
-                                "2:9 - undefined:undefined"
+                                "2:9"
                               ]
                             }
                           ]
@@ -23110,7 +17481,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "  antialias: true,",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         }
                       ]
@@ -23339,7 +17710,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "... // Do something with socket",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         },
                         {
@@ -23347,7 +17718,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "... // Do something with socket",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         },
                         {
@@ -23355,7 +17726,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "... // Do something with socket",
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         }
                       ]
@@ -23367,19 +17738,11 @@ var warnings_processed_default = {
                   slug: "/en-US/docs/Web/API/WebTransport_API",
                   messages: [
                     {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "",
-                        "Text after link:",
-                        "Head-of-line blocking"
-                      ]
-                    },
-                    {
                       message: "ESLint error",
                       data: [
                         "Parsing error: Declaration or statement expected.",
                         "  ...",
-                        "9:9 - undefined:undefined"
+                        "9:9"
                       ]
                     }
                   ]
@@ -23393,7 +17756,7 @@ var warnings_processed_default = {
                       data: [
                         "Parsing error: Declaration or statement expected.",
                         "  ...",
-                        "9:9 - undefined:undefined"
+                        "9:9"
                       ]
                     }
                   ]
@@ -23409,7 +17772,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Octal literals are not allowed. Use the syntax '0o17'.",
                             "  closeCode: 017,",
-                            "8:9 - undefined:undefined"
+                            "8:9"
                           ]
                         }
                       ]
@@ -23423,7 +17786,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Expression expected.",
                             "writer.write(...);",
-                            "8:9 - undefined:undefined"
+                            "8:9"
                           ]
                         }
                       ]
@@ -23483,7 +17846,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: '}' expected.",
                             "",
-                            "7:9 - undefined:undefined"
+                            "7:9"
                           ]
                         },
                         {
@@ -23491,7 +17854,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: '}' expected.",
                             "",
-                            "4:9 - undefined:undefined"
+                            "4:9"
                           ]
                         },
                         {
@@ -23499,7 +17862,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: '}' expected.",
                             "",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         },
                         {
@@ -23507,7 +17870,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: '}' expected.",
                             "",
-                            "5:9 - undefined:undefined"
+                            "5:9"
                           ]
                         },
                         {
@@ -23515,7 +17878,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: '}' expected.",
                             "",
-                            "6:9 - undefined:undefined"
+                            "6:9"
                           ]
                         },
                         {
@@ -23523,7 +17886,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "            });",
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         },
                         {
@@ -23531,7 +17894,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "          } else {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -23539,7 +17902,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: '}' expected.",
                             "",
-                            "4:9 - undefined:undefined"
+                            "4:9"
                           ]
                         },
                         {
@@ -23547,7 +17910,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "}",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         },
                         {
@@ -23555,7 +17918,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: '}' expected.",
                             "",
-                            "8:9 - undefined:undefined"
+                            "8:9"
                           ]
                         },
                         {
@@ -23563,7 +17926,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "}",
-                            "35:9 - undefined:undefined"
+                            "35:9"
                           ]
                         }
                       ]
@@ -23581,7 +17944,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Argument expression expected.",
                             "      }),",
-                            "15:9 - undefined:undefined"
+                            "15:9"
                           ]
                         }
                       ]
@@ -23789,6 +18152,26 @@ var warnings_processed_default = {
                           message: "Not in BCD",
                           data: [
                             "api.Window.cut_event"
+                          ]
+                        }
+                      ]
+                    },
+                    fence: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/fence",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/fenced-frame",
+                            "https://privacysandbox.google.com/private-advertising/fenced-frame"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox",
+                            "https://privacysandbox.google.com/"
                           ]
                         }
                       ]
@@ -24029,6 +18412,13 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/Web/API/WindowSharedStorage/run",
                       messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/private-aggregation/unique-reach",
+                            "https://privacysandbox.google.com/private-advertising/private-aggregation/unique-reach"
+                          ]
+                        },
                         {
                           message: "Not in BCD",
                           data: [
@@ -24344,6 +18734,19 @@ var warnings_processed_default = {
                     }
                   }
                 },
+                worklet: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Worklet",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.css-houdini.org/css-layout-api-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 workletsharedstorage: {
                   children: {
                     context: {
@@ -24375,6 +18778,20 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Web/API/WorkletSharedStorage/get",
                       messages: [
                         {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/private-aggregation/k-freq-reach",
+                            "https://privacysandbox.google.com/private-advertising/private-aggregation/k-freq-reach"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/private-aggregation/fundamentals",
+                            "https://privacysandbox.google.com/private-advertising/private-aggregation/fundamentals"
+                          ]
+                        },
+                        {
                           message: "Not in BCD",
                           data: [
                             "api.WorkletSharedStorage.get"
@@ -24385,7 +18802,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ',' expected.",
                             "  await window.sharedStorage.run('k-freq-measurement', { data: { kFreq: 3, contentId: 123 });",
-                            "8:9 - undefined:undefined"
+                            "8:9"
                           ]
                         }
                       ]
@@ -24430,6 +18847,27 @@ var warnings_processed_default = {
                   slug: "/en-US/docs/Web/API/WorkletSharedStorage",
                   messages: [
                     {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/private-aggregation",
+                        "https://privacysandbox.google.com/private-advertising/private-aggregation"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
+                        "https://privacysandbox.google.com/private-advertising/protected-audience"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developers.google.com/privacy-sandbox/private-advertising/shared-storage",
+                        "https://privacysandbox.google.com/private-advertising/shared-storage"
+                      ]
+                    },
+                    {
                       message: "Not in BCD",
                       data: [
                         "api.WorkletSharedStorage"
@@ -24440,7 +18878,7 @@ var warnings_processed_default = {
                       data: [
                         "Parsing error: Declaration or statement expected.",
                         "  convertEventIdToBucket(eventId) { ... }",
-                        "2:9 - undefined:undefined"
+                        "2:9"
                       ]
                     }
                   ]
@@ -24610,7 +19048,7 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: Expression expected.",
                             "delete()",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         }
                       ]
@@ -26119,7 +20557,7 @@ css.selectors.-webkit-resizer`,
                       message: "Stylelint error",
                       data: [
                         "Unknown word attr (CssSyntaxError)",
-                        'attr(data-name string, "stranger")',
+                        'attr(data-name raw-string, "stranger")',
                         "1:1"
                       ]
                     },
@@ -26136,6 +20574,14 @@ css.selectors.-webkit-resizer`,
                       data: [
                         "Unknown word attr (CssSyntaxError)",
                         "attr(data-size type(<length> | <percentage>), 0px)",
+                        "1:1"
+                      ]
+                    },
+                    {
+                      message: "Stylelint error",
+                      data: [
+                        "Unknown word attr (CssSyntaxError)",
+                        "attr(data-content type(*))",
                         "1:1"
                       ]
                     },
@@ -26447,6 +20893,12 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/color_value/color",
                       messages: [
+                        {
+                          message: "Missing data",
+                          data: [
+                            "CSS formal syntax"
+                          ]
+                        },
                         {
                           message: "Stylelint error",
                           data: [
@@ -27461,24 +21913,6 @@ css.selectors.-webkit-resizer`,
                             "Unknown word CSS (CssSyntaxError)",
                             "  CSS rules to apply",
                             "3:3"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                css_containment: {
-                  children: {
-                    container_size_and_style_queries: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries",
-                      messages: [
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "",
-                            "Text after link:",
-                            "Container scroll-state queries"
                           ]
                         }
                       ]
@@ -29002,22 +23436,6 @@ css.properties.width.fit-content_function`
                     {
                       message: "Text stuck to code/link",
                       data: [
-                        "",
-                        "Text after link:",
-                        "<string>+"
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "",
-                        "Text after code:",
-                        "<string>+"
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
                         "<string>",
                         "Text after link:",
                         "+"
@@ -29029,28 +23447,6 @@ css.properties.width.fit-content_function`
                         "<string>",
                         "Text after code:",
                         "+"
-                      ]
-                    }
-                  ]
-                },
-                height: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/height",
-                  messages: [
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "fit-content(",
-                        "Text after link:",
-                        "<length-percentage>)"
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "fit-content(",
-                        "Text after code:",
-                        "<length-percentage>)"
                       ]
                     }
                   ]
@@ -29304,50 +23700,6 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
-                "math-depth": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/math-depth",
-                  messages: [
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "add(",
-                        "Text after link:",
-                        "<integer>)"
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "add(",
-                        "Text after code:",
-                        "<integer>)"
-                      ]
-                    }
-                  ]
-                },
-                "max-block-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/max-block-size",
-                  messages: [
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "fit-content(",
-                        "Text after link:",
-                        "<length-percentage>)"
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "fit-content(",
-                        "Text after code:",
-                        "<length-percentage>)"
-                      ]
-                    }
-                  ]
-                },
                 "max-content": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/max-content",
@@ -29358,50 +23710,6 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
-                "max-height": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/max-height",
-                  messages: [
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "fit-content(",
-                        "Text after link:",
-                        "<length-percentage>)"
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "fit-content(",
-                        "Text after code:",
-                        "<length-percentage>)"
-                      ]
-                    }
-                  ]
-                },
-                "max-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/max-width",
-                  messages: [
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "fit-content(",
-                        "Text after link:",
-                        "<length-percentage>)"
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "fit-content(",
-                        "Text after code:",
-                        "<length-percentage>)"
-                      ]
-                    }
-                  ]
-                },
                 "min-content": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/min-content",
@@ -29409,50 +23717,6 @@ css.properties.width.fit-content_function`
                     {
                       message: "Unreachable via sidebar",
                       data: []
-                    }
-                  ]
-                },
-                "min-height": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/min-height",
-                  messages: [
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "fit-content(",
-                        "Text after link:",
-                        "<length-percentage>)"
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "fit-content(",
-                        "Text after code:",
-                        "<length-percentage>)"
-                      ]
-                    }
-                  ]
-                },
-                "min-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/min-width",
-                  messages: [
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "fit-content(",
-                        "Text after link:",
-                        "<length-percentage>)"
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "fit-content(",
-                        "Text after code:",
-                        "<length-percentage>)"
-                      ]
                     }
                   ]
                 },
@@ -29659,30 +23923,6 @@ css.properties.grid-template-rows.minmax`
                   children: {},
                   slug: "/en-US/docs/Web/CSS/quotes",
                   messages: [
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "[",
-                        "Text after link:",
-                        "<string> <string>]+"
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "[",
-                        "Text after code:",
-                        "<string> <string>]+"
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "<string> <string>]+",
-                        "Text before code:",
-                        "["
-                      ]
-                    },
                     {
                       message: "Text stuck to code/link",
                       data: [
@@ -30719,28 +24959,6 @@ css.properties.list-style-type.symbols`
                       data: []
                     }
                   ]
-                },
-                width: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/width",
-                  messages: [
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "fit-content(",
-                        "Text after link:",
-                        "<length-percentage>)"
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "fit-content(",
-                        "Text after code:",
-                        "<length-percentage>)"
-                      ]
-                    }
-                  ]
                 }
               }
             },
@@ -31432,6 +25650,47 @@ html.elements.select.size`
                 },
                 element: {
                   children: {
+                    fencedframe: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTML/Element/fencedframe",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
+                            "https://privacysandbox.google.com/private-advertising/protected-audience"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
+                            "https://privacysandbox.google.com/private-advertising/protected-audience"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/shared-storage",
+                            "https://privacysandbox.google.com/private-advertising/shared-storage"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/fenced-frame",
+                            "https://privacysandbox.google.com/private-advertising/fenced-frame"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox",
+                            "https://privacysandbox.google.com/"
+                          ]
+                        }
+                      ]
+                    },
                     footer: {
                       children: {},
                       slug: "/en-US/docs/Web/HTML/Element/footer",
@@ -31459,24 +25718,6 @@ html.elements.select.size`
                           ]
                         }
                       ]
-                    },
-                    input: {
-                      children: {
-                        search: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Element/input/search",
-                          messages: [
-                            {
-                              message: "Replace DT link with real target",
-                              data: [
-                                "/en-US/docs/Web/API/HTMLInputElement#value",
-                                "/en-US/docs/Web/API/HTMLInputElement/value",
-                                []
-                              ]
-                            }
-                          ]
-                        }
-                      }
                     },
                     legend: {
                       children: {},
@@ -31524,14 +25765,6 @@ html.elements.select.size`
                               slug: "/en-US/docs/Web/HTML/Element/script/type/importmap",
                               messages: [
                                 {
-                                  message: "Replace DT link with real target",
-                                  data: [
-                                    "/en-US/docs/Web/HTML/Element/script#type",
-                                    "/en-US/docs/Web/HTML/Element/script/type",
-                                    []
-                                  ]
-                                },
-                                {
                                   message: "Unreachable via sidebar",
                                   data: []
                                 }
@@ -31550,7 +25783,7 @@ html.elements.select.size`
                                   data: [
                                     "Parsing error: '}' expected.",
                                     '  "prerender": [',
-                                    "3:9 - undefined:undefined"
+                                    "3:9"
                                   ]
                                 }
                               ]
@@ -31564,26 +25797,7 @@ html.elements.select.size`
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Web/HTML/Element/script",
-                      messages: [
-                        {
-                          message: "Replace DT link with real target",
-                          data: [
-                            "#type",
-                            "/en-US/docs/Web/HTML/Element/script/type",
-                            []
-                          ]
-                        },
-                        {
-                          message: "Replace DT link with real target",
-                          data: [
-                            "#importmap",
-                            "/en-US/docs/Web/HTML/Element/script/type/importmap",
-                            []
-                          ]
-                        }
-                      ]
+                      }
                     },
                     selectedcontent: {
                       children: {},
@@ -31631,22 +25845,6 @@ html.elements.select.size`
                   },
                   slug: "/en-US/docs/Web/HTML/Global_attributes",
                   messages: [
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#contenteditable",
-                        "/en-US/docs/Web/HTML/Global_attributes/contenteditable",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#tabindex",
-                        "/en-US/docs/Web/HTML/Global_attributes/tabindex",
-                        []
-                      ]
-                    },
                     {
                       message: "Unreachable via sidebar",
                       data: []
@@ -31845,7 +26043,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: JSX element 'year2' has no corresponding closing tag.",
                                 "dateRange(<day1>, <month1>, <year1>, <day2>, <month2>, <year2>, [gmt])",
-                                "7:9 - undefined:undefined"
+                                "7:9"
                               ]
                             },
                             {
@@ -31853,7 +26051,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: JSX element 'sec2' has no corresponding closing tag.",
                                 "timeRange(<hour1>, <min1>, <sec1>, <hour2>, <min2>, <sec2>, [gmt])",
-                                "2:9 - undefined:undefined"
+                                "2:9"
                               ]
                             }
                           ]
@@ -31879,19 +26077,6 @@ html.elements.select.size`
                   children: {
                     headers: {
                       children: {
-                        accept: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.gnu.org/software/wget/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
                         "accept-patch": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept-Patch",
@@ -31921,11 +26106,10 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Attribution-Reporting-Register-Trigger",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "Redirected external link",
                               data: [
-                                "Parsing error: ')' expected.",
-                                "  });",
-                                "12:9 - undefined:undefined"
+                                "https://developers.google.com/privacy-sandbox/private-advertising/attribution-reporting/prevent-duplication",
+                                "https://privacysandbox.google.com/private-advertising/attribution-reporting/prevent-duplication"
                               ]
                             },
                             {
@@ -31933,7 +26117,15 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: ')' expected.",
                                 "  });",
-                                "19:9 - undefined:undefined"
+                                "12:9"
+                              ]
+                            },
+                            {
+                              message: "ESLint error",
+                              data: [
+                                "Parsing error: ')' expected.",
+                                "  });",
+                                "19:9"
                               ]
                             }
                           ]
@@ -31979,49 +26171,8 @@ html.elements.select.size`
                                   ]
                                 }
                               ]
-                            },
-                            "report-uri": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/report-uri",
-                              messages: [
-                                {
-                                  message: "Replace DT link with real target",
-                                  data: [
-                                    "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy#script-src",
-                                    "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/script-src",
-                                    []
-                                  ]
-                                },
-                                {
-                                  message: "Replace DT link with real target",
-                                  data: [
-                                    "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy#style-src",
-                                    "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/style-src",
-                                    []
-                                  ]
-                                }
-                              ]
                             }
-                          },
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy",
-                          messages: [
-                            {
-                              message: "Replace DT link with real target",
-                              data: [
-                                "#report-uri",
-                                "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/report-uri",
-                                []
-                              ]
-                            },
-                            {
-                              message: "Replace DT link with real target",
-                              data: [
-                                "#report-to",
-                                "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/report-to",
-                                []
-                              ]
-                            }
-                          ]
+                          }
                         },
                         "dictionary-id": {
                           children: {},
@@ -32209,7 +26360,7 @@ html.elements.select.size`
                           data: [
                             "Parsing error: 'try' expected.",
                             "catch (exception) {",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         }
                       ]
@@ -32259,7 +26410,7 @@ html.elements.select.size`
                           data: [
                             "Parsing error: Unterminated regular expression literal.",
                             "/* You can't, however, /* nest comments */ SyntaxError */",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -32267,7 +26418,7 @@ html.elements.select.size`
                           data: [
                             "Parsing error: Identifier expected.",
                             "console.log(unusualPropertyNames.'');   // SyntaxError: Unexpected string",
-                            "5:9 - undefined:undefined"
+                            "5:9"
                           ]
                         }
                       ]
@@ -32330,7 +26481,7 @@ html.elements.select.size`
                           data: [
                             "Parsing error: Decimals with leading zeros are not allowed.",
                             "0888 // 888 parsed as decimal",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -32338,7 +26489,7 @@ html.elements.select.size`
                           data: [
                             "Parsing error: Octal literals are not allowed. Use the syntax '0o755'.",
                             "const n = 0755; // 493",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         }
                       ]
@@ -32436,18 +26587,7 @@ html.elements.select.size`
                 reference: {
                   children: {
                     classes: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Reference/Classes",
-                      messages: [
-                        {
-                          message: "Replace DT link with real target",
-                          data: [
-                            "#private_properties_2",
-                            "/en-US/docs/Web/JavaScript/Reference/Classes/Private_properties",
-                            []
-                          ]
-                        }
-                      ]
+                      children: {}
                     },
                     deprecated_and_obsolete_features: {
                       children: {},
@@ -32458,7 +26598,7 @@ html.elements.select.size`
                           data: [
                             "Parsing error: Expression expected.",
                             "<!-- comment",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -32466,7 +26606,7 @@ html.elements.select.size`
                           data: [
                             "Parsing error: Expression or comma expected.",
                             "[for (x of iterable) x]",
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         }
                       ]
@@ -32482,7 +26622,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Declaration or statement expected.",
                                 "}",
-                                "8:9 - undefined:undefined"
+                                "8:9"
                               ]
                             }
                           ]
@@ -32496,7 +26636,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Invalid optional chain from new expression. Did you mean to call 'Intl()'?",
                                 "new Intl?.DateTimeFormat();",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             },
                             {
@@ -32504,7 +26644,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Invalid optional chain from new expression. Did you mean to call 'Intl.DateTimeFormat()'?",
                                 "new Intl.DateTimeFormat?.();",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -32518,7 +26658,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Declaration or statement expected.",
                                 "}",
-                                "8:9 - undefined:undefined"
+                                "8:9"
                               ]
                             }
                           ]
@@ -32544,7 +26684,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Octal escape sequences are not allowed. Use the syntax '\\xa9'.",
                                 '"\\251";',
-                                "3:9 - undefined:undefined"
+                                "3:9"
                               ]
                             }
                           ]
@@ -32558,7 +26698,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Octal literals are not allowed. Use the syntax '0o3'.",
                                 "03;",
-                                "3:9 - undefined:undefined"
+                                "3:9"
                               ]
                             }
                           ]
@@ -32572,7 +26712,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: An identifier or keyword cannot immediately follow a numeric literal.",
                                 'const 1life = "foo";',
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             },
                             {
@@ -32580,7 +26720,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: An identifier or keyword cannot immediately follow a numeric literal.",
                                 "alert(typeof 1.toString())",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -32594,7 +26734,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Invalid character.",
                                 "“This looks like a string”; // SyntaxError: illegal character",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             },
                             {
@@ -32602,7 +26742,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Invalid character.",
                                 'const operators = ["+", "-", ×", "÷"];',
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             },
                             {
@@ -32610,7 +26750,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Expression expected.",
                                 'const foo = "bar";<200b>',
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -32624,7 +26764,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: ')' expected.",
                                 "if (Math.PI + 1 = 3 || Math.PI + 1 = 4) {",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -32638,7 +26778,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: The variable declaration of a 'for...in' statement cannot have an initializer.",
                                 "for (const i = 0 in obj) {",
-                                "3:9 - undefined:undefined"
+                                "3:9"
                               ]
                             }
                           ]
@@ -32652,7 +26792,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: The variable declaration of a 'for...of' statement cannot have an initializer.",
                                 "for (const value = 50 of iterable) {",
-                                "3:9 - undefined:undefined"
+                                "3:9"
                               ]
                             }
                           ]
@@ -32666,7 +26806,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Expression or comma expected.",
                                 "const instruments = [",
-                                "3:9 - undefined:undefined"
+                                "3:9"
                               ]
                             }
                           ]
@@ -32680,7 +26820,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: ':' expected.",
                                 'const obj = { "b"+"ar": "foo" };',
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -32694,7 +26834,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: '}' expected.",
                                 "",
-                                "7:9 - undefined:undefined"
+                                "7:9"
                               ]
                             },
                             {
@@ -32702,7 +26842,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Declaration or statement expected.",
                                 ")();",
-                                "5:9 - undefined:undefined"
+                                "5:9"
                               ]
                             }
                           ]
@@ -32716,7 +26856,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: ',' expected.",
                                 "  c: 3",
-                                "4:9 - undefined:undefined"
+                                "4:9"
                               ]
                             }
                           ]
@@ -32730,7 +26870,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Identifier expected.",
                                 "function square(3) {",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -32744,7 +26884,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Identifier expected.",
                                 "obj.[foo].[bar]",
-                                "4:9 - undefined:undefined"
+                                "4:9"
                               ]
                             },
                             {
@@ -32752,7 +26892,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Identifier expected.",
                                 'console.log("Hello" . "world");',
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -32766,7 +26906,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: ',' expected.",
                                 'console.log("PI: " Math.PI);',
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             },
                             {
@@ -32774,7 +26914,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Unterminated string literal.",
                                 `console.log('"Java" + "Script" = \\"' + "Java" + 'Script\\");`,
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -32788,7 +26928,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: ')' expected.",
                                 "if (Math.PI < 3 {",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             },
                             {
@@ -32796,7 +26936,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: ')' expected.",
                                 "if (done is true) {",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -32810,7 +26950,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Variable declaration expected.",
                                 'const = "foo";',
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             },
                             {
@@ -32818,7 +26958,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: 'debugger' is not allowed as a variable declaration name.",
                                 'const debugger = "whoop";',
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             },
                             {
@@ -32826,7 +26966,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Variable declaration expected.",
                                 'const z, = "foo"',
-                                "2:9 - undefined:undefined"
+                                "2:9"
                               ]
                             },
                             {
@@ -32834,7 +26974,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Variable declaration expected.",
                                 "const arr = 1,2,3,4,5;",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -32848,7 +26988,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Identifier expected.",
                                 "const enum = { RED: 0, GREEN: 1, BLUE: 2 };",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -32874,7 +27014,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Unterminated string literal.",
                                 'const longString = "This is a very long string which needs',
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -32888,7 +27028,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Expression expected.",
                                 "for (let i = 0; i < 5,; ++i) {",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             },
                             {
@@ -32896,7 +27036,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Expression expected.",
                                 "if (n > upperBound) || (n < lowerBound) { // Missing parentheses here!",
-                                "2:9 - undefined:undefined"
+                                "2:9"
                               ]
                             },
                             {
@@ -32904,7 +27044,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: ',' expected.",
                                 '    document.getElementById("app").classList.add("loaded");',
-                                "3:9 - undefined:undefined"
+                                "3:9"
                               ]
                             }
                           ]
@@ -32918,7 +27058,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Identifier expected.",
                                 "function () {",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             },
                             {
@@ -32926,7 +27066,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Identifier expected.",
                                 "  german: function () {",
-                                "2:9 - undefined:undefined"
+                                "2:9"
                               ]
                             },
                             {
@@ -32934,7 +27074,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Identifier expected.",
                                 "  function () {",
-                                "5:9 - undefined:undefined"
+                                "5:9"
                               ]
                             }
                           ]
@@ -32948,7 +27088,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: An unary expression with the '-' operator is not allowed in the left-hand side of an exponentiation expression. Consider enclosing the expression in parentheses.",
                                 "-a ** b",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             },
                             {
@@ -32956,7 +27096,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: An unary expression with the 'await' operator is not allowed in the left-hand side of an exponentiation expression. Consider enclosing the expression in parentheses.",
                                 "await a ** b",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             },
                             {
@@ -32964,7 +27104,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: An unary expression with the '-' operator is not allowed in the left-hand side of an exponentiation expression. Consider enclosing the expression in parentheses.",
                                 "  return (n) => (-1 ** n * x ** (2 * n + 1)) / factorial(2 * n + 1);",
-                                "2:9 - undefined:undefined"
+                                "2:9"
                               ]
                             }
                           ]
@@ -33025,7 +27165,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: ';' expected.",
                                 "(param) => expression",
-                                "5:9 - undefined:undefined"
+                                "5:9"
                               ]
                             },
                             {
@@ -33033,7 +27173,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: ';' expected.",
                                 "(a = 400, b = 20, c) => expression",
-                                "2:9 - undefined:undefined"
+                                "2:9"
                               ]
                             },
                             {
@@ -33041,7 +27181,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Identifier expected.",
                                 "const func2 = () => { foo: function () {} };",
-                                "4:9 - undefined:undefined"
+                                "4:9"
                               ]
                             },
                             {
@@ -33049,7 +27189,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Expression expected.",
                                 "callback = callback || () => {};",
-                                "3:9 - undefined:undefined"
+                                "3:9"
                               ]
                             }
                           ]
@@ -33063,7 +27203,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Unexpected keyword or identifier.",
                                 "{ get prop() { /* … */ } }",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -33077,7 +27217,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Unexpected keyword or identifier.",
                                 "{ set prop(val) { /* … */ } }",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -33090,7 +27230,7 @@ html.elements.select.size`
                           data: [
                             "Parsing error: Identifier expected.",
                             "function () { // SyntaxError: Function statements require a function name",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         }
                       ]
@@ -33108,7 +27248,7 @@ html.elements.select.size`
                                   data: [
                                     "Parsing error: ')' expected.",
                                     "  if (a is less than b by some ordering criterion) {",
-                                    "2:9 - undefined:undefined"
+                                    "2:9"
                                   ]
                                 }
                               ]
@@ -33121,7 +27261,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Unexpected keyword or identifier.",
                                 "arr.0; // a syntax error",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -33223,100 +27363,6 @@ html.elements.select.size`
                             }
                           }
                         },
-                        map: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
-                          messages: [
-                            {
-                              message: "Replace DT link with real target",
-                              data: [
-                                "#map.prototype.size",
-                                "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/size",
-                                []
-                              ]
-                            },
-                            {
-                              message: "Replace DT link with real target",
-                              data: [
-                                "#map.prototype.entries",
-                                "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/entries",
-                                []
-                              ]
-                            },
-                            {
-                              message: "Replace DT link with real target",
-                              data: [
-                                "#map.prototype.foreach",
-                                "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/forEach",
-                                []
-                              ]
-                            },
-                            {
-                              message: "Replace DT link with real target",
-                              data: [
-                                "#map.prototype.get",
-                                "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/get",
-                                []
-                              ]
-                            },
-                            {
-                              message: "Replace DT link with real target",
-                              data: [
-                                "#map.prototype.has",
-                                "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/has",
-                                []
-                              ]
-                            },
-                            {
-                              message: "Replace DT link with real target",
-                              data: [
-                                "#map.prototype.keys",
-                                "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/keys",
-                                []
-                              ]
-                            },
-                            {
-                              message: "Replace DT link with real target",
-                              data: [
-                                "#map.prototype.values",
-                                "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/values",
-                                []
-                              ]
-                            },
-                            {
-                              message: "Replace DT link with real target",
-                              data: [
-                                "#map.prototypesymbol.iterator",
-                                "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/Symbol.iterator",
-                                []
-                              ]
-                            },
-                            {
-                              message: "Replace DT link with real target",
-                              data: [
-                                "#map.prototype.clear",
-                                "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/clear",
-                                []
-                              ]
-                            },
-                            {
-                              message: "Replace DT link with real target",
-                              data: [
-                                "#map.prototype.delete",
-                                "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/delete",
-                                []
-                              ]
-                            },
-                            {
-                              message: "Replace DT link with real target",
-                              data: [
-                                "#map.prototype.set",
-                                "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/set",
-                                []
-                              ]
-                            }
-                          ]
-                        },
                         number: {
                           children: {
                             nan: {
@@ -33328,7 +27374,7 @@ html.elements.select.size`
                                   data: [
                                     "Unused eslint-disable directive (no problems were reported from 'use-isnan').",
                                     "  // eslint-disable-next-line use-isnan",
-                                    "2:3 - undefined:undefined"
+                                    "2:3"
                                   ]
                                 }
                               ]
@@ -33398,92 +27444,6 @@ html.elements.select.size`
                             }
                           ]
                         },
-                        set: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
-                          messages: [
-                            {
-                              message: "Replace DT link with real target",
-                              data: [
-                                "#set.prototype.size",
-                                "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/size",
-                                []
-                              ]
-                            },
-                            {
-                              message: "Replace DT link with real target",
-                              data: [
-                                "#set.prototype.entries",
-                                "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/entries",
-                                []
-                              ]
-                            },
-                            {
-                              message: "Replace DT link with real target",
-                              data: [
-                                "#set.prototype.foreach",
-                                "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/forEach",
-                                []
-                              ]
-                            },
-                            {
-                              message: "Replace DT link with real target",
-                              data: [
-                                "#set.prototype.has",
-                                "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/has",
-                                []
-                              ]
-                            },
-                            {
-                              message: "Replace DT link with real target",
-                              data: [
-                                "#set.prototype.keys",
-                                "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/keys",
-                                []
-                              ]
-                            },
-                            {
-                              message: "Replace DT link with real target",
-                              data: [
-                                "#set.prototype.values",
-                                "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/values",
-                                []
-                              ]
-                            },
-                            {
-                              message: "Replace DT link with real target",
-                              data: [
-                                "#set.prototypesymbol.iterator",
-                                "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/Symbol.iterator",
-                                []
-                              ]
-                            },
-                            {
-                              message: "Replace DT link with real target",
-                              data: [
-                                "#set.prototype.clear",
-                                "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/clear",
-                                []
-                              ]
-                            },
-                            {
-                              message: "Replace DT link with real target",
-                              data: [
-                                "#set.prototype.delete",
-                                "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/delete",
-                                []
-                              ]
-                            },
-                            {
-                              message: "Replace DT link with real target",
-                              data: [
-                                "#set.prototype.add",
-                                "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/add",
-                                []
-                              ]
-                            }
-                          ]
-                        },
                         symbol: {
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
@@ -33509,7 +27469,7 @@ html.elements.select.size`
                                       data: [
                                         "Parsing error: Expression expected.",
                                         "with(info)",
-                                        "1:9 - undefined:undefined"
+                                        "1:9"
                                       ]
                                     }
                                   ]
@@ -33565,7 +27525,7 @@ html.elements.select.size`
                                       data: [
                                         "Parsing error: Expression expected.",
                                         "with(info, options)",
-                                        "2:9 - undefined:undefined"
+                                        "2:9"
                                       ]
                                     }
                                   ]
@@ -33583,7 +27543,7 @@ html.elements.select.size`
                                       data: [
                                         "Parsing error: Expression expected.",
                                         "with(info, options)",
-                                        "2:9 - undefined:undefined"
+                                        "2:9"
                                       ]
                                     }
                                   ]
@@ -33639,7 +27599,7 @@ html.elements.select.size`
                                       data: [
                                         "Parsing error: Expression expected.",
                                         "with(info, options)",
-                                        "2:9 - undefined:undefined"
+                                        "2:9"
                                       ]
                                     }
                                   ]
@@ -33657,7 +27617,7 @@ html.elements.select.size`
                                       data: [
                                         "Parsing error: Expression expected.",
                                         "with(info, options)",
-                                        "2:9 - undefined:undefined"
+                                        "2:9"
                                       ]
                                     }
                                   ]
@@ -33675,7 +27635,7 @@ html.elements.select.size`
                                       data: [
                                         "Parsing error: Expression expected.",
                                         "with(info, options)",
-                                        "2:9 - undefined:undefined"
+                                        "2:9"
                                       ]
                                     }
                                   ]
@@ -33693,7 +27653,7 @@ html.elements.select.size`
                                       data: [
                                         "Parsing error: A bigint literal cannot use exponential notation.",
                                         "const epochNanoseconds = BigInt(epochMilliseconds) * 1e6n;",
-                                        "2:9 - undefined:undefined"
+                                        "2:9"
                                       ]
                                     }
                                   ]
@@ -33707,7 +27667,7 @@ html.elements.select.size`
                                       data: [
                                         "Parsing error: Expression expected.",
                                         "with(info, options)",
-                                        "2:9 - undefined:undefined"
+                                        "2:9"
                                       ]
                                     }
                                   ]
@@ -33766,6 +27726,13 @@ html.elements.select.size`
                           data: [
                             "/en-US/docs/Web/JavaScript/Reference"
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://trac.webkit.org/wiki/JavaScriptCore",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -33778,7 +27745,7 @@ html.elements.select.size`
                           data: [
                             "Parsing error: Identifier expected. 'import' is a reserved word that cannot be used here.",
                             "function import() {} // Illegal: import is a reserved word.",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -33786,7 +27753,7 @@ html.elements.select.size`
                           data: [
                             "Parsing error: 'else' is not allowed as a variable declaration name.",
                             "const els\\u{65} = 1;",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -33794,7 +27761,7 @@ html.elements.select.size`
                           data: [
                             "Parsing error: Decimals with leading zeros are not allowed.",
                             "0888 // 888 parsed as decimal",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -33802,7 +27769,7 @@ html.elements.select.size`
                           data: [
                             "Parsing error: Octal literals are not allowed. Use the syntax '0o755'.",
                             "0755n; // SyntaxError: invalid BigInt syntax",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         },
                         {
@@ -33810,7 +27777,7 @@ html.elements.select.size`
                           data: [
                             "Parsing error: Multiple consecutive numeric separators are not permitted.",
                             "100__000; // SyntaxError",
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         },
                         {
@@ -33818,7 +27785,7 @@ html.elements.select.size`
                           data: [
                             "Parsing error: ']' expected.",
                             "",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         },
                         {
@@ -33826,7 +27793,7 @@ html.elements.select.size`
                           data: [
                             "Parsing error: ';' expected.",
                             "  a < 10 // No ASI here",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         },
                         {
@@ -33834,7 +27801,7 @@ html.elements.select.size`
                           data: [
                             "Parsing error: ';' expected.",
                             "  *gen() {}",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         },
                         {
@@ -33842,7 +27809,7 @@ html.elements.select.size`
                           data: [
                             "Parsing error: ';' expected.",
                             "  a = 1 * gen() {}",
-                            "2:9 - undefined:undefined"
+                            "2:9"
                           ]
                         },
                         {
@@ -33850,7 +27817,7 @@ html.elements.select.size`
                           data: [
                             "Parsing error: Invalid left-hand side expression in unary operation",
                             "console.log(a) // ReferenceError: Invalid left-hand side expression in prefix operation",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         },
                         {
@@ -33858,7 +27825,7 @@ html.elements.select.size`
                           data: [
                             "Parsing error: Expression expected.",
                             "/pattern/.exec(str).forEach(console.log)",
-                            "19:9 - undefined:undefined"
+                            "19:9"
                           ]
                         },
                         {
@@ -33866,7 +27833,7 @@ html.elements.select.size`
                           data: [
                             "Parsing error: ';' expected.",
                             "  *gen() {} // Seen as a = 1[b] = 2 * gen() {}",
-                            "4:9 - undefined:undefined"
+                            "4:9"
                           ]
                         }
                       ]
@@ -33882,7 +27849,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Identifier expected.",
                                 "async function (param0) {",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -33896,7 +27863,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Identifier expected.",
                                 "async function* (param0) {",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -33910,7 +27877,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: A class declaration without the 'default' modifier must have a name.",
                                 "class {",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -33924,7 +27891,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Invalid left-hand side expression in unary operation",
                                 "--(--x); // SyntaxError: Invalid left-hand side expression in prefix operation",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -33951,7 +27918,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: ',' expected.",
                                 "const { a: numbers[0], b: numbers[1] } = obj;",
-                                "3:9 - undefined:undefined"
+                                "3:9"
                               ]
                             },
                             {
@@ -33959,7 +27926,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Identifier expected.",
                                 "const { a, ...{ b } } = { a: 1, b: 2 };",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -33973,7 +27940,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Identifier expected.",
                                 "function (param0) {",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             },
                             {
@@ -33981,7 +27948,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: ')' expected.",
                                 "}());",
-                                "20:9 - undefined:undefined"
+                                "20:9"
                               ]
                             }
                           ]
@@ -33995,7 +27962,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Identifier expected.",
                                 "function* (param0) {",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -34009,7 +27976,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Identifier expected.",
                                 "function () {",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -34037,7 +28004,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Invalid left-hand side expression in unary operation",
                                 "++(++x); // SyntaxError: Invalid left-hand side expression in prefix operation",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -34051,7 +28018,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Expression expected.",
                                 "  a + yield 1;",
-                                "2:9 - undefined:undefined"
+                                "2:9"
                               ]
                             },
                             {
@@ -34059,7 +28026,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Expression expected.",
                                 "  await yield 1;",
-                                "2:9 - undefined:undefined"
+                                "2:9"
                               ]
                             },
                             {
@@ -34067,7 +28034,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: ';' expected.",
                                 "a++++; // SyntaxError: Invalid left-hand side in postfix operation.",
-                                "2:9 - undefined:undefined"
+                                "2:9"
                               ]
                             }
                           ]
@@ -34081,7 +28048,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Invalid optional chain from new expression. Did you mean to call 'Intl()'?",
                                 "new Intl?.DateTimeFormat(); // SyntaxError: Invalid optional chain from new expression",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -34095,7 +28062,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Unexpected keyword or identifier.",
                                 "object.1 = 'bar'; // SyntaxError",
-                                "2:9 - undefined:undefined"
+                                "2:9"
                               ]
                             }
                           ]
@@ -34109,7 +28076,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Expression expected.",
                                 "[1, ...iterableObj, '4', 'five', 6]",
-                                "2:9 - undefined:undefined"
+                                "2:9"
                               ]
                             }
                           ]
@@ -34123,7 +28090,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: 'super' must be followed by an argument list or member access.",
                                 "    console.log(super); // SyntaxError: 'super' keyword unexpected here",
-                                "3:9 - undefined:undefined"
+                                "3:9"
                               ]
                             }
                           ]
@@ -34137,7 +28104,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Expression expected.",
                                 "}(); // SyntaxError: Unexpected token ')'",
-                                "3:9 - undefined:undefined"
+                                "3:9"
                               ]
                             },
                             {
@@ -34145,7 +28112,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Expression expected.",
                                 'void () => { console.log("iife!"); }(); // SyntaxError: Malformed arrow function parameter list',
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -34206,7 +28173,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Declaration or statement expected.",
                                 'export DefaultExport from "bar.js"; // Invalid',
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -34226,7 +28193,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Expression expected.",
                                 "}(); // SyntaxError: Unexpected token '('",
-                                "3:9 - undefined:undefined"
+                                "3:9"
                               ]
                             }
                           ]
@@ -34240,7 +28207,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: ')' expected.",
                                 'for (let i = "start" in window ? window.start : 0; i < 9; i++) {',
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -34267,14 +28234,6 @@ html.elements.select.size`
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "ESLint error",
-                                  data: [
-                                    "File ignored because no matching configuration was supplied.",
-                                    null,
-                                    "undefined:undefined - undefined:undefined"
-                                  ]
                                 }
                               ]
                             }
@@ -34289,7 +28248,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: A throw statement must throw an expression.",
                                 "throw",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             },
                             {
@@ -34297,7 +28256,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Expression expected.",
                                 "throw;",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -34311,7 +28270,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: '{' expected.",
                                 "try doSomething(); // SyntaxError",
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -34325,7 +28284,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: '}' expected.",
                                 "",
-                                "2:9 - undefined:undefined"
+                                "2:9"
                               ]
                             },
                             {
@@ -34333,7 +28292,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: '}' expected.",
                                 "",
-                                "2:9 - undefined:undefined"
+                                "2:9"
                               ]
                             },
                             {
@@ -34341,7 +28300,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: '}' expected.",
                                 "",
-                                "2:9 - undefined:undefined"
+                                "2:9"
                               ]
                             }
                           ]
@@ -34357,7 +28316,7 @@ html.elements.select.size`
                           data: [
                             "Parsing error: Octal literals are not allowed. Use the syntax '0o15'.",
                             "  015 + // syntax error",
-                            "3:9 - undefined:undefined"
+                            "3:9"
                           ]
                         }
                       ]
@@ -34371,7 +28330,7 @@ html.elements.select.size`
                           data: [
                             "Parsing error: Hexadecimal digit expected.",
                             "const bad = `bad escape sequence: \\unicode`;",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         }
                       ]
@@ -34397,7 +28356,7 @@ html.elements.select.size`
                           data: [
                             "Parsing error: Parameter declaration expected.",
                             "function f(,) {} // SyntaxError: missing formal parameter",
-                            "1:9 - undefined:undefined"
+                            "1:9"
                           ]
                         }
                       ]
@@ -34530,33 +28489,6 @@ html.elements.select.size`
                             }
                           ]
                         },
-                        live_streaming_web_audio_and_video: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/Live_streaming_web_audio_and_video",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://gstreamer.freedesktop.org/",
-                                "Unable to connect. Is the computer able to access the url?"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://gstreamer.freedesktop.org/documentation/soup/souphttpclientsink.html?gi-language=c",
-                                "Unable to connect. Is the computer able to access the url?"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://gstreamer.freedesktop.org/documentation/shout2/index.html?gi-language=c",
-                                "Unable to connect. Is the computer able to access the url?"
-                              ]
-                            }
-                          ]
-                        },
                         webaudio_playbackrate_explained: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/WebAudio_playbackRate_explained",
@@ -34651,15 +28583,15 @@ html.elements.select.size`
                     },
                     formats: {
                       children: {
-                        audio_codecs: {
+                        image_types: {
                           children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Audio_codecs",
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Image_types",
                           messages: [
                             {
                               message: "Broken external link",
                               data: [
-                                "https://gstreamer.freedesktop.org/",
-                                "Unable to connect. Is the computer able to access the url?"
+                                "https://ev.buaa.edu.cn/",
+                                403
                               ]
                             }
                           ]
@@ -34734,6 +28666,46 @@ html.elements.select.size`
               children: {
                 guides: {
                   children: {
+                    privacy_sandbox: {
+                      children: {
+                        enrollment: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Privacy/Guides/Privacy_sandbox/Enrollment",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://developers.google.com/privacy-sandbox",
+                                "https://privacysandbox.google.com/"
+                              ]
+                            }
+                          ]
+                        },
+                        partitioned_cookies: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Privacy/Guides/Privacy_sandbox/Partitioned_cookies",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://developers.google.com/privacy-sandbox/cookies/chips",
+                                "https://privacysandbox.google.com/cookies/chips"
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/Web/Privacy/Guides/Privacy_sandbox",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox",
+                            "https://privacysandbox.google.com/"
+                          ]
+                        }
+                      ]
+                    },
                     storage_access_policy: {
                       children: {
                         errors: {
@@ -34824,6 +28796,40 @@ html.elements.select.size`
                           ]
                         }
                       }
+                    },
+                    "third-party_cookies": {
+                      children: {},
+                      slug: "/en-US/docs/Web/Privacy/Guides/Third-party_cookies",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/cookies/prepare/audit-cookies",
+                            "https://privacysandbox.google.com/cookies/prepare/audit-cookies"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/protections/private-state-tokens",
+                            "https://privacysandbox.google.com/protections/private-state-tokens"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
+                            "https://privacysandbox.google.com/private-advertising/protected-audience"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.google.com/privacy-sandbox/private-advertising/attribution-reporting",
+                            "https://privacysandbox.google.com/private-advertising/attribution-reporting"
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/Privacy/Guides",
@@ -34840,7 +28846,24 @@ html.elements.select.size`
                     }
                   ]
                 }
-              }
+              },
+              slug: "/en-US/docs/Web/Privacy",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.permissionspolicy.com/",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Redirected external link",
+                  data: [
+                    "https://developers.google.com/privacy-sandbox",
+                    "https://privacysandbox.google.com/"
+                  ]
+                }
+              ]
             },
             progressive_web_apps: {
               children: {
@@ -34936,7 +28959,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: ';' expected.",
                                 '  "short_name": "CT",',
-                                "2:9 - undefined:undefined"
+                                "2:9"
                               ]
                             },
                             {
@@ -34944,7 +28967,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: ';' expected.",
                                 '  "name": "CycleTracker: Period Tracking app",',
-                                "2:9 - undefined:undefined"
+                                "2:9"
                               ]
                             },
                             {
@@ -34952,7 +28975,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: ';' expected.",
                                 '  "name": "...",',
-                                "2:9 - undefined:undefined"
+                                "2:9"
                               ]
                             },
                             {
@@ -34960,7 +28983,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: ';' expected.",
                                 '  "name": "MyApp",',
-                                "2:9 - undefined:undefined"
+                                "2:9"
                               ]
                             },
                             {
@@ -34968,7 +28991,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: ';' expected.",
                                 '  "name": "...",',
-                                "2:9 - undefined:undefined"
+                                "2:9"
                               ]
                             }
                           ]
@@ -34982,7 +29005,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: Expression expected.",
                                 "const APP_STATIC_RESOURCES = [ ... ];",
-                                "4:9 - undefined:undefined"
+                                "4:9"
                               ]
                             },
                             {
@@ -34990,7 +29013,7 @@ html.elements.select.size`
                               data: [
                                 "Parsing error: ',' expected.",
                                 '        "/style.css"',
-                                "7:9 - undefined:undefined"
+                                "7:9"
                               ]
                             }
                           ]
@@ -35189,19 +29212,6 @@ html.elements.select.size`
                     {
                       message: "Unreachable via page",
                       data: []
-                    }
-                  ]
-                },
-                subresource_integrity: {
-                  children: {},
-                  slug: "/en-US/docs/Web/Security/Subresource_Integrity",
-                  messages: [
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://wiki.openssl.org/index.php/Binaries",
-                        "https://github.com/openssl/openssl/wiki/Binaries"
-                      ]
                     }
                   ]
                 },
@@ -39439,19 +33449,6 @@ svg.elements.feSpotLight.z`
                   children: {
                     svg_from_scratch: {
                       children: {
-                        getting_started: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Getting_started",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://websniffer.com/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         paths: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Paths",
@@ -39515,48 +33512,7 @@ svg.elements.feSpotLight.z`
                   ]
                 },
                 reference: {
-                  children: {
-                    fragment: {
-                      children: {
-                        text_fragments: {
-                          children: {},
-                          slug: "/en-US/docs/Web/URI/Reference/Fragment/Text_fragments",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                `html.elements.a.text_fragments
-api.FragmentDirective
-css.selectors.target-text`,
-                                "Expected:",
-                                "[None]"
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    schemes: {
-                      children: {
-                        data: {
-                          children: {},
-                          slug: "/en-US/docs/Web/URI/Reference/Schemes/data",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "http.data-url",
-                                "Expected:",
-                                "[None]"
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/URI/Reference",
                   messages: [
                     {
@@ -39703,7 +33659,7 @@ css.selectors.target-text`,
                                   data: [
                                     "Parsing error: Expression expected.",
                                     "regexp:match(targetString, regExpString[, flagsString])",
-                                    "1:9 - undefined:undefined"
+                                    "1:9"
                                   ]
                                 }
                               ]
@@ -39717,7 +33673,7 @@ css.selectors.target-text`,
                                   data: [
                                     "Parsing error: Expression expected.",
                                     "regexp:test(testString, regExpString[, flagsString])",
-                                    "1:9 - undefined:undefined"
+                                    "1:9"
                                   ]
                                 }
                               ]
@@ -39911,11 +33867,27 @@ css.selectors.target-text`,
                   slug: "/en-US/docs/WebAssembly/Guides/Imported_string_constants",
                   messages: [
                     {
-                      message: "ESLint error",
+                      message: "Invalid code block language",
                       data: [
-                        "Parsing error: Expression expected.",
-                        "  ...,",
-                        "2:9 - undefined:undefined"
+                        "brush: wasm notranslate"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
                       ]
                     },
                     {
@@ -39923,7 +33895,39 @@ css.selectors.target-text`,
                       data: [
                         "Parsing error: Expression expected.",
                         "  ...,",
-                        "2:9 - undefined:undefined"
+                        "2:9"
+                      ]
+                    },
+                    {
+                      message: "ESLint error",
+                      data: [
+                        "Parsing error: Expression expected.",
+                        "  ...,",
+                        "2:9"
+                      ]
+                    }
+                  ]
+                },
+                javascript_builtins: {
+                  children: {},
+                  slug: "/en-US/docs/WebAssembly/Guides/JavaScript_builtins",
+                  messages: [
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
                       ]
                     }
                   ]
@@ -39937,7 +33941,19 @@ css.selectors.target-text`,
                       data: [
                         "Parsing error: ';' expected.",
                         "  instance: Instance, // A new WebAssembly.Instance of the module object",
-                        "3:9 - undefined:undefined"
+                        "3:9"
+                      ]
+                    }
+                  ]
+                },
+                text_format_to_wasm: {
+                  children: {},
+                  slug: "/en-US/docs/WebAssembly/Guides/Text_format_to_Wasm",
+                  messages: [
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
                       ]
                     }
                   ]
@@ -39947,9 +33963,201 @@ css.selectors.target-text`,
                   slug: "/en-US/docs/WebAssembly/Guides/Understanding_the_text_format",
                   messages: [
                     {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
+                      ]
+                    },
+                    {
                       message: "Quoted code",
                       data: [
                         "$i"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
                       ]
                     },
                     {
@@ -39957,7 +34165,19 @@ css.selectors.target-text`,
                       data: [
                         "Parsing error: Identifier expected.",
                         "function () {",
-                        "1:9 - undefined:undefined"
+                        "1:9"
+                      ]
+                    }
+                  ]
+                },
+                using_the_javascript_api: {
+                  children: {},
+                  slug: "/en-US/docs/WebAssembly/Guides/Using_the_JavaScript_API",
+                  messages: [
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "brush: wasm notranslate"
                       ]
                     }
                   ]
@@ -39990,6 +34210,12 @@ css.selectors.target-text`,
                       slug: "/en-US/docs/WebAssembly/Reference/Control_flow/block",
                       messages: [
                         {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -39999,6 +34225,12 @@ css.selectors.target-text`,
                       children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/Control_flow/br",
                       messages: [
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -40010,6 +34242,12 @@ css.selectors.target-text`,
                       slug: "/en-US/docs/WebAssembly/Reference/Control_flow/call",
                       messages: [
                         {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -40019,6 +34257,12 @@ css.selectors.target-text`,
                       children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/Control_flow/Drop",
                       messages: [
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -40030,6 +34274,12 @@ css.selectors.target-text`,
                       slug: "/en-US/docs/WebAssembly/Reference/Control_flow/end",
                       messages: [
                         {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -40039,6 +34289,18 @@ css.selectors.target-text`,
                       children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/Control_flow/if...else",
                       messages: [
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -40050,6 +34312,12 @@ css.selectors.target-text`,
                       slug: "/en-US/docs/WebAssembly/Reference/Control_flow/loop",
                       messages: [
                         {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -40059,6 +34327,12 @@ css.selectors.target-text`,
                       children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/Control_flow/nop",
                       messages: [
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -40070,6 +34344,18 @@ css.selectors.target-text`,
                       slug: "/en-US/docs/WebAssembly/Reference/Control_flow/return",
                       messages: [
                         {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -40080,6 +34366,12 @@ css.selectors.target-text`,
                       slug: "/en-US/docs/WebAssembly/Reference/Control_flow/Select",
                       messages: [
                         {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -40089,6 +34381,12 @@ css.selectors.target-text`,
                       children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/Control_flow/unreachable",
                       messages: [
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -40157,6 +34455,18 @@ css.selectors.target-text`,
                           slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Exception/getArg",
                           messages: [
                             {
+                              message: "Invalid code block language",
+                              data: [
+                                "brush: wasm notranslate"
+                              ]
+                            },
+                            {
+                              message: "Invalid code block language",
+                              data: [
+                                "brush: wasm notranslate"
+                              ]
+                            },
+                            {
                               message: "Unreachable via sidebar",
                               data: []
                             }
@@ -40177,12 +34487,27 @@ css.selectors.target-text`,
                           slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Exception/stack",
                           messages: [
                             {
+                              message: "Invalid code block language",
+                              data: [
+                                "brush: wasm notranslate"
+                              ]
+                            },
+                            {
                               message: "Unreachable via sidebar",
                               data: []
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Exception",
+                      messages: [
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        }
+                      ]
                     },
                     global: {
                       children: {
@@ -40315,7 +34640,7 @@ css.selectors.target-text`,
                               data: [
                                 "Parsing error: ';' expected.",
                                 '{ name: "exported_func", kind: "function" }',
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -40333,7 +34658,7 @@ css.selectors.target-text`,
                               data: [
                                 "Parsing error: ';' expected.",
                                 '{ module: "my_namespace", name: "imported_func", kind: "function" }',
-                                "1:9 - undefined:undefined"
+                                "1:9"
                               ]
                             }
                           ]
@@ -40411,6 +34736,12 @@ css.selectors.target-text`,
                           slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Table/Table",
                           messages: [
                             {
+                              message: "Invalid code block language",
+                              data: [
+                                "brush: wasm notranslate"
+                              ]
+                            },
+                            {
                               message: "Unreachable via sidebar",
                               data: []
                             }
@@ -40440,7 +34771,16 @@ css.selectors.target-text`,
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Tag",
+                      messages: [
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        }
+                      ]
                     },
                     validate_static: {
                       children: {},
@@ -40461,6 +34801,18 @@ css.selectors.target-text`,
                       slug: "/en-US/docs/WebAssembly/Reference/Memory/Copy",
                       messages: [
                         {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
                           message: "Broken anchor",
                           data: [
                             "#webassembly.multimemory"
@@ -40476,6 +34828,18 @@ css.selectors.target-text`,
                       children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/Memory/Fill",
                       messages: [
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
                         {
                           message: "Broken anchor",
                           data: [
@@ -40493,6 +34857,42 @@ css.selectors.target-text`,
                       slug: "/en-US/docs/WebAssembly/Reference/Memory/Grow",
                       messages: [
                         {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -40502,6 +34902,42 @@ css.selectors.target-text`,
                       children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/Memory/Load",
                       messages: [
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
                         {
                           message: "Broken anchor",
                           data: [
@@ -40519,6 +34955,36 @@ css.selectors.target-text`,
                       slug: "/en-US/docs/WebAssembly/Reference/Memory/Size",
                       messages: [
                         {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
                           message: "Broken anchor",
                           data: [
                             "#webassembly.multimemory"
@@ -40534,6 +35000,18 @@ css.selectors.target-text`,
                       children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/Memory/Store",
                       messages: [
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
                         {
                           message: "Broken anchor",
                           data: [
@@ -40562,6 +35040,12 @@ css.selectors.target-text`,
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/Absolute",
                       messages: [
                         {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -40571,6 +35055,12 @@ css.selectors.target-text`,
                       children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/Addition",
                       messages: [
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -40582,6 +35072,12 @@ css.selectors.target-text`,
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/AND",
                       messages: [
                         {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -40591,6 +35087,12 @@ css.selectors.target-text`,
                       children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/Ceil",
                       messages: [
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -40602,6 +35104,12 @@ css.selectors.target-text`,
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/Const",
                       messages: [
                         {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -40611,6 +35119,12 @@ css.selectors.target-text`,
                       children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/Convert",
                       messages: [
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -40622,6 +35136,12 @@ css.selectors.target-text`,
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/Copy_sign",
                       messages: [
                         {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -40631,6 +35151,12 @@ css.selectors.target-text`,
                       children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/Count_leading_zeros",
                       messages: [
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -40642,6 +35168,12 @@ css.selectors.target-text`,
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/Count_trailing_zeros",
                       messages: [
                         {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -40651,6 +35183,12 @@ css.selectors.target-text`,
                       children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/Demote",
                       messages: [
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -40662,6 +35200,12 @@ css.selectors.target-text`,
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/Division",
                       messages: [
                         {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -40671,6 +35215,12 @@ css.selectors.target-text`,
                       children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/Equal",
                       messages: [
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -40682,6 +35232,12 @@ css.selectors.target-text`,
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/Extend",
                       messages: [
                         {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -40691,6 +35247,12 @@ css.selectors.target-text`,
                       children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/Floor",
                       messages: [
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -40702,6 +35264,12 @@ css.selectors.target-text`,
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/Greater_or_equal",
                       messages: [
                         {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -40711,6 +35279,12 @@ css.selectors.target-text`,
                       children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/Greater_than",
                       messages: [
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -40722,6 +35296,12 @@ css.selectors.target-text`,
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/Left_rotate",
                       messages: [
                         {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -40731,6 +35311,12 @@ css.selectors.target-text`,
                       children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/Left_shift",
                       messages: [
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -40742,6 +35328,12 @@ css.selectors.target-text`,
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/Less_or_equal",
                       messages: [
                         {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -40751,6 +35343,12 @@ css.selectors.target-text`,
                       children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/Less_than",
                       messages: [
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -40762,6 +35360,12 @@ css.selectors.target-text`,
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/Max",
                       messages: [
                         {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -40771,6 +35375,12 @@ css.selectors.target-text`,
                       children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/Min",
                       messages: [
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -40782,6 +35392,12 @@ css.selectors.target-text`,
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/Multiplication",
                       messages: [
                         {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -40791,6 +35407,12 @@ css.selectors.target-text`,
                       children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/Nearest",
                       messages: [
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -40802,6 +35424,12 @@ css.selectors.target-text`,
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/Negate",
                       messages: [
                         {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -40811,6 +35439,12 @@ css.selectors.target-text`,
                       children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/Not_equal",
                       messages: [
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -40822,6 +35456,12 @@ css.selectors.target-text`,
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/OR",
                       messages: [
                         {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -40831,6 +35471,12 @@ css.selectors.target-text`,
                       children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/Population_count",
                       messages: [
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -40842,6 +35488,12 @@ css.selectors.target-text`,
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/Promote",
                       messages: [
                         {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -40851,6 +35503,12 @@ css.selectors.target-text`,
                       children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/Reinterpret",
                       messages: [
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -40862,6 +35520,12 @@ css.selectors.target-text`,
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/Remainder",
                       messages: [
                         {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -40871,6 +35535,12 @@ css.selectors.target-text`,
                       children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/Right_rotate",
                       messages: [
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -40882,6 +35552,12 @@ css.selectors.target-text`,
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/Right_shift",
                       messages: [
                         {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -40891,6 +35567,12 @@ css.selectors.target-text`,
                       children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/Square_root",
                       messages: [
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -40902,6 +35584,12 @@ css.selectors.target-text`,
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/Subtraction",
                       messages: [
                         {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -40911,6 +35599,12 @@ css.selectors.target-text`,
                       children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/Truncate_float_to_float",
                       messages: [
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -40922,6 +35616,12 @@ css.selectors.target-text`,
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/Truncate_float_to_int",
                       messages: [
                         {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -40932,6 +35632,12 @@ css.selectors.target-text`,
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/Wrap",
                       messages: [
                         {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -40941,6 +35647,12 @@ css.selectors.target-text`,
                       children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/Numeric/XOR",
                       messages: [
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -40963,6 +35675,12 @@ css.selectors.target-text`,
                       slug: "/en-US/docs/WebAssembly/Reference/Variables/Global",
                       messages: [
                         {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -40972,6 +35690,12 @@ css.selectors.target-text`,
                       children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/Variables/Global_get",
                       messages: [
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -40983,6 +35707,12 @@ css.selectors.target-text`,
                       slug: "/en-US/docs/WebAssembly/Reference/Variables/Global_set",
                       messages: [
                         {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -40992,6 +35722,12 @@ css.selectors.target-text`,
                       children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/Variables/Local",
                       messages: [
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -41003,6 +35739,12 @@ css.selectors.target-text`,
                       slug: "/en-US/docs/WebAssembly/Reference/Variables/Local_get",
                       messages: [
                         {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -41013,6 +35755,12 @@ css.selectors.target-text`,
                       slug: "/en-US/docs/WebAssembly/Reference/Variables/Local_set",
                       messages: [
                         {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -41022,6 +35770,12 @@ css.selectors.target-text`,
                       children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/Variables/Local_tee",
                       messages: [
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "brush: wasm notranslate"
+                          ]
+                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
