@@ -289,6 +289,8 @@ function displayWarnings() {
   graphStructure.label = "Graph structure issues";
   const metadataIssues = document.createElement("optgroup");
   metadataIssues.label = "Metadata issues";
+  const codeIssues = document.createElement("optgroup");
+  codeIssues.label = "Code issues";
   const other = document.createElement("optgroup");
   other.label = "Other";
   for (const message of [...messageCounts].sort()) {
@@ -351,6 +353,12 @@ function displayWarnings() {
       )
     ) {
       metadataIssues.append(option);
+    }  else if (
+      ["ESLint error"].includes(
+        message[0],
+      )
+    ) {
+      codeIssues.append(option);
     } else {
       other.append(option);
     }
@@ -362,6 +370,7 @@ function displayWarnings() {
     yariFlaws,
     graphStructure,
     metadataIssues,
+    codeIssues,
     other,
   ]) {
     if (optgroup.hasChildNodes()) {

@@ -14,8 +14,52 @@ const nonContentPaths = [
   "/en-US/about",
   "/en-US/curriculum/",
   "/en-US/observatory",
+  "/en-US/observatory/",
   "/en-US/play",
   "/en-US/plus",
+];
+
+const sanctionedLanguages = [
+"json",
+"js",
+"html",
+"css",
+"ts",
+"yaml",
+"bash",
+"plain",
+"glsl",
+"svg",
+"http",
+"php",
+"py",
+"java",
+"scss",
+"sql",
+"xml",
+"hbs",
+"diff",
+"svelte",
+"vue",
+"url",
+"apacheconf",
+"ini",
+"django",
+"sh",
+"pug",
+"batch",
+"powershell",
+"md",
+"wasm",
+"rust",
+"webidl",
+"cpp",
+"cs",
+"wat",
+"regex",
+"latex",
+"nginx",
+"toml",
 ];
 
 async function* listdir(dir: string): AsyncGenerator<string> {
@@ -136,6 +180,8 @@ export default async function createContentGraph() {
     Map<string, { href: string; pageExists: boolean }>
   >();
 
+  const pageToCodes = new Map<string, { language: string; content: string }[]>();
+
   graph.forEachNode((node) => {
     if (!node.data || !node.data.content) {
       console.error(node.id, "has no content");
@@ -144,6 +190,8 @@ export default async function createContentGraph() {
     const content = node.data.content;
     const linkTargets: string[] = [];
     const ids: string[] = [];
+    const codes: { language: string; content: string }[] = [];
+    pageToCodes.set(node.id, codes);
     let hasBCDTable = false;
     for (const part of content) {
       // TODO Yari does this case folding but it should just output lowercase IDs
@@ -193,6 +241,14 @@ export default async function createContentGraph() {
           return;
         }
         linkTargets.push(href);
+      });
+      $("pre").each((i, pre) => {
+        const code = $(pre).text();
+        if (!$(pre).attr("class")?.match(new RegExp(`brush: (${sanctionedLanguages.join("|")})( |$)`))) {
+          report(node, "Invalid code block language", $(pre).attr("class"));
+        }
+        const language = $(pre).attr("class")?.match(/brush: ?([a-zA-Z0-9-]+)/)?.[1];
+        codes.push({ language: language ?? "plain", content: code });
       });
       $("dt").each((i, dt) => {
         // The ID is injected by Yari
@@ -539,5 +595,9 @@ export default async function createContentGraph() {
       null,
       2,
     ),
+  );
+  await FS.writeFile(
+    "data/codes.json",
+    JSON.stringify(Object.fromEntries(pageToCodes), null, 2),
   );
 }

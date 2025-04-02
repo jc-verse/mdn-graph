@@ -1,5 +1,6 @@
 import type { Node } from "ngraph.graph";
 import { checkBCDMatching } from "./check-bcd-matching.js";
+import { checkCode } from "./check-code.js";
 import {
   createLinkRequests,
   depleteQueue,
@@ -181,6 +182,8 @@ export default async function processWarnings(fast: boolean = false) {
     current.slug = nodeToSlug.get(nodeId);
     current.messages = messages;
   }
+
+  await checkCode(nodes, report);
 
   await Bun.write("data/warnings-processed.json", JSON.stringify(tree, null, 2));
   console.log("Warnings written to data/warnings-processed.json");
