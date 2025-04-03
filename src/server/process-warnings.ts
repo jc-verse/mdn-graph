@@ -1,6 +1,6 @@
 import type { Node } from "ngraph.graph";
 import { checkBCDMatching } from "./check-bcd-matching.js";
-import { checkCode } from "./check-code.js";
+import { checkCode, postCheckCode } from "./check-code.js";
 import {
   createLinkRequests,
   depleteQueue,
@@ -84,6 +84,7 @@ export default async function processWarnings(fast: boolean = false) {
   console.log("BCD check completed");
 
   await checkCode(nodes, report);
+  postCheckCode();
   console.log("Code check completed");
 
   for (const node of nodes) {

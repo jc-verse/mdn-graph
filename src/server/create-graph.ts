@@ -229,9 +229,11 @@ export default async function createContentGraph() {
         let selector = "pre";
         if (
           part.value.id === "syntax" &&
-          !["mdn-writing-guide", "webextension-manifest-key", "webdriver-command"].includes(
-            node.data.metadata.pageType,
-          )
+          ![
+            "mdn-writing-guide",
+            "webextension-manifest-key",
+            "webdriver-command",
+          ].includes(node.data.metadata.pageType)
         ) {
           const syntaxSelector = `body > div.code-example:${node.data.metadata.pageType === "web-api-event" ? "nth-child(2)" : "first-child"} pre, body > pre:first-child`;
           const syntaxCode = $(syntaxSelector);

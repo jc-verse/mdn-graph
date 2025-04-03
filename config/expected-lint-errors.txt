@@ -1,0 +1,782 @@
+/en-US/docs/Web/JavaScript/Guide/Grammar_and_types: Parsing error: Unterminated regular expression literal.
+~~~
+/* You can't, however, /* nest comments */ SyntaxError */
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Grammar_and_types: Parsing error: Identifier expected.
+~~~
+const unusualPropertyNames = {
+  "": "An empty string",
+  "!": "Bang!",
+}
+console.log(unusualPropertyNames.""); // SyntaxError: Unexpected string
+console.log(unusualPropertyNames.!); // SyntaxError: Unexpected token !
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Numbers_and_strings: Parsing error: Decimals with leading zeros are not allowed.
+~~~
+0888 // 888 parsed as decimal
+0777 // parsed as octal, 511 in decimal
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Numbers_and_strings: Parsing error: Octal literals are not allowed. Use the syntax '0o755'.
+~~~
+const n = 0755; // 493
+const m = 0644; // 420
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Template_literals: Parsing error: Hexadecimal digit expected.
+~~~
+const bad = `bad escape sequence: \unicode`;
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors: Parsing error: Unexpected keyword or identifier.
+~~~
+const object = {};
+object.1 = "bar"; // SyntaxError
+console.log(object.1); // SyntaxError
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring: Parsing error: ',' expected.
+~~~
+const numbers = [];
+const obj = { a: 1, b: 2 };
+const { a: numbers[0], b: numbers[1] } = obj;
+
+// This is equivalent to:
+//   const numbers[0] = obj.a;
+//   const numbers[1] = obj.b;
+// Which definitely is not valid.
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring: Parsing error: Identifier expected.
+~~~
+const { a, ...{ b } } = { a: 1, b: 2 };
+// SyntaxError: `...` must be followed by an identifier in declaration contexts
+
+let a, b;
+({ a, ...{ b } } = { a: 1, b: 2 });
+// SyntaxError: `...` must be followed by an assignable reference in assignment contexts
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/Grouping: Parsing error: Identifier expected.
+~~~
+function () {
+  // code
+}();
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence: Parsing error: Expression expected.
+~~~
+function* foo() {
+  a + yield 1;
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence: Parsing error: Expression expected.
+~~~
+async function* foo() {
+  await yield 1;
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence: Parsing error: ';' expected.
+~~~
+let a = 1;
+a++++; // SyntaxError: Invalid left-hand side in postfix operation.
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/super: Parsing error: 'super' must be followed by an argument list or member access.
+~~~
+const child = {
+  myParent() {
+    console.log(super); // SyntaxError: 'super' keyword unexpected here
+  },
+};
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/void: Parsing error: Expression expected.
+~~~
+function iife() {
+  console.log("Executed!");
+}(); // SyntaxError: Unexpected token ')'
+
+function () {
+  console.log("Executed!");
+}(); // SyntaxError: Function statements require a function name
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/void: Parsing error: Expression expected.
+~~~
+void () => { console.log("iife!"); }(); // SyntaxError: Malformed arrow function parameter list
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/Increment: Parsing error: Invalid left-hand side expression in unary operation
+~~~
+++(++x); // SyntaxError: Invalid left-hand side expression in prefix operation
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/Decrement: Parsing error: Invalid left-hand side expression in unary operation
+~~~
+--(--x); // SyntaxError: Invalid left-hand side expression in prefix operation
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining: Parsing error: Invalid optional chain from new expression. Did you mean to call 'Intl()'?
+~~~
+new Intl?.DateTimeFormat(); // SyntaxError: Invalid optional chain from new expression
+new Map?.();
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Deprecated_and_obsolete_features: Parsing error: Expression expected.
+~~~
+<!-- comment
+console.log("a"); <!-- another comment
+console.log("b");
+--> More comment
+// Logs "a" and "b"
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Deprecated_and_obsolete_features: Parsing error: Expression or comma expected.
+~~~
+// Legacy array comprehensions
+[for (x of iterable) x]
+[for (x of iterable) if (condition) x]
+[for (x of iterable) for (y of iterable) x + y]
+
+// Legacy generator comprehensions
+(for (x of iterable) x)
+(for (x of iterable) if (condition) x)
+(for (x of iterable) for (y of iterable) x + y)
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Lexical_grammar: Parsing error: Identifier expected. 'import' is a reserved word that cannot be used here.
+~~~
+function import() {} // Illegal: import is a reserved word.
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Lexical_grammar: Parsing error: 'else' is not allowed as a variable declaration name.
+~~~
+const els\u{65} = 1;
+// `els\u{65}` encodes the same identifier as `else`
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Lexical_grammar: Parsing error: Decimals with leading zeros are not allowed.
+~~~
+0888 // 888 parsed as decimal
+0777 // parsed as octal, 511 in decimal
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Lexical_grammar: Parsing error: Octal literals are not allowed. Use the syntax '0o755'.
+~~~
+0755n; // SyntaxError: invalid BigInt syntax
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Lexical_grammar: Parsing error: Multiple consecutive numeric separators are not permitted.
+~~~
+// More than one underscore in a row is not allowed
+100__000; // SyntaxError
+
+// Not allowed at the end of numeric literals
+100_; // SyntaxError
+
+// Can not be used after leading 0
+0_1; // SyntaxError
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Lexical_grammar: Parsing error: ';' expected.
+~~~
+for (
+  let a = 1 // No ASI here
+  a < 10 // No ASI here
+  a++
+) {}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Lexical_grammar: Parsing error: ';' expected.
+~~~
+class A {
+  a = 1
+  *gen() {}
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Lexical_grammar: Parsing error: ';' expected.
+~~~
+class A {
+  a = 1 * gen() {}
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Lexical_grammar: Parsing error: Invalid left-hand side expression in unary operation
+~~~
+const a = b
+++
+console.log(a) // ReferenceError: Invalid left-hand side expression in prefix operation
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Lexical_grammar: Parsing error: Expression expected.
+~~~
+// The () may be merged with the previous line as a function call
+(() => {
+  // ...
+})()
+
+// The [ may be merged with the previous line as a property access
+[1, 2, 3].forEach(console.log)
+
+// The ` may be merged with the previous line as a tagged template literal
+`string text ${data}`.match(pattern).forEach(console.log)
+
+// The + may be merged with the previous line as a binary + expression
++a.toString()
+
+// The - may be merged with the previous line as a binary - expression
+-a.toString()
+
+// The / may be merged with the previous line as a division expression
+/pattern/.exec(str).forEach(console.log)
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Lexical_grammar: Parsing error: ';' expected.
+~~~
+class A {
+  a = 1
+  [b] = 2
+  *gen() {} // Seen as a = 1[b] = 2 * gen() {}
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/try...catch: Parsing error: '{' expected.
+~~~
+try doSomething(); // SyntaxError
+catch (e) console.log(e);
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/throw: Parsing error: A throw statement must throw an expression.
+~~~
+throw
+new Error();
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/throw: Parsing error: Expression expected.
+~~~
+throw;
+new Error();
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/Expression_statement: Parsing error: Expression expected.
+~~~
+function foo() {
+  console.log("foo");
+}(); // SyntaxError: Unexpected token '('
+
+// For some reason, you have a variable called `let`
+var let = [1, 2, 3];
+let[0] = 4; // SyntaxError: Invalid destructuring assignment target
+
+{
+  foo: 1,
+  bar: 2, // SyntaxError: Unexpected token ':'
+};
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/for: Parsing error: ')' expected.
+~~~
+for (let i = "start" in window ? window.start : 0; i < 9; i++) {
+  console.log(i);
+}
+// SyntaxError: 'for-in' loop variable declaration may not have an initializer.
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/export: Parsing error: Declaration or statement expected.
+~~~
+export DefaultExport from "bar.js"; // Invalid
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array: Parsing error: Unexpected keyword or identifier.
+~~~
+arr.0; // a syntax error
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Strict_mode: Parsing error: Octal literals are not allowed. Use the syntax '0o15'.
+~~~
+"use strict";
+const sum =
+  015 + // syntax error
+  197 +
+  142;
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions: Parsing error: ';' expected.
+~~~
+(a, b, ...r) => expression
+(a = 400, b = 20, c) => expression
+([a, b] = [10, 20]) => expression
+({ a, b } = { a: 10, b: 20 }) => expression
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions: Parsing error: Identifier expected.
+~~~
+const func = () => { foo: 1 };
+// Calling func() returns undefined!
+
+const func2 = () => { foo: function () {} };
+// SyntaxError: function statement requires a name
+
+const func3 = () => { foo() {} };
+// SyntaxError: Unexpected token '{'
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions: Parsing error: Expression expected.
+~~~
+let callback;
+
+callback = callback || () => {};
+// SyntaxError: invalid arrow-function arguments
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Functions: Parsing error: Identifier expected.
+~~~
+function () { // SyntaxError: Function statements require a function name
+  console.log("FOO!");
+}();
+
+function foo() {
+  console.log("FOO!");
+}(); // SyntaxError: Unexpected token ')'
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Illegal_character: Parsing error: Invalid character.
+~~~
+“This looks like a string”; // SyntaxError: illegal character
+// “ and ” are not " but look like it
+
+42 – 13; // SyntaxError: illegal character
+// – (en-dash) is not - but looks like it
+
+const foo = "bar"; // SyntaxError: illegal character
+// <37e> is not ; but looks like it
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Illegal_character: Parsing error: Invalid character.
+~~~
+const operators = ["+", "-", ×", "÷"];
+// SyntaxError: illegal character U+00D7
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Illegal_character: Parsing error: Expression expected.
+~~~
+const foo = "bar";<200b>
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Missing_parenthesis_after_condition: Parsing error: ')' expected.
+~~~
+if (Math.PI < 3 {
+  console.log("wait what?");
+}
+
+// SyntaxError: missing ) after condition
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Missing_parenthesis_after_condition: Parsing error: ')' expected.
+~~~
+if (done is true) {
+ console.log("we are done!");
+}
+
+// SyntaxError: missing ) after condition
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Bad_break: Parsing error: Declaration or statement expected.
+~~~
+let score = 0;
+
+function increment() {
+  if (score === 100)
+    break; // SyntaxError: unlabeled break must be inside loop or switch
+  }
+  score++;
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_for-in_initializer: Parsing error: The variable declaration of a 'for...in' statement cannot have an initializer.
+~~~
+const obj = { a: 1, b: 2, c: 3 };
+
+for (const i = 0 in obj) {
+  console.log(obj[i]);
+}
+
+// SyntaxError: for-in loop head declarations may not have initializers
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_octal_escape_sequence: Parsing error: Octal escape sequences are not allowed. Use the syntax '\xa9'.
+~~~
+"use strict";
+
+"\251";
+
+// SyntaxError: octal escape sequences can't be used in untagged template literals or in strict mode code
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/No_variable_name: Parsing error: Variable declaration expected.
+~~~
+const = "foo";
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/No_variable_name: Parsing error: 'debugger' is not allowed as a variable declaration name.
+~~~
+const debugger = "whoop";
+// SyntaxError: missing variable name
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/No_variable_name: Parsing error: Variable declaration expected.
+~~~
+let x, y = "foo",
+const z, = "foo"
+
+const first = document.getElementById("one"),
+const second = document.getElementById("two"),
+
+// SyntaxError: missing variable name
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/No_variable_name: Parsing error: Variable declaration expected.
+~~~
+const arr = 1,2,3,4,5;
+// SyntaxError: missing variable name
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Bad_return: Parsing error: Declaration or statement expected.
+~~~
+function cheer(score) {
+  if (score === 147)
+    return "Maximum!";
+  }
+  if (score > 100) {
+    return "Century!";
+  }
+}
+
+// SyntaxError: return not in function
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Unparenthesized_unary_expr_lhs_exponentiation: Parsing error: An unary expression with the '-' operator is not allowed in the left-hand side of an exponentiation expression. Consider enclosing the expression in parentheses.
+~~~
+-a ** b
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Unparenthesized_unary_expr_lhs_exponentiation: Parsing error: An unary expression with the 'await' operator is not allowed in the left-hand side of an exponentiation expression. Consider enclosing the expression in parentheses.
+~~~
+await a ** b
+!a ** b
++a ** b
+~a ** b
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Unparenthesized_unary_expr_lhs_exponentiation: Parsing error: An unary expression with the '-' operator is not allowed in the left-hand side of an exponentiation expression. Consider enclosing the expression in parentheses.
+~~~
+function taylorSin(x) {
+  return (n) => (-1 ** n * x ** (2 * n + 1)) / factorial(2 * n + 1);
+  // SyntaxError: unparenthesized unary expression can't appear on the left-hand side of '**'
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Identifier_after_number: Parsing error: An identifier or keyword cannot immediately follow a numeric literal.
+~~~
+const 1life = "foo";
+// SyntaxError: identifier starts immediately after numeric literal
+
+const foo = 1life;
+// SyntaxError: identifier starts immediately after numeric literal
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Identifier_after_number: Parsing error: An identifier or keyword cannot immediately follow a numeric literal.
+~~~
+alert(typeof 1.toString())
+// SyntaxError: identifier starts immediately after numeric literal
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Missing_name_after_dot_operator: Parsing error: Identifier expected.
+~~~
+const obj = { foo: { bar: "baz", bar2: "baz2" } };
+const i = 2;
+
+obj.[foo].[bar]
+// SyntaxError: missing name after . operator
+
+obj.foo."bar"+i;
+// SyntaxError: missing name after . operator
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Missing_name_after_dot_operator: Parsing error: Identifier expected.
+~~~
+console.log("Hello" . "world");
+
+// SyntaxError: missing name after . operator
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Reserved_identifier: Parsing error: Identifier expected.
+~~~
+const enum = { RED: 0, GREEN: 1, BLUE: 2 };
+// SyntaxError: enum is a reserved identifier
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Unnamed_function_statement: Parsing error: Identifier expected.
+~~~
+function () {
+  return "Hello world";
+}
+// SyntaxError: function statement requires a name
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Unnamed_function_statement: Parsing error: Identifier expected.
+~~~
+function Greeter() {
+  german: function () {
+    return "Moin";
+  }
+}
+// SyntaxError: function statement requires a name
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Unnamed_function_statement: Parsing error: Identifier expected.
+~~~
+promise.then(
+  function () {
+    console.log("success");
+  });
+  function () {
+    console.log("error");
+}
+// SyntaxError: function statement requires a name
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_assignment_left-hand_side: Parsing error: ')' expected.
+~~~
+if (Math.PI + 1 = 3 || Math.PI + 1 = 4) {
+  console.log("no way!");
+}
+// SyntaxError: invalid assignment left-hand side
+
+const str = "Hello, "
++= "is it me "
++= "you're looking for?";
+// SyntaxError: invalid assignment left-hand side
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Bad_new_optional: Parsing error: Invalid optional chain from new expression. Did you mean to call 'Intl()'?
+~~~
+new Intl?.DateTimeFormat();
+Number?.[parseMethod]`Hello, world!`;
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Bad_new_optional: Parsing error: Invalid optional chain from new expression. Did you mean to call 'Intl.DateTimeFormat()'?
+~~~
+new Intl.DateTimeFormat?.();
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_for-of_initializer: Parsing error: The variable declaration of a 'for...of' statement cannot have an initializer.
+~~~
+const iterable = [10, 20, 30];
+
+for (const value = 50 of iterable) {
+  console.log(value);
+}
+
+// SyntaxError: a declaration in the head of a for-of loop can't
+// have an initializer
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Missing_formal_parameter: Parsing error: Identifier expected.
+~~~
+function square(3) {
+  return number * number;
+}
+// SyntaxError: missing formal parameter
+
+function greet("Howdy") {
+  return greeting;
+}
+// SyntaxError: missing formal parameter
+
+function log({ obj: "value"}) {
+  console.log(arg)
+}
+// SyntaxError: missing formal parameter
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Missing_curly_after_property_list: Parsing error: ',' expected.
+~~~
+const obj = {
+  a: 1,
+  b: { myProp: 2 }
+  c: 3
+};
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Missing_bracket_after_list: Parsing error: Expression or comma expected.
+~~~
+const list = [1, 2,
+
+const instruments = [
+  "Ukulele",
+  "Guitar",
+  "Piano",
+};
+
+const data = [{ foo: "bar" } { bar: "foo" }];
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_octal_literal: Parsing error: Octal literals are not allowed. Use the syntax '0o3'.
+~~~
+"use strict";
+
+03;
+
+// SyntaxError: "0"-prefixed octal literals are deprecated; use the "0o" prefix instead
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/String_literal_EOL: Parsing error: Unterminated string literal.
+~~~
+const longString = "This is a very long string which needs
+                    to wrap across multiple lines because
+                    otherwise my code is unreadable.";
+// SyntaxError: unterminated string literal
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Unexpected_token: Parsing error: Expression expected.
+~~~
+for (let i = 0; i < 5,; ++i) {
+  console.log(i);
+}
+// Uncaught SyntaxError: expected expression, got ';'
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Unexpected_token: Parsing error: Expression expected.
+~~~
+function round(n, upperBound, lowerBound) {
+if (n > upperBound) || (n < lowerBound) { // Missing parentheses here!
+    throw new Error(`Number ${n} is more than ${upperBound} or less than ${lowerBound}`);
+  } else if (n < (upperBound + lowerBound) / 2) {
+    return lowerBound;
+  } else {
+    return upperBound;
+  }
+} // SyntaxError: expected expression, got '||'
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Unexpected_token: Parsing error: ',' expected.
+~~~
+const MyComponent = {
+  mounted: {
+    document.getElementById("app").classList.add("loaded");
+  }
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Missing_curly_after_function_body: Parsing error: '}' expected.
+~~~
+function charge() {
+  if (sunny) {
+    useSolarCells();
+  } else {
+    promptBikeRide();
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Missing_curly_after_function_body: Parsing error: Declaration or statement expected.
+~~~
+(function () {
+  if (Math.random() < 0.01) {
+    doSomething();
+  }
+)();
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Missing_parenthesis_after_argument_list: Parsing error: ',' expected.
+~~~
+console.log("PI: " Math.PI);
+// SyntaxError: missing ) after argument list
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Missing_parenthesis_after_argument_list: Parsing error: Unterminated string literal.
+~~~
+console.log('"Java" + "Script" = \"' + "Java" + 'Script\");
+// SyntaxError: missing ) after argument list
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Missing_colon_after_property_id: Parsing error: ':' expected.
+~~~
+const obj = { "b"+"ar": "foo" };
+// SyntaxError: missing : after property id
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Trailing_commas: Parsing error: Parameter declaration expected.
+~~~
+function f(,) {} // SyntaxError: missing formal parameter
+(,) => {};       // SyntaxError: expected expression, got ','
+f(,)             // SyntaxError: expected expression, got ','
+
+function f(...p,) {} // SyntaxError: parameter after rest parameter
+(...p,) => {}        // SyntaxError: expected closing parenthesis, got ','
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/Strings: Parsing error: ',' expected.
+~~~
+const badString1 = This is a test;
+const badString2 = 'This is a test;
+const badString3 = This is a test';
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/Strings: Parsing error: Unterminated string literal.
+~~~
+const badQuotes = 'This is not allowed!";
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/Strings: Parsing error: ',' expected.
+~~~
+const badQuotes = "She said "I think so!"";
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/Math: Parsing error: Invalid left-hand side expression in unary operation
+~~~
+3++;
+~~~
+
+/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_are_browser_developer_tools: Parsing error: Unterminated string literal.
+~~~
+alert("hello!);
+~~~
+
+/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Code_editors: Parsing error: Unterminated string literal.
+~~~
+function createGreeting(name) {
+  const greeting = `Hello, ${Name}!`;
+  return greeting;
+}
+
+const helloChris = createGreeting("Chris);
+
+console.log(helloChris;
+~~~
+
+/en-US/docs/MDN/Writing_guidelines/Code_style_guide/JavaScript: Parsing error: Invalid character.
+~~~
+function exampleFunc() {
+  …
+}
+~~~
+
+/en-US/docs/Glossary/Function: Parsing error: Expression expected.
+~~~
+function foo() {
+  console.log("Hello Foo");
+}();
+~~~
+
+/en-US/docs/Learn_web_development/Core/Styling_basics/Getting_started: Unknown word left (CssSyntaxError)
+~~~
+margin: 0auto;
+padding- left: 10px;
+~~~

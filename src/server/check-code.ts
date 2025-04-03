@@ -71,10 +71,27 @@ const stylelintConfig = {
   },
 };
 
+const expectedErrors = (await Bun.file(
+  Bun.fileURLToPath(
+    import.meta.resolve(`../../config/expected-lint-errors.txt`),
+  ),
+).text()).matchAll(/(?<file>\/en-US\/docs\/[^ ]+): (?<message>.*)\n~~~\n(?<code>(?:.|\n)+?)~~~\n/g);
+const expectedErrorsMap = new Map<string, Map<string, Map<string, boolean>>>();
+
 export async function checkCode(
   nodes: any[],
   report: (node: any, message: string, ...data: string[]) => void,
 ) {
+  for (const match of expectedErrors) {
+    const { file, message, code } = match.groups!;
+    if (!expectedErrorsMap.has(file)) {
+      expectedErrorsMap.set(file, new Map());
+    }
+    if (!expectedErrorsMap.get(file)!.has(code)) {
+      expectedErrorsMap.get(file)!.set(code, new Map());
+    }
+    expectedErrorsMap.get(file)!.get(code)!.set(message, false);
+  }
   const eslint = new ESLint({
     overrideConfigFile: true,
     overrideConfig: eslintConfig,
@@ -97,6 +114,13 @@ export async function checkCode(
         });
         for (const result of results) {
           result.messages.forEach((msg) => {
+            if (expectedErrorsMap.has(file) && expectedErrorsMap.get(file)!.has(content)) {
+              const expectedMessages = expectedErrorsMap.get(file)!.get(content)!;
+              if (expectedMessages.has(msg.message)) {
+                expectedMessages.set(msg.message, true);
+                return;
+              }
+            }
             report(
               node,
               language === "html" ? "HTML code issue" : "JS code issue",
@@ -116,6 +140,13 @@ export async function checkCode(
         });
         for (const result of results.results) {
           result.warnings.forEach((msg) => {
+            if (expectedErrorsMap.has(file) && expectedErrorsMap.get(file)!.has(content)) {
+              const expectedMessages = expectedErrorsMap.get(file)!.get(content)!;
+              if (expectedMessages.has(msg.text)) {
+                expectedMessages.set(msg.text, true);
+                return;
+              }
+            }
             report(
               node,
               "CSS code issue",
@@ -127,6 +158,18 @@ export async function checkCode(
         }
       } else if (!sanctionedLanguages.includes(language)) {
         report(node, "Invalid code block language", language);
+      }
+    }
+  }
+}
+
+export function postCheckCode() {
+  for (const [file, blocks] of expectedErrorsMap) {
+    for (const [code, messages] of blocks) {
+      for (const [message, status] of messages) {
+        if (!status) {
+          console.warn(`${file}: ${message}\n~~~\n${code}~~~\nIs no longer referenced`);
+        }
       }
     }
   }
