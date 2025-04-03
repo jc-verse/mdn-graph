@@ -357,8 +357,9 @@ function displayWarnings() {
     } else if (
       [
         "Invalid code block language",
-        "ESLint error",
-        "Stylelint error",
+        "JS code issue",
+        "CSS code issue",
+        "HTML code issue",
       ].includes(message[0])
     ) {
       codeIssues.append(option);

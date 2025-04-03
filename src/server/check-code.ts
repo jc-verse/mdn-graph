@@ -1,6 +1,7 @@
 import { ESLint } from "eslint";
 import tseslint from "typescript-eslint";
 import stylelint from "stylelint";
+import htmlParser from "@html-eslint/parser";
 
 const sanctionedLanguages = [
   "apacheconf",
@@ -39,6 +40,7 @@ const sanctionedLanguages = [
   "ts",
   "url",
   "vue",
+  "wasm",
   "wat",
   "webidl",
   "xml",
@@ -50,6 +52,13 @@ const eslintConfig = [
     files: ["**/*.js", "**/*.jsx", "**/*.ts", "**/*.tsx"],
     languageOptions: {
       parser: tseslint.parser,
+    },
+    // No rules for now
+  },
+  {
+    files: ["**/*.html"],
+    languageOptions: {
+      parser: htmlParser,
     },
     // No rules for now
   },
@@ -82,7 +91,7 @@ export async function checkCode(
     if (!blocks) continue;
     for (const block of blocks) {
       const { language, content } = block;
-      if (["js", "ts", "jsx", "tsx"].includes(language)) {
+      if (["js", "ts", "jsx", "tsx", "html"].includes(language)) {
         const results = await eslint.lintText(content, {
           filePath: `test.${language}`,
         });
@@ -90,7 +99,7 @@ export async function checkCode(
           result.messages.forEach((msg) => {
             report(
               node,
-              "ESLint error",
+              language === "html" ? "HTML code issue" : "JS code issue",
               msg.message,
               content.split("\n")[msg.line - 1],
               msg.endLine
@@ -109,7 +118,7 @@ export async function checkCode(
           result.warnings.forEach((msg) => {
             report(
               node,
-              "Stylelint error",
+              "CSS code issue",
               msg.text,
               content.split("\n")[msg.line - 1],
               `${msg.line}:${msg.column}`,
