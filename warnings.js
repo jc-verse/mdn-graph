@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-bvc272sb.js";
+} from "./chunk-2d05rwnd.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -1010,20 +1010,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            function: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Function",
-              messages: [
-                {
-                  message: "JS code issue",
-                  data: [
-                    "Parsing error: Expression expected.",
-                    "}();",
-                    "3:9"
-                  ]
-                }
-              ]
-            },
             fuzzing: {
               children: {},
               slug: "/en-US/docs/Glossary/Fuzzing",
@@ -1041,6 +1027,26 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            gpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/GPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-faq.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
                 }
               ]
             },
@@ -1131,6 +1137,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            lgpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/LGPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/lgpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
                 }
               ]
             },
@@ -2175,13 +2194,6 @@ var warnings_processed_default = {
                           data: [
                             "https://codepen.io/mxmason/pen/XWbPNmw"
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://phabricator.wikimedia.org/T241180",
-                            "429 Retry-After: 1000"
-                          ]
                         }
                       ]
                     },
@@ -2339,10 +2351,10 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "Broken external link",
+                          message: "Redirected external link",
                           data: [
                             "https://svelte-native.technology/",
-                            "The operation timed out."
+                            "https://svelte.nativescript.org/"
                           ]
                         },
                         {
@@ -2372,10 +2384,10 @@ var warnings_processed_default = {
                           data: []
                         },
                         {
-                          message: "Broken external link",
+                          message: "Redirected external link",
                           data: [
                             "https://svelte-native.technology/",
-                            "The operation timed out."
+                            "https://svelte.nativescript.org/"
                           ]
                         }
                       ]
@@ -2799,20 +2811,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    math: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Math",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Invalid left-hand side expression in unary operation",
-                            "3++;",
-                            "1:9"
-                          ]
-                        }
-                      ]
-                    },
                     object_basics: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/Object_basics",
@@ -2822,36 +2820,6 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "introduceSelf() {",
-                            "1:9"
-                          ]
-                        }
-                      ]
-                    },
-                    strings: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Strings",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ',' expected.",
-                            "const badString1 = This is a test;",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Unterminated string literal.",
-                            `const badQuotes = 'This is not allowed!";`,
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ',' expected.",
-                            'const badQuotes = "She said "I think so!"";',
                             "1:9"
                           ]
                         }
@@ -3099,7 +3067,17 @@ var warnings_processed_default = {
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
                     },
                     html_video_and_audio: {
                       children: {
@@ -3296,20 +3274,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    getting_started: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Getting_started",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "Unknown word left (CssSyntaxError)",
-                            "padding- left: 10px;",
-                            "2:10"
-                          ]
-                        }
-                      ]
-                    },
                     handling_different_text_directions: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_different_text_directions",
@@ -3343,6 +3307,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/guide/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -3439,23 +3410,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                text_styling: {
-                  children: {
-                    web_fonts: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.exljbris.com/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     }
@@ -3807,6 +3761,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -4134,6 +4095,23 @@ var warnings_processed_default = {
                         }
                       ]
                     },
+                    first_steps: {
+                      children: {
+                        "client-server_overview": {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://websniffer.com/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     node_server_without_framework: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Node_server_without_framework",
@@ -4195,24 +4173,6 @@ var warnings_processed_default = {
             },
             getting_started: {
               children: {
-                environment_setup: {
-                  children: {
-                    code_editors: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Code_editors",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Unterminated string literal.",
-                            'const helloChris = createGreeting("Chris);',
-                            "6:9"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 soft_skills: {
                   children: {
                     research_and_learning: {
@@ -4634,6 +4594,33 @@ var warnings_processed_default = {
                 },
                 tools_and_setup: {
                   children: {
+                    available_text_editors: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -4644,16 +4631,15 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    what_are_browser_developer_tools: {
+                    what_software_do_i_need: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_are_browser_developer_tools",
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
                       messages: [
                         {
-                          message: "JS code issue",
+                          message: "Broken external link",
                           data: [
-                            "Parsing error: Unterminated string literal.",
-                            'alert("hello!);',
-                            "1:9"
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -4868,20 +4854,6 @@ var warnings_processed_default = {
                           message: "Quoted code",
                           data: [
                             "<title>"
-                          ]
-                        }
-                      ]
-                    },
-                    javascript: {
-                      children: {},
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Code_style_guide/JavaScript",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Invalid character.",
-                            "  …",
-                            "2:9"
                           ]
                         }
                       ]
@@ -7367,6 +7339,13 @@ var warnings_processed_default = {
                             {
                               message: "Unreachable via page",
                               data: []
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://support.mozilla.org/en-US/kb/get-community-support",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         },
@@ -10604,6 +10583,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.mozilla.org/en-US/kb/how-use-firefox-containers",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -11640,6 +11626,34 @@ var warnings_processed_default = {
                           ]
                         },
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.epilepsy.com/stories/shedding-light-photosensitivity-one-epilepsys-most-complex-conditions",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.epilepsy.com/stories/shedding-light-photosensitivity-one-epilepsys-most-complex-conditions",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.epilepsy.com/stories/shedding-light-photosensitivity-one-epilepsys-most-complex-conditions",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.epilepsy.com/stories/shedding-light-photosensitivity-one-epilepsys-most-complex-conditions",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "HTTP link",
                           data: [
                             "http://diagramcenter.org/",
@@ -12179,6 +12193,22 @@ var warnings_processed_default = {
                       ]
                     }
                   ]
+                },
+                csspropertyrule: {
+                  children: {
+                    initialvalue: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSSPropertyRule/initialValue",
+                      messages: [
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/declaration-value"
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 cssstylevalue: {
                   children: {
@@ -13252,7 +13282,17 @@ var warnings_processed_default = {
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/Geolocation_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://lbs.amap.com/api/javascript-api/guide/services/geolocation",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 gpucommandencoder: {
                   children: {
@@ -24755,6 +24795,19 @@ html.elements.select.size`
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         "accept-patch": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept-Patch",
@@ -25234,14 +25287,6 @@ html.elements.select.size`
                         {
                           message: "JS code issue",
                           data: [
-                            "Parsing error: Unterminated regular expression literal.",
-                            "/* You can't, however, /* nest comments */ SyntaxError */",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
                             "Parsing error: Identifier expected.",
                             "console.log(unusualPropertyNames.'');   // SyntaxError: Unexpected string",
                             "5:9"
@@ -25294,28 +25339,6 @@ html.elements.select.size`
                           message: "Not linked from parent page",
                           data: [
                             "/en-US/docs/Web/JavaScript/Guide"
-                          ]
-                        }
-                      ]
-                    },
-                    numbers_and_strings: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Numbers_and_strings",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Decimals with leading zeros are not allowed.",
-                            "0888 // 888 parsed as decimal",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Octal literals are not allowed. Use the syntax '0o755'.",
-                            "const n = 0755; // 493",
-                            "1:9"
                           ]
                         }
                       ]
@@ -25415,80 +25438,8 @@ html.elements.select.size`
                     classes: {
                       children: {}
                     },
-                    deprecated_and_obsolete_features: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Reference/Deprecated_and_obsolete_features",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Expression expected.",
-                            "<!-- comment",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Expression or comma expected.",
-                            "[for (x of iterable) x]",
-                            "2:9"
-                          ]
-                        }
-                      ]
-                    },
                     errors: {
                       children: {
-                        bad_break: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Bad_break",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Declaration or statement expected.",
-                                "}",
-                                "8:9"
-                              ]
-                            }
-                          ]
-                        },
-                        bad_new_optional: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Bad_new_optional",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Invalid optional chain from new expression. Did you mean to call 'Intl()'?",
-                                "new Intl?.DateTimeFormat();",
-                                "1:9"
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Invalid optional chain from new expression. Did you mean to call 'Intl.DateTimeFormat()'?",
-                                "new Intl.DateTimeFormat?.();",
-                                "1:9"
-                              ]
-                            }
-                          ]
-                        },
-                        bad_return: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Bad_return",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Declaration or statement expected.",
-                                "}",
-                                "8:9"
-                              ]
-                            }
-                          ]
-                        },
                         constructor_cant_be_used_directly: {
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Constructor_cant_be_used_directly",
@@ -25501,324 +25452,6 @@ html.elements.select.size`
                             }
                           ]
                         },
-                        deprecated_octal_escape_sequence: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_octal_escape_sequence",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Octal escape sequences are not allowed. Use the syntax '\\xa9'.",
-                                '"\\251";',
-                                "3:9"
-                              ]
-                            }
-                          ]
-                        },
-                        deprecated_octal_literal: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_octal_literal",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Octal literals are not allowed. Use the syntax '0o3'.",
-                                "03;",
-                                "3:9"
-                              ]
-                            }
-                          ]
-                        },
-                        identifier_after_number: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Identifier_after_number",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: An identifier or keyword cannot immediately follow a numeric literal.",
-                                'const 1life = "foo";',
-                                "1:9"
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: An identifier or keyword cannot immediately follow a numeric literal.",
-                                "alert(typeof 1.toString())",
-                                "1:9"
-                              ]
-                            }
-                          ]
-                        },
-                        illegal_character: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Illegal_character",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Invalid character.",
-                                "“This looks like a string”; // SyntaxError: illegal character",
-                                "1:9"
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Invalid character.",
-                                'const operators = ["+", "-", ×", "÷"];',
-                                "1:9"
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Expression expected.",
-                                'const foo = "bar";<200b>',
-                                "1:9"
-                              ]
-                            }
-                          ]
-                        },
-                        "invalid_assignment_left-hand_side": {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_assignment_left-hand_side",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: ')' expected.",
-                                "if (Math.PI + 1 = 3 || Math.PI + 1 = 4) {",
-                                "1:9"
-                              ]
-                            }
-                          ]
-                        },
-                        "invalid_for-in_initializer": {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_for-in_initializer",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: The variable declaration of a 'for...in' statement cannot have an initializer.",
-                                "for (const i = 0 in obj) {",
-                                "3:9"
-                              ]
-                            }
-                          ]
-                        },
-                        "invalid_for-of_initializer": {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_for-of_initializer",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: The variable declaration of a 'for...of' statement cannot have an initializer.",
-                                "for (const value = 50 of iterable) {",
-                                "3:9"
-                              ]
-                            }
-                          ]
-                        },
-                        missing_bracket_after_list: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Missing_bracket_after_list",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Expression or comma expected.",
-                                "const instruments = [",
-                                "3:9"
-                              ]
-                            }
-                          ]
-                        },
-                        missing_colon_after_property_id: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Missing_colon_after_property_id",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: ':' expected.",
-                                'const obj = { "b"+"ar": "foo" };',
-                                "1:9"
-                              ]
-                            }
-                          ]
-                        },
-                        missing_curly_after_function_body: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Missing_curly_after_function_body",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: '}' expected.",
-                                "",
-                                "7:9"
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Declaration or statement expected.",
-                                ")();",
-                                "5:9"
-                              ]
-                            }
-                          ]
-                        },
-                        missing_curly_after_property_list: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Missing_curly_after_property_list",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: ',' expected.",
-                                "  c: 3",
-                                "4:9"
-                              ]
-                            }
-                          ]
-                        },
-                        missing_formal_parameter: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Missing_formal_parameter",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Identifier expected.",
-                                "function square(3) {",
-                                "1:9"
-                              ]
-                            }
-                          ]
-                        },
-                        missing_name_after_dot_operator: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Missing_name_after_dot_operator",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Identifier expected.",
-                                "obj.[foo].[bar]",
-                                "4:9"
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Identifier expected.",
-                                'console.log("Hello" . "world");',
-                                "1:9"
-                              ]
-                            }
-                          ]
-                        },
-                        missing_parenthesis_after_argument_list: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Missing_parenthesis_after_argument_list",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: ',' expected.",
-                                'console.log("PI: " Math.PI);',
-                                "1:9"
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Unterminated string literal.",
-                                `console.log('"Java" + "Script" = \\"' + "Java" + 'Script\\");`,
-                                "1:9"
-                              ]
-                            }
-                          ]
-                        },
-                        missing_parenthesis_after_condition: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Missing_parenthesis_after_condition",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: ')' expected.",
-                                "if (Math.PI < 3 {",
-                                "1:9"
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: ')' expected.",
-                                "if (done is true) {",
-                                "1:9"
-                              ]
-                            }
-                          ]
-                        },
-                        no_variable_name: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Errors/No_variable_name",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Variable declaration expected.",
-                                'const = "foo";',
-                                "1:9"
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: 'debugger' is not allowed as a variable declaration name.",
-                                'const debugger = "whoop";',
-                                "1:9"
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Variable declaration expected.",
-                                'const z, = "foo"',
-                                "2:9"
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Variable declaration expected.",
-                                "const arr = 1,2,3,4,5;",
-                                "1:9"
-                              ]
-                            }
-                          ]
-                        },
-                        reserved_identifier: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Reserved_identifier",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Identifier expected.",
-                                "const enum = { RED: 0, GREEN: 1, BLUE: 2 };",
-                                "1:9"
-                              ]
-                            }
-                          ]
-                        },
                         strict_non_simple_params: {
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Strict_non_simple_params",
@@ -25827,110 +25460,6 @@ html.elements.select.size`
                               message: "Quoted code",
                               data: [
                                 '"use strict"'
-                              ]
-                            }
-                          ]
-                        },
-                        string_literal_eol: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Errors/String_literal_EOL",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Unterminated string literal.",
-                                'const longString = "This is a very long string which needs',
-                                "1:9"
-                              ]
-                            }
-                          ]
-                        },
-                        unexpected_token: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Unexpected_token",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Expression expected.",
-                                "for (let i = 0; i < 5,; ++i) {",
-                                "1:9"
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Expression expected.",
-                                "if (n > upperBound) || (n < lowerBound) { // Missing parentheses here!",
-                                "2:9"
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: ',' expected.",
-                                '    document.getElementById("app").classList.add("loaded");',
-                                "3:9"
-                              ]
-                            }
-                          ]
-                        },
-                        unnamed_function_statement: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Unnamed_function_statement",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Identifier expected.",
-                                "function () {",
-                                "1:9"
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Identifier expected.",
-                                "  german: function () {",
-                                "2:9"
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Identifier expected.",
-                                "  function () {",
-                                "5:9"
-                              ]
-                            }
-                          ]
-                        },
-                        unparenthesized_unary_expr_lhs_exponentiation: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Unparenthesized_unary_expr_lhs_exponentiation",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: An unary expression with the '-' operator is not allowed in the left-hand side of an exponentiation expression. Consider enclosing the expression in parentheses.",
-                                "-a ** b",
-                                "1:9"
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: An unary expression with the 'await' operator is not allowed in the left-hand side of an exponentiation expression. Consider enclosing the expression in parentheses.",
-                                "await a ** b",
-                                "1:9"
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: An unary expression with the '-' operator is not allowed in the left-hand side of an exponentiation expression. Consider enclosing the expression in parentheses.",
-                                "  return (n) => (-1 ** n * x ** (2 * n + 1)) / factorial(2 * n + 1);",
-                                "2:9"
                               ]
                             }
                           ]
@@ -25981,49 +25510,8 @@ html.elements.select.size`
                               ]
                             }
                           }
-                        },
-                        arrow_functions: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: ';' expected.",
-                                "(a = 400, b = 20, c) => expression",
-                                "2:9"
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Identifier expected.",
-                                "const func2 = () => { foo: function () {} };",
-                                "4:9"
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Expression expected.",
-                                "callback = callback || () => {};",
-                                "3:9"
-                              ]
-                            }
-                          ]
                         }
-                      },
-                      slug: "/en-US/docs/Web/JavaScript/Reference/Functions",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Identifier expected.",
-                            "function () { // SyntaxError: Function statements require a function name",
-                            "1:9"
-                          ]
-                        }
-                      ]
+                      }
                     },
                     global_objects: {
                       children: {
@@ -26043,18 +25531,7 @@ html.elements.select.size`
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Unexpected keyword or identifier.",
-                                "arr.0; // a syntax error",
-                                "1:9"
-                              ]
-                            }
-                          ]
+                          }
                         },
                         asyncgeneratorfunction: {
                           children: {
@@ -26412,117 +25889,15 @@ html.elements.select.size`
                         {
                           message: "JS code issue",
                           data: [
-                            "Parsing error: Identifier expected. 'import' is a reserved word that cannot be used here.",
-                            "function import() {} // Illegal: import is a reserved word.",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: 'else' is not allowed as a variable declaration name.",
-                            "const els\\u{65} = 1;",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Decimals with leading zeros are not allowed.",
-                            "0888 // 888 parsed as decimal",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Octal literals are not allowed. Use the syntax '0o755'.",
-                            "0755n; // SyntaxError: invalid BigInt syntax",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Multiple consecutive numeric separators are not permitted.",
-                            "100__000; // SyntaxError",
-                            "2:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
                             "Parsing error: ']' expected.",
                             "",
                             "3:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "  a < 10 // No ASI here",
-                            "3:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "  *gen() {}",
-                            "3:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "  a = 1 * gen() {}",
-                            "2:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Invalid left-hand side expression in unary operation",
-                            "console.log(a) // ReferenceError: Invalid left-hand side expression in prefix operation",
-                            "3:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Expression expected.",
-                            "/pattern/.exec(str).forEach(console.log)",
-                            "19:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "  *gen() {} // Seen as a = 1[b] = 2 * gen() {}",
-                            "4:9"
                           ]
                         }
                       ]
                     },
                     operators: {
                       children: {
-                        decrement: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Operators/Decrement",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Invalid left-hand side expression in unary operation",
-                                "--(--x); // SyntaxError: Invalid left-hand side expression in prefix operation",
-                                "1:9"
-                              ]
-                            }
-                          ]
-                        },
                         delete: {
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Operators/delete",
@@ -26532,28 +25907,6 @@ html.elements.select.size`
                               data: [
                                 "http://perfectionkills.com/understanding-delete/",
                                 ""
-                              ]
-                            }
-                          ]
-                        },
-                        destructuring: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: ',' expected.",
-                                "const { a: numbers[0], b: numbers[1] } = obj;",
-                                "3:9"
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Identifier expected.",
-                                "const { a, ...{ b } } = { a: 1, b: 2 };",
-                                "1:9"
                               ]
                             }
                           ]
@@ -26572,20 +25925,6 @@ html.elements.select.size`
                             }
                           ]
                         },
-                        grouping: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Operators/Grouping",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Identifier expected.",
-                                "function () {",
-                                "1:9"
-                              ]
-                            }
-                          ]
-                        },
                         "import.meta": {
                           children: {
                             resolve: {
@@ -26599,114 +25938,6 @@ html.elements.select.size`
                               ]
                             }
                           }
-                        },
-                        increment: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Operators/Increment",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Invalid left-hand side expression in unary operation",
-                                "++(++x); // SyntaxError: Invalid left-hand side expression in prefix operation",
-                                "1:9"
-                              ]
-                            }
-                          ]
-                        },
-                        operator_precedence: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Expression expected.",
-                                "  a + yield 1;",
-                                "2:9"
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Expression expected.",
-                                "  await yield 1;",
-                                "2:9"
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: ';' expected.",
-                                "a++++; // SyntaxError: Invalid left-hand side in postfix operation.",
-                                "2:9"
-                              ]
-                            }
-                          ]
-                        },
-                        optional_chaining: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Invalid optional chain from new expression. Did you mean to call 'Intl()'?",
-                                "new Intl?.DateTimeFormat(); // SyntaxError: Invalid optional chain from new expression",
-                                "1:9"
-                              ]
-                            }
-                          ]
-                        },
-                        property_accessors: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Unexpected keyword or identifier.",
-                                'object.1 = "bar"; // SyntaxError',
-                                "2:9"
-                              ]
-                            }
-                          ]
-                        },
-                        super: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Operators/super",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: 'super' must be followed by an argument list or member access.",
-                                "    console.log(super); // SyntaxError: 'super' keyword unexpected here",
-                                "3:9"
-                              ]
-                            }
-                          ]
-                        },
-                        void: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Operators/void",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Expression expected.",
-                                "}(); // SyntaxError: Unexpected token ')'",
-                                "3:9"
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Expression expected.",
-                                'void () => { console.log("iife!"); }(); // SyntaxError: Malformed arrow function parameter list',
-                                "1:9"
-                              ]
-                            }
-                          ]
                         }
                       }
                     },
@@ -26755,20 +25986,6 @@ html.elements.select.size`
                     },
                     statements: {
                       children: {
-                        export: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Statements/export",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Declaration or statement expected.",
-                                'export DefaultExport from "bar.js"; // Invalid',
-                                "1:9"
-                              ]
-                            }
-                          ]
-                        },
                         expression_statement: {
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Statements/Expression_statement",
@@ -26777,28 +25994,6 @@ html.elements.select.size`
                               message: "Not in BCD",
                               data: [
                                 "javascript.statements.expression_statement"
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Expression expected.",
-                                "}(); // SyntaxError: Unexpected token '('",
-                                "3:9"
-                              ]
-                            }
-                          ]
-                        },
-                        for: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Statements/for",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: ')' expected.",
-                                'for (let i = "start" in window ? window.start : 0; i < 9; i++) {',
-                                "1:9"
                               ]
                             }
                           ]
@@ -26834,42 +26029,6 @@ html.elements.select.size`
                             }
                           }
                         },
-                        throw: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Statements/throw",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: A throw statement must throw an expression.",
-                                "throw",
-                                "1:9"
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Expression expected.",
-                                "throw;",
-                                "1:9"
-                              ]
-                            }
-                          ]
-                        },
-                        "try...catch": {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Statements/try...catch",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: '{' expected.",
-                                "try doSomething(); // SyntaxError",
-                                "1:9"
-                              ]
-                            }
-                          ]
-                        },
                         while: {
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Statements/while",
@@ -26902,34 +26061,6 @@ html.elements.select.size`
                         }
                       }
                     },
-                    strict_mode: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Reference/Strict_mode",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Octal literals are not allowed. Use the syntax '0o15'.",
-                            "  015 + // syntax error",
-                            "3:9"
-                          ]
-                        }
-                      ]
-                    },
-                    template_literals: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Reference/Template_literals",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Hexadecimal digit expected.",
-                            "const bad = `bad escape sequence: \\unicode`;",
-                            "1:9"
-                          ]
-                        }
-                      ]
-                    },
                     trailing_commas: {
                       children: {},
                       slug: "/en-US/docs/Web/JavaScript/Reference/Trailing_commas",
@@ -26944,14 +26075,6 @@ html.elements.select.size`
                           message: "Quoted code",
                           data: [
                             "n"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Parameter declaration expected.",
-                            "function f(,) {} // SyntaxError: missing formal parameter",
-                            "1:9"
                           ]
                         }
                       ]
@@ -27178,6 +26301,19 @@ html.elements.select.size`
                     },
                     formats: {
                       children: {
+                        image_types: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Image_types",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://ev.buaa.edu.cn/",
+                                403
+                              ]
+                            }
+                          ]
+                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -31952,6 +31088,19 @@ svg.elements.feSpotLight.z`
                   children: {
                     svg_from_scratch: {
                       children: {
+                        getting_started: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Getting_started",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://websniffer.com/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         paths: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Paths",
