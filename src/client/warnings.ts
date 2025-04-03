@@ -331,6 +331,7 @@ function displayWarnings() {
         "Missing data",
         "Missing sidebar",
         "Missing specifications",
+        "Missing syntax code block",
         "Possibly unrendered Markdown",
         "Quoted code",
         "Text stuck to code/link",
@@ -354,9 +355,11 @@ function displayWarnings() {
     ) {
       metadataIssues.append(option);
     } else if (
-      ["Invalid code block language", "ESLint error", "Stylelint error"].includes(
-        message[0],
-      )
+      [
+        "Invalid code block language",
+        "ESLint error",
+        "Stylelint error",
+      ].includes(message[0])
     ) {
       codeIssues.append(option);
     } else {

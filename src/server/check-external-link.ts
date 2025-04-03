@@ -294,9 +294,7 @@ export async function depleteQueue(
       completedReqs % 100 === 0 ||
       linkRequests.length - completedReqs < 100 - queueLen
     ) {
-      console.log(
-        `Processed ${completedReqs}/${linkRequests.length} links`,
-      );
+      console.log(`Processed ${completedReqs}/${linkRequests.length} links`);
     }
   }
 }

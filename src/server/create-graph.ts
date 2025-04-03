@@ -19,49 +19,6 @@ const nonContentPaths = [
   "/en-US/plus",
 ];
 
-const sanctionedLanguages = [
-  "apacheconf",
-  "bash",
-  "batch",
-  "cpp",
-  "cs",
-  "css",
-  "diff",
-  "django",
-  "glsl",
-  "hbs",
-  "html",
-  "http",
-  "ini",
-  "java",
-  "js",
-  "json",
-  "jsx",
-  "latex",
-  "md",
-  "nginx",
-  "php",
-  "plain",
-  "powershell",
-  "pug",
-  "python",
-  "regex",
-  "rust",
-  "scss",
-  "sh",
-  "sql",
-  "svelte",
-  "svg",
-  "toml",
-  "ts",
-  "url",
-  "vue",
-  "wat",
-  "webidl",
-  "xml",
-  "yaml",
-];
-
 async function* listdir(dir: string): AsyncGenerator<string> {
   for await (const dirent of await FS.readdir(dir, { withFileTypes: true })) {
     if (dirent.isDirectory()) {
@@ -75,7 +32,9 @@ async function* listdir(dir: string): AsyncGenerator<string> {
 export default async function createContentGraph() {
   const graph = createGraph();
 
-  for await (const file of listdir(Path.join(BUILT_CONTENT_ROOT, "en-us/docs"))) {
+  for await (const file of listdir(
+    Path.join(BUILT_CONTENT_ROOT, "en-us/docs"),
+  )) {
     if (!file.endsWith(".json")) continue;
     if (file.includes("en-us/docs/mdn/kitchensink")) continue;
     const content = await Bun.file(file).json();
@@ -145,7 +104,8 @@ export default async function createContentGraph() {
           } else if (data["browser-compat"]) {
             for (let i = 0; i < data["browser-compat"].length; i++) {
               if (
-                data["browser-compat"][i] !== node.data.metadata.browserCompat[i]
+                data["browser-compat"][i] !==
+                node.data.metadata.browserCompat[i]
               ) {
                 console.warn(
                   "Mismatched browser compat",
@@ -180,7 +140,10 @@ export default async function createContentGraph() {
     Map<string, { href: string; pageExists: boolean }>
   >();
 
-  const pageToCodes = new Map<string, { language: string; content: string }[]>();
+  const pageToCodes = new Map<
+    string,
+    { language: string; content: string }[]
+  >();
 
   graph.forEachNode((node) => {
     if (!node.data || !node.data.content) {
@@ -190,7 +153,7 @@ export default async function createContentGraph() {
     const content = node.data.content;
     const linkTargets: string[] = [];
     const ids: string[] = [];
-    const codes: { language: string; content: string }[] = [];
+    const codes: { language: string | null; content: string }[] = [];
     pageToCodes.set(node.id, codes);
     let hasBCDTable = false;
     for (const part of content) {
@@ -199,7 +162,8 @@ export default async function createContentGraph() {
       if (part.value.id) ids.push(part.value.id.toLowerCase());
       switch (part.type) {
         case "specifications":
-          if (node.data.specifications) report(node, "Duplicate specifications");
+          if (node.data.specifications)
+            report(node, "Duplicate specifications");
           node.data.specifications = part.value.specifications;
           continue;
         case "browser_compatibility":
@@ -263,8 +227,13 @@ export default async function createContentGraph() {
       }
       if (part.value.id !== "formal_syntax") {
         let selector = "pre";
-        if (part.value.id === "syntax" && !["mdn-writing-guide", "webextension-manifest-key"].includes(node.data.metadata.pageType)) {
-          const syntaxSelector = `body > div.code-example:${node.data.metadata.pageType === "web-api-event" ? "nth-child(2)" : "first-child"} pre`;
+        if (
+          part.value.id === "syntax" &&
+          !["mdn-writing-guide", "webextension-manifest-key", "webdriver-command"].includes(
+            node.data.metadata.pageType,
+          )
+        ) {
+          const syntaxSelector = `body > div.code-example:${node.data.metadata.pageType === "web-api-event" ? "nth-child(2)" : "first-child"} pre, body > pre:first-child`;
           const syntaxCode = $(syntaxSelector);
           selector = `pre:not(${syntaxSelector})`;
           if (!syntaxCode.length) {
@@ -273,7 +242,9 @@ export default async function createContentGraph() {
         }
         $(selector).each((i, pre) => {
           const code = $(pre).text();
-          const language = $(pre).attr("class")?.match(new RegExp(`brush: (${sanctionedLanguages.join("|")})(?: |$)`))?.[1];
+          const language = $(pre)
+            .attr("class")
+            ?.match(new RegExp(/brush: ([\w-]+)(?: |$)/))?.[1];
           if (!language) {
             report(node, "Invalid code block language", $(pre).attr("class"));
           }
@@ -362,7 +333,9 @@ export default async function createContentGraph() {
             report(node, "Broken anchor", linkTarget);
           }
         } else {
-          const targetDtLink = dtIdToLink.get(node.id)?.get(linkTarget.slice(1));
+          const targetDtLink = dtIdToLink
+            .get(node.id)
+            ?.get(linkTarget.slice(1));
           if (targetDtLink && targetDtLink.href.startsWith(node.id)) {
             report(
               node,
@@ -375,7 +348,8 @@ export default async function createContentGraph() {
         }
       } else if (
         !linkTarget.startsWith("http") ||
-        (linkTarget.includes("//localhost") && !linkTarget.includes("_sample_."))
+        (linkTarget.includes("//localhost") &&
+          !linkTarget.includes("_sample_."))
       ) {
         if (
           linkTarget.startsWith("mailto:") ||
@@ -498,7 +472,12 @@ export default async function createContentGraph() {
       includedPages: string[];
     }
   >();
-  for (const { id, macro, links, includedPages } of processedSidebars.values()) {
+  for (const {
+    id,
+    macro,
+    links,
+    includedPages,
+  } of processedSidebars.values()) {
     sidebarIds.set(id, { macro, links, includedPages });
   }
 
@@ -506,7 +485,9 @@ export default async function createContentGraph() {
     for (const { href, text } of links) {
       if (
         href &&
-        ["AddonSidebar", "AddonSidebarMain", "FirefoxSidebar"].includes(macro) &&
+        ["AddonSidebar", "AddonSidebarMain", "FirefoxSidebar"].includes(
+          macro,
+        ) &&
         [
           "#",
           "https://blog.mozilla.org/addons",
@@ -529,9 +510,11 @@ export default async function createContentGraph() {
         const targetNode = graph.getNode(url.pathname);
         if (
           (!targetNode &&
-          !nonContentPaths.includes(url.pathname) &&
-          !url.pathname.startsWith("/en-US/blog/")) ||
-          (url.hash && targetNode && !targetNode.data.ids.includes(url.hash.slice(1)))
+            !nonContentPaths.includes(url.pathname) &&
+            !url.pathname.startsWith("/en-US/blog/")) ||
+          (url.hash &&
+            targetNode &&
+            !targetNode.data.ids.includes(url.hash.slice(1)))
         ) {
           report(
             graph.getNode(includedPages[0]!)!,
@@ -551,7 +534,12 @@ export default async function createContentGraph() {
           "https://firefox-source-docs.mozilla.org",
         ].some((url) => href?.startsWith(url))
       ) {
-        report(graph.getNode(includedPages[0]!)!, "Bad sidebar link", text, href);
+        report(
+          graph.getNode(includedPages[0]!)!,
+          "Bad sidebar link",
+          text,
+          href,
+        );
       }
     }
   }

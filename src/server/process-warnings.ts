@@ -87,11 +87,7 @@ export default async function processWarnings(fast: boolean = false) {
   console.log("Code check completed");
 
   for (const node of nodes) {
-    if (
-      !node.data.flaws ||
-      Object.keys(node.data.flaws).length === 0
-    )
-      continue;
+    if (!node.data.flaws || Object.keys(node.data.flaws).length === 0) continue;
     const nodeWarnings = (warnings[node.data.metadata.source.folder] ??= []);
     Object.entries(node.data.flaws).forEach(([id, data]) => {
       data.forEach((d) => {
@@ -134,7 +130,8 @@ export default async function processWarnings(fast: boolean = false) {
           const correspondingWarning = nodeWarnings.find(
             (w) =>
               w.message === "Not in BCD" ||
-              (w.message === "Unexpected BCD keys" && w.data.at(-1) === "[None]"),
+              (w.message === "Unexpected BCD keys" &&
+                w.data.at(-1) === "[None]"),
           );
           if (correspondingWarning) {
             correspondingWarning.data.push("(and flaw)");
@@ -168,7 +165,8 @@ export default async function processWarnings(fast: boolean = false) {
           (
             x.message === "Missing href" ||
             (x.message === "Broken link" &&
-              (missingFeatures.has(x.data[0]) || configHas(noPage, x.data[0]))) ||
+              (missingFeatures.has(x.data[0]) ||
+                configHas(noPage, x.data[0]))) ||
             (x.message === "Broken sidebar link" &&
               (missingFeatures.has(x.data[1]) || configHas(noPage, x.data[1])))
           )
@@ -184,7 +182,10 @@ export default async function processWarnings(fast: boolean = false) {
     current.messages = messages;
   }
 
-  await Bun.write("data/warnings-processed.json", JSON.stringify(tree, null, 2));
+  await Bun.write(
+    "data/warnings-processed.json",
+    JSON.stringify(tree, null, 2),
+  );
   console.log("Warnings written to data/warnings-processed.json");
 
   for (const [url, used] of noPage) {

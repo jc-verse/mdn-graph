@@ -188,7 +188,11 @@ export function checkContent(
     } else if (
       textAfter &&
       !/^([\s.,?!:;…—–\-"')/]|e?s\b|th\b|⚠️)/.test(textAfter) &&
-      !(code.tagName === "code" && ["transform", "await", "yield"].includes($(code).text()) && /^ed\b/.test(textAfter)) &&
+      !(
+        code.tagName === "code" &&
+        ["transform", "await", "yield"].includes($(code).text()) &&
+        /^ed\b/.test(textAfter)
+      ) &&
       !(code.tagName === "a" && $(code).text().endsWith(" "))
     ) {
       report(

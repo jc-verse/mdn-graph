@@ -16,13 +16,20 @@ Based on commit <a href="https://github.com/mdn/content/tree/${
 )}</code></a> (<time datetime="${commitTime.toISOString()}" title="${commitTime.toISOString()}">${commitTime.toLocaleString()}</time>)
 `;
 
-const linksByTLDp1 = new Map<string, Map<string, { page: string; link: string }[]>>();
+const linksByTLDp1 = new Map<
+  string,
+  Map<string, { page: string; link: string }[]>
+>();
 for (const node of nodes) {
   for (const link of node.data.links) {
     if (!link.startsWith("http")) continue;
     const linkURL = new URL(link);
     let domain = linkURL.host;
-    if (linkURL.pathname !== "/" && (["github.com", "www.w3.org"].includes(domain) || domain.endsWith(".github.io")))
+    if (
+      linkURL.pathname !== "/" &&
+      (["github.com", "www.w3.org"].includes(domain) ||
+        domain.endsWith(".github.io"))
+    )
       domain += `/${linkURL.pathname.split("/")[1]}`;
     const tldp1 = linkURL.host.split(".").slice(-2).join(".");
     if (!linksByTLDp1.has(tldp1)) {
@@ -35,11 +42,15 @@ for (const node of nodes) {
   }
 }
 
-loopTLDp1: for (const [tldp1, allLinks] of [...linksByTLDp1].sort((a, b) => a[0].localeCompare(b[0], "en-US", { numeric: true }))) {
+loopTLDp1: for (const [tldp1, allLinks] of [...linksByTLDp1].sort((a, b) =>
+  a[0].localeCompare(b[0], "en-US", { numeric: true }),
+)) {
   const details = document.createElement("details");
   const summary = document.createElement("summary");
   let totalLinks = 0;
-  for (const [domain, links] of [...allLinks].sort((a, b) => a[0].localeCompare(b[0], "en-US", { numeric: true }))) {
+  for (const [domain, links] of [...allLinks].sort((a, b) =>
+    a[0].localeCompare(b[0], "en-US", { numeric: true }),
+  )) {
     const subDetails = document.createElement("details");
     subDetails.classList.add("sub-details");
     const subSummary = document.createElement("summary");
