@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-x55v1h3g.js";
+} from "./chunk-qvcnhpac.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -956,13 +956,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://trac.webkit.org/wiki/JavaScriptCore",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -1203,6 +1196,26 @@ var warnings_processed_default = {
                 }
               ]
             },
+            gpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/GPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-faq.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                }
+              ]
+            },
             "high-level_programming_language": {
               children: {},
               slug: "/en-US/docs/Glossary/High-level_programming_language",
@@ -1290,6 +1303,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            lgpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/LGPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/lgpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
                 }
               ]
             },
@@ -2356,6 +2382,13 @@ var warnings_processed_default = {
                           data: [
                             "https://codepen.io/mxmason/pen/XWbPNmw"
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://new.drupal.org/",
+                            403
+                          ]
                         }
                       ]
                     },
@@ -3273,7 +3306,17 @@ var warnings_processed_default = {
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
                     },
                     html_video_and_audio: {
                       children: {
@@ -3964,23 +4007,17 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
                   }
-                },
-                security_privacy: {
-                  children: {},
-                  slug: "/en-US/docs/Learn_web_development/Extensions/Security_privacy",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.gov.uk/data-protection",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 },
                 "server-side": {
                   children: {
@@ -4791,6 +4828,33 @@ var warnings_processed_default = {
                 },
                 tools_and_setup: {
                   children: {
+                    available_text_editors: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -4798,6 +4862,19 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    how_do_you_host_your_website_on_google_app_engine: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gaesamplesite.appspot.com/",
+                            503
+                          ]
                         }
                       ]
                     },
@@ -4811,6 +4888,19 @@ var warnings_processed_default = {
                             "Parsing error: Unterminated string literal.",
                             'alert("hello!);',
                             "1:9"
+                          ]
+                        }
+                      ]
+                    },
+                    what_software_do_i_need: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -5056,13 +5146,6 @@ var warnings_processed_default = {
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://trac.webkit.org/wiki/WebKitIDL",
-                                "The operation timed out."
-                              ]
                             },
                             {
                               message: "ESLint error",
@@ -9255,13 +9338,6 @@ var warnings_processed_default = {
                           data: []
                         },
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/web-animations/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
                           message: "ESLint error",
                           data: [
                             "Parsing error: Declaration or statement expected.",
@@ -11896,14 +11972,14 @@ var warnings_processed_default = {
                           message: "Broken external link",
                           data: [
                             "https://www.cedars-sinai.org/health-library/diseases-and-conditions/p/photosensitive-seizures.html",
-                            "The operation timed out."
+                            "Cannot reach server and Bun hangs"
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
                             "https://www.cedars-sinai.org/health-library/diseases-and-conditions/p/photosensitive-seizures.html",
-                            "The operation timed out."
+                            "Cannot reach server and Bun hangs"
                           ]
                         },
                         {
@@ -15019,19 +15095,6 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                paintworkletglobalscope: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/PaintWorkletGlobalScope",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.css-houdini.org/css-paint-api/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 },
                 payment_request_api: {
                   children: {
@@ -18733,19 +18796,6 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                worklet: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Worklet",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.css-houdini.org/css-layout-api-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 },
                 workletsharedstorage: {
                   children: {
@@ -26077,6 +26127,19 @@ html.elements.select.size`
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         "accept-patch": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept-Patch",
@@ -27726,13 +27789,6 @@ html.elements.select.size`
                           data: [
                             "/en-US/docs/Web/JavaScript/Reference"
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://trac.webkit.org/wiki/JavaScriptCore",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -28583,19 +28639,6 @@ html.elements.select.size`
                     },
                     formats: {
                       children: {
-                        image_types: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Image_types",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://ev.buaa.edu.cn/",
-                                403
-                              ]
-                            }
-                          ]
-                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -28849,13 +28892,6 @@ html.elements.select.size`
               },
               slug: "/en-US/docs/Web/Privacy",
               messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.permissionspolicy.com/",
-                    "The operation timed out."
-                  ]
-                },
                 {
                   message: "Redirected external link",
                   data: [
