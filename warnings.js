@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-we70d4mf.js";
+} from "./chunk-bvc272sb.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -245,68 +245,6 @@ var warnings_processed_default = {
                 },
                 control_mechanisms: {
                   children: {
-                    desktop_with_gamepad: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Techniques/Control_mechanisms/Desktop_with_gamepad",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "connect(event) {",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "disconnect(event) {",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "update() {",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "pressed(button, hold) {",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "create() {",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "update() {",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "create() {",
-                            "1:9"
-                          ]
-                        }
-                      ]
-                    },
                     other: {
                       children: {},
                       slug: "/en-US/docs/Games/Techniques/Control_mechanisms/Other",
@@ -328,22 +266,6 @@ var warnings_processed_default = {
                       data: [
                         "/en-US/docs/Games/Techniques"
                       ]
-                    },
-                    {
-                      message: "ESLint error",
-                      data: [
-                        "Parsing error: ';' expected.",
-                        "create() {",
-                        "1:9"
-                      ]
-                    },
-                    {
-                      message: "ESLint error",
-                      data: [
-                        "Parsing error: ';' expected.",
-                        "update() {",
-                        "1:9"
-                      ]
                     }
                   ]
                 },
@@ -360,46 +282,6 @@ var warnings_processed_default = {
                     {
                       message: "Unreachable via sidebar",
                       data: []
-                    },
-                    {
-                      message: "ESLint error",
-                      data: [
-                        "Parsing error: Expression expected.",
-                        "],",
-                        "5:9"
-                      ]
-                    },
-                    {
-                      message: "ESLint error",
-                      data: [
-                        "Parsing error: ';' expected.",
-                        "connect(evt) {",
-                        "1:9"
-                      ]
-                    },
-                    {
-                      message: "ESLint error",
-                      data: [
-                        "Parsing error: ';' expected.",
-                        "disconnect(evt) {",
-                        "1:9"
-                      ]
-                    },
-                    {
-                      message: "ESLint error",
-                      data: [
-                        "Parsing error: ';' expected.",
-                        "update() {",
-                        "1:9"
-                      ]
-                    },
-                    {
-                      message: "ESLint error",
-                      data: [
-                        "Parsing error: ';' expected.",
-                        "buttonPressed(button, hold) {",
-                        "1:9"
-                      ]
                     }
                   ]
                 },
@@ -805,44 +687,6 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                html5_gamedev_phaser_device_orientation: {
-                  children: {},
-                  slug: "/en-US/docs/Games/Tutorials/HTML5_Gamedev_Phaser_Device_Orientation",
-                  messages: [
-                    {
-                      message: "ESLint error",
-                      data: [
-                        "Parsing error: ';' expected.",
-                        "handleOrientation(e) {",
-                        "1:9"
-                      ]
-                    },
-                    {
-                      message: "ESLint error",
-                      data: [
-                        "Parsing error: ';' expected.",
-                        "showLevel(level) {",
-                        "1:9"
-                      ]
-                    },
-                    {
-                      message: "ESLint error",
-                      data: [
-                        "Parsing error: ';' expected.",
-                        "updateCounter() {",
-                        "1:9"
-                      ]
-                    },
-                    {
-                      message: "ESLint error",
-                      data: [
-                        "Parsing error: ';' expected.",
-                        "finishLevel() {",
-                        "1:9"
-                      ]
-                    }
-                  ]
                 }
               },
               slug: "/en-US/docs/Games/Tutorials",
@@ -934,7 +778,7 @@ var warnings_processed_default = {
               slug: "/en-US/docs/Glossary/Boolean",
               messages: [
                 {
-                  message: "ESLint error",
+                  message: "JS code issue",
                   data: [
                     "Parsing error: ')' expected.",
                     "if (boolean conditional) {",
@@ -1171,7 +1015,7 @@ var warnings_processed_default = {
               slug: "/en-US/docs/Glossary/Function",
               messages: [
                 {
-                  message: "ESLint error",
+                  message: "JS code issue",
                   data: [
                     "Parsing error: Expression expected.",
                     "}();",
@@ -1733,28 +1577,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            truthy: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Truthy",
-              messages: [
-                {
-                  message: "ESLint error",
-                  data: [
-                    "Parsing error: Expression expected.",
-                    "if (-Infinity)",
-                    "13:9"
-                  ]
-                },
-                {
-                  message: "ESLint error",
-                  data: [
-                    "Parsing error: An element access expression should take an argument.",
-                    '[] && "dog"',
-                    "4:9"
-                  ]
-                }
-              ]
-            },
             validator: {
               children: {},
               slug: "/en-US/docs/Glossary/Validator",
@@ -2092,7 +1914,7 @@ var warnings_processed_default = {
                           data: []
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "filter: 'all' | 'active' | 'done' = 'all';",
@@ -2110,7 +1932,7 @@ var warnings_processed_default = {
                           data: []
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Declaration expected.",
                             "})",
@@ -2118,7 +1940,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Declaration expected.",
                             "})",
@@ -2126,7 +1948,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Declaration expected.",
                             "})",
@@ -2144,7 +1966,7 @@ var warnings_processed_default = {
                           data: []
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Declaration expected.",
                             "})",
@@ -2152,7 +1974,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ',' expected.",
                             "remove(item: Item) {",
@@ -2160,7 +1982,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Declaration expected.",
                             "})",
@@ -2168,7 +1990,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Expression expected.",
                             "  @Output() remove = new EventEmitter<Item>();",
@@ -2176,7 +1998,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
                             "",
@@ -2184,7 +2006,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Declaration expected.",
                             "})",
@@ -2212,7 +2034,7 @@ var warnings_processed_default = {
                           data: []
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ',' expected.",
                             "addItem(description: string) {",
@@ -2230,7 +2052,7 @@ var warnings_processed_default = {
                           data: []
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Unexpected keyword or identifier.",
                             "get incomplete() {",
@@ -2238,7 +2060,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Declaration expected.",
                             "@action",
@@ -2246,7 +2068,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Unexpected keyword or identifier.",
                             "get todoCountIsOne() {",
@@ -2254,7 +2076,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Declaration expected.",
                             "@action",
@@ -2289,7 +2111,7 @@ var warnings_processed_default = {
                           data: []
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Declaration expected.",
                             "@service('todo-data') todos;",
@@ -2297,7 +2119,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Unexpected keyword or identifier.",
                             "get all() {",
@@ -2325,7 +2147,7 @@ var warnings_processed_default = {
                           data: []
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Unexpected keyword or identifier.",
                             "get completed() {",
@@ -2353,6 +2175,13 @@ var warnings_processed_default = {
                           data: [
                             "https://codepen.io/mxmason/pen/XWbPNmw"
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://phabricator.wikimedia.org/T241180",
+                            "429 Retry-After: 1000"
+                          ]
                         }
                       ]
                     },
@@ -2373,7 +2202,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: '...' expected.",
                             "      <AuthorCredit {/* props */} />",
@@ -2387,7 +2216,7 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_components",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: JSX expressions must have one parent element.",
                             '<Todo name="Eat" />',
@@ -2395,7 +2224,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: JSX expressions must have one parent element.",
                             '<Todo name="Eat" completed />',
@@ -2403,7 +2232,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: JSX expressions must have one parent element.",
                             '<Todo name="Eat" id="todo-0" completed />',
@@ -2417,7 +2246,7 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Expression expected.",
                             "  );",
@@ -2431,7 +2260,7 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_interactivity_events_state",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: JSX element 'form' has no corresponding closing tag.",
                             "<form onSubmit={handleSubmit}>",
@@ -2439,7 +2268,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "...",
@@ -2453,7 +2282,7 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_interactivity_filtering_conditional_rendering",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: JSX element 'form' has no corresponding closing tag.",
                             '<form className="stack-small" onSubmit={handleSubmit}>',
@@ -2461,7 +2290,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: JSX expressions must have one parent element.",
                             "<FilterButton />",
@@ -2475,7 +2304,7 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_todo_list_beginning",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: JSX expressions must have one parent element.",
                             '<input id="todo-0" type="checkbox" defaultChecked />',
@@ -2510,14 +2339,14 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "Redirected external link",
+                          message: "Broken external link",
                           data: [
                             "https://svelte-native.technology/",
-                            "https://svelte.nativescript.org/"
+                            "The operation timed out."
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ']' expected.",
                             "",
@@ -2525,7 +2354,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "  ],",
@@ -2543,10 +2372,10 @@ var warnings_processed_default = {
                           data: []
                         },
                         {
-                          message: "Redirected external link",
+                          message: "Broken external link",
                           data: [
                             "https://svelte-native.technology/",
-                            "https://svelte.nativescript.org/"
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -2597,7 +2426,7 @@ var warnings_processed_default = {
                           data: []
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
                             "",
@@ -2605,7 +2434,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: '?' expected.",
                             "export const localStore = <T extends JsonValue>(key: string, initial: T)",
@@ -2633,7 +2462,7 @@ var warnings_processed_default = {
                           data: []
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "  listSummary() {",
@@ -2641,7 +2470,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "updateDoneStatus(toDoId) {",
@@ -2659,7 +2488,7 @@ var warnings_processed_default = {
                           data: []
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "data() {",
@@ -2667,7 +2496,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "    deleteToDo() {",
@@ -2675,7 +2504,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "},",
@@ -2683,7 +2512,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "itemEdited(newLabel) {",
@@ -2691,7 +2520,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "editCancelled() {",
@@ -2699,7 +2528,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "deleteToDo(toDoId) {",
@@ -2707,7 +2536,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Expression expected.",
                             "isDone: this.done,",
@@ -2715,7 +2544,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "  isDone() {",
@@ -2733,7 +2562,7 @@ var warnings_processed_default = {
                           data: []
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "data() {",
@@ -2761,7 +2590,7 @@ var warnings_processed_default = {
                           data: []
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Expression expected.",
                             "}",
@@ -2769,7 +2598,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "  onSubmit() {",
@@ -2777,7 +2606,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "onSubmit() {",
@@ -2785,7 +2614,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "  addToDo(toDoLabel) {",
@@ -2793,7 +2622,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "addToDo(toDoLabel) {",
@@ -2801,7 +2630,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "onSubmit() {",
@@ -2809,7 +2638,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "onSubmit() {",
@@ -2827,7 +2656,7 @@ var warnings_processed_default = {
                           data: []
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "toggleToItemEditForm() {",
@@ -2835,7 +2664,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "focusOnEditButton() {",
@@ -2843,7 +2672,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "itemEdited(newItemName) {",
@@ -2851,7 +2680,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "focusOnEditButton() {",
@@ -2859,7 +2688,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "mounted() {",
@@ -2867,7 +2696,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "mounted() {",
@@ -2875,7 +2704,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "deleteToDo(toDoId) {",
@@ -2923,7 +2752,7 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/Build_your_own_function",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "  ...",
@@ -2931,7 +2760,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
                             "",
@@ -2939,7 +2768,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
                             "",
@@ -2953,7 +2782,7 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/Conditionals",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Expression expected.",
                             "else /* run some other code instead */",
@@ -2961,7 +2790,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ':' expected.",
                             "condition ? run this code : run this code instead",
@@ -2975,7 +2804,7 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/Math",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Invalid left-hand side expression in unary operation",
                             "3++;",
@@ -2989,7 +2818,7 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/Object_basics",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "introduceSelf() {",
@@ -3003,7 +2832,7 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/Strings",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ',' expected.",
                             "const badString1 = This is a test;",
@@ -3011,7 +2840,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Unterminated string literal.",
                             `const badQuotes = 'This is not allowed!";`,
@@ -3019,7 +2848,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ',' expected.",
                             'const badQuotes = "She said "I think so!"";',
@@ -3193,7 +3022,7 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/What_went_wrong",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
                             "",
@@ -3201,7 +3030,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
                             "",
@@ -3209,7 +3038,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
                             "",
@@ -3217,7 +3046,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
                             "",
@@ -3442,7 +3271,7 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Combinators",
                       messages: [
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word article (CssSyntaxError)",
                             "article > p",
@@ -3450,7 +3279,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word p (CssSyntaxError)",
                             "p + img",
@@ -3458,7 +3287,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word p (CssSyntaxError)",
                             "p ~ img",
@@ -3472,7 +3301,7 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Getting_started",
                       messages: [
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word left (CssSyntaxError)",
                             "padding- left: 10px;",
@@ -3614,6 +3443,23 @@ var warnings_processed_default = {
                       ]
                     }
                   }
+                },
+                text_styling: {
+                  children: {
+                    web_fonts: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.exljbris.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 }
               }
             },
@@ -3626,7 +3472,7 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Adding_bouncing_balls_features",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "collisionDetect() {",
@@ -3640,7 +3486,7 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Object_building_practice",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "draw() {",
@@ -3648,7 +3494,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "update() {",
@@ -3656,7 +3502,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "collisionDetect() {",
@@ -3945,7 +3791,7 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Extensions/Performance/JavaScript",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Identifier expected.",
                             'import { function } from "important-module.js";',
@@ -3965,19 +3811,6 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                security_privacy: {
-                  children: {},
-                  slug: "/en-US/docs/Learn_web_development/Extensions/Security_privacy",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.gov.uk/data-protection",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 },
                 "server-side": {
                   children: {
@@ -4052,6 +3885,19 @@ var warnings_processed_default = {
                     },
                     express_nodejs: {
                       children: {
+                        development_environment: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/development_environment",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://nodejs.org/en/blog/release/",
+                                404
+                              ]
+                            }
+                          ]
+                        },
                         displaying_data: {
                           children: {
                             author_detail_page: {
@@ -4254,7 +4100,7 @@ var warnings_processed_default = {
                           slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/mongoose",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: '(' expected.",
                                 "async function myFunction {",
@@ -4262,7 +4108,7 @@ var warnings_processed_default = {
                               ]
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: '(' expected.",
                                 "async function myFunction {",
@@ -4320,7 +4166,7 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS",
                       messages: [
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word form (CssSyntaxError)",
                             "form > #date",
@@ -4334,7 +4180,7 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Your_own_automation_environment",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Unexpected keyword or identifier.",
                             "npm install axios",
@@ -4356,7 +4202,7 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Code_editors",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Unterminated string literal.",
                             'const helloChris = createGreeting("Chris);',
@@ -4803,7 +4649,7 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_are_browser_developer_tools",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Unterminated string literal.",
                             'alert("hello!);',
@@ -5031,7 +4877,7 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/MDN/Writing_guidelines/Code_style_guide/JavaScript",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Invalid character.",
                             "  …",
@@ -5053,14 +4899,6 @@ var warnings_processed_default = {
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "ESLint error",
-                              data: [
-                                "Parsing error: Unexpected keyword or identifier.",
-                                "TextTrack addTextTrack(TextTrackKind kind,",
-                                "1:9"
-                              ]
                             }
                           ]
                         },
@@ -5290,7 +5128,7 @@ var warnings_processed_default = {
                               data: []
                             },
                             {
-                              message: "Stylelint error",
+                              message: "CSS code issue",
                               data: [
                                 "Unknown word var (CssSyntaxError)",
                                 "var(--custom-prop)",
@@ -5392,7 +5230,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Expression expected.",
                             "arr.slice([begin[, end]])",
@@ -5996,7 +5834,7 @@ var warnings_processed_default = {
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/onShown",
                               messages: [
                                 {
-                                  message: "ESLint error",
+                                  message: "JS code issue",
                                   data: [
                                     "Parsing error: Expression expected.",
                                     "  await /* the function to call */ ;",
@@ -6556,7 +6394,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word padding-__MSG_ (CssSyntaxError)",
                             "  padding-__MSG_@@bidi_start_edge__: 0;",
@@ -6834,7 +6672,7 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_contextual_identities",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
                             "",
@@ -6842,7 +6680,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
                             "",
@@ -6850,7 +6688,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "  });",
@@ -6858,7 +6696,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
                             "",
@@ -6866,7 +6704,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "}",
@@ -6890,7 +6728,7 @@ var warnings_processed_default = {
                           data: []
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
                             "",
@@ -6898,7 +6736,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
                             "",
@@ -6918,7 +6756,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
                             "",
@@ -6926,7 +6764,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
                             "",
@@ -6934,7 +6772,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
                             "",
@@ -6948,7 +6786,7 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Working_with_the_Tabs_API",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
                             "",
@@ -6956,7 +6794,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "  });",
@@ -6964,7 +6802,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             'else if (e.target.id === "tabs-alert-info") {',
@@ -6972,7 +6810,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ')' expected.",
                             "",
@@ -6980,7 +6818,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             '  else if (e.target.id === "tabs-add-zoom") {',
@@ -9177,21 +9015,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/web-animations/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: Declaration or statement expected.",
-                            "    width: { min: 640 },",
-                            "3:9"
-                          ]
                         }
                       ]
                     },
@@ -11787,7 +11610,7 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance",
                       messages: [
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word oklch (CssSyntaxError)",
                             "oklch(0.7 0.32 328.37);",
@@ -12080,14 +11903,6 @@ var warnings_processed_default = {
                             "https://developers.google.com/privacy-sandbox/private-advertising/attribution-reporting/attribution-reporting-debugging/part-3/",
                             "https://privacysandbox.google.com/private-advertising/attribution-reporting/attribution-reporting-debugging/part-3"
                           ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            '  "operation": "histogram",  // Allows for the service to support other operations in the future',
-                            "2:9"
-                          ]
                         }
                       ]
                     },
@@ -12114,22 +11929,6 @@ var warnings_processed_default = {
                           data: [
                             "https://developers.google.com/privacy-sandbox/private-advertising/attribution-reporting/prevent-duplication",
                             "https://privacysandbox.google.com/private-advertising/attribution-reporting/prevent-duplication"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ')' expected.",
-                            "  });",
-                            "12:9"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ')' expected.",
-                            "  });",
-                            "19:9"
                           ]
                         }
                       ]
@@ -12165,32 +11964,6 @@ var warnings_processed_default = {
                       ]
                     }
                   ]
-                },
-                audiocontext: {
-                  children: {
-                    setsinkid: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/AudioContext/setSinkId",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: '}' expected.",
-                            "",
-                            "27:9"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: Declaration or statement expected.",
-                            "  }",
-                            "10:9"
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 audioworkletprocessor: {
                   children: {
@@ -12264,52 +12037,6 @@ var warnings_processed_default = {
                     }
                   ]
                 },
-                closewatcher: {
-                  children: {
-                    cancel_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CloseWatcher/cancel_event",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ')' expected.",
-                            "};",
-                            "8:9"
-                          ]
-                        }
-                      ]
-                    },
-                    close_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CloseWatcher/close_event",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ')' expected.",
-                            "};",
-                            "4:9"
-                          ]
-                        }
-                      ]
-                    },
-                    closewatcher: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CloseWatcher/CloseWatcher",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ')' expected.",
-                            "const signalWatcher = new CloseWatcher({ signal: controller.signal };",
-                            "2:9"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 contactaddress: {
                   children: {
                     addressline: {
@@ -12334,20 +12061,6 @@ var warnings_processed_default = {
                       message: "External sandbox link",
                       data: [
                         "https://codepen.io/DonKarlssonSan/pen/doVKRE"
-                      ]
-                    }
-                  ]
-                },
-                cspviolationreportbody: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/CSPViolationReportBody",
-                  messages: [
-                    {
-                      message: "ESLint error",
-                      data: [
-                        "Parsing error: ';' expected.",
-                        '    "type": "csp-violation",',
-                        "2:9"
                       ]
                     }
                   ]
@@ -12406,7 +12119,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "static get inputArguments() { return ['*']; }",
@@ -12414,7 +12127,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "paint(ctx, size, props, args) {",
@@ -12422,7 +12135,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "static get inputArguments() { return ['*', '<length>']; }",
@@ -12430,7 +12143,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "paint(ctx, size, props, args) {",
@@ -12474,7 +12187,7 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Web/API/CSSStyleValue/parse_static",
                       messages: [
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Missed semicolon (CssSyntaxError)",
                             "CSSTransformValue {0: CSSTranslate, 1: CSSScale, length: 2, is2D: false}",
@@ -12751,20 +12464,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    browsingtopics: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/browsingTopics",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            '  modelVersion: "1",',
-                            "3:9"
-                          ]
-                        }
-                      ]
-                    },
                     cookie: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Document/cookie",
@@ -12951,14 +12650,6 @@ var warnings_processed_default = {
                           data: [
                             "https://codepen.io/rachelnabors/pen/rxpmJL/?editors=0010"
                           ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "  offset: CSS.percent('100'),",
-                            "3:9"
-                          ]
                         }
                       ]
                     }
@@ -12971,7 +12662,7 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Web/API/ElementInternals/states",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Unexpected keyword or identifier.",
                             "set checked(flag) {",
@@ -13408,14 +13099,6 @@ var warnings_processed_default = {
                             "https://developers.google.com/privacy-sandbox",
                             "https://privacysandbox.google.com/"
                           ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: Declaration or statement expected.",
-                            "  convertEventIdToBucket(eventId) { ... }",
-                            "2:9"
-                          ]
                         }
                       ]
                     }
@@ -13483,14 +13166,6 @@ var warnings_processed_default = {
                       data: [
                         "https://developers.google.com/privacy-sandbox",
                         "https://privacysandbox.google.com/"
-                      ]
-                    },
-                    {
-                      message: "ESLint error",
-                      data: [
-                        "Parsing error: Declaration or statement expected.",
-                        "  convertEventIdToBucket(eventId) { ... }",
-                        "2:9"
                       ]
                     }
                   ]
@@ -13579,24 +13254,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                gpuadapter: {
-                  children: {
-                    isfallbackadapter: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/GPUAdapter/isFallbackAdapter",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: '}' expected.",
-                            "",
-                            "16:9"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 gpucommandencoder: {
                   children: {
                     beginrenderpass: {
@@ -13604,165 +13261,11 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Web/API/GPUCommandEncoder/beginRenderPass",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "  g: 0.5,",
                             "3:9"
-                          ]
-                        }
-                      ]
-                    },
-                    copybuffertotexture: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/GPUCommandEncoder/copyBufferToTexture",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "  y: 0,",
-                            "3:9"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "  height: 16,",
-                            "3:9"
-                          ]
-                        }
-                      ]
-                    },
-                    copytexturetobuffer: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/GPUCommandEncoder/copyTextureToBuffer",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "  y: 0,",
-                            "3:9"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "  height: 16,",
-                            "3:9"
-                          ]
-                        }
-                      ]
-                    },
-                    copytexturetotexture: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/GPUCommandEncoder/copyTextureToTexture",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "  height: 16,",
-                            "3:9"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "  y: 0,",
-                            "3:9"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                gpucompilationmessage: {
-                  children: {
-                    length: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/GPUCompilationMessage/length",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: Declaration or statement expected.",
-                            "}",
-                            "10:9"
-                          ]
-                        }
-                      ]
-                    },
-                    linenum: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/GPUCompilationMessage/lineNum",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: Declaration or statement expected.",
-                            "}",
-                            "10:9"
-                          ]
-                        }
-                      ]
-                    },
-                    linepos: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/GPUCompilationMessage/linePos",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: Declaration or statement expected.",
-                            "}",
-                            "10:9"
-                          ]
-                        }
-                      ]
-                    },
-                    message: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/GPUCompilationMessage/message",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: Declaration or statement expected.",
-                            "}",
-                            "10:9"
-                          ]
-                        }
-                      ]
-                    },
-                    offset: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/GPUCompilationMessage/offset",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: Declaration or statement expected.",
-                            "}",
-                            "10:9"
-                          ]
-                        }
-                      ]
-                    },
-                    type: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/GPUCompilationMessage/type",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: Declaration or statement expected.",
-                            "}",
-                            "10:9"
                           ]
                         }
                       ]
@@ -13771,48 +13274,12 @@ var warnings_processed_default = {
                 },
                 gpudevice: {
                   children: {
-                    createcomputepipeline: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/GPUDevice/createComputePipeline",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "    0: false,",
-                            "4:9"
-                          ]
-                        }
-                      ]
-                    },
-                    createrenderpipeline: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/GPUDevice/createRenderPipeline",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "    0: false,",
-                            "4:9"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "    0: false,",
-                            "4:9"
-                          ]
-                        }
-                      ]
-                    },
                     createtexture: {
                       children: {},
                       slug: "/en-US/docs/Web/API/GPUDevice/createTexture",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "  height: 16,",
@@ -13830,7 +13297,7 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Web/API/GPUQueue/copyExternalImageToTexture",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "  y: 0",
@@ -13838,7 +13305,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "  y: 0,",
@@ -13846,7 +13313,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "  height: 1,",
@@ -13860,7 +13327,7 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Web/API/GPUQueue/writeTexture",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "  y: 0,",
@@ -14409,7 +13876,7 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Web/API/IndexedDB_API/Checking_when_a_deadline_is_due",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
                             "",
@@ -14417,7 +13884,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "   else {",
@@ -14425,7 +13892,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "  }",
@@ -14433,7 +13900,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "};",
@@ -14441,7 +13908,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
                             "",
@@ -14449,7 +13916,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
                             "",
@@ -14457,7 +13924,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
                             "",
@@ -14465,7 +13932,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "    }",
@@ -14540,26 +14007,12 @@ var warnings_processed_default = {
                 },
                 media_capture_and_streams_api: {
                   children: {
-                    constraints: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Media_Capture_and_Streams_API/Constraints",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            '  "autoGainControl": [',
-                            "2:9"
-                          ]
-                        }
-                      ]
-                    },
                     taking_still_photos: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Media_Capture_and_Streams_API/Taking_still_photos",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
                             "",
@@ -14567,7 +14020,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
                             "",
@@ -14575,7 +14028,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "  }",
@@ -14618,24 +14071,6 @@ var warnings_processed_default = {
                       ]
                     }
                   ]
-                },
-                mediastreamtrack: {
-                  children: {
-                    getcapabilities: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaStreamTrack/getCapabilities",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            '  "autoGainControl": [',
-                            "2:9"
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 mediatracksettings: {
                   children: {
@@ -14904,19 +14339,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                paintworkletglobalscope: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/PaintWorkletGlobalScope",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.css-houdini.org/css-paint-api/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 payment_request_api: {
                   children: {
                     concepts: {
@@ -14954,7 +14376,7 @@ var warnings_processed_default = {
                           data: []
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
                             "",
@@ -14978,38 +14400,6 @@ var warnings_processed_default = {
                           ]
                         }
                       ]
-                    },
-                    openwindow: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PaymentRequestEvent/openWindow",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: Invalid character.",
-                            "…",
-                            "1:9"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                paymentresponse: {
-                  children: {
-                    tojson: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PaymentResponse/toJSON",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ')' expected.",
-                            "  };",
-                            "3:9"
-                          ]
-                        }
-                      ]
                     }
                   }
                 },
@@ -15022,80 +14412,6 @@ var warnings_processed_default = {
                         {
                           message: "Missing specifications",
                           data: []
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "  id: null,",
-                            "3:9"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "  id: null,",
-                            "22:9"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "  id: null,",
-                            "12:9"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                performance: {
-                  children: {
-                    measureuseragentspecificmemory: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Performance/measureUserAgentSpecificMemory",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "  breakdown: [",
-                            "3:9"
-                          ]
-                        }
-                      ]
-                    },
-                    memory: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Performance/memory",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "  usedJSHeapSize: 39127515,",
-                            "3:9"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                performancenavigationtiming: {
-                  children: {
-                    notrestoredreasons: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PerformanceNavigationTiming/notRestoredReasons",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "  id: null,",
-                            "3:9"
-                          ]
                         }
                       ]
                     }
@@ -15153,24 +14469,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                pressureobserver: {
-                  children: {
-                    takerecords: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PressureObserver/takeRecords",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ',' expected.",
-                            "const observer = new PressureObserver(callback):",
-                            "1:9"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 profiler: {
                   children: {
                     samplebufferfull_event: {
@@ -15197,48 +14495,6 @@ var warnings_processed_default = {
                           message: "Not in BCD",
                           data: [
                             "api.PublicKeyCredential.id"
-                          ]
-                        }
-                      ]
-                    },
-                    isconditionalmediationavailable_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PublicKeyCredential/isConditionalMediationAvailable_static",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: Expression expected.",
-                            "      challenge: ****,",
-                            "12:9"
-                          ]
-                        }
-                      ]
-                    },
-                    parserequestoptionsfromjson_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PublicKeyCredential/parseRequestOptionsFromJSON_static",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: Expression expected.",
-                            "    challenge: new Uint8Array([139, 66, 181, 87, 7, 203, ...]),",
-                            "2:9"
-                          ]
-                        }
-                      ]
-                    },
-                    signalunknowncredential_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PublicKeyCredential/signalUnknownCredential_static",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: Expression expected.",
-                            "  challenge: new Uint8Array([139, 66, 181, 87, 7, 203, ...]),",
-                            "2:9"
                           ]
                         }
                       ]
@@ -15282,45 +14538,11 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Web/API/PushManager/supportedContentEncodings_static",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ',' expected.",
                             "  body: JSON.stringify(pushSubscription);",
                             "18:9"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                readablestreambyobreader: {
-                  children: {
-                    read: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/ReadableStreamBYOBReader/read",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "{ value: theChunk, done: false }",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "{ value: theChunk, done: true }",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "{ value: undefined, done: true }",
-                            "1:9"
                           ]
                         }
                       ]
@@ -15342,98 +14564,6 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                rtccertificate: {
-                  children: {
-                    getfingerprints: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/RTCCertificate/getFingerprints",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: Expression expected.",
-                            "const fingerprintsFromServer = ...;",
-                            "7:9"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                rtcencodedaudioframe: {
-                  children: {
-                    getmetadata: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/RTCEncodedAudioFrame/getMetadata",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ',' expected.",
-                            "  const async transform = new TransformStream({",
-                            "2:9"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            '  "payloadType": 109,',
-                            "2:9"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/RTCEncodedAudioFrame",
-                  messages: [
-                    {
-                      message: "ESLint error",
-                      data: [
-                        "Parsing error: ',' expected.",
-                        "  const async transform = new TransformStream({",
-                        "2:9"
-                      ]
-                    }
-                  ]
-                },
-                rtcencodedvideoframe: {
-                  children: {
-                    getmetadata: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/RTCEncodedVideoFrame/getMetadata",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ',' expected.",
-                            "  const async transform = new TransformStream({",
-                            "2:9"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            '  "contributingSources": [],',
-                            "2:9"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/RTCEncodedVideoFrame",
-                  messages: [
-                    {
-                      message: "ESLint error",
-                      data: [
-                        "Parsing error: ',' expected.",
-                        "  const async transform = new TransformStream({",
-                        "2:9"
-                      ]
-                    }
-                  ]
                 },
                 rtcicecandidatepair: {
                   children: {
@@ -15703,24 +14833,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                rtcrtpscripttransformer: {
-                  children: {
-                    options: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/RTCRtpScriptTransformer/options",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ')' expected.",
-                            "  };",
-                            "4:9"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 rtcstatsreport: {
                   children: {
                     "symbol.iterator": {
@@ -15798,7 +14910,7 @@ var warnings_processed_default = {
                   slug: "/en-US/docs/Web/API/ShadowRoot",
                   messages: [
                     {
-                      message: "ESLint error",
+                      message: "JS code issue",
                       data: [
                         "Parsing error: ';' expected.",
                         "connectedCallback() {",
@@ -15983,18 +15095,17 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                svganimatedrect: {
+                subtlecrypto: {
                   children: {
-                    animval: {
+                    sign: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/SVGAnimatedRect/animVal",
+                      slug: "/en-US/docs/Web/API/SubtleCrypto/sign",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "Broken external link",
                           data: [
-                            "Parsing error: Declaration or statement expected.",
-                            "</script>",
-                            "9:9"
+                            "https://standards.ieee.org/ieee/1363/2049/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -16255,24 +15366,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                virtualkeyboard: {
-                  children: {
-                    show: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VirtualKeyboard/show",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: Expression expected.",
-                            '    const editor = document.getElementById("editor");',
-                            "5:9"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 vrlayerinit: {
                   children: {
                     leftbounds: {
@@ -16311,14 +15404,6 @@ var warnings_processed_default = {
                     {
                       message: "Broken browser compat anchor",
                       data: []
-                    },
-                    {
-                      message: "ESLint error",
-                      data: [
-                        "Parsing error: ';' expected.",
-                        "  rightBounds: [/* … */],",
-                        "3:9"
-                      ]
                     }
                   ]
                 },
@@ -16440,19 +15525,6 @@ var warnings_processed_default = {
                 },
                 web_audio_api: {
                   children: {
-                    advanced_techniques: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://soundbible.com/1573-DTMF-Tones.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     best_practices: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Best_practices",
@@ -16470,7 +15542,7 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Simple_synth",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
                             "",
@@ -16478,7 +15550,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "}",
@@ -16492,7 +15564,7 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Using_AudioWorklet",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "process(inputList, outputList, parameters) {",
@@ -16500,7 +15572,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "process(inputList, outputList, parameters) {",
@@ -16508,7 +15580,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "static get parameterDescriptors() {",
@@ -16516,7 +15588,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "process(inputList, outputList, parameters) {",
@@ -16560,7 +15632,7 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Visualizations_with_Web_Audio_API",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
                             "",
@@ -16568,7 +15640,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "}",
@@ -16576,7 +15648,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
                             "",
@@ -16593,30 +15665,6 @@ var warnings_processed_default = {
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/Rumyra/pen/MqayoK?editors=0100"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: Declaration or statement expected.",
-                            "case 'back':",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: Declaration or statement expected.",
-                            "case 'rotate-left':",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: Declaration or statement expected.",
-                            "case 'rotate-right':",
-                            "1:9"
                           ]
                         }
                       ]
@@ -16679,75 +15727,16 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
-                            "Parsing error: Expression expected.",
-                            "  challenge: new Uint8Array([117, 61, 252, 231, 191, 241, ...]),",
-                            "2:9"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ',' expected.",
-                            "    id: arrayBuffer, // needs to contain decoded binary form of id",
+                            "Parsing error: '=>' expected.",
+                            "})}",
                             "3:9"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ',' expected.",
-                            "    id: arrayBuffer, // needs to contain decoded binary form of id",
-                            "3:9"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "  enforceCredentialProtectionPolicy: true",
-                            "3:9"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            '{ "credProtect": 0x01 }',
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            '{"minPinLength": uint}',
-                            "1:9"
                           ]
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/Web_Authentication_API",
-                  messages: [
-                    {
-                      message: "ESLint error",
-                      data: [
-                        "Parsing error: Expression expected.",
-                        "    challenge: new Uint8Array([117, 61, 252, 231, 191, 241, ...]),",
-                        "3:9"
-                      ]
-                    },
-                    {
-                      message: "ESLint error",
-                      data: [
-                        "Parsing error: Expression expected.",
-                        "    challenge: new Uint8Array([139, 66, 181, 87, 7, 203, ...]),",
-                        "3:9"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 web_components: {
                   children: {
@@ -16756,7 +15745,7 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Web/API/Web_components/Using_custom_elements",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "constructor() {",
@@ -16764,7 +15753,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "connectedCallback() {",
@@ -16772,7 +15761,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "disconnectedCallback() {",
@@ -16780,7 +15769,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "attributeChangedCallback(name, oldValue, newValue) {",
@@ -16788,7 +15777,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "static get observedAttributes() {",
@@ -16809,32 +15798,6 @@ var warnings_processed_default = {
                           message: "Not linked from parent page",
                           data: [
                             "/en-US/docs/Web/API/Web_Crypto_API"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                web_speech_api: {
-                  children: {
-                    using_the_web_speech_api: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: '}' expected.",
-                            "",
-                            "14:9"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: Declaration or statement expected.",
-                            "}",
-                            "2:9"
                           ]
                         }
                       ]
@@ -16952,7 +15915,7 @@ var warnings_processed_default = {
                               data: []
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: '}' expected.",
                                 "",
@@ -16960,7 +15923,7 @@ var warnings_processed_default = {
                               ]
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Declaration or statement expected.",
                                 "})();",
@@ -16978,7 +15941,7 @@ var warnings_processed_default = {
                               data: []
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: '}' expected.",
                                 "",
@@ -16986,7 +15949,7 @@ var warnings_processed_default = {
                               ]
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Declaration or statement expected.",
                                 "})();",
@@ -17004,7 +15967,7 @@ var warnings_processed_default = {
                               data: []
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: '}' expected.",
                                 "",
@@ -17012,7 +15975,7 @@ var warnings_processed_default = {
                               ]
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Declaration or statement expected.",
                                 "})();",
@@ -17030,7 +15993,7 @@ var warnings_processed_default = {
                               data: []
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: '}' expected.",
                                 "",
@@ -17038,7 +16001,7 @@ var warnings_processed_default = {
                               ]
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Declaration or statement expected.",
                                 "})();",
@@ -17066,7 +16029,7 @@ var warnings_processed_default = {
                               data: []
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: '}' expected.",
                                 "",
@@ -17074,7 +16037,7 @@ var warnings_processed_default = {
                               ]
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Declaration or statement expected.",
                                 "})();",
@@ -17151,26 +16114,12 @@ var warnings_processed_default = {
                     },
                     tutorial: {
                       children: {
-                        animating_objects_with_webgl: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/WebGL_API/Tutorial/Animating_objects_with_WebGL",
-                          messages: [
-                            {
-                              message: "ESLint error",
-                              data: [
-                                "Parsing error: '}' expected.",
-                                "",
-                                "2:9"
-                              ]
-                            }
-                          ]
-                        },
                         creating_3d_objects_using_webgl: {
                           children: {},
                           slug: "/en-US/docs/Web/API/WebGL_API/Tutorial/Creating_3D_objects_using_WebGL",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: '}' expected.",
                                 "",
@@ -17184,7 +16133,7 @@ var warnings_processed_default = {
                           slug: "/en-US/docs/Web/API/WebGL_API/Tutorial/Using_textures_in_WebGL",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: '}' expected.",
                                 "",
@@ -17373,20 +16322,6 @@ var warnings_processed_default = {
                 },
                 webglrenderingcontext: {
                   children: {
-                    getcontextattributes: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WebGLRenderingContext/getContextAttributes",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "  antialias: true,",
-                            "3:9"
-                          ]
-                        }
-                      ]
-                    },
                     getparameter: {
                       children: {},
                       slug: "/en-US/docs/Web/API/WebGLRenderingContext/getParameter",
@@ -17600,100 +16535,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                websocket: {
-                  children: {
-                    websocket: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WebSocket/WebSocket",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: Declaration or statement expected.",
-                            "... // Do something with socket",
-                            "3:9"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: Declaration or statement expected.",
-                            "... // Do something with socket",
-                            "3:9"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: Declaration or statement expected.",
-                            "... // Do something with socket",
-                            "2:9"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                webtransport_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/WebTransport_API",
-                  messages: [
-                    {
-                      message: "ESLint error",
-                      data: [
-                        "Parsing error: Declaration or statement expected.",
-                        "  ...",
-                        "9:9"
-                      ]
-                    }
-                  ]
-                },
-                webtransportbidirectionalstream: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/WebTransportBidirectionalStream",
-                  messages: [
-                    {
-                      message: "ESLint error",
-                      data: [
-                        "Parsing error: Declaration or statement expected.",
-                        "  ...",
-                        "9:9"
-                      ]
-                    }
-                  ]
-                },
-                webtransport: {
-                  children: {
-                    close: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WebTransport/close",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: Octal literals are not allowed. Use the syntax '0o17'.",
-                            "  closeCode: 017,",
-                            "8:9"
-                          ]
-                        }
-                      ]
-                    },
-                    createunidirectionalstream: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WebTransport/createUnidirectionalStream",
-                      messages: [
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: Expression expected.",
-                            "writer.write(...);",
-                            "8:9"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 webusb_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/WebUSB_API",
@@ -17743,7 +16584,7 @@ var warnings_processed_default = {
                           data: []
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
                             "",
@@ -17751,7 +16592,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
                             "",
@@ -17759,7 +16600,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
                             "",
@@ -17767,7 +16608,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
                             "",
@@ -17775,7 +16616,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
                             "",
@@ -17783,7 +16624,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "            });",
@@ -17791,7 +16632,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "          } else {",
@@ -17799,7 +16640,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
                             "",
@@ -17807,7 +16648,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "}",
@@ -17815,7 +16656,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
                             "",
@@ -17823,7 +16664,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "}",
@@ -17839,14 +16680,6 @@ var warnings_processed_default = {
                         {
                           message: "Broken browser compat anchor",
                           data: []
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: Argument expression expected.",
-                            "      }),",
-                            "15:9"
-                          ]
                         }
                       ]
                     }
@@ -18635,19 +17468,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                worklet: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Worklet",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.css-houdini.org/css-layout-api-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 workletsharedstorage: {
                   children: {
                     context: {
@@ -18696,14 +17516,6 @@ var warnings_processed_default = {
                           message: "Not in BCD",
                           data: [
                             "api.WorkletSharedStorage.get"
-                          ]
-                        },
-                        {
-                          message: "ESLint error",
-                          data: [
-                            "Parsing error: ',' expected.",
-                            "  await window.sharedStorage.run('k-freq-measurement', { data: { kFreq: 3, contentId: 123 });",
-                            "8:9"
                           ]
                         }
                       ]
@@ -18772,14 +17584,6 @@ var warnings_processed_default = {
                       message: "Not in BCD",
                       data: [
                         "api.WorkletSharedStorage"
-                      ]
-                    },
-                    {
-                      message: "ESLint error",
-                      data: [
-                        "Parsing error: Declaration or statement expected.",
-                        "  convertEventIdToBucket(eventId) { ... }",
-                        "2:9"
                       ]
                     }
                   ]
@@ -19385,7 +18189,7 @@ css.selectors.-webkit-resizer`,
                       data: []
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word ... (CssSyntaxError)",
                         "@container (min-width: 400px) { ... }",
@@ -19393,7 +18197,7 @@ css.selectors.-webkit-resizer`,
                       ]
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word ... (CssSyntaxError)",
                         "@container scroll-state(scrollable: top) { ... }",
@@ -19401,7 +18205,7 @@ css.selectors.-webkit-resizer`,
                       ]
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word ... (CssSyntaxError)",
                         "@container not scroll-state(scrollable: none) { ... }",
@@ -19409,7 +18213,7 @@ css.selectors.-webkit-resizer`,
                       ]
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word ... (CssSyntaxError)",
                         "@container not scroll-state(snapped: none) { ... }",
@@ -19417,7 +18221,7 @@ css.selectors.-webkit-resizer`,
                       ]
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word ... (CssSyntaxError)",
                         "@container scroll-state((stuck: top) and (stuck: left)) { ... }",
@@ -19425,7 +18229,7 @@ css.selectors.-webkit-resizer`,
                       ]
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word ... (CssSyntaxError)",
                         "@container scroll-state((stuck: left) and (stuck: right)) { ... }",
@@ -19433,7 +18237,7 @@ css.selectors.-webkit-resizer`,
                       ]
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word ... (CssSyntaxError)",
                         "@container not scroll-state(stuck: none) { ... }",
@@ -20508,7 +19312,7 @@ css.selectors.-webkit-resizer`,
                       data: []
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word rulesets (CssSyntaxError)",
                         "  rulesets",
@@ -20516,7 +19320,7 @@ css.selectors.-webkit-resizer`,
                       ]
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word ... (CssSyntaxError)",
                         "  img { ... }",
@@ -20524,7 +19328,7 @@ css.selectors.-webkit-resizer`,
                       ]
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word ... (CssSyntaxError)",
                         "@scope (.article-body) to (:scope > figure) { ... }",
@@ -20532,7 +19336,7 @@ css.selectors.-webkit-resizer`,
                       ]
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word ... (CssSyntaxError)",
                         "@scope (.article-body) to (.feature :scope figure) { ... }",
@@ -20540,7 +19344,7 @@ css.selectors.-webkit-resizer`,
                       ]
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word ... (CssSyntaxError)",
                         "  img { ... }",
@@ -20548,7 +19352,7 @@ css.selectors.-webkit-resizer`,
                       ]
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word ... (CssSyntaxError)",
                         "  :scope img { ... }",
@@ -20556,7 +19360,7 @@ css.selectors.-webkit-resizer`,
                       ]
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word ... (CssSyntaxError)",
                         "  & img { ... }",
@@ -20564,7 +19368,7 @@ css.selectors.-webkit-resizer`,
                       ]
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word ... (CssSyntaxError)",
                         "  & & { ... }",
@@ -20588,7 +19392,7 @@ css.selectors.-webkit-resizer`,
                       ]
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word rulesets (CssSyntaxError)",
                         "  rulesets",
@@ -20596,7 +19400,7 @@ css.selectors.-webkit-resizer`,
                       ]
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word declarations (CssSyntaxError)",
                         "    declarations",
@@ -20668,7 +19472,7 @@ css.selectors.-webkit-resizer`,
                   slug: "/en-US/docs/Web/CSS/animation-range",
                   messages: [
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Missed semicolon (CssSyntaxError)",
                         "    opacity: 1,",
@@ -20682,7 +19486,7 @@ css.selectors.-webkit-resizer`,
                   slug: "/en-US/docs/Web/CSS/animation-range-start",
                   messages: [
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Missed semicolon (CssSyntaxError)",
                         "    opacity: 1,",
@@ -20708,7 +19512,7 @@ css.selectors.-webkit-resizer`,
                   slug: "/en-US/docs/Web/CSS/attr",
                   messages: [
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word attr (CssSyntaxError)",
                         'attr(data-name raw-string, "stranger")',
@@ -20716,7 +19520,7 @@ css.selectors.-webkit-resizer`,
                       ]
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word attr (CssSyntaxError)",
                         "attr(id type(<custom-ident>), none)",
@@ -20724,7 +19528,7 @@ css.selectors.-webkit-resizer`,
                       ]
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word attr (CssSyntaxError)",
                         "attr(data-size type(<length> | <percentage>), 0px)",
@@ -20732,7 +19536,7 @@ css.selectors.-webkit-resizer`,
                       ]
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word attr (CssSyntaxError)",
                         "attr(data-content type(*))",
@@ -20740,7 +19544,7 @@ css.selectors.-webkit-resizer`,
                       ]
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word attr (CssSyntaxError)",
                         "attr(data-size rem)",
@@ -20782,7 +19586,7 @@ css.selectors.-webkit-resizer`,
                           data: []
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word path (CssSyntaxError)",
                             "path(<string>)",
@@ -20790,7 +19594,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word path (CssSyntaxError)",
                             "path( [<fill-rule>,]? <string> )",
@@ -20798,7 +19602,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word path (CssSyntaxError)",
                             'path("M 10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80");',
@@ -20921,12 +19725,26 @@ css.selectors.-webkit-resizer`,
                       data: [
                         "/en-US/docs/Web/CSS/-webkit-inline-box"
                       ]
+                    },
+                    {
+                      message: "Unreachable via page",
+                      data: []
                     }
                   ]
                 },
                 "box-lines": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/box-lines",
+                  messages: [
+                    {
+                      message: "Unreachable via page",
+                      data: []
+                    }
+                  ]
+                },
+                "box-ordinal-group": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/box-ordinal-group",
                   messages: [
                     {
                       message: "Unreachable via page",
@@ -21027,7 +19845,7 @@ css.selectors.-webkit-resizer`,
                   slug: "/en-US/docs/Web/CSS/Class_selectors",
                   messages: [
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word style (CssSyntaxError)",
                         "[class~=class_name] { style properties }",
@@ -21049,7 +19867,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word color (CssSyntaxError)",
                             "color(from hsl(0 100% 50%) srgb r g b)",
@@ -21057,7 +19875,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word color (CssSyntaxError)",
                             "color(from hsl(0 100% 50%) srgb 0.749938 0 0.609579)",
@@ -21065,7 +19883,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word color (CssSyntaxError)",
                             "color(from hsl(0 100% 50%) srgb r 1 b)",
@@ -21073,7 +19891,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word color (CssSyntaxError)",
                             "color(from hsl(0 100% 50% / 0.8) srgb r g b / alpha)",
@@ -21081,7 +19899,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word color (CssSyntaxError)",
                             "color(from hsl(0 100% 50%) srgb calc(r - 0.4) calc(g + 0.1) calc(b + 0.6) / calc(alpha - 0.1))",
@@ -21113,7 +19931,7 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/color_value/hsl",
                       messages: [
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word hsl (CssSyntaxError)",
                             "hsl(from rgb(255 0 0) h s l)",
@@ -21121,7 +19939,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word hsl (CssSyntaxError)",
                             "hsl(from rgb(255 0 0) 240 60% 70%)",
@@ -21129,7 +19947,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word hsl (CssSyntaxError)",
                             "hsl(from rgb(255 0 0) h 30% 60%)",
@@ -21137,7 +19955,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word hsl (CssSyntaxError)",
                             "hsl(from rgb(255 0 0 / 0.8) h s l / alpha)",
@@ -21145,7 +19963,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word hsl (CssSyntaxError)",
                             "hsl(from rgb(255 0 0 / 0.8) calc(h + 60) calc(s - 20) calc(l - 10) / calc(alpha - 0.1))",
@@ -21159,7 +19977,7 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/color_value/hwb",
                       messages: [
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word hwb (CssSyntaxError)",
                             "hwb(from hsl(0 100% 50%) h w b)",
@@ -21167,7 +19985,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word hwb (CssSyntaxError)",
                             "hwb(from hsl(0 100% 50%) 240 52% 12%)",
@@ -21175,7 +19993,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word hwb (CssSyntaxError)",
                             "hwb(from hsl(0 100% 50%) h 30% b)",
@@ -21183,7 +20001,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word hwb (CssSyntaxError)",
                             "hwb(from hsl(0 100% 50% / 0.8) h w b / alpha)",
@@ -21191,7 +20009,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word hwb (CssSyntaxError)",
                             "hwb(from hsl(0 100% 50%) calc(h + 120) calc(w + 25) calc(b + 10) / calc(alpha - 0.1))",
@@ -21211,7 +20029,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word lab (CssSyntaxError)",
                             "lab(from hsl(0 100% 50%) l a b)",
@@ -21219,7 +20037,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word lab (CssSyntaxError)",
                             "lab(from hsl(0 100% 50%) 29.692% 44.89% -29.034%)",
@@ -21227,7 +20045,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word lab (CssSyntaxError)",
                             "lab(from hsl(0 100% 50%) l -100 b)",
@@ -21235,7 +20053,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word lab (CssSyntaxError)",
                             "lab(from hsl(0 100% 50% / 0.8) l a b / alpha)",
@@ -21243,7 +20061,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word lab (CssSyntaxError)",
                             "lab(from hsl(0 100% 50%) calc(l + 20) calc(a - 20) calc(b - 40) / calc(alpha - 0.1))",
@@ -21257,7 +20075,7 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/color_value/lch",
                       messages: [
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word lch (CssSyntaxError)",
                             "lch(from hsl(0 100% 50%) l c h)",
@@ -21265,7 +20083,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word lch (CssSyntaxError)",
                             "lch(from hsl(0 100% 50%) 29.6871% 66.83 327.109)",
@@ -21273,7 +20091,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word lch (CssSyntaxError)",
                             "lch(from hsl(0 100% 50%) 70 150 h)",
@@ -21281,7 +20099,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word lch (CssSyntaxError)",
                             "lch(from hsl(0 100% 50% / 0.8) l c h / alpha)",
@@ -21289,7 +20107,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word lch (CssSyntaxError)",
                             "lch(from hsl(0 100% 50%) calc(l + 20) calc(c - 20) calc(h - 40) / calc(alpha - 0.1))",
@@ -21303,7 +20121,7 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/color_value/oklab",
                       messages: [
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word oklab (CssSyntaxError)",
                             "oklab(from hsl(0 100% 50%) l a b)",
@@ -21311,7 +20129,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word oklab (CssSyntaxError)",
                             "oklab(from hsl(0 100% 50%) 42.1% 0.165 -0.101)",
@@ -21319,7 +20137,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word oklab (CssSyntaxError)",
                             "oklab(from hsl(0 100% 50%) l -0.3 b)",
@@ -21327,7 +20145,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word oklab (CssSyntaxError)",
                             "oklab(from hsl(0 100% 50% / 0.8) l a b / alpha)",
@@ -21335,7 +20153,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word oklab (CssSyntaxError)",
                             "oklab(from hsl(0 100% 50%) calc(l + 0.2) calc(a - 0.08) calc(b - 0.2) / calc(alpha - 0.1))",
@@ -21349,7 +20167,7 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/color_value/oklch",
                       messages: [
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word oklch (CssSyntaxError)",
                             "oklch(from hsl(0 100% 50%) l c h)",
@@ -21357,7 +20175,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word oklch (CssSyntaxError)",
                             "oklch(from hsl(0 100% 50%) 42.1% 0.25 328.363)",
@@ -21365,7 +20183,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word oklch (CssSyntaxError)",
                             "oklch(from hsl(0 100% 50%) 0.8 0.4 h)",
@@ -21373,7 +20191,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word oklch (CssSyntaxError)",
                             "oklch(from hsl(0 100% 50% / 0.8) l c h / alpha)",
@@ -21381,7 +20199,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word oklch (CssSyntaxError)",
                             "oklch(from hsl(0 100% 50%) calc(l + 0.2) calc(c + 0.1) calc(h - 20) / calc(alpha - 0.1))",
@@ -21395,7 +20213,7 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/color_value/rgb",
                       messages: [
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word rgb (CssSyntaxError)",
                             "rgb(from hsl(0 100% 50%) r g b)",
@@ -21403,7 +20221,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word rgb (CssSyntaxError)",
                             "rgb(from hsl(0 100% 50%) 132 132 224)",
@@ -21411,7 +20229,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word rgb (CssSyntaxError)",
                             "rgb(from hsl(0 100% 50%) r 80 80)",
@@ -21419,7 +20237,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word rgb (CssSyntaxError)",
                             "rgb(from hsl(0 100% 50% / 0.8) r g b / alpha)",
@@ -21427,7 +20245,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word rgb (CssSyntaxError)",
                             "rgb(from hsl(0 100% 50%) calc(r/2) calc(g + 25) calc(b + 175) / calc(alpha - 0.1))",
@@ -21440,7 +20258,7 @@ css.selectors.-webkit-resizer`,
                   slug: "/en-US/docs/Web/CSS/color_value",
                   messages: [
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word color-mix (CssSyntaxError)",
                         "color-mix(in oklch, oklch(none 0.2 10), oklch(60% none 30))",
@@ -21448,7 +20266,7 @@ css.selectors.-webkit-resizer`,
                       ]
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word lch (CssSyntaxError)",
                         "lch(80% 30 none)",
@@ -21456,7 +20274,7 @@ css.selectors.-webkit-resizer`,
                       ]
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word lch (CssSyntaxError)",
                         "lch(80% 30 0)",
@@ -21464,7 +20282,7 @@ css.selectors.-webkit-resizer`,
                       ]
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word oklch (CssSyntaxError)",
                         "oklch(83.915% 0.0902 0.28)",
@@ -21472,7 +20290,7 @@ css.selectors.-webkit-resizer`,
                       ]
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word oklch (CssSyntaxError)",
                         "oklch(83.915% 0.0902 none)",
@@ -21480,7 +20298,7 @@ css.selectors.-webkit-resizer`,
                       ]
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word oklch (CssSyntaxError)",
                         "oklch(83.915% 0.0902 78.748)",
@@ -21559,7 +20377,7 @@ css.selectors.-webkit-resizer`,
                       data: []
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word cross-fade (CssSyntaxError)",
                         "cross-fade(url(white.png) 0%, url(black.png) 100%); /* fully black */",
@@ -21567,7 +20385,7 @@ css.selectors.-webkit-resizer`,
                       ]
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word cross-fade (CssSyntaxError)",
                         "cross-fade(url(white.png) 0%, url(black.png)); /* fully black */",
@@ -21575,7 +20393,7 @@ css.selectors.-webkit-resizer`,
                       ]
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word cross-fade (CssSyntaxError)",
                         "cross-fade(url(red.png), url(yellow.png), url(blue.png)); /* all three will be 33.3333% opaque */",
@@ -21583,7 +20401,7 @@ css.selectors.-webkit-resizer`,
                       ]
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word cross-fade (CssSyntaxError)",
                         "cross-fade( <image>, <image>, <percentage> )",
@@ -21591,7 +20409,7 @@ css.selectors.-webkit-resizer`,
                       ]
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word cross-fade (CssSyntaxError)",
                         "cross-fade(url(white.png), url(black.png), 0%);   /* fully black */",
@@ -21729,7 +20547,7 @@ css.selectors.-webkit-resizer`,
                           data: []
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word input (CssSyntaxError)",
                             "input:focus                   /* 0-1-1 */",
@@ -21737,7 +20555,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word ... (CssSyntaxError)",
                             "  img { ... }",
@@ -21745,7 +20563,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word ... (CssSyntaxError)",
                             "  :scope img { ... }",
@@ -21753,7 +20571,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word ... (CssSyntaxError)",
                             "  & img { ... }",
@@ -21813,7 +20631,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word hwb (CssSyntaxError)",
                             "hwb(90 10% 10%)",
@@ -21827,7 +20645,7 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/CSS_colors/Relative_colors",
                       messages: [
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word color-function (CssSyntaxError)",
                             "color-function(from origin-color channel1 channel2 channel3)",
@@ -21835,7 +20653,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word red (CssSyntaxError)",
                             "red",
@@ -21843,7 +20661,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word rgb (CssSyntaxError)",
                             "rgb(from red r g b)",
@@ -21851,7 +20669,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word rgb (CssSyntaxError)",
                             "rgb(from red 0 0 255)",
@@ -21859,7 +20677,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word rgb (CssSyntaxError)",
                             "rgb(from rgb(200 0 0) r r r)",
@@ -21867,7 +20685,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word rgb (CssSyntaxError)",
                             "rgb(from rgb(200 170 0) b g r)",
@@ -21875,7 +20693,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word color (CssSyntaxError)",
                             "color(from red a98-rgb r g b)",
@@ -21907,7 +20725,7 @@ css.selectors.-webkit-resizer`,
                           data: []
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word CSS (CssSyntaxError)",
                             "  CSS rules to apply",
@@ -21915,7 +20733,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word CSS (CssSyntaxError)",
                             "  CSS rules to apply",
@@ -21923,7 +20741,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word CSS (CssSyntaxError)",
                             "  CSS rules to apply",
@@ -21931,7 +20749,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word CSS (CssSyntaxError)",
                             "  CSS rules to apply",
@@ -21939,7 +20757,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word CSS (CssSyntaxError)",
                             "  CSS rules to apply",
@@ -21947,7 +20765,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word CSS (CssSyntaxError)",
                             "  CSS rules to apply",
@@ -22415,7 +21233,7 @@ css.selectors.-webkit-resizer`,
                           data: []
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Missed semicolon (CssSyntaxError)",
                             "  border-color: red",
@@ -22487,7 +21305,7 @@ css.selectors.-webkit-resizer`,
                           data: []
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word bold (CssSyntaxError)",
                             "bold [ thin && <length> ]",
@@ -22495,7 +21313,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word bold (CssSyntaxError)",
                             "bold <length>, thin",
@@ -22503,7 +21321,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word bold (CssSyntaxError)",
                             "bold && <length>",
@@ -22511,7 +21329,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word < (CssSyntaxError)",
                             "<'border-width'> || <'border-style'> || <'border-color'>",
@@ -22519,7 +21337,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word <percentage> (CssSyntaxError)",
                             "<percentage> | <length> | left | center | right | top | bottom",
@@ -22527,7 +21345,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word bold (CssSyntaxError)",
                             "bold smaller*",
@@ -22535,7 +21353,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word bold (CssSyntaxError)",
                             "bold smaller+",
@@ -22543,7 +21361,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word bold (CssSyntaxError)",
                             "bold smaller?",
@@ -22551,7 +21369,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word 1,3 (CssSyntaxError)",
                             "bold smaller{1,3}",
@@ -22559,7 +21377,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word bold (CssSyntaxError)",
                             "bold smaller#",
@@ -22567,7 +21385,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word 1,3 (CssSyntaxError)",
                             "bold smaller#{1,3}",
@@ -22575,7 +21393,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word 2 (CssSyntaxError)",
                             "bold smaller#{2}",
@@ -22583,7 +21401,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word [ (CssSyntaxError)",
                             "[ bold? smaller? ]!",
@@ -22765,7 +21583,7 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/easing-function/cubic-bezier",
                       messages: [
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word cubic-bezier (CssSyntaxError)",
                             "cubic-bezier(0.1, 0.7, 1.0, 0.1)",
@@ -22773,7 +21591,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word cubic-bezier (CssSyntaxError)",
                             "cubic-bezier(0.1, red, 1.0, green)",
@@ -22793,7 +21611,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word linear (CssSyntaxError)",
                             "linear(0, 0.25, 1)",
@@ -22801,7 +21619,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word linear (CssSyntaxError)",
                             "linear(0.5)",
@@ -22815,7 +21633,7 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/easing-function/steps",
                       messages: [
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word steps (CssSyntaxError)",
                             "steps(2, jump-start)  /* Or steps(2, start) */",
@@ -22823,7 +21641,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word steps (CssSyntaxError)",
                             "steps(5, end)",
@@ -22831,7 +21649,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word steps (CssSyntaxError)",
                             "steps(2.0, jump-end)",
@@ -22847,7 +21665,7 @@ css.selectors.-webkit-resizer`,
                   slug: "/en-US/docs/Web/CSS/exp",
                   messages: [
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word // (CssSyntaxError)",
                         "  transform: rotate(calc(1turn * exp(-1))); // 0.3678794411714423turn",
@@ -22855,7 +21673,7 @@ css.selectors.-webkit-resizer`,
                       ]
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word // (CssSyntaxError)",
                         "  font-size: calc(1rem * exp(1.25)); // 3.4903429574618414rem",
@@ -22887,7 +21705,7 @@ css.selectors.-webkit-resizer`,
                           data: []
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word blur (CssSyntaxError)",
                             "blur(radius)",
@@ -22895,7 +21713,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word blur (CssSyntaxError)",
                             "blur()         /* No effect */",
@@ -22909,7 +21727,7 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/filter-function/brightness",
                       messages: [
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word brightness (CssSyntaxError)",
                             "brightness(0)   /* Brightness is reduced to zero, so input turns black */",
@@ -22923,7 +21741,7 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/filter-function/contrast",
                       messages: [
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word contrast (CssSyntaxError)",
                             "contrast(0)    /* Completely gray */",
@@ -22937,7 +21755,7 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/filter-function/grayscale",
                       messages: [
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word grayscale (CssSyntaxError)",
                             "grayscale(0)     /* No effect */",
@@ -22955,7 +21773,7 @@ css.selectors.-webkit-resizer`,
                           data: []
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word hue-rotate (CssSyntaxError)",
                             "hue-rotate(angle)",
@@ -22963,7 +21781,7 @@ css.selectors.-webkit-resizer`,
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word hue-rotate (CssSyntaxError)",
                             "hue-rotate(-180deg)",
@@ -22977,7 +21795,7 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/filter-function/invert",
                       messages: [
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word invert (CssSyntaxError)",
                             "invert(0)     /* No effect */",
@@ -22991,7 +21809,7 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/filter-function/opacity",
                       messages: [
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word opacity (CssSyntaxError)",
                             "opacity(0%)   /* Completely transparent */",
@@ -23005,7 +21823,7 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/filter-function/saturate",
                       messages: [
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word saturate (CssSyntaxError)",
                             "saturate(0)     /* Completely unsaturated */",
@@ -23019,7 +21837,7 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/filter-function/sepia",
                       messages: [
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word sepia (CssSyntaxError)",
                             "sepia(0)     /* No effect */",
@@ -23080,7 +21898,7 @@ css.properties.width.fit-content_function`
                       ]
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word fit-content (CssSyntaxError)",
                         "fit-content(200px)",
@@ -23214,7 +22032,7 @@ css.properties.width.fit-content_function`
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word conic-gradient (CssSyntaxError)",
                             "conic-gradient(red, orange, yellow, green, blue);",
@@ -23222,7 +22040,7 @@ css.properties.width.fit-content_function`
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word conic-gradient (CssSyntaxError)",
                             "conic-gradient(red 40grad, 80grad, blue 360grad);",
@@ -23230,7 +22048,7 @@ css.properties.width.fit-content_function`
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word conic-gradient (CssSyntaxError)",
                             "conic-gradient(#fff 0.09turn, #bbb 0.09turn, #bbb 0.27turn, #666 0.27turn, #666 0.54turn, #000 0.54turn);",
@@ -23238,7 +22056,7 @@ css.properties.width.fit-content_function`
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word conic-gradient (CssSyntaxError)",
                             "conic-gradient(red .8rad, yellow .6rad, blue 1.3rad);",
@@ -23246,7 +22064,7 @@ css.properties.width.fit-content_function`
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word conic-gradient (CssSyntaxError)",
                             "conic-gradient(#fff 90deg, #000 0.25turn 0.5turn, #fff 1rad 1.5rad, #000 300grad);",
@@ -23266,7 +22084,7 @@ css.properties.width.fit-content_function`
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word linear-gradient (CssSyntaxError)",
                             "linear-gradient(red, orange, yellow, green, blue);",
@@ -23274,7 +22092,7 @@ css.properties.width.fit-content_function`
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word linear-gradient (CssSyntaxError)",
                             "linear-gradient(red 10%, 30%, blue 90%);",
@@ -23282,7 +22100,7 @@ css.properties.width.fit-content_function`
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word linear-gradient (CssSyntaxError)",
                             "linear-gradient(red 40%, yellow 30%, blue 65%);",
@@ -23290,7 +22108,7 @@ css.properties.width.fit-content_function`
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word linear-gradient (CssSyntaxError)",
                             "linear-gradient(red 0%, orange 10%, orange 30%, yellow 50%, yellow 70%, green 90%, green 100%);",
@@ -23322,7 +22140,7 @@ css.properties.width.fit-content_function`
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word repeating-conic-gradient (CssSyntaxError)",
                             "repeating-conic-gradient(from 0deg, red 0deg 30deg, yellow 30deg 60deg, blue 60deg 90deg);",
@@ -23330,7 +22148,7 @@ css.properties.width.fit-content_function`
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word repeating-conic-gradient (CssSyntaxError)",
                             "repeating-conic-gradient(red, orange, yellow, green, blue 50%);",
@@ -23449,7 +22267,7 @@ css.properties.width.fit-content_function`
                   slug: "/en-US/docs/Web/CSS/ID_selectors",
                   messages: [
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word style (CssSyntaxError)",
                         "[id=id_value] { style properties }",
@@ -23481,7 +22299,7 @@ css.properties.width.fit-content_function`
                           ]
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word xywh=pixel (CssSyntaxError)",
                             "xywh=pixel:160,120,320,240  /* results in a 320x240 image at x=160 and y=120 */",
@@ -23498,7 +22316,7 @@ css.properties.width.fit-content_function`
                       data: []
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word url (CssSyntaxError)",
                         "url(test.jpg)               /* A <url>, as long as test.jpg is an actual image */",
@@ -23506,7 +22324,7 @@ css.properties.width.fit-content_function`
                       ]
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word no-url.jpg (CssSyntaxError)",
                         "no-url.jpg           /* An image file must be defined using the url() function. */",
@@ -23829,7 +22647,7 @@ css.properties.grid-template-rows.minmax`
                       data: []
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word keyword (CssSyntaxError)",
                         "keyword                  /* Either the horizontal or vertical position; the other axis defaults to center */",
@@ -23907,7 +22725,7 @@ css.properties.grid-template-rows.minmax`
                   slug: "/en-US/docs/Web/CSS/ray",
                   messages: [
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unclosed block (CssSyntaxError)",
                         "@keyframes move {",
@@ -24171,7 +22989,7 @@ css.properties.grid-template-rows.minmax`
                       ]
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word properties-list (CssSyntaxError)",
                         "      properties-list",
@@ -24179,7 +22997,7 @@ css.properties.grid-template-rows.minmax`
                       ]
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Double colon (CssSyntaxError)",
                         "selectors-list ::=",
@@ -24269,7 +23087,7 @@ css.properties.grid-template-rows.repeat`
                       data: []
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word rect (CssSyntaxError)",
                         "rect(top, right, bottom, left)",
@@ -24323,7 +23141,7 @@ css.properties.grid-template-rows.repeat`
                       data: []
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         'Unknown word "This string is demarcated by double quotes." (CssSyntaxError)',
                         '"This string is demarcated by double quotes."',
@@ -24467,7 +23285,7 @@ css.properties.list-style-type.symbols`
                           data: []
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word matrix (CssSyntaxError)",
                             "matrix(a, b, c, d, tx, ty)",
@@ -24485,7 +23303,7 @@ css.properties.list-style-type.symbols`
                           data: []
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word matrix3d (CssSyntaxError)",
                             "matrix3d(a1, b1, c1, d1, a2, b2, c2, d2, a3, b3, c3, d3, a4, b4, c4, d4)",
@@ -24503,7 +23321,7 @@ css.properties.list-style-type.symbols`
                           data: []
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word perspective (CssSyntaxError)",
                             "perspective(d)",
@@ -24521,7 +23339,7 @@ css.properties.list-style-type.symbols`
                           data: []
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word rotate (CssSyntaxError)",
                             "rotate(a)",
@@ -24539,7 +23357,7 @@ css.properties.list-style-type.symbols`
                           data: []
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word rotate3d (CssSyntaxError)",
                             "rotate3d(x, y, z, a)",
@@ -24557,7 +23375,7 @@ css.properties.list-style-type.symbols`
                           data: []
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word rotateX (CssSyntaxError)",
                             "rotateX(a)",
@@ -24575,7 +23393,7 @@ css.properties.list-style-type.symbols`
                           data: []
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word rotateY (CssSyntaxError)",
                             "rotateY(a)",
@@ -24593,7 +23411,7 @@ css.properties.list-style-type.symbols`
                           data: []
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word rotateZ (CssSyntaxError)",
                             "rotateZ(a)",
@@ -24611,7 +23429,7 @@ css.properties.list-style-type.symbols`
                           data: []
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word scale (CssSyntaxError)",
                             "scale(sx)",
@@ -24629,7 +23447,7 @@ css.properties.list-style-type.symbols`
                           data: []
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word scale3d (CssSyntaxError)",
                             "scale3d(sx, sy, sz)",
@@ -24647,7 +23465,7 @@ css.properties.list-style-type.symbols`
                           data: []
                         },
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Unknown word skew (CssSyntaxError)",
                             "skew(ax)",
@@ -24698,7 +23516,7 @@ css.properties.list-style-type.symbols`
                       data: []
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Unknown word url (CssSyntaxError)",
                         'url("https://example.com/images/myImg.jpg");',
@@ -24706,7 +23524,7 @@ css.properties.list-style-type.symbols`
                       ]
                     },
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Missed semicolon (CssSyntaxError)",
                         '<css_property>: url("https://example.com/image.png")',
@@ -24735,7 +23553,7 @@ css.properties.list-style-type.symbols`
                   slug: "/en-US/docs/Web/CSS/view-timeline-axis",
                   messages: [
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Missed semicolon (CssSyntaxError)",
                         "    opacity: 1,",
@@ -24749,7 +23567,7 @@ css.properties.list-style-type.symbols`
                   slug: "/en-US/docs/Web/CSS/view-timeline-inset",
                   messages: [
                     {
-                      message: "Stylelint error",
+                      message: "CSS code issue",
                       data: [
                         "Missed semicolon (CssSyntaxError)",
                         "    opacity: 1,",
@@ -24774,54 +23592,6 @@ css.properties.list-style-type.symbols`
                   children: {},
                   slug: "/en-US/docs/Web/CSS/WebKit_Extensions",
                   messages: [
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        ":-webkit-any-link",
-                        "Text after link:",
-                        "*"
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        ":-webkit-any-link",
-                        "Text after code:",
-                        "*"
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        ":-webkit-full-screen",
-                        "Text after link:",
-                        "*"
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        ":-webkit-full-screen",
-                        "Text after code:",
-                        "*"
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "::-webkit-file-upload-button",
-                        "Text after link:",
-                        "*"
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "::-webkit-file-upload-button",
-                        "Text after code:",
-                        "*"
-                      ]
-                    },
                     {
                       message: "Unreachable via sidebar",
                       data: []
@@ -25663,14 +24433,6 @@ html.elements.select.size`
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "ESLint error",
-                                  data: [
-                                    "Parsing error: '}' expected.",
-                                    '  "prerender": [',
-                                    "3:9"
-                                  ]
                                 }
                               ]
                             }
@@ -25729,7 +24491,7 @@ html.elements.select.size`
                       slug: "/en-US/docs/Web/HTML/Global_attributes/contenteditable",
                       messages: [
                         {
-                          message: "Stylelint error",
+                          message: "CSS code issue",
                           data: [
                             "Missed semicolon (CssSyntaxError)",
                             "    margin: 0",
@@ -25955,7 +24717,7 @@ html.elements.select.size`
                               data: []
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: JSX element 'year2' has no corresponding closing tag.",
                                 "dateRange(<day1>, <month1>, <year1>, <day2>, <month2>, <year2>, [gmt])",
@@ -25963,7 +24725,7 @@ html.elements.select.size`
                               ]
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: JSX element 'sec2' has no corresponding closing tag.",
                                 "timeRange(<hour1>, <min1>, <sec1>, <hour2>, <min2>, <sec2>, [gmt])",
@@ -26026,22 +24788,6 @@ html.elements.select.size`
                               data: [
                                 "https://developers.google.com/privacy-sandbox/private-advertising/attribution-reporting/prevent-duplication",
                                 "https://privacysandbox.google.com/private-advertising/attribution-reporting/prevent-duplication"
-                              ]
-                            },
-                            {
-                              message: "ESLint error",
-                              data: [
-                                "Parsing error: ')' expected.",
-                                "  });",
-                                "12:9"
-                              ]
-                            },
-                            {
-                              message: "ESLint error",
-                              data: [
-                                "Parsing error: ')' expected.",
-                                "  });",
-                                "19:9"
                               ]
                             }
                           ]
@@ -26436,7 +25182,7 @@ html.elements.select.size`
                       slug: "/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: 'try' expected.",
                             "catch (exception) {",
@@ -26486,7 +25232,7 @@ html.elements.select.size`
                       slug: "/en-US/docs/Web/JavaScript/Guide/Grammar_and_types",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Unterminated regular expression literal.",
                             "/* You can't, however, /* nest comments */ SyntaxError */",
@@ -26494,7 +25240,7 @@ html.elements.select.size`
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Identifier expected.",
                             "console.log(unusualPropertyNames.'');   // SyntaxError: Unexpected string",
@@ -26557,7 +25303,7 @@ html.elements.select.size`
                       slug: "/en-US/docs/Web/JavaScript/Guide/Numbers_and_strings",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Decimals with leading zeros are not allowed.",
                             "0888 // 888 parsed as decimal",
@@ -26565,7 +25311,7 @@ html.elements.select.size`
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Octal literals are not allowed. Use the syntax '0o755'.",
                             "const n = 0755; // 493",
@@ -26674,7 +25420,7 @@ html.elements.select.size`
                       slug: "/en-US/docs/Web/JavaScript/Reference/Deprecated_and_obsolete_features",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Expression expected.",
                             "<!-- comment",
@@ -26682,7 +25428,7 @@ html.elements.select.size`
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Expression or comma expected.",
                             "[for (x of iterable) x]",
@@ -26698,7 +25444,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Bad_break",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Declaration or statement expected.",
                                 "}",
@@ -26712,7 +25458,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Bad_new_optional",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Invalid optional chain from new expression. Did you mean to call 'Intl()'?",
                                 "new Intl?.DateTimeFormat();",
@@ -26720,7 +25466,7 @@ html.elements.select.size`
                               ]
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Invalid optional chain from new expression. Did you mean to call 'Intl.DateTimeFormat()'?",
                                 "new Intl.DateTimeFormat?.();",
@@ -26734,7 +25480,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Bad_return",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Declaration or statement expected.",
                                 "}",
@@ -26760,7 +25506,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_octal_escape_sequence",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Octal escape sequences are not allowed. Use the syntax '\\xa9'.",
                                 '"\\251";',
@@ -26774,7 +25520,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_octal_literal",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Octal literals are not allowed. Use the syntax '0o3'.",
                                 "03;",
@@ -26788,7 +25534,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Identifier_after_number",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: An identifier or keyword cannot immediately follow a numeric literal.",
                                 'const 1life = "foo";',
@@ -26796,7 +25542,7 @@ html.elements.select.size`
                               ]
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: An identifier or keyword cannot immediately follow a numeric literal.",
                                 "alert(typeof 1.toString())",
@@ -26810,7 +25556,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Illegal_character",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Invalid character.",
                                 "“This looks like a string”; // SyntaxError: illegal character",
@@ -26818,7 +25564,7 @@ html.elements.select.size`
                               ]
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Invalid character.",
                                 'const operators = ["+", "-", ×", "÷"];',
@@ -26826,7 +25572,7 @@ html.elements.select.size`
                               ]
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Expression expected.",
                                 'const foo = "bar";<200b>',
@@ -26840,7 +25586,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_assignment_left-hand_side",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: ')' expected.",
                                 "if (Math.PI + 1 = 3 || Math.PI + 1 = 4) {",
@@ -26854,7 +25600,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_for-in_initializer",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: The variable declaration of a 'for...in' statement cannot have an initializer.",
                                 "for (const i = 0 in obj) {",
@@ -26868,7 +25614,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_for-of_initializer",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: The variable declaration of a 'for...of' statement cannot have an initializer.",
                                 "for (const value = 50 of iterable) {",
@@ -26882,7 +25628,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Missing_bracket_after_list",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Expression or comma expected.",
                                 "const instruments = [",
@@ -26896,7 +25642,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Missing_colon_after_property_id",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: ':' expected.",
                                 'const obj = { "b"+"ar": "foo" };',
@@ -26910,7 +25656,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Missing_curly_after_function_body",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: '}' expected.",
                                 "",
@@ -26918,7 +25664,7 @@ html.elements.select.size`
                               ]
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Declaration or statement expected.",
                                 ")();",
@@ -26932,7 +25678,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Missing_curly_after_property_list",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: ',' expected.",
                                 "  c: 3",
@@ -26946,7 +25692,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Missing_formal_parameter",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Identifier expected.",
                                 "function square(3) {",
@@ -26960,7 +25706,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Missing_name_after_dot_operator",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Identifier expected.",
                                 "obj.[foo].[bar]",
@@ -26968,7 +25714,7 @@ html.elements.select.size`
                               ]
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Identifier expected.",
                                 'console.log("Hello" . "world");',
@@ -26982,7 +25728,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Missing_parenthesis_after_argument_list",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: ',' expected.",
                                 'console.log("PI: " Math.PI);',
@@ -26990,7 +25736,7 @@ html.elements.select.size`
                               ]
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Unterminated string literal.",
                                 `console.log('"Java" + "Script" = \\"' + "Java" + 'Script\\");`,
@@ -27004,7 +25750,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Missing_parenthesis_after_condition",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: ')' expected.",
                                 "if (Math.PI < 3 {",
@@ -27012,7 +25758,7 @@ html.elements.select.size`
                               ]
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: ')' expected.",
                                 "if (done is true) {",
@@ -27026,7 +25772,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Errors/No_variable_name",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Variable declaration expected.",
                                 'const = "foo";',
@@ -27034,7 +25780,7 @@ html.elements.select.size`
                               ]
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: 'debugger' is not allowed as a variable declaration name.",
                                 'const debugger = "whoop";',
@@ -27042,7 +25788,7 @@ html.elements.select.size`
                               ]
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Variable declaration expected.",
                                 'const z, = "foo"',
@@ -27050,7 +25796,7 @@ html.elements.select.size`
                               ]
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Variable declaration expected.",
                                 "const arr = 1,2,3,4,5;",
@@ -27064,7 +25810,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Reserved_identifier",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Identifier expected.",
                                 "const enum = { RED: 0, GREEN: 1, BLUE: 2 };",
@@ -27090,7 +25836,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Errors/String_literal_EOL",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Unterminated string literal.",
                                 'const longString = "This is a very long string which needs',
@@ -27104,7 +25850,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Unexpected_token",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Expression expected.",
                                 "for (let i = 0; i < 5,; ++i) {",
@@ -27112,7 +25858,7 @@ html.elements.select.size`
                               ]
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Expression expected.",
                                 "if (n > upperBound) || (n < lowerBound) { // Missing parentheses here!",
@@ -27120,7 +25866,7 @@ html.elements.select.size`
                               ]
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: ',' expected.",
                                 '    document.getElementById("app").classList.add("loaded");',
@@ -27134,7 +25880,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Unnamed_function_statement",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Identifier expected.",
                                 "function () {",
@@ -27142,7 +25888,7 @@ html.elements.select.size`
                               ]
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Identifier expected.",
                                 "  german: function () {",
@@ -27150,7 +25896,7 @@ html.elements.select.size`
                               ]
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Identifier expected.",
                                 "  function () {",
@@ -27164,7 +25910,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Unparenthesized_unary_expr_lhs_exponentiation",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: An unary expression with the '-' operator is not allowed in the left-hand side of an exponentiation expression. Consider enclosing the expression in parentheses.",
                                 "-a ** b",
@@ -27172,7 +25918,7 @@ html.elements.select.size`
                               ]
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: An unary expression with the 'await' operator is not allowed in the left-hand side of an exponentiation expression. Consider enclosing the expression in parentheses.",
                                 "await a ** b",
@@ -27180,7 +25926,7 @@ html.elements.select.size`
                               ]
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: An unary expression with the '-' operator is not allowed in the left-hand side of an exponentiation expression. Consider enclosing the expression in parentheses.",
                                 "  return (n) => (-1 ** n * x ** (2 * n + 1)) / factorial(2 * n + 1);",
@@ -27241,7 +25987,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: ';' expected.",
                                 "(a = 400, b = 20, c) => expression",
@@ -27249,7 +25995,7 @@ html.elements.select.size`
                               ]
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Identifier expected.",
                                 "const func2 = () => { foo: function () {} };",
@@ -27257,7 +26003,7 @@ html.elements.select.size`
                               ]
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Expression expected.",
                                 "callback = callback || () => {};",
@@ -27270,7 +26016,7 @@ html.elements.select.size`
                       slug: "/en-US/docs/Web/JavaScript/Reference/Functions",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Identifier expected.",
                             "function () { // SyntaxError: Function statements require a function name",
@@ -27288,7 +26034,7 @@ html.elements.select.size`
                               slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort",
                               messages: [
                                 {
-                                  message: "ESLint error",
+                                  message: "JS code issue",
                                   data: [
                                     "Parsing error: ')' expected.",
                                     "  if (a is less than b by some ordering criterion) {",
@@ -27301,7 +26047,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Unexpected keyword or identifier.",
                                 "arr.0; // a syntax error",
@@ -27414,7 +26160,7 @@ html.elements.select.size`
                               slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/NaN",
                               messages: [
                                 {
-                                  message: "ESLint error",
+                                  message: "JS code issue",
                                   data: [
                                     "Unused eslint-disable directive (no problems were reported from 'use-isnan').",
                                     "  // eslint-disable-next-line use-isnan",
@@ -27593,7 +26339,7 @@ html.elements.select.size`
                                   slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/epochMilliseconds",
                                   messages: [
                                     {
-                                      message: "ESLint error",
+                                      message: "JS code issue",
                                       data: [
                                         "Parsing error: A bigint literal cannot use exponential notation.",
                                         "const epochNanoseconds = BigInt(epochMilliseconds) * 1e6n;",
@@ -27664,7 +26410,7 @@ html.elements.select.size`
                       slug: "/en-US/docs/Web/JavaScript/Reference/Lexical_grammar",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Identifier expected. 'import' is a reserved word that cannot be used here.",
                             "function import() {} // Illegal: import is a reserved word.",
@@ -27672,7 +26418,7 @@ html.elements.select.size`
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: 'else' is not allowed as a variable declaration name.",
                             "const els\\u{65} = 1;",
@@ -27680,7 +26426,7 @@ html.elements.select.size`
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Decimals with leading zeros are not allowed.",
                             "0888 // 888 parsed as decimal",
@@ -27688,7 +26434,7 @@ html.elements.select.size`
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Octal literals are not allowed. Use the syntax '0o755'.",
                             "0755n; // SyntaxError: invalid BigInt syntax",
@@ -27696,7 +26442,7 @@ html.elements.select.size`
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Multiple consecutive numeric separators are not permitted.",
                             "100__000; // SyntaxError",
@@ -27704,7 +26450,7 @@ html.elements.select.size`
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ']' expected.",
                             "",
@@ -27712,7 +26458,7 @@ html.elements.select.size`
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "  a < 10 // No ASI here",
@@ -27720,7 +26466,7 @@ html.elements.select.size`
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "  *gen() {}",
@@ -27728,7 +26474,7 @@ html.elements.select.size`
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "  a = 1 * gen() {}",
@@ -27736,7 +26482,7 @@ html.elements.select.size`
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Invalid left-hand side expression in unary operation",
                             "console.log(a) // ReferenceError: Invalid left-hand side expression in prefix operation",
@@ -27744,7 +26490,7 @@ html.elements.select.size`
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Expression expected.",
                             "/pattern/.exec(str).forEach(console.log)",
@@ -27752,7 +26498,7 @@ html.elements.select.size`
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: ';' expected.",
                             "  *gen() {} // Seen as a = 1[b] = 2 * gen() {}",
@@ -27768,7 +26514,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Operators/Decrement",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Invalid left-hand side expression in unary operation",
                                 "--(--x); // SyntaxError: Invalid left-hand side expression in prefix operation",
@@ -27795,7 +26541,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: ',' expected.",
                                 "const { a: numbers[0], b: numbers[1] } = obj;",
@@ -27803,7 +26549,7 @@ html.elements.select.size`
                               ]
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Identifier expected.",
                                 "const { a, ...{ b } } = { a: 1, b: 2 };",
@@ -27817,7 +26563,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Operators/function",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: ')' expected.",
                                 "}());",
@@ -27831,7 +26577,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Operators/Grouping",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Identifier expected.",
                                 "function () {",
@@ -27859,7 +26605,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Operators/Increment",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Invalid left-hand side expression in unary operation",
                                 "++(++x); // SyntaxError: Invalid left-hand side expression in prefix operation",
@@ -27873,7 +26619,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Expression expected.",
                                 "  a + yield 1;",
@@ -27881,7 +26627,7 @@ html.elements.select.size`
                               ]
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Expression expected.",
                                 "  await yield 1;",
@@ -27889,7 +26635,7 @@ html.elements.select.size`
                               ]
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: ';' expected.",
                                 "a++++; // SyntaxError: Invalid left-hand side in postfix operation.",
@@ -27903,7 +26649,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Invalid optional chain from new expression. Did you mean to call 'Intl()'?",
                                 "new Intl?.DateTimeFormat(); // SyntaxError: Invalid optional chain from new expression",
@@ -27917,10 +26663,10 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Unexpected keyword or identifier.",
-                                "object.1 = 'bar'; // SyntaxError",
+                                'object.1 = "bar"; // SyntaxError',
                                 "2:9"
                               ]
                             }
@@ -27931,7 +26677,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Operators/super",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: 'super' must be followed by an argument list or member access.",
                                 "    console.log(super); // SyntaxError: 'super' keyword unexpected here",
@@ -27945,7 +26691,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Operators/void",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Expression expected.",
                                 "}(); // SyntaxError: Unexpected token ')'",
@@ -27953,7 +26699,7 @@ html.elements.select.size`
                               ]
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Expression expected.",
                                 'void () => { console.log("iife!"); }(); // SyntaxError: Malformed arrow function parameter list',
@@ -28014,7 +26760,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Statements/export",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Declaration or statement expected.",
                                 'export DefaultExport from "bar.js"; // Invalid',
@@ -28034,7 +26780,7 @@ html.elements.select.size`
                               ]
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Expression expected.",
                                 "}(); // SyntaxError: Unexpected token '('",
@@ -28048,7 +26794,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Statements/for",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: ')' expected.",
                                 'for (let i = "start" in window ? window.start : 0; i < 9; i++) {',
@@ -28093,7 +26839,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Statements/throw",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: A throw statement must throw an expression.",
                                 "throw",
@@ -28101,7 +26847,7 @@ html.elements.select.size`
                               ]
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: Expression expected.",
                                 "throw;",
@@ -28115,7 +26861,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Statements/try...catch",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: '{' expected.",
                                 "try doSomething(); // SyntaxError",
@@ -28129,7 +26875,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/JavaScript/Reference/Statements/while",
                           messages: [
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: '}' expected.",
                                 "",
@@ -28137,7 +26883,7 @@ html.elements.select.size`
                               ]
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: '}' expected.",
                                 "",
@@ -28145,7 +26891,7 @@ html.elements.select.size`
                               ]
                             },
                             {
-                              message: "ESLint error",
+                              message: "JS code issue",
                               data: [
                                 "Parsing error: '}' expected.",
                                 "",
@@ -28161,7 +26907,7 @@ html.elements.select.size`
                       slug: "/en-US/docs/Web/JavaScript/Reference/Strict_mode",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Octal literals are not allowed. Use the syntax '0o15'.",
                             "  015 + // syntax error",
@@ -28175,7 +26921,7 @@ html.elements.select.size`
                       slug: "/en-US/docs/Web/JavaScript/Reference/Template_literals",
                       messages: [
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Hexadecimal digit expected.",
                             "const bad = `bad escape sequence: \\unicode`;",
@@ -28201,7 +26947,7 @@ html.elements.select.size`
                           ]
                         },
                         {
-                          message: "ESLint error",
+                          message: "JS code issue",
                           data: [
                             "Parsing error: Parameter declaration expected.",
                             "function f(,) {} // SyntaxError: missing formal parameter",
@@ -28777,78 +27523,6 @@ html.elements.select.size`
                 },
                 tutorials: {
                   children: {
-                    cycletracker: {
-                      children: {
-                        manifest_file: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Tutorials/CycleTracker/Manifest_file",
-                          messages: [
-                            {
-                              message: "ESLint error",
-                              data: [
-                                "Parsing error: ';' expected.",
-                                '  "short_name": "CT",',
-                                "2:9"
-                              ]
-                            },
-                            {
-                              message: "ESLint error",
-                              data: [
-                                "Parsing error: ';' expected.",
-                                '  "name": "CycleTracker: Period Tracking app",',
-                                "2:9"
-                              ]
-                            },
-                            {
-                              message: "ESLint error",
-                              data: [
-                                "Parsing error: ';' expected.",
-                                '  "name": "...",',
-                                "2:9"
-                              ]
-                            },
-                            {
-                              message: "ESLint error",
-                              data: [
-                                "Parsing error: ';' expected.",
-                                '  "name": "MyApp",',
-                                "2:9"
-                              ]
-                            },
-                            {
-                              message: "ESLint error",
-                              data: [
-                                "Parsing error: ';' expected.",
-                                '  "name": "...",',
-                                "2:9"
-                              ]
-                            }
-                          ]
-                        },
-                        service_workers: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Tutorials/CycleTracker/Service_workers",
-                          messages: [
-                            {
-                              message: "ESLint error",
-                              data: [
-                                "Parsing error: Expression expected.",
-                                "const APP_STATIC_RESOURCES = [ ... ];",
-                                "4:9"
-                              ]
-                            },
-                            {
-                              message: "ESLint error",
-                              data: [
-                                "Parsing error: ',' expected.",
-                                '        "/style.css"',
-                                "7:9"
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
                     js13kgames: {
                       children: {
                         installable_pwas: {
@@ -33726,98 +32400,16 @@ svg.elements.feSpotLight.z`
                     }
                   ]
                 },
-                imported_string_constants: {
-                  children: {},
-                  slug: "/en-US/docs/WebAssembly/Guides/Imported_string_constants",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    },
-                    {
-                      message: "ESLint error",
-                      data: [
-                        "Parsing error: Expression expected.",
-                        "  ...,",
-                        "2:9"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    },
-                    {
-                      message: "ESLint error",
-                      data: [
-                        "Parsing error: Expression expected.",
-                        "  ...,",
-                        "2:9"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    }
-                  ]
-                },
-                javascript_builtins: {
-                  children: {},
-                  slug: "/en-US/docs/WebAssembly/Guides/JavaScript_builtins",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    }
-                  ]
-                },
                 loading_and_running: {
                   children: {},
                   slug: "/en-US/docs/WebAssembly/Guides/Loading_and_running",
                   messages: [
                     {
-                      message: "ESLint error",
+                      message: "JS code issue",
                       data: [
                         "Parsing error: ';' expected.",
                         "  instance: Instance, // A new WebAssembly.Instance of the module object",
                         "3:9"
-                      ]
-                    }
-                  ]
-                },
-                text_format_to_wasm: {
-                  children: {},
-                  slug: "/en-US/docs/WebAssembly/Guides/Text_format_to_Wasm",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
                       ]
                     }
                   ]
@@ -33830,218 +32422,6 @@ svg.elements.feSpotLight.z`
                       message: "Quoted code",
                       data: [
                         "$i"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    },
-                    {
-                      message: "ESLint error",
-                      data: [
-                        "Parsing error: Identifier expected.",
-                        "function () {",
-                        "1:9"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
-                      ]
-                    }
-                  ]
-                },
-                using_the_javascript_api: {
-                  children: {},
-                  slug: "/en-US/docs/WebAssembly/Guides/Using_the_JavaScript_API",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "wasm"
                       ]
                     }
                   ]
@@ -34126,12 +32506,6 @@ svg.elements.feSpotLight.z`
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "wasm"
-                          ]
                         }
                       ]
                     },
@@ -34162,12 +32536,6 @@ svg.elements.feSpotLight.z`
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "wasm"
-                          ]
                         }
                       ]
                     },
@@ -34255,18 +32623,6 @@ svg.elements.feSpotLight.z`
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "wasm"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "wasm"
-                              ]
                             }
                           ]
                         },
@@ -34287,25 +32643,10 @@ svg.elements.feSpotLight.z`
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "wasm"
-                              ]
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Exception",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "wasm"
-                          ]
-                        }
-                      ]
+                      }
                     },
                     global: {
                       children: {
@@ -34338,10 +32679,6 @@ svg.elements.feSpotLight.z`
                           slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Instance/Instance",
                           messages: [
                             {
-                              message: "Missing syntax code block",
-                              data: []
-                            },
-                            {
                               message: "Unreachable via sidebar",
                               data: []
                             }
@@ -34353,10 +32690,6 @@ svg.elements.feSpotLight.z`
                       children: {},
                       slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/instantiate_static",
                       messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -34440,14 +32773,6 @@ svg.elements.feSpotLight.z`
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "ESLint error",
-                              data: [
-                                "Parsing error: ';' expected.",
-                                '{ name: "exported_func", kind: "function" }',
-                                "1:9"
-                              ]
                             }
                           ]
                         },
@@ -34458,14 +32783,6 @@ svg.elements.feSpotLight.z`
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "ESLint error",
-                              data: [
-                                "Parsing error: ';' expected.",
-                                '{ module: "my_namespace", name: "imported_func", kind: "function" }',
-                                "1:9"
-                              ]
                             }
                           ]
                         },
@@ -34473,10 +32790,6 @@ svg.elements.feSpotLight.z`
                           children: {},
                           slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Module/Module",
                           messages: [
-                            {
-                              message: "Missing syntax code block",
-                              data: []
-                            },
                             {
                               message: "Unreachable via sidebar",
                               data: []
@@ -34548,12 +32861,6 @@ svg.elements.feSpotLight.z`
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "wasm"
-                              ]
                             }
                           ]
                         }
@@ -34581,16 +32888,7 @@ svg.elements.feSpotLight.z`
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Tag",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "wasm"
-                          ]
-                        }
-                      ]
+                      }
                     },
                     validate_static: {
                       children: {},
@@ -34623,18 +32921,6 @@ svg.elements.feSpotLight.z`
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "wasm"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "wasm"
-                          ]
                         }
                       ]
                     },
@@ -34655,18 +32941,6 @@ svg.elements.feSpotLight.z`
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "wasm"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "wasm"
-                          ]
                         }
                       ]
                     },
@@ -34681,42 +32955,6 @@ svg.elements.feSpotLight.z`
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "wasm"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "wasm"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "wasm"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "wasm"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "wasm"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "wasm"
-                          ]
                         }
                       ]
                     },
@@ -34737,42 +32975,6 @@ svg.elements.feSpotLight.z`
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "wasm"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "wasm"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "wasm"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "wasm"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "wasm"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "wasm"
-                          ]
                         }
                       ]
                     },
@@ -34793,36 +32995,6 @@ svg.elements.feSpotLight.z`
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "wasm"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "wasm"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "wasm"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "wasm"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "wasm"
-                          ]
                         }
                       ]
                     },
@@ -34843,18 +33015,6 @@ svg.elements.feSpotLight.z`
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "wasm"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "wasm"
-                          ]
                         }
                       ]
                     }
@@ -35624,8 +33784,9 @@ function displayWarnings() {
       metadataIssues.append(option);
     } else if ([
       "Invalid code block language",
-      "ESLint error",
-      "Stylelint error"
+      "JS code issue",
+      "CSS code issue",
+      "HTML code issue"
     ].includes(message[0])) {
       codeIssues.append(option);
     } else {
