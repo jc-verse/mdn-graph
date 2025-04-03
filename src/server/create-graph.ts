@@ -262,7 +262,16 @@ export default async function createContentGraph() {
         });
       }
       if (part.value.id !== "formal_syntax") {
-        $("pre").each((i, pre) => {
+        let selector = "pre";
+        if (part.value.id === "syntax" && !["mdn-writing-guide", "webextension-manifest-key"].includes(node.data.metadata.pageType)) {
+          const syntaxSelector = `body > div.code-example:${node.data.metadata.pageType === "web-api-event" ? "nth-child(2)" : "first-child"} pre`;
+          const syntaxCode = $(syntaxSelector);
+          selector = `pre:not(${syntaxSelector})`;
+          if (!syntaxCode.length) {
+            report(node, "Missing syntax code block");
+          }
+        }
+        $(selector).each((i, pre) => {
           const code = $(pre).text();
           const language = $(pre).attr("class")?.match(new RegExp(`brush: (${sanctionedLanguages.join("|")})(?: |$)`))?.[1];
           if (!language) {
