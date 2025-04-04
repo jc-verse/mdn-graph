@@ -117,7 +117,7 @@ function getSurroundingText(
     if (!node.parentNode || node.parentNode.type !== "tag") return "";
     if (
       node[`${direction}Sibling`]?.type === "tag" &&
-      node[`${direction}Sibling`].tagName === "br"
+      node[`${direction}Sibling`]!.tagName === "br"
     )
       return "";
     node = node.parentNode;
@@ -155,7 +155,10 @@ export function checkContent(
     for (const text of texts) {
       if (
         /`[^`]+`|```|\*[^*]+\*|\[.+\]\(.+\)|\b_[^_]+_\b/.test(text.data) &&
-        !configHas(allowedUnrenderedMarkdown, `${context.slug}\t${text.data}`)
+        !configHas(
+          allowedUnrenderedMarkdown,
+          `${context.slug}\t${text.data.trim()}`,
+        )
       ) {
         report("Possibly unrendered Markdown", text.data);
       }
