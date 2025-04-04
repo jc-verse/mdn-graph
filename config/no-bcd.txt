@@ -1,7 +1,42 @@
   This file contains BCD keys that can be derived from content pages,
   but are not actually tracked in BCD usually because support is not interesting
   or browser support is irrelevant.
+  We only list things that BCD has explicit policies to not include. If
+  something has a chance to be added to BCD, it should be.
   Use two-space indent for comments.
+
+api.AudioWorkletProcessor.parameterDescriptors
+api.AudioWorkletProcessor.process
+  TODO: it should not have content
+api.RTCStatsReport.Symbol.iterator
+
+css.types.absolute-size
+css.types.alpha-value
+css.types.baseline-position
+css.types.color-interpolation-method
+css.types.content-distribution
+css.types.display-box
+css.types.display-inside
+css.types.display-internal
+css.types.display-legacy
+css.types.display-listitem
+css.types.display-outside
+  It is documented in BCD as css.types.easing-function.linear-function.
+  We fix this by marking the expected one as "deliberately absent", then
+  mark the actual one as a special BCD.
+css.types.easing-function.linear
+css.types.generic-family
+  It is documented in BCD as css.types.color.rgb_hexadecimal_notation
+  Also, for the color subtypes, BCD always nest them under <color>,
+  while content always lists all css-types at top level
+css.types.hex-color
+css.types.hue
+css.types.named-color
+css.types.position-area
+css.types.relative-size
+css.types.self-position
+css.types.system-color
+css.types.time-percentage
 
 html.global_attributes.itemid
 html.global_attributes.itemprop

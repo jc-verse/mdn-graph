@@ -1,0 +1,7 @@
+  These pages don't have a sidebar, usually because it's a collection of
+  everything under it and there's really nothing to list that's not already
+  on the page.
+  Use two-space indent for comments.
+
+/en-US/docs/Related
+/en-US/docs/Web/API

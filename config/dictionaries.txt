@@ -13,6 +13,7 @@ EcdsaParams
 EcKeyGenParams
 EcKeyImportParams
 FederatedCredentialInit
+FileSystemChangeRecord
 HkdfParams
 HmacImportParams
 HmacKeyGenParams

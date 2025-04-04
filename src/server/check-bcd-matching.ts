@@ -282,8 +282,8 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
         .replace(/_value\b/, "");
       if (["cross-fade", "element"].includes(functionName)) {
         return [`css.types.image.${functionName}`];
-      } else if (functionName.startsWith("gradient.")) {
-        return [`css.types.image.${functionName}`];
+      } else if (functionName.startsWith("@") && functionName.includes(".")) {
+        return [`css.at-rules.${functionName.slice(1)}`];
       } else if (getBCD(bcdData, `css.types.${functionName}`)) {
         return [`css.types.${functionName}`];
       } else if (functionName.includes(".")) {
@@ -544,21 +544,25 @@ export function checkBCDMatching(
     } else if (expected === "ignore") {
       continue;
     }
+    // There are three circles: expected, actual, BCD.
+    // We want to report any mismatch between these three circles:
+    // - Expected but not in BCD
+    // - Actual but not in BCD
+    // - Expected (existing) and actual don't match
     const expectedExisting = expected.filter((x) => getBCD(bcdData, x));
-    if (!expectedExisting.length && expected.length) {
-      if (expected.length === 1 && configHas(noBCD, expected[0]!)) continue;
-      report(node, "Not in BCD", expected.join("\n"));
-      continue;
+    const expectedShouldHaveBCD = expected.filter((x) => !configHas(noBCD, x));
+    if (expectedExisting.length < expectedShouldHaveBCD.length) {
+      report(node, "Not in BCD", expectedShouldHaveBCD.join("\n"));
     }
     const actual = new Set(node.data.metadata.browserCompat);
-    if (actual.symmetricDifference(new Set(expected)).size) {
+    if (actual.symmetricDifference(new Set(expectedShouldHaveBCD)).size) {
       report(
         node,
         "Unexpected BCD keys",
         "Actual:",
         Array.from(actual).join("\n") || "[None]",
         "Expected:",
-        expected.join("\n") || "[None]",
+        expectedShouldHaveBCD.join("\n") || "[None]",
       );
     }
   }
