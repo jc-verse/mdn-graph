@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-5jj4n8x0.js";
+} from "./chunk-krg3eygn.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -1030,6 +1030,26 @@ var warnings_processed_default = {
                 }
               ]
             },
+            gpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/GPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-faq.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                }
+              ]
+            },
             "high-level_programming_language": {
               children: {},
               slug: "/en-US/docs/Glossary/High-level_programming_language",
@@ -1117,6 +1137,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            lgpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/LGPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/lgpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
                 }
               ]
             },
@@ -2301,10 +2334,10 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "Broken external link",
+                          message: "Redirected external link",
                           data: [
                             "https://svelte-native.technology/",
-                            "The operation timed out."
+                            "https://svelte.nativescript.org/"
                           ]
                         },
                         {
@@ -2334,10 +2367,10 @@ var warnings_processed_default = {
                           data: []
                         },
                         {
-                          message: "Broken external link",
+                          message: "Redirected external link",
                           data: [
                             "https://svelte-native.technology/",
-                            "The operation timed out."
+                            "https://svelte.nativescript.org/"
                           ]
                         }
                       ]
@@ -3017,7 +3050,17 @@ var warnings_processed_default = {
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
                     },
                     html_video_and_audio: {
                       children: {
@@ -3689,6 +3732,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -4451,6 +4501,33 @@ var warnings_processed_default = {
                 },
                 tools_and_setup: {
                   children: {
+                    available_text_editors: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -4458,6 +4535,39 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    how_do_you_host_your_website_on_google_app_engine: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gaesamplesite.appspot.com/downloads.html",
+                            503
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gaesamplesite.appspot.com/",
+                            503
+                          ]
+                        }
+                      ]
+                    },
+                    what_software_do_i_need: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -5037,609 +5147,12 @@ var warnings_processed_default = {
                   children: {
                     api: {
                       children: {
-                        action: {
-                          children: {
-                            colorarray: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/ColorArray",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            disable: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/disable",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            enable: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/enable",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getbadgebackgroundcolor: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/getBadgeBackgroundColor",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getbadgetext: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/getBadgeText",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getbadgetextcolor: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/getBadgeTextColor",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getpopup: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/getPopup",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            gettitle: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/getTitle",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getusersettings: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/getUserSettings",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            imagedatatype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/ImageDataType",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            isenabled: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/isEnabled",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onclicked: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/onClicked",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            openpopup: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/openPopup",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setbadgebackgroundcolor: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/setBadgeBackgroundColor",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setbadgetext: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/setBadgeText",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setbadgetextcolor: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/setBadgeTextColor",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            seticon: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/setIcon",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setpopup: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/setPopup",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            settitle: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action/setTitle",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/action",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        alarms: {
-                          children: {
-                            alarm: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/alarms/Alarm",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            clear: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/alarms/clear",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            clearall: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/alarms/clearAll",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            create: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/alarms/create",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            get: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/alarms/get",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getall: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/alarms/getAll",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onalarm: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/alarms/onAlarm",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/alarms",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        bookmarks: {
-                          children: {
-                            bookmarktreenode: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/BookmarkTreeNode",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            bookmarktreenodetype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/BookmarkTreeNodeType",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            bookmarktreenodeunmodifiable: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/BookmarkTreeNodeUnmodifiable",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            create: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/create",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            createdetails: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/CreateDetails",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            get: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/get",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getchildren: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/getChildren",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getrecent: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/getRecent",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getsubtree: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/getSubTree",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            gettree: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/getTree",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            move: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/move",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onchanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/onChanged",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onchildrenreordered: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/onChildrenReordered",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            oncreated: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/onCreated",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onimportbegan: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/onImportBegan",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onimportended: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/onImportEnded",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onmoved: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/onMoved",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onremoved: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/onRemoved",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            remove: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/remove",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            removetree: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/removeTree",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            search: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/search",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            update: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/update",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
                         browseraction: {
                           children: {
-                            colorarray: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/ColorArray",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            disable: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/disable",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            enable: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/enable",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getbadgebackgroundcolor: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/getBadgeBackgroundColor",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getbadgetext: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/getBadgeText",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getbadgetextcolor: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/getBadgeTextColor",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getpopup: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/getPopup",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            gettitle: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/getTitle",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
                             getusersettings: {
                               children: {},
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/getUserSettings",
                               messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                },
                                 {
                                   message: "Not in BCD",
                                   data: [
@@ -5647,308 +5160,11 @@ var warnings_processed_default = {
                                   ]
                                 }
                               ]
-                            },
-                            imagedatatype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/ImageDataType",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            isenabled: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/isEnabled",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onclicked: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/onClicked",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            openpopup: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/openPopup",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setbadgebackgroundcolor: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/setBadgeBackgroundColor",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setbadgetext: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/setBadgeText",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setbadgetextcolor: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/setBadgeTextColor",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            seticon: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/setIcon",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setpopup: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/setPopup",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            settitle: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/setTitle",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
                             }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
+                          }
                         },
                         browsersettings: {
                           children: {
-                            allowpopupsforuserevents: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/allowPopupsForUserEvents",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            cacheenabled: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/cacheEnabled",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            closetabsbydoubleclick: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/closeTabsByDoubleClick",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            colormanagement: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/colorManagement",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            contextmenushowevent: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/contextMenuShowEvent",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            ftpprotocolenabled: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/ftpProtocolEnabled",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            homepageoverride: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/homepageOverride",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            imageanimationbehavior: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/imageAnimationBehavior",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            newtabpageoverride: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/newTabPageOverride",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            newtabposition: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/newTabPosition",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            openbookmarksinnewtabs: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/openBookmarksInNewTabs",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            opensearchresultsinnewtabs: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/openSearchResultsInNewTabs",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            openurlbarresultsinnewtabs: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/openUrlbarResultsInNewTabs",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            overridecontentcolorscheme: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/overrideContentColorScheme",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            overridedocumentcolors: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/overrideDocumentColors",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            tlsversionrestrictionconfig: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/tlsVersionRestrictionConfig",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            usedocumentfonts: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/useDocumentFonts",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            webnotificationsdisabled: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/webNotificationsDisabled",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            zoomfullpage: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/zoomFullPage",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
                             zoomsitespecific: {
                               children: {},
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/zoomSiteSpecific",
@@ -5960,10 +5176,6 @@ var warnings_processed_default = {
                                     "Text before code:",
                                     "privacy.websites"
                                   ]
-                                },
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
                                 }
                               ]
                             }
@@ -5977,319 +5189,11 @@ var warnings_processed_default = {
                                 "Text before code:",
                                 "privacy.websites"
                               ]
-                            },
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        browsingdata: {
-                          children: {
-                            datatypeset: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/DataTypeSet",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            removaloptions: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/RemovalOptions",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            remove: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/remove",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            removecache: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/removeCache",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            removecookies: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/removeCookies",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            removedownloads: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/removeDownloads",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            removeformdata: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/removeFormData",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            removehistory: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/removeHistory",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            removelocalstorage: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/removeLocalStorage",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            removepasswords: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/removePasswords",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            removeplugindata: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/removePluginData",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            settings: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/settings",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        captiveportal: {
-                          children: {
-                            canonicalurl: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/captivePortal/canonicalURL",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getlastchecked: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/captivePortal/getLastChecked",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getstate: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/captivePortal/getState",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onconnectivityavailable: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/captivePortal/onConnectivityAvailable",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onstatechanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/captivePortal/onStateChanged",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/captivePortal",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        clipboard: {
-                          children: {
-                            setimagedata: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/clipboard/setImageData",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/clipboard",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        commands: {
-                          children: {
-                            command: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/commands/Command",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getall: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/commands/getAll",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onchanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/commands/onChanged",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            oncommand: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/commands/onCommand",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            openshortcutsettings: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/commands/openShortcutSettings",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            reset: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/commands/reset",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            update: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/commands/update",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/commands",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
                             }
                           ]
                         },
                         contentscripts: {
                           children: {
-                            register: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/contentScripts/register",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
                             registeredcontentscript: {
                               children: {
                                 unregister: {
@@ -6297,234 +5201,21 @@ var warnings_processed_default = {
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/contentScripts/RegisteredContentScript/unregister",
                                   messages: [
                                     {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
-                                    {
                                       message: "Unreachable via sidebar",
                                       data: []
                                     }
                                   ]
                                 }
-                              },
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/contentScripts/RegisteredContentScript",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
+                              }
                             }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/contentScripts",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        contextualidentities: {
-                          children: {
-                            contextualidentity: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/contextualIdentities/ContextualIdentity",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            create: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/contextualIdentities/create",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            get: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/contextualIdentities/get",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            move: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/contextualIdentities/move",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            oncreated: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/contextualIdentities/onCreated",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onremoved: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/contextualIdentities/onRemoved",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onupdated: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/contextualIdentities/onUpdated",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            query: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/contextualIdentities/query",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            remove: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/contextualIdentities/remove",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            update: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/contextualIdentities/update",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/contextualIdentities",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
+                          }
                         },
                         cookies: {
                           children: {
-                            cookie: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies/Cookie",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            cookiestore: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies/CookieStore",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            get: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies/get",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getall: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies/getAll",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getallcookiestores: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies/getAllCookieStores",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onchanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies/onChanged",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onchangedcause: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies/OnChangedCause",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            remove: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies/remove",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
                             samesitestatus: {
                               children: {},
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies/SameSiteStatus",
                               messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                },
                                 {
                                   message: "Not in BCD",
                                   data: [
@@ -6532,118 +5223,11 @@ var warnings_processed_default = {
                                   ]
                                 }
                               ]
-                            },
-                            set: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies/set",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
                             }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
+                          }
                         },
                         declarativenetrequest: {
                           children: {
-                            dynamic_ruleset_id: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/DYNAMIC_RULESET_ID",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getavailablestaticrulecount: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/getAvailableStaticRuleCount",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getdisabledruleids: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/getDisabledRuleIds",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getdynamicrules: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/getDynamicRules",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getenabledrulesets: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/getEnabledRulesets",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getmatchedrules: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/getMatchedRules",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getmatchedrules_quota_interval: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/GETMATCHEDRULES_QUOTA_INTERVAL",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getsessionrules: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/getSessionRules",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            guaranteed_minimum_static_rules: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/GUARANTEED_MINIMUM_STATIC_RULES",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
                             headerinfo: {
                               children: {},
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/HeaderInfo",
@@ -6673,10 +5257,6 @@ var warnings_processed_default = {
                                   ]
                                 },
                                 {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                },
-                                {
                                   message: "Not linked from parent page",
                                   data: [
                                     "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest"
@@ -6701,100 +5281,6 @@ var warnings_processed_default = {
                                     "Text before code:",
                                     "declarativeNetRequest.RuleCondition"
                                   ]
-                                },
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            matchedrule: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/MatchedRule",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            max_getmatchedrules_calls_per_interval: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/MAX_GETMATCHEDRULES_CALLS_PER_INTERVAL",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            max_number_of_disabled_static_rules: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/MAX_NUMBER_OF_DISABLED_STATIC_RULES",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            max_number_of_dynamic_and_session_rules: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/MAX_NUMBER_OF_DYNAMIC_AND_SESSION_RULES",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            max_number_of_dynamic_rules: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/MAX_NUMBER_OF_DYNAMIC_RULES",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            max_number_of_enabled_static_rulesets: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/MAX_NUMBER_OF_ENABLED_STATIC_RULESETS",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            max_number_of_regex_rules: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/MAX_NUMBER_OF_REGEX_RULES",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            max_number_of_session_rules: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/MAX_NUMBER_OF_SESSION_RULES",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            max_number_of_static_rulesets: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/MAX_NUMBER_OF_STATIC_RULESETS",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
                                 }
                               ]
                             },
@@ -6811,64 +5297,10 @@ var warnings_processed_default = {
                                   ]
                                 },
                                 {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                },
-                                {
                                   message: "Not in BCD",
                                   data: [
                                     "webextensions.api.declarativeNetRequest.ModifyHeaderInfo"
                                   ]
-                                }
-                              ]
-                            },
-                            onrulematcheddebug: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/onRuleMatchedDebug",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            redirect: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/Redirect",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            resourcetype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/ResourceType",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            rule: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/Rule",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            ruleaction: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/RuleAction",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
                                 }
                               ]
                             },
@@ -6891,90 +5323,6 @@ var warnings_processed_default = {
                                     "Text before code:",
                                     "."
                                   ]
-                                },
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            session_ruleset_id: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/SESSION_RULESET_ID",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setextensionactionoptions: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/setExtensionActionOptions",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            testmatchoutcome: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/testMatchOutcome",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            updatedynamicrules: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/updateDynamicRules",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            updateenabledrulesets: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/updateEnabledRulesets",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            updatesessionrules: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/updateSessionRules",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            updatestaticrules: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/updateStaticRules",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            urltransform: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/URLTransform",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
                                 }
                               ]
                             }
@@ -6988,10 +5336,6 @@ var warnings_processed_default = {
                                 "Text before code:",
                                 "declarativeNetRequest.RuleCondition"
                               ]
-                            },
-                            {
-                              message: "Missing specifications macro",
-                              data: []
                             }
                           ]
                         },
@@ -7004,10 +5348,6 @@ var warnings_processed_default = {
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/inspectedWindow/eval",
                                   messages: [
                                     {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
-                                    {
                                       message: "Unreachable via sidebar",
                                       data: []
                                     }
@@ -7017,10 +5357,6 @@ var warnings_processed_default = {
                                   children: {},
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/inspectedWindow/reload",
                                   messages: [
-                                    {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
@@ -7032,23 +5368,12 @@ var warnings_processed_default = {
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/inspectedWindow/tabId",
                                   messages: [
                                     {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
-                                    {
                                       message: "Unreachable via sidebar",
                                       data: []
                                     }
                                   ]
                                 }
-                              },
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/inspectedWindow",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
+                              }
                             },
                             network: {
                               children: {
@@ -7056,10 +5381,6 @@ var warnings_processed_default = {
                                   children: {},
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network/getHAR",
                                   messages: [
-                                    {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
@@ -7085,10 +5406,6 @@ var warnings_processed_default = {
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network/onNavigated",
                                   messages: [
                                     {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
-                                    {
                                       message: "Unreachable via sidebar",
                                       data: []
                                     }
@@ -7098,10 +5415,6 @@ var warnings_processed_default = {
                                   children: {},
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network/onRequestFinished",
                                   messages: [
-                                    {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
@@ -7126,10 +5439,6 @@ var warnings_processed_default = {
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
                               messages: [
                                 {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                },
-                                {
                                   message: "HTTP link",
                                   data: [
                                     "http://www.softwareishard.com/blog/har-12-spec/",
@@ -7145,10 +5454,6 @@ var warnings_processed_default = {
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/panels/create",
                                   messages: [
                                     {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
-                                    {
                                       message: "Unreachable via sidebar",
                                       data: []
                                     }
@@ -7158,10 +5463,6 @@ var warnings_processed_default = {
                                   children: {},
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/panels/elements",
                                   messages: [
-                                    {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
@@ -7175,10 +5476,6 @@ var warnings_processed_default = {
                                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/panels/ElementsPanel/createSidebarPane",
                                       messages: [
                                         {
-                                          message: "Missing specifications macro",
-                                          data: []
-                                        },
-                                        {
                                           message: "Unreachable via sidebar",
                                           data: []
                                         }
@@ -7189,10 +5486,6 @@ var warnings_processed_default = {
                                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/panels/ElementsPanel/onSelectionChanged",
                                       messages: [
                                         {
-                                          message: "Missing specifications macro",
-                                          data: []
-                                        },
-                                        {
                                           message: "Unreachable via sidebar",
                                           data: []
                                         }
@@ -7201,10 +5494,6 @@ var warnings_processed_default = {
                                   },
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/panels/ElementsPanel",
                                   messages: [
-                                    {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
@@ -7215,10 +5504,6 @@ var warnings_processed_default = {
                                   children: {},
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/panels/ExtensionPanel",
                                   messages: [
-                                    {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
@@ -7232,10 +5517,6 @@ var warnings_processed_default = {
                                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/panels/ExtensionSidebarPane/onHidden",
                                       messages: [
                                         {
-                                          message: "Missing specifications macro",
-                                          data: []
-                                        },
-                                        {
                                           message: "Unreachable via sidebar",
                                           data: []
                                         }
@@ -7245,10 +5526,6 @@ var warnings_processed_default = {
                                       children: {},
                                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/panels/ExtensionSidebarPane/onShown",
                                       messages: [
-                                        {
-                                          message: "Missing specifications macro",
-                                          data: []
-                                        },
                                         {
                                           message: "Unreachable via sidebar",
                                           data: []
@@ -7260,10 +5537,6 @@ var warnings_processed_default = {
                                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/panels/ExtensionSidebarPane/setExpression",
                                       messages: [
                                         {
-                                          message: "Missing specifications macro",
-                                          data: []
-                                        },
-                                        {
                                           message: "Unreachable via sidebar",
                                           data: []
                                         }
@@ -7273,10 +5546,6 @@ var warnings_processed_default = {
                                       children: {},
                                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/panels/ExtensionSidebarPane/setObject",
                                       messages: [
-                                        {
-                                          message: "Missing specifications macro",
-                                          data: []
-                                        },
                                         {
                                           message: "Unreachable via sidebar",
                                           data: []
@@ -7288,10 +5557,6 @@ var warnings_processed_default = {
                                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/panels/ExtensionSidebarPane/setPage",
                                       messages: [
                                         {
-                                          message: "Missing specifications macro",
-                                          data: []
-                                        },
-                                        {
                                           message: "Unreachable via sidebar",
                                           data: []
                                         }
@@ -7300,10 +5565,6 @@ var warnings_processed_default = {
                                   },
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/panels/ExtensionSidebarPane",
                                   messages: [
-                                    {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
@@ -7315,10 +5576,6 @@ var warnings_processed_default = {
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/panels/onThemeChanged",
                                   messages: [
                                     {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
-                                    {
                                       message: "Unreachable via sidebar",
                                       data: []
                                     }
@@ -7329,345 +5586,14 @@ var warnings_processed_default = {
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/panels/themeName",
                                   messages: [
                                     {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
-                                    {
                                       message: "Unreachable via sidebar",
                                       data: []
                                     }
                                   ]
                                 }
-                              },
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/panels",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
+                              }
                             }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        dns: {
-                          children: {
-                            resolve: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/dns/resolve",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/dns",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        dom: {
-                          children: {
-                            openorclosedshadowroot: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/dom/openOrClosedShadowRoot",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/dom",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        downloads: {
-                          children: {
-                            acceptdanger: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/acceptDanger",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            booleandelta: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/BooleanDelta",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            cancel: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/cancel",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            dangertype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/DangerType",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            doubledelta: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/DoubleDelta",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            download: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/download",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            downloaditem: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/DownloadItem",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            downloadquery: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/DownloadQuery",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            downloadtime: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/DownloadTime",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            erase: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/erase",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            filenameconflictaction: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/FilenameConflictAction",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getfileicon: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/getFileIcon",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            interruptreason: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/InterruptReason",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onchanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/onChanged",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            oncreated: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/onCreated",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onerased: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/onErased",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            open: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/open",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            pause: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/pause",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            removefile: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/removeFile",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            resume: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/resume",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            search: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/search",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setshelfenabled: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/setShelfEnabled",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            show: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/show",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            showdefaultfolder: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/showDefaultFolder",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            state: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/State",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            stringdelta: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/StringDelta",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
+                          }
                         },
                         events: {
                           children: {
@@ -7677,10 +5603,6 @@ var warnings_processed_default = {
                                   children: {},
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/events/Event/addListener",
                                   messages: [
-                                    {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
@@ -7692,10 +5614,6 @@ var warnings_processed_default = {
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/events/Event/addRules",
                                   messages: [
                                     {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
-                                    {
                                       message: "Unreachable via sidebar",
                                       data: []
                                     }
@@ -7705,10 +5623,6 @@ var warnings_processed_default = {
                                   children: {},
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/events/Event/getRules",
                                   messages: [
-                                    {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
@@ -7720,10 +5634,6 @@ var warnings_processed_default = {
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/events/Event/hasListener",
                                   messages: [
                                     {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
-                                    {
                                       message: "Unreachable via sidebar",
                                       data: []
                                     }
@@ -7733,10 +5643,6 @@ var warnings_processed_default = {
                                   children: {},
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/events/Event/hasListeners",
                                   messages: [
-                                    {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
@@ -7748,10 +5654,6 @@ var warnings_processed_default = {
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/events/Event/removeListener",
                                   messages: [
                                     {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
-                                    {
                                       message: "Unreachable via sidebar",
                                       data: []
                                     }
@@ -7762,216 +5664,17 @@ var warnings_processed_default = {
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/events/Event/removeRules",
                                   messages: [
                                     {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
-                                    {
                                       message: "Unreachable via sidebar",
                                       data: []
                                     }
                                   ]
                                 }
-                              },
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/events/Event",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            rule: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/events/Rule",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            urlfilter: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/events/UrlFilter",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
+                              }
                             }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/events",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        extension: {
-                          children: {
-                            getbackgroundpage: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extension/getBackgroundPage",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getextensiontabs: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extension/getExtensionTabs",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            geturl: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extension/getURL",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getviews: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extension/getViews",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            inincognitocontext: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extension/inIncognitoContext",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            isallowedfileschemeaccess: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extension/isAllowedFileSchemeAccess",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            isallowedincognitoaccess: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extension/isAllowedIncognitoAccess",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            lasterror: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extension/lastError",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onrequest: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extension/onRequest",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onrequestexternal: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extension/onRequestExternal",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            sendrequest: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extension/sendRequest",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setupdateurldata: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extension/setUpdateUrlData",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            viewtype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extension/ViewType",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extension",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
+                          }
                         },
                         extensiontypes: {
                           children: {
-                            imagedetails: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extensionTypes/ImageDetails",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            imageformat: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extensionTypes/ImageFormat",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
                             injectdetails: {
                               children: {},
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extensionTypes/InjectDetails",
@@ -7983,250 +5686,11 @@ var warnings_processed_default = {
                                   ]
                                 }
                               ]
-                            },
-                            runat: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extensionTypes/RunAt",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
                             }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extensionTypes",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        find: {
-                          children: {
-                            find: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/find/find",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            highlightresults: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/find/highlightResults",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            removehighlighting: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/find/removeHighlighting",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/find",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        history: {
-                          children: {
-                            addurl: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/history/addUrl",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            deleteall: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/history/deleteAll",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            deleterange: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/history/deleteRange",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            deleteurl: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/history/deleteUrl",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getvisits: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/history/getVisits",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            historyitem: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/history/HistoryItem",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            ontitlechanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/history/onTitleChanged",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onvisited: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/history/onVisited",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onvisitremoved: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/history/onVisitRemoved",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            search: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/history/search",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            transitiontype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/history/TransitionType",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            visititem: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/history/VisitItem",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/history",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
+                          }
                         },
                         i18n: {
                           children: {
-                            detectlanguage: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/detectLanguage",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getacceptlanguages: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/getAcceptLanguages",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getmessage: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/getMessage",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getuilanguage: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/getUILanguage",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            languagecode: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/LanguageCode",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
                             "locale-specific_message_reference": {
                               children: {},
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/Locale-Specific_Message_reference",
@@ -8237,338 +5701,14 @@ var warnings_processed_default = {
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        identity: {
-                          children: {
-                            getredirecturl: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/identity/getRedirectURL",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            launchwebauthflow: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/identity/launchWebAuthFlow",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/identity",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        idle: {
-                          children: {
-                            idlestate: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/idle/IdleState",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onstatechanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/idle/onStateChanged",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            querystate: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/idle/queryState",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setdetectioninterval: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/idle/setDetectionInterval",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/idle",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        management: {
-                          children: {
-                            extensioninfo: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management/ExtensionInfo",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            get: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management/get",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getall: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management/getAll",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getpermissionwarningsbyid: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management/getPermissionWarningsById",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getpermissionwarningsbymanifest: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management/getPermissionWarningsByManifest",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getself: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management/getSelf",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            install: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management/install",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            ondisabled: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management/onDisabled",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onenabled: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management/onEnabled",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            oninstalled: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management/onInstalled",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onuninstalled: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management/onUninstalled",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setenabled: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management/setEnabled",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            uninstall: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management/uninstall",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            uninstallself: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management/uninstallSelf",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
+                          }
                         },
                         menus: {
                           children: {
-                            action_menu_top_level_limit: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/ACTION_MENU_TOP_LEVEL_LIMIT",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            contexttype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/ContextType",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            create: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/create",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            gettargetelement: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/getTargetElement",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            itemtype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/ItemType",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onclickdata: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/OnClickData",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onclicked: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/onClicked",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onhidden: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/onHidden",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
                             onshown: {
                               children: {},
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/onShown",
                               messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                },
                                 {
                                   message: "JS code issue",
                                   data: [
@@ -8578,973 +5718,15 @@ var warnings_processed_default = {
                                   ]
                                 }
                               ]
-                            },
-                            overridecontext: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/overrideContext",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            refresh: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/refresh",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            remove: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/remove",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            removeall: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/removeAll",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            update: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/update",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
                             }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        notifications: {
-                          children: {
-                            clear: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/notifications/clear",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            create: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/notifications/create",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getall: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/notifications/getAll",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            notificationoptions: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/notifications/NotificationOptions",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onbuttonclicked: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/notifications/onButtonClicked",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onclicked: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/notifications/onClicked",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onclosed: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/notifications/onClosed",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onshown: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/notifications/onShown",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            templatetype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/notifications/TemplateType",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            update: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/notifications/update",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/notifications",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        omnibox: {
-                          children: {
-                            ondeletesuggestion: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/onDeleteSuggestion",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            oninputcancelled: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/onInputCancelled",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            oninputchanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/onInputChanged",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            oninputentered: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/onInputEntered",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            oninputentereddisposition: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/OnInputEnteredDisposition",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            oninputstarted: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/onInputStarted",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setdefaultsuggestion: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/setDefaultSuggestion",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            suggestresult: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/SuggestResult",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/omnibox",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        pageaction: {
-                          children: {
-                            getpopup: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/getPopup",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            gettitle: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/getTitle",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            hide: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/hide",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            imagedatatype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/ImageDataType",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            isshown: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/isShown",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onclicked: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/onClicked",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            openpopup: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/openPopup",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            seticon: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/setIcon",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setpopup: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/setPopup",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            settitle: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/setTitle",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            show: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/show",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        permissions: {
-                          children: {
-                            contains: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/permissions/contains",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getall: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/permissions/getAll",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onadded: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/permissions/onAdded",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onremoved: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/permissions/onRemoved",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            permissions: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/permissions/Permissions",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            remove: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/permissions/remove",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            request: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/permissions/request",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/permissions",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        pkcs11: {
-                          children: {
-                            getmoduleslots: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pkcs11/getModuleSlots",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            installmodule: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pkcs11/installModule",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            ismoduleinstalled: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pkcs11/isModuleInstalled",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            uninstallmodule: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pkcs11/uninstallModule",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pkcs11",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        privacy: {
-                          children: {
-                            network: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/privacy/network",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            services: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/privacy/services",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            websites: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/privacy/websites",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/privacy",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        proxy: {
-                          children: {
-                            onerror: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/proxy/onError",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onrequest: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/proxy/onRequest",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            proxyinfo: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/proxy/ProxyInfo",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            requestdetails: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/proxy/RequestDetails",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            settings: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/proxy/settings",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/proxy",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
+                          }
                         },
                         runtime: {
                           children: {
-                            connect: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/connect",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            connectnative: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/connectNative",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getbackgroundpage: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/getBackgroundPage",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getbrowserinfo: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/getBrowserInfo",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getcontexts: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/getContexts",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getframeid: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/getFrameId",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getmanifest: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/getManifest",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getpackagedirectoryentry: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/getPackageDirectoryEntry",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getplatforminfo: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/getPlatformInfo",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            geturl: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/getURL",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            id: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/id",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            lasterror: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/lastError",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            messagesender: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/MessageSender",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onbrowserupdateavailable: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onBrowserUpdateAvailable",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onconnect: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onConnect",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onconnectexternal: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onConnectExternal",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            oninstalled: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onInstalled",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            oninstalledreason: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/OnInstalledReason",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onmessage: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onMessage",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onmessageexternal: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onMessageExternal",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onperformancewarning: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onPerformanceWarning",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onperformancewarningcategory: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/OnPerformanceWarningCategory",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onperformancewarningseverity: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/OnPerformanceWarningSeverity",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onrestartrequired: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onRestartRequired",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onrestartrequiredreason: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/OnRestartRequiredReason",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onstartup: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onStartup",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onsuspend: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onSuspend",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onsuspendcanceled: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onSuspendCanceled",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onupdateavailable: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onUpdateAvailable",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onuserscriptconnect: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onUserScriptConnect",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onuserscriptmessage: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onUserScriptMessage",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            openoptionspage: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/openOptionsPage",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            platformarch: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/PlatformArch",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            platforminfo: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/PlatformInfo",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
                             platformnaclarch: {
                               children: {},
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/PlatformNaclArch",
                               messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                },
                                 {
                                   message: "Not linked from parent page",
                                   data: [
@@ -9552,95 +5734,8 @@ var warnings_processed_default = {
                                   ]
                                 }
                               ]
-                            },
-                            platformos: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/PlatformOs",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            port: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/Port",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            reload: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/reload",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            requestupdatecheck: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/requestUpdateCheck",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            requestupdatecheckstatus: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/RequestUpdateCheckStatus",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            sendmessage: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/sendMessage",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            sendnativemessage: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/sendNativeMessage",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setuninstallurl: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/setUninstallURL",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
                             }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
+                          }
                         },
                         scripting: {
                           children: {
@@ -9649,461 +5744,17 @@ var warnings_processed_default = {
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting/ContentScriptFilter",
                               messages: [
                                 {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                },
-                                {
                                   message: "Not in BCD",
                                   data: [
                                     "webextensions.api.scripting.ContentScriptFilter"
                                   ]
                                 }
                               ]
-                            },
-                            executescript: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting/executeScript",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            executionworld: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting/ExecutionWorld",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getregisteredcontentscripts: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting/getRegisteredContentScripts",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            injectiontarget: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting/InjectionTarget",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            insertcss: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting/insertCSS",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            registercontentscripts: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting/registerContentScripts",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            registeredcontentscript: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting/RegisteredContentScript",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            removecss: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting/removeCSS",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            unregistercontentscripts: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting/unregisterContentScripts",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            updatecontentscripts: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting/updateContentScripts",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
                             }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        search: {
-                          children: {
-                            get: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/search/get",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            query: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/search/query",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            search: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/search/search",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/search",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        sessions: {
-                          children: {
-                            filter: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions/Filter",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            forgetclosedtab: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions/forgetClosedTab",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            forgetclosedwindow: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions/forgetClosedWindow",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getrecentlyclosed: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions/getRecentlyClosed",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            gettabvalue: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions/getTabValue",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getwindowvalue: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions/getWindowValue",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            max_session_results: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions/MAX_SESSION_RESULTS",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onchanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions/onChanged",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            removetabvalue: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions/removeTabValue",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            removewindowvalue: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions/removeWindowValue",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            restore: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions/restore",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            session: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions/Session",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            settabvalue: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions/setTabValue",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setwindowvalue: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions/setWindowValue",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        sidebaraction: {
-                          children: {
-                            close: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sidebarAction/close",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getpanel: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sidebarAction/getPanel",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            gettitle: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sidebarAction/getTitle",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            imagedatatype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sidebarAction/ImageDataType",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            isopen: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sidebarAction/isOpen",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            open: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sidebarAction/open",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            seticon: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sidebarAction/setIcon",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setpanel: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sidebarAction/setPanel",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            settitle: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sidebarAction/setTitle",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            toggle: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sidebarAction/toggle",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sidebarAction",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
+                          }
                         },
                         storage: {
                           children: {
-                            local: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/local",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            managed: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/managed",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onchanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/onChanged",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
                             session: {
                               children: {
                                 quota_bytes: {
@@ -10111,23 +5762,12 @@ var warnings_processed_default = {
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/session/QUOTA_BYTES",
                                   messages: [
                                     {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
-                                    {
                                       message: "Unreachable via sidebar",
                                       data: []
                                     }
                                   ]
                                 }
-                              },
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/session",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
+                              }
                             },
                             storagearea: {
                               children: {
@@ -10135,10 +5775,6 @@ var warnings_processed_default = {
                                   children: {},
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/StorageArea/clear",
                                   messages: [
-                                    {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
@@ -10150,10 +5786,6 @@ var warnings_processed_default = {
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/StorageArea/get",
                                   messages: [
                                     {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
-                                    {
                                       message: "Unreachable via sidebar",
                                       data: []
                                     }
@@ -10163,10 +5795,6 @@ var warnings_processed_default = {
                                   children: {},
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/StorageArea/getBytesInUse",
                                   messages: [
-                                    {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
@@ -10178,10 +5806,6 @@ var warnings_processed_default = {
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/StorageArea/onChanged",
                                   messages: [
                                     {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
-                                    {
                                       message: "Unreachable via sidebar",
                                       data: []
                                     }
@@ -10191,10 +5815,6 @@ var warnings_processed_default = {
                                   children: {},
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/StorageArea/remove",
                                   messages: [
-                                    {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
@@ -10206,10 +5826,6 @@ var warnings_processed_default = {
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/StorageArea/set",
                                   messages: [
                                     {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
-                                    {
                                       message: "Unreachable via sidebar",
                                       data: []
                                     }
@@ -10220,745 +5836,14 @@ var warnings_processed_default = {
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/StorageArea/setAccessLevel",
                                   messages: [
                                     {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
-                                    {
                                       message: "Unreachable via sidebar",
                                       data: []
                                     }
                                   ]
                                 }
-                              },
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/StorageArea",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            storagechange: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/StorageChange",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            sync: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/sync",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
+                              }
                             }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        tabs: {
-                          children: {
-                            capturetab: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/captureTab",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            capturevisibletab: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/captureVisibleTab",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            connect: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/connect",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            create: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/create",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            detectlanguage: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/detectLanguage",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            discard: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/discard",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            duplicate: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/duplicate",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            executescript: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/executeScript",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            get: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/get",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getallinwindow: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/getAllInWindow",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getcurrent: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/getCurrent",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getselected: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/getSelected",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getzoom: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/getZoom",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getzoomsettings: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/getZoomSettings",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            goback: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/goBack",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            goforward: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/goForward",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            hide: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/hide",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            highlight: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/highlight",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            insertcss: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/insertCSS",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            move: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/move",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            moveinsuccession: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/moveInSuccession",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            mutedinfo: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/MutedInfo",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            mutedinforeason: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/MutedInfoReason",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onactivated: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onActivated",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onactivechanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onActiveChanged",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onattached: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onAttached",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            oncreated: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onCreated",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            ondetached: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onDetached",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onhighlightchanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onHighlightChanged",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onhighlighted: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onHighlighted",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onmoved: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onMoved",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onremoved: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onRemoved",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onreplaced: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onReplaced",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onselectionchanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onSelectionChanged",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onupdated: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onUpdated",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onzoomchange: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onZoomChange",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            pagesettings: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/PageSettings",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            print: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/print",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            printpreview: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/printPreview",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            query: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/query",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            reload: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/reload",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            remove: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/remove",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            removecss: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/removeCSS",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            saveaspdf: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/saveAsPDF",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            sendmessage: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/sendMessage",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            sendrequest: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/sendRequest",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setzoom: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/setZoom",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            setzoomsettings: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/setZoomSettings",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            show: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/show",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            tab: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/Tab",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            tab_id_none: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/TAB_ID_NONE",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            tabstatus: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/TabStatus",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            togglereadermode: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/toggleReaderMode",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            update: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/update",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            warmup: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/warmup",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            windowtype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/WindowType",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            zoomsettings: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/ZoomSettings",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            zoomsettingsmode: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/ZoomSettingsMode",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            zoomsettingsscope: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/ZoomSettingsScope",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        theme: {
-                          children: {
-                            getcurrent: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/theme/getCurrent",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onupdated: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/theme/onUpdated",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            reset: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/theme/reset",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            theme: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/theme/Theme",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            update: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/theme/update",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/theme",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        topsites: {
-                          children: {
-                            get: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/topSites/get",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            mostvisitedurl: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/topSites/MostVisitedURL",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/topSites",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
+                          }
                         },
                         types: {
                           children: {
@@ -11001,10 +5886,6 @@ var warnings_processed_default = {
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/types/BrowserSetting/onChange",
                                   messages: [
                                     {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
-                                    {
                                       message: "Unreachable via sidebar",
                                       data: []
                                     }
@@ -11026,177 +5907,12 @@ var warnings_processed_default = {
                                     }
                                   ]
                                 }
-                              },
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/types/BrowserSetting",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
+                              }
                             }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/types",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        userscripts: {
-                          children: {
-                            configureworld: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/configureWorld",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            executionworld: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/ExecutionWorld",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getscripts: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/getScripts",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getworldconfigurations: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/getWorldConfigurations",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            register: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/register",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            registereduserscript: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/RegisteredUserScript",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            resetworldconfiguration: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/resetWorldConfiguration",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            scriptsource: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/ScriptSource",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            unregister: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/unregister",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            update: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/update",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            userscriptfilter: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/UserScriptFilter",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            worldproperties: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/WorldProperties",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
+                          }
                         },
                         userscripts_legacy: {
                           children: {
-                            onbeforescript: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts_legacy/onBeforeScript",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            register: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts_legacy/register",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
                             registereduserscript: {
                               children: {
                                 unregister: {
@@ -11204,23 +5920,12 @@ var warnings_processed_default = {
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts_legacy/RegisteredUserScript/unregister",
                                   messages: [
                                     {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
-                                    {
                                       message: "Unreachable via sidebar",
                                       data: []
                                     }
                                   ]
                                 }
-                              },
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts_legacy/RegisteredUserScript",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
+                              }
                             },
                             userscriptoptions: {
                               children: {},
@@ -11254,236 +5959,14 @@ var warnings_processed_default = {
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts_legacy",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        webnavigation: {
-                          children: {
-                            getallframes: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation/getAllFrames",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getframe: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation/getFrame",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onbeforenavigate: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation/onBeforeNavigate",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            oncommitted: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation/onCommitted",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            oncompleted: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation/onCompleted",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            oncreatednavigationtarget: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation/onCreatedNavigationTarget",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            ondomcontentloaded: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation/onDOMContentLoaded",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onerroroccurred: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation/onErrorOccurred",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onhistorystateupdated: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation/onHistoryStateUpdated",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onreferencefragmentupdated: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation/onReferenceFragmentUpdated",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            ontabreplaced: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation/onTabReplaced",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            transitionqualifier: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation/TransitionQualifier",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            transitiontype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation/TransitionType",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
+                          }
                         },
                         webrequest: {
                           children: {
-                            blockingresponse: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/BlockingResponse",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            certificateinfo: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/CertificateInfo",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            filterresponsedata: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/filterResponseData",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getsecurityinfo: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/getSecurityInfo",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            handlerbehaviorchanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/handlerBehaviorChanged",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            httpheaders: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/HttpHeaders",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            max_handler_behavior_changed_calls_per_10_minutes: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/MAX_HANDLER_BEHAVIOR_CHANGED_CALLS_PER_10_MINUTES",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
                             onauthrequired: {
                               children: {},
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onAuthRequired",
                               messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                },
                                 {
                                   message: "Broken anchor",
                                   data: [
@@ -11493,126 +5976,12 @@ var warnings_processed_default = {
                                 }
                               ]
                             },
-                            onbeforeredirect: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onBeforeRedirect",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onbeforerequest: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onBeforeRequest",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onbeforesendheaders: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onBeforeSendHeaders",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            oncompleted: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onCompleted",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onerroroccurred: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onErrorOccurred",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onheadersreceived: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onHeadersReceived",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onresponsestarted: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onResponseStarted",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onsendheaders: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onSendHeaders",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            requestfilter: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/RequestFilter",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            resourcetype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/ResourceType",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            securityinfo: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/SecurityInfo",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
                             streamfilter: {
                               children: {
                                 close: {
                                   children: {},
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/StreamFilter/close",
                                   messages: [
-                                    {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
@@ -11624,10 +5993,6 @@ var warnings_processed_default = {
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/StreamFilter/disconnect",
                                   messages: [
                                     {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
-                                    {
                                       message: "Unreachable via sidebar",
                                       data: []
                                     }
@@ -11637,10 +6002,6 @@ var warnings_processed_default = {
                                   children: {},
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/StreamFilter/error",
                                   messages: [
-                                    {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
@@ -11652,10 +6013,6 @@ var warnings_processed_default = {
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/StreamFilter/ondata",
                                   messages: [
                                     {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
-                                    {
                                       message: "Unreachable via sidebar",
                                       data: []
                                     }
@@ -11665,10 +6022,6 @@ var warnings_processed_default = {
                                   children: {},
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/StreamFilter/onerror",
                                   messages: [
-                                    {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
@@ -11680,10 +6033,6 @@ var warnings_processed_default = {
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/StreamFilter/onstart",
                                   messages: [
                                     {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
-                                    {
                                       message: "Unreachable via sidebar",
                                       data: []
                                     }
@@ -11693,10 +6042,6 @@ var warnings_processed_default = {
                                   children: {},
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/StreamFilter/onstop",
                                   messages: [
-                                    {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
@@ -11708,10 +6053,6 @@ var warnings_processed_default = {
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/StreamFilter/resume",
                                   messages: [
                                     {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
-                                    {
                                       message: "Unreachable via sidebar",
                                       data: []
                                     }
@@ -11721,10 +6062,6 @@ var warnings_processed_default = {
                                   children: {},
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/StreamFilter/status",
                                   messages: [
-                                    {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
@@ -11736,10 +6073,6 @@ var warnings_processed_default = {
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/StreamFilter/suspend",
                                   messages: [
                                     {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
-                                    {
                                       message: "Unreachable via sidebar",
                                       data: []
                                     }
@@ -11750,223 +6083,14 @@ var warnings_processed_default = {
                                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/StreamFilter/write",
                                   messages: [
                                     {
-                                      message: "Missing specifications macro",
-                                      data: []
-                                    },
-                                    {
                                       message: "Unreachable via sidebar",
                                       data: []
                                     }
                                   ]
                                 }
-                              },
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/StreamFilter",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            uploaddata: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/UploadData",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
+                              }
                             }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        windows: {
-                          children: {
-                            create: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/create",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            createtype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/CreateType",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            get: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/get",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getall: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/getAll",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getcurrent: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/getCurrent",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            getlastfocused: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/getLastFocused",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onboundschanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/onBoundsChanged",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            oncreated: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/onCreated",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onfocuschanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/onFocusChanged",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            onremoved: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/onRemoved",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            remove: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/remove",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            update: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/update",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            window: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/Window",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            window_id_current: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/WINDOW_ID_CURRENT",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            window_id_none: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/WINDOW_ID_NONE",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            windowstate: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/WindowState",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            windowtype: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/WindowType",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
+                          }
                         }
                       }
                     },
@@ -12017,10 +6141,6 @@ var warnings_processed_default = {
                           slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts/cloneInto",
                           messages: [
                             {
-                              message: "Missing specifications macro",
-                              data: []
-                            },
-                            {
                               message: "Unreachable via sidebar",
                               data: []
                             },
@@ -12036,10 +6156,6 @@ var warnings_processed_default = {
                           children: {},
                           slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts/exportFunction",
                           messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            },
                             {
                               message: "Unreachable via sidebar",
                               data: []
@@ -12147,49 +6263,15 @@ var warnings_processed_default = {
                     },
                     "manifest.json": {
                       children: {
-                        action: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/action",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        author: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/author",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
                         background: {
                           children: {},
                           slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/background",
                           messages: [
                             {
-                              message: "Missing specifications macro",
-                              data: []
-                            },
-                            {
                               message: "Invalid code block language",
                               data: [
                                 "javascript"
                               ]
-                            }
-                          ]
-                        },
-                        browser_action: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/browser_action",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
                             }
                           ]
                         },
@@ -12202,10 +6284,6 @@ var warnings_processed_default = {
                               data: [
                                 "brush: json; notranslate"
                               ]
-                            },
-                            {
-                              message: "Missing specifications macro",
-                              data: []
                             }
                           ]
                         },
@@ -12218,40 +6296,6 @@ var warnings_processed_default = {
                               data: [
                                 "brush:json notranslate"
                               ]
-                            },
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        chrome_url_overrides: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/chrome_url_overrides",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        commands: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/commands",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        content_scripts: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/content_scripts",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
                             }
                           ]
                         },
@@ -12260,75 +6304,11 @@ var warnings_processed_default = {
                           slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/content_security_policy",
                           messages: [
                             {
-                              message: "Missing specifications macro",
-                              data: []
-                            },
-                            {
                               message: "Broken anchor",
                               data: [
                                 "/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_Security_Policy",
                                 "#eval%28%29_and_friends"
                               ]
-                            }
-                          ]
-                        },
-                        declarative_net_request: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/declarative_net_request",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        default_locale: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/default_locale",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        description: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/description",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        developer: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/developer",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        devtools_page: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/devtools_page",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        dictionaries: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/dictionaries",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
                             }
                           ]
                         },
@@ -12341,20 +6321,6 @@ var warnings_processed_default = {
                               data: [
                                 " notranslate"
                               ]
-                            },
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        homepage_url: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/homepage_url",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
                             }
                           ]
                         },
@@ -12367,70 +6333,6 @@ var warnings_processed_default = {
                               data: [
                                 "brush: json; notranslate"
                               ]
-                            },
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        icons: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/icons",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        incognito: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/incognito",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        manifest_version: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/manifest_version",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        name: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/name",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        offline_enabled: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/offline_enabled",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        omnibox: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/omnibox",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
                             }
                           ]
                         },
@@ -12443,20 +6345,6 @@ var warnings_processed_default = {
                               data: [
                                 "brush: json; notranslate"
                               ]
-                            },
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        optional_permissions: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/optional_permissions",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
                             }
                           ]
                         },
@@ -12469,10 +6357,6 @@ var warnings_processed_default = {
                               data: [
                                 "brush: json; notranslate"
                               ]
-                            },
-                            {
-                              message: "Missing specifications macro",
-                              data: []
                             }
                           ]
                         },
@@ -12485,20 +6369,6 @@ var warnings_processed_default = {
                               data: [
                                 "brush: json; notranslate"
                               ]
-                            },
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        page_action: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/page_action",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
                             }
                           ]
                         },
@@ -12511,80 +6381,6 @@ var warnings_processed_default = {
                               data: [
                                 "brush: json; notranslate"
                               ]
-                            },
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        protocol_handlers: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/protocol_handlers",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        short_name: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/short_name",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        sidebar_action: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/sidebar_action",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        storage: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/storage",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        theme: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/theme",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        theme_experiment: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/theme_experiment",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        user_scripts: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/user_scripts",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
                             }
                           ]
                         },
@@ -12600,42 +6396,11 @@ var warnings_processed_default = {
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/version",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        version_name: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/version_name",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        web_accessible_resources: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/web_accessible_resources",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
+                          }
                         }
                       },
                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json",
                       messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -17514,6 +11279,13 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via sidebar",
                   data: []
+                },
+                {
+                  message: "Redirected external link",
+                  data: [
+                    "https://hg.mozilla.org/mozilla-central/",
+                    "https://hg-edge.mozilla.org/mozilla-central/"
+                  ]
                 }
               ]
             }
@@ -17718,20 +11490,6 @@ var warnings_processed_default = {
                             "[4]",
                             "Text before link:",
                             "."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.cedars-sinai.org/health-library/diseases-and-conditions/p/photosensitive-seizures.html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.cedars-sinai.org/health-library/diseases-and-conditions/p/photosensitive-seizures.html",
-                            "The operation timed out."
                           ]
                         },
                         {
@@ -17969,16 +11727,6 @@ var warnings_processed_default = {
                     }
                   ]
                 },
-                audioprocessingevent: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/AudioProcessingEvent",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
                 audioworkletprocessor: {
                   children: {
                     audioworkletprocessor: {
@@ -18021,47 +11769,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                beforeinstallpromptevent: {
-                  children: {
-                    platforms: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/BeforeInstallPromptEvent/platforms",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    prompt: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/BeforeInstallPromptEvent/prompt",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    userchoice: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/BeforeInstallPromptEvent/userChoice",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/BeforeInstallPromptEvent",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
                 canvas_api: {
                   children: {
                     tutorial: {
@@ -18091,54 +11798,6 @@ var warnings_processed_default = {
                       ]
                     }
                   ]
-                },
-                compositionevent: {
-                  children: {
-                    locale: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CompositionEvent/locale",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                console: {
-                  children: {
-                    profile_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/profile_static",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    profileend_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/profileEnd_static",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    timestamp_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/timeStamp_static",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
                 },
                 contactaddress: {
                   children: {
@@ -18269,138 +11928,6 @@ var warnings_processed_default = {
                     }
                   ]
                 },
-                csspositionvalue: {
-                  children: {
-                    csspositionvalue: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSSPositionValue/CSSPositionValue",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    x: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSSPositionValue/x",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    y: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSSPositionValue/y",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/CSSPositionValue",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                cssprimitivevalue: {
-                  children: {
-                    getcountervalue: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSSPrimitiveValue/getCounterValue",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    getfloatvalue: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSSPrimitiveValue/getFloatValue",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    getrectvalue: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSSPrimitiveValue/getRectValue",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    getrgbcolorvalue: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSSPrimitiveValue/getRGBColorValue",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    getstringvalue: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSSPrimitiveValue/getStringValue",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    primitivetype: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSSPrimitiveValue/primitiveType",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    setfloatvalue: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSSPrimitiveValue/setFloatValue",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    setstringvalue: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSSPrimitiveValue/setStringValue",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/CSSPrimitiveValue",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
                 csspropertyrule: {
                   children: {
                     initialvalue: {
@@ -18412,20 +11939,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Web/CSS/declaration-value"
                           ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                cssstyledeclaration: {
-                  children: {
-                    getpropertycssvalue: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSSStyleDeclaration/getPropertyCSSValue",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
                         }
                       ]
                     }
@@ -18449,78 +11962,12 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                cssvalue: {
-                  children: {
-                    csstext: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSSValue/cssText",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    cssvaluetype: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSSValue/cssValueType",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/CSSValue",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                cssvaluelist: {
-                  children: {
-                    item: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSSValueList/item",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    length: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSSValueList/length",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/CSSValueList",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
                 datatransfer: {
                   children: {
                     addelement: {
                       children: {},
                       slug: "/en-US/docs/Web/API/DataTransfer/addElement",
                       messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        },
                         {
                           message: "External sandbox link",
                           data: [
@@ -18688,20 +12135,6 @@ var warnings_processed_default = {
                     }
                   ]
                 },
-                delegatedinktrailpresenter: {
-                  children: {
-                    expectedimprovement: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/DelegatedInkTrailPresenter/expectedImprovement",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
                 device_orientation_events: {
                   children: {
                     orientation_and_motion_data_explained: {
@@ -18780,26 +12213,6 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                directoryentrysync: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/DirectoryEntrySync",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                directoryreadersync: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/DirectoryReaderSync",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
                 },
                 document_object_model: {
                   children: {
@@ -18885,16 +12298,6 @@ var warnings_processed_default = {
                 },
                 document: {
                   children: {
-                    afterscriptexecute_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/afterscriptexecute_event",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
                     anchors: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Document/anchors",
@@ -18904,36 +12307,6 @@ var warnings_processed_default = {
                           data: [
                             "https://jsfiddle.net/S4yNp"
                           ]
-                        }
-                      ]
-                    },
-                    beforescriptexecute_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/beforescriptexecute_event",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    browsingtopics: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/browsingTopics",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    caretrangefrompoint: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/caretRangeFromPoint",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
                         }
                       ]
                     },
@@ -18959,26 +12332,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    createtouch: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/createTouch",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    createtouchlist: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/createTouchList",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
                     cut_event: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Document/cut_event",
@@ -18988,16 +12341,6 @@ var warnings_processed_default = {
                           data: [
                             "api.Document.cut_event"
                           ]
-                        }
-                      ]
-                    },
-                    enablestylesheetsforset: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/enableStyleSheetsForSet",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
                         }
                       ]
                     },
@@ -19025,26 +12368,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    laststylesheetset: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/lastStyleSheetSet",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    mozsetimageelement: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/mozSetImageElement",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
                     paste_event: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Document/paste_event",
@@ -19056,88 +12379,8 @@ var warnings_processed_default = {
                           ]
                         }
                       ]
-                    },
-                    preferredstylesheetset: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/preferredStyleSheetSet",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    querycommandenabled: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/queryCommandEnabled",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    querycommandstate: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/queryCommandState",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    querycommandsupported: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/queryCommandSupported",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    releasecapture: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/releaseCapture",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    selectedstylesheetset: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/selectedStyleSheetSet",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    stylesheetsets: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/styleSheetSets",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
                     }
                   }
-                },
-                domerror: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/DOMError",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
                 },
                 dragevent: {
                   children: {},
@@ -19153,16 +12396,6 @@ var warnings_processed_default = {
                 },
                 element: {
                   children: {
-                    afterscriptexecute_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/afterscriptexecute_event",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
                     animate: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Element/animate",
@@ -19174,181 +12407,11 @@ var warnings_processed_default = {
                           ]
                         }
                       ]
-                    },
-                    ariarelevant: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/ariaRelevant",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    beforescriptexecute_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/beforescriptexecute_event",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    dommousescroll_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/DOMMouseScroll_event",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    gesturechange_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/gesturechange_event",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    gestureend_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/gestureend_event",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    gesturestart_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/gesturestart_event",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    mousewheel_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/mousewheel_event",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    mozmousepixelscroll_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/MozMousePixelScroll_event",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    scrollintoviewifneeded: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/scrollIntoViewIfNeeded",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    scrollleftmax: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/scrollLeftMax",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    scrolltopmax: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/scrollTopMax",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    setcapture: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/setCapture",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    webkitmouseforcechanged_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/webkitmouseforcechanged_event",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    webkitmouseforcedown_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/webkitmouseforcedown_event",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    webkitmouseforceup_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/webkitmouseforceup_event",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    webkitmouseforcewillbegin_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/webkitmouseforcewillbegin_event",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
                     }
                   }
                 },
                 elementinternals: {
                   children: {
-                    ariarelevant: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/ElementInternals/ariaRelevant",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
                     states: {
                       children: {},
                       slug: "/en-US/docs/Web/API/ElementInternals/states",
@@ -19360,30 +12423,6 @@ var warnings_processed_default = {
                             "set checked(flag) {",
                             "1:9"
                           ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                event: {
-                  children: {
-                    explicitoriginaltarget: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Event/explicitOriginalTarget",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    originaltarget: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Event/originalTarget",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
                         }
                       ]
                     }
@@ -19475,16 +12514,6 @@ var warnings_processed_default = {
                 },
                 fetchevent: {
                   children: {
-                    isreload: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/FetchEvent/isReload",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
                     replacesclientid: {
                       children: {},
                       slug: "/en-US/docs/Web/API/FetchEvent/replacesClientId",
@@ -19529,30 +12558,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                fileentrysync: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/FileEntrySync",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                file: {
-                  children: {
-                    lastmodifieddate: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/File/lastModifiedDate",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
                 filesystemchangerecord: {
                   children: {},
                   slug: "/en-US/docs/Web/API/FileSystemChangeRecord",
@@ -19565,167 +12570,6 @@ var warnings_processed_default = {
                     }
                   ]
                 },
-                filesystemdirectoryentry: {
-                  children: {
-                    removerecursively: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/FileSystemDirectoryEntry/removeRecursively",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                filesystementry: {
-                  children: {
-                    copyto: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/FileSystemEntry/copyTo",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    getmetadata: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/FileSystemEntry/getMetadata",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    moveto: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/FileSystemEntry/moveTo",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    remove: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/FileSystemEntry/remove",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    tourl: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/FileSystemEntry/toURL",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                filesystemfileentry: {
-                  children: {
-                    createwriter: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/FileSystemFileEntry/createWriter",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                filesystemhandle: {
-                  children: {
-                    remove: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/FileSystemHandle/remove",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                filesystemobserver: {
-                  children: {
-                    disconnect: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/FileSystemObserver/disconnect",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    filesystemobserver: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/FileSystemObserver/FileSystemObserver",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    observe: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/FileSystemObserver/observe",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/FileSystemObserver",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                filesystemsync: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/FileSystemSync",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                gamepad: {
-                  children: {
-                    displayid: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Gamepad/displayId",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
                 geolocation_api: {
                   children: {
                     using_the_geolocation_api: {
@@ -19734,30 +12578,6 @@ var warnings_processed_default = {
                       messages: [
                         {
                           message: "Broken browser compat anchor",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                gestureevent: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/GestureEvent",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                gpuadapter: {
-                  children: {
-                    requestadapterinfo: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/GPUAdapter/requestAdapterInfo",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
                           data: []
                         }
                       ]
@@ -19848,50 +12668,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                headers: {
-                  children: {
-                    entries: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Headers/entries",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    foreach: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Headers/forEach",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    keys: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Headers/keys",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    values: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Headers/values",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
                 history_api: {
                   children: {
                     working_with_the_history_api: {
@@ -19907,37 +12683,6 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                hmdvrdevice: {
-                  children: {
-                    geteyeparameters: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HMDVRDevice/getEyeParameters",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    setfieldofview: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HMDVRDevice/setFieldOfView",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/HMDVRDevice",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
                 },
                 html_dom_api: {
                   children: {
@@ -20075,32 +12820,8 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                htmlcanvaselement: {
-                  children: {
-                    mozopaque: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLCanvasElement/mozOpaque",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
                 htmlelement: {
                   children: {
-                    anchorelement: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLElement/anchorElement",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
                     command_event: {
                       children: {},
                       slug: "/en-US/docs/Web/API/HTMLElement/command_event",
@@ -20153,26 +12874,6 @@ var warnings_processed_default = {
                 },
                 htmliframeelement: {
                   children: {
-                    allowpaymentrequest: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLIFrameElement/allowPaymentRequest",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    browsingtopics: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLIFrameElement/browsingTopics",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
                     getsvgdocument: {
                       children: {},
                       slug: "/en-US/docs/Web/API/HTMLIframeElement/getSVGDocument",
@@ -20188,54 +12889,6 @@ var warnings_processed_default = {
                           data: [
                             "api.HTMLIframeElement.getSVGDocument"
                           ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                htmlinputelement: {
-                  children: {
-                    search_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLInputElement/search_event",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                htmlmediaelement: {
-                  children: {
-                    controller: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLMediaElement/controller",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    mediagroup: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLMediaElement/mediaGroup",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    seektonextframe: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLMediaElement/seekToNextFrame",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
                         }
                       ]
                     }
@@ -20259,10 +12912,6 @@ var warnings_processed_default = {
                   slug: "/en-US/docs/Web/API/HTMLSelectedContentElement",
                   messages: [
                     {
-                      message: "Missing specifications macro",
-                      data: []
-                    },
-                    {
                       message: "Not in BCD",
                       data: [
                         "api.HTMLSelectedContentElement"
@@ -20284,30 +12933,6 @@ var warnings_processed_default = {
                         },
                         {
                           message: "Unreachable via page",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                idbindex: {
-                  children: {
-                    isautolocale: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/IDBIndex/isAutoLocale",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    locale: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/IDBIndex/locale",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
                           data: []
                         }
                       ]
@@ -20439,16 +13064,6 @@ var warnings_processed_default = {
                           ]
                         }
                       ]
-                    },
-                    keyidentifier: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/KeyboardEvent/keyIdentifier",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
                     }
                   }
                 },
@@ -20507,37 +13122,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                mediarecordererrorevent: {
-                  children: {
-                    error: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaRecorderErrorEvent/error",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    mediarecordererrorevent: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaRecorderErrorEvent/MediaRecorderErrorEvent",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/MediaRecorderErrorEvent",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
                 mediastream_recording_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/MediaStream_Recording_API",
@@ -20549,51 +13133,6 @@ var warnings_processed_default = {
                       ]
                     }
                   ]
-                },
-                mediastreamevent: {
-                  children: {
-                    mediastreamevent: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaStreamEvent/MediaStreamEvent",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    stream: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaStreamEvent/stream",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/MediaStreamEvent",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                mediatrackconstraints: {
-                  children: {
-                    volume: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaTrackConstraints/volume",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
                 },
                 mediatracksettings: {
                   children: {
@@ -20620,16 +13159,6 @@ var warnings_processed_default = {
                           ]
                         }
                       ]
-                    },
-                    volume: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaTrackSettings/volume",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
                     }
                   }
                 },
@@ -20646,123 +13175,11 @@ var warnings_processed_default = {
                           ]
                         }
                       ]
-                    },
-                    volume: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaTrackSupportedConstraints/volume",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
                     }
                   }
                 },
-                merchantvalidationevent: {
-                  children: {
-                    complete: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MerchantValidationEvent/complete",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    merchantvalidationevent: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MerchantValidationEvent/MerchantValidationEvent",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    methodname: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MerchantValidationEvent/methodName",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    validationurl: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MerchantValidationEvent/validationURL",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/MerchantValidationEvent",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                metadata: {
-                  children: {
-                    modificationtime: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Metadata/modificationTime",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    size: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Metadata/size",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/Metadata",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
                 mouseevent: {
                   children: {
-                    layerx: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MouseEvent/layerX",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    layery: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MouseEvent/layerY",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
                     mozinputsource: {
                       children: {},
                       slug: "/en-US/docs/Web/API/MouseEvent/mozInputSource",
@@ -20813,16 +13230,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                mousescrollevent: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/MouseScrollEvent",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
                 mutationobserver: {
                   children: {},
                   slug: "/en-US/docs/Web/API/MutationObserver",
@@ -20837,36 +13244,6 @@ var warnings_processed_default = {
                 },
                 navigator: {
                   children: {
-                    activevrdisplays: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Navigator/activeVRDisplays",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    buildid: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Navigator/buildID",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    donottrack: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Navigator/doNotTrack",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
                     getbattery: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Navigator/getBattery",
@@ -20884,16 +13261,6 @@ var warnings_processed_default = {
                           ]
                         }
                       ]
-                    },
-                    getvrdisplays: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Navigator/getVRDisplays",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/API/Navigator",
@@ -20905,40 +13272,6 @@ var warnings_processed_default = {
                       ]
                     }
                   ]
-                },
-                nodelist: {
-                  children: {
-                    entries: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/NodeList/entries",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    keys: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/NodeList/keys",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    values: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/NodeList/values",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
                 },
                 node: {
                   children: {
@@ -21027,20 +13360,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                offscreencanvasrenderingcontext2d: {
-                  children: {
-                    commit: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/OffscreenCanvasRenderingContext2D/commit",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
                 ovr_multiview2: {
                   children: {
                     framebuffertexturemultiviewovr: {
@@ -21103,127 +13422,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                paymentaddress: {
-                  children: {
-                    addressline: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PaymentAddress/addressLine",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    city: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PaymentAddress/city",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    country: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PaymentAddress/country",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    dependentlocality: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PaymentAddress/dependentLocality",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    organization: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PaymentAddress/organization",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    phone: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PaymentAddress/phone",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    postalcode: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PaymentAddress/postalCode",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    recipient: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PaymentAddress/recipient",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    region: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PaymentAddress/region",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    sortingcode: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PaymentAddress/sortingCode",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    tojson: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PaymentAddress/toJSON",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/PaymentAddress",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
                 paymentrequestevent: {
                   children: {
                     instrumentkey: {
@@ -21231,92 +13429,10 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Web/API/PaymentRequestEvent/instrumentKey",
                       messages: [
                         {
-                          message: "Missing specifications macro",
-                          data: []
-                        },
-                        {
                           message: "Not in BCD",
                           data: [
                             "api.PaymentRequestEvent.instrumentKey"
                           ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                paymentrequest: {
-                  children: {
-                    merchantvalidation_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PaymentRequest/merchantvalidation_event",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    shippingaddress: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PaymentRequest/shippingAddress",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    shippingaddresschange_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PaymentRequest/shippingaddresschange_event",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    shippingoption: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PaymentRequest/shippingOption",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    shippingoptionchange_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PaymentRequest/shippingoptionchange_event",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    shippingtype: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PaymentRequest/shippingType",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                performance: {
-                  children: {
-                    memory: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Performance/memory",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
                         }
                       ]
                     }
@@ -21373,47 +13489,6 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                positionsensorvrdevice: {
-                  children: {
-                    getimmediatestate: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PositionSensorVRDevice/getImmediateState",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    getstate: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PositionSensorVRDevice/getState",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    resetsensor: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PositionSensorVRDevice/resetSensor",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/PositionSensorVRDevice",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
                 },
                 profiler: {
                   children: {
@@ -21479,36 +13554,6 @@ var warnings_processed_default = {
                 },
                 pushmanager: {
                   children: {
-                    haspermission: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PushManager/hasPermission",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    register: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PushManager/register",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    registrations: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PushManager/registrations",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
                     supportedcontentencodings_static: {
                       children: {},
                       slug: "/en-US/docs/Web/API/PushManager/supportedContentEncodings_static",
@@ -21520,44 +13565,6 @@ var warnings_processed_default = {
                             "  body: JSON.stringify(pushSubscription);",
                             "18:9"
                           ]
-                        }
-                      ]
-                    },
-                    unregister: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PushManager/unregister",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                pushsubscription: {
-                  children: {
-                    subscriptionid: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PushSubscription/subscriptionId",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                range: {
-                  children: {
-                    comparenode: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Range/compareNode",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
                         }
                       ]
                     }
@@ -21574,20 +13581,6 @@ var warnings_processed_default = {
                           data: [
                             "https://jsbin.com/gameboy/edit?js,console"
                           ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                rtcdatachannel: {
-                  children: {
-                    reliable: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/RTCDataChannel/reliable",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
                         }
                       ]
                     }
@@ -21644,24 +13637,10 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    priority: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/RTCIceCandidatePairStats/priority",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
                     readable: {
                       children: {},
                       slug: "/en-US/docs/Web/API/RTCIceCandidatePairStats/readable",
                       messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        },
                         {
                           message: "Not in BCD",
                           data: [
@@ -21675,10 +13654,6 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Web/API/RTCIceCandidatePairStats/selected",
                       messages: [
                         {
-                          message: "Missing specifications macro",
-                          data: []
-                        },
-                        {
                           message: "Not in BCD",
                           data: [
                             "api.RTCStatsReport.type_candidate-pair.selected"
@@ -21690,10 +13665,6 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/Web/API/RTCIceCandidatePairStats/writable",
                       messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        },
                         {
                           message: "Not in BCD",
                           data: [
@@ -21847,26 +13818,6 @@ var warnings_processed_default = {
                 },
                 rtcpeerconnection: {
                   children: {
-                    addstream_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/RTCPeerConnection/addstream_event",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    createdtmfsender: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/RTCPeerConnection/createDTMFSender",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
                     generatecertificate_static: {
                       children: {},
                       slug: "/en-US/docs/Web/API/RTCPeerConnection/generateCertificate_static",
@@ -21876,40 +13827,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Web/API/AlgorithmIdentifier"
                           ]
-                        }
-                      ]
-                    },
-                    removestream: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/RTCPeerConnection/removeStream",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    removestream_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/RTCPeerConnection/removestream_event",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                rtcrtptransceiver: {
-                  children: {
-                    stopped: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/RTCRtpTransceiver/stopped",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
                         }
                       ]
                     }
@@ -21947,91 +13864,12 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                screen: {
-                  children: {
-                    lockorientation: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Screen/lockOrientation",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    mozbrightness: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Screen/mozBrightness",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    mozenabled: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Screen/mozEnabled",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    orientationchange_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Screen/orientationchange_event",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    unlockorientation: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Screen/unlockOrientation",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                scriptprocessornode: {
-                  children: {
-                    audioprocess_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/ScriptProcessorNode/audioprocess_event",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/ScriptProcessorNode",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
                 serviceworkercontainer: {
                   children: {
                     error_event: {
                       children: {},
                       slug: "/en-US/docs/Web/API/ServiceWorkerContainer/error_event",
                       messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        },
                         {
                           message: "Not in BCD",
                           data: [
@@ -22043,28 +13881,7 @@ var warnings_processed_default = {
                   }
                 },
                 shadowroot: {
-                  children: {
-                    elementfrompoint: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/ShadowRoot/elementFromPoint",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    elementsfrompoint: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/ShadowRoot/elementsFromPoint",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/API/ShadowRoot",
                   messages: [
                     {
@@ -22138,68 +13955,6 @@ var warnings_processed_default = {
                       ]
                     }
                   ]
-                },
-                sourcebuffer: {
-                  children: {
-                    appendbufferasync: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SourceBuffer/appendBufferAsync",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    removeasync: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SourceBuffer/removeAsync",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                speechgrammar: {
-                  children: {
-                    speechgrammar: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SpeechGrammar/SpeechGrammar",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                speechrecognitionevent: {
-                  children: {
-                    emma: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SpeechRecognitionEvent/emma",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    interpretation: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SpeechRecognitionEvent/interpretation",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
                 },
                 svgevent: {
                   children: {},
@@ -22341,16 +14096,6 @@ var warnings_processed_default = {
                     }
                   ]
                 },
-                topics_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Topics_API",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
                 touch_events: {
                   children: {
                     "multi-touch_interaction": {
@@ -22431,526 +14176,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                videoplaybackquality: {
-                  children: {
-                    totalframedelay: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VideoPlaybackQuality/totalFrameDelay",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                vrdisplay: {
-                  children: {
-                    cancelanimationframe: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRDisplay/cancelAnimationFrame",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    capabilities: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRDisplay/capabilities",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    depthfar: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRDisplay/depthFar",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    depthnear: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRDisplay/depthNear",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    displayid: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRDisplay/displayId",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    displayname: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRDisplay/displayName",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    exitpresent: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRDisplay/exitPresent",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    geteyeparameters: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRDisplay/getEyeParameters",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    getframedata: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRDisplay/getFrameData",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    getimmediatepose: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRDisplay/getImmediatePose",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    getlayers: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRDisplay/getLayers",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    getpose: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRDisplay/getPose",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    isconnected: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRDisplay/isConnected",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    ispresenting: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRDisplay/isPresenting",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    requestanimationframe: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRDisplay/requestAnimationFrame",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    requestpresent: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRDisplay/requestPresent",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    resetpose: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRDisplay/resetPose",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    stageparameters: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRDisplay/stageParameters",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    submitframe: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRDisplay/submitFrame",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/VRDisplay",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                vrdisplaycapabilities: {
-                  children: {
-                    canpresent: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRDisplayCapabilities/canPresent",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    hasexternaldisplay: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRDisplayCapabilities/hasExternalDisplay",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    hasorientation: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRDisplayCapabilities/hasOrientation",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    hasposition: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRDisplayCapabilities/hasPosition",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    maxlayers: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRDisplayCapabilities/maxLayers",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/VRDisplayCapabilities",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                vrdisplayevent: {
-                  children: {
-                    display: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRDisplayEvent/display",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    reason: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRDisplayEvent/reason",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    vrdisplayevent: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRDisplayEvent/VRDisplayEvent",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/VRDisplayEvent",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                vreyeparameters: {
-                  children: {
-                    fieldofview: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VREyeParameters/fieldOfView",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    maximumfieldofview: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VREyeParameters/maximumFieldOfView",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    minimumfieldofview: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VREyeParameters/minimumFieldOfView",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    offset: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VREyeParameters/offset",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    renderheight: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VREyeParameters/renderHeight",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    renderwidth: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VREyeParameters/renderWidth",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/VREyeParameters",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                vrfieldofview: {
-                  children: {
-                    downdegrees: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRFieldOfView/downDegrees",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    leftdegrees: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRFieldOfView/leftDegrees",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    rightdegrees: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRFieldOfView/rightDegrees",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    updegrees: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRFieldOfView/upDegrees",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/VRFieldOfView",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                vrframedata: {
-                  children: {
-                    leftprojectionmatrix: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRFrameData/leftProjectionMatrix",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    leftviewmatrix: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRFrameData/leftViewMatrix",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    pose: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRFrameData/pose",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    rightprojectionmatrix: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRFrameData/rightProjectionMatrix",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    rightviewmatrix: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRFrameData/rightViewMatrix",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    timestamp: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRFrameData/timestamp",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    vrframedata: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRFrameData/VRFrameData",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/VRFrameData",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
                 vrlayerinit: {
                   children: {
                     leftbounds: {
@@ -22988,118 +14213,6 @@ var warnings_processed_default = {
                   messages: [
                     {
                       message: "Broken browser compat anchor",
-                      data: []
-                    }
-                  ]
-                },
-                vrpose: {
-                  children: {
-                    angularacceleration: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRPose/angularAcceleration",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    angularvelocity: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRPose/angularVelocity",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    linearacceleration: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRPose/linearAcceleration",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    linearvelocity: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRPose/linearVelocity",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    orientation: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRPose/orientation",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    position: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRPose/position",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/VRPose",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                vrstageparameters: {
-                  children: {
-                    sittingtostandingtransform: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRStageParameters/sittingToStandingTransform",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    sizex: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRStageParameters/sizeX",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    sizey: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/VRStageParameters/sizeY",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/VRStageParameters",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
                       data: []
                     }
                   ]
@@ -23218,19 +14331,6 @@ var warnings_processed_default = {
                 },
                 web_audio_api: {
                   children: {
-                    advanced_techniques: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://soundbible.com/1573-DTMF-Tones.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     best_practices: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Best_practices",
@@ -23901,13 +15001,6 @@ var warnings_processed_default = {
                           data: [
                             "https://jsfiddle.net/tatumcreative/86fd797g/"
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.songho.ca/opengl/gl_projectionmatrix.html",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     }
@@ -24050,16 +15143,6 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                webkitpoint: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/WebKitPoint",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
                 },
                 webotp_api: {
                   children: {},
@@ -24248,67 +15331,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                websocketstream: {
-                  children: {
-                    close: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WebSocketStream/close",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    closed: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WebSocketStream/closed",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    opened: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WebSocketStream/opened",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    url: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WebSocketStream/url",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    websocketstream: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WebSocketStream/WebSocketStream",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/WebSocketStream",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
                 webusb_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/WebUSB_API",
@@ -24457,14 +15479,7 @@ var warnings_processed_default = {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/WebVR_API",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
+                  }
                 },
                 webxr_device_api: {
                   children: {
@@ -24551,16 +15566,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    clearimmediate: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/clearImmediate",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
                     copy_event: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Window/copy_event",
@@ -24582,16 +15587,6 @@ var warnings_processed_default = {
                           data: [
                             "api.Window.cut_event"
                           ]
-                        }
-                      ]
-                    },
-                    dump: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/dump",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
                         }
                       ]
                     },
@@ -24661,16 +15656,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    find: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/find",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
                     forward: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Window/forward",
@@ -24683,46 +15668,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    fullscreen: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/fullScreen",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    getdefaultcomputedstyle: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/getDefaultComputedStyle",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    mozinnerscreenx: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/mozInnerScreenX",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    mozinnerscreeny: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/mozInnerScreenY",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
                     paste_event: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Window/paste_event",
@@ -24732,166 +15677,6 @@ var warnings_processed_default = {
                           data: [
                             "api.Window.paste_event"
                           ]
-                        }
-                      ]
-                    },
-                    requestfilesystem: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/requestFileSystem",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    scrollbylines: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/scrollByLines",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    scrollbypages: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/scrollByPages",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    scrollmaxx: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/scrollMaxX",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    scrollmaxy: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/scrollMaxY",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    setimmediate: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/setImmediate",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    setresizable: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/setResizable",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    showmodaldialog: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/showModalDialog",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    sizetocontent: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/sizeToContent",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    vrdisplayactivate_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/vrdisplayactivate_event",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    vrdisplayconnect_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/vrdisplayconnect_event",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    vrdisplaydeactivate_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/vrdisplaydeactivate_event",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    vrdisplaydisconnect_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/vrdisplaydisconnect_event",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    vrdisplaypresentchange_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/vrdisplaypresentchange_event",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    webkitconvertpointfromnodetopage: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/webkitConvertPointFromNodeToPage",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
-                    webkitconvertpointfrompagetonode: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/webkitConvertPointFromPageToNode",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
                         }
                       ]
                     }
@@ -24946,20 +15731,6 @@ var warnings_processed_default = {
                     }
                   ]
                 },
-                workerglobalscope: {
-                  children: {
-                    dump: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WorkerGlobalScope/dump",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
                 workernavigator: {
                   children: {
                     clearappbadge: {
@@ -24994,10 +15765,6 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/Web/API/WorkletSharedStorage/context",
                       messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        },
                         {
                           message: "Not in BCD",
                           data: [
@@ -25302,16 +16069,6 @@ var warnings_processed_default = {
             },
             css: {
               children: {
-                "_colon_-moz-broken": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:-moz-broken",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
                 "_colon_-moz-drag-over": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/:-moz-drag-over",
@@ -25321,16 +16078,6 @@ var warnings_processed_default = {
                       data: [
                         "css.selectors.-moz-drag-over"
                       ]
-                    }
-                  ]
-                },
-                "_colon_-moz-first-node": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:-moz-first-node",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
                     }
                   ]
                 },
@@ -25370,16 +16117,6 @@ var warnings_processed_default = {
                     }
                   ]
                 },
-                "_colon_-moz-last-node": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:-moz-last-node",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
                 "_colon_-moz-loading": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/:-moz-loading",
@@ -25416,26 +16153,6 @@ var warnings_processed_default = {
                     }
                   ]
                 },
-                "_colon_-moz-only-whitespace": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:-moz-only-whitespace",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                "_colon_-moz-submit-invalid": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:-moz-submit-invalid",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
                 "_colon_-moz-suppressed": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/:-moz-suppressed",
@@ -25457,16 +16174,6 @@ var warnings_processed_default = {
                       data: [
                         "css.selectors.-moz-user-disabled"
                       ]
-                    }
-                  ]
-                },
-                "_colon_-moz-window-inactive": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:-moz-window-inactive",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
                     }
                   ]
                 },
@@ -25630,54 +16337,10 @@ var warnings_processed_default = {
                     }
                   ]
                 },
-                "_doublecolon_-moz-color-swatch": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::-moz-color-swatch",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                "_doublecolon_-moz-focus-inner": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::-moz-focus-inner",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                "_doublecolon_-moz-list-bullet": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::-moz-list-bullet",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                "_doublecolon_-moz-list-number": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::-moz-list-number",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
                 "_doublecolon_-moz-meter-bar": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/::-moz-meter-bar",
                   messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    },
                     {
                       message: "Not in BCD",
                       data: [
@@ -25686,144 +16349,10 @@ var warnings_processed_default = {
                     }
                   ]
                 },
-                "_doublecolon_-moz-progress-bar": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::-moz-progress-bar",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                "_doublecolon_-moz-range-progress": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::-moz-range-progress",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                "_doublecolon_-moz-range-thumb": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::-moz-range-thumb",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                "_doublecolon_-moz-range-track": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::-moz-range-track",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                "_doublecolon_-webkit-inner-spin-button": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::-webkit-inner-spin-button",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                "_doublecolon_-webkit-meter-bar": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::-webkit-meter-bar",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                "_doublecolon_-webkit-meter-even-less-good-value": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::-webkit-meter-even-less-good-value",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                "_doublecolon_-webkit-meter-inner-element": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::-webkit-meter-inner-element",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                "_doublecolon_-webkit-meter-optimum-value": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::-webkit-meter-optimum-value",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                "_doublecolon_-webkit-meter-suboptimum-value": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::-webkit-meter-suboptimum-value",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                "_doublecolon_-webkit-progress-bar": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::-webkit-progress-bar",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                "_doublecolon_-webkit-progress-inner-element": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::-webkit-progress-inner-element",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                "_doublecolon_-webkit-progress-value": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::-webkit-progress-value",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
                 "_doublecolon_-webkit-scrollbar": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/::-webkit-scrollbar",
                   messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    },
                     {
                       message: "Unexpected BCD keys",
                       data: [
@@ -25841,76 +16370,12 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                "_doublecolon_-webkit-search-cancel-button": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::-webkit-search-cancel-button",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                "_doublecolon_-webkit-search-results-button": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::-webkit-search-results-button",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                "_doublecolon_-webkit-slider-runnable-track": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::-webkit-slider-runnable-track",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                "_doublecolon_-webkit-slider-thumb": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::-webkit-slider-thumb",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                "-moz-float-edge": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-moz-float-edge",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
                 "-moz-force-broken-image-icon": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/-moz-force-broken-image-icon",
                   messages: [
                     {
                       message: "Missing syntax code block",
-                      data: []
-                    },
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                "-moz-image-rect": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-moz-image-rect",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
                       data: []
                     }
                   ]
@@ -25919,10 +16384,6 @@ css.selectors.-webkit-resizer`,
                   children: {},
                   slug: "/en-US/docs/Web/CSS/-moz-image-region",
                   messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    },
                     {
                       message: "Broken link",
                       data: [
@@ -25950,130 +16411,6 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
-                    },
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                "-moz-user-focus": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-moz-user-focus",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                "-moz-user-input": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-moz-user-input",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                "-webkit-border-before": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-webkit-border-before",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                "-webkit-box-reflect": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-webkit-box-reflect",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                "-webkit-mask-box-image": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-webkit-mask-box-image",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                "-webkit-mask-composite": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-webkit-mask-composite",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                "-webkit-mask-position-x": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-webkit-mask-position-x",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                "-webkit-mask-position-y": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-webkit-mask-position-y",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                "-webkit-mask-repeat-x": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-webkit-mask-repeat-x",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                "-webkit-mask-repeat-y": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-webkit-mask-repeat-y",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                "-webkit-tap-highlight-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-webkit-tap-highlight-color",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                "-webkit-text-security": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-webkit-text-security",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
                     }
                   ]
                 },
@@ -26083,16 +16420,6 @@ css.selectors.-webkit-resizer`,
                   messages: [
                     {
                       message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
-                },
-                "-webkit-touch-callout": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-webkit-touch-callout",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
                       data: []
                     }
                   ]
@@ -26292,10 +16619,6 @@ css.selectors.-webkit-resizer`,
                   messages: [
                     {
                       message: "Missing syntax code block",
-                      data: []
-                    },
-                    {
-                      message: "Missing specifications macro",
                       data: []
                     }
                   ]
@@ -26544,10 +16867,6 @@ css.selectors.-webkit-resizer`,
                           data: []
                         },
                         {
-                          message: "Missing specifications macro",
-                          data: []
-                        },
-                        {
                           message: "Not linked from parent page",
                           data: [
                             "/en-US/docs/Web/CSS/@media"
@@ -26565,10 +16884,6 @@ css.selectors.-webkit-resizer`,
                       messages: [
                         {
                           message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
-                          message: "Missing specifications macro",
                           data: []
                         },
                         {
@@ -26612,10 +16927,6 @@ css.selectors.-webkit-resizer`,
                           data: []
                         },
                         {
-                          message: "Missing specifications macro",
-                          data: []
-                        },
-                        {
                           message: "Not linked from parent page",
                           data: [
                             "/en-US/docs/Web/CSS/@media"
@@ -26651,10 +16962,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@media/-webkit-transition",
                       messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        },
                         {
                           message: "Not linked from parent page",
                           data: [
@@ -27635,26 +17942,6 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                "box-align": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/box-align",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
-                "box-direction": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/box-direction",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
                 "box-edge": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/box-edge",
@@ -27671,10 +17958,6 @@ css.selectors.-webkit-resizer`,
                   children: {},
                   slug: "/en-US/docs/Web/CSS/box-flex",
                   messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    },
                     {
                       message: "Broken link",
                       data: [
@@ -27705,24 +17988,10 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                "box-flex-group": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/box-flex-group",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
                 "box-lines": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/box-lines",
                   messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    },
                     {
                       message: "Unreachable via page",
                       data: []
@@ -27734,10 +18003,6 @@ css.selectors.-webkit-resizer`,
                   slug: "/en-US/docs/Web/CSS/box-ordinal-group",
                   messages: [
                     {
-                      message: "Missing specifications macro",
-                      data: []
-                    },
-                    {
                       message: "Unreachable via page",
                       data: []
                     }
@@ -27748,24 +18013,10 @@ css.selectors.-webkit-resizer`,
                   slug: "/en-US/docs/Web/CSS/box-orient",
                   messages: [
                     {
-                      message: "Missing specifications macro",
-                      data: []
-                    },
-                    {
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Mozilla/Tech/XUL"
                       ]
-                    }
-                  ]
-                },
-                "box-pack": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/box-pack",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
                     }
                   ]
                 },
@@ -29916,16 +20167,6 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
-                "font-smooth": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-smooth",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
                 "font-stretch": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/font-stretch",
@@ -31537,16 +21778,6 @@ css.properties.list-style-type.symbols`
                     }
                   ]
                 },
-                "user-modify": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/user-modify",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
-                },
                 "view-timeline-axis": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/view-timeline-axis",
@@ -32371,10 +22602,6 @@ html.elements.select.size`
                       slug: "/en-US/docs/Web/HTML/Element/selectedcontent",
                       messages: [
                         {
-                          message: "Missing specifications macro",
-                          data: []
-                        },
-                        {
                           message: "Not linked from parent page",
                           data: [
                             "/en-US/docs/Web/HTML/Element"
@@ -32393,16 +22620,6 @@ html.elements.select.size`
                 },
                 global_attributes: {
                   children: {
-                    anchor: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Global_attributes/anchor",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
-                    },
                     contenteditable: {
                       children: {},
                       slug: "/en-US/docs/Web/HTML/Global_attributes/contenteditable",
@@ -32652,6 +22869,19 @@ html.elements.select.size`
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         "available-dictionary": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Available-Dictionary",
@@ -32688,28 +22918,8 @@ html.elements.select.size`
                             }
                           ]
                         },
-                        "content-dpr": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-DPR",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
                         "content-security-policy": {
                           children: {
-                            "block-all-mixed-content": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/block-all-mixed-content",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
                             "fenced-frame-src": {
                               children: {},
                               slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/fenced-frame-src",
@@ -32762,26 +22972,6 @@ html.elements.select.size`
                             }
                           ]
                         },
-                        dnt: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/DNT",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        dpr: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/DPR",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
                         forwarded: {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Forwarded",
@@ -32792,28 +22982,8 @@ html.elements.select.size`
                             }
                           ]
                         },
-                        "observe-browsing-topics": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Observe-Browsing-Topics",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
                         "permissions-policy": {
                           children: {
-                            "browsing-topics": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/browsing-topics",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
                             gamepad: {
                               children: {},
                               slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/gamepad",
@@ -32846,26 +23016,6 @@ html.elements.select.size`
                           messages: [
                             {
                               message: "Missing syntax code block",
-                              data: []
-                            }
-                          ]
-                        },
-                        "report-to": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Report-To",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        "sec-browsing-topics": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Browsing-Topics",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
                               data: []
                             }
                           ]
@@ -32984,16 +23134,6 @@ html.elements.select.size`
                             }
                           ]
                         },
-                        "viewport-width": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Viewport-Width",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
                         "want-content-digest": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Want-Content-Digest",
@@ -33014,26 +23154,6 @@ html.elements.select.size`
                             }
                           ]
                         },
-                        width: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Width",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        "x-dns-prefetch-control": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/X-DNS-Prefetch-Control",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
                         "x-frame-options": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/X-Frame-Options",
@@ -33050,16 +23170,6 @@ html.elements.select.size`
                           messages: [
                             {
                               message: "Missing syntax code block",
-                              data: []
-                            }
-                          ]
-                        },
-                        "x-xss-protection": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/X-XSS-Protection",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
                               data: []
                             }
                           ]
@@ -33099,16 +23209,6 @@ html.elements.select.size`
                           ]
                         }
                       }
-                    },
-                    status: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTTP/Reference/Status",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/HTTP/Reference",
@@ -33506,44 +23606,10 @@ html.elements.select.size`
                         },
                         error: {
                           children: {
-                            columnnumber: {
-                              children: {},
-                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/columnNumber",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            filename: {
-                              children: {},
-                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/fileName",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            linenumber: {
-                              children: {},
-                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/lineNumber",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
                             stack: {
                               children: {},
                               slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/stack",
                               messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                },
                                 {
                                   message: "Broken external link",
                                   data: [
@@ -33557,36 +23623,6 @@ html.elements.select.size`
                         },
                         function: {
                           children: {
-                            arguments: {
-                              children: {},
-                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/arguments",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            caller: {
-                              children: {},
-                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/caller",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
-                            displayname: {
-                              children: {},
-                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/displayName",
-                              messages: [
-                                {
-                                  message: "Missing specifications macro",
-                                  data: []
-                                }
-                              ]
-                            },
                             prototype: {
                               children: {},
                               slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype",
@@ -33617,26 +23653,39 @@ html.elements.select.size`
                             }
                           }
                         },
-                        internalerror: {
+                        intl: {
                           children: {
-                            internalerror: {
+                            numberformat: {
+                              children: {
+                                resolvedoptions: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/resolvedOptions",
+                                  messages: [
+                                    {
+                                      message: "Broken external link",
+                                      data: [
+                                        "https://github.com/unicode-org/cldr/blob/main/common/validity/unit.xml",
+                                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              }
+                            },
+                            supportedvaluesof: {
                               children: {},
-                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError/InternalError",
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/supportedValuesOf",
                               messages: [
                                 {
-                                  message: "Missing specifications macro",
-                                  data: []
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://github.com/unicode-org/cldr/blob/main/common/validity/unit.xml",
+                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                  ]
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
+                          }
                         },
                         number: {
                           children: {
@@ -34067,14 +24116,7 @@ html.elements.select.size`
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Web/JavaScript/Reference/Statements",
-                      messages: [
-                        {
-                          message: "Missing specifications macro",
-                          data: []
-                        }
-                      ]
+                      }
                     },
                     trailing_commas: {
                       children: {},
@@ -34140,28 +24182,7 @@ html.elements.select.size`
                 reference: {
                   children: {
                     element: {
-                      children: {
-                        menclose: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/menclose",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        },
-                        mfenced: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/mfenced",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        }
-                      },
+                      children: {},
                       slug: "/en-US/docs/Web/MathML/Reference/Element",
                       messages: [
                         {
@@ -34171,18 +24192,7 @@ html.elements.select.size`
                       ]
                     },
                     global_attributes: {
-                      children: {
-                        href: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Global_attributes/href",
-                          messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            }
-                          ]
-                        }
-                      },
+                      children: {},
                       slug: "/en-US/docs/Web/MathML/Reference/Global_attributes",
                       messages: [
                         {
@@ -34585,10 +24595,6 @@ html.elements.select.size`
                   },
                   slug: "/en-US/docs/Web/Progressive_web_apps/Manifest",
                   messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    },
                     {
                       message: "Unreachable via sidebar",
                       data: []
@@ -39180,10 +29186,6 @@ svg.elements.feSpotLight.z`
                       slug: "/en-US/docs/Web/WebDriver/Reference/Commands",
                       messages: [
                         {
-                          message: "Missing specifications macro",
-                          data: []
-                        },
-                        {
                           message: "Self link",
                           data: [
                             "/en-US/docs/Web/WebDriver/Reference/Commands"
@@ -39734,10 +29736,6 @@ svg.elements.feSpotLight.z`
                           children: {},
                           slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Exception/stack",
                           messages: [
-                            {
-                              message: "Missing specifications macro",
-                              data: []
-                            },
                             {
                               message: "Unreachable via sidebar",
                               data: []
