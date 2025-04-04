@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-tqk67nj6.js";
+} from "./chunk-e3xfym4p.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -738,19 +738,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            algorithm: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Algorithm",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.coursera.org/articles/machine-learning-algorithms",
-                    403
-                  ]
-                }
-              ]
-            },
             baseline: {
               children: {
                 compatibility: {
@@ -1071,19 +1058,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            hsts: {
-              children: {},
-              slug: "/en-US/docs/Glossary/HSTS",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             html_color_codes: {
               children: {},
               slug: "/en-US/docs/Glossary/html_color_codes",
@@ -1182,19 +1156,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            mitm: {
-              children: {},
-              slug: "/en-US/docs/Glossary/MitM",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://portswigger.net/daily-swig/mitm",
-                    403
-                  ]
                 }
               ]
             },
@@ -1355,19 +1316,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            python: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Python",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.tutorialspoint.com/python/index.htm",
-                    403
-                  ]
                 }
               ]
             },
@@ -1533,19 +1481,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            sql: {
-              children: {},
-              slug: "/en-US/docs/Glossary/SQL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.tutorialspoint.com/sql/index.htm",
-                    403
-                  ]
-                }
-              ]
-            },
             sql_injection: {
               children: {},
               slug: "/en-US/docs/Glossary/SQL_Injection",
@@ -1603,19 +1538,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            time_to_interactive: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Time_to_interactive",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://calibreapp.com/blog/time-to-interactive",
-                    403
-                  ]
                 }
               ]
             },
@@ -1711,13 +1633,6 @@ var warnings_processed_default = {
                   message: "Not linked from parent page",
                   data: [
                     "/en-US/docs/Learn_web_development"
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.mongodb.com/",
-                    403
                   ]
                 }
               ]
@@ -3065,17 +2980,7 @@ var warnings_processed_default = {
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.shutterstock.com/",
-                            403
-                          ]
-                        }
-                      ]
+                      }
                     },
                     html_video_and_audio: {
                       children: {
@@ -3305,13 +3210,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/guide/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -3412,23 +3310,6 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                text_styling: {
-                  children: {
-                    web_fonts: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.typography.com/webfonts",
-                            403
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 }
               }
             },
@@ -3508,23 +3389,6 @@ var warnings_processed_default = {
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/mikethomas/pen/kQjKLW"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                "client-side_tools": {
-                  children: {
-                    overview: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://circleci.com/",
-                            403
                           ]
                         }
                       ]
@@ -3786,19 +3650,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                security_privacy: {
-                  children: {},
-                  slug: "/en-US/docs/Learn_web_development/Extensions/Security_privacy",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN",
-                        403
-                      ]
-                    }
-                  ]
-                },
                 "server-side": {
                   children: {
                     apache_configuration_htaccess: {
@@ -4025,13 +3876,6 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://www.mongodb.com/docs/manual/reference/collation/",
-                                    403
-                                  ]
                                 }
                               ]
                             },
@@ -4074,69 +3918,6 @@ var warnings_processed_default = {
                           children: {},
                           slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/mongoose",
                           messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.mongodb.com/",
-                                403
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.mongodb.com/company/what-is-mongodb",
-                                403
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.mongodb.com/docs/manual/core/databases-and-collections/",
-                                403
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.mongodb.com/try/download/community",
-                                403
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.mongodb.com/",
-                                403
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.mongodb.com/products/platform/atlas-database",
-                                403
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.mongodb.com/try/download/community-edition/releases",
-                                403
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.mongodb.com/products/platform/atlas-database",
-                                403
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.mongodb.com/cloud/atlas/register",
-                                403
-                              ]
-                            },
                             {
                               message: "JS code issue",
                               data: [
@@ -4200,19 +3981,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    testing_strategies: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://matomo.org/",
-                            403
-                          ]
-                        }
-                      ]
-                    },
                     your_own_automation_environment: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Your_own_automation_environment",
@@ -4223,60 +3991,6 @@ var warnings_processed_default = {
                             "Parsing error: Unexpected keyword or identifier.",
                             "npm install axios",
                             "1:9"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                }
-              }
-            },
-            getting_started: {
-              children: {
-                soft_skills: {
-                  children: {
-                    collaboration_and_teamwork: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Collaboration_and_teamwork",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.eventbrite.co.uk/",
-                            403
-                          ]
-                        }
-                      ]
-                    },
-                    finding_a_job: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Finding_a_job",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.coursera.org/articles/technical-interview-questions",
-                            403
-                          ]
-                        }
-                      ]
-                    },
-                    workflows_and_processes: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Workflows_and_processes",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.mongodb.com/resources/languages/mean-stack",
-                            403
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.mongodb.com/resources/basics/technology-stack",
-                            403
                           ]
                         }
                       ]
@@ -4696,6 +4410,19 @@ var warnings_processed_default = {
                           data: []
                         }
                       ]
+                    },
+                    how_do_you_host_your_website_on_google_app_engine: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gaesamplesite.appspot.com/",
+                            503
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup",
@@ -4846,18 +4573,6 @@ var warnings_processed_default = {
             },
             writing_guidelines: {
               children: {
-                attrib_copyright_license: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Writing_guidelines/Attrib_copyright_license",
-                  messages: [
-                    {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/MDN/Writing_guidelines/Attrib_copyright_license"
-                      ]
-                    }
-                  ]
-                },
                 changelog: {
                   children: {},
                   slug: "/en-US/docs/MDN/Writing_guidelines/Changelog",
@@ -4937,19 +4652,6 @@ var warnings_processed_default = {
                 },
                 page_structures: {
                   children: {
-                    compatibility_tables: {
-                      children: {},
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Compatibility_tables",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/browser-compat-data/blob/main/api/VRDisplay.json",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
                     feature_status: {
                       children: {},
                       slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Feature_status",
@@ -6283,24 +5985,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via page",
                           data: []
-                        }
-                      ]
-                    },
-                    examples: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Examples",
-                      messages: [
-                        {
-                          message: "Possibly unrendered Markdown",
-                          data: [
-                            "Demonstrates how to block network requests without host permissions using the declarativeNetRequest API with the `declarative_net_request` manifest key."
-                          ]
-                        },
-                        {
-                          message: "Possibly unrendered Markdown",
-                          data: [
-                            "Demonstrates multiple ways to redirect requests using the declarativeNetRequest API through the `declarative_net_request` manifest key. Demonstrates aspects of Manifest Version 3 (MV3): action, host_permissions, and web_accessible_resources, and includes a comparison with Manifest Version 2 (MV2)."
-                          ]
                         }
                       ]
                     },
@@ -9882,13 +9566,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://qiita.com/piroor/items/ea7e727735631c45a366",
-                            403
-                          ]
                         }
                       ]
                     },
@@ -11477,34 +11154,7 @@ var warnings_processed_default = {
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles",
-                          messages: [
-                            {
-                              message: "Self link",
-                              data: [
-                                "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles#3._landmark_roles"
-                              ]
-                            },
-                            {
-                              message: "Self link",
-                              data: [
-                                "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles#6._abstract_roles"
-                              ]
-                            },
-                            {
-                              message: "Self link",
-                              data: [
-                                "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles#6._abstract_roles"
-                              ]
-                            },
-                            {
-                              message: "Self link",
-                              data: [
-                                "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles#6._abstract_roles"
-                              ]
-                            }
-                          ]
+                          }
                         }
                       },
                       slug: "/en-US/docs/Web/Accessibility/ARIA/Reference",
@@ -11539,13 +11189,6 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance",
                       messages: [
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.sciencedaily.com/releases/2009/09/090925092858.htm",
-                            403
-                          ]
-                        },
-                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word oklch (CssSyntaxError)",
@@ -11573,20 +11216,6 @@ var warnings_processed_default = {
                             "[4]",
                             "Text before link:",
                             "."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.sciencedaily.com/releases/2009/09/090925092858.htm",
-                            403
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.sciencedaily.com/releases/2009/09/090925092858.htm",
-                            403
                           ]
                         },
                         {
@@ -12192,18 +11821,6 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                dedicatedworkerglobalscope: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/DedicatedWorkerGlobalScope",
-                  messages: [
-                    {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/API/DedicatedWorkerGlobalScope"
-                      ]
-                    }
-                  ]
                 },
                 device_orientation_events: {
                   children: {
@@ -14781,22 +14398,7 @@ var warnings_processed_default = {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/Web_Audio_API",
-                  messages: [
-                    {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/API/Web_Audio_API"
-                      ]
-                    },
-                    {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/API/Web_Audio_API"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 web_authentication_api: {
                   children: {
@@ -14943,19 +14545,6 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                webcodecs_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/WebCodecs_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://webrtchacks.com/real-time-video-processing-with-webcodecs-and-streams-processing-pipelines-part-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 },
                 webgl_api: {
                   children: {
@@ -15199,12 +14788,6 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/Web/API/WebGL_API/Matrix_math_for_the_web",
                       messages: [
-                        {
-                          message: "Possibly unrendered Markdown",
-                          data: [
-                            "The order that matrices are multiplied in matters. When multiplying numbers, a * b = c, and b * a = c are both true. For example 3 * 4 = 12, and 4 * 3 = 12. In math, these numbers would be described as "
-                          ]
-                        },
                         {
                           message: "External sandbox link",
                           data: [
@@ -18773,12 +18356,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/color_value/lab",
                       messages: [
                         {
-                          message: "Possibly unrendered Markdown",
-                          data: [
-                            " functional notation expresses a given color in the CIE L*a*b* "
-                          ]
-                        },
-                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word lab (CssSyntaxError)",
@@ -19350,12 +18927,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_colors/Color_values",
                       messages: [
-                        {
-                          message: "Possibly unrendered Markdown",
-                          data: [
-                            " functional notation expresses a given color in the CIE L*a*b* color space. The "
-                          ]
-                        },
                         {
                           message: "CSS code issue",
                           data: [
@@ -20600,13 +20171,6 @@ css.properties.width.fit-content_function`
                   slug: "/en-US/docs/Web/CSS/font-stretch",
                   messages: [
                     {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/font-stretch",
-                        "#interpolation"
-                      ]
-                    },
-                    {
                       message: "Self link",
                       data: [
                         "/en-US/docs/Web/CSS/font-stretch#interpolation"
@@ -20618,13 +20182,6 @@ css.properties.width.fit-content_function`
                   children: {},
                   slug: "/en-US/docs/Web/CSS/font-weight",
                   messages: [
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/font-weight",
-                        "#interpolation"
-                      ]
-                    },
                     {
                       message: "Self link",
                       data: [
@@ -22821,23 +22378,6 @@ html.elements.select.size`
                         }
                       ]
                     },
-                    input: {
-                      children: {
-                        number: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Element/input/number",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://technology.blog.gov.uk/2020/02/24/why-the-gov-uk-design-system-team-changed-the-input-type-for-numbers/",
-                                403
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
                     legend: {
                       children: {},
                       slug: "/en-US/docs/Web/HTML/Element/legend",
@@ -23370,19 +22910,6 @@ html.elements.select.size`
                             }
                           ]
                         },
-                        "strict-transport-security": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Strict-Transport-Security",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         tk: {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Tk",
@@ -23484,19 +23011,6 @@ html.elements.select.size`
                             {
                               message: "Missing syntax code block",
                               data: []
-                            }
-                          ]
-                        },
-                        "x-xss-protection": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/X-XSS-Protection",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://portswigger.net/research/abusing-chromes-xss-auditor-to-steal-tokens",
-                                403
-                              ]
                             }
                           ]
                         }
@@ -24533,19 +24047,6 @@ html.elements.select.size`
                     },
                     formats: {
                       children: {
-                        image_types: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Image_types",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://ev.buaa.edu.cn/",
-                                403
-                              ]
-                            }
-                          ]
-                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -24912,13 +24413,6 @@ html.elements.select.size`
                         {
                           message: "Unreachable via page",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://portswigger.net/web-security/csrf/bypassing-samesite-restrictions",
-                            403
-                          ]
                         }
                       ]
                     },
@@ -27374,16 +26868,16 @@ svg.elements.feSpotLight.z`
                           slug: "/en-US/docs/Web/SVG/Reference/Element/font-face",
                           messages: [
                             {
+                              message: "Self link",
+                              data: [
+                                "/en-US/docs/Web/SVG/Reference/Element/font-face"
+                              ]
+                            },
+                            {
                               message: "Broken anchor",
                               data: [
                                 "/en-US/docs/Web/SVG/Reference/Element",
                                 "#descriptive"
-                              ]
-                            },
-                            {
-                              message: "Self link",
-                              data: [
-                                "/en-US/docs/Web/SVG/Reference/Element/font-face"
                               ]
                             }
                           ]
@@ -29376,48 +28870,6 @@ svg.elements.feSpotLight.z`
               children: {
                 reference: {
                   children: {
-                    commands: {
-                      children: {},
-                      slug: "/en-US/docs/Web/WebDriver/Reference/Commands",
-                      messages: [
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Web/WebDriver/Reference/Commands"
-                          ]
-                        },
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Web/WebDriver/Reference/Commands"
-                          ]
-                        },
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Web/WebDriver/Reference/Commands"
-                          ]
-                        },
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Web/WebDriver/Reference/Commands"
-                          ]
-                        },
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Web/WebDriver/Reference/Commands"
-                          ]
-                        },
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Web/WebDriver/Reference/Commands"
-                          ]
-                        }
-                      ]
-                    },
                     timeouts: {
                       children: {},
                       slug: "/en-US/docs/Web/WebDriver/Reference/Timeouts",
