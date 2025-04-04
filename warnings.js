@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-jn7bnk7f.js";
+} from "./chunk-rm8jvwey.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -106,13 +106,6 @@ var warnings_processed_default = {
                     {
                       message: "Unreachable via page",
                       data: []
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://dopresskit.com/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 }
@@ -1037,6 +1030,26 @@ var warnings_processed_default = {
                 }
               ]
             },
+            gpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/GPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-faq.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                }
+              ]
+            },
             "high-level_programming_language": {
               children: {},
               slug: "/en-US/docs/Glossary/High-level_programming_language",
@@ -1124,6 +1137,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            lgpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/LGPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/lgpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
                 }
               ]
             },
@@ -2303,15 +2329,8 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://svelte.dev/examples/hello-world",
-                            404
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
                             "https://svelte-native.technology/",
-                            "https://svelte.nativescript.org/"
+                            "The operation timed out."
                           ]
                         },
                         {
@@ -2341,10 +2360,10 @@ var warnings_processed_default = {
                           data: []
                         },
                         {
-                          message: "Redirected external link",
+                          message: "Broken external link",
                           data: [
                             "https://svelte-native.technology/",
-                            "https://svelte.nativescript.org/"
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -2366,13 +2385,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://svelte.dev/examples/easing",
-                            404
-                          ]
                         }
                       ]
                     },
@@ -2721,13 +2733,6 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/Build_your_own_function",
                       messages: [
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://mdn.github.io/learning-area/javascript/building-blocks/functions/function-stage-4.html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
                           message: "JS code issue",
                           data: [
                             "Parsing error: Declaration or statement expected.",
@@ -3013,7 +3018,17 @@ var warnings_processed_default = {
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
                     },
                     html_video_and_audio: {
                       children: {
@@ -3243,6 +3258,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/guide/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -3339,23 +3361,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                text_styling: {
-                  children: {
-                    web_fonts: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.exljbris.com/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     }
@@ -3695,6 +3700,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -4451,6 +4463,33 @@ var warnings_processed_default = {
                 },
                 tools_and_setup: {
                   children: {
+                    available_text_editors: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -4458,6 +4497,32 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    how_do_you_host_your_website_on_google_app_engine: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gaesamplesite.appspot.com/downloads.html",
+                            503
+                          ]
+                        }
+                      ]
+                    },
+                    what_software_do_i_need: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -5061,9 +5126,12 @@ var warnings_processed_default = {
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies/SameSiteStatus",
                               messages: [
                                 {
-                                  message: "Not in BCD",
+                                  message: "Unexpected BCD keys",
                                   data: [
-                                    "webextensions.api.cookies.SameSiteStatus"
+                                    "Actual:",
+                                    "webextensions.api.cookies.SameSiteStatus",
+                                    "Expected:",
+                                    "[None]"
                                   ]
                                 }
                               ]
@@ -5105,22 +5173,6 @@ var warnings_processed_default = {
                                   data: [
                                     "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest"
                                   ]
-                                },
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "webextensions.api.declarativeNetRequest.HeaderInfo"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    `webextensions.api.declarativeNetRequest.RuleCondition.responseHeaders
-webextensions.api.declarativeNetRequest.RuleCondition.excludedResponseHeaders`,
-                                    "Expected:",
-                                    "webextensions.api.declarativeNetRequest.HeaderInfo"
-                                  ]
                                 }
                               ]
                             },
@@ -5148,22 +5200,6 @@ webextensions.api.declarativeNetRequest.RuleCondition.excludedResponseHeaders`,
                                     ".type",
                                     "Text before code:",
                                     "rule.action"
-                                  ]
-                                },
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "webextensions.api.declarativeNetRequest.ModifyHeaderInfo"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    `webextensions.api.declarativeNetRequest.RuleAction.requestHeaders
-webextensions.api.declarativeNetRequest.RuleAction.responseHeaders`,
-                                    "Expected:",
-                                    "webextensions.api.declarativeNetRequest.ModifyHeaderInfo"
                                   ]
                                 }
                               ]
@@ -5537,31 +5573,6 @@ webextensions.api.declarativeNetRequest.RuleAction.responseHeaders`,
                             }
                           }
                         },
-                        extensiontypes: {
-                          children: {
-                            injectdetails: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extensionTypes/InjectDetails",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "webextensions.api.extensionTypes.InjectDetails"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "[None]",
-                                    "Expected:",
-                                    "webextensions.api.extensionTypes.InjectDetails"
-                                  ]
-                                }
-                              ]
-                            }
-                          }
-                        },
                         i18n: {
                           children: {
                             "locale-specific_message_reference": {
@@ -5840,21 +5851,6 @@ webextensions.api.declarativeNetRequest.RuleAction.responseHeaders`,
                                 {
                                   message: "Unreachable via page",
                                   data: []
-                                },
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "webextensions.api.userScripts_legacy.UserScriptOptions"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "[None]",
-                                    "Expected:",
-                                    "webextensions.api.userScripts_legacy.UserScriptOptions"
-                                  ]
                                 }
                               ]
                             },
@@ -6052,21 +6048,6 @@ webextensions.api.declarativeNetRequest.RuleAction.responseHeaders`,
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "webextensions.content_scripts.cloneInto"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "webextensions.api.contentScriptGlobalScope.cloneInto",
-                                "Expected:",
-                                "webextensions.content_scripts.cloneInto"
-                              ]
                             }
                           ]
                         },
@@ -6077,21 +6058,6 @@ webextensions.api.declarativeNetRequest.RuleAction.responseHeaders`,
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "webextensions.content_scripts.exportFunction"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "webextensions.api.contentScriptGlobalScope.exportFunction",
-                                "Expected:",
-                                "webextensions.content_scripts.exportFunction"
-                              ]
                             }
                           ]
                         }
@@ -13039,14 +13005,7 @@ webextensions.api.declarativeNetRequest.RuleAction.responseHeaders`,
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/Media_Capture_and_Streams_API",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
+                  }
                 },
                 media_source_extensions_api: {
                   children: {
@@ -14463,19 +14422,6 @@ webextensions.api.declarativeNetRequest.RuleAction.responseHeaders`,
                 },
                 web_audio_api: {
                   children: {
-                    advanced_techniques: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://soundbible.com/1573-DTMF-Tones.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     best_practices: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Best_practices",
@@ -15672,14 +15618,7 @@ webextensions.api.declarativeNetRequest.RuleAction.responseHeaders`,
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/WebXR_Device_API",
-                  messages: [
-                    {
-                      message: "Missing specifications macro",
-                      data: []
-                    }
-                  ]
+                  }
                 },
                 window_management_api: {
                   children: {
@@ -18167,21 +18106,6 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                "baseline-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/baseline-position",
-                  messages: [
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        "css.types.baseline-position",
-                        "Expected:",
-                        "[None]"
-                      ]
-                    }
-                  ]
-                },
                 "basic-shape": {
                   children: {
                     path: {
@@ -18293,27 +18217,6 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                "box-edge": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/box-edge",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.types.box-edge"
-                      ]
-                    },
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        "[None]",
-                        "Expected:",
-                        "css.types.box-edge"
-                      ]
-                    }
-                  ]
-                },
                 "box-flex": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/box-flex",
@@ -18409,12 +18312,6 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
-                    },
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.types.calc-sum"
-                      ]
                     }
                   ]
                 },
@@ -18957,21 +18854,6 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                "content-distribution": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/content-distribution",
-                  messages: [
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        "css.types.content-distribution",
-                        "Expected:",
-                        "[None]"
-                      ]
-                    }
-                  ]
-                },
                 "content-position": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/content-position",
@@ -18980,15 +18862,6 @@ css.selectors.-webkit-resizer`,
                       message: "Self link",
                       data: [
                         "/en-US/docs/Web/CSS/content-position"
-                      ]
-                    },
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        "css.types.content-position",
-                        "Expected:",
-                        "[None]"
                       ]
                     }
                   ]
@@ -21101,21 +20974,6 @@ css.properties.grid-template-rows.minmax`
                     }
                   ]
                 },
-                "overflow-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/overflow-position",
-                  messages: [
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        "css.types.overflow-position",
-                        "Expected:",
-                        "[None]"
-                      ]
-                    }
-                  ]
-                },
                 "overflow-x": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/overflow-x",
@@ -21530,21 +21388,6 @@ css.properties.grid-template-rows.repeat`
                     }
                   ]
                 },
-                "self-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/self-position",
-                  messages: [
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        "css.types.self-position",
-                        "Expected:",
-                        "[None]"
-                      ]
-                    }
-                  ]
-                },
                 shape: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/shape",
@@ -21708,15 +21551,6 @@ css.properties.list-style-type.symbols`
                     {
                       message: "Missing syntax code block",
                       data: []
-                    },
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        "css.types.time-percentage",
-                        "Expected:",
-                        "[None]"
-                      ]
                     }
                   ]
                 },
@@ -23103,6 +22937,19 @@ html.elements.select.size`
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         "available-dictionary": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Available-Dictionary",
@@ -24311,10 +24158,6 @@ html.elements.select.size`
               slug: "/en-US/docs/Web/MathML",
               messages: [
                 {
-                  message: "Missing specifications macro",
-                  data: []
-                },
-                {
                   message: "HTTP link",
                   data: [
                     "http://eyeasme.com/Joe/MathML/MathML_browser_test.html",
@@ -24441,15 +24284,15 @@ html.elements.select.size`
                     },
                     formats: {
                       children: {
-                        audio_codecs: {
+                        image_types: {
                           children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Audio_codecs",
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Image_types",
                           messages: [
                             {
-                              message: "Redirected external link",
+                              message: "Broken external link",
                               data: [
-                                "https://lame.sourceforge.io/",
-                                "https://sourceforge.net/projects/lame/"
+                                "https://ev.buaa.edu.cn/",
+                                403
                               ]
                             }
                           ]
