@@ -6,6 +6,10 @@ const allowedCodeLinkTextRec = new Map(
   (await readConfig("allowed-code-link-text.txt")).map((x) => [x, false]),
 );
 
+const allowedQuotedCode = new Map(
+  (await readConfig("allowed-quoted-code.txt")).map((x) => [x, false]),
+);
+
 const allowedSpacedCodeLink = [
   // HTML tags
   /^<(a|area|font|iframe|input|link|meta|object|ol|script|select|th|tr)( [a-z-]+="[\w .…-]+"| ping| defer| sandbox| nomodule| multiple)+>$/,
@@ -180,9 +184,20 @@ export function checkContent(
   $("code:not(pre code), a:not(pre a)").each((i, code) => {
     const textBefore = getSurroundingText(code, $, "previous");
     const textAfter = getSurroundingText(code, $, "next");
+    const hasQuoteAfter = /^(?!'s|'th)['"]/.test(textAfter);
+    const hasQuoteBefore = /['"]$/.test(textBefore);
     if (
       code.tagName === "code" &&
-      (/^(?!'s)['"]/.test(textAfter) || /['"]$/.test(textBefore))
+      // Only report the following kinds:
+      // - "`foo`"
+      // - "`foo"`
+      // But not:
+      // - "`foo` bar"
+      // - "`some: "thing"` bar"
+      ((hasQuoteAfter && hasQuoteBefore) ||
+        ((hasQuoteAfter || hasQuoteBefore) &&
+          ($(code).text().match(/['"]/g)?.length ?? 0) % 2 === 1)) &&
+      !configHas(allowedQuotedCode, `${context.slug}\t${$(code).text()}`)
     ) {
       report("Quoted code", $(code).text());
     } else if (
@@ -225,5 +240,8 @@ export function checkContent(
 export function postCheckContent() {
   for (const [code, used] of allowedCodeLinkTextRec) {
     if (!used) console.warn("Unused code link text", code);
+  }
+  for (const [code, used] of allowedQuotedCode) {
+    if (!used) console.warn("Unused quoted code config", code);
   }
 }

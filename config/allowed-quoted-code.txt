@@ -1,0 +1,9 @@
+  Texts in this file will not be reported by the "Quoted code" checks.
+  They are usually docs that actually talk about the code as it is formatted,
+  not the code as a code entity.
+  Use two-space indent for comments.
+
+/en-US/docs/MDN/Writing_guidelines/Code_style_guide/HTML	<title>
+/en-US/docs/MDN/Writing_guidelines/Page_structures/Links	<input/range>
+/en-US/docs/MDN/Writing_guidelines/Page_structures/Links	<input type="range">
+/en-US/docs/MDN/Writing_guidelines/Page_structures/Links	background-color
