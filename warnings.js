@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-4pd0k2e9.js";
+} from "./chunk-naajksrd.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -1030,6 +1030,26 @@ var warnings_processed_default = {
                 }
               ]
             },
+            gpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/GPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-faq.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                }
+              ]
+            },
             "high-level_programming_language": {
               children: {},
               slug: "/en-US/docs/Glossary/High-level_programming_language",
@@ -1120,6 +1140,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            lgpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/LGPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/lgpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                }
+              ]
+            },
             literal: {
               children: {},
               slug: "/en-US/docs/Glossary/Literal",
@@ -1198,19 +1231,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            "node.js": {
-              children: {},
-              slug: "/en-US/docs/Glossary/Node.js",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -3012,7 +3032,17 @@ var warnings_processed_default = {
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
                     },
                     html_video_and_audio: {
                       children: {
@@ -3242,6 +3272,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/guide/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -3338,23 +3375,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                text_styling: {
-                  children: {
-                    web_fonts: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.exljbris.com/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     }
@@ -3694,6 +3714,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -4450,6 +4477,33 @@ var warnings_processed_default = {
                 },
                 tools_and_setup: {
                   children: {
+                    available_text_editors: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -4469,6 +4523,19 @@ var warnings_processed_default = {
                           data: [
                             "https://gaesamplesite.appspot.com/",
                             503
+                          ]
+                        }
+                      ]
+                    },
+                    what_software_do_i_need: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -4733,6 +4800,19 @@ var warnings_processed_default = {
                         }
                       ]
                     },
+                    links: {
+                      children: {},
+                      slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Links",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/links/svgxref.rs",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        }
+                      ]
+                    },
                     macros: {
                       children: {
                         commonly_used_macros: {
@@ -4754,6 +4834,13 @@ var warnings_processed_default = {
                             {
                               message: "Unreachable via sidebar",
                               data: []
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/links/svgxref.rs",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                              ]
                             }
                           ]
                         },
@@ -5123,6 +5210,16 @@ var warnings_processed_default = {
                                   data: [
                                     "webextensions.api.declarativeNetRequest.HeaderInfo"
                                   ]
+                                },
+                                {
+                                  message: "Unexpected BCD keys",
+                                  data: [
+                                    "Actual:",
+                                    `webextensions.api.declarativeNetRequest.RuleCondition.responseHeaders
+webextensions.api.declarativeNetRequest.RuleCondition.excludedResponseHeaders`,
+                                    "Expected:",
+                                    "webextensions.api.declarativeNetRequest.HeaderInfo"
+                                  ]
                                 }
                               ]
                             },
@@ -5155,6 +5252,16 @@ var warnings_processed_default = {
                                 {
                                   message: "Not in BCD",
                                   data: [
+                                    "webextensions.api.declarativeNetRequest.ModifyHeaderInfo"
+                                  ]
+                                },
+                                {
+                                  message: "Unexpected BCD keys",
+                                  data: [
+                                    "Actual:",
+                                    `webextensions.api.declarativeNetRequest.RuleAction.requestHeaders
+webextensions.api.declarativeNetRequest.RuleAction.responseHeaders`,
+                                    "Expected:",
                                     "webextensions.api.declarativeNetRequest.ModifyHeaderInfo"
                                   ]
                                 }
@@ -5540,6 +5647,15 @@ var warnings_processed_default = {
                                   data: [
                                     "webextensions.api.extensionTypes.InjectDetails"
                                   ]
+                                },
+                                {
+                                  message: "Unexpected BCD keys",
+                                  data: [
+                                    "Actual:",
+                                    "[None]",
+                                    "Expected:",
+                                    "webextensions.api.extensionTypes.InjectDetails"
+                                  ]
                                 }
                               ]
                             }
@@ -5718,6 +5834,15 @@ var warnings_processed_default = {
                                       data: [
                                         "webextensions.api.types.BrowserSetting.clear"
                                       ]
+                                    },
+                                    {
+                                      message: "Unexpected BCD keys",
+                                      data: [
+                                        "Actual:",
+                                        "[None]",
+                                        "Expected:",
+                                        "webextensions.api.types.BrowserSetting.clear"
+                                      ]
                                     }
                                   ]
                                 },
@@ -5732,6 +5857,15 @@ var warnings_processed_default = {
                                     {
                                       message: "Not in BCD",
                                       data: [
+                                        "webextensions.api.types.BrowserSetting.get"
+                                      ]
+                                    },
+                                    {
+                                      message: "Unexpected BCD keys",
+                                      data: [
+                                        "Actual:",
+                                        "[None]",
+                                        "Expected:",
                                         "webextensions.api.types.BrowserSetting.get"
                                       ]
                                     }
@@ -5758,6 +5892,15 @@ var warnings_processed_default = {
                                     {
                                       message: "Not in BCD",
                                       data: [
+                                        "webextensions.api.types.BrowserSetting.set"
+                                      ]
+                                    },
+                                    {
+                                      message: "Unexpected BCD keys",
+                                      data: [
+                                        "Actual:",
+                                        "[None]",
+                                        "Expected:",
                                         "webextensions.api.types.BrowserSetting.set"
                                       ]
                                     }
@@ -5800,6 +5943,15 @@ var warnings_processed_default = {
                                 {
                                   message: "Not in BCD",
                                   data: [
+                                    "webextensions.api.userScripts_legacy.UserScriptOptions"
+                                  ]
+                                },
+                                {
+                                  message: "Unexpected BCD keys",
+                                  data: [
+                                    "Actual:",
+                                    "[None]",
+                                    "Expected:",
                                     "webextensions.api.userScripts_legacy.UserScriptOptions"
                                   ]
                                 }
@@ -6005,6 +6157,15 @@ var warnings_processed_default = {
                               data: [
                                 "webextensions.content_scripts.cloneInto"
                               ]
+                            },
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "webextensions.api.contentScriptGlobalScope.cloneInto",
+                                "Expected:",
+                                "webextensions.content_scripts.cloneInto"
+                              ]
                             }
                           ]
                         },
@@ -6019,6 +6180,15 @@ var warnings_processed_default = {
                             {
                               message: "Not in BCD",
                               data: [
+                                "webextensions.content_scripts.exportFunction"
+                              ]
+                            },
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "webextensions.api.contentScriptGlobalScope.exportFunction",
+                                "Expected:",
                                 "webextensions.content_scripts.exportFunction"
                               ]
                             }
@@ -11142,13 +11312,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via sidebar",
                   data: []
-                },
-                {
-                  message: "Redirected external link",
-                  data: [
-                    "https://hg.mozilla.org/mozilla-central/",
-                    "https://hg-edge.mozilla.org/mozilla-central/"
-                  ]
                 }
               ]
             }
@@ -11180,10 +11343,6 @@ var warnings_processed_default = {
               data: [
                 "/en-US/docs/Web"
               ]
-            },
-            {
-              message: "Missing sidebar",
-              data: []
             },
             {
               message: "Unreachable via page",
@@ -11602,8 +11761,11 @@ var warnings_processed_default = {
                           data: []
                         },
                         {
-                          message: "Not in BCD",
+                          message: "Unexpected BCD keys",
                           data: [
+                            "Actual:",
+                            "[None]",
+                            "Expected:",
                             "api.AudioWorkletProcessor.parameterDescriptors"
                           ]
                         }
@@ -11614,8 +11776,11 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Web/API/AudioWorkletProcessor/process",
                       messages: [
                         {
-                          message: "Not in BCD",
+                          message: "Unexpected BCD keys",
                           data: [
+                            "Actual:",
+                            "[None]",
+                            "Expected:",
                             "api.AudioWorkletProcessor.process"
                           ]
                         }
@@ -12183,6 +12348,15 @@ var warnings_processed_default = {
                           data: [
                             "api.Document.copy_event"
                           ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.Element.copy_event",
+                            "Expected:",
+                            "api.Document.copy_event"
+                          ]
                         }
                       ]
                     },
@@ -12193,6 +12367,15 @@ var warnings_processed_default = {
                         {
                           message: "Not in BCD",
                           data: [
+                            "api.Document.cut_event"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.Element.cut_event",
+                            "Expected:",
                             "api.Document.cut_event"
                           ]
                         }
@@ -12229,6 +12412,15 @@ var warnings_processed_default = {
                         {
                           message: "Not in BCD",
                           data: [
+                            "api.Document.paste_event"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.Element.paste_event",
+                            "Expected:",
                             "api.Document.paste_event"
                           ]
                         }
@@ -12411,18 +12603,6 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                filesystemchangerecord: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/FileSystemChangeRecord",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "api.FileSystemChangeRecord"
-                      ]
-                    }
-                  ]
                 },
                 geolocation_api: {
                   children: {
@@ -12697,6 +12877,15 @@ var warnings_processed_default = {
                           data: [
                             "api.HTMLElement.copy_event"
                           ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.Element.copy_event",
+                            "Expected:",
+                            "api.HTMLElement.copy_event"
+                          ]
                         }
                       ]
                     },
@@ -12709,6 +12898,15 @@ var warnings_processed_default = {
                           data: [
                             "api.HTMLElement.cut_event"
                           ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.Element.cut_event",
+                            "Expected:",
+                            "api.HTMLElement.cut_event"
+                          ]
                         }
                       ]
                     },
@@ -12719,6 +12917,15 @@ var warnings_processed_default = {
                         {
                           message: "Not in BCD",
                           data: [
+                            "api.HTMLElement.paste_event"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.Element.paste_event",
+                            "Expected:",
                             "api.HTMLElement.paste_event"
                           ]
                         }
@@ -12916,6 +13123,15 @@ var warnings_processed_default = {
                           data: [
                             "api.KeyboardEvent.initKeyEvent"
                           ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "[None]",
+                            "Expected:",
+                            "api.KeyboardEvent.initKeyEvent"
+                          ]
                         }
                       ]
                     }
@@ -13043,6 +13259,15 @@ var warnings_processed_default = {
                           data: [
                             "api.MouseEvent.mozInputSource"
                           ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "[None]",
+                            "Expected:",
+                            "api.MouseEvent.mozInputSource"
+                          ]
                         }
                       ]
                     },
@@ -13053,6 +13278,15 @@ var warnings_processed_default = {
                         {
                           message: "Not in BCD",
                           data: [
+                            "api.MouseEvent.WEBKIT_FORCE_AT_FORCE_MOUSE_DOWN_static"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "[None]",
+                            "Expected:",
                             "api.MouseEvent.WEBKIT_FORCE_AT_FORCE_MOUSE_DOWN_static"
                           ]
                         }
@@ -13067,6 +13301,15 @@ var warnings_processed_default = {
                           data: [
                             "api.MouseEvent.WEBKIT_FORCE_AT_MOUSE_DOWN_static"
                           ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "[None]",
+                            "Expected:",
+                            "api.MouseEvent.WEBKIT_FORCE_AT_MOUSE_DOWN_static"
+                          ]
                         }
                       ]
                     },
@@ -13077,6 +13320,15 @@ var warnings_processed_default = {
                         {
                           message: "Not in BCD",
                           data: [
+                            "api.MouseEvent.webkitForce"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "[None]",
+                            "Expected:",
                             "api.MouseEvent.webkitForce"
                           ]
                         }
@@ -13488,6 +13740,15 @@ var warnings_processed_default = {
                           data: [
                             "api.RTCStatsReport.type_candidate-pair.availableIncomingBitrate"
                           ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.RTCIceCandidatePairStats.availableIncomingBitrate",
+                            "Expected:",
+                            "api.RTCStatsReport.type_candidate-pair.availableIncomingBitrate"
+                          ]
                         }
                       ]
                     },
@@ -13498,6 +13759,15 @@ var warnings_processed_default = {
                         {
                           message: "Not in BCD",
                           data: [
+                            "api.RTCStatsReport.type_candidate-pair.readable"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.RTCIceCandidatePairStats.readable",
+                            "Expected:",
                             "api.RTCStatsReport.type_candidate-pair.readable"
                           ]
                         }
@@ -13512,6 +13782,15 @@ var warnings_processed_default = {
                           data: [
                             "api.RTCStatsReport.type_candidate-pair.selected"
                           ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.RTCIceCandidatePairStats.selected",
+                            "Expected:",
+                            "api.RTCStatsReport.type_candidate-pair.selected"
+                          ]
                         }
                       ]
                     },
@@ -13522,6 +13801,15 @@ var warnings_processed_default = {
                         {
                           message: "Not in BCD",
                           data: [
+                            "api.RTCStatsReport.type_candidate-pair.writable"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.RTCIceCandidatePairStats.writable",
+                            "Expected:",
                             "api.RTCStatsReport.type_candidate-pair.writable"
                           ]
                         }
@@ -13540,6 +13828,15 @@ var warnings_processed_default = {
                           data: [
                             "api.RTCStatsReport.type_local-candidate.deleted"
                           ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.RTCIceCandidateStats.deleted",
+                            "Expected:",
+                            "api.RTCStatsReport.type_local-candidate.deleted"
+                          ]
                         }
                       ]
                     },
@@ -13552,6 +13849,15 @@ var warnings_processed_default = {
                           data: [
                             "api.RTCStatsReport.type_local-candidate.relayProtocol"
                           ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.RTCIceCandidateStats.relayProtocol",
+                            "Expected:",
+                            "api.RTCStatsReport.type_local-candidate.relayProtocol"
+                          ]
                         }
                       ]
                     },
@@ -13562,6 +13868,15 @@ var warnings_processed_default = {
                         {
                           message: "Not in BCD",
                           data: [
+                            "api.RTCStatsReport.type_local-candidate.url"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.RTCIceCandidateStats.url",
+                            "Expected:",
                             "api.RTCStatsReport.type_local-candidate.url"
                           ]
                         }
@@ -13596,6 +13911,15 @@ var warnings_processed_default = {
                           data: [
                             "api.RTCStatsReport.type_inbound-rtp.averageRtcpInterval"
                           ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.RTCInboundRtpStreamStats.averageRtcpInterval",
+                            "Expected:",
+                            "api.RTCStatsReport.type_inbound-rtp.averageRtcpInterval"
+                          ]
                         }
                       ]
                     },
@@ -13606,6 +13930,15 @@ var warnings_processed_default = {
                         {
                           message: "Not in BCD",
                           data: [
+                            "api.RTCStatsReport.type_inbound-rtp.packetsDuplicated"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.RTCInboundRtpStreamStats.packetsDuplicated",
+                            "Expected:",
                             "api.RTCStatsReport.type_inbound-rtp.packetsDuplicated"
                           ]
                         }
@@ -13620,6 +13953,15 @@ var warnings_processed_default = {
                           data: [
                             "api.RTCStatsReport.type_inbound-rtp.packetsFailedDecryption"
                           ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.RTCInboundRtpStreamStats.packetsFailedDecryption",
+                            "Expected:",
+                            "api.RTCStatsReport.type_inbound-rtp.packetsFailedDecryption"
+                          ]
                         }
                       ]
                     },
@@ -13630,6 +13972,15 @@ var warnings_processed_default = {
                         {
                           message: "Not in BCD",
                           data: [
+                            "api.RTCStatsReport.type_inbound-rtp.perDscpPacketsReceived"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.RTCInboundRtpStreamStats.perDscpPacketsReceived",
+                            "Expected:",
                             "api.RTCStatsReport.type_inbound-rtp.perDscpPacketsReceived"
                           ]
                         }
@@ -13644,6 +13995,15 @@ var warnings_processed_default = {
                           data: [
                             "api.RTCStatsReport.type_inbound-rtp.receiverId"
                           ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.RTCInboundRtpStreamStats.receiverId",
+                            "Expected:",
+                            "api.RTCStatsReport.type_inbound-rtp.receiverId"
+                          ]
                         }
                       ]
                     },
@@ -13654,6 +14014,15 @@ var warnings_processed_default = {
                         {
                           message: "Not in BCD",
                           data: [
+                            "api.RTCStatsReport.type_inbound-rtp.sliCount"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.RTCInboundRtpStreamStats.sliCount",
+                            "Expected:",
                             "api.RTCStatsReport.type_inbound-rtp.sliCount"
                           ]
                         }
@@ -13693,8 +14062,11 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Web/API/RTCStatsReport/Symbol.iterator",
                       messages: [
                         {
-                          message: "Not in BCD",
+                          message: "Unexpected BCD keys",
                           data: [
+                            "Actual:",
+                            "api.RTCStatsReport.@@iterator",
+                            "Expected:",
                             "api.RTCStatsReport.Symbol.iterator"
                           ]
                         }
@@ -13823,6 +14195,15 @@ var warnings_processed_default = {
                       data: [
                         "api.SVGEvent"
                       ]
+                    },
+                    {
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        "[None]",
+                        "Expected:",
+                        "api.SVGEvent"
+                      ]
                     }
                   ]
                 },
@@ -13855,6 +14236,15 @@ var warnings_processed_default = {
                           data: [
                             "api.SVGGraphicsElement.copy_event"
                           ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.Element.copy_event",
+                            "Expected:",
+                            "api.SVGGraphicsElement.copy_event"
+                          ]
                         }
                       ]
                     },
@@ -13867,6 +14257,15 @@ var warnings_processed_default = {
                           data: [
                             "api.SVGGraphicsElement.cut_event"
                           ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.Element.cut_event",
+                            "Expected:",
+                            "api.SVGGraphicsElement.cut_event"
+                          ]
                         }
                       ]
                     },
@@ -13877,6 +14276,15 @@ var warnings_processed_default = {
                         {
                           message: "Not in BCD",
                           data: [
+                            "api.SVGGraphicsElement.paste_event"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.Element.paste_event",
+                            "Expected:",
                             "api.SVGGraphicsElement.paste_event"
                           ]
                         }
@@ -15417,6 +15825,15 @@ var warnings_processed_default = {
                           data: [
                             "api.Window.back"
                           ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "[None]",
+                            "Expected:",
+                            "api.Window.back"
+                          ]
                         }
                       ]
                     },
@@ -15429,6 +15846,15 @@ var warnings_processed_default = {
                           data: [
                             "api.Window.copy_event"
                           ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.Element.copy_event",
+                            "Expected:",
+                            "api.Window.copy_event"
+                          ]
                         }
                       ]
                     },
@@ -15439,6 +15865,15 @@ var warnings_processed_default = {
                         {
                           message: "Not in BCD",
                           data: [
+                            "api.Window.cut_event"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.Element.cut_event",
+                            "Expected:",
                             "api.Window.cut_event"
                           ]
                         }
@@ -15519,6 +15954,15 @@ var warnings_processed_default = {
                           data: [
                             "api.Window.forward"
                           ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "[None]",
+                            "Expected:",
+                            "api.Window.forward"
+                          ]
                         }
                       ]
                     },
@@ -15529,6 +15973,15 @@ var warnings_processed_default = {
                         {
                           message: "Not in BCD",
                           data: [
+                            "api.Window.paste_event"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.Element.paste_event",
+                            "Expected:",
                             "api.Window.paste_event"
                           ]
                         }
@@ -15773,6 +16226,15 @@ var warnings_processed_default = {
                           data: [
                             "api.XMLHttpRequest.channel"
                           ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "[None]",
+                            "Expected:",
+                            "api.XMLHttpRequest.channel"
+                          ]
                         }
                       ]
                     },
@@ -15783,6 +16245,15 @@ var warnings_processed_default = {
                         {
                           message: "Not in BCD",
                           data: [
+                            "api.XMLHttpRequest.mozAnon"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "[None]",
+                            "Expected:",
                             "api.XMLHttpRequest.mozAnon"
                           ]
                         }
@@ -15797,6 +16268,15 @@ var warnings_processed_default = {
                           data: [
                             "api.XMLHttpRequest.mozBackgroundRequest"
                           ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "[None]",
+                            "Expected:",
+                            "api.XMLHttpRequest.mozBackgroundRequest"
+                          ]
                         }
                       ]
                     },
@@ -15807,6 +16287,15 @@ var warnings_processed_default = {
                         {
                           message: "Not in BCD",
                           data: [
+                            "api.XMLHttpRequest.mozSystem"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "[None]",
+                            "Expected:",
                             "api.XMLHttpRequest.mozSystem"
                           ]
                         }
@@ -15912,14 +16401,7 @@ var warnings_processed_default = {
                     }
                   ]
                 }
-              },
-              slug: "/en-US/docs/Web/API",
-              messages: [
-                {
-                  message: "Missing sidebar",
-                  data: []
-                }
-              ]
+              }
             },
             css: {
               children: {
@@ -15930,6 +16412,15 @@ var warnings_processed_default = {
                     {
                       message: "Not in BCD",
                       data: [
+                        "css.selectors.-moz-drag-over"
+                      ]
+                    },
+                    {
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        "[None]",
+                        "Expected:",
                         "css.selectors.-moz-drag-over"
                       ]
                     }
@@ -15944,6 +16435,15 @@ var warnings_processed_default = {
                       data: [
                         "css.selectors.-moz-handler-blocked"
                       ]
+                    },
+                    {
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        "[None]",
+                        "Expected:",
+                        "css.selectors.-moz-handler-blocked"
+                      ]
                     }
                   ]
                 },
@@ -15954,6 +16454,15 @@ var warnings_processed_default = {
                     {
                       message: "Not in BCD",
                       data: [
+                        "css.selectors.-moz-handler-crashed"
+                      ]
+                    },
+                    {
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        "[None]",
+                        "Expected:",
                         "css.selectors.-moz-handler-crashed"
                       ]
                     }
@@ -15968,6 +16477,15 @@ var warnings_processed_default = {
                       data: [
                         "css.selectors.-moz-handler-disabled"
                       ]
+                    },
+                    {
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        "[None]",
+                        "Expected:",
+                        "css.selectors.-moz-handler-disabled"
+                      ]
                     }
                   ]
                 },
@@ -15978,6 +16496,15 @@ var warnings_processed_default = {
                     {
                       message: "Not in BCD",
                       data: [
+                        "css.selectors.-moz-loading"
+                      ]
+                    },
+                    {
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        "[None]",
+                        "Expected:",
                         "css.selectors.-moz-loading"
                       ]
                     }
@@ -15992,6 +16519,15 @@ var warnings_processed_default = {
                       data: [
                         "css.selectors.-moz-locale-dir_ltr"
                       ]
+                    },
+                    {
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        "[None]",
+                        "Expected:",
+                        "css.selectors.-moz-locale-dir_ltr"
+                      ]
                     }
                   ]
                 },
@@ -16002,6 +16538,15 @@ var warnings_processed_default = {
                     {
                       message: "Not in BCD",
                       data: [
+                        "css.selectors.-moz-locale-dir_rtl"
+                      ]
+                    },
+                    {
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        "[None]",
+                        "Expected:",
                         "css.selectors.-moz-locale-dir_rtl"
                       ]
                     }
@@ -16016,6 +16561,15 @@ var warnings_processed_default = {
                       data: [
                         "css.selectors.-moz-suppressed"
                       ]
+                    },
+                    {
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        "[None]",
+                        "Expected:",
+                        "css.selectors.-moz-suppressed"
+                      ]
                     }
                   ]
                 },
@@ -16026,6 +16580,15 @@ var warnings_processed_default = {
                     {
                       message: "Not in BCD",
                       data: [
+                        "css.selectors.-moz-user-disabled"
+                      ]
+                    },
+                    {
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        "[None]",
+                        "Expected:",
                         "css.selectors.-moz-user-disabled"
                       ]
                     }
@@ -16040,6 +16603,15 @@ var warnings_processed_default = {
                       data: [
                         "css.selectors.blank"
                       ]
+                    },
+                    {
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        "[None]",
+                        "Expected:",
+                        "css.selectors.blank"
+                      ]
                     }
                   ]
                 },
@@ -16050,6 +16622,15 @@ var warnings_processed_default = {
                     {
                       message: "Not in BCD",
                       data: [
+                        "css.selectors.current"
+                      ]
+                    },
+                    {
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        "[None]",
+                        "Expected:",
                         "css.selectors.current"
                       ]
                     }
@@ -16104,6 +16685,15 @@ var warnings_processed_default = {
                     {
                       message: "Not in BCD",
                       data: [
+                        "css.selectors.local-link"
+                      ]
+                    },
+                    {
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        "[None]",
+                        "Expected:",
                         "css.selectors.local-link"
                       ]
                     }
@@ -16176,6 +16766,15 @@ var warnings_processed_default = {
                     {
                       message: "Not in BCD",
                       data: [
+                        "css.selectors.target-within"
+                      ]
+                    },
+                    {
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        "[None]",
+                        "Expected:",
                         "css.selectors.target-within"
                       ]
                     }
@@ -16285,6 +16884,15 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Not in BCD",
                       data: [
+                        "css.at-rules.color-profile"
+                      ]
+                    },
+                    {
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        "[None]",
+                        "Expected:",
                         "css.at-rules.color-profile"
                       ]
                     }
@@ -16632,6 +17240,15 @@ css.selectors.-webkit-resizer`,
                           data: [
                             "css.at-rules.font-feature-values.font-display"
                           ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "[None]",
+                            "Expected:",
+                            "css.at-rules.font-feature-values.font-display"
+                          ]
                         }
                       ]
                     }
@@ -16699,12 +17316,6 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via page",
                           data: []
-                        },
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "css.types.@import.layer"
-                          ]
                         }
                       ]
                     }
@@ -16899,6 +17510,15 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Not in BCD",
                           data: [
+                            "css.at-rules.media.aural"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "[None]",
+                            "Expected:",
                             "css.at-rules.media.aural"
                           ]
                         }
@@ -17301,6 +17921,15 @@ css.selectors.-webkit-resizer`,
                           data: [
                             "css.at-rules.media.shape"
                           ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "[None]",
+                            "Expected:",
+                            "css.at-rules.media.shape"
+                          ]
                         }
                       ]
                     },
@@ -17534,8 +18163,11 @@ css.selectors.-webkit-resizer`,
                   slug: "/en-US/docs/Web/CSS/absolute-size",
                   messages: [
                     {
-                      message: "Not in BCD",
+                      message: "Unexpected BCD keys",
                       data: [
+                        "Actual:",
+                        "[None]",
+                        "Expected:",
                         "css.types.absolute-size"
                       ]
                     }
@@ -17550,8 +18182,11 @@ css.selectors.-webkit-resizer`,
                       data: []
                     },
                     {
-                      message: "Not in BCD",
+                      message: "Unexpected BCD keys",
                       data: [
+                        "Actual:",
+                        "[None]",
+                        "Expected:",
                         "css.types.alpha-value"
                       ]
                     }
@@ -17673,18 +18308,6 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                "baseline-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/baseline-position",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.types.baseline-position"
-                      ]
-                    }
-                  ]
-                },
                 "basic-shape": {
                   children: {
                     path: {
@@ -17803,6 +18426,15 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Not in BCD",
                       data: [
+                        "css.types.box-edge"
+                      ]
+                    },
+                    {
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        "[None]",
+                        "Expected:",
                         "css.types.box-edge"
                       ]
                     }
@@ -18031,6 +18663,15 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Not in BCD",
                           data: [
+                            "css.types.color.device-cmyk"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "[None]",
+                            "Expected:",
                             "css.types.color.device-cmyk"
                           ]
                         }
@@ -18424,12 +19065,6 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
-                    },
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.types.color-interpolation-method"
-                      ]
                     }
                   ]
                 },
@@ -18444,18 +19079,6 @@ css.selectors.-webkit-resizer`,
                         "[None]",
                         "Expected:",
                         "css.selectors.column"
-                      ]
-                    }
-                  ]
-                },
-                "content-distribution": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/content-distribution",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.types.content-distribution"
                       ]
                     }
                   ]
@@ -19571,12 +20194,6 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
-                    },
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.types.display-box"
-                      ]
                     }
                   ]
                 },
@@ -19587,12 +20204,6 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
-                    },
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.types.display-inside"
-                      ]
                     }
                   ]
                 },
@@ -19603,12 +20214,6 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
-                    },
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.types.display-internal"
-                      ]
                     }
                   ]
                 },
@@ -19619,12 +20224,6 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
-                    },
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.types.display-legacy"
-                      ]
                     }
                   ]
                 },
@@ -19635,12 +20234,6 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
-                    },
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.types.display-listitem"
-                      ]
                     }
                   ]
                 },
@@ -19651,12 +20244,6 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
-                    },
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.types.display-outside"
-                      ]
                     }
                   ]
                 },
@@ -19688,12 +20275,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/easing-function/linear",
                       messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "css.types.easing-function.linear"
-                          ]
-                        },
                         {
                           message: "CSS code issue",
                           data: [
@@ -20072,6 +20653,15 @@ css.properties.width.fit-content_function`
                       data: [
                         "css.types.frequency"
                       ]
+                    },
+                    {
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        "[None]",
+                        "Expected:",
+                        "css.types.frequency"
+                      ]
                     }
                   ]
                 },
@@ -20088,6 +20678,15 @@ css.properties.width.fit-content_function`
                       data: [
                         "css.types.frequency-percentage"
                       ]
+                    },
+                    {
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        "[None]",
+                        "Expected:",
+                        "css.types.frequency-percentage"
+                      ]
                     }
                   ]
                 },
@@ -20096,8 +20695,11 @@ css.properties.width.fit-content_function`
                   slug: "/en-US/docs/Web/CSS/generic-family",
                   messages: [
                     {
-                      message: "Not in BCD",
+                      message: "Unexpected BCD keys",
                       data: [
+                        "Actual:",
+                        "[None]",
+                        "Expected:",
                         "css.types.generic-family"
                       ]
                     }
@@ -20109,12 +20711,6 @@ css.properties.width.fit-content_function`
                       children: {},
                       slug: "/en-US/docs/Web/CSS/gradient/conic-gradient",
                       messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "css.types.image.gradient.conic-gradient"
-                          ]
-                        },
                         {
                           message: "CSS code issue",
                           data: [
@@ -20162,12 +20758,6 @@ css.properties.width.fit-content_function`
                       slug: "/en-US/docs/Web/CSS/gradient/linear-gradient",
                       messages: [
                         {
-                          message: "Not in BCD",
-                          data: [
-                            "css.types.image.gradient.linear-gradient"
-                          ]
-                        },
-                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word linear-gradient (CssSyntaxError)",
@@ -20201,28 +20791,10 @@ css.properties.width.fit-content_function`
                         }
                       ]
                     },
-                    "radial-gradient": {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/gradient/radial-gradient",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "css.types.image.gradient.radial-gradient"
-                          ]
-                        }
-                      ]
-                    },
                     "repeating-conic-gradient": {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/gradient/repeating-conic-gradient",
                       messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "css.types.image.gradient.repeating-conic-gradient"
-                          ]
-                        },
                         {
                           message: "CSS code issue",
                           data: [
@@ -20240,30 +20812,6 @@ css.properties.width.fit-content_function`
                           ]
                         }
                       ]
-                    },
-                    "repeating-linear-gradient": {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/gradient/repeating-linear-gradient",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "css.types.image.gradient.repeating-linear-gradient"
-                          ]
-                        }
-                      ]
-                    },
-                    "repeating-radial-gradient": {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/gradient/repeating-radial-gradient",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "css.types.image.gradient.repeating-radial-gradient"
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/CSS/gradient",
@@ -20275,6 +20823,15 @@ css.properties.width.fit-content_function`
                     {
                       message: "Not in BCD",
                       data: [
+                        "css.types.image.gradient"
+                      ]
+                    },
+                    {
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        "css.types.gradient",
+                        "Expected:",
                         "css.types.image.gradient"
                       ]
                     }
@@ -20302,18 +20859,6 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
-                "hex-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/hex-color",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.types.hex-color"
-                      ]
-                    }
-                  ]
-                },
                 hue: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/hue",
@@ -20321,12 +20866,6 @@ css.properties.width.fit-content_function`
                     {
                       message: "Missing syntax code block",
                       data: []
-                    },
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.types.hue"
-                      ]
                     }
                   ]
                 },
@@ -20341,6 +20880,21 @@ css.properties.width.fit-content_function`
                     {
                       message: "Not in BCD",
                       data: [
+                        "css.types.hue-interpolation-method"
+                      ]
+                    },
+                    {
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        `css.types.color.color-mix
+css.types.image.gradient.conic-gradient.hue_interpolation_method
+css.types.image.gradient.linear-gradient.hue_interpolation_method
+css.types.image.gradient.radial-gradient.hue_interpolation_method
+css.types.image.gradient.repeating-conic-gradient.hue_interpolation_method
+css.types.image.gradient.repeating-linear-gradient.hue_interpolation_method
+css.types.image.gradient.repeating-radial-gradient.hue_interpolation_method`,
+                        "Expected:",
                         "css.types.hue-interpolation-method"
                       ]
                     }
@@ -20379,6 +20933,15 @@ css.properties.width.fit-content_function`
                         {
                           message: "Not in BCD",
                           data: [
+                            "css.types.image.image"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "[None]",
+                            "Expected:",
                             "css.types.image.image"
                           ]
                         },
@@ -20424,6 +20987,15 @@ css.properties.width.fit-content_function`
                     {
                       message: "Not in BCD",
                       data: [
+                        "css.properties.image-resolution"
+                      ]
+                    },
+                    {
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        "[None]",
+                        "Expected:",
                         "css.properties.image-resolution"
                       ]
                     }
@@ -20529,6 +21101,15 @@ css.properties.width.fit-content_function`
                       data: [
                         "css.properties.mask-border-mode"
                       ]
+                    },
+                    {
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        "[None]",
+                        "Expected:",
+                        "css.properties.mask-border-mode"
+                      ]
                     }
                   ]
                 },
@@ -20608,18 +21189,6 @@ css.properties.grid-template-rows.minmax`
                     {
                       message: "Unreachable via sidebar",
                       data: []
-                    }
-                  ]
-                },
-                "named-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/named-color",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.types.named-color"
-                      ]
                     }
                   ]
                 },
@@ -20736,18 +21305,6 @@ css.properties.grid-template-rows.minmax`
                         "Unknown word keyword (CssSyntaxError)",
                         "keyword                  /* Either the horizontal or vertical position; the other axis defaults to center */",
                         "2:1"
-                      ]
-                    }
-                  ]
-                },
-                "position-area_value": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/position-area_value",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.types.position-area"
                       ]
                     }
                   ]
@@ -21071,8 +21628,11 @@ css.properties.grid-template-rows.minmax`
                   slug: "/en-US/docs/Web/CSS/relative-size",
                   messages: [
                     {
-                      message: "Not in BCD",
+                      message: "Unexpected BCD keys",
                       data: [
+                        "Actual:",
+                        "[None]",
+                        "Expected:",
                         "css.types.relative-size"
                       ]
                     }
@@ -21123,18 +21683,6 @@ css.properties.grid-template-rows.repeat`
                     {
                       message: "Unreachable via sidebar",
                       data: []
-                    }
-                  ]
-                },
-                "self-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/self-position",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.types.self-position"
-                      ]
                     }
                   ]
                 },
@@ -21269,12 +21817,6 @@ css.properties.list-style-type.symbols`
                     {
                       message: "Missing syntax code block",
                       data: []
-                    },
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.types.system-color"
-                      ]
                     }
                   ]
                 },
@@ -21307,12 +21849,6 @@ css.properties.list-style-type.symbols`
                     {
                       message: "Missing syntax code block",
                       data: []
-                    },
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.types.time-percentage"
-                      ]
                     }
                   ]
                 },
@@ -22463,6 +22999,81 @@ html.elements.select.size`
                           ]
                         }
                       ]
+                    },
+                    itemid: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTML/Global_attributes/itemid",
+                      messages: [
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "[None]",
+                            "Expected:",
+                            "html.global_attributes.itemid"
+                          ]
+                        }
+                      ]
+                    },
+                    itemprop: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTML/Global_attributes/itemprop",
+                      messages: [
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "[None]",
+                            "Expected:",
+                            "html.global_attributes.itemprop"
+                          ]
+                        }
+                      ]
+                    },
+                    itemref: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTML/Global_attributes/itemref",
+                      messages: [
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "[None]",
+                            "Expected:",
+                            "html.global_attributes.itemref"
+                          ]
+                        }
+                      ]
+                    },
+                    itemscope: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTML/Global_attributes/itemscope",
+                      messages: [
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "[None]",
+                            "Expected:",
+                            "html.global_attributes.itemscope"
+                          ]
+                        }
+                      ]
+                    },
+                    itemtype: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTML/Global_attributes/itemtype",
+                      messages: [
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "[None]",
+                            "Expected:",
+                            "html.global_attributes.itemtype"
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/HTML/Global_attributes",
@@ -22699,6 +23310,79 @@ html.elements.select.size`
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
+                        "accept-patch": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept-Patch",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.headers.Accept-Patch"
+                              ]
+                            }
+                          ]
+                        },
+                        "accept-post": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept-Post",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.headers.Accept-Post"
+                              ]
+                            }
+                          ]
+                        },
+                        allow: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Allow",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.headers.Allow"
+                              ]
+                            }
+                          ]
+                        },
+                        "alt-used": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Alt-Used",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.headers.Alt-Used"
+                              ]
+                            }
+                          ]
+                        },
                         "available-dictionary": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Available-Dictionary",
@@ -22722,6 +23406,21 @@ html.elements.select.size`
                             {
                               message: "Missing syntax code block",
                               data: []
+                            }
+                          ]
+                        },
+                        "content-digest": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Digest",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.headers.Content-Digest"
+                              ]
                             }
                           ]
                         },
@@ -22789,6 +23488,21 @@ html.elements.select.size`
                             }
                           ]
                         },
+                        expect: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Expect",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.headers.Expect"
+                              ]
+                            }
+                          ]
+                        },
                         forwarded: {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Forwarded",
@@ -22796,6 +23510,30 @@ html.elements.select.size`
                             {
                               message: "Missing syntax code block",
                               data: []
+                            },
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.headers.Forwarded"
+                              ]
+                            }
+                          ]
+                        },
+                        "max-forwards": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Max-Forwards",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.headers.Max-Forwards"
+                              ]
                             }
                           ]
                         },
@@ -22827,6 +23565,36 @@ html.elements.select.size`
                             }
                           }
                         },
+                        prefer: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Prefer",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.headers.Prefer"
+                              ]
+                            }
+                          ]
+                        },
+                        "preference-applied": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Preference-Applied",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.headers.Preference-Applied"
+                              ]
+                            }
+                          ]
+                        },
                         "proxy-authenticate": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Proxy-Authenticate",
@@ -22834,6 +23602,36 @@ html.elements.select.size`
                             {
                               message: "Missing syntax code block",
                               data: []
+                            }
+                          ]
+                        },
+                        "proxy-authorization": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Proxy-Authorization",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.headers.Proxy-Authorization"
+                              ]
+                            }
+                          ]
+                        },
+                        "repr-digest": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Repr-Digest",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.headers.Repr-Digest"
+                              ]
                             }
                           ]
                         },
@@ -22894,6 +23692,15 @@ html.elements.select.size`
                             {
                               message: "Broken browser compat anchor",
                               data: []
+                            },
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.headers.Tk"
+                              ]
                             }
                           ]
                         },
@@ -22958,6 +23765,15 @@ html.elements.select.size`
                             {
                               message: "Missing syntax code block",
                               data: []
+                            },
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.headers.Want-Content-Digest"
+                              ]
                             }
                           ]
                         },
@@ -22968,6 +23784,60 @@ html.elements.select.size`
                             {
                               message: "Missing syntax code block",
                               data: []
+                            },
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.headers.Want-Repr-Digest"
+                              ]
+                            }
+                          ]
+                        },
+                        "x-forwarded-for": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/X-Forwarded-For",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.headers.X-Forwarded-For"
+                              ]
+                            }
+                          ]
+                        },
+                        "x-forwarded-host": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/X-Forwarded-Host",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.headers.X-Forwarded-Host"
+                              ]
+                            }
+                          ]
+                        },
+                        "x-forwarded-proto": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/X-Forwarded-Proto",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.headers.X-Forwarded-Proto"
+                              ]
                             }
                           ]
                         },
@@ -22981,6 +23851,36 @@ html.elements.select.size`
                             }
                           ]
                         },
+                        "x-permitted-cross-domain-policies": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/X-Permitted-Cross-Domain-Policies",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.headers.X-Permitted-Cross-Domain-Policies"
+                              ]
+                            }
+                          ]
+                        },
+                        "x-powered-by": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/X-Powered-By",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.headers.X-Powered-By"
+                              ]
+                            }
+                          ]
+                        },
                         "x-robots-tag": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/X-Robots-Tag",
@@ -22988,6 +23888,15 @@ html.elements.select.size`
                             {
                               message: "Missing syntax code block",
                               data: []
+                            },
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.headers.X-Robots-Tag"
+                              ]
                             }
                           ]
                         }
@@ -23010,6 +23919,21 @@ html.elements.select.size`
                             }
                           ]
                         },
+                        patch: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Methods/PATCH",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.methods.PATCH"
+                              ]
+                            }
+                          ]
+                        },
                         put: {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Methods/PUT",
@@ -23021,6 +23945,895 @@ html.elements.select.size`
                                 "[None]",
                                 "Expected:",
                                 "http.methods.PUT"
+                              ]
+                            }
+                          ]
+                        },
+                        trace: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Methods/TRACE",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.methods.TRACE"
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    status: {
+                      children: {
+                        "100": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/100",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.100"
+                              ]
+                            }
+                          ]
+                        },
+                        "101": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/101",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.101"
+                              ]
+                            }
+                          ]
+                        },
+                        "102": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/102",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.102"
+                              ]
+                            }
+                          ]
+                        },
+                        "200": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/200",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.200"
+                              ]
+                            }
+                          ]
+                        },
+                        "201": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/201",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.201"
+                              ]
+                            }
+                          ]
+                        },
+                        "202": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/202",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.202"
+                              ]
+                            }
+                          ]
+                        },
+                        "203": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/203",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.203"
+                              ]
+                            }
+                          ]
+                        },
+                        "204": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/204",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.204"
+                              ]
+                            }
+                          ]
+                        },
+                        "205": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/205",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.205"
+                              ]
+                            }
+                          ]
+                        },
+                        "206": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/206",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.206"
+                              ]
+                            }
+                          ]
+                        },
+                        "207": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/207",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.207"
+                              ]
+                            }
+                          ]
+                        },
+                        "208": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/208",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.208"
+                              ]
+                            }
+                          ]
+                        },
+                        "226": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/226",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.226"
+                              ]
+                            }
+                          ]
+                        },
+                        "300": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/300",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.300"
+                              ]
+                            }
+                          ]
+                        },
+                        "301": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/301",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.301"
+                              ]
+                            }
+                          ]
+                        },
+                        "302": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/302",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.302"
+                              ]
+                            }
+                          ]
+                        },
+                        "303": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/303",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.303"
+                              ]
+                            }
+                          ]
+                        },
+                        "304": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/304",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.304"
+                              ]
+                            }
+                          ]
+                        },
+                        "307": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/307",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.307"
+                              ]
+                            }
+                          ]
+                        },
+                        "400": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/400",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.400"
+                              ]
+                            }
+                          ]
+                        },
+                        "401": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/401",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.401"
+                              ]
+                            }
+                          ]
+                        },
+                        "402": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/402",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.402"
+                              ]
+                            }
+                          ]
+                        },
+                        "403": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/403",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.403"
+                              ]
+                            }
+                          ]
+                        },
+                        "404": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/404",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.404"
+                              ]
+                            }
+                          ]
+                        },
+                        "405": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/405",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.405"
+                              ]
+                            }
+                          ]
+                        },
+                        "406": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/406",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.406"
+                              ]
+                            }
+                          ]
+                        },
+                        "407": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/407",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.407"
+                              ]
+                            }
+                          ]
+                        },
+                        "408": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/408",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.408"
+                              ]
+                            }
+                          ]
+                        },
+                        "409": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/409",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.409"
+                              ]
+                            }
+                          ]
+                        },
+                        "410": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/410",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.410"
+                              ]
+                            }
+                          ]
+                        },
+                        "411": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/411",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.411"
+                              ]
+                            }
+                          ]
+                        },
+                        "412": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/412",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.412"
+                              ]
+                            }
+                          ]
+                        },
+                        "413": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/413",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.413"
+                              ]
+                            }
+                          ]
+                        },
+                        "414": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/414",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.414"
+                              ]
+                            }
+                          ]
+                        },
+                        "415": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/415",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.415"
+                              ]
+                            }
+                          ]
+                        },
+                        "416": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/416",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.416"
+                              ]
+                            }
+                          ]
+                        },
+                        "417": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/417",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.417"
+                              ]
+                            }
+                          ]
+                        },
+                        "418": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/418",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.418"
+                              ]
+                            }
+                          ]
+                        },
+                        "421": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/421",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.421"
+                              ]
+                            }
+                          ]
+                        },
+                        "422": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/422",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.422"
+                              ]
+                            }
+                          ]
+                        },
+                        "423": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/423",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.423"
+                              ]
+                            }
+                          ]
+                        },
+                        "424": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/424",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.424"
+                              ]
+                            }
+                          ]
+                        },
+                        "426": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/426",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.426"
+                              ]
+                            }
+                          ]
+                        },
+                        "428": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/428",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.428"
+                              ]
+                            }
+                          ]
+                        },
+                        "429": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/429",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.429"
+                              ]
+                            }
+                          ]
+                        },
+                        "431": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/431",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.431"
+                              ]
+                            }
+                          ]
+                        },
+                        "451": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/451",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.451"
+                              ]
+                            }
+                          ]
+                        },
+                        "500": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/500",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.500"
+                              ]
+                            }
+                          ]
+                        },
+                        "501": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/501",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.501"
+                              ]
+                            }
+                          ]
+                        },
+                        "502": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/502",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.502"
+                              ]
+                            }
+                          ]
+                        },
+                        "503": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/503",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.503"
+                              ]
+                            }
+                          ]
+                        },
+                        "504": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/504",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.504"
+                              ]
+                            }
+                          ]
+                        },
+                        "505": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/505",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.505"
+                              ]
+                            }
+                          ]
+                        },
+                        "506": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/506",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.506"
+                              ]
+                            }
+                          ]
+                        },
+                        "507": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/507",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.507"
+                              ]
+                            }
+                          ]
+                        },
+                        "508": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/508",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.508"
+                              ]
+                            }
+                          ]
+                        },
+                        "510": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/510",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.510"
+                              ]
+                            }
+                          ]
+                        },
+                        "511": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/511",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "http.status.511"
                               ]
                             }
                           ]
@@ -23372,6 +25185,15 @@ html.elements.select.size`
                                   data: [
                                     "javascript.builtins.AsyncGeneratorFunction.prototype"
                                   ]
+                                },
+                                {
+                                  message: "Unexpected BCD keys",
+                                  data: [
+                                    "Actual:",
+                                    "[None]",
+                                    "Expected:",
+                                    "javascript.builtins.AsyncGeneratorFunction.prototype"
+                                  ]
                                 }
                               ]
                             }
@@ -23437,6 +25259,15 @@ html.elements.select.size`
                                   data: [
                                     "javascript.builtins.Function.prototype"
                                   ]
+                                },
+                                {
+                                  message: "Unexpected BCD keys",
+                                  data: [
+                                    "Actual:",
+                                    "[None]",
+                                    "Expected:",
+                                    "javascript.builtins.Function.prototype"
+                                  ]
                                 }
                               ]
                             }
@@ -23451,6 +25282,15 @@ html.elements.select.size`
                                 {
                                   message: "Not in BCD",
                                   data: [
+                                    "javascript.builtins.GeneratorFunction.prototype"
+                                  ]
+                                },
+                                {
+                                  message: "Unexpected BCD keys",
+                                  data: [
+                                    "Actual:",
+                                    "[None]",
+                                    "Expected:",
                                     "javascript.builtins.GeneratorFunction.prototype"
                                   ]
                                 }
@@ -23745,6 +25585,15 @@ html.elements.select.size`
                             {
                               message: "Not in BCD",
                               data: [
+                                "javascript.statements.expression_statement"
+                              ]
+                            },
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
                                 "javascript.statements.expression_statement"
                               ]
                             }
@@ -24250,7 +26099,38 @@ html.elements.select.size`
                 manifest: {
                   children: {
                     reference: {
-                      children: {},
+                      children: {
+                        categories: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/categories",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "manifests.webapp.categories"
+                              ]
+                            }
+                          ]
+                        },
+                        screenshots: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/screenshots",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "manifests.webapp.screenshots"
+                              ]
+                            }
+                          ]
+                        }
+                      },
                       slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference",
                       messages: [
                         {
