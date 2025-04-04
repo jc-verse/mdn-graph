@@ -174,7 +174,7 @@ Yari does not generate flaws for `{ {CSSSyntax}}` and `{ {CSSInfo}}` that are mi
 
 This rule reports pages without a sidebar. All pages should be associated with a sidebar.
 
-### Missing specifications
+### Missing specifications macro
 
 This rule reports pages that has `spec-urls` or the `browser-compat` keys map to valid spec URLs, but has no `{ {Specifications}}` macros in content. Add the macro.
 
