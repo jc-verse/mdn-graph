@@ -340,9 +340,7 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
       const match = node.id.match(/^\/en-US\/docs\/Web\/CSS\/([^/]+)$/);
       if (!match) return "Unexpected page type";
       const typeName = match[1].replace(/_type$/, "").replace(/_value$/, "");
-      if (typeName === "gradient") {
-        return [`css.types.image.${typeName}`];
-      } else if (["custom-ident", "dashed-ident", "ident"].includes(typeName)) {
+      if (["custom-ident", "dashed-ident", "ident"].includes(typeName)) {
         return [];
       }
       return [`css.types.${typeName}`];

@@ -15,6 +15,7 @@ css.types.alpha-value
 css.types.baseline-position
 css.types.color-interpolation-method
 css.types.content-distribution
+css.types.content-position
 css.types.display-box
 css.types.display-inside
 css.types.display-internal
@@ -31,7 +32,9 @@ css.types.generic-family
   while content always lists all css-types at top level
 css.types.hex-color
 css.types.hue
+css.types.hue-interpolation-method
 css.types.named-color
+css.types.overflow-position
 css.types.position-area
 css.types.relative-size
 css.types.self-position
