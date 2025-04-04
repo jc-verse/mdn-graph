@@ -8,6 +8,7 @@ api.AnimationTimeline.duration
 api.AudioParam.automationRate
 api.AudioSession
 api.AudioSession.type
+api.AudioWorklet.port
 api.BufferedChangeEvent
 api.BufferedChangeEvent.BufferedChangeEvent
 api.BufferedChangeEvent.addedRanges
@@ -54,7 +55,6 @@ api.Counter.listStyle
 api.Counter.separator
 api.DOMError.message
 api.DOMError.name
-api.DOMMatrix.scaleSelf
 api.DOMMatrixReadOnly.scaleNonUniform
 api.DataCue
 api.DataCue.DataCue
@@ -114,8 +114,6 @@ api.FileSystemHandle.move
 api.FileSystemSync.name
 api.FileSystemSync.root
 api.FontFaceSet.FontFaceSet
-api.GPUAdapterInfo.subgroupMaxSize
-api.GPUAdapterInfo.subgroupMinSize
 api.GPUComputePassEncoder.writeTimestamp
 api.GPURenderPassEncoder.writeTimestamp
 api.GamepadHapticActuator.canPlayEffectType
@@ -443,10 +441,7 @@ api.PresentationConnectionCloseEvent.message
 api.PresentationConnectionCloseEvent.reason
 api.PresentationConnectionList.connections
 api.PresentationReceiver.connectionList
-api.Profiler
-api.Profiler.Profiler
 api.Profiler.sampleInterval
-api.Profiler.stop
 api.Profiler.stopped
 api.ProtectedAudience
 api.ProtectedAudience.queryFeatureSupport
@@ -500,7 +495,6 @@ api.SVGAElement.rel
 api.SVGAElement.relList
 api.SVGAElement.text
 api.SVGAElement.type
-api.SVGElement.autofocus
 api.SVGElement.className
 api.SVGFEGaussianBlurElement.edgeMode
 api.SVGFESpecularLightingElement.kernelUnitLengthX
@@ -512,7 +506,6 @@ api.SVGGlyphRefElement.glyphRef
 api.SVGGlyphRefElement.href
 api.SVGGlyphRefElement.x
 api.SVGGlyphRefElement.y
-api.SVGImageElement.crossOrigin
 api.SVGMarkerElement.orient
 api.SVGPathElement.createSVGPathSegArcAbs
 api.SVGPathElement.createSVGPathSegArcRel
@@ -533,13 +526,7 @@ api.SVGPathElement.createSVGPathSegLinetoVerticalAbs
 api.SVGPathElement.createSVGPathSegLinetoVerticalRel
 api.SVGPathElement.createSVGPathSegMovetoAbs
 api.SVGPathElement.createSVGPathSegMovetoRel
-api.SVGPathElement.getPathData
 api.SVGPathElement.getPathSegAtLength
-api.SVGPathElement.getPathSegmentAtLength
-api.SVGPathElement.getPointAtLength
-api.SVGPathElement.getTotalLength
-api.SVGPathElement.pathLength
-api.SVGPathElement.setPathData
 api.SVGPoint.matrixTransform
 api.SVGPoint.x
 api.SVGPoint.y
@@ -556,7 +543,6 @@ api.SVGScriptElement.async
 api.SVGScriptElement.crossOrigin
 api.SVGScriptElement.defer
 api.SVGTextContentElement.selectSubString
-api.SVGTextPositioningElement.rotate
 api.ShadowRoot.getSelection
 api.SharedStorage.batchUpdate
 api.SharedStorage.createWorklet
@@ -743,10 +729,9 @@ css.properties.text-autospace
 css.properties.view-transition-class
 css.selectors.active-view-transition
 css.selectors.active-view-transition-type
-css.selectors.checkmark
 css.selectors.closed
-css.selectors.picker
-css.selectors.picker-icon
+css.selectors.column
+css.selectors.scroll-button
 css.selectors.scroll-marker
 css.selectors.scroll-marker-group
 css.selectors.target-current
@@ -774,9 +759,11 @@ javascript.builtins.SuppressedError.SuppressedError
 javascript.builtins.Symbol.asyncDispose
 javascript.builtins.Symbol.dispose
 javascript.statements.using
-html.elements.selectedcontent
 http.headers.Attribution-Reporting-Support
+http.headers.Available-Dictionary
+http.headers.Dictionary-ID
 http.headers.Snapshot-Content-Location
+http.headers.Use-As-Dictionary
 webassembly.BigInt-to-i64-integration
 webassembly.bulk-memory-operations
 webassembly.exception-handling

@@ -13,6 +13,8 @@ api.RTCStatsReport.Symbol.iterator
 css.types.absolute-size
 css.types.alpha-value
 css.types.baseline-position
+css.types.box-edge
+css.types.calc-sum
 css.types.color-interpolation-method
 css.types.content-distribution
 css.types.content-position
@@ -137,3 +139,9 @@ http.methods.TRACE
   https://github.com/mdn/browser-compat-data/pull/23774
 manifests.webapp.categories
 manifests.webapp.screenshots
+
+webextensions.api.cookies.SameSiteStatus
+webextensions.api.declarativeNetRequest.HeaderInfo
+webextensions.api.declarativeNetRequest.ModifyHeaderInfo
+webextensions.api.extensionTypes.InjectDetails
+webextensions.api.userScripts_legacy.UserScriptOptions

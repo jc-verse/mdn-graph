@@ -177,7 +177,7 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
         /^\/en-US\/docs\/Mozilla\/Add-ons\/WebExtensions\/Content_scripts\/([^/]+)$/,
       );
       if (match) {
-        return [`webextensions.content_scripts.${match[1]}`];
+        return [`webextensions.api.contentScriptGlobalScope.${match[1]}`];
       }
       // Fallthrough
     }
