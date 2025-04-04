@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-x5z0bfzz.js";
+} from "./chunk-jn7bnk7f.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -106,6 +106,13 @@ var warnings_processed_default = {
                     {
                       message: "Unreachable via page",
                       data: []
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://dopresskit.com/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 }
@@ -906,19 +913,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            denial_of_service: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Denial_of_Service",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://owasp.org/www-community/attacks/Denial_of_Service",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -2727,6 +2721,13 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/Build_your_own_function",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://mdn.github.io/learning-area/javascript/building-blocks/functions/function-stage-4.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "JS code issue",
                           data: [
                             "Parsing error: Declaration or statement expected.",
@@ -3030,13 +3031,6 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_video_and_audio",
                       messages: [
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/multimedia-and-embedding/video-and-audio-content/extra-video-features.html",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
                           message: "HTTP link",
                           data: [
                             "http://www.mirovideoconverter.com/",
@@ -3249,13 +3243,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/guide/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -3352,6 +3339,23 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        }
+                      ]
+                    }
+                  }
+                },
+                text_styling: {
+                  children: {
+                    web_fonts: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.exljbris.com/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -4454,19 +4458,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via page",
                           data: []
-                        }
-                      ]
-                    },
-                    how_do_you_host_your_website_on_google_app_engine: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gaesamplesite.appspot.com/",
-                            503
-                          ]
                         }
                       ]
                     }
@@ -11418,20 +11409,6 @@ webextensions.api.declarativeNetRequest.RuleAction.responseHeaders`,
                           ]
                         },
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.cedars-sinai.org/health-library/diseases-and-conditions/p/photosensitive-seizures.html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.cedars-sinai.org/health-library/diseases-and-conditions/p/photosensitive-seizures.html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
                           message: "HTTP link",
                           data: [
                             "http://diagramcenter.org/",
@@ -14486,6 +14463,19 @@ webextensions.api.declarativeNetRequest.RuleAction.responseHeaders`,
                 },
                 web_audio_api: {
                   children: {
+                    advanced_techniques: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://soundbible.com/1573-DTMF-Tones.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
                     best_practices: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Best_practices",
@@ -18993,9 +18983,12 @@ css.selectors.-webkit-resizer`,
                       ]
                     },
                     {
-                      message: "Not in BCD",
+                      message: "Unexpected BCD keys",
                       data: [
-                        "css.types.content-position"
+                        "Actual:",
+                        "css.types.content-position",
+                        "Expected:",
+                        "[None]"
                       ]
                     }
                   ]
@@ -20703,21 +20696,6 @@ css.properties.width.fit-content_function`
                     {
                       message: "Missing syntax code block",
                       data: []
-                    },
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.types.image.gradient"
-                      ]
-                    },
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        "css.types.gradient",
-                        "Expected:",
-                        "css.types.image.gradient"
-                      ]
                     }
                   ]
                 },
@@ -20762,12 +20740,6 @@ css.properties.width.fit-content_function`
                       data: []
                     },
                     {
-                      message: "Not in BCD",
-                      data: [
-                        "css.types.hue-interpolation-method"
-                      ]
-                    },
-                    {
                       message: "Unexpected BCD keys",
                       data: [
                         "Actual:",
@@ -20779,7 +20751,7 @@ css.types.image.gradient.repeating-conic-gradient.hue_interpolation_method
 css.types.image.gradient.repeating-linear-gradient.hue_interpolation_method
 css.types.image.gradient.repeating-radial-gradient.hue_interpolation_method`,
                         "Expected:",
-                        "css.types.hue-interpolation-method"
+                        "[None]"
                       ]
                     }
                   ]
@@ -21134,9 +21106,12 @@ css.properties.grid-template-rows.minmax`
                   slug: "/en-US/docs/Web/CSS/overflow-position",
                   messages: [
                     {
-                      message: "Not in BCD",
+                      message: "Unexpected BCD keys",
                       data: [
-                        "css.types.overflow-position"
+                        "Actual:",
+                        "css.types.overflow-position",
+                        "Expected:",
+                        "[None]"
                       ]
                     }
                   ]
@@ -24471,10 +24446,10 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Audio_codecs",
                           messages: [
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
                                 "https://lame.sourceforge.io/",
-                                "The operation timed out."
+                                "https://sourceforge.net/projects/lame/"
                               ]
                             }
                           ]
