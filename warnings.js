@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-e3xfym4p.js";
+} from "./chunk-egbrd8zp.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -2132,13 +2132,6 @@ var warnings_processed_default = {
                           data: [
                             "https://codepen.io/mxmason/pen/XWbPNmw"
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://phabricator.wikimedia.org/T241180",
-                            "429 Retry-After: 1000"
-                          ]
                         }
                       ]
                     },
@@ -3919,6 +3912,13 @@ var warnings_processed_default = {
                           slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/mongoose",
                           messages: [
                             {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.mongodb.com/try/download/community-edition/releases",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
                               message: "JS code issue",
                               data: [
                                 "Parsing error: '(' expected.",
@@ -4408,19 +4408,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via page",
                           data: []
-                        }
-                      ]
-                    },
-                    how_do_you_host_your_website_on_google_app_engine: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gaesamplesite.appspot.com/",
-                            503
-                          ]
                         }
                       ]
                     }
@@ -11216,6 +11203,20 @@ var warnings_processed_default = {
                             "[4]",
                             "Text before link:",
                             "."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.cedars-sinai.org/health-library/diseases-and-conditions/p/photosensitive-seizures.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.cedars-sinai.org/health-library/diseases-and-conditions/p/photosensitive-seizures.html",
+                            "Cannot reach server and Bun hangs"
                           ]
                         },
                         {
@@ -18094,18 +18095,6 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                "box-shadow": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/box-shadow",
-                  messages: [
-                    {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/CSS/box-shadow#interpolation"
-                      ]
-                    }
-                  ]
-                },
                 "calc-keyword": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/calc-keyword",
@@ -19911,18 +19900,6 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                filter: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/filter",
-                  messages: [
-                    {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/CSS/filter#interpolation"
-                      ]
-                    }
-                  ]
-                },
                 "filter-function": {
                   children: {
                     blur: {
@@ -20162,30 +20139,6 @@ css.properties.width.fit-content_function`
                       data: [
                         "/en-US/docs/Web/CSS/font-stretch",
                         "#interpolation"
-                      ]
-                    }
-                  ]
-                },
-                "font-stretch": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-stretch",
-                  messages: [
-                    {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/CSS/font-stretch#interpolation"
-                      ]
-                    }
-                  ]
-                },
-                "font-weight": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-weight",
-                  messages: [
-                    {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/CSS/font-weight#interpolation"
                       ]
                     }
                   ]
@@ -20759,30 +20712,6 @@ css.properties.grid-template-rows.minmax`
                     }
                   ]
                 },
-                "overflow-x": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/overflow-x",
-                  messages: [
-                    {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/CSS/overflow-x"
-                      ]
-                    }
-                  ]
-                },
-                "overflow-y": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/overflow-y",
-                  messages: [
-                    {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/CSS/overflow-y"
-                      ]
-                    }
-                  ]
-                },
                 percentage: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/percentage",
@@ -21187,18 +21116,6 @@ css.properties.grid-template-rows.repeat`
                         "Unknown word rect (CssSyntaxError)",
                         "rect(top, right, bottom, left)",
                         "1:1"
-                      ]
-                    }
-                  ]
-                },
-                "shape-outside": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/shape-outside",
-                  messages: [
-                    {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/CSS/shape-outside"
                       ]
                     }
                   ]
@@ -21655,18 +21572,6 @@ css.properties.list-style-type.symbols`
                         "Missed semicolon (CssSyntaxError)",
                         "    opacity: 1,",
                         "18:16"
-                      ]
-                    }
-                  ]
-                },
-                visibility: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/visibility",
-                  messages: [
-                    {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/CSS/visibility#interpolation"
                       ]
                     }
                   ]
@@ -26601,12 +26506,6 @@ svg.elements.feSpotLight.z`
                                 "Text after code:",
                                 "|"
                               ]
-                            },
-                            {
-                              message: "Self link",
-                              data: [
-                                "/en-US/docs/Web/SVG/Reference/Element/a"
-                              ]
                             }
                           ]
                         },
@@ -26867,12 +26766,6 @@ svg.elements.feSpotLight.z`
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Element/font-face",
                           messages: [
-                            {
-                              message: "Self link",
-                              data: [
-                                "/en-US/docs/Web/SVG/Reference/Element/font-face"
-                              ]
-                            },
                             {
                               message: "Broken anchor",
                               data: [
@@ -27471,12 +27364,6 @@ svg.elements.feSpotLight.z`
                                 "Text before link:",
                                 "|"
                               ]
-                            },
-                            {
-                              message: "Self link",
-                              data: [
-                                "/en-US/docs/Web/SVG/Reference/Element/marker"
-                              ]
                             }
                           ]
                         },
@@ -27514,12 +27401,6 @@ svg.elements.feSpotLight.z`
                                 "objectBoundingBox",
                                 "Text before code:",
                                 "|"
-                              ]
-                            },
-                            {
-                              message: "Self link",
-                              data: [
-                                "/en-US/docs/Web/SVG/Reference/Element/mask"
                               ]
                             }
                           ]
@@ -28040,18 +27921,6 @@ svg.elements.feSpotLight.z`
                                 "<percentage>",
                                 "Text before link:",
                                 "|"
-                              ]
-                            }
-                          ]
-                        },
-                        switch: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/switch",
-                          messages: [
-                            {
-                              message: "Self link",
-                              data: [
-                                "/en-US/docs/Web/SVG/Reference/Element/switch"
                               ]
                             }
                           ]
@@ -28612,12 +28481,6 @@ svg.elements.feSpotLight.z`
                                 "<percentage>",
                                 "Text before link:",
                                 "|"
-                              ]
-                            },
-                            {
-                              message: "Self link",
-                              data: [
-                                "/en-US/docs/Web/SVG/Reference/Element/tspan"
                               ]
                             }
                           ]
