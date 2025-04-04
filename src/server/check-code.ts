@@ -71,11 +71,15 @@ const stylelintConfig = {
   },
 };
 
-const expectedErrors = (await Bun.file(
-  Bun.fileURLToPath(
-    import.meta.resolve(`../../config/expected-lint-errors.txt`),
-  ),
-).text()).matchAll(/(?<file>\/en-US\/docs\/[^ ]+): (?<message>.*)\n~~~\n(?<code>(?:.|\n)+?)~~~\n/g);
+const expectedErrors = (
+  await Bun.file(
+    Bun.fileURLToPath(
+      import.meta.resolve(`../../config/expected-lint-errors.txt`),
+    ),
+  ).text()
+).matchAll(
+  /(?<file>\/en-US\/docs\/[^ ]+): (?<message>.*)\n~~~\n(?<code>(?:.|\n)+?)~~~\n/g,
+);
 const expectedErrorsMap = new Map<string, Map<string, Map<string, boolean>>>();
 
 export async function checkCode(
@@ -114,8 +118,13 @@ export async function checkCode(
         });
         for (const result of results) {
           result.messages.forEach((msg) => {
-            if (expectedErrorsMap.has(file) && expectedErrorsMap.get(file)!.has(content)) {
-              const expectedMessages = expectedErrorsMap.get(file)!.get(content)!;
+            if (
+              expectedErrorsMap.has(file) &&
+              expectedErrorsMap.get(file)!.has(content)
+            ) {
+              const expectedMessages = expectedErrorsMap
+                .get(file)!
+                .get(content)!;
               if (expectedMessages.has(msg.message)) {
                 expectedMessages.set(msg.message, true);
                 return;
@@ -140,8 +149,13 @@ export async function checkCode(
         });
         for (const result of results.results) {
           result.warnings.forEach((msg) => {
-            if (expectedErrorsMap.has(file) && expectedErrorsMap.get(file)!.has(content)) {
-              const expectedMessages = expectedErrorsMap.get(file)!.get(content)!;
+            if (
+              expectedErrorsMap.has(file) &&
+              expectedErrorsMap.get(file)!.has(content)
+            ) {
+              const expectedMessages = expectedErrorsMap
+                .get(file)!
+                .get(content)!;
               if (expectedMessages.has(msg.text)) {
                 expectedMessages.set(msg.text, true);
                 return;
@@ -168,7 +182,9 @@ export function postCheckCode() {
     for (const [code, messages] of blocks) {
       for (const [message, status] of messages) {
         if (!status) {
-          console.warn(`${file}: ${message}\n~~~\n${code}~~~\nIs no longer referenced`);
+          console.warn(
+            `${file}: ${message}\n~~~\n${code}~~~\nIs no longer referenced`,
+          );
         }
       }
     }

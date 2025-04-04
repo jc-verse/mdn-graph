@@ -330,7 +330,7 @@ function displayWarnings() {
         "Missing BCD table",
         "Missing data",
         "Missing sidebar",
-        "Missing specifications",
+        "Missing specifications macro",
         "Missing syntax code block",
         "Possibly unrendered Markdown",
         "Quoted code",

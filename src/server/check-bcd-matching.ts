@@ -238,7 +238,13 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
       const path = dictionaryToBCD(match[1].replaceAll("/", "."));
       if (configHas(dictionaries, path.split(".")[0])) return [];
       // I think BCD should separate Window and WorkerGlobalScope too
-      return [`api.${path.replace(/^(Window|WorkerGlobalScope)\./, "")}`];
+      if (path.startsWith("WorkerGlobalScope.") || path.startsWith("Window.")) {
+        const apiName = path.split(".")[1];
+        if (apiName in bcdData.api) {
+          return [`api.${apiName}`];
+        }
+      }
+      return [`api.${path}`];
     }
     // Web/CSS/
     case "css-at-rule": {

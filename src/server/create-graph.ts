@@ -256,13 +256,17 @@ export default async function createContentGraph() {
         });
       }
     }
-    const specURLs =
-      node.data.metadata.frontMatter["spec-urls"] ??
-      node.data.metadata.browserCompat
-        ?.map((k: string) => getBCD(bcdData, k)?.__compat?.spec_url)
-        .filter(Boolean);
-    if (specURLs?.length && !node.data.specifications && !["guide"].includes(node.data.metadata.pageType)) {
-      report(node, "Missing specifications");
+    if (
+      (node.data.metadata.frontMatter["spec-urls"]?.length ||
+        (node.data.metadata.browserCompat
+          ?.map((k: string) => getBCD(bcdData, k)?.__compat?.spec_url)
+          .filter(Boolean).length &&
+          !["guide", "learn-module-chapter"].includes(
+            node.data.metadata.pageType,
+          ))) &&
+      !node.data.specifications
+    ) {
+      report(node, "Missing specifications macro");
     }
     if (
       node.data.metadata.browserCompat &&
