@@ -123,3 +123,5 @@ storage.managed_schema
 first baseline	/en-US/docs/Web/CSS/baseline-position
 last baseline	/en-US/docs/Web/CSS/baseline-position
 string text	/en-US/docs/Web/JavaScript/Reference/Template_literals
+  Comes from the WebExtAllExamples macro; not easily fixable
+userScripts.register() (Legacy)	/en-US/docs/Mozilla/Add-ons/WebExtensions/Examples

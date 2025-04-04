@@ -9,6 +9,8 @@ html.global_attributes.itemref
 html.global_attributes.itemscope
 html.global_attributes.itemtype
 
+http.headers.Accept-Patch
+http.headers.Accept-Post
 http.headers.Allow
 http.headers.Alt-Used
 http.headers.Content-Digest

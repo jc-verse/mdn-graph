@@ -12,6 +12,7 @@ https://inkscape.org/{(learn)?/?}
 https://x.com/{.*}
 https://automate.browserstack.com/dashboard/
 https://chatgpt.com/
+https://openai.com/{.*}
 
   404 on purpose:
 https://konmari.com/404

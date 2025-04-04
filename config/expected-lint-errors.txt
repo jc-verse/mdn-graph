@@ -8,7 +8,7 @@
 const unusualPropertyNames = {
   "": "An empty string",
   "!": "Bang!",
-}
+};
 console.log(unusualPropertyNames.""); // SyntaxError: Unexpected string
 console.log(unusualPropertyNames.!); // SyntaxError: Unexpected token !
 ~~~
@@ -779,4 +779,20 @@ function foo() {
 ~~~
 margin: 0auto;
 padding- left: 10px;
+~~~
+
+/en-US/docs/Mozilla/Add-ons/WebExtensions/Internationalization: Unknown word padding-__MSG_ (CssSyntaxError)
+~~~
+body {
+  direction: __MSG_@@bidi_dir__;
+}
+
+div#header {
+  margin-bottom: 1.05em;
+  overflow: hidden;
+  padding-bottom: 1.5em;
+  padding-__MSG_@@bidi_start_edge__: 0;
+  padding-__MSG_@@bidi_end_edge__: 1.5em;
+  position: relative;
+}
 ~~~

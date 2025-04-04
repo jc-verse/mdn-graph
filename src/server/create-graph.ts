@@ -230,6 +230,8 @@ export default async function createContentGraph() {
         if (
           part.value.id === "syntax" &&
           ![
+            "guide",
+            "html-attribute",
             "mdn-writing-guide",
             "webextension-manifest-key",
             "webdriver-command",
@@ -259,7 +261,7 @@ export default async function createContentGraph() {
       node.data.metadata.browserCompat
         ?.map((k: string) => getBCD(bcdData, k)?.__compat?.spec_url)
         .filter(Boolean);
-    if (specURLs?.length && !node.data.specifications) {
+    if (specURLs?.length && !node.data.specifications && !["guide"].includes(node.data.metadata.pageType)) {
       report(node, "Missing specifications");
     }
     if (
