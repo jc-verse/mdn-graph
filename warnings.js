@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-krg3eygn.js";
+} from "./chunk-4pd0k2e9.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -1030,26 +1030,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            gpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/GPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/gpl-faq.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/gpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                }
-              ]
-            },
             "high-level_programming_language": {
               children: {},
               slug: "/en-US/docs/Glossary/High-level_programming_language",
@@ -1140,19 +1120,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            lgpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/LGPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/lgpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                }
-              ]
-            },
             literal: {
               children: {},
               slug: "/en-US/docs/Glossary/Literal",
@@ -1231,6 +1198,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            "node.js": {
+              children: {},
+              slug: "/en-US/docs/Glossary/Node.js",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -3010,24 +2990,6 @@ var warnings_processed_default = {
                 },
                 structuring_content: {
                   children: {
-                    debugging_html: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Debugging_HTML",
-                      messages: [
-                        {
-                          message: "Quoted code",
-                          data: [
-                            "strong"
-                          ]
-                        },
-                        {
-                          message: "Quoted code",
-                          data: [
-                            "ul"
-                          ]
-                        }
-                      ]
-                    },
                     general_embedding_technologies: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/General_embedding_technologies",
@@ -3050,17 +3012,7 @@ var warnings_processed_default = {
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
+                      }
                     },
                     html_video_and_audio: {
                       children: {
@@ -3290,13 +3242,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/guide/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -3393,6 +3338,23 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        }
+                      ]
+                    }
+                  }
+                },
+                text_styling: {
+                  children: {
+                    web_fonts: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.exljbris.com/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -3732,13 +3694,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/gzip/",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     }
@@ -3947,12 +3902,6 @@ var warnings_processed_default = {
                               children: {},
                               slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/forms/Create_book_form",
                               messages: [
-                                {
-                                  message: "Quoted code",
-                                  data: [
-                                    "genre"
-                                  ]
-                                },
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
@@ -4501,33 +4450,6 @@ var warnings_processed_default = {
                 },
                 tools_and_setup: {
                   children: {
-                    available_text_editors: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/efaq.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -4545,28 +4467,8 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://gaesamplesite.appspot.com/downloads.html",
-                            503
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://gaesamplesite.appspot.com/",
                             503
-                          ]
-                        }
-                      ]
-                    },
-                    what_software_do_i_need: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -4748,22 +4650,6 @@ var warnings_processed_default = {
                     }
                   ]
                 },
-                code_style_guide: {
-                  children: {
-                    html: {
-                      children: {},
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Code_style_guide/HTML",
-                      messages: [
-                        {
-                          message: "Quoted code",
-                          data: [
-                            "<title>"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 howto: {
                   children: {
                     write_an_api_reference: {
@@ -4843,30 +4729,6 @@ var warnings_processed_default = {
                           message: "Invalid code block language",
                           data: [
                             "yml"
-                          ]
-                        }
-                      ]
-                    },
-                    links: {
-                      children: {},
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Links",
-                      messages: [
-                        {
-                          message: "Quoted code",
-                          data: [
-                            "<input/range>"
-                          ]
-                        },
-                        {
-                          message: "Quoted code",
-                          data: [
-                            '<input type="range">'
-                          ]
-                        },
-                        {
-                          message: "Quoted code",
-                          data: [
-                            "background-color"
                           ]
                         }
                       ]
@@ -5099,12 +4961,6 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Syntax_sections",
                       messages: [
-                        {
-                          message: "Quoted code",
-                          data: [
-                            "unshift"
-                          ]
-                        },
                         {
                           message: "JS code issue",
                           data: [
@@ -9424,6 +9280,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://nvd.nist.gov/vuln/detail/CVE-2017-5384",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -11716,16 +11579,7 @@ var warnings_processed_default = {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/Attribution_Reporting_API",
-                  messages: [
-                    {
-                      message: "Quoted code",
-                      data: [
-                        "shop.example"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 audioworkletprocessor: {
                   children: {
@@ -20969,30 +20823,6 @@ css.properties.grid-template-rows.minmax`
                   slug: "/en-US/docs/Web/CSS/Reference",
                   messages: [
                     {
-                      message: "Quoted code",
-                      data: [
-                        "A"
-                      ]
-                    },
-                    {
-                      message: "Quoted code",
-                      data: [
-                        "B"
-                      ]
-                    },
-                    {
-                      message: "Quoted code",
-                      data: [
-                        "A"
-                      ]
-                    },
-                    {
-                      message: "Quoted code",
-                      data: [
-                        "B"
-                      ]
-                    },
-                    {
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/CSS/:active-view-transition-type()"
@@ -22869,19 +22699,6 @@ html.elements.select.size`
                   children: {
                     headers: {
                       children: {
-                        accept: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.gnu.org/software/wget/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
                         "available-dictionary": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Available-Dictionary",
@@ -23474,18 +23291,6 @@ html.elements.select.size`
                               ]
                             }
                           ]
-                        },
-                        strict_non_simple_params: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Strict_non_simple_params",
-                          messages: [
-                            {
-                              message: "Quoted code",
-                              data: [
-                                '"use strict"'
-                              ]
-                            }
-                          ]
                         }
                       },
                       slug: "/en-US/docs/Web/JavaScript/Reference/Errors",
@@ -23653,40 +23458,6 @@ html.elements.select.size`
                             }
                           }
                         },
-                        intl: {
-                          children: {
-                            numberformat: {
-                              children: {
-                                resolvedoptions: {
-                                  children: {},
-                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/resolvedOptions",
-                                  messages: [
-                                    {
-                                      message: "Broken external link",
-                                      data: [
-                                        "https://github.com/unicode-org/cldr/blob/main/common/validity/unit.xml",
-                                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                      ]
-                                    }
-                                  ]
-                                }
-                              }
-                            },
-                            supportedvaluesof: {
-                              children: {},
-                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/supportedValuesOf",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/unicode-org/cldr/blob/main/common/validity/unit.xml",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            }
-                          }
-                        },
                         number: {
                           children: {
                             nan: {
@@ -23745,40 +23516,7 @@ html.elements.select.size`
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
-                          messages: [
-                            {
-                              message: "Quoted code",
-                              data: [
-                                "null"
-                              ]
-                            }
-                          ]
-                        },
-                        proxy: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
-                          messages: [
-                            {
-                              message: "Quoted code",
-                              data: [
-                                "this"
-                              ]
-                            }
-                          ]
-                        },
-                        symbol: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
-                          messages: [
-                            {
-                              message: "Quoted code",
-                              data: [
-                                "Symbol.hasInstance"
-                              ]
-                            }
-                          ]
+                          }
                         },
                         temporal: {
                           children: {
@@ -23998,49 +23736,6 @@ html.elements.select.size`
                         }
                       }
                     },
-                    regular_expressions: {
-                      children: {
-                        character_class: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Character_class",
-                          messages: [
-                            {
-                              message: "Quoted code",
-                              data: [
-                                "[0-9]"
-                              ]
-                            }
-                          ]
-                        },
-                        lookahead_assertion: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Lookahead_assertion",
-                          messages: [
-                            {
-                              message: "Quoted code",
-                              data: [
-                                "c"
-                              ]
-                            }
-                          ]
-                        }
-                      },
-                      slug: "/en-US/docs/Web/JavaScript/Reference/Regular_expressions",
-                      messages: [
-                        {
-                          message: "Quoted code",
-                          data: [
-                            "b"
-                          ]
-                        },
-                        {
-                          message: "Quoted code",
-                          data: [
-                            "b"
-                          ]
-                        }
-                      ]
-                    },
                     statements: {
                       children: {
                         expression_statement: {
@@ -24117,24 +23812,6 @@ html.elements.select.size`
                           ]
                         }
                       }
-                    },
-                    trailing_commas: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Reference/Trailing_commas",
-                      messages: [
-                        {
-                          message: "Quoted code",
-                          data: [
-                            "n"
-                          ]
-                        },
-                        {
-                          message: "Quoted code",
-                          data: [
-                            "n"
-                          ]
-                        }
-                      ]
                     }
                   }
                 }
@@ -29506,18 +29183,6 @@ svg.elements.feSpotLight.z`
                         "Parsing error: ';' expected.",
                         "  instance: Instance, // A new WebAssembly.Instance of the module object",
                         "3:9"
-                      ]
-                    }
-                  ]
-                },
-                understanding_the_text_format: {
-                  children: {},
-                  slug: "/en-US/docs/WebAssembly/Guides/Understanding_the_text_format",
-                  messages: [
-                    {
-                      message: "Quoted code",
-                      data: [
-                        "$i"
                       ]
                     }
                   ]
