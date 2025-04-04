@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-zddyzxwz.js";
+} from "./chunk-872g4c5j.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -735,6 +735,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            adobe_flash: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Adobe_Flash",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://developers.facebook.com/blog/post/2017/07/25/Games-Migration-to-Open-Web-Standards/",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -1696,19 +1709,6 @@ var warnings_processed_default = {
                           ]
                         }
                       }
-                    },
-                    what_is_accessibility: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/What_is_accessibility",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://humanrights.gov.au/our-work/disability-rights/world-wide-web-access-disability-discrimination-act-advisory-notes-ver",
-                            "https://humanrights.gov.au/our-work/disability-rights/publications/guidelines-equal-access-digital-goods-and-services"
-                          ]
-                        }
-                      ]
                     }
                   }
                 },
@@ -3264,13 +3264,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/guide/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -3458,18 +3451,6 @@ var warnings_processed_default = {
                 },
                 forms: {
                   children: {
-                    customizable_select: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Glossary/inert"
-                          ]
-                        }
-                      ]
-                    },
                     how_to_build_custom_form_controls: {
                       children: {
                         example_1: {
@@ -4046,19 +4027,6 @@ var warnings_processed_default = {
                 },
                 testing: {
                   children: {
-                    feature_detection: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Feature_detection",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Core/Scripting/Debugging_JavaScript",
-                            "#dont_browser_sniff"
-                          ]
-                        }
-                      ]
-                    },
                     html_and_css: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS",
@@ -4073,6 +4041,26 @@ var warnings_processed_default = {
                         }
                       ]
                     },
+                    testing_strategies: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.virtualbox.org/wiki/Downloads",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.virtualbox.org/wiki/Downloads",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     your_own_automation_environment: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Your_own_automation_environment",
@@ -4083,27 +4071,6 @@ var warnings_processed_default = {
                             "Parsing error: Unexpected keyword or identifier.",
                             "npm install axios",
                             "1:9"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                }
-              }
-            },
-            getting_started: {
-              children: {
-                soft_skills: {
-                  children: {
-                    research_and_learning: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Research_and_learning",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://openai.com/index/chatgpt",
-                            403
                           ]
                         }
                       ]
@@ -4514,19 +4481,6 @@ var warnings_processed_default = {
                 },
                 tools_and_setup: {
                   children: {
-                    available_text_editors: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://lists.macromates.com/postorius/lists/textmate.lists.macromates.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -4662,19 +4616,6 @@ var warnings_processed_default = {
                     }
                   ]
                 },
-                pull_requests: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Community/Pull_requests",
-                  messages: [
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/MDN/Community/Community_Participation_Guidelines",
-                        "#how_to_report"
-                      ]
-                    }
-                  ]
-                },
                 security_vulnerability_response: {
                   children: {},
                   slug: "/en-US/docs/MDN/Community/Security_vulnerability_response",
@@ -4695,17 +4636,7 @@ var warnings_processed_default = {
                     }
                   ]
                 }
-              },
-              slug: "/en-US/docs/MDN/Community",
-              messages: [
-                {
-                  message: "Broken anchor",
-                  data: [
-                    "/en-US/docs/MDN/Community/Community_Participation_Guidelines",
-                    "#how_to_report"
-                  ]
-                }
-              ]
+              }
             },
             writing_guidelines: {
               children: {
@@ -6210,12 +6141,6 @@ var warnings_processed_default = {
                           data: [
                             "Demonstrates multiple ways to redirect requests using the declarativeNetRequest API through the `declarative_net_request` manifest key. Demonstrates aspects of Manifest Version 3 (MV3): action, host_permissions, and web_accessible_resources, and includes a comparison with Manifest Version 2 (MV2)."
                           ]
-                        },
-                        {
-                          message: "Code with space",
-                          data: [
-                            "userScripts.register() (Legacy)"
-                          ]
                         }
                       ]
                     },
@@ -6236,10 +6161,6 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Interact_with_the_clipboard",
                       messages: [
                         {
-                          message: "Missing specifications",
-                          data: []
-                        },
-                        {
                           message: "Not linked from parent page",
                           data: [
                             "/en-US/docs/Mozilla/Add-ons/WebExtensions"
@@ -6256,14 +6177,6 @@ var warnings_processed_default = {
                           data: [
                             "http://i18njs.com/",
                             ""
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "Unknown word padding-__MSG_ (CssSyntaxError)",
-                            "  padding-__MSG_@@bidi_start_edge__: 0;",
-                            "9:3"
                           ]
                         }
                       ]
@@ -6724,18 +6637,6 @@ var warnings_processed_default = {
             },
             firefox: {
               children: {
-                experimental_features: {
-                  children: {},
-                  slug: "/en-US/docs/Mozilla/Firefox/Experimental_features",
-                  messages: [
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/API/HTMLElement/textContent"
-                      ]
-                    }
-                  ]
-                },
                 releases: {
                   children: {
                     "2": {
@@ -11705,69 +11606,6 @@ var warnings_processed_default = {
                         {
                           message: "Broken browser compat anchor",
                           data: []
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/attribution-reporting/custom-report-windows",
-                            "https://privacysandbox.google.com/private-advertising/attribution-reporting/custom-report-windows"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/attribution-reporting/summary-reports-intro",
-                            "https://privacysandbox.google.com/private-advertising/attribution-reporting/summary-reports-intro"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/aggregation-service",
-                            "https://privacysandbox.google.com/private-advertising/aggregation-service"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/attribution-reporting/custom-report-windows",
-                            "https://privacysandbox.google.com/private-advertising/attribution-reporting/custom-report-windows"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/attribution-reporting/understanding-noise",
-                            "https://privacysandbox.google.com/private-advertising/attribution-reporting/understanding-noise"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/attribution-reporting/working-with-noise",
-                            "https://privacysandbox.google.com/private-advertising/attribution-reporting/working-with-noise"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/attribution-reporting/attribution-reporting-debugging/",
-                            "https://privacysandbox.google.com/private-advertising/attribution-reporting/attribution-reporting-debugging"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/attribution-reporting/attribution-reporting-debugging/part-2/",
-                            "https://privacysandbox.google.com/private-advertising/attribution-reporting/attribution-reporting-debugging/part-2"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/attribution-reporting/attribution-reporting-debugging/part-3/",
-                            "https://privacysandbox.google.com/private-advertising/attribution-reporting/attribution-reporting-debugging/part-3"
-                          ]
                         }
                       ]
                     },
@@ -11788,13 +11626,6 @@ var warnings_processed_default = {
                         {
                           message: "Broken browser compat anchor",
                           data: []
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/attribution-reporting/prevent-duplication",
-                            "https://privacysandbox.google.com/private-advertising/attribution-reporting/prevent-duplication"
-                          ]
                         }
                       ]
                     }
@@ -11805,27 +11636,6 @@ var warnings_processed_default = {
                       message: "Quoted code",
                       data: [
                         "shop.example"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/attribution-reporting/",
-                        "https://privacysandbox.google.com/private-advertising/attribution-reporting"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/attribution-reporting/enable-conversion-measurement",
-                        "https://privacysandbox.google.com/private-advertising/attribution-reporting/enable-conversion-measurement"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/",
-                        "https://privacysandbox.google.com/"
                       ]
                     }
                   ]
@@ -12014,20 +11824,6 @@ var warnings_processed_default = {
                             "paint(ctx, size, props, args) {",
                             "1:9"
                           ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                css_properties_and_values_api: {
-                  children: {
-                    guide: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSS_Properties_and_Values_API/guide",
-                      messages: [
-                        {
-                          message: "Missing specifications",
-                          data: []
                         }
                       ]
                     }
@@ -12331,6 +12127,88 @@ var warnings_processed_default = {
                     }
                   }
                 },
+                document_object_model: {
+                  children: {
+                    locating_dom_elements_using_selectors: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document_Object_Model/Locating_DOM_elements_using_selectors",
+                      messages: [
+                        {
+                          message: "Not linked from parent page",
+                          data: [
+                            "/en-US/docs/Web/API/Document_Object_Model"
+                          ]
+                        }
+                      ]
+                    },
+                    transforming_with_xslt: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document_Object_Model/Transforming_with_XSLT",
+                      messages: [
+                        {
+                          message: "Not linked from parent page",
+                          data: [
+                            "/en-US/docs/Web/API/Document_Object_Model"
+                          ]
+                        }
+                      ]
+                    },
+                    traversing_an_html_table_with_javascript_and_dom_interfaces: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document_Object_Model/Traversing_an_HTML_table_with_JavaScript_and_DOM_Interfaces",
+                      messages: [
+                        {
+                          message: "Not linked from parent page",
+                          data: [
+                            "/en-US/docs/Web/API/Document_Object_Model"
+                          ]
+                        }
+                      ]
+                    },
+                    using_the_document_object_model: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document_Object_Model/Using_the_Document_Object_Model",
+                      messages: [
+                        {
+                          message: "Not linked from parent page",
+                          data: [
+                            "/en-US/docs/Web/API/Document_Object_Model"
+                          ]
+                        }
+                      ]
+                    },
+                    whitespace: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document_Object_Model/Whitespace",
+                      messages: [
+                        {
+                          message: "Not linked from parent page",
+                          data: [
+                            "/en-US/docs/Web/API/Document_Object_Model"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                "document_picture-in-picture_api": {
+                  children: {
+                    using: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document_Picture-in-Picture_API/Using",
+                      messages: [
+                        {
+                          message: "Broken browser compat anchor",
+                          data: []
+                        },
+                        {
+                          message: "Broken browser compat anchor",
+                          data: []
+                        }
+                      ]
+                    }
+                  }
+                },
                 document: {
                   children: {
                     anchors: {
@@ -12412,97 +12290,6 @@ var warnings_processed_default = {
                           data: [
                             "api.Document.paste_event"
                           ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/Document",
-                  messages: [
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/API/HTMLElement/resize_event"
-                      ]
-                    }
-                  ]
-                },
-                document_object_model: {
-                  children: {
-                    locating_dom_elements_using_selectors: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document_Object_Model/Locating_DOM_elements_using_selectors",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/Document_Object_Model"
-                          ]
-                        }
-                      ]
-                    },
-                    transforming_with_xslt: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document_Object_Model/Transforming_with_XSLT",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/Document_Object_Model"
-                          ]
-                        }
-                      ]
-                    },
-                    traversing_an_html_table_with_javascript_and_dom_interfaces: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document_Object_Model/Traversing_an_HTML_table_with_JavaScript_and_DOM_Interfaces",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/Document_Object_Model"
-                          ]
-                        }
-                      ]
-                    },
-                    using_the_document_object_model: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document_Object_Model/Using_the_Document_Object_Model",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/Document_Object_Model"
-                          ]
-                        }
-                      ]
-                    },
-                    whitespace: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document_Object_Model/Whitespace",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/Document_Object_Model"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                "document_picture-in-picture_api": {
-                  children: {
-                    using: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document_Picture-in-Picture_API/Using",
-                      messages: [
-                        {
-                          message: "Broken browser compat anchor",
-                          data: []
-                        },
-                        {
-                          message: "Broken browser compat anchor",
-                          data: []
                         }
                       ]
                     }
@@ -12638,419 +12425,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                fedcm_api: {
-                  children: {
-                    idp_integration: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/FedCM_API/IDP_integration",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/blog/fedcm-chrome-120-updates",
-                            "https://privacysandbox.google.com/blog/fedcm-chrome-120-updates"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/blog/fedcm-chrome-120-updates",
-                            "https://privacysandbox.google.com/blog/fedcm-chrome-120-updates"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/cookies/fedcm",
-                            "https://privacysandbox.google.com/cookies/fedcm"
-                          ]
-                        }
-                      ]
-                    },
-                    "rp_sign-in": {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/FedCM_API/RP_sign-in",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/cookies/fedcm",
-                            "https://privacysandbox.google.com/cookies/fedcm"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/cookies/fedcm",
-                            "https://privacysandbox.google.com/cookies/fedcm"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/FedCM_API",
-                  messages: [
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/cookies/fedcm",
-                        "https://privacysandbox.google.com/cookies/fedcm"
-                      ]
-                    }
-                  ]
-                },
-                fence: {
-                  children: {
-                    getnestedconfigs: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Fence/getNestedConfigs",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
-                            "https://privacysandbox.google.com/private-advertising/protected-audience"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/fenced-frame",
-                            "https://privacysandbox.google.com/private-advertising/fenced-frame"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox",
-                            "https://privacysandbox.google.com/"
-                          ]
-                        }
-                      ]
-                    },
-                    reportevent: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Fence/reportEvent",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
-                            "https://privacysandbox.google.com/private-advertising/protected-audience"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
-                            "https://privacysandbox.google.com/private-advertising/protected-audience"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/shared-storage",
-                            "https://privacysandbox.google.com/private-advertising/shared-storage"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/fenced-frame",
-                            "https://privacysandbox.google.com/private-advertising/fenced-frame"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox",
-                            "https://privacysandbox.google.com/"
-                          ]
-                        }
-                      ]
-                    },
-                    setreporteventdataforautomaticbeacons: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Fence/setReportEventDataForAutomaticBeacons",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
-                            "https://privacysandbox.google.com/private-advertising/protected-audience"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/shared-storage",
-                            "https://privacysandbox.google.com/private-advertising/shared-storage"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/fenced-frame",
-                            "https://privacysandbox.google.com/private-advertising/fenced-frame"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox",
-                            "https://privacysandbox.google.com/"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/Fence",
-                  messages: [
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
-                        "https://privacysandbox.google.com/private-advertising/protected-audience"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
-                        "https://privacysandbox.google.com/private-advertising/protected-audience"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/fenced-frame",
-                        "https://privacysandbox.google.com/private-advertising/fenced-frame"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox",
-                        "https://privacysandbox.google.com/"
-                      ]
-                    }
-                  ]
-                },
-                fenced_frame_api: {
-                  children: {
-                    communication_with_embedded_frames: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Fenced_frame_API/Communication_with_embedded_frames",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
-                            "https://privacysandbox.google.com/private-advertising/protected-audience"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/Fenced_frame_API",
-                  messages: [
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/shared-storage",
-                        "https://privacysandbox.google.com/private-advertising/shared-storage"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
-                        "https://privacysandbox.google.com/private-advertising/protected-audience"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/private-aggregation",
-                        "https://privacysandbox.google.com/private-advertising/private-aggregation"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
-                        "https://privacysandbox.google.com/private-advertising/protected-audience"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/shared-storage",
-                        "https://privacysandbox.google.com/private-advertising/shared-storage"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox",
-                        "https://privacysandbox.google.com/"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/shared-storage",
-                        "https://privacysandbox.google.com/private-advertising/shared-storage"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
-                        "https://privacysandbox.google.com/private-advertising/protected-audience"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
-                        "https://privacysandbox.google.com/private-advertising/protected-audience"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/fenced-frame",
-                        "https://privacysandbox.google.com/private-advertising/fenced-frame"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox",
-                        "https://privacysandbox.google.com/"
-                      ]
-                    }
-                  ]
-                },
-                fencedframeconfig: {
-                  children: {
-                    setsharedstoragecontext: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/FencedFrameConfig/setSharedStorageContext",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/shared-storage",
-                            "https://privacysandbox.google.com/private-advertising/shared-storage"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/private-aggregation",
-                            "https://privacysandbox.google.com/private-advertising/private-aggregation"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
-                            "https://privacysandbox.google.com/private-advertising/protected-audience"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/shared-storage",
-                            "https://privacysandbox.google.com/private-advertising/shared-storage"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/fenced-frame",
-                            "https://privacysandbox.google.com/private-advertising/fenced-frame"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox",
-                            "https://privacysandbox.google.com/"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/FencedFrameConfig",
-                  messages: [
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
-                        "https://privacysandbox.google.com/private-advertising/protected-audience"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
-                        "https://privacysandbox.google.com/private-advertising/protected-audience"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/shared-storage",
-                        "https://privacysandbox.google.com/private-advertising/shared-storage"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/private-aggregation",
-                        "https://privacysandbox.google.com/private-advertising/private-aggregation"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
-                        "https://privacysandbox.google.com/private-advertising/protected-audience"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/shared-storage",
-                        "https://privacysandbox.google.com/private-advertising/shared-storage"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/private-aggregation",
-                        "https://privacysandbox.google.com/private-advertising/private-aggregation"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/fenced-frame",
-                        "https://privacysandbox.google.com/private-advertising/fenced-frame"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox",
-                        "https://privacysandbox.google.com/"
-                      ]
-                    }
-                  ]
-                },
                 fetchevent: {
                   children: {
                     replacesclientid: {
@@ -13096,18 +12470,6 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                fileentrysync: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/FileEntrySync",
-                  messages: [
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "#createreader"
-                      ]
-                    }
-                  ]
                 },
                 filesystemchangerecord: {
                   children: {},
@@ -13294,12 +12656,6 @@ var warnings_processed_default = {
                   slug: "/en-US/docs/Web/API/HTML_Drag_and_Drop_API",
                   messages: [
                     {
-                      message: "Broken anchor",
-                      data: [
-                        "#interoperability"
-                      ]
-                    },
-                    {
                       message: "External sandbox link",
                       data: [
                         "https://jsfiddle.net/9C2EF/"
@@ -13427,159 +12783,7 @@ var warnings_processed_default = {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/HTMLElement",
-                  messages: [
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/API/HTMLElement/cancel_event"
-                      ]
-                    }
-                  ]
-                },
-                htmlfencedframeelement: {
-                  children: {
-                    allow: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLFencedFrameElement/allow",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/fenced-frame",
-                            "https://privacysandbox.google.com/private-advertising/fenced-frame"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox",
-                            "https://privacysandbox.google.com/"
-                          ]
-                        }
-                      ]
-                    },
-                    config: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLFencedFrameElement/config",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
-                            "https://privacysandbox.google.com/private-advertising/protected-audience"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
-                            "https://privacysandbox.google.com/private-advertising/protected-audience"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/shared-storage",
-                            "https://privacysandbox.google.com/private-advertising/shared-storage"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/fenced-frame",
-                            "https://privacysandbox.google.com/private-advertising/fenced-frame"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox",
-                            "https://privacysandbox.google.com/"
-                          ]
-                        }
-                      ]
-                    },
-                    height: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLFencedFrameElement/height",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/fenced-frame",
-                            "https://privacysandbox.google.com/private-advertising/fenced-frame"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox",
-                            "https://privacysandbox.google.com/"
-                          ]
-                        }
-                      ]
-                    },
-                    width: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLFencedFrameElement/width",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/fenced-frame",
-                            "https://privacysandbox.google.com/private-advertising/fenced-frame"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox",
-                            "https://privacysandbox.google.com/"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/HTMLFencedFrameElement",
-                  messages: [
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
-                        "https://privacysandbox.google.com/private-advertising/protected-audience"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
-                        "https://privacysandbox.google.com/private-advertising/protected-audience"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/shared-storage",
-                        "https://privacysandbox.google.com/private-advertising/shared-storage"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/fenced-frame",
-                        "https://privacysandbox.google.com/private-advertising/fenced-frame"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox",
-                        "https://privacysandbox.google.com/"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 htmliframeelement: {
                   children: {
@@ -13648,63 +12852,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                htmltextareaelement: {
-                  children: {
-                    dirname: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLTextAreaElement/dirName",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Web/HTML/Element/textarea",
-                            "#value"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                identitycredential: {
-                  children: {
-                    isautoselected: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/IdentityCredential/isAutoSelected",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/cookies/fedcm",
-                            "https://privacysandbox.google.com/cookies/fedcm"
-                          ]
-                        }
-                      ]
-                    },
-                    token: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/IdentityCredential/token",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/cookies/fedcm",
-                            "https://privacysandbox.google.com/cookies/fedcm"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/IdentityCredential",
-                  messages: [
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/cookies/fedcm",
-                        "https://privacysandbox.google.com/cookies/fedcm"
-                      ]
-                    }
-                  ]
-                },
                 identitycredentialrequestoptions: {
                   children: {},
                   slug: "/en-US/docs/Web/API/IdentityCredentialRequestOptions",
@@ -13712,46 +12859,6 @@ var warnings_processed_default = {
                     {
                       message: "Broken browser compat anchor",
                       data: []
-                    }
-                  ]
-                },
-                identityprovider: {
-                  children: {
-                    close_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/IdentityProvider/close_static",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/cookies/fedcm",
-                            "https://privacysandbox.google.com/cookies/fedcm"
-                          ]
-                        }
-                      ]
-                    },
-                    getuserinfo_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/IdentityProvider/getUserInfo_static",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/cookies/fedcm",
-                            "https://privacysandbox.google.com/cookies/fedcm"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/IdentityProvider",
-                  messages: [
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/cookies/fedcm",
-                        "https://privacysandbox.google.com/cookies/fedcm"
-                      ]
                     }
                   ]
                 },
@@ -13841,22 +12948,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                "js_self-profiling_api": {
-                  children: {
-                    profile_content_and_format: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/JS_Self-Profiling_API/Profile_content_and_format",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#an_example"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 keyboardevent: {
                   children: {
                     charcode: {
@@ -13884,20 +12975,6 @@ var warnings_processed_default = {
                           data: [
                             "api.KeyboardEvent.initKeyEvent"
                           ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                media_capabilities_api: {
-                  children: {
-                    using_the_media_capabilities_api: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Media_Capabilities_API/Using_the_Media_Capabilities_API",
-                      messages: [
-                        {
-                          message: "Missing specifications",
-                          data: []
                         }
                       ]
                     }
@@ -14080,26 +13157,6 @@ var warnings_processed_default = {
                 },
                 navigator: {
                   children: {
-                    deprecatedreplaceinurn: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Navigator/deprecatedReplaceInURN",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
-                            "https://privacysandbox.google.com/private-advertising/protected-audience"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox",
-                            "https://privacysandbox.google.com/"
-                          ]
-                        }
-                      ]
-                    },
                     getbattery: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Navigator/getBattery",
@@ -14125,13 +13182,6 @@ var warnings_processed_default = {
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/API/Navigator/standalone"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox",
-                        "https://privacysandbox.google.com/"
                       ]
                     }
                   ]
@@ -14296,20 +13346,6 @@ var warnings_processed_default = {
                           data: [
                             "api.PaymentRequestEvent.instrumentKey"
                           ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                performance_api: {
-                  children: {
-                    monitoring_bfcache_blocking_reasons: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Performance_API/Monitoring_bfcache_blocking_reasons",
-                      messages: [
-                        {
-                          message: "Missing specifications",
-                          data: []
                         }
                       ]
                     }
@@ -14709,28 +13745,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                rtcremoteinboundrtpstreamstats: {
-                  children: {
-                    roundtriptimemeasurements: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/RTCRemoteInboundRtpStreamStats/roundTripTimeMeasurements",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#ssrc"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#ssrc"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 rtcstatsreport: {
                   children: {
                     "symbol.iterator": {
@@ -14758,30 +13772,6 @@ var warnings_processed_default = {
                           data: [
                             "#issues-with-the-element-capture-api"
                           ]
-                        }
-                      ]
-                    },
-                    using_screen_capture: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Screen_Capture_API/Using_Screen_Capture",
-                      messages: [
-                        {
-                          message: "Missing specifications",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                "server-sent_events": {
-                  children: {
-                    "using_server-sent_events": {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events",
-                      messages: [
-                        {
-                          message: "Missing specifications",
-                          data: []
                         }
                       ]
                     }
@@ -14817,93 +13807,10 @@ var warnings_processed_default = {
                     }
                   ]
                 },
-                shared_storage_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Shared_Storage_API",
-                  messages: [
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/select-url/creative-rotation",
-                        "https://privacysandbox.google.com/private-advertising/select-url/creative-rotation"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/select-url/ab-testing",
-                        "https://privacysandbox.google.com/private-advertising/select-url/ab-testing"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/select-url/known-customer",
-                        "https://privacysandbox.google.com/private-advertising/select-url/known-customer"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/private-aggregation",
-                        "https://privacysandbox.google.com/private-advertising/private-aggregation"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/private-aggregation/unique-reach",
-                        "https://privacysandbox.google.com/private-advertising/private-aggregation/unique-reach"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/private-aggregation/user-demographics",
-                        "https://privacysandbox.google.com/private-advertising/private-aggregation/user-demographics"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/private-aggregation/k-freq-reach",
-                        "https://privacysandbox.google.com/private-advertising/private-aggregation/k-freq-reach"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/select-url/ab-testing",
-                        "https://privacysandbox.google.com/private-advertising/select-url/ab-testing"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/shared-storage",
-                        "https://privacysandbox.google.com/private-advertising/shared-storage"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox",
-                        "https://privacysandbox.google.com/"
-                      ]
-                    }
-                  ]
-                },
                 sharedstorageoperation: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SharedStorageOperation",
                   messages: [
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/private-aggregation",
-                        "https://privacysandbox.google.com/private-advertising/private-aggregation"
-                      ]
-                    },
                     {
                       message: "Not in BCD",
                       data: [
@@ -14929,13 +13836,6 @@ var warnings_processed_default = {
                   },
                   slug: "/en-US/docs/Web/API/SharedStorageRunOperation",
                   messages: [
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/private-aggregation/unique-reach",
-                        "https://privacysandbox.google.com/private-advertising/private-aggregation/unique-reach"
-                      ]
-                    },
                     {
                       message: "Not in BCD",
                       data: [
@@ -14968,30 +13868,6 @@ var warnings_processed_default = {
                       ]
                     }
                   ]
-                },
-                storage_access_api: {
-                  children: {
-                    related_website_sets: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Storage_Access_API/Related_website_sets",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/cookies/related-website-sets",
-                            "https://privacysandbox.google.com/cookies/related-website-sets"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/cookies/related-website-sets-integration",
-                            "https://privacysandbox.google.com/cookies/related-website-sets-integration"
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 svgevent: {
                   children: {},
@@ -15133,40 +14009,6 @@ var warnings_processed_default = {
                     }
                   ]
                 },
-                topics_api: {
-                  children: {
-                    using: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Topics_API/Using",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/topics",
-                            "https://privacysandbox.google.com/private-advertising/topics"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/Topics_API",
-                  messages: [
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/topics",
-                        "https://privacysandbox.google.com/private-advertising/topics"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox",
-                        "https://privacysandbox.google.com/"
-                      ]
-                    }
-                  ]
-                },
                 touch_events: {
                   children: {
                     "multi-touch_interaction": {
@@ -15295,10 +14137,6 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats",
                       messages: [
                         {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
                           message: "Not linked from parent page",
                           data: [
                             "/en-US/docs/Web/API/Web_Animations_API"
@@ -15406,6 +14244,19 @@ var warnings_processed_default = {
                 },
                 web_audio_api: {
                   children: {
+                    advanced_techniques: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://soundbible.com/1573-DTMF-Tones.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
                     best_practices: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Best_practices",
@@ -16403,16 +15254,6 @@ var warnings_processed_default = {
                           ]
                         }
                       ]
-                    },
-                    using_encoded_transforms: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WebRTC_API/Using_Encoded_Transforms",
-                      messages: [
-                        {
-                          message: "Missing specifications",
-                          data: []
-                        }
-                      ]
                     }
                   }
                 },
@@ -16618,6 +15459,13 @@ var warnings_processed_default = {
                     {
                       message: "Missing specifications",
                       data: []
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/immersive-web/dom-overlays",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -16639,14 +15487,38 @@ var warnings_processed_default = {
                 },
                 window: {
                   children: {
-                    atob: {
+                    afterprint_event: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/Window/atob",
+                      slug: "/en-US/docs/Web/API/Window/afterprint_event",
                       messages: [
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.Window.atob"
+                            "api.afterprint_event"
+                          ]
+                        }
+                      ]
+                    },
+                    alert: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/alert",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.alert"
+                          ]
+                        }
+                      ]
+                    },
+                    appinstalled_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/appinstalled_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.appinstalled_event"
                           ]
                         }
                       ]
@@ -16658,55 +15530,163 @@ var warnings_processed_default = {
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.Window.back"
+                            "api.back"
                           ]
                         }
                       ]
                     },
-                    btoa: {
+                    beforeinstallprompt_event: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/Window/btoa",
+                      slug: "/en-US/docs/Web/API/Window/beforeinstallprompt_event",
                       messages: [
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.Window.btoa"
+                            "api.beforeinstallprompt_event"
                           ]
                         }
                       ]
                     },
-                    caches: {
+                    beforeprint_event: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/Window/caches",
+                      slug: "/en-US/docs/Web/API/Window/beforeprint_event",
                       messages: [
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.Window.caches"
+                            "api.beforeprint_event"
                           ]
                         }
                       ]
                     },
-                    clearinterval: {
+                    beforeunload_event: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/Window/clearInterval",
+                      slug: "/en-US/docs/Web/API/Window/beforeunload_event",
                       messages: [
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.Window.clearInterval"
+                            "api.beforeunload_event"
                           ]
                         }
                       ]
                     },
-                    cleartimeout: {
+                    blur: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/Window/clearTimeout",
+                      slug: "/en-US/docs/Web/API/Window/blur",
                       messages: [
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.Window.clearTimeout"
+                            "api.blur"
+                          ]
+                        }
+                      ]
+                    },
+                    blur_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/blur_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.blur_event"
+                          ]
+                        }
+                      ]
+                    },
+                    cancelanimationframe: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/cancelAnimationFrame",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.cancelAnimationFrame"
+                          ]
+                        }
+                      ]
+                    },
+                    cancelidlecallback: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/cancelIdleCallback",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.cancelIdleCallback"
+                          ]
+                        }
+                      ]
+                    },
+                    captureevents: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/captureEvents",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.captureEvents"
+                          ]
+                        }
+                      ]
+                    },
+                    clearimmediate: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/clearImmediate",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.clearImmediate"
+                          ]
+                        }
+                      ]
+                    },
+                    close: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/close",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.close"
+                          ]
+                        }
+                      ]
+                    },
+                    closed: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/closed",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.closed"
+                          ]
+                        }
+                      ]
+                    },
+                    confirm: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/confirm",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.confirm"
+                          ]
+                        }
+                      ]
+                    },
+                    cookiestore: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/cookieStore",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.cookieStore"
                           ]
                         }
                       ]
@@ -16718,43 +15698,31 @@ var warnings_processed_default = {
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.Window.copy_event"
+                            "api.copy_event"
                           ]
                         }
                       ]
                     },
-                    createimagebitmap: {
+                    credentialless: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/Window/createImageBitmap",
+                      slug: "/en-US/docs/Web/API/Window/credentialless",
                       messages: [
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.Window.createImageBitmap"
+                            "api.credentialless"
                           ]
                         }
                       ]
                     },
-                    crossoriginisolated: {
+                    customelements: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/Window/crossOriginIsolated",
+                      slug: "/en-US/docs/Web/API/Window/customElements",
                       messages: [
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.Window.crossOriginIsolated"
-                          ]
-                        }
-                      ]
-                    },
-                    crypto: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/crypto",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "api.Window.crypto"
+                            "api.customElements"
                           ]
                         }
                       ]
@@ -16766,7 +15734,127 @@ var warnings_processed_default = {
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.Window.cut_event"
+                            "api.cut_event"
+                          ]
+                        }
+                      ]
+                    },
+                    devicemotion_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/devicemotion_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.devicemotion_event"
+                          ]
+                        }
+                      ]
+                    },
+                    deviceorientation_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/deviceorientation_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.deviceorientation_event"
+                          ]
+                        }
+                      ]
+                    },
+                    deviceorientationabsolute_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/deviceorientationabsolute_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.deviceorientationabsolute_event"
+                          ]
+                        }
+                      ]
+                    },
+                    devicepixelratio: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/devicePixelRatio",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.devicePixelRatio"
+                          ]
+                        }
+                      ]
+                    },
+                    document: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/document",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.document"
+                          ]
+                        }
+                      ]
+                    },
+                    documentpictureinpicture: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/documentPictureInPicture",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.documentPictureInPicture"
+                          ]
+                        }
+                      ]
+                    },
+                    dump: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/dump",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.dump"
+                          ]
+                        }
+                      ]
+                    },
+                    error_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/error_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.error_event"
+                          ]
+                        }
+                      ]
+                    },
+                    event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.event"
+                          ]
+                        }
+                      ]
+                    },
+                    external: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/external",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.external"
                           ]
                         }
                       ]
@@ -16776,17 +15864,9 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Web/API/Window/fence",
                       messages: [
                         {
-                          message: "Redirected external link",
+                          message: "Not in BCD",
                           data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/fenced-frame",
-                            "https://privacysandbox.google.com/private-advertising/fenced-frame"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox",
-                            "https://privacysandbox.google.com/"
+                            "api.fence"
                           ]
                         }
                       ]
@@ -16854,11 +15934,41 @@ var warnings_processed_default = {
                           data: [
                             " notranslate"
                           ]
-                        },
+                        }
+                      ]
+                    },
+                    find: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/find",
+                      messages: [
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.Window.fetch"
+                            "api.find"
+                          ]
+                        }
+                      ]
+                    },
+                    focus: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/focus",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.focus"
+                          ]
+                        }
+                      ]
+                    },
+                    focus_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/focus_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.focus_event"
                           ]
                         }
                       ]
@@ -16870,43 +15980,547 @@ var warnings_processed_default = {
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.Window.forward"
+                            "api.forward"
                           ]
                         }
                       ]
                     },
-                    indexeddb: {
+                    frameelement: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/Window/indexedDB",
+                      slug: "/en-US/docs/Web/API/Window/frameElement",
                       messages: [
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.Window.indexedDB"
+                            "api.frameElement"
                           ]
                         }
                       ]
                     },
-                    issecurecontext: {
+                    frames: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/Window/isSecureContext",
+                      slug: "/en-US/docs/Web/API/Window/frames",
                       messages: [
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.Window.isSecureContext"
+                            "api.frames"
                           ]
                         }
                       ]
                     },
-                    origin: {
+                    fullscreen: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/Window/origin",
+                      slug: "/en-US/docs/Web/API/Window/fullScreen",
                       messages: [
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.Window.origin"
+                            "api.fullScreen"
+                          ]
+                        }
+                      ]
+                    },
+                    gamepadconnected_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/gamepadconnected_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.gamepadconnected_event"
+                          ]
+                        }
+                      ]
+                    },
+                    gamepaddisconnected_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/gamepaddisconnected_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.gamepaddisconnected_event"
+                          ]
+                        }
+                      ]
+                    },
+                    getcomputedstyle: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/getComputedStyle",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.getComputedStyle"
+                          ]
+                        }
+                      ]
+                    },
+                    getdefaultcomputedstyle: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/getDefaultComputedStyle",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.getDefaultComputedStyle"
+                          ]
+                        }
+                      ]
+                    },
+                    getscreendetails: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/getScreenDetails",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.getScreenDetails"
+                          ]
+                        }
+                      ]
+                    },
+                    getselection: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/getSelection",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.getSelection"
+                          ]
+                        }
+                      ]
+                    },
+                    hashchange_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/hashchange_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.hashchange_event"
+                          ]
+                        }
+                      ]
+                    },
+                    history: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/history",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.history"
+                          ]
+                        }
+                      ]
+                    },
+                    innerheight: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/innerHeight",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.innerHeight"
+                          ]
+                        }
+                      ]
+                    },
+                    innerwidth: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/innerWidth",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.innerWidth"
+                          ]
+                        }
+                      ]
+                    },
+                    languagechange_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/languagechange_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.languagechange_event"
+                          ]
+                        }
+                      ]
+                    },
+                    launchqueue: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/launchQueue",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.launchQueue"
+                          ]
+                        }
+                      ]
+                    },
+                    length: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/length",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.length"
+                          ]
+                        }
+                      ]
+                    },
+                    load_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/load_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.load_event"
+                          ]
+                        }
+                      ]
+                    },
+                    localstorage: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/localStorage",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.localStorage"
+                          ]
+                        }
+                      ]
+                    },
+                    location: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/location",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.location"
+                          ]
+                        }
+                      ]
+                    },
+                    locationbar: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/locationbar",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.locationbar"
+                          ]
+                        }
+                      ]
+                    },
+                    matchmedia: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/matchMedia",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.matchMedia"
+                          ]
+                        }
+                      ]
+                    },
+                    menubar: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/menubar",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.menubar"
+                          ]
+                        }
+                      ]
+                    },
+                    message_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/message_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.message_event"
+                          ]
+                        }
+                      ]
+                    },
+                    messageerror_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/messageerror_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.messageerror_event"
+                          ]
+                        }
+                      ]
+                    },
+                    moveby: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/moveBy",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.moveBy"
+                          ]
+                        }
+                      ]
+                    },
+                    moveto: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/moveTo",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.moveTo"
+                          ]
+                        }
+                      ]
+                    },
+                    mozinnerscreenx: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/mozInnerScreenX",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.mozInnerScreenX"
+                          ]
+                        }
+                      ]
+                    },
+                    mozinnerscreeny: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/mozInnerScreenY",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.mozInnerScreenY"
+                          ]
+                        }
+                      ]
+                    },
+                    name: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/name",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.name"
+                          ]
+                        }
+                      ]
+                    },
+                    navigation: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/navigation",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.navigation"
+                          ]
+                        }
+                      ]
+                    },
+                    navigator: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/navigator",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.navigator"
+                          ]
+                        }
+                      ]
+                    },
+                    offline_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/offline_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.offline_event"
+                          ]
+                        }
+                      ]
+                    },
+                    online_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/online_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.online_event"
+                          ]
+                        }
+                      ]
+                    },
+                    open: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/open",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.open"
+                          ]
+                        }
+                      ]
+                    },
+                    opener: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/opener",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.opener"
+                          ]
+                        }
+                      ]
+                    },
+                    orientation: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/orientation",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.orientation"
+                          ]
+                        }
+                      ]
+                    },
+                    orientationchange_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/orientationchange_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.orientationchange_event"
+                          ]
+                        }
+                      ]
+                    },
+                    originagentcluster: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/originAgentCluster",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.originAgentCluster"
+                          ]
+                        }
+                      ]
+                    },
+                    outerheight: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/outerHeight",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.outerHeight"
+                          ]
+                        }
+                      ]
+                    },
+                    outerwidth: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/outerWidth",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.outerWidth"
+                          ]
+                        }
+                      ]
+                    },
+                    pagehide_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/pagehide_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.pagehide_event"
+                          ]
+                        }
+                      ]
+                    },
+                    pagereveal_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/pagereveal_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.pagereveal_event"
+                          ]
+                        }
+                      ]
+                    },
+                    pageshow_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/pageshow_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.pageshow_event"
+                          ]
+                        }
+                      ]
+                    },
+                    pageswap_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/pageswap_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.pageswap_event"
+                          ]
+                        }
+                      ]
+                    },
+                    parent: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/parent",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.parent"
                           ]
                         }
                       ]
@@ -16918,103 +16532,715 @@ var warnings_processed_default = {
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.Window.paste_event"
+                            "api.paste_event"
                           ]
                         }
                       ]
                     },
-                    performance: {
+                    personalbar: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/Window/performance",
+                      slug: "/en-US/docs/Web/API/Window/personalbar",
                       messages: [
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.Window.performance"
+                            "api.personalbar"
                           ]
                         }
                       ]
                     },
-                    queuemicrotask: {
+                    popstate_event: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/Window/queueMicrotask",
+                      slug: "/en-US/docs/Web/API/Window/popstate_event",
                       messages: [
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.Window.queueMicrotask"
+                            "api.popstate_event"
                           ]
                         }
                       ]
                     },
-                    reporterror: {
+                    postmessage: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/Window/reportError",
+                      slug: "/en-US/docs/Web/API/Window/postMessage",
                       messages: [
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.Window.reportError"
+                            "api.postMessage"
                           ]
                         }
                       ]
                     },
-                    scheduler: {
+                    print: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/Window/scheduler",
+                      slug: "/en-US/docs/Web/API/Window/print",
                       messages: [
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.Window.scheduler"
+                            "api.print"
                           ]
                         }
                       ]
                     },
-                    setinterval: {
+                    prompt: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/Window/setInterval",
+                      slug: "/en-US/docs/Web/API/Window/prompt",
                       messages: [
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.Window.setInterval"
+                            "api.prompt"
                           ]
                         }
                       ]
                     },
-                    settimeout: {
+                    querylocalfonts: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/Window/setTimeout",
+                      slug: "/en-US/docs/Web/API/Window/queryLocalFonts",
                       messages: [
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.Window.setTimeout"
+                            "api.queryLocalFonts"
                           ]
                         }
                       ]
                     },
-                    structuredclone: {
+                    rejectionhandled_event: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/Window/structuredClone",
+                      slug: "/en-US/docs/Web/API/Window/rejectionhandled_event",
                       messages: [
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.Window.structuredClone"
+                            "api.rejectionhandled_event"
                           ]
                         }
                       ]
                     },
-                    trustedtypes: {
+                    releaseevents: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/Window/trustedTypes",
+                      slug: "/en-US/docs/Web/API/Window/releaseEvents",
                       messages: [
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.Window.trustedTypes"
+                            "api.releaseEvents"
+                          ]
+                        }
+                      ]
+                    },
+                    requestanimationframe: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/requestAnimationFrame",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.requestAnimationFrame"
+                          ]
+                        }
+                      ]
+                    },
+                    requestfilesystem: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/requestFileSystem",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.requestFileSystem"
+                          ]
+                        }
+                      ]
+                    },
+                    requestidlecallback: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/requestIdleCallback",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.requestIdleCallback"
+                          ]
+                        }
+                      ]
+                    },
+                    resize_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/resize_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.resize_event"
+                          ]
+                        }
+                      ]
+                    },
+                    resizeby: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/resizeBy",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.resizeBy"
+                          ]
+                        }
+                      ]
+                    },
+                    resizeto: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/resizeTo",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.resizeTo"
+                          ]
+                        }
+                      ]
+                    },
+                    screen: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/screen",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.screen"
+                          ]
+                        }
+                      ]
+                    },
+                    screenleft: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/screenLeft",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.screenLeft"
+                          ]
+                        }
+                      ]
+                    },
+                    screentop: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/screenTop",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.screenTop"
+                          ]
+                        }
+                      ]
+                    },
+                    screenx: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/screenX",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.screenX"
+                          ]
+                        }
+                      ]
+                    },
+                    screeny: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/screenY",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.screenY"
+                          ]
+                        }
+                      ]
+                    },
+                    scroll: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/scroll",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.scroll"
+                          ]
+                        }
+                      ]
+                    },
+                    scrollbars: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/scrollbars",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.scrollbars"
+                          ]
+                        }
+                      ]
+                    },
+                    scrollby: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/scrollBy",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.scrollBy"
+                          ]
+                        }
+                      ]
+                    },
+                    scrollbylines: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/scrollByLines",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.scrollByLines"
+                          ]
+                        }
+                      ]
+                    },
+                    scrollbypages: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/scrollByPages",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.scrollByPages"
+                          ]
+                        }
+                      ]
+                    },
+                    scrollmaxx: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/scrollMaxX",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.scrollMaxX"
+                          ]
+                        }
+                      ]
+                    },
+                    scrollmaxy: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/scrollMaxY",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.scrollMaxY"
+                          ]
+                        }
+                      ]
+                    },
+                    scrollsnapchange_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/scrollsnapchange_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.scrollsnapchange_event"
+                          ]
+                        }
+                      ]
+                    },
+                    scrollsnapchanging_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/scrollsnapchanging_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.scrollsnapchanging_event"
+                          ]
+                        }
+                      ]
+                    },
+                    scrollto: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/scrollTo",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.scrollTo"
+                          ]
+                        }
+                      ]
+                    },
+                    scrollx: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/scrollX",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.scrollX"
+                          ]
+                        }
+                      ]
+                    },
+                    scrolly: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/scrollY",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.scrollY"
+                          ]
+                        }
+                      ]
+                    },
+                    self: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/self",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.self"
+                          ]
+                        }
+                      ]
+                    },
+                    sessionstorage: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/sessionStorage",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.sessionStorage"
+                          ]
+                        }
+                      ]
+                    },
+                    setimmediate: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/setImmediate",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.setImmediate"
+                          ]
+                        }
+                      ]
+                    },
+                    setresizable: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/setResizable",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.setResizable"
+                          ]
+                        }
+                      ]
+                    },
+                    sharedstorage: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/sharedStorage",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.sharedStorage"
+                          ]
+                        }
+                      ]
+                    },
+                    showdirectorypicker: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/showDirectoryPicker",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.showDirectoryPicker"
+                          ]
+                        }
+                      ]
+                    },
+                    showmodaldialog: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/showModalDialog",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.showModalDialog"
+                          ]
+                        }
+                      ]
+                    },
+                    showopenfilepicker: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/showOpenFilePicker",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.showOpenFilePicker"
+                          ]
+                        }
+                      ]
+                    },
+                    showsavefilepicker: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/showSaveFilePicker",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.showSaveFilePicker"
+                          ]
+                        }
+                      ]
+                    },
+                    sizetocontent: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/sizeToContent",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.sizeToContent"
+                          ]
+                        }
+                      ]
+                    },
+                    speechsynthesis: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/speechSynthesis",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.speechSynthesis"
+                          ]
+                        }
+                      ]
+                    },
+                    status: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/status",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.status"
+                          ]
+                        }
+                      ]
+                    },
+                    statusbar: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/statusbar",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.statusbar"
+                          ]
+                        }
+                      ]
+                    },
+                    stop: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/stop",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.stop"
+                          ]
+                        }
+                      ]
+                    },
+                    storage_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/storage_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.storage_event"
+                          ]
+                        }
+                      ]
+                    },
+                    toolbar: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/toolbar",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.toolbar"
+                          ]
+                        }
+                      ]
+                    },
+                    top: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/top",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.top"
+                          ]
+                        }
+                      ]
+                    },
+                    unhandledrejection_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/unhandledrejection_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.unhandledrejection_event"
+                          ]
+                        }
+                      ]
+                    },
+                    unload_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/unload_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.unload_event"
+                          ]
+                        }
+                      ]
+                    },
+                    visualviewport: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/visualViewport",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.visualViewport"
+                          ]
+                        }
+                      ]
+                    },
+                    vrdisplayactivate_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/vrdisplayactivate_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.vrdisplayactivate_event"
+                          ]
+                        }
+                      ]
+                    },
+                    vrdisplayconnect_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/vrdisplayconnect_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.vrdisplayconnect_event"
+                          ]
+                        }
+                      ]
+                    },
+                    vrdisplaydeactivate_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/vrdisplaydeactivate_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.vrdisplaydeactivate_event"
+                          ]
+                        }
+                      ]
+                    },
+                    vrdisplaydisconnect_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/vrdisplaydisconnect_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.vrdisplaydisconnect_event"
+                          ]
+                        }
+                      ]
+                    },
+                    vrdisplaypresentchange_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/vrdisplaypresentchange_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.vrdisplaypresentchange_event"
+                          ]
+                        }
+                      ]
+                    },
+                    webkitconvertpointfromnodetopage: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/webkitConvertPointFromNodeToPage",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.webkitConvertPointFromNodeToPage"
+                          ]
+                        }
+                      ]
+                    },
+                    webkitconvertpointfrompagetonode: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/webkitConvertPointFromPageToNode",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.webkitConvertPointFromPageToNode"
+                          ]
+                        }
+                      ]
+                    },
+                    window: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/window",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.window"
                           ]
                         }
                       ]
@@ -17027,13 +17253,6 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/Web/API/WindowSharedStorage/run",
                       messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/private-aggregation/unique-reach",
-                            "https://privacysandbox.google.com/private-advertising/private-aggregation/unique-reach"
-                          ]
-                        },
                         {
                           message: "Not in BCD",
                           data: [
@@ -17079,242 +17298,158 @@ var warnings_processed_default = {
                 },
                 workerglobalscope: {
                   children: {
-                    atob: {
+                    dump: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/WorkerGlobalScope/atob",
+                      slug: "/en-US/docs/Web/API/WorkerGlobalScope/dump",
                       messages: [
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.WorkerGlobalScope.atob"
+                            "api.dump"
                           ]
                         }
                       ]
                     },
-                    btoa: {
+                    error_event: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/WorkerGlobalScope/btoa",
+                      slug: "/en-US/docs/Web/API/WorkerGlobalScope/error_event",
                       messages: [
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.WorkerGlobalScope.btoa"
+                            "api.error_event"
                           ]
                         }
                       ]
                     },
-                    caches: {
+                    fonts: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/WorkerGlobalScope/caches",
+                      slug: "/en-US/docs/Web/API/WorkerGlobalScope/fonts",
                       messages: [
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.WorkerGlobalScope.caches"
+                            "api.fonts"
                           ]
                         }
                       ]
                     },
-                    clearinterval: {
+                    importscripts: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/WorkerGlobalScope/clearInterval",
+                      slug: "/en-US/docs/Web/API/WorkerGlobalScope/importScripts",
                       messages: [
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.WorkerGlobalScope.clearInterval"
+                            "api.importScripts"
                           ]
                         }
                       ]
                     },
-                    cleartimeout: {
+                    languagechange_event: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/WorkerGlobalScope/clearTimeout",
+                      slug: "/en-US/docs/Web/API/WorkerGlobalScope/languagechange_event",
                       messages: [
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.WorkerGlobalScope.clearTimeout"
+                            "api.languagechange_event"
                           ]
                         }
                       ]
                     },
-                    createimagebitmap: {
+                    location: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/WorkerGlobalScope/createImageBitmap",
+                      slug: "/en-US/docs/Web/API/WorkerGlobalScope/location",
                       messages: [
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.WorkerGlobalScope.createImageBitmap"
+                            "api.location"
                           ]
                         }
                       ]
                     },
-                    crossoriginisolated: {
+                    navigator: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/WorkerGlobalScope/crossOriginIsolated",
+                      slug: "/en-US/docs/Web/API/WorkerGlobalScope/navigator",
                       messages: [
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.WorkerGlobalScope.crossOriginIsolated"
+                            "api.navigator"
                           ]
                         }
                       ]
                     },
-                    crypto: {
+                    offline_event: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/WorkerGlobalScope/crypto",
+                      slug: "/en-US/docs/Web/API/WorkerGlobalScope/offline_event",
                       messages: [
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.WorkerGlobalScope.crypto"
+                            "api.offline_event"
                           ]
                         }
                       ]
                     },
-                    fetch: {
+                    online_event: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/WorkerGlobalScope/fetch",
+                      slug: "/en-US/docs/Web/API/WorkerGlobalScope/online_event",
                       messages: [
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.WorkerGlobalScope.fetch"
+                            "api.online_event"
                           ]
                         }
                       ]
                     },
-                    indexeddb: {
+                    rejectionhandled_event: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/WorkerGlobalScope/indexedDB",
+                      slug: "/en-US/docs/Web/API/WorkerGlobalScope/rejectionhandled_event",
                       messages: [
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.WorkerGlobalScope.indexedDB"
+                            "api.rejectionhandled_event"
                           ]
                         }
                       ]
                     },
-                    issecurecontext: {
+                    securitypolicyviolation_event: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/WorkerGlobalScope/isSecureContext",
+                      slug: "/en-US/docs/Web/API/WorkerGlobalScope/securitypolicyviolation_event",
                       messages: [
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.WorkerGlobalScope.isSecureContext"
+                            "api.securitypolicyviolation_event"
                           ]
                         }
                       ]
                     },
-                    origin: {
+                    self: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/WorkerGlobalScope/origin",
+                      slug: "/en-US/docs/Web/API/WorkerGlobalScope/self",
                       messages: [
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.WorkerGlobalScope.origin"
+                            "api.self"
                           ]
                         }
                       ]
                     },
-                    performance: {
+                    unhandledrejection_event: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/WorkerGlobalScope/performance",
+                      slug: "/en-US/docs/Web/API/WorkerGlobalScope/unhandledrejection_event",
                       messages: [
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.WorkerGlobalScope.performance"
-                          ]
-                        }
-                      ]
-                    },
-                    queuemicrotask: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WorkerGlobalScope/queueMicrotask",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "api.WorkerGlobalScope.queueMicrotask"
-                          ]
-                        }
-                      ]
-                    },
-                    reporterror: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WorkerGlobalScope/reportError",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "api.WorkerGlobalScope.reportError"
-                          ]
-                        }
-                      ]
-                    },
-                    scheduler: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WorkerGlobalScope/scheduler",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "api.WorkerGlobalScope.scheduler"
-                          ]
-                        }
-                      ]
-                    },
-                    setinterval: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WorkerGlobalScope/setInterval",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "api.WorkerGlobalScope.setInterval"
-                          ]
-                        }
-                      ]
-                    },
-                    settimeout: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WorkerGlobalScope/setTimeout",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "api.WorkerGlobalScope.setTimeout"
-                          ]
-                        }
-                      ]
-                    },
-                    structuredclone: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WorkerGlobalScope/structuredClone",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "api.WorkerGlobalScope.structuredClone"
-                          ]
-                        }
-                      ]
-                    },
-                    trustedtypes: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WorkerGlobalScope/trustedTypes",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "api.WorkerGlobalScope.trustedTypes"
+                            "api.unhandledrejection_event"
                           ]
                         }
                       ]
@@ -17380,20 +17515,6 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Web/API/WorkletSharedStorage/get",
                       messages: [
                         {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/private-aggregation/k-freq-reach",
-                            "https://privacysandbox.google.com/private-advertising/private-aggregation/k-freq-reach"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/private-aggregation/fundamentals",
-                            "https://privacysandbox.google.com/private-advertising/private-aggregation/fundamentals"
-                          ]
-                        },
-                        {
                           message: "Not in BCD",
                           data: [
                             "api.WorkletSharedStorage.get"
@@ -17440,27 +17561,6 @@ var warnings_processed_default = {
                   },
                   slug: "/en-US/docs/Web/API/WorkletSharedStorage",
                   messages: [
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/private-aggregation",
-                        "https://privacysandbox.google.com/private-advertising/private-aggregation"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
-                        "https://privacysandbox.google.com/private-advertising/protected-audience"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developers.google.com/privacy-sandbox/private-advertising/shared-storage",
-                        "https://privacysandbox.google.com/private-advertising/shared-storage"
-                      ]
-                    },
                     {
                       message: "Not in BCD",
                       data: [
@@ -20602,10 +20702,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/CSS_conditional_rules/Using_feature_queries",
                       messages: [
                         {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word CSS (CssSyntaxError)",
@@ -20777,20 +20873,6 @@ css.selectors.-webkit-resizer`,
                       messages: [
                         {
                           message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                css_media_queries: {
-                  children: {
-                    using_media_queries: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries",
-                      messages: [
-                        {
-                          message: "Missing syntax code block",
                           data: []
                         }
                       ]
@@ -21072,10 +21154,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/CSS_syntax/At-rule",
                       messages: [
                         {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -21095,10 +21173,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_syntax/Comments",
                       messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -23504,13 +23578,6 @@ css.properties.list-style-type.symbols`
                   slug: "/en-US/docs/Web/Events/Event_handlers",
                   messages: [
                     {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/API/Event",
-                        "#introduction"
-                      ]
-                    },
-                    {
                       message: "Not linked from parent page",
                       data: [
                         "/en-US/docs/Web/Events"
@@ -23525,13 +23592,6 @@ css.properties.list-style-type.symbols`
               },
               slug: "/en-US/docs/Web/Events",
               messages: [
-                {
-                  message: "Broken anchor",
-                  data: [
-                    "/en-US/docs/Web/API/Event",
-                    "#introduction"
-                  ]
-                },
                 {
                   message: "Broken anchor",
                   data: [
@@ -23638,13 +23698,6 @@ css.properties.list-style-type.symbols`
                   ]
                 },
                 {
-                  message: "Broken anchor",
-                  data: [
-                    "/en-US/docs/Web/API/Window",
-                    "#webvr_events"
-                  ]
-                },
-                {
                   message: "Unreachable via sidebar",
                   data: []
                 }
@@ -23699,10 +23752,6 @@ html.elements.textarea.disabled`
                       slug: "/en-US/docs/Web/HTML/Attributes/max",
                       messages: [
                         {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Web/HTML/Attributes/low"
@@ -23726,10 +23775,6 @@ html.elements.textarea.disabled`
                       children: {},
                       slug: "/en-US/docs/Web/HTML/Attributes/min",
                       messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
                         {
                           message: "Broken link",
                           data: [
@@ -23905,16 +23950,6 @@ html.elements.hr.size
 html.elements.input.size
 html.elements.select.size`
                           ]
-                        }
-                      ]
-                    },
-                    step: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Attributes/step",
-                      messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
                         }
                       ]
                     }
@@ -24187,47 +24222,6 @@ html.elements.select.size`
                 },
                 element: {
                   children: {
-                    fencedframe: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Element/fencedframe",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
-                            "https://privacysandbox.google.com/private-advertising/protected-audience"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
-                            "https://privacysandbox.google.com/private-advertising/protected-audience"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/shared-storage",
-                            "https://privacysandbox.google.com/private-advertising/shared-storage"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/fenced-frame",
-                            "https://privacysandbox.google.com/private-advertising/fenced-frame"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox",
-                            "https://privacysandbox.google.com/"
-                          ]
-                        }
-                      ]
-                    },
                     footer: {
                       children: {},
                       slug: "/en-US/docs/Web/HTML/Element/footer",
@@ -24333,12 +24327,6 @@ html.elements.select.size`
                       slug: "/en-US/docs/Web/HTML/Element/selectedcontent",
                       messages: [
                         {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Glossary/inert"
-                          ]
-                        },
-                        {
                           message: "Not linked from parent page",
                           data: [
                             "/en-US/docs/Web/HTML/Element"
@@ -24357,16 +24345,6 @@ html.elements.select.size`
                 },
                 global_attributes: {
                   children: {
-                    class: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Global_attributes/class",
-                      messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        }
-                      ]
-                    },
                     contenteditable: {
                       children: {},
                       slug: "/en-US/docs/Web/HTML/Global_attributes/contenteditable",
@@ -24378,26 +24356,6 @@ html.elements.select.size`
                             "    margin: 0",
                             "20:14"
                           ]
-                        }
-                      ]
-                    },
-                    id: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Global_attributes/id",
-                      messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        }
-                      ]
-                    },
-                    writingsuggestions: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Global_attributes/writingsuggestions",
-                      messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
                         }
                       ]
                     }
@@ -24636,43 +24594,6 @@ html.elements.select.size`
                   children: {
                     headers: {
                       children: {
-                        "accept-patch": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept-Patch",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "http.headers.Accept-Patch"
-                              ]
-                            }
-                          ]
-                        },
-                        "accept-post": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept-Post",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "http.headers.Accept-Post"
-                              ]
-                            }
-                          ]
-                        },
-                        "attribution-reporting-register-trigger": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Attribution-Reporting-Register-Trigger",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://developers.google.com/privacy-sandbox/private-advertising/attribution-reporting/prevent-duplication",
-                                "https://privacysandbox.google.com/private-advertising/attribution-reporting/prevent-duplication"
-                              ]
-                            }
-                          ]
-                        },
                         "available-dictionary": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Available-Dictionary",
@@ -25000,6 +24921,23 @@ html.elements.select.size`
                           ]
                         }
                       }
+                    },
+                    status: {
+                      children: {
+                        "422": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/422",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://ruby-doc.org/3.3.2/stdlibs/base64/Base64.html",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        }
+                      }
                     }
                   },
                   slug: "/en-US/docs/Web/HTTP/Reference",
@@ -25241,20 +25179,6 @@ html.elements.select.size`
                   },
                   slug: "/en-US/docs/Web/JavaScript/Guide",
                   messages: [
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/JavaScript/Guide/Introduction",
-                        "#hello_world"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/JavaScript/Guide/Expressions_and_operators",
-                        "#conditional_(ternary)_operator"
-                      ]
-                    },
                     {
                       message: "Unreachable via sidebar",
                       data: []
@@ -26035,6 +25959,19 @@ html.elements.select.size`
                             }
                           ]
                         },
+                        live_streaming_web_audio_and_video: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/Live_streaming_web_audio_and_video",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://larryjordan.com/articles/basics-of-http-live-streaming/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         webaudio_playbackrate_explained: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/WebAudio_playbackRate_explained",
@@ -26129,6 +26066,26 @@ html.elements.select.size`
                     },
                     formats: {
                       children: {
+                        audio_codecs: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Audio_codecs",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://voiceage.com/AMR-NB.AMR.html",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://voiceage.com/Overview-lic.html",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -26199,46 +26156,6 @@ html.elements.select.size`
               children: {
                 guides: {
                   children: {
-                    privacy_sandbox: {
-                      children: {
-                        enrollment: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Privacy/Guides/Privacy_sandbox/Enrollment",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://developers.google.com/privacy-sandbox",
-                                "https://privacysandbox.google.com/"
-                              ]
-                            }
-                          ]
-                        },
-                        partitioned_cookies: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Privacy/Guides/Privacy_sandbox/Partitioned_cookies",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://developers.google.com/privacy-sandbox/cookies/chips",
-                                "https://privacysandbox.google.com/cookies/chips"
-                              ]
-                            }
-                          ]
-                        }
-                      },
-                      slug: "/en-US/docs/Web/Privacy/Guides/Privacy_sandbox",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox",
-                            "https://privacysandbox.google.com/"
-                          ]
-                        }
-                      ]
-                    },
                     storage_access_policy: {
                       children: {
                         errors: {
@@ -26329,40 +26246,6 @@ html.elements.select.size`
                           ]
                         }
                       }
-                    },
-                    "third-party_cookies": {
-                      children: {},
-                      slug: "/en-US/docs/Web/Privacy/Guides/Third-party_cookies",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/cookies/prepare/audit-cookies",
-                            "https://privacysandbox.google.com/cookies/prepare/audit-cookies"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/protections/private-state-tokens",
-                            "https://privacysandbox.google.com/protections/private-state-tokens"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/protected-audience",
-                            "https://privacysandbox.google.com/private-advertising/protected-audience"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.google.com/privacy-sandbox/private-advertising/attribution-reporting",
-                            "https://privacysandbox.google.com/private-advertising/attribution-reporting"
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/Privacy/Guides",
@@ -26379,17 +26262,7 @@ html.elements.select.size`
                     }
                   ]
                 }
-              },
-              slug: "/en-US/docs/Web/Privacy",
-              messages: [
-                {
-                  message: "Redirected external link",
-                  data: [
-                    "https://developers.google.com/privacy-sandbox",
-                    "https://privacysandbox.google.com/"
-                  ]
-                }
-              ]
+              }
             },
             progressive_web_apps: {
               children: {
