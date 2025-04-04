@@ -6,7 +6,12 @@ import { load } from "cheerio";
 import matter from "gray-matter";
 import bcdData from "@mdn/browser-compat-data" with { type: "json" };
 import { getBCD } from "./utils.js";
-import { CONTENT_SOURCE_ROOT, BUILT_CONTENT_ROOT, readConfig, configHas } from "./config.js";
+import {
+  CONTENT_SOURCE_ROOT,
+  BUILT_CONTENT_ROOT,
+  readConfig,
+  configHas,
+} from "./config.js";
 import { checkContent, postCheckContent } from "./check-content.js";
 
 const nonContentPaths = [
@@ -21,7 +26,7 @@ const nonContentPaths = [
 
 const allowedNoSidebar = new Map(
   (await readConfig("allowed-no-sidebar.txt")).map((x) => [x, false]),
-)
+);
 
 async function* listdir(dir: string): AsyncGenerator<string> {
   for await (const dirent of await FS.readdir(dir, { withFileTypes: true })) {
@@ -445,7 +450,8 @@ export default async function createContentGraph() {
     delete node.data.sidebarHTML;
     delete node.data.sidebarMacro;
     if (!sidebarHTML) {
-      if (!configHas(allowedNoSidebar, node.id)) report(node, "Missing sidebar");
+      if (!configHas(allowedNoSidebar, node.id))
+        report(node, "Missing sidebar");
       continue;
     }
     const normalizedHTML = sidebarHTML

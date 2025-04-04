@@ -10,6 +10,10 @@ const allowedQuotedCode = new Map(
   (await readConfig("allowed-quoted-code.txt")).map((x) => [x, false]),
 );
 
+const allowedUnrenderedMarkdown = new Map(
+  (await readConfig("allowed-unrendered-markdown.txt")).map((x) => [x, false]),
+);
+
 const allowedSpacedCodeLink = [
   // HTML tags
   /^<(a|area|font|iframe|input|link|meta|object|ol|script|select|th|tr)( [a-z-]+="[\w .…-]+"| ping| defer| sandbox| nomodule| multiple)+>$/,
@@ -149,7 +153,10 @@ export function checkContent(
       .contents()
       .filter((i, el) => el.type === "text");
     for (const text of texts) {
-      if (/`[^`]+`|```|\*[^*]+\*|\[.+\]\(.+\)|\b_[^_]+_\b/.test(text.data)) {
+      if (
+        /`[^`]+`|```|\*[^*]+\*|\[.+\]\(.+\)|\b_[^_]+_\b/.test(text.data) &&
+        !configHas(allowedUnrenderedMarkdown, `${context.slug}\t${text.data}`)
+      ) {
         report("Possibly unrendered Markdown", text.data);
       }
     }

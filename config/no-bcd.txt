@@ -144,4 +144,5 @@ webextensions.api.cookies.SameSiteStatus
 webextensions.api.declarativeNetRequest.HeaderInfo
 webextensions.api.declarativeNetRequest.ModifyHeaderInfo
 webextensions.api.extensionTypes.InjectDetails
+webextensions.api.scripting.ContentScriptFilter
 webextensions.api.userScripts_legacy.UserScriptOptions
