@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-bx7wefqc.js";
+} from "./chunk-eexg2hqk.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -140,13 +140,6 @@ var warnings_processed_default = {
                       message: "External sandbox link",
                       data: [
                         "https://jsfiddle.net/jlr7245/teb4znk0/20/"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.sevenson.com.au/programming/sat/",
-                        "Cannot reach server and Bun hangs"
                       ]
                     }
                   ]
@@ -1488,6 +1481,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            sql: {
+              children: {},
+              slug: "/en-US/docs/Glossary/SQL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://sqlzoo.net/wiki/SQL_Tutorial",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
             sql_injection: {
               children: {},
               slug: "/en-US/docs/Glossary/SQL_Injection",
@@ -1495,6 +1501,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            ssg: {
+              children: {},
+              slug: "/en-US/docs/Glossary/SSG",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://docusaurus.io/",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -2139,6 +2158,20 @@ var warnings_processed_default = {
                           data: [
                             "https://codepen.io/mxmason/pen/XWbPNmw"
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://phabricator.wikimedia.org/T241180",
+                            "429 Retry-After: 1000"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://docusaurus.io/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2146,18 +2179,6 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features",
                       messages: [
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features"
-                          ]
-                        },
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features"
-                          ]
-                        },
                         {
                           message: "JS code issue",
                           data: [
@@ -3721,22 +3742,7 @@ var warnings_processed_default = {
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django",
-                      messages: [
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Extensions/Server-side/Django"
-                          ]
-                        },
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Extensions/Server-side/Django"
-                          ]
-                        }
-                      ]
+                      }
                     },
                     express_nodejs: {
                       children: {
@@ -3953,22 +3959,7 @@ var warnings_processed_default = {
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs",
-                      messages: [
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs"
-                          ]
-                        },
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs"
-                          ]
-                        }
-                      ]
+                      }
                     },
                     node_server_without_framework: {
                       children: {},
@@ -3994,6 +3985,19 @@ var warnings_processed_default = {
                             "Unknown word form (CssSyntaxError)",
                             "form > #date",
                             "1:1"
+                          ]
+                        }
+                      ]
+                    },
+                    testing_strategies: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://help.ubuntu.com/community/WindowsDualBoot",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -4614,27 +4618,6 @@ var warnings_processed_default = {
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/rari-doc/src/templ/templs/api_list_specs.rs",
-                                404
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/rari-doc/src/templ/templs/api_list_specs.rs",
-                                404
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/rari-doc/src/templ/templs/api_list_specs.rs",
-                                404
-                              ]
                             }
                           ]
                         }
@@ -5989,6 +5972,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via page",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://browserext.github.io/browserext/",
+                            503
+                          ]
                         }
                       ]
                     },
@@ -8629,13 +8619,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/web-animations/",
-                            504
-                          ]
                         }
                       ]
                     },
@@ -11054,13 +11037,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via sidebar",
                   data: []
-                },
-                {
-                  message: "Redirected external link",
-                  data: [
-                    "https://hg.mozilla.org/mozilla-central/",
-                    "https://hg-edge.mozilla.org/mozilla-central/"
-                  ]
                 }
               ]
             }
@@ -11207,6 +11183,13 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.epilepsy.com/sites/default/files/2022-10/Epilepsia_2022_fisher_visually_sensitive_seizures.pdf",
+                            403
+                          ]
+                        },
+                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word oklch (CssSyntaxError)",
@@ -11234,6 +11217,69 @@ var warnings_processed_default = {
                             "[4]",
                             "Text before link:",
                             "."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.epilepsy.com/stories/shedding-light-photosensitivity-one-epilepsys-most-complex-conditions",
+                            403
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.cedars-sinai.org/health-library/diseases-and-conditions/p/photosensitive-seizures.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.epilepsy.com/stories/revised-definition-epilepsy",
+                            403
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.epilepsy.com/what-is-epilepsy/understanding-seizures/how-serious-are-seizures",
+                            403
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.epilepsy.com/what-is-epilepsy/seizure-triggers/photosensitivity",
+                            403
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.epilepsy.com/stories/shedding-light-photosensitivity-one-epilepsys-most-complex-conditions",
+                            403
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.epilepsy.com/stories/shedding-light-photosensitivity-one-epilepsys-most-complex-conditions",
+                            403
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.epilepsy.com/stories/shedding-light-photosensitivity-one-epilepsys-most-complex-conditions",
+                            403
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.cedars-sinai.org/health-library/diseases-and-conditions/p/photosensitive-seizures.html",
+                            "The operation timed out."
                           ]
                         },
                         {
@@ -12525,18 +12571,6 @@ var warnings_processed_default = {
                           ]
                         }
                       ]
-                    },
-                    type: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLButtonElement/type",
-                      messages: [
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Web/API/HTMLButtonElement/type"
-                          ]
-                        }
-                      ]
                     }
                   }
                 },
@@ -13159,19 +13193,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                paintworkletglobalscope: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/PaintWorkletGlobalScope",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.css-houdini.org/css-paint-api/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 payment_request_api: {
                   children: {
                     concepts: {
@@ -13720,16 +13741,7 @@ var warnings_processed_default = {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/RTCInboundRtpStreamStats",
-                  messages: [
-                    {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/API/RTCInboundRtpStreamStats"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 rtcpeerconnection: {
                   children: {
@@ -15729,19 +15741,6 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                worklet: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Worklet",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.css-houdini.org/css-layout-api-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 },
                 workletsharedstorage: {
                   children: {
@@ -17893,18 +17892,6 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                appearance: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/appearance",
-                  messages: [
-                    {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/CSS/appearance"
-                      ]
-                    }
-                  ]
-                },
                 attr: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/attr",
@@ -18687,18 +18674,6 @@ css.selectors.-webkit-resizer`,
                         "[None]",
                         "Expected:",
                         "css.selectors.column"
-                      ]
-                    }
-                  ]
-                },
-                "content-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/content-position",
-                  messages: [
-                    {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/CSS/content-position"
                       ]
                     }
                   ]
@@ -21267,18 +21242,6 @@ css.properties.list-style-type.symbols`
                     }
                   ]
                 },
-                "text-box": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-box",
-                  messages: [
-                    {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/CSS/text-box"
-                      ]
-                    }
-                  ]
-                },
                 time: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/time",
@@ -22326,18 +22289,6 @@ html.elements.select.size`
                         }
                       ]
                     },
-                    legend: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Element/legend",
-                      messages: [
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Web/HTML/Element/legend"
-                          ]
-                        }
-                      ]
-                    },
                     meta: {
                       children: {
                         name: {
@@ -22907,13 +22858,6 @@ html.elements.select.size`
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Redirected external link",
-                                  data: [
-                                    "https://hg.mozilla.org/releases",
-                                    "https://hg-edge.mozilla.org/releases"
-                                  ]
                                 }
                               ]
                             }
@@ -23480,6 +23424,19 @@ html.elements.select.size`
                             }
                           }
                         },
+                        sharedarraybuffer: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://blog.mozilla.org/security/2018/01/03/mitigations-landing-new-class-timing-attack/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         temporal: {
                           children: {
                             plaindate: {
@@ -24002,6 +23959,19 @@ html.elements.select.size`
                     },
                     formats: {
                       children: {
+                        image_types: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Image_types",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://ev.buaa.edu.cn/",
+                                403
+                              ]
+                            }
+                          ]
+                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -24313,22 +24283,7 @@ html.elements.select.size`
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Web/Progressive_web_apps/Tutorials/js13kGames",
-                      messages: [
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Web/Progressive_web_apps/Tutorials/js13kGames"
-                          ]
-                        },
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Web/Progressive_web_apps/Tutorials/js13kGames"
-                          ]
-                        }
-                      ]
+                      }
                     }
                   },
                   slug: "/en-US/docs/Web/Progressive_web_apps/Tutorials",
@@ -27577,12 +27532,6 @@ svg.elements.feSpotLight.z`
                                 "slice",
                                 "Text before code:",
                                 "|"
-                              ]
-                            },
-                            {
-                              message: "Self link",
-                              data: [
-                                "/en-US/docs/Web/SVG/Reference/Element/pattern"
                               ]
                             }
                           ]
