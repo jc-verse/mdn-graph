@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-egbrd8zp.js";
+} from "./chunk-bx7wefqc.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -140,6 +140,13 @@ var warnings_processed_default = {
                       message: "External sandbox link",
                       data: [
                         "https://jsfiddle.net/jlr7245/teb4znk0/20/"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.sevenson.com.au/programming/sat/",
+                        "Cannot reach server and Bun hangs"
                       ]
                     }
                   ]
@@ -3303,6 +3310,23 @@ var warnings_processed_default = {
                       ]
                     }
                   }
+                },
+                text_styling: {
+                  children: {
+                    web_fonts: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.exljbris.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 }
               }
             },
@@ -3911,13 +3935,6 @@ var warnings_processed_default = {
                           children: {},
                           slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/mongoose",
                           messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.mongodb.com/try/download/community-edition/releases",
-                                "The operation timed out."
-                              ]
-                            },
                             {
                               message: "JS code issue",
                               data: [
@@ -8612,6 +8629,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/web-animations/",
+                            504
+                          ]
                         }
                       ]
                     },
@@ -11030,6 +11054,13 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via sidebar",
                   data: []
+                },
+                {
+                  message: "Redirected external link",
+                  data: [
+                    "https://hg.mozilla.org/mozilla-central/",
+                    "https://hg-edge.mozilla.org/mozilla-central/"
+                  ]
                 }
               ]
             }
@@ -11203,20 +11234,6 @@ var warnings_processed_default = {
                             "[4]",
                             "Text before link:",
                             "."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.cedars-sinai.org/health-library/diseases-and-conditions/p/photosensitive-seizures.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.cedars-sinai.org/health-library/diseases-and-conditions/p/photosensitive-seizures.html",
-                            "Cannot reach server and Bun hangs"
                           ]
                         },
                         {
@@ -13141,6 +13158,19 @@ var warnings_processed_default = {
                       ]
                     }
                   }
+                },
+                paintworkletglobalscope: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/PaintWorkletGlobalScope",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.css-houdini.org/css-paint-api/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 payment_request_api: {
                   children: {
@@ -15699,6 +15729,19 @@ var warnings_processed_default = {
                       ]
                     }
                   }
+                },
+                worklet: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Worklet",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.css-houdini.org/css-layout-api-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 workletsharedstorage: {
                   children: {
@@ -22864,6 +22907,13 @@ html.elements.select.size`
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Redirected external link",
+                                  data: [
+                                    "https://hg.mozilla.org/releases",
+                                    "https://hg-edge.mozilla.org/releases"
+                                  ]
                                 }
                               ]
                             }
