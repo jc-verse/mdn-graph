@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-jwebbayf.js";
+} from "./chunk-rdvkb3f2.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -147,13 +147,6 @@ var warnings_processed_default = {
                       message: "External sandbox link",
                       data: [
                         "https://jsfiddle.net/jlr7245/teb4znk0/20/"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.sevenson.com.au/programming/sat/",
-                        "Cannot reach server and Bun hangs"
                       ]
                     }
                   ]
@@ -1698,19 +1691,6 @@ var warnings_processed_default = {
                           ]
                         }
                       }
-                    },
-                    what_is_accessibility: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/What_is_accessibility",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.performancehealth.com/adjustable-headpointer",
-                            403
-                          ]
-                        }
-                      ]
                     }
                   }
                 },
@@ -2119,6 +2099,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://api.emberjs.com/ember/release/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -3218,13 +3205,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/guide/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -3404,23 +3384,6 @@ var warnings_processed_default = {
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/mikethomas/pen/kQjKLW"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                "client-side_tools": {
-                  children: {
-                    introducing_complete_toolchain: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://preset-env.cssdb.org/features/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -3979,19 +3942,6 @@ var warnings_processed_default = {
                             "Unknown word form (CssSyntaxError)",
                             "form > #date",
                             "1:1"
-                          ]
-                        }
-                      ]
-                    },
-                    testing_strategies: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://help.ubuntu.com/community/WindowsDualBoot",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -13149,20 +13099,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Web/API/Payment_Request_API"
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.emvco.com/emv-technologies/3-d-secure/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.emvco.com/emv-technologies/secure-remote-commerce/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -14242,6 +14178,19 @@ var warnings_processed_default = {
                 },
                 web_audio_api: {
                   children: {
+                    advanced_techniques: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://soundbible.com/1573-DTMF-Tones.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
                     best_practices: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Best_practices",
@@ -23806,6 +23755,13 @@ html.elements.select.size`
                               data: [
                                 "https://jsbin.com/UGIxoJis/1/edit"
                               ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://hyperaud.io/lab/pbr-test/",
+                                "Unable to connect. Is the computer able to access the url?"
+                              ]
                             }
                           ]
                         }
@@ -23891,6 +23847,19 @@ html.elements.select.size`
                     },
                     formats: {
                       children: {
+                        containers: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Containers",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=1441",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
