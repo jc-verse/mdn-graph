@@ -291,6 +291,8 @@ function displayWarnings() {
   metadataIssues.label = "Metadata issues";
   const codeIssues = document.createElement("optgroup");
   codeIssues.label = "Code issues";
+  const assetIssues = document.createElement("optgroup");
+  assetIssues.label = "Asset issues";
   const other = document.createElement("optgroup");
   other.label = "Other";
   for (const message of [...messageCounts].sort()) {
@@ -363,6 +365,16 @@ function displayWarnings() {
       ].includes(message[0])
     ) {
       codeIssues.append(option);
+    } else if (
+      [
+        "Asset without content page",
+        "External image",
+        "Missing image",
+        "Unexpected asset file",
+        "Unused image",
+      ].includes(message[0])
+    ) {
+      assetIssues.append(option);
     } else {
       other.append(option);
     }
@@ -375,6 +387,7 @@ function displayWarnings() {
     graphStructure,
     metadataIssues,
     codeIssues,
+    assetIssues,
     other,
   ]) {
     if (optgroup.hasChildNodes()) {
