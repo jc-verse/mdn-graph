@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-rdvkb3f2.js";
+} from "./chunk-6sfb3gjm.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -106,13 +106,6 @@ var warnings_processed_default = {
                     {
                       message: "Unreachable via page",
                       data: []
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://indiegamesplus.com/",
-                        "Cannot reach server and Bun hangs"
-                      ]
                     }
                   ]
                 }
@@ -1326,18 +1319,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            recursion: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Recursion",
-              messages: [
-                {
-                  message: "Invalid code block language",
-                  data: [
-                    "py"
-                  ]
-                }
-              ]
-            },
             repo: {
               children: {},
               slug: "/en-US/docs/Glossary/Repo",
@@ -1876,14 +1857,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "filter: 'all' | 'active' | 'done' = 'all';",
-                            "1:9"
-                          ]
                         }
                       ]
                     },
@@ -1894,30 +1867,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Declaration expected.",
-                            "})",
-                            "5:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Declaration expected.",
-                            "})",
-                            "5:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Declaration expected.",
-                            "})",
-                            "10:9"
-                          ]
                         }
                       ]
                     },
@@ -1928,54 +1877,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Declaration expected.",
-                            "})",
-                            "7:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ',' expected.",
-                            "remove(item: Item) {",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Declaration expected.",
-                            "})",
-                            "7:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Expression expected.",
-                            "  @Output() remove = new EventEmitter<Item>();",
-                            "6:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: '}' expected.",
-                            "",
-                            "4:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Declaration expected.",
-                            "})",
-                            "7:9"
-                          ]
                         }
                       ]
                     },
@@ -1996,14 +1897,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ',' expected.",
-                            "addItem(description: string) {",
-                            "1:9"
-                          ]
                         }
                       ]
                     },
@@ -2099,13 +1992,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://api.emberjs.com/ember/release/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2218,14 +2104,6 @@ var warnings_processed_default = {
                             "<form onSubmit={handleSubmit}>",
                             "1:9"
                           ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Declaration or statement expected.",
-                            "...",
-                            "6:9"
-                          ]
                         }
                       ]
                     },
@@ -2289,22 +2167,6 @@ var warnings_processed_default = {
                             "https://svelte-native.technology/",
                             "https://svelte.nativescript.org/"
                           ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ']' expected.",
-                            "",
-                            "25:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Declaration or statement expected.",
-                            "  ],",
-                            "12:9"
-                          ]
                         }
                       ]
                     },
@@ -2362,22 +2224,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: '}' expected.",
-                            "",
-                            "9:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: '?' expected.",
-                            "export const localStore = <T extends JsonValue>(key: string, initial: T)",
-                            "1:9"
-                          ]
                         }
                       ]
                     },
@@ -2398,22 +2244,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "  listSummary() {",
-                            "2:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "updateDoneStatus(toDoId) {",
-                            "1:9"
-                          ]
                         }
                       ]
                     },
@@ -2424,70 +2254,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "data() {",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "    deleteToDo() {",
-                            "2:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Declaration or statement expected.",
-                            "},",
-                            "3:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "itemEdited(newLabel) {",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "editCancelled() {",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "deleteToDo(toDoId) {",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Expression expected.",
-                            "isDone: this.done,",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "  isDone() {",
-                            "2:9"
-                          ]
                         }
                       ]
                     },
@@ -2498,14 +2264,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "data() {",
-                            "1:9"
-                          ]
                         }
                       ]
                     },
@@ -2542,46 +2300,6 @@ var warnings_processed_default = {
                             "  onSubmit() {",
                             "2:9"
                           ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "onSubmit() {",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "  addToDo(toDoLabel) {",
-                            "2:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "addToDo(toDoLabel) {",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "onSubmit() {",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "onSubmit() {",
-                            "1:9"
-                          ]
                         }
                       ]
                     },
@@ -2592,62 +2310,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "toggleToItemEditForm() {",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "focusOnEditButton() {",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "itemEdited(newItemName) {",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "focusOnEditButton() {",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "mounted() {",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "mounted() {",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "deleteToDo(toDoId) {",
-                            "1:9"
-                          ]
                         }
                       ]
                     },
@@ -2692,14 +2354,6 @@ var warnings_processed_default = {
                         {
                           message: "JS code issue",
                           data: [
-                            "Parsing error: Declaration or statement expected.",
-                            "  ...",
-                            "2:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
                             "Parsing error: '}' expected.",
                             "",
                             "2:9"
@@ -2732,20 +2386,6 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ':' expected.",
                             "condition ? run this code : run this code instead",
-                            "1:9"
-                          ]
-                        }
-                      ]
-                    },
-                    object_basics: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Object_basics",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "introduceSelf() {",
                             "1:9"
                           ]
                         }
@@ -3312,50 +2952,6 @@ var warnings_processed_default = {
               children: {
                 advanced_javascript_objects: {
                   children: {
-                    adding_bouncing_balls_features: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Adding_bouncing_balls_features",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "collisionDetect() {",
-                            "1:9"
-                          ]
-                        }
-                      ]
-                    },
-                    object_building_practice: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Object_building_practice",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "draw() {",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "update() {",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "collisionDetect() {",
-                            "1:9"
-                          ]
-                        }
-                      ]
-                    },
                     "test_your_skills_colon__object-oriented_javascript": {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Test_your_skills:_Object-oriented_JavaScript",
@@ -3619,20 +3215,6 @@ var warnings_processed_default = {
                 },
                 performance: {
                   children: {
-                    javascript: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/JavaScript",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Identifier expected.",
-                            'import { function } from "important-module.js";',
-                            "1:9"
-                          ]
-                        }
-                      ]
-                    },
                     web_performance_basics: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Web_Performance_Basics",
@@ -3666,40 +3248,6 @@ var warnings_processed_default = {
                           data: []
                         }
                       ]
-                    },
-                    django: {
-                      children: {
-                        deployment: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Deployment",
-                          messages: [
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "py"
-                              ]
-                            },
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "py"
-                              ]
-                            }
-                          ]
-                        },
-                        models: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Models",
-                          messages: [
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "py"
-                              ]
-                            }
-                          ]
-                        }
-                      }
                     },
                     express_nodejs: {
                       children: {
@@ -3893,28 +3441,6 @@ var warnings_processed_default = {
                               ]
                             }
                           ]
-                        },
-                        mongoose: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/mongoose",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: '(' expected.",
-                                "async function myFunction {",
-                                "1:9"
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: '(' expected.",
-                                "async function myFunction {",
-                                "1:9"
-                              ]
-                            }
-                          ]
                         }
                       }
                     },
@@ -3932,6 +3458,19 @@ var warnings_processed_default = {
                 },
                 testing: {
                   children: {
+                    automated_testing: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Automated_testing",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://app.saucelabs.com/dashboard/manual",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     html_and_css: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS",
@@ -3942,20 +3481,6 @@ var warnings_processed_default = {
                             "Unknown word form (CssSyntaxError)",
                             "form > #date",
                             "1:1"
-                          ]
-                        }
-                      ]
-                    },
-                    your_own_automation_environment: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Your_own_automation_environment",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Unexpected keyword or identifier.",
-                            "npm install axios",
-                            "1:9"
                           ]
                         }
                       ]
@@ -4366,6 +3891,33 @@ var warnings_processed_default = {
                 },
                 tools_and_setup: {
                   children: {
+                    available_text_editors: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.codelobster.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.codelobster.com/forum/index.php",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.codelobsteride.com/help/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -4474,16 +4026,7 @@ var warnings_processed_default = {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/MDN/Community/Issues",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "markdown"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 learn_forum: {
                   children: {},
@@ -4569,18 +4112,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                learning_content: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Writing_guidelines/Learning_content",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "markdown"
-                      ]
-                    }
-                  ]
-                },
                 page_structures: {
                   children: {
                     feature_status: {
@@ -4594,12 +4125,6 @@ var warnings_processed_default = {
                         {
                           message: "Broken browser compat anchor",
                           data: []
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "yml"
-                          ]
                         }
                       ]
                     },
@@ -5958,42 +5483,6 @@ var warnings_processed_default = {
                     },
                     "manifest.json": {
                       children: {
-                        background: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/background",
-                          messages: [
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "javascript"
-                              ]
-                            }
-                          ]
-                        },
-                        browser_specific_settings: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/browser_specific_settings",
-                          messages: [
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: json; notranslate"
-                              ]
-                            }
-                          ]
-                        },
-                        chrome_settings_overrides: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/chrome_settings_overrides",
-                          messages: [
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush:json notranslate"
-                              ]
-                            }
-                          ]
-                        },
                         content_security_policy: {
                           children: {},
                           slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/content_security_policy",
@@ -6003,78 +5492,6 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_Security_Policy",
                                 "#eval%28%29_and_friends"
-                              ]
-                            }
-                          ]
-                        },
-                        externally_connectable: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/externally_connectable",
-                          messages: [
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                " notranslate"
-                              ]
-                            }
-                          ]
-                        },
-                        host_permissions: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/host_permissions",
-                          messages: [
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: json; notranslate"
-                              ]
-                            }
-                          ]
-                        },
-                        optional_host_permissions: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/optional_host_permissions",
-                          messages: [
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: json; notranslate"
-                              ]
-                            }
-                          ]
-                        },
-                        options_page: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/options_page",
-                          messages: [
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: json; notranslate"
-                              ]
-                            }
-                          ]
-                        },
-                        options_ui: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/options_ui",
-                          messages: [
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: json; notranslate"
-                              ]
-                            }
-                          ]
-                        },
-                        permissions: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions",
-                          messages: [
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "brush: json; notranslate"
                               ]
                             }
                           ]
@@ -6360,14 +5777,6 @@ var warnings_processed_default = {
                             "Parsing error: Declaration or statement expected.",
                             'else if (e.target.id === "tabs-alert-info") {',
                             "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ')' expected.",
-                            "",
-                            "12:9"
                           ]
                         },
                         {
@@ -11174,6 +10583,68 @@ var warnings_processed_default = {
                     },
                     understanding_wcag: {
                       children: {
+                        operable: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Operable",
+                          messages: [
+                            {
+                              message: "Broken anchor",
+                              data: [
+                                "/en-US/docs/Learn_web_development/Core/Accessibility/HTML",
+                                "#ui_controls"
+                              ]
+                            },
+                            {
+                              message: "Broken anchor",
+                              data: [
+                                "/en-US/docs/Learn_web_development/Core/Accessibility/HTML",
+                                "#ui_controls"
+                              ]
+                            },
+                            {
+                              message: "Broken anchor",
+                              data: [
+                                "/en-US/docs/Learn_web_development/Core/Accessibility/HTML",
+                                "#ui_controls"
+                              ]
+                            },
+                            {
+                              message: "Broken anchor",
+                              data: [
+                                "/en-US/docs/Learn_web_development/Core/Accessibility/HTML",
+                                "#meaningful_text_labels"
+                              ]
+                            },
+                            {
+                              message: "Broken anchor",
+                              data: [
+                                "/en-US/docs/Learn_web_development/Core/Accessibility/HTML",
+                                "#ui_controls"
+                              ]
+                            },
+                            {
+                              message: "Broken anchor",
+                              data: [
+                                "/en-US/docs/Learn_web_development/Core/Accessibility/HTML",
+                                "#meaningful_text_labels"
+                              ]
+                            },
+                            {
+                              message: "Broken anchor",
+                              data: [
+                                "/en-US/docs/Learn_web_development/Core/Accessibility/HTML",
+                                "#ui_controls"
+                              ]
+                            },
+                            {
+                              message: "Broken anchor",
+                              data: [
+                                "/en-US/docs/Learn_web_development/Core/Accessibility/HTML",
+                                "#meaningful_text_labels"
+                              ]
+                            }
+                          ]
+                        },
                         perceivable: {
                           children: {
                             color_contrast: {
@@ -11196,7 +10667,51 @@ var warnings_processed_default = {
                                 }
                               ]
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Perceivable",
+                          messages: [
+                            {
+                              message: "Broken anchor",
+                              data: [
+                                "/en-US/docs/Learn_web_development/Core/Accessibility/HTML",
+                                "#ui_controls"
+                              ]
+                            },
+                            {
+                              message: "Broken anchor",
+                              data: [
+                                "/en-US/docs/Learn_web_development/Core/Accessibility/HTML",
+                                "#ui_controls"
+                              ]
+                            }
+                          ]
+                        },
+                        understandable: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Understandable",
+                          messages: [
+                            {
+                              message: "Broken anchor",
+                              data: [
+                                "/en-US/docs/Learn_web_development/Core/Accessibility/HTML",
+                                "#page_layouts"
+                              ]
+                            },
+                            {
+                              message: "Broken anchor",
+                              data: [
+                                "/en-US/docs/Learn_web_development/Core/Accessibility/HTML",
+                                "#meaningful_text_labels"
+                              ]
+                            },
+                            {
+                              message: "Broken anchor",
+                              data: [
+                                "/en-US/docs/Learn_web_development/Core/Accessibility/HTML",
+                                "#meaningful_text_labels"
+                              ]
+                            }
+                          ]
                         }
                       }
                     }
@@ -11443,22 +10958,6 @@ var warnings_processed_default = {
                     }
                   ]
                 },
-                contactaddress: {
-                  children: {
-                    addressline: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/ContactAddress/addressLine",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "plaintext"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 convolvernode: {
                   children: {},
                   slug: "/en-US/docs/Web/API/ConvolverNode",
@@ -11523,54 +11022,10 @@ var warnings_processed_default = {
                             "https://drafts.css-houdini.org/css-paint-api-1/",
                             "The operation timed out."
                           ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Declaration or statement expected.",
-                            "static get inputArguments() { return ['*']; }",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "paint(ctx, size, props, args) {",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Declaration or statement expected.",
-                            "static get inputArguments() { return ['*', '<length>']; }",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "paint(ctx, size, props, args) {",
-                            "1:9"
-                          ]
                         }
                       ]
                     }
                   }
-                },
-                cssnesteddeclarations: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/CSSNestedDeclarations",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "txt"
-                      ]
-                    }
-                  ]
                 },
                 csspropertyrule: {
                   children: {
@@ -12069,24 +11524,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                elementinternals: {
-                  children: {
-                    states: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/ElementInternals/states",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Unexpected keyword or identifier.",
-                            "set checked(flag) {",
-                            "1:9"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 ext_disjoint_timer_query: {
                   children: {
                     beginqueryext: {
@@ -12231,42 +11668,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                gpucommandencoder: {
-                  children: {
-                    beginrenderpass: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/GPUCommandEncoder/beginRenderPass",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "  g: 0.5,",
-                            "3:9"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                gpudevice: {
-                  children: {
-                    createtexture: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/GPUDevice/createTexture",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "  height: 16,",
-                            "3:9"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 gpuqueue: {
                   children: {
                     copyexternalimagetotexture: {
@@ -12278,22 +11679,6 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: ';' expected.",
                             "  y: 0",
-                            "3:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "  y: 0,",
-                            "3:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "  height: 1,",
                             "3:9"
                           ]
                         }
@@ -12528,28 +11913,6 @@ var warnings_processed_default = {
                             "api.Element.paste_event",
                             "Expected:",
                             "api.HTMLElement.paste_event"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                htmliframeelement: {
-                  children: {
-                    getsvgdocument: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLIframeElement/getSVGDocument",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/HTMLIframeElement"
-                          ]
-                        },
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "api.HTMLIframeElement.getSVGDocument"
                           ]
                         }
                       ]
@@ -13109,14 +12472,6 @@ var warnings_processed_default = {
                         {
                           message: "Broken browser compat anchor",
                           data: []
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: '}' expected.",
-                            "",
-                            "15:9"
-                          ]
                         }
                       ]
                     }
@@ -13247,24 +12602,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via page",
                           data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                pushmanager: {
-                  children: {
-                    supportedcontentencodings_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PushManager/supportedContentEncodings_static",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ',' expected.",
-                            "  body: JSON.stringify(pushSubscription);",
-                            "18:9"
-                          ]
                         }
                       ]
                     }
@@ -13690,20 +13027,6 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                shadowroot: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/ShadowRoot",
-                  messages: [
-                    {
-                      message: "JS code issue",
-                      data: [
-                        "Parsing error: ';' expected.",
-                        "connectedCallback() {",
-                        "1:9"
-                      ]
-                    }
-                  ]
                 },
                 sharedstorageoperation: {
                   children: {},
@@ -14225,44 +13548,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    using_audioworklet: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Web_Audio_API/Using_AudioWorklet",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "process(inputList, outputList, parameters) {",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "process(inputList, outputList, parameters) {",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Declaration or statement expected.",
-                            "static get parameterDescriptors() {",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "process(inputList, outputList, parameters) {",
-                            "1:9"
-                          ]
-                        }
-                      ]
-                    },
                     using_iir_filters: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Using_IIR_filters",
@@ -14375,64 +13660,6 @@ var warnings_processed_default = {
                           message: "Not linked from parent page",
                           data: [
                             "/en-US/docs/Web/API/Web_Authentication_API"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: '=>' expected.",
-                            "})}",
-                            "3:9"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                web_components: {
-                  children: {
-                    using_custom_elements: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Web_components/Using_custom_elements",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "constructor() {",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "connectedCallback() {",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "disconnectedCallback() {",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "attributeChangedCallback(name, oldValue, newValue) {",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Declaration or statement expected.",
-                            "static get observedAttributes() {",
-                            "1:9"
                           ]
                         }
                       ]
@@ -14756,38 +13983,6 @@ var warnings_processed_default = {
                           ]
                         }
                       ]
-                    },
-                    tutorial: {
-                      children: {
-                        creating_3d_objects_using_webgl: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/WebGL_API/Tutorial/Creating_3D_objects_using_WebGL",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: '}' expected.",
-                                "",
-                                "2:9"
-                              ]
-                            }
-                          ]
-                        },
-                        using_textures_in_webgl: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/WebGL_API/Tutorial/Using_textures_in_WebGL",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: '}' expected.",
-                                "",
-                                "2:9"
-                              ]
-                            }
-                          ]
-                        }
-                      }
                     },
                     webgl_best_practices: {
                       children: {},
@@ -15386,27 +14581,6 @@ var warnings_processed_default = {
                 },
                 window: {
                   children: {
-                    back: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/back",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "api.Window.back"
-                          ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "[None]",
-                            "Expected:",
-                            "api.Window.back"
-                          ]
-                        }
-                      ]
-                    },
                     copy_event: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Window/copy_event",
@@ -15445,93 +14619,6 @@ var warnings_processed_default = {
                             "api.Element.cut_event",
                             "Expected:",
                             "api.Window.cut_event"
-                          ]
-                        }
-                      ]
-                    },
-                    fetch: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/fetch",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            " notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            " notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            " notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            " notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            " notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            " notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            " notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            " notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            " notranslate"
-                          ]
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            " notranslate"
-                          ]
-                        }
-                      ]
-                    },
-                    forward: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/forward",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "api.Window.forward"
-                          ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "[None]",
-                            "Expected:",
-                            "api.Window.forward"
                           ]
                         }
                       ]
@@ -15779,94 +14866,6 @@ var warnings_processed_default = {
                           message: "Not linked from parent page",
                           data: [
                             "/en-US/docs/Web/API/XMLHttpRequest_API"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                xmlhttprequest: {
-                  children: {
-                    channel: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/XMLHttpRequest/channel",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "api.XMLHttpRequest.channel"
-                          ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "[None]",
-                            "Expected:",
-                            "api.XMLHttpRequest.channel"
-                          ]
-                        }
-                      ]
-                    },
-                    mozanon: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/XMLHttpRequest/mozAnon",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "api.XMLHttpRequest.mozAnon"
-                          ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "[None]",
-                            "Expected:",
-                            "api.XMLHttpRequest.mozAnon"
-                          ]
-                        }
-                      ]
-                    },
-                    mozbackgroundrequest: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/XMLHttpRequest/mozBackgroundRequest",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "api.XMLHttpRequest.mozBackgroundRequest"
-                          ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "[None]",
-                            "Expected:",
-                            "api.XMLHttpRequest.mozBackgroundRequest"
-                          ]
-                        }
-                      ]
-                    },
-                    mozsystem: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/XMLHttpRequest/mozSystem",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "api.XMLHttpRequest.mozSystem"
-                          ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "[None]",
-                            "Expected:",
-                            "api.XMLHttpRequest.mozSystem"
                           ]
                         }
                       ]
@@ -19140,22 +18139,6 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                css_nesting: {
-                  children: {
-                    using_css_nesting: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "txt"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 css_positioned_layout: {
                   children: {
                     stacking_context: {
@@ -20736,10 +19719,28 @@ css.properties.grid-template-rows.minmax`
                       ]
                     },
                     {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/cap"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/ch"
+                      ]
+                    },
+                    {
                       message: "Broken anchor",
                       data: [
                         "/en-US/docs/Web/CSS/basic-shape",
                         "#circle"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/cm"
                       ]
                     },
                     {
@@ -20762,10 +19763,58 @@ css.properties.grid-template-rows.minmax`
                       ]
                     },
                     {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/deg"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/dpcm"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/dpi"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/dppx"
+                      ]
+                    },
+                    {
                       message: "Broken anchor",
                       data: [
                         "/en-US/docs/Web/CSS/basic-shape",
                         "#ellipse"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/em"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/ex"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/grad"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/Hz"
                       ]
                     },
                     {
@@ -20794,10 +19843,22 @@ css.properties.grid-template-rows.minmax`
                       ]
                     },
                     {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/ic"
+                      ]
+                    },
+                    {
                       message: "Broken anchor",
                       data: [
                         "/en-US/docs/Web/CSS/image",
                         "#the_image_functional_notation"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/in"
                       ]
                     },
                     {
@@ -20811,6 +19872,12 @@ css.properties.grid-template-rows.minmax`
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/CSS/:is()"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/kHz"
                       ]
                     },
                     {
@@ -20843,7 +19910,31 @@ css.properties.grid-template-rows.minmax`
                     {
                       message: "Broken link",
                       data: [
+                        "/en-US/docs/Web/CSS/mm"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/ms"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
                         "/en-US/docs/Web/CSS/::part()"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/pc"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/::picker()"
                       ]
                     },
                     {
@@ -20851,6 +19942,30 @@ css.properties.grid-template-rows.minmax`
                       data: [
                         "/en-US/docs/Web/CSS/basic-shape",
                         "#polygon"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/pt"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/px"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/Q"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/rad"
                       ]
                     },
                     {
@@ -20865,6 +19980,12 @@ css.properties.grid-template-rows.minmax`
                       data: [
                         "/en-US/docs/Web/CSS/@page",
                         "#page-margin-box-type"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/s"
                       ]
                     },
                     {
@@ -20912,10 +20033,22 @@ css.properties.grid-template-rows.minmax`
                       ]
                     },
                     {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/turn"
+                      ]
+                    },
+                    {
                       message: "Broken anchor",
                       data: [
                         "/en-US/docs/Web/CSS/url_value",
                         "#the_url_functional_notation"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/vh"
                       ]
                     },
                     {
@@ -20940,6 +20073,24 @@ css.properties.grid-template-rows.minmax`
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/CSS/::view-transition-old()"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/vmax"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/vmin"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/vw"
                       ]
                     },
                     {
@@ -21070,42 +20221,6 @@ css.properties.grid-template-rows.repeat`
                         'Unknown word "This string is demarcated by double quotes." (CssSyntaxError)',
                         '"This string is demarcated by double quotes."',
                         "2:1"
-                      ]
-                    }
-                  ]
-                },
-                "stroke-dasharray": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-dasharray",
-                  messages: [
-                    {
-                      message: "Possibly unrendered Markdown",
-                      data: [
-                        ", or of the viewport itself if no `viewBox` is specified"
-                      ]
-                    }
-                  ]
-                },
-                "stroke-dashoffset": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-dashoffset",
-                  messages: [
-                    {
-                      message: "Possibly unrendered Markdown",
-                      data: [
-                        ", or of the viewport itself if no `viewBox` is specified"
-                      ]
-                    }
-                  ]
-                },
-                "stroke-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-width",
-                  messages: [
-                    {
-                      message: "Possibly unrendered Markdown",
-                      data: [
-                        ", or of the viewport itself if no `viewBox` is specified"
                       ]
                     }
                   ]
@@ -22366,12 +21481,6 @@ html.elements.select.size`
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "javascript"
-                          ]
                         }
                       ]
                     },
@@ -22475,22 +21584,6 @@ html.elements.select.size`
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: JSX element 'year2' has no corresponding closing tag.",
-                                "dateRange(<day1>, <month1>, <year1>, <day2>, <month2>, <year2>, [gmt])",
-                                "7:9"
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: JSX element 'sec2' has no corresponding closing tag.",
-                                "timeRange(<hour1>, <min1>, <sec1>, <hour2>, <min2>, <sec2>, [gmt])",
-                                "2:9"
-                              ]
                             }
                           ]
                         }
@@ -22522,12 +21615,6 @@ html.elements.select.size`
                             {
                               message: "Missing syntax code block",
                               data: []
-                            },
-                            {
-                              message: "Not linked from parent page",
-                              data: [
-                                "/en-US/docs/Web/HTTP/Reference/Headers"
-                              ]
                             }
                           ]
                         },
@@ -22592,18 +21679,6 @@ html.elements.select.size`
                               ]
                             }
                           }
-                        },
-                        "dictionary-id": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Dictionary-ID",
-                          messages: [
-                            {
-                              message: "Not linked from parent page",
-                              data: [
-                                "/en-US/docs/Web/HTTP/Reference/Headers"
-                              ]
-                            }
-                          ]
                         },
                         forwarded: {
                           children: {},
@@ -22720,26 +21795,6 @@ html.elements.select.size`
                             {
                               message: "Missing syntax code block",
                               data: []
-                            }
-                          ]
-                        },
-                        "use-as-dictionary": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Use-As-Dictionary",
-                          messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "match-dest",
-                                "Text before code:",
-                                "This uses"
-                              ]
-                            },
-                            {
-                              message: "Not linked from parent page",
-                              data: [
-                                "/en-US/docs/Web/HTTP/Reference/Headers"
-                              ]
                             }
                           ]
                         },
@@ -22912,20 +21967,6 @@ html.elements.select.size`
                           message: "Not linked from parent page",
                           data: [
                             "/en-US/docs/Web/JavaScript/Guide"
-                          ]
-                        }
-                      ]
-                    },
-                    grammar_and_types: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Grammar_and_types",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Identifier expected.",
-                            "console.log(unusualPropertyNames.'');   // SyntaxError: Unexpected string",
-                            "5:9"
                           ]
                         }
                       ]
@@ -23258,24 +22299,6 @@ html.elements.select.size`
                             }
                           }
                         },
-                        number: {
-                          children: {
-                            nan: {
-                              children: {},
-                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/NaN",
-                              messages: [
-                                {
-                                  message: "JS code issue",
-                                  data: [
-                                    "Unused eslint-disable directive (no problems were reported from 'use-isnan').",
-                                    "  // eslint-disable-next-line use-isnan",
-                                    "2:3"
-                                  ]
-                                }
-                              ]
-                            }
-                          }
-                        },
                         object: {
                           children: {
                             defineproperty: {
@@ -23403,24 +22426,6 @@ html.elements.select.size`
                                   ]
                                 }
                               }
-                            },
-                            zoneddatetime: {
-                              children: {
-                                epochmilliseconds: {
-                                  children: {},
-                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/epochMilliseconds",
-                                  messages: [
-                                    {
-                                      message: "JS code issue",
-                                      data: [
-                                        "Parsing error: A bigint literal cannot use exponential notation.",
-                                        "const epochNanoseconds = BigInt(epochMilliseconds) * 1e6n;",
-                                        "2:9"
-                                      ]
-                                    }
-                                  ]
-                                }
-                              }
                             }
                           }
                         },
@@ -23477,20 +22482,6 @@ html.elements.select.size`
                         }
                       ]
                     },
-                    lexical_grammar: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Reference/Lexical_grammar",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ']' expected.",
-                            "",
-                            "3:9"
-                          ]
-                        }
-                      ]
-                    },
                     operators: {
                       children: {
                         delete: {
@@ -23502,20 +22493,6 @@ html.elements.select.size`
                               data: [
                                 "http://perfectionkills.com/understanding-delete/",
                                 ""
-                              ]
-                            }
-                          ]
-                        },
-                        function: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Operators/function",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: ')' expected.",
-                                "}());",
-                                "20:9"
                               ]
                             }
                           ]
@@ -23847,19 +22824,6 @@ html.elements.select.size`
                     },
                     formats: {
                       children: {
-                        containers: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Containers",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=1441",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -28890,20 +27854,6 @@ svg.elements.feSpotLight.z`
                     {
                       message: "Unreachable via sidebar",
                       data: []
-                    }
-                  ]
-                },
-                loading_and_running: {
-                  children: {},
-                  slug: "/en-US/docs/WebAssembly/Guides/Loading_and_running",
-                  messages: [
-                    {
-                      message: "JS code issue",
-                      data: [
-                        "Parsing error: ';' expected.",
-                        "  instance: Instance, // A new WebAssembly.Instance of the module object",
-                        "3:9"
-                      ]
                     }
                   ]
                 }
