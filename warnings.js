@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-6sfb3gjm.js";
+} from "./chunk-j8ngg6ef.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -158,6 +158,42 @@ var warnings_processed_default = {
                 },
                 "3d_on_the_web": {
                   children: {
+                    "building_up_a_basic_demo_with_a-frame": {
+                      children: {},
+                      slug: "/en-US/docs/Games/Techniques/3D_on_the_web/Building_up_a_basic_demo_with_A-Frame",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "shapes.png"
+                          ]
+                        },
+                        {
+                          message: "Unused image",
+                          data: [
+                            "cube.png"
+                          ]
+                        }
+                      ]
+                    },
+                    "building_up_a_basic_demo_with_babylon.js": {
+                      children: {},
+                      slug: "/en-US/docs/Games/Techniques/3D_on_the_web/Building_up_a_basic_demo_with_Babylon.js",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "shapes.png"
+                          ]
+                        },
+                        {
+                          message: "Unused image",
+                          data: [
+                            "cube.png"
+                          ]
+                        }
+                      ]
+                    },
                     building_up_a_basic_demo_with_playcanvas: {
                       children: {
                         editor: {
@@ -175,12 +211,48 @@ var warnings_processed_default = {
                           slug: "/en-US/docs/Games/Techniques/3D_on_the_web/Building_up_a_basic_demo_with_PlayCanvas/engine",
                           messages: [
                             {
+                              message: "Unused image",
+                              data: [
+                                "shapes-playcanvas.png"
+                              ]
+                            },
+                            {
+                              message: "Unused image",
+                              data: [
+                                "playcanvas-github.png"
+                              ]
+                            },
+                            {
+                              message: "Unused image",
+                              data: [
+                                "cube-playcanvas.png"
+                              ]
+                            },
+                            {
                               message: "Unreachable via sidebar",
                               data: []
                             }
                           ]
                         }
                       }
+                    },
+                    "building_up_a_basic_demo_with_three.js": {
+                      children: {},
+                      slug: "/en-US/docs/Games/Techniques/3D_on_the_web/Building_up_a_basic_demo_with_Three.js",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "shapes.png"
+                          ]
+                        },
+                        {
+                          message: "Unused image",
+                          data: [
+                            "cube.png"
+                          ]
+                        }
+                      ]
                     },
                     glsl_shaders: {
                       children: {},
@@ -968,6 +1040,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            fetch_metadata_request_header: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Fetch_metadata_request_header",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://secmetadata.appspot.com/",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
             firewall: {
               children: {},
               slug: "/en-US/docs/Glossary/Firewall",
@@ -1693,6 +1778,18 @@ var warnings_processed_default = {
                 },
                 css_layout: {
                   children: {
+                    flexbox: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Flexbox",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "flexbox-example6.png"
+                          ]
+                        }
+                      ]
+                    },
                     flexbox_skills: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Flexbox_skills",
@@ -2031,6 +2128,13 @@ var warnings_processed_default = {
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/mxmason/pen/XWbPNmw"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://phabricator.wikimedia.org/T241180",
+                            "429 Retry-After: 1000"
                           ]
                         }
                       ]
@@ -2391,6 +2495,30 @@ var warnings_processed_default = {
                         }
                       ]
                     },
+                    debugging_javascript: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Debugging_JavaScript",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "js-hint-commandline.png"
+                          ]
+                        },
+                        {
+                          message: "Unused image",
+                          data: [
+                            "jshint-online.png"
+                          ]
+                        },
+                        {
+                          message: "Unused image",
+                          data: [
+                            "fetch-image.jpg"
+                          ]
+                        }
+                      ]
+                    },
                     test_your_skills_colon__arrays: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills:_Arrays",
@@ -2593,6 +2721,18 @@ var warnings_processed_default = {
                 },
                 structuring_content: {
                   children: {
+                    creating_links: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Creating_links",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "mdn_logo.svg"
+                          ]
+                        }
+                      ]
+                    },
                     general_embedding_technologies: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/General_embedding_technologies",
@@ -2658,6 +2798,18 @@ var warnings_processed_default = {
                         }
                       ]
                     },
+                    mozilla_splash_page: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Mozilla_splash_page",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "narrow-shot.png"
+                          ]
+                        }
+                      ]
+                    },
                     test_your_skills_colon__advanced_html_text: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills:_Advanced_HTML_text",
@@ -2714,6 +2866,12 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Advanced_styling_effects",
                       messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "colorful-heart.png"
+                          ]
+                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -2928,6 +3086,18 @@ var warnings_processed_default = {
                         }
                       ]
                     },
+                    what_is_css: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/What_is_CSS",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "rendering.svg"
+                          ]
+                        }
+                      ]
+                    },
                     writing_modes_tasks: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Writing_Modes_Tasks",
@@ -2941,6 +3111,22 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        }
+                      ]
+                    }
+                  }
+                },
+                text_styling: {
+                  children: {
+                    styling_links: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Styling_links",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "external-link-52.png"
+                          ]
                         }
                       ]
                     }
@@ -3086,6 +3272,18 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        }
+                      ]
+                    },
+                    styling_web_forms: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Styling_web_forms",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "background.jpg"
+                          ]
                         }
                       ]
                     },
@@ -3463,10 +3661,27 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Automated_testing",
                       messages: [
                         {
-                          message: "Broken external link",
+                          message: "Unused image",
                           data: [
-                            "https://app.saucelabs.com/dashboard/manual",
-                            "The operation timed out."
+                            "lambdatest-dashboard.png"
+                          ]
+                        },
+                        {
+                          message: "Unused image",
+                          data: [
+                            "mark-as-bug-1.png"
+                          ]
+                        },
+                        {
+                          message: "Unused image",
+                          data: [
+                            "mark-as-bug-2.png"
+                          ]
+                        },
+                        {
+                          message: "Unused image",
+                          data: [
+                            "mark-as-bug-3.png"
                           ]
                         }
                       ]
@@ -3481,6 +3696,55 @@ var warnings_processed_default = {
                             "Unknown word form (CssSyntaxError)",
                             "form > #date",
                             "1:1"
+                          ]
+                        }
+                      ]
+                    },
+                    your_own_automation_environment: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Your_own_automation_environment",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "automation-logs-1.jpg"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            getting_started: {
+              children: {
+                environment_setup: {
+                  children: {
+                    dealing_with_files: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Dealing_with_files",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "file-structure.png"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                soft_skills: {
+                  children: {
+                    research_and_learning: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Research_and_learning",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://resources.github.com/copilot-for-business/",
+                            "https://github.com/features/copilot/copilot-business"
                           ]
                         }
                       ]
@@ -3621,6 +3885,12 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/Generated_content",
                       messages: [
                         {
+                          message: "Unused image",
+                          data: [
+                            "glossary-icon.gif"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -3717,6 +3987,12 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Solve_HTML_problems/Cheatsheet",
                       messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "beast.png"
+                          ]
+                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -3891,33 +4167,6 @@ var warnings_processed_default = {
                 },
                 tools_and_setup: {
                   children: {
-                    available_text_editors: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.codelobster.com/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.codelobster.com/forum/index.php",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.codelobsteride.com/help/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -3925,6 +4174,19 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    how_do_you_host_your_website_on_google_app_engine: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gaesamplesite.appspot.com/",
+                            503
+                          ]
                         }
                       ]
                     }
@@ -4114,6 +4376,18 @@ var warnings_processed_default = {
                 },
                 page_structures: {
                   children: {
+                    code_examples: {
+                      children: {},
+                      slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Code_examples",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "console-example.png"
+                          ]
+                        }
+                      ]
+                    },
                     feature_status: {
                       children: {},
                       slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Feature_status",
@@ -10568,6 +10842,13 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://www.kirupa.com/html5/toggling_animations_on_off.htm",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://www.cedars-sinai.org/health-library/diseases-and-conditions/p/photosensitive-seizures.html",
                             "The operation timed out."
                           ]
@@ -10902,7 +11183,16 @@ var warnings_processed_default = {
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/Attribution_Reporting_API",
+                  messages: [
+                    {
+                      message: "Unexpected asset file",
+                      data: [
+                        "ara-flow.drawio"
+                      ]
+                    }
+                  ]
                 },
                 audioworkletprocessor: {
                   children: {
@@ -10932,6 +11222,48 @@ var warnings_processed_default = {
                   children: {
                     tutorial: {
                       children: {
+                        applying_styles_and_colors: {
+                          children: {},
+                          slug: "/en-US/docs/Web/API/Canvas_API/Tutorial/Applying_styles_and_colors",
+                          messages: [
+                            {
+                              message: "Unused image",
+                              data: [
+                                "canvas_create_pattern.png"
+                              ]
+                            }
+                          ]
+                        },
+                        basic_animations: {
+                          children: {},
+                          slug: "/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_animations",
+                          messages: [
+                            {
+                              message: "Unused image",
+                              data: [
+                                "canvas_moon.png"
+                              ]
+                            },
+                            {
+                              message: "Unused image",
+                              data: [
+                                "capitan_meadows_yosemite_national_park.jpg"
+                              ]
+                            },
+                            {
+                              message: "Unused image",
+                              data: [
+                                "canvas_sun.png"
+                              ]
+                            },
+                            {
+                              message: "Unused image",
+                              data: [
+                                "canvas_earth.png"
+                              ]
+                            }
+                          ]
+                        },
                         finale: {
                           children: {},
                           slug: "/en-US/docs/Web/API/Canvas_API/Tutorial/Finale",
@@ -10940,6 +11272,78 @@ var warnings_processed_default = {
                               message: "External sandbox link",
                               data: [
                                 "https://codepen.io/search/pens?q=canvas"
+                              ]
+                            }
+                          ]
+                        },
+                        using_images: {
+                          children: {},
+                          slug: "/en-US/docs/Web/API/Canvas_API/Tutorial/Using_images",
+                          messages: [
+                            {
+                              message: "Unused image",
+                              data: [
+                                "backdrop.png"
+                              ]
+                            },
+                            {
+                              message: "Unused image",
+                              data: [
+                                "gallery_3.jpg"
+                              ]
+                            },
+                            {
+                              message: "Unused image",
+                              data: [
+                                "gallery_2.jpg"
+                              ]
+                            },
+                            {
+                              message: "Unused image",
+                              data: [
+                                "gallery_6.jpg"
+                              ]
+                            },
+                            {
+                              message: "Unused image",
+                              data: [
+                                "gallery_5.jpg"
+                              ]
+                            },
+                            {
+                              message: "Unused image",
+                              data: [
+                                "gallery_7.jpg"
+                              ]
+                            },
+                            {
+                              message: "Unused image",
+                              data: [
+                                "gallery_1.jpg"
+                              ]
+                            },
+                            {
+                              message: "Unused image",
+                              data: [
+                                "canvas_picture_frame.png"
+                              ]
+                            },
+                            {
+                              message: "Unused image",
+                              data: [
+                                "bg_gallery.png"
+                              ]
+                            },
+                            {
+                              message: "Unused image",
+                              data: [
+                                "gallery_8.jpg"
+                              ]
+                            },
+                            {
+                              message: "Unused image",
+                              data: [
+                                "gallery_4.jpg"
                               ]
                             }
                           ]
@@ -10957,6 +11361,66 @@ var warnings_processed_default = {
                       ]
                     }
                   ]
+                },
+                canvaspattern: {
+                  children: {
+                    settransform: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CanvasPattern/setTransform",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "canvas_create_pattern.png"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                canvasrenderingcontext2d: {
+                  children: {
+                    getimagedata: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CanvasRenderingContext2D/getImageData",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "plumeria.jpg"
+                          ]
+                        }
+                      ]
+                    },
+                    imagesmoothingquality: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CanvasRenderingContext2D/imageSmoothingQuality",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "canvas_create_pattern.png"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                clipboard: {
+                  children: {
+                    read: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Clipboard/read",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "butterfly.jpg"
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 convolvernode: {
                   children: {},
@@ -11025,7 +11489,56 @@ var warnings_processed_default = {
                         }
                       ]
                     }
+                  },
+                  slug: "/en-US/docs/Web/API/CSS_Painting_API",
+                  messages: [
+                    {
+                      message: "Missing image",
+                      data: [
+                        "/en-US/docs/Web/API/CSS_Painting_API/guide/boxbg.png"
+                      ]
+                    }
+                  ]
+                },
+                css_typed_om_api: {
+                  children: {
+                    guide: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSS_Typed_OM_API/Guide",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "magic-wand.png"
+                          ]
+                        }
+                      ]
+                    }
                   }
+                },
+                cssimagevalue: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/CSSImageValue",
+                  messages: [
+                    {
+                      message: "Unused image",
+                      data: [
+                        "magic-wand.png"
+                      ]
+                    }
+                  ]
+                },
+                csspositionvalue: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/CSSPositionValue",
+                  messages: [
+                    {
+                      message: "Unused image",
+                      data: [
+                        "mdn.svg"
+                      ]
+                    }
+                  ]
                 },
                 csspropertyrule: {
                   children: {
@@ -11649,10 +12162,44 @@ var warnings_processed_default = {
                         {
                           message: "Broken browser compat anchor",
                           data: []
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.sqlite.org/wasm",
+                            "https://sqlite.org/wasm/doc/trunk/index.md"
+                          ]
                         }
                       ]
                     }
                   }
+                },
+                filesystemsyncaccesshandle: {
+                  children: {
+                    write: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/FileSystemSyncAccessHandle/write",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.sqlite.org/wasm",
+                            "https://sqlite.org/wasm/doc/trunk/index.md"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/FileSystemSyncAccessHandle",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://www.sqlite.org/wasm",
+                        "https://sqlite.org/wasm/doc/trunk/index.md"
+                      ]
+                    }
+                  ]
                 },
                 geolocation_api: {
                   children: {
@@ -11896,6 +12443,18 @@ var warnings_processed_default = {
                         }
                       ]
                     },
+                    load_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLElement/load_event",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "favicon144.png"
+                          ]
+                        }
+                      ]
+                    },
                     paste_event: {
                       children: {},
                       slug: "/en-US/docs/Web/API/HTMLElement/paste_event",
@@ -11913,6 +12472,86 @@ var warnings_processed_default = {
                             "api.Element.paste_event",
                             "Expected:",
                             "api.HTMLElement.paste_event"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                htmlimageelement: {
+                  children: {
+                    alt: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLImageElement/alt",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "margin-flourish.svg"
+                          ]
+                        }
+                      ]
+                    },
+                    crossorigin: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLImageElement/crossOrigin",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "clock-demo-400px.png"
+                          ]
+                        }
+                      ]
+                    },
+                    sizes: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLImageElement/sizes",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "new-york-skyline-tall.jpg"
+                          ]
+                        },
+                        {
+                          message: "Unused image",
+                          data: [
+                            "new-york-skyline-wide.jpg"
+                          ]
+                        },
+                        {
+                          message: "Unused image",
+                          data: [
+                            "new-york-skyline-4by3.jpg"
+                          ]
+                        }
+                      ]
+                    },
+                    src: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLImageElement/src",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "grapefruit-slice-332-332.jpg"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                htmlmapelement: {
+                  children: {
+                    areas: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLMapElement/areas",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "left-right-arrow.png"
                           ]
                         }
                       ]
@@ -13501,19 +14140,6 @@ var warnings_processed_default = {
                 },
                 web_audio_api: {
                   children: {
-                    advanced_techniques: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://soundbible.com/1573-DTMF-Tones.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     best_practices: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Best_practices",
@@ -14570,6 +15196,18 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Web/API/Window_Management_API/Multi-screen_origin",
                       messages: [
                         {
+                          message: "Unexpected asset file",
+                          data: [
+                            "primary-screen-left-source.drawio"
+                          ]
+                        },
+                        {
+                          message: "Unexpected asset file",
+                          data: [
+                            "primary-screen-right-source.drawio"
+                          ]
+                        },
+                        {
                           message: "Not linked from parent page",
                           data: [
                             "/en-US/docs/Web/API/Window_Management_API"
@@ -14581,6 +15219,18 @@ var warnings_processed_default = {
                 },
                 window: {
                   children: {
+                    confirm: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/confirm",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "firefox_confirm_dialog.png"
+                          ]
+                        }
+                      ]
+                    },
                     copy_event: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Window/copy_event",
@@ -14598,6 +15248,18 @@ var warnings_processed_default = {
                             "api.Element.copy_event",
                             "Expected:",
                             "api.Window.copy_event"
+                          ]
+                        }
+                      ]
+                    },
+                    createimagebitmap: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/createImageBitmap",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "50x50.jpg"
                           ]
                         }
                       ]
@@ -14866,6 +15528,46 @@ var warnings_processed_default = {
                           message: "Not linked from parent page",
                           data: [
                             "/en-US/docs/Web/API/XMLHttpRequest_API"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                xmlhttprequest: {
+                  children: {
+                    error_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/XMLHttpRequest/error_event",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "example-image.jpg"
+                          ]
+                        }
+                      ]
+                    },
+                    load_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/XMLHttpRequest/load_event",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "image.jpg"
+                          ]
+                        }
+                      ]
+                    },
+                    loadstart_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/XMLHttpRequest/loadstart_event",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "example-image.jpg"
                           ]
                         }
                       ]
@@ -15402,6 +16104,18 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
+                "-moz-image-rect": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/-moz-image-rect",
+                  messages: [
+                    {
+                      message: "Unused image",
+                      data: [
+                        "firefox.png"
+                      ]
+                    }
+                  ]
+                },
                 "-moz-image-region": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/-moz-image-region",
@@ -15700,6 +16414,18 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@font-face/font-feature-settings",
                       messages: [
+                        {
+                          message: "Unexpected asset file",
+                          data: [
+                            "ofl.txt"
+                          ]
+                        },
+                        {
+                          message: "Unexpected asset file",
+                          data: [
+                            "montecarlo-regular.woff2"
+                          ]
+                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -16785,6 +17511,18 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
+                "aspect-ratio": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/aspect-ratio",
+                  messages: [
+                    {
+                      message: "Unused image",
+                      data: [
+                        "plumeria.jpg"
+                      ]
+                    }
+                  ]
+                },
                 attr: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/attr",
@@ -16841,6 +17579,126 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
+                "backdrop-filter": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/backdrop-filter",
+                  messages: [
+                    {
+                      message: "Unused image",
+                      data: [
+                        "anemones.jpg"
+                      ]
+                    }
+                  ]
+                },
+                background: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/background",
+                  messages: [
+                    {
+                      message: "Unused image",
+                      data: [
+                        "star-solid.gif"
+                      ]
+                    }
+                  ]
+                },
+                "background-attachment": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/background-attachment",
+                  messages: [
+                    {
+                      message: "Unused image",
+                      data: [
+                        "star-transparent.gif"
+                      ]
+                    },
+                    {
+                      message: "Unused image",
+                      data: [
+                        "star-solid.gif"
+                      ]
+                    }
+                  ]
+                },
+                "background-blend-mode": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/background-blend-mode",
+                  messages: [
+                    {
+                      message: "Unused image",
+                      data: [
+                        "tr.png"
+                      ]
+                    },
+                    {
+                      message: "Unused image",
+                      data: [
+                        "br.png"
+                      ]
+                    }
+                  ]
+                },
+                "background-image": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/background-image",
+                  messages: [
+                    {
+                      message: "Unused image",
+                      data: [
+                        "star-transparent.gif"
+                      ]
+                    },
+                    {
+                      message: "Unused image",
+                      data: [
+                        "cat-front.png"
+                      ]
+                    },
+                    {
+                      message: "Unused image",
+                      data: [
+                        "mdn_logo_only_color.png"
+                      ]
+                    }
+                  ]
+                },
+                "background-position": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/background-position",
+                  messages: [
+                    {
+                      message: "Unused image",
+                      data: [
+                        "star-transparent.gif"
+                      ]
+                    },
+                    {
+                      message: "Unused image",
+                      data: [
+                        "cat-front.png"
+                      ]
+                    }
+                  ]
+                },
+                "background-repeat": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/background-repeat",
+                  messages: [
+                    {
+                      message: "Unused image",
+                      data: [
+                        "favicon32.png"
+                      ]
+                    },
+                    {
+                      message: "Unused image",
+                      data: [
+                        "star-solid.gif"
+                      ]
+                    }
+                  ]
+                },
                 "basic-shape": {
                   children: {
                     path: {
@@ -16893,6 +17751,18 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
+                    },
+                    {
+                      message: "Unused image",
+                      data: [
+                        "tr.png"
+                      ]
+                    },
+                    {
+                      message: "Unused image",
+                      data: [
+                        "br.png"
+                      ]
                     }
                   ]
                 },
@@ -16912,6 +17782,12 @@ css.selectors.-webkit-resizer`,
                       data: [
                         "/en-US/docs/Web/CSS/border-image-slice",
                         "#middle-region"
+                      ]
+                    },
+                    {
+                      message: "Unused image",
+                      data: [
+                        "border.png"
                       ]
                     }
                   ]
@@ -17086,6 +17962,30 @@ css.selectors.-webkit-resizer`,
                         "Unknown word style (CssSyntaxError)",
                         "[class~=class_name] { style properties }",
                         "1:23"
+                      ]
+                    }
+                  ]
+                },
+                clip: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/clip",
+                  messages: [
+                    {
+                      message: "Unused image",
+                      data: [
+                        "macarons.png"
+                      ]
+                    }
+                  ]
+                },
+                "clip-path": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/clip-path",
+                  messages: [
+                    {
+                      message: "Unused image",
+                      data: [
+                        "mdn.svg"
                       ]
                     }
                   ]
@@ -17571,6 +18471,30 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
+                content: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/content",
+                  messages: [
+                    {
+                      message: "Unused image",
+                      data: [
+                        "mdn.svg"
+                      ]
+                    },
+                    {
+                      message: "Unused image",
+                      data: [
+                        "1x.png"
+                      ]
+                    },
+                    {
+                      message: "Unused image",
+                      data: [
+                        "2x.png"
+                      ]
+                    }
+                  ]
+                },
                 "cross-fade": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/cross-fade",
@@ -17578,6 +18502,18 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
+                    },
+                    {
+                      message: "Unused image",
+                      data: [
+                        "tr.png"
+                      ]
+                    },
+                    {
+                      message: "Unused image",
+                      data: [
+                        "br.png"
+                      ]
                     },
                     {
                       message: "CSS code issue",
@@ -17638,6 +18574,12 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/CSS_anchor_positioning/Using",
                       messages: [
                         {
+                          message: "Unexpected asset file",
+                          data: [
+                            "position-area.drawio"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -17674,8 +18616,50 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Scaling_of_SVG_backgrounds",
                       messages: [
                         {
+                          message: "Unused image",
+                          data: [
+                            "no-dimensions-1x1-ratio.svg"
+                          ]
+                        },
+                        {
+                          message: "Unused image",
+                          data: [
+                            "100px-height-3x4-ratio.svg"
+                          ]
+                        },
+                        {
+                          message: "Unused image",
+                          data: [
+                            "100px-wide-no-height-or-ratio.svg"
+                          ]
+                        },
+                        {
+                          message: "Unused image",
+                          data: [
+                            "no-dimensions-or-ratio.svg"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
+                        }
+                      ]
+                    },
+                    using_multiple_backgrounds: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Using_multiple_backgrounds",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "bubbles.png"
+                          ]
+                        },
+                        {
+                          message: "Unused image",
+                          data: [
+                            "firefox.png"
+                          ]
                         }
                       ]
                     }
@@ -18020,6 +19004,18 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/CSS_filter_effects/Using_filter_effects",
                       messages: [
                         {
+                          message: "Unused image",
+                          data: [
+                            "activists.jpg"
+                          ]
+                        },
+                        {
+                          message: "Unused image",
+                          data: [
+                            "mandala.svg"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -18076,6 +19072,18 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    using_css_gradients: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "critters.png"
+                          ]
                         }
                       ]
                     }
@@ -18795,6 +19803,18 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
+                filter: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/filter",
+                  messages: [
+                    {
+                      message: "Unused image",
+                      data: [
+                        "pencil.jpg"
+                      ]
+                    }
+                  ]
+                },
                 "filter-function": {
                   children: {
                     blur: {
@@ -18828,6 +19848,12 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/filter-function/brightness",
                       messages: [
                         {
+                          message: "Unused image",
+                          data: [
+                            "be_fierce.jpg"
+                          ]
+                        },
+                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word brightness (CssSyntaxError)",
@@ -18841,6 +19867,12 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/filter-function/contrast",
                       messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "unity_for_the_people.jpg"
+                          ]
+                        },
                         {
                           message: "CSS code issue",
                           data: [
@@ -19034,6 +20066,36 @@ css.properties.width.fit-content_function`
                       data: [
                         "/en-US/docs/Web/CSS/font-stretch",
                         "#interpolation"
+                      ]
+                    }
+                  ]
+                },
+                "font-variant-alternates": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/font-variant-alternates",
+                  messages: [
+                    {
+                      message: "Unexpected asset file",
+                      data: [
+                        "ofl.txt"
+                      ]
+                    },
+                    {
+                      message: "Unexpected asset file",
+                      data: [
+                        "montecarlo-regular.woff2"
+                      ]
+                    }
+                  ]
+                },
+                "font-variant-emoji": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/font-variant-emoji",
+                  messages: [
+                    {
+                      message: "Unused image",
+                      data: [
+                        "font-variant-emoji-example.jpg"
                       ]
                     }
                   ]
@@ -19293,6 +20355,24 @@ css.types.image.gradient.repeating-radial-gradient.hue_interpolation_method`,
                       slug: "/en-US/docs/Web/CSS/image/image",
                       messages: [
                         {
+                          message: "Unused image",
+                          data: [
+                            "sprite.png"
+                          ]
+                        },
+                        {
+                          message: "Unused image",
+                          data: [
+                            "firefox.png"
+                          ]
+                        },
+                        {
+                          message: "Unused image",
+                          data: [
+                            "rightarrow.png"
+                          ]
+                        },
+                        {
                           message: "Not in BCD",
                           data: [
                             "css.types.image.image"
@@ -19338,6 +20418,30 @@ css.types.image.gradient.repeating-radial-gradient.hue_interpolation_method`,
                         "Unknown word no-url.jpg (CssSyntaxError)",
                         "no-url.jpg           /* An image file must be defined using the url() function. */",
                         "1:1"
+                      ]
+                    }
+                  ]
+                },
+                "image-orientation": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/image-orientation",
+                  messages: [
+                    {
+                      message: "Unused image",
+                      data: [
+                        "oriole.jpg"
+                      ]
+                    }
+                  ]
+                },
+                "image-rendering": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/image-rendering",
+                  messages: [
+                    {
+                      message: "Unused image",
+                      data: [
+                        "blumen.jpg"
                       ]
                     }
                   ]
@@ -19431,6 +20535,18 @@ css.types.image.gradient.repeating-radial-gradient.hue_interpolation_method`,
                           data: []
                         }
                       ]
+                    },
+                    sticky_footers: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/Layout_cookbook/Sticky_footers",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "cookbook-footer.png"
+                          ]
+                        }
+                      ]
                     }
                   }
                 },
@@ -19451,6 +20567,30 @@ css.types.image.gradient.repeating-radial-gradient.hue_interpolation_method`,
                     {
                       message: "Missing syntax code block",
                       data: []
+                    }
+                  ]
+                },
+                "list-style-image": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/list-style-image",
+                  messages: [
+                    {
+                      message: "Unused image",
+                      data: [
+                        "star-solid.gif"
+                      ]
+                    }
+                  ]
+                },
+                "list-style-position": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/list-style-position",
+                  messages: [
+                    {
+                      message: "Unused image",
+                      data: [
+                        "star-solid.gif"
+                      ]
                     }
                   ]
                 },
@@ -19564,6 +20704,30 @@ css.properties.grid-template-rows.minmax`
                     }
                   ]
                 },
+                "object-fit": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/object-fit",
+                  messages: [
+                    {
+                      message: "Unused image",
+                      data: [
+                        "mdn_logo_only_color.png"
+                      ]
+                    }
+                  ]
+                },
+                "object-position": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/object-position",
+                  messages: [
+                    {
+                      message: "Unused image",
+                      data: [
+                        "mdn.svg"
+                      ]
+                    }
+                  ]
+                },
                 "offset-path": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/offset-path",
@@ -19631,6 +20795,18 @@ css.properties.grid-template-rows.minmax`
                         "Unknown word keyword (CssSyntaxError)",
                         "keyword                  /* Either the horizontal or vertical position; the other axis defaults to center */",
                         "2:1"
+                      ]
+                    }
+                  ]
+                },
+                "position-area": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/position-area",
+                  messages: [
+                    {
+                      message: "Unexpected asset file",
+                      data: [
+                        "position-area.drawio"
                       ]
                     }
                   ]
@@ -20563,6 +21739,24 @@ css.properties.list-style-type.symbols`
                     }
                   ]
                 },
+                "vertical-align": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/vertical-align",
+                  messages: [
+                    {
+                      message: "Unused image",
+                      data: [
+                        "star.png"
+                      ]
+                    },
+                    {
+                      message: "Unused image",
+                      data: [
+                        "frame_image.svg"
+                      ]
+                    }
+                  ]
+                },
                 "view-timeline-axis": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/view-timeline-axis",
@@ -21270,6 +22464,36 @@ html.elements.select.size`
                 },
                 element: {
                   children: {
+                    a: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTML/Element/a",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "powerpoint.svg"
+                          ]
+                        },
+                        {
+                          message: "Unused image",
+                          data: [
+                            "new-tab.svg"
+                          ]
+                        }
+                      ]
+                    },
+                    figure: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTML/Element/figure",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "favicon-192x192.png"
+                          ]
+                        }
+                      ]
+                    },
                     footer: {
                       children: {},
                       slug: "/en-US/docs/Web/HTML/Element/footer",
@@ -21294,6 +22518,54 @@ html.elements.select.size`
                             "article",
                             "Text before link:",
                             "role="
+                          ]
+                        },
+                        {
+                          message: "Unused image",
+                          data: [
+                            "mdn-logo-sm.png"
+                          ]
+                        }
+                      ]
+                    },
+                    img: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTML/Element/img",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "clock-demo-400px.png"
+                          ]
+                        },
+                        {
+                          message: "Unused image",
+                          data: [
+                            "favicon144.png"
+                          ]
+                        },
+                        {
+                          message: "Unused image",
+                          data: [
+                            "clock-demo-200px.png"
+                          ]
+                        },
+                        {
+                          message: "Unused image",
+                          data: [
+                            "favicon72.png"
+                          ]
+                        }
+                      ]
+                    },
+                    map: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTML/Element/map",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "parrots.jpg"
                           ]
                         }
                       ]
@@ -21366,6 +22638,42 @@ html.elements.select.size`
                           message: "Not linked from parent page",
                           data: [
                             "/en-US/docs/Web/HTML/Element"
+                          ]
+                        }
+                      ]
+                    },
+                    td: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTML/Element/td",
+                      messages: [
+                        {
+                          message: "Unexpected asset file",
+                          data: [
+                            "column-row-span.html"
+                          ]
+                        }
+                      ]
+                    },
+                    th: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTML/Element/th",
+                      messages: [
+                        {
+                          message: "Unexpected asset file",
+                          data: [
+                            "column-row-span.html"
+                          ]
+                        }
+                      ]
+                    },
+                    thead: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTML/Element/thead",
+                      messages: [
+                        {
+                          message: "Unexpected asset file",
+                          data: [
+                            "column-row-span.html"
                           ]
                         }
                       ]
@@ -21497,6 +22805,18 @@ html.elements.select.size`
                           ]
                         }
                       }
+                    },
+                    cookies: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTTP/Guides/Cookies",
+                      messages: [
+                        {
+                          message: "Unexpected asset file",
+                          data: [
+                            "cookie-basic-example.drawio"
+                          ]
+                        }
+                      ]
                     },
                     cors: {
                       children: {},
@@ -21745,6 +23065,58 @@ html.elements.select.size`
                             {
                               message: "Missing syntax code block",
                               data: []
+                            }
+                          ]
+                        },
+                        "sec-fetch-dest": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Dest",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://secmetadata.appspot.com/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        "sec-fetch-mode": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Mode",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://secmetadata.appspot.com/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        "sec-fetch-site": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Site",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://secmetadata.appspot.com/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        "sec-fetch-user": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-User",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://secmetadata.appspot.com/",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         },
@@ -22984,6 +24356,24 @@ html.elements.select.size`
                           ]
                         }
                       }
+                    },
+                    "third-party_cookies": {
+                      children: {},
+                      slug: "/en-US/docs/Web/Privacy/Guides/Third-party_cookies",
+                      messages: [
+                        {
+                          message: "Unexpected asset file",
+                          data: [
+                            "3pc-example.drawio"
+                          ]
+                        },
+                        {
+                          message: "Unused image",
+                          data: [
+                            "3pc-example.png"
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/Privacy/Guides",
@@ -23085,6 +24475,34 @@ html.elements.select.size`
                 },
                 tutorials: {
                   children: {
+                    cycletracker: {
+                      children: {
+                        manifest_file: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Progressive_web_apps/Tutorials/CycleTracker/Manifest_file",
+                          messages: [
+                            {
+                              message: "Unused image",
+                              data: [
+                                "wheel.svg"
+                              ]
+                            },
+                            {
+                              message: "Unused image",
+                              data: [
+                                "circle.svg"
+                              ]
+                            },
+                            {
+                              message: "Unused image",
+                              data: [
+                                "tire.svg"
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     js13kgames: {
                       children: {
                         installable_pwas: {
@@ -23954,6 +25372,18 @@ svg.elements.path.d`
                             }
                           ]
                         },
+                        divisor: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/divisor",
+                          messages: [
+                            {
+                              message: "Unused image",
+                              data: [
+                                "mdn_logo_only_color.png"
+                              ]
+                            }
+                          ]
+                        },
                         dx: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/dx",
@@ -24152,6 +25582,12 @@ svg.elements.missing-glyph.horiz-adv-x`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/href",
                           messages: [
                             {
+                              message: "Unused image",
+                              data: [
+                                "fxlogo.png"
+                              ]
+                            },
+                            {
                               message: "Unexpected BCD keys",
                               data: [
                                 "Actual:",
@@ -24193,6 +25629,12 @@ svg.elements.use.href`
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/in",
                           messages: [
+                            {
+                              message: "Unused image",
+                              data: [
+                                "mdn_logo_only_color.png"
+                              ]
+                            },
                             {
                               message: "Unexpected BCD keys",
                               data: [
@@ -24265,6 +25707,66 @@ svg.elements.vkern.k`
                             }
                           ]
                         },
+                        k1: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/k1",
+                          messages: [
+                            {
+                              message: "Unused image",
+                              data: [
+                                "mdn.svg"
+                              ]
+                            }
+                          ]
+                        },
+                        k2: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/k2",
+                          messages: [
+                            {
+                              message: "Unused image",
+                              data: [
+                                "mdn.svg"
+                              ]
+                            }
+                          ]
+                        },
+                        k3: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/k3",
+                          messages: [
+                            {
+                              message: "Unused image",
+                              data: [
+                                "mdn.svg"
+                              ]
+                            }
+                          ]
+                        },
+                        k4: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/k4",
+                          messages: [
+                            {
+                              message: "Unused image",
+                              data: [
+                                "mdn.svg"
+                              ]
+                            }
+                          ]
+                        },
+                        kernelmatrix: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/kernelMatrix",
+                          messages: [
+                            {
+                              message: "Unused image",
+                              data: [
+                                "mdn_logo_only_color.png"
+                              ]
+                            }
+                          ]
+                        },
                         kernelunitlength: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/kernelUnitLength",
@@ -24331,6 +25833,18 @@ svg.elements.tspan.lengthAdjust`
                             {
                               message: "Broken browser compat anchor",
                               data: []
+                            }
+                          ]
+                        },
+                        mode: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/mode",
+                          messages: [
+                            {
+                              message: "Unused image",
+                              data: [
+                                "mdn_logo_only_color.png"
+                              ]
                             }
                           ]
                         },
@@ -24488,6 +26002,18 @@ svg.elements.textPath.path`
                                 "Expected:",
                                 `svg.elements.polygon.points
 svg.elements.polyline.points`
+                              ]
+                            }
+                          ]
+                        },
+                        preservealpha: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/preserveAlpha",
+                          messages: [
+                            {
+                              message: "Unused image",
+                              data: [
+                                "mdn_logo_only_color.png"
                               ]
                             }
                           ]
@@ -25097,6 +26623,18 @@ svg.elements.use.x`
                             }
                           ]
                         },
+                        xchannelselector: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/xChannelSelector",
+                          messages: [
+                            {
+                              message: "Unused image",
+                              data: [
+                                "mdn.svg"
+                              ]
+                            }
+                          ]
+                        },
                         xlink_colon_arcrole: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/xlink:arcrole",
@@ -25195,6 +26733,18 @@ svg.elements.svg.y
 svg.elements.text.y
 svg.elements.tspan.y
 svg.elements.use.y`
+                              ]
+                            }
+                          ]
+                        },
+                        ychannelselector: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/yChannelSelector",
+                          messages: [
+                            {
+                              message: "Unused image",
+                              data: [
+                                "mdn.svg"
                               ]
                             }
                           ]
@@ -25485,6 +27035,24 @@ svg.elements.feSpotLight.z`
                           slug: "/en-US/docs/Web/SVG/Reference/Element/discard",
                           messages: [
                             {
+                              message: "Unused image",
+                              data: [
+                                "bar_discard_event.svg"
+                              ]
+                            },
+                            {
+                              message: "Unused image",
+                              data: [
+                                "bar_no_discard.svg"
+                              ]
+                            },
+                            {
+                              message: "Unused image",
+                              data: [
+                                "bar_discard_time.svg"
+                              ]
+                            },
+                            {
                               message: "HTTP link",
                               data: [
                                 "http://xn--dahlstrm-t4a.net/svg/smil/svgt12_discard.svg",
@@ -25579,6 +27147,42 @@ svg.elements.feSpotLight.z`
                             }
                           ]
                         },
+                        feblend: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Element/feBlend",
+                          messages: [
+                            {
+                              message: "Unused image",
+                              data: [
+                                "mdn_logo_only_color.png"
+                              ]
+                            }
+                          ]
+                        },
+                        fecomposite: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Element/feComposite",
+                          messages: [
+                            {
+                              message: "Unused image",
+                              data: [
+                                "mdn_logo_only_color.png"
+                              ]
+                            }
+                          ]
+                        },
+                        feconvolvematrix: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Element/feConvolveMatrix",
+                          messages: [
+                            {
+                              message: "Unused image",
+                              data: [
+                                "mdn.svg"
+                              ]
+                            }
+                          ]
+                        },
                         fediffuselighting: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Element/feDiffuseLighting",
@@ -25599,6 +27203,30 @@ svg.elements.feSpotLight.z`
                             }
                           ]
                         },
+                        feimage: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Element/feImage",
+                          messages: [
+                            {
+                              message: "Unused image",
+                              data: [
+                                "mdn_logo_only_color.png"
+                              ]
+                            }
+                          ]
+                        },
+                        fepointlight: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Element/fePointLight",
+                          messages: [
+                            {
+                              message: "Unused image",
+                              data: [
+                                "mdn_logo_only_color.png"
+                              ]
+                            }
+                          ]
+                        },
                         fespecularlighting: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Element/feSpecularLighting",
@@ -25615,6 +27243,30 @@ svg.elements.feSpotLight.z`
                               data: [
                                 "/en-US/docs/Web/SVG/Reference/Element",
                                 "#descriptive"
+                              ]
+                            }
+                          ]
+                        },
+                        fespotlight: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Element/feSpotLight",
+                          messages: [
+                            {
+                              message: "Unused image",
+                              data: [
+                                "mdn_logo_only_color.png"
+                              ]
+                            }
+                          ]
+                        },
+                        fetile: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Element/feTile",
+                          messages: [
+                            {
+                              message: "Unused image",
+                              data: [
+                                "mdn_logo_only_color.png"
                               ]
                             }
                           ]
@@ -25874,6 +27526,12 @@ svg.elements.feSpotLight.z`
                                 "slice",
                                 "Text before code:",
                                 "|"
+                              ]
+                            },
+                            {
+                              message: "Unused image",
+                              data: [
+                                "mdn_logo_only_color.png"
                               ]
                             }
                           ]
@@ -27427,6 +29085,12 @@ svg.elements.feSpotLight.z`
                                 "Text before code:",
                                 "|"
                               ]
+                            },
+                            {
+                              message: "Unused image",
+                              data: [
+                                "example.svg"
+                              ]
                             }
                           ]
                         }
@@ -27837,6 +29501,30 @@ svg.elements.feSpotLight.z`
           },
           slug: "/en-US/docs/Web",
           messages: [
+            {
+              message: "Asset without content page",
+              data: [
+                "en-us/mdn/kitchensink/iceberg.jpg"
+              ]
+            },
+            {
+              message: "Asset without content page",
+              data: [
+                "en-us/web/css/css_grid_layout/grid_layout_and_progressive_enhancement/10-float-simple-override.png"
+              ]
+            },
+            {
+              message: "Asset without content page",
+              data: [
+                "en-us/web/css/css_grid_layout/grid_layout_and_progressive_enhancement/10-float-width-problem.png"
+              ]
+            },
+            {
+              message: "Asset without content page",
+              data: [
+                "en-us/web/css/css_grid_layout/grid_layout_and_progressive_enhancement/10-floated-cards.png"
+              ]
+            },
             {
               message: "Unreachable via sidebar",
               data: []
@@ -29162,6 +30850,8 @@ function displayWarnings() {
   metadataIssues.label = "Metadata issues";
   const codeIssues = document.createElement("optgroup");
   codeIssues.label = "Code issues";
+  const assetIssues = document.createElement("optgroup");
+  assetIssues.label = "Asset issues";
   const other = document.createElement("optgroup");
   other.label = "Other";
   for (const message of [...messageCounts].sort()) {
@@ -29220,6 +30910,14 @@ function displayWarnings() {
       "HTML code issue"
     ].includes(message[0])) {
       codeIssues.append(option);
+    } else if ([
+      "Asset without content page",
+      "External image",
+      "Missing image",
+      "Unexpected asset file",
+      "Unused image"
+    ].includes(message[0])) {
+      assetIssues.append(option);
     } else {
       other.append(option);
     }
@@ -29232,6 +30930,7 @@ function displayWarnings() {
     graphStructure,
     metadataIssues,
     codeIssues,
+    assetIssues,
     other
   ]) {
     if (optgroup.hasChildNodes()) {
