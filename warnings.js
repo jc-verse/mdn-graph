@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-j8ngg6ef.js";
+} from "./chunk-tj89r0jw.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -959,6 +959,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            css_preprocessor: {
+              children: {},
+              slug: "/en-US/docs/Glossary/CSS_preprocessor",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://sass-lang.com/",
+                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                  ]
+                }
+              ]
+            },
             database: {
               children: {},
               slug: "/en-US/docs/Glossary/Database",
@@ -1040,19 +1053,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            fetch_metadata_request_header: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Fetch_metadata_request_header",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://secmetadata.appspot.com/",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             firewall: {
               children: {},
               slug: "/en-US/docs/Glossary/Firewall",
@@ -1100,6 +1100,26 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            gpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/GPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-faq.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
                 }
               ]
             },
@@ -1190,6 +1210,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            lgpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/LGPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/lgpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
                 }
               ]
             },
@@ -1554,6 +1587,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            source_map: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Source_map",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://sass-lang.com/",
+                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                  ]
+                }
+              ]
+            },
             sql_injection: {
               children: {},
               slug: "/en-US/docs/Glossary/SQL_Injection",
@@ -1847,6 +1893,13 @@ var warnings_processed_default = {
                           data: []
                         },
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        },
+                        {
                           message: "HTTP link",
                           data: [
                             "http://getskeleton.com/",
@@ -2053,6 +2106,13 @@ var warnings_processed_default = {
                             "http://corber.io/",
                             ""
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://handlebarsjs.com/guide/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     },
@@ -2089,6 +2149,20 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://api.emberjs.com/ember/release/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://api.emberjs.com/ember/release/classes/route/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2133,8 +2207,15 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://phabricator.wikimedia.org/T241180",
-                            "429 Retry-After: 1000"
+                            "https://emberjs.com/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://new.drupal.org/",
+                            403
                           ]
                         }
                       ]
@@ -2143,6 +2224,20 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://handlebarsjs.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        },
                         {
                           message: "JS code issue",
                           data: [
@@ -2378,6 +2473,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
                         }
                       ]
                     },
@@ -2755,7 +2857,17 @@ var warnings_processed_default = {
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
                     },
                     html_video_and_audio: {
                       children: {
@@ -3003,6 +3115,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
                         }
                       ]
                     },
@@ -3166,6 +3285,43 @@ var warnings_processed_default = {
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/mikethomas/pen/kQjKLW"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                "client-side_tools": {
+                  children: {
+                    introducing_complete_toolchain: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        }
+                      ]
+                    },
+                    overview: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://emberjs.com/",
+                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -3420,6 +3576,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -3639,6 +3802,19 @@ var warnings_processed_default = {
                               ]
                             }
                           ]
+                        },
+                        skeleton_website: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/skeleton_website",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://sass-lang.com/",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                              ]
+                            }
+                          ]
                         }
                       }
                     },
@@ -3745,6 +3921,19 @@ var warnings_processed_default = {
                           data: [
                             "https://resources.github.com/copilot-for-business/",
                             "https://github.com/features/copilot/copilot-business"
+                          ]
+                        }
+                      ]
+                    },
+                    workflows_and_processes: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Workflows_and_processes",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -4167,6 +4356,33 @@ var warnings_processed_default = {
                 },
                 tools_and_setup: {
                   children: {
+                    available_text_editors: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -4177,15 +4393,28 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    how_do_you_host_your_website_on_google_app_engine: {
+                    what_are_browser_developer_tools: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_are_browser_developer_tools",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://gaesamplesite.appspot.com/",
-                            503
+                            "https://webkit.org/web-inspector/console-command-line-api/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    what_software_do_i_need: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -4345,6 +4574,23 @@ var warnings_processed_default = {
                       data: []
                     }
                   ]
+                },
+                code_style_guide: {
+                  children: {
+                    css: {
+                      children: {},
+                      slug: "/en-US/docs/MDN/Writing_guidelines/Code_style_guide/CSS",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 howto: {
                   children: {
@@ -5843,6 +6089,13 @@ var warnings_processed_default = {
                           message: "Not linked from parent page",
                           data: [
                             "/en-US/docs/Mozilla/Add-ons/WebExtensions"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://handlebarsjs.com/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -9967,6 +10220,24 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/136",
                       messages: [
                         {
+                          message: "Code with space",
+                          data: [
+                            " ariaLabelledByElements"
+                          ]
+                        },
+                        {
+                          message: "Code with space",
+                          data: [
+                            " ariaLabelledByElements"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/API/Document_Object_Model/Reflected_attributes"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -10833,27 +11104,6 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.cedars-sinai.org/health-library/diseases-and-conditions/p/photosensitive-seizures.html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.kirupa.com/html5/toggling_animations_on_off.htm",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.cedars-sinai.org/health-library/diseases-and-conditions/p/photosensitive-seizures.html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
                           message: "HTTP link",
                           data: [
                             "http://diagramcenter.org/",
@@ -11353,6 +11603,13 @@ var warnings_processed_default = {
                   },
                   slug: "/en-US/docs/Web/API/Canvas_API",
                   messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://fabricjs.com/",
+                        "The operation timed out."
+                      ]
+                    },
                     {
                       message: "HTTP link",
                       data: [
@@ -14607,8 +14864,32 @@ var warnings_processed_default = {
                           data: [
                             "https://jsfiddle.net/tatumcreative/qxxg3yvc/"
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://mathworld.wolfram.com/RotationMatrix.html",
+                            "The operation timed out."
+                          ]
                         }
                       ]
+                    },
+                    tutorial: {
+                      children: {
+                        adding_2d_content_to_a_webgl_context: {
+                          children: {},
+                          slug: "/en-US/docs/Web/API/WebGL_API/Tutorial/Adding_2D_content_to_a_WebGL_context",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://mathworld.wolfram.com/Matrix.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
                     },
                     webgl_best_practices: {
                       children: {},
@@ -19147,6 +19428,40 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
+                css_nesting: {
+                  children: {
+                    using_css_nesting: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/CSS/CSS_nesting",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://sass-lang.com/",
+                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                      ]
+                    }
+                  ]
+                },
                 css_positioned_layout: {
                   children: {
                     stacking_context: {
@@ -22928,6 +23243,19 @@ html.elements.select.size`
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         "available-dictionary": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Available-Dictionary",
@@ -23065,58 +23393,6 @@ html.elements.select.size`
                             {
                               message: "Missing syntax code block",
                               data: []
-                            }
-                          ]
-                        },
-                        "sec-fetch-dest": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Dest",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://secmetadata.appspot.com/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        "sec-fetch-mode": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Mode",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://secmetadata.appspot.com/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        "sec-fetch-site": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Site",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://secmetadata.appspot.com/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        "sec-fetch-user": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-User",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://secmetadata.appspot.com/",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         },
