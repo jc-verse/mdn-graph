@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-5j0jk2r1.js";
+} from "./chunk-3s0nehrm.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -311,13 +311,6 @@ var warnings_processed_default = {
                       message: "External sandbox link",
                       data: [
                         "https://jsfiddle.net/c87z11jj/2/"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://pupunzi.open-lab.com/2013/03/13/making-html5-audio-actually-work-on-mobile/",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -2258,13 +2251,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://svelte-native.technology/",
-                            "https://svelte.nativescript.org/"
-                          ]
                         }
                       ]
                     },
@@ -2275,13 +2261,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://svelte-native.technology/",
-                            "https://svelte.nativescript.org/"
-                          ]
                         }
                       ]
                     },
@@ -2510,166 +2489,6 @@ var warnings_processed_default = {
                           data: [
                             "fetch-image.jpg"
                           ]
-                        }
-                      ]
-                    },
-                    test_your_skills_colon__arrays: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills:_Arrays",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Core/Scripting"
-                          ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    test_your_skills_colon__conditionals: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills:_Conditionals",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Core/Scripting"
-                          ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    test_your_skills_colon__events: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills:_Events",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Core/Scripting"
-                          ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    test_your_skills_colon__functions: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills:_Functions",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Core/Scripting"
-                          ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    test_your_skills_colon__json: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills:_JSON",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Core/Scripting"
-                          ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    test_your_skills_colon__loops: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills:_Loops",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Core/Scripting"
-                          ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    test_your_skills_colon__math: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills:_Math",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Core/Scripting"
-                          ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    test_your_skills_colon__object_basics: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills:_Object_basics",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Core/Scripting"
-                          ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    test_your_skills_colon__strings: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills:_Strings",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Core/Scripting"
-                          ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    test_your_skills_colon__variables: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills:_variables",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Core/Scripting"
-                          ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -2997,13 +2816,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/guide/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -3400,19 +3212,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    "ui_pseudo-classes": {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://mdn.github.io/learning-area/html/forms/pseudo-classes/radios-checked-default.html",
-                            503
-                          ]
-                        }
-                      ]
-                    },
                     user_input_methods: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/User_input_methods",
@@ -3742,23 +3541,6 @@ var warnings_processed_default = {
                           message: "Unused image",
                           data: [
                             "file-structure.png"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                soft_skills: {
-                  children: {
-                    research_and_learning: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Research_and_learning",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://resources.github.com/copilot-for-business/",
-                            "https://github.com/features/copilot/copilot-business"
                           ]
                         }
                       ]
@@ -4181,6 +3963,26 @@ var warnings_processed_default = {
                 },
                 tools_and_setup: {
                   children: {
+                    available_text_editors: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webchat.freenode.net/?channels=brackets",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webchat.freenode.net/?channels=textmate",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -4188,6 +3990,32 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    how_do_you_host_your_website_on_google_app_engine: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gaesamplesite.appspot.com/",
+                            503
+                          ]
+                        }
+                      ]
+                    },
+                    what_software_do_i_need: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://browsershots.org/",
+                            "Unable to connect. Is the computer able to access the url?"
+                          ]
                         }
                       ]
                     }
@@ -4201,7 +4029,21 @@ var warnings_processed_default = {
                   ]
                 },
                 web_mechanics: {
-                  children: {},
+                  children: {
+                    what_is_a_domain_name: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_domain_name",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.icann.org/resources/pages/tlds-2012-02-25-en",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Learn_web_development/Howto/Web_mechanics",
                   messages: [
                     {
@@ -9982,18 +9824,6 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/136",
                       messages: [
                         {
-                          message: "Code with space",
-                          data: [
-                            " ariaLabelledByElements"
-                          ]
-                        },
-                        {
-                          message: "Code with space",
-                          data: [
-                            " ariaLabelledByElements"
-                          ]
-                        },
-                        {
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Web/API/Document_Object_Model/Reflected_attributes"
@@ -11484,32 +11314,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                css_painting_api: {
-                  children: {
-                    guide: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSS_Painting_API/Guide",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.css-houdini.org/css-paint-api-1/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/CSS_Painting_API",
-                  messages: [
-                    {
-                      message: "Missing image",
-                      data: [
-                        "/en-US/docs/Web/API/CSS_Painting_API/guide/boxbg.png"
-                      ]
-                    }
-                  ]
-                },
                 css_typed_om_api: {
                   children: {
                     guide: {
@@ -11744,6 +11548,43 @@ var warnings_processed_default = {
                       ]
                     }
                   }
+                },
+                deferredrequestinit: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/DeferredRequestInit",
+                  messages: [
+                    {
+                      message: "Missing BCD table",
+                      data: []
+                    },
+                    {
+                      message: "Broken browser compat anchor",
+                      data: []
+                    },
+                    {
+                      message: "Not in BCD",
+                      data: [
+                        "api.DeferredRequestInit"
+                      ]
+                    },
+                    {
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        "api.Window.fetchLater",
+                        "Expected:",
+                        "api.DeferredRequestInit"
+                      ]
+                    },
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "Parsing error: ',' expected.",
+                        '  method: "POST"',
+                        "3:9"
+                      ]
+                    }
+                  ]
                 },
                 device_orientation_events: {
                   children: {
@@ -12147,6 +11988,56 @@ var warnings_processed_default = {
                     }
                   }
                 },
+                fetchlater_api: {
+                  children: {
+                    fetchlater_quotas: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/fetchLater_API/fetchLater_quotas",
+                      messages: [
+                        {
+                          message: "Text stuck to code/link",
+                          data: [
+                            "<frame>",
+                            "Text before code:",
+                            "s, and"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/fetchLater_API",
+                  messages: [
+                    {
+                      message: "Code with space",
+                      data: [
+                        "Fetch API"
+                      ]
+                    }
+                  ]
+                },
+                fetchlaterresult: {
+                  children: {
+                    activated: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/FetchLaterResult/activated",
+                      messages: [
+                        {
+                          message: "Unreachable via sidebar",
+                          data: []
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/FetchLaterResult",
+                  messages: [
+                    {
+                      message: "Code with space",
+                      data: [
+                        "fetchLater() API"
+                      ]
+                    }
+                  ]
+                },
                 file_api: {
                   children: {
                     using_files_from_web_applications: {
@@ -12172,44 +12063,10 @@ var warnings_processed_default = {
                         {
                           message: "Broken browser compat anchor",
                           data: []
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://www.sqlite.org/wasm",
-                            "https://sqlite.org/wasm/doc/trunk/index.md"
-                          ]
                         }
                       ]
                     }
                   }
-                },
-                filesystemsyncaccesshandle: {
-                  children: {
-                    write: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/FileSystemSyncAccessHandle/write",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://www.sqlite.org/wasm",
-                            "https://sqlite.org/wasm/doc/trunk/index.md"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/FileSystemSyncAccessHandle",
-                  messages: [
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://www.sqlite.org/wasm",
-                        "https://sqlite.org/wasm/doc/trunk/index.md"
-                      ]
-                    }
-                  ]
                 },
                 geolocation_api: {
                   children: {
@@ -12719,48 +12576,6 @@ var warnings_processed_default = {
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Gecko_Keypress_Event"
-                          ]
-                        }
-                      ]
-                    },
-                    initkeyevent: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/KeyboardEvent/initKeyEvent",
-                      messages: [
-                        {
-                          message: "Broken browser compat anchor",
-                          data: []
-                        },
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "api.KeyboardEvent.initKeyEvent"
-                          ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "[None]",
-                            "Expected:",
-                            "api.KeyboardEvent.initKeyEvent"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                keyframeeffect: {
-                  children: {
-                    setkeyframes: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/KeyframeEffect/setKeyframes",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://w3c.github.io/web-animations/",
-                            503
                           ]
                         }
                       ]
@@ -13740,30 +13555,6 @@ var warnings_processed_default = {
                     }
                   ]
                 },
-                svganimatednumber: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/SVGAnimatedNumber",
-                  messages: [
-                    {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/API/SVGAnimatedNumber"
-                      ]
-                    },
-                    {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/API/SVGAnimatedNumber"
-                      ]
-                    },
-                    {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/API/SVGAnimatedNumber"
-                      ]
-                    }
-                  ]
-                },
                 svgcursorelement: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SVGCursorElement",
@@ -13772,31 +13563,6 @@ var warnings_processed_default = {
                       message: "Not in BCD",
                       data: [
                         "api.SVGCursorElement"
-                      ]
-                    }
-                  ]
-                },
-                svgevent: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/SVGEvent",
-                  messages: [
-                    {
-                      message: "Broken browser compat anchor",
-                      data: []
-                    },
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "api.SVGEvent"
-                      ]
-                    },
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        "[None]",
-                        "Expected:",
-                        "api.SVGEvent"
                       ]
                     }
                   ]
@@ -15470,6 +15236,42 @@ var warnings_processed_default = {
                         }
                       ]
                     },
+                    fetchlater: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/fetchLater",
+                      messages: [
+                        {
+                          message: "Not linked from parent page",
+                          data: [
+                            "/en-US/docs/Web/API/Window"
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "Parsing error: ',' expected.",
+                            '  method: "POST"',
+                            "3:9"
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "Parsing error: ',' expected.",
+                            '    method: "POST"',
+                            "4:9"
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "Parsing error: ',' expected.",
+                            "    signal: beaconAbort.signal",
+                            "22:9"
+                          ]
+                        }
+                      ]
+                    },
                     paste_event: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Window/paste_event",
@@ -15770,31 +15572,6 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                xpathexception: {
-                  children: {
-                    code: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/XPathException/code",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "api.XPathException.code"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/XPathException",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "api.XPathException"
-                      ]
-                    }
-                  ]
                 },
                 xpathresult: {
                   children: {},
@@ -20508,13 +20285,7 @@ css.properties.width.fit-content_function`
                       message: "Unexpected BCD keys",
                       data: [
                         "Actual:",
-                        `css.types.color.color-mix
-css.types.image.gradient.conic-gradient.hue_interpolation_method
-css.types.image.gradient.linear-gradient.hue_interpolation_method
-css.types.image.gradient.radial-gradient.hue_interpolation_method
-css.types.image.gradient.repeating-conic-gradient.hue_interpolation_method
-css.types.image.gradient.repeating-linear-gradient.hue_interpolation_method
-css.types.image.gradient.repeating-radial-gradient.hue_interpolation_method`,
+                        "css.types.gradient.conic-gradient.hue_interpolation_method",
                         "Expected:",
                         "[None]"
                       ]
@@ -22251,12 +22022,6 @@ html.elements.textarea.disabled`
                           slug: "/en-US/docs/Web/HTML/Attributes/rel/compression-dictionary",
                           messages: [
                             {
-                              message: "Not linked from parent page",
-                              data: [
-                                "/en-US/docs/Web/HTML/Attributes/rel"
-                              ]
-                            },
-                            {
                               message: "Unreachable via sidebar",
                               data: []
                             }
@@ -22979,16 +22744,6 @@ html.elements.select.size`
                         }
                       ]
                     },
-                    compression_dictionary_transport: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTTP/Guides/Compression_dictionary_transport",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
                     content_negotiation: {
                       children: {
                         list_of_default_accept_values: {
@@ -23209,6 +22964,18 @@ html.elements.select.size`
                         },
                         "permissions-policy": {
                           children: {
+                            "deferred-fetch-minimal": {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/deferred-fetch-minimal",
+                              messages: [
+                                {
+                                  message: "Self link",
+                                  data: [
+                                    "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/deferred-fetch-minimal"
+                                  ]
+                                }
+                              ]
+                            },
                             gamepad: {
                               children: {},
                               slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/gamepad",
@@ -24334,6 +24101,19 @@ html.elements.select.size`
                     },
                     formats: {
                       children: {
+                        image_types: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Image_types",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://ev.buaa.edu.cn/",
+                                403
+                              ]
+                            }
+                          ]
+                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
