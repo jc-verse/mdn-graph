@@ -40,7 +40,6 @@ const sanctionedLanguages = [
   "ts",
   "url",
   "vue",
-  "wasm",
   "wat",
   "webidl",
   "xml",

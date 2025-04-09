@@ -209,6 +209,7 @@ export function createLinkRequests(
           "https://stackoverflow.com",
           "https://tc39.es",
           "https://drafts.csswg.org",
+          "https://drafts.css-houdini.org",
           "https://unicode.org",
           "https://www.unicode.org",
           "https://datatracker.ietf.org",

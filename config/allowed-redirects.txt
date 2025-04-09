@@ -12,7 +12,7 @@ https://{[^/]*}svelte.dev/{.*}	https://svelte.dev/{.*}
 https://docs.djangoproject.com/en/stable/{(.*)}	https://docs.djangoproject.com/en/{[\d.]+}/$1
 https://laravel.com/docs/{(.*)}	https://laravel.com/docs/{[\d.x]+}/$1
 
-https://www.sqlite.org/wasm	https://www.sqlite.org/wasm/doc/trunk/index.md
+https://sqlite.org/wasm	https://sqlite.org/wasm/doc/trunk/index.md
 https://vercel.com/import/{(\w*)}	https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fvercel%2Ftree%2Fmain%2Fexamples%2F$1
 https://scrimba.com/{([^?]+)}?via={([a-z-]+)}	https://scrimba.com/$1?via=$2{&.*}
 
