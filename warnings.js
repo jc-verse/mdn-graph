@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-tj89r0jw.js";
+} from "./chunk-5j0jk2r1.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -311,6 +311,13 @@ var warnings_processed_default = {
                       message: "External sandbox link",
                       data: [
                         "https://jsfiddle.net/c87z11jj/2/"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://pupunzi.open-lab.com/2013/03/13/making-html5-audio-actually-work-on-mobile/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -959,19 +966,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            css_preprocessor: {
-              children: {},
-              slug: "/en-US/docs/Glossary/CSS_preprocessor",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://sass-lang.com/",
-                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                  ]
-                }
-              ]
-            },
             database: {
               children: {},
               slug: "/en-US/docs/Glossary/Database",
@@ -1103,26 +1097,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            gpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/GPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/gpl-faq.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/gpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                }
-              ]
-            },
             "high-level_programming_language": {
               children: {},
               slug: "/en-US/docs/Glossary/High-level_programming_language",
@@ -1210,19 +1184,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            lgpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/LGPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/lgpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
                 }
               ]
             },
@@ -1587,19 +1548,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            source_map: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Source_map",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://sass-lang.com/",
-                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                  ]
-                }
-              ]
-            },
             sql_injection: {
               children: {},
               slug: "/en-US/docs/Glossary/SQL_Injection",
@@ -1893,13 +1841,6 @@ var warnings_processed_default = {
                           data: []
                         },
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
                           message: "HTTP link",
                           data: [
                             "http://getskeleton.com/",
@@ -2106,13 +2047,6 @@ var warnings_processed_default = {
                             "http://corber.io/",
                             ""
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://handlebarsjs.com/guide/",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     },
@@ -2149,20 +2083,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://api.emberjs.com/ember/release/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://api.emberjs.com/ember/release/classes/route/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2207,13 +2127,6 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://emberjs.com/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://new.drupal.org/",
                             403
                           ]
@@ -2224,20 +2137,6 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://handlebarsjs.com/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
                         {
                           message: "JS code issue",
                           data: [
@@ -2473,13 +2372,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
                         }
                       ]
                     },
@@ -2857,17 +2749,7 @@ var warnings_processed_default = {
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
+                      }
                     },
                     html_video_and_audio: {
                       children: {
@@ -3119,8 +3001,8 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://sass-lang.com/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "https://sass-lang.com/guide/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -3285,43 +3167,6 @@ var warnings_processed_default = {
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/mikethomas/pen/kQjKLW"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                "client-side_tools": {
-                  children: {
-                    introducing_complete_toolchain: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
-                    overview: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://emberjs.com/",
-                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -3555,6 +3400,19 @@ var warnings_processed_default = {
                         }
                       ]
                     },
+                    "ui_pseudo-classes": {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://mdn.github.io/learning-area/html/forms/pseudo-classes/radios-checked-default.html",
+                            503
+                          ]
+                        }
+                      ]
+                    },
                     user_input_methods: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/User_input_methods",
@@ -3576,13 +3434,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/gzip/",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     }
@@ -3802,19 +3653,6 @@ var warnings_processed_default = {
                               ]
                             }
                           ]
-                        },
-                        skeleton_website: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/skeleton_website",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://sass-lang.com/",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
                         }
                       }
                     },
@@ -3921,19 +3759,6 @@ var warnings_processed_default = {
                           data: [
                             "https://resources.github.com/copilot-for-business/",
                             "https://github.com/features/copilot/copilot-business"
-                          ]
-                        }
-                      ]
-                    },
-                    workflows_and_processes: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Workflows_and_processes",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -4356,33 +4181,6 @@ var warnings_processed_default = {
                 },
                 tools_and_setup: {
                   children: {
-                    available_text_editors: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/efaq.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -4390,32 +4188,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via page",
                           data: []
-                        }
-                      ]
-                    },
-                    what_are_browser_developer_tools: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_are_browser_developer_tools",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webkit.org/web-inspector/console-command-line-api/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    what_software_do_i_need: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     }
@@ -4574,23 +4346,6 @@ var warnings_processed_default = {
                       data: []
                     }
                   ]
-                },
-                code_style_guide: {
-                  children: {
-                    css: {
-                      children: {},
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Code_style_guide/CSS",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 howto: {
                   children: {
@@ -6090,13 +5845,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Mozilla/Add-ons/WebExtensions"
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://handlebarsjs.com/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -6348,6 +6096,20 @@ var warnings_processed_default = {
             },
             firefox: {
               children: {
+                experimental_features: {
+                  children: {},
+                  slug: "/en-US/docs/Mozilla/Firefox/Experimental_features",
+                  messages: [
+                    {
+                      message: "Text stuck to code/link",
+                      data: [
+                        "DOMAttrModified",
+                        "Text before code:",
+                        ","
+                      ]
+                    }
+                  ]
+                },
                 releases: {
                   children: {
                     "2": {
@@ -10258,15 +10020,13 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/138",
                       messages: [
                         {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "139": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/139",
-                      messages: [
+                          message: "Text stuck to code/link",
+                          data: [
+                            "DOMAttrModified",
+                            "Text before code:",
+                            ","
+                          ]
+                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -11603,13 +11363,6 @@ var warnings_processed_default = {
                   },
                   slug: "/en-US/docs/Web/API/Canvas_API",
                   messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://fabricjs.com/",
-                        "The operation timed out."
-                      ]
-                    },
                     {
                       message: "HTTP link",
                       data: [
@@ -12997,6 +12750,23 @@ var warnings_processed_default = {
                     }
                   }
                 },
+                keyframeeffect: {
+                  children: {
+                    setkeyframes: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/KeyframeEffect/setKeyframes",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://w3c.github.io/web-animations/",
+                            503
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 media_capture_and_streams_api: {
                   children: {
                     taking_still_photos: {
@@ -13908,22 +13678,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                serviceworkercontainer: {
-                  children: {
-                    error_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/ServiceWorkerContainer/error_event",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "api.ServiceWorkerContainer.error_event"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 sharedstorageoperation: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SharedStorageOperation",
@@ -13986,6 +13740,42 @@ var warnings_processed_default = {
                     }
                   ]
                 },
+                svganimatednumber: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/SVGAnimatedNumber",
+                  messages: [
+                    {
+                      message: "Self link",
+                      data: [
+                        "/en-US/docs/Web/API/SVGAnimatedNumber"
+                      ]
+                    },
+                    {
+                      message: "Self link",
+                      data: [
+                        "/en-US/docs/Web/API/SVGAnimatedNumber"
+                      ]
+                    },
+                    {
+                      message: "Self link",
+                      data: [
+                        "/en-US/docs/Web/API/SVGAnimatedNumber"
+                      ]
+                    }
+                  ]
+                },
+                svgcursorelement: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/SVGCursorElement",
+                  messages: [
+                    {
+                      message: "Not in BCD",
+                      data: [
+                        "api.SVGCursorElement"
+                      ]
+                    }
+                  ]
+                },
                 svgevent: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SVGEvent",
@@ -14011,6 +13801,90 @@ var warnings_processed_default = {
                     }
                   ]
                 },
+                svgfontelement: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/SVGFontElement",
+                  messages: [
+                    {
+                      message: "Not in BCD",
+                      data: [
+                        "api.SVGFontElement"
+                      ]
+                    }
+                  ]
+                },
+                svgfontfaceelement: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/SVGFontFaceElement",
+                  messages: [
+                    {
+                      message: "Not in BCD",
+                      data: [
+                        "api.SVGFontFaceElement"
+                      ]
+                    }
+                  ]
+                },
+                svgfontfaceformatelement: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/SVGFontFaceFormatElement",
+                  messages: [
+                    {
+                      message: "Not in BCD",
+                      data: [
+                        "api.SVGFontFaceFormatElement"
+                      ]
+                    }
+                  ]
+                },
+                svgfontfacenameelement: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/SVGFontFaceNameElement",
+                  messages: [
+                    {
+                      message: "Not in BCD",
+                      data: [
+                        "api.SVGFontFaceNameElement"
+                      ]
+                    }
+                  ]
+                },
+                svgfontfacesrcelement: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/SVGFontFaceSrcElement",
+                  messages: [
+                    {
+                      message: "Not in BCD",
+                      data: [
+                        "api.SVGFontFaceSrcElement"
+                      ]
+                    }
+                  ]
+                },
+                svgfontfaceurielement: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/SVGFontFaceUriElement",
+                  messages: [
+                    {
+                      message: "Not in BCD",
+                      data: [
+                        "api.SVGFontFaceUriElement"
+                      ]
+                    }
+                  ]
+                },
+                svgglyphelement: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/SVGGlyphElement",
+                  messages: [
+                    {
+                      message: "Not in BCD",
+                      data: [
+                        "api.SVGGlyphElement"
+                      ]
+                    }
+                  ]
+                },
                 svgglyphrefelement: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SVGGlyphRefElement",
@@ -14025,6 +13899,12 @@ var warnings_processed_default = {
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/SVG/Reference/Attribute/format"
+                      ]
+                    },
+                    {
+                      message: "Not in BCD",
+                      data: [
+                        "api.SVGGlyphRefElement"
                       ]
                     }
                   ]
@@ -14096,6 +13976,30 @@ var warnings_processed_default = {
                     }
                   }
                 },
+                svghkernelement: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/SVGHKernElement",
+                  messages: [
+                    {
+                      message: "Not in BCD",
+                      data: [
+                        "api.SVGHKernElement"
+                      ]
+                    }
+                  ]
+                },
+                svgmissingglyphelement: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/SVGMissingGlyphElement",
+                  messages: [
+                    {
+                      message: "Not in BCD",
+                      data: [
+                        "api.SVGMissingGlyphElement"
+                      ]
+                    }
+                  ]
+                },
                 svgrenderingintent: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SVGRenderingIntent",
@@ -14158,6 +14062,30 @@ var warnings_processed_default = {
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/SVG/Reference/Attribute/currentView"
+                      ]
+                    }
+                  ]
+                },
+                svgtrefelement: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/SVGTRefElement",
+                  messages: [
+                    {
+                      message: "Not in BCD",
+                      data: [
+                        "api.SVGTRefElement"
+                      ]
+                    }
+                  ]
+                },
+                svgvkernelement: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/SVGVKernElement",
+                  messages: [
+                    {
+                      message: "Not in BCD",
+                      data: [
+                        "api.SVGVKernElement"
                       ]
                     }
                   ]
@@ -14864,32 +14792,8 @@ var warnings_processed_default = {
                           data: [
                             "https://jsfiddle.net/tatumcreative/qxxg3yvc/"
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://mathworld.wolfram.com/RotationMatrix.html",
-                            "The operation timed out."
-                          ]
                         }
                       ]
-                    },
-                    tutorial: {
-                      children: {
-                        adding_2d_content_to_a_webgl_context: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/WebGL_API/Tutorial/Adding_2D_content_to_a_WebGL_context",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://mathworld.wolfram.com/Matrix.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
                     },
                     webgl_best_practices: {
                       children: {},
@@ -15583,6 +15487,18 @@ var warnings_processed_default = {
                             "api.Element.paste_event",
                             "Expected:",
                             "api.Window.paste_event"
+                          ]
+                        }
+                      ]
+                    },
+                    showmodaldialog: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/showModalDialog",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.Window.showModalDialog"
                           ]
                         }
                       ]
@@ -19428,40 +19344,6 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                css_nesting: {
-                  children: {
-                    using_css_nesting: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/CSS/CSS_nesting",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://sass-lang.com/",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                      ]
-                    }
-                  ]
-                },
                 css_positioned_layout: {
                   children: {
                     stacking_context: {
@@ -23243,19 +23125,6 @@ html.elements.select.size`
                   children: {
                     headers: {
                       children: {
-                        accept: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.gnu.org/software/wget/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
                         "available-dictionary": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Available-Dictionary",
@@ -24380,13 +24249,6 @@ html.elements.select.size`
                               data: [
                                 "https://jsbin.com/UGIxoJis/1/edit"
                               ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://hyperaud.io/lab/pbr-test/",
-                                "Unable to connect. Is the computer able to access the url?"
-                              ]
                             }
                           ]
                         }
@@ -25017,6 +24879,66 @@ html.elements.select.size`
                   children: {
                     attribute: {
                       children: {
+                        "accent-height": {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/accent-height",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "svg.elements.font-face.accent-height",
+                                "Expected:",
+                                "[None]"
+                              ]
+                            }
+                          ]
+                        },
+                        alphabetic: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/alphabetic",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "svg.elements.font-face.alphabetic",
+                                "Expected:",
+                                "[None]"
+                              ]
+                            }
+                          ]
+                        },
+                        "arabic-form": {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/arabic-form",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "svg.elements.glyph.arabic-form",
+                                "Expected:",
+                                "[None]"
+                              ]
+                            }
+                          ]
+                        },
+                        ascent: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/ascent",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "svg.elements.font-face.ascent",
+                                "Expected:",
+                                "[None]"
+                              ]
+                            }
+                          ]
+                        },
                         attributename: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/attributeName",
@@ -25070,6 +24992,21 @@ html.elements.select.size`
                             }
                           ]
                         },
+                        bbox: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/bbox",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "svg.elements.font-face.bbox",
+                                "Expected:",
+                                "[None]"
+                              ]
+                            }
+                          ]
+                        },
                         calcmode: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/calcMode",
@@ -25081,6 +25018,21 @@ html.elements.select.size`
                                 "[None]",
                                 "Expected:",
                                 "svg.elements.animateMotion.calcMode"
+                              ]
+                            }
+                          ]
+                        },
+                        "cap-height": {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/cap-height",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "svg.elements.font-face.cap-height",
+                                "Expected:",
+                                "[None]"
                               ]
                             }
                           ]
@@ -25622,17 +25574,6 @@ svg.elements.image.crossorigin`
                                 "Text before code:",
                                 ","
                               ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.path.d",
-                                "Expected:",
-                                `svg.elements.glyph.d
-svg.elements.missing-glyph.d
-svg.elements.path.d`
-                              ]
                             }
                           ]
                         },
@@ -25644,6 +25585,21 @@ svg.elements.path.d`
                               message: "Not in BCD",
                               data: [
                                 "svg.global_attributes.data"
+                              ]
+                            }
+                          ]
+                        },
+                        descent: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/descent",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "svg.elements.font-face.descent",
+                                "Expected:",
+                                "[None]"
                               ]
                             }
                           ]
@@ -25672,7 +25628,6 @@ svg.elements.path.d`
                                 "Expected:",
                                 `svg.elements.feDropShadow.dx
 svg.elements.feOffset.dx
-svg.elements.glyphRef.dx
 svg.elements.text.dx
 svg.elements.tspan.dx`
                               ]
@@ -25691,7 +25646,6 @@ svg.elements.tspan.dx`
                                 "Expected:",
                                 `svg.elements.feDropShadow.dy
 svg.elements.feOffset.dy
-svg.elements.glyphRef.dy
 svg.elements.text.dy
 svg.elements.tspan.dy`
                               ]
@@ -25745,7 +25699,6 @@ svg.elements.rect.fill
 svg.elements.set.fill
 svg.elements.text.fill
 svg.elements.textPath.fill
-svg.elements.tref.fill
 svg.elements.tspan.fill`
                               ]
                             }
@@ -25784,8 +25737,7 @@ svg.elements.tspan.fill`
                                 "Actual:",
                                 "svg.elements.hkern.g1",
                                 "Expected:",
-                                `svg.elements.hkern.g1
-svg.elements.vkern.g1`
+                                "[None]"
                               ]
                             }
                           ]
@@ -25808,8 +25760,37 @@ svg.elements.vkern.g1`
                                 "Actual:",
                                 "svg.elements.hkern.g2",
                                 "Expected:",
-                                `svg.elements.hkern.g2
-svg.elements.vkern.g2`
+                                "[None]"
+                              ]
+                            }
+                          ]
+                        },
+                        "glyph-name": {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/glyph-name",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "svg.elements.glyph.glyph-name",
+                                "Expected:",
+                                "[None]"
+                              ]
+                            }
+                          ]
+                        },
+                        hanging: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/hanging",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "svg.elements.font-face.hanging",
+                                "Expected:",
+                                "[None]"
                               ]
                             }
                           ]
@@ -25846,9 +25827,37 @@ svg.elements.use.height`
                                 "Actual:",
                                 "svg.elements.font.horiz-adv-x",
                                 "Expected:",
-                                `svg.elements.font.horiz-adv-x
-svg.elements.glyph.horiz-adv-x
-svg.elements.missing-glyph.horiz-adv-x`
+                                "[None]"
+                              ]
+                            }
+                          ]
+                        },
+                        "horiz-origin-x": {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/horiz-origin-x",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "svg.elements.font.horiz-origin-x",
+                                "Expected:",
+                                "[None]"
+                              ]
+                            }
+                          ]
+                        },
+                        "horiz-origin-y": {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/horiz-origin-y",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "svg.elements.font.horiz-origin-y",
+                                "Expected:",
+                                "[None]"
                               ]
                             }
                           ]
@@ -25862,41 +25871,20 @@ svg.elements.missing-glyph.horiz-adv-x`
                               data: [
                                 "fxlogo.png"
                               ]
-                            },
+                            }
+                          ]
+                        },
+                        ideographic: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/ideographic",
+                          messages: [
                             {
                               message: "Unexpected BCD keys",
                               data: [
                                 "Actual:",
-                                `svg.elements.a.href
-svg.elements.animate.href
-svg.elements.animateMotion.href
-svg.elements.animateTransform.href
-svg.elements.feImage.href
-svg.elements.image.href
-svg.elements.linearGradient.href
-svg.elements.mpath.href
-svg.elements.pattern.href
-svg.elements.radialGradient.href
-svg.elements.script.href
-svg.elements.set.href
-svg.elements.textPath.href
-svg.elements.use.href`,
+                                "svg.elements.font-face.ideographic",
                                 "Expected:",
-                                `svg.elements.a.href
-svg.elements.animate.href
-svg.elements.animateMotion.href
-svg.elements.animateTransform.href
-svg.elements.cursor.href
-svg.elements.feImage.href
-svg.elements.image.href
-svg.elements.linearGradient.href
-svg.elements.mpath.href
-svg.elements.pattern.href
-svg.elements.radialGradient.href
-svg.elements.script.href
-svg.elements.set.href
-svg.elements.textPath.href
-svg.elements.use.href`
+                                "[None]"
                               ]
                             }
                           ]
@@ -25977,8 +25965,7 @@ svg.elements.feDisplacementMap.in2`
                                 "Actual:",
                                 "svg.elements.hkern.k",
                                 "Expected:",
-                                `svg.elements.hkern.k
-svg.elements.vkern.k`
+                                "[None]"
                               ]
                             }
                           ]
@@ -26102,6 +26089,21 @@ svg.elements.tspan.lengthAdjust`
                             }
                           ]
                         },
+                        mathematical: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/mathematical",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "svg.elements.font-face.mathematical",
+                                "Expected:",
+                                "[None]"
+                              ]
+                            }
+                          ]
+                        },
                         method: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/method",
@@ -26131,15 +26133,6 @@ svg.elements.tspan.lengthAdjust`
                             {
                               message: "Broken browser compat anchor",
                               data: []
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "[None]",
-                                "Expected:",
-                                "svg.elements.font-face-name.name"
-                              ]
                             }
                           ]
                         },
@@ -26159,6 +26152,21 @@ svg.elements.feMorphology.operator`
                             }
                           ]
                         },
+                        orientation: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/orientation",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "svg.elements.glyph.orientation",
+                                "Expected:",
+                                "[None]"
+                              ]
+                            }
+                          ]
+                        },
                         origin: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/origin",
@@ -26174,36 +26182,6 @@ svg.elements.feMorphology.operator`
                             }
                           ]
                         },
-                        "overline-position": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/overline-position",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "[None]",
-                                "Expected:",
-                                "svg.elements.font-face.overline-position"
-                              ]
-                            }
-                          ]
-                        },
-                        "overline-thickness": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/overline-thickness",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "[None]",
-                                "Expected:",
-                                "svg.elements.font-face.overline-thickness"
-                              ]
-                            }
-                          ]
-                        },
                         "panose-1": {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/panose-1",
@@ -26214,6 +26192,15 @@ svg.elements.feMorphology.operator`
                                 "<integer>",
                                 "Text after link:",
                                 "{10}"
+                              ]
+                            },
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "svg.elements.font-face.panose-1",
+                                "Expected:",
+                                "[None]"
                               ]
                             }
                           ]
@@ -26423,7 +26410,7 @@ svg.elements.rect.ry`
                                 "Actual:",
                                 "svg.elements.feFuncR",
                                 "Expected:",
-                                "svg.elements.font-face.slope"
+                                "[None]"
                               ]
                             }
                           ]
@@ -26460,32 +26447,47 @@ svg.elements.feGaussianBlur.stdDeviation`
                             }
                           ]
                         },
-                        "strikethrough-position": {
+                        stemh: {
                           children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/strikethrough-position",
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/stemh",
                           messages: [
                             {
                               message: "Unexpected BCD keys",
                               data: [
                                 "Actual:",
-                                "[None]",
+                                "svg.elements.font-face.stemh",
                                 "Expected:",
-                                "svg.elements.font-face.strikethrough-position"
+                                "[None]"
                               ]
                             }
                           ]
                         },
-                        "strikethrough-thickness": {
+                        stemv: {
                           children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/strikethrough-thickness",
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/stemv",
                           messages: [
                             {
                               message: "Unexpected BCD keys",
                               data: [
                                 "Actual:",
-                                "[None]",
+                                "svg.elements.font-face.stemv",
                                 "Expected:",
-                                "svg.elements.font-face.strikethrough-thickness"
+                                "[None]"
+                              ]
+                            }
+                          ]
+                        },
+                        string: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/string",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "svg.elements.font-face-format.string",
+                                "Expected:",
+                                "[None]"
                               ]
                             }
                           ]
@@ -26536,7 +26538,6 @@ svg.elements.animateMotion.systemLanguage
 svg.elements.animateTransform.systemLanguage
 svg.elements.circle.systemLanguage
 svg.elements.clipPath.systemLanguage
-svg.elements.cursor.systemLanguage
 svg.elements.defs.systemLanguage
 svg.elements.ellipse.systemLanguage
 svg.elements.foreignObject.systemLanguage
@@ -26554,7 +26555,6 @@ svg.elements.svg.systemLanguage
 svg.elements.switch.systemLanguage
 svg.elements.text.systemLanguage
 svg.elements.textPath.systemLanguage
-svg.elements.tref.systemLanguage
 svg.elements.tspan.systemLanguage
 svg.elements.use.systemLanguage`
                               ]
@@ -26683,8 +26683,7 @@ svg.elements.style.type`
                                 "Actual:",
                                 "svg.elements.hkern.u1",
                                 "Expected:",
-                                `svg.elements.hkern.u1
-svg.elements.vkern.u1`
+                                "[None]"
                               ]
                             }
                           ]
@@ -26715,38 +26714,22 @@ svg.elements.vkern.u1`
                                 "Actual:",
                                 "svg.elements.hkern.u2",
                                 "Expected:",
-                                `svg.elements.hkern.u2
-svg.elements.vkern.u2`
+                                "[None]"
                               ]
                             }
                           ]
                         },
-                        "underline-position": {
+                        unicode: {
                           children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/underline-position",
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/unicode",
                           messages: [
                             {
                               message: "Unexpected BCD keys",
                               data: [
                                 "Actual:",
-                                "[None]",
+                                "svg.elements.glyph.unicode",
                                 "Expected:",
-                                "svg.elements.font-face.underline-position"
-                              ]
-                            }
-                          ]
-                        },
-                        "underline-thickness": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/underline-thickness",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "[None]",
-                                "Expected:",
-                                "svg.elements.font-face.underline-thickness"
+                                "[None]"
                               ]
                             }
                           ]
@@ -26761,6 +26744,90 @@ svg.elements.vkern.u2`
                                 "#",
                                 "Text before link:",
                                 "<urange>"
+                              ]
+                            },
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "svg.elements.font-face.unicode-range",
+                                "Expected:",
+                                "[None]"
+                              ]
+                            }
+                          ]
+                        },
+                        "units-per-em": {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/units-per-em",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "svg.elements.font-face.units-per-em",
+                                "Expected:",
+                                "[None]"
+                              ]
+                            }
+                          ]
+                        },
+                        "v-alphabetic": {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/v-alphabetic",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "svg.elements.font-face.v-alphabetic",
+                                "Expected:",
+                                "[None]"
+                              ]
+                            }
+                          ]
+                        },
+                        "v-hanging": {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/v-hanging",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "svg.elements.font-face.v-hanging",
+                                "Expected:",
+                                "[None]"
+                              ]
+                            }
+                          ]
+                        },
+                        "v-ideographic": {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/v-ideographic",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "svg.elements.font-face.v-ideographic",
+                                "Expected:",
+                                "[None]"
+                              ]
+                            }
+                          ]
+                        },
+                        "v-mathematical": {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/v-mathematical",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "svg.elements.font-face.v-mathematical",
+                                "Expected:",
+                                "[None]"
                               ]
                             }
                           ]
@@ -26790,9 +26857,7 @@ svg.elements.vkern.u2`
                                 "Actual:",
                                 "svg.elements.font.vert-adv-y",
                                 "Expected:",
-                                `svg.elements.font.vert-adv-y
-svg.elements.glyph.vert-adv-y
-svg.elements.missing-glyph.vert-adv-y`
+                                "[None]"
                               ]
                             }
                           ]
@@ -26807,9 +26872,7 @@ svg.elements.missing-glyph.vert-adv-y`
                                 "Actual:",
                                 "svg.elements.font.vert-origin-x",
                                 "Expected:",
-                                `svg.elements.font.vert-origin-x
-svg.elements.glyph.vert-origin-x
-svg.elements.missing-glyph.vert-origin-x`
+                                "[None]"
                               ]
                             }
                           ]
@@ -26824,9 +26887,7 @@ svg.elements.missing-glyph.vert-origin-x`
                                 "Actual:",
                                 "svg.elements.font.vert-origin-y",
                                 "Expected:",
-                                `svg.elements.font.vert-origin-y
-svg.elements.glyph.vert-origin-y
-svg.elements.missing-glyph.vert-origin-y`
+                                "[None]"
                               ]
                             }
                           ]
@@ -26871,6 +26932,21 @@ svg.elements.use.width`
                             }
                           ]
                         },
+                        widths: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/widths",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "svg.elements.font-face.widths",
+                                "Expected:",
+                                "[None]"
+                              ]
+                            }
+                          ]
+                        },
                         x: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/x",
@@ -26881,12 +26957,10 @@ svg.elements.use.width`
                                 "Actual:",
                                 "[None]",
                                 "Expected:",
-                                `svg.elements.cursor.x
-svg.elements.fePointLight.x
+                                `svg.elements.fePointLight.x
 svg.elements.feSpotLight.x
 svg.elements.filter.x
 svg.elements.foreignObject.x
-svg.elements.glyphRef.x
 svg.elements.image.x
 svg.elements.mask.x
 svg.elements.pattern.x
@@ -26895,6 +26969,21 @@ svg.elements.svg.x
 svg.elements.text.x
 svg.elements.tspan.x
 svg.elements.use.x`
+                              ]
+                            }
+                          ]
+                        },
+                        "x-height": {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/x-height",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "svg.elements.font-face.x-height",
+                                "Expected:",
+                                "[None]"
                               ]
                             }
                           ]
@@ -26937,11 +27026,8 @@ svg.elements.use.x`
                                 "svg.elements.a.xlink_href",
                                 "Expected:",
                                 `svg.elements.a.xlink_href
-svg.elements.cursor.xlink_href
 svg.elements.feImage.xlink_href
 svg.elements.filter.xlink_href
-svg.elements.font-face-uri.xlink_href
-svg.elements.glyphRef.xlink_href
 svg.elements.image.xlink_href
 svg.elements.linearGradient.xlink_href
 svg.elements.mpath.xlink_href
@@ -26949,7 +27035,6 @@ svg.elements.pattern.xlink_href
 svg.elements.radialGradient.xlink_href
 svg.elements.script.xlink_href
 svg.elements.textPath.xlink_href
-svg.elements.tref.xlink_href
 svg.elements.use.xlink_href`
                               ]
                             }
@@ -26995,12 +27080,10 @@ svg.elements.use.xlink_href`
                                 "Actual:",
                                 "[None]",
                                 "Expected:",
-                                `svg.elements.cursor.y
-svg.elements.fePointLight.y
+                                `svg.elements.fePointLight.y
 svg.elements.feSpotLight.y
 svg.elements.filter.y
 svg.elements.foreignObject.y
-svg.elements.glyphRef.y
 svg.elements.image.y
 svg.elements.mask.y
 svg.elements.pattern.y
@@ -27306,6 +27389,18 @@ svg.elements.feSpotLight.z`
                             }
                           ]
                         },
+                        cursor: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Element/cursor",
+                          messages: [
+                            {
+                              message: "Not in BCD",
+                              data: [
+                                "svg.elements.cursor"
+                              ]
+                            }
+                          ]
+                        },
                         discard: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Element/discard",
@@ -27547,6 +27642,18 @@ svg.elements.feSpotLight.z`
                             }
                           ]
                         },
+                        font: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Element/font",
+                          messages: [
+                            {
+                              message: "Not in BCD",
+                              data: [
+                                "svg.elements.font"
+                              ]
+                            }
+                          ]
+                        },
                         "font-face": {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Element/font-face",
@@ -27556,6 +27663,60 @@ svg.elements.feSpotLight.z`
                               data: [
                                 "/en-US/docs/Web/SVG/Reference/Element",
                                 "#descriptive"
+                              ]
+                            },
+                            {
+                              message: "Not in BCD",
+                              data: [
+                                "svg.elements.font-face"
+                              ]
+                            }
+                          ]
+                        },
+                        "font-face-format": {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Element/font-face-format",
+                          messages: [
+                            {
+                              message: "Not in BCD",
+                              data: [
+                                "svg.elements.font-face-format"
+                              ]
+                            }
+                          ]
+                        },
+                        "font-face-name": {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Element/font-face-name",
+                          messages: [
+                            {
+                              message: "Not in BCD",
+                              data: [
+                                "svg.elements.font-face-name"
+                              ]
+                            }
+                          ]
+                        },
+                        "font-face-src": {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Element/font-face-src",
+                          messages: [
+                            {
+                              message: "Not in BCD",
+                              data: [
+                                "svg.elements.font-face-src"
+                              ]
+                            }
+                          ]
+                        },
+                        "font-face-uri": {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Element/font-face-uri",
+                          messages: [
+                            {
+                              message: "Not in BCD",
+                              data: [
+                                "svg.elements.font-face-uri"
                               ]
                             }
                           ]
@@ -27630,6 +27791,18 @@ svg.elements.feSpotLight.z`
                             }
                           ]
                         },
+                        glyph: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Element/glyph",
+                          messages: [
+                            {
+                              message: "Not in BCD",
+                              data: [
+                                "svg.elements.glyph"
+                              ]
+                            }
+                          ]
+                        },
                         glyphref: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Element/glyphRef",
@@ -27644,6 +27817,24 @@ svg.elements.feSpotLight.z`
                               message: "Broken link",
                               data: [
                                 "/en-US/docs/Web/SVG/Reference/Attribute/format"
+                              ]
+                            },
+                            {
+                              message: "Not in BCD",
+                              data: [
+                                "svg.elements.glyphRef"
+                              ]
+                            }
+                          ]
+                        },
+                        hkern: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Element/hkern",
+                          messages: [
+                            {
+                              message: "Not in BCD",
+                              data: [
+                                "svg.elements.hkern"
                               ]
                             }
                           ]
@@ -28192,6 +28383,18 @@ svg.elements.feSpotLight.z`
                                 "objectBoundingBox",
                                 "Text before code:",
                                 "|"
+                              ]
+                            }
+                          ]
+                        },
+                        "missing-glyph": {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Element/missing-glyph",
+                          messages: [
+                            {
+                              message: "Not in BCD",
+                              data: [
+                                "svg.elements.missing-glyph"
                               ]
                             }
                           ]
@@ -29168,6 +29371,18 @@ svg.elements.feSpotLight.z`
                             }
                           ]
                         },
+                        tref: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Element/tref",
+                          messages: [
+                            {
+                              message: "Not in BCD",
+                              data: [
+                                "svg.elements.tref"
+                              ]
+                            }
+                          ]
+                        },
                         tspan: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Element/tspan",
@@ -29366,6 +29581,18 @@ svg.elements.feSpotLight.z`
                               message: "Unused image",
                               data: [
                                 "example.svg"
+                              ]
+                            }
+                          ]
+                        },
+                        vkern: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Element/vkern",
+                          messages: [
+                            {
+                              message: "Not in BCD",
+                              data: [
+                                "svg.elements.vkern"
                               ]
                             }
                           ]
