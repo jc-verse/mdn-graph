@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-3s0nehrm.js";
+} from "./chunk-13v26mpb.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -1090,6 +1090,26 @@ var warnings_processed_default = {
                 }
               ]
             },
+            gpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/GPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-faq.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                }
+              ]
+            },
             "high-level_programming_language": {
               children: {},
               slug: "/en-US/docs/Glossary/High-level_programming_language",
@@ -1177,6 +1197,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            lgpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/LGPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/lgpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
                 }
               ]
             },
@@ -2116,13 +2149,6 @@ var warnings_processed_default = {
                           data: [
                             "https://codepen.io/mxmason/pen/XWbPNmw"
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://new.drupal.org/",
-                            403
-                          ]
                         }
                       ]
                     },
@@ -2568,7 +2594,17 @@ var warnings_processed_default = {
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
                     },
                     html_video_and_audio: {
                       children: {
@@ -3233,6 +3269,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -3971,14 +4014,35 @@ var warnings_processed_default = {
                           message: "Broken external link",
                           data: [
                             "https://webchat.freenode.net/?channels=brackets",
-                            "The operation timed out."
+                            521
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "Cannot reach server and Bun hangs"
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
                             "https://webchat.freenode.net/?channels=textmate",
-                            "The operation timed out."
+                            521
                           ]
                         }
                       ]
@@ -4000,8 +4064,21 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://gaesamplesite.appspot.com/",
+                            "https://gaesamplesite.appspot.com/downloads.html",
                             503
+                          ]
+                        }
+                      ]
+                    },
+                    what_are_browser_developer_tools: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_are_browser_developer_tools",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/web-inspector/console-object-api/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -4010,6 +4087,13 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -4029,21 +4113,7 @@ var warnings_processed_default = {
                   ]
                 },
                 web_mechanics: {
-                  children: {
-                    what_is_a_domain_name: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_domain_name",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.icann.org/resources/pages/tlds-2012-02-25-en",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Learn_web_development/Howto/Web_mechanics",
                   messages: [
                     {
@@ -8096,6 +8166,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/web-animations/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -10694,6 +10771,20 @@ var warnings_processed_default = {
                           ]
                         },
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.cedars-sinai.org/health-library/diseases-and-conditions/p/photosensitive-seizures.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.cedars-sinai.org/health-library/diseases-and-conditions/p/photosensitive-seizures.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "HTTP link",
                           data: [
                             "http://diagramcenter.org/",
@@ -11261,6 +11352,19 @@ var warnings_processed_default = {
                       ]
                     }
                   }
+                },
+                console_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Console_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webkit.org/web-inspector/console-object-api/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 convolvernode: {
                   children: {},
@@ -22880,6 +22984,19 @@ html.elements.select.size`
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         "available-dictionary": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Available-Dictionary",
@@ -23267,19 +23384,6 @@ html.elements.select.size`
                         }
                       ]
                     },
-                    keyed_collections: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Keyed_collections",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://fitzgen.com/2014/01/13/hiding-implementation-details-with-e6-weakmaps.html",
-                            "certificate has expired"
-                          ]
-                        }
-                      ]
-                    },
                     language_overview: {
                       children: {},
                       slug: "/en-US/docs/Web/JavaScript/Guide/Language_overview",
@@ -23516,23 +23620,6 @@ html.elements.select.size`
                             }
                           }
                         },
-                        error: {
-                          children: {
-                            stack: {
-                              children: {},
-                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/stack",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://fitzgen.com/2014/12/05/name-eval-scripts.html",
-                                    "certificate has expired"
-                                  ]
-                                }
-                              ]
-                            }
-                          }
-                        },
                         function: {
                           children: {
                             prototype: {
@@ -23721,33 +23808,6 @@ html.elements.select.size`
                               message: "Not linked from parent page",
                               data: [
                                 "/en-US/docs/Web/JavaScript/Reference/Global_Objects"
-                              ]
-                            }
-                          ]
-                        },
-                        weakmap: {
-                          children: {
-                            weakmap: {
-                              children: {},
-                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap/WeakMap",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://fitzgen.com/2014/01/13/hiding-implementation-details-with-e6-weakmaps.html",
-                                    "certificate has expired"
-                                  ]
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://fitzgen.com/2014/01/13/hiding-implementation-details-with-e6-weakmaps.html",
-                                "certificate has expired"
                               ]
                             }
                           ]
@@ -24101,19 +24161,6 @@ html.elements.select.size`
                     },
                     formats: {
                       children: {
-                        image_types: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Image_types",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://ev.buaa.edu.cn/",
-                                403
-                              ]
-                            }
-                          ]
-                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
