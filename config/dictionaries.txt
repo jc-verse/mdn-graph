@@ -7,6 +7,7 @@ AesGcmParams
 AesKeyGenParams
 AudioParamDescriptor
 CryptoKeyPair
+DeferredRequestInit
 DOMHighResTimeStamp
 EcdhKeyDeriveParams
 EcdsaParams

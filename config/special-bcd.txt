@@ -11,6 +11,7 @@
 /en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/ModifyHeaderInfo	webextensions.api.declarativeNetRequest.RuleAction.requestHeaders,webextensions.api.declarativeNetRequest.RuleAction.responseHeaders
 
 /en-US/docs/Web/API/CSS/factory_functions_static	api.CSS
+/en-US/docs/Web/API/DeferredRequestInit	api.Window.fetchLater
 /en-US/docs/Web/API/EcdsaParams	api.SubtleCrypto.sign,api.SubtleCrypto.verify
 /en-US/docs/Web/API/HTMLDetailsElement	api.HTMLDetailsElement,api.HTMLElement.toggle_event.details_elements
 /en-US/docs/Web/API/HTMLDialogElement	api.HTMLDialogElement,api.HTMLElement.beforetoggle_event.dialog_elements,api.HTMLElement.toggle_event.dialog_elements
