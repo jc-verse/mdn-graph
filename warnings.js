@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-67kfvvbm.js";
+} from "./chunk-mv2jcrp0.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -1090,6 +1090,26 @@ var warnings_processed_default = {
                 }
               ]
             },
+            gpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/GPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-faq.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                }
+              ]
+            },
             "high-level_programming_language": {
               children: {},
               slug: "/en-US/docs/Glossary/High-level_programming_language",
@@ -1177,6 +1197,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            lgpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/LGPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/lgpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
                 }
               ]
             },
@@ -1715,9 +1748,9 @@ var warnings_processed_default = {
                         }
                       }
                     },
-                    test_your_skills_colon__html_accessibility: {
+                    test_your_skills: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills:_HTML_accessibility",
+                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills",
                       messages: [
                         {
                           message: "Not linked from parent page",
@@ -1726,7 +1759,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "Unreachable via sidebar",
+                          message: "Unreachable via page",
                           data: []
                         }
                       ]
@@ -1777,54 +1810,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    flexbox_skills: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Flexbox_skills",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Core/CSS_layout"
-                          ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    floats_skills: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Floats_skills",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Core/CSS_layout"
-                          ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    grid_skills: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Grid_skills",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Core/CSS_layout"
-                          ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
                     legacy_layout_methods: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Legacy_Layout_Methods",
@@ -1842,42 +1827,10 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    multicol_skills: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Multicol_skills",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Core/CSS_layout"
-                          ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
                     "multiple-column_layout": {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Multiple-column_Layout",
                       messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    position_skills: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Position_skills",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Core/CSS_layout"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -1894,9 +1847,19 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    rwd_skills: {
+                    supporting_older_browsers: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/rwd_skills",
+                      slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Supporting_Older_Browsers",
+                      messages: [
+                        {
+                          message: "Unreachable via sidebar",
+                          data: []
+                        }
+                      ]
+                    },
+                    test_your_skills: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Test_your_skills",
                       messages: [
                         {
                           message: "Not linked from parent page",
@@ -1905,17 +1868,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    supporting_older_browsers: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Supporting_Older_Browsers",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
+                          message: "Unreachable via page",
                           data: []
                         }
                       ]
@@ -2568,7 +2521,17 @@ var warnings_processed_default = {
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
                     },
                     html_video_and_audio: {
                       children: {
@@ -2643,42 +2606,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    basic_selectors: {
-                      children: {
-                        selectors_tasks: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Basic_selectors/Selectors_Tasks",
-                          messages: [
-                            {
-                              message: "Not linked from parent page",
-                              data: [
-                                "/en-US/docs/Learn_web_development/Core/Styling_basics/Basic_selectors"
-                              ]
-                            },
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    box_model_tasks: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Box_Model_Tasks",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Core/Styling_basics"
-                          ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
                     cascade_layers: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Cascade_layers",
@@ -2689,72 +2616,10 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    cascade_tasks: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Cascade_tasks",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Core/Styling_basics"
-                          ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    combinators: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Combinators",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "Unknown word article (CssSyntaxError)",
-                            "article > p",
-                            "1:1"
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "Unknown word p (CssSyntaxError)",
-                            "p + img",
-                            "1:1"
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "Unknown word p (CssSyntaxError)",
-                            "p ~ img",
-                            "1:1"
-                          ]
-                        }
-                      ]
-                    },
                     handling_different_text_directions: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_different_text_directions",
                       messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    images_tasks: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Images_tasks",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Core/Styling_basics"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -2771,9 +2636,9 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    overflow_tasks: {
+                    test_your_skills: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Overflow_Tasks",
+                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills",
                       messages: [
                         {
                           message: "Not linked from parent page",
@@ -2782,71 +2647,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    sizing_tasks: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Sizing_tasks",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Core/Styling_basics"
-                          ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    tables_tasks: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Tables_tasks",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Core/Styling_basics"
-                          ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    test_your_skills_backgrounds_and_borders: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills_backgrounds_and_borders",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Core/Styling_basics"
-                          ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    values_tasks: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Values_tasks",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Core/Styling_basics"
-                          ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
+                          message: "Unreachable via page",
                           data: []
                         }
                       ]
@@ -2862,22 +2663,6 @@ var warnings_processed_default = {
                           ]
                         }
                       ]
-                    },
-                    writing_modes_tasks: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Writing_Modes_Tasks",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Core/Styling_basics"
-                          ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
                     }
                   }
                 },
@@ -2891,6 +2676,19 @@ var warnings_processed_default = {
                           message: "Unused image",
                           data: [
                             "external-link-52.png"
+                          ]
+                        }
+                      ]
+                    },
+                    web_fonts: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.exljbris.com/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -3185,6 +2983,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -3447,20 +3252,6 @@ var warnings_processed_default = {
                           message: "Unused image",
                           data: [
                             "mark-as-bug-3.png"
-                          ]
-                        }
-                      ]
-                    },
-                    html_and_css: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "Unknown word form (CssSyntaxError)",
-                            "form > #date",
-                            "1:1"
                           ]
                         }
                       ]
@@ -3929,8 +3720,57 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://macromates.com/",
+                            "Unable to connect. Is the computer able to access the url?"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://webchat.freenode.net/?channels=textmate",
                             521
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://lists.macromates.com/postorius/lists/textmate.lists.macromates.com/",
+                            "Unable to connect. Is the computer able to access the url?"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://macromates.com/manual/en/",
+                            "Unable to connect. Is the computer able to access the url?"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://macromates.com/textmate/manual/bundles",
+                            "Unable to connect. Is the computer able to access the url?"
                           ]
                         }
                       ]
@@ -3942,6 +3782,19 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    how_do_you_host_your_website_on_google_app_engine: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gaesamplesite.appspot.com/",
+                            503
+                          ]
                         }
                       ]
                     },
@@ -3965,8 +3818,15 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://browsershots.org/",
-                            "Unable to connect. Is the computer able to access the url?"
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -10583,20 +10443,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    colors_and_luminance: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "Unknown word oklch (CssSyntaxError)",
-                            "oklch(0.7 0.32 328.37);",
-                            "35:1"
-                          ]
-                        }
-                      ]
-                    },
                     seizure_disorders: {
                       children: {},
                       slug: "/en-US/docs/Web/Accessibility/Guides/Seizure_disorders",
@@ -11188,24 +11034,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                cssstylevalue: {
-                  children: {
-                    parse_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSSStyleValue/parse_static",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "Missed semicolon (CssSyntaxError)",
-                            "CSSTransformValue {0: CSSTranslate, 1: CSSScale, length: 2, is2D: false}",
-                            "1:36"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 datatransfer: {
                   children: {
                     addelement: {
@@ -11366,20 +11194,6 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                deferredrequestinit: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/DeferredRequestInit",
-                  messages: [
-                    {
-                      message: "Missing BCD table",
-                      data: []
-                    },
-                    {
-                      message: "Broken browser compat anchor",
-                      data: []
-                    }
-                  ]
                 },
                 device_orientation_events: {
                   children: {
@@ -13818,19 +13632,6 @@ var warnings_processed_default = {
                 },
                 web_audio_api: {
                   children: {
-                    advanced_techniques: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://soundbible.com/1573-DTMF-Tones.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     best_practices: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Best_practices",
@@ -15797,18 +15598,6 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                _doublecolon_column: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::column",
-                  messages: [
-                    {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/CSS/::column"
-                      ]
-                    }
-                  ]
-                },
                 "-moz-force-broken-image-icon": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/-moz-force-broken-image-icon",
@@ -15903,62 +15692,6 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "Unknown word ... (CssSyntaxError)",
-                        "@container (min-width: 400px) { ... }",
-                        "1:33"
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "Unknown word ... (CssSyntaxError)",
-                        "@container scroll-state(scrollable: top) { ... }",
-                        "1:44"
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "Unknown word ... (CssSyntaxError)",
-                        "@container not scroll-state(scrollable: none) { ... }",
-                        "1:49"
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "Unknown word ... (CssSyntaxError)",
-                        "@container not scroll-state(snapped: none) { ... }",
-                        "1:46"
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "Unknown word ... (CssSyntaxError)",
-                        "@container scroll-state((stuck: top) and (stuck: left)) { ... }",
-                        "1:59"
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "Unknown word ... (CssSyntaxError)",
-                        "@container scroll-state((stuck: left) and (stuck: right)) { ... }",
-                        "1:61"
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "Unknown word ... (CssSyntaxError)",
-                        "@container not scroll-state(stuck: none) { ... }",
-                        "1:44"
-                      ]
                     }
                   ]
                 },
@@ -17059,70 +16792,6 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "Unknown word rulesets (CssSyntaxError)",
-                        "  rulesets",
-                        "2:3"
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "Unknown word ... (CssSyntaxError)",
-                        "  img { ... }",
-                        "2:9"
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "Unknown word ... (CssSyntaxError)",
-                        "@scope (.article-body) to (:scope > figure) { ... }",
-                        "2:47"
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "Unknown word ... (CssSyntaxError)",
-                        "@scope (.article-body) to (.feature :scope figure) { ... }",
-                        "2:54"
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "Unknown word ... (CssSyntaxError)",
-                        "  img { ... }",
-                        "3:9"
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "Unknown word ... (CssSyntaxError)",
-                        "  :scope img { ... }",
-                        "3:16"
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "Unknown word ... (CssSyntaxError)",
-                        "  & img { ... }",
-                        "2:11"
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "Unknown word ... (CssSyntaxError)",
-                        "  & & { ... }",
-                        "3:9"
-                      ]
                     }
                   ]
                 },
@@ -17138,22 +16807,6 @@ css.selectors.-webkit-resizer`,
                       message: "Missing data",
                       data: [
                         "CSS formal syntax"
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "Unknown word rulesets (CssSyntaxError)",
-                        "  rulesets",
-                        "2:3"
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "Unknown word declarations (CssSyntaxError)",
-                        "    declarations",
-                        "5:5"
                       ]
                     }
                   ]
@@ -17195,34 +16848,6 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
-                    }
-                  ]
-                },
-                "animation-range": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/animation-range",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "Missed semicolon (CssSyntaxError)",
-                        "    opacity: 1,",
-                        "18:16"
-                      ]
-                    }
-                  ]
-                },
-                "animation-range-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/animation-range-start",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "Missed semicolon (CssSyntaxError)",
-                        "    opacity: 1,",
-                        "18:16"
-                      ]
                     }
                   ]
                 },
@@ -17663,20 +17288,6 @@ css.selectors.-webkit-resizer`,
                         "min",
                         "Text after code:",
                         "(VAL, MAX))"
-                      ]
-                    }
-                  ]
-                },
-                class_selectors: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/Class_selectors",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "Unknown word style (CssSyntaxError)",
-                        "[class~=class_name] { style properties }",
-                        "1:23"
                       ]
                     }
                   ]
@@ -19527,14 +19138,6 @@ css.selectors.-webkit-resizer`,
                         "  transform: rotate(calc(1turn * exp(-1))); // 0.3678794411714423turn",
                         "7:45"
                       ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "Unknown word // (CssSyntaxError)",
-                        "  font-size: calc(1rem * exp(1.25)); // 3.4903429574618414rem",
-                        "2:38"
-                      ]
                     }
                   ]
                 },
@@ -20053,20 +19656,6 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
-                id_selectors: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/ID_selectors",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "Unknown word style (CssSyntaxError)",
-                        "[id=id_value] { style properties }",
-                        "1:17"
-                      ]
-                    }
-                  ]
-                },
                 ident: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/ident",
@@ -20114,14 +19703,6 @@ css.properties.width.fit-content_function`
                             "[None]",
                             "Expected:",
                             "css.types.image.image"
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "Unknown word xywh=pixel (CssSyntaxError)",
-                            "xywh=pixel:160,120,320,240  /* results in a 320x240 image at x=160 and y=120 */",
-                            "2:1"
                           ]
                         }
                       ]
@@ -20589,20 +20170,6 @@ css.properties.grid-template-rows.minmax`
                     {
                       message: "Missing syntax code block",
                       data: []
-                    }
-                  ]
-                },
-                ray: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/ray",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "Unclosed block (CssSyntaxError)",
-                        "@keyframes move {",
-                        "45:1"
-                      ]
                     }
                   ]
                 },
@@ -21498,34 +21065,6 @@ css.properties.list-style-type.symbols`
                     }
                   ]
                 },
-                "view-timeline-axis": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/view-timeline-axis",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "Missed semicolon (CssSyntaxError)",
-                        "    opacity: 1,",
-                        "46:16"
-                      ]
-                    }
-                  ]
-                },
-                "view-timeline-inset": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/view-timeline-inset",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "Missed semicolon (CssSyntaxError)",
-                        "    opacity: 1,",
-                        "18:16"
-                      ]
-                    }
-                  ]
-                },
                 webkit_extensions: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/WebKit_Extensions",
@@ -21771,43 +21310,19 @@ html.elements.textarea.disabled`
                             {
                               message: "Broken link",
                               data: [
-                                "/en-US/docs/Web/HTML/Attributes/low"
+                                "/en-US/docs/Web/HTML/Reference/Attributes/low"
                               ]
                             },
                             {
                               message: "Broken link",
                               data: [
-                                "/en-US/docs/Web/HTML/Attributes/high"
+                                "/en-US/docs/Web/HTML/Reference/Attributes/high"
                               ]
                             },
                             {
                               message: "Broken link",
                               data: [
-                                "/en-US/docs/Web/HTML/Attributes/optimum"
-                              ]
-                            }
-                          ]
-                        },
-                        min: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/min",
-                          messages: [
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/HTML/Attributes/low"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/HTML/Attributes/high"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/HTML/Attributes/optimum"
+                                "/en-US/docs/Web/HTML/Reference/Attributes/optimum"
                               ]
                             }
                           ]
@@ -21970,97 +21485,97 @@ html.elements.select.size`
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/HTML/Attributes/alt"
+                            "/en-US/docs/Web/HTML/Reference/Attributes/alt"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/HTML/Attributes/autoplay"
+                            "/en-US/docs/Web/HTML/Reference/Attributes/autoplay"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/HTML/Attributes/cite"
+                            "/en-US/docs/Web/HTML/Reference/Attributes/cite"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/HTML/Attributes/colspan"
+                            "/en-US/docs/Web/HTML/Reference/Attributes/colspan"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/HTML/Attributes/controls"
+                            "/en-US/docs/Web/HTML/Reference/Attributes/controls"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/HTML/Attributes/datetime"
+                            "/en-US/docs/Web/HTML/Reference/Attributes/datetime"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/HTML/Attributes/download"
+                            "/en-US/docs/Web/HTML/Reference/Attributes/download"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/HTML/Attributes/form"
+                            "/en-US/docs/Web/HTML/Reference/Attributes/form"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/HTML/Attributes/formaction"
+                            "/en-US/docs/Web/HTML/Reference/Attributes/formaction"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/HTML/Attributes/formenctype"
+                            "/en-US/docs/Web/HTML/Reference/Attributes/formenctype"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/HTML/Attributes/formmethod"
+                            "/en-US/docs/Web/HTML/Reference/Attributes/formmethod"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/HTML/Attributes/formnovalidate"
+                            "/en-US/docs/Web/HTML/Reference/Attributes/formnovalidate"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/HTML/Attributes/formtarget"
+                            "/en-US/docs/Web/HTML/Reference/Attributes/formtarget"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/HTML/Attributes/headers"
+                            "/en-US/docs/Web/HTML/Reference/Attributes/headers"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/HTML/Attributes/href"
+                            "/en-US/docs/Web/HTML/Reference/Attributes/href"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/HTML/Attributes/hreflang"
+                            "/en-US/docs/Web/HTML/Reference/Attributes/hreflang"
                           ]
                         },
                         {
@@ -22073,55 +21588,55 @@ html.elements.select.size`
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/HTML/Attributes/label"
+                            "/en-US/docs/Web/HTML/Reference/Attributes/label"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/HTML/Attributes/loop"
+                            "/en-US/docs/Web/HTML/Reference/Attributes/loop"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/HTML/Attributes/media"
+                            "/en-US/docs/Web/HTML/Reference/Attributes/media"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/HTML/Attributes/muted"
+                            "/en-US/docs/Web/HTML/Reference/Attributes/muted"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/HTML/Attributes/name"
+                            "/en-US/docs/Web/HTML/Reference/Attributes/name"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/HTML/Attributes/open"
+                            "/en-US/docs/Web/HTML/Reference/Attributes/open"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/HTML/Attributes/preload"
+                            "/en-US/docs/Web/HTML/Reference/Attributes/preload"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/HTML/Attributes/referralpolicy"
+                            "/en-US/docs/Web/HTML/Reference/Attributes/referralpolicy"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/HTML/Attributes/rowspan"
+                            "/en-US/docs/Web/HTML/Reference/Attributes/rowspan"
                           ]
                         },
                         {
@@ -22134,66 +21649,62 @@ html.elements.select.size`
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/HTML/Attributes/shape"
+                            "/en-US/docs/Web/HTML/Reference/Attributes/shape"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/HTML/Attributes/sizes"
+                            "/en-US/docs/Web/HTML/Reference/Attributes/sizes"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/HTML/Attributes/span"
+                            "/en-US/docs/Web/HTML/Reference/Attributes/span"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/HTML/Attributes/src"
+                            "/en-US/docs/Web/HTML/Reference/Attributes/src"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/HTML/Attributes/srcset"
+                            "/en-US/docs/Web/HTML/Reference/Attributes/srcset"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/HTML/Attributes/target"
+                            "/en-US/docs/Web/HTML/Reference/Attributes/target"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/HTML/Attributes/type"
+                            "/en-US/docs/Web/HTML/Reference/Attributes/type"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/HTML/Attributes/usemap"
+                            "/en-US/docs/Web/HTML/Reference/Attributes/usemap"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/HTML/Attributes/value"
+                            "/en-US/docs/Web/HTML/Reference/Attributes/value"
                           ]
                         },
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/HTML/Attributes/width"
+                            "/en-US/docs/Web/HTML/Reference/Attributes/width"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -22292,274 +21803,6 @@ html.elements.select.size`
                               ]
                             }
                           ]
-                        },
-                        input: {
-                          children: {
-                            button: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/button",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "html-attribute-value"
-                                  ]
-                                }
-                              ]
-                            },
-                            checkbox: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/checkbox",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "html-attribute-value"
-                                  ]
-                                }
-                              ]
-                            },
-                            color: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/color",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "html-attribute-value"
-                                  ]
-                                }
-                              ]
-                            },
-                            date: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/date",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "html-attribute-value"
-                                  ]
-                                }
-                              ]
-                            },
-                            "datetime-local": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/datetime-local",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "html-attribute-value"
-                                  ]
-                                }
-                              ]
-                            },
-                            email: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/email",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "html-attribute-value"
-                                  ]
-                                }
-                              ]
-                            },
-                            file: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/file",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "html-attribute-value"
-                                  ]
-                                }
-                              ]
-                            },
-                            hidden: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/hidden",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "html-attribute-value"
-                                  ]
-                                }
-                              ]
-                            },
-                            image: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/image",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "html-attribute-value"
-                                  ]
-                                }
-                              ]
-                            },
-                            month: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/month",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "html-attribute-value"
-                                  ]
-                                }
-                              ]
-                            },
-                            number: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/number",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "html-attribute-value"
-                                  ]
-                                }
-                              ]
-                            },
-                            password: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/password",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "html-attribute-value"
-                                  ]
-                                }
-                              ]
-                            },
-                            radio: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/radio",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "html-attribute-value"
-                                  ]
-                                }
-                              ]
-                            },
-                            range: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/range",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "html-attribute-value"
-                                  ]
-                                }
-                              ]
-                            },
-                            reset: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/reset",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "html-attribute-value"
-                                  ]
-                                }
-                              ]
-                            },
-                            search: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/search",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "html-attribute-value"
-                                  ]
-                                }
-                              ]
-                            },
-                            submit: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/submit",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "html-attribute-value"
-                                  ]
-                                }
-                              ]
-                            },
-                            tel: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/tel",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "html-attribute-value"
-                                  ]
-                                }
-                              ]
-                            },
-                            text: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/text",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "html-attribute-value"
-                                  ]
-                                }
-                              ]
-                            },
-                            time: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/time",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "html-attribute-value"
-                                  ]
-                                }
-                              ]
-                            },
-                            url: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/url",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "html-attribute-value"
-                                  ]
-                                }
-                              ]
-                            },
-                            week: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/week",
-                              messages: [
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "html-attribute-value"
-                                  ]
-                                }
-                              ]
-                            }
-                          }
                         },
                         map: {
                           children: {},
@@ -22681,39 +21924,7 @@ html.elements.select.size`
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Web/HTML/Reference/Elements",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    global_attributes: {
-                      children: {
-                        contenteditable: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/contenteditable",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "Missed semicolon (CssSyntaxError)",
-                                "    margin: 0",
-                                "20:14"
-                              ]
-                            }
-                          ]
-                        }
-                      },
-                      slug: "/en-US/docs/Web/HTML/Reference/Global_attributes",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
+                      }
                     }
                   }
                 }
@@ -22877,6 +22088,19 @@ html.elements.select.size`
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         "available-dictionary": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Available-Dictionary",
@@ -22948,19 +22172,6 @@ html.elements.select.size`
                               ]
                             }
                           }
-                        },
-                        dnt: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/DNT",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
-                                502
-                              ]
-                            }
-                          ]
                         },
                         forwarded: {
                           children: {},
@@ -23067,13 +22278,6 @@ html.elements.select.size`
                             {
                               message: "Broken browser compat anchor",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
-                                502
-                              ]
                             }
                           ]
                         },
@@ -23955,6 +23159,32 @@ html.elements.select.size`
                             }
                           ]
                         },
+                        live_streaming_web_audio_and_video: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/Live_streaming_web_audio_and_video",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jwplayer.com/blog/http-live-streaming/",
+                                404
+                              ]
+                            }
+                          ]
+                        },
+                        setting_up_adaptive_streaming_media_sources: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/Setting_up_adaptive_streaming_media_sources",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jwplayer.com/blog/http-live-streaming/",
+                                404
+                              ]
+                            }
+                          ]
+                        },
                         webaudio_playbackrate_explained: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/WebAudio_playbackRate_explained",
@@ -24049,6 +23279,19 @@ html.elements.select.size`
                     },
                     formats: {
                       children: {
+                        image_types: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Image_types",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://ev.buaa.edu.cn/",
+                                403
+                              ]
+                            }
+                          ]
+                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
