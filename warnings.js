@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-0k7yfak6.js";
+} from "./chunk-0b44vpnh.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -601,13 +601,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/end3r/Gamedev-Phaser-Content-Kit/blob/gh-pages/demos/lesson05.html",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
                         }
                       ]
                     },
@@ -883,6 +876,13 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://nodejs.org/",
+                    400
+                  ]
                 }
               ]
             },
@@ -1268,6 +1268,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            "node.js": {
+              children: {},
+              slug: "/en-US/docs/Glossary/Node.js",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://nodejs.org/",
+                    400
+                  ]
+                }
+              ]
+            },
             "non-normative": {
               children: {},
               slug: "/en-US/docs/Glossary/Non-normative",
@@ -1375,19 +1388,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            progressive_enhancement: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Progressive_Enhancement",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.quirksmode.org/blog/archives/2021/02/progressive_enh_1.html",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -2281,6 +2281,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://nodejs.org/",
+                            400
+                          ]
                         }
                       ]
                     },
@@ -2642,54 +2649,6 @@ var warnings_processed_default = {
                           ]
                         }
                       ]
-                    },
-                    test_your_skills_colon__advanced_html_text: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills:_Advanced_HTML_text",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Core/Structuring_content"
-                          ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    test_your_skills_colon__html_text_basics: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills:_HTML_text_basics",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Core/Structuring_content"
-                          ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    test_your_skills_colon__links: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills:_Links",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Core/Structuring_content"
-                          ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
                     }
                   }
                 },
@@ -2999,6 +2958,23 @@ var warnings_processed_default = {
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/mikethomas/pen/kQjKLW"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                "client-side_tools": {
+                  children: {
+                    overview: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://nodejs.org/",
+                            400
                           ]
                         }
                       ]
@@ -3464,6 +3440,13 @@ var warnings_processed_default = {
                           children: {},
                           slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
                           messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://nodejs.org/",
+                                400
+                              ]
+                            },
                             {
                               message: "HTTP link",
                               data: [
@@ -4013,15 +3996,15 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    how_do_you_host_your_website_on_google_app_engine: {
+                    how_much_does_it_cost: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_much_does_it_cost",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://gaesamplesite.appspot.com/",
-                            503
+                            "https://www.openshot.org/",
+                            "certificate has expired"
                           ]
                         }
                       ]
@@ -4751,17 +4734,17 @@ var warnings_processed_default = {
                                       data: []
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "Cannot reach server and Bun hangs"
+                                        ""
                                       ]
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "Cannot reach server and Bun hangs"
+                                        ""
                                       ]
                                     }
                                   ]
@@ -4785,17 +4768,17 @@ var warnings_processed_default = {
                                       data: []
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "Cannot reach server and Bun hangs"
+                                        ""
                                       ]
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "Cannot reach server and Bun hangs"
+                                        ""
                                       ]
                                     }
                                   ]
@@ -4804,10 +4787,10 @@ var warnings_processed_default = {
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
                               messages: [
                                 {
-                                  message: "Broken external link",
+                                  message: "HTTP link",
                                   data: [
                                     "http://www.softwareishard.com/blog/har-12-spec/",
-                                    "Cannot reach server and Bun hangs"
+                                    ""
                                   ]
                                 }
                               ]
@@ -6989,7 +6972,7 @@ var warnings_processed_default = {
                         {
                           message: "Broken anchor",
                           data: [
-                            "/en-US/docs/Web/HTML/Element/map",
+                            "/en-US/docs/Web/HTML/Reference/Elements/map",
                             "#gecko_notes"
                           ]
                         },
@@ -7295,14 +7278,14 @@ var warnings_processed_default = {
                         {
                           message: "Broken anchor",
                           data: [
-                            "/en-US/docs/Web/HTML/Global_attributes/spellcheck",
+                            "/en-US/docs/Web/HTML/Reference/Global_attributes/spellcheck",
                             "#controlling_the_spellchecker_language"
                           ]
                         },
                         {
                           message: "Broken anchor",
                           data: [
-                            "/en-US/docs/Web/HTML/CORS_enabled_image",
+                            "/en-US/docs/Web/HTML/How_to/CORS_enabled_image",
                             "#what_is_a_.22tainted.22_canvas.3f"
                           ]
                         },
@@ -7523,7 +7506,7 @@ var warnings_processed_default = {
                         {
                           message: "Broken anchor",
                           data: [
-                            "/en-US/docs/Web/HTML/CORS_enabled_image",
+                            "/en-US/docs/Web/HTML/How_to/CORS_enabled_image",
                             "#what_is_a_.22tainted.22_canvas.3f"
                           ]
                         },
@@ -7766,7 +7749,7 @@ var warnings_processed_default = {
                         {
                           message: "Broken anchor",
                           data: [
-                            "/en-US/docs/Web/HTML/Element/iframe",
+                            "/en-US/docs/Web/HTML/Reference/Elements/iframe",
                             "#mozallowfullscreen"
                           ]
                         },
@@ -7810,7 +7793,7 @@ var warnings_processed_default = {
                         {
                           message: "Broken anchor",
                           data: [
-                            "/en-US/docs/Web/HTML/Element/style",
+                            "/en-US/docs/Web/HTML/Reference/Elements/style",
                             "#scoped"
                           ]
                         },
@@ -8088,13 +8071,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/web-animations/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -8319,14 +8295,14 @@ var warnings_processed_default = {
                         {
                           message: "Broken anchor",
                           data: [
-                            "/en-US/docs/Web/HTML/Element/input",
+                            "/en-US/docs/Web/HTML/Reference/Elements/input",
                             "#referrer"
                           ]
                         },
                         {
                           message: "Broken anchor",
                           data: [
-                            "/en-US/docs/Web/HTML/Element/img",
+                            "/en-US/docs/Web/HTML/Reference/Elements/img",
                             "#id"
                           ]
                         },
@@ -8435,21 +8411,21 @@ var warnings_processed_default = {
                         {
                           message: "Broken anchor",
                           data: [
-                            "/en-US/docs/Web/HTML/Element/select",
+                            "/en-US/docs/Web/HTML/Reference/Elements/select",
                             "#selectedindex"
                           ]
                         },
                         {
                           message: "Broken anchor",
                           data: [
-                            "/en-US/docs/Web/HTML/Element/select",
+                            "/en-US/docs/Web/HTML/Reference/Elements/select",
                             "#selectedoptions"
                           ]
                         },
                         {
                           message: "Broken anchor",
                           data: [
-                            "/en-US/docs/Web/HTML/Element/select",
+                            "/en-US/docs/Web/HTML/Reference/Elements/select",
                             "#value"
                           ]
                         },
@@ -8560,7 +8536,7 @@ var warnings_processed_default = {
                         {
                           message: "Broken anchor",
                           data: [
-                            "/en-US/docs/Web/HTML/Element/label",
+                            "/en-US/docs/Web/HTML/Reference/Elements/label",
                             "#form"
                           ]
                         },
@@ -8784,7 +8760,7 @@ var warnings_processed_default = {
                         {
                           message: "Broken anchor",
                           data: [
-                            "/en-US/docs/Web/HTML/Global_attributes/contenteditable",
+                            "/en-US/docs/Web/HTML/Reference/Global_attributes/contenteditable",
                             "#differences_in_markup_generation"
                           ]
                         },
@@ -8798,7 +8774,7 @@ var warnings_processed_default = {
                         {
                           message: "Broken anchor",
                           data: [
-                            "/en-US/docs/Web/HTML/Element/style",
+                            "/en-US/docs/Web/HTML/Reference/Elements/style",
                             "#scoped"
                           ]
                         },
@@ -8915,7 +8891,7 @@ var warnings_processed_default = {
                         {
                           message: "Broken anchor",
                           data: [
-                            "/en-US/docs/Web/HTML/Global_attributes/contenteditable",
+                            "/en-US/docs/Web/HTML/Reference/Global_attributes/contenteditable",
                             "#differences_in_markup_generation"
                           ]
                         },
@@ -10693,20 +10669,6 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.cedars-sinai.org/health-library/diseases-and-conditions/p/photosensitive-seizures.html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.cedars-sinai.org/health-library/diseases-and-conditions/p/photosensitive-seizures.html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
                           message: "HTTP link",
                           data: [
                             "http://diagramcenter.org/",
@@ -11467,21 +11429,6 @@ var warnings_processed_default = {
                     {
                       message: "Broken browser compat anchor",
                       data: []
-                    },
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "api.DeferredRequestInit"
-                      ]
-                    },
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        "api.Window.fetchLater",
-                        "Expected:",
-                        "api.DeferredRequestInit"
-                      ]
                     }
                   ]
                 },
@@ -12263,7 +12210,7 @@ var warnings_processed_default = {
                     {
                       message: "Broken anchor",
                       data: [
-                        "/en-US/docs/Web/HTML/Element/ol",
+                        "/en-US/docs/Web/HTML/Reference/Elements/ol",
                         "#compact"
                       ]
                     }
@@ -13386,6 +13333,43 @@ var warnings_processed_default = {
                     }
                   ]
                 },
+                subtlecrypto: {
+                  children: {
+                    decrypt: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SubtleCrypto/decrypt",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://csrc.nist.gov/pubs/sp/800/38/d/final",
+                            500
+                          ]
+                        }
+                      ]
+                    },
+                    encrypt: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SubtleCrypto/encrypt",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://csrc.nist.gov/pubs/sp/800/38/d/final",
+                            500
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://csrc.nist.gov/pubs/sp/800/38/d/final",
+                            500
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 svgcursorelement: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SVGCursorElement",
@@ -13990,13 +13974,6 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Visualizations_with_Web_Audio_API",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://soledadpenades.com/",
-                            "The operation timed out."
-                          ]
-                        },
                         {
                           message: "JS code issue",
                           data: [
@@ -14779,6 +14756,53 @@ var warnings_processed_default = {
                       ]
                     }
                   }
+                },
+                websockets_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/WebSockets_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://nodejs.org/",
+                        400
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://nodejs.org/",
+                        400
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://nodejs.org/",
+                        400
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://nodejs.org/",
+                        400
+                      ]
+                    }
+                  ]
+                },
+                webtransport_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/WebTransport_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webrtc.internaut.com/wc/wtSender4/",
+                        "certificate has expired"
+                      ]
+                    }
+                  ]
                 },
                 webusb_api: {
                   children: {},
@@ -15878,6 +15902,18 @@ css.selectors.-webkit-scrollbar-corner
 css.selectors.-webkit-resizer`,
                         "Expected:",
                         "css.selectors.-webkit-scrollbar"
+                      ]
+                    }
+                  ]
+                },
+                _doublecolon_column: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/::column",
+                  messages: [
+                    {
+                      message: "Self link",
+                      data: [
+                        "/en-US/docs/Web/CSS/::column"
                       ]
                     }
                   ]
@@ -18935,6 +18971,26 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
+                css_overflow: {
+                  children: {
+                    css_carousels: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_overflow/CSS_carousels",
+                      messages: [
+                        {
+                          message: "Unexpected asset file",
+                          data: [
+                            "carousel.drawio"
+                          ]
+                        },
+                        {
+                          message: "Unreachable via sidebar",
+                          data: []
+                        }
+                      ]
+                    }
+                  }
+                },
                 css_positioned_layout: {
                   children: {
                     stacking_context: {
@@ -21123,6 +21179,18 @@ css.properties.grid-template-rows.repeat`
                     }
                   ]
                 },
+                "scroll-marker-group": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/scroll-marker-group",
+                  messages: [
+                    {
+                      message: "Missing data",
+                      data: [
+                        "CSS info"
+                      ]
+                    }
+                  ]
+                },
                 shape: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/shape",
@@ -21729,810 +21797,3156 @@ css.properties.list-style-type.symbols`
             },
             html: {
               children: {
-                attributes: {
+                guides: {
+                  children: {},
+                  slug: "/en-US/docs/Web/HTML/Guides",
+                  messages: [
+                    {
+                      message: "Not linked from parent page",
+                      data: [
+                        "/en-US/docs/Web/HTML"
+                      ]
+                    },
+                    {
+                      message: "Unreachable via page",
+                      data: []
+                    }
+                  ]
+                },
+                how_to: {
+                  children: {},
+                  slug: "/en-US/docs/Web/HTML/How_to",
+                  messages: [
+                    {
+                      message: "Not linked from parent page",
+                      data: [
+                        "/en-US/docs/Web/HTML"
+                      ]
+                    },
+                    {
+                      message: "Unreachable via page",
+                      data: []
+                    }
+                  ]
+                },
+                reference: {
                   children: {
-                    disabled: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Attributes/disabled",
-                      messages: [
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            `html.elements.button.disabled
-html.elements.fieldset.disabled
-html.elements.input.disabled
-html.elements.optgroup.disabled
-html.elements.option.disabled
-html.elements.select.disabled
-html.elements.textarea.disabled`,
-                            "Expected:",
-                            `html.elements.button.disabled
-html.elements.fieldset.disabled
-html.elements.input.disabled
-html.elements.link.disabled
-html.elements.optgroup.disabled
-html.elements.option.disabled
-html.elements.select.disabled
-html.elements.textarea.disabled`
-                          ]
-                        }
-                      ]
-                    },
-                    elementtiming: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Attributes/elementtiming",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/HTML/Attributes"
-                          ]
-                        }
-                      ]
-                    },
-                    max: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Attributes/max",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/HTML/Attributes/low"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/HTML/Attributes/high"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/HTML/Attributes/optimum"
-                          ]
-                        }
-                      ]
-                    },
-                    min: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Attributes/min",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/HTML/Attributes/low"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/HTML/Attributes/high"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/HTML/Attributes/optimum"
-                          ]
-                        }
-                      ]
-                    },
-                    rel: {
+                    attributes: {
                       children: {
-                        alternate_stylesheet: {
+                        accept: {
                           children: {},
-                          slug: "/en-US/docs/Web/HTML/Attributes/rel/alternate_stylesheet",
+                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/accept",
                           messages: [
                             {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        "compression-dictionary": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Attributes/rel/compression-dictionary",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        "dns-prefetch": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Attributes/rel/dns-prefetch",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        manifest: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Attributes/rel/manifest",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        me: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Attributes/rel/me",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            },
-                            {
-                              message: "Unexpected BCD keys",
+                              message: "Unexpected page type",
                               data: [
-                                "Actual:",
-                                "html.elements.link.rel.me",
-                                "Expected:",
-                                "[None]"
+                                "html-attribute"
                               ]
                             }
                           ]
                         },
-                        modulepreload: {
+                        autocomplete: {
                           children: {},
-                          slug: "/en-US/docs/Web/HTML/Attributes/rel/modulepreload",
+                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/autocomplete",
                           messages: [
                             {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        noopener: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Attributes/rel/noopener",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        noreferrer: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Attributes/rel/noreferrer",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        preconnect: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Attributes/rel/preconnect",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        prefetch: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Attributes/rel/prefetch",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        preload: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Attributes/rel/preload",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        prerender: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Attributes/rel/prerender",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    size: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Attributes/size",
-                      messages: [
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            `html.elements.select.size
-html.elements.input.size`,
-                            "Expected:",
-                            `html.elements.font.size
-html.elements.hr.size
-html.elements.input.size
-html.elements.select.size`
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/HTML/Attributes",
-                  messages: [
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTML/Attributes/alt"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTML/Attributes/autoplay"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTML/Attributes/cite"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTML/Attributes/colspan"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTML/Attributes/controls"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTML/Attributes/datetime"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTML/Attributes/download"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTML/Attributes/form"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTML/Attributes/formaction"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTML/Attributes/formenctype"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTML/Attributes/formmethod"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTML/Attributes/formnovalidate"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTML/Attributes/formtarget"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTML/Attributes/headers"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTML/Attributes/href"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTML/Attributes/hreflang"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/HTML/Element/img",
-                        "#intrinsicsize"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTML/Attributes/label"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTML/Attributes/loop"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTML/Attributes/media"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTML/Attributes/muted"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTML/Attributes/name"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTML/Attributes/open"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTML/Attributes/preload"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTML/Attributes/referralpolicy"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTML/Attributes/rowspan"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/HTML/Element/style",
-                        "#scoped"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTML/Attributes/shape"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTML/Attributes/sizes"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTML/Attributes/span"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTML/Attributes/src"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTML/Attributes/srcset"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTML/Attributes/target"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTML/Attributes/type"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTML/Attributes/usemap"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTML/Attributes/value"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTML/Attributes/width"
-                      ]
-                    },
-                    {
-                      message: "Unreachable via sidebar",
-                      data: []
-                    }
-                  ]
-                },
-                comments: {
-                  children: {},
-                  slug: "/en-US/docs/Web/HTML/Comments",
-                  messages: [
-                    {
-                      message: "Unreachable via sidebar",
-                      data: []
-                    }
-                  ]
-                },
-                constraint_validation: {
-                  children: {},
-                  slug: "/en-US/docs/Web/HTML/Constraint_validation",
-                  messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Web/HTML"
-                      ]
-                    }
-                  ]
-                },
-                date_and_time_formats: {
-                  children: {},
-                  slug: "/en-US/docs/Web/HTML/Date_and_time_formats",
-                  messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Web/HTML"
-                      ]
-                    }
-                  ]
-                },
-                element: {
-                  children: {
-                    a: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Element/a",
-                      messages: [
-                        {
-                          message: "Unused image",
-                          data: [
-                            "powerpoint.svg"
-                          ]
-                        },
-                        {
-                          message: "Unused image",
-                          data: [
-                            "new-tab.svg"
-                          ]
-                        }
-                      ]
-                    },
-                    figure: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Element/figure",
-                      messages: [
-                        {
-                          message: "Unused image",
-                          data: [
-                            "favicon-192x192.png"
-                          ]
-                        }
-                      ]
-                    },
-                    footer: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Element/footer",
-                      messages: [
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "article",
-                            "Text before link:",
-                            "role="
-                          ]
-                        }
-                      ]
-                    },
-                    header: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Element/header",
-                      messages: [
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "article",
-                            "Text before link:",
-                            "role="
-                          ]
-                        },
-                        {
-                          message: "Unused image",
-                          data: [
-                            "mdn-logo-sm.png"
-                          ]
-                        }
-                      ]
-                    },
-                    img: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Element/img",
-                      messages: [
-                        {
-                          message: "Unused image",
-                          data: [
-                            "clock-demo-400px.png"
-                          ]
-                        },
-                        {
-                          message: "Unused image",
-                          data: [
-                            "favicon144.png"
-                          ]
-                        },
-                        {
-                          message: "Unused image",
-                          data: [
-                            "clock-demo-200px.png"
-                          ]
-                        },
-                        {
-                          message: "Unused image",
-                          data: [
-                            "favicon72.png"
-                          ]
-                        }
-                      ]
-                    },
-                    map: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Element/map",
-                      messages: [
-                        {
-                          message: "Unused image",
-                          data: [
-                            "parrots.jpg"
-                          ]
-                        }
-                      ]
-                    },
-                    meta: {
-                      children: {
-                        name: {
-                          children: {
-                            "theme-color": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Element/meta/name/theme-color",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Web/HTML/Element/meta/name",
+                          ]
+                        },
+                        capture: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/capture",
                           messages: [
                             {
-                              message: "Unreachable via sidebar",
-                              data: []
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
                             }
                           ]
-                        }
-                      }
-                    },
-                    script: {
-                      children: {
-                        type: {
+                        },
+                        crossorigin: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/crossorigin",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        dirname: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/dirname",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        disabled: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/disabled",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        elementtiming: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/elementtiming",
+                          messages: [
+                            {
+                              message: "Not linked from parent page",
+                              data: [
+                                "/en-US/docs/Web/HTML/Reference/Attributes"
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        for: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/for",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        max: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/max",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/HTML/Attributes/low"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/HTML/Attributes/high"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/HTML/Attributes/optimum"
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        maxlength: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/maxlength",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        min: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/min",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/HTML/Attributes/low"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/HTML/Attributes/high"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/HTML/Attributes/optimum"
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        minlength: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/minlength",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        multiple: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/multiple",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        pattern: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/pattern",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        placeholder: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/placeholder",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        readonly: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/readonly",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        rel: {
                           children: {
-                            importmap: {
+                            alternate_stylesheet: {
                               children: {},
-                              slug: "/en-US/docs/Web/HTML/Element/script/type/importmap",
+                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/alternate_stylesheet",
                               messages: [
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "html-attribute-value"
+                                  ]
                                 }
                               ]
                             },
-                            speculationrules: {
+                            "compression-dictionary": {
                               children: {},
-                              slug: "/en-US/docs/Web/HTML/Element/script/type/speculationrules",
+                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/compression-dictionary",
                               messages: [
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "html-attribute-value"
+                                  ]
+                                }
+                              ]
+                            },
+                            "dns-prefetch": {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/dns-prefetch",
+                              messages: [
+                                {
+                                  message: "Unreachable via sidebar",
+                                  data: []
+                                },
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "html-attribute-value"
+                                  ]
+                                }
+                              ]
+                            },
+                            manifest: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/manifest",
+                              messages: [
+                                {
+                                  message: "Unreachable via sidebar",
+                                  data: []
+                                },
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "html-attribute-value"
+                                  ]
+                                }
+                              ]
+                            },
+                            me: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/me",
+                              messages: [
+                                {
+                                  message: "Unreachable via sidebar",
+                                  data: []
+                                },
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "html-attribute-value"
+                                  ]
+                                }
+                              ]
+                            },
+                            modulepreload: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/modulepreload",
+                              messages: [
+                                {
+                                  message: "Unreachable via sidebar",
+                                  data: []
+                                },
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "html-attribute-value"
+                                  ]
+                                }
+                              ]
+                            },
+                            noopener: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/noopener",
+                              messages: [
+                                {
+                                  message: "Unreachable via sidebar",
+                                  data: []
+                                },
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "html-attribute-value"
+                                  ]
+                                }
+                              ]
+                            },
+                            noreferrer: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/noreferrer",
+                              messages: [
+                                {
+                                  message: "Unreachable via sidebar",
+                                  data: []
+                                },
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "html-attribute-value"
+                                  ]
+                                }
+                              ]
+                            },
+                            preconnect: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/preconnect",
+                              messages: [
+                                {
+                                  message: "Unreachable via sidebar",
+                                  data: []
+                                },
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "html-attribute-value"
+                                  ]
+                                }
+                              ]
+                            },
+                            prefetch: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/prefetch",
+                              messages: [
+                                {
+                                  message: "Unreachable via sidebar",
+                                  data: []
+                                },
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "html-attribute-value"
+                                  ]
+                                }
+                              ]
+                            },
+                            preload: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/preload",
+                              messages: [
+                                {
+                                  message: "Unreachable via sidebar",
+                                  data: []
+                                },
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "html-attribute-value"
+                                  ]
+                                }
+                              ]
+                            },
+                            prerender: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/prerender",
+                              messages: [
+                                {
+                                  message: "Unreachable via sidebar",
+                                  data: []
+                                },
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "html-attribute-value"
+                                  ]
                                 }
                               ]
                             }
                           },
-                          slug: "/en-US/docs/Web/HTML/Element/script/type",
+                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel",
                           messages: [
                             {
-                              message: "Unreachable via sidebar",
-                              data: []
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        required: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/required",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        size: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/size",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        step: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/step",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
                             }
                           ]
                         }
-                      }
-                    },
-                    selectedcontent: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Element/selectedcontent",
+                      },
+                      slug: "/en-US/docs/Web/HTML/Reference/Attributes",
                       messages: [
                         {
-                          message: "Not linked from parent page",
+                          message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/HTML/Element"
+                            "/en-US/docs/Web/HTML/Attributes/alt"
                           ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/HTML/Attributes/autoplay"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/HTML/Attributes/cite"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/HTML/Attributes/colspan"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/HTML/Attributes/controls"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/HTML/Attributes/datetime"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/HTML/Attributes/download"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/HTML/Attributes/form"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/HTML/Attributes/formaction"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/HTML/Attributes/formenctype"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/HTML/Attributes/formmethod"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/HTML/Attributes/formnovalidate"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/HTML/Attributes/formtarget"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/HTML/Attributes/headers"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/HTML/Attributes/href"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/HTML/Attributes/hreflang"
+                          ]
+                        },
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "/en-US/docs/Web/HTML/Reference/Elements/img",
+                            "#intrinsicsize"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/HTML/Attributes/label"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/HTML/Attributes/loop"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/HTML/Attributes/media"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/HTML/Attributes/muted"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/HTML/Attributes/name"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/HTML/Attributes/open"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/HTML/Attributes/preload"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/HTML/Attributes/referralpolicy"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/HTML/Attributes/rowspan"
+                          ]
+                        },
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "/en-US/docs/Web/HTML/Reference/Elements/style",
+                            "#scoped"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/HTML/Attributes/shape"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/HTML/Attributes/sizes"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/HTML/Attributes/span"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/HTML/Attributes/src"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/HTML/Attributes/srcset"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/HTML/Attributes/target"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/HTML/Attributes/type"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/HTML/Attributes/usemap"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/HTML/Attributes/value"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/HTML/Attributes/width"
+                          ]
+                        },
+                        {
+                          message: "Unreachable via sidebar",
+                          data: []
                         }
                       ]
                     },
-                    td: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Element/td",
+                    elements: {
+                      children: {
+                        a: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/a",
+                          messages: [
+                            {
+                              message: "Unused image",
+                              data: [
+                                "powerpoint.svg"
+                              ]
+                            },
+                            {
+                              message: "Unused image",
+                              data: [
+                                "new-tab.svg"
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        abbr: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/abbr",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        acronym: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/acronym",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        address: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/address",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        area: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/area",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        article: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/article",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        aside: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/aside",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        audio: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/audio",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        b: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/b",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        base: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/base",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        bdi: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/bdi",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        bdo: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/bdo",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        big: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/big",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        blockquote: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/blockquote",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        body: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/body",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        br: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/br",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        button: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/button",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        canvas: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/canvas",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        caption: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/caption",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        center: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/center",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        cite: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/cite",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        code: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/code",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        col: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/col",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        colgroup: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/colgroup",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        data: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/data",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        datalist: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/datalist",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        dd: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/dd",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        del: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/del",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        details: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/details",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        dfn: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/dfn",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        dialog: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/dialog",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        dir: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/dir",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        div: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/div",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        dl: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/dl",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        dt: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/dt",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        em: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/em",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        embed: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/embed",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        fencedframe: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/fencedframe",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        fieldset: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/fieldset",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        figcaption: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/figcaption",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        figure: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/figure",
+                          messages: [
+                            {
+                              message: "Unused image",
+                              data: [
+                                "favicon-192x192.png"
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        font: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/font",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        footer: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/footer",
+                          messages: [
+                            {
+                              message: "Text stuck to code/link",
+                              data: [
+                                "article",
+                                "Text before link:",
+                                "role="
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        form: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/form",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        frame: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/frame",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        frameset: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/frameset",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        head: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/head",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        header: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/header",
+                          messages: [
+                            {
+                              message: "Text stuck to code/link",
+                              data: [
+                                "article",
+                                "Text before link:",
+                                "role="
+                              ]
+                            },
+                            {
+                              message: "Unused image",
+                              data: [
+                                "mdn-logo-sm.png"
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        heading_elements: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/Heading_Elements",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        hgroup: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/hgroup",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        hr: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/hr",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        html: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/html",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        i: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/i",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        iframe: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/iframe",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        img: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/img",
+                          messages: [
+                            {
+                              message: "Unused image",
+                              data: [
+                                "clock-demo-400px.png"
+                              ]
+                            },
+                            {
+                              message: "Unused image",
+                              data: [
+                                "favicon144.png"
+                              ]
+                            },
+                            {
+                              message: "Unused image",
+                              data: [
+                                "clock-demo-200px.png"
+                              ]
+                            },
+                            {
+                              message: "Unused image",
+                              data: [
+                                "favicon72.png"
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        input: {
+                          children: {
+                            button: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/button",
+                              messages: [
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "html-attribute-value"
+                                  ]
+                                }
+                              ]
+                            },
+                            checkbox: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/checkbox",
+                              messages: [
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "html-attribute-value"
+                                  ]
+                                }
+                              ]
+                            },
+                            color: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/color",
+                              messages: [
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "html-attribute-value"
+                                  ]
+                                }
+                              ]
+                            },
+                            date: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/date",
+                              messages: [
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "html-attribute-value"
+                                  ]
+                                }
+                              ]
+                            },
+                            "datetime-local": {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/datetime-local",
+                              messages: [
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "html-attribute-value"
+                                  ]
+                                }
+                              ]
+                            },
+                            email: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/email",
+                              messages: [
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "html-attribute-value"
+                                  ]
+                                }
+                              ]
+                            },
+                            file: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/file",
+                              messages: [
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "html-attribute-value"
+                                  ]
+                                }
+                              ]
+                            },
+                            hidden: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/hidden",
+                              messages: [
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "html-attribute-value"
+                                  ]
+                                }
+                              ]
+                            },
+                            image: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/image",
+                              messages: [
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "html-attribute-value"
+                                  ]
+                                }
+                              ]
+                            },
+                            month: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/month",
+                              messages: [
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "html-attribute-value"
+                                  ]
+                                }
+                              ]
+                            },
+                            number: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/number",
+                              messages: [
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "html-attribute-value"
+                                  ]
+                                }
+                              ]
+                            },
+                            password: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/password",
+                              messages: [
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "html-attribute-value"
+                                  ]
+                                }
+                              ]
+                            },
+                            radio: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/radio",
+                              messages: [
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "html-attribute-value"
+                                  ]
+                                }
+                              ]
+                            },
+                            range: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/range",
+                              messages: [
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "html-attribute-value"
+                                  ]
+                                }
+                              ]
+                            },
+                            reset: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/reset",
+                              messages: [
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "html-attribute-value"
+                                  ]
+                                }
+                              ]
+                            },
+                            search: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/search",
+                              messages: [
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "html-attribute-value"
+                                  ]
+                                }
+                              ]
+                            },
+                            submit: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/submit",
+                              messages: [
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "html-attribute-value"
+                                  ]
+                                }
+                              ]
+                            },
+                            tel: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/tel",
+                              messages: [
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "html-attribute-value"
+                                  ]
+                                }
+                              ]
+                            },
+                            text: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/text",
+                              messages: [
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "html-attribute-value"
+                                  ]
+                                }
+                              ]
+                            },
+                            time: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/time",
+                              messages: [
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "html-attribute-value"
+                                  ]
+                                }
+                              ]
+                            },
+                            url: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/url",
+                              messages: [
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "html-attribute-value"
+                                  ]
+                                }
+                              ]
+                            },
+                            week: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/week",
+                              messages: [
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "html-attribute-value"
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/input",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        ins: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/ins",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        kbd: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/kbd",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        label: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/label",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        legend: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/legend",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        li: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/li",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        link: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/link",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        main: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/main",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        map: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/map",
+                          messages: [
+                            {
+                              message: "Unused image",
+                              data: [
+                                "parrots.jpg"
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        mark: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/mark",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        marquee: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/marquee",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        menu: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/menu",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        meta: {
+                          children: {
+                            name: {
+                              children: {
+                                "theme-color": {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/HTML/Reference/Elements/meta/name/theme-color",
+                                  messages: [
+                                    {
+                                      message: "Unreachable via sidebar",
+                                      data: []
+                                    },
+                                    {
+                                      message: "Unexpected page type",
+                                      data: [
+                                        "html-attribute-value"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              },
+                              slug: "/en-US/docs/Web/HTML/Reference/Elements/meta/name",
+                              messages: [
+                                {
+                                  message: "Unreachable via sidebar",
+                                  data: []
+                                },
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "html-attribute"
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/meta",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        meter: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/meter",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        nav: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/nav",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        nobr: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/nobr",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        noembed: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/noembed",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        noframes: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/noframes",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        noscript: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/noscript",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        object: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/object",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        ol: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/ol",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        optgroup: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/optgroup",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        option: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/option",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        output: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/output",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        p: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/p",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        param: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/param",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        picture: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/picture",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        plaintext: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/plaintext",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        pre: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/pre",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        progress: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/progress",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        q: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/q",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        rb: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/rb",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        rp: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/rp",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        rt: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/rt",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        rtc: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/rtc",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        ruby: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/ruby",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        s: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/s",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        samp: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/samp",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        script: {
+                          children: {
+                            type: {
+                              children: {
+                                importmap: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/HTML/Reference/Elements/script/type/importmap",
+                                  messages: [
+                                    {
+                                      message: "Unreachable via sidebar",
+                                      data: []
+                                    },
+                                    {
+                                      message: "Unexpected page type",
+                                      data: [
+                                        "html-attribute-value"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                speculationrules: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/HTML/Reference/Elements/script/type/speculationrules",
+                                  messages: [
+                                    {
+                                      message: "Unreachable via sidebar",
+                                      data: []
+                                    },
+                                    {
+                                      message: "Unexpected page type",
+                                      data: [
+                                        "html-attribute-value"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              },
+                              slug: "/en-US/docs/Web/HTML/Reference/Elements/script/type",
+                              messages: [
+                                {
+                                  message: "Unreachable via sidebar",
+                                  data: []
+                                },
+                                {
+                                  message: "Unexpected page type",
+                                  data: [
+                                    "html-attribute"
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/script",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        search: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/search",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        section: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/section",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        select: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/select",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        selectedcontent: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/selectedcontent",
+                          messages: [
+                            {
+                              message: "Not linked from parent page",
+                              data: [
+                                "/en-US/docs/Web/HTML/Reference/Elements"
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        slot: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/slot",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        small: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/small",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        source: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/source",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        span: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/span",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        strike: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/strike",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        strong: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/strong",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        style: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/style",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        sub: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/sub",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        summary: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/summary",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        sup: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/sup",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        table: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/table",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        tbody: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/tbody",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        td: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/td",
+                          messages: [
+                            {
+                              message: "Unexpected asset file",
+                              data: [
+                                "column-row-span.html"
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        template: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/template",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        textarea: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/textarea",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        tfoot: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/tfoot",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        th: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/th",
+                          messages: [
+                            {
+                              message: "Unexpected asset file",
+                              data: [
+                                "column-row-span.html"
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        thead: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/thead",
+                          messages: [
+                            {
+                              message: "Unexpected asset file",
+                              data: [
+                                "column-row-span.html"
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        time: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/time",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        title: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/title",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        tr: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/tr",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        track: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/track",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        tt: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/tt",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        u: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/u",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        ul: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/ul",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        var: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/var",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        video: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/video",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        wbr: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/wbr",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        },
+                        xmp: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/xmp",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-element"
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/Web/HTML/Reference/Elements",
                       messages: [
                         {
-                          message: "Unexpected asset file",
-                          data: [
-                            "column-row-span.html"
-                          ]
+                          message: "Unreachable via sidebar",
+                          data: []
                         }
                       ]
                     },
-                    th: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Element/th",
-                      messages: [
-                        {
-                          message: "Unexpected asset file",
-                          data: [
-                            "column-row-span.html"
+                    global_attributes: {
+                      children: {
+                        accesskey: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/accesskey",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        anchor: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/anchor",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        autocapitalize: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/autocapitalize",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        autocorrect: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/autocorrect",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        autofocus: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/autofocus",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        class: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/class",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        contenteditable: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/contenteditable",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "Missed semicolon (CssSyntaxError)",
+                                "    margin: 0",
+                                "20:14"
+                              ]
+                            }
+                          ]
+                        },
+                        "data-_star_": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/data-*",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        dir: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/dir",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        draggable: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/draggable",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        enterkeyhint: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/enterkeyhint",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        exportparts: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/exportparts",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        hidden: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/hidden",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        id: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/id",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        inert: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/inert",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        inputmode: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/inputmode",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        is: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/is",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        itemid: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/itemid",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        itemprop: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/itemprop",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        itemref: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/itemref",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        itemscope: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/itemscope",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        itemtype: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/itemtype",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        lang: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/lang",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        nonce: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/nonce",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        part: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/part",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        popover: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/popover",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        slot: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/slot",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        spellcheck: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/spellcheck",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        style: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/style",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        tabindex: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/tabindex",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        title: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/title",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        translate: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/translate",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        virtualkeyboardpolicy: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/virtualkeyboardpolicy",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
+                          ]
+                        },
+                        writingsuggestions: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/writingsuggestions",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "html-attribute"
+                              ]
+                            }
                           ]
                         }
-                      ]
-                    },
-                    thead: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Element/thead",
+                      },
+                      slug: "/en-US/docs/Web/HTML/Reference/Global_attributes",
                       messages: [
                         {
-                          message: "Unexpected asset file",
-                          data: [
-                            "column-row-span.html"
-                          ]
+                          message: "Unreachable via sidebar",
+                          data: []
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/HTML/Element",
-                  messages: [
-                    {
-                      message: "Unreachable via sidebar",
-                      data: []
-                    }
-                  ]
-                },
-                global_attributes: {
-                  children: {
-                    contenteditable: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Global_attributes/contenteditable",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "Missed semicolon (CssSyntaxError)",
-                            "    margin: 0",
-                            "20:14"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/HTML/Global_attributes",
-                  messages: [
-                    {
-                      message: "Unreachable via sidebar",
-                      data: []
-                    }
-                  ]
-                },
-                microdata: {
-                  children: {},
-                  slug: "/en-US/docs/Web/HTML/Microdata",
-                  messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Web/HTML"
-                      ]
-                    }
-                  ]
-                },
-                microformats: {
-                  children: {},
-                  slug: "/en-US/docs/Web/HTML/microformats",
-                  messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Web/HTML"
-                      ]
-                    }
-                  ]
-                },
-                responsive_images: {
-                  children: {},
-                  slug: "/en-US/docs/Web/HTML/Responsive_images",
-                  messages: [
-                    {
-                      message: "Unreachable via sidebar",
-                      data: []
-                    }
-                  ]
-                },
-                viewport_meta_tag: {
-                  children: {},
-                  slug: "/en-US/docs/Web/HTML/Viewport_meta_tag",
-                  messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Web/HTML"
-                      ]
-                    }
-                  ]
+                  }
                 }
               }
             },
@@ -22570,7 +24984,17 @@ html.elements.select.size`
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/HTTP/Guides/Content_negotiation",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.eff.org/deeplinks/2010/01/primer-information-theory-and-privacy",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     },
                     cookies: {
                       children: {},
@@ -23508,6 +25932,34 @@ html.elements.select.size`
                           data: [
                             "/en-US/docs/Web/JavaScript/Reference"
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://nodejs.org/",
+                            400
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://nodejs.org/",
+                            400
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://nodejs.org/",
+                            400
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://nodejs.org/",
+                            400
+                          ]
                         }
                       ]
                     },
@@ -23636,6 +26088,19 @@ html.elements.select.size`
               children: {
                 guides: {
                   children: {
+                    authoring: {
+                      children: {},
+                      slug: "/en-US/docs/Web/MathML/Guides/Authoring",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://nodejs.org/",
+                            400
+                          ]
+                        }
+                      ]
+                    },
                     deriving_the_quadratic_formula: {
                       children: {},
                       slug: "/en-US/docs/Web/MathML/Guides/Deriving_the_quadratic_formula",
@@ -29152,13 +31617,6 @@ svg.elements.feSpotLight.z`
                                 "http://snapsvg.io/",
                                 ""
                               ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://docs.google.com/drawings",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         }
@@ -29564,6 +32022,19 @@ svg.elements.feSpotLight.z`
                     {
                       message: "Unreachable via sidebar",
                       data: []
+                    }
+                  ]
+                },
+                using_the_javascript_api: {
+                  children: {},
+                  slug: "/en-US/docs/WebAssembly/Guides/Using_the_JavaScript_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://raw.githubusercontent.com/mdn/webassembly-examples/master/js-api-examples/simple.wasm",
+                        "429 Retry-After: 300"
+                      ]
                     }
                   ]
                 }
