@@ -140,7 +140,7 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
     // Web/HTML/
     case "html-attribute": {
       const match = node.id.match(
-        /^\/en-US\/docs\/Web\/HTML\/(?:Element\/([^/]+)|(Attributes)|(Global_attributes))\/([^/]+)$/,
+        /^\/en-US\/docs\/Web\/HTML\/Reference\/(?:Elements\/([^/]+)|(Attributes)|(Global_attributes))\/([^/]+)$/,
       );
       if (!match) return "Unexpected page type";
       const elemName = match[1] || match[2] || match[3];
@@ -149,7 +149,7 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
     }
     case "html-attribute-value": {
       const match = node.id.match(
-        /^\/en-US\/docs\/Web\/HTML\/(?:Element\/([^/]+)|(Attributes)|(Global_attributes))\/([^/]+)\/([^/]+)$/,
+        /^\/en-US\/docs\/Web\/HTML\/Reference\/(?:Elements\/([^/]+)|(Attributes)|(Global_attributes))\/([^/]+)\/([^/]+)$/,
       );
       if (!match) return "Unexpected page type";
       const elemName = match[1] || match[2] || match[3];
@@ -162,7 +162,7 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
     }
     case "html-element": {
       const match = node.id.match(
-        /^\/en-US\/docs\/Web\/HTML\/Element\/(?:([^/]+)|input\/([^/]+))$/,
+        /^\/en-US\/docs\/Web\/HTML\/Reference\/Elements\/(?:([^/]+)|input\/([^/]+))$/,
       );
       if (!match) return "Unexpected page type";
       if (match[2]) {

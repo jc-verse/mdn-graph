@@ -45,7 +45,7 @@ export default async function processWarnings(fast: boolean = false) {
           return `/en-US/docs/Web/CSS/${member}`;
         case "html":
           if (interfac === "elements") {
-            return `/en-US/docs/Web/HTML/Element/${member}`;
+            return `/en-US/docs/Web/HTML/Reference/Elements/${member}`;
           }
           break;
         case "http":
