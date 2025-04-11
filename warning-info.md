@@ -41,26 +41,26 @@ This rule reports links to `<dt>`s where the `<dt>` contains a single link. You 
 For example, you may have this on some page:
 
 ```md
-This property reflects the [`x`](/en-US/docs/Web/HTML/Element/foo#x) attribute.
+This property reflects the [`x`](/en-US/docs/Web/HTML/Reference/Elements/foo#x) attribute.
 ```
 
 And the `<foo>` page has this:
 
 ```md
-- [`x`](/en-US/docs/Web/HTML/Attribute/x)
+- [`x`](/en-US/docs/Web/HTML/Reference/Attributes/x)
   - Description of `x`.
 ```
 
 In this case, you can replace the link with:
 
 ```md
-This property reflects the [`x`](/en-US/docs/Web/HTML/Attribute/x) attribute.
+This property reflects the [`x`](/en-US/docs/Web/HTML/Reference/Attributes/x) attribute.
 ```
 
 Currently, this check only reports if the link to be replaced is a subpage of the original link. This ensures that if the DT links to a generic page like:
 
 ```md
-- [`x`](/en-US/docs/Web/HTML/Attributes_in_general)
+- [`x`](/en-US/docs/Web/HTML/Reference/Attributes_in_general)
   - Description of `x`.
 ```
 
