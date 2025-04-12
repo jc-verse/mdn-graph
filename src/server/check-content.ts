@@ -239,6 +239,12 @@ export function checkContent(
       );
     }
   });
+  $("dd + dd").each((i, dd) => {
+    report("Bad DL", $(dd).text().slice(0, 50));
+  });
+  $("dt + dt").each((i, dt) => {
+    report("Bad DL", $(dt).text().slice(0, 50));
+  });
   if (rawContent.includes("-: "))
     report("Bad DL", rawContent.match(/-: .*$/m)?.[0].slice(0, 50));
   if (rawContent.includes("could not find syntax for this item"))
