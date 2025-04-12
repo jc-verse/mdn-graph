@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-kcdybezs.js";
+} from "./chunk-gg4vv327.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -491,276 +491,7 @@ var warnings_processed_default = {
               ]
             },
             tutorials: {
-              children: {
-                "2d_breakout_game_phaser": {
-                  children: {
-                    animations_and_tweens: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/Animations_and_tweens",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    bounce_off_the_walls: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/Bounce_off_the_walls",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    build_the_brick_field: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/Build_the_brick_field",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    buttons: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/Buttons",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    collision_detection: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/Collision_detection",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    extra_lives: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/Extra_lives",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    game_over: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/Game_over",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    initialize_the_framework: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/Initialize_the_framework",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    load_the_assets_and_print_them_on_screen: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/Load_the_assets_and_print_them_on_screen",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    move_the_ball: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/Move_the_ball",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    physics: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/Physics",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    player_paddle_and_controls: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/Player_paddle_and_controls",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    randomizing_gameplay: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/Randomizing_gameplay",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    scaling: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/Scaling",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    the_score: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/The_score",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    win_the_game: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/Win_the_game",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                "2d_breakout_game_pure_javascript": {
-                  children: {
-                    bounce_off_the_walls: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Bounce_off_the_walls",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    build_the_brick_field: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Build_the_brick_field",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    collision_detection: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Collision_detection",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    create_the_canvas_and_draw_on_it: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Create_the_Canvas_and_draw_on_it",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    finishing_up: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Finishing_up",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    game_over: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Game_over",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    mouse_controls: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Mouse_controls",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    move_the_ball: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Move_the_ball",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    paddle_and_keyboard_controls: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Paddle_and_keyboard_controls",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    track_the_score_and_win: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Track_the_score_and_win",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                }
-              },
+              children: {},
               slug: "/en-US/docs/Games/Tutorials",
               messages: [
                 {
@@ -1090,26 +821,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            gpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/GPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/gpl-faq.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/gpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                }
-              ]
-            },
             "high-level_programming_language": {
               children: {},
               slug: "/en-US/docs/Glossary/High-level_programming_language",
@@ -1197,19 +908,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            lgpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/LGPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/lgpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
                 }
               ]
             },
@@ -2521,17 +2219,7 @@ var warnings_processed_default = {
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
+                      }
                     },
                     html_video_and_audio: {
                       children: {
@@ -2633,13 +2321,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/guide/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2977,13 +2658,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/gzip/",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     }
@@ -3013,184 +2687,6 @@ var warnings_processed_default = {
                     },
                     express_nodejs: {
                       children: {
-                        displaying_data: {
-                          children: {
-                            author_detail_page: {
-                              children: {},
-                              slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Displaying_data/Author_detail_page",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            author_list_page: {
-                              children: {},
-                              slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Displaying_data/Author_list_page",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            book_detail_page: {
-                              children: {},
-                              slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Displaying_data/Book_detail_page",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            book_list_page: {
-                              children: {},
-                              slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Displaying_data/Book_list_page",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            bookinstance_detail_page_and_challenge: {
-                              children: {},
-                              slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Displaying_data/BookInstance_detail_page_and_challenge",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            bookinstance_list_page: {
-                              children: {},
-                              slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Displaying_data/BookInstance_list_page",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            date_formatting_using_moment: {
-                              children: {},
-                              slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Displaying_data/Date_formatting_using_moment",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            genre_detail_page: {
-                              children: {},
-                              slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Displaying_data/Genre_detail_page",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            home_page: {
-                              children: {},
-                              slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Displaying_data/Home_page",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            locallibrary_base_template: {
-                              children: {},
-                              slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Displaying_data/LocalLibrary_base_template",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            template_primer: {
-                              children: {},
-                              slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Displaying_data/Template_primer",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        forms: {
-                          children: {
-                            create_author_form: {
-                              children: {},
-                              slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/forms/Create_author_form",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            create_book_form: {
-                              children: {},
-                              slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/forms/Create_book_form",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            create_bookinstance_form: {
-                              children: {},
-                              slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/forms/Create_BookInstance_form",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            create_genre_form: {
-                              children: {},
-                              slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/forms/Create_genre_form",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            delete_author_form: {
-                              children: {},
-                              slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/forms/Delete_author_form",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            update_book_form: {
-                              children: {},
-                              slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/forms/Update_Book_form",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
                         introduction: {
                           children: {},
                           slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
@@ -3714,27 +3210,6 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/efaq.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://macromates.com/",
                             "Unable to connect. Is the computer able to access the url?"
                           ]
@@ -3783,13 +3258,6 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -4055,66 +3523,6 @@ var warnings_processed_default = {
                     },
                     page_types: {
                       children: {
-                        api_constructor_subpage_template: {
-                          children: {},
-                          slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/API_constructor_subpage_template",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        api_event_subpage_template: {
-                          children: {},
-                          slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/API_event_subpage_template",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        api_landing_page_template: {
-                          children: {},
-                          slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/API_landing_page_template",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        api_method_subpage_template: {
-                          children: {},
-                          slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/API_method_subpage_template",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        api_property_subpage_template: {
-                          children: {},
-                          slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/API_property_subpage_template",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        api_reference_page_template: {
-                          children: {},
-                          slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/API_reference_page_template",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
                         aria_page_template: {
                           children: {},
                           slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/ARIA_Page_Template",
@@ -4124,10 +3532,6 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types"
                               ]
-                            },
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
                             },
                             {
                               message: "Unreachable via page",
@@ -4140,96 +3544,12 @@ var warnings_processed_default = {
                           slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/CSS_function_page_template",
                           messages: [
                             {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            },
-                            {
                               message: "CSS code issue",
                               data: [
                                 "Unknown word var (CssSyntaxError)",
                                 "var(--custom-prop)",
                                 "3:1"
                               ]
-                            }
-                          ]
-                        },
-                        css_module_landing_page_template: {
-                          children: {},
-                          slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/CSS_module_landing_page_template",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        css_property_page_template: {
-                          children: {},
-                          slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/CSS_property_page_template",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        css_selector_page_template: {
-                          children: {},
-                          slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/CSS_selector_page_template",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        glossary_page_template: {
-                          children: {},
-                          slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/Glossary_page_template",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        html_element_page_template: {
-                          children: {},
-                          slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/HTML_element_page_template",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        http_header_page_template: {
-                          children: {},
-                          slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/HTTP_header_page_template",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        page_type_key: {
-                          children: {},
-                          slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/Page_type_key",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        svg_element_page_template: {
-                          children: {},
-                          slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/SVG_element_page_template",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
                             }
                           ]
                         }
@@ -5708,16 +5028,6 @@ var warnings_processed_default = {
                   children: {
                     "2": {
                       children: {
-                        adding_feed_readers_to_firefox: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Firefox/Releases/2/Adding_feed_readers_to_Firefox",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
                         security_changes: {
                           children: {},
                           slug: "/en-US/docs/Mozilla/Firefox/Releases/2/Security_changes",
@@ -5727,10 +5037,6 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/docs/Security_and_the_jar_protocol"
                               ]
-                            },
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
                             }
                           ]
                         },
@@ -5755,10 +5061,6 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/Install_Manifests"
                               ]
-                            },
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
                             }
                           ]
                         }
@@ -5842,10 +5144,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Theme_changes_in_Firefox_2"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -5872,20 +5170,6 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/docs/CSS_improvements_in_Firefox_3"
                               ]
-                            },
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        full_page_zoom: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Firefox/Releases/3/Full_page_zoom",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
                             }
                           ]
                         },
@@ -5904,10 +5188,6 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/docs/Offering%20a%20context%20menu%20for%20form%20controls"
                               ]
-                            },
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
                             }
                           ]
                         },
@@ -5940,21 +5220,7 @@ var warnings_processed_default = {
                               ]
                             },
                             {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            },
-                            {
                               message: "Unreachable via page",
-                              data: []
-                            }
-                          ]
-                        },
-                        svg_improvements: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Firefox/Releases/3/SVG_improvements",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
                               data: []
                             }
                           ]
@@ -5986,10 +5252,6 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/docs/Mozilla/Firefox/Releases/3"
                               ]
-                            },
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
                             },
                             {
                               message: "Unreachable via page",
@@ -6120,10 +5382,6 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/docs/Chrome_Registration"
                               ]
-                            },
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
                             }
                           ]
                         },
@@ -6142,10 +5400,6 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/docs/New_in_JavaScript_1.8"
                               ]
-                            },
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
                             }
                           ]
                         },
@@ -6158,10 +5412,6 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/docs/Mozilla/Firefox/Releases/3"
                               ]
-                            },
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
                             },
                             {
                               message: "Unreachable via page",
@@ -6194,10 +5444,6 @@ var warnings_processed_default = {
                               ]
                             },
                             {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            },
-                            {
                               message: "Unreachable via page",
                               data: []
                             }
@@ -6212,10 +5458,6 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/docs/Mozilla/Firefox/Releases/3"
                               ]
-                            },
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
                             },
                             {
                               message: "Unreachable via page",
@@ -6351,25 +5593,11 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Monitoring_plugins"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
                     "4": {
                       children: {
-                        "the_add-on_bar": {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Firefox/Releases/4/The_add-on_bar",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
                         updating_extensions_for_firefox_4: {
                           children: {},
                           slug: "/en-US/docs/Mozilla/Firefox/Releases/4/Updating_extensions_for_Firefox_4",
@@ -6427,10 +5655,6 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/docs/Mozilla/Firefox/Releases/4"
                               ]
-                            },
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
                             },
                             {
                               message: "Unreachable via page",
@@ -6701,10 +5925,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/NPAPI"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -6726,10 +5946,6 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/docs/Mozilla/Firefox/Releases/5"
                               ]
-                            },
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
                             },
                             {
                               message: "Unreachable via page",
@@ -6819,10 +6035,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/SpiderMonkey/JSAPI_Reference/jsdouble"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -6837,10 +6049,6 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/docs/Mozilla/Firefox/Releases/6"
                               ]
-                            },
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
                             },
                             {
                               message: "Unreachable via page",
@@ -6910,10 +6118,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Mozilla/Preferences/Using_preferences_from_application_code"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -6946,10 +6150,6 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/docs/XPCOM/XPCOM_changes_in_Gecko_2.0"
                               ]
-                            },
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
                             }
                           ]
                         }
@@ -6976,10 +6176,6 @@ var warnings_processed_default = {
                             "/en-US/docs/Web/API/Attr",
                             "#deprecated_properties_and_methods"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -7000,10 +6196,6 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/docs/JavaScript_code_modules/ISO8601DateUtils.jsm"
                               ]
-                            },
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
                             }
                           ]
                         }
@@ -7016,10 +6208,6 @@ var warnings_processed_default = {
                             "/en-US/docs/Web/API/HTMLSelectElement",
                             "#add"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -7035,10 +6223,6 @@ var warnings_processed_default = {
                                 "/en-US/docs/Web/Events/Event_handlers",
                                 "#event_handler_changes_in_firefox_9"
                               ]
-                            },
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
                             }
                           ]
                         }
@@ -7086,10 +6270,6 @@ var warnings_processed_default = {
                             "/en-US/docs/Web/API/HTML_Drag_and_Drop_API/Drag_operations",
                             "#using_xul_panels_as_drag_images"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -7128,10 +6308,6 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/docs/Mozilla/Firefox/Releases/10"
                               ]
-                            },
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
                             },
                             {
                               message: "Unreachable via page",
@@ -7263,10 +6439,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Extensions/Bootstrapped_extensions"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -7323,20 +6495,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Mozilla/About_omni.ja_(formerly_omni.jar)"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "12": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/12",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -7374,10 +6532,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Accessibility/AT-APIs/Gecko/Attrs"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -7416,10 +6570,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/JavaScript_code_modules/BookmarkHTMLUtils.jsm"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -7468,10 +6618,6 @@ var warnings_processed_default = {
                             "/en-US/docs/Web/API/KeyboardEvent",
                             "#getmodifierstate%28%29"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -7502,20 +6648,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Web/Apps/Getting_Started"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "17": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/17",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -7536,30 +6668,6 @@ var warnings_processed_default = {
                             "/en-US/docs/Web/API/Web_Workers_API/Using_web_workers",
                             "#passing_data_by_transferring_.c2.a0ownership_%28transferable_objects%29"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "19": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/19",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "20": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/20",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -7587,10 +6695,6 @@ var warnings_processed_default = {
                             "/en-US/docs/Web/API/XMLHttpRequest",
                             "#setrequestheader"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -7598,10 +6702,6 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/22",
                       messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        },
                         {
                           message: "HTTP link",
                           data: [
@@ -7628,20 +6728,6 @@ var warnings_processed_default = {
                             "/en-US/docs/Web/CSS/length",
                             "#viewport-percentage_lengths"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "24": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/24",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -7669,20 +6755,6 @@ var warnings_processed_default = {
                             "/en-US/docs/Web/API/Element/keydown_event",
                             "#preventdefault()_of_keydown_event"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "26": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/26",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -7695,20 +6767,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Web/JavaScript/ECMAScript_6_support_in_Mozilla"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "28": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/28",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -7723,10 +6781,6 @@ var warnings_processed_default = {
                             "Text before code:",
                             "visibility"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -7740,10 +6794,6 @@ var warnings_processed_default = {
                             "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/stack",
                             "#stack_of_evaled_code"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -7786,10 +6836,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Mozilla/Add-ons/SDK/High-Level_APIs/panel"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -7846,25 +6892,11 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        },
-                        {
                           message: "Broken external link",
                           data: [
                             "https://drafts.fxtf.org/web-animations/",
                             "The operation timed out."
                           ]
-                        }
-                      ]
-                    },
-                    "33": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/33",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -7907,20 +6939,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Mozilla/Add-ons/SDK/High-Level_APIs/tabs"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "35": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/35",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -7951,10 +6969,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Mozilla/Add-ons/SDK/High-Level_APIs/ui"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -7968,10 +6982,6 @@ var warnings_processed_default = {
                             "/en-US/docs/Web/API/KeyboardEvent/key",
                             "#key_values"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -8014,20 +7024,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Mozilla/JavaScript_code_modules/Downloads.jsm/DownloadTarget"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "39": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/39",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -8041,10 +7037,6 @@ var warnings_processed_default = {
                             "/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes",
                             "#string.prototype.contains"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -8065,10 +7057,6 @@ var warnings_processed_default = {
                             "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy",
                             "#referrer"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -8095,10 +7083,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Web/API/Directory/getContents"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -8112,10 +7096,6 @@ var warnings_processed_default = {
                             "/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB",
                             "#locale-aware_sorting"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -8165,10 +7145,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Mozilla/Add-ons/SDK/Tools/cfx_to_jpm"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -8181,10 +7157,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Mozilla/Add-ons/Creating_OpenSearch_plugins_for_Firefox"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -8212,10 +7184,6 @@ var warnings_processed_default = {
                             "/en-US/docs/Web/HTML/Reference/Elements/select",
                             "#value"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -8246,10 +7214,6 @@ var warnings_processed_default = {
                             "Text before code:",
                             "String.prototype."
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -8274,10 +7238,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Mozilla/Gecko/Chrome/CSS/-moz-bool-pref"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -8362,10 +7322,6 @@ var warnings_processed_default = {
                             "/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries",
                             "#-webkit-transform-3d"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -8380,10 +7336,6 @@ var warnings_processed_default = {
                             "Text before code:",
                             "box-sizing"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -8414,10 +7366,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Web/Events/mozbrowserlocationchange"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -8483,10 +7431,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Web/HTTP/Reference/Headers/Large-Allocation"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -8512,10 +7456,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Mozilla/Add-ons/Add-on_Manager/AddonManager"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -8530,10 +7470,6 @@ var warnings_processed_default = {
                             "Text before code:",
                             "-moz-appearance"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -8561,10 +7497,6 @@ var warnings_processed_default = {
                             "/en-US/docs/Web/HTML/Reference/Elements/style",
                             "#scoped"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -8592,10 +7524,6 @@ var warnings_processed_default = {
                             "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/proxy",
                             "#pac_file_environment"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -8621,10 +7549,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Archive/Social_API"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -8638,10 +7562,6 @@ var warnings_processed_default = {
                             "/en-US/docs/Web/API/Fetch_API",
                             "#aborting_a_fetch"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -8661,10 +7581,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Archive/Add-ons/Legacy_Firefox_for_Android/API/NativeWindow/contextmenus"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -8699,10 +7615,6 @@ var warnings_processed_default = {
                             "/en-US/docs/Web/API/IDBFactory/open",
                             "#experimental_gecko_options_object"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -8717,10 +7629,6 @@ var warnings_processed_default = {
                             "Text before code:",
                             "SVGViewElement"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -8740,10 +7648,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/referrer"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -8757,10 +7661,6 @@ var warnings_processed_default = {
                             "/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries",
                             "#syntax_improvements_in_level_4"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -8775,10 +7675,6 @@ var warnings_processed_default = {
                             "Text before code:",
                             "Function.prototype.toString"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -8792,20 +7688,6 @@ var warnings_processed_default = {
                             "/en-US/docs/Web/API/KeyboardEvent/keyCode",
                             "#non-printable_keys_(function_keys)"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "66": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/66",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -8819,10 +7701,6 @@ var warnings_processed_default = {
                             "/en-US/docs/Web/JavaScript/Reference/Statements/import",
                             "#dynamic_imports"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -8835,10 +7713,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Mozilla/Firefox_for_Android"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -8852,210 +7726,6 @@ var warnings_processed_default = {
                             "/en-US/docs/Web/CSS/text-transform",
                             "#lowercase_lithuanian"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "70": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/70",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "71": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/71",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "72": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/72",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "73": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/73",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "74": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/74",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "75": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/75",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "76": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/76",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "77": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/77",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "78": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/78",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "79": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/79",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "80": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/80",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "81": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/81",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "82": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/82",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "83": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/83",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "84": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/84",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "85": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/85",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "86": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/86",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "87": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/87",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "88": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/88",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "89": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/89",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -9068,10 +7738,6 @@ var warnings_processed_default = {
                           data: [
                             "#removals_http"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -9084,90 +7750,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Web/HTTP/Reference/Headers/Feature-Policy/gamepad"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "92": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/92",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "93": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/93",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "94": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/94",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "95": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/95",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "96": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/96",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "97": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/97",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "98": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/98",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "99": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/99",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -9180,70 +7762,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Web/HTTP/Reference/Headers/Large-Allocation"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "101": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/101",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "102": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/102",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "103": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/103",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "104": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/104",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "105": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/105",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "106": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/106",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -9257,40 +7775,6 @@ var warnings_processed_default = {
                             "/en-US/docs/Web/CSS/CSS_containment",
                             "#size_containment"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "108": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/108",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "109": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/109",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "110": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/110",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -9304,20 +7788,6 @@ var warnings_processed_default = {
                             "/en-US/docs/Web/API/Window/fetch",
                             "#headers"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "112": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/112",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -9330,120 +7800,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Web/API/RTCMediaSourceStats"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "114": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/114",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "115": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/115",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "116": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/116",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "117": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/117",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "118": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/118",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "119": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/119",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "120": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/120",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "121": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/121",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "122": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/122",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "123": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/123",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "124": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/124",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -9457,30 +7813,6 @@ var warnings_processed_default = {
                             "/en-US/docs/Web/CSS/CSS_containment",
                             "#relevant_to_the_user"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "126": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/126",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "127": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/127",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -9494,40 +7826,6 @@ var warnings_processed_default = {
                             "/en-US/docs/Web/CSS/content",
                             "#alternative_text"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "129": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/129",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "130": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/130",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "131": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/131",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -9541,40 +7839,6 @@ var warnings_processed_default = {
                             "/en-US/docs/Web/API/CSSNestedDeclarations",
                             "#nested_declarations_rule"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "133": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/133",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "134": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/134",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "135": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/135",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -9587,20 +7851,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Web/API/Document_Object_Model/Reflected_attributes"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "137": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/137",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -9615,10 +7865,6 @@ var warnings_processed_default = {
                             "Text before code:",
                             ","
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -9641,21 +7887,7 @@ var warnings_processed_default = {
                               ]
                             },
                             {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            },
-                            {
                               message: "Unreachable via page",
-                              data: []
-                            }
-                          ]
-                        },
-                        "using_firefox_1.5_caching": {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Firefox/Releases/1.5/Using_Firefox_1.5_caching",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
                               data: []
                             }
                           ]
@@ -9693,10 +7925,6 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/docs/Mozilla/Firefox/Releases/1.5"
                               ]
-                            },
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
                             },
                             {
                               message: "Unreachable via page",
@@ -9778,25 +8006,11 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/New_in_JavaScript_1.6"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
                     "3.5": {
                       children: {
-                        icc_color_correction_in_firefox: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Firefox/Releases/3.5/ICC_color_correction_in_Firefox",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
                         security_changes: {
                           children: {},
                           slug: "/en-US/docs/Mozilla/Firefox/Releases/3.5/Security_changes",
@@ -9818,10 +8032,6 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/Firefox%203.5%20for%20developers"
                               ]
-                            },
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
                             }
                           ]
                         },
@@ -9870,10 +8080,6 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/Theme_changes_in_Firefox_3.1"
                               ]
-                            },
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
                             }
                           ]
                         }
@@ -10036,25 +8242,11 @@ var warnings_processed_default = {
                             "/en-US/docs/Web/API/Web_Storage_API",
                             "#localstorage"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
                     "3.6": {
                       children: {
-                        interfaces_moved: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Firefox/Releases/3.6/Interfaces_moved",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
                         updating_extensions: {
                           children: {},
                           slug: "/en-US/docs/Mozilla/Firefox/Releases/3.6/Updating_extensions",
@@ -10070,20 +8262,6 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/docs/Chrome_Registration"
                               ]
-                            },
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        "updating_plug-ins": {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Firefox/Releases/3.6/Updating_plug-ins",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
                             }
                           ]
                         },
@@ -10108,10 +8286,6 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/docs/Building_a_Theme"
                               ]
-                            },
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
                             }
                           ]
                         }
@@ -10262,10 +8436,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/XPCOM_Interface_Reference/nsIAccessibleEvent"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     }
@@ -11612,7 +9782,17 @@ var warnings_processed_default = {
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/Geolocation_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://lbs.amap.com/api/javascript-api/guide/services/geolocation",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 history_api: {
                   children: {
@@ -13679,84 +11859,10 @@ var warnings_processed_default = {
                   children: {
                     by_example: {
                       children: {
-                        basic_scissoring: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/WebGL_API/By_example/Basic_scissoring",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        boilerplate_1: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/WebGL_API/By_example/Boilerplate_1",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        canvas_size_and_webgl: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/WebGL_API/By_example/Canvas_size_and_WebGL",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        clearing_by_clicking: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/WebGL_API/By_example/Clearing_by_clicking",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        clearing_with_colors: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/WebGL_API/By_example/Clearing_with_colors",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        color_masking: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/WebGL_API/By_example/Color_masking",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        detect_webgl: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/WebGL_API/By_example/Detect_WebGL",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
                         hello_glsl: {
                           children: {},
                           slug: "/en-US/docs/Web/API/WebGL_API/By_example/Hello_GLSL",
                           messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            },
                             {
                               message: "JS code issue",
                               data: [
@@ -13780,10 +11886,6 @@ var warnings_processed_default = {
                           slug: "/en-US/docs/Web/API/WebGL_API/By_example/Hello_vertex_attributes",
                           messages: [
                             {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            },
-                            {
                               message: "JS code issue",
                               data: [
                                 "Parsing error: '}' expected.",
@@ -13805,10 +11907,6 @@ var warnings_processed_default = {
                           children: {},
                           slug: "/en-US/docs/Web/API/WebGL_API/By_example/Raining_rectangles",
                           messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            },
                             {
                               message: "JS code issue",
                               data: [
@@ -13832,10 +11930,6 @@ var warnings_processed_default = {
                           slug: "/en-US/docs/Web/API/WebGL_API/By_example/Scissor_animation",
                           messages: [
                             {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            },
-                            {
                               message: "JS code issue",
                               data: [
                                 "Parsing error: '}' expected.",
@@ -13850,16 +11944,6 @@ var warnings_processed_default = {
                                 "})();",
                                 "1:9"
                               ]
-                            }
-                          ]
-                        },
-                        simple_color_animation: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/WebGL_API/By_example/Simple_color_animation",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
                             }
                           ]
                         },
@@ -13868,10 +11952,6 @@ var warnings_processed_default = {
                           slug: "/en-US/docs/Web/API/WebGL_API/By_example/Textures_from_code",
                           messages: [
                             {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            },
-                            {
                               message: "JS code issue",
                               data: [
                                 "Parsing error: '}' expected.",
@@ -13886,16 +11966,6 @@ var warnings_processed_default = {
                                 "})();",
                                 "1:9"
                               ]
-                            }
-                          ]
-                        },
-                        video_textures: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/WebGL_API/By_example/Video_textures",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
                             }
                           ]
                         }
@@ -14166,10 +12236,6 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs"
                               ]
-                            },
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
                             }
                           ]
                         },
@@ -14184,10 +12250,6 @@ var warnings_processed_default = {
                                   data: [
                                     "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers"
                                   ]
-                                },
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
                                 }
                               ]
                             },
@@ -14200,10 +12262,6 @@ var warnings_processed_default = {
                                   data: [
                                     "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers"
                                   ]
-                                },
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
                                 }
                               ]
                             },
@@ -14216,10 +12274,6 @@ var warnings_processed_default = {
                                   data: [
                                     "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers"
                                   ]
-                                },
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
                                 }
                               ]
                             },
@@ -14232,20 +12286,6 @@ var warnings_processed_default = {
                                   data: [
                                     "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers"
                                   ]
-                                },
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            get_microphone_permission: {
-                              children: {},
-                              slug: "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers/Get_microphone_permission",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
                                 }
                               ]
                             },
@@ -14258,41 +12298,10 @@ var warnings_processed_default = {
                                   data: [
                                     "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers"
                                   ]
-                                },
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        deployment_and_further_reading: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Deployment_and_further_reading",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        setup: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Setup",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
+                          }
                         }
                       }
                     },
@@ -19655,26 +17664,6 @@ css.properties.grid-template-rows.minmax`
                     }
                   ]
                 },
-                "mix-blend-mode": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mix-blend-mode",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/compositing/",
-                        504
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/compositing/",
-                        504
-                      ]
-                    }
-                  ]
-                },
                 mozilla_extensions: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/Mozilla_Extensions",
@@ -21375,83 +19364,6 @@ html.elements.select.size`
                             }
                           ]
                         },
-                        button: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/button",
-                          messages: [
-                            {
-                              message: "Bad DL",
-                              data: [
-                                `
-The button will show a <dialog> as modal. If the `
-                              ]
-                            },
-                            {
-                              message: "Bad DL",
-                              data: [
-                                `
-The button will close a <dialog> element. If the `
-                              ]
-                            },
-                            {
-                              message: "Bad DL",
-                              data: [
-                                `
-The button will request to close a <dialog> eleme`
-                              ]
-                            },
-                            {
-                              message: "Bad DL",
-                              data: [
-                                `
-This is equivalent to popovertargetaction with th`
-                              ]
-                            },
-                            {
-                              message: "Bad DL",
-                              data: [
-                                `
-The button will show a hidden popover. If you try`
-                              ]
-                            },
-                            {
-                              message: "Bad DL",
-                              data: [
-                                `
-This is equivalent to popovertargetaction with th`
-                              ]
-                            },
-                            {
-                              message: "Bad DL",
-                              data: [
-                                `
-The button will hide a showing popover. If you tr`
-                              ]
-                            },
-                            {
-                              message: "Bad DL",
-                              data: [
-                                `
-This is equivalent to popovertargetaction with th`
-                              ]
-                            },
-                            {
-                              message: "Bad DL",
-                              data: [
-                                `
-The button will toggle a popover between showing `
-                              ]
-                            },
-                            {
-                              message: "Bad DL",
-                              data: [
-                                `
-This is a more general version of popovertarget.
-`
-                              ]
-                            }
-                          ]
-                        },
                         figure: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/figure",
@@ -21770,19 +19682,6 @@ This is a more general version of popovertarget.
                   children: {
                     headers: {
                       children: {
-                        accept: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.gnu.org/software/wget/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
                         "available-dictionary": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Available-Dictionary",
@@ -22923,19 +20822,6 @@ This is a more general version of popovertarget.
                     },
                     formats: {
                       children: {
-                        containers: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Containers",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=1441",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
