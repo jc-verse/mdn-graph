@@ -676,6 +676,9 @@ export default async function createContentGraph() {
           ) ||
           node.id.startsWith(
             "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/",
+          ) ||
+          node.id.startsWith(
+            "/en-US/docs/Games/Tutorials/3D_on_the_web/Building_up_a_basic_demo_with_PlayCanvas/",
           )
         )
       ) {

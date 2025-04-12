@@ -1,7 +1,7 @@
 import { ESLint } from "eslint";
 import tseslint from "typescript-eslint";
 import stylelint from "stylelint";
-import htmlParser from "@html-eslint/parser";
+import { parse as htmlParse } from "angular-html-parser";
 
 const sanctionedLanguages = [
   "apacheconf",
@@ -51,13 +51,6 @@ const eslintConfig = [
     files: ["**/*.js", "**/*.jsx", "**/*.ts", "**/*.tsx"],
     languageOptions: {
       parser: tseslint.parser,
-    },
-    // No rules for now
-  },
-  {
-    files: ["**/*.html"],
-    languageOptions: {
-      parser: htmlParser,
     },
     // No rules for now
   },
@@ -111,7 +104,7 @@ export async function checkCode(
     if (!blocks) continue;
     for (const block of blocks) {
       const { language, content } = block;
-      if (["js", "ts", "jsx", "tsx", "html"].includes(language)) {
+      if (["js", "ts", "jsx", "tsx"].includes(language)) {
         const results = await eslint.lintText(content, {
           filePath: `test.${language}`,
         });
@@ -169,6 +162,29 @@ export async function checkCode(
             );
           });
         }
+      } else if (["html"].includes(language)) {
+        const { rootNode, errors } = htmlParse(content);
+        errors.forEach((error) => {
+          if (
+            expectedErrorsMap.has(file) &&
+            expectedErrorsMap.get(file)!.has(content)
+          ) {
+            const expectedMessages = expectedErrorsMap
+              .get(file)!
+              .get(content)!;
+            if (expectedMessages.has(error.msg)) {
+              expectedMessages.set(error.msg, true);
+              return;
+            }
+          }
+          report(
+            node,
+            "HTML code issue",
+            error.msg,
+            content.split("\n")[error.span.start.line],
+            `${error.span.start.line}:${error.span.start.col}`,
+          );
+        });
       } else if (!sanctionedLanguages.includes(language)) {
         report(node, "Invalid code block language", language);
       }
