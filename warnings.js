@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-8fnwbqth.js";
+} from "./chunk-kcdybezs.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -2633,6 +2633,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/guide/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -7841,6 +7848,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/web-animations/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -10409,22 +10423,6 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Web/Accessibility/Guides/Seizure_disorders",
                       messages: [
                         {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "[3]",
-                            "Text before link:",
-                            "."
-                          ]
-                        },
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "[4]",
-                            "Text before link:",
-                            "."
-                          ]
-                        },
-                        {
                           message: "HTTP link",
                           data: [
                             "http://diagramcenter.org/",
@@ -11716,60 +11714,8 @@ var warnings_processed_default = {
                     }
                   ]
                 },
-                htmlbuttonelement: {
-                  children: {
-                    command: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLButtonElement/command",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/HTMLButtonElement"
-                          ]
-                        }
-                      ]
-                    },
-                    commandforelement: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLButtonElement/commandForElement",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/HTMLButtonElement"
-                          ]
-                        }
-                      ]
-                    },
-                    setcustomvalidity: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLButtonElement/setCustomValidity",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/HTMLButtonElement"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 htmlelement: {
                   children: {
-                    command_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLElement/command_event",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/HTMLElement"
-                          ]
-                        }
-                      ]
-                    },
                     copy_event: {
                       children: {},
                       slug: "/en-US/docs/Web/API/HTMLElement/copy_event",
@@ -11951,26 +11897,6 @@ var warnings_processed_default = {
                       ]
                     }
                   ]
-                },
-                htmlselectelement: {
-                  children: {
-                    autocomplete: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLSelectElement/autocomplete",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/HTMLSelectElement"
-                          ]
-                        },
-                        {
-                          message: "Unreachable via page",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
                 },
                 identitycredentialrequestoptions: {
                   children: {},
@@ -12157,34 +12083,6 @@ var warnings_processed_default = {
                           ]
                         }
                       ]
-                    },
-                    suppresslocalaudioplayback: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaTrackSettings/suppressLocalAudioPlayback",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/MediaTrackSettings"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                mediatracksupportedconstraints: {
-                  children: {
-                    suppresslocalaudioplayback: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaTrackSupportedConstraints/suppressLocalAudioPlayback",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/MediaTrackSupportedConstraints"
-                          ]
-                        }
-                      ]
                     }
                   }
                 },
@@ -12321,18 +12219,6 @@ var warnings_processed_default = {
                 },
                 node: {
                   children: {
-                    selectstart_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Node/selectstart_event",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/Node"
-                          ]
-                        }
-                      ]
-                    },
                     textcontent: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Node/textContent",
@@ -14751,18 +14637,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    fetchlater: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/fetchLater",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/Window"
-                          ]
-                        }
-                      ]
-                    },
                     paste_event: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Window/paste_event",
@@ -16010,16 +15884,6 @@ css.selectors.-webkit-resizer`,
                           data: [
                             "CSS formal syntax"
                           ]
-                        },
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/CSS/@import"
-                          ]
-                        },
-                        {
-                          message: "Unreachable via page",
-                          data: []
                         }
                       ]
                     }
@@ -16036,12 +15900,6 @@ css.selectors.-webkit-resizer`,
                           data: []
                         },
                         {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/CSS/@media"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -16054,12 +15912,6 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Missing syntax code block",
                           data: []
-                        },
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/CSS/@media"
-                          ]
                         },
                         {
                           message: "Unreachable via sidebar",
@@ -16076,12 +15928,6 @@ css.selectors.-webkit-resizer`,
                           data: []
                         },
                         {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/CSS/@media"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -16094,12 +15940,6 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Missing syntax code block",
                           data: []
-                        },
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/CSS/@media"
-                          ]
                         },
                         {
                           message: "Unreachable via sidebar",
@@ -16116,12 +15956,6 @@ css.selectors.-webkit-resizer`,
                           data: []
                         },
                         {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/CSS/@media"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -16131,12 +15965,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@media/-webkit-transition",
                       messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/CSS/@media"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -17215,44 +17043,6 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                clamp: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/clamp",
-                  messages: [
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "max",
-                        "Text after link:",
-                        "(MIN, "
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "max",
-                        "Text after code:",
-                        "(MIN, "
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "min",
-                        "Text after link:",
-                        "(VAL, MAX))"
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "min",
-                        "Text after code:",
-                        "(VAL, MAX))"
-                      ]
-                    }
-                  ]
-                },
                 clip: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/clip",
@@ -18183,60 +17973,6 @@ css.selectors.-webkit-resizer`,
                           data: []
                         }
                       ]
-                    },
-                    using_feature_queries: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_conditional_rules/Using_feature_queries",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "Unknown word CSS (CssSyntaxError)",
-                            "  CSS rules to apply",
-                            "3:3"
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "Unknown word CSS (CssSyntaxError)",
-                            "  CSS rules to apply",
-                            "3:3"
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "Unknown word CSS (CssSyntaxError)",
-                            "  CSS rules to apply",
-                            "3:3"
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "Unknown word CSS (CssSyntaxError)",
-                            "  CSS rules to apply",
-                            "3:3"
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "Unknown word CSS (CssSyntaxError)",
-                            "  CSS rules to apply",
-                            "3:3"
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "Unknown word CSS (CssSyntaxError)",
-                            "  CSS rules to apply",
-                            "3:3"
-                          ]
-                        }
-                      ]
                     }
                   }
                 },
@@ -19088,20 +18824,6 @@ css.selectors.-webkit-resizer`,
                     }
                   }
                 },
-                exp: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/exp",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "Unknown word // (CssSyntaxError)",
-                        "  transform: rotate(calc(1turn * exp(-1))); // 0.3678794411714423turn",
-                        "7:45"
-                      ]
-                    }
-                  ]
-                },
                 filter: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/filter",
@@ -19566,28 +19288,6 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
-                "grid-template-areas": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid-template-areas",
-                  messages: [
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "<string>",
-                        "Text after link:",
-                        "+"
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "<string>",
-                        "Text after code:",
-                        "+"
-                      ]
-                    }
-                  ]
-                },
                 hue: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/hue",
@@ -19955,6 +19655,26 @@ css.properties.grid-template-rows.minmax`
                     }
                   ]
                 },
+                "mix-blend-mode": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/mix-blend-mode",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/compositing/",
+                        504
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/compositing/",
+                        504
+                      ]
+                    }
+                  ]
+                },
                 mozilla_extensions: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/Mozilla_Extensions",
@@ -20099,28 +19819,6 @@ css.properties.grid-template-rows.minmax`
                     {
                       message: "Unreachable via sidebar",
                       data: []
-                    }
-                  ]
-                },
-                quotes: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/quotes",
-                  messages: [
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "<string>",
-                        "Text before link:",
-                        "["
-                      ]
-                    },
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "<string>",
-                        "Text before code:",
-                        "["
-                      ]
                     }
                   ]
                 },
@@ -21252,18 +20950,6 @@ html.elements.textarea.disabled`
                             }
                           ]
                         },
-                        elementtiming: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/elementtiming",
-                          messages: [
-                            {
-                              message: "Not linked from parent page",
-                              data: [
-                                "/en-US/docs/Web/HTML/Reference/Attributes"
-                              ]
-                            }
-                          ]
-                        },
                         max: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Attributes/max",
@@ -21689,6 +21375,83 @@ html.elements.select.size`
                             }
                           ]
                         },
+                        button: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/button",
+                          messages: [
+                            {
+                              message: "Bad DL",
+                              data: [
+                                `
+The button will show a <dialog> as modal. If the `
+                              ]
+                            },
+                            {
+                              message: "Bad DL",
+                              data: [
+                                `
+The button will close a <dialog> element. If the `
+                              ]
+                            },
+                            {
+                              message: "Bad DL",
+                              data: [
+                                `
+The button will request to close a <dialog> eleme`
+                              ]
+                            },
+                            {
+                              message: "Bad DL",
+                              data: [
+                                `
+This is equivalent to popovertargetaction with th`
+                              ]
+                            },
+                            {
+                              message: "Bad DL",
+                              data: [
+                                `
+The button will show a hidden popover. If you try`
+                              ]
+                            },
+                            {
+                              message: "Bad DL",
+                              data: [
+                                `
+This is equivalent to popovertargetaction with th`
+                              ]
+                            },
+                            {
+                              message: "Bad DL",
+                              data: [
+                                `
+The button will hide a showing popover. If you tr`
+                              ]
+                            },
+                            {
+                              message: "Bad DL",
+                              data: [
+                                `
+This is equivalent to popovertargetaction with th`
+                              ]
+                            },
+                            {
+                              message: "Bad DL",
+                              data: [
+                                `
+The button will toggle a popover between showing `
+                              ]
+                            },
+                            {
+                              message: "Bad DL",
+                              data: [
+                                `
+This is a more general version of popovertarget.
+`
+                              ]
+                            }
+                          ]
+                        },
                         figure: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/figure",
@@ -21701,32 +21464,10 @@ html.elements.select.size`
                             }
                           ]
                         },
-                        footer: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/footer",
-                          messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "article",
-                                "Text before link:",
-                                "role="
-                              ]
-                            }
-                          ]
-                        },
                         header: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/header",
                           messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "article",
-                                "Text before link:",
-                                "role="
-                              ]
-                            },
                             {
                               message: "Unused image",
                               data: [
@@ -21837,18 +21578,6 @@ html.elements.select.size`
                             }
                           }
                         },
-                        selectedcontent: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/selectedcontent",
-                          messages: [
-                            {
-                              message: "Not linked from parent page",
-                              data: [
-                                "/en-US/docs/Web/HTML/Reference/Elements"
-                              ]
-                            }
-                          ]
-                        },
                         td: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/td",
@@ -21899,14 +21628,6 @@ html.elements.select.size`
                       children: {},
                       slug: "/en-US/docs/Web/HTTP/Guides/Browser_detection_using_the_user_agent",
                       messages: [
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "Safari/xyz",
-                            "Text after code:",
-                            "*"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -22852,18 +22573,6 @@ html.elements.select.size`
                               }
                             }
                           }
-                        },
-                        typedarray: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray",
-                          messages: [
-                            {
-                              message: "Not linked from parent page",
-                              data: [
-                                "/en-US/docs/Web/JavaScript/Reference/Global_Objects"
-                              ]
-                            }
-                          ]
                         }
                       }
                     },
@@ -23120,32 +22829,6 @@ html.elements.select.size`
                             }
                           ]
                         },
-                        live_streaming_web_audio_and_video: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/Live_streaming_web_audio_and_video",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jwplayer.com/blog/http-live-streaming/",
-                                404
-                              ]
-                            }
-                          ]
-                        },
-                        setting_up_adaptive_streaming_media_sources: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/Setting_up_adaptive_streaming_media_sources",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jwplayer.com/blog/http-live-streaming/",
-                                404
-                              ]
-                            }
-                          ]
-                        },
                         webaudio_playbackrate_explained: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/WebAudio_playbackRate_explained",
@@ -23240,6 +22923,19 @@ html.elements.select.size`
                     },
                     formats: {
                       children: {
+                        containers: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Containers",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=1441",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -25463,50 +25159,6 @@ svg.elements.text.systemLanguage
 svg.elements.textPath.systemLanguage
 svg.elements.tspan.systemLanguage
 svg.elements.use.systemLanguage`
-                              ]
-                            }
-                          ]
-                        },
-                        targetx: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/targetX",
-                          messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "order",
-                                "Text after link:",
-                                "X / 2)"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "order",
-                                "Text after code:",
-                                "X / 2)"
-                              ]
-                            }
-                          ]
-                        },
-                        targety: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/targetY",
-                          messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "order",
-                                "Text after link:",
-                                "Y / 2)"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "order",
-                                "Text after code:",
-                                "Y / 2)"
                               ]
                             }
                           ]
