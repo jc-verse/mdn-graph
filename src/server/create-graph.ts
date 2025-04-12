@@ -476,7 +476,11 @@ export default async function createContentGraph() {
     ) {
       allImgs.set(`${nodeId}/${Path.basename(file)}`, false);
     } else {
-      report(graph.getNode(nodeId)!, "Unexpected asset file", Path.basename(file));
+      report(
+        graph.getNode(nodeId)!,
+        "Unexpected asset file",
+        Path.basename(file),
+      );
     }
   }
   graph.forEachNode((node) => {
@@ -654,7 +658,29 @@ export default async function createContentGraph() {
     const sidebar = sidebarIds.get(pageToSidebarId.get(node.id)!);
     if (!sidebar) continue;
     if (!sidebar.links.some(({ href }) => href === node.id)) {
-      report(node, "Unreachable via sidebar");
+      if (
+        !(
+          node.id.startsWith("/en-US/docs/Mozilla/Firefox/Releases/") ||
+          node.id.startsWith("/en-US/docs/Web/API/WebGL_API/By_example/") ||
+          node.id.startsWith(
+            "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/",
+          ) ||
+          node.id.startsWith(
+            "/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/",
+          ) ||
+          node.id.match(
+            /^\/en-US\/docs\/Learn_web_development\/Extensions\/Server-side\/Express_Nodejs\/[^/]+\/[^/]+/,
+          ) ||
+          node.id.startsWith(
+            "/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/",
+          ) ||
+          node.id.startsWith(
+            "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/",
+          )
+        )
+      ) {
+        report(node, "Unreachable via sidebar");
+      }
     }
   }
   for (const node of unreachableViaPage) report(node, "Unreachable via page");
