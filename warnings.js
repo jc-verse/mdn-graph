@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-yjk5mftd.js";
+} from "./chunk-bthazqbd.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -196,16 +196,6 @@ var warnings_processed_default = {
                     },
                     building_up_a_basic_demo_with_playcanvas: {
                       children: {
-                        editor: {
-                          children: {},
-                          slug: "/en-US/docs/Games/Techniques/3D_on_the_web/Building_up_a_basic_demo_with_PlayCanvas/editor",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
                         engine: {
                           children: {},
                           slug: "/en-US/docs/Games/Techniques/3D_on_the_web/Building_up_a_basic_demo_with_PlayCanvas/engine",
@@ -227,10 +217,6 @@ var warnings_processed_default = {
                               data: [
                                 "cube-playcanvas.png"
                               ]
-                            },
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
                             }
                           ]
                         }
@@ -821,22 +807,15 @@ var warnings_processed_default = {
                 }
               ]
             },
-            gpl: {
+            glyph: {
               children: {},
-              slug: "/en-US/docs/Glossary/GPL",
+              slug: "/en-US/docs/Glossary/Glyph",
               messages: [
                 {
                   message: "Broken external link",
                   data: [
-                    "https://www.gnu.org/licenses/gpl-faq.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/gpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
+                    "https://www.quora.com/Whats-the-difference-between-a-character-a-glyph-and-a-grapheme/answer/Thomas-Phinney",
+                    504
                   ]
                 }
               ]
@@ -928,19 +907,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            lgpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/LGPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/lgpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
                 }
               ]
             },
@@ -2318,17 +2284,7 @@ var warnings_processed_default = {
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
+                      }
                     },
                     html_video_and_audio: {
                       children: {
@@ -2430,13 +2386,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/guide/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2520,6 +2469,23 @@ var warnings_processed_default = {
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/mikethomas/pen/kQjKLW"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                "client-side_tools": {
+                  children: {
+                    deployment: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Deployment",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vitest.dev/guide/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -2785,13 +2751,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/gzip/",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     }
@@ -3218,12 +3177,6 @@ var warnings_processed_default = {
                   slug: "/en-US/docs/Learn_web_development/Howto/Solve_JavaScript_problems",
                   messages: [
                     {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/CObject-oriented_programming"
-                      ]
-                    },
-                    {
                       message: "Unreachable via page",
                       data: []
                     }
@@ -3240,27 +3193,6 @@ var warnings_processed_default = {
                           data: [
                             "https://webchat.freenode.net/?channels=brackets",
                             521
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/efaq.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
-                            "Cannot reach server and Bun hangs"
                           ]
                         },
                         {
@@ -3310,17 +3242,23 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    what_software_do_i_need: {
+                    how_do_you_host_your_website_on_google_app_engine: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
+                            "https://gaesamplesite.appspot.com/",
+                            503
                           ]
-                        },
+                        }
+                      ]
+                    },
+                    what_software_do_i_need: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
+                      messages: [
                         {
                           message: "Broken external link",
                           data: [
@@ -5042,6 +4980,16 @@ var warnings_processed_default = {
                   children: {
                     "2": {
                       children: {
+                        adding_feed_readers_to_firefox: {
+                          children: {},
+                          slug: "/en-US/docs/Mozilla/Firefox/Releases/2/Adding_feed_readers_to_Firefox",
+                          messages: [
+                            {
+                              message: "Unreachable via sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         security_changes: {
                           children: {},
                           slug: "/en-US/docs/Mozilla/Firefox/Releases/2/Security_changes",
@@ -5051,6 +4999,10 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/docs/Security_and_the_jar_protocol"
                               ]
+                            },
+                            {
+                              message: "Unreachable via sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -5075,6 +5027,10 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/Install_Manifests"
                               ]
+                            },
+                            {
+                              message: "Unreachable via sidebar",
+                              data: []
                             }
                           ]
                         }
@@ -5184,6 +5140,20 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/docs/CSS_improvements_in_Firefox_3"
                               ]
+                            },
+                            {
+                              message: "Unreachable via sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        full_page_zoom: {
+                          children: {},
+                          slug: "/en-US/docs/Mozilla/Firefox/Releases/3/Full_page_zoom",
+                          messages: [
+                            {
+                              message: "Unreachable via sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -5202,6 +5172,10 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/docs/Offering%20a%20context%20menu%20for%20form%20controls"
                               ]
+                            },
+                            {
+                              message: "Unreachable via sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -5234,7 +5208,21 @@ var warnings_processed_default = {
                               ]
                             },
                             {
+                              message: "Unreachable via sidebar",
+                              data: []
+                            },
+                            {
                               message: "Unreachable via page",
+                              data: []
+                            }
+                          ]
+                        },
+                        svg_improvements: {
+                          children: {},
+                          slug: "/en-US/docs/Mozilla/Firefox/Releases/3/SVG_improvements",
+                          messages: [
+                            {
+                              message: "Unreachable via sidebar",
                               data: []
                             }
                           ]
@@ -5266,6 +5254,10 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/docs/Mozilla/Firefox/Releases/3"
                               ]
+                            },
+                            {
+                              message: "Unreachable via sidebar",
+                              data: []
                             },
                             {
                               message: "Unreachable via page",
@@ -5396,6 +5388,10 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/docs/Chrome_Registration"
                               ]
+                            },
+                            {
+                              message: "Unreachable via sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -5416,6 +5412,10 @@ var warnings_processed_default = {
                               ]
                             },
                             {
+                              message: "Unreachable via sidebar",
+                              data: []
+                            },
+                            {
                               message: "HTML code issue",
                               data: [
                                 'Unexpected character "EOF"',
@@ -5434,6 +5434,10 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/docs/Mozilla/Firefox/Releases/3"
                               ]
+                            },
+                            {
+                              message: "Unreachable via sidebar",
+                              data: []
                             },
                             {
                               message: "Unreachable via page",
@@ -5466,6 +5470,10 @@ var warnings_processed_default = {
                               ]
                             },
                             {
+                              message: "Unreachable via sidebar",
+                              data: []
+                            },
+                            {
                               message: "Unreachable via page",
                               data: []
                             }
@@ -5480,6 +5488,10 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/docs/Mozilla/Firefox/Releases/3"
                               ]
+                            },
+                            {
+                              message: "Unreachable via sidebar",
+                              data: []
                             },
                             {
                               message: "Unreachable via page",
@@ -5620,6 +5632,16 @@ var warnings_processed_default = {
                     },
                     "4": {
                       children: {
+                        "the_add-on_bar": {
+                          children: {},
+                          slug: "/en-US/docs/Mozilla/Firefox/Releases/4/The_add-on_bar",
+                          messages: [
+                            {
+                              message: "Unreachable via sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         updating_extensions_for_firefox_4: {
                           children: {},
                           slug: "/en-US/docs/Mozilla/Firefox/Releases/4/Updating_extensions_for_Firefox_4",
@@ -5677,6 +5699,10 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/docs/Mozilla/Firefox/Releases/4"
                               ]
+                            },
+                            {
+                              message: "Unreachable via sidebar",
+                              data: []
                             },
                             {
                               message: "Unreachable via page",
@@ -5970,6 +5996,10 @@ var warnings_processed_default = {
                               ]
                             },
                             {
+                              message: "Unreachable via sidebar",
+                              data: []
+                            },
+                            {
                               message: "Unreachable via page",
                               data: []
                             }
@@ -6073,6 +6103,10 @@ var warnings_processed_default = {
                               ]
                             },
                             {
+                              message: "Unreachable via sidebar",
+                              data: []
+                            },
+                            {
                               message: "Unreachable via page",
                               data: []
                             }
@@ -6172,6 +6206,10 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/docs/XPCOM/XPCOM_changes_in_Gecko_2.0"
                               ]
+                            },
+                            {
+                              message: "Unreachable via sidebar",
+                              data: []
                             }
                           ]
                         }
@@ -6218,6 +6256,10 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/docs/JavaScript_code_modules/ISO8601DateUtils.jsm"
                               ]
+                            },
+                            {
+                              message: "Unreachable via sidebar",
+                              data: []
                             }
                           ]
                         }
@@ -6245,6 +6287,10 @@ var warnings_processed_default = {
                                 "/en-US/docs/Web/Events/Event_handlers",
                                 "#event_handler_changes_in_firefox_9"
                               ]
+                            },
+                            {
+                              message: "Unreachable via sidebar",
+                              data: []
                             }
                           ]
                         }
@@ -6330,6 +6376,10 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/docs/Mozilla/Firefox/Releases/10"
                               ]
+                            },
+                            {
+                              message: "Unreachable via sidebar",
+                              data: []
                             },
                             {
                               message: "Unreachable via page",
@@ -6911,13 +6961,6 @@ var warnings_processed_default = {
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Mozilla/Add-ons/Add-on_Debugger"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/web-animations/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -7909,6 +7952,10 @@ var warnings_processed_default = {
                               ]
                             },
                             {
+                              message: "Unreachable via sidebar",
+                              data: []
+                            },
+                            {
                               message: "Unreachable via page",
                               data: []
                             }
@@ -7918,6 +7965,10 @@ var warnings_processed_default = {
                           children: {},
                           slug: "/en-US/docs/Mozilla/Firefox/Releases/1.5/Using_Firefox_1.5_caching",
                           messages: [
+                            {
+                              message: "Unreachable via sidebar",
+                              data: []
+                            },
                             {
                               message: "HTML code issue",
                               data: [
@@ -7961,6 +8012,10 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/docs/Mozilla/Firefox/Releases/1.5"
                               ]
+                            },
+                            {
+                              message: "Unreachable via sidebar",
+                              data: []
                             },
                             {
                               message: "Unreachable via page",
@@ -8047,6 +8102,16 @@ var warnings_processed_default = {
                     },
                     "3.5": {
                       children: {
+                        icc_color_correction_in_firefox: {
+                          children: {},
+                          slug: "/en-US/docs/Mozilla/Firefox/Releases/3.5/ICC_color_correction_in_Firefox",
+                          messages: [
+                            {
+                              message: "Unreachable via sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         security_changes: {
                           children: {},
                           slug: "/en-US/docs/Mozilla/Firefox/Releases/3.5/Security_changes",
@@ -8068,6 +8133,10 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/Firefox%203.5%20for%20developers"
                               ]
+                            },
+                            {
+                              message: "Unreachable via sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -8116,6 +8185,10 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/Theme_changes_in_Firefox_3.1"
                               ]
+                            },
+                            {
+                              message: "Unreachable via sidebar",
+                              data: []
                             }
                           ]
                         }
@@ -8283,6 +8356,16 @@ var warnings_processed_default = {
                     },
                     "3.6": {
                       children: {
+                        interfaces_moved: {
+                          children: {},
+                          slug: "/en-US/docs/Mozilla/Firefox/Releases/3.6/Interfaces_moved",
+                          messages: [
+                            {
+                              message: "Unreachable via sidebar",
+                              data: []
+                            }
+                          ]
+                        },
                         updating_extensions: {
                           children: {},
                           slug: "/en-US/docs/Mozilla/Firefox/Releases/3.6/Updating_extensions",
@@ -8298,6 +8381,20 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/docs/Chrome_Registration"
                               ]
+                            },
+                            {
+                              message: "Unreachable via sidebar",
+                              data: []
+                            }
+                          ]
+                        },
+                        "updating_plug-ins": {
+                          children: {},
+                          slug: "/en-US/docs/Mozilla/Firefox/Releases/3.6/Updating_plug-ins",
+                          messages: [
+                            {
+                              message: "Unreachable via sidebar",
+                              data: []
                             }
                           ]
                         },
@@ -8322,6 +8419,10 @@ var warnings_processed_default = {
                               data: [
                                 "/en-US/docs/Building_a_Theme"
                               ]
+                            },
+                            {
+                              message: "Unreachable via sidebar",
+                              data: []
                             }
                           ]
                         }
@@ -9495,49 +9596,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                devicemotioneventrotationrate: {
-                  children: {
-                    alpha: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/DeviceMotionEventRotationRate/alpha",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Web/API/Device_orientation_events/Detecting_device_orientation",
-                            "#accelerometer_values_explained"
-                          ]
-                        }
-                      ]
-                    },
-                    beta: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/DeviceMotionEventRotationRate/beta",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Web/API/Device_orientation_events/Detecting_device_orientation",
-                            "#accelerometer_values_explained"
-                          ]
-                        }
-                      ]
-                    },
-                    gamma: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/DeviceMotionEventRotationRate/gamma",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Web/API/Device_orientation_events/Detecting_device_orientation",
-                            "#accelerometer_values_explained"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 document_object_model: {
                   children: {
                     locating_dom_elements_using_selectors: {
@@ -10351,6 +10409,31 @@ var warnings_processed_default = {
                             'Unexpected closing tag "form". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
                             "</form>",
                             "2:0"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                htmllinkelement: {
+                  children: {
+                    imagesrcset: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLLinkElement/imagesrcset",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.HTMLLinkElement.imagesrcset"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.HTMLLinkElement.imageSrcset",
+                            "Expected:",
+                            "api.HTMLLinkElement.imagesrcset"
                           ]
                         }
                       ]
@@ -14213,12 +14296,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@font-face/font-stretch",
                       messages: [
                         {
-                          message: "Missing data",
-                          data: [
-                            "CSS formal syntax"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -14361,22 +14438,6 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                "@import": {
-                  children: {
-                    layer_function: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/@import/layer_function",
-                      messages: [
-                        {
-                          message: "Missing data",
-                          data: [
-                            "CSS formal syntax"
-                          ]
                         }
                       ]
                     }
@@ -15091,12 +15152,6 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
-                    },
-                    {
-                      message: "Missing data",
-                      data: [
-                        "CSS formal syntax"
-                      ]
                     }
                   ]
                 },
@@ -18822,30 +18877,6 @@ css.properties.grid-template-rows.repeat`
                     }
                   ]
                 },
-                "stop-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stop-color",
-                  messages: [
-                    {
-                      message: "Missing data",
-                      data: [
-                        "CSS formal syntax"
-                      ]
-                    }
-                  ]
-                },
-                "stop-opacity": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stop-opacity",
-                  messages: [
-                    {
-                      message: "Missing data",
-                      data: [
-                        "CSS formal syntax"
-                      ]
-                    }
-                  ]
-                },
                 string: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/string",
@@ -20195,17 +20226,7 @@ html.elements.select.size`
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Web/HTTP/Guides/Content_negotiation",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.eff.org/deeplinks/2010/01/primer-information-theory-and-privacy",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
+                      }
                     },
                     cookies: {
                       children: {},
@@ -20329,19 +20350,6 @@ html.elements.select.size`
                   children: {
                     headers: {
                       children: {
-                        accept: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.gnu.org/software/wget/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
                         "available-dictionary": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Available-Dictionary",
@@ -20427,19 +20435,6 @@ html.elements.select.size`
                               ]
                             }
                           }
-                        },
-                        dnt: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/DNT",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
                         },
                         forwarded: {
                           children: {},
@@ -20546,13 +20541,6 @@ html.elements.select.size`
                             {
                               message: "Broken browser compat anchor",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         },
@@ -21181,33 +21169,6 @@ html.elements.select.size`
                         }
                       ]
                     },
-                    lexical_grammar: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Reference/Lexical_grammar",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5Cp%7BGeneral_Category%3DSpace_Separator%7D",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5Cp%7BWhite_Space%7D%26%5CP%7BGeneral_Category%3DSpace_Separator%7D",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5Cp%7BID_Continue%7D",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     operators: {
                       children: {
                         delete: {
@@ -21236,23 +21197,6 @@ html.elements.select.size`
                               ]
                             }
                           }
-                        }
-                      }
-                    },
-                    regular_expressions: {
-                      children: {
-                        unicode_character_class_escape: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Unicode_character_class_escape",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://util.unicode.org/UnicodeJsps/character.jsp?a=0061",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
                         }
                       }
                     },
@@ -21386,28 +21330,7 @@ html.elements.select.size`
                   ]
                 },
                 reference: {
-                  children: {
-                    element: {
-                      children: {},
-                      slug: "/en-US/docs/Web/MathML/Reference/Element",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    global_attributes: {
-                      children: {},
-                      slug: "/en-US/docs/Web/MathML/Reference/Global_attributes",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/MathML/Reference",
                   messages: [
                     {
