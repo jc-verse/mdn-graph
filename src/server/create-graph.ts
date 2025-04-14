@@ -29,6 +29,27 @@ const allowedNoSidebar = new Map(
   (await readConfig("allowed-no-sidebar.txt")).map((x) => [x, false]),
 );
 
+function globToRegex(str: string) {
+  return new RegExp(
+    `^${str
+      .split(/(\*\*?)/)
+      .map((part, i) =>
+        i % 2 === 0
+          ? part.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+          : part === "*"
+          ? "[^/]+"
+          : part === "**"
+          ? ".+"
+          : "",
+      )
+      .join("")}$`,
+  );
+}
+
+const allowedNotInSidebar = new Map(
+  (await readConfig("allowed-not-in-sidebar.txt")).map((x) => [globToRegex(x), false]),
+);
+
 const sidebarExternalLinks = [
   "https://blog.mozilla.org/addons",
   "https://discourse.mozilla.org/c/add-ons",
@@ -658,33 +679,16 @@ export default async function createContentGraph() {
     const sidebar = sidebarIds.get(pageToSidebarId.get(node.id)!);
     if (!sidebar) continue;
     if (!sidebar.links.some(({ href }) => href === node.id)) {
-      if (
-        !(
-          node.id.startsWith("/en-US/docs/Mozilla/Firefox/Releases/") ||
-          node.id.startsWith("/en-US/docs/Web/API/WebGL_API/By_example/") ||
-          node.id.startsWith(
-            "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/",
-          ) ||
-          node.id.startsWith(
-            "/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/",
-          ) ||
-          node.id.match(
-            /^\/en-US\/docs\/Learn_web_development\/Extensions\/Server-side\/Express_Nodejs\/[^/]+\/[^/]+/,
-          ) ||
-          node.id.startsWith(
-            "/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/",
-          ) ||
-          node.id.startsWith(
-            "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/",
-          ) ||
-          node.id.startsWith(
-            "/en-US/docs/Games/Tutorials/3D_on_the_web/Building_up_a_basic_demo_with_PlayCanvas/",
-          )
-        )
-      ) {
+      const isAllowed = [...allowedNotInSidebar.keys()].find((regex) => regex.test(node.id));
+      if (!isAllowed) {
         report(node, "Unreachable via sidebar");
+      } else {
+        allowedNotInSidebar.set(isAllowed, true);
       }
     }
+  }
+  for (const [regex, used] of allowedNotInSidebar) {
+    if (!used) console.warn(regex, "is now included in the sidebar");
   }
   for (const node of unreachableViaPage) report(node, "Unreachable via page");
 
