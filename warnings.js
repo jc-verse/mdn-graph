@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-me3741zj.js";
+} from "./chunk-38zmsdvt.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -1438,17 +1438,7 @@ var warnings_processed_default = {
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/WAI-ARIA_basics",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://jqueryui.com/about/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
+                      }
                     }
                   }
                 },
@@ -1740,6 +1730,13 @@ var warnings_processed_default = {
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/mxmason/pen/XWbPNmw"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://new.drupal.org/",
+                            403
                           ]
                         }
                       ]
@@ -2042,6 +2039,19 @@ var warnings_processed_default = {
                 },
                 scripting: {
                   children: {
+                    arrays: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Arrays",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~06e?via=mdn",
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~06e?via=mdn&rt=59qvlern&redir=1"
+                          ]
+                        }
+                      ]
+                    },
                     build_your_own_function: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/Build_your_own_function",
@@ -2284,7 +2294,24 @@ var warnings_processed_default = {
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Learn_web_development/Core/Structuring_content",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://v2.scrimba.com/learn-html-and-css-c0p?via=mdn",
+                        "https://scrimba.com/learn-html-and-css-c0p?via=mdn&rt=6v141kp8&redir=1"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~0xid?via=mdn",
+                        "https://scrimba.com/the-frontend-developer-career-path-c0j/~0xid?via=mdn&rt=73j4nmuv&redir=1"
+                      ]
+                    }
+                  ]
                 },
                 styling_basics: {
                   children: {
@@ -2429,13 +2456,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://jqueryui.com/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2466,13 +2486,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.uxforthemasses.com/forms-usability/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2607,19 +2620,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    },
-                    "ui_pseudo-classes": {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://mdn.github.io/learning-area/html/forms/pseudo-classes/required-optional-generated.html",
-                            503
-                          ]
                         }
                       ]
                     },
@@ -2778,8 +2778,75 @@ var warnings_processed_default = {
                       ]
                     }
                   }
+                },
+                your_first_website: {
+                  children: {
+                    adding_interactivity: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Adding_interactivity",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://v2.scrimba.com/learn-javascript-c0v?via=mdn",
+                            "https://scrimba.com/learn-javascript-c0v?via=mdn&rt=s2kdvq8d&redir=1"
+                          ]
+                        }
+                      ]
+                    },
+                    creating_the_content: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~0xid?via=mdn",
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~0xid?via=mdn&rt=73j4nmuv&redir=1"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://v2.scrimba.com/learn-html-and-css-c0p?via=mdn",
+                            "https://scrimba.com/learn-html-and-css-c0p?via=mdn&rt=6v141kp8&redir=1"
+                          ]
+                        }
+                      ]
+                    },
+                    styling_the_content: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~015?via=mdn",
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~015?via=mdn&rt=s8bu2b7v&redir=1"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://v2.scrimba.com/learn-html-and-css-c0p?via=mdn",
+                            "https://scrimba.com/learn-html-and-css-c0p?via=mdn&rt=6v141kp8&redir=1"
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 }
-              }
+              },
+              slug: "/en-US/docs/Learn_web_development/Getting_started",
+              messages: [
+                {
+                  message: "Redirected external link",
+                  data: [
+                    "https://v2.scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
+                    "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=ch73ro1o&redir=1"
+                  ]
+                }
+              ]
             },
             howto: {
               children: {
@@ -3125,6 +3192,13 @@ var warnings_processed_default = {
             {
               message: "Unreachable via sidebar",
               data: []
+            },
+            {
+              message: "Redirected external link",
+              data: [
+                "https://v2.scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
+                "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=ch73ro1o&redir=1"
+              ]
             }
           ]
         },
@@ -6616,13 +6690,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Mozilla/Add-ons/Add-on_Debugger"
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/web-animations/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -8300,19 +8367,6 @@ var warnings_processed_default = {
                         },
                         roles: {
                           children: {
-                            dialog_role: {
-                              children: {},
-                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/dialog_role",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://jqueryui.com/dialog/",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
                             timer_role: {
                               children: {},
                               slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/timer_role",
@@ -8347,27 +8401,6 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Web/Accessibility/Guides/Accessibility_and_Spatial_Patterns",
                       messages: [
                         {
-                          message: "Redirected external link",
-                          data: [
-                            "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1528-1167.2005.01405.x",
-                            "https://onlinelibrary.wiley.com/action/cookieAbsent"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1528-1167.2005.01405.x",
-                            "https://onlinelibrary.wiley.com/action/cookieAbsent"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1528-1167.2005.01405.x",
-                            "https://onlinelibrary.wiley.com/action/cookieAbsent"
-                          ]
-                        },
-                        {
                           message: "HTTP link",
                           data: [
                             "http://diagramcenter.org/",
@@ -8376,37 +8409,10 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    colors_and_luminance: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1528-1167.2005.31405.x",
-                            "https://onlinelibrary.wiley.com/action/cookieAbsent"
-                          ]
-                        }
-                      ]
-                    },
                     seizure_disorders: {
                       children: {},
                       slug: "/en-US/docs/Web/Accessibility/Guides/Seizure_disorders",
                       messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1528-1167.2005.31405.x",
-                            "https://onlinelibrary.wiley.com/action/cookieAbsent"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://onlinelibrary.wiley.com/doi/full/10.1111/epi.17175",
-                            "https://onlinelibrary.wiley.com/action/cookieAbsent"
-                          ]
-                        },
                         {
                           message: "HTTP link",
                           data: [
@@ -9735,6 +9741,18 @@ var warnings_processed_default = {
                     }
                   }
                 },
+                htmlheadelement: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/HTMLHeadElement",
+                  messages: [
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/API/HTMLHeadElement/profile"
+                      ]
+                    }
+                  ]
+                },
                 htmlimageelement: {
                   children: {
                     alt: {
@@ -10323,6 +10341,30 @@ var warnings_processed_default = {
                           message: "Not in BCD",
                           data: [
                             "api.PaymentRequestEvent.instrumentKey"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                performancetiming: {
+                  children: {
+                    dominteractive: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PerformanceTiming/domInteractive",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.stevesouders.com/blog/2015/08/07/dominteractive-is-it-really/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.stevesouders.com/blog/2015/08/07/dominteractive-is-it-really/",
+                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -10997,13 +11039,49 @@ var warnings_processed_default = {
                     {
                       message: "Broken link",
                       data: [
+                        "/en-US/docs/Web/API/SVGGlyphRefElement/glyphRef"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
                         "/en-US/docs/Web/SVG/Reference/Attribute/glyphRef"
                       ]
                     },
                     {
                       message: "Broken link",
                       data: [
+                        "/en-US/docs/Web/API/SVGGlyphRefElement/format"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
                         "/en-US/docs/Web/SVG/Reference/Attribute/format"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/API/SVGGlyphRefElement/x"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/API/SVGGlyphRefElement/y"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/API/SVGGlyphRefElement/dx"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/API/SVGGlyphRefElement/dy"
                       ]
                     },
                     {
@@ -15931,38 +16009,7 @@ css.selectors.-webkit-resizer`,
                 css_positioned_layout: {
                   children: {
                     stacking_context: {
-                      children: {
-                        stacking_context_example_1: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/CSS_positioned_layout/Stacking_context/Stacking_context_example_1",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        stacking_context_example_2: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/CSS_positioned_layout/Stacking_context/Stacking_context_example_2",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        stacking_context_example_3: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/CSS_positioned_layout/Stacking_context/Stacking_context_example_3",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        }
-                      },
+                      children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_positioned_layout/Stacking_context",
                       messages: [
                         {
@@ -19343,7 +19390,17 @@ html.elements.select.size`
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/HTTP/Guides/Content_negotiation",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.eff.org/deeplinks/2010/01/primer-information-theory-and-privacy",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     },
                     cookies: {
                       children: {},
@@ -19539,6 +19596,26 @@ html.elements.select.size`
                             }
                           }
                         },
+                        dnt: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/DNT",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.eff.org/issues/do-not-track",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         forwarded: {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Forwarded",
@@ -19644,6 +19721,20 @@ html.elements.select.size`
                             {
                               message: "Broken browser compat anchor",
                               data: []
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.eff.org/issues/do-not-track",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         },
@@ -19865,60 +19956,6 @@ html.elements.select.size`
                           ]
                         }
                       ]
-                    },
-                    regular_expressions: {
-                      children: {
-                        assertions: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Assertions",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        character_classes: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Character_classes",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        cheatsheet: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Cheatsheet",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        groups_and_backreferences: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Groups_and_backreferences",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        quantifiers: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Quantifiers",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        }
-                      }
                     },
                     using_promises: {
                       children: {},
@@ -20586,6 +20623,19 @@ html.elements.select.size`
                     },
                     formats: {
                       children: {
+                        image_types: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Image_types",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://ev.buaa.edu.cn/",
+                                403
+                              ]
+                            }
+                          ]
+                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -21097,22 +21147,7 @@ html.elements.select.size`
             svg: {
               children: {
                 guides: {
-                  children: {
-                    namespaces_crash_course: {
-                      children: {
-                        example: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Guides/Namespaces_crash_course/Example",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/SVG/Guides",
                   messages: [
                     {
@@ -22303,28 +22338,6 @@ svg.elements.feSpecularLighting.kernelUnitLength`
                             }
                           ]
                         },
-                        keypoints: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/keyPoints",
-                          messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<number>",
-                                "Text after link:",
-                                "]* ;?"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<number>",
-                                "Text after code:",
-                                "]* ;?"
-                              ]
-                            }
-                          ]
-                        },
                         lengthadjust: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/lengthAdjust",
@@ -22780,20 +22793,6 @@ svg.elements.feGaussianBlur.stdDeviation`
                                 "svg.elements.font-face-format.string",
                                 "Expected:",
                                 "[None]"
-                              ]
-                            }
-                          ]
-                        },
-                        "stroke-linejoin": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/stroke-linejoin",
-                          messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "miter",
-                                "Text before code:",
-                                " |"
                               ]
                             }
                           ]
@@ -23421,108 +23420,6 @@ svg.elements.feSpotLight.z`
                     },
                     element: {
                       children: {
-                        a: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/a",
-                          messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "no-referrer",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "no-referrer-when-downgrade",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "same-origin",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "origin",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "strict-origin",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "origin-when-cross-origin",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "strict-origin-when-cross-origin",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "unsafe-url",
-                                "Text before code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "_self",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "_parent",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "_top",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "_blank",
-                                "Text after code:",
-                                "|"
-                              ]
-                            }
-                          ]
-                        },
                         animatemotion: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Element/animateMotion",
@@ -23533,106 +23430,6 @@ svg.elements.feSpotLight.z`
                                 "<number>",
                                 "Text after link:",
                                 "*; "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<number>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "auto",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "auto-reverse",
-                                "Text before code:",
-                                "|"
-                              ]
-                            }
-                          ]
-                        },
-                        circle: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/circle",
-                          messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            }
-                          ]
-                        },
-                        clippath: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/clipPath",
-                          messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "userSpaceOnUse",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "objectBoundingBox",
-                                "Text before code:",
-                                "|"
                               ]
                             }
                           ]
@@ -23676,92 +23473,6 @@ svg.elements.feSpotLight.z`
                               data: [
                                 "http://xn--dahlstrm-t4a.net/svg/smil/svgt12_discard.svg",
                                 ""
-                              ]
-                            }
-                          ]
-                        },
-                        ellipse: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/ellipse",
-                          messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "auto",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "auto",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
                               ]
                             }
                           ]
@@ -23922,76 +23633,6 @@ svg.elements.feSpotLight.z`
                             }
                           ]
                         },
-                        foreignobject: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/foreignObject",
-                          messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            }
-                          ]
-                        },
                         glyph: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Element/glyph",
@@ -24045,545 +23686,9 @@ svg.elements.feSpotLight.z`
                           slug: "/en-US/docs/Web/SVG/Reference/Element/image",
                           messages: [
                             {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "none",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMinYMin",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMidYMin",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMaxYMin",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMinYMid",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMidYMid",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMaxYMid",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMinYMax",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMidYMax",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "meet",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "slice",
-                                "Text before code:",
-                                "|"
-                              ]
-                            },
-                            {
                               message: "Unused image",
                               data: [
                                 "mdn_logo_only_color.png"
-                              ]
-                            }
-                          ]
-                        },
-                        line: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/line",
-                          messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<number>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<number>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<number>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<number>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            }
-                          ]
-                        },
-                        lineargradient: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/linearGradient",
-                          messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "userSpaceOnUse",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "objectBoundingBox",
-                                "Text before code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "pad",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "reflect",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "repeat",
-                                "Text before code:",
-                                "|"
-                              ]
-                            }
-                          ]
-                        },
-                        marker: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/marker",
-                          messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "userSpaceOnUse",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "strokeWidth",
-                                "Text before code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "auto",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "auto-start-reverse",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<angle>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "none",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMinYMin",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMidYMin",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMaxYMin",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMinYMid",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMidYMid",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMaxYMid",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMinYMax",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMidYMax",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "meet",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "slice",
-                                "Text before code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "left",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "center",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "right",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<coordinate>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "top",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "center",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "bottom",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<coordinate>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            }
-                          ]
-                        },
-                        mask: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/mask",
-                          messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "userSpaceOnUse",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "objectBoundingBox",
-                                "Text before code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "userSpaceOnUse",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "objectBoundingBox",
-                                "Text before code:",
-                                "|"
                               ]
                             }
                           ]
@@ -24600,132 +23705,6 @@ svg.elements.feSpotLight.z`
                             }
                           ]
                         },
-                        pattern: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/pattern",
-                          messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "userSpaceOnUse",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "objectBoundingBox",
-                                "Text before code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "userSpaceOnUse",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "objectBoundingBox",
-                                "Text before code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "none",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMinYMin",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMidYMin",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMaxYMin",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMinYMid",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMidYMid",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMaxYMid",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMinYMax",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMidYMax",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "meet",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "slice",
-                                "Text before code:",
-                                "|"
-                              ]
-                            }
-                          ]
-                        },
                         polygon: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Element/polygon",
@@ -24735,7 +23714,7 @@ svg.elements.feSpotLight.z`
                               data: [
                                 "<number>",
                                 "Text after link:",
-                                "+ ; "
+                                "+; "
                               ]
                             }
                           ]
@@ -24749,209 +23728,7 @@ svg.elements.feSpotLight.z`
                               data: [
                                 "<number>",
                                 "Text after link:",
-                                "+ ; "
-                              ]
-                            }
-                          ]
-                        },
-                        radialgradient: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/radialGradient",
-                          messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "userSpaceOnUse",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "objectBoundingBox",
-                                "Text before code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "pad",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "reflect",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "repeat",
-                                "Text before code:",
-                                "|"
-                              ]
-                            }
-                          ]
-                        },
-                        rect: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/rect",
-                          messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "auto",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "auto",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "auto",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "auto",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            }
-                          ]
-                        },
-                        stop: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/stop",
-                          messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<number>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
+                                "+; "
                               ]
                             }
                           ]
@@ -24960,158 +23737,6 @@ svg.elements.feSpotLight.z`
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Element/svg",
                           messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "none",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMinYMin",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMidYMin",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMaxYMin",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMinYMid",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMidYMid",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMaxYMid",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMinYMax",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMidYMax",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "meet",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "slice",
-                                "Text before code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
                             {
                               message: "HTML code issue",
                               data: [
@@ -25138,464 +23763,6 @@ svg.elements.feSpotLight.z`
                             }
                           ]
                         },
-                        symbol: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/symbol",
-                          messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "none",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMinYMin",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMidYMin",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMaxYMin",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMinYMid",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMidYMid",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMaxYMid",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMinYMax",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMidYMax",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "meet",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "slice",
-                                "Text before code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "left",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "center",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "right",
-                                "Text before code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "top",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "center",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "bottom",
-                                "Text before code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            }
-                          ]
-                        },
-                        text: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/text",
-                          messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "spacing",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "spacingAndGlyphs",
-                                "Text before code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            }
-                          ]
-                        },
-                        textpath: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/textPath",
-                          messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "spacing",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "spacingAndGlyphs",
-                                "Text before code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "align",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "stretch",
-                                "Text before code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "left",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "right",
-                                "Text before code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "auto",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "exact",
-                                "Text before code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<number>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<number>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            }
-                          ]
-                        },
                         tref: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Element/tref",
@@ -25608,200 +23775,10 @@ svg.elements.feSpotLight.z`
                             }
                           ]
                         },
-                        tspan: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/tspan",
-                          messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "spacing",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "spacingAndGlyphs",
-                                "Text before code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<length>",
-                                "Text after link:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<percentage>",
-                                "Text before link:",
-                                "|"
-                              ]
-                            }
-                          ]
-                        },
                         view: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Element/view",
                           messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "none",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMinYMin",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMidYMin",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMaxYMin",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMinYMid",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMidYMid",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMaxYMid",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMinYMax",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "xMidYMax",
-                                "Text after code:",
-                                "| "
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "meet",
-                                "Text after code:",
-                                "|"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "slice",
-                                "Text before code:",
-                                "|"
-                              ]
-                            },
                             {
                               message: "Unused image",
                               data: [
