@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-c9y25fyh.js";
+} from "./chunk-me3741zj.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -239,16 +239,6 @@ var warnings_processed_default = {
                           ]
                         }
                       ]
-                    },
-                    glsl_shaders: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Techniques/3D_on_the_web/GLSL_Shaders",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Games/Techniques/3D_on_the_web",
@@ -336,10 +326,6 @@ var warnings_processed_default = {
                       data: [
                         "/en-US/docs/Games/Techniques"
                       ]
-                    },
-                    {
-                      message: "Unreachable via sidebar",
-                      data: []
                     }
                   ]
                 },
@@ -352,10 +338,6 @@ var warnings_processed_default = {
                       data: [
                         "/en-US/docs/Games/Techniques"
                       ]
-                    },
-                    {
-                      message: "Unreachable via sidebar",
-                      data: []
                     },
                     {
                       message: "Unreachable via page",
@@ -414,10 +396,6 @@ var warnings_processed_default = {
                   ]
                 },
                 {
-                  message: "Unreachable via sidebar",
-                  data: []
-                },
-                {
                   message: "Unreachable via page",
                   data: []
                 }
@@ -429,10 +407,6 @@ var warnings_processed_default = {
                   children: {},
                   slug: "/en-US/docs/Games/Tools/asm.js",
                   messages: [
-                    {
-                      message: "Unreachable via sidebar",
-                      data: []
-                    },
                     {
                       message: "HTTP link",
                       data: [
@@ -459,21 +433,7 @@ var warnings_processed_default = {
                   ]
                 },
                 {
-                  message: "Unreachable via sidebar",
-                  data: []
-                },
-                {
                   message: "Unreachable via page",
-                  data: []
-                }
-              ]
-            },
-            tutorials: {
-              children: {},
-              slug: "/en-US/docs/Games/Tutorials",
-              messages: [
-                {
-                  message: "Unreachable via sidebar",
                   data: []
                 }
               ]
@@ -564,6 +524,19 @@ var warnings_processed_default = {
                     "Parsing error: ')' expected.",
                     "if (boolean conditional) {",
                     "2:9"
+                  ]
+                }
+              ]
+            },
+            browser: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Browser",
+              messages: [
+                {
+                  message: "Redirected external link",
+                  data: [
+                    "https://www.mozilla.org/en-US/firefox/",
+                    "https://www.mozilla.org/en-US/firefox/new/"
                   ]
                 }
               ]
@@ -799,19 +772,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            glyph: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Glyph",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.quora.com/Whats-the-difference-between-a-character-a-glyph-and-a-grapheme/answer/Thomas-Phinney",
-                    504
-                  ]
-                }
-              ]
-            },
             "high-level_programming_language": {
               children: {},
               slug: "/en-US/docs/Glossary/High-level_programming_language",
@@ -970,6 +930,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            mozilla_firefox: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Mozilla_Firefox",
+              messages: [
+                {
+                  message: "Redirected external link",
+                  data: [
+                    "https://www.mozilla.org/en-US/firefox/",
+                    "https://www.mozilla.org/en-US/firefox/new/"
+                  ]
                 }
               ]
             },
@@ -1465,7 +1438,17 @@ var warnings_processed_default = {
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/WAI-ARIA_basics",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://jqueryui.com/about/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     }
                   }
                 },
@@ -1523,14 +1506,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            'Unexpected closing tag "p". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                            "  quam nec lacus varius commodo et a urna. Ut id ornare felis, eget fermentum sapien.</p>",
-                            "9:85"
-                          ]
                         }
                       ]
                     },
@@ -2200,6 +2175,13 @@ var warnings_processed_default = {
                           data: [
                             "mdn_logo.svg"
                           ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.mozilla.org/en-US/firefox/",
+                            "https://www.mozilla.org/en-US/firefox/new/"
+                          ]
                         }
                       ]
                     },
@@ -2232,28 +2214,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    },
-                    html_forms: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_forms",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            'Unexpected closing tag "p". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                            "  </p>",
-                            "16:2"
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            'Unexpected closing tag "p". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                            "  </p>",
-                            "31:2"
-                          ]
                         }
                       ]
                     },
@@ -2469,6 +2429,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://jqueryui.com/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2499,6 +2466,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.uxforthemasses.com/forms-usability/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2636,6 +2610,19 @@ var warnings_processed_default = {
                         }
                       ]
                     },
+                    "ui_pseudo-classes": {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://mdn.github.io/learning-area/html/forms/pseudo-classes/required-optional-generated.html",
+                            503
+                          ]
+                        }
+                      ]
+                    },
                     user_input_methods: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/User_input_methods",
@@ -2745,19 +2732,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    testing_strategies: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/jazzband/django-waffle",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
                     your_own_automation_environment: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Your_own_automation_environment",
@@ -2778,6 +2752,19 @@ var warnings_processed_default = {
               children: {
                 environment_setup: {
                   children: {
+                    browsing_the_web: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Browsing_the_web",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://duckduckgo.com/duckduckgo-help-pages/results/syntax/",
+                            "https://duckduckgo.com/duckduckgo-help-pages/results/syntax"
+                          ]
+                        }
+                      ]
+                    },
                     dealing_with_files: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Dealing_with_files",
@@ -3063,36 +3050,8 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://macromates.com/",
-                            "Unable to connect. Is the computer able to access the url?"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://webchat.freenode.net/?channels=textmate",
                             521
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://lists.macromates.com/postorius/lists/textmate.lists.macromates.com/",
-                            "Unable to connect. Is the computer able to access the url?"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://macromates.com/manual/en/",
-                            "Unable to connect. Is the computer able to access the url?"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://macromates.com/textmate/manual/bundles",
-                            "Unable to connect. Is the computer able to access the url?"
                           ]
                         }
                       ]
@@ -4531,14 +4490,7 @@ var warnings_processed_default = {
                             }
                           }
                         }
-                      },
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
+                      }
                     },
                     modify_a_web_page: {
                       children: {},
@@ -4555,16 +4507,6 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Mozilla/Add-ons/WebExtensions"
                           ]
-                        }
-                      ]
-                    },
-                    native_manifests: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_manifests",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -4601,36 +4543,8 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Mozilla/Add-ons/WebExtensions"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
-                    },
-                    user_interface: {
-                      children: {
-                        browser_styles: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Browser_styles",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        popups: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Popups",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        }
-                      }
                     },
                     what_next: {
                       children: {},
@@ -6702,6 +6616,13 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Mozilla/Add-ons/Add-on_Debugger"
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/web-animations/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -7697,20 +7618,6 @@ var warnings_processed_default = {
                             }
                           ]
                         },
-                        "using_firefox_1.5_caching": {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Firefox/Releases/1.5/Using_Firefox_1.5_caching",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                'Unexpected closing tag "head". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                                "</head>",
-                                "22:0"
-                              ]
-                            }
-                          ]
-                        },
                         "what_s_new_in_1.5_alpha": {
                           children: {},
                           slug: "/en-US/docs/Mozilla/Firefox/Releases/1.5/What_s_new_in_1.5_alpha",
@@ -8255,6 +8162,13 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/XPCOM_Interface_Reference/nsIAccessibleEvent"
                           ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.mozilla.org/en-US/firefox/",
+                            "https://www.mozilla.org/en-US/firefox/new/"
+                          ]
                         }
                       ]
                     }
@@ -8266,6 +8180,20 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via sidebar",
                   data: []
+                },
+                {
+                  message: "Redirected external link",
+                  data: [
+                    "https://www.mozilla.org/en-US/firefox/",
+                    "https://www.mozilla.org/en-US/firefox/new/"
+                  ]
+                },
+                {
+                  message: "Redirected external link",
+                  data: [
+                    "https://www.mozilla.org/en-US/firefox/",
+                    "https://www.mozilla.org/en-US/firefox/new/"
+                  ]
                 }
               ]
             }
@@ -8285,30 +8213,18 @@ var warnings_processed_default = {
             {
               message: "Unreachable via page",
               data: []
+            },
+            {
+              message: "Redirected external link",
+              data: [
+                "https://www.mozilla.org/en-US/firefox/",
+                "https://www.mozilla.org/en-US/firefox/new/"
+              ]
             }
           ]
         },
         related: {
-          children: {
-            imsc: {
-              children: {
-                using_the_imscjs_polyfill: {
-                  children: {},
-                  slug: "/en-US/docs/Related/IMSC/Using_the_imscJS_polyfill",
-                  messages: [
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        'Unexpected character "EOF"',
-                        "",
-                        "1:0"
-                      ]
-                    }
-                  ]
-                }
-              }
-            }
-          },
+          children: {},
           slug: "/en-US/docs/Related",
           messages: [
             {
@@ -8384,60 +8300,15 @@ var warnings_processed_default = {
                         },
                         roles: {
                           children: {
-                            menuitemcheckbox_role: {
+                            dialog_role: {
                               children: {},
-                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/menuitemcheckbox_role",
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/dialog_role",
                               messages: [
                                 {
-                                  message: "HTML code issue",
+                                  message: "Broken external link",
                                   data: [
-                                    'Unexpected closing tag "li". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                                    '<div role="menuitemcheckbox"><h6>Name of my checkbox</h6></li>',
-                                    "0:57"
-                                  ]
-                                },
-                                {
-                                  message: "HTML code issue",
-                                  data: [
-                                    'Unexpected closing tag "li". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                                    '<div role="menuitemcheckbox"><h6 role="presentation">Name of my checkbox</h6></li>',
-                                    "0:77"
-                                  ]
-                                }
-                              ]
-                            },
-                            menuitemradio_role: {
-                              children: {},
-                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/menuitemradio_role",
-                              messages: [
-                                {
-                                  message: "HTML code issue",
-                                  data: [
-                                    'Unexpected closing tag "li". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                                    '<div role="menuitemradio"><h6>Name of my radio button</h6></li>',
-                                    "0:58"
-                                  ]
-                                },
-                                {
-                                  message: "HTML code issue",
-                                  data: [
-                                    'Unexpected closing tag "li". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                                    '<div role="menuitemradio"><h6 role="presentation">Name of my radio button</h6></li>',
-                                    "0:78"
-                                  ]
-                                }
-                              ]
-                            },
-                            scrollbar_role: {
-                              children: {},
-                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/scrollbar_role",
-                              messages: [
-                                {
-                                  message: "HTML code issue",
-                                  data: [
-                                    'Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                                    '<span id="pi-label">Pi</div>',
-                                    "0:22"
+                                    "https://jqueryui.com/dialog/",
+                                    "The operation timed out."
                                   ]
                                 }
                               ]
@@ -8476,6 +8347,27 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Web/Accessibility/Guides/Accessibility_and_Spatial_Patterns",
                       messages: [
                         {
+                          message: "Redirected external link",
+                          data: [
+                            "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1528-1167.2005.01405.x",
+                            "https://onlinelibrary.wiley.com/action/cookieAbsent"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1528-1167.2005.01405.x",
+                            "https://onlinelibrary.wiley.com/action/cookieAbsent"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1528-1167.2005.01405.x",
+                            "https://onlinelibrary.wiley.com/action/cookieAbsent"
+                          ]
+                        },
+                        {
                           message: "HTTP link",
                           data: [
                             "http://diagramcenter.org/",
@@ -8484,10 +8376,37 @@ var warnings_processed_default = {
                         }
                       ]
                     },
+                    colors_and_luminance: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1528-1167.2005.31405.x",
+                            "https://onlinelibrary.wiley.com/action/cookieAbsent"
+                          ]
+                        }
+                      ]
+                    },
                     seizure_disorders: {
                       children: {},
                       slug: "/en-US/docs/Web/Accessibility/Guides/Seizure_disorders",
                       messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1528-1167.2005.31405.x",
+                            "https://onlinelibrary.wiley.com/action/cookieAbsent"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://onlinelibrary.wiley.com/doi/full/10.1111/epi.17175",
+                            "https://onlinelibrary.wiley.com/action/cookieAbsent"
+                          ]
+                        },
                         {
                           message: "HTTP link",
                           data: [
@@ -8749,20 +8668,6 @@ var warnings_processed_default = {
                 },
                 canvas_api: {
                   children: {
-                    manipulating_video_using_canvas: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Canvas_API/Manipulating_video_using_canvas",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            'Only void, custom and foreign elements can be self closed "video"',
-                            "      <video",
-                            "26:6"
-                          ]
-                        }
-                      ]
-                    },
                     tutorial: {
                       children: {
                         applying_styles_and_colors: {
@@ -9027,14 +8932,6 @@ var warnings_processed_default = {
                           message: "Unused image",
                           data: [
                             "magic-wand.png"
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            'Unexpected closing tag "table". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                            "</table>",
-                            "12:0"
                           ]
                         }
                       ]
@@ -9473,42 +9370,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                documentfragment: {
-                  children: {
-                    getelementbyid: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/DocumentFragment/getElementById",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            'Only void, custom and foreign elements can be self closed "pre"',
-                            '<pre id="log" />',
-                            "9:0"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                domimplementation: {
-                  children: {
-                    createhtmldocument: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/DOMImplementation/createHTMLDocument",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            'Only void, custom and foreign elements can be self closed "iframe"',
-                            '  <iframe id="theFrame" src="about:blank" />',
-                            "5:2"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 dragevent: {
                   children: {},
                   slug: "/en-US/docs/Web/API/DragEvent",
@@ -9531,20 +9392,6 @@ var warnings_processed_default = {
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/rachelnabors/pen/rxpmJL/?editors=0010"
-                          ]
-                        }
-                      ]
-                    },
-                    ariacolspan: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/ariaColSpan",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            'Unexpected closing tag "td". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                            "    <th>Heading 3</td>",
-                            "4:17"
                           ]
                         }
                       ]
@@ -9707,26 +9554,7 @@ var warnings_processed_default = {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/Geolocation_API",
-                  messages: [
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        'Only void, custom and foreign elements can be self closed "iframe"',
-                        '<iframe src="https://b.example.com" allow="geolocation"/></iframe>',
-                        "0:0"
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        'Unexpected closing tag "iframe". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                        '<iframe src="https://b.example.com" allow="geolocation"/></iframe>',
-                        "0:57"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 history_api: {
                   children: {
@@ -9816,24 +9644,6 @@ var warnings_processed_default = {
                     }
                   ]
                 },
-                htmlareaelement: {
-                  children: {
-                    referrerpolicy: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLAreaElement/referrerPolicy",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            'Only void, custom and foreign elements can be self closed "map"',
-                            '<map id="myMap" name="mapAround" />>',
-                            "1:0"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 htmlbodyelement: {
                   children: {},
                   slug: "/en-US/docs/Web/API/HTMLBodyElement",
@@ -9922,44 +9732,6 @@ var warnings_processed_default = {
                           ]
                         }
                       ]
-                    },
-                    translate: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLElement/translate",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            'Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                            '  <span translate="yes">El contenido será traducido</div>',
-                            "2:51"
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            'Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                            "</div>",
-                            "3:0"
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            'Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                            '  <span id="translate-element" translate="no">El contenido puede ser traducido.</div>',
-                            "6:79"
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            'Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                            "</div>",
-                            "7:0"
-                          ]
-                        }
-                      ]
                     }
                   }
                 },
@@ -10024,76 +9796,6 @@ var warnings_processed_default = {
                           ]
                         }
                       ]
-                    },
-                    x: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLImageElement/x",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            'Unexpected closing tag "th". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                            "  </th>",
-                            "14:2"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                htmlinputelement: {
-                  children: {
-                    list: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLInputElement/list",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            'Only void, custom and foreign elements can be self closed "option"',
-                            '  <option value="Azarath" />',
-                            "3:2"
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            'Only void, custom and foreign elements can be self closed "option"',
-                            '  <option value="Krypton" />',
-                            "4:2"
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            'Only void, custom and foreign elements can be self closed "option"',
-                            '  <option value="Tamaran" />',
-                            "5:2"
-                          ]
-                        }
-                      ]
-                    },
-                    reportvalidity: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLInputElement/reportValidity",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            'Unexpected closing tag "p". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                            "   </p>",
-                            "0:3"
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            'Unexpected closing tag "form". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                            "</form>",
-                            "2:0"
-                          ]
-                        }
-                      ]
                     }
                   }
                 },
@@ -10151,24 +9853,6 @@ var warnings_processed_default = {
                     }
                   ]
                 },
-                htmloptionelement: {
-                  children: {
-                    disabled: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLOptionElement/disabled",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            'Unexpected closing tag "option". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                            "</option>",
-                            "6:0"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 htmlselectedcontentelement: {
                   children: {},
                   slug: "/en-US/docs/Web/API/HTMLSelectedContentElement",
@@ -10180,80 +9864,6 @@ var warnings_processed_default = {
                       ]
                     }
                   ]
-                },
-                htmlstyleelement: {
-                  children: {
-                    sheet: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLStyleElement/sheet",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            'Unexpected character "EOF"',
-                            "",
-                            "6:0"
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            'Only void, custom and foreign elements can be self closed "style"',
-                            '    <style media="print" />',
-                            "2:4"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                htmltextareaelement: {
-                  children: {
-                    maxlength: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLTextAreaElement/maxLength",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            'Only void, custom and foreign elements can be self closed "textarea"',
-                            '  <textarea id="comment" minlength="10" maxlength="200" /></textarea>',
-                            "2:2"
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            'Unexpected closing tag "textarea". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                            '  <textarea id="comment" minlength="10" maxlength="200" /></textarea>',
-                            "2:58"
-                          ]
-                        }
-                      ]
-                    },
-                    minlength: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLTextAreaElement/minLength",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            'Only void, custom and foreign elements can be self closed "textarea"',
-                            '  <textarea id="comment" minlength="10" maxlength="200" /></textarea>',
-                            "2:2"
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            'Unexpected closing tag "textarea". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                            '  <textarea id="comment" minlength="10" maxlength="200" /></textarea>',
-                            "2:58"
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 identitycredentialrequestoptions: {
                   children: {},
@@ -10771,19 +10381,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                presentation_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Presentation_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.dlna.org/",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                      ]
-                    }
-                  ]
-                },
                 profiler: {
                   children: {
                     samplebufferfull_event: {
@@ -11235,28 +10832,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                screen_wake_lock_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Screen_Wake_Lock_API",
-                  messages: [
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        'Only void, custom and foreign elements can be self closed "iframe"',
-                        '<iframe src="https://b.example.com" allow="screen-wake-lock"/></iframe>',
-                        "0:0"
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        'Unexpected closing tag "iframe". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                        '<iframe src="https://b.example.com" allow="screen-wake-lock"/></iframe>',
-                        "0:62"
-                      ]
-                    }
-                  ]
-                },
                 sharedstorageoperation: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SharedStorageOperation",
@@ -11530,24 +11105,6 @@ var warnings_processed_default = {
                     }
                   ]
                 },
-                svgradialgradientelement: {
-                  children: {
-                    fr: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGRadialGradientElement/fr",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            'Unexpected closing tag ":svg:radialGradient". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                            "    </radialGradient>",
-                            "6:4"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 svgrenderingintent: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SVGRenderingIntent",
@@ -11673,20 +11230,6 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                treewalker: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/TreeWalker",
-                  messages: [
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        'Unexpected closing tag "html". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                        "</html>",
-                        "6:0"
-                      ]
-                    }
-                  ]
                 },
                 ui_events: {
                   children: {
@@ -11895,20 +11438,6 @@ var warnings_processed_default = {
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/Wilto/pen/ZoGoQm?editors=1100"
-                          ]
-                        }
-                      ]
-                    },
-                    controlling_multiple_parameters_with_constantsourcenode: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Web_Audio_API/Controlling_multiple_parameters_with_ConstantSourceNode",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            'Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                            "</div>",
-                            "7:0"
                           ]
                         }
                       ]
@@ -12872,20 +12401,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    devicepixelratio: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/devicePixelRatio",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            'Unexpected closing tag "p". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                            "  </p>",
-                            "6:2"
-                          ]
-                        }
-                      ]
-                    },
                     paste_event: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Window/paste_event",
@@ -13186,20 +12701,6 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                xmlhttprequestupload: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/XMLHttpRequestUpload",
-                  messages: [
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        'Only void, custom and foreign elements can be self closed "progress"',
-                        "        <progress />",
-                        "16:8"
-                      ]
-                    }
-                  ]
                 },
                 xpathresult: {
                   children: {},
@@ -14578,13 +14079,6 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://stuffandnonsense.co.uk/blog/redesigning-your-product-and-website-for-dark-mode",
-                            500
-                          ]
                         }
                       ]
                     },
@@ -15324,12 +14818,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/color_value/color",
                       messages: [
                         {
-                          message: "Missing data",
-                          data: [
-                            "CSS formal syntax"
-                          ]
-                        },
-                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word color (CssSyntaxError)",
@@ -15818,14 +15306,6 @@ css.selectors.-webkit-resizer`,
                       message: "Unused image",
                       data: [
                         "2x.png"
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        'Unexpected closing tag "li". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                        "  </li>",
-                        "11:2"
                       ]
                     }
                   ]
@@ -17796,14 +17276,6 @@ css.properties.width.fit-content_function`
                     {
                       message: "HTML code issue",
                       data: [
-                        'Unexpected closing tag "p". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                        "  <p><line-style></p>",
-                        "1:17"
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
                         'Unexpected closing tag "section". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
                         "</section>",
                         "22:0"
@@ -17983,14 +17455,6 @@ css.properties.grid-template-rows.minmax`
                       data: [
                         "https://jsfiddle.net/ericwilligers/r1snqdan/"
                       ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        'Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                        "</div>",
-                        "6:0"
-                      ]
                     }
                   ]
                 },
@@ -18061,20 +17525,6 @@ css.properties.grid-template-rows.minmax`
                     {
                       message: "Missing syntax code block",
                       data: []
-                    }
-                  ]
-                },
-                ray: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/ray",
-                  messages: [
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        'Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                        "</div>",
-                        "44:0"
-                      ]
                     }
                   ]
                 },
@@ -18613,20 +18063,6 @@ css.properties.list-style-type.symbols`
                     {
                       message: "Missing syntax code block",
                       data: []
-                    }
-                  ]
-                },
-                "text-emphasis-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-emphasis-position",
-                  messages: [
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        'Unexpected closing tag "position". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                        '<label for="position">Emphasis position:</position>',
-                        "1:40"
-                      ]
                     }
                   ]
                 },
@@ -19790,8 +19226,8 @@ html.elements.select.size`
                               message: "HTML code issue",
                               data: [
                                 'Unexpected closing tag "rtc". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                                "    </rtc>",
-                                "9:4"
+                                "  </rtc>",
+                                "9:2"
                               ]
                             },
                             {
@@ -19838,20 +19274,6 @@ html.elements.select.size`
                               ]
                             }
                           }
-                        },
-                        table: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/table",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                'Unexpected closing tag "table". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                                "</table>",
-                                "171:0"
-                              ]
-                            }
-                          ]
                         },
                         td: {
                           children: {},
@@ -19936,38 +19358,7 @@ html.elements.select.size`
                       ]
                     },
                     cors: {
-                      children: {
-                        errors: {
-                          children: {
-                            corsalloworiginnotmatchingorigin: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Guides/CORS/Errors/CORSAllowOriginNotMatchingOrigin",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://enable-cors.org/server.html",
-                                    500
-                                  ]
-                                }
-                              ]
-                            },
-                            corsmultiplealloworiginnotallowed: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Guides/CORS/Errors/CORSMultipleAllowOriginNotAllowed",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://enable-cors.org/server.html",
-                                    500
-                                  ]
-                                }
-                              ]
-                            }
-                          }
-                        }
-                      },
+                      children: {},
                       slug: "/en-US/docs/Web/HTTP/Guides/CORS",
                       messages: [
                         {
@@ -19976,13 +19367,6 @@ html.elements.select.size`
                             ": true",
                             "Text before code:",
                             "Access-Control-Allow-Credentials"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://enable-cors.org/server.html",
-                            500
                           ]
                         }
                       ]
@@ -20149,20 +19533,6 @@ html.elements.select.size`
                                     ": manifest-src",
                                     "Text before code:",
                                     "Content-Security-Policy"
-                                  ]
-                                }
-                              ]
-                            },
-                            "object-src": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/object-src",
-                              messages: [
-                                {
-                                  message: "HTML code issue",
-                                  data: [
-                                    'Void elements do not have end tags "embed"',
-                                    '<embed src="https://not-example.com/flash"></embed>',
-                                    "0:43"
                                   ]
                                 }
                               ]
@@ -21728,20 +21098,6 @@ html.elements.select.size`
               children: {
                 guides: {
                   children: {
-                    linking: {
-                      children: {},
-                      slug: "/en-US/docs/Web/SVG/Guides/Linking",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            'Only void, custom and foreign elements can be self closed "object"',
-                            '    <object width="100" height="50" type="image/svg+xml" data="button.svg" />',
-                            "3:4"
-                          ]
-                        }
-                      ]
-                    },
                     namespaces_crash_course: {
                       children: {
                         example: {
@@ -23199,7 +22555,7 @@ svg.elements.view.preserveAspectRatio`
                               data: [
                                 'Unexpected closing tag ":svg:svg". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
                                 "</svg>",
-                                "12:0"
+                                "0:0"
                               ]
                             },
                             {
@@ -23207,23 +22563,7 @@ svg.elements.view.preserveAspectRatio`
                               data: [
                                 'Unexpected closing tag ":svg:svg". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
                                 "</svg>",
-                                "12:0"
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                'Opening tag "rect" not terminated.',
-                                '  <rect x=0" y="0" width="30" height="75">',
-                                "0:2"
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                'Unexpected closing tag "rect". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                                "  </rect>",
-                                "2:2"
+                                "0:0"
                               ]
                             },
                             {
@@ -23231,7 +22571,7 @@ svg.elements.view.preserveAspectRatio`
                               data: [
                                 'Unexpected closing tag ":svg:svg". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
                                 "</svg>",
-                                "12:0"
+                                "0:0"
                               ]
                             },
                             {
@@ -24462,26 +23802,6 @@ svg.elements.feSpotLight.z`
                             }
                           ]
                         },
-                        fediffuselighting: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feDiffuseLighting",
-                          messages: [
-                            {
-                              message: "Broken anchor",
-                              data: [
-                                "/en-US/docs/Web/SVG/Reference/Element",
-                                "#descriptive"
-                              ]
-                            },
-                            {
-                              message: "Broken anchor",
-                              data: [
-                                "/en-US/docs/Web/SVG/Reference/Element",
-                                "#lightsource"
-                              ]
-                            }
-                          ]
-                        },
                         feimage: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Element/feImage",
@@ -24502,26 +23822,6 @@ svg.elements.feSpotLight.z`
                               message: "Unused image",
                               data: [
                                 "mdn_logo_only_color.png"
-                              ]
-                            }
-                          ]
-                        },
-                        fespecularlighting: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feSpecularLighting",
-                          messages: [
-                            {
-                              message: "Broken anchor",
-                              data: [
-                                "/en-US/docs/Web/SVG/Reference/Element",
-                                "#lightsource"
-                              ]
-                            },
-                            {
-                              message: "Broken anchor",
-                              data: [
-                                "/en-US/docs/Web/SVG/Reference/Element",
-                                "#descriptive"
                               ]
                             }
                           ]
@@ -24566,13 +23866,6 @@ svg.elements.feSpotLight.z`
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Element/font-face",
                           messages: [
-                            {
-                              message: "Broken anchor",
-                              data: [
-                                "/en-US/docs/Web/SVG/Reference/Element",
-                                "#descriptive"
-                              ]
-                            },
                             {
                               message: "Not in BCD",
                               data: [
@@ -26637,22 +25930,6 @@ svg.elements.feSpotLight.z`
                             {
                               message: "Missing syntax code block",
                               data: []
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                'Opening tag "a" not terminated.',
-                                'data:text/html,lots of text…<p><a name%3D"bottom">bottom</a>?arg=val</p>',
-                                "0:31"
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                'Unexpected closing tag "a". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                                'data:text/html,lots of text…<p><a name%3D"bottom">bottom</a>?arg=val</p>',
-                                "0:56"
-                              ]
                             }
                           ]
                         },
@@ -26699,6 +25976,23 @@ svg.elements.feSpotLight.z`
               children: {
                 reference: {
                   children: {
+                    capabilities: {
+                      children: {
+                        firefoxoptions: {
+                          children: {},
+                          slug: "/en-US/docs/Web/WebDriver/Reference/Capabilities/firefoxOptions",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://www.mozilla.org/en-US/firefox/",
+                                "https://www.mozilla.org/en-US/firefox/new/"
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     timeouts: {
                       children: {},
                       slug: "/en-US/docs/Web/WebDriver/Reference/Timeouts",
