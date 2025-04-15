@@ -157,12 +157,9 @@
 /en-US/docs/Web/CSS/@media/vertical-viewport-segments
 /en-US/docs/Web/CSS/@media/video-color-gamut
 
-/en-US/docs/Web/CSS/::scroll-marker
-/en-US/docs/Web/CSS/::scroll-marker-group
 /en-US/docs/Web/CSS/:active-view-transition
 /en-US/docs/Web/CSS/:active-view-transition
 /en-US/docs/Web/CSS/:active-view-transition-type
-/en-US/docs/Web/CSS/:target-current
 /en-US/docs/Web/CSS/:xr-overlay
 /en-US/docs/Web/CSS/@page/bleed
 /en-US/docs/Web/CSS/@page/marks
