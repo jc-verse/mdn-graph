@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-38zmsdvt.js";
+} from "./chunk-rexytvx9.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -1691,6 +1691,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://api.emberjs.com/ember/release/classes/route/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2047,7 +2054,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~06e?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~06e?via=mdn&rt=59qvlern&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~06e?via=mdn&rt=6tkb50h9&redir=1"
                           ]
                         }
                       ]
@@ -2301,14 +2308,14 @@ var warnings_processed_default = {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/learn-html-and-css-c0p?via=mdn",
-                        "https://scrimba.com/learn-html-and-css-c0p?via=mdn&rt=6v141kp8&redir=1"
+                        "https://scrimba.com/learn-html-and-css-c0p?via=mdn&rt=vifbr401&redir=1"
                       ]
                     },
                     {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~0xid?via=mdn",
-                        "https://scrimba.com/the-frontend-developer-career-path-c0j/~0xid?via=mdn&rt=73j4nmuv&redir=1"
+                        "https://scrimba.com/the-frontend-developer-career-path-c0j/~0xid?via=mdn&rt=eeivc9ne&redir=1"
                       ]
                     }
                   ]
@@ -2789,7 +2796,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/learn-javascript-c0v?via=mdn",
-                            "https://scrimba.com/learn-javascript-c0v?via=mdn&rt=s2kdvq8d&redir=1"
+                            "https://scrimba.com/learn-javascript-c0v?via=mdn&rt=o53ombbg&redir=1"
                           ]
                         }
                       ]
@@ -2802,14 +2809,14 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~0xid?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~0xid?via=mdn&rt=73j4nmuv&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~0xid?via=mdn&rt=eeivc9ne&redir=1"
                           ]
                         },
                         {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/learn-html-and-css-c0p?via=mdn",
-                            "https://scrimba.com/learn-html-and-css-c0p?via=mdn&rt=6v141kp8&redir=1"
+                            "https://scrimba.com/learn-html-and-css-c0p?via=mdn&rt=vifbr401&redir=1"
                           ]
                         }
                       ]
@@ -2822,14 +2829,14 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~015?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~015?via=mdn&rt=s8bu2b7v&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~015?via=mdn&rt=o0ikiqnh&redir=1"
                           ]
                         },
                         {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/learn-html-and-css-c0p?via=mdn",
-                            "https://scrimba.com/learn-html-and-css-c0p?via=mdn&rt=6v141kp8&redir=1"
+                            "https://scrimba.com/learn-html-and-css-c0p?via=mdn&rt=vifbr401&redir=1"
                           ]
                         }
                       ]
@@ -2843,7 +2850,7 @@ var warnings_processed_default = {
                   message: "Redirected external link",
                   data: [
                     "https://v2.scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
-                    "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=ch73ro1o&redir=1"
+                    "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=el4pjljh&redir=1"
                   ]
                 }
               ]
@@ -3133,6 +3140,19 @@ var warnings_processed_default = {
                         }
                       ]
                     },
+                    how_do_you_host_your_website_on_google_app_engine: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gaesamplesite.appspot.com/downloads.html",
+                            503
+                          ]
+                        }
+                      ]
+                    },
                     what_software_do_i_need: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
@@ -3197,7 +3217,7 @@ var warnings_processed_default = {
               message: "Redirected external link",
               data: [
                 "https://v2.scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
-                "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=ch73ro1o&redir=1"
+                "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=el4pjljh&redir=1"
               ]
             }
           ]
@@ -4637,6 +4657,13 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_contextual_identities",
                       messages: [
                         {
+                          message: "Redirected external link",
+                          data: [
+                            "https://blog.mozilla.org/en/products/firefox/introducing-firefox-multi-account-containers/",
+                            "https://blog.mozilla.org/en/firefox/introducing-firefox-multi-account-containers/"
+                          ]
+                        },
+                        {
                           message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
@@ -4799,6 +4826,20 @@ var warnings_processed_default = {
                           data: [
                             "http://www.aha-soft.com/free-icons/free-retina-icon-set/",
                             ""
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.iconbeast.com/free/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.iconbeast.com/faq/",
+                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -8414,6 +8455,20 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Web/Accessibility/Guides/Seizure_disorders",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.cedars-sinai.org/health-library/diseases-and-conditions/p/photosensitive-seizures.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.cedars-sinai.org/health-library/diseases-and-conditions/p/photosensitive-seizures.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "HTTP link",
                           data: [
                             "http://diagramcenter.org/",
@@ -9504,20 +9559,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                fetchlaterresult: {
-                  children: {
-                    activated: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/FetchLaterResult/activated",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
                 file_api: {
                   children: {
                     using_files_from_web_applications: {
@@ -9581,18 +9622,7 @@ var warnings_processed_default = {
                 html_dom_api: {
                   children: {
                     microtask_guide: {
-                      children: {
-                        in_depth: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/HTML_DOM_API/Microtask_guide/In_depth",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        }
-                      },
+                      children: {},
                       slug: "/en-US/docs/Web/API/HTML_DOM_API/Microtask_guide",
                       messages: [
                         {
@@ -9600,24 +9630,10 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Web/API/HTML_DOM_API"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/HTML_DOM_API",
-                  messages: [
-                    {
-                      message: "Broken sidebar link",
-                      data: [
-                        "Element: show",
-                        "/en-US/docs/Web/API/Element/show_event"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 html_drag_and_drop_api: {
                   children: {
@@ -10029,20 +10045,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                media_source_extensions_api: {
-                  children: {
-                    dash_adaptive_streaming: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Media_Source_Extensions_API/DASH_Adaptive_Streaming",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
                 mediastream_recording_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/MediaStream_Recording_API",
@@ -10341,30 +10343,6 @@ var warnings_processed_default = {
                           message: "Not in BCD",
                           data: [
                             "api.PaymentRequestEvent.instrumentKey"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                performancetiming: {
-                  children: {
-                    dominteractive: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PerformanceTiming/domInteractive",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.stevesouders.com/blog/2015/08/07/dominteractive-is-it-really/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.stevesouders.com/blog/2015/08/07/dominteractive-is-it-really/",
-                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -10936,6 +10914,19 @@ var warnings_processed_default = {
                     }
                   ]
                 },
+                storage_access_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Storage_Access_API",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://blog.mozilla.org/en/products/firefox/firefox-rolls-out-total-cookie-protection-by-default-to-all-users-worldwide/",
+                        "https://blog.mozilla.org/en/mozilla/firefox-rolls-out-total-cookie-protection-by-default-to-all-users-worldwide/"
+                      ]
+                    }
+                  ]
+                },
                 svgcursorelement: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SVGCursorElement",
@@ -11419,10 +11410,6 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        },
-                        {
                           message: "Unreachable via page",
                           data: []
                         }
@@ -11508,6 +11495,19 @@ var warnings_processed_default = {
                 },
                 web_audio_api: {
                   children: {
+                    advanced_techniques: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://soundbible.com/1573-DTMF-Tones.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
                     best_practices: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Best_practices",
@@ -12162,26 +12162,6 @@ var warnings_processed_default = {
                         }
                       }
                     },
-                    connectivity: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WebRTC_API/Connectivity",
-                      messages: [
-                        {
-                          message: "Broken sidebar link",
-                          data: [
-                            "RTCIceTransport: error",
-                            "/en-US/docs/Web/API/RTCIceTransport/error_event"
-                          ]
-                        },
-                        {
-                          message: "Broken sidebar link",
-                          data: [
-                            "RTCSctpTransport: error",
-                            "/en-US/docs/Web/API/RTCSctpTransport/error_event"
-                          ]
-                        }
-                      ]
-                    },
                     intro_to_rtp: {
                       children: {},
                       slug: "/en-US/docs/Web/API/WebRTC_API/Intro_to_RTP",
@@ -12232,20 +12212,6 @@ var warnings_processed_default = {
                         {
                           message: "Broken browser compat anchor",
                           data: []
-                        },
-                        {
-                          message: "Broken sidebar link",
-                          data: [
-                            "Window: vrdisplayconnected",
-                            "/en-US/docs/Web/API/Window/vrdisplayconnected_event"
-                          ]
-                        },
-                        {
-                          message: "Broken sidebar link",
-                          data: [
-                            "Window: vrdisplaydisconnected",
-                            "/en-US/docs/Web/API/Window/vrdisplaydisconnected_event"
-                          ]
                         }
                       ]
                     },
@@ -19390,17 +19356,7 @@ html.elements.select.size`
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Web/HTTP/Guides/Content_negotiation",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.eff.org/deeplinks/2010/01/primer-information-theory-and-privacy",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
+                      }
                     },
                     cookies: {
                       children: {},
@@ -19596,26 +19552,6 @@ html.elements.select.size`
                             }
                           }
                         },
-                        dnt: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/DNT",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.eff.org/issues/do-not-track",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         forwarded: {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Forwarded",
@@ -19721,20 +19657,6 @@ html.elements.select.size`
                             {
                               message: "Broken browser compat anchor",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.eff.org/issues/do-not-track",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         },
@@ -20623,19 +20545,6 @@ html.elements.select.size`
                     },
                     formats: {
                       children: {
-                        image_types: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Image_types",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://ev.buaa.edu.cn/",
-                                403
-                              ]
-                            }
-                          ]
-                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -20811,6 +20720,13 @@ html.elements.select.size`
                           message: "Unused image",
                           data: [
                             "3pc-example.png"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://blog.mozilla.org/en/products/firefox/firefox-rolls-out-total-cookie-protection-by-default-to-all-users-worldwide/",
+                            "https://blog.mozilla.org/en/mozilla/firefox-rolls-out-total-cookie-protection-by-default-to-all-users-worldwide/"
                           ]
                         }
                       ]
