@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-rexytvx9.js";
+} from "./chunk-6tj5vgda.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -1691,13 +1691,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://api.emberjs.com/ember/release/classes/route/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2054,7 +2047,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~06e?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~06e?via=mdn&rt=6tkb50h9&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~06e?via=mdn&rt=17fpqhdv&redir=1"
                           ]
                         }
                       ]
@@ -2308,14 +2301,14 @@ var warnings_processed_default = {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/learn-html-and-css-c0p?via=mdn",
-                        "https://scrimba.com/learn-html-and-css-c0p?via=mdn&rt=vifbr401&redir=1"
+                        "https://scrimba.com/learn-html-and-css-c0p?via=mdn&rt=3674poq6&redir=1"
                       ]
                     },
                     {
                       message: "Redirected external link",
                       data: [
                         "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~0xid?via=mdn",
-                        "https://scrimba.com/the-frontend-developer-career-path-c0j/~0xid?via=mdn&rt=eeivc9ne&redir=1"
+                        "https://scrimba.com/the-frontend-developer-career-path-c0j/~0xid?via=mdn&rt=riafplc8&redir=1"
                       ]
                     }
                   ]
@@ -2796,7 +2789,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/learn-javascript-c0v?via=mdn",
-                            "https://scrimba.com/learn-javascript-c0v?via=mdn&rt=o53ombbg&redir=1"
+                            "https://scrimba.com/learn-javascript-c0v?via=mdn&rt=7fp6cqo1&redir=1"
                           ]
                         }
                       ]
@@ -2809,14 +2802,14 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~0xid?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~0xid?via=mdn&rt=eeivc9ne&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~0xid?via=mdn&rt=riafplc8&redir=1"
                           ]
                         },
                         {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/learn-html-and-css-c0p?via=mdn",
-                            "https://scrimba.com/learn-html-and-css-c0p?via=mdn&rt=vifbr401&redir=1"
+                            "https://scrimba.com/learn-html-and-css-c0p?via=mdn&rt=3674poq6&redir=1"
                           ]
                         }
                       ]
@@ -2829,14 +2822,14 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~015?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~015?via=mdn&rt=o0ikiqnh&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~015?via=mdn&rt=q7qdjnk0&redir=1"
                           ]
                         },
                         {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/learn-html-and-css-c0p?via=mdn",
-                            "https://scrimba.com/learn-html-and-css-c0p?via=mdn&rt=vifbr401&redir=1"
+                            "https://scrimba.com/learn-html-and-css-c0p?via=mdn&rt=3674poq6&redir=1"
                           ]
                         }
                       ]
@@ -2850,7 +2843,7 @@ var warnings_processed_default = {
                   message: "Redirected external link",
                   data: [
                     "https://v2.scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
-                    "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=el4pjljh&redir=1"
+                    "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=3bbbd01c&redir=1"
                   ]
                 }
               ]
@@ -3140,19 +3133,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    how_do_you_host_your_website_on_google_app_engine: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gaesamplesite.appspot.com/downloads.html",
-                            503
-                          ]
-                        }
-                      ]
-                    },
                     what_software_do_i_need: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
@@ -3217,7 +3197,7 @@ var warnings_processed_default = {
               message: "Redirected external link",
               data: [
                 "https://v2.scrimba.com/the-frontend-developer-career-path-c0j?via=mdn",
-                "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=el4pjljh&redir=1"
+                "https://scrimba.com/the-frontend-developer-career-path-c0j?via=mdn&rt=3bbbd01c&redir=1"
               ]
             }
           ]
@@ -4826,20 +4806,6 @@ var warnings_processed_default = {
                           data: [
                             "http://www.aha-soft.com/free-icons/free-retina-icon-set/",
                             ""
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iconbeast.com/free/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iconbeast.com/faq/",
-                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -8455,20 +8421,6 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Web/Accessibility/Guides/Seizure_disorders",
                       messages: [
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.cedars-sinai.org/health-library/diseases-and-conditions/p/photosensitive-seizures.html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.cedars-sinai.org/health-library/diseases-and-conditions/p/photosensitive-seizures.html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
                           message: "HTTP link",
                           data: [
                             "http://diagramcenter.org/",
@@ -9459,6 +9411,22 @@ var warnings_processed_default = {
                     }
                   }
                 },
+                elementinternals: {
+                  children: {
+                    ariabraillelabel: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/ElementInternals/ariaBrailleLabel",
+                      messages: [
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/API/ElementInternals/ariaBrailleRole"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 ext_disjoint_timer_query: {
                   children: {
                     beginqueryext: {
@@ -9833,31 +9801,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                htmllinkelement: {
-                  children: {
-                    imagesrcset: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLLinkElement/imagesrcset",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "api.HTMLLinkElement.imagesrcset"
-                          ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "api.HTMLLinkElement.imageSrcset",
-                            "Expected:",
-                            "api.HTMLLinkElement.imagesrcset"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 htmlmapelement: {
                   children: {
                     areas: {
@@ -10189,6 +10132,19 @@ var warnings_processed_default = {
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/battery"
+                          ]
+                        }
+                      ]
+                    },
+                    share: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Navigator/share",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://wpt.live/web-share/",
+                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -10927,162 +10883,6 @@ var warnings_processed_default = {
                     }
                   ]
                 },
-                svgcursorelement: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/SVGCursorElement",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "api.SVGCursorElement"
-                      ]
-                    }
-                  ]
-                },
-                svgfontelement: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/SVGFontElement",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "api.SVGFontElement"
-                      ]
-                    }
-                  ]
-                },
-                svgfontfaceelement: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/SVGFontFaceElement",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "api.SVGFontFaceElement"
-                      ]
-                    }
-                  ]
-                },
-                svgfontfaceformatelement: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/SVGFontFaceFormatElement",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "api.SVGFontFaceFormatElement"
-                      ]
-                    }
-                  ]
-                },
-                svgfontfacenameelement: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/SVGFontFaceNameElement",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "api.SVGFontFaceNameElement"
-                      ]
-                    }
-                  ]
-                },
-                svgfontfacesrcelement: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/SVGFontFaceSrcElement",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "api.SVGFontFaceSrcElement"
-                      ]
-                    }
-                  ]
-                },
-                svgfontfaceurielement: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/SVGFontFaceUriElement",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "api.SVGFontFaceUriElement"
-                      ]
-                    }
-                  ]
-                },
-                svgglyphelement: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/SVGGlyphElement",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "api.SVGGlyphElement"
-                      ]
-                    }
-                  ]
-                },
-                svgglyphrefelement: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/SVGGlyphRefElement",
-                  messages: [
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/API/SVGGlyphRefElement/glyphRef"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/SVG/Reference/Attribute/glyphRef"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/API/SVGGlyphRefElement/format"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/SVG/Reference/Attribute/format"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/API/SVGGlyphRefElement/x"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/API/SVGGlyphRefElement/y"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/API/SVGGlyphRefElement/dx"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/API/SVGGlyphRefElement/dy"
-                      ]
-                    },
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "api.SVGGlyphRefElement"
-                      ]
-                    }
-                  ]
-                },
                 svggraphicselement: {
                   children: {
                     copy_event: {
@@ -11150,30 +10950,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                svghkernelement: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/SVGHKernElement",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "api.SVGHKernElement"
-                      ]
-                    }
-                  ]
-                },
-                svgmissingglyphelement: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/SVGMissingGlyphElement",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "api.SVGMissingGlyphElement"
-                      ]
-                    }
-                  ]
-                },
                 svgrenderingintent: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SVGRenderingIntent",
@@ -11236,30 +11012,6 @@ var warnings_processed_default = {
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/SVG/Reference/Attribute/currentView"
-                      ]
-                    }
-                  ]
-                },
-                svgtrefelement: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/SVGTRefElement",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "api.SVGTRefElement"
-                      ]
-                    }
-                  ]
-                },
-                svgvkernelement: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/SVGVKernElement",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "api.SVGVKernElement"
                       ]
                     }
                   ]
@@ -12462,18 +12214,6 @@ var warnings_processed_default = {
                             "api.Element.paste_event",
                             "Expected:",
                             "api.Window.paste_event"
-                          ]
-                        }
-                      ]
-                    },
-                    showmodaldialog: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/showModalDialog",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "api.Window.showModalDialog"
                           ]
                         }
                       ]
@@ -19552,6 +19292,26 @@ html.elements.select.size`
                             }
                           }
                         },
+                        "cross-origin-resource-policy": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Resource-Policy",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://resourcepolicy.fyi/",
+                                "Unable to connect. Is the computer able to access the url?"
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://resourcepolicy.fyi/",
+                                "Unable to connect. Is the computer able to access the url?"
+                              ]
+                            }
+                          ]
+                        },
                         forwarded: {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Forwarded",
@@ -19892,14 +19652,7 @@ html.elements.select.size`
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/JavaScript/Guide",
-                  messages: [
-                    {
-                      message: "Unreachable via sidebar",
-                      data: []
-                    }
-                  ]
+                  }
                 },
                 reference: {
                   children: {
@@ -19919,44 +19672,6 @@ html.elements.select.size`
                               ]
                             }
                           ]
-                        }
-                      }
-                    },
-                    functions: {
-                      children: {
-                        arguments: {
-                          children: {
-                            callee: {
-                              children: {},
-                              slug: "/en-US/docs/Web/JavaScript/Reference/Functions/arguments/callee",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            length: {
-                              children: {},
-                              slug: "/en-US/docs/Web/JavaScript/Reference/Functions/arguments/length",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            "symbol.iterator": {
-                              children: {},
-                              slug: "/en-US/docs/Web/JavaScript/Reference/Functions/arguments/Symbol.iterator",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
                         }
                       }
                     },
@@ -20245,20 +19960,6 @@ html.elements.select.size`
                               ]
                             }
                           ]
-                        },
-                        "import.meta": {
-                          children: {
-                            resolve: {
-                              children: {},
-                              slug: "/en-US/docs/Web/JavaScript/Reference/Operators/import.meta/resolve",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
                         }
                       }
                     },
@@ -20306,10 +20007,6 @@ html.elements.select.size`
                               messages: [
                                 {
                                   message: "Missing syntax code block",
-                                  data: []
-                                },
-                                {
-                                  message: "Unreachable via sidebar",
                                   data: []
                                 }
                               ]
@@ -21007,6 +20704,19 @@ html.elements.select.size`
                 },
                 practical_implementation_guides: {
                   children: {
+                    corp: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Security/Practical_implementation_guides/CORP",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://resourcepolicy.fyi/",
+                            "Unable to connect. Is the computer able to access the url?"
+                          ]
+                        }
+                      ]
+                    },
                     csp: {
                       children: {},
                       slug: "/en-US/docs/Web/Security/Practical_implementation_guides/CSP",
@@ -21082,66 +20792,6 @@ html.elements.select.size`
                   children: {
                     attribute: {
                       children: {
-                        "accent-height": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/accent-height",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.font-face.accent-height",
-                                "Expected:",
-                                "[None]"
-                              ]
-                            }
-                          ]
-                        },
-                        alphabetic: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/alphabetic",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.font-face.alphabetic",
-                                "Expected:",
-                                "[None]"
-                              ]
-                            }
-                          ]
-                        },
-                        "arabic-form": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/arabic-form",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.glyph.arabic-form",
-                                "Expected:",
-                                "[None]"
-                              ]
-                            }
-                          ]
-                        },
-                        ascent: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/ascent",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.font-face.ascent",
-                                "Expected:",
-                                "[None]"
-                              ]
-                            }
-                          ]
-                        },
                         attributename: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/attributeName",
@@ -21195,21 +20845,6 @@ html.elements.select.size`
                             }
                           ]
                         },
-                        bbox: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/bbox",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.font-face.bbox",
-                                "Expected:",
-                                "[None]"
-                              ]
-                            }
-                          ]
-                        },
                         calcmode: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/calcMode",
@@ -21221,21 +20856,6 @@ html.elements.select.size`
                                 "[None]",
                                 "Expected:",
                                 "svg.elements.animateMotion.calcMode"
-                              ]
-                            }
-                          ]
-                        },
-                        "cap-height": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/cap-height",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.font-face.cap-height",
-                                "Expected:",
-                                "[None]"
                               ]
                             }
                           ]
@@ -21792,21 +21412,6 @@ svg.elements.image.crossorigin`
                             }
                           ]
                         },
-                        descent: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/descent",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.font-face.descent",
-                                "Expected:",
-                                "[None]"
-                              ]
-                            }
-                          ]
-                        },
                         divisor: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/divisor",
@@ -21922,82 +21527,6 @@ svg.elements.tspan.fill`
                             }
                           ]
                         },
-                        g1: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/g1",
-                          messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "#",
-                                "Text before link:",
-                                "<name>"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.hkern.g1",
-                                "Expected:",
-                                "[None]"
-                              ]
-                            }
-                          ]
-                        },
-                        g2: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/g2",
-                          messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "#",
-                                "Text before link:",
-                                "<name>"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.hkern.g2",
-                                "Expected:",
-                                "[None]"
-                              ]
-                            }
-                          ]
-                        },
-                        "glyph-name": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/glyph-name",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.glyph.glyph-name",
-                                "Expected:",
-                                "[None]"
-                              ]
-                            }
-                          ]
-                        },
-                        hanging: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/hanging",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.font-face.hanging",
-                                "Expected:",
-                                "[None]"
-                              ]
-                            }
-                          ]
-                        },
                         height: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/height",
@@ -22020,51 +21549,6 @@ svg.elements.use.height`
                             }
                           ]
                         },
-                        "horiz-adv-x": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/horiz-adv-x",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.font.horiz-adv-x",
-                                "Expected:",
-                                "[None]"
-                              ]
-                            }
-                          ]
-                        },
-                        "horiz-origin-x": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/horiz-origin-x",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.font.horiz-origin-x",
-                                "Expected:",
-                                "[None]"
-                              ]
-                            }
-                          ]
-                        },
-                        "horiz-origin-y": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/horiz-origin-y",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.font.horiz-origin-y",
-                                "Expected:",
-                                "[None]"
-                              ]
-                            }
-                          ]
-                        },
                         href: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/href",
@@ -22073,21 +21557,6 @@ svg.elements.use.height`
                               message: "Unused image",
                               data: [
                                 "fxlogo.png"
-                              ]
-                            }
-                          ]
-                        },
-                        ideographic: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/ideographic",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.font-face.ideographic",
-                                "Expected:",
-                                "[None]"
                               ]
                             }
                           ]
@@ -22152,21 +21621,6 @@ svg.elements.feDisplacementMap.in2`
                               data: [
                                 "Actual:",
                                 "svg.elements.feFuncR",
-                                "Expected:",
-                                "[None]"
-                              ]
-                            }
-                          ]
-                        },
-                        k: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/k",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.hkern.k",
                                 "Expected:",
                                 "[None]"
                               ]
@@ -22270,21 +21724,6 @@ svg.elements.tspan.lengthAdjust`
                             }
                           ]
                         },
-                        mathematical: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/mathematical",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.font-face.mathematical",
-                                "Expected:",
-                                "[None]"
-                              ]
-                            }
-                          ]
-                        },
                         method: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/method",
@@ -22307,16 +21746,6 @@ svg.elements.tspan.lengthAdjust`
                             }
                           ]
                         },
-                        name: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/name",
-                          messages: [
-                            {
-                              message: "Broken browser compat anchor",
-                              data: []
-                            }
-                          ]
-                        },
                         operator: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/operator",
@@ -22333,21 +21762,6 @@ svg.elements.feMorphology.operator`
                             }
                           ]
                         },
-                        orientation: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/orientation",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.glyph.orientation",
-                                "Expected:",
-                                "[None]"
-                              ]
-                            }
-                          ]
-                        },
                         origin: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/origin",
@@ -22359,29 +21773,6 @@ svg.elements.feMorphology.operator`
                                 "[None]",
                                 "Expected:",
                                 "svg.elements.animateMotion.origin"
-                              ]
-                            }
-                          ]
-                        },
-                        "panose-1": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/panose-1",
-                          messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<integer>",
-                                "Text after link:",
-                                "{10}"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.font-face.panose-1",
-                                "Expected:",
-                                "[None]"
                               ]
                             }
                           ]
@@ -22668,51 +22059,6 @@ svg.elements.feGaussianBlur.stdDeviation`
                             }
                           ]
                         },
-                        stemh: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/stemh",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.font-face.stemh",
-                                "Expected:",
-                                "[None]"
-                              ]
-                            }
-                          ]
-                        },
-                        stemv: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/stemv",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.font-face.stemv",
-                                "Expected:",
-                                "[None]"
-                              ]
-                            }
-                          ]
-                        },
-                        string: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/string",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.font-face-format.string",
-                                "Expected:",
-                                "[None]"
-                              ]
-                            }
-                          ]
-                        },
                         surfacescale: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/surfaceScale",
@@ -22820,181 +22166,6 @@ svg.elements.style.type`
                             }
                           ]
                         },
-                        u1: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/u1",
-                          messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "]",
-                                "Text after link:",
-                                "#"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "#",
-                                "Text before link:",
-                                "]"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.hkern.u1",
-                                "Expected:",
-                                "[None]"
-                              ]
-                            }
-                          ]
-                        },
-                        u2: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/u2",
-                          messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "]",
-                                "Text after link:",
-                                "#"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "#",
-                                "Text before link:",
-                                "]"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.hkern.u2",
-                                "Expected:",
-                                "[None]"
-                              ]
-                            }
-                          ]
-                        },
-                        unicode: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/unicode",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.glyph.unicode",
-                                "Expected:",
-                                "[None]"
-                              ]
-                            }
-                          ]
-                        },
-                        "unicode-range": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/unicode-range",
-                          messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "#",
-                                "Text before link:",
-                                "<urange>"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.font-face.unicode-range",
-                                "Expected:",
-                                "[None]"
-                              ]
-                            }
-                          ]
-                        },
-                        "units-per-em": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/units-per-em",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.font-face.units-per-em",
-                                "Expected:",
-                                "[None]"
-                              ]
-                            }
-                          ]
-                        },
-                        "v-alphabetic": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/v-alphabetic",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.font-face.v-alphabetic",
-                                "Expected:",
-                                "[None]"
-                              ]
-                            }
-                          ]
-                        },
-                        "v-hanging": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/v-hanging",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.font-face.v-hanging",
-                                "Expected:",
-                                "[None]"
-                              ]
-                            }
-                          ]
-                        },
-                        "v-ideographic": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/v-ideographic",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.font-face.v-ideographic",
-                                "Expected:",
-                                "[None]"
-                              ]
-                            }
-                          ]
-                        },
-                        "v-mathematical": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/v-mathematical",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.font-face.v-mathematical",
-                                "Expected:",
-                                "[None]"
-                              ]
-                            }
-                          ]
-                        },
                         values: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/values",
@@ -23006,51 +22177,6 @@ svg.elements.style.type`
                                 "[None]",
                                 "Expected:",
                                 "svg.elements.feColorMatrix.values"
-                              ]
-                            }
-                          ]
-                        },
-                        "vert-adv-y": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/vert-adv-y",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.font.vert-adv-y",
-                                "Expected:",
-                                "[None]"
-                              ]
-                            }
-                          ]
-                        },
-                        "vert-origin-x": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/vert-origin-x",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.font.vert-origin-x",
-                                "Expected:",
-                                "[None]"
-                              ]
-                            }
-                          ]
-                        },
-                        "vert-origin-y": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/vert-origin-y",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.font.vert-origin-y",
-                                "Expected:",
-                                "[None]"
                               ]
                             }
                           ]
@@ -23095,21 +22221,6 @@ svg.elements.use.width`
                             }
                           ]
                         },
-                        widths: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/widths",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.font-face.widths",
-                                "Expected:",
-                                "[None]"
-                              ]
-                            }
-                          ]
-                        },
                         x: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/x",
@@ -23132,21 +22243,6 @@ svg.elements.svg.x
 svg.elements.text.x
 svg.elements.tspan.x
 svg.elements.use.x`
-                              ]
-                            }
-                          ]
-                        },
-                        "x-height": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/x-height",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.font-face.x-height",
-                                "Expected:",
-                                "[None]"
                               ]
                             }
                           ]
@@ -23350,18 +22446,6 @@ svg.elements.feSpotLight.z`
                             }
                           ]
                         },
-                        cursor: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/cursor",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "svg.elements.cursor"
-                              ]
-                            }
-                          ]
-                        },
                         discard: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Element/discard",
@@ -23477,126 +22561,6 @@ svg.elements.feSpotLight.z`
                             }
                           ]
                         },
-                        font: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/font",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "svg.elements.font"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-face": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/font-face",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "svg.elements.font-face"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-face-format": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/font-face-format",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "svg.elements.font-face-format"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-face-name": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/font-face-name",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "svg.elements.font-face-name"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-face-src": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/font-face-src",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "svg.elements.font-face-src"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-face-uri": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/font-face-uri",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "svg.elements.font-face-uri"
-                              ]
-                            }
-                          ]
-                        },
-                        glyph: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/glyph",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "svg.elements.glyph"
-                              ]
-                            }
-                          ]
-                        },
-                        glyphref: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/glyphRef",
-                          messages: [
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/SVG/Reference/Attribute/glyphRef"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/SVG/Reference/Attribute/format"
-                              ]
-                            },
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "svg.elements.glyphRef"
-                              ]
-                            }
-                          ]
-                        },
-                        hkern: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/hkern",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "svg.elements.hkern"
-                              ]
-                            }
-                          ]
-                        },
                         image: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Element/image",
@@ -23605,18 +22569,6 @@ svg.elements.feSpotLight.z`
                               message: "Unused image",
                               data: [
                                 "mdn_logo_only_color.png"
-                              ]
-                            }
-                          ]
-                        },
-                        "missing-glyph": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/missing-glyph",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "svg.elements.missing-glyph"
                               ]
                             }
                           ]
@@ -23679,18 +22631,6 @@ svg.elements.feSpotLight.z`
                             }
                           ]
                         },
-                        tref: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/tref",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "svg.elements.tref"
-                              ]
-                            }
-                          ]
-                        },
                         view: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Element/view",
@@ -23699,18 +22639,6 @@ svg.elements.feSpotLight.z`
                               message: "Unused image",
                               data: [
                                 "example.svg"
-                              ]
-                            }
-                          ]
-                        },
-                        vkern: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/vkern",
-                          messages: [
-                            {
-                              message: "Not in BCD",
-                              data: [
-                                "svg.elements.vkern"
                               ]
                             }
                           ]
@@ -24057,32 +22985,7 @@ svg.elements.feSpotLight.z`
                 xslt: {
                   children: {
                     guides: {
-                      children: {
-                        transforming_xml_with_xslt: {
-                          children: {
-                            an_overview: {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XSLT/Guides/Transforming_XML_with_XSLT/An_Overview",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            },
-                            for_further_reading: {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XSLT/Guides/Transforming_XML_with_XSLT/For_Further_Reading",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        }
-                      },
+                      children: {},
                       slug: "/en-US/docs/Web/XML/XSLT/Guides",
                       messages: [
                         {
@@ -24172,18 +23075,7 @@ svg.elements.feSpotLight.z`
         webassembly: {
           children: {
             guides: {
-              children: {
-                existing_c_to_wasm: {
-                  children: {},
-                  slug: "/en-US/docs/WebAssembly/Guides/Existing_C_to_Wasm",
-                  messages: [
-                    {
-                      message: "Unreachable via sidebar",
-                      data: []
-                    }
-                  ]
-                }
-              },
+              children: {},
               slug: "/en-US/docs/WebAssembly/Guides",
               messages: [
                 {
@@ -24193,10 +23085,6 @@ svg.elements.feSpotLight.z`
                   ]
                 },
                 {
-                  message: "Unreachable via sidebar",
-                  data: []
-                },
-                {
                   message: "Unreachable via page",
                   data: []
                 }
@@ -24204,461 +23092,6 @@ svg.elements.feSpotLight.z`
             },
             reference: {
               children: {
-                control_flow: {
-                  children: {
-                    block: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Control_flow/block",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    br: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Control_flow/br",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    call: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Control_flow/call",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    drop: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Control_flow/Drop",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    end: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Control_flow/end",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "if...else": {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Control_flow/if...else",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    loop: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Control_flow/loop",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    nop: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Control_flow/nop",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    return: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Control_flow/return",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    select: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Control_flow/Select",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    unreachable: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Control_flow/unreachable",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/WebAssembly/Reference/Control_flow",
-                  messages: [
-                    {
-                      message: "Unreachable via sidebar",
-                      data: []
-                    }
-                  ]
-                },
-                javascript_interface: {
-                  children: {
-                    compile_static: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/compile_static",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    compileerror: {
-                      children: {
-                        compileerror: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/CompileError/CompileError",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    compilestreaming_static: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/compileStreaming_static",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    exception: {
-                      children: {
-                        exception: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Exception/Exception",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        getarg: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Exception/getArg",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        is: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Exception/is",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        stack: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Exception/stack",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    global: {
-                      children: {
-                        global: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Global/Global",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    instance: {
-                      children: {
-                        exports: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Instance/exports",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        instance: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Instance/Instance",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    instantiate_static: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/instantiate_static",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    instantiatestreaming_static: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/instantiateStreaming_static",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    linkerror: {
-                      children: {
-                        linkerror: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/LinkError/LinkError",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    memory: {
-                      children: {
-                        buffer: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Memory/buffer",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        grow: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Memory/grow",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        memory: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Memory/Memory",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    module: {
-                      children: {
-                        customsections_static: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Module/customSections_static",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        exports_static: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Module/exports_static",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        imports_static: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Module/imports_static",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        module: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Module/Module",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    runtimeerror: {
-                      children: {
-                        runtimeerror: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/RuntimeError/RuntimeError",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    table: {
-                      children: {
-                        get: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Table/get",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        grow: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Table/grow",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        length: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Table/length",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        set: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Table/set",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        table: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Table/Table",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    tag: {
-                      children: {
-                        tag: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Tag/Tag",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        },
-                        type: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Tag/type",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    validate_static: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/validate_static",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
                 memory: {
                   children: {
                     copy: {
@@ -24667,10 +23100,6 @@ svg.elements.feSpotLight.z`
                       messages: [
                         {
                           message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
-                          message: "Unreachable via sidebar",
                           data: []
                         }
                       ]
@@ -24682,10 +23111,6 @@ svg.elements.feSpotLight.z`
                         {
                           message: "Missing syntax code block",
                           data: []
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -24695,10 +23120,6 @@ svg.elements.feSpotLight.z`
                       messages: [
                         {
                           message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
-                          message: "Unreachable via sidebar",
                           data: []
                         }
                       ]
@@ -24710,10 +23131,6 @@ svg.elements.feSpotLight.z`
                         {
                           message: "Missing syntax code block",
                           data: []
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -24723,10 +23140,6 @@ svg.elements.feSpotLight.z`
                       messages: [
                         {
                           message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
-                          message: "Unreachable via sidebar",
                           data: []
                         }
                       ]
@@ -24738,512 +23151,12 @@ svg.elements.feSpotLight.z`
                         {
                           message: "Missing syntax code block",
                           data: []
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/WebAssembly/Reference/Memory",
-                  messages: [
-                    {
-                      message: "Unreachable via sidebar",
-                      data: []
-                    }
-                  ]
-                },
-                numeric: {
-                  children: {
-                    absolute: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/Absolute",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    addition: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/Addition",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    and: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/AND",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    ceil: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/Ceil",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    const: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/Const",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    convert: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/Convert",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    copy_sign: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/Copy_sign",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    count_leading_zeros: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/Count_leading_zeros",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    count_trailing_zeros: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/Count_trailing_zeros",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    demote: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/Demote",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    division: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/Division",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    equal: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/Equal",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    extend: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/Extend",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    floor: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/Floor",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    greater_or_equal: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/Greater_or_equal",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    greater_than: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/Greater_than",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    left_rotate: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/Left_rotate",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    left_shift: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/Left_shift",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    less_or_equal: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/Less_or_equal",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    less_than: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/Less_than",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    max: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/Max",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    min: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/Min",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    multiplication: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/Multiplication",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    nearest: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/Nearest",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    negate: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/Negate",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    not_equal: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/Not_equal",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    or: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/OR",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    population_count: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/Population_count",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    promote: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/Promote",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    reinterpret: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/Reinterpret",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    remainder: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/Remainder",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    right_rotate: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/Right_rotate",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    right_shift: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/Right_shift",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    square_root: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/Square_root",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    subtraction: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/Subtraction",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    truncate_float_to_float: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/Truncate_float_to_float",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    truncate_float_to_int: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/Truncate_float_to_int",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    wrap: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/Wrap",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    xor: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Numeric/XOR",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/WebAssembly/Reference/Numeric",
-                  messages: [
-                    {
-                      message: "Unreachable via sidebar",
-                      data: []
-                    }
-                  ]
-                },
-                variables: {
-                  children: {
-                    global: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Variables/Global",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    global_get: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Variables/Global_get",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    global_set: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Variables/Global_set",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    local: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Variables/Local",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    local_get: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Variables/Local_get",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    local_set: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Variables/Local_set",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    local_tee: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Variables/Local_tee",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/WebAssembly/Reference/Variables",
-                  messages: [
-                    {
-                      message: "Unreachable via sidebar",
-                      data: []
-                    }
-                  ]
+                  }
                 }
-              },
-              slug: "/en-US/docs/WebAssembly/Reference",
-              messages: [
-                {
-                  message: "Unreachable via sidebar",
-                  data: []
-                }
-              ]
+              }
             }
           }
         }
