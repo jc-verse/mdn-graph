@@ -16,7 +16,7 @@ const allowedUnrenderedMarkdown = new Map(
 
 const allowedSpacedCodeLink = [
   // HTML tags
-  /^<(a|area|font|iframe|input|link|meta|object|ol|script|select|th|tr)( [a-z-]+="[\w .…-]+"| ping| defer| sandbox| nomodule| multiple)+>$/,
+  /^<(a|area|button|font|iframe|input|link|meta|object|ol|script|select|th|tr)( [a-z-]+="[\w .…-]+"| ping| defer| sandbox| nomodule| multiple)+>$/,
   /^<\?xml[^>]+\?>$/,
   /^<xsl:[^>]+>$/,
   /^[a-z-]+="[\w .…-]+"$/,
