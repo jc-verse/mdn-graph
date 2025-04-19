@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-xajx9tnw.js";
+} from "./chunk-p1e98fzy.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -1661,13 +1661,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://api.emberjs.com/ember/release/classes/route/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2672,32 +2665,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    introduction: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Introduction",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.microsoft.com/en-us/edge/download/insider",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    testing_strategies: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://help.ubuntu.com/community/WindowsDualBoot",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     your_own_automation_environment: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Your_own_automation_environment",
@@ -3038,6 +3005,19 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    how_do_you_host_your_website_on_google_app_engine: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gaesamplesite.appspot.com/",
+                            503
+                          ]
                         }
                       ]
                     },
@@ -4417,6 +4397,16 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Mozilla/Add-ons/WebExtensions"
                           ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            `api.Clipboard
+webextensions.api.clipboard`,
+                            "Expected:",
+                            "[None]"
+                          ]
                         }
                       ]
                     },
@@ -4458,6 +4448,21 @@ var warnings_processed_default = {
                           }
                         }
                       }
+                    },
+                    match_patterns: {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Match_patterns",
+                      messages: [
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "webextensions.match_patterns.scheme",
+                            "Expected:",
+                            "[None]"
+                          ]
+                        }
+                      ]
                     },
                     modify_a_web_page: {
                       children: {},
@@ -4512,6 +4517,29 @@ var warnings_processed_default = {
                           ]
                         }
                       ]
+                    },
+                    user_interface: {
+                      children: {
+                        browser_styles: {
+                          children: {},
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Browser_styles",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                `webextensions.manifest.action
+webextensions.manifest.browser_action
+webextensions.manifest.page_action
+webextensions.manifest.sidebar_action
+webextensions.manifest.options_ui`,
+                                "Expected:",
+                                "[None]"
+                              ]
+                            }
+                          ]
+                        }
+                      }
                     },
                     what_next: {
                       children: {},
@@ -7500,6 +7528,33 @@ var warnings_processed_default = {
                         }
                       ]
                     },
+                    "109": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/109",
+                      messages: [
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "/en-US/docs/Web/CSS/system-color",
+                            "#mark"
+                          ]
+                        },
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "/en-US/docs/Web/CSS/system-color",
+                            "#marktext"
+                          ]
+                        },
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "/en-US/docs/Web/CSS/system-color",
+                            "#buttonborder"
+                          ]
+                        }
+                      ]
+                    },
                     "111": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/111",
@@ -8799,6 +8854,26 @@ var warnings_processed_default = {
                     }
                   }
                 },
+                channel_messaging_api: {
+                  children: {
+                    using_channel_messaging: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Channel_Messaging_API/Using_channel_messaging",
+                      messages: [
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            `api.MessageChannel
+api.MessagePort`,
+                            "Expected:",
+                            "[None]"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 clipboard: {
                   children: {
                     read: {
@@ -8861,6 +8936,25 @@ var warnings_processed_default = {
                           message: "Not linked from parent page",
                           data: [
                             "/en-US/docs/Web/API/CSS_Object_Model"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                css_properties_and_values_api: {
+                  children: {
+                    guide: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSS_Properties_and_Values_API/guide",
+                      messages: [
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.CSS.registerProperty_static",
+                            "Expected:",
+                            "[None]"
                           ]
                         }
                       ]
@@ -9102,6 +9196,22 @@ var warnings_processed_default = {
                 },
                 device_orientation_events: {
                   children: {
+                    detecting_device_orientation: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Device_orientation_events/Detecting_device_orientation",
+                      messages: [
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            `api.DeviceMotionEvent
+api.DeviceOrientationEvent`,
+                            "Expected:",
+                            "[None]"
+                          ]
+                        }
+                      ]
+                    },
                     orientation_and_motion_data_explained: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Device_orientation_events/Orientation_and_motion_data_explained",
@@ -9356,19 +9466,45 @@ var warnings_processed_default = {
                           ]
                         }
                       ]
+                    },
+                    ariainvalid: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Element/ariaInvalid",
+                      messages: [
+                        {
+                          message: "Not linked from parent page",
+                          data: [
+                            "/en-US/docs/Web/API/Element"
+                          ]
+                        }
+                      ]
+                    },
+                    clientleft: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Element/clientLeft",
+                      messages: [
+                        {
+                          message: "Text stuck to code/link",
+                          data: [
+                            "display: inline",
+                            "Text before code:",
+                            "When an element has"
+                          ]
+                        }
+                      ]
                     }
                   }
                 },
                 elementinternals: {
                   children: {
-                    ariabraillelabel: {
+                    ariainvalid: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/ElementInternals/ariaBrailleLabel",
+                      slug: "/en-US/docs/Web/API/ElementInternals/ariaInvalid",
                       messages: [
                         {
-                          message: "Broken link",
+                          message: "Not linked from parent page",
                           data: [
-                            "/en-US/docs/Web/API/ElementInternals/ariaBrailleRole"
+                            "/en-US/docs/Web/API/ElementInternals"
                           ]
                         }
                       ]
@@ -9475,6 +9611,26 @@ var warnings_processed_default = {
                     }
                   }
                 },
+                fetchlater_api: {
+                  children: {
+                    fetchlater_quotas: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/fetchLater_API/fetchLater_quotas",
+                      messages: [
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            `http.headers.Permissions-Policy.deferred-fetch
+http.headers.Permissions-Policy.deferred-fetch-minimal`,
+                            "Expected:",
+                            "[None]"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 file_api: {
                   children: {
                     using_files_from_web_applications: {
@@ -9505,16 +9661,39 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                filesystemdirectoryentry: {
+                fullscreen_api: {
                   children: {
-                    removerecursively: {
+                    guide: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/FileSystemDirectoryEntry/removeRecursively",
+                      slug: "/en-US/docs/Web/API/Fullscreen_API/Guide",
                       messages: [
                         {
-                          message: "Broken link",
+                          message: "Unexpected BCD keys",
                           data: [
-                            "/en-US/docs/Web/API/DOMError/code"
+                            "Actual:",
+                            `api.Document.fullscreenEnabled
+api.Document.fullscreen`,
+                            "Expected:",
+                            "[None]"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                gamepad_api: {
+                  children: {
+                    using_the_gamepad_api: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Gamepad_API/Using_the_Gamepad_API",
+                      messages: [
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.Gamepad",
+                            "Expected:",
+                            "[None]"
                           ]
                         }
                       ]
@@ -9929,8 +10108,42 @@ var warnings_processed_default = {
                     }
                   }
                 },
+                media_capabilities_api: {
+                  children: {
+                    using_the_media_capabilities_api: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Media_Capabilities_API/Using_the_Media_Capabilities_API",
+                      messages: [
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.MediaCapabilities",
+                            "Expected:",
+                            "[None]"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 media_capture_and_streams_api: {
                   children: {
+                    constraints: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Media_Capture_and_Streams_API/Constraints",
+                      messages: [
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.MediaDevices.getSupportedConstraints",
+                            "Expected:",
+                            "[None]"
+                          ]
+                        }
+                      ]
+                    },
                     taking_still_photos: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Media_Capture_and_Streams_API/Taking_still_photos",
@@ -9963,8 +10176,48 @@ var warnings_processed_default = {
                     }
                   }
                 },
+                media_source_extensions_api: {
+                  children: {
+                    transcoding_assets_for_mse: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Media_Source_Extensions_API/Transcoding_assets_for_MSE",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://ffmpeg.org/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://ffmpeg.org/download.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 mediastream_recording_api: {
-                  children: {},
+                  children: {
+                    using_the_mediastream_recording_api: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/MediaStream_Recording_API/Using_the_MediaStream_Recording_API",
+                      messages: [
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.MediaRecorder",
+                            "Expected:",
+                            "[None]"
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/API/MediaStream_Recording_API",
                   messages: [
                     {
@@ -10267,6 +10520,25 @@ var warnings_processed_default = {
                     }
                   }
                 },
+                performance_api: {
+                  children: {
+                    monitoring_bfcache_blocking_reasons: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Performance_API/Monitoring_bfcache_blocking_reasons",
+                      messages: [
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.PerformanceNavigationTiming.notRestoredReasons",
+                            "Expected:",
+                            "[None]"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 pointer_events: {
                   children: {
                     "multi-touch_interaction": {
@@ -10314,6 +10586,15 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via page",
                           data: []
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.PointerEvent",
+                            "Expected:",
+                            "[None]"
+                          ]
                         }
                       ]
                     }
@@ -10754,6 +11035,44 @@ var warnings_processed_default = {
                     }
                   }
                 },
+                screen_capture_api: {
+                  children: {
+                    using_screen_capture: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Screen_Capture_API/Using_Screen_Capture",
+                      messages: [
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.MediaDevices.getDisplayMedia",
+                            "Expected:",
+                            "[None]"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                "server-sent_events": {
+                  children: {
+                    "using_server-sent_events": {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events",
+                      messages: [
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.EventSource",
+                            "Expected:",
+                            "[None]"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 sharedstorageoperation: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SharedStorageOperation",
@@ -11180,19 +11499,6 @@ var warnings_processed_default = {
                 },
                 web_audio_api: {
                   children: {
-                    advanced_techniques: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://soundbible.com/1573-DTMF-Tones.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     best_practices: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Best_practices",
@@ -11348,6 +11654,16 @@ var warnings_processed_default = {
                           data: [
                             "/en-US/docs/Web/API/Web_Authentication_API"
                           ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            `api.CredentialsContainer.create.publicKey_option.extensions
+api.CredentialsContainer.get.publicKey_option.extensions`,
+                            "Expected:",
+                            "[None]"
+                          ]
                         }
                       ]
                     }
@@ -11381,6 +11697,26 @@ var warnings_processed_default = {
                           message: "Not linked from parent page",
                           data: [
                             "/en-US/docs/Web/API/Web_Crypto_API"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                web_storage_api: {
+                  children: {
+                    using_the_web_storage_api: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API",
+                      messages: [
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            `api.Window.localStorage
+api.Window.sessionStorage`,
+                            "Expected:",
+                            "[None]"
                           ]
                         }
                       ]
@@ -11876,6 +12212,21 @@ var warnings_processed_default = {
                           ]
                         }
                       ]
+                    },
+                    using_encoded_transforms: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/WebRTC_API/Using_Encoded_Transforms",
+                      messages: [
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.RTCRtpReceiver.transform",
+                            "Expected:",
+                            "[None]"
+                          ]
+                        }
+                      ]
                     }
                   }
                 },
@@ -12023,6 +12374,25 @@ var warnings_processed_default = {
                         {
                           message: "Broken browser compat anchor",
                           data: []
+                        }
+                      ]
+                    }
+                  }
+                },
+                webvtt_api: {
+                  children: {
+                    web_video_text_tracks_format: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/WebVTT_API/Web_Video_Text_Tracks_Format",
+                      messages: [
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "html.elements.track",
+                            "Expected:",
+                            "[None]"
+                          ]
                         }
                       ]
                     }
@@ -12356,6 +12726,15 @@ var warnings_processed_default = {
                           data: [
                             "https://jsfiddle.net/xfvXR/1/"
                           ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.XMLHttpRequest",
+                            "Expected:",
+                            "[None]"
+                          ]
                         }
                       ]
                     },
@@ -12391,6 +12770,21 @@ var warnings_processed_default = {
                           message: "Not linked from parent page",
                           data: [
                             "/en-US/docs/Web/API/XMLHttpRequest_API"
+                          ]
+                        }
+                      ]
+                    },
+                    using_xmlhttprequest: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/XMLHttpRequest_API/Using_XMLHttpRequest",
+                      messages: [
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.XMLHttpRequest",
+                            "Expected:",
+                            "[None]"
                           ]
                         }
                       ]
@@ -14641,9 +15035,45 @@ css.selectors.-webkit-resizer`,
                   slug: "/en-US/docs/Web/CSS/clip-path",
                   messages: [
                     {
+                      message: "Code with space",
+                      data: [
+                        "custom properties"
+                      ]
+                    },
+                    {
                       message: "Unused image",
                       data: [
                         "mdn.svg"
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        'Unexpected closing tag ":svg:clipPath". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
+                        "    </clipPath>",
+                        "7:4"
+                      ]
+                    }
+                  ]
+                },
+                "clip-rule": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/clip-rule",
+                  messages: [
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        'Unexpected closing tag ":svg:clipPath". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
+                        "    </clipPath>",
+                        "4:4"
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        'Unexpected closing tag ":svg:clipPath". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
+                        "    </clipPath>",
+                        "7:4"
                       ]
                     }
                   ]
@@ -15593,6 +16023,25 @@ css.selectors.-webkit-resizer`,
                     }
                   }
                 },
+                css_containment: {
+                  children: {
+                    container_size_and_style_queries: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries",
+                      messages: [
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "css.at-rules.container",
+                            "Expected:",
+                            "[None]"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 css_display: {
                   children: {
                     block_formatting_context: {
@@ -15678,6 +16127,51 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            `css.at-rules.font-face.WOFF
+css.at-rules.font-face.WOFF_2`,
+                            "Expected:",
+                            "[None]"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                css_grid_layout: {
+                  children: {
+                    masonry_layout: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_grid_layout/Masonry_layout",
+                      messages: [
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            `css.properties.grid-template-columns.masonry
+css.properties.grid-template-rows.masonry`,
+                            "Expected:",
+                            "[None]"
+                          ]
+                        }
+                      ]
+                    },
+                    subgrid: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_grid_layout/Subgrid",
+                      messages: [
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "css.properties.grid-template-columns.subgrid",
+                            "Expected:",
+                            "[None]"
+                          ]
                         }
                       ]
                     }
@@ -15744,7 +16238,23 @@ css.selectors.-webkit-resizer`,
                   }
                 },
                 css_media_queries: {
-                  children: {},
+                  children: {
+                    testing_media_queries: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_media_queries/Testing_media_queries",
+                      messages: [
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "api.MediaQueryList",
+                            "Expected:",
+                            "[None]"
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/CSS/CSS_media_queries",
                   messages: [
                     {
@@ -15910,6 +16420,15 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "css.properties.overflow-anchor",
+                            "Expected:",
+                            "[None]"
+                          ]
                         }
                       ]
                     }
@@ -19285,6 +19804,28 @@ html.elements.select.size`
                         }
                       ]
                     },
+                    compression_dictionary_transport: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTTP/Guides/Compression_dictionary_transport",
+                      messages: [
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            `html.elements.link.rel.compression-dictionary
+http.headers.Accept-Encoding.dcb
+http.headers.Accept-Encoding.dcz
+http.headers.Available-Dictionary
+http.headers.Content-Encoding.dcb
+http.headers.Content-Encoding.dcz
+http.headers.Dictionary-ID
+http.headers.Use-As-Dictionary`,
+                            "Expected:",
+                            "[None]"
+                          ]
+                        }
+                      ]
+                    },
                     content_negotiation: {
                       children: {
                         list_of_default_accept_values: {
@@ -19321,6 +19862,30 @@ html.elements.select.size`
                             ": true",
                             "Text before code:",
                             "Access-Control-Allow-Credentials"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "http.headers.Access-Control-Allow-Origin",
+                            "Expected:",
+                            "[None]"
+                          ]
+                        }
+                      ]
+                    },
+                    "cross-origin_resource_policy": {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTTP/Guides/Cross-Origin_Resource_Policy",
+                      messages: [
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "http.headers.Cross-Origin-Resource-Policy",
+                            "Expected:",
+                            "[None]"
                           ]
                         }
                       ]
@@ -19385,6 +19950,30 @@ html.elements.select.size`
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "http.headers.NEL",
+                            "Expected:",
+                            "[None]"
+                          ]
+                        }
+                      ]
+                    },
+                    permissions_policy: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTTP/Guides/Permissions_Policy",
+                      messages: [
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "http.headers.Permissions-Policy",
+                            "Expected:",
+                            "[None]"
+                          ]
                         }
                       ]
                     },
@@ -19421,6 +20010,19 @@ html.elements.select.size`
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         "available-dictionary": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Available-Dictionary",
@@ -19850,7 +20452,19 @@ html.elements.select.size`
                 reference: {
                   children: {
                     classes: {
-                      children: {}
+                      children: {},
+                      slug: "/en-US/docs/Web/JavaScript/Reference/Classes",
+                      messages: [
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "javascript.classes",
+                            "Expected:",
+                            "[None]"
+                          ]
+                        }
+                      ]
                     },
                     errors: {
                       children: {
@@ -19867,6 +20481,21 @@ html.elements.select.size`
                           ]
                         }
                       }
+                    },
+                    functions: {
+                      children: {},
+                      slug: "/en-US/docs/Web/JavaScript/Reference/Functions",
+                      messages: [
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "javascript.functions",
+                            "Expected:",
+                            "[None]"
+                          ]
+                        }
+                      ]
                     },
                     global_objects: {
                       children: {
@@ -20139,6 +20768,21 @@ html.elements.select.size`
                         }
                       ]
                     },
+                    lexical_grammar: {
+                      children: {},
+                      slug: "/en-US/docs/Web/JavaScript/Reference/Lexical_grammar",
+                      messages: [
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "javascript.grammar",
+                            "Expected:",
+                            "[None]"
+                          ]
+                        }
+                      ]
+                    },
                     operators: {
                       children: {
                         delete: {
@@ -20277,6 +20921,21 @@ html.elements.select.size`
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Web/MathML/Reference/Element/style"
+                          ]
+                        }
+                      ]
+                    },
+                    values: {
+                      children: {},
+                      slug: "/en-US/docs/Web/MathML/Reference/Values",
+                      messages: [
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            "mathml.attribute_values",
+                            "Expected:",
+                            "[None]"
                           ]
                         }
                       ]
@@ -20434,6 +21093,32 @@ html.elements.select.size`
                     },
                     formats: {
                       children: {
+                        audio_codecs: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Audio_codecs",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://ffmpeg.org/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        image_types: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Image_types",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://ev.buaa.edu.cn/",
+                                403
+                              ]
+                            }
+                          ]
+                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -20504,6 +21189,25 @@ html.elements.select.size`
               children: {
                 guides: {
                   children: {
+                    privacy_sandbox: {
+                      children: {
+                        partitioned_cookies: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Privacy/Guides/Privacy_sandbox/Partitioned_cookies",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "http.headers.Set-Cookie.Partitioned",
+                                "Expected:",
+                                "[None]"
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     storage_access_policy: {
                       children: {
                         errors: {
@@ -20884,6 +21588,30 @@ html.elements.select.size`
                       data: [
                         "/en-US/docs/Web/Security"
                       ]
+                    },
+                    {
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        "html.elements.iframe.credentialless",
+                        "Expected:",
+                        "[None]"
+                      ]
+                    }
+                  ]
+                },
+                mixed_content: {
+                  children: {},
+                  slug: "/en-US/docs/Web/Security/Mixed_content",
+                  messages: [
+                    {
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        "http.mixed-content",
+                        "Expected:",
+                        "[None]"
+                      ]
                     }
                   ]
                 },
@@ -20918,6 +21646,22 @@ html.elements.select.size`
                     {
                       message: "Unreachable via page",
                       data: []
+                    }
+                  ]
+                },
+                subresource_integrity: {
+                  children: {},
+                  slug: "/en-US/docs/Web/Security/Subresource_Integrity",
+                  messages: [
+                    {
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        `html.elements.link.integrity
+html.elements.script.integrity`,
+                        "Expected:",
+                        "[None]"
+                      ]
                     }
                   ]
                 },
