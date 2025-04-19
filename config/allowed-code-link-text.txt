@@ -17,7 +17,6 @@
 <offset-x> <offset-y>
 <string> <number>
 <timeline-range-name> <length-percentage>
-[ <character> | <urange> ]#
 [ <integer [0,∞]> <absolute-color-base> ]
 [ <line-names>? <string> <track-size>? <line-names>? ]+ [ / <explicit-track-list> ]?
 [ [ <integer> | infinite ]{2} ]#

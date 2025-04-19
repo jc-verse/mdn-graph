@@ -16,6 +16,14 @@
 /en-US/docs/Web/API/BluetoothDevice/gattserverdisconnected_event
 /en-US/docs/Web/API/BluetoothDevice/watchAdvertisements
 /en-US/docs/Web/API/BluetoothRemoteGATTCharacteristic/characteristicvaluechanged_event
+/en-US/docs/Web/API/DOMMatrix/fromFloat32Array_static
+/en-US/docs/Web/API/DOMMatrix/fromFloat64Array_static
+/en-US/docs/Web/API/DOMMatrix/fromMatrix_static
+/en-US/docs/Web/API/DOMMatrixReadOnly/fromFloat32Array_static
+/en-US/docs/Web/API/DOMMatrixReadOnly/fromFloat64Array_static
+/en-US/docs/Web/API/DOMMatrixReadOnly/fromMatrix_static
+/en-US/docs/Web/API/DOMQuad/fromRect_static
+/en-US/docs/Web/API/DOMQuad/fromQuad_static
 /en-US/docs/Web/API/EXT_disjoint_timer_query_webgl2
 /en-US/docs/Web/API/Element/pseudo
 /en-US/docs/Web/API/FileWriter
@@ -130,7 +138,13 @@
 /en-US/docs/Web/HTTP/Reference/Headers/Signed-Headers
 /en-US/docs/Web/HTTP/Reference/Methods/TRACK
 
-/en-US/docs/Web/MathML/Reference/Element/style
+/en-US/docs/Web/MathML/Reference/Global_attributes/autofocus
+/en-US/docs/Web/MathML/Reference/Global_attributes/class
+/en-US/docs/Web/MathML/Reference/Global_attributes/data-*
+/en-US/docs/Web/MathML/Reference/Global_attributes/id
+/en-US/docs/Web/MathML/Reference/Global_attributes/nonce
+/en-US/docs/Web/MathML/Reference/Global_attributes/style
+/en-US/docs/Web/MathML/Reference/Global_attributes/tabindex
 
   These are defined in https://svgwg.org/svg2-draft/attindex.html
 /en-US/docs/Web/SVG/Reference/Attribute/hreflang

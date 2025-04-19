@@ -197,7 +197,6 @@ api.HTMLInputElement.useMap
 api.HTMLLIElement.type
 api.HTMLLegendElement.align
 api.HTMLLinkElement.charset
-api.HTMLLinkElement.imageSizes
 api.HTMLLinkElement.imageSrcset
 api.HTMLLinkElement.rev
 api.HTMLLinkElement.target
@@ -741,7 +740,6 @@ css.properties.object-view-box
 css.properties.reading-flow
 css.properties.ruby-overhang
 css.properties.scroll-initial-target
-css.properties.scroll-marker-group
 css.properties.speak
 css.properties.stroke-color
 css.properties.text-autospace
@@ -749,11 +747,6 @@ css.properties.view-transition-class
 css.selectors.active-view-transition
 css.selectors.active-view-transition-type
 css.selectors.closed
-css.selectors.column
-css.selectors.scroll-button
-css.selectors.scroll-marker
-css.selectors.scroll-marker-group
-css.selectors.target-current
 css.selectors.xr-overlay
 javascript.builtins.AsyncDisposableStack
 javascript.builtins.AsyncDisposableStack.AsyncDisposableStack
@@ -801,6 +794,7 @@ webassembly.threads-and-atomics
 webassembly.typedFunctionReferences
 webdriver.bidi.browser
 webdriver.bidi.browsingContext
+webdriver.bidi.emulation
 webdriver.bidi.input
 webdriver.bidi.log
 webdriver.bidi.network
