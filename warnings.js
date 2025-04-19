@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-e80nd4mt.js";
+} from "./chunk-5hma50sd.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -90,13 +90,6 @@ var warnings_processed_default = {
                     {
                       message: "Broken external link",
                       data: [
-                        "https://gamedistribution.com/",
-                        "The operation timed out."
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
                         "https://gamesaturn.com/",
                         403
                       ]
@@ -161,6 +154,13 @@ var warnings_processed_default = {
                       message: "External sandbox link",
                       data: [
                         "https://jsfiddle.net/jlr7245/teb4znk0/20/"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.sevenson.com.au/programming/sat/",
+                        "Cannot reach server and Bun hangs"
                       ]
                     }
                   ]
@@ -458,27 +458,6 @@ var warnings_processed_default = {
                   data: []
                 }
               ]
-            },
-            tutorials: {
-              children: {
-                "2d_breakout_game_pure_javascript": {
-                  children: {
-                    paddle_and_keyboard_controls: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Paddle_and_keyboard_controls",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/end3r/Gamedev-Canvas-workshop/blob/gh-pages/lesson04.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                }
-              }
             }
           },
           slug: "/en-US/docs/Games",
@@ -587,6 +566,13 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://trac.webkit.org/wiki/JavaScriptCore",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -647,13 +633,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-145.pdf",
-                    521
-                  ]
                 }
               ]
             },
@@ -808,6 +787,26 @@ var warnings_processed_default = {
                 }
               ]
             },
+            gpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/GPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-faq.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                }
+              ]
+            },
             "high-level_programming_language": {
               children: {},
               slug: "/en-US/docs/Glossary/High-level_programming_language",
@@ -895,6 +894,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            lgpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/LGPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/lgpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
                 }
               ]
             },
@@ -2242,7 +2254,17 @@ var warnings_processed_default = {
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
                     },
                     html_video_and_audio: {
                       children: {
@@ -2387,6 +2409,19 @@ var warnings_processed_default = {
                           message: "Unused image",
                           data: [
                             "external-link-52.png"
+                          ]
+                        }
+                      ]
+                    },
+                    web_fonts: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://everythingfonts.com/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -2630,6 +2665,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -2787,7 +2829,7 @@ var warnings_processed_default = {
                           message: "Redirected external link",
                           data: [
                             "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~015?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~015?via=mdn&rt=2n909e4u&redir=1"
+                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~015?via=mdn&rt=a780sb64&redir=1"
                           ]
                         }
                       ]
@@ -3065,6 +3107,27 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://webchat.freenode.net/?channels=textmate",
                             521
                           ]
@@ -3081,30 +3144,17 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    how_do_you_host_your_website_on_google_app_engine: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gaesamplesite.appspot.com/downloads.html",
-                            503
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gaesamplesite.appspot.com/",
-                            503
-                          ]
-                        }
-                      ]
-                    },
                     what_software_do_i_need: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -3281,6 +3331,13 @@ var warnings_processed_default = {
                             {
                               message: "Unreachable via sidebar",
                               data: []
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://trac.webkit.org/wiki/WebKitIDL",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         },
@@ -4485,6 +4542,14 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Internationalization",
                       messages: [
                         {
+                          message: "Text stuck to code/link",
+                          data: [
+                            "zh-Hans-CN",
+                            "Text after code:",
+                            "(and there is no "
+                          ]
+                        },
+                        {
                           message: "HTTP link",
                           data: [
                             "http://i18njs.com/",
@@ -4959,19 +5024,6 @@ var warnings_processed_default = {
                             {
                               message: "Unreachable via page",
                               data: []
-                            }
-                          ]
-                        },
-                        svg_improvements: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Firefox/Releases/3/SVG_improvements",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://robert.ocallahan.org/2006/06/future-is-now_20.html",
-                                503
-                              ]
                             }
                           ]
                         },
@@ -8483,73 +8535,6 @@ var warnings_processed_default = {
             },
             api: {
               children: {
-                aescbcparams: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/AesCbcParams",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38a.pdf",
-                        521
-                      ]
-                    }
-                  ]
-                },
-                aesctrparams: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/AesCtrParams",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38a.pdf",
-                        521
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38a.pdf",
-                        521
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38a.pdf",
-                        521
-                      ]
-                    }
-                  ]
-                },
-                aesgcmparams: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/AesGcmParams",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38d.pdf",
-                        521
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38d.pdf",
-                        521
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38d.pdf",
-                        521
-                      ]
-                    }
-                  ]
-                },
                 animation: {
                   children: {
                     animation: {
@@ -9876,17 +9861,7 @@ var warnings_processed_default = {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/Geolocation_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://lbs.amap.com/api/javascript-api/guide/services/geolocation",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
+                  }
                 },
                 history_api: {
                   children: {
@@ -11233,97 +11208,6 @@ var warnings_processed_default = {
                     }
                   ]
                 },
-                subtlecrypto: {
-                  children: {
-                    digest: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SubtleCrypto/digest",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf",
-                            521
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf",
-                            521
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf",
-                            521
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf",
-                            521
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf",
-                            521
-                          ]
-                        }
-                      ]
-                    },
-                    encrypt: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SubtleCrypto/encrypt",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38a.pdf",
-                            521
-                          ]
-                        }
-                      ]
-                    },
-                    sign: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SubtleCrypto/sign",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-4.pdf",
-                            521
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-4.pdf",
-                            521
-                          ]
-                        }
-                      ]
-                    },
-                    verify: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SubtleCrypto/verify",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-4.pdf",
-                            521
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 svg_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SVG_API",
@@ -11718,19 +11602,6 @@ var warnings_processed_default = {
                 },
                 web_audio_api: {
                   children: {
-                    advanced_techniques: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://soundbible.com/1573-DTMF-Tones.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     best_practices: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Best_practices",
@@ -19959,6 +19830,19 @@ html.elements.select.size`
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         "available-dictionary": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Available-Dictionary",
@@ -20784,19 +20668,6 @@ html.elements.select.size`
               children: {
                 guides: {
                   children: {
-                    authoring: {
-                      children: {},
-                      slug: "/en-US/docs/Web/MathML/Guides/Authoring",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://math.nist.gov/~BMiller/LaTeXML/",
-                            "Unable to connect. Is the computer able to access the url?"
-                          ]
-                        }
-                      ]
-                    },
                     deriving_the_quadratic_formula: {
                       children: {},
                       slug: "/en-US/docs/Web/MathML/Guides/Deriving_the_quadratic_formula",
@@ -20888,6 +20759,19 @@ html.elements.select.size`
                               message: "External sandbox link",
                               data: [
                                 "https://jsbin.com/badimipi/1/edit"
+                              ]
+                            }
+                          ]
+                        },
+                        video_player_styling_basics: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/Video_player_styling_basics",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://github.com/iandevlin/iandevlin.github.io/tree/master/mdn/video-player-styled",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                               ]
                             }
                           ]
@@ -20986,19 +20870,6 @@ html.elements.select.size`
                     },
                     formats: {
                       children: {
-                        image_types: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Image_types",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://ev.buaa.edu.cn/",
-                                403
-                              ]
-                            }
-                          ]
-                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -21454,19 +21325,6 @@ html.elements.select.size`
                 },
                 practical_implementation_guides: {
                   children: {
-                    clickjacking: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Security/Practical_implementation_guides/Clickjacking",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://auth0.com/blog/preventing-clickjacking-attacks/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     csp: {
                       children: {},
                       slug: "/en-US/docs/Web/Security/Practical_implementation_guides/CSP",
