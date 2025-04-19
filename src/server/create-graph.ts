@@ -37,17 +37,20 @@ function globToRegex(str: string) {
         i % 2 === 0
           ? part.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
           : part === "*"
-          ? "[^/]+"
-          : part === "**"
-          ? ".+"
-          : "",
+            ? "[^/]+"
+            : part === "**"
+              ? ".+"
+              : "",
       )
       .join("")}$`,
   );
 }
 
 const allowedNotInSidebar = new Map(
-  (await readConfig("allowed-not-in-sidebar.txt")).map((x) => [globToRegex(x), false]),
+  (await readConfig("allowed-not-in-sidebar.txt")).map((x) => [
+    globToRegex(x),
+    false,
+  ]),
 );
 
 const sidebarExternalLinks = [
@@ -679,7 +682,9 @@ export default async function createContentGraph() {
     const sidebar = sidebarIds.get(pageToSidebarId.get(node.id)!);
     if (!sidebar) continue;
     if (!sidebar.links.some(({ href }) => href === node.id)) {
-      const isAllowed = [...allowedNotInSidebar.keys()].find((regex) => regex.test(node.id));
+      const isAllowed = [...allowedNotInSidebar.keys()].find((regex) =>
+        regex.test(node.id),
+      );
       if (!isAllowed) {
         report(node, "Unreachable via sidebar");
       } else {

@@ -169,9 +169,7 @@ export async function checkCode(
             expectedErrorsMap.has(file) &&
             expectedErrorsMap.get(file)!.has(content)
           ) {
-            const expectedMessages = expectedErrorsMap
-              .get(file)!
-              .get(content)!;
+            const expectedMessages = expectedErrorsMap.get(file)!.get(content)!;
             if (expectedMessages.has(error.msg)) {
               expectedMessages.set(error.msg, true);
               return;

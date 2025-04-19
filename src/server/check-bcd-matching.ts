@@ -67,11 +67,11 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
   if (specialBCD.has(node.id)) return specialBCD.get(node.id)!;
   switch (node.data.metadata.pageType) {
     // The page types are copied from front-matter-config.json
-    case "guide":
     case "landing-page":
-    case "listing-page":
       // Generic pages may or may not actually be a reference
       return "ignore";
+    case "guide":
+    case "listing-page":
     case "how-to":
     case "tutorial":
     case "tutorial-chapter":
@@ -219,8 +219,6 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
       const memberName = match[1];
       return [`api.${memberName}`];
     }
-    case "web-api-global-property":
-      return "Unexpected page type";
     case "web-api-interface":
     case "webgl-extension": {
       const match = node.id.match(/^\/en-US\/docs\/Web\/API\/([^/]+)$/);
