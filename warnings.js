@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-5hma50sd.js";
+} from "./chunk-xajx9tnw.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -81,13 +81,6 @@ var warnings_processed_default = {
                       data: []
                     },
                     {
-                      message: "Redirected external link",
-                      data: [
-                        "https://end3r.com/blog/2014/02/host-your-html5-games-on-github-pages/",
-                        "https://end3r.com/blog/host-your-html5-games-on-github-pages"
-                      ]
-                    },
-                    {
                       message: "Broken external link",
                       data: [
                         "https://gamesaturn.com/",
@@ -113,13 +106,6 @@ var warnings_processed_default = {
                     {
                       message: "Unreachable via page",
                       data: []
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://end3r.com/blog/?s=monthly+report",
-                        "https://end3r.com/blog?s=monthly+report"
-                      ]
                     }
                   ]
                 }
@@ -154,13 +140,6 @@ var warnings_processed_default = {
                       message: "External sandbox link",
                       data: [
                         "https://jsfiddle.net/jlr7245/teb4znk0/20/"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.sevenson.com.au/programming/sat/",
-                        "Cannot reach server and Bun hangs"
                       ]
                     }
                   ]
@@ -526,10 +505,6 @@ var warnings_processed_default = {
               slug: "/en-US/docs/Glossary/blink_element",
               messages: [
                 {
-                  message: "Missing syntax code block",
-                  data: []
-                },
-                {
                   message: "Unreachable via page",
                   data: []
                 }
@@ -566,13 +541,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://trac.webkit.org/wiki/JavaScriptCore",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -787,26 +755,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            gpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/GPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/gpl-faq.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/gpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                }
-              ]
-            },
             "high-level_programming_language": {
               children: {},
               slug: "/en-US/docs/Glossary/High-level_programming_language",
@@ -894,19 +842,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            lgpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/LGPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/lgpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
                 }
               ]
             },
@@ -1726,6 +1661,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://api.emberjs.com/ember/release/classes/route/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2254,17 +2196,7 @@ var warnings_processed_default = {
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
+                      }
                     },
                     html_video_and_audio: {
                       children: {
@@ -2409,19 +2341,6 @@ var warnings_processed_default = {
                           message: "Unused image",
                           data: [
                             "external-link-52.png"
-                          ]
-                        }
-                      ]
-                    },
-                    web_fonts: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://everythingfonts.com/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -2665,13 +2584,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/gzip/",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     }
@@ -2760,6 +2672,19 @@ var warnings_processed_default = {
                         }
                       ]
                     },
+                    introduction: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Introduction",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.microsoft.com/en-us/edge/download/insider",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     testing_strategies: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
@@ -2823,13 +2748,6 @@ var warnings_processed_default = {
                           message: "Unused image",
                           data: [
                             "css-declaration-small.png"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~015?via=mdn",
-                            "https://scrimba.com/the-frontend-developer-career-path-c0j/~015?via=mdn&rt=a780sb64&redir=1"
                           ]
                         }
                       ]
@@ -3107,27 +3025,6 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/efaq.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://webchat.freenode.net/?channels=textmate",
                             521
                           ]
@@ -3148,13 +3045,6 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -3331,13 +3221,6 @@ var warnings_processed_default = {
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://trac.webkit.org/wiki/WebKitIDL",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         },
@@ -8716,16 +8599,6 @@ var warnings_processed_default = {
                 },
                 audioworkletprocessor: {
                   children: {
-                    audioworkletprocessor: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/AudioWorkletProcessor/AudioWorkletProcessor",
-                      messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        }
-                      ]
-                    },
                     parameterdescriptors: {
                       children: {},
                       slug: "/en-US/docs/Web/API/AudioWorkletProcessor/parameterDescriptors",
@@ -9458,139 +9331,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                dommatrix: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/DOMMatrix",
-                  messages: [
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/API/DOMMatrix/fromFloat32Array"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/API/DOMMatrix/fromFloat64Array"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/API/DOMMatrix/fromMatrix"
-                      ]
-                    }
-                  ]
-                },
-                dommatrixreadonly: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/DOMMatrixReadOnly",
-                  messages: [
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/API/DOMMatrixReadOnly/fromFloat32Array"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/API/DOMMatrixReadOnly/fromFloat64Array"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/API/DOMMatrixReadOnly/fromMatrix"
-                      ]
-                    }
-                  ]
-                },
-                domquad: {
-                  children: {
-                    domquad: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/DOMQuad/DOMQuad",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/DOMQuad/fromRect"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/DOMQuad/fromQuad"
-                          ]
-                        }
-                      ]
-                    },
-                    p1: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/DOMQuad/p1",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/DOMQuad/fromRect"
-                          ]
-                        }
-                      ]
-                    },
-                    p2: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/DOMQuad/p2",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/DOMQuad/fromRect"
-                          ]
-                        }
-                      ]
-                    },
-                    p3: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/DOMQuad/p3",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/DOMQuad/fromRect"
-                          ]
-                        }
-                      ]
-                    },
-                    p4: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/DOMQuad/p4",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/DOMQuad/fromRect"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/DOMQuad",
-                  messages: [
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/API/DOMQuad/fromRect"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/API/DOMQuad/fromQuad"
-                      ]
-                    }
-                  ]
-                },
                 dragevent: {
                   children: {},
                   slug: "/en-US/docs/Web/API/DragEvent",
@@ -9774,75 +9514,7 @@ var warnings_processed_default = {
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/API/FileError"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/FileError"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/FileError/code"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                filesystementry: {
-                  children: {
-                    copyto: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/FileSystemEntry/copyTo",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/FileError"
-                          ]
-                        }
-                      ]
-                    },
-                    getmetadata: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/FileSystemEntry/getMetadata",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/FileError"
-                          ]
-                        }
-                      ]
-                    },
-                    moveto: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/FileSystemEntry/moveTo",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/FileError"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                filesystemfileentry: {
-                  children: {
-                    createwriter: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/FileSystemFileEntry/createWriter",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/FileError"
+                            "/en-US/docs/Web/API/DOMError/code"
                           ]
                         }
                       ]
@@ -10016,18 +9688,6 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                htmlheadelement: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/HTMLHeadElement",
-                  messages: [
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/API/HTMLHeadElement/profile"
-                      ]
-                    }
-                  ]
                 },
                 htmlimageelement: {
                   children: {
@@ -10248,12 +9908,6 @@ var warnings_processed_default = {
                   slug: "/en-US/docs/Web/API/Insertable_Streams_for_MediaStreamTrack_API",
                   messages: [
                     {
-                      message: "Code with space",
-                      data: [
-                        "dedicated workers"
-                      ]
-                    },
-                    {
                       message: "Broken browser compat anchor",
                       data: []
                     }
@@ -10317,24 +9971,6 @@ var warnings_processed_default = {
                       message: "External sandbox link",
                       data: [
                         "https://codepen.io/anon/pen/gpmPzm"
-                      ]
-                    }
-                  ]
-                },
-                mediastreamtrackprocessor: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/MediaStreamTrackProcessor",
-                  messages: [
-                    {
-                      message: "Code with space",
-                      data: [
-                        "dedicated workers"
-                      ]
-                    },
-                    {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/API/MediaStreamTrackProcessor"
                       ]
                     }
                   ]
@@ -11099,34 +10735,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                rtcpeerconnection: {
-                  children: {
-                    generatecertificate_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/RTCPeerConnection/generateCertificate_static",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/AlgorithmIdentifier"
-                          ]
-                        }
-                      ]
-                    },
-                    getconfiguration: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/RTCPeerConnection/getConfiguration",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/RTCPeerConnect/setConfiguration"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 rtcstatsreport: {
                   children: {
                     "symbol.iterator": {
@@ -11204,18 +10812,6 @@ var warnings_processed_default = {
                       message: "Not in BCD",
                       data: [
                         "api.SharedStorageSelectURLOperation"
-                      ]
-                    }
-                  ]
-                },
-                svg_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/SVG_API",
-                  messages: [
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/API/ElementTimeControl"
                       ]
                     }
                   ]
@@ -11433,24 +11029,6 @@ var warnings_processed_default = {
                     }
                   }
                 },
-                videotrackgenerator: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/VideoTrackGenerator",
-                  messages: [
-                    {
-                      message: "Code with space",
-                      data: [
-                        "dedicated workers"
-                      ]
-                    },
-                    {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/API/VideoTrackGenerator"
-                      ]
-                    }
-                  ]
-                },
                 vrlayerinit: {
                   children: {
                     leftbounds: {
@@ -11602,6 +11180,19 @@ var warnings_processed_default = {
                 },
                 web_audio_api: {
                   children: {
+                    advanced_techniques: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://soundbible.com/1573-DTMF-Tones.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
                     best_practices: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Best_practices",
@@ -19830,19 +19421,6 @@ html.elements.select.size`
                   children: {
                     headers: {
                       children: {
-                        accept: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.gnu.org/software/wget/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
                         "available-dictionary": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Available-Dictionary",
@@ -20614,20 +20192,6 @@ html.elements.select.size`
                             }
                           ]
                         },
-                        import: {
-                          children: {
-                            with: {
-                              children: {},
-                              slug: "/en-US/docs/Web/JavaScript/Reference/Statements/import/with",
-                              messages: [
-                                {
-                                  message: "Missing syntax code block",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
                         while: {
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Statements/while",
@@ -20704,7 +20268,20 @@ html.elements.select.size`
                   ]
                 },
                 reference: {
-                  children: {},
+                  children: {
+                    global_attributes: {
+                      children: {},
+                      slug: "/en-US/docs/Web/MathML/Reference/Global_attributes",
+                      messages: [
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/MathML/Reference/Element/style"
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/MathML/Reference",
                   messages: [
                     {
@@ -20759,19 +20336,6 @@ html.elements.select.size`
                               message: "External sandbox link",
                               data: [
                                 "https://jsbin.com/badimipi/1/edit"
-                              ]
-                            }
-                          ]
-                        },
-                        video_player_styling_basics: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/Video_player_styling_basics",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/iandevlin/iandevlin.github.io/tree/master/mdn/video-player-styled",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                               ]
                             }
                           ]
@@ -23598,22 +23162,7 @@ svg.elements.feSpotLight.z`
                       ]
                     },
                     reference: {
-                      children: {
-                        element: {
-                          children: {
-                            "processing-instruction": {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XSLT/Reference/Element/processing-instruction",
-                              messages: [
-                                {
-                                  message: "Missing syntax code block",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        }
-                      },
+                      children: {},
                       slug: "/en-US/docs/Web/XML/XSLT/Reference",
                       messages: [
                         {
