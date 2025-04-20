@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-p1e98fzy.js";
+} from "./chunk-3vz6n6cp.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -755,6 +755,26 @@ var warnings_processed_default = {
                 }
               ]
             },
+            gpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/GPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-faq.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                }
+              ]
+            },
             "high-level_programming_language": {
               children: {},
               slug: "/en-US/docs/Glossary/High-level_programming_language",
@@ -842,6 +862,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            lgpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/LGPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/lgpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
                 }
               ]
             },
@@ -2077,6 +2110,23 @@ var warnings_processed_default = {
                         }
                       ]
                     },
+                    test_your_skills: {
+                      children: {
+                        math: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills/Math",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://github.com/mdn/learning-area/blob/main/javascript/introduction-to-js-1/tasks/math/math3-download.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     what_went_wrong: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/What_went_wrong",
@@ -2189,7 +2239,17 @@ var warnings_processed_default = {
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
                     },
                     html_video_and_audio: {
                       children: {
@@ -2577,6 +2637,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -2992,6 +3059,27 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://webchat.freenode.net/?channels=textmate",
                             521
                           ]
@@ -3008,23 +3096,17 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    how_do_you_host_your_website_on_google_app_engine: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gaesamplesite.appspot.com/",
-                            503
-                          ]
-                        }
-                      ]
-                    },
                     what_software_do_i_need: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -9973,19 +10055,6 @@ api.Document.fullscreen`,
                     }
                   ]
                 },
-                idbtransaction: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/IDBTransaction",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://peter.sh/2012/05/tab-sizing-string-values-for-indexeddb-and-chrome-21/",
-                        500
-                      ]
-                    }
-                  ]
-                },
                 identitycredentialrequestoptions: {
                   children: {},
                   slug: "/en-US/docs/Web/API/IdentityCredentialRequestOptions",
@@ -11499,6 +11568,19 @@ api.Document.fullscreen`,
                 },
                 web_audio_api: {
                   children: {
+                    advanced_techniques: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://soundbible.com/1573-DTMF-Tones.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
                     best_practices: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Best_practices",
@@ -20018,7 +20100,7 @@ http.headers.Use-As-Dictionary`,
                               message: "Broken external link",
                               data: [
                                 "https://www.gnu.org/software/wget/",
-                                "The operation timed out."
+                                "Cannot reach server and Bun hangs"
                               ]
                             }
                           ]
@@ -21102,19 +21184,6 @@ http.headers.Use-As-Dictionary`,
                               data: [
                                 "https://ffmpeg.org/",
                                 "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        image_types: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Image_types",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://ev.buaa.edu.cn/",
-                                403
                               ]
                             }
                           ]
