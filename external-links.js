@@ -1,9 +1,9 @@
 import {
   nodes_default
-} from "./chunk-ajfz8yvm.js";
+} from "./chunk-gs5t4c9r.js";
 import {
   last_update_default
-} from "./chunk-3vz6n6cp.js";
+} from "./chunk-vv8nbvje.js";
 
 // src/client/external-links.ts
 var noteBox = document.getElementById("note");
