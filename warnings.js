@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-vv8nbvje.js";
+} from "./chunk-wg0qsh71.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -2985,6 +2985,27 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://www.codelobster.com/",
+                            "Unable to connect. Is the computer able to access the url?"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.codelobster.com/forum/index.php",
+                            "Unable to connect. Is the computer able to access the url?"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.codelobsteride.com/help/",
+                            "Unable to connect. Is the computer able to access the url?"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://webchat.freenode.net/?channels=textmate",
                             521
                           ]
@@ -2998,6 +3019,19 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    how_much_does_it_cost: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_much_does_it_cost",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://dotclear.org/",
+                            "unable to verify the first certificate"
+                          ]
                         }
                       ]
                     },
@@ -9458,20 +9492,6 @@ api.DeviceOrientationEvent`,
                           ]
                         }
                       ]
-                    },
-                    clientleft: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/clientLeft",
-                      messages: [
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "display: inline",
-                            "Text before code:",
-                            "When an element has"
-                          ]
-                        }
-                      ]
                     }
                   }
                 },
@@ -10445,7 +10465,17 @@ api.Document.fullscreen`,
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/Payment_Request_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://developer.samsung.com/internet/android/web-payments-integration-guide.html",
+                        405
+                      ]
+                    }
+                  ]
                 },
                 paymentrequestevent: {
                   children: {
@@ -14991,12 +15021,6 @@ css.selectors.-webkit-resizer`,
                   slug: "/en-US/docs/Web/CSS/clip-path",
                   messages: [
                     {
-                      message: "Code with space",
-                      data: [
-                        "custom properties"
-                      ]
-                    },
-                    {
                       message: "Unused image",
                       data: [
                         "mdn.svg"
@@ -17728,6 +17752,18 @@ css.properties.width.fit-content_function`
                       message: "Unused image",
                       data: [
                         "star-solid.gif"
+                      ]
+                    }
+                  ]
+                },
+                mask: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/mask",
+                  messages: [
+                    {
+                      message: "Broken anchor",
+                      data: [
+                        "#constituent-properties"
                       ]
                     }
                   ]
@@ -21002,6 +21038,13 @@ http.headers.Use-As-Dictionary`,
                         {
                           message: "Broken external link",
                           data: [
+                            "https://handbrake.fr/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "http://www.firefogg.org/",
                             500
                           ]
@@ -21036,6 +21079,19 @@ http.headers.Use-As-Dictionary`,
                     },
                     formats: {
                       children: {
+                        audio_codecs: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Audio_codecs",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://handbrake.fr/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
