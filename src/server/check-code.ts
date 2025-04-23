@@ -7,6 +7,7 @@ const sanctionedLanguages = [
   "apacheconf",
   "bash",
   "batch",
+  "c",
   "cpp",
   "cs",
   "css",

@@ -49,6 +49,12 @@
 
 /en-US/docs/Web/HTML/Reference/Elements/Heading_Elements	html.elements.h1,html.elements.h2,html.elements.h3,html.elements.h4,html.elements.h5,html.elements.h6
 
+/en-US/docs/Web/JavaScript/Reference/Classes	javascript.classes
+/en-US/docs/Web/JavaScript/Reference/Functions	javascript.functions
+/en-US/docs/Web/JavaScript/Reference/Lexical_grammar	javascript.grammar
+
+/en-US/docs/Web/MathML/Reference/Values	mathml.attribute_values
+
 /en-US/docs/Web/SVG/Reference/Attribute/data-*	svg.global_attributes.data
 /en-US/docs/WebAssembly/Reference/JavaScript_interface/Memory	webassembly.api.Memory,webassembly.multiMemory
 /en-US/docs/Web/URI/Reference/Fragment/Text_fragments	html.elements.a.text_fragments,api.FragmentDirective,css.selectors.target-text
