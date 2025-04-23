@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-73pprv39.js";
+} from "./chunk-2hrt911z.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -755,6 +755,26 @@ var warnings_processed_default = {
                 }
               ]
             },
+            gpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/GPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-faq.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                }
+              ]
+            },
             "high-level_programming_language": {
               children: {},
               slug: "/en-US/docs/Glossary/High-level_programming_language",
@@ -842,6 +862,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            lgpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/LGPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/lgpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
                 }
               ]
             },
@@ -2182,7 +2215,17 @@ var warnings_processed_default = {
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
                     },
                     html_video_and_audio: {
                       children: {
@@ -2284,6 +2327,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/guide/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2570,6 +2620,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -2596,23 +2653,6 @@ var warnings_processed_default = {
                           data: []
                         }
                       ]
-                    },
-                    django: {
-                      children: {
-                        deployment: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Deployment",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.hetzner.com/",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
-                        }
-                      }
                     },
                     express_nodejs: {
                       children: {
@@ -3002,6 +3042,27 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://webchat.freenode.net/?channels=textmate",
                             521
                           ]
@@ -3035,6 +3096,13 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -9575,18 +9643,6 @@ api.DeviceOrientationEvent`,
                     }
                   }
                 },
-                ext_shader_texture_lod: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/EXT_shader_texture_lod",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "c"
-                      ]
-                    }
-                  ]
-                },
                 fetchevent: {
                   children: {
                     replacesclientid: {
@@ -9704,17 +9760,7 @@ api.Document.fullscreen`,
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/Geolocation_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://lbs.amap.com/api/javascript-api/guide/services/geolocation",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
+                  }
                 },
                 history_api: {
                   children: {
@@ -10370,18 +10416,6 @@ api.Document.fullscreen`,
                       ]
                     }
                   }
-                },
-                oes_standard_derivatives: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/OES_standard_derivatives",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "c"
-                      ]
-                    }
-                  ]
                 },
                 oes_vertex_array_object: {
                   children: {
@@ -11367,7 +11401,7 @@ api.Document.fullscreen`,
                           message: "Broken external link",
                           data: [
                             "https://soundbible.com/1573-DTMF-Tones.html",
-                            "Cannot reach server and Bun hangs"
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -19877,6 +19911,19 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         "available-dictionary": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Available-Dictionary",
@@ -20144,19 +20191,6 @@ http.headers.Use-As-Dictionary`,
                           ]
                         }
                       }
-                    },
-                    status: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTTP/Reference/Status",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml",
-                            503
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/HTTP/Reference",
@@ -20301,18 +20335,6 @@ http.headers.Use-As-Dictionary`,
                         }
                       ]
                     },
-                    typed_arrays: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Typed_arrays",
-                      messages: [
-                        {
-                          message: "Invalid code block language",
-                          data: [
-                            "c"
-                          ]
-                        }
-                      ]
-                    },
                     using_promises: {
                       children: {},
                       slug: "/en-US/docs/Web/JavaScript/Guide/Using_promises",
@@ -20331,19 +20353,7 @@ http.headers.Use-As-Dictionary`,
                 reference: {
                   children: {
                     classes: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Reference/Classes",
-                      messages: [
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "javascript.classes",
-                            "Expected:",
-                            "[None]"
-                          ]
-                        }
-                      ]
+                      children: {}
                     },
                     errors: {
                       children: {
@@ -20360,21 +20370,6 @@ http.headers.Use-As-Dictionary`,
                           ]
                         }
                       }
-                    },
-                    functions: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Reference/Functions",
-                      messages: [
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "javascript.functions",
-                            "Expected:",
-                            "[None]"
-                          ]
-                        }
-                      ]
                     },
                     global_objects: {
                       children: {
@@ -20647,21 +20642,6 @@ http.headers.Use-As-Dictionary`,
                         }
                       ]
                     },
-                    lexical_grammar: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Reference/Lexical_grammar",
-                      messages: [
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "javascript.grammar",
-                            "Expected:",
-                            "[None]"
-                          ]
-                        }
-                      ]
-                    },
                     operators: {
                       children: {
                         delete: {
@@ -20800,21 +20780,6 @@ http.headers.Use-As-Dictionary`,
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Web/MathML/Reference/Element/style"
-                          ]
-                        }
-                      ]
-                    },
-                    values: {
-                      children: {},
-                      slug: "/en-US/docs/Web/MathML/Reference/Values",
-                      messages: [
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "mathml.attribute_values",
-                            "Expected:",
-                            "[None]"
                           ]
                         }
                       ]
@@ -20972,18 +20937,6 @@ http.headers.Use-As-Dictionary`,
                     },
                     formats: {
                       children: {
-                        image_types: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Image_types",
-                          messages: [
-                            {
-                              message: "Invalid code block language",
-                              data: [
-                                "c"
-                              ]
-                            }
-                          ]
-                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -22241,42 +22194,6 @@ svg.elements.feGaussianBlur.edgeMode`
                             }
                           ]
                         },
-                        fill: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/fill",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                `svg.elements.circle.fill
-svg.elements.ellipse.fill
-svg.elements.path.fill
-svg.elements.polygon.fill
-svg.elements.polyline.fill
-svg.elements.rect.fill
-svg.elements.text.fill
-svg.elements.textPath.fill
-svg.elements.tref.fill
-svg.elements.tspan.fill`,
-                                "Expected:",
-                                `svg.elements.animate.fill
-svg.elements.animateMotion.fill
-svg.elements.animateTransform.fill
-svg.elements.circle.fill
-svg.elements.ellipse.fill
-svg.elements.path.fill
-svg.elements.polygon.fill
-svg.elements.polyline.fill
-svg.elements.rect.fill
-svg.elements.set.fill
-svg.elements.text.fill
-svg.elements.textPath.fill
-svg.elements.tspan.fill`
-                              ]
-                            }
-                          ]
-                        },
                         from: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/From",
@@ -22853,23 +22770,6 @@ svg.elements.use.systemLanguage`
                             }
                           ]
                         },
-                        textlength: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/textLength",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.text.textLength",
-                                "Expected:",
-                                `svg.elements.text.textLength
-svg.elements.textPath.textLength
-svg.elements.tspan.textLength`
-                              ]
-                            }
-                          ]
-                        },
                         transform: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/transform",
@@ -23425,6 +23325,13 @@ svg.elements.feSpotLight.z`
                                 "http://snapsvg.io/",
                                 ""
                               ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://docs.google.com/drawings",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         }
@@ -23661,7 +23568,28 @@ svg.elements.feSpotLight.z`
                   }
                 },
                 guides: {
-                  children: {},
+                  children: {
+                    opensearch: {
+                      children: {},
+                      slug: "/en-US/docs/Web/XML/Guides/OpenSearch",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://ready.to/search/en/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://ready.to/search/make/en_make_plugin.htm",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/XML/Guides",
                   messages: [
                     {
@@ -23782,56 +23710,7 @@ svg.elements.feSpotLight.z`
         webassembly: {
           children: {
             guides: {
-              children: {
-                c_to_wasm: {
-                  children: {},
-                  slug: "/en-US/docs/WebAssembly/Guides/C_to_Wasm",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "c"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "c"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "c"
-                      ]
-                    }
-                  ]
-                },
-                existing_c_to_wasm: {
-                  children: {},
-                  slug: "/en-US/docs/WebAssembly/Guides/Existing_C_to_Wasm",
-                  messages: [
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "c"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "c"
-                      ]
-                    },
-                    {
-                      message: "Invalid code block language",
-                      data: [
-                        "c"
-                      ]
-                    }
-                  ]
-                }
-              },
+              children: {},
               slug: "/en-US/docs/WebAssembly/Guides",
               messages: [
                 {
