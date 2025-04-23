@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-wg0qsh71.js";
+} from "./chunk-73pprv39.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -2597,6 +2597,23 @@ var warnings_processed_default = {
                         }
                       ]
                     },
+                    django: {
+                      children: {
+                        deployment: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Deployment",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.hetzner.com/",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     express_nodejs: {
                       children: {
                         introduction: {
@@ -2980,27 +2997,6 @@ var warnings_processed_default = {
                           data: [
                             "https://webchat.freenode.net/?channels=brackets",
                             521
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.codelobster.com/",
-                            "Unable to connect. Is the computer able to access the url?"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.codelobster.com/forum/index.php",
-                            "Unable to connect. Is the computer able to access the url?"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.codelobsteride.com/help/",
-                            "Unable to connect. Is the computer able to access the url?"
                           ]
                         },
                         {
@@ -9003,22 +8999,6 @@ api.MessagePort`,
                     }
                   ]
                 },
-                cssnumericvalue: {
-                  children: {
-                    type: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSSNumericValue/type",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/CSSNumericType"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 csspositionvalue: {
                   children: {},
                   slug: "/en-US/docs/Web/API/CSSPositionValue",
@@ -9595,6 +9575,18 @@ api.DeviceOrientationEvent`,
                     }
                   }
                 },
+                ext_shader_texture_lod: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/EXT_shader_texture_lod",
+                  messages: [
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "c"
+                      ]
+                    }
+                  ]
+                },
                 fetchevent: {
                   children: {
                     replacesclientid: {
@@ -9712,7 +9704,17 @@ api.Document.fullscreen`,
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/Geolocation_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://lbs.amap.com/api/javascript-api/guide/services/geolocation",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 history_api: {
                   children: {
@@ -10369,6 +10371,18 @@ api.Document.fullscreen`,
                     }
                   }
                 },
+                oes_standard_derivatives: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/OES_standard_derivatives",
+                  messages: [
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "c"
+                      ]
+                    }
+                  ]
+                },
                 oes_vertex_array_object: {
                   children: {
                     bindvertexarrayoes: {
@@ -10465,17 +10479,7 @@ api.Document.fullscreen`,
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/Payment_Request_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://developer.samsung.com/internet/android/web-payments-integration-guide.html",
-                        405
-                      ]
-                    }
-                  ]
+                  }
                 },
                 paymentrequestevent: {
                   children: {
@@ -10699,15 +10703,6 @@ api.Document.fullscreen`,
                           data: [
                             "api.RTCStatsReport.type_candidate-pair.availableIncomingBitrate"
                           ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "api.RTCIceCandidatePairStats.availableIncomingBitrate",
-                            "Expected:",
-                            "api.RTCStatsReport.type_candidate-pair.availableIncomingBitrate"
-                          ]
                         }
                       ]
                     },
@@ -10718,15 +10713,6 @@ api.Document.fullscreen`,
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.RTCStatsReport.type_candidate-pair.readable"
-                          ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "api.RTCIceCandidatePairStats.readable",
-                            "Expected:",
                             "api.RTCStatsReport.type_candidate-pair.readable"
                           ]
                         }
@@ -10741,15 +10727,6 @@ api.Document.fullscreen`,
                           data: [
                             "api.RTCStatsReport.type_candidate-pair.selected"
                           ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "api.RTCIceCandidatePairStats.selected",
-                            "Expected:",
-                            "api.RTCStatsReport.type_candidate-pair.selected"
-                          ]
                         }
                       ]
                     },
@@ -10760,15 +10737,6 @@ api.Document.fullscreen`,
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.RTCStatsReport.type_candidate-pair.writable"
-                          ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "api.RTCIceCandidatePairStats.writable",
-                            "Expected:",
                             "api.RTCStatsReport.type_candidate-pair.writable"
                           ]
                         }
@@ -10787,15 +10755,6 @@ api.Document.fullscreen`,
                           data: [
                             "api.RTCStatsReport.type_local-candidate.deleted"
                           ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "api.RTCIceCandidateStats.deleted",
-                            "Expected:",
-                            "api.RTCStatsReport.type_local-candidate.deleted"
-                          ]
                         }
                       ]
                     },
@@ -10808,15 +10767,6 @@ api.Document.fullscreen`,
                           data: [
                             "api.RTCStatsReport.type_local-candidate.relayProtocol"
                           ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "api.RTCIceCandidateStats.relayProtocol",
-                            "Expected:",
-                            "api.RTCStatsReport.type_local-candidate.relayProtocol"
-                          ]
                         }
                       ]
                     },
@@ -10827,15 +10777,6 @@ api.Document.fullscreen`,
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.RTCStatsReport.type_local-candidate.url"
-                          ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "api.RTCIceCandidateStats.url",
-                            "Expected:",
                             "api.RTCStatsReport.type_local-candidate.url"
                           ]
                         }
@@ -10870,15 +10811,6 @@ api.Document.fullscreen`,
                           data: [
                             "api.RTCStatsReport.type_inbound-rtp.averageRtcpInterval"
                           ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "api.RTCInboundRtpStreamStats.averageRtcpInterval",
-                            "Expected:",
-                            "api.RTCStatsReport.type_inbound-rtp.averageRtcpInterval"
-                          ]
                         }
                       ]
                     },
@@ -10889,15 +10821,6 @@ api.Document.fullscreen`,
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.RTCStatsReport.type_inbound-rtp.packetsDuplicated"
-                          ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "api.RTCInboundRtpStreamStats.packetsDuplicated",
-                            "Expected:",
                             "api.RTCStatsReport.type_inbound-rtp.packetsDuplicated"
                           ]
                         }
@@ -10912,15 +10835,6 @@ api.Document.fullscreen`,
                           data: [
                             "api.RTCStatsReport.type_inbound-rtp.packetsFailedDecryption"
                           ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "api.RTCInboundRtpStreamStats.packetsFailedDecryption",
-                            "Expected:",
-                            "api.RTCStatsReport.type_inbound-rtp.packetsFailedDecryption"
-                          ]
                         }
                       ]
                     },
@@ -10931,15 +10845,6 @@ api.Document.fullscreen`,
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.RTCStatsReport.type_inbound-rtp.perDscpPacketsReceived"
-                          ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "api.RTCInboundRtpStreamStats.perDscpPacketsReceived",
-                            "Expected:",
                             "api.RTCStatsReport.type_inbound-rtp.perDscpPacketsReceived"
                           ]
                         }
@@ -10954,15 +10859,6 @@ api.Document.fullscreen`,
                           data: [
                             "api.RTCStatsReport.type_inbound-rtp.receiverId"
                           ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "api.RTCInboundRtpStreamStats.receiverId",
-                            "Expected:",
-                            "api.RTCStatsReport.type_inbound-rtp.receiverId"
-                          ]
                         }
                       ]
                     },
@@ -10973,15 +10869,6 @@ api.Document.fullscreen`,
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.RTCStatsReport.type_inbound-rtp.sliCount"
-                          ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "api.RTCInboundRtpStreamStats.sliCount",
-                            "Expected:",
                             "api.RTCStatsReport.type_inbound-rtp.sliCount"
                           ]
                         }
@@ -11480,7 +11367,7 @@ api.Document.fullscreen`,
                           message: "Broken external link",
                           data: [
                             "https://soundbible.com/1573-DTMF-Tones.html",
-                            "certificate has expired"
+                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -17756,18 +17643,6 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
-                mask: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask",
-                  messages: [
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "#constituent-properties"
-                      ]
-                    }
-                  ]
-                },
                 "mask-border-mode": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/mask-border-mode",
@@ -20269,6 +20144,19 @@ http.headers.Use-As-Dictionary`,
                           ]
                         }
                       }
+                    },
+                    status: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTTP/Reference/Status",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml",
+                            503
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/HTTP/Reference",
@@ -20409,6 +20297,18 @@ http.headers.Use-As-Dictionary`,
                           message: "Not linked from parent page",
                           data: [
                             "/en-US/docs/Web/JavaScript/Guide"
+                          ]
+                        }
+                      ]
+                    },
+                    typed_arrays: {
+                      children: {},
+                      slug: "/en-US/docs/Web/JavaScript/Guide/Typed_arrays",
+                      messages: [
+                        {
+                          message: "Invalid code block language",
+                          data: [
+                            "c"
                           ]
                         }
                       ]
@@ -21038,13 +20938,6 @@ http.headers.Use-As-Dictionary`,
                         {
                           message: "Broken external link",
                           data: [
-                            "https://handbrake.fr/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "http://www.firefogg.org/",
                             500
                           ]
@@ -21079,15 +20972,14 @@ http.headers.Use-As-Dictionary`,
                     },
                     formats: {
                       children: {
-                        audio_codecs: {
+                        image_types: {
                           children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Audio_codecs",
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Image_types",
                           messages: [
                             {
-                              message: "Broken external link",
+                              message: "Invalid code block language",
                               data: [
-                                "https://handbrake.fr/",
-                                "Cannot reach server and Bun hangs"
+                                "c"
                               ]
                             }
                           ]
@@ -21760,22 +21652,6 @@ html.elements.script.integrity`,
                                 "[None]",
                                 "Expected:",
                                 "svg.elements.clipPath.clipPathUnits"
-                              ]
-                            }
-                          ]
-                        },
-                        crossorigin: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/crossorigin",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.image.crossorigin",
-                                "Expected:",
-                                `svg.elements.feImage.crossorigin
-svg.elements.image.crossorigin`
                               ]
                             }
                           ]
@@ -22609,22 +22485,6 @@ svg.elements.feSpecularLighting.kernelUnitLength`
                             }
                           ]
                         },
-                        lengthadjust: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/lengthAdjust",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.text.lengthAdjust",
-                                "Expected:",
-                                `svg.elements.text.lengthAdjust
-svg.elements.tspan.lengthAdjust`
-                              ]
-                            }
-                          ]
-                        },
                         method: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/method",
@@ -22934,22 +22794,6 @@ svg.elements.rect.ry`
                                 "Expected:",
                                 `svg.elements.feSpecularLighting.specularExponent
 svg.elements.feSpotLight.specularExponent`
-                              ]
-                            }
-                          ]
-                        },
-                        stddeviation: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/stdDeviation",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "svg.elements.feGaussianBlur.stdDeviation",
-                                "Expected:",
-                                `svg.elements.feDropShadow.stdDeviation
-svg.elements.feGaussianBlur.stdDeviation`
                               ]
                             }
                           ]
@@ -23938,7 +23782,56 @@ svg.elements.feSpotLight.z`
         webassembly: {
           children: {
             guides: {
-              children: {},
+              children: {
+                c_to_wasm: {
+                  children: {},
+                  slug: "/en-US/docs/WebAssembly/Guides/C_to_Wasm",
+                  messages: [
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "c"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "c"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "c"
+                      ]
+                    }
+                  ]
+                },
+                existing_c_to_wasm: {
+                  children: {},
+                  slug: "/en-US/docs/WebAssembly/Guides/Existing_C_to_Wasm",
+                  messages: [
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "c"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "c"
+                      ]
+                    },
+                    {
+                      message: "Invalid code block language",
+                      data: [
+                        "c"
+                      ]
+                    }
+                  ]
+                }
+              },
               slug: "/en-US/docs/WebAssembly/Guides",
               messages: [
                 {
