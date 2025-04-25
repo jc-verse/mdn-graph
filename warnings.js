@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-k7c34rg8.js";
+} from "./chunk-casdd0ee.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -457,6 +457,13 @@ var warnings_processed_default = {
                 "http://buildnewgames.com/",
                 ""
               ]
+            },
+            {
+              message: "HTTP link",
+              data: [
+                "http://creativejs.com/",
+                ""
+              ]
             }
           ]
         },
@@ -534,6 +541,13 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://nodejs.org/",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -748,26 +762,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            gpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/GPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/gpl-faq.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/gpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                }
-              ]
-            },
             "high-level_programming_language": {
               children: {},
               slug: "/en-US/docs/Glossary/High-level_programming_language",
@@ -858,19 +852,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            lgpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/LGPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/lgpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                }
-              ]
-            },
             literal: {
               children: {},
               slug: "/en-US/docs/Glossary/Literal",
@@ -949,6 +930,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            "node.js": {
+              children: {},
+              slug: "/en-US/docs/Glossary/Node.js",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://nodejs.org/",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -1727,13 +1721,6 @@ var warnings_processed_default = {
                           data: [
                             "https://codepen.io/mxmason/pen/XWbPNmw"
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://new.drupal.org/",
-                            403
-                          ]
                         }
                       ]
                     },
@@ -1872,6 +1859,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://nodejs.org/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2105,6 +2099,19 @@ var warnings_processed_default = {
                         }
                       ]
                     },
+                    what_is_javascript: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://wiki.openstreetmap.org/wiki/API",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     what_went_wrong: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/What_went_wrong",
@@ -2185,17 +2192,7 @@ var warnings_processed_default = {
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
+                      }
                     },
                     html_video_and_audio: {
                       children: {
@@ -2380,6 +2377,23 @@ var warnings_processed_default = {
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/mikethomas/pen/kQjKLW"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                "client-side_tools": {
+                  children: {
+                    overview: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://nodejs.org/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -2583,13 +2597,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/gzip/",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     }
@@ -2623,6 +2630,13 @@ var warnings_processed_default = {
                           children: {},
                           slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
                           messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://nodejs.org/",
+                                "The operation timed out."
+                              ]
+                            },
                             {
                               message: "HTTP link",
                               data: [
@@ -2963,27 +2977,6 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/efaq.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://webchat.freenode.net/?channels=textmate",
                             521
                           ]
@@ -3004,13 +2997,6 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -11900,23 +11886,6 @@ api.Window.sessionStorage`,
                         }
                       ]
                     },
-                    tutorial: {
-                      children: {
-                        animating_objects_with_webgl: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/WebGL_API/Tutorial/Animating_objects_with_WebGL",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/dom-examples/tree/main/webgl-examples/tutorial/sample4",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
                     webgl_best_practices: {
                       children: {},
                       slug: "/en-US/docs/Web/API/WebGL_API/WebGL_best_practices",
@@ -12231,6 +12200,40 @@ api.Window.sessionStorage`,
                       ]
                     }
                   }
+                },
+                websockets_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/WebSockets_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://nodejs.org/",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://nodejs.org/",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://nodejs.org/",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://nodejs.org/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 webtransport_api: {
                   children: {},
@@ -20086,21 +20089,7 @@ html.elements.select.size`
                         script: {
                           children: {
                             type: {
-                              children: {
-                                importmap: {
-                                  children: {},
-                                  slug: "/en-US/docs/Web/HTML/Reference/Elements/script/type/importmap",
-                                  messages: [
-                                    {
-                                      message: "Broken external link",
-                                      data: [
-                                        "https://github.com/guybedford/es-module-shims",
-                                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                      ]
-                                    }
-                                  ]
-                                }
-                              },
+                              children: {},
                               slug: "/en-US/docs/Web/HTML/Reference/Elements/script/type",
                               messages: [
                                 {
@@ -20373,19 +20362,6 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
-                        accept: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.gnu.org/software/wget/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
                         "available-dictionary": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Available-Dictionary",
@@ -20837,6 +20813,19 @@ http.headers.Use-As-Dictionary`,
                       children: {
                         array: {
                           children: {
+                            map: {
+                              children: {},
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://wirfs-brock.com/allen/posts/166",
+                                    500
+                                  ]
+                                }
+                              ]
+                            },
                             sort: {
                               children: {},
                               slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort",
@@ -21118,7 +21107,28 @@ http.headers.Use-As-Dictionary`,
                         {
                           message: "Broken external link",
                           data: [
-                            "https://docs.webkit.org/Deep%20Dive/JSC/JavaScriptCore.html",
+                            "https://nodejs.org/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://nodejs.org/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://nodejs.org/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://nodejs.org/",
                             "The operation timed out."
                           ]
                         }
@@ -21220,6 +21230,26 @@ http.headers.Use-As-Dictionary`,
               children: {
                 guides: {
                   children: {
+                    authoring: {
+                      children: {},
+                      slug: "/en-US/docs/Web/MathML/Guides/Authoring",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://nodejs.org/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.lyx.org/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     deriving_the_quadratic_formula: {
                       children: {},
                       slug: "/en-US/docs/Web/MathML/Guides/Deriving_the_quadratic_formula",
@@ -24406,7 +24436,7 @@ function createTable(root, data, displayedMessages, fileIncluded, showMessage) {
       }
       for (const value of message.data) {
         let elem = tr2.appendChild(document.createElement("td"));
-        if (value?.includes("  "))
+        if (typeof value === "string" && value.includes("  "))
           elem = elem.appendChild(document.createElement("pre"));
         elem.innerText = value ?? "";
       }
