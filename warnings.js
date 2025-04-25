@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-4nczq07j.js";
+} from "./chunk-k7c34rg8.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -457,13 +457,6 @@ var warnings_processed_default = {
                 "http://buildnewgames.com/",
                 ""
               ]
-            },
-            {
-              message: "HTTP link",
-              data: [
-                "http://creativejs.com/",
-                ""
-              ]
             }
           ]
         },
@@ -755,6 +748,26 @@ var warnings_processed_default = {
                 }
               ]
             },
+            gpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/GPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-faq.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                }
+              ]
+            },
             "high-level_programming_language": {
               children: {},
               slug: "/en-US/docs/Glossary/High-level_programming_language",
@@ -842,6 +855,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            lgpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/LGPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/lgpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
                 }
               ]
             },
@@ -2017,7 +2043,8 @@ var warnings_processed_default = {
                           message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
-                            "",
+                            `function displayMessage() {
+`,
                             "2:9"
                           ]
                         },
@@ -2025,7 +2052,8 @@ var warnings_processed_default = {
                           message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
-                            "",
+                            `function displayMessage(msgText, msgType) {
+`,
                             "2:9"
                           ]
                         }
@@ -2085,7 +2113,8 @@ var warnings_processed_default = {
                           message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
-                            "",
+                            `if (userGuess === randomNumber) {
+`,
                             "2:9"
                           ]
                         },
@@ -2093,7 +2122,8 @@ var warnings_processed_default = {
                           message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
-                            "",
+                            `if (userGuess = randomNumber) {
+`,
                             "2:9"
                           ]
                         },
@@ -2101,7 +2131,8 @@ var warnings_processed_default = {
                           message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
-                            "",
+                            `function checkGuess() {
+`,
                             "2:9"
                           ]
                         },
@@ -2109,7 +2140,8 @@ var warnings_processed_default = {
                           message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
-                            "",
+                            `function checkGuess( {
+`,
                             "2:9"
                           ]
                         }
@@ -2119,20 +2151,6 @@ var warnings_processed_default = {
                 },
                 structuring_content: {
                   children: {
-                    basic_html_syntax: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            'Unexpected character "EOF"',
-                            "",
-                            "1:0"
-                          ]
-                        }
-                      ]
-                    },
                     creating_links: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Creating_links",
@@ -2141,28 +2159,6 @@ var warnings_processed_default = {
                           message: "Unused image",
                           data: [
                             "mdn_logo.svg"
-                          ]
-                        }
-                      ]
-                    },
-                    debugging_html: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Debugging_HTML",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            'Unexpected character "EOF"',
-                            "",
-                            "17:0"
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            'Unexpected character "EOF"',
-                            "",
-                            "16:0"
                           ]
                         }
                       ]
@@ -2189,7 +2185,17 @@ var warnings_processed_default = {
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
                     },
                     html_video_and_audio: {
                       children: {
@@ -2577,6 +2583,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -2950,6 +2963,27 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://webchat.freenode.net/?channels=textmate",
                             521
                           ]
@@ -2970,6 +3004,13 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -3805,63 +3846,6 @@ var warnings_processed_default = {
                             }
                           }
                         },
-                        history: {
-                          children: {
-                            addurl: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/history/addUrl",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://www.iso.org/iso-8601-date-and-time-format.html",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            deleterange: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/history/deleteRange",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://www.iso.org/iso-8601-date-and-time-format.html",
-                                    "The operation timed out."
-                                  ]
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://www.iso.org/iso-8601-date-and-time-format.html",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            search: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/history/search",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://www.iso.org/iso-8601-date-and-time-format.html",
-                                    "The operation timed out."
-                                  ]
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://www.iso.org/iso-8601-date-and-time-format.html",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            }
-                          }
-                        },
                         i18n: {
                           children: {
                             "locale-specific_message_reference": {
@@ -4563,7 +4547,10 @@ webextensions.manifest.options_ui`,
                           message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
-                            "",
+                            `if (browser.contextualIdentities === undefined) {
+  div.innerText = 'browser.contextualIdentities not available. Check that the privacy.userContext.enabled pref is set to true, and reload the add-on.';
+} else {
+`,
                             "4:9"
                           ]
                         },
@@ -4571,7 +4558,13 @@ webextensions.manifest.options_ui`,
                           message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
-                            "",
+                            `  browser.contextualIdentities.query({})
+    .then((identities) => {
+      if (!identities.length) {
+        div.innerText = 'No identities returned from the API.';
+        return;
+      }
+`,
                             "7:9"
                           ]
                         },
@@ -4587,7 +4580,8 @@ webextensions.manifest.options_ui`,
                           message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
-                            "",
+                            `function eventHandler(event) {
+`,
                             "2:9"
                           ]
                         },
@@ -4619,7 +4613,11 @@ webextensions.manifest.options_ui`,
                           message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
-                            "",
+                            `  function updateTab(tabs) {
+    if (tabs[0]) {
+      currentTab = tabs[0];
+      if (isSupportedProtocol(currentTab.url)) {
+`,
                             "5:9"
                           ]
                         },
@@ -4627,7 +4625,11 @@ webextensions.manifest.options_ui`,
                           message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
-                            "",
+                            `      let searching = browser.bookmarks.search({url: currentTab.url});
+      searching.then((bookmarks) => {
+        currentBookmark = bookmarks[0];
+        updateIcon();
+`,
                             "5:9"
                           ]
                         }
@@ -4647,7 +4649,13 @@ webextensions.manifest.options_ui`,
                           message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
-                            "",
+                            `for (let i = 0; i < bgBtns.length; i++) {
+  let imgName = bgBtns[i].getAttribute('class');
+  let bgImg = 'url(\\'images/' + imgName + '.png\\')';
+  bgBtns[i].style.backgroundImage = bgImg;
+
+  bgBtns[i].onclick = (e) => {
+`,
                             "7:9"
                           ]
                         },
@@ -4655,7 +4663,12 @@ webextensions.manifest.options_ui`,
                           message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
-                            "",
+                            `    cookieVal.color = currColor;
+    browser.cookies.set({
+    url: tabs[0].url,
+    name: "bgpicker",
+    value: JSON.stringify(cookieVal)
+`,
                             "6:9"
                           ]
                         },
@@ -4663,7 +4676,12 @@ webextensions.manifest.options_ui`,
                           message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
-                            "",
+                            `    cookieVal = { image : '',
+                  color : '' };
+    browser.cookies.remove({
+    url: tabs[0].url,
+    name: "bgpicker"
+`,
                             "6:9"
                           ]
                         }
@@ -4677,7 +4695,15 @@ webextensions.manifest.options_ui`,
                           message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
-                            "",
+                            `function listTabs() {
+ getCurrentWindowTabs().then((tabs) => {
+    const tabsList = document.getElementById('tabs-list');
+    const currentTabs = document.createDocumentFragment();
+    const limit = 5;
+    let counter = 0;
+
+    tabsList.textContent = '';
+`,
                             "9:9"
                           ]
                         },
@@ -5114,14 +5140,6 @@ webextensions.manifest.options_ui`,
                               message: "Broken link",
                               data: [
                                 "/en-US/docs/New_in_JavaScript_1.8"
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                'Unexpected character "EOF"',
-                                "",
-                                "1:0"
                               ]
                             }
                           ]
@@ -10031,7 +10049,14 @@ api.Document.fullscreen`,
                           message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
-                            "",
+                            `function addData(e) {
+  e.preventDefault();
+
+  if (!title.value || !hours.value || !minutes.value || !day.value || !month.value || !year.value) {
+    note.appendChild(document.createElement("li")).textContent = "Data not submitted — form incomplete.";
+    return;
+  }
+`,
                             "8:9"
                           ]
                         },
@@ -10063,7 +10088,9 @@ api.Document.fullscreen`,
                           message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
-                            "",
+                            `function checkDeadlines() {
+  const now = new Date();
+`,
                             "3:9"
                           ]
                         },
@@ -10071,7 +10098,14 @@ api.Document.fullscreen`,
                           message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
-                            "",
+                            `  const objectStore = db.transaction(['toDoList'], "readwrite").objectStore('toDoList');
+
+  objectStore.openCursor().onsuccess = (event) => {
+    const cursor = event.target.result;
+    let monthNumber;
+
+    if (cursor) {
+`,
                             "8:9"
                           ]
                         },
@@ -10079,7 +10113,30 @@ api.Document.fullscreen`,
                           message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
-                            "",
+                            `    // now we need to update the value of notified to "yes" in this particular data object, so the
+    // notification won't be set off on it again
+
+    // first open up a transaction as usual
+    const objectStore = db.transaction(['toDoList'], "readwrite").objectStore('toDoList');
+
+    // get the to-do list object that has this title as its title
+    const request = objectStore.get(title);
+
+    request.onsuccess = () => {
+      // grab the data object returned as the result
+      const data = request.result;
+
+      // update the notified value in the object to "yes"
+      data.notified = "yes";
+
+      // create another request that inserts the item back into the database
+      const requestUpdate = objectStore.put(data);
+
+      // when this new request succeeds, run the displayData() function again to update the display
+      requestUpdate.onsuccess = () => {
+        displayData();
+      }
+`,
                             "24:9"
                           ]
                         },
@@ -10165,7 +10222,17 @@ api.Document.fullscreen`,
                           message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
-                            "",
+                            `(() => {
+  const width = 320;    // We will scale the photo width to this
+  const height = 0;     // This will be computed based on the input stream
+
+  const streaming = false;
+
+  let video = null;
+  let canvas = null;
+  let photo = null;
+  let startButton = null;
+`,
                             "11:9"
                           ]
                         },
@@ -10173,7 +10240,12 @@ api.Document.fullscreen`,
                           message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
-                            "",
+                            `  function startup() {
+    video = document.getElementById('video');
+    canvas = document.getElementById('canvas');
+    photo = document.getElementById('photo');
+    startButton = document.getElementById('start-button');
+`,
                             "6:9"
                           ]
                         },
@@ -11140,33 +11212,6 @@ api.Document.fullscreen`,
                     }
                   ]
                 },
-                topics_api: {
-                  children: {
-                    using: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Topics_API/Using",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://privacysandbox.google.com/private-advertising/topics",
-                            500
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/Topics_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://privacysandbox.google.com/private-advertising/topics",
-                        500
-                      ]
-                    }
-                  ]
-                },
                 touch_events: {
                   children: {
                     "multi-touch_interaction": {
@@ -11398,19 +11443,6 @@ api.Document.fullscreen`,
                 },
                 web_audio_api: {
                   children: {
-                    advanced_techniques: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://soundbible.com/1573-DTMF-Tones.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     best_practices: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Best_practices",
@@ -11439,7 +11471,30 @@ api.Document.fullscreen`,
                           message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
-                            "",
+                            `function createNoteTable() {
+  const noteFreq = [];
+  for (let i = 0; i < 9; i++) {
+    noteFreq[i] = [];
+  }
+
+  noteFreq[0]["A"] = 27.500000000000000;
+  noteFreq[0]["A#"] = 29.135235094880619;
+  noteFreq[0]["B"] = 30.867706328507756;
+
+  noteFreq[1]["C"] = 32.703195662574829;
+  noteFreq[1]["C#"] = 34.647828872109012;
+  noteFreq[1]["D"] = 36.708095989675945;
+  noteFreq[1]["D#"] = 38.890872965260113;
+  noteFreq[1]["E"] = 41.203444614108741;
+  noteFreq[1]["F"] = 43.653528929125485;
+  noteFreq[1]["F#"] = 46.249302838954299;
+  noteFreq[1]["G"] = 48.999429497718661;
+  noteFreq[1]["G#"] = 51.913087197493142;
+  noteFreq[1]["A"] = 55.000000000000000;
+  noteFreq[1]["A#"] = 58.270470189761239;
+  noteFreq[1]["B"] = 61.735412657015513;
+  // …
+`,
                             "24:9"
                           ]
                         },
@@ -11491,7 +11546,8 @@ api.Document.fullscreen`,
                           message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
-                            "",
+                            `function draw() {
+`,
                             "2:9"
                           ]
                         },
@@ -11507,7 +11563,14 @@ api.Document.fullscreen`,
                           message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
-                            "",
+                            `function draw() {
+  drawVisual = requestAnimationFrame(draw);
+
+  analyser.getByteFrequencyData(dataArray);
+
+  canvasCtx.fillStyle = "rgb(0 0 0)";
+  canvasCtx.fillRect(0, 0, WIDTH, HEIGHT);
+`,
                             "8:9"
                           ]
                         }
@@ -11675,7 +11738,9 @@ api.Window.sessionStorage`,
                               message: "JS code issue",
                               data: [
                                 "Parsing error: '}' expected.",
-                                "",
+                                `;(() => {
+  "use strict";
+`,
                                 "3:9"
                               ]
                             },
@@ -11697,7 +11762,9 @@ api.Window.sessionStorage`,
                               message: "JS code issue",
                               data: [
                                 "Parsing error: '}' expected.",
-                                "",
+                                `;(() => {
+  "use strict";
+`,
                                 "3:9"
                               ]
                             },
@@ -11719,7 +11786,9 @@ api.Window.sessionStorage`,
                               message: "JS code issue",
                               data: [
                                 "Parsing error: '}' expected.",
-                                "",
+                                `;(() => {
+  "use strict";
+`,
                                 "3:9"
                               ]
                             },
@@ -11741,7 +11810,9 @@ api.Window.sessionStorage`,
                               message: "JS code issue",
                               data: [
                                 "Parsing error: '}' expected.",
-                                "",
+                                `;(() => {
+  "use strict";
+`,
                                 "3:9"
                               ]
                             },
@@ -11763,7 +11834,9 @@ api.Window.sessionStorage`,
                               message: "JS code issue",
                               data: [
                                 "Parsing error: '}' expected.",
-                                "",
+                                `;(() => {
+  "use strict";
+`,
                                 "3:9"
                               ]
                             },
@@ -11826,6 +11899,23 @@ api.Window.sessionStorage`,
                           ]
                         }
                       ]
+                    },
+                    tutorial: {
+                      children: {
+                        animating_objects_with_webgl: {
+                          children: {},
+                          slug: "/en-US/docs/Web/API/WebGL_API/Tutorial/Animating_objects_with_WebGL",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://github.com/mdn/dom-examples/tree/main/webgl-examples/tutorial/sample4",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                              ]
+                            }
+                          ]
+                        }
+                      }
                     },
                     webgl_best_practices: {
                       children: {},
@@ -12193,7 +12283,13 @@ api.Window.sessionStorage`,
                           message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
-                            "",
+                            `function start() {
+  canvas = document.getElementById("gl-canvas");
+
+  initWebGL(canvas);      // Initialize the GL context
+
+  // WebGL setup code here
+`,
                             "7:9"
                           ]
                         },
@@ -12201,7 +12297,10 @@ api.Window.sessionStorage`,
                           message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
-                            "",
+                            `  // WebVR: Check to see if WebVR is supported
+  if (navigator.getVRDisplays) {
+    console.log('WebVR 1.1 supported');
+`,
                             "4:9"
                           ]
                         },
@@ -12209,7 +12308,9 @@ api.Window.sessionStorage`,
                           message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
-                            "",
+                            `    // Then get the displays attached to the computer
+    navigator.getVRDisplays().then((displays) => {
+`,
                             "3:9"
                           ]
                         },
@@ -12217,7 +12318,11 @@ api.Window.sessionStorage`,
                           message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
-                            "",
+                            `      // If a display is available, use it to present the scene
+      if (displays.length > 0) {
+        vrDisplay = displays[0];
+        console.log('Display found');
+`,
                             "5:9"
                           ]
                         },
@@ -12225,7 +12330,12 @@ api.Window.sessionStorage`,
                           message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
-                            "",
+                            `        // Starting the presentation when the button is clicked: It can only be called in response to a user gesture
+        btn.addEventListener('click', () => {
+          if (btn.textContent === 'Start VR display') {
+            vrDisplay.requestPresent([{ source: canvas }]).then(() => {
+              console.log('Presenting to WebVR display');
+`,
                             "6:9"
                           ]
                         },
@@ -12249,7 +12359,10 @@ api.Window.sessionStorage`,
                           message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
-                            "",
+                            `function drawVRScene() {
+  // WebVR: Request the next frame of the animation
+  vrSceneFrame = vrDisplay.requestAnimationFrame(drawVRScene);
+`,
                             "4:9"
                           ]
                         },
@@ -12265,7 +12378,14 @@ api.Window.sessionStorage`,
                           message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
-                            "",
+                            `function displayPoseStats(pose) {
+  const pos = pose.position;
+  const orient = pose.orientation;
+  const linVel = pose.linearVelocity;
+  const linAcc = pose.linearAcceleration;
+  const angVel = pose.angularVelocity;
+  const angAcc = pose.angularAcceleration;
+`,
                             "8:9"
                           ]
                         },
@@ -14588,6 +14708,20 @@ css.selectors.-webkit-resizer`,
                       data: [
                         "anemones.jpg"
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-2/",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -14635,6 +14769,13 @@ css.selectors.-webkit-resizer`,
                       message: "Unused image",
                       data: [
                         "br.png"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/compositing-2/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -14762,6 +14903,13 @@ css.selectors.-webkit-resizer`,
                       message: "Unused image",
                       data: [
                         "br.png"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/compositing-2/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -15430,6 +15578,19 @@ css.selectors.-webkit-resizer`,
                         "Unknown word oklch (CssSyntaxError)",
                         "oklch(83.915% 0.0902 78.748)",
                         "1:1"
+                      ]
+                    }
+                  ]
+                },
+                "color-interpolation-filters": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/color-interpolation-filters",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -16454,14 +16615,6 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "Missed semicolon (CssSyntaxError)",
-                            "  border-color: red",
-                            "3:20"
-                          ]
                         }
                       ]
                     },
@@ -16906,6 +17059,13 @@ css.properties.grid-template-rows.masonry`,
                       data: [
                         "pencil.jpg"
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -16918,6 +17078,13 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "Missing syntax code block",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
                         },
                         {
                           message: "CSS code issue",
@@ -16948,6 +17115,13 @@ css.properties.grid-template-rows.masonry`,
                           ]
                         },
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word brightness (CssSyntaxError)",
@@ -16968,6 +17142,13 @@ css.properties.grid-template-rows.masonry`,
                           ]
                         },
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word contrast (CssSyntaxError)",
@@ -16977,10 +17158,30 @@ css.properties.grid-template-rows.masonry`,
                         }
                       ]
                     },
+                    "drop-shadow": {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/filter-function/drop-shadow",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     grayscale: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/filter-function/grayscale",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "CSS code issue",
                           data: [
@@ -16998,6 +17199,13 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "Missing syntax code block",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
                         },
                         {
                           message: "CSS code issue",
@@ -17022,6 +17230,13 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/invert",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word invert (CssSyntaxError)",
@@ -17035,6 +17250,13 @@ css.properties.grid-template-rows.masonry`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/filter-function/opacity",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "CSS code issue",
                           data: [
@@ -17050,6 +17272,13 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/saturate",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word saturate (CssSyntaxError)",
@@ -17063,6 +17292,13 @@ css.properties.grid-template-rows.masonry`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/filter-function/sepia",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "CSS code issue",
                           data: [
@@ -17079,6 +17315,13 @@ css.properties.grid-template-rows.masonry`,
                     {
                       message: "Missing syntax code block",
                       data: []
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -17141,6 +17384,32 @@ css.properties.width.fit-content_function`
                     {
                       message: "Missing syntax code block",
                       data: []
+                    }
+                  ]
+                },
+                "flood-color": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/flood-color",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "flood-opacity": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/flood-opacity",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -17551,6 +17820,19 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
+                isolation: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/isolation",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/compositing-2/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 layout_cookbook: {
                   children: {
                     contribute_a_recipe: {
@@ -17611,6 +17893,19 @@ css.properties.width.fit-content_function`
                     {
                       message: "Missing syntax code block",
                       data: []
+                    }
+                  ]
+                },
+                "lighting-color": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/lighting-color",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -17747,6 +18042,33 @@ css.properties.grid-template-rows.minmax`
                     }
                   ]
                 },
+                "mix-blend-mode": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/mix-blend-mode",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/compositing/",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/compositing/",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/compositing-2/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 mozilla_extensions: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/Mozilla_Extensions",
@@ -17791,6 +18113,45 @@ css.properties.grid-template-rows.minmax`
                     }
                   ]
                 },
+                offset: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/offset",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/motion-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "offset-anchor": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/offset-anchor",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/motion-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "offset-distance": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/offset-distance",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/motion-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 "offset-path": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/offset-path",
@@ -17817,6 +18178,39 @@ css.properties.grid-template-rows.minmax`
                       message: "External sandbox link",
                       data: [
                         "https://jsfiddle.net/ericwilligers/r1snqdan/"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/motion-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "offset-position": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/offset-position",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/motion-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "offset-rotate": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/offset-rotate",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/motion-1/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -17888,6 +18282,19 @@ css.properties.grid-template-rows.minmax`
                     {
                       message: "Missing syntax code block",
                       data: []
+                    }
+                  ]
+                },
+                ray: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/ray",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/motion-1/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -19088,19 +19495,6 @@ css.properties.list-style-type.symbols`
                           data: []
                         }
                       ]
-                    },
-                    date_and_time_formats: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Guides/Date_and_time_formats",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iso.org/iso-8601-date-and-time-format.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/HTML/Guides",
@@ -19569,50 +19963,6 @@ html.elements.select.size`
                             }
                           ]
                         },
-                        frame: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/frame",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                'Only void, custom and foreign elements can be self closed "frame"',
-                                '    <frame src="https://developer.mozilla.org/en/HTML/Element/iframe" />',
-                                "6:4"
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                'Only void, custom and foreign elements can be self closed "frame"',
-                                '    <frame src="https://developer.mozilla.org/en/HTML/Element/frame" />',
-                                "7:4"
-                              ]
-                            }
-                          ]
-                        },
-                        frameset: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/frameset",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                'Only void, custom and foreign elements can be self closed "frame"',
-                                "    <frame",
-                                "6:4"
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                'Only void, custom and foreign elements can be self closed "frame"',
-                                "    <frame",
-                                "8:4"
-                              ]
-                            }
-                          ]
-                        },
                         header: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/header",
@@ -19711,28 +20061,6 @@ html.elements.select.size`
                             }
                           ]
                         },
-                        noframes: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/noframes",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                'Only void, custom and foreign elements can be self closed "frame"',
-                                '    <frame src="https://developer.mozilla.org/en/HTML/Element/frameset" />',
-                                "6:4"
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                'Only void, custom and foreign elements can be self closed "frame"',
-                                '    <frame src="https://developer.mozilla.org/en/HTML/Element/frame" />',
-                                "7:4"
-                              ]
-                            }
-                          ]
-                        },
                         rtc: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/rtc",
@@ -19758,7 +20086,21 @@ html.elements.select.size`
                         script: {
                           children: {
                             type: {
-                              children: {},
+                              children: {
+                                importmap: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/HTML/Reference/Elements/script/type/importmap",
+                                  messages: [
+                                    {
+                                      message: "Broken external link",
+                                      data: [
+                                        "https://github.com/guybedford/es-module-shims",
+                                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              },
                               slug: "/en-US/docs/Web/HTML/Reference/Elements/script/type",
                               messages: [
                                 {
@@ -20031,6 +20373,19 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         "available-dictionary": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Available-Dictionary",
@@ -20759,6 +21114,13 @@ http.headers.Use-As-Dictionary`,
                           data: [
                             "/en-US/docs/Web/JavaScript/Reference"
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://docs.webkit.org/Deep%20Dive/JSC/JavaScriptCore.html",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -20823,7 +21185,8 @@ http.headers.Use-As-Dictionary`,
                               message: "JS code issue",
                               data: [
                                 "Parsing error: '}' expected.",
-                                "",
+                                `while (currentNode = iterator.nextNode()) {
+`,
                                 "2:9"
                               ]
                             },
@@ -20831,7 +21194,8 @@ http.headers.Use-As-Dictionary`,
                               message: "JS code issue",
                               data: [
                                 "Parsing error: '}' expected.",
-                                "",
+                                `while ((currentNode = iterator.nextNode()) !== null) {
+`,
                                 "2:9"
                               ]
                             },
@@ -20839,7 +21203,8 @@ http.headers.Use-As-Dictionary`,
                               message: "JS code issue",
                               data: [
                                 "Parsing error: '}' expected.",
-                                "",
+                                `while ((currentNode = iterator.nextNode()) && currentNode) {
+`,
                                 "2:9"
                               ]
                             }
@@ -21057,101 +21422,6 @@ http.headers.Use-As-Dictionary`,
                     },
                     formats: {
                       children: {
-                        audio_codecs: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Audio_codecs",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/standard/53943.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/standard/43345.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/standard/22412.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/standard/26797.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        codecs_parameter: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/codecs_parameter",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/standard/54838.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/standard/54838.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        containers: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Containers",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/standard/53943.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/standard/19180.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/standard/74427.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/standard/75929.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/standard/55688.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -21161,27 +21431,6 @@ http.headers.Use-As-Dictionary`,
                               data: [
                                 "http://hevc.info/",
                                 ""
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/standard/69668.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/standard/22411.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/standard/61152.html",
-                                "The operation timed out."
                               ]
                             }
                           ]
@@ -21815,19 +22064,6 @@ html.elements.script.integrity`,
                             }
                           ]
                         },
-                        begin: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/begin",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/iso-8601-date-and-time-format.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         calcmode: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/calcMode",
@@ -22439,19 +22675,6 @@ svg.elements.tspan.dy`
                                 "Expected:",
                                 `svg.elements.feConvolveMatrix.edgeMode
 svg.elements.feGaussianBlur.edgeMode`
-                              ]
-                            }
-                          ]
-                        },
-                        end: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/end",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/iso-8601-date-and-time-format.html",
-                                "The operation timed out."
                               ]
                             }
                           ]
@@ -23510,7 +23733,11 @@ svg.elements.feSpotLight.z`
                               message: "HTML code issue",
                               data: [
                                 'Unexpected character "EOF"',
-                                "",
+                                `<div class="resizer">
+  <iframe
+    class="resized"
+    srcdoc="
+`,
                                 "4:0"
                               ]
                             },
@@ -24178,7 +24405,10 @@ function createTable(root, data, displayedMessages, fileIncluded, showMessage) {
         tr2.appendChild(document.createElement("td")).textContent = message.message;
       }
       for (const value of message.data) {
-        tr2.appendChild(document.createElement("td")).textContent = value;
+        let elem = tr2.appendChild(document.createElement("td"));
+        if (value?.includes("  "))
+          elem = elem.appendChild(document.createElement("pre"));
+        elem.innerText = value ?? "";
       }
       maxDataLen = Math.max(maxDataLen, message.data.length);
     }
