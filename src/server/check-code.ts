@@ -127,7 +127,7 @@ export async function checkCode(
               node,
               language === "html" ? "HTML code issue" : "JS code issue",
               msg.message,
-              content.split("\n")[msg.line - 1],
+              content.split("\n")[msg.line - 1] || content,
               msg.endLine
                 ? `${msg.line}:${msg.column} - ${msg.endLine}:${msg.endColumn}`
                 : `${msg.line}:${msg.column}`,
@@ -158,13 +158,13 @@ export async function checkCode(
               node,
               "CSS code issue",
               msg.text,
-              content.split("\n")[msg.line - 1],
+              content.split("\n")[msg.line - 1] || content,
               `${msg.line}:${msg.column}`,
             );
           });
         }
       } else if (["html"].includes(language)) {
-        const { rootNode, errors } = htmlParse(content);
+        const { errors } = htmlParse(content);
         errors.forEach((error) => {
           if (
             expectedErrorsMap.has(file) &&
@@ -180,7 +180,7 @@ export async function checkCode(
             node,
             "HTML code issue",
             error.msg,
-            content.split("\n")[error.span.start.line],
+            content.split("\n")[error.span.start.line] || content,
             `${error.span.start.line}:${error.span.start.col}`,
           );
         });

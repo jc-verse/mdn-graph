@@ -797,6 +797,18 @@ div#header {
 }
 ~~~
 
+/en-US/docs/Web/CSS/CSS_syntax/Error_handling: Missed semicolon (CssSyntaxError)
+~~~
+p {
+/* Invalid syntax due to  missing semi-colon */
+  border-color: red
+  background-color: green;
+
+/* Valid syntax but likely a logic error */
+  border-width: 100vh;
+}
+~~~
+
 /en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax: Opening tag "a" not terminated.
 ~~~
 <a href=https://www.mozilla.org/>favorite website</a>
@@ -815,6 +827,11 @@ div#header {
 /en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax: Unexpected closing tag "a". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
 ~~~
 <a href=https://www.mozilla.org/ title=The Mozilla homepage>favorite website</a>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax: Unexpected character "EOF"
+~~~
+<a href="https://www.example.com'>A link to my example.</a>
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax: Opening tag "a" not terminated.
@@ -889,6 +906,27 @@ div#header {
 </html>
 ~~~
 
+/en-US/docs/Learn_web_development/Core/Structuring_content/Debugging_HTML: Unexpected character "EOF"
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML debugging examples</title>
+  </head>
+
+  <body>
+    <h1>HTML debugging examples</h1>
+    <p>What causes errors in HTML?
+    <ul>
+      <li>Unclosed elements: If an element is <strong>not closed properly,then its effect can spread to areas you didn't intend
+      <li>Badly nested elements: Nesting elements properly is also very important for code behaving correctly. <strong>strong <em>strong emphasized?</strong> what is this?</em>
+      <li>Unclosed attributes: Another common source of HTML problems. Let's look at an example: <a href="https://www.mozilla.org/>link to Mozilla homepage</a>
+    </ul>
+  </body>
+</html>
+~~~
+
 /en-US/docs/Learn_web_development/Core/Structuring_content/Debugging_HTML: Unexpected closing tag "strong". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
 ~~~
 <h1>HTML debugging examples</h1>
@@ -929,7 +967,32 @@ div#header {
 </ul>
 ~~~
 
+/en-US/docs/Learn_web_development/Core/Structuring_content/Debugging_HTML: Unexpected character "EOF"
+~~~
+<h1>HTML debugging examples</h1>
+
+<p>What causes errors in HTML?
+
+<ul>
+  <li>Unclosed elements: If an element is <strong>not closed properly,
+      then its effect can spread to areas you didn't intend
+
+  <li>Badly nested elements: Nesting elements properly is also very important
+      for code behaving correctly. <strong>strong <em>strong emphasized?</strong>
+      what is this?</em>
+
+  <li>Unclosed attributes: Another common source of HTML problems. Let's
+      look at an example: <a href="https://www.mozilla.org/>link to Mozilla
+      homepage</a>
+</ul>
+~~~
+
 /en-US/docs/Mozilla/Firefox/Releases/3/Updating_web_applications: Only void, custom and foreign elements can be self closed "script"
+~~~
+<script … />
+~~~
+
+/en-US/docs/Mozilla/Firefox/Releases/3/Updating_web_applications: Unexpected character "EOF"
 ~~~
 <script … />
 ~~~
@@ -937,4 +1000,54 @@ div#header {
 /en-US/docs/MDN/Writing_guidelines/Code_style_guide/HTML: Opening tag "img" not terminated.
 ~~~
 <img src=images/logo.jpg alt=A circular globe icon class=no-border>
+~~~
+
+/en-US/docs/Web/HTML/Reference/Elements/frame: Only void, custom and foreign elements can be self closed "frame"
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <!-- Document metadata goes here -->
+  </head>
+  <frameset cols="400, 500">
+    <frame src="https://developer.mozilla.org/en/HTML/Element/iframe" />
+    <frame src="https://developer.mozilla.org/en/HTML/Element/frame" />
+  </frameset>
+</html>
+~~~
+
+/en-US/docs/Web/HTML/Reference/Elements/frameset: Only void, custom and foreign elements can be self closed "frame"
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <!-- Document metadata goes here -->
+  </head>
+  <frameset cols="50%, 50%">
+    <frame
+      src="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/iframe" />
+    <frame
+      src="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/frame" />
+  </frameset>
+</html>
+~~~
+
+/en-US/docs/Web/HTML/Reference/Elements/noframes: Only void, custom and foreign elements can be self closed "frame"
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <!-- Document metadata goes here -->
+  </head>
+  <frameset rows="45%, 55%">
+    <frame src="https://developer.mozilla.org/en/HTML/Element/frameset" />
+    <frame src="https://developer.mozilla.org/en/HTML/Element/frame" />
+    <noframes>
+      <p>
+        It seems your browser does not support frames or is configured to not
+        allow them.
+      </p>
+    </noframes>
+  </frameset>
+</html>
 ~~~

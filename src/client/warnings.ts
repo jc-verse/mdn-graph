@@ -202,7 +202,10 @@ function createTable(
           message.message;
       }
       for (const value of message.data) {
-        tr.appendChild(document.createElement("td")).textContent = value;
+        let elem: HTMLElement = tr.appendChild(document.createElement("td"));
+        if (typeof value === "string" && value.includes("  "))
+          elem = elem.appendChild(document.createElement("pre"));
+        elem.innerText = value ?? "";
       }
       maxDataLen = Math.max(maxDataLen, message.data.length);
     }
