@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-wcdfevqc.js";
+} from "./chunk-ch0x55vf.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -755,14 +755,21 @@ var warnings_processed_default = {
                 }
               ]
             },
-            gzip_compression: {
+            gpl: {
               children: {},
-              slug: "/en-US/docs/Glossary/gzip_compression",
+              slug: "/en-US/docs/Glossary/GPL",
               messages: [
                 {
                   message: "Broken external link",
                   data: [
-                    "https://www.zlib.net/feldspar.html",
+                    "https://www.gnu.org/licenses/gpl-faq.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-3.0.html",
                     "Cannot reach server and Bun hangs"
                   ]
                 }
@@ -855,6 +862,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            lgpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/LGPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/lgpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
                 }
               ]
             },
@@ -1718,13 +1738,6 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://phabricator.wikimedia.org/T241180",
-                            "429 Retry-After: 1000"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://new.drupal.org/",
                             403
                           ]
@@ -2099,6 +2112,19 @@ var warnings_processed_default = {
                         }
                       ]
                     },
+                    json: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/JSON",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://jsonlint.com/",
+                            520
+                          ]
+                        }
+                      ]
+                    },
                     what_went_wrong: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/What_went_wrong",
@@ -2179,7 +2205,17 @@ var warnings_processed_default = {
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
                     },
                     html_video_and_audio: {
                       children: {
@@ -2324,19 +2360,6 @@ var warnings_processed_default = {
                           message: "Unused image",
                           data: [
                             "external-link-52.png"
-                          ]
-                        }
-                      ]
-                    },
-                    web_fonts: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.exljbris.com/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -2580,6 +2603,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -2953,29 +2983,29 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://webchat.freenode.net/?channels=textmate",
                             521
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.vim.org/",
-                            "Unable to connect. Is the computer able to access the url?"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.vim.org/maillist.php",
-                            "Unable to connect. Is the computer able to access the url?"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.vim.org/scripts/script_search_results.php?order_by=creation_date&direction=descending",
-                            "Unable to connect. Is the computer able to access the url?"
                           ]
                         }
                       ]
@@ -2990,19 +3020,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    how_do_you_host_your_website_on_google_app_engine: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gaesamplesite.appspot.com/downloads.html",
-                            503
-                          ]
-                        }
-                      ]
-                    },
                     what_software_do_i_need: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
@@ -3010,8 +3027,8 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.vim.org/",
-                            "Unable to connect. Is the computer able to access the url?"
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
                           ]
                         },
                         {
@@ -8489,6 +8506,13 @@ webextensions.manifest.options_ui`,
                           ]
                         },
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.hardingfpa.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "HTTP link",
                           data: [
                             "http://diagramcenter.org/",
@@ -8678,7 +8702,17 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/Animation",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webkit.org/blog/7551/responsive-design-for-motion/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 attribution_reporting_api: {
                   children: {
@@ -9772,7 +9806,17 @@ api.Document.fullscreen`,
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/Geolocation_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://lbs.amap.com/api/javascript-api/guide/services/geolocation",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 history_api: {
                   children: {
@@ -11459,19 +11503,6 @@ api.Document.fullscreen`,
                 },
                 web_audio_api: {
                   children: {
-                    advanced_techniques: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://soundbible.com/1573-DTMF-Tones.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     best_practices: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Best_practices",
@@ -14366,6 +14397,13 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/blog/7551/responsive-design-for-motion/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -14640,6 +14678,19 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
+                    }
+                  ]
+                },
+                animation: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/animation",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webkit.org/blog/7551/responsive-design-for-motion/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -16329,19 +16380,6 @@ css.properties.grid-template-rows.masonry`,
                             "api.MediaQueryList",
                             "Expected:",
                             "[None]"
-                          ]
-                        }
-                      ]
-                    },
-                    using_media_queries: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://davidwalsh.name/animate-media-queries",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -20384,6 +20422,19 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         "available-dictionary": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Available-Dictionary",
@@ -21607,13 +21658,6 @@ http.headers.Use-As-Dictionary`,
                           message: "Unused image",
                           data: [
                             "3pc-example.png"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webkit.org/tracking-prevention-policy/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -23554,6 +23598,19 @@ svg.elements.feSpotLight.z`
                     },
                     element: {
                       children: {
+                        animate: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Element/animate",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://webkit.org/blog/7551/responsive-design-for-motion/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         animatemotion: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Element/animateMotion",
