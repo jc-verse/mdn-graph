@@ -55,7 +55,7 @@ export default async function processWarnings(fast: boolean = false) {
           break;
         case "webdriver":
           if (interfac === "bidi" || interfac === "classic") {
-            return `/en-US/docs/Web/WebDriver/Commands/${member}`;
+            return `/en-US/docs/Web/WebDriver/Reference/Commands/${member}`;
           }
           break;
         case "webassembly":

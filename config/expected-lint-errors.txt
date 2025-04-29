@@ -218,7 +218,7 @@ console.log(a) // ReferenceError: Invalid left-hand side expression in prefix op
 ~~~
 // The () may be merged with the previous line as a function call
 (() => {
-  // ...
+  // …
 })()
 
 // The [ may be merged with the previous line as a property access
