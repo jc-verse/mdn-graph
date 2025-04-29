@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-q81g7whf.js";
+} from "./chunk-3agxa8mg.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -457,6 +457,13 @@ var warnings_processed_default = {
                 "http://buildnewgames.com/",
                 ""
               ]
+            },
+            {
+              message: "HTTP link",
+              data: [
+                "http://creativejs.com/",
+                ""
+              ]
             }
           ]
         },
@@ -469,6 +476,71 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            accessibility: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Accessibility",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://w3c.github.io/aria/",
+                    404
+                  ]
+                }
+              ]
+            },
+            accessibility_tree: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Accessibility_tree",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://w3c.github.io/aria/",
+                    404
+                  ]
+                }
+              ]
+            },
+            accessible_description: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Accessible_description",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://w3c.github.io/aria/",
+                    404
+                  ]
+                }
+              ]
+            },
+            accessible_name: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Accessible_name",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://w3c.github.io/aria/",
+                    404
+                  ]
+                }
+              ]
+            },
+            aria: {
+              children: {},
+              slug: "/en-US/docs/Glossary/ARIA",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://w3c.github.io/aria/",
+                    404
+                  ]
                 }
               ]
             },
@@ -1366,20 +1438,6 @@ var warnings_processed_default = {
               children: {
                 accessibility: {
                   children: {
-                    css_and_javascript: {
-                      children: {
-                        test_your_skills_colon__css_and_javascript_accessibility: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/Accessibility/CSS_and_JavaScript/Test_your_skills:_CSS_and_JavaScript_accessibility",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        }
-                      }
-                    },
                     test_your_skills: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills",
@@ -1395,20 +1453,6 @@ var warnings_processed_default = {
                           data: []
                         }
                       ]
-                    },
-                    "wai-aria_basics": {
-                      children: {
-                        "test_your_skills_colon__wai-aria": {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/Accessibility/WAI-ARIA_basics/Test_your_skills:_WAI-ARIA",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        }
-                      }
                     }
                   }
                 },
@@ -1700,6 +1744,13 @@ var warnings_processed_default = {
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/mxmason/pen/XWbPNmw"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://phabricator.wikimedia.org/T241180",
+                            "429 Retry-After: 1000"
                           ]
                         },
                         {
@@ -2079,6 +2130,19 @@ var warnings_processed_default = {
                         }
                       ]
                     },
+                    json: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/JSON",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://json-validate.com/",
+                            "https://www.json-validate.com/"
+                          ]
+                        }
+                      ]
+                    },
                     what_went_wrong: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/What_went_wrong",
@@ -2147,33 +2211,8 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    html_images: {
-                      children: {
-                        test_your_skills_colon__html_images: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images/Test_your_skills:_HTML_images",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        }
-                      }
-                    },
                     html_video_and_audio: {
-                      children: {
-                        test_your_skills_colon__multimedia_and_embedding: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_video_and_audio/Test_your_skills:_Multimedia_and_embedding",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        }
-                      },
+                      children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_video_and_audio",
                       messages: [
                         {
@@ -2307,40 +2346,6 @@ var warnings_processed_default = {
                           ]
                         }
                       ]
-                    },
-                    web_fonts: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.fontsquirrel.com/",
-                            502
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.fontsquirrel.com/",
-                            502
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.fontsquirrel.com/",
-                            502
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.fontsquirrel.com/tools/webfont-generator",
-                            502
-                          ]
-                        }
-                      ]
                     }
                   }
                 }
@@ -2350,9 +2355,9 @@ var warnings_processed_default = {
               children: {
                 advanced_javascript_objects: {
                   children: {
-                    "test_your_skills_colon__object-oriented_javascript": {
+                    test_your_skills: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Test_your_skills:_Object-oriented_JavaScript",
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Test_your_skills",
                       messages: [
                         {
                           message: "Not linked from parent page",
@@ -2361,7 +2366,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "Unreachable via sidebar",
+                          message: "Unreachable via page",
                           data: []
                         }
                       ]
@@ -2445,19 +2450,12 @@ var warnings_processed_default = {
                           data: [
                             "background.jpg"
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.fontsquirrel.com/tools/webfont-generator",
-                            502
-                          ]
                         }
                       ]
                     },
-                    test_your_skills_colon__advanced_styling: {
+                    test_your_skills: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Test_your_skills:_Advanced_styling",
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Test_your_skills",
                       messages: [
                         {
                           message: "Not linked from parent page",
@@ -2466,110 +2464,7 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    test_your_skills_colon__basic_controls: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Test_your_skills:_Basic_controls",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Extensions/Forms"
-                          ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    test_your_skills_colon__form_structure: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Test_your_skills:_Form_structure",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Extensions/Forms"
-                          ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    test_your_skills_colon__form_validation: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Test_your_skills:_Form_validation",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Extensions/Forms"
-                          ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/forms/tasks/form-validation/form-validation2-download.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    test_your_skills_colon__html5_controls: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Test_your_skills:_HTML5_controls",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Extensions/Forms"
-                          ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    test_your_skills_colon__other_controls: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Test_your_skills:_Other_controls",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Extensions/Forms"
-                          ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    test_your_skills_colon__styling_basics: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Test_your_skills:_Styling_basics",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Extensions/Forms"
-                          ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
+                          message: "Unreachable via page",
                           data: []
                         }
                       ]
@@ -2609,13 +2504,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://cwiki.apache.org/confluence/display/httpd/RewriteHTTPToHTTPS",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     },
@@ -2626,19 +2514,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    },
-                    django: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://wiki.python.org/moin/BeginnersGuide/NonProgrammers",
-                            503
-                          ]
                         }
                       ]
                     },
@@ -2653,6 +2528,36 @@ var warnings_processed_default = {
                               data: [
                                 "http://callbackhell.com/",
                                 ""
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    first_steps: {
+                      children: {
+                        "client-server_overview": {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://websniffer.com/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        web_frameworks: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Web_frameworks",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.techuseful.com/drone-definitions-learning-the-drone-lingo/",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -2731,6 +2636,23 @@ var warnings_processed_default = {
                           message: "Unused image",
                           data: [
                             "file-structure.png"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                soft_skills: {
+                  children: {
+                    finding_a_job: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Finding_a_job",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.upwork.com/",
+                            403
                           ]
                         }
                       ]
@@ -2987,19 +2909,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    how_do_you_host_your_website_on_google_app_engine: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gaesamplesite.appspot.com/",
-                            503
-                          ]
-                        }
-                      ]
-                    },
                     what_software_do_i_need: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
@@ -3023,7 +2932,21 @@ var warnings_processed_default = {
                   ]
                 },
                 web_mechanics: {
-                  children: {},
+                  children: {
+                    what_is_a_domain_name: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_domain_name",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.icann.org/resources/pages/tlds-2012-02-25-en",
+                            "https://www.icann.org/en/contracted-parties/registry-operators/resources/list-of-top-level-domains"
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Learn_web_development/Howto/Web_mechanics",
                   messages: [
                     {
@@ -3289,6 +3212,13 @@ var warnings_processed_default = {
                             {
                               message: "Unreachable via page",
                               data: []
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://w3c.github.io/aria/",
+                                404
+                              ]
                             }
                           ]
                         },
@@ -3302,6 +3232,67 @@ var warnings_processed_default = {
                                 "Unknown word var (CssSyntaxError)",
                                 "var(--custom-prop)",
                                 "3:1"
+                              ]
+                            }
+                          ]
+                        },
+                        html_attribute_page_template: {
+                          children: {},
+                          slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/HTML_attribute_page_template",
+                          messages: [
+                            {
+                              message: "Bad DL",
+                              data: [
+                                `: Title heading displayed at the top of the page.
+`
+                              ]
+                            },
+                            {
+                              message: "Bad DL",
+                              data: [
+                                ": The end of the URL path after https://developer."
+                              ]
+                            },
+                            {
+                              message: "Bad DL",
+                              data: [
+                                ": Always html-attribute."
+                              ]
+                            },
+                            {
+                              message: "Bad DL",
+                              data: [
+                                ": Flags describing the status of this feature. An "
+                              ]
+                            },
+                            {
+                              message: "Bad DL",
+                              data: [
+                                ": Replace the placeholder value html.global_attrib"
+                              ]
+                            },
+                            {
+                              message: "Bad DL",
+                              data: [
+                                ": Keep as htmlsidebar (all pages under /web/html/ "
+                              ]
+                            },
+                            {
+                              message: "Code with space",
+                              data: [
+                                "value 1"
+                              ]
+                            },
+                            {
+                              message: "Code with space",
+                              data: [
+                                "value 2"
+                              ]
+                            },
+                            {
+                              message: "Code with space",
+                              data: [
+                                "value 3"
                               ]
                             }
                           ]
@@ -4400,14 +4391,6 @@ webextensions.api.clipboard`,
                       children: {},
                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Internationalization",
                       messages: [
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "zh-Hans-CN",
-                            "Text after code:",
-                            "(and there is no "
-                          ]
-                        },
                         {
                           message: "HTTP link",
                           data: [
@@ -7662,54 +7645,6 @@ webextensions.manifest.options_ui`,
                             "Text before code:",
                             ","
                           ]
-                        },
-                        {
-                          message: "Unshortened bug link",
-                          data: [
-                            "https://bugzilla.mozilla.org/show_bug.cgi?id=1947740",
-                            "replace with",
-                            "https://bugzil.la/1947740"
-                          ]
-                        },
-                        {
-                          message: "Unshortened bug link",
-                          data: [
-                            "https://bugzilla.mozilla.org/show_bug.cgi?id=1944565",
-                            "replace with",
-                            "https://bugzil.la/1944565"
-                          ]
-                        },
-                        {
-                          message: "Unshortened bug link",
-                          data: [
-                            "https://bugzilla.mozilla.org/show_bug.cgi?id=1947678",
-                            "replace with",
-                            "https://bugzil.la/1947678"
-                          ]
-                        },
-                        {
-                          message: "Unshortened bug link",
-                          data: [
-                            "https://bugzilla.mozilla.org/show_bug.cgi?id=1940952",
-                            "replace with",
-                            "https://bugzil.la/1940952"
-                          ]
-                        },
-                        {
-                          message: "Unshortened bug link",
-                          data: [
-                            "https://bugzilla.mozilla.org/show_bug.cgi?id=1920952",
-                            "replace with",
-                            "https://bugzil.la/1920952"
-                          ]
-                        },
-                        {
-                          message: "Unshortened bug link",
-                          data: [
-                            "https://bugzilla.mozilla.org/show_bug.cgi?id=1710425",
-                            "replace with",
-                            "https://bugzil.la/1710425"
-                          ]
                         }
                       ]
                     },
@@ -8391,6 +8326,32 @@ webextensions.manifest.options_ui`,
                         },
                         roles: {
                           children: {
+                            comment_role: {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/comment_role",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://w3c.github.io/aria/",
+                                    404
+                                  ]
+                                }
+                              ]
+                            },
+                            mark_role: {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/mark_role",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://w3c.github.io/aria/",
+                                    404
+                                  ]
+                                }
+                              ]
+                            },
                             timer_role: {
                               children: {},
                               slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/timer_role",
@@ -8416,7 +8377,17 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/Accessibility/ARIA",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://w3c.github.io/aria/",
+                        404
+                      ]
+                    }
+                  ]
                 },
                 guides: {
                   children: {
@@ -8483,13 +8454,6 @@ webextensions.manifest.options_ui`,
                           data: [
                             "https://colorusage.arc.nasa.gov/flashing.php",
                             "Unable to connect. Is the computer able to access the url?"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.hardingfpa.com/",
-                            "The operation timed out."
                           ]
                         },
                         {
@@ -8726,25 +8690,6 @@ webextensions.manifest.options_ui`,
                       ]
                     }
                   ]
-                },
-                audioworkletglobalscope: {
-                  children: {
-                    port: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/AudioWorkletGlobalScope/port",
-                      messages: [
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "[None]",
-                            "Expected:",
-                            "api.AudioWorkletGlobalScope.port"
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 audioworkletprocessor: {
                   children: {
@@ -9541,34 +9486,6 @@ api.DeviceOrientationEvent`,
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/rachelnabors/pen/rxpmJL/?editors=0010"
-                          ]
-                        }
-                      ]
-                    },
-                    ariainvalid: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/ariaInvalid",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/Element"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                elementinternals: {
-                  children: {
-                    ariainvalid: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/ElementInternals/ariaInvalid",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/ElementInternals"
                           ]
                         }
                       ]
@@ -11166,24 +11083,6 @@ api.Document.fullscreen`,
                     }
                   }
                 },
-                svgmarkerelement: {
-                  children: {
-                    viewbox: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGMarkerElement/viewBox",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Unterminated regular expression literal.",
-                            "console.log(marker.viewBox.baseVal.width); / 10",
-                            "2:9"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 svgrenderingintent: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SVGRenderingIntent",
@@ -11481,6 +11380,19 @@ api.Document.fullscreen`,
                 },
                 web_audio_api: {
                   children: {
+                    advanced_techniques: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://soundbible.com/1573-DTMF-Tones.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
                     best_practices: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Best_practices",
@@ -11715,6 +11627,19 @@ api.CredentialsContainer.get.publicKey_option.extensions`,
                       ]
                     }
                   }
+                },
+                web_midi_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Web_MIDI_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.keithmcmillen.com/blog/making-music-in-the-browser-web-midi-api/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 web_storage_api: {
                   children: {
@@ -11988,6 +11913,13 @@ api.Window.sessionStorage`,
                           message: "External sandbox link",
                           data: [
                             "https://jsfiddle.net/tatumcreative/86fd797g/"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://ogldev.org/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -13402,13 +13334,6 @@ api.Window.sessionStorage`,
                   slug: "/en-US/docs/Web/CSS/::-webkit-scrollbar",
                   messages: [
                     {
-                      message: "Broken external link",
-                      data: [
-                        "https://webkit.org/blog/363/styling-scrollbars/",
-                        "The operation timed out."
-                      ]
-                    },
-                    {
                       message: "Unexpected BCD keys",
                       data: [
                         "Actual:",
@@ -13835,17 +13760,7 @@ css.selectors.-webkit-resizer`,
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/CSS/@font-face",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.fontsquirrel.com/tools/webfont-generator",
-                        502
-                      ]
-                    }
-                  ]
+                  }
                 },
                 "@font-feature-values": {
                   children: {
@@ -15968,38 +15883,6 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "Unknown word input (CssSyntaxError)",
-                            "input:focus                   /* 0-1-1 */",
-                            "2:1"
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "Unknown word ... (CssSyntaxError)",
-                            "  img { ... }",
-                            "3:9"
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "Unknown word ... (CssSyntaxError)",
-                            "  :scope img { ... }",
-                            "3:16"
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "Unknown word ... (CssSyntaxError)",
-                            "  & img { ... }",
-                            "2:11"
-                          ]
                         }
                       ]
                     },
@@ -16660,6 +16543,14 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "Missed semicolon (CssSyntaxError)",
+                            "  border-color: red",
+                            "3:20"
+                          ]
                         }
                       ]
                     },
@@ -16772,110 +16663,6 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "Unknown word bold (CssSyntaxError)",
-                            "bold [ thin && <length> ]",
-                            "1:1"
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "Unknown word bold (CssSyntaxError)",
-                            "bold <length>, thin",
-                            "1:1"
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "Unknown word bold (CssSyntaxError)",
-                            "bold && <length>",
-                            "1:1"
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "Unknown word < (CssSyntaxError)",
-                            "<'border-width'> || <'border-style'> || <'border-color'>",
-                            "1:1"
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "Unknown word <percentage> (CssSyntaxError)",
-                            "<percentage> | <length> | left | center | right | top | bottom",
-                            "1:1"
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "Unknown word bold (CssSyntaxError)",
-                            "bold smaller*",
-                            "1:1"
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "Unknown word bold (CssSyntaxError)",
-                            "bold smaller+",
-                            "1:1"
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "Unknown word bold (CssSyntaxError)",
-                            "bold smaller?",
-                            "1:1"
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "Unknown word 1,3 (CssSyntaxError)",
-                            "bold smaller{1,3}",
-                            "1:14"
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "Unknown word bold (CssSyntaxError)",
-                            "bold smaller#",
-                            "1:1"
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "Unknown word 1,3 (CssSyntaxError)",
-                            "bold smaller#{1,3}",
-                            "1:15"
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "Unknown word 2 (CssSyntaxError)",
-                            "bold smaller#{2}",
-                            "1:15"
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "Unknown word [ (CssSyntaxError)",
-                            "[ bold? smaller? ]!",
-                            "1:1"
-                          ]
                         }
                       ]
                     }
@@ -18878,22 +18665,6 @@ css.properties.grid-template-rows.minmax`
                       data: [
                         "/en-US/docs/Web/CSS/xywh"
                       ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "Unknown word properties-list (CssSyntaxError)",
-                        "      properties-list",
-                        "3:7"
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "Double colon (CssSyntaxError)",
-                        "selectors-list ::=",
-                        "1:17"
-                      ]
                     }
                   ]
                 },
@@ -19321,9 +19092,9 @@ css.properties.list-style-type.symbols`
                     {
                       message: "CSS code issue",
                       data: [
-                        "Missed semicolon (CssSyntaxError)",
-                        '<css_property>: url("https://example.com/image.png")',
-                        "1:52"
+                        "Unknown word url (CssSyntaxError)",
+                        'url("https://example.com/image.png")',
+                        "1:1"
                       ]
                     }
                   ]
@@ -20024,13 +19795,6 @@ html.elements.select.size`
                               data: [
                                 "mdn-logo-sm.png"
                               ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://info.cern.ch/",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         },
@@ -20064,22 +19828,6 @@ html.elements.select.size`
                             }
                           ]
                         },
-                        input: {
-                          children: {
-                            url: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/url",
-                              messages: [
-                                {
-                                  message: "Code with space",
-                                  data: [
-                                    "alternative text"
-                                  ]
-                                }
-                              ]
-                            }
-                          }
-                        },
                         map: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/map",
@@ -20106,20 +19854,6 @@ html.elements.select.size`
                             }
                           }
                         },
-                        noembed: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/noembed",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                'Void elements do not have end tags "embed"',
-                                "</embed>",
-                                "4:0"
-                              ]
-                            }
-                          ]
-                        },
                         rtc: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/rtc",
@@ -20130,14 +19864,6 @@ html.elements.select.size`
                                 'Unexpected closing tag "rtc". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
                                 "  </rtc>",
                                 "9:2"
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                'Unexpected closing tag "rtc". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                                "    </rtc>",
-                                "6:4"
                               ]
                             }
                           ]
@@ -20829,19 +20555,6 @@ http.headers.Use-As-Dictionary`,
                         }
                       ]
                     },
-                    regular_expressions: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Regular_expressions",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://regexr.com/",
-                            526
-                          ]
-                        }
-                      ]
-                    },
                     using_promises: {
                       children: {},
                       slug: "/en-US/docs/Web/JavaScript/Guide/Using_promises",
@@ -20882,19 +20595,6 @@ http.headers.Use-As-Dictionary`,
                       children: {
                         array: {
                           children: {
-                            reduce: {
-                              children: {},
-                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://jpcamara.com/2023/03/07/making-tanstack-table.html",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
                             sort: {
                               children: {},
                               slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort",
@@ -21175,6 +20875,20 @@ http.headers.Use-As-Dictionary`,
                         }
                       ]
                     },
+                    lexical_grammar: {
+                      children: {},
+                      slug: "/en-US/docs/Web/JavaScript/Reference/Lexical_grammar",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "Parsing error: Expression expected.",
+                            "/pattern/.exec(str).forEach(console.log)",
+                            "19:9"
+                          ]
+                        }
+                      ]
+                    },
                     operators: {
                       children: {
                         delete: {
@@ -21271,6 +20985,19 @@ http.headers.Use-As-Dictionary`,
               children: {
                 guides: {
                   children: {
+                    authoring: {
+                      children: {},
+                      slug: "/en-US/docs/Web/MathML/Guides/Authoring",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.lyx.org/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     deriving_the_quadratic_formula: {
                       children: {},
                       slug: "/en-US/docs/Web/MathML/Guides/Deriving_the_quadratic_formula",
@@ -21307,20 +21034,7 @@ http.headers.Use-As-Dictionary`,
                   ]
                 },
                 reference: {
-                  children: {
-                    global_attributes: {
-                      children: {},
-                      slug: "/en-US/docs/Web/MathML/Reference/Global_attributes",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/MathML/Reference/Element/style"
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/MathML/Reference",
                   messages: [
                     {
@@ -21375,6 +21089,19 @@ http.headers.Use-As-Dictionary`,
                               message: "External sandbox link",
                               data: [
                                 "https://jsbin.com/badimipi/1/edit"
+                              ]
+                            }
+                          ]
+                        },
+                        live_streaming_web_audio_and_video: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/Live_streaming_web_audio_and_video",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://larryjordan.com/articles/basics-of-http-live-streaming/",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -23843,6 +23570,19 @@ svg.elements.feSpotLight.z`
                   children: {
                     svg_from_scratch: {
                       children: {
+                        getting_started: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Getting_started",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://websniffer.com/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         paths: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Paths",
@@ -23976,10 +23716,1201 @@ svg.elements.feSpotLight.z`
               children: {
                 reference: {
                   children: {
+                    capabilities: {
+                      children: {
+                        acceptinsecurecerts: {
+                          children: {},
+                          slug: "/en-US/docs/Web/WebDriver/Reference/Capabilities/acceptInsecureCerts",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/NavigateTo"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/NavigateTo"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/NewSession"
+                              ]
+                            }
+                          ]
+                        },
+                        firefoxoptions: {
+                          children: {},
+                          slug: "/en-US/docs/Web/WebDriver/Reference/Capabilities/firefoxOptions",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/NewSession"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/NewSession"
+                              ]
+                            }
+                          ]
+                        },
+                        websocketurl: {
+                          children: {},
+                          slug: "/en-US/docs/Web/WebDriver/Reference/Capabilities/webSocketUrl",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/NewSession"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/NewSession"
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/Web/WebDriver/Reference/Capabilities",
+                      messages: [
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Commands/NewSession"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Capabilities/setWindowRect"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Capabilities/browserName"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Capabilities/browserVersion"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Capabilities/platformName"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Commands/NavigateTo"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Capabilities/pageLoadStrategy"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Capabilities/proxy"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Capabilities/setWindowRect"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Capabilities/timeouts"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Capabilities/unhandledPromptBehavior"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Capabilities/goog/chromeOptions"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Commands/NewSession"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Commands/NewSession"
+                          ]
+                        }
+                      ]
+                    },
+                    commands: {
+                      children: {
+                        closewindow: {
+                          children: {},
+                          slug: "/en-US/docs/Web/WebDriver/Reference/Commands/CloseWindow",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Command"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/WebWindow"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Errors/UnexpectedAlertOpen"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/SwitchToWindow"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/GetWindowHandle"
+                              ]
+                            }
+                          ]
+                        },
+                        getelementattribute: {
+                          children: {},
+                          slug: "/en-US/docs/Web/WebDriver/Reference/Commands/GetElementAttribute",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Command"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/WebElement"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/WebElement"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/WebElement"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Errors/SessionNotCreated"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Errors/NoSuchWindow"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Errors/UnexpectedAlertOpen"
+                              ]
+                            }
+                          ]
+                        },
+                        getelementproperty: {
+                          children: {},
+                          slug: "/en-US/docs/Web/WebDriver/Reference/Commands/GetElementProperty",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/WebElement"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/WebElement"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/WebElement"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Errors/SessionNotCreated"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Errors/NoSuchWindow"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Errors/UnexpectedAlertOpen"
+                              ]
+                            }
+                          ]
+                        },
+                        getelementtagname: {
+                          children: {},
+                          slug: "/en-US/docs/Web/WebDriver/Reference/Commands/GetElementTagName",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Command"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/WebElement"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/WebElement"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Errors/SessionNotCreated"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Errors/NoSuchWindow"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Errors/UnexpectedAlertOpen"
+                              ]
+                            }
+                          ]
+                        },
+                        gettimeouts: {
+                          children: {},
+                          slug: "/en-US/docs/Web/WebDriver/Reference/Commands/GetTimeouts",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/WebElement"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/ExecuteScript"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/ExecuteAsyncScript"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Errors/ScriptTimeoutError"
+                              ]
+                            }
+                          ]
+                        },
+                        getwindowhandles: {
+                          children: {},
+                          slug: "/en-US/docs/Web/WebDriver/Reference/Commands/GetWindowHandles",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Command"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/WebWindow"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/SwitchToWindow"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/SwitchToWindow"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/GetWindowHandle"
+                              ]
+                            }
+                          ]
+                        },
+                        getwindowrect: {
+                          children: {},
+                          slug: "/en-US/docs/Web/WebDriver/Reference/Commands/GetWindowRect",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/WebElement"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Clients"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/WindowRect"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/SetWindowRect"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/WebWindow"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Errors/UnexpectedAlertOpen"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/GetWindowHandle"
+                              ]
+                            }
+                          ]
+                        },
+                        newwindow: {
+                          children: {},
+                          slug: "/en-US/docs/Web/WebDriver/Reference/Commands/NewWindow",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/WebWindow"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/WebWindow"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Errors/NoSuchWindow"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Errors/UnexpectedAlertOpen"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Errors/UnsupportedOperation"
+                              ]
+                            }
+                          ]
+                        },
+                        settimeouts: {
+                          children: {},
+                          slug: "/en-US/docs/Web/WebDriver/Reference/Commands/SetTimeouts",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/WebElement"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/ExecuteScript"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/ExecuteAsyncScript"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Errors/ScriptTimeoutError"
+                              ]
+                            }
+                          ]
+                        },
+                        setwindowrect: {
+                          children: {},
+                          slug: "/en-US/docs/Web/WebDriver/Reference/Commands/SetWindowRect",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Errors/UnsupportedOperation"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Capabilities/setWindowRect"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/WindowRect"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/WebWindow"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/WindowRect"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Errors/NoSuchWindow"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Errors/UnexpectedAlertOpen"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Errors/UnsupportedOperation"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Capabilities/setWindowRect"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/WebWindow"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/GetWindowHandle"
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/Web/WebDriver/Reference/Commands",
+                      messages: [
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Command"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/WebWindow"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Command"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/WebElement"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/WebElement"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Command"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/WebElement"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Command"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/WebWindow"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Commands/SwitchToWindow"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/WebElement"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Clients"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/WebWindow"
+                          ]
+                        }
+                      ]
+                    },
+                    errors: {
+                      children: {
+                        insecurecertificate: {
+                          children: {},
+                          slug: "/en-US/docs/Web/WebDriver/Reference/Errors/InsecureCertificate",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/NavigateTo"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/NavigateTo"
+                              ]
+                            }
+                          ]
+                        },
+                        invalidcookiedomain: {
+                          children: {},
+                          slug: "/en-US/docs/Web/WebDriver/Reference/Errors/InvalidCookieDomain",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/AddCookie"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/AddCookie"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/DeleteCookie"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/DeleteAllCookies"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/GetAllCookies"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/GetNamedCookie"
+                              ]
+                            }
+                          ]
+                        },
+                        invalidselector: {
+                          children: {},
+                          slug: "/en-US/docs/Web/WebDriver/Reference/Errors/InvalidSelector",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/WebElement"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/WebElement"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/WebElement"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/WebElement"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/WebElement"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/WebElement"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/WebElement"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/FindElement"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/FindElements"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/FindElementFromElement"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/FindElementsFromElement"
+                              ]
+                            }
+                          ]
+                        },
+                        invalidsessionid: {
+                          children: {},
+                          slug: "/en-US/docs/Web/WebDriver/Reference/Errors/InvalidSessionID",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/DeleteSession"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Errors/SessionNotCreated"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/NewSession"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/DeleteSession"
+                              ]
+                            }
+                          ]
+                        },
+                        javascripterror: {
+                          children: {},
+                          slug: "/en-US/docs/Web/WebDriver/Reference/Errors/JavaScriptError",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/ExecuteScript"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/ExecuteAsyncScript"
+                              ]
+                            }
+                          ]
+                        },
+                        scripttimeout: {
+                          children: {},
+                          slug: "/en-US/docs/Web/WebDriver/Reference/Errors/ScriptTimeout",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/ExecuteScript"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/ExecuteAsyncScript"
+                              ]
+                            }
+                          ]
+                        },
+                        staleelementreference: {
+                          children: {},
+                          slug: "/en-US/docs/Web/WebDriver/Reference/Errors/StaleElementReference",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/WebElement"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/WebElement"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/WebElement"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/WebElement"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/WebElement"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/FindElement"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/FindElements"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/FindElementFromElement"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/WebDriver/Reference/Commands/FindElementsFromElement"
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/Web/WebDriver/Reference/Errors",
+                      messages: [
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Response"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Errors/UnexpectedAlertOpen"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Errors/UnexpectedAlertOpen"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Clients"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Errors/ElementClickIntercepted"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/ElementClick"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Command"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/WebElement"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Errors/ElementNotInteractable"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Command"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Command"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Errors/InvalidElementState"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Command"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/ElementClear"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/DeleteSession"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Errors/MoveTargetOutOfBounds"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Errors/NoSuchAlert"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Errors/NoSuchCookie"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Errors/NoSuchElement"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Errors/NoSuchFrame"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Command"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Errors/NoSuchWindow"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Command"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Errors/SessionNotCreated"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Command"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/WebElement"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Errors/Timeout"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Errors/UnableToSetCookie"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Command"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Errors/UnableToCaptureScreen"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Errors/UnexpectedAlertOpen"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Command"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Command"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Command"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Errors/UnsupportedOperation"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Command"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Response"
+                          ]
+                        }
+                      ]
+                    },
                     timeouts: {
                       children: {},
                       slug: "/en-US/docs/Web/WebDriver/Reference/Timeouts",
                       messages: [
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Commands/NewSession"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Commands/NewSession"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/WebElement"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Commands/ExecuteScript"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Commands/ExecuteAsyncScript"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Errors/ScriptTimeoutError"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Commands/NewSession"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/WebDriver/Reference/Commands/NewSession"
+                          ]
+                        },
                         {
                           message: "Unexpected page type",
                           data: [
@@ -23991,6 +24922,18 @@ svg.elements.feSpotLight.z`
                   },
                   slug: "/en-US/docs/Web/WebDriver/Reference",
                   messages: [
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/WebDriver/Reference/Commands/NewSession"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/WebDriver/Reference/Response"
+                      ]
+                    },
                     {
                       message: "Broken anchor",
                       data: [
