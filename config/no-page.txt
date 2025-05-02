@@ -118,11 +118,6 @@
 /en-US/docs/Web/API/SVGViewSpec
 /en-US/docs/Web/API/ShadowAnimation
 
-/en-US/docs/Web/API/SourceBuffer/abort_event
-/en-US/docs/Web/API/SourceBuffer/error_event
-/en-US/docs/Web/API/SourceBuffer/update_event
-/en-US/docs/Web/API/SourceBuffer/updateend_event
-/en-US/docs/Web/API/SourceBuffer/updatestart_event
 /en-US/docs/Web/API/SourceBufferList/addsourcebuffer_event
 /en-US/docs/Web/API/SourceBufferList/removesourcebuffer_event
 
@@ -161,6 +156,8 @@
 
   https://svgwg.org/svg2-draft/painting.html
 /en-US/docs/Web/SVG/Reference/Attribute/marker
+
+/en-US/docs/Web/SVG/Reference/Attribute/mask-type
 
 /en-US/docs/Web/SVG/Reference/Attribute/xlink:actuate
 /en-US/docs/Web/SVG/Reference/Attribute/xlink:role

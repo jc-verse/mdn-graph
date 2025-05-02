@@ -42,6 +42,8 @@ export default async function processWarnings(fast: boolean = false) {
           if (!member) return `/en-US/docs/Web/API/${interfac}`;
           return `/en-US/docs/Web/API/${interfac}/${member}`;
         case "css":
+          if (interfac === "selectors")
+            return `/en-US/docs/Web/CSS/:${member}`;
           return `/en-US/docs/Web/CSS/${member}`;
         case "html":
           if (interfac === "elements") {

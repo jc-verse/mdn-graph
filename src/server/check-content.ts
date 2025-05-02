@@ -32,7 +32,7 @@ const allowedSpacedCodeLink = [
   // HTTP status
   /^\d+ [\w '-]+$/,
   // HTTP header
-  /^(Accept-Ranges|Cache-Control|Clear-Site-Data|Connection|Content-Length|Content-Security-Policy|Cross-Origin-Opener-Policy|Cross-Origin-Resource-Policy|Expect|Feature-Policy|Permissions-Policy|Sec-Purpose|Transfer-Encoding|Vary): ([\w-]+|"[\w-]+")$/,
+  /^(Accept-Ranges|Cache-Control|Clear-Site-Data|Connection|Content-Length|Content-Security-Policy|Cross-Origin-Opener-Policy|Cross-Origin-Resource-Policy|Expect|Feature-Policy|Permissions-Policy|Sec-Purpose|Transfer-Encoding|Vary|X-Frame-Options): ([\w-]+|"[\w-]+")$/,
   // MIME
   /^[a-z]+\/[\w+-]+; [a-z]+=("[\w ,.-]+"|\w+);?$/,
   // Macro calls
