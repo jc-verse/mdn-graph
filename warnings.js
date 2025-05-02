@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-mdk83wsv.js";
+} from "./chunk-16jwb4yy.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -106,13 +106,6 @@ var warnings_processed_default = {
                     {
                       message: "Unreachable via page",
                       data: []
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://dopresskit.com/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 }
@@ -686,6 +679,26 @@ var warnings_processed_default = {
                 }
               ]
             },
+            gpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/GPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-faq.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                }
+              ]
+            },
             "high-level_programming_language": {
               children: {},
               slug: "/en-US/docs/Glossary/High-level_programming_language",
@@ -773,6 +786,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            lgpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/LGPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/lgpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
                 }
               ]
             },
@@ -1297,6 +1323,19 @@ var warnings_processed_default = {
               children: {
                 accessibility: {
                   children: {
+                    html: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/HTML",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/learning-area/blob/main/tools-testing/cross-browser-testing/accessibility/native-keyboard-accessibility.html",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        }
+                      ]
+                    },
                     test_your_skills: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills",
@@ -1598,6 +1637,13 @@ var warnings_processed_default = {
                           data: [
                             "https://phabricator.wikimedia.org/T241180",
                             "429 Retry-After: 1000"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://new.drupal.org/",
+                            403
                           ]
                         }
                       ]
@@ -2014,6 +2060,19 @@ var warnings_processed_default = {
                         }
                       ]
                     },
+                    html_images: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
                     html_video_and_audio: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_video_and_audio",
@@ -2269,6 +2328,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -2320,23 +2386,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                testing: {
-                  children: {
-                    html_and_css: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.10bestdesign.com/dirtymarkup/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     }
@@ -2580,6 +2629,27 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://webchat.freenode.net/?channels=textmate",
                             521
                           ]
@@ -2603,6 +2673,13 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://gaesamplesite.appspot.com/downloads.html",
+                            503
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://gaesamplesite.appspot.com/",
                             503
                           ]
@@ -2613,6 +2690,13 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -2774,6 +2858,10 @@ var warnings_processed_default = {
                     },
                     {
                       message: "Unreachable via sidebar",
+                      data: []
+                    },
+                    {
+                      message: "Unreachable via page",
                       data: []
                     }
                   ]
@@ -4023,24 +4111,24 @@ webextensions.manifest.options_ui`,
                           data: [
                             "Parsing error: '}' expected.",
                             `if (browser.contextualIdentities === undefined) {
-  div.innerText = 'browser.contextualIdentities not available. Check that the privacy.userContext.enabled pref is set to true, and reload the add-on.';
+  div.innerText =
+    "browser.contextualIdentities not available. Check that the privacy.userContext.enabled pref is set to true, and reload the add-on.";
 } else {
 `,
-                            "4:9"
+                            "5:9"
                           ]
                         },
                         {
                           message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
-                            `  browser.contextualIdentities.query({})
-    .then((identities) => {
-      if (!identities.length) {
-        div.innerText = 'No identities returned from the API.';
-        return;
-      }
+                            `  browser.contextualIdentities.query({}).then((identities) => {
+    if (!identities.length) {
+      div.innerText = "No identities returned from the API.";
+      return;
+    }
 `,
-                            "7:9"
+                            "6:9"
                           ]
                         },
                         {
@@ -4065,7 +4153,7 @@ webextensions.manifest.options_ui`,
                           data: [
                             "Parsing error: Declaration or statement expected.",
                             "}",
-                            "9:9"
+                            "11:9"
                           ]
                         }
                       ]
@@ -4100,7 +4188,7 @@ webextensions.manifest.options_ui`,
                           message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
-                            `      let searching = browser.bookmarks.search({url: currentTab.url});
+                            `      let searching = browser.bookmarks.search({ url: currentTab.url });
       searching.then((bookmarks) => {
         currentBookmark = bookmarks[0];
         updateIcon();
@@ -4125,39 +4213,13 @@ webextensions.manifest.options_ui`,
                           data: [
                             "Parsing error: '}' expected.",
                             `for (let i = 0; i < bgBtns.length; i++) {
-  let imgName = bgBtns[i].getAttribute('class');
-  let bgImg = 'url(\\'images/' + imgName + '.png\\')';
+  let imgName = bgBtns[i].getAttribute("class");
+  let bgImg = "url('images/" + imgName + ".png')";
   bgBtns[i].style.backgroundImage = bgImg;
 
   bgBtns[i].onclick = (e) => {
 `,
                             "7:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: '}' expected.",
-                            `    cookieVal.color = currColor;
-    browser.cookies.set({
-    url: tabs[0].url,
-    name: "bgpicker",
-    value: JSON.stringify(cookieVal)
-`,
-                            "6:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: '}' expected.",
-                            `    cookieVal = { image : '',
-                  color : '' };
-    browser.cookies.remove({
-    url: tabs[0].url,
-    name: "bgpicker"
-`,
-                            "6:9"
                           ]
                         }
                       ]
@@ -4171,13 +4233,13 @@ webextensions.manifest.options_ui`,
                           data: [
                             "Parsing error: '}' expected.",
                             `function listTabs() {
- getCurrentWindowTabs().then((tabs) => {
-    const tabsList = document.getElementById('tabs-list');
+  getCurrentWindowTabs().then((tabs) => {
+    const tabsList = document.getElementById("tabs-list");
     const currentTabs = document.createDocumentFragment();
     const limit = 5;
     let counter = 0;
 
-    tabsList.textContent = '';
+    tabsList.textContent = "";
 `,
                             "9:9"
                           ]
@@ -8641,6 +8703,32 @@ api.DeviceOrientationEvent`,
                         }
                       ]
                     },
+                    hasstorageaccess: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document/hasStorageAccess",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/blog/8124/introducing-storage-access-api/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    hasunpartitionedcookieaccess: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document/hasUnpartitionedCookieAccess",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/blog/8124/introducing-storage-access-api/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     paste_event: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Document/paste_event",
@@ -8658,6 +8746,32 @@ api.DeviceOrientationEvent`,
                             "api.Element.paste_event",
                             "Expected:",
                             "api.Document.paste_event"
+                          ]
+                        }
+                      ]
+                    },
+                    requeststorageaccess: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document/requestStorageAccess",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/blog/8124/introducing-storage-access-api/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    requeststorageaccessfor: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document/requestStorageAccessFor",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/blog/8124/introducing-storage-access-api/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -9136,19 +9250,27 @@ api.Document.fullscreen`,
                             `function addData(e) {
   e.preventDefault();
 
-  if (!title.value || !hours.value || !minutes.value || !day.value || !month.value || !year.value) {
-    note.appendChild(document.createElement("li")).textContent = "Data not submitted — form incomplete.";
+  if (
+    !title.value ||
+    !hours.value ||
+    !minutes.value ||
+    !day.value ||
+    !month.value ||
+    !year.value
+  ) {
+    note.appendChild(document.createElement("li")).textContent =
+      "Data not submitted — form incomplete.";
     return;
   }
 `,
-                            "8:9"
+                            "16:9"
                           ]
                         },
                         {
                           message: "JS code issue",
                           data: [
                             "Parsing error: Declaration or statement expected.",
-                            "   else {",
+                            "  else {",
                             "1:9"
                           ]
                         },
@@ -9164,7 +9286,7 @@ api.Document.fullscreen`,
                           message: "JS code issue",
                           data: [
                             "Parsing error: Declaration or statement expected.",
-                            "};",
+                            "}",
                             "3:9"
                           ]
                         },
@@ -9182,7 +9304,9 @@ api.Document.fullscreen`,
                           message: "JS code issue",
                           data: [
                             "Parsing error: '}' expected.",
-                            `  const objectStore = db.transaction(['toDoList'], "readwrite").objectStore('toDoList');
+                            `  const objectStore = db
+    .transaction(["toDoList"], "readwrite")
+    .objectStore("toDoList");
 
   objectStore.openCursor().onsuccess = (event) => {
     const cursor = event.target.result;
@@ -9190,7 +9314,7 @@ api.Document.fullscreen`,
 
     if (cursor) {
 `,
-                            "8:9"
+                            "10:9"
                           ]
                         },
                         {
@@ -9201,7 +9325,9 @@ api.Document.fullscreen`,
     // notification won't be set off on it again
 
     // first open up a transaction as usual
-    const objectStore = db.transaction(['toDoList'], "readwrite").objectStore('toDoList');
+    const objectStore = db
+      .transaction(["toDoList"], "readwrite")
+      .objectStore("toDoList");
 
     // get the to-do list object that has this title as its title
     const request = objectStore.get(title);
@@ -9219,9 +9345,9 @@ api.Document.fullscreen`,
       // when this new request succeeds, run the displayData() function again to update the display
       requestUpdate.onsuccess = () => {
         displayData();
-      }
+      };
 `,
-                            "24:9"
+                            "26:9"
                           ]
                         },
                         {
@@ -9325,10 +9451,10 @@ api.Document.fullscreen`,
                           data: [
                             "Parsing error: '}' expected.",
                             `  function startup() {
-    video = document.getElementById('video');
-    canvas = document.getElementById('canvas');
-    photo = document.getElementById('photo');
-    startButton = document.getElementById('start-button');
+    video = document.getElementById("video");
+    canvas = document.getElementById("canvas");
+    photo = document.getElementById("photo");
+    startButton = document.getElementById("start-button");
 `,
                             "6:9"
                           ]
@@ -10101,6 +10227,55 @@ api.Document.fullscreen`,
                       message: "Not in BCD",
                       data: [
                         "api.SharedStorageSelectURLOperation"
+                      ]
+                    }
+                  ]
+                },
+                sourcebuffer: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/SourceBuffer",
+                  messages: [
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/API/SourceBuffer/abort_event"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/API/SourceBuffer/error_event"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/API/SourceBuffer/update_event"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/API/SourceBuffer/updateend_event"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/API/SourceBuffer/updatestart_event"
+                      ]
+                    }
+                  ]
+                },
+                storage_access_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Storage_Access_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webkit.org/blog/8124/introducing-storage-access-api/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -10977,13 +11152,6 @@ api.Window.sessionStorage`,
                           data: [
                             "https://jsfiddle.net/tatumcreative/86fd797g/"
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://ogldev.org/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     }
@@ -11192,7 +11360,7 @@ api.Window.sessionStorage`,
                             `function start() {
   canvas = document.getElementById("gl-canvas");
 
-  initWebGL(canvas);      // Initialize the GL context
+  initWebGL(canvas); // Initialize the GL context
 
   // WebGL setup code here
 `,
@@ -11205,7 +11373,7 @@ api.Window.sessionStorage`,
                             "Parsing error: '}' expected.",
                             `  // WebVR: Check to see if WebVR is supported
   if (navigator.getVRDisplays) {
-    console.log('WebVR 1.1 supported');
+    console.log("WebVR 1.1 supported");
 `,
                             "4:9"
                           ]
@@ -11227,7 +11395,7 @@ api.Window.sessionStorage`,
                             `      // If a display is available, use it to present the scene
       if (displays.length > 0) {
         vrDisplay = displays[0];
-        console.log('Display found');
+        console.log("Display found");
 `,
                             "5:9"
                           ]
@@ -11237,10 +11405,10 @@ api.Window.sessionStorage`,
                           data: [
                             "Parsing error: '}' expected.",
                             `        // Starting the presentation when the button is clicked: It can only be called in response to a user gesture
-        btn.addEventListener('click', () => {
-          if (btn.textContent === 'Start VR display') {
+        btn.addEventListener("click", () => {
+          if (btn.textContent === "Start VR display") {
             vrDisplay.requestPresent([{ source: canvas }]).then(() => {
-              console.log('Presenting to WebVR display');
+              console.log("Presenting to WebVR display");
 `,
                             "6:9"
                           ]
@@ -11359,19 +11527,6 @@ api.Window.sessionStorage`,
                       ]
                     }
                   }
-                },
-                window_controls_overlay_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Window_Controls_Overlay_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://web.dev/articles/window-controls-overlay",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 },
                 window_management_api: {
                   children: {
@@ -15490,14 +15645,6 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "Missed semicolon (CssSyntaxError)",
-                            "  border-color: red",
-                            "3:20"
-                          ]
                         }
                       ]
                     },
@@ -15614,24 +15761,6 @@ css.properties.grid-template-rows.masonry`,
                       ]
                     }
                   }
-                },
-                css_view_transitions: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/CSS_view_transitions",
-                  messages: [
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/:active-view-transition"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/:active-view-transition-type"
-                      ]
-                    }
-                  ]
                 },
                 css_writing_modes: {
                   children: {
@@ -15828,19 +15957,6 @@ css.properties.grid-template-rows.masonry`,
                       ]
                     }
                   }
-                },
-                env: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/env",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://web.dev/articles/window-controls-overlay",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 },
                 filter: {
                   children: {},
@@ -16748,24 +16864,6 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
-                "mask-image": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-image",
-                  messages: [
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/SVG/Reference/Attribute/mask-type"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/SVG/Reference/Attribute/mask-type"
-                      ]
-                    }
-                  ]
-                },
                 max: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/max",
@@ -17068,12 +17166,6 @@ css.properties.grid-template-rows.minmax`
                   children: {},
                   slug: "/en-US/docs/Web/CSS/Reference",
                   messages: [
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/:active-view-transition"
-                      ]
-                    },
                     {
                       message: "Broken link",
                       data: [
@@ -17586,12 +17678,6 @@ css.properties.grid-template-rows.minmax`
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/CSS/:where()"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/:xr-overlay"
                       ]
                     },
                     {
@@ -18734,7 +18820,7 @@ html.elements.select.size`
                               message: "Broken external link",
                               data: [
                                 "https://info.cern.ch/",
-                                "Cannot reach server and Bun hangs"
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -19077,6 +19163,19 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         "available-dictionary": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Available-Dictionary",
@@ -19116,18 +19215,6 @@ http.headers.Use-As-Dictionary`,
                                 {
                                   message: "Missing syntax code block",
                                   data: []
-                                }
-                              ]
-                            },
-                            "frame-ancestors": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/frame-ancestors",
-                              messages: [
-                                {
-                                  message: "Code with space",
-                                  data: [
-                                    "X-Frame-Options: deny"
-                                  ]
                                 }
                               ]
                             }
@@ -19809,6 +19896,23 @@ http.headers.Use-As-Dictionary`,
                         }
                       }
                     },
+                    regular_expressions: {
+                      children: {
+                        named_capturing_group: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Named_capturing_group",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://eslint.org/docs/latest/rules/prefer-named-capture-group",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     statements: {
                       children: {
                         expression_statement: {
@@ -19888,6 +19992,19 @@ http.headers.Use-As-Dictionary`,
               children: {
                 guides: {
                   children: {
+                    authoring: {
+                      children: {},
+                      slug: "/en-US/docs/Web/MathML/Guides/Authoring",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.lyx.org/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     deriving_the_quadratic_formula: {
                       children: {},
                       slug: "/en-US/docs/Web/MathML/Guides/Deriving_the_quadratic_formula",
@@ -20086,6 +20203,13 @@ http.headers.Use-As-Dictionary`,
                               data: [
                                 "http://hevc.info/",
                                 ""
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://webkit.org/blog/8672/on-the-road-to-webrtc-1-0-including-vp8/",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -20329,21 +20453,7 @@ http.headers.Use-As-Dictionary`,
                 manifest: {
                   children: {
                     reference: {
-                      children: {
-                        display_override: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/display_override",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://web.dev/articles/window-controls-overlay",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      },
+                      children: {},
                       slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference",
                       messages: [
                         {
@@ -22165,12 +22275,6 @@ svg.elements.feSpotLight.z`
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Web/SVG/Reference/Attribute/speed"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/SVG/Reference/Attribute/mask-type"
                           ]
                         },
                         {
