@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-kw404c7b.js";
+} from "./chunk-gxhb80qs.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -361,23 +361,6 @@ var warnings_processed_default = {
                   data: []
                 }
               ]
-            },
-            tutorials: {
-              children: {
-                html5_gamedev_phaser_device_orientation: {
-                  children: {},
-                  slug: "/en-US/docs/Games/Tutorials/HTML5_Gamedev_Phaser_Device_Orientation",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.construct.net/en/make-games/games-editor",
-                        500
-                      ]
-                    }
-                  ]
-                }
-              }
             }
           },
           slug: "/en-US/docs/Games",
@@ -703,6 +686,26 @@ var warnings_processed_default = {
                 }
               ]
             },
+            gpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/GPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-faq.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                }
+              ]
+            },
             "high-level_programming_language": {
               children: {},
               slug: "/en-US/docs/Glossary/High-level_programming_language",
@@ -790,6 +793,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            lgpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/LGPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/lgpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
                 }
               ]
             },
@@ -1613,8 +1629,8 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://phabricator.wikimedia.org/T241180",
-                            "429 Retry-After: 1000"
+                            "https://new.drupal.org/",
+                            403
                           ]
                         }
                       ]
@@ -2031,6 +2047,19 @@ var warnings_processed_default = {
                         }
                       ]
                     },
+                    html_images: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
                     html_video_and_audio: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_video_and_audio",
@@ -2139,19 +2168,6 @@ var warnings_processed_default = {
                           message: "Unused image",
                           data: [
                             "external-link-52.png"
-                          ]
-                        }
-                      ]
-                    },
-                    web_fonts: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.exljbris.com/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -2299,6 +2315,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -2359,6 +2382,23 @@ var warnings_processed_default = {
             },
             getting_started: {
               children: {
+                soft_skills: {
+                  children: {
+                    finding_a_job: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Finding_a_job",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.upwork.com/",
+                            403
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 your_first_website: {
                   children: {
                     styling_the_content: {
@@ -2593,6 +2633,27 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://webchat.freenode.net/?channels=textmate",
                             521
                           ]
@@ -2626,6 +2687,13 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -4214,20 +4282,6 @@ webextensions.manifest.options_ui`,
                           data: [
                             "http://www.aha-soft.com/free-icons/free-retina-icon-set/",
                             ""
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iconbeast.com/free/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iconbeast.com/faq/",
-                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -6007,20 +6061,6 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "29": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/29",
-                      messages: [
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            ": collapse",
-                            "Text before code:",
-                            "visibility"
-                          ]
-                        }
-                      ]
-                    },
                     "30": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/30",
@@ -6219,30 +6259,6 @@ webextensions.manifest.options_ui`,
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/38",
                       messages: [
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "autocomplete",
-                            "Text after link:",
-                            "=false"
-                          ]
-                        },
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "autocomplete",
-                            "Text after code:",
-                            "=false"
-                          ]
-                        },
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "=false",
-                            "Text before code:",
-                            "autocomplete"
-                          ]
-                        },
                         {
                           message: "Broken link",
                           data: [
@@ -6505,20 +6521,6 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "50": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/50",
-                      messages: [
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            ": padding-box",
-                            "Text before code:",
-                            "box-sizing"
-                          ]
-                        }
-                      ]
-                    },
                     "51": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/51",
@@ -6603,20 +6605,6 @@ webextensions.manifest.options_ui`,
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Mozilla/Add-ons/Add-on_Manager/AddonManager"
-                          ]
-                        }
-                      ]
-                    },
-                    "54": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/54",
-                      messages: [
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            ": none;",
-                            "Text before code:",
-                            "-moz-appearance"
                           ]
                         }
                       ]
@@ -8709,25 +8697,6 @@ api.DeviceOrientationEvent`,
                     }
                   }
                 },
-                elementinternals: {
-                  children: {
-                    ariaactivedescendantelement: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/ElementInternals/ariaActiveDescendantElement",
-                      messages: [
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "api.Element.ariaActiveDescendantElement",
-                            "Expected:",
-                            "api.ElementInternals.ariaActiveDescendantElement"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 fetchevent: {
                   children: {
                     replacesclientid: {
@@ -9698,23 +9667,6 @@ api.Document.fullscreen`,
                             "api.PointerEvent",
                             "Expected:",
                             "[None]"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                popover_api: {
-                  children: {
-                    using: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Popover_API/Using",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://mdn.github.io/dom-examples/popover-api/nested-popovers/",
-                            503
                           ]
                         }
                       ]
@@ -16822,6 +16774,20 @@ css.properties.grid-template-rows.minmax`
                     {
                       message: "Broken external link",
                       data: [
+                        "https://drafts.fxtf.org/compositing/",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/compositing/",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
                         "https://drafts.fxtf.org/compositing-2/",
                         "The operation timed out."
                       ]
@@ -19051,6 +19017,19 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         "available-dictionary": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Available-Dictionary",
@@ -19231,22 +19210,6 @@ http.headers.Use-As-Dictionary`,
                               children: {},
                               slug: "/en-US/docs/Web/HTTP/Reference/Headers/User-Agent/Firefox",
                               messages: [
-                                {
-                                  message: "Text stuck to code/link",
-                                  data: [
-                                    "navigator.platform",
-                                    "Text before link:",
-                                    "reported as x86_64 in Firefox's User-Agent string,"
-                                  ]
-                                },
-                                {
-                                  message: "Text stuck to code/link",
-                                  data: [
-                                    "navigator.platform",
-                                    "Text before code:",
-                                    "reported as x86_64 in Firefox's User-Agent string,"
-                                  ]
-                                },
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
@@ -19613,27 +19576,6 @@ http.headers.Use-As-Dictionary`,
                             }
                           }
                         },
-                        intl: {
-                          children: {
-                            displaynames: {
-                              children: {
-                                of: {
-                                  children: {},
-                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DisplayNames/of",
-                                  messages: [
-                                    {
-                                      message: "Broken external link",
-                                      data: [
-                                        "https://www.iso.org/iso-3166-country-codes.html",
-                                        "The operation timed out."
-                                      ]
-                                    }
-                                  ]
-                                }
-                              }
-                            }
-                          }
-                        },
                         object: {
                           children: {
                             defineproperty: {
@@ -19808,23 +19750,6 @@ http.headers.Use-As-Dictionary`,
                         }
                       }
                     },
-                    regular_expressions: {
-                      children: {
-                        named_capturing_group: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Named_capturing_group",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://eslint.org/docs/latest/rules/prefer-named-capture-group",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
                     statements: {
                       children: {
                         expression_statement: {
@@ -19904,19 +19829,6 @@ http.headers.Use-As-Dictionary`,
               children: {
                 guides: {
                   children: {
-                    authoring: {
-                      children: {},
-                      slug: "/en-US/docs/Web/MathML/Guides/Authoring",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.lyx.org/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     deriving_the_quadratic_formula: {
                       children: {},
                       slug: "/en-US/docs/Web/MathML/Guides/Deriving_the_quadratic_formula",
