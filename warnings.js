@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-gxhb80qs.js";
+} from "./chunk-rya2jb28.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -140,13 +140,6 @@ var warnings_processed_default = {
                       message: "External sandbox link",
                       data: [
                         "https://jsfiddle.net/jlr7245/teb4znk0/20/"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.sevenson.com.au/programming/sat/",
-                        "Cannot reach server and Bun hangs"
                       ]
                     }
                   ]
@@ -2208,6 +2201,23 @@ var warnings_processed_default = {
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/mikethomas/pen/kQjKLW"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                "client-side_tools": {
+                  children: {
+                    introducing_complete_toolchain: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://preset-env.cssdb.org/features/",
+                            "Unable to connect. Is the computer able to access the url?"
                           ]
                         }
                       ]
@@ -7626,6 +7636,19 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
+                    mobile_accessibility_checklist: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Accessibility/Guides/Mobile_accessibility_checklist",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.washington.edu/accesstech/websites/regions/",
+                            "https://www.washington.edu/accesstech/checklist/regions/"
+                          ]
+                        }
+                      ]
+                    },
                     seizure_disorders: {
                       children: {},
                       slug: "/en-US/docs/Web/Accessibility/Guides/Seizure_disorders",
@@ -9546,6 +9569,13 @@ api.Document.fullscreen`,
                         {
                           message: "Broken browser compat anchor",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/blog/8182/introducing-the-payment-request-api-for-apple-pay/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -9575,7 +9605,17 @@ api.Document.fullscreen`,
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/Payment_Request_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webkit.org/blog/8182/introducing-the-payment-request-api-for-apple-pay/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 paymentrequestevent: {
                   children: {
@@ -19730,6 +19770,13 @@ http.headers.Use-As-Dictionary`,
                           data: [
                             "/en-US/docs/Web/JavaScript/Reference"
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://docs.webkit.org/Deep%20Dive/JSC/JavaScriptCore.html",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -19829,6 +19876,19 @@ http.headers.Use-As-Dictionary`,
               children: {
                 guides: {
                   children: {
+                    authoring: {
+                      children: {},
+                      slug: "/en-US/docs/Web/MathML/Guides/Authoring",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.lyx.org/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     deriving_the_quadratic_formula: {
                       children: {},
                       slug: "/en-US/docs/Web/MathML/Guides/Deriving_the_quadratic_formula",
@@ -20023,10 +20083,10 @@ http.headers.Use-As-Dictionary`,
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
                           messages: [
                             {
-                              message: "HTTP link",
+                              message: "Broken external link",
                               data: [
                                 "http://hevc.info/",
-                                ""
+                                "The operation timed out."
                               ]
                             }
                           ]
