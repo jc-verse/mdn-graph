@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-463b2r8g.js";
+} from "./chunk-46et9erq.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -113,6 +113,13 @@ var warnings_processed_default = {
                       message: "External sandbox link",
                       data: [
                         "https://jsfiddle.net/jlr7245/teb4znk0/20/"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.sevenson.com.au/programming/sat/",
+                        "Cannot reach server and Bun hangs"
                       ]
                     }
                   ]
@@ -659,26 +666,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            gpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/GPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/gpl-faq.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/gpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                }
-              ]
-            },
             "high-level_programming_language": {
               children: {},
               slug: "/en-US/docs/Glossary/High-level_programming_language",
@@ -766,19 +753,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            lgpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/LGPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/lgpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
                 }
               ]
             },
@@ -1620,13 +1594,6 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features",
                       messages: [
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://testing-library.com/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
                           message: "JS code issue",
                           data: [
                             "Parsing error: '...' expected.",
@@ -2034,19 +2001,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    html_images: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     html_video_and_audio: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_video_and_audio",
@@ -2302,13 +2256,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/gzip/",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     }
@@ -2364,69 +2311,11 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                testing: {
-                  children: {
-                    testing_strategies: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://help.ubuntu.com/community/WindowsDualBoot",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 }
               }
             },
             getting_started: {
               children: {
-                environment_setup: {
-                  children: {
-                    installing_software: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Installing_software",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vivaldi.com/",
-                            503
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vivaldi.com/android/",
-                            503
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                soft_skills: {
-                  children: {
-                    finding_a_job: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Finding_a_job",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.upwork.com/",
-                            403
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 your_first_website: {
                   children: {
                     styling_the_content: {
@@ -2436,13 +2325,13 @@ var warnings_processed_default = {
                         {
                           message: "Unused image",
                           data: [
-                            "css-declaration-small.png"
+                            "boxes.jpg"
                           ]
                         },
                         {
                           message: "Unused image",
                           data: [
-                            "boxes.jpg"
+                            "css-declaration-small.png"
                           ]
                         }
                       ]
@@ -2661,27 +2550,6 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/efaq.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://webchat.freenode.net/?channels=textmate",
                             521
                           ]
@@ -2715,13 +2583,6 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -2796,16 +2657,7 @@ var warnings_processed_default = {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/MDN/Community/Discussions",
-                  messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/MDN/Community"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 issues: {
                   children: {
@@ -2814,17 +2666,7 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/MDN/Community/Issues/Content_suggestions_feature_proposals",
                       messages: [
                         {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/MDN/Community/Issues"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
-                          data: []
-                        },
-                        {
-                          message: "Unreachable via page",
                           data: []
                         }
                       ]
@@ -2883,10 +2725,6 @@ var warnings_processed_default = {
                     },
                     {
                       message: "Unreachable via sidebar",
-                      data: []
-                    },
-                    {
-                      message: "Unreachable via page",
                       data: []
                     }
                   ]
@@ -2982,26 +2820,19 @@ var warnings_processed_default = {
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Macros",
+                      messages: [
+                        {
+                          message: "Bad href",
+                          data: [
+                            "MDN/Writing_guidelines/Page_structures/Macros/Other"
+                          ]
+                        }
+                      ]
                     },
                     page_types: {
                       children: {
-                        aria_page_template: {
-                          children: {},
-                          slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/ARIA_Page_Template",
-                          messages: [
-                            {
-                              message: "Not linked from parent page",
-                              data: [
-                                "/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types"
-                              ]
-                            },
-                            {
-                              message: "Unreachable via page",
-                              data: []
-                            }
-                          ]
-                        },
                         css_function_page_template: {
                           children: {},
                           slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/CSS_function_page_template",
@@ -3033,19 +2864,6 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                writing_style_guide: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Writing_guidelines/Writing_style_guide",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://imageoptim.com/",
-                        502
-                      ]
-                    }
-                  ]
                 }
               }
             }
@@ -7543,45 +7361,6 @@ webextensions.manifest.options_ui`,
               children: {
                 aria: {
                   children: {
-                    guides: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Accessibility/ARIA/Guides",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/Accessibility/ARIA"
-                          ]
-                        }
-                      ]
-                    },
-                    how_to: {
-                      children: {
-                        "file_aria-related_bugs": {
-                          children: {},
-                          slug: "/en-US/docs/Web/Accessibility/ARIA/How_to/File_ARIA-related_bugs",
-                          messages: [
-                            {
-                              message: "Unreachable via page",
-                              data: []
-                            }
-                          ]
-                        }
-                      },
-                      slug: "/en-US/docs/Web/Accessibility/ARIA/How_to",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/Accessibility/ARIA"
-                          ]
-                        },
-                        {
-                          message: "Unreachable via page",
-                          data: []
-                        }
-                      ]
-                    },
                     reference: {
                       children: {
                         attributes: {
@@ -7612,16 +7391,7 @@ webextensions.manifest.options_ui`,
                             }
                           }
                         }
-                      },
-                      slug: "/en-US/docs/Web/Accessibility/ARIA/Reference",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/Accessibility/ARIA"
-                          ]
-                        }
-                      ]
+                      }
                     }
                   }
                 },
@@ -7654,26 +7424,6 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    browsing_safely: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Accessibility/Guides/Browsing_safely",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://ask.metafilter.com/312049/What-is-the-grayscale-setting-for-in-accessibility-options",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://ask.metafilter.com/312049/What-is-the-grayscale-setting-for-in-accessibility-options",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     colors_and_luminance: {
                       children: {},
                       slug: "/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance",
@@ -7682,7 +7432,7 @@ webextensions.manifest.options_ui`,
                           message: "Broken external link",
                           data: [
                             "https://colorusage.arc.nasa.gov/design_lum_1.php",
-                            "Was there a typo in the url or port?"
+                            "Unable to connect. Is the computer able to access the url?"
                           ]
                         },
                         {
@@ -7696,14 +7446,7 @@ webextensions.manifest.options_ui`,
                           message: "Broken external link",
                           data: [
                             "https://colorusage.arc.nasa.gov/design_lum_1.php",
-                            "Was there a typo in the url or port?"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://ask.metafilter.com/312049/What-is-the-grayscale-setting-for-in-accessibility-options",
-                            "The operation timed out."
+                            "Unable to connect. Is the computer able to access the url?"
                           ]
                         }
                       ]
@@ -7769,20 +7512,7 @@ webextensions.manifest.options_ui`,
                         }
                       }
                     }
-                  },
-                  slug: "/en-US/docs/Web/Accessibility/Guides",
-                  messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Web/Accessibility"
-                      ]
-                    },
-                    {
-                      message: "Unreachable via page",
-                      data: []
-                    }
-                  ]
+                  }
                 }
               }
             },
@@ -8004,7 +7734,7 @@ webextensions.manifest.options_ui`,
                             {
                               message: "Unused image",
                               data: [
-                                "capitan_meadows_yosemite_national_park.jpg"
+                                "canvas_moon.png"
                               ]
                             },
                             {
@@ -8016,13 +7746,13 @@ webextensions.manifest.options_ui`,
                             {
                               message: "Unused image",
                               data: [
-                                "canvas_moon.png"
+                                "canvas_sun.png"
                               ]
                             },
                             {
                               message: "Unused image",
                               data: [
-                                "canvas_sun.png"
+                                "capitan_meadows_yosemite_national_park.jpg"
                               ]
                             }
                           ]
@@ -8052,25 +7782,7 @@ webextensions.manifest.options_ui`,
                             {
                               message: "Unused image",
                               data: [
-                                "bg_gallery.png"
-                              ]
-                            },
-                            {
-                              message: "Unused image",
-                              data: [
-                                "gallery_6.jpg"
-                              ]
-                            },
-                            {
-                              message: "Unused image",
-                              data: [
                                 "backdrop.png"
-                              ]
-                            },
-                            {
-                              message: "Unused image",
-                              data: [
-                                "canvas_picture_frame.png"
                               ]
                             },
                             {
@@ -8082,7 +7794,7 @@ webextensions.manifest.options_ui`,
                             {
                               message: "Unused image",
                               data: [
-                                "gallery_2.jpg"
+                                "gallery_6.jpg"
                               ]
                             },
                             {
@@ -8094,19 +7806,37 @@ webextensions.manifest.options_ui`,
                             {
                               message: "Unused image",
                               data: [
-                                "gallery_7.jpg"
-                              ]
-                            },
-                            {
-                              message: "Unused image",
-                              data: [
                                 "gallery_8.jpg"
                               ]
                             },
                             {
                               message: "Unused image",
                               data: [
+                                "gallery_7.jpg"
+                              ]
+                            },
+                            {
+                              message: "Unused image",
+                              data: [
+                                "bg_gallery.png"
+                              ]
+                            },
+                            {
+                              message: "Unused image",
+                              data: [
+                                "gallery_2.jpg"
+                              ]
+                            },
+                            {
+                              message: "Unused image",
+                              data: [
                                 "gallery_5.jpg"
+                              ]
+                            },
+                            {
+                              message: "Unused image",
+                              data: [
+                                "canvas_picture_frame.png"
                               ]
                             }
                           ]
@@ -9030,18 +8760,6 @@ api.Document.fullscreen`,
                         }
                       ]
                     },
-                    load_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLElement/load_event",
-                      messages: [
-                        {
-                          message: "Unused image",
-                          data: [
-                            "favicon144.png"
-                          ]
-                        }
-                      ]
-                    },
                     paste_event: {
                       children: {},
                       slug: "/en-US/docs/Web/API/HTMLElement/paste_event",
@@ -9098,7 +8816,7 @@ api.Document.fullscreen`,
                         {
                           message: "Unused image",
                           data: [
-                            "new-york-skyline-wide.jpg"
+                            "new-york-skyline-4by3.jpg"
                           ]
                         },
                         {
@@ -9110,7 +8828,7 @@ api.Document.fullscreen`,
                         {
                           message: "Unused image",
                           data: [
-                            "new-york-skyline-4by3.jpg"
+                            "new-york-skyline-wide.jpg"
                           ]
                         }
                       ]
@@ -13745,13 +13463,6 @@ css.selectors.-webkit-resizer`,
                       data: [
                         "anemones.jpg"
                       ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/filter-effects-1/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -13817,6 +13528,12 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Unused image",
                       data: [
+                        "cat-front.png"
+                      ]
+                    },
+                    {
+                      message: "Unused image",
+                      data: [
                         "mdn_logo_only_color.png"
                       ]
                     },
@@ -13824,12 +13541,6 @@ css.selectors.-webkit-resizer`,
                       message: "Unused image",
                       data: [
                         "star-transparent.gif"
-                      ]
-                    },
-                    {
-                      message: "Unused image",
-                      data: [
-                        "cat-front.png"
                       ]
                     }
                   ]
@@ -13841,13 +13552,13 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Unused image",
                       data: [
-                        "star-transparent.gif"
+                        "cat-front.png"
                       ]
                     },
                     {
                       message: "Unused image",
                       data: [
-                        "cat-front.png"
+                        "star-transparent.gif"
                       ]
                     }
                   ]
@@ -13860,12 +13571,6 @@ css.selectors.-webkit-resizer`,
                       message: "Unused image",
                       data: [
                         "star-solid.gif"
-                      ]
-                    },
-                    {
-                      message: "Unused image",
-                      data: [
-                        "favicon32.png"
                       ]
                     }
                   ]
@@ -14612,19 +14317,6 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                "color-interpolation-filters": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/color-interpolation-filters",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/filter-effects-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 "color-interpolation-method": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/color-interpolation-method",
@@ -14657,13 +14349,13 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Unused image",
                       data: [
-                        "1x.png"
+                        "2x.png"
                       ]
                     },
                     {
                       message: "Unused image",
                       data: [
-                        "2x.png"
+                        "1x.png"
                       ]
                     },
                     {
@@ -14797,25 +14489,25 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unused image",
                           data: [
-                            "100px-wide-no-height-or-ratio.svg"
-                          ]
-                        },
-                        {
-                          message: "Unused image",
-                          data: [
                             "no-dimensions-or-ratio.svg"
                           ]
                         },
                         {
                           message: "Unused image",
                           data: [
-                            "100px-height-3x4-ratio.svg"
+                            "no-dimensions-1x1-ratio.svg"
                           ]
                         },
                         {
                           message: "Unused image",
                           data: [
-                            "no-dimensions-1x1-ratio.svg"
+                            "100px-wide-no-height-or-ratio.svg"
+                          ]
+                        },
+                        {
+                          message: "Unused image",
+                          data: [
+                            "100px-height-3x4-ratio.svg"
                           ]
                         },
                         {
@@ -14831,13 +14523,13 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unused image",
                           data: [
-                            "bubbles.png"
+                            "firefox.png"
                           ]
                         },
                         {
                           message: "Unused image",
                           data: [
-                            "firefox.png"
+                            "bubbles.png"
                           ]
                         }
                       ]
@@ -15935,13 +15627,6 @@ css.properties.grid-template-rows.masonry`,
                       data: [
                         "pencil.jpg"
                       ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/filter-effects-1/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -15954,13 +15639,6 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "Missing syntax code block",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
-                          ]
                         },
                         {
                           message: "CSS code issue",
@@ -15991,13 +15669,6 @@ css.properties.grid-template-rows.masonry`,
                           ]
                         },
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word brightness (CssSyntaxError)",
@@ -16018,13 +15689,6 @@ css.properties.grid-template-rows.masonry`,
                           ]
                         },
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word contrast (CssSyntaxError)",
@@ -16034,30 +15698,10 @@ css.properties.grid-template-rows.masonry`,
                         }
                       ]
                     },
-                    "drop-shadow": {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/filter-function/drop-shadow",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     grayscale: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/filter-function/grayscale",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
-                          ]
-                        },
                         {
                           message: "CSS code issue",
                           data: [
@@ -16075,13 +15719,6 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "Missing syntax code block",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
-                          ]
                         },
                         {
                           message: "CSS code issue",
@@ -16106,13 +15743,6 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/invert",
                       messages: [
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word invert (CssSyntaxError)",
@@ -16126,13 +15756,6 @@ css.properties.grid-template-rows.masonry`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/filter-function/opacity",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
-                          ]
-                        },
                         {
                           message: "CSS code issue",
                           data: [
@@ -16148,13 +15771,6 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/saturate",
                       messages: [
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word saturate (CssSyntaxError)",
@@ -16168,13 +15784,6 @@ css.properties.grid-template-rows.masonry`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/filter-function/sepia",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
-                          ]
-                        },
                         {
                           message: "CSS code issue",
                           data: [
@@ -16191,13 +15800,6 @@ css.properties.grid-template-rows.masonry`,
                     {
                       message: "Missing syntax code block",
                       data: []
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/filter-effects-1/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -16260,32 +15862,6 @@ css.properties.width.fit-content_function`
                     {
                       message: "Missing syntax code block",
                       data: []
-                    }
-                  ]
-                },
-                "flood-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/flood-color",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/filter-effects-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "flood-opacity": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/flood-opacity",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/filter-effects-1/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -16760,19 +16336,6 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
-                "lighting-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/lighting-color",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/filter-effects-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 "line-style": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/line-style",
@@ -16962,20 +16525,6 @@ css.properties.grid-template-rows.minmax`
                     {
                       message: "Broken external link",
                       data: [
-                        "https://drafts.fxtf.org/compositing/",
-                        "The operation timed out."
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/compositing/",
-                        "The operation timed out."
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
                         "https://drafts.fxtf.org/compositing-2/",
                         "The operation timed out."
                       ]
@@ -17026,45 +16575,6 @@ css.properties.grid-template-rows.minmax`
                     }
                   ]
                 },
-                offset: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/offset",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/motion-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "offset-anchor": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/offset-anchor",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/motion-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "offset-distance": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/offset-distance",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/motion-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 "offset-path": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/offset-path",
@@ -17091,39 +16601,6 @@ css.properties.grid-template-rows.minmax`
                       message: "External sandbox link",
                       data: [
                         "https://jsfiddle.net/ericwilligers/r1snqdan/"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/motion-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "offset-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/offset-position",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/motion-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "offset-rotate": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/offset-rotate",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/motion-1/",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -17195,19 +16672,6 @@ css.properties.grid-template-rows.minmax`
                     {
                       message: "Missing syntax code block",
                       data: []
-                    }
-                  ]
-                },
-                ray: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/ray",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/motion-1/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -18864,13 +18328,6 @@ html.elements.select.size`
                               data: [
                                 "mdn-logo-sm.png"
                               ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://info.cern.ch/",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         },
@@ -18881,25 +18338,13 @@ html.elements.select.size`
                             {
                               message: "Unused image",
                               data: [
-                                "favicon144.png"
-                              ]
-                            },
-                            {
-                              message: "Unused image",
-                              data: [
-                                "favicon72.png"
+                                "clock-demo-200px.png"
                               ]
                             },
                             {
                               message: "Unused image",
                               data: [
                                 "clock-demo-400px.png"
-                              ]
-                            },
-                            {
-                              message: "Unused image",
-                              data: [
-                                "clock-demo-200px.png"
                               ]
                             }
                           ]
@@ -19067,6 +18512,13 @@ http.headers.Use-As-Dictionary`,
                       slug: "/en-US/docs/Web/HTTP/Guides/CORS",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.telerik.com/blogs/using-cors-with-all-modern-browsers",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "Unexpected BCD keys",
                           data: [
                             "Actual:",
@@ -19212,19 +18664,6 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
-                        accept: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.gnu.org/software/wget/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
                         "available-dictionary": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Available-Dictionary",
@@ -19965,23 +19404,6 @@ http.headers.Use-As-Dictionary`,
                         }
                       }
                     },
-                    regular_expressions: {
-                      children: {
-                        named_capturing_group: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Named_capturing_group",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://eslint.org/docs/latest/rules/prefer-named-capture-group",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
                     statements: {
                       children: {
                         expression_statement: {
@@ -20259,6 +19681,13 @@ http.headers.Use-As-Dictionary`,
                               data: [
                                 "http://hevc.info/",
                                 ""
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://webkit.org/blog/8672/on-the-road-to-webrtc-1-0-including-vp8/",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -20546,7 +19975,7 @@ http.headers.Use-As-Dictionary`,
                             {
                               message: "Unused image",
                               data: [
-                                "wheel.svg"
+                                "circle.svg"
                               ]
                             },
                             {
@@ -20558,7 +19987,7 @@ http.headers.Use-As-Dictionary`,
                             {
                               message: "Unused image",
                               data: [
-                                "circle.svg"
+                                "wheel.svg"
                               ]
                             }
                           ]
@@ -22861,21 +22290,7 @@ svg.elements.feSpotLight.z`
                 xslt: {
                   children: {
                     guides: {
-                      children: {
-                        transforming_xml_with_xslt: {
-                          children: {},
-                          slug: "/en-US/docs/Web/XML/XSLT/Guides/Transforming_XML_with_XSLT",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://xml.coverpages.org/xsl.html",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        }
-                      },
+                      children: {},
                       slug: "/en-US/docs/Web/XML/XSLT/Guides",
                       messages: [
                         {
