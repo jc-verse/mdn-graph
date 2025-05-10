@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-4cdk8806.js";
+} from "./chunk-03zzah58.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -79,13 +79,6 @@ var warnings_processed_default = {
                     {
                       message: "Unreachable via page",
                       data: []
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://indiegamesplus.com/",
-                        "Cannot reach server and Bun hangs"
-                      ]
                     }
                   ]
                 }
@@ -666,26 +659,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            gpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/GPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/gpl-faq.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/gpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                }
-              ]
-            },
             "high-level_programming_language": {
               children: {},
               slug: "/en-US/docs/Glossary/High-level_programming_language",
@@ -773,19 +746,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            lgpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/LGPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/lgpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
                 }
               ]
             },
@@ -2034,19 +1994,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    html_images: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     html_video_and_audio: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_video_and_audio",
@@ -2155,19 +2102,6 @@ var warnings_processed_default = {
                           message: "Unused image",
                           data: [
                             "external-link-52.png"
-                          ]
-                        }
-                      ]
-                    },
-                    web_fonts: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.exljbris.com/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -2315,13 +2249,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/gzip/",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     }
@@ -2373,23 +2300,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                testing: {
-                  children: {
-                    testing_strategies: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/tools-testing/cross-browser-testing/strategies/hidden-info-panel.html",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     }
@@ -2633,27 +2543,6 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/efaq.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://webchat.freenode.net/?channels=textmate",
                             521
                           ]
@@ -2687,13 +2576,6 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -2793,26 +2675,6 @@ var warnings_processed_default = {
                       data: [
                         "/en-US/docs/MDN/Community"
                       ]
-                    },
-                    {
-                      message: "Unreachable via page",
-                      data: []
-                    }
-                  ]
-                },
-                security_vulnerability_response: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Community/Security_vulnerability_response",
-                  messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/MDN/Community"
-                      ]
-                    },
-                    {
-                      message: "Unreachable via sidebar",
-                      data: []
                     },
                     {
                       message: "Unreachable via page",
@@ -2920,27 +2782,12 @@ var warnings_processed_default = {
                           slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Macros/Other",
                           messages: [
                             {
-                              message: "Not linked from parent page",
-                              data: [
-                                "/en-US/docs/MDN/Writing_guidelines/Page_structures/Macros"
-                              ]
-                            },
-                            {
                               message: "Unreachable via sidebar",
                               data: []
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Macros",
-                      messages: [
-                        {
-                          message: "Bad href",
-                          data: [
-                            "MDN/Writing_guidelines/Page_structures/Macros/Other"
-                          ]
-                        }
-                      ]
+                      }
                     },
                     page_types: {
                       children: {
@@ -2959,19 +2806,6 @@ var warnings_processed_default = {
                           ]
                         }
                       }
-                    },
-                    sidebars: {
-                      children: {},
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Sidebars",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://raw.githubusercontent.com/mdn/content/refs/heads/main/files/en-us/mdn/writing_guidelines/page_structures/sidebars/index.md",
-                            "429 Retry-After: 300"
-                          ]
-                        }
-                      ]
                     },
                     syntax_sections: {
                       children: {},
@@ -7575,19 +7409,6 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    mobile_accessibility_checklist: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Accessibility/Guides/Mobile_accessibility_checklist",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://www.washington.edu/accesstech/websites/regions/",
-                            "https://www.washington.edu/accesstech/checklist/regions/"
-                          ]
-                        }
-                      ]
-                    },
                     seizure_disorders: {
                       children: {},
                       slug: "/en-US/docs/Web/Accessibility/Guides/Seizure_disorders",
@@ -8583,6 +8404,32 @@ api.DeviceOrientationEvent`,
                         }
                       ]
                     },
+                    hasstorageaccess: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document/hasStorageAccess",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/blog/8124/introducing-storage-access-api/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    hasunpartitionedcookieaccess: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document/hasUnpartitionedCookieAccess",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/blog/8124/introducing-storage-access-api/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     paste_event: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Document/paste_event",
@@ -8600,6 +8447,32 @@ api.DeviceOrientationEvent`,
                             "api.Element.paste_event",
                             "Expected:",
                             "api.Document.paste_event"
+                          ]
+                        }
+                      ]
+                    },
+                    requeststorageaccess: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document/requestStorageAccess",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/blog/8124/introducing-storage-access-api/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    requeststorageaccessfor: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document/requestStorageAccessFor",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/blog/8124/introducing-storage-access-api/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -10086,6 +9959,19 @@ api.Document.fullscreen`,
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/API/SourceBuffer/updatestart_event"
+                      ]
+                    }
+                  ]
+                },
+                storage_access_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Storage_Access_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webkit.org/blog/8124/introducing-storage-access-api/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -13635,6 +13521,13 @@ css.selectors.-webkit-resizer`,
                       data: [
                         "br.png"
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/compositing-2/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -13703,13 +13596,6 @@ css.selectors.-webkit-resizer`,
                           data: []
                         },
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/fill-stroke-3/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word path (CssSyntaxError)",
@@ -13731,32 +13617,6 @@ css.selectors.-webkit-resizer`,
                             "Unknown word path (CssSyntaxError)",
                             'path("M 10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80");',
                             "1:1"
-                          ]
-                        }
-                      ]
-                    },
-                    polygon: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/basic-shape/polygon",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/fill-stroke-3/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    shape: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/basic-shape/shape",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/fill-stroke-3/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -13788,6 +13648,13 @@ css.selectors.-webkit-resizer`,
                       message: "Unused image",
                       data: [
                         "br.png"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/compositing-2/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -14601,16 +14468,6 @@ css.selectors.-webkit-resizer`,
                     }
                   }
                 },
-                css_animated_properties: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/CSS_animated_properties",
-                  messages: [
-                    {
-                      message: "Unreachable via sidebar",
-                      data: []
-                    }
-                  ]
-                },
                 css_backgrounds_and_borders: {
                   children: {
                     "box-shadow_generator": {
@@ -14652,10 +14509,6 @@ css.selectors.-webkit-resizer`,
                           data: [
                             "100px-height-3x4-ratio.svg"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -14720,20 +14573,6 @@ css.selectors.-webkit-resizer`,
                       ]
                     }
                   ]
-                },
-                css_box_alignment: {
-                  children: {
-                    box_alignment: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_box_alignment/Box_alignment",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
                 },
                 css_box_sizing: {
                   children: {
@@ -14909,20 +14748,6 @@ css.selectors.-webkit-resizer`,
                     }
                   }
                 },
-                css_conditional_rules: {
-                  children: {
-                    "container_scroll-state_queries": {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_conditional_rules/Container_scroll-state_queries",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
                 css_containment: {
                   children: {
                     container_queries: {
@@ -14949,50 +14774,6 @@ css.selectors.-webkit-resizer`,
                             "Expected:",
                             "[None]"
                           ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                css_display: {
-                  children: {
-                    block_formatting_context: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_display/Block_formatting_context",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    containing_block: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_display/Containing_block",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    flow_layout: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_display/Flow_layout",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    visual_formatting_model: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_display/Visual_formatting_model",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     }
@@ -15035,10 +14816,6 @@ css.selectors.-webkit-resizer`,
                           data: [
                             "/en-US/docs/Web/CSS/CSS_fonts"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         },
                         {
                           message: "Unexpected BCD keys",
@@ -15091,16 +14868,6 @@ css.properties.grid-template-rows.masonry`,
                 },
                 css_images: {
                   children: {
-                    implementing_image_sprites_in_css: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_images/Implementing_image_sprites_in_CSS",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
                     replaced_element_properties: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_images/Replaced_element_properties",
@@ -15110,10 +14877,6 @@ css.properties.grid-template-rows.masonry`,
                           data: [
                             "/en-US/docs/Web/CSS/CSS_images"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         },
                         {
                           message: "Unreachable via page",
@@ -15201,20 +14964,6 @@ css.properties.grid-template-rows.masonry`,
                     }
                   ]
                 },
-                css_multicol_layout: {
-                  children: {
-                    using_multicol_layouts: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_multicol_layout/Using_multicol_layouts",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
                 css_overflow: {
                   children: {
                     css_carousels: {
@@ -15227,50 +14976,6 @@ css.properties.grid-template-rows.masonry`,
                             "carousel.drawio"
                           ]
                         },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                css_positioned_layout: {
-                  children: {
-                    stacking_context: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_positioned_layout/Stacking_context",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    stacking_floating_elements: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_positioned_layout/Stacking_floating_elements",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "stacking_without_z-index": {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_positioned_layout/Stacking_without_z-index",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "using_z-index": {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_positioned_layout/Using_z-index",
-                      messages: [
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -15327,16 +15032,6 @@ css.properties.grid-template-rows.masonry`,
                           data: [
                             "https://codepen.io/collection/KpqBGW"
                           ]
-                        }
-                      ]
-                    },
-                    using_scroll_snap_events: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_scroll_snap/Using_scroll_snap_events",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     }
@@ -15423,16 +15118,6 @@ css.properties.grid-template-rows.masonry`,
                 },
                 css_syntax: {
                   children: {
-                    "at-rule": {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_syntax/At-rule",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
                     "at-rule_functions": {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_syntax/At-rule_functions",
@@ -15522,20 +15207,6 @@ css.properties.grid-template-rows.masonry`,
                           data: [
                             "/en-US/docs/Web/CSS/calc-value"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    css_value_functions: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_Values_and_Units/CSS_Value_Functions",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -15548,30 +15219,6 @@ css.properties.grid-template-rows.masonry`,
                           data: [
                             "/en-US/docs/Web/CSS/toggle"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    textual_data_types: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_Values_and_Units/Textual_data_types",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    value_definition_syntax: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_Values_and_Units/Value_definition_syntax",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     }
@@ -15582,20 +15229,6 @@ css.properties.grid-template-rows.masonry`,
                     vertical_controls: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_writing_modes/Vertical_controls",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                cssom_view: {
-                  children: {
-                    viewport_concepts: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSSOM_view/Viewport_concepts",
                       messages: [
                         {
                           message: "Unreachable via sidebar",
@@ -15772,45 +15405,6 @@ css.properties.grid-template-rows.masonry`,
                       ]
                     }
                   }
-                },
-                fill: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/fill",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "fill-opacity": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/fill-opacity",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "fill-rule": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/fill-rule",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 },
                 filter: {
                   children: {},
@@ -16466,6 +16060,19 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
+                isolation: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/isolation",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/compositing-2/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 layout_cookbook: {
                   children: {
                     contribute_a_recipe: {
@@ -16514,6 +16121,18 @@ css.properties.width.fit-content_function`
                     {
                       message: "Missing syntax code block",
                       data: []
+                    }
+                  ]
+                },
+                "line-height-step": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/line-height-step",
+                  messages: [
+                    {
+                      message: "Not in BCD",
+                      data: [
+                        "css.properties.line-height-step"
+                      ]
                     }
                   ]
                 },
@@ -16605,19 +16224,6 @@ css.properties.width.fit-content_function`
                   slug: "/en-US/docs/Web/CSS/mask-repeat",
                   messages: [
                     {
-                      message: "Bad DL",
-                      data: [
-                        `
-The mask image is repeated as many times as possi`
-                      ]
-                    },
-                    {
-                      message: "Quoted code",
-                      data: [
-                        "40px"
-                      ]
-                    },
-                    {
                       message: "Broken anchor",
                       data: [
                         "#rounded-repetitions"
@@ -16695,6 +16301,19 @@ The mask image is repeated as many times as possi`
                         "Expected:",
                         `css.properties.grid-template-columns.minmax
 css.properties.grid-template-rows.minmax`
+                      ]
+                    }
+                  ]
+                },
+                "mix-blend-mode": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/mix-blend-mode",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/compositing-2/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -16810,26 +16429,6 @@ css.properties.grid-template-rows.minmax`
                       data: [
                         "position-area.drawio"
                       ]
-                    }
-                  ]
-                },
-                "pseudo-classes": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/Pseudo-classes",
-                  messages: [
-                    {
-                      message: "Unreachable via sidebar",
-                      data: []
-                    }
-                  ]
-                },
-                "pseudo-elements": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/Pseudo-elements",
-                  messages: [
-                    {
-                      message: "Unreachable via sidebar",
-                      data: []
                     }
                   ]
                 },
@@ -17473,117 +17072,6 @@ css.properties.grid-template-rows.repeat`
                         'Unknown word "This string is demarcated by double quotes." (CssSyntaxError)',
                         '"This string is demarcated by double quotes."',
                         "2:1"
-                      ]
-                    }
-                  ]
-                },
-                stroke: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "stroke-dasharray": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-dasharray",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "stroke-dashoffset": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-dashoffset",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "stroke-linecap": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-linecap",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "stroke-linejoin": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-linejoin",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "stroke-miterlimit": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-miterlimit",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "stroke-opacity": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-opacity",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "stroke-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-width",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -18827,10 +18315,6 @@ http.headers.Use-As-Dictionary`,
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unreachable via page",
-                                  data: []
                                 }
                               ]
                             }
@@ -18838,17 +18322,7 @@ http.headers.Use-As-Dictionary`,
                           slug: "/en-US/docs/Web/HTTP/Guides/CSP/Errors",
                           messages: [
                             {
-                              message: "Not linked from parent page",
-                              data: [
-                                "/en-US/docs/Web/HTTP/Guides/CSP"
-                              ]
-                            },
-                            {
                               message: "Unreachable via sidebar",
-                              data: []
-                            },
-                            {
-                              message: "Unreachable via page",
                               data: []
                             }
                           ]
@@ -18917,38 +18391,12 @@ http.headers.Use-As-Dictionary`,
                         }
                       }
                     }
-                  },
-                  slug: "/en-US/docs/Web/HTTP/Guides",
-                  messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Web/HTTP"
-                      ]
-                    },
-                    {
-                      message: "Unreachable via page",
-                      data: []
-                    }
-                  ]
+                  }
                 },
                 reference: {
                   children: {
                     headers: {
                       children: {
-                        accept: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.gnu.org/software/wget/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
                         "available-dictionary": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Available-Dictionary",
@@ -19058,18 +18506,6 @@ http.headers.Use-As-Dictionary`,
                             {
                               message: "Missing syntax code block",
                               data: []
-                            }
-                          ]
-                        },
-                        "sec-speculation-tags": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Speculation-Tags",
-                          messages: [
-                            {
-                              message: "Not linked from parent page",
-                              data: [
-                                "/en-US/docs/Web/HTTP/Reference/Headers"
-                              ]
                             }
                           ]
                         },
@@ -19189,20 +18625,7 @@ http.headers.Use-As-Dictionary`,
                         }
                       }
                     }
-                  },
-                  slug: "/en-US/docs/Web/HTTP/Reference",
-                  messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Web/HTTP"
-                      ]
-                    },
-                    {
-                      message: "Unreachable via page",
-                      data: []
-                    }
-                  ]
+                  }
                 }
               }
             },
@@ -19780,65 +19203,8 @@ http.headers.Use-As-Dictionary`,
                           ]
                         }
                       ]
-                    },
-                    deriving_the_quadratic_formula: {
-                      children: {},
-                      slug: "/en-US/docs/Web/MathML/Guides/Deriving_the_quadratic_formula",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/MathML/Guides"
-                          ]
-                        }
-                      ]
-                    },
-                    proving_the_pythagorean_theorem: {
-                      children: {},
-                      slug: "/en-US/docs/Web/MathML/Guides/Proving_the_Pythagorean_theorem",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/MathML/Guides"
-                          ]
-                        }
-                      ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/MathML/Guides",
-                  messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Web/MathML"
-                      ]
-                    }
-                  ]
-                },
-                reference: {
-                  children: {},
-                  slug: "/en-US/docs/Web/MathML/Reference",
-                  messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Web/MathML"
-                      ]
-                    }
-                  ]
-                },
-                tutorials: {
-                  children: {},
-                  slug: "/en-US/docs/Web/MathML/Tutorials",
-                  messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Web/MathML"
-                      ]
-                    }
-                  ]
+                  }
                 }
               },
               slug: "/en-US/docs/Web/MathML",
@@ -19985,20 +19351,7 @@ http.headers.Use-As-Dictionary`,
                         }
                       }
                     }
-                  },
-                  slug: "/en-US/docs/Web/Media/Guides",
-                  messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Web/Media"
-                      ]
-                    },
-                    {
-                      message: "Unreachable via page",
-                      data: []
-                    }
-                  ]
+                  }
                 }
               }
             },
@@ -20019,20 +19372,7 @@ http.headers.Use-As-Dictionary`,
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/Performance/Guides",
-                  messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Web/Performance"
-                      ]
-                    },
-                    {
-                      message: "Unreachable via page",
-                      data: []
-                    }
-                  ]
+                  }
                 }
               }
             },
@@ -22581,7 +21921,21 @@ svg.elements.feSpotLight.z`
                 xslt: {
                   children: {
                     guides: {
-                      children: {},
+                      children: {
+                        transforming_xml_with_xslt: {
+                          children: {},
+                          slug: "/en-US/docs/Web/XML/XSLT/Guides/Transforming_XML_with_XSLT",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://xml.coverpages.org/xsl.html",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        }
+                      },
                       slug: "/en-US/docs/Web/XML/XSLT/Guides",
                       messages: [
                         {
