@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-03zzah58.js";
+} from "./chunk-gqzjhcjs.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -2309,6 +2309,23 @@ var warnings_processed_default = {
             },
             getting_started: {
               children: {
+                soft_skills: {
+                  children: {
+                    finding_a_job: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Finding_a_job",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.upwork.com/",
+                            403
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 your_first_website: {
                   children: {
                     styling_the_content: {
@@ -2704,6 +2721,19 @@ var warnings_processed_default = {
                 },
                 howto: {
                   children: {
+                    document_an_http_header: {
+                      children: {},
+                      slug: "/en-US/docs/MDN/Writing_guidelines/Howto/Document_an_HTTP_header",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.iana.org/assignments/http-fields/http-fields.xhtml",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     write_an_api_reference: {
                       children: {
                         information_contained_in_a_webidl_file: {
@@ -6266,6 +6296,13 @@ webextensions.manifest.options_ui`,
                             "/en-US/docs/Web/HTML/Reference/Elements/select",
                             "#value"
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://bugzilla.mozilla.org/buglist.cgi?list_id=13263754&resolution=FIXED&classification=Client%20Software&chfieldto=2016-01-25&query_format=advanced&chfield=resolution&chfieldfrom=2015-12-14&chfieldvalue=FIXED&bug_status=RESOLVED&bug_status=VERIFIED&component=Developer%20Tools&component=Developer%20Tools%3A%20about%3Adebugging&component=Developer%20Tools%3A%20Animation%20Inspector&component=Developer%20Tools%3A%20Canvas%20Debugger&component=Developer%20Tools%3A%20Computed%20Styles%20Inspector&component=Developer%20Tools%3A%20Console&component=Developer%20Tools%3A%20CSS%20Rules%20Inspector&component=Developer%20Tools%3A%20Debugger&component=Developer%20Tools%3A%20DOM&component=Developer%20Tools%3A%20Font%20Inspector&component=Developer%20Tools%3A%20Framework&component=Developer%20Tools%3A%20Graphic%20Commandline%20and%20Toolbar&component=Developer%20Tools%3A%20Inspector&component=Developer%20Tools%3A%20JSON%20Viewer&component=Developer%20Tools%3A%20Memory&component=Developer%20Tools%3A%20Netmonitor&component=Developer%20Tools%3A%20Object%20Inspector&component=Developer%20Tools%3A%20Performance%20Tools%20%28Profiler%2FTimeline%29&component=Developer%20Tools%3A%20Responsive%20Design%20Mode&component=Developer%20Tools%3A%20Scratchpad&component=Developer%20Tools%3A%20Shared%20Components&component=Developer%20Tools%3A%20Source%20Editor&component=Developer%20Tools%3A%20Storage%20Inspector&component=Developer%20Tools%3A%20Style%20Editor&component=Developer%20Tools%3A%20User%20Stories&component=Developer%20Tools%3A%20Web%20Audio%20Editor&component=Developer%20Tools%3A%20WebGL%20Shader%20Editor&component=Developer%20Tools%3A%20WebIDE&product=Firefox",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -6371,6 +6408,13 @@ webextensions.manifest.options_ui`,
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Web/Events/mozbrowserlocationchange"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://bugzilla.mozilla.org/buglist.cgi?list_id=13263768&resolution=FIXED&classification=Client%20Software&chfieldto=2016-09-19&query_format=advanced&chfield=resolution&chfieldfrom=2016-08-01&chfieldvalue=FIXED&bug_status=RESOLVED&bug_status=VERIFIED&component=Developer%20Tools&component=Developer%20Tools%3A%20about%3Adebugging&component=Developer%20Tools%3A%20Animation%20Inspector&component=Developer%20Tools%3A%20Canvas%20Debugger&component=Developer%20Tools%3A%20Computed%20Styles%20Inspector&component=Developer%20Tools%3A%20Console&component=Developer%20Tools%3A%20CSS%20Rules%20Inspector&component=Developer%20Tools%3A%20Debugger&component=Developer%20Tools%3A%20DOM&component=Developer%20Tools%3A%20Font%20Inspector&component=Developer%20Tools%3A%20Framework&component=Developer%20Tools%3A%20Graphic%20Commandline%20and%20Toolbar&component=Developer%20Tools%3A%20Inspector&component=Developer%20Tools%3A%20JSON%20Viewer&component=Developer%20Tools%3A%20Memory&component=Developer%20Tools%3A%20Netmonitor&component=Developer%20Tools%3A%20Object%20Inspector&component=Developer%20Tools%3A%20Performance%20Tools%20%28Profiler%2FTimeline%29&component=Developer%20Tools%3A%20Responsive%20Design%20Mode&component=Developer%20Tools%3A%20Scratchpad&component=Developer%20Tools%3A%20Shared%20Components&component=Developer%20Tools%3A%20Source%20Editor&component=Developer%20Tools%3A%20Storage%20Inspector&component=Developer%20Tools%3A%20Style%20Editor&component=Developer%20Tools%3A%20User%20Stories&component=Developer%20Tools%3A%20Web%20Audio%20Editor&component=Developer%20Tools%3A%20WebGL%20Shader%20Editor&component=Developer%20Tools%3A%20WebIDE&product=Firefox",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -8404,32 +8448,6 @@ api.DeviceOrientationEvent`,
                         }
                       ]
                     },
-                    hasstorageaccess: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/hasStorageAccess",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webkit.org/blog/8124/introducing-storage-access-api/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    hasunpartitionedcookieaccess: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/hasUnpartitionedCookieAccess",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webkit.org/blog/8124/introducing-storage-access-api/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     paste_event: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Document/paste_event",
@@ -8447,32 +8465,6 @@ api.DeviceOrientationEvent`,
                             "api.Element.paste_event",
                             "Expected:",
                             "api.Document.paste_event"
-                          ]
-                        }
-                      ]
-                    },
-                    requeststorageaccess: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/requestStorageAccess",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webkit.org/blog/8124/introducing-storage-access-api/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    requeststorageaccessfor: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/requestStorageAccessFor",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webkit.org/blog/8124/introducing-storage-access-api/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -8637,6 +8629,19 @@ api.Document.fullscreen`,
                       ]
                     }
                   }
+                },
+                gpusupportedlimits: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/GPUSupportedLimits",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://developer.chrome.com/blog/new-in-webgpu-133",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 history_api: {
                   children: {
@@ -9422,6 +9427,30 @@ api.Document.fullscreen`,
                     }
                   }
                 },
+                performancetiming: {
+                  children: {
+                    dominteractive: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PerformanceTiming/domInteractive",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.stevesouders.com/blog/2015/08/07/dominteractive-is-it-really/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.stevesouders.com/blog/2015/08/07/dominteractive-is-it-really/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 pointer_events: {
                   children: {
                     "multi-touch_interaction": {
@@ -9959,19 +9988,6 @@ api.Document.fullscreen`,
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/API/SourceBuffer/updatestart_event"
-                      ]
-                    }
-                  ]
-                },
-                storage_access_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Storage_Access_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://webkit.org/blog/8124/introducing-storage-access-api/",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -18095,6 +18111,13 @@ html.elements.select.size`
                               data: [
                                 "mdn-logo-sm.png"
                               ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://info.cern.ch/",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         },
@@ -18623,7 +18646,24 @@ http.headers.Use-As-Dictionary`,
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/HTTP/Reference/Headers",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.iana.org/assignments/http-fields/http-fields.xhtml",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.iana.org/assignments/http-fields/http-fields.xhtml",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     }
                   }
                 }
@@ -19189,20 +19229,24 @@ http.headers.Use-As-Dictionary`,
             },
             mathml: {
               children: {
-                guides: {
+                reference: {
                   children: {
-                    authoring: {
-                      children: {},
-                      slug: "/en-US/docs/Web/MathML/Guides/Authoring",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.lyx.org/",
-                            "The operation timed out."
+                    global_attributes: {
+                      children: {
+                        href: {
+                          children: {},
+                          slug: "/en-US/docs/Web/MathML/Reference/Global_attributes/href",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://sagecell.sagemath.org/?z=eJwrLiwq0TCOM9I2iTPSBAAeqgPO",
+                                503
+                              ]
+                            }
                           ]
                         }
-                      ]
+                      }
                     }
                   }
                 }
@@ -21921,21 +21965,7 @@ svg.elements.feSpotLight.z`
                 xslt: {
                   children: {
                     guides: {
-                      children: {
-                        transforming_xml_with_xslt: {
-                          children: {},
-                          slug: "/en-US/docs/Web/XML/XSLT/Guides/Transforming_XML_with_XSLT",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://xml.coverpages.org/xsl.html",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        }
-                      },
+                      children: {},
                       slug: "/en-US/docs/Web/XML/XSLT/Guides",
                       messages: [
                         {
