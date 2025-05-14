@@ -144,10 +144,12 @@ export default async function createContentGraph() {
         existingNode.data.flaws = {};
         existingNode.data.content = content.doc.body;
         existingNode.data.sidebarHTML = content.doc.sidebarHTML;
+        existingNode.data.live_samples = content.doc.live_samples;
       } else {
         graph.addNode(content.url, {
           content: content.doc.body,
           sidebarHTML: content.doc.sidebarHTML,
+          live_samples: content.doc.live_samples,
         });
       }
     }
@@ -479,7 +481,7 @@ export default async function createContentGraph() {
       )
     )
       continue;
-    if (file.includes("en-us/docs/mdn/kitchensink")) continue;
+    if (file.includes("en-us/mdn/kitchensink")) continue;
     if (["index.md", ".DS_Store"].includes(Path.basename(file))) continue;
     const folder = Path.dirname(Path.relative(CONTENT_SOURCE_ROOT, file));
     const nodeId = filePathToNodeId.get(folder);
@@ -516,6 +518,28 @@ export default async function createContentGraph() {
         }
       }
     }
+    for (const liveSample of node.data.live_samples) {
+      const { css = "", js = "", html = "" } = liveSample;
+      const jsSrcReferences = js.matchAll(/\.src = ["']([^"']+)["']/g);
+      const jsHrefReferences = js.matchAll(/\.href = ["']([^"']+)["']/g);
+      const htmlSrcReferences = html.matchAll(/src=["']([^"']+)["']/g);
+      const htmlHrefReferences = html.matchAll(/href=["']([^"']+)["']/g);
+      const cssUrlReferences = css.matchAll(/url\(["']?([^"')]+)["']?\)/g);
+      for (const match of [...jsSrcReferences, ...jsHrefReferences, ...htmlSrcReferences, ...htmlHrefReferences, ...cssUrlReferences]) {
+        const src = match[1];
+        if (!src.startsWith("https:") && !src.startsWith("http:") && !src.startsWith("/shared-assets/") && src !== "#") {
+          const resolvedSrc = new URL(src, `https://developer.mozilla.org${node.id}/`).pathname;
+          if ([".png", ".jpg", ".jpeg", ".gif", ".svg"].includes(Path.extname(resolvedSrc))) {
+            if (!allImgs.has(resolvedSrc)) {
+              report(node, "Missing image", src);
+            } else {
+              allImgs.set(resolvedSrc, true);
+            }
+          }
+        }
+      }
+    }
+    delete node.data.live_samples;
   });
 
   for (const [img, used] of allImgs) {
@@ -575,7 +599,7 @@ export default async function createContentGraph() {
       return;
     }
     if (parentId && parentId !== id && !graph.hasLink(parentId, id)) {
-      report(node, "Not linked from parent page", parentId);
+      report(graph.getNode(parentId), "No link to child page", node.id);
     }
   });
 

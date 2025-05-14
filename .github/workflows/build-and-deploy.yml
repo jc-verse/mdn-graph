@@ -46,7 +46,7 @@ jobs:
 
       - name: Build mdn/content
         run: |
-          yarn build --json-issues
+          yarn build --json-issues --json-live-samples
         working-directory: ./content
 
       - name: Build MDN graph

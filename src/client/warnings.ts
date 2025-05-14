@@ -349,7 +349,7 @@ function displayWarnings() {
       [
         "Unreachable via page",
         "Unreachable via sidebar",
-        "Not linked from parent page",
+        "No link to child page",
       ].includes(message[0])
     ) {
       graphStructure.append(option);
