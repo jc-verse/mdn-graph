@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-v7xvmf26.js";
+} from "./chunk-ceaevtez.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -8,28 +8,10 @@ var warnings_processed_default = {
       children: {
         games: {
           children: {
-            anatomy: {
-              children: {},
-              slug: "/en-US/docs/Games/Anatomy",
-              messages: [
-                {
-                  message: "Not linked from parent page",
-                  data: [
-                    "/en-US/docs/Games"
-                  ]
-                }
-              ]
-            },
             introduction: {
               children: {},
               slug: "/en-US/docs/Games/Introduction",
               messages: [
-                {
-                  message: "Not linked from parent page",
-                  data: [
-                    "/en-US/docs/Games"
-                  ]
-                },
                 {
                   message: "Unreachable via page",
                   data: []
@@ -86,12 +68,6 @@ var warnings_processed_default = {
               slug: "/en-US/docs/Games/Publishing_games",
               messages: [
                 {
-                  message: "Not linked from parent page",
-                  data: [
-                    "/en-US/docs/Games"
-                  ]
-                },
-                {
                   message: "Unreachable via page",
                   data: []
                 }
@@ -113,30 +89,6 @@ var warnings_processed_default = {
                       message: "External sandbox link",
                       data: [
                         "https://jsfiddle.net/jlr7245/teb4znk0/20/"
-                      ]
-                    }
-                  ]
-                },
-                "3d_collision_detection": {
-                  children: {},
-                  slug: "/en-US/docs/Games/Techniques/3D_collision_detection",
-                  messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Games/Techniques"
-                      ]
-                    }
-                  ]
-                },
-                "3d_on_the_web": {
-                  children: {},
-                  slug: "/en-US/docs/Games/Techniques/3D_on_the_web",
-                  messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Games/Techniques"
                       ]
                     }
                   ]
@@ -178,13 +130,6 @@ var warnings_processed_default = {
                       data: [
                         "https://jsfiddle.net/c87z11jj/2/"
                       ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://pupunzi.open-lab.com/2013/03/13/making-html5-audio-actually-work-on-mobile/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -203,39 +148,12 @@ var warnings_processed_default = {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Games/Techniques/Control_mechanisms",
-                  messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Games/Techniques"
-                      ]
-                    }
-                  ]
-                },
-                controls_gamepad_api: {
-                  children: {},
-                  slug: "/en-US/docs/Games/Techniques/Controls_Gamepad_API",
-                  messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Games/Techniques"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 crisp_pixel_art_look: {
                   children: {},
                   slug: "/en-US/docs/Games/Techniques/Crisp_pixel_art_look",
                   messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Games/Techniques"
-                      ]
-                    },
                     {
                       message: "Unreachable via page",
                       data: []
@@ -287,9 +205,33 @@ var warnings_processed_default = {
               slug: "/en-US/docs/Games/Techniques",
               messages: [
                 {
-                  message: "Not linked from parent page",
+                  message: "No link to child page",
                   data: [
-                    "/en-US/docs/Games"
+                    "/en-US/docs/Games/Techniques/3D_collision_detection"
+                  ]
+                },
+                {
+                  message: "No link to child page",
+                  data: [
+                    "/en-US/docs/Games/Techniques/3D_on_the_web"
+                  ]
+                },
+                {
+                  message: "No link to child page",
+                  data: [
+                    "/en-US/docs/Games/Techniques/Control_mechanisms"
+                  ]
+                },
+                {
+                  message: "No link to child page",
+                  data: [
+                    "/en-US/docs/Games/Techniques/Crisp_pixel_art_look"
+                  ]
+                },
+                {
+                  message: "No link to child page",
+                  data: [
+                    "/en-US/docs/Games/Techniques/Controls_Gamepad_API"
                   ]
                 },
                 {
@@ -324,12 +266,6 @@ var warnings_processed_default = {
               slug: "/en-US/docs/Games/Tools",
               messages: [
                 {
-                  message: "Not linked from parent page",
-                  data: [
-                    "/en-US/docs/Games"
-                  ]
-                },
-                {
                   message: "Unreachable via page",
                   data: []
                 },
@@ -346,9 +282,33 @@ var warnings_processed_default = {
           slug: "/en-US/docs/Games",
           messages: [
             {
-              message: "Not linked from parent page",
+              message: "No link to child page",
               data: [
-                "/en-US/docs/Web"
+                "/en-US/docs/Games/Publishing_games"
+              ]
+            },
+            {
+              message: "No link to child page",
+              data: [
+                "/en-US/docs/Games/Techniques"
+              ]
+            },
+            {
+              message: "No link to child page",
+              data: [
+                "/en-US/docs/Games/Introduction"
+              ]
+            },
+            {
+              message: "No link to child page",
+              data: [
+                "/en-US/docs/Games/Anatomy"
+              ]
+            },
+            {
+              message: "No link to child page",
+              data: [
+                "/en-US/docs/Games/Tools"
               ]
             },
             {
@@ -359,13 +319,6 @@ var warnings_processed_default = {
               message: "HTTP link",
               data: [
                 "http://buildnewgames.com/",
-                ""
-              ]
-            },
-            {
-              message: "HTTP link",
-              data: [
-                "http://creativejs.com/",
                 ""
               ]
             }
@@ -1327,18 +1280,6 @@ var warnings_processed_default = {
         },
         learn_web_development: {
           children: {
-            about: {
-              children: {},
-              slug: "/en-US/docs/Learn_web_development/About",
-              messages: [
-                {
-                  message: "Not linked from parent page",
-                  data: [
-                    "/en-US/docs/Learn_web_development"
-                  ]
-                }
-              ]
-            },
             core: {
               children: {
                 accessibility: {
@@ -1348,55 +1289,26 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills",
                       messages: [
                         {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Core/Accessibility"
-                          ]
-                        },
-                        {
                           message: "Unreachable via page",
                           data: []
                         }
                       ]
-                    },
-                    tooling: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Tooling",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://www.apple.com/accessibility/vision/",
-                            "https://www.apple.com/accessibility/features/?vision"
-                          ]
-                        }
-                      ]
-                    },
-                    what_is_accessibility: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/What_is_accessibility",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://www.apple.com/accessibility/vision/",
-                            "https://www.apple.com/accessibility/features/?vision"
-                          ]
-                        }
+                    }
+                  },
+                  slug: "/en-US/docs/Learn_web_development/Core/Accessibility",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills"
                       ]
                     }
-                  }
+                  ]
                 },
                 challenges: {
                   children: {},
                   slug: "/en-US/docs/Learn_web_development/Core/Challenges",
                   messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Learn_web_development/Core"
-                      ]
-                    },
                     {
                       message: "Unreachable via sidebar",
                       data: []
@@ -1457,18 +1369,21 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Test_your_skills",
                       messages: [
                         {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Core/CSS_layout"
-                          ]
-                        },
-                        {
                           message: "Unreachable via page",
                           data: []
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Learn_web_development/Core/CSS_layout",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Learn_web_development/Core/CSS_layout/Test_your_skills"
+                      ]
+                    }
+                  ]
                 },
                 frameworks_libraries: {
                   children: {
@@ -1836,13 +1751,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://www.apple.com/accessibility/vision/",
-                            "https://www.apple.com/accessibility/features/?vision"
-                          ]
                         }
                       ]
                     },
@@ -2032,6 +1940,19 @@ var warnings_processed_default = {
                         }
                       ]
                     },
+                    return_values: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Return_values",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.impressivewebs.com/callback-functions-javascript/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     what_went_wrong: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/What_went_wrong",
@@ -2078,18 +1999,6 @@ var warnings_processed_default = {
                 },
                 structuring_content: {
                   children: {
-                    creating_links: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Creating_links",
-                      messages: [
-                        {
-                          message: "Unused image",
-                          data: [
-                            "mdn_logo.svg"
-                          ]
-                        }
-                      ]
-                    },
                     general_embedding_technologies: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/General_embedding_technologies",
@@ -2105,10 +2014,10 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
                       messages: [
                         {
-                          message: "Broken external link",
+                          message: "Redirected external link",
                           data: [
                             "https://chooser-beta.creativecommons.org/",
-                            404
+                            "https://creativecommons.org/chooser/"
                           ]
                         },
                         {
@@ -2159,12 +2068,6 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Advanced_styling_effects",
                       messages: [
                         {
-                          message: "Unused image",
-                          data: [
-                            "colorful-heart.png"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -2205,36 +2108,32 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills",
                       messages: [
                         {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Core/Styling_basics"
-                          ]
-                        },
-                        {
                           message: "Unreachable via page",
                           data: []
                         }
                       ]
                     }
-                  }
-                },
-                text_styling: {
-                  children: {
-                    styling_links: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Styling_links",
-                      messages: [
-                        {
-                          message: "Unused image",
-                          data: [
-                            "external-link-52.png"
-                          ]
-                        }
+                  },
+                  slug: "/en-US/docs/Learn_web_development/Core/Styling_basics",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills"
                       ]
                     }
-                  }
+                  ]
                 }
-              }
+              },
+              slug: "/en-US/docs/Learn_web_development/Core",
+              messages: [
+                {
+                  message: "No link to child page",
+                  data: [
+                    "/en-US/docs/Learn_web_development/Core/Challenges"
+                  ]
+                }
+              ]
             },
             extensions: {
               children: {
@@ -2245,18 +2144,21 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Test_your_skills",
                       messages: [
                         {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects"
-                          ]
-                        },
-                        {
                           message: "Unreachable via page",
                           data: []
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Test_your_skills"
+                      ]
+                    }
+                  ]
                 },
                 "client-side_apis": {
                   children: {
@@ -2276,6 +2178,18 @@ var warnings_processed_default = {
                 },
                 forms: {
                   children: {
+                    basic_native_form_controls: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Basic_native_form_controls",
+                      messages: [
+                        {
+                          message: "Missing image",
+                          data: [
+                            "my-img.png"
+                          ]
+                        }
+                      ]
+                    },
                     how_to_build_custom_form_controls: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls",
@@ -2283,13 +2197,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://www.apple.com/accessibility/vision/",
-                            "https://www.apple.com/accessibility/features/?vision"
-                          ]
                         }
                       ]
                     },
@@ -2311,12 +2218,6 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/HTML_forms_in_legacy_browsers",
                       messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Extensions/Forms"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -2350,12 +2251,6 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Test_your_skills",
                       messages: [
                         {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Extensions/Forms"
-                          ]
-                        },
-                        {
                           message: "Unreachable via page",
                           data: []
                         }
@@ -2371,7 +2266,22 @@ var warnings_processed_default = {
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Learn_web_development/Extensions/Forms",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Learn_web_development/Extensions/Forms/Test_your_skills"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Learn_web_development/Extensions/Forms/HTML_forms_in_legacy_browsers"
+                      ]
+                    }
+                  ]
                 },
                 performance: {
                   children: {
@@ -2427,23 +2337,6 @@ var warnings_processed_default = {
                               data: [
                                 "http://callbackhell.com/",
                                 ""
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    first_steps: {
-                      children: {
-                        "client-server_overview": {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.telerik.com/download/fiddler",
-                                "The operation timed out."
                               ]
                             }
                           ]
@@ -2565,18 +2458,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    css_faq: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/CSS_FAQ",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems"
-                          ]
-                        }
-                      ]
-                    },
                     fill_a_box_with_an_image: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/Fill_a_box_with_an_image",
@@ -2584,18 +2465,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via page",
                           data: []
-                        }
-                      ]
-                    },
-                    generated_content: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/Generated_content",
-                      messages: [
-                        {
-                          message: "Unused image",
-                          data: [
-                            "glossary-icon.gif"
-                          ]
                         }
                       ]
                     },
@@ -2644,12 +2513,6 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/Transition_button",
                       messages: [
                         {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems"
-                          ]
-                        },
-                        {
                           message: "Unreachable via page",
                           data: []
                         }
@@ -2658,6 +2521,18 @@ var warnings_processed_default = {
                   },
                   slug: "/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems",
                   messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/Transition_button"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/CSS_FAQ"
+                      ]
+                    },
                     {
                       message: "Unreachable via page",
                       data: []
@@ -2737,19 +2612,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    how_do_you_host_your_website_on_google_app_engine: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gaesamplesite.appspot.com/",
-                            503
-                          ]
-                        }
-                      ]
-                    },
                     what_software_do_i_need: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
@@ -2793,12 +2655,6 @@ var warnings_processed_default = {
               slug: "/en-US/docs/Learn_web_development/Howto",
               messages: [
                 {
-                  message: "Not linked from parent page",
-                  data: [
-                    "/en-US/docs/Learn_web_development"
-                  ]
-                },
-                {
                   message: "Unreachable via page",
                   data: []
                 }
@@ -2808,9 +2664,15 @@ var warnings_processed_default = {
           slug: "/en-US/docs/Learn_web_development",
           messages: [
             {
-              message: "Not linked from parent page",
+              message: "No link to child page",
               data: [
-                "/en-US/docs/Web"
+                "/en-US/docs/Learn_web_development/About"
+              ]
+            },
+            {
+              message: "No link to child page",
+              data: [
+                "/en-US/docs/Learn_web_development/Howto"
               ]
             },
             {
@@ -2856,18 +2718,21 @@ var warnings_processed_default = {
                   slug: "/en-US/docs/MDN/Community/Learn_forum",
                   messages: [
                     {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/MDN/Community"
-                      ]
-                    },
-                    {
                       message: "Unreachable via page",
                       data: []
                     }
                   ]
                 }
-              }
+              },
+              slug: "/en-US/docs/MDN/Community",
+              messages: [
+                {
+                  message: "No link to child page",
+                  data: [
+                    "/en-US/docs/MDN/Community/Learn_forum"
+                  ]
+                }
+              ]
             },
             writing_guidelines: {
               children: {
@@ -2875,12 +2740,6 @@ var warnings_processed_default = {
                   children: {},
                   slug: "/en-US/docs/MDN/Writing_guidelines/Changelog",
                   messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/MDN/Writing_guidelines"
-                      ]
-                    },
                     {
                       message: "Unreachable via sidebar",
                       data: []
@@ -3008,18 +2867,18 @@ var warnings_processed_default = {
                     }
                   }
                 }
-              }
-            }
-          },
-          slug: "/en-US/docs/MDN",
-          messages: [
-            {
-              message: "Not linked from parent page",
-              data: [
-                "/en-US/docs/Web"
+              },
+              slug: "/en-US/docs/MDN/Writing_guidelines",
+              messages: [
+                {
+                  message: "No link to child page",
+                  data: [
+                    "/en-US/docs/MDN/Writing_guidelines/Changelog"
+                  ]
+                }
               ]
             }
-          ]
+          }
         },
         mozilla: {
           children: {
@@ -3067,20 +2926,16 @@ var warnings_processed_default = {
                           }
                         },
                         declarativenetrequest: {
-                          children: {
-                            headerinfo: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/HeaderInfo",
-                              messages: [
-                                {
-                                  message: "Not linked from parent page",
-                                  data: [
-                                    "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest"
-                                  ]
-                                }
+                          children: {},
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest",
+                          messages: [
+                            {
+                              message: "No link to child page",
+                              data: [
+                                "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/HeaderInfo"
                               ]
                             }
-                          }
+                          ]
                         },
                         devtools: {
                           children: {
@@ -3449,20 +3304,16 @@ var warnings_processed_default = {
                           }
                         },
                         runtime: {
-                          children: {
-                            platformnaclarch: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/PlatformNaclArch",
-                              messages: [
-                                {
-                                  message: "Not linked from parent page",
-                                  data: [
-                                    "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime"
-                                  ]
-                                }
+                          children: {},
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime",
+                          messages: [
+                            {
+                              message: "No link to child page",
+                              data: [
+                                "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/PlatformNaclArch"
                               ]
                             }
-                          }
+                          ]
                         },
                         scripting: {
                           children: {
@@ -3689,12 +3540,6 @@ var warnings_processed_default = {
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts_legacy/UserScriptOptions",
                               messages: [
                                 {
-                                  message: "Not linked from parent page",
-                                  data: [
-                                    "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts_legacy"
-                                  ]
-                                },
-                                {
                                   message: "Unreachable via page",
                                   data: []
                                 }
@@ -3710,7 +3555,16 @@ var warnings_processed_default = {
                                 }
                               ]
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts_legacy",
+                          messages: [
+                            {
+                              message: "No link to child page",
+                              data: [
+                                "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts_legacy/UserScriptOptions"
+                              ]
+                            }
+                          ]
                         },
                         webrequest: {
                           children: {
@@ -3832,43 +3686,13 @@ var warnings_processed_default = {
                         }
                       }
                     },
-                    background_scripts: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Background_scripts",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Mozilla/Add-ons/WebExtensions"
-                          ]
-                        }
-                      ]
-                    },
                     build_a_cross_browser_extension: {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Build_a_cross_browser_extension",
                       messages: [
                         {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Mozilla/Add-ons/WebExtensions"
-                          ]
-                        },
-                        {
                           message: "Unreachable via page",
                           data: []
-                        }
-                      ]
-                    },
-                    chrome_incompatibilities: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Chrome_incompatibilities",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Mozilla/Add-ons/WebExtensions"
-                          ]
                         }
                       ]
                     },
@@ -3901,12 +3725,6 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Developing_WebExtensions_for_Thunderbird",
                       messages: [
                         {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Mozilla/Add-ons/WebExtensions"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         },
@@ -3921,26 +3739,8 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Differences_between_API_implementations",
                       messages: [
                         {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Mozilla/Add-ons/WebExtensions"
-                          ]
-                        },
-                        {
                           message: "Unreachable via page",
                           data: []
-                        }
-                      ]
-                    },
-                    implement_a_settings_page: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Implement_a_settings_page",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Mozilla/Add-ons/WebExtensions"
-                          ]
                         }
                       ]
                     },
@@ -3948,12 +3748,6 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Interact_with_the_clipboard",
                       messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Mozilla/Add-ons/WebExtensions"
-                          ]
-                        },
                         {
                           message: "Unexpected BCD keys",
                           data: [
@@ -4021,48 +3815,6 @@ webextensions.api.clipboard`,
                           data: [
                             "/en-US/docs/Mozilla/Add-ons/Add-on_Debugger"
                           ]
-                        },
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Mozilla/Add-ons/WebExtensions"
-                          ]
-                        }
-                      ]
-                    },
-                    safely_inserting_external_content_into_a_page: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Safely_inserting_external_content_into_a_page",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Mozilla/Add-ons/WebExtensions"
-                          ]
-                        }
-                      ]
-                    },
-                    sharing_objects_with_page_scripts: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Sharing_objects_with_page_scripts",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Mozilla/Add-ons/WebExtensions"
-                          ]
-                        }
-                      ]
-                    },
-                    user_actions: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/User_actions",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Mozilla/Add-ons/WebExtensions"
-                          ]
                         }
                       ]
                     },
@@ -4088,18 +3840,6 @@ webextensions.manifest.options_ui`,
                           ]
                         }
                       }
-                    },
-                    what_next: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/What_next",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Mozilla/Add-ons/WebExtensions"
-                          ]
-                        }
-                      ]
                     },
                     work_with_contextual_identities: {
                       children: {},
@@ -4162,12 +3902,6 @@ webextensions.manifest.options_ui`,
                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_the_Bookmarks_API",
                       messages: [
                         {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Mozilla/Add-ons/WebExtensions"
-                          ]
-                        },
-                        {
                           message: "Unreachable via page",
                           data: []
                         },
@@ -4201,12 +3935,6 @@ webextensions.manifest.options_ui`,
                       children: {},
                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_the_Cookies_API",
                       messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Mozilla/Add-ons/WebExtensions"
-                          ]
-                        },
                         {
                           message: "JS code issue",
                           data: [
@@ -4274,12 +4002,6 @@ webextensions.manifest.options_ui`,
                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_second_WebExtension",
                       messages: [
                         {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Mozilla/Add-ons/WebExtensions"
-                          ]
-                        },
-                        {
                           message: "HTTP link",
                           data: [
                             "http://www.aha-soft.com/free-icons/free-retina-icon-set/",
@@ -4288,7 +4010,100 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_the_Bookmarks_API"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Mozilla/Add-ons/WebExtensions/Sharing_objects_with_page_scripts"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Mozilla/Add-ons/WebExtensions/Developing_WebExtensions_for_Thunderbird"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Mozilla/Add-ons/WebExtensions/What_next"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Mozilla/Add-ons/WebExtensions/Modify_a_web_page"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Mozilla/Add-ons/WebExtensions/Implement_a_settings_page"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Mozilla/Add-ons/WebExtensions/Build_a_cross_browser_extension"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_the_Cookies_API"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Mozilla/Add-ons/WebExtensions/User_actions"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Mozilla/Add-ons/WebExtensions/Interact_with_the_clipboard"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_second_WebExtension"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Mozilla/Add-ons/WebExtensions/Chrome_incompatibilities"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Mozilla/Add-ons/WebExtensions/Background_scripts"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Mozilla/Add-ons/WebExtensions/Safely_inserting_external_content_into_a_page"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Mozilla/Add-ons/WebExtensions/Differences_between_API_implementations"
+                      ]
+                    }
+                  ]
                 }
               },
               slug: "/en-US/docs/Mozilla/Add-ons",
@@ -4309,13 +4124,6 @@ webextensions.manifest.options_ui`,
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/API/HTML_Sanitizer_API"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mozilla/explainers/tree/main/ppa-experiment",
-                        404
                       ]
                     }
                   ]
@@ -4510,12 +4318,6 @@ webextensions.manifest.options_ui`,
                               ]
                             },
                             {
-                              message: "Not linked from parent page",
-                              data: [
-                                "/en-US/docs/Mozilla/Firefox/Releases/3"
-                              ]
-                            },
-                            {
                               message: "Unreachable via page",
                               data: []
                             }
@@ -4541,12 +4343,6 @@ webextensions.manifest.options_ui`,
                               message: "Broken link",
                               data: [
                                 "/en-US/docs/XUL/Template_Guide/Sorting_Results"
-                              ]
-                            },
-                            {
-                              message: "Not linked from parent page",
-                              data: [
-                                "/en-US/docs/Mozilla/Firefox/Releases/3"
                               ]
                             },
                             {
@@ -4670,12 +4466,6 @@ webextensions.manifest.options_ui`,
                             {
                               message: "Broken link",
                               data: [
-                                "/en-US/docs/Code_snippets/Tabbed_browser"
-                              ]
-                            },
-                            {
-                              message: "Broken link",
-                              data: [
                                 "/en-US/docs/Chrome_Registration"
                               ]
                             }
@@ -4704,12 +4494,6 @@ webextensions.manifest.options_ui`,
                           slug: "/en-US/docs/Mozilla/Firefox/Releases/3/Using_an_external_spell_checker",
                           messages: [
                             {
-                              message: "Not linked from parent page",
-                              data: [
-                                "/en-US/docs/Mozilla/Firefox/Releases/3"
-                              ]
-                            },
-                            {
                               message: "Unreachable via page",
                               data: []
                             }
@@ -4726,12 +4510,6 @@ webextensions.manifest.options_ui`,
                               ]
                             },
                             {
-                              message: "Not linked from parent page",
-                              data: [
-                                "/en-US/docs/Mozilla/Firefox/Releases/3"
-                              ]
-                            },
-                            {
                               message: "Unreachable via page",
                               data: []
                             }
@@ -4741,12 +4519,6 @@ webextensions.manifest.options_ui`,
                           children: {},
                           slug: "/en-US/docs/Mozilla/Firefox/Releases/3/XUL_improvements_in_Firefox_3",
                           messages: [
-                            {
-                              message: "Not linked from parent page",
-                              data: [
-                                "/en-US/docs/Mozilla/Firefox/Releases/3"
-                              ]
-                            },
                             {
                               message: "Unreachable via page",
                               data: []
@@ -4881,6 +4653,36 @@ webextensions.manifest.options_ui`,
                           data: [
                             "/en-US/docs/Monitoring_plugins"
                           ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Mozilla/Firefox/Releases/3/Using_an_external_spell_checker"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Mozilla/Firefox/Releases/3/Templates"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Mozilla/Firefox/Releases/3/WAI_ARIA_Live_Regions_API_Support"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Mozilla/Firefox/Releases/3/Site_compatibility"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Mozilla/Firefox/Releases/3/XUL_improvements_in_Firefox_3"
+                          ]
                         }
                       ]
                     },
@@ -4936,12 +4738,6 @@ webextensions.manifest.options_ui`,
                               message: "Broken link",
                               data: [
                                 "/en-US/docs/NPAPI"
-                              ]
-                            },
-                            {
-                              message: "Not linked from parent page",
-                              data: [
-                                "/en-US/docs/Mozilla/Firefox/Releases/4"
                               ]
                             },
                             {
@@ -5213,6 +5009,12 @@ webextensions.manifest.options_ui`,
                           data: [
                             "/en-US/docs/NPAPI"
                           ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Mozilla/Firefox/Releases/4/Updating_extensions_for_Firefox_4"
+                          ]
                         }
                       ]
                     },
@@ -5227,12 +5029,6 @@ webextensions.manifest.options_ui`,
                               data: [
                                 "/en-US/docs/Web/API/Window/setTimeout",
                                 "#minimum_delay_and_timeout_nesting"
-                              ]
-                            },
-                            {
-                              message: "Not linked from parent page",
-                              data: [
-                                "/en-US/docs/Mozilla/Firefox/Releases/5"
                               ]
                             },
                             {
@@ -5323,6 +5119,12 @@ webextensions.manifest.options_ui`,
                           data: [
                             "/en-US/docs/SpiderMonkey/JSAPI_Reference/jsdouble"
                           ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Mozilla/Firefox/Releases/5/Updating_add-ons"
+                          ]
                         }
                       ]
                     },
@@ -5332,12 +5134,6 @@ webextensions.manifest.options_ui`,
                           children: {},
                           slug: "/en-US/docs/Mozilla/Firefox/Releases/6/Updating_add-ons",
                           messages: [
-                            {
-                              message: "Not linked from parent page",
-                              data: [
-                                "/en-US/docs/Mozilla/Firefox/Releases/6"
-                              ]
-                            },
                             {
                               message: "Unreachable via page",
                               data: []
@@ -5405,6 +5201,12 @@ webextensions.manifest.options_ui`,
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Mozilla/Preferences/Using_preferences_from_application_code"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Mozilla/Firefox/Releases/6/Updating_add-ons"
                           ]
                         }
                       ]
@@ -5592,12 +5394,6 @@ webextensions.manifest.options_ui`,
                               ]
                             },
                             {
-                              message: "Not linked from parent page",
-                              data: [
-                                "/en-US/docs/Mozilla/Firefox/Releases/10"
-                              ]
-                            },
-                            {
                               message: "Unreachable via page",
                               data: []
                             }
@@ -5732,6 +5528,12 @@ webextensions.manifest.options_ui`,
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Extensions/Bootstrapped_extensions"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Mozilla/Firefox/Releases/10/Updating_add-ons"
                           ]
                         }
                       ]
@@ -6175,6 +5977,13 @@ webextensions.manifest.options_ui`,
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Mozilla/Add-ons/Add-on_Debugger"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/web-animations/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -6982,13 +6791,6 @@ webextensions.manifest.options_ui`,
                             "/en-US/docs/Web/CSS/content",
                             "#alternative_text"
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mozilla/explainers/tree/main/ppa-experiment",
-                            404
-                          ]
                         }
                       ]
                     },
@@ -7030,12 +6832,6 @@ webextensions.manifest.options_ui`,
                               ]
                             },
                             {
-                              message: "Not linked from parent page",
-                              data: [
-                                "/en-US/docs/Mozilla/Firefox/Releases/1.5"
-                              ]
-                            },
-                            {
                               message: "Unreachable via page",
                               data: []
                             }
@@ -7067,12 +6863,6 @@ webextensions.manifest.options_ui`,
                               message: "Broken link",
                               data: [
                                 "/en-US/docs/Mozilla/Chrome_Registration"
-                              ]
-                            },
-                            {
-                              message: "Not linked from parent page",
-                              data: [
-                                "/en-US/docs/Mozilla/Firefox/Releases/1.5"
                               ]
                             },
                             {
@@ -7154,6 +6944,18 @@ webextensions.manifest.options_ui`,
                           message: "Broken link",
                           data: [
                             "/en-US/docs/New_in_JavaScript_1.6"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Mozilla/Firefox/Releases/1.5/Changing_the_priority_of_HTTP_requests"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Mozilla/Firefox/Releases/1.5/What_s_new_in_1.5_alpha"
                           ]
                         },
                         {
@@ -7474,12 +7276,6 @@ webextensions.manifest.options_ui`,
           slug: "/en-US/docs/Mozilla",
           messages: [
             {
-              message: "Not linked from parent page",
-              data: [
-                "/en-US/docs/Web"
-              ]
-            },
-            {
               message: "Unreachable via sidebar",
               data: []
             },
@@ -7493,12 +7289,6 @@ webextensions.manifest.options_ui`,
           children: {},
           slug: "/en-US/docs/Related",
           messages: [
-            {
-              message: "Not linked from parent page",
-              data: [
-                "/en-US/docs/Web"
-              ]
-            },
             {
               message: "Unreachable via page",
               data: []
@@ -7609,7 +7399,7 @@ webextensions.manifest.options_ui`,
                           message: "Broken external link",
                           data: [
                             "https://colorusage.arc.nasa.gov/flashing.php",
-                            "Was there a typo in the url or port?"
+                            "Unable to connect. Is the computer able to access the url?"
                           ]
                         },
                         {
@@ -7852,48 +7642,6 @@ webextensions.manifest.options_ui`,
                   children: {
                     tutorial: {
                       children: {
-                        applying_styles_and_colors: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/Canvas_API/Tutorial/Applying_styles_and_colors",
-                          messages: [
-                            {
-                              message: "Unused image",
-                              data: [
-                                "canvas_create_pattern.png"
-                              ]
-                            }
-                          ]
-                        },
-                        basic_animations: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_animations",
-                          messages: [
-                            {
-                              message: "Unused image",
-                              data: [
-                                "canvas_earth.png"
-                              ]
-                            },
-                            {
-                              message: "Unused image",
-                              data: [
-                                "capitan_meadows_yosemite_national_park.jpg"
-                              ]
-                            },
-                            {
-                              message: "Unused image",
-                              data: [
-                                "canvas_moon.png"
-                              ]
-                            },
-                            {
-                              message: "Unused image",
-                              data: [
-                                "canvas_sun.png"
-                              ]
-                            }
-                          ]
-                        },
                         finale: {
                           children: {},
                           slug: "/en-US/docs/Web/API/Canvas_API/Tutorial/Finale",
@@ -7902,78 +7650,6 @@ webextensions.manifest.options_ui`,
                               message: "External sandbox link",
                               data: [
                                 "https://codepen.io/search/pens?q=canvas"
-                              ]
-                            }
-                          ]
-                        },
-                        using_images: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/Canvas_API/Tutorial/Using_images",
-                          messages: [
-                            {
-                              message: "Unused image",
-                              data: [
-                                "gallery_1.jpg"
-                              ]
-                            },
-                            {
-                              message: "Unused image",
-                              data: [
-                                "gallery_4.jpg"
-                              ]
-                            },
-                            {
-                              message: "Unused image",
-                              data: [
-                                "canvas_picture_frame.png"
-                              ]
-                            },
-                            {
-                              message: "Unused image",
-                              data: [
-                                "gallery_3.jpg"
-                              ]
-                            },
-                            {
-                              message: "Unused image",
-                              data: [
-                                "gallery_7.jpg"
-                              ]
-                            },
-                            {
-                              message: "Unused image",
-                              data: [
-                                "bg_gallery.png"
-                              ]
-                            },
-                            {
-                              message: "Unused image",
-                              data: [
-                                "gallery_2.jpg"
-                              ]
-                            },
-                            {
-                              message: "Unused image",
-                              data: [
-                                "backdrop.png"
-                              ]
-                            },
-                            {
-                              message: "Unused image",
-                              data: [
-                                "gallery_8.jpg"
-                              ]
-                            },
-                            {
-                              message: "Unused image",
-                              data: [
-                                "gallery_5.jpg"
-                              ]
-                            },
-                            {
-                              message: "Unused image",
-                              data: [
-                                "gallery_6.jpg"
                               ]
                             }
                           ]
@@ -7991,50 +7667,6 @@ webextensions.manifest.options_ui`,
                       ]
                     }
                   ]
-                },
-                canvaspattern: {
-                  children: {
-                    settransform: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CanvasPattern/setTransform",
-                      messages: [
-                        {
-                          message: "Unused image",
-                          data: [
-                            "canvas_create_pattern.png"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                canvasrenderingcontext2d: {
-                  children: {
-                    getimagedata: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CanvasRenderingContext2D/getImageData",
-                      messages: [
-                        {
-                          message: "Unused image",
-                          data: [
-                            "plumeria.jpg"
-                          ]
-                        }
-                      ]
-                    },
-                    imagesmoothingquality: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CanvasRenderingContext2D/imageSmoothingQuality",
-                      messages: [
-                        {
-                          message: "Unused image",
-                          data: [
-                            "canvas_create_pattern.png"
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 channel_messaging_api: {
                   children: {
@@ -8063,9 +7695,9 @@ api.MessagePort`,
                       slug: "/en-US/docs/Web/API/Clipboard/read",
                       messages: [
                         {
-                          message: "Unused image",
+                          message: "Missing image",
                           data: [
-                            "butterfly.jpg"
+                            "image1.png"
                           ]
                         }
                       ]
@@ -8085,44 +7717,28 @@ api.MessagePort`,
                   ]
                 },
                 css_object_model: {
-                  children: {
-                    css_declaration: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSS_Object_Model/CSS_Declaration",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/CSS_Object_Model"
-                          ]
-                        }
+                  children: {},
+                  slug: "/en-US/docs/Web/API/CSS_Object_Model",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/CSS_Object_Model/CSS_Declaration_Block"
                       ]
                     },
-                    css_declaration_block: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSS_Object_Model/CSS_Declaration_Block",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/CSS_Object_Model"
-                          ]
-                        }
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/CSS_Object_Model/Using_dynamic_styling_information"
                       ]
                     },
-                    using_dynamic_styling_information: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSS_Object_Model/Using_dynamic_styling_information",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/CSS_Object_Model"
-                          ]
-                        }
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/CSS_Object_Model/CSS_Declaration"
                       ]
                     }
-                  }
+                  ]
                 },
                 css_properties_and_values_api: {
                   children: {
@@ -8158,30 +7774,6 @@ api.MessagePort`,
                       ]
                     }
                   }
-                },
-                cssimagevalue: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/CSSImageValue",
-                  messages: [
-                    {
-                      message: "Unused image",
-                      data: [
-                        "magic-wand.png"
-                      ]
-                    }
-                  ]
-                },
-                csspositionvalue: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/CSSPositionValue",
-                  messages: [
-                    {
-                      message: "Unused image",
-                      data: [
-                        "mdn.svg"
-                      ]
-                    }
-                  ]
                 },
                 csspropertyrule: {
                   children: {
@@ -8385,12 +7977,6 @@ api.DeviceOrientationEvent`,
                         {
                           message: "Broken browser compat anchor",
                           data: []
-                        },
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/Device_orientation_events"
-                          ]
                         }
                       ]
                     },
@@ -8401,92 +7987,67 @@ api.DeviceOrientationEvent`,
                         {
                           message: "Broken browser compat anchor",
                           data: []
-                        },
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/Device_orientation_events"
-                          ]
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/Device_orientation_events",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/Device_orientation_events/Using_device_orientation_with_3D_transforms"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/Device_orientation_events/Orientation_and_motion_data_explained"
+                      ]
+                    }
+                  ]
                 },
                 document_object_model: {
-                  children: {
-                    locating_dom_elements_using_selectors: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document_Object_Model/Locating_DOM_elements_using_selectors",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/Document_Object_Model"
-                          ]
-                        }
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Document_Object_Model",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/Document_Object_Model/Whitespace"
                       ]
                     },
-                    reflected_attributes: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document_Object_Model/Reflected_attributes",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/Document_Object_Model"
-                          ]
-                        }
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/Document_Object_Model/Locating_DOM_elements_using_selectors"
                       ]
                     },
-                    transforming_with_xslt: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document_Object_Model/Transforming_with_XSLT",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/Document_Object_Model"
-                          ]
-                        }
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/Document_Object_Model/Using_the_Document_Object_Model"
                       ]
                     },
-                    traversing_an_html_table_with_javascript_and_dom_interfaces: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document_Object_Model/Traversing_an_HTML_table_with_JavaScript_and_DOM_Interfaces",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/Document_Object_Model"
-                          ]
-                        }
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/Document_Object_Model/Reflected_attributes"
                       ]
                     },
-                    using_the_document_object_model: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document_Object_Model/Using_the_Document_Object_Model",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/Document_Object_Model"
-                          ]
-                        }
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/Document_Object_Model/Traversing_an_HTML_table_with_JavaScript_and_DOM_Interfaces"
                       ]
                     },
-                    whitespace: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document_Object_Model/Whitespace",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/Document_Object_Model"
-                          ]
-                        }
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/Document_Object_Model/Transforming_with_XSLT"
                       ]
                     }
-                  }
+                  ]
                 },
                 "document_picture-in-picture_api": {
                   children: {
@@ -8644,18 +8205,6 @@ api.DeviceOrientationEvent`,
                           ]
                         }
                       ]
-                    },
-                    ariaerrormessageelements: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/ariaErrorMessageElements",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/ariaInvalid"
-                          ]
-                        }
-                      ]
                     }
                   }
                 },
@@ -8696,20 +8245,16 @@ http.headers.Permissions-Policy.deferred-fetch-minimal`,
                   }
                 },
                 file_api: {
-                  children: {
-                    using_files_from_web_applications: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/File_API/Using_files_from_web_applications",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/File_API"
-                          ]
-                        }
+                  children: {},
+                  slug: "/en-US/docs/Web/API/File_API",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/File_API/Using_files_from_web_applications"
                       ]
                     }
-                  }
+                  ]
                 },
                 file_system_api: {
                   children: {
@@ -8779,54 +8324,39 @@ api.Document.fullscreen`,
                   }
                 },
                 history_api: {
-                  children: {
-                    working_with_the_history_api: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/History_API/Working_with_the_History_API",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/History_API"
-                          ]
-                        }
+                  children: {},
+                  slug: "/en-US/docs/Web/API/History_API",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/History_API/Working_with_the_History_API"
                       ]
                     }
-                  }
+                  ]
                 },
                 html_dom_api: {
-                  children: {
-                    microtask_guide: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTML_DOM_API/Microtask_guide",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/HTML_DOM_API"
-                          ]
-                        }
+                  children: {},
+                  slug: "/en-US/docs/Web/API/HTML_DOM_API",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/HTML_DOM_API/Microtask_guide"
                       ]
                     }
-                  }
+                  ]
                 },
                 html_drag_and_drop_api: {
-                  children: {
-                    file_drag_and_drop: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTML_Drag_and_Drop_API/File_drag_and_drop",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/HTML_Drag_and_Drop_API"
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/API/HTML_Drag_and_Drop_API",
                   messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/HTML_Drag_and_Drop_API/File_drag_and_drop"
+                      ]
+                    },
                     {
                       message: "External sandbox link",
                       data: [
@@ -8922,18 +8452,6 @@ api.Document.fullscreen`,
                 },
                 htmlimageelement: {
                   children: {
-                    alt: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLImageElement/alt",
-                      messages: [
-                        {
-                          message: "Unused image",
-                          data: [
-                            "margin-flourish.svg"
-                          ]
-                        }
-                      ]
-                    },
                     crossorigin: {
                       children: {},
                       slug: "/en-US/docs/Web/API/HTMLImageElement/crossOrigin",
@@ -8953,12 +8471,6 @@ api.Document.fullscreen`,
                         {
                           message: "Unused image",
                           data: [
-                            "new-york-skyline-wide.jpg"
-                          ]
-                        },
-                        {
-                          message: "Unused image",
-                          data: [
                             "new-york-skyline-tall.jpg"
                           ]
                         },
@@ -8966,34 +8478,6 @@ api.Document.fullscreen`,
                           message: "Unused image",
                           data: [
                             "new-york-skyline-4by3.jpg"
-                          ]
-                        }
-                      ]
-                    },
-                    src: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLImageElement/src",
-                      messages: [
-                        {
-                          message: "Unused image",
-                          data: [
-                            "grapefruit-slice-332-332.jpg"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                htmlmapelement: {
-                  children: {
-                    areas: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLMapElement/areas",
-                      messages: [
-                        {
-                          message: "Unused image",
-                          data: [
-                            "left-right-arrow.png"
                           ]
                         }
                       ]
@@ -9445,16 +8929,7 @@ api.Document.fullscreen`,
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/Navigator",
-                  messages: [
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/API/Navigator/standalone"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 node: {
                   children: {
@@ -9506,12 +8981,6 @@ api.Document.fullscreen`,
                         {
                           message: "Broken browser compat anchor",
                           data: []
-                        },
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/Payment_Request_API"
-                          ]
                         }
                       ]
                     },
@@ -9525,7 +8994,16 @@ api.Document.fullscreen`,
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/Payment_Request_API",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/Payment_Request_API/Using_secure_payment_confirmation"
+                      ]
+                    }
+                  ]
                 },
                 paymentrequestevent: {
                   children: {
@@ -9569,12 +9047,6 @@ api.Document.fullscreen`,
                       slug: "/en-US/docs/Web/API/Pointer_events/Multi-touch_interaction",
                       messages: [
                         {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/Pointer_events"
-                          ]
-                        },
-                        {
                           message: "Unreachable via page",
                           data: []
                         }
@@ -9585,12 +9057,6 @@ api.Document.fullscreen`,
                       slug: "/en-US/docs/Web/API/Pointer_events/Pinch_zoom_gestures",
                       messages: [
                         {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/Pointer_events"
-                          ]
-                        },
-                        {
                           message: "Unreachable via page",
                           data: []
                         }
@@ -9600,12 +9066,6 @@ api.Document.fullscreen`,
                       children: {},
                       slug: "/en-US/docs/Web/API/Pointer_events/Using_Pointer_Events",
                       messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/Pointer_events"
-                          ]
-                        },
                         {
                           message: "Unreachable via page",
                           data: []
@@ -9621,7 +9081,28 @@ api.Document.fullscreen`,
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/Pointer_events",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/Pointer_events/Multi-touch_interaction"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/Pointer_events/Using_Pointer_Events"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/Pointer_events/Pinch_zoom_gestures"
+                      ]
+                    }
+                  ]
                 },
                 profiler: {
                   children: {
@@ -9672,18 +9153,21 @@ api.Document.fullscreen`,
                       slug: "/en-US/docs/Web/API/Push_API/Best_Practices",
                       messages: [
                         {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/Push_API"
-                          ]
-                        },
-                        {
                           message: "Unreachable via page",
                           data: []
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/Push_API",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/Push_API/Best_Practices"
+                      ]
+                    }
+                  ]
                 },
                 readablestream: {
                   children: {
@@ -9797,12 +9281,6 @@ api.Document.fullscreen`,
                       slug: "/en-US/docs/Web/API/RTCIceCandidateStats/deleted",
                       messages: [
                         {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/RTCIceCandidateStats"
-                          ]
-                        },
-                        {
                           message: "Unreachable via page",
                           data: []
                         },
@@ -9819,12 +9297,6 @@ api.Document.fullscreen`,
                       slug: "/en-US/docs/Web/API/RTCIceCandidateStats/relayProtocol",
                       messages: [
                         {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/RTCIceCandidateStats"
-                          ]
-                        },
-                        {
                           message: "Not in BCD",
                           data: [
                             "api.RTCStatsReport.type_local-candidate.relayProtocol"
@@ -9837,12 +9309,6 @@ api.Document.fullscreen`,
                       slug: "/en-US/docs/Web/API/RTCIceCandidateStats/url",
                       messages: [
                         {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/RTCIceCandidateStats"
-                          ]
-                        },
-                        {
                           message: "Unreachable via page",
                           data: []
                         },
@@ -9854,7 +9320,28 @@ api.Document.fullscreen`,
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/RTCIceCandidateStats",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/RTCIceCandidateStats/url"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/RTCIceCandidateStats/deleted"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/RTCIceCandidateStats/relayProtocol"
+                      ]
+                    }
+                  ]
                 },
                 rtcicetransport: {
                   children: {
@@ -10243,12 +9730,6 @@ api.Document.fullscreen`,
                       slug: "/en-US/docs/Web/API/Touch_events/Multi-touch_interaction",
                       messages: [
                         {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/Touch_events"
-                          ]
-                        },
-                        {
                           message: "Unreachable via page",
                           data: []
                         }
@@ -10259,62 +9740,57 @@ api.Document.fullscreen`,
                       slug: "/en-US/docs/Web/API/Touch_events/Using_Touch_Events",
                       messages: [
                         {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/Touch_events"
-                          ]
-                        },
-                        {
                           message: "Unreachable via page",
                           data: []
                         }
                       ]
                     }
-                  }
-                },
-                ui_events: {
-                  children: {
-                    keyboard_event_code_values: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/UI_Events/Keyboard_event_code_values",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/UI_Events"
-                          ]
-                        }
+                  },
+                  slug: "/en-US/docs/Web/API/Touch_events",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/Touch_events/Multi-touch_interaction"
                       ]
                     },
-                    keyboard_event_key_values: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/UI_Events/Keyboard_event_key_values",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/UI_Events"
-                          ]
-                        }
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/Touch_events/Using_Touch_Events"
                       ]
                     }
-                  }
+                  ]
+                },
+                ui_events: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/UI_Events",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/UI_Events/Keyboard_event_key_values"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/UI_Events/Keyboard_event_code_values"
+                      ]
+                    }
+                  ]
                 },
                 url_api: {
-                  children: {
-                    resolving_relative_references: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/URL_API/Resolving_relative_references",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/URL_API"
-                          ]
-                        }
+                  children: {},
+                  slug: "/en-US/docs/Web/API/URL_API",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/URL_API/Resolving_relative_references"
                       ]
                     }
-                  }
+                  ]
                 },
                 vrlayerinit: {
                   children: {
@@ -10359,28 +9835,10 @@ api.Document.fullscreen`,
                 },
                 web_animations_api: {
                   children: {
-                    keyframe_formats: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/Web_Animations_API"
-                          ]
-                        }
-                      ]
-                    },
                     tips: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Web_Animations_API/Tips",
                       messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/Web_Animations_API"
-                          ]
-                        },
                         {
                           message: "Unreachable via page",
                           data: []
@@ -10446,12 +9904,6 @@ api.Document.fullscreen`,
                       slug: "/en-US/docs/Web/API/Web_Animations_API/Web_Animations_API_Concepts",
                       messages: [
                         {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/Web_Animations_API"
-                          ]
-                        },
-                        {
                           message: "Unreachable via page",
                           data: []
                         },
@@ -10463,7 +9915,28 @@ api.Document.fullscreen`,
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/Web_Animations_API",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/Web_Animations_API/Web_Animations_API_Concepts"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/Web_Animations_API/Tips"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats"
+                      ]
+                    }
+                  ]
                 },
                 web_audio_api: {
                   children: {
@@ -10621,26 +10094,8 @@ api.Document.fullscreen`,
                       slug: "/en-US/docs/Web/API/Web_Authentication_API/Attestation_and_Assertion",
                       messages: [
                         {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/Web_Authentication_API"
-                          ]
-                        },
-                        {
                           message: "Unreachable via page",
                           data: []
-                        }
-                      ]
-                    },
-                    authenticator_data: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Web_Authentication_API/Authenticator_data",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/Web_Authentication_API"
-                          ]
                         }
                       ]
                     },
@@ -10648,12 +10103,6 @@ api.Document.fullscreen`,
                       children: {},
                       slug: "/en-US/docs/Web/API/Web_Authentication_API/WebAuthn_extensions",
                       messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/Web_Authentication_API"
-                          ]
-                        },
                         {
                           message: "Unexpected BCD keys",
                           data: [
@@ -10666,7 +10115,28 @@ api.CredentialsContainer.get.publicKey_option.extensions`,
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/Web_Authentication_API",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/Web_Authentication_API/Attestation_and_Assertion"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/Web_Authentication_API/Authenticator_data"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/Web_Authentication_API/WebAuthn_extensions"
+                      ]
+                    }
+                  ]
                 },
                 web_components: {
                   children: {
@@ -10687,20 +10157,16 @@ api.CredentialsContainer.get.publicKey_option.extensions`,
                   }
                 },
                 web_crypto_api: {
-                  children: {
-                    "non-cryptographic_uses_of_subtle_crypto": {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Web_Crypto_API/Non-cryptographic_uses_of_subtle_crypto",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/Web_Crypto_API"
-                          ]
-                        }
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Web_Crypto_API",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/Web_Crypto_API/Non-cryptographic_uses_of_subtle_crypto"
                       ]
                     }
-                  }
+                  ]
                 },
                 web_storage_api: {
                   children: {
@@ -10723,32 +10189,22 @@ api.Window.sessionStorage`,
                   }
                 },
                 web_workers_api: {
-                  children: {
-                    structured_clone_algorithm: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Web_Workers_API/Structured_clone_algorithm",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/Web_Workers_API"
-                          ]
-                        }
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Web_Workers_API",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/Web_Workers_API/Structured_clone_algorithm"
                       ]
                     },
-                    transferable_objects: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Web_Workers_API/Transferable_objects",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/Web_Workers_API"
-                          ]
-                        }
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/Web_Workers_API/Transferable_objects"
                       ]
                     }
-                  }
+                  ]
                 },
                 webgl_api: {
                   children: {
@@ -10876,18 +10332,6 @@ api.Window.sessionStorage`,
                         }
                       }
                     },
-                    compressed_texture_formats: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WebGL_API/Compressed_texture_formats",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/WebGL_API"
-                          ]
-                        }
-                      ]
-                    },
                     matrix_math_for_the_web: {
                       children: {},
                       slug: "/en-US/docs/Web/API/WebGL_API/Matrix_math_for_the_web",
@@ -10982,6 +10426,12 @@ api.Window.sessionStorage`,
                   slug: "/en-US/docs/Web/API/WebGL_API",
                   messages: [
                     {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/WebGL_API/Compressed_texture_formats"
+                      ]
+                    },
+                    {
                       message: "HTTP link",
                       data: [
                         "http://www.webglacademy.com/",
@@ -11022,92 +10472,49 @@ api.Window.sessionStorage`,
                   children: {
                     build_a_phone_with_peerjs: {
                       children: {
-                        build_the_server: {
+                        connect_peers: {
                           children: {},
-                          slug: "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Build_the_server",
+                          slug: "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers",
                           messages: [
                             {
-                              message: "Not linked from parent page",
+                              message: "No link to child page",
                               data: [
-                                "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs"
+                                "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers/Create_a_peer_connection"
+                              ]
+                            },
+                            {
+                              message: "No link to child page",
+                              data: [
+                                "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers/Show_hide_html"
+                              ]
+                            },
+                            {
+                              message: "No link to child page",
+                              data: [
+                                "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers/Creating_a_call"
+                              ]
+                            },
+                            {
+                              message: "No link to child page",
+                              data: [
+                                "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers/End_a_call"
+                              ]
+                            },
+                            {
+                              message: "No link to child page",
+                              data: [
+                                "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers/Answer_a_call"
                               ]
                             }
                           ]
-                        },
-                        connect_peers: {
-                          children: {
-                            answer_a_call: {
-                              children: {},
-                              slug: "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers/Answer_a_call",
-                              messages: [
-                                {
-                                  message: "Not linked from parent page",
-                                  data: [
-                                    "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers"
-                                  ]
-                                }
-                              ]
-                            },
-                            create_a_peer_connection: {
-                              children: {},
-                              slug: "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers/Create_a_peer_connection",
-                              messages: [
-                                {
-                                  message: "Not linked from parent page",
-                                  data: [
-                                    "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers"
-                                  ]
-                                }
-                              ]
-                            },
-                            creating_a_call: {
-                              children: {},
-                              slug: "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers/Creating_a_call",
-                              messages: [
-                                {
-                                  message: "Not linked from parent page",
-                                  data: [
-                                    "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers"
-                                  ]
-                                }
-                              ]
-                            },
-                            end_a_call: {
-                              children: {},
-                              slug: "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers/End_a_call",
-                              messages: [
-                                {
-                                  message: "Not linked from parent page",
-                                  data: [
-                                    "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers"
-                                  ]
-                                }
-                              ]
-                            },
-                            show_hide_html: {
-                              children: {},
-                              slug: "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers/Show_hide_html",
-                              messages: [
-                                {
-                                  message: "Not linked from parent page",
-                                  data: [
-                                    "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers"
-                                  ]
-                                }
-                              ]
-                            }
-                          }
                         }
-                      }
-                    },
-                    intro_to_rtp: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WebRTC_API/Intro_to_RTP",
+                      },
+                      slug: "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs",
                       messages: [
                         {
-                          message: "Not linked from parent page",
+                          message: "No link to child page",
                           data: [
-                            "/en-US/docs/Web/API/WebRTC_API"
+                            "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Build_the_server"
                           ]
                         }
                       ]
@@ -11127,7 +10534,16 @@ api.Window.sessionStorage`,
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/WebRTC_API",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/WebRTC_API/Intro_to_RTP"
+                      ]
+                    }
+                  ]
                 },
                 webtransport_api: {
                   children: {},
@@ -11368,16 +10784,19 @@ api.Window.sessionStorage`,
                           data: [
                             "primary-screen-right-source.drawio"
                           ]
-                        },
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/Window_Management_API"
-                          ]
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/Window_Management_API",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/Window_Management_API/Multi-screen_origin"
+                      ]
+                    }
+                  ]
                 },
                 window: {
                   children: {
@@ -11398,18 +10817,6 @@ api.Window.sessionStorage`,
                             "api.Element.copy_event",
                             "Expected:",
                             "api.Window.copy_event"
-                          ]
-                        }
-                      ]
-                    },
-                    createimagebitmap: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/createImageBitmap",
-                      messages: [
-                        {
-                          message: "Unused image",
-                          data: [
-                            "50x50.jpg"
                           ]
                         }
                       ]
@@ -11627,12 +11034,6 @@ api.Window.sessionStorage`,
                       slug: "/en-US/docs/Web/API/XMLHttpRequest_API/HTML_in_XMLHttpRequest",
                       messages: [
                         {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/XMLHttpRequest_API"
-                          ]
-                        },
-                        {
                           message: "External sandbox link",
                           data: [
                             "https://jsfiddle.net/HTcKP/1/"
@@ -11655,42 +11056,6 @@ api.Window.sessionStorage`,
                         }
                       ]
                     },
-                    sending_and_receiving_binary_data: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/XMLHttpRequest_API/Sending_and_Receiving_Binary_Data",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/XMLHttpRequest_API"
-                          ]
-                        }
-                      ]
-                    },
-                    synchronous_and_asynchronous_requests: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/XMLHttpRequest_API/Synchronous_and_Asynchronous_Requests",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/XMLHttpRequest_API"
-                          ]
-                        }
-                      ]
-                    },
-                    using_formdata_objects: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/XMLHttpRequest_API/Using_FormData_Objects",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/API/XMLHttpRequest_API"
-                          ]
-                        }
-                      ]
-                    },
                     using_xmlhttprequest: {
                       children: {},
                       slug: "/en-US/docs/Web/API/XMLHttpRequest_API/Using_XMLHttpRequest",
@@ -11706,7 +11071,34 @@ api.Window.sessionStorage`,
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/XMLHttpRequest_API",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/XMLHttpRequest_API/Using_FormData_Objects"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/XMLHttpRequest_API/Synchronous_and_Asynchronous_Requests"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/XMLHttpRequest_API/HTML_in_XMLHttpRequest"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/XMLHttpRequest_API/Sending_and_Receiving_Binary_Data"
+                      ]
+                    }
+                  ]
                 },
                 xmlhttprequest: {
                   children: {
@@ -11825,6 +11217,18 @@ api.Window.sessionStorage`,
             },
             css: {
               children: {
+                "_colon_-moz-broken": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/:-moz-broken",
+                  messages: [
+                    {
+                      message: "Missing image",
+                      data: [
+                        "broken.jpg"
+                      ]
+                    }
+                  ]
+                },
                 "_colon_-moz-drag-over": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/:-moz-drag-over",
@@ -12289,17 +11693,11 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
-                    }
-                  ]
-                },
-                "-moz-image-rect": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-moz-image-rect",
-                  messages: [
+                    },
                     {
-                      message: "Unused image",
+                      message: "Missing image",
                       data: [
-                        "firefox.png"
+                        "/broken/image/link.png"
                       ]
                     }
                   ]
@@ -12739,6 +12137,13 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.harbortype.com/fonts/rocher-color/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -12759,6 +12164,13 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.harbortype.com/fonts/rocher-color/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -12899,12 +12311,6 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Broken browser compat anchor",
                           data: []
-                        },
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/CSS/@media"
-                          ]
                         },
                         {
                           message: "Unreachable via sidebar",
@@ -13388,6 +12794,12 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/CSS/@media/aural"
+                      ]
                     }
                   ]
                 },
@@ -13523,18 +12935,6 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                "aspect-ratio": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/aspect-ratio",
-                  messages: [
-                    {
-                      message: "Unused image",
-                      data: [
-                        "plumeria.jpg"
-                      ]
-                    }
-                  ]
-                },
                 attr: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/attr",
@@ -13596,46 +12996,10 @@ css.selectors.-webkit-resizer`,
                   slug: "/en-US/docs/Web/CSS/backdrop-filter",
                   messages: [
                     {
-                      message: "Unused image",
-                      data: [
-                        "anemones.jpg"
-                      ]
-                    },
-                    {
                       message: "Broken external link",
                       data: [
-                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "https://drafts.fxtf.org/filter-effects-2/",
                         "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                background: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/background",
-                  messages: [
-                    {
-                      message: "Unused image",
-                      data: [
-                        "star-solid.gif"
-                      ]
-                    }
-                  ]
-                },
-                "background-attachment": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/background-attachment",
-                  messages: [
-                    {
-                      message: "Unused image",
-                      data: [
-                        "star-solid.gif"
-                      ]
-                    },
-                    {
-                      message: "Unused image",
-                      data: [
-                        "star-transparent.gif"
                       ]
                     }
                   ]
@@ -13645,15 +13009,15 @@ css.selectors.-webkit-resizer`,
                   slug: "/en-US/docs/Web/CSS/background-blend-mode",
                   messages: [
                     {
-                      message: "Unused image",
+                      message: "Missing image",
                       data: [
-                        "tr.png"
+                        "image1.png"
                       ]
                     },
                     {
-                      message: "Unused image",
+                      message: "Missing image",
                       data: [
-                        "br.png"
+                        "image2.png"
                       ]
                     },
                     {
@@ -13661,60 +13025,6 @@ css.selectors.-webkit-resizer`,
                       data: [
                         "https://drafts.fxtf.org/compositing-2/",
                         "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "background-image": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/background-image",
-                  messages: [
-                    {
-                      message: "Unused image",
-                      data: [
-                        "cat-front.png"
-                      ]
-                    },
-                    {
-                      message: "Unused image",
-                      data: [
-                        "mdn_logo_only_color.png"
-                      ]
-                    },
-                    {
-                      message: "Unused image",
-                      data: [
-                        "star-transparent.gif"
-                      ]
-                    }
-                  ]
-                },
-                "background-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/background-position",
-                  messages: [
-                    {
-                      message: "Unused image",
-                      data: [
-                        "cat-front.png"
-                      ]
-                    },
-                    {
-                      message: "Unused image",
-                      data: [
-                        "star-transparent.gif"
-                      ]
-                    }
-                  ]
-                },
-                "background-repeat": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/background-repeat",
-                  messages: [
-                    {
-                      message: "Unused image",
-                      data: [
-                        "star-solid.gif"
                       ]
                     }
                   ]
@@ -13806,34 +13116,10 @@ css.selectors.-webkit-resizer`,
                       data: []
                     },
                     {
-                      message: "Unused image",
-                      data: [
-                        "tr.png"
-                      ]
-                    },
-                    {
-                      message: "Unused image",
-                      data: [
-                        "br.png"
-                      ]
-                    },
-                    {
                       message: "Broken external link",
                       data: [
                         "https://drafts.fxtf.org/compositing-2/",
                         "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "border-image-repeat": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-image-repeat",
-                  messages: [
-                    {
-                      message: "Unused image",
-                      data: [
-                        "border.png"
                       ]
                     }
                   ]
@@ -13990,18 +13276,6 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                clip: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/clip",
-                  messages: [
-                    {
-                      message: "Unused image",
-                      data: [
-                        "macarons.png"
-                      ]
-                    }
-                  ]
-                },
                 "clip-path": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/clip-path",
@@ -14096,12 +13370,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/color_value/device-cmyk",
                       messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/CSS/color_value"
-                          ]
-                        },
                         {
                           message: "Not in BCD",
                           data: [
@@ -14445,6 +13713,12 @@ css.selectors.-webkit-resizer`,
                   slug: "/en-US/docs/Web/CSS/color_value",
                   messages: [
                     {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/CSS/color_value/device-cmyk"
+                      ]
+                    },
+                    {
                       message: "CSS code issue",
                       data: [
                         "Unknown word color-mix (CssSyntaxError)",
@@ -14494,19 +13768,6 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                "color-interpolation-filters": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/color-interpolation-filters",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/filter-effects-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 "color-interpolation-method": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/color-interpolation-method",
@@ -14545,12 +13806,6 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Unused image",
                       data: [
-                        "mdn.svg"
-                      ]
-                    },
-                    {
-                      message: "Unused image",
-                      data: [
                         "2x.png"
                       ]
                     }
@@ -14563,18 +13818,6 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
-                    },
-                    {
-                      message: "Unused image",
-                      data: [
-                        "tr.png"
-                      ]
-                    },
-                    {
-                      message: "Unused image",
-                      data: [
-                        "br.png"
-                      ]
                     },
                     {
                       message: "CSS code issue",
@@ -14649,68 +13892,16 @@ css.selectors.-webkit-resizer`,
                   }
                 },
                 css_backgrounds_and_borders: {
-                  children: {
-                    "box-shadow_generator": {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Box-shadow_generator",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/CSS/CSS_backgrounds_and_borders"
-                          ]
-                        }
-                      ]
-                    },
-                    scaling_of_svg_backgrounds: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Scaling_of_SVG_backgrounds",
-                      messages: [
-                        {
-                          message: "Unused image",
-                          data: [
-                            "100px-height-3x4-ratio.svg"
-                          ]
-                        },
-                        {
-                          message: "Unused image",
-                          data: [
-                            "no-dimensions-1x1-ratio.svg"
-                          ]
-                        },
-                        {
-                          message: "Unused image",
-                          data: [
-                            "no-dimensions-or-ratio.svg"
-                          ]
-                        },
-                        {
-                          message: "Unused image",
-                          data: [
-                            "100px-wide-no-height-or-ratio.svg"
-                          ]
-                        }
-                      ]
-                    },
-                    using_multiple_backgrounds: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Using_multiple_backgrounds",
-                      messages: [
-                        {
-                          message: "Unused image",
-                          data: [
-                            "firefox.png"
-                          ]
-                        },
-                        {
-                          message: "Unused image",
-                          data: [
-                            "bubbles.png"
-                          ]
-                        }
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/CSS_backgrounds_and_borders",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Box-shadow_generator"
                       ]
                     }
-                  }
+                  ]
                 },
                 css_basic_user_interface: {
                   children: {},
@@ -14838,18 +14029,6 @@ css.selectors.-webkit-resizer`,
                 },
                 css_colors: {
                   children: {
-                    color_picker_tool: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_colors/Color_picker_tool",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/CSS/CSS_colors"
-                          ]
-                        }
-                      ]
-                    },
                     color_values: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_colors/Color_values",
@@ -14926,7 +14105,16 @@ css.selectors.-webkit-resizer`,
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/CSS/CSS_colors",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/CSS/CSS_colors/Color_picker_tool"
+                      ]
+                    }
+                  ]
                 },
                 css_containment: {
                   children: {
@@ -14954,15 +14142,9 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/CSS_filter_effects/Using_filter_effects",
                       messages: [
                         {
-                          message: "Unused image",
+                          message: "Missing image",
                           data: [
-                            "activists.jpg"
-                          ]
-                        },
-                        {
-                          message: "Unused image",
-                          data: [
-                            "mandala.svg"
+                            "image.jpg"
                           ]
                         },
                         {
@@ -14980,12 +14162,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/CSS_fonts/WOFF",
                       messages: [
                         {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/CSS/CSS_fonts"
-                          ]
-                        },
-                        {
                           message: "Unexpected BCD keys",
                           data: [
                             "Actual:",
@@ -14997,7 +14173,16 @@ css.at-rules.font-face.WOFF_2`,
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/CSS/CSS_fonts",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/CSS/CSS_fonts/WOFF"
+                      ]
+                    }
+                  ]
                 },
                 css_grid_layout: {
                   children: {
@@ -15041,30 +14226,21 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/CSS_images/Replaced_element_properties",
                       messages: [
                         {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/CSS/CSS_images"
-                          ]
-                        },
-                        {
                           message: "Unreachable via page",
                           data: []
                         }
                       ]
-                    },
-                    using_css_gradients: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients",
-                      messages: [
-                        {
-                          message: "Unused image",
-                          data: [
-                            "critters.png"
-                          ]
-                        }
+                    }
+                  },
+                  slug: "/en-US/docs/Web/CSS/CSS_images",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/CSS/CSS_images/Replaced_element_properties"
                       ]
                     }
-                  }
+                  ]
                 },
                 css_inline_layout: {
                   children: {
@@ -15337,36 +14513,6 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "Broken link",
                           data: [
-                            "/en-US/docs/Web/CSS/color-stop-list"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/CSS/linear-color-stop"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/CSS/linear-color-hint"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/CSS/ending-shape"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/CSS/size"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
                             "/en-US/docs/Web/CSS/calc-product"
                           ]
                         },
@@ -15613,25 +14759,6 @@ css.properties.grid-template-rows.masonry`,
                     }
                   ]
                 },
-                filter: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/filter",
-                  messages: [
-                    {
-                      message: "Unused image",
-                      data: [
-                        "pencil.jpg"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/filter-effects-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 "filter-function": {
                   children: {
                     blur: {
@@ -15641,13 +14768,6 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "Missing syntax code block",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
-                          ]
                         },
                         {
                           message: "CSS code issue",
@@ -15672,16 +14792,21 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/brightness",
                       messages: [
                         {
-                          message: "Unused image",
+                          message: "Missing image",
                           data: [
-                            "be_fierce.jpg"
+                            "image.jpg"
                           ]
                         },
                         {
-                          message: "Broken external link",
+                          message: "Missing image",
                           data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
+                            "folder/fileName.svg#darken25"
+                          ]
+                        },
+                        {
+                          message: "Unused image",
+                          data: [
+                            "be_fierce.jpg"
                           ]
                         },
                         {
@@ -15699,16 +14824,21 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/contrast",
                       messages: [
                         {
-                          message: "Unused image",
+                          message: "Missing image",
                           data: [
-                            "unity_for_the_people.jpg"
+                            "image.jpg"
                           ]
                         },
                         {
-                          message: "Broken external link",
+                          message: "Missing image",
                           data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
+                            "folder/fileName.svg#contrast"
+                          ]
+                        },
+                        {
+                          message: "Unused image",
+                          data: [
+                            "unity_for_the_people.jpg"
                           ]
                         },
                         {
@@ -15721,30 +14851,10 @@ css.properties.grid-template-rows.masonry`,
                         }
                       ]
                     },
-                    "drop-shadow": {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/filter-function/drop-shadow",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     grayscale: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/filter-function/grayscale",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
-                          ]
-                        },
                         {
                           message: "CSS code issue",
                           data: [
@@ -15764,10 +14874,15 @@ css.properties.grid-template-rows.masonry`,
                           data: []
                         },
                         {
-                          message: "Broken external link",
+                          message: "Missing image",
                           data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
+                            "image.jpg"
+                          ]
+                        },
+                        {
+                          message: "Missing image",
+                          data: [
+                            "folder/fileName.svg#filterID"
                           ]
                         },
                         {
@@ -15793,13 +14908,6 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/invert",
                       messages: [
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word invert (CssSyntaxError)",
@@ -15813,13 +14921,6 @@ css.properties.grid-template-rows.masonry`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/filter-function/opacity",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
-                          ]
-                        },
                         {
                           message: "CSS code issue",
                           data: [
@@ -15835,13 +14936,6 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/saturate",
                       messages: [
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word saturate (CssSyntaxError)",
@@ -15855,13 +14949,6 @@ css.properties.grid-template-rows.masonry`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/filter-function/sepia",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
-                          ]
-                        },
                         {
                           message: "CSS code issue",
                           data: [
@@ -15878,13 +14965,6 @@ css.properties.grid-template-rows.masonry`,
                     {
                       message: "Missing syntax code block",
                       data: []
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/filter-effects-1/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -15950,32 +15030,6 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
-                "flood-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/flood-color",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/filter-effects-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "flood-opacity": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/flood-opacity",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/filter-effects-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 font: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/font",
@@ -16010,18 +15064,6 @@ css.properties.width.fit-content_function`
                       message: "Unexpected asset file",
                       data: [
                         "montecarlo-regular.woff2"
-                      ]
-                    }
-                  ]
-                },
-                "font-variant-emoji": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-variant-emoji",
-                  messages: [
-                    {
-                      message: "Unused image",
-                      data: [
-                        "font-variant-emoji-example.jpg"
                       ]
                     }
                   ]
@@ -16241,12 +15283,6 @@ css.properties.width.fit-content_function`
                         {
                           message: "Unused image",
                           data: [
-                            "firefox.png"
-                          ]
-                        },
-                        {
-                          message: "Unused image",
-                          data: [
                             "rightarrow.png"
                           ]
                         },
@@ -16294,30 +15330,6 @@ css.properties.width.fit-content_function`
                         "Unknown word no-url.jpg (CssSyntaxError)",
                         "no-url.jpg           /* An image file must be defined using the url() function. */",
                         "1:1"
-                      ]
-                    }
-                  ]
-                },
-                "image-orientation": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/image-orientation",
-                  messages: [
-                    {
-                      message: "Unused image",
-                      data: [
-                        "oriole.jpg"
-                      ]
-                    }
-                  ]
-                },
-                "image-rendering": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/image-rendering",
-                  messages: [
-                    {
-                      message: "Unused image",
-                      data: [
-                        "blumen.jpg"
                       ]
                     }
                   ]
@@ -16405,12 +15417,6 @@ css.properties.width.fit-content_function`
                           slug: "/en-US/docs/Web/CSS/Layout_cookbook/Contribute_a_recipe/Cookbook_template",
                           messages: [
                             {
-                              message: "Broken link",
-                              data: [
-                                "/en-US/docs/Web/CSS/example-property"
-                              ]
-                            },
-                            {
                               message: "Unreachable via sidebar",
                               data: []
                             }
@@ -16447,19 +15453,6 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
-                "lighting-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/lighting-color",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/filter-effects-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 "line-height-step": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/line-height-step",
@@ -16482,30 +15475,6 @@ css.properties.width.fit-content_function`
                         'Unexpected closing tag "section". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
                         "</section>",
                         "22:0"
-                      ]
-                    }
-                  ]
-                },
-                "list-style-image": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/list-style-image",
-                  messages: [
-                    {
-                      message: "Unused image",
-                      data: [
-                        "star-solid.gif"
-                      ]
-                    }
-                  ]
-                },
-                "list-style-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/list-style-position",
-                  messages: [
-                    {
-                      message: "Unused image",
-                      data: [
-                        "star-solid.gif"
                       ]
                     }
                   ]
@@ -16539,18 +15508,6 @@ css.properties.width.fit-content_function`
                       message: "Broken link",
                       data: [
                         "/en-US/Web/SVG/Reference/Attribute/mask-type"
-                      ]
-                    }
-                  ]
-                },
-                "mask-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-position",
-                  messages: [
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "#percentage-values"
                       ]
                     }
                   ]
@@ -16618,6 +15575,20 @@ css.properties.grid-template-rows.minmax`
                     {
                       message: "Broken external link",
                       data: [
+                        "https://drafts.fxtf.org/compositing/",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/compositing/",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
                         "https://drafts.fxtf.org/compositing-2/",
                         "The operation timed out."
                       ]
@@ -16644,26 +15615,41 @@ css.properties.grid-template-rows.minmax`
                     }
                   ]
                 },
-                "object-fit": {
+                offset: {
                   children: {},
-                  slug: "/en-US/docs/Web/CSS/object-fit",
+                  slug: "/en-US/docs/Web/CSS/offset",
                   messages: [
                     {
-                      message: "Unused image",
+                      message: "Broken external link",
                       data: [
-                        "mdn_logo_only_color.png"
+                        "https://drafts.fxtf.org/motion-1/",
+                        "The operation timed out."
                       ]
                     }
                   ]
                 },
-                "object-position": {
+                "offset-anchor": {
                   children: {},
-                  slug: "/en-US/docs/Web/CSS/object-position",
+                  slug: "/en-US/docs/Web/CSS/offset-anchor",
                   messages: [
                     {
-                      message: "Unused image",
+                      message: "Broken external link",
                       data: [
-                        "mdn.svg"
+                        "https://drafts.fxtf.org/motion-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "offset-distance": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/offset-distance",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/motion-1/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -16694,6 +15680,39 @@ css.properties.grid-template-rows.minmax`
                       message: "External sandbox link",
                       data: [
                         "https://jsfiddle.net/ericwilligers/r1snqdan/"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/motion-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "offset-position": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/offset-position",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/motion-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "offset-rotate": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/offset-rotate",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/motion-1/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -16745,6 +15764,19 @@ css.properties.grid-template-rows.minmax`
                     {
                       message: "Missing syntax code block",
                       data: []
+                    }
+                  ]
+                },
+                ray: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/ray",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/motion-1/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -17831,24 +16863,6 @@ css.properties.list-style-type.symbols`
                     }
                   ]
                 },
-                "vertical-align": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/vertical-align",
-                  messages: [
-                    {
-                      message: "Unused image",
-                      data: [
-                        "star.png"
-                      ]
-                    },
-                    {
-                      message: "Unused image",
-                      data: [
-                        "frame_image.svg"
-                      ]
-                    }
-                  ]
-                },
                 webkit_extensions: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/WebKit_Extensions",
@@ -17875,12 +16889,6 @@ css.properties.list-style-type.symbols`
                   slug: "/en-US/docs/Web/Events/Creating_and_triggering_events",
                   messages: [
                     {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Web/Events"
-                      ]
-                    },
-                    {
                       message: "Unreachable via sidebar",
                       data: []
                     }
@@ -17890,12 +16898,6 @@ css.properties.list-style-type.symbols`
                   children: {},
                   slug: "/en-US/docs/Web/Events/Event_handlers",
                   messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Web/Events"
-                      ]
-                    },
                     {
                       message: "Unreachable via sidebar",
                       data: []
@@ -18011,6 +17013,18 @@ css.properties.list-style-type.symbols`
                   ]
                 },
                 {
+                  message: "No link to child page",
+                  data: [
+                    "/en-US/docs/Web/Events/Event_handlers"
+                  ]
+                },
+                {
+                  message: "No link to child page",
+                  data: [
+                    "/en-US/docs/Web/Events/Creating_and_triggering_events"
+                  ]
+                },
+                {
                   message: "Unreachable via sidebar",
                   data: []
                 }
@@ -18018,78 +17032,15 @@ css.properties.list-style-type.symbols`
             },
             html: {
               children: {
-                guides: {
-                  children: {
-                    cheatsheet: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Guides/Cheatsheet",
-                      messages: [
-                        {
-                          message: "Unused image",
-                          data: [
-                            "beast.png"
-                          ]
-                        },
-                        {
-                          message: "Unreachable via page",
-                          data: []
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/HTML/Guides",
-                  messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Web/HTML"
-                      ]
-                    },
-                    {
-                      message: "Unreachable via page",
-                      data: []
-                    }
-                  ]
-                },
                 how_to: {
                   children: {
-                    add_a_hit_map_on_top_of_an_image: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/How_to/Add_a_hit_map_on_top_of_an_image",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/HTML/How_to"
-                          ]
-                        }
-                      ]
-                    },
                     add_javascript_to_your_web_page: {
                       children: {},
                       slug: "/en-US/docs/Web/HTML/How_to/Add_JavaScript_to_your_web_page",
                       messages: [
                         {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/HTML/How_to"
-                          ]
-                        },
-                        {
                           message: "Unreachable via page",
                           data: []
-                        }
-                      ]
-                    },
-                    "author_fast-loading_html_pages": {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/How_to/Author_fast-loading_HTML_pages",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/HTML/How_to"
-                          ]
                         }
                       ]
                     },
@@ -18097,12 +17048,6 @@ css.properties.list-style-type.symbols`
                       children: {},
                       slug: "/en-US/docs/Web/HTML/How_to/Define_terms_with_HTML",
                       messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/HTML/How_to"
-                          ]
-                        },
                         {
                           message: "Unreachable via page",
                           data: []
@@ -18113,12 +17058,6 @@ css.properties.list-style-type.symbols`
                       children: {},
                       slug: "/en-US/docs/Web/HTML/How_to/Use_data_attributes",
                       messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/HTML/How_to"
-                          ]
-                        },
                         {
                           message: "External sandbox link",
                           data: [
@@ -18136,12 +17075,6 @@ css.properties.list-style-type.symbols`
                   },
                   slug: "/en-US/docs/Web/HTML/How_to",
                   messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Web/HTML"
-                      ]
-                    },
                     {
                       message: "Unreachable via page",
                       data: []
@@ -18478,27 +17411,15 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/a",
                           messages: [
                             {
-                              message: "Unused image",
+                              message: "Missing image",
                               data: [
-                                "powerpoint.svg"
+                                "missing-icon.svg"
                               ]
                             },
                             {
-                              message: "Unused image",
+                              message: "Missing image",
                               data: [
-                                "new-tab.svg"
-                              ]
-                            }
-                          ]
-                        },
-                        figure: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/figure",
-                          messages: [
-                            {
-                              message: "Unused image",
-                              data: [
-                                "favicon-192x192.png"
+                                "missing-icon.svg"
                               ]
                             }
                           ]
@@ -18508,39 +17429,10 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/header",
                           messages: [
                             {
-                              message: "Unused image",
+                              message: "Broken external link",
                               data: [
-                                "mdn-logo-sm.png"
-                              ]
-                            }
-                          ]
-                        },
-                        img: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/img",
-                          messages: [
-                            {
-                              message: "Unused image",
-                              data: [
-                                "clock-demo-400px.png"
-                              ]
-                            },
-                            {
-                              message: "Unused image",
-                              data: [
-                                "clock-demo-200px.png"
-                              ]
-                            }
-                          ]
-                        },
-                        map: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/map",
-                          messages: [
-                            {
-                              message: "Unused image",
-                              data: [
-                                "parrots.jpg"
+                                "https://info.cern.ch/",
+                                "Cannot reach server and Bun hangs"
                               ]
                             }
                           ]
@@ -18558,6 +17450,18 @@ html.elements.select.size`
                               ]
                             }
                           }
+                        },
+                        object: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/object",
+                          messages: [
+                            {
+                              message: "Missing image",
+                              data: [
+                                "path/image.jpg"
+                              ]
+                            }
+                          ]
                         },
                         rtc: {
                           children: {},
@@ -18627,7 +17531,16 @@ html.elements.select.size`
                     }
                   }
                 }
-              }
+              },
+              slug: "/en-US/docs/Web/HTML",
+              messages: [
+                {
+                  message: "No link to child page",
+                  data: [
+                    "/en-US/docs/Web/HTML/How_to"
+                  ]
+                }
+              ]
             },
             http: {
               children: {
@@ -18695,13 +17608,6 @@ http.headers.Use-As-Dictionary`,
                       children: {},
                       slug: "/en-US/docs/Web/HTTP/Guides/CORS",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.telerik.com/blogs/using-cors-with-all-modern-browsers",
-                            "The operation timed out."
-                          ]
-                        },
                         {
                           message: "Unexpected BCD keys",
                           data: [
@@ -19075,12 +17981,6 @@ http.headers.Use-As-Dictionary`,
                       slug: "/en-US/docs/Web/JavaScript/Guide/Closures",
                       messages: [
                         {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/JavaScript/Guide"
-                          ]
-                        },
-                        {
                           message: "External sandbox link",
                           data: [
                             "https://jsfiddle.net/3dxck52m/"
@@ -19120,54 +18020,6 @@ http.headers.Use-As-Dictionary`,
                         }
                       ]
                     },
-                    data_structures: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Data_structures",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/JavaScript/Guide"
-                          ]
-                        }
-                      ]
-                    },
-                    enumerability_and_ownership_of_properties: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Enumerability_and_ownership_of_properties",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/JavaScript/Guide"
-                          ]
-                        }
-                      ]
-                    },
-                    equality_comparisons_and_sameness: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Equality_comparisons_and_sameness",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/JavaScript/Guide"
-                          ]
-                        }
-                      ]
-                    },
-                    inheritance_and_the_prototype_chain: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Inheritance_and_the_prototype_chain",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/JavaScript/Guide"
-                          ]
-                        }
-                      ]
-                    },
                     introduction: {
                       children: {},
                       slug: "/en-US/docs/Web/JavaScript/Guide/Introduction",
@@ -19177,30 +18029,6 @@ http.headers.Use-As-Dictionary`,
                           data: [
                             "https://ecma-international.org/publications-and-standards/standards/ecma-262/",
                             404
-                          ]
-                        }
-                      ]
-                    },
-                    language_overview: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Language_overview",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/JavaScript/Guide"
-                          ]
-                        }
-                      ]
-                    },
-                    memory_management: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Memory_management",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/JavaScript/Guide"
                           ]
                         }
                       ]
@@ -19218,7 +18046,52 @@ http.headers.Use-As-Dictionary`,
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/JavaScript/Guide",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/JavaScript/Guide/Enumerability_and_ownership_of_properties"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/JavaScript/Guide/Inheritance_and_the_prototype_chain"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/JavaScript/Guide/Data_structures"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/JavaScript/Guide/Equality_comparisons_and_sameness"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/JavaScript/Guide/Closures"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/JavaScript/Guide/Language_overview"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/JavaScript/Guide/Memory_management"
+                      ]
+                    }
+                  ]
                 },
                 reference: {
                   children: {
@@ -19518,12 +18391,6 @@ http.headers.Use-As-Dictionary`,
                       slug: "/en-US/docs/Web/JavaScript/Reference/JavaScript_technologies_overview",
                       messages: [
                         {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/JavaScript/Reference"
-                          ]
-                        },
-                        {
                           message: "Broken external link",
                           data: [
                             "https://ecma-international.org/publications-and-standards/standards/ecma-262/",
@@ -19640,7 +18507,16 @@ http.headers.Use-As-Dictionary`,
                         }
                       }
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/JavaScript/Reference",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/JavaScript/Reference/JavaScript_technologies_overview"
+                      ]
+                    }
+                  ]
                 }
               }
             },
@@ -19775,26 +18651,6 @@ http.headers.Use-As-Dictionary`,
                     },
                     formats: {
                       children: {
-                        image_types: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Image_types",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.ercim.eu/",
-                                500
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.ercim.eu/",
-                                500
-                              ]
-                            }
-                          ]
-                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -19936,18 +18792,21 @@ http.headers.Use-As-Dictionary`,
                           slug: "/en-US/docs/Web/Privacy/Guides/Storage_Access_Policy/Errors",
                           messages: [
                             {
-                              message: "Not linked from parent page",
-                              data: [
-                                "/en-US/docs/Web/Privacy/Guides/Storage_Access_Policy"
-                              ]
-                            },
-                            {
                               message: "Unreachable via page",
                               data: []
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/Privacy/Guides/Storage_Access_Policy",
+                      messages: [
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/Privacy/Guides/Storage_Access_Policy/Errors"
+                          ]
+                        }
+                      ]
                     },
                     "third-party_cookies": {
                       children: {},
@@ -19971,18 +18830,21 @@ http.headers.Use-As-Dictionary`,
                   slug: "/en-US/docs/Web/Privacy/Guides",
                   messages: [
                     {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Web/Privacy"
-                      ]
-                    },
-                    {
                       message: "Unreachable via page",
                       data: []
                     }
                   ]
                 }
-              }
+              },
+              slug: "/en-US/docs/Web/Privacy",
+              messages: [
+                {
+                  message: "No link to child page",
+                  data: [
+                    "/en-US/docs/Web/Privacy/Guides"
+                  ]
+                }
+              ]
             },
             progressive_web_apps: {
               children: {
@@ -19990,12 +18852,6 @@ http.headers.Use-As-Dictionary`,
                   children: {},
                   slug: "/en-US/docs/Web/Progressive_web_apps/Guides",
                   messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Web/Progressive_web_apps"
-                      ]
-                    },
                     {
                       message: "Unreachable via page",
                       data: []
@@ -20006,12 +18862,6 @@ http.headers.Use-As-Dictionary`,
                   children: {},
                   slug: "/en-US/docs/Web/Progressive_web_apps/How_to",
                   messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Web/Progressive_web_apps"
-                      ]
-                    },
                     {
                       message: "Unreachable via page",
                       data: []
@@ -20025,29 +18875,26 @@ http.headers.Use-As-Dictionary`,
                       slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference",
                       messages: [
                         {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/Progressive_web_apps/Manifest"
-                          ]
-                        },
-                        {
                           message: "Unreachable via page",
                           data: []
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/Progressive_web_apps/Manifest",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference"
+                      ]
+                    }
+                  ]
                 },
                 reference: {
                   children: {},
                   slug: "/en-US/docs/Web/Progressive_web_apps/Reference",
                   messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Web/Progressive_web_apps"
-                      ]
-                    },
                     {
                       message: "Unreachable via page",
                       data: []
@@ -20056,98 +18903,66 @@ http.headers.Use-As-Dictionary`,
                 },
                 tutorials: {
                   children: {
-                    cycletracker: {
-                      children: {
-                        manifest_file: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Tutorials/CycleTracker/Manifest_file",
-                          messages: [
-                            {
-                              message: "Unused image",
-                              data: [
-                                "tire.svg"
-                              ]
-                            },
-                            {
-                              message: "Unused image",
-                              data: [
-                                "wheel.svg"
-                              ]
-                            },
-                            {
-                              message: "Unused image",
-                              data: [
-                                "circle.svg"
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
                     js13kgames: {
-                      children: {
-                        installable_pwas: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Installable_PWAs",
-                          messages: [
-                            {
-                              message: "Not linked from parent page",
-                              data: [
-                                "/en-US/docs/Web/Progressive_web_apps/Tutorials/js13kGames"
-                              ]
-                            }
+                      children: {},
+                      slug: "/en-US/docs/Web/Progressive_web_apps/Tutorials/js13kGames",
+                      messages: [
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Offline_Service_workers"
                           ]
                         },
-                        loading: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Loading",
-                          messages: [
-                            {
-                              message: "Not linked from parent page",
-                              data: [
-                                "/en-US/docs/Web/Progressive_web_apps/Tutorials/js13kGames"
-                              ]
-                            }
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Re-engageable_Notifications_Push"
                           ]
                         },
-                        offline_service_workers: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Offline_Service_workers",
-                          messages: [
-                            {
-                              message: "Not linked from parent page",
-                              data: [
-                                "/en-US/docs/Web/Progressive_web_apps/Tutorials/js13kGames"
-                              ]
-                            }
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Installable_PWAs"
                           ]
                         },
-                        "re-engageable_notifications_push": {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Re-engageable_Notifications_Push",
-                          messages: [
-                            {
-                              message: "Not linked from parent page",
-                              data: [
-                                "/en-US/docs/Web/Progressive_web_apps/Tutorials/js13kGames"
-                              ]
-                            }
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Loading"
                           ]
                         }
-                      }
-                    }
-                  },
-                  slug: "/en-US/docs/Web/Progressive_web_apps/Tutorials",
-                  messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Web/Progressive_web_apps"
                       ]
                     }
+                  }
+                }
+              },
+              slug: "/en-US/docs/Web/Progressive_web_apps",
+              messages: [
+                {
+                  message: "No link to child page",
+                  data: [
+                    "/en-US/docs/Web/Progressive_web_apps/How_to"
+                  ]
+                },
+                {
+                  message: "No link to child page",
+                  data: [
+                    "/en-US/docs/Web/Progressive_web_apps/Reference"
+                  ]
+                },
+                {
+                  message: "No link to child page",
+                  data: [
+                    "/en-US/docs/Web/Progressive_web_apps/Tutorials"
+                  ]
+                },
+                {
+                  message: "No link to child page",
+                  data: [
+                    "/en-US/docs/Web/Progressive_web_apps/Guides"
                   ]
                 }
-              }
+              ]
             },
             security: {
               children: {
@@ -20168,12 +18983,6 @@ http.headers.Use-As-Dictionary`,
                       slug: "/en-US/docs/Web/Security/Attacks/XS-Leaks",
                       messages: [
                         {
-                          message: "Bad href",
-                          data: [
-                            "frame_counting_using_window_references"
-                          ]
-                        },
-                        {
                           message: "Unreachable via page",
                           data: []
                         }
@@ -20182,12 +18991,6 @@ http.headers.Use-As-Dictionary`,
                   },
                   slug: "/en-US/docs/Web/Security/Attacks",
                   messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Web/Security"
-                      ]
-                    },
                     {
                       message: "Unreachable via page",
                       data: []
@@ -20199,12 +19002,6 @@ http.headers.Use-As-Dictionary`,
                   slug: "/en-US/docs/Web/Security/Firefox_Security_Guidelines",
                   messages: [
                     {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Web/Security"
-                      ]
-                    },
-                    {
                       message: "Unreachable via page",
                       data: []
                     }
@@ -20214,12 +19011,6 @@ http.headers.Use-As-Dictionary`,
                   children: {},
                   slug: "/en-US/docs/Web/Security/IFrame_credentialless",
                   messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Web/Security"
-                      ]
-                    },
                     {
                       message: "Unexpected BCD keys",
                       data: [
@@ -20269,12 +19060,6 @@ http.headers.Use-As-Dictionary`,
                   slug: "/en-US/docs/Web/Security/Subdomain_takeovers",
                   messages: [
                     {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Web/Security"
-                      ]
-                    },
-                    {
                       message: "Unreachable via page",
                       data: []
                     }
@@ -20295,20 +19080,41 @@ html.elements.script.integrity`,
                       ]
                     }
                   ]
+                }
+              },
+              slug: "/en-US/docs/Web/Security",
+              messages: [
+                {
+                  message: "No link to child page",
+                  data: [
+                    "/en-US/docs/Web/Security/Firefox_Security_Guidelines"
+                  ]
                 },
-                types_of_attacks: {
-                  children: {},
-                  slug: "/en-US/docs/Web/Security/Types_of_attacks",
-                  messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Web/Security"
-                      ]
-                    }
+                {
+                  message: "No link to child page",
+                  data: [
+                    "/en-US/docs/Web/Security/Attacks"
+                  ]
+                },
+                {
+                  message: "No link to child page",
+                  data: [
+                    "/en-US/docs/Web/Security/Types_of_attacks"
+                  ]
+                },
+                {
+                  message: "No link to child page",
+                  data: [
+                    "/en-US/docs/Web/Security/Subdomain_takeovers"
+                  ]
+                },
+                {
+                  message: "No link to child page",
+                  data: [
+                    "/en-US/docs/Web/Security/IFrame_credentialless"
                   ]
                 }
-              }
+              ]
             },
             svg: {
               children: {
@@ -20905,18 +19711,6 @@ html.elements.script.integrity`,
                             }
                           ]
                         },
-                        divisor: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/divisor",
-                          messages: [
-                            {
-                              message: "Unused image",
-                              data: [
-                                "mdn_logo_only_color.png"
-                              ]
-                            }
-                          ]
-                        },
                         dx: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/dx",
@@ -21018,28 +19812,10 @@ svg.elements.use.height`
                             }
                           ]
                         },
-                        href: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/href",
-                          messages: [
-                            {
-                              message: "Unused image",
-                              data: [
-                                "fxlogo.png"
-                              ]
-                            }
-                          ]
-                        },
                         in: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/in",
                           messages: [
-                            {
-                              message: "Unused image",
-                              data: [
-                                "mdn_logo_only_color.png"
-                              ]
-                            },
                             {
                               message: "Unexpected BCD keys",
                               data: [
@@ -21096,66 +19872,6 @@ svg.elements.feDisplacementMap.in2`
                             }
                           ]
                         },
-                        k1: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/k1",
-                          messages: [
-                            {
-                              message: "Unused image",
-                              data: [
-                                "mdn.svg"
-                              ]
-                            }
-                          ]
-                        },
-                        k2: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/k2",
-                          messages: [
-                            {
-                              message: "Unused image",
-                              data: [
-                                "mdn.svg"
-                              ]
-                            }
-                          ]
-                        },
-                        k3: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/k3",
-                          messages: [
-                            {
-                              message: "Unused image",
-                              data: [
-                                "mdn.svg"
-                              ]
-                            }
-                          ]
-                        },
-                        k4: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/k4",
-                          messages: [
-                            {
-                              message: "Unused image",
-                              data: [
-                                "mdn.svg"
-                              ]
-                            }
-                          ]
-                        },
-                        kernelmatrix: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/kernelMatrix",
-                          messages: [
-                            {
-                              message: "Unused image",
-                              data: [
-                                "mdn_logo_only_color.png"
-                              ]
-                            }
-                          ]
-                        },
                         kernelunitlength: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/kernelUnitLength",
@@ -21199,18 +19915,6 @@ svg.elements.feSpecularLighting.kernelUnitLength`
                             {
                               message: "Broken browser compat anchor",
                               data: []
-                            }
-                          ]
-                        },
-                        mode: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/mode",
-                          messages: [
-                            {
-                              message: "Unused image",
-                              data: [
-                                "mdn_logo_only_color.png"
-                              ]
                             }
                           ]
                         },
@@ -21305,18 +20009,6 @@ svg.elements.textPath.path`
                                 "Expected:",
                                 `svg.elements.polygon.points
 svg.elements.polyline.points`
-                              ]
-                            }
-                          ]
-                        },
-                        preservealpha: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/preserveAlpha",
-                          messages: [
-                            {
-                              message: "Unused image",
-                              data: [
-                                "mdn_logo_only_color.png"
                               ]
                             }
                           ]
@@ -21661,18 +20353,6 @@ svg.elements.use.x`
                             }
                           ]
                         },
-                        xchannelselector: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/xChannelSelector",
-                          messages: [
-                            {
-                              message: "Unused image",
-                              data: [
-                                "mdn.svg"
-                              ]
-                            }
-                          ]
-                        },
                         xlink_colon_arcrole: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/xlink:arcrole",
@@ -21769,18 +20449,6 @@ svg.elements.use.y`
                             }
                           ]
                         },
-                        ychannelselector: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/yChannelSelector",
-                          messages: [
-                            {
-                              message: "Unused image",
-                              data: [
-                                "mdn.svg"
-                              ]
-                            }
-                          ]
-                        },
                         z: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/z",
@@ -21859,124 +20527,10 @@ svg.elements.feSpotLight.z`
                           slug: "/en-US/docs/Web/SVG/Reference/Element/discard",
                           messages: [
                             {
-                              message: "Unused image",
-                              data: [
-                                "bar_no_discard.svg"
-                              ]
-                            },
-                            {
-                              message: "Unused image",
-                              data: [
-                                "bar_discard_time.svg"
-                              ]
-                            },
-                            {
-                              message: "Unused image",
-                              data: [
-                                "bar_discard_event.svg"
-                              ]
-                            },
-                            {
                               message: "HTTP link",
                               data: [
                                 "http://xn--dahlstrm-t4a.net/svg/smil/svgt12_discard.svg",
                                 ""
-                              ]
-                            }
-                          ]
-                        },
-                        feblend: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feBlend",
-                          messages: [
-                            {
-                              message: "Unused image",
-                              data: [
-                                "mdn_logo_only_color.png"
-                              ]
-                            }
-                          ]
-                        },
-                        fecomposite: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feComposite",
-                          messages: [
-                            {
-                              message: "Unused image",
-                              data: [
-                                "mdn_logo_only_color.png"
-                              ]
-                            }
-                          ]
-                        },
-                        feconvolvematrix: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feConvolveMatrix",
-                          messages: [
-                            {
-                              message: "Unused image",
-                              data: [
-                                "mdn.svg"
-                              ]
-                            }
-                          ]
-                        },
-                        feimage: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feImage",
-                          messages: [
-                            {
-                              message: "Unused image",
-                              data: [
-                                "mdn_logo_only_color.png"
-                              ]
-                            }
-                          ]
-                        },
-                        fepointlight: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/fePointLight",
-                          messages: [
-                            {
-                              message: "Unused image",
-                              data: [
-                                "mdn_logo_only_color.png"
-                              ]
-                            }
-                          ]
-                        },
-                        fespotlight: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feSpotLight",
-                          messages: [
-                            {
-                              message: "Unused image",
-                              data: [
-                                "mdn_logo_only_color.png"
-                              ]
-                            }
-                          ]
-                        },
-                        fetile: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feTile",
-                          messages: [
-                            {
-                              message: "Unused image",
-                              data: [
-                                "mdn_logo_only_color.png"
-                              ]
-                            }
-                          ]
-                        },
-                        image: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/image",
-                          messages: [
-                            {
-                              message: "Unused image",
-                              data: [
-                                "mdn_logo_only_color.png"
                               ]
                             }
                           ]
@@ -22039,18 +20593,6 @@ svg.elements.feSpotLight.z`
                                 'Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
                                 "</div>",
                                 "1:0"
-                              ]
-                            }
-                          ]
-                        },
-                        view: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/view",
-                          messages: [
-                            {
-                              message: "Unused image",
-                              data: [
-                                "example.svg"
                               ]
                             }
                           ]
@@ -22178,16 +20720,7 @@ svg.elements.feSpotLight.z`
                     }
                   }
                 }
-              },
-              slug: "/en-US/docs/Web/URI",
-              messages: [
-                {
-                  message: "Bad href",
-                  data: [
-                    "Choosing_between_www_and_non-www_URLs"
-                  ]
-                }
-              ]
+              }
             },
             webdriver: {
               children: {
@@ -22227,90 +20760,32 @@ svg.elements.feSpotLight.z`
                       ]
                     },
                     {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Web/WebDriver"
-                      ]
-                    },
-                    {
                       message: "Unreachable via page",
                       data: []
                     }
                   ]
                 }
-              }
+              },
+              slug: "/en-US/docs/Web/WebDriver",
+              messages: [
+                {
+                  message: "No link to child page",
+                  data: [
+                    "/en-US/docs/Web/WebDriver/Reference"
+                  ]
+                }
+              ]
             },
             xml: {
               children: {
                 exslt: {
                   children: {
                     reference: {
-                      children: {
-                        exsl: {
-                          children: {},
-                          slug: "/en-US/docs/Web/XML/EXSLT/Reference/exsl",
-                          messages: [
-                            {
-                              message: "Unreachable via page",
-                              data: []
-                            }
-                          ]
-                        },
-                        math: {
-                          children: {},
-                          slug: "/en-US/docs/Web/XML/EXSLT/Reference/math",
-                          messages: [
-                            {
-                              message: "Unreachable via page",
-                              data: []
-                            }
-                          ]
-                        },
-                        regexp: {
-                          children: {},
-                          slug: "/en-US/docs/Web/XML/EXSLT/Reference/regexp",
-                          messages: [
-                            {
-                              message: "Unreachable via page",
-                              data: []
-                            }
-                          ]
-                        },
-                        set: {
-                          children: {},
-                          slug: "/en-US/docs/Web/XML/EXSLT/Reference/set",
-                          messages: [
-                            {
-                              message: "Unreachable via page",
-                              data: []
-                            }
-                          ]
-                        },
-                        str: {
-                          children: {},
-                          slug: "/en-US/docs/Web/XML/EXSLT/Reference/str",
-                          messages: [
-                            {
-                              message: "Unreachable via page",
-                              data: []
-                            }
-                          ]
-                        }
-                      },
+                      children: {},
                       slug: "/en-US/docs/Web/XML/EXSLT/Reference",
                       messages: [
                         {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/XML/EXSLT"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
-                          data: []
-                        },
-                        {
-                          message: "Unreachable via page",
                           data: []
                         }
                       ]
@@ -22331,28 +20806,10 @@ svg.elements.feSpotLight.z`
                 },
                 xpath: {
                   children: {
-                    guides: {
-                      children: {},
-                      slug: "/en-US/docs/Web/XML/XPath/Guides",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/XML/XPath"
-                          ]
-                        }
-                      ]
-                    },
                     reference: {
                       children: {},
                       slug: "/en-US/docs/Web/XML/XPath/Reference",
                       messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/XML/XPath"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -22378,31 +20835,12 @@ svg.elements.feSpotLight.z`
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Web/XML/XSLT/Guides",
-                      messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/XML/XSLT"
-                          ]
-                        },
-                        {
-                          message: "Unreachable via page",
-                          data: []
-                        }
-                      ]
+                      }
                     },
                     reference: {
                       children: {},
                       slug: "/en-US/docs/Web/XML/XSLT/Reference",
                       messages: [
-                        {
-                          message: "Not linked from parent page",
-                          data: [
-                            "/en-US/docs/Web/XML/XSLT"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -22413,7 +20851,16 @@ svg.elements.feSpotLight.z`
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/XML/XSLT",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/XML/XSLT/Reference"
+                      ]
+                    }
+                  ]
                 }
               }
             }
@@ -22421,9 +20868,33 @@ svg.elements.feSpotLight.z`
           slug: "/en-US/docs/Web",
           messages: [
             {
-              message: "Asset without content page",
+              message: "No link to child page",
               data: [
-                "en-us/mdn/kitchensink/iceberg.jpg"
+                "/en-US/docs/Mozilla"
+              ]
+            },
+            {
+              message: "No link to child page",
+              data: [
+                "/en-US/docs/MDN"
+              ]
+            },
+            {
+              message: "No link to child page",
+              data: [
+                "/en-US/docs/Related"
+              ]
+            },
+            {
+              message: "No link to child page",
+              data: [
+                "/en-US/docs/Learn_web_development"
+              ]
+            },
+            {
+              message: "No link to child page",
+              data: [
+                "/en-US/docs/Games"
               ]
             },
             {
@@ -22434,22 +20905,6 @@ svg.elements.feSpotLight.z`
         },
         webassembly: {
           children: {
-            guides: {
-              children: {},
-              slug: "/en-US/docs/WebAssembly/Guides",
-              messages: [
-                {
-                  message: "Not linked from parent page",
-                  data: [
-                    "/en-US/docs/WebAssembly"
-                  ]
-                },
-                {
-                  message: "Unreachable via page",
-                  data: []
-                }
-              ]
-            },
             reference: {
               children: {
                 memory: {
@@ -22782,7 +21237,7 @@ function displayWarnings() {
     } else if ([
       "Unreachable via page",
       "Unreachable via sidebar",
-      "Not linked from parent page"
+      "No link to child page"
     ].includes(message[0])) {
       graphStructure.append(option);
     } else if (["Not in BCD", "Unexpected BCD keys", "Unexpected page type"].includes(message[0])) {

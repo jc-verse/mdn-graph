@@ -218,9 +218,9 @@ This rule reports the Yari `macros` flaw. This includes non-existent pages (whic
 
 ## Graph structure issues
 
-### Not linked from parent page
+### Not link to child page
 
-This rule is sort of a superset of [unreachable via page](#unreachable-via-page). It reports pages whose parent page (page with the last segment removed) does not link to it. For example, you may add a method page but forget to link to it on the interface page.
+This rule is sort of a superset of [unreachable via page](#unreachable-via-page). It reports pages that has a child page (page with an additional segment) but does not link to it. For example, you may add a method page but forget to link to it on the interface page.
 
 ### Unreachable via page
 
