@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-14y06mnq.js";
+} from "./chunk-v7xvmf26.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -177,6 +177,13 @@ var warnings_processed_default = {
                       message: "External sandbox link",
                       data: [
                         "https://jsfiddle.net/c87z11jj/2/"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://pupunzi.open-lab.com/2013/03/13/making-html5-audio-actually-work-on-mobile/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -596,6 +603,26 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://ecma-international.org/publications-and-standards/standards/ecma-262/",
+                    404
+                  ]
+                }
+              ]
+            },
+            ecmascript: {
+              children: {},
+              slug: "/en-US/docs/Glossary/ECMAScript",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://ecma-international.org/publications-and-standards/standards/ecma-262/",
+                    404
+                  ]
                 }
               ]
             },
@@ -656,6 +683,26 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            gpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/GPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-faq.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
                 }
               ]
             },
@@ -739,6 +786,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            javascript: {
+              children: {},
+              slug: "/en-US/docs/Glossary/JavaScript",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://ecma-international.org/publications-and-standards/standards/ecma-262/",
+                    404
+                  ]
+                }
+              ]
+            },
             khronos: {
               children: {},
               slug: "/en-US/docs/Glossary/Khronos",
@@ -746,6 +806,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            lgpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/LGPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/lgpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
                 }
               ]
             },
@@ -1285,6 +1358,32 @@ var warnings_processed_default = {
                           data: []
                         }
                       ]
+                    },
+                    tooling: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Tooling",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.apple.com/accessibility/vision/",
+                            "https://www.apple.com/accessibility/features/?vision"
+                          ]
+                        }
+                      ]
+                    },
+                    what_is_accessibility: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/What_is_accessibility",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.apple.com/accessibility/vision/",
+                            "https://www.apple.com/accessibility/features/?vision"
+                          ]
+                        }
+                      ]
                     }
                   }
                 },
@@ -1737,6 +1836,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.apple.com/accessibility/vision/",
+                            "https://www.apple.com/accessibility/features/?vision"
+                          ]
                         }
                       ]
                     },
@@ -1994,6 +2100,26 @@ var warnings_processed_default = {
                         }
                       ]
                     },
+                    html_images: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://chooser-beta.creativecommons.org/",
+                            404
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
                     html_video_and_audio: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_video_and_audio",
@@ -2157,6 +2283,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.apple.com/accessibility/vision/",
+                            "https://www.apple.com/accessibility/features/?vision"
+                          ]
                         }
                       ]
                     },
@@ -2249,6 +2382,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -2287,6 +2427,23 @@ var warnings_processed_default = {
                               data: [
                                 "http://callbackhell.com/",
                                 ""
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    first_steps: {
+                      children: {
+                        "client-server_overview": {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.telerik.com/download/fiddler",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -2543,6 +2700,27 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://webchat.freenode.net/?channels=textmate",
                             521
                           ]
@@ -2559,10 +2737,30 @@ var warnings_processed_default = {
                         }
                       ]
                     },
+                    how_do_you_host_your_website_on_google_app_engine: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gaesamplesite.appspot.com/",
+                            503
+                          ]
+                        }
+                      ]
+                    },
                     what_software_do_i_need: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -6957,6 +7155,13 @@ webextensions.manifest.options_ui`,
                           data: [
                             "/en-US/docs/New_in_JavaScript_1.6"
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://ecma-international.org/publications-and-standards/standards/ecma-262/",
+                            404
+                          ]
                         }
                       ]
                     },
@@ -7404,7 +7609,7 @@ webextensions.manifest.options_ui`,
                           message: "Broken external link",
                           data: [
                             "https://colorusage.arc.nasa.gov/flashing.php",
-                            "Unable to connect. Is the computer able to access the url?"
+                            "Was there a typo in the url or port?"
                           ]
                         },
                         {
@@ -7666,25 +7871,25 @@ webextensions.manifest.options_ui`,
                             {
                               message: "Unused image",
                               data: [
-                                "canvas_moon.png"
-                              ]
-                            },
-                            {
-                              message: "Unused image",
-                              data: [
                                 "canvas_earth.png"
                               ]
                             },
                             {
                               message: "Unused image",
                               data: [
-                                "canvas_sun.png"
+                                "capitan_meadows_yosemite_national_park.jpg"
                               ]
                             },
                             {
                               message: "Unused image",
                               data: [
-                                "capitan_meadows_yosemite_national_park.jpg"
+                                "canvas_moon.png"
+                              ]
+                            },
+                            {
+                              message: "Unused image",
+                              data: [
+                                "canvas_sun.png"
                               ]
                             }
                           ]
@@ -7708,37 +7913,25 @@ webextensions.manifest.options_ui`,
                             {
                               message: "Unused image",
                               data: [
-                                "gallery_4.jpg"
-                              ]
-                            },
-                            {
-                              message: "Unused image",
-                              data: [
-                                "backdrop.png"
-                              ]
-                            },
-                            {
-                              message: "Unused image",
-                              data: [
-                                "gallery_3.jpg"
-                              ]
-                            },
-                            {
-                              message: "Unused image",
-                              data: [
-                                "gallery_6.jpg"
-                              ]
-                            },
-                            {
-                              message: "Unused image",
-                              data: [
                                 "gallery_1.jpg"
                               ]
                             },
                             {
                               message: "Unused image",
                               data: [
-                                "gallery_8.jpg"
+                                "gallery_4.jpg"
+                              ]
+                            },
+                            {
+                              message: "Unused image",
+                              data: [
+                                "canvas_picture_frame.png"
+                              ]
+                            },
+                            {
+                              message: "Unused image",
+                              data: [
+                                "gallery_3.jpg"
                               ]
                             },
                             {
@@ -7762,13 +7955,25 @@ webextensions.manifest.options_ui`,
                             {
                               message: "Unused image",
                               data: [
+                                "backdrop.png"
+                              ]
+                            },
+                            {
+                              message: "Unused image",
+                              data: [
+                                "gallery_8.jpg"
+                              ]
+                            },
+                            {
+                              message: "Unused image",
+                              data: [
                                 "gallery_5.jpg"
                               ]
                             },
                             {
                               message: "Unused image",
                               data: [
-                                "canvas_picture_frame.png"
+                                "gallery_6.jpg"
                               ]
                             }
                           ]
@@ -8748,7 +8953,7 @@ api.Document.fullscreen`,
                         {
                           message: "Unused image",
                           data: [
-                            "new-york-skyline-4by3.jpg"
+                            "new-york-skyline-wide.jpg"
                           ]
                         },
                         {
@@ -8760,7 +8965,7 @@ api.Document.fullscreen`,
                         {
                           message: "Unused image",
                           data: [
-                            "new-york-skyline-wide.jpg"
+                            "new-york-skyline-4by3.jpg"
                           ]
                         }
                       ]
@@ -12392,13 +12597,13 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unexpected asset file",
                           data: [
-                            "montecarlo-regular.woff2"
+                            "ofl.txt"
                           ]
                         },
                         {
                           message: "Unexpected asset file",
                           data: [
-                            "ofl.txt"
+                            "montecarlo-regular.woff2"
                           ]
                         },
                         {
@@ -13395,6 +13600,13 @@ css.selectors.-webkit-resizer`,
                       data: [
                         "anemones.jpg"
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -13518,6 +13730,13 @@ css.selectors.-webkit-resizer`,
                           data: []
                         },
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/fill-stroke-3/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word path (CssSyntaxError)",
@@ -13539,6 +13758,32 @@ css.selectors.-webkit-resizer`,
                             "Unknown word path (CssSyntaxError)",
                             'path("M 10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80");',
                             "1:1"
+                          ]
+                        }
+                      ]
+                    },
+                    polygon: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/basic-shape/polygon",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/fill-stroke-3/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    shape: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/basic-shape/shape",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/fill-stroke-3/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -14249,6 +14494,19 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
+                "color-interpolation-filters": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/color-interpolation-filters",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 "color-interpolation-method": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/color-interpolation-method",
@@ -14281,12 +14539,6 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Unused image",
                       data: [
-                        "2x.png"
-                      ]
-                    },
-                    {
-                      message: "Unused image",
-                      data: [
                         "1x.png"
                       ]
                     },
@@ -14294,6 +14546,12 @@ css.selectors.-webkit-resizer`,
                       message: "Unused image",
                       data: [
                         "mdn.svg"
+                      ]
+                    },
+                    {
+                      message: "Unused image",
+                      data: [
+                        "2x.png"
                       ]
                     }
                   ]
@@ -14411,7 +14669,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unused image",
                           data: [
-                            "no-dimensions-or-ratio.svg"
+                            "100px-height-3x4-ratio.svg"
                           ]
                         },
                         {
@@ -14423,13 +14681,13 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unused image",
                           data: [
-                            "100px-wide-no-height-or-ratio.svg"
+                            "no-dimensions-or-ratio.svg"
                           ]
                         },
                         {
                           message: "Unused image",
                           data: [
-                            "100px-height-3x4-ratio.svg"
+                            "100px-wide-no-height-or-ratio.svg"
                           ]
                         }
                       ]
@@ -15316,6 +15574,45 @@ css.properties.grid-template-rows.masonry`,
                     }
                   }
                 },
+                fill: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/fill",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "fill-opacity": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/fill-opacity",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "fill-rule": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/fill-rule",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 filter: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/filter",
@@ -15324,6 +15621,13 @@ css.properties.grid-template-rows.masonry`,
                       message: "Unused image",
                       data: [
                         "pencil.jpg"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -15337,6 +15641,13 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "Missing syntax code block",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
                         },
                         {
                           message: "CSS code issue",
@@ -15367,6 +15678,13 @@ css.properties.grid-template-rows.masonry`,
                           ]
                         },
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word brightness (CssSyntaxError)",
@@ -15387,6 +15705,13 @@ css.properties.grid-template-rows.masonry`,
                           ]
                         },
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word contrast (CssSyntaxError)",
@@ -15396,10 +15721,30 @@ css.properties.grid-template-rows.masonry`,
                         }
                       ]
                     },
+                    "drop-shadow": {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/filter-function/drop-shadow",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     grayscale: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/filter-function/grayscale",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "CSS code issue",
                           data: [
@@ -15417,6 +15762,13 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "Missing syntax code block",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
                         },
                         {
                           message: "CSS code issue",
@@ -15441,6 +15793,13 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/invert",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word invert (CssSyntaxError)",
@@ -15454,6 +15813,13 @@ css.properties.grid-template-rows.masonry`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/filter-function/opacity",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "CSS code issue",
                           data: [
@@ -15469,6 +15835,13 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/saturate",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word saturate (CssSyntaxError)",
@@ -15482,6 +15855,13 @@ css.properties.grid-template-rows.masonry`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/filter-function/sepia",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "CSS code issue",
                           data: [
@@ -15498,6 +15878,13 @@ css.properties.grid-template-rows.masonry`,
                     {
                       message: "Missing syntax code block",
                       data: []
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -15563,6 +15950,32 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
+                "flood-color": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/flood-color",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "flood-opacity": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/flood-opacity",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 font: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/font",
@@ -15590,13 +16003,13 @@ css.properties.width.fit-content_function`
                     {
                       message: "Unexpected asset file",
                       data: [
-                        "montecarlo-regular.woff2"
+                        "ofl.txt"
                       ]
                     },
                     {
                       message: "Unexpected asset file",
                       data: [
-                        "ofl.txt"
+                        "montecarlo-regular.woff2"
                       ]
                     }
                   ]
@@ -15828,13 +16241,13 @@ css.properties.width.fit-content_function`
                         {
                           message: "Unused image",
                           data: [
-                            "rightarrow.png"
+                            "firefox.png"
                           ]
                         },
                         {
                           message: "Unused image",
                           data: [
-                            "firefox.png"
+                            "rightarrow.png"
                           ]
                         },
                         {
@@ -16031,6 +16444,19 @@ css.properties.width.fit-content_function`
                     {
                       message: "Missing syntax code block",
                       data: []
+                    }
+                  ]
+                },
+                "lighting-color": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/lighting-color",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -16956,6 +17382,117 @@ css.properties.grid-template-rows.repeat`
                     }
                   ]
                 },
+                stroke: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "stroke-dasharray": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke-dasharray",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "stroke-dashoffset": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke-dashoffset",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "stroke-linecap": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke-linecap",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "stroke-linejoin": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke-linejoin",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "stroke-miterlimit": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke-miterlimit",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "stroke-opacity": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke-opacity",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "stroke-width": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke-width",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 symbols: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/symbols",
@@ -17301,13 +17838,13 @@ css.properties.list-style-type.symbols`
                     {
                       message: "Unused image",
                       data: [
-                        "frame_image.svg"
+                        "star.png"
                       ]
                     },
                     {
                       message: "Unused image",
                       data: [
-                        "star.png"
+                        "frame_image.svg"
                       ]
                     }
                   ]
@@ -17975,13 +18512,6 @@ html.elements.select.size`
                               data: [
                                 "mdn-logo-sm.png"
                               ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://info.cern.ch/",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         },
@@ -17992,13 +18522,13 @@ html.elements.select.size`
                             {
                               message: "Unused image",
                               data: [
-                                "clock-demo-200px.png"
+                                "clock-demo-400px.png"
                               ]
                             },
                             {
                               message: "Unused image",
                               data: [
-                                "clock-demo-400px.png"
+                                "clock-demo-200px.png"
                               ]
                             }
                           ]
@@ -18166,6 +18696,13 @@ http.headers.Use-As-Dictionary`,
                       slug: "/en-US/docs/Web/HTTP/Guides/CORS",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.telerik.com/blogs/using-cors-with-all-modern-browsers",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "Unexpected BCD keys",
                           data: [
                             "Actual:",
@@ -18284,6 +18821,19 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         "available-dictionary": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Available-Dictionary",
@@ -18614,6 +19164,19 @@ http.headers.Use-As-Dictionary`,
                           message: "Not linked from parent page",
                           data: [
                             "/en-US/docs/Web/JavaScript/Guide"
+                          ]
+                        }
+                      ]
+                    },
+                    introduction: {
+                      children: {},
+                      slug: "/en-US/docs/Web/JavaScript/Guide/Introduction",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://ecma-international.org/publications-and-standards/standards/ecma-262/",
+                            404
                           ]
                         }
                       ]
@@ -18959,6 +19522,13 @@ http.headers.Use-As-Dictionary`,
                           data: [
                             "/en-US/docs/Web/JavaScript/Reference"
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://ecma-international.org/publications-and-standards/standards/ecma-262/",
+                            404
+                          ]
                         }
                       ]
                     },
@@ -19205,6 +19775,26 @@ http.headers.Use-As-Dictionary`,
                     },
                     formats: {
                       children: {
+                        image_types: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Image_types",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.ercim.eu/",
+                                500
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.ercim.eu/",
+                                500
+                              ]
+                            }
+                          ]
+                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -19475,12 +20065,6 @@ http.headers.Use-As-Dictionary`,
                             {
                               message: "Unused image",
                               data: [
-                                "circle.svg"
-                              ]
-                            },
-                            {
-                              message: "Unused image",
-                              data: [
                                 "tire.svg"
                               ]
                             },
@@ -19488,6 +20072,12 @@ http.headers.Use-As-Dictionary`,
                               message: "Unused image",
                               data: [
                                 "wheel.svg"
+                              ]
+                            },
+                            {
+                              message: "Unused image",
+                              data: [
+                                "circle.svg"
                               ]
                             }
                           ]
@@ -19567,6 +20157,22 @@ http.headers.Use-As-Dictionary`,
                       children: {},
                       slug: "/en-US/docs/Web/Security/Attacks/CSRF",
                       messages: [
+                        {
+                          message: "Unreachable via page",
+                          data: []
+                        }
+                      ]
+                    },
+                    "xs-leaks": {
+                      children: {},
+                      slug: "/en-US/docs/Web/Security/Attacks/XS-Leaks",
+                      messages: [
+                        {
+                          message: "Bad href",
+                          data: [
+                            "frame_counting_using_window_references"
+                          ]
+                        },
                         {
                           message: "Unreachable via page",
                           data: []
@@ -19706,22 +20312,6 @@ html.elements.script.integrity`,
             },
             svg: {
               children: {
-                guides: {
-                  children: {},
-                  slug: "/en-US/docs/Web/SVG/Guides",
-                  messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Web/SVG"
-                      ]
-                    },
-                    {
-                      message: "Unreachable via page",
-                      data: []
-                    }
-                  ]
-                },
                 reference: {
                   children: {
                     attribute: {
@@ -21277,13 +21867,13 @@ svg.elements.feSpotLight.z`
                             {
                               message: "Unused image",
                               data: [
-                                "bar_discard_event.svg"
+                                "bar_discard_time.svg"
                               ]
                             },
                             {
                               message: "Unused image",
                               data: [
-                                "bar_discard_time.svg"
+                                "bar_discard_event.svg"
                               ]
                             },
                             {
@@ -21467,20 +22057,7 @@ svg.elements.feSpotLight.z`
                         }
                       }
                     }
-                  },
-                  slug: "/en-US/docs/Web/SVG/Reference",
-                  messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Web/SVG"
-                      ]
-                    },
-                    {
-                      message: "Unreachable via page",
-                      data: []
-                    }
-                  ]
+                  }
                 },
                 tutorials: {
                   children: {
@@ -21513,41 +22090,12 @@ svg.elements.feSpotLight.z`
                         }
                       }
                     }
-                  },
-                  slug: "/en-US/docs/Web/SVG/Tutorials",
-                  messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Web/SVG"
-                      ]
-                    },
-                    {
-                      message: "Unreachable via page",
-                      data: []
-                    }
-                  ]
+                  }
                 }
               }
             },
             uri: {
               children: {
-                guides: {
-                  children: {},
-                  slug: "/en-US/docs/Web/URI/Guides",
-                  messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Web/URI"
-                      ]
-                    },
-                    {
-                      message: "Unreachable via page",
-                      data: []
-                    }
-                  ]
-                },
                 reference: {
                   children: {
                     fragment: {
@@ -21563,6 +22111,26 @@ svg.elements.feSpotLight.z`
                           ]
                         }
                       }
+                    },
+                    path: {
+                      children: {},
+                      slug: "/en-US/docs/Web/URI/Reference/Path",
+                      messages: [
+                        {
+                          message: "Missing syntax code block",
+                          data: []
+                        }
+                      ]
+                    },
+                    query: {
+                      children: {},
+                      slug: "/en-US/docs/Web/URI/Reference/Query",
+                      messages: [
+                        {
+                          message: "Missing syntax code block",
+                          data: []
+                        }
+                      ]
                     },
                     schemes: {
                       children: {
@@ -21595,25 +22163,31 @@ svg.elements.feSpotLight.z`
                               data: []
                             }
                           ]
+                        },
+                        urn: {
+                          children: {},
+                          slug: "/en-US/docs/Web/URI/Reference/Schemes/urn",
+                          messages: [
+                            {
+                              message: "Missing syntax code block",
+                              data: []
+                            }
+                          ]
                         }
                       }
                     }
-                  },
-                  slug: "/en-US/docs/Web/URI/Reference",
-                  messages: [
-                    {
-                      message: "Not linked from parent page",
-                      data: [
-                        "/en-US/docs/Web/URI"
-                      ]
-                    },
-                    {
-                      message: "Unreachable via page",
-                      data: []
-                    }
+                  }
+                }
+              },
+              slug: "/en-US/docs/Web/URI",
+              messages: [
+                {
+                  message: "Bad href",
+                  data: [
+                    "Choosing_between_www_and_non-www_URLs"
                   ]
                 }
-              }
+              ]
             },
             webdriver: {
               children: {
@@ -21790,7 +22364,21 @@ svg.elements.feSpotLight.z`
                 xslt: {
                   children: {
                     guides: {
-                      children: {},
+                      children: {
+                        transforming_xml_with_xslt: {
+                          children: {},
+                          slug: "/en-US/docs/Web/XML/XSLT/Guides/Transforming_XML_with_XSLT",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://xml.coverpages.org/xsl.html",
+                                "Unable to connect. Is the computer able to access the url?"
+                              ]
+                            }
+                          ]
+                        }
+                      },
                       slug: "/en-US/docs/Web/XML/XSLT/Guides",
                       messages: [
                         {
