@@ -521,11 +521,16 @@ export default async function createContentGraph() {
     for (const liveSample of node.data.live_samples) {
       const { css = "", js = "", html = "" } = liveSample;
       const jsSrcReferences = js.matchAll(/\.src = ["']([^"']+)["']/g);
+      // Used by Web/API/XMLHttpRequest/load_event and others
+      const jsFuncReferences = js.matchAll(/(?:runXHR|loadImage)\(["']([^"']+)["']\)/g);
       const jsHrefReferences = js.matchAll(/\.href = ["']([^"']+)["']/g);
       const htmlSrcReferences = html.matchAll(/src=["']([^"']+)["']/g);
+      const htmlSrcsetReferences = [...html.matchAll(/srcset=["']([^"']+)["']/g)].flatMap((match) =>
+        match[1].split(",").map((src) => [, src.split(" ").map((x) => x.trim()).find(Boolean)])
+      );
       const htmlHrefReferences = html.matchAll(/href=["']([^"']+)["']/g);
       const cssUrlReferences = css.matchAll(/url\(["']?([^"')]+)["']?\)/g);
-      for (const match of [...jsSrcReferences, ...jsHrefReferences, ...htmlSrcReferences, ...htmlHrefReferences, ...cssUrlReferences]) {
+      for (const match of [...jsSrcReferences, ...jsFuncReferences, ...jsHrefReferences, ...htmlSrcReferences, ...htmlSrcsetReferences, ...htmlHrefReferences, ...cssUrlReferences]) {
         const src = match[1];
         if (!src.startsWith("https:") && !src.startsWith("http:") && !src.startsWith("/shared-assets/") && src !== "#") {
           const resolvedSrc = new URL(src, `https://developer.mozilla.org${node.id}/`).pathname;
