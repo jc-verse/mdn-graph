@@ -328,6 +328,7 @@ function displayWarnings() {
       [
         "Bad DL",
         "Bad href",
+        "Bad macro",
         "Bad sidebar link",
         "Code with space",
         "Code with underscore",

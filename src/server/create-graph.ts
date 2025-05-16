@@ -530,7 +530,11 @@ export default async function createContentGraph() {
       );
       const htmlHrefReferences = html.matchAll(/href=["']([^"']+)["']/g);
       const cssUrlReferences = css.matchAll(/url\(["']?([^"')]+)["']?\)/g);
-      for (const match of [...jsSrcReferences, ...jsFuncReferences, ...jsHrefReferences, ...htmlSrcReferences, ...htmlSrcsetReferences, ...htmlHrefReferences, ...cssUrlReferences]) {
+      const cssImageReferences = css.matchAll(/image\((?:ltr |rtl )?["']([^"']+)["']\)/g);
+      const cssImageSetReferences = [...css.matchAll(/image-set\(((?:[^)]|type\([^)]+\)|url\([^)]+\))+)\)/g)].flatMap((match) =>
+        [...match[1].matchAll(/(?<!type\()["']([^"']+)["']/g)].map((src) => [, src[1]])
+      );
+      for (const match of [...jsSrcReferences, ...jsFuncReferences, ...jsHrefReferences, ...htmlSrcReferences, ...htmlSrcsetReferences, ...htmlHrefReferences, ...cssUrlReferences, ...cssImageReferences, ...cssImageSetReferences]) {
         const src = match[1];
         if (!src.startsWith("https:") && !src.startsWith("http:") && !src.startsWith("/shared-assets/") && src !== "#") {
           const resolvedSrc = new URL(src, `https://developer.mozilla.org${node.id}/`).pathname;

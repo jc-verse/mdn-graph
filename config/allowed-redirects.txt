@@ -20,6 +20,7 @@ https://scrimba.com/{([^?]+)}?via={([a-z-]+)}	https://scrimba.com/$1?via=$2{&.*}
 https://www.sublimelinter.com/	http://www.sublimelinter.com/en/master/
 
 https://onlinelibrary.wiley.com/doi/{.*}	https://onlinelibrary.wiley.com/action/cookieAbsent
+https://dl.acm.org/doi/{.*}	https://dl.acm.org/action/cookieAbsent
 
 https://github.com/mdn/curriculum/releases/latest/download/MDN-Curriculum.pdf	https://objects.githubusercontent.com/github-production-release-asset-{.+}
 https://github.com/{([^/]+)}/{([^/]+)}/archive/{(\w+)}.zip	https://codeload.github.com/$1/$2/zip/refs/heads/$3

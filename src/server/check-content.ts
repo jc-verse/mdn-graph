@@ -245,6 +245,12 @@ export function checkContent(
   $("dt + dt").each((i, dt) => {
     report("Bad DL", $(dt).text().slice(0, 50));
   });
+  $("s").each((i, s) => {
+    const text = $(s).text();
+    if (text.startsWith("unsupported templ:")) {
+      report("Bad macro", text);
+    }
+  })
   if (rawContent.includes("-: "))
     report("Bad DL", rawContent.match(/-: .*$/m)?.[0].slice(0, 50));
   if (rawContent.includes("could not find syntax for this item"))
