@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-kbfjcnp2.js";
+} from "./chunk-xaghgvgx.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -438,19 +438,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            first_contentful_paint: {
-              children: {},
-              slug: "/en-US/docs/Glossary/First_contentful_paint",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://web.dev/articles/fcp",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             fragmentainer: {
               children: {},
               slug: "/en-US/docs/Glossary/Fragmentainer",
@@ -657,32 +644,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            lossless_compression: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Lossless_compression",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://developers.google.com/speed/webp/docs/compression",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
-            lossy_compression: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Lossy_compression",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://developers.google.com/speed/webp/docs/compression",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             media: {
               children: {
                 "audio-visual_presentation": {
@@ -861,19 +822,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            reflow: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Reflow",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://developers.google.com/speed/docs/insights/browser-reflow",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -1474,13 +1422,6 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://phabricator.wikimedia.org/T241180",
-                            "429 Retry-After: 1000"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://new.drupal.org/",
                             403
                           ]
@@ -1922,10 +1863,10 @@ var warnings_processed_default = {
                           data: []
                         },
                         {
-                          message: "Broken external link",
+                          message: "HTTP link",
                           data: [
                             "http://tavmjong.free.fr/INKSCAPE/MANUAL/html/Web-Inkscape.html",
-                            "Cannot reach server and Bun hangs"
+                            ""
                           ]
                         }
                       ]
@@ -2160,13 +2101,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://csp-evaluator.withgoogle.com/",
-                            500
-                          ]
                         }
                       ]
                     },
@@ -2204,6 +2138,27 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            getting_started: {
+              children: {
+                soft_skills: {
+                  children: {
+                    finding_a_job: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Finding_a_job",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.upwork.com/",
+                            403
+                          ]
                         }
                       ]
                     }
@@ -2437,6 +2392,19 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    how_do_you_host_your_website_on_google_app_engine: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gaesamplesite.appspot.com/",
+                            503
+                          ]
                         }
                       ]
                     },
@@ -7267,27 +7235,6 @@ webextensions.manifest.options_ui`,
                         {
                           message: "Broken browser compat anchor",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://privacysandbox.google.com/private-advertising/attribution-reporting/custom-report-windows",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://privacysandbox.google.com/private-advertising/attribution-reporting/custom-report-windows",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://privacysandbox.google.com/private-advertising/attribution-reporting/understanding-noise",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -7358,10 +7305,10 @@ webextensions.manifest.options_ui`,
                   slug: "/en-US/docs/Web/API/Canvas_API",
                   messages: [
                     {
-                      message: "HTTP link",
+                      message: "Broken external link",
                       data: [
                         "http://paperjs.org/",
-                        ""
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -9141,23 +9088,6 @@ api.Document.fullscreen`,
                     }
                   ]
                 },
-                storage_access_api: {
-                  children: {
-                    related_website_sets: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Storage_Access_API/Related_website_sets",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://privacysandbox.google.com/cookies/related-website-sets-integration",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 svgrenderingintent: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SVGRenderingIntent",
@@ -9869,6 +9799,23 @@ api.Window.sessionStorage`,
                         }
                       ]
                     },
+                    tutorial: {
+                      children: {
+                        using_textures_in_webgl: {
+                          children: {},
+                          slug: "/en-US/docs/Web/API/WebGL_API/Tutorial/Using_textures_in_WebGL",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jameshfisher.com/2020/10/22/why-is-my-webgl-texture-upside-down/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     webgl_best_practices: {
                       children: {},
                       slug: "/en-US/docs/Web/API/WebGL_API/WebGL_best_practices",
@@ -9937,6 +9884,13 @@ api.Window.sessionStorage`,
                       data: [
                         "http://www.webglacademy.com/",
                         ""
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://pixijs.com/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -13063,6 +13017,13 @@ css.selectors.-webkit-resizer`,
                         "https://drafts.fxtf.org/filter-effects-2/",
                         "The operation timed out."
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -13110,6 +13071,13 @@ css.selectors.-webkit-resizer`,
                       message: "Bad href",
                       data: [
                         "Web/CSS/CSS_cascade/Value_processing#initial_value"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/compositing-2/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -13233,13 +13201,6 @@ css.selectors.-webkit-resizer`,
                           data: []
                         },
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/fill-stroke-3/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word path (CssSyntaxError)",
@@ -13265,19 +13226,6 @@ css.selectors.-webkit-resizer`,
                         }
                       ]
                     },
-                    polygon: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/basic-shape/polygon",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/fill-stroke-3/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     rect: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/basic-shape/rect",
@@ -13286,19 +13234,6 @@ css.selectors.-webkit-resizer`,
                           message: "Broken external link",
                           data: [
                             "https://drafts.fxtf.org/css-masking-1/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    shape: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/basic-shape/shape",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/fill-stroke-3/",
                             "The operation timed out."
                           ]
                         }
@@ -13320,6 +13255,13 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/compositing-2/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -14921,6 +14863,13 @@ css.selectors.-webkit-resizer`,
                       data: [
                         "Web/CSS/CSS_cascade/Value_processing#initial_value"
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -15197,25 +15146,6 @@ css.selectors.-webkit-resizer`,
                       message: "Bad href",
                       data: [
                         "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Unused image",
-                      data: [
-                        "1x.png"
-                      ]
-                    },
-                    {
-                      message: "Unused image",
-                      data: [
-                        "2x.png"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://developer.chrome.com/docs/devtools/accessibility/reference",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -16332,13 +16262,6 @@ css.properties.grid-template-rows.masonry`,
                       data: [
                         "Web/CSS/CSS_cascade/Value_processing#initial_value"
                       ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -16350,13 +16273,6 @@ css.properties.grid-template-rows.masonry`,
                       message: "Bad href",
                       data: [
                         "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -16370,13 +16286,6 @@ css.properties.grid-template-rows.masonry`,
                       data: [
                         "Web/CSS/CSS_cascade/Value_processing#initial_value"
                       ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -16388,6 +16297,13 @@ css.properties.grid-template-rows.masonry`,
                       message: "Bad href",
                       data: [
                         "Web/CSS/CSS_cascade/Value_processing#initial_value"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -16401,6 +16317,13 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "Missing syntax code block",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
                         },
                         {
                           message: "CSS code issue",
@@ -16425,6 +16348,13 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/brightness",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word brightness (CssSyntaxError)",
@@ -16439,6 +16369,13 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/contrast",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word contrast (CssSyntaxError)",
@@ -16448,10 +16385,30 @@ css.properties.grid-template-rows.masonry`,
                         }
                       ]
                     },
+                    "drop-shadow": {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/filter-function/drop-shadow",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     grayscale: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/filter-function/grayscale",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "CSS code issue",
                           data: [
@@ -16477,6 +16434,13 @@ css.properties.grid-template-rows.masonry`,
                           ]
                         },
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word hue-rotate (CssSyntaxError)",
@@ -16499,6 +16463,13 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/invert",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word invert (CssSyntaxError)",
@@ -16512,6 +16483,13 @@ css.properties.grid-template-rows.masonry`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/filter-function/opacity",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "CSS code issue",
                           data: [
@@ -16527,6 +16505,13 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/saturate",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word saturate (CssSyntaxError)",
@@ -16540,6 +16525,13 @@ css.properties.grid-template-rows.masonry`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/filter-function/sepia",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "CSS code issue",
                           data: [
@@ -16556,6 +16548,13 @@ css.properties.grid-template-rows.masonry`,
                     {
                       message: "Missing syntax code block",
                       data: []
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -16726,6 +16725,13 @@ css.properties.width.fit-content_function`
                       data: [
                         "Web/CSS/CSS_cascade/Value_processing#initial_value"
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -16737,6 +16743,13 @@ css.properties.width.fit-content_function`
                       message: "Bad href",
                       data: [
                         "Web/CSS/CSS_cascade/Value_processing#initial_value"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -17568,18 +17581,6 @@ css.properties.width.fit-content_function`
                       slug: "/en-US/docs/Web/CSS/image/image",
                       messages: [
                         {
-                          message: "Unused image",
-                          data: [
-                            "rightarrow.png"
-                          ]
-                        },
-                        {
-                          message: "Unused image",
-                          data: [
-                            "sprite.png"
-                          ]
-                        },
-                        {
                           message: "Not in BCD",
                           data: [
                             "css.types.image.image"
@@ -17841,6 +17842,13 @@ css.properties.width.fit-content_function`
                       data: [
                         "Web/CSS/CSS_cascade/Value_processing#initial_value"
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/compositing-2/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -17957,6 +17965,13 @@ css.properties.width.fit-content_function`
                       message: "Bad href",
                       data: [
                         "Web/CSS/CSS_cascade/Value_processing#initial_value"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -18441,6 +18456,12 @@ css.properties.width.fit-content_function`
                   slug: "/en-US/docs/Web/CSS/mask-clip",
                   messages: [
                     {
+                      message: "Bad macro",
+                      data: [
+                        "unsupported templ: svgelem"
+                      ]
+                    },
+                    {
                       message: "Bad href",
                       data: [
                         "Web/CSS/CSS_cascade/Value_processing#initial_value"
@@ -18824,6 +18845,13 @@ css.properties.grid-template-rows.minmax`
                         "https://drafts.fxtf.org/compositing/",
                         "The operation timed out."
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/compositing-2/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -18880,13 +18908,6 @@ css.properties.grid-template-rows.minmax`
                       data: [
                         "Web/CSS/CSS_cascade/Value_processing#initial_value"
                       ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/motion-1/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -18899,13 +18920,6 @@ css.properties.grid-template-rows.minmax`
                       data: [
                         "Web/CSS/CSS_cascade/Value_processing#initial_value"
                       ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/motion-1/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -18917,13 +18931,6 @@ css.properties.grid-template-rows.minmax`
                       message: "Bad href",
                       data: [
                         "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/motion-1/",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -18961,13 +18968,6 @@ css.properties.grid-template-rows.minmax`
                       data: [
                         "https://jsfiddle.net/ericwilligers/r1snqdan/"
                       ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/motion-1/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -18980,13 +18980,6 @@ css.properties.grid-template-rows.minmax`
                       data: [
                         "Web/CSS/CSS_cascade/Value_processing#initial_value"
                       ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/motion-1/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -18998,13 +18991,6 @@ css.properties.grid-template-rows.minmax`
                       message: "Bad href",
                       data: [
                         "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/motion-1/",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -19698,19 +19684,6 @@ css.properties.grid-template-rows.minmax`
                     {
                       message: "Missing syntax code block",
                       data: []
-                    }
-                  ]
-                },
-                ray: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/ray",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/motion-1/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -20927,20 +20900,6 @@ css.properties.grid-template-rows.repeat`
                       data: [
                         "Web/CSS/CSS_cascade/Value_processing#initial_value"
                       ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -20952,13 +20911,6 @@ css.properties.grid-template-rows.repeat`
                       message: "Bad href",
                       data: [
                         "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -20972,13 +20924,6 @@ css.properties.grid-template-rows.repeat`
                       data: [
                         "Web/CSS/CSS_cascade/Value_processing#initial_value"
                       ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -20990,13 +20935,6 @@ css.properties.grid-template-rows.repeat`
                       message: "Bad href",
                       data: [
                         "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -21010,13 +20948,6 @@ css.properties.grid-template-rows.repeat`
                       data: [
                         "Web/CSS/CSS_cascade/Value_processing#initial_value"
                       ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -21028,13 +20959,6 @@ css.properties.grid-template-rows.repeat`
                       message: "Bad href",
                       data: [
                         "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -21048,13 +20972,6 @@ css.properties.grid-template-rows.repeat`
                       data: [
                         "Web/CSS/CSS_cascade/Value_processing#initial_value"
                       ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -21066,13 +20983,6 @@ css.properties.grid-template-rows.repeat`
                       message: "Bad href",
                       data: [
                         "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -22841,13 +22751,6 @@ html.elements.select.size`
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developers.google.com/search/docs/crawling-indexing/special-tags?visit_id=637855965074074862-574753619&rd=1",
-                                    "The operation timed out."
-                                  ]
                                 }
                               ]
                             }
@@ -23059,17 +22962,7 @@ http.headers.Use-As-Dictionary`,
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Web/HTTP/Guides/CSP",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://csp-evaluator.withgoogle.com/",
-                            500
-                          ]
-                        }
-                      ]
+                      }
                     },
                     mime_types: {
                       children: {
@@ -23379,6 +23272,23 @@ http.headers.Use-As-Dictionary`,
                           ]
                         }
                       }
+                    },
+                    status: {
+                      children: {
+                        "422": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/422",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://ruby-doc.org/3.3.2/stdlibs/base64/Base64.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
                     }
                   }
                 }
@@ -23445,19 +23355,6 @@ http.headers.Use-As-Dictionary`,
                         }
                       ]
                     },
-                    memory_management: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Memory_management",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://dl.acm.org/doi/pdf/10.1145/263700.263733",
-                            "https://dl.acm.org/action/cookieAbsent"
-                          ]
-                        }
-                      ]
-                    },
                     using_promises: {
                       children: {},
                       slug: "/en-US/docs/Web/JavaScript/Guide/Using_promises",
@@ -23480,26 +23377,6 @@ http.headers.Use-As-Dictionary`,
                     },
                     errors: {
                       children: {
-                        already_has_pragma: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Already_has_pragma",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://developer.chrome.com/blog/sourcemaps/",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://developer.chrome.com/blog/sourcemaps/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         constructor_cant_be_used_directly: {
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Constructor_cant_be_used_directly",
@@ -23508,19 +23385,6 @@ http.headers.Use-As-Dictionary`,
                               message: "Broken link",
                               data: [
                                 "/en-US/docs/Web/JavaScript/Reference/AsyncIterator%2FAsyncIterator"
-                              ]
-                            }
-                          ]
-                        },
-                        deprecated_source_map_pragma: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_source_map_pragma",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://developer.chrome.com/blog/sourcemaps/",
-                                "The operation timed out."
                               ]
                             }
                           ]
@@ -24055,19 +23919,6 @@ http.headers.Use-As-Dictionary`,
                     },
                     formats: {
                       children: {
-                        image_types: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Image_types",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://developers.google.com/speed/webp/docs/riff_container",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -24448,13 +24299,6 @@ http.headers.Use-As-Dictionary`,
                             "hash-",
                             "Text after link:",
                             "based fetch directives to ensure that only scripts"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://csp-evaluator.withgoogle.com/",
-                            500
                           ]
                         }
                       ]
@@ -26132,23 +25976,6 @@ svg.elements.feSpotLight.z`
               children: {
                 reference: {
                   children: {
-                    capabilities: {
-                      children: {
-                        firefoxoptions: {
-                          children: {},
-                          slug: "/en-US/docs/Web/WebDriver/Reference/Capabilities/firefoxOptions",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://developer.android.com/reference/android/content/Intent",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
                     timeouts: {
                       children: {},
                       slug: "/en-US/docs/Web/WebDriver/Reference/Timeouts",
@@ -26641,6 +26468,7 @@ function displayWarnings() {
     } else if ([
       "Bad DL",
       "Bad href",
+      "Bad macro",
       "Bad sidebar link",
       "Code with space",
       "Code with underscore",
