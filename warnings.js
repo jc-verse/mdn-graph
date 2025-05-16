@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-a38yanek.js";
+} from "./chunk-kbfjcnp2.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -54,13 +54,6 @@ var warnings_processed_default = {
                       message: "External sandbox link",
                       data: [
                         "https://jsfiddle.net/jlr7245/teb4znk0/20/"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.sevenson.com.au/programming/sat/",
-                        "Cannot reach server and Bun hangs"
                       ]
                     }
                   ]
@@ -445,6 +438,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            first_contentful_paint: {
+              children: {},
+              slug: "/en-US/docs/Glossary/First_contentful_paint",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://web.dev/articles/fcp",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
             fragmentainer: {
               children: {},
               slug: "/en-US/docs/Glossary/Fragmentainer",
@@ -651,6 +657,32 @@ var warnings_processed_default = {
                 }
               ]
             },
+            lossless_compression: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Lossless_compression",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://developers.google.com/speed/webp/docs/compression",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
+            lossy_compression: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Lossy_compression",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://developers.google.com/speed/webp/docs/compression",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
             media: {
               children: {
                 "audio-visual_presentation": {
@@ -829,6 +861,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            reflow: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Reflow",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://developers.google.com/speed/docs/insights/browser-reflow",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -1429,6 +1474,13 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://phabricator.wikimedia.org/T241180",
+                            "429 Retry-After: 1000"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://new.drupal.org/",
                             403
                           ]
@@ -1840,13 +1892,6 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
                       messages: [
                         {
-                          message: "Redirected external link",
-                          data: [
-                            "https://chooser-beta.creativecommons.org/",
-                            "https://creativecommons.org/chooser/"
-                          ]
-                        },
-                        {
                           message: "Broken external link",
                           data: [
                             "https://www.gnu.org/licenses/gpl-3.0.en.html",
@@ -1877,10 +1922,10 @@ var warnings_processed_default = {
                           data: []
                         },
                         {
-                          message: "HTTP link",
+                          message: "Broken external link",
                           data: [
                             "http://tavmjong.free.fr/INKSCAPE/MANUAL/html/Web-Inkscape.html",
-                            ""
+                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -1949,23 +1994,6 @@ var warnings_processed_default = {
                       ]
                     }
                   ]
-                },
-                text_styling: {
-                  children: {
-                    web_fonts: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.exljbris.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 }
               },
               slug: "/en-US/docs/Learn_web_development/Core",
@@ -2021,18 +2049,6 @@ var warnings_processed_default = {
                 },
                 forms: {
                   children: {
-                    basic_native_form_controls: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Basic_native_form_controls",
-                      messages: [
-                        {
-                          message: "Missing image",
-                          data: [
-                            "my-img.png"
-                          ]
-                        }
-                      ]
-                    },
                     how_to_build_custom_form_controls: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls",
@@ -2074,18 +2090,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    },
-                    styling_web_forms: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Styling_web_forms",
-                      messages: [
-                        {
-                          message: "Unused image",
-                          data: [
-                            "background.jpg"
-                          ]
                         }
                       ]
                     },
@@ -2156,6 +2160,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://csp-evaluator.withgoogle.com/",
+                            500
+                          ]
                         }
                       ]
                     },
@@ -2193,32 +2204,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    }
-                  }
-                }
-              }
-            },
-            getting_started: {
-              children: {
-                your_first_website: {
-                  children: {
-                    styling_the_content: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content",
-                      messages: [
-                        {
-                          message: "Unused image",
-                          data: [
-                            "boxes.jpg"
-                          ]
-                        },
-                        {
-                          message: "Unused image",
-                          data: [
-                            "css-declaration-small.png"
-                          ]
                         }
                       ]
                     }
@@ -7282,6 +7267,27 @@ webextensions.manifest.options_ui`,
                         {
                           message: "Broken browser compat anchor",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://privacysandbox.google.com/private-advertising/attribution-reporting/custom-report-windows",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://privacysandbox.google.com/private-advertising/attribution-reporting/custom-report-windows",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://privacysandbox.google.com/private-advertising/attribution-reporting/understanding-noise",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -7783,48 +7789,6 @@ api.DeviceOrientationEvent`,
                         }
                       ]
                     },
-                    copy_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/copy_event",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "api.Document.copy_event"
-                          ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "api.Element.copy_event",
-                            "Expected:",
-                            "api.Document.copy_event"
-                          ]
-                        }
-                      ]
-                    },
-                    cut_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/cut_event",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "api.Document.cut_event"
-                          ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "api.Element.cut_event",
-                            "Expected:",
-                            "api.Document.cut_event"
-                          ]
-                        }
-                      ]
-                    },
                     evaluate: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Document/evaluate",
@@ -7845,27 +7809,6 @@ api.DeviceOrientationEvent`,
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/chrisdavidmills/full/gzYjag/"
-                          ]
-                        }
-                      ]
-                    },
-                    paste_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/paste_event",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "api.Document.paste_event"
-                          ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "api.Element.paste_event",
-                            "Expected:",
-                            "api.Document.paste_event"
                           ]
                         }
                       ]
@@ -8075,101 +8018,46 @@ api.Document.fullscreen`,
                     }
                   ]
                 },
-                htmlelement: {
+                htmllinkelement: {
                   children: {
-                    copy_event: {
+                    imagesizes: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/HTMLElement/copy_event",
+                      slug: "/en-US/docs/Web/API/HTMLLinkElement/imageSizes",
                       messages: [
                         {
-                          message: "Not in BCD",
+                          message: "Missing image",
                           data: [
-                            "api.HTMLElement.copy_event"
+                            "narrow.png"
                           ]
                         },
                         {
-                          message: "Unexpected BCD keys",
+                          message: "Missing image",
                           data: [
-                            "Actual:",
-                            "api.Element.copy_event",
-                            "Expected:",
-                            "api.HTMLElement.copy_event"
+                            "medium.png"
+                          ]
+                        },
+                        {
+                          message: "Missing image",
+                          data: [
+                            "wide.png"
                           ]
                         }
                       ]
                     },
-                    cut_event: {
+                    imagesrcset: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/HTMLElement/cut_event",
+                      slug: "/en-US/docs/Web/API/HTMLLinkElement/imageSrcset",
                       messages: [
                         {
-                          message: "Not in BCD",
+                          message: "Missing image",
                           data: [
-                            "api.HTMLElement.cut_event"
+                            "bg-narrow.png"
                           ]
                         },
                         {
-                          message: "Unexpected BCD keys",
+                          message: "Missing image",
                           data: [
-                            "Actual:",
-                            "api.Element.cut_event",
-                            "Expected:",
-                            "api.HTMLElement.cut_event"
-                          ]
-                        }
-                      ]
-                    },
-                    paste_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLElement/paste_event",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "api.HTMLElement.paste_event"
-                          ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "api.Element.paste_event",
-                            "Expected:",
-                            "api.HTMLElement.paste_event"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                htmlimageelement: {
-                  children: {
-                    crossorigin: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLImageElement/crossOrigin",
-                      messages: [
-                        {
-                          message: "Unused image",
-                          data: [
-                            "clock-demo-400px.png"
-                          ]
-                        }
-                      ]
-                    },
-                    sizes: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLImageElement/sizes",
-                      messages: [
-                        {
-                          message: "Unused image",
-                          data: [
-                            "new-york-skyline-tall.jpg"
-                          ]
-                        },
-                        {
-                          message: "Unused image",
-                          data: [
-                            "new-york-skyline-4by3.jpg"
+                            "bg-wide.png"
                           ]
                         }
                       ]
@@ -9253,84 +9141,17 @@ api.Document.fullscreen`,
                     }
                   ]
                 },
-                storage_api: {
+                storage_access_api: {
                   children: {
-                    storage_quotas_and_eviction_criteria: {
+                    related_website_sets: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/Storage_API/Storage_quotas_and_eviction_criteria",
+                      slug: "/en-US/docs/Web/API/Storage_Access_API/Related_website_sets",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.webkit.org/blog/14403/updates-to-storage-policy/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                svggraphicselement: {
-                  children: {
-                    copy_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGGraphicsElement/copy_event",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "api.SVGGraphicsElement.copy_event"
-                          ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "api.Element.copy_event",
-                            "Expected:",
-                            "api.SVGGraphicsElement.copy_event"
-                          ]
-                        }
-                      ]
-                    },
-                    cut_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGGraphicsElement/cut_event",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "api.SVGGraphicsElement.cut_event"
-                          ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "api.Element.cut_event",
-                            "Expected:",
-                            "api.SVGGraphicsElement.cut_event"
-                          ]
-                        }
-                      ]
-                    },
-                    paste_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGGraphicsElement/paste_event",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "api.SVGGraphicsElement.paste_event"
-                          ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "api.Element.paste_event",
-                            "Expected:",
-                            "api.SVGGraphicsElement.paste_event"
+                            "https://privacysandbox.google.com/cookies/related-website-sets-integration",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -10478,73 +10299,6 @@ api.Window.sessionStorage`,
                     }
                   ]
                 },
-                window: {
-                  children: {
-                    copy_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/copy_event",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "api.Window.copy_event"
-                          ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "api.Element.copy_event",
-                            "Expected:",
-                            "api.Window.copy_event"
-                          ]
-                        }
-                      ]
-                    },
-                    cut_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/cut_event",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "api.Window.cut_event"
-                          ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "api.Element.cut_event",
-                            "Expected:",
-                            "api.Window.cut_event"
-                          ]
-                        }
-                      ]
-                    },
-                    paste_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/paste_event",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "api.Window.paste_event"
-                          ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "api.Element.paste_event",
-                            "Expected:",
-                            "api.Window.paste_event"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 windowsharedstorage: {
                   children: {
                     run: {
@@ -10782,38 +10536,20 @@ api.Window.sessionStorage`,
                 },
                 xmlhttprequest: {
                   children: {
-                    error_event: {
+                    abort_event: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/XMLHttpRequest/error_event",
+                      slug: "/en-US/docs/Web/API/XMLHttpRequest/abort_event",
                       messages: [
                         {
-                          message: "Unused image",
+                          message: "Missing image",
                           data: [
-                            "example-image.jpg"
+                            "my-picture.jpg"
                           ]
-                        }
-                      ]
-                    },
-                    load_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/XMLHttpRequest/load_event",
-                      messages: [
+                        },
                         {
-                          message: "Unused image",
+                          message: "Missing image",
                           data: [
-                            "image.jpg"
-                          ]
-                        }
-                      ]
-                    },
-                    loadstart_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/XMLHttpRequest/loadstart_event",
-                      messages: [
-                        {
-                          message: "Unused image",
-                          data: [
-                            "example-image.jpg"
+                            "my-picture.jpg"
                           ]
                         }
                       ]
@@ -11147,18 +10883,6 @@ api.Window.sessionStorage`,
                     {
                       message: "Missing syntax code block",
                       data: []
-                    }
-                  ]
-                },
-                _colon_fullscreen: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:fullscreen",
-                  messages: [
-                    {
-                      message: "External sandbox link",
-                      data: [
-                        "https://jsfiddle.net/yookoala/oLc1uws0/"
-                      ]
                     }
                   ]
                 },
@@ -13387,25 +13111,6 @@ css.selectors.-webkit-resizer`,
                       data: [
                         "Web/CSS/CSS_cascade/Value_processing#initial_value"
                       ]
-                    },
-                    {
-                      message: "Missing image",
-                      data: [
-                        "image1.png"
-                      ]
-                    },
-                    {
-                      message: "Missing image",
-                      data: [
-                        "image2.png"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/compositing-2/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -13615,13 +13320,6 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/compositing-2/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -14186,36 +13884,6 @@ css.selectors.-webkit-resizer`,
                       data: [
                         "Web/CSS/CSS_cascade/Value_processing#initial_value"
                       ]
-                    },
-                    {
-                      message: "External sandbox link",
-                      data: [
-                        "https://jsfiddle.net/Tripad/qnGKj/2/"
-                      ]
-                    },
-                    {
-                      message: "External sandbox link",
-                      data: [
-                        "https://jsfiddle.net/Tripad/qnGKj/3/"
-                      ]
-                    },
-                    {
-                      message: "External sandbox link",
-                      data: [
-                        "https://jsfiddle.net/Tripad/qnGKj/4/"
-                      ]
-                    },
-                    {
-                      message: "External sandbox link",
-                      data: [
-                        "https://jsfiddle.net/Tripad/qnGKj/5/"
-                      ]
-                    },
-                    {
-                      message: "External sandbox link",
-                      data: [
-                        "https://jsfiddle.net/Tripad/qnGKj/6/"
-                      ]
                     }
                   ]
                 },
@@ -14734,12 +14402,6 @@ css.selectors.-webkit-resizer`,
                       message: "Bad href",
                       data: [
                         "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Unused image",
-                      data: [
-                        "mdn.svg"
                       ]
                     },
                     {
@@ -15548,6 +15210,13 @@ css.selectors.-webkit-resizer`,
                       data: [
                         "2x.png"
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://developer.chrome.com/docs/devtools/accessibility/reference",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -15930,12 +15599,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/CSS_filter_effects/Using_filter_effects",
                       messages: [
                         {
-                          message: "Missing image",
-                          data: [
-                            "image.jpg"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -16051,55 +15714,9 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/CSS_masking/Clipping",
                       messages: [
                         {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "inset()",
-                            "Text before code:",
-                            "ng. Shapes provide even more control. For example,"
-                          ]
-                        },
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "shape()",
-                            "Text before code:",
-                            "most intuitive. For this reason, CSS also offers a"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#svg-as-source"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#shape-function"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#svg-as-source"
-                          ]
-                        },
-                        {
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Web/CSS/geometry-box"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#clipping-to-basic-shapes"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#visual-box-values"
                           ]
                         },
                         {
@@ -16120,12 +15737,6 @@ css.properties.grid-template-rows.masonry`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_masking/Masking",
                       messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#alpha-transparency_versus_luminance"
-                          ]
-                        },
                         {
                           message: "Broken link",
                           data: [
@@ -16814,24 +16425,6 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/brightness",
                       messages: [
                         {
-                          message: "Missing image",
-                          data: [
-                            "image.jpg"
-                          ]
-                        },
-                        {
-                          message: "Missing image",
-                          data: [
-                            "folder/fileName.svg#darken25"
-                          ]
-                        },
-                        {
-                          message: "Unused image",
-                          data: [
-                            "be_fierce.jpg"
-                          ]
-                        },
-                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word brightness (CssSyntaxError)",
@@ -16845,24 +16438,6 @@ css.properties.grid-template-rows.masonry`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/filter-function/contrast",
                       messages: [
-                        {
-                          message: "Missing image",
-                          data: [
-                            "image.jpg"
-                          ]
-                        },
-                        {
-                          message: "Missing image",
-                          data: [
-                            "folder/fileName.svg#contrast"
-                          ]
-                        },
-                        {
-                          message: "Unused image",
-                          data: [
-                            "unity_for_the_people.jpg"
-                          ]
-                        },
                         {
                           message: "CSS code issue",
                           data: [
@@ -16899,12 +16474,6 @@ css.properties.grid-template-rows.masonry`,
                           message: "Missing image",
                           data: [
                             "image.jpg"
-                          ]
-                        },
-                        {
-                          message: "Missing image",
-                          data: [
-                            "folder/fileName.svg#filterID"
                           ]
                         },
                         {
@@ -18272,13 +17841,6 @@ css.properties.width.fit-content_function`
                       data: [
                         "Web/CSS/CSS_cascade/Value_processing#initial_value"
                       ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/compositing-2/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -19262,13 +18824,6 @@ css.properties.grid-template-rows.minmax`
                         "https://drafts.fxtf.org/compositing/",
                         "The operation timed out."
                       ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/compositing-2/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -19325,6 +18880,13 @@ css.properties.grid-template-rows.minmax`
                       data: [
                         "Web/CSS/CSS_cascade/Value_processing#initial_value"
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/motion-1/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -19337,6 +18899,13 @@ css.properties.grid-template-rows.minmax`
                       data: [
                         "Web/CSS/CSS_cascade/Value_processing#initial_value"
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/motion-1/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -19348,6 +18917,13 @@ css.properties.grid-template-rows.minmax`
                       message: "Bad href",
                       data: [
                         "Web/CSS/CSS_cascade/Value_processing#initial_value"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/motion-1/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -19385,6 +18961,13 @@ css.properties.grid-template-rows.minmax`
                       data: [
                         "https://jsfiddle.net/ericwilligers/r1snqdan/"
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/motion-1/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -19397,6 +18980,13 @@ css.properties.grid-template-rows.minmax`
                       data: [
                         "Web/CSS/CSS_cascade/Value_processing#initial_value"
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/motion-1/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -19408,6 +18998,13 @@ css.properties.grid-template-rows.minmax`
                       message: "Bad href",
                       data: [
                         "Web/CSS/CSS_cascade/Value_processing#initial_value"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/motion-1/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -20101,6 +19698,19 @@ css.properties.grid-template-rows.minmax`
                     {
                       message: "Missing syntax code block",
                       data: []
+                    }
+                  ]
+                },
+                ray: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/ray",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/motion-1/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -22696,6 +22306,20 @@ css.properties.list-style-type.symbols`
                   message: "Broken anchor",
                   data: [
                     "/en-US/docs/Web/API/Document",
+                    "#clipboard_events"
+                  ]
+                },
+                {
+                  message: "Broken anchor",
+                  data: [
+                    "/en-US/docs/Web/API/Window",
+                    "#clipboard_events"
+                  ]
+                },
+                {
+                  message: "Broken anchor",
+                  data: [
+                    "/en-US/docs/Web/API/Document",
                     "#transition_events"
                   ]
                 },
@@ -22767,6 +22391,13 @@ css.properties.list-style-type.symbols`
                   data: [
                     "/en-US/docs/Web/API/HTMLElement",
                     "#pointer_events"
+                  ]
+                },
+                {
+                  message: "Broken anchor",
+                  data: [
+                    "/en-US/docs/Web/API/SVGGraphicsElement",
+                    "#events"
                   ]
                 },
                 {
@@ -23196,7 +22827,7 @@ html.elements.select.size`
                               message: "Broken external link",
                               data: [
                                 "https://info.cern.ch/",
-                                "The operation timed out."
+                                "Cannot reach server and Bun hangs"
                               ]
                             }
                           ]
@@ -23210,6 +22841,13 @@ html.elements.select.size`
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developers.google.com/search/docs/crawling-indexing/special-tags?visit_id=637855965074074862-574753619&rd=1",
+                                    "The operation timed out."
+                                  ]
                                 }
                               ]
                             }
@@ -23421,7 +23059,17 @@ http.headers.Use-As-Dictionary`,
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/HTTP/Guides/CSP",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://csp-evaluator.withgoogle.com/",
+                            500
+                          ]
+                        }
+                      ]
                     },
                     mime_types: {
                       children: {
@@ -23524,19 +23172,6 @@ http.headers.Use-As-Dictionary`,
                             }
                           ]
                         },
-                        connection: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Connection",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://httpwg.org/specs/rfc9114.html",
-                                503
-                              ]
-                            }
-                          ]
-                        },
                         "content-disposition": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Disposition",
@@ -23568,19 +23203,6 @@ http.headers.Use-As-Dictionary`,
                             {
                               message: "Missing syntax code block",
                               data: []
-                            }
-                          ]
-                        },
-                        "keep-alive": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Keep-Alive",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://httpwg.org/specs/rfc9114.html",
-                                503
-                              ]
                             }
                           ]
                         },
@@ -23669,19 +23291,6 @@ http.headers.Use-As-Dictionary`,
                             {
                               message: "Missing syntax code block",
                               data: []
-                            }
-                          ]
-                        },
-                        te: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/TE",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://httpwg.org/specs/rfc9114.html",
-                                503
-                              ]
                             }
                           ]
                         },
@@ -23836,6 +23445,19 @@ http.headers.Use-As-Dictionary`,
                         }
                       ]
                     },
+                    memory_management: {
+                      children: {},
+                      slug: "/en-US/docs/Web/JavaScript/Guide/Memory_management",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://dl.acm.org/doi/pdf/10.1145/263700.263733",
+                            "https://dl.acm.org/action/cookieAbsent"
+                          ]
+                        }
+                      ]
+                    },
                     using_promises: {
                       children: {},
                       slug: "/en-US/docs/Web/JavaScript/Guide/Using_promises",
@@ -23858,6 +23480,26 @@ http.headers.Use-As-Dictionary`,
                     },
                     errors: {
                       children: {
+                        already_has_pragma: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Already_has_pragma",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://developer.chrome.com/blog/sourcemaps/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://developer.chrome.com/blog/sourcemaps/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         constructor_cant_be_used_directly: {
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Constructor_cant_be_used_directly",
@@ -23866,6 +23508,19 @@ http.headers.Use-As-Dictionary`,
                               message: "Broken link",
                               data: [
                                 "/en-US/docs/Web/JavaScript/Reference/AsyncIterator%2FAsyncIterator"
+                              ]
+                            }
+                          ]
+                        },
+                        deprecated_source_map_pragma: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_source_map_pragma",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://developer.chrome.com/blog/sourcemaps/",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -24364,10 +24019,10 @@ http.headers.Use-As-Dictionary`,
                           ]
                         },
                         {
-                          message: "Broken external link",
+                          message: "HTTP link",
                           data: [
                             "http://www.firefogg.org/",
-                            500
+                            "has HTTPS alternative"
                           ]
                         }
                       ]
@@ -24400,6 +24055,19 @@ http.headers.Use-As-Dictionary`,
                     },
                     formats: {
                       children: {
+                        image_types: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Image_types",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://developers.google.com/speed/webp/docs/riff_container",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -24553,24 +24221,6 @@ http.headers.Use-As-Dictionary`,
                           message: "No link to child page",
                           data: [
                             "/en-US/docs/Web/Privacy/Guides/Storage_Access_Policy/Errors"
-                          ]
-                        }
-                      ]
-                    },
-                    "third-party_cookies": {
-                      children: {},
-                      slug: "/en-US/docs/Web/Privacy/Guides/Third-party_cookies",
-                      messages: [
-                        {
-                          message: "Unexpected asset file",
-                          data: [
-                            "3pc-example.drawio"
-                          ]
-                        },
-                        {
-                          message: "Unused image",
-                          data: [
-                            "3pc-example.png"
                           ]
                         }
                       ]
@@ -24798,6 +24448,13 @@ http.headers.Use-As-Dictionary`,
                             "hash-",
                             "Text after link:",
                             "based fetch directives to ensure that only scripts"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://csp-evaluator.withgoogle.com/",
+                            500
                           ]
                         }
                       ]
@@ -26475,6 +26132,23 @@ svg.elements.feSpotLight.z`
               children: {
                 reference: {
                   children: {
+                    capabilities: {
+                      children: {
+                        firefoxoptions: {
+                          children: {},
+                          slug: "/en-US/docs/Web/WebDriver/Reference/Capabilities/firefoxOptions",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://developer.android.com/reference/android/content/Intent",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     timeouts: {
                       children: {},
                       slug: "/en-US/docs/Web/WebDriver/Reference/Timeouts",
