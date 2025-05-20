@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-bfjqfsh9.js";
+} from "./chunk-y5gwdk17.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -220,6 +220,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            brotli_compression: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Brotli_compression",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://rosettacode.org/wiki/Huffman_coding",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
             buffer: {
               children: {},
               slug: "/en-US/docs/Glossary/Buffer",
@@ -237,13 +250,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://trac.webkit.org/wiki/JavaScriptCore",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -395,26 +401,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://ecma-international.org/publications-and-standards/standards/ecma-262/",
-                    404
-                  ]
-                }
-              ]
-            },
-            ecmascript: {
-              children: {},
-              slug: "/en-US/docs/Glossary/ECMAScript",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://ecma-international.org/publications-and-standards/standards/ecma-262/",
-                    404
-                  ]
                 }
               ]
             },
@@ -575,19 +561,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            javascript: {
-              children: {},
-              slug: "/en-US/docs/Glossary/JavaScript",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://ecma-international.org/publications-and-standards/standards/ecma-262/",
-                    404
-                  ]
                 }
               ]
             },
@@ -1130,19 +1103,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via page",
                           data: []
-                        }
-                      ]
-                    },
-                    what_is_accessibility: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/What_is_accessibility",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.cdc.gov/nchs/fastats/disability.htm",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     }
@@ -2350,27 +2310,6 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/efaq.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://webchat.freenode.net/?channels=textmate",
                             521
                           ]
@@ -2387,30 +2326,10 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    how_do_you_host_your_website_on_google_app_engine: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gaesamplesite.appspot.com/",
-                            503
-                          ]
-                        }
-                      ]
-                    },
                     what_software_do_i_need: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -2545,13 +2464,6 @@ var warnings_processed_default = {
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://trac.webkit.org/wiki/WebKitIDL",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         },
@@ -5615,6 +5527,13 @@ webextensions.manifest.options_ui`,
                           data: [
                             "/en-US/docs/Mozilla/Add-ons/Add-on_Debugger"
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/web-animations/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -6587,13 +6506,6 @@ webextensions.manifest.options_ui`,
                           data: [
                             "/en-US/docs/Mozilla/Firefox/Releases/1.5/What_s_new_in_1.5_alpha"
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://ecma-international.org/publications-and-standards/standards/ecma-262/",
-                            404
-                          ]
                         }
                       ]
                     },
@@ -6990,19 +6902,6 @@ webextensions.manifest.options_ui`,
                           data: [
                             "http://diagramcenter.org/",
                             ""
-                          ]
-                        }
-                      ]
-                    },
-                    cognitive_accessibility: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Accessibility/Guides/Cognitive_accessibility",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.cdc.gov/disability-and-health/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -7738,58 +7637,6 @@ api.DeviceOrientationEvent`,
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/chrisdavidmills/full/gzYjag/"
-                          ]
-                        }
-                      ]
-                    },
-                    hasstorageaccess: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/hasStorageAccess",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webkit.org/blog/8124/introducing-storage-access-api/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    hasunpartitionedcookieaccess: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/hasUnpartitionedCookieAccess",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webkit.org/blog/8124/introducing-storage-access-api/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    requeststorageaccess: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/requestStorageAccess",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webkit.org/blog/8124/introducing-storage-access-api/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    requeststorageaccessfor: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/requestStorageAccessFor",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webkit.org/blog/8124/introducing-storage-access-api/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -8601,6 +8448,99 @@ api.Document.fullscreen`,
                     }
                   }
                 },
+                periodicsyncevent: {
+                  children: {
+                    periodicsyncevent: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PeriodicSyncEvent/PeriodicSyncEvent",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
+                            "Unable to connect. Is the computer able to access the url?"
+                          ]
+                        }
+                      ]
+                    },
+                    tag: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PeriodicSyncEvent/tag",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
+                            "Unable to connect. Is the computer able to access the url?"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/PeriodicSyncEvent",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
+                        "Unable to connect. Is the computer able to access the url?"
+                      ]
+                    }
+                  ]
+                },
+                periodicsyncmanager: {
+                  children: {
+                    gettags: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PeriodicSyncManager/getTags",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
+                            "Unable to connect. Is the computer able to access the url?"
+                          ]
+                        }
+                      ]
+                    },
+                    register: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PeriodicSyncManager/register",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
+                            "Unable to connect. Is the computer able to access the url?"
+                          ]
+                        }
+                      ]
+                    },
+                    unregister: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PeriodicSyncManager/unregister",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
+                            "Unable to connect. Is the computer able to access the url?"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/PeriodicSyncManager",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
+                        "Unable to connect. Is the computer able to access the url?"
+                      ]
+                    }
+                  ]
+                },
                 pointer_events: {
                   children: {
                     "multi-touch_interaction": {
@@ -8745,6 +8685,19 @@ api.Document.fullscreen`,
                       ]
                     }
                   }
+                },
+                resize_observer_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Resize_Observer_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://web.dev/articles/resize-observer",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 rtcicecandidatepair: {
                   children: {
@@ -9024,6 +8977,53 @@ api.Document.fullscreen`,
                     }
                   }
                 },
+                serviceworkerglobalscope: {
+                  children: {
+                    periodicsync_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/ServiceWorkerGlobalScope/periodicsync_event",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
+                            "Unable to connect. Is the computer able to access the url?"
+                          ]
+                        }
+                      ]
+                    },
+                    sync_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/ServiceWorkerGlobalScope/sync_event",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
+                            "Unable to connect. Is the computer able to access the url?"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                serviceworkerregistration: {
+                  children: {
+                    periodicsync: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/ServiceWorkerRegistration/periodicSync",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
+                            "Unable to connect. Is the computer able to access the url?"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 sharedstorageoperation: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SharedStorageOperation",
@@ -9118,19 +9118,6 @@ api.Document.fullscreen`,
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/API/SourceBuffer/updatestart_event"
-                      ]
-                    }
-                  ]
-                },
-                storage_access_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Storage_Access_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://webkit.org/blog/8124/introducing-storage-access-api/",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -9646,6 +9633,19 @@ api.CredentialsContainer.get.publicKey_option.extensions`,
                     }
                   ]
                 },
+                web_periodic_background_synchronization_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Web_Periodic_Background_Synchronization_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
+                        "Unable to connect. Is the computer able to access the url?"
+                      ]
+                    }
+                  ]
+                },
                 web_storage_api: {
                   children: {
                     using_the_web_storage_api: {
@@ -9907,6 +9907,13 @@ api.Window.sessionStorage`,
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/WebGL_API/Compressed_texture_formats"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://web.dev/articles/webgl-fundamentals",
+                        "The operation timed out."
                       ]
                     },
                     {
@@ -11014,13 +11021,6 @@ api.Window.sessionStorage`,
                       data: [
                         "/en-US/docs/Web/CSS/::-webkit-textfield-decoration-container"
                       ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://trac.webkit.org/wiki/Styling%20Form%20Controls",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -11045,30 +11045,6 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                "--_star_": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/--*",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "-moz-float-edge": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-moz-float-edge",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
                 "-moz-force-broken-image-icon": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/-moz-force-broken-image-icon",
@@ -11076,12 +11052,6 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
-                    },
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
                     },
                     {
                       message: "Missing image",
@@ -11095,12 +11065,6 @@ css.selectors.-webkit-resizer`,
                   children: {},
                   slug: "/en-US/docs/Web/CSS/-moz-image-region",
                   messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
                     {
                       message: "Broken link",
                       data: [
@@ -11128,36 +11092,6 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
-                    },
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "-moz-user-focus": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-moz-user-focus",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "-moz-user-input": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-moz-user-input",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
                     }
                   ]
                 },
@@ -11202,111 +11136,9 @@ css.selectors.-webkit-resizer`,
                       ]
                     },
                     {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/CSS/-webkit-border-before-width"
-                      ]
-                    }
-                  ]
-                },
-                "-webkit-box-reflect": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-webkit-box-reflect",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "-webkit-mask-composite": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-webkit-mask-composite",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "-webkit-mask-position-x": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-webkit-mask-position-x",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "-webkit-mask-position-y": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-webkit-mask-position-y",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "-webkit-mask-repeat-x": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-webkit-mask-repeat-x",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "-webkit-mask-repeat-y": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-webkit-mask-repeat-y",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "-webkit-tap-highlight-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-webkit-tap-highlight-color",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "-webkit-text-fill-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-webkit-text-fill-color",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
                       ]
                     }
                   ]
@@ -11318,48 +11150,6 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
-                    },
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "-webkit-text-stroke-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-webkit-text-stroke-color",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "-webkit-text-stroke-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-webkit-text-stroke-width",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "-webkit-touch-callout": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-webkit-touch-callout",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
                     }
                   ]
                 },
@@ -11401,12 +11191,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@counter-style/additive-symbols",
                       messages: [
                         {
-                          message: "Bad href",
-                          data: [
-                            "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -11416,12 +11200,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@counter-style/fallback",
                       messages: [
-                        {
-                          message: "Bad href",
-                          data: [
-                            "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -11433,12 +11211,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@counter-style/negative",
                       messages: [
                         {
-                          message: "Bad href",
-                          data: [
-                            "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -11448,12 +11220,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@counter-style/pad",
                       messages: [
-                        {
-                          message: "Bad href",
-                          data: [
-                            "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -11465,12 +11231,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@counter-style/prefix",
                       messages: [
                         {
-                          message: "Bad href",
-                          data: [
-                            "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -11480,12 +11240,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@counter-style/range",
                       messages: [
-                        {
-                          message: "Bad href",
-                          data: [
-                            "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -11497,12 +11251,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@counter-style/speak-as",
                       messages: [
                         {
-                          message: "Bad href",
-                          data: [
-                            "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -11512,12 +11260,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@counter-style/suffix",
                       messages: [
-                        {
-                          message: "Bad href",
-                          data: [
-                            "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -11529,12 +11271,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@counter-style/symbols",
                       messages: [
                         {
-                          message: "Bad href",
-                          data: [
-                            "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -11544,12 +11280,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@counter-style/system",
                       messages: [
-                        {
-                          message: "Bad href",
-                          data: [
-                            "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -11582,12 +11312,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@font-face/ascent-override",
                       messages: [
                         {
-                          message: "Bad href",
-                          data: [
-                            "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -11597,12 +11321,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@font-face/descent-override",
                       messages: [
-                        {
-                          message: "Bad href",
-                          data: [
-                            "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -11614,12 +11332,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@font-face/font-display",
                       messages: [
                         {
-                          message: "Bad href",
-                          data: [
-                            "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -11630,12 +11342,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@font-face/font-family",
                       messages: [
                         {
-                          message: "Bad href",
-                          data: [
-                            "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -11645,12 +11351,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@font-face/font-feature-settings",
                       messages: [
-                        {
-                          message: "Bad href",
-                          data: [
-                            "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                          ]
-                        },
                         {
                           message: "Unexpected asset file",
                           data: [
@@ -11674,12 +11374,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@font-face/font-stretch",
                       messages: [
                         {
-                          message: "Bad href",
-                          data: [
-                            "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -11689,12 +11383,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@font-face/font-style",
                       messages: [
-                        {
-                          message: "Bad href",
-                          data: [
-                            "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -11706,12 +11394,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@font-face/font-variation-settings",
                       messages: [
                         {
-                          message: "Bad href",
-                          data: [
-                            "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -11721,12 +11403,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@font-face/font-weight",
                       messages: [
-                        {
-                          message: "Bad href",
-                          data: [
-                            "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -11738,12 +11414,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@font-face/line-gap-override",
                       messages: [
                         {
-                          message: "Bad href",
-                          data: [
-                            "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -11753,12 +11423,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@font-face/size-adjust",
                       messages: [
-                        {
-                          message: "Bad href",
-                          data: [
-                            "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -11770,12 +11434,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@font-face/src",
                       messages: [
                         {
-                          message: "Bad href",
-                          data: [
-                            "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -11785,12 +11443,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@font-face/unicode-range",
                       messages: [
-                        {
-                          message: "Bad href",
-                          data: [
-                            "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -11842,12 +11494,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@font-palette-values/base-palette",
                       messages: [
                         {
-                          message: "Bad href",
-                          data: [
-                            "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -11858,12 +11504,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@font-palette-values/font-family",
                       messages: [
                         {
-                          message: "Bad href",
-                          data: [
-                            "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -11873,12 +11513,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@font-palette-values/override-colors",
                       messages: [
-                        {
-                          message: "Bad href",
-                          data: [
-                            "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -12521,12 +12155,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@page/page-orientation",
                       messages: [
                         {
-                          message: "Bad href",
-                          data: [
-                            "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -12536,12 +12164,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@page/size",
                       messages: [
-                        {
-                          message: "Bad href",
-                          data: [
-                            "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -12557,12 +12179,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@property/inherits",
                       messages: [
                         {
-                          message: "Bad href",
-                          data: [
-                            "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -12573,12 +12189,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@property/initial-value",
                       messages: [
                         {
-                          message: "Bad href",
-                          data: [
-                            "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -12588,12 +12198,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@property/syntax",
                       messages: [
-                        {
-                          message: "Bad href",
-                          data: [
-                            "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -12632,82 +12236,16 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                "accent-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/accent-color",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
                 "align-content": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/align-content",
                   messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
                     {
                       message: "HTML code issue",
                       data: [
                         'Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
                         "</div>",
                         "32:0"
-                      ]
-                    }
-                  ]
-                },
-                "align-items": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/align-items",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "align-self": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/align-self",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "alignment-baseline": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/alignment-baseline",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                all: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/all",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
                       ]
                     }
                   ]
@@ -12719,18 +12257,6 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
-                    }
-                  ]
-                },
-                "anchor-name": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/anchor-name",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
                     }
                   ]
                 },
@@ -12751,198 +12277,6 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
-                    }
-                  ]
-                },
-                animation: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/animation",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "animation-composition": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/animation-composition",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "animation-delay": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/animation-delay",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "animation-direction": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/animation-direction",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "animation-duration": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/animation-duration",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "animation-fill-mode": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/animation-fill-mode",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "animation-iteration-count": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/animation-iteration-count",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "animation-name": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/animation-name",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "animation-play-state": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/animation-play-state",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "animation-range": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/animation-range",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "animation-range-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/animation-range-end",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "animation-range-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/animation-range-start",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "animation-timeline": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/animation-timeline",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "animation-timing-function": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/animation-timing-function",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                appearance: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/appearance",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "aspect-ratio": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/aspect-ratio",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
                     }
                   ]
                 },
@@ -13007,52 +12341,17 @@ css.selectors.-webkit-resizer`,
                   slug: "/en-US/docs/Web/CSS/backdrop-filter",
                   messages: [
                     {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
                       message: "Broken external link",
                       data: [
                         "https://drafts.fxtf.org/filter-effects-2/",
                         "The operation timed out."
                       ]
-                    }
-                  ]
-                },
-                "backface-visibility": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/backface-visibility",
-                  messages: [
+                    },
                     {
-                      message: "Bad href",
+                      message: "Broken external link",
                       data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                background: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/background",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "background-attachment": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/background-attachment",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -13062,124 +12361,10 @@ css.selectors.-webkit-resizer`,
                   slug: "/en-US/docs/Web/CSS/background-blend-mode",
                   messages: [
                     {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
                       message: "Broken external link",
                       data: [
                         "https://drafts.fxtf.org/compositing-2/",
                         "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "background-clip": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/background-clip",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "background-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/background-color",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "background-image": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/background-image",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "background-origin": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/background-origin",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "background-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/background-position",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "background-position-x": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/background-position-x",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "background-position-y": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/background-position-y",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "background-repeat": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/background-repeat",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "background-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/background-size",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
                       ]
                     }
                   ]
@@ -13193,13 +12378,6 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Missing syntax code block",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/fill-stroke-3/",
-                            "The operation timed out."
-                          ]
                         },
                         {
                           message: "CSS code issue",
@@ -13223,45 +12401,6 @@ css.selectors.-webkit-resizer`,
                             "Unknown word path (CssSyntaxError)",
                             'path("M 10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80");',
                             "1:1"
-                          ]
-                        }
-                      ]
-                    },
-                    polygon: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/basic-shape/polygon",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/fill-stroke-3/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    rect: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/basic-shape/rect",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/css-masking-1/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    shape: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/basic-shape/shape",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/fill-stroke-3/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -13292,808 +12431,10 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                "block-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/block-size",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                border: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-block": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-block",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-block-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-block-color",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-block-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-block-end",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-block-end-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-block-end-color",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-block-end-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-block-end-style",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-block-end-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-block-end-width",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-block-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-block-start",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-block-start-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-block-start-color",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-block-start-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-block-start-style",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-block-start-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-block-start-width",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-block-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-block-style",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-block-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-block-width",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-bottom": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-bottom",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-bottom-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-bottom-color",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-bottom-left-radius": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-bottom-left-radius",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-bottom-right-radius": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-bottom-right-radius",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-bottom-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-bottom-style",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-bottom-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-bottom-width",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-collapse": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-collapse",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-color",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-end-end-radius": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-end-end-radius",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-end-start-radius": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-end-start-radius",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-image": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-image",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-image-outset": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-image-outset",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-image-repeat": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-image-repeat",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-image-slice": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-image-slice",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-image-source": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-image-source",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-image-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-image-width",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-inline": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-inline",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-inline-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-inline-color",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-inline-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-inline-end",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-inline-end-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-inline-end-color",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-inline-end-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-inline-end-style",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-inline-end-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-inline-end-width",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-inline-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-inline-start",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-inline-start-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-inline-start-color",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-inline-start-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-inline-start-style",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-inline-start-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-inline-start-width",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-inline-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-inline-style",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-inline-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-inline-width",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-left": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-left",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-left-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-left-color",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-left-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-left-style",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-left-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-left-width",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-radius": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-radius",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-right": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-right",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-right-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-right-color",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-right-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-right-style",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-right-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-right-width",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-spacing": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-spacing",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-start-end-radius": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-start-end-radius",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-start-start-radius": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-start-start-radius",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-style",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-top": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-top",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-top-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-top-color",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-top-left-radius": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-top-left-radius",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-top-right-radius": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-top-right-radius",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-top-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-top-style",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-top-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-top-width",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "border-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-width",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                bottom: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/bottom",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "box-align": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/box-align",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "box-decoration-break": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/box-decoration-break",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "box-direction": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/box-direction",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
                 "box-flex": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/box-flex",
                   messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
                     {
                       message: "Broken link",
                       data: [
@@ -14124,18 +12465,6 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                "box-flex-group": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/box-flex-group",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
                 "box-lines": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/box-lines",
@@ -14144,12 +12473,6 @@ css.selectors.-webkit-resizer`,
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/CSS/box-flex-groups"
-                      ]
-                    },
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
                       ]
                     },
                     {
@@ -14163,12 +12486,6 @@ css.selectors.-webkit-resizer`,
                   slug: "/en-US/docs/Web/CSS/box-ordinal-group",
                   messages: [
                     {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
                       message: "Unreachable via page",
                       data: []
                     }
@@ -14179,87 +12496,9 @@ css.selectors.-webkit-resizer`,
                   slug: "/en-US/docs/Web/CSS/box-orient",
                   messages: [
                     {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Mozilla/Tech/XUL"
-                      ]
-                    }
-                  ]
-                },
-                "box-pack": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/box-pack",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "box-shadow": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/box-shadow",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "box-sizing": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/box-sizing",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "break-after": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/break-after",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "break-before": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/break-before",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "break-inside": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/break-inside",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
                       ]
                     }
                   ]
@@ -14308,78 +12547,10 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                "caption-side": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/caption-side",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "caret-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/caret-color",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                clear: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/clear",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                clip: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/clip",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 "clip-path": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/clip-path",
                   messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    },
                     {
                       message: "HTML code issue",
                       data: [
@@ -14395,13 +12566,6 @@ css.selectors.-webkit-resizer`,
                   slug: "/en-US/docs/Web/CSS/clip-rule",
                   messages: [
                     {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    },
-                    {
                       message: "HTML code issue",
                       data: [
                         'Unexpected closing tag ":svg:clipPath". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
@@ -14415,18 +12579,6 @@ css.selectors.-webkit-resizer`,
                         'Unexpected closing tag ":svg:clipPath". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
                         "    </clipPath>",
                         "7:4"
-                      ]
-                    }
-                  ]
-                },
-                color: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/color",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
                       ]
                     }
                   ]
@@ -14886,9 +13038,10 @@ css.selectors.-webkit-resizer`,
                   slug: "/en-US/docs/Web/CSS/color-interpolation-filters",
                   messages: [
                     {
-                      message: "Bad href",
+                      message: "Broken external link",
                       data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -14903,18 +13056,6 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                "color-scheme": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/color-scheme",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
                 column_combinator: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/Column_combinator",
@@ -14926,294 +13067,6 @@ css.selectors.-webkit-resizer`,
                         "[None]",
                         "Expected:",
                         "css.selectors.column"
-                      ]
-                    }
-                  ]
-                },
-                "column-count": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/column-count",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "column-fill": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/column-fill",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "column-gap": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/column-gap",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "column-rule": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/column-rule",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "column-rule-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/column-rule-color",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "column-rule-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/column-rule-style",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "column-rule-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/column-rule-width",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "column-span": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/column-span",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "column-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/column-width",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                columns: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/columns",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                contain: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/contain",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "contain-intrinsic-block-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/contain-intrinsic-block-size",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "contain-intrinsic-height": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/contain-intrinsic-height",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "contain-intrinsic-inline-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/contain-intrinsic-inline-size",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "contain-intrinsic-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/contain-intrinsic-size",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "contain-intrinsic-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/contain-intrinsic-width",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                container: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/container",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "container-name": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/container-name",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "container-type": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/container-type",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                content: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/content",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "content-visibility": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/content-visibility",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "counter-increment": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/counter-increment",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "counter-reset": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/counter-reset",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "counter-set": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/counter-set",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
                       ]
                     }
                   ]
@@ -15997,18 +13850,6 @@ css.properties.grid-template-rows.masonry`,
                     }
                   }
                 },
-                cursor: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/cursor",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
                 "custom-ident": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/custom-ident",
@@ -16016,42 +13857,6 @@ css.properties.grid-template-rows.masonry`,
                     {
                       message: "Missing syntax code block",
                       data: []
-                    }
-                  ]
-                },
-                cx: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/cx",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                cy: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/cy",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                d: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/d",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
                     }
                   ]
                 },
@@ -16072,30 +13877,6 @@ css.properties.grid-template-rows.masonry`,
                     {
                       message: "Missing syntax code block",
                       data: []
-                    }
-                  ]
-                },
-                direction: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/direction",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                display: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/display",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
                     }
                   ]
                 },
@@ -16156,18 +13937,6 @@ css.properties.grid-template-rows.masonry`,
                     {
                       message: "Missing syntax code block",
                       data: []
-                    }
-                  ]
-                },
-                "dominant-baseline": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/dominant-baseline",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
                     }
                   ]
                 },
@@ -16249,95 +14018,15 @@ css.properties.grid-template-rows.masonry`,
                     }
                   }
                 },
-                "empty-cells": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/empty-cells",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "field-sizing": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/field-sizing",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                fill: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/fill",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "fill-opacity": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/fill-opacity",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "fill-rule": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/fill-rule",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 filter: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/filter",
                   messages: [
                     {
-                      message: "Bad href",
+                      message: "Broken external link",
                       data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -16351,6 +14040,13 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "Missing syntax code block",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
                         },
                         {
                           message: "CSS code issue",
@@ -16375,6 +14071,13 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/brightness",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word brightness (CssSyntaxError)",
@@ -16389,6 +14092,13 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/contrast",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word contrast (CssSyntaxError)",
@@ -16398,10 +14108,30 @@ css.properties.grid-template-rows.masonry`,
                         }
                       ]
                     },
+                    "drop-shadow": {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/filter-function/drop-shadow",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     grayscale: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/filter-function/grayscale",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "CSS code issue",
                           data: [
@@ -16419,6 +14149,13 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "Missing syntax code block",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
                         },
                         {
                           message: "CSS code issue",
@@ -16443,6 +14180,13 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/invert",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word invert (CssSyntaxError)",
@@ -16456,6 +14200,13 @@ css.properties.grid-template-rows.masonry`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/filter-function/opacity",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "CSS code issue",
                           data: [
@@ -16471,6 +14222,13 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/saturate",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word saturate (CssSyntaxError)",
@@ -16484,6 +14242,13 @@ css.properties.grid-template-rows.masonry`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/filter-function/sepia",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "CSS code issue",
                           data: [
@@ -16500,6 +14265,13 @@ css.properties.grid-template-rows.masonry`,
                     {
                       message: "Missing syntax code block",
                       data: []
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -16555,18 +14327,6 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
-                flex: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/flex",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
                 flex_value: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/flex_value",
@@ -16577,98 +14337,15 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
-                "flex-basis": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/flex-basis",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "flex-direction": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/flex-direction",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "flex-flow": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/flex-flow",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "flex-grow": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/flex-grow",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "flex-shrink": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/flex-shrink",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "flex-wrap": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/flex-wrap",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                float: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/float",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
                 "flood-color": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/flood-color",
                   messages: [
                     {
-                      message: "Bad href",
+                      message: "Broken external link",
                       data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -16678,9 +14355,10 @@ css.properties.width.fit-content_function`
                   slug: "/en-US/docs/Web/CSS/flood-opacity",
                   messages: [
                     {
-                      message: "Bad href",
+                      message: "Broken external link",
                       data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -16689,12 +14367,6 @@ css.properties.width.fit-content_function`
                   children: {},
                   slug: "/en-US/docs/Web/CSS/font",
                   messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
                     {
                       message: "Broken anchor",
                       data: [
@@ -16711,220 +14383,10 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
-                "font-family": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-family",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "font-feature-settings": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-feature-settings",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "font-kerning": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-kerning",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "font-language-override": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-language-override",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "font-optical-sizing": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-optical-sizing",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "font-palette": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-palette",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "font-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-size",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "font-size-adjust": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-size-adjust",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "font-smooth": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-smooth",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "font-stretch": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-stretch",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "font-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-style",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "font-synthesis": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-synthesis",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "font-synthesis-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-synthesis-position",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "font-synthesis-small-caps": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-synthesis-small-caps",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "font-synthesis-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-synthesis-style",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "font-synthesis-weight": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-synthesis-weight",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "font-variant": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-variant",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
                 "font-variant-alternates": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/font-variant-alternates",
                   messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
                     {
                       message: "Unexpected asset file",
                       data: [
@@ -16935,114 +14397,6 @@ css.properties.width.fit-content_function`
                       message: "Unexpected asset file",
                       data: [
                         "montecarlo-regular.woff2"
-                      ]
-                    }
-                  ]
-                },
-                "font-variant-caps": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-variant-caps",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "font-variant-east-asian": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-variant-east-asian",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "font-variant-emoji": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-variant-emoji",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "font-variant-ligatures": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-variant-ligatures",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "font-variant-numeric": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-variant-numeric",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "font-variant-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-variant-position",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "font-variation-settings": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-variation-settings",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "font-weight": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-weight",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "forced-color-adjust": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/forced-color-adjust",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
                       ]
                     }
                   ]
@@ -17093,18 +14447,6 @@ css.properties.width.fit-content_function`
                         "[None]",
                         "Expected:",
                         "css.types.frequency-percentage"
-                      ]
-                    }
-                  ]
-                },
-                gap: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/gap",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
                       ]
                     }
                   ]
@@ -17226,210 +14568,6 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
-                grid: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "grid-area": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid-area",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "grid-auto-columns": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid-auto-columns",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "grid-auto-flow": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid-auto-flow",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "grid-auto-rows": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid-auto-rows",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "grid-column": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid-column",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "grid-column-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid-column-end",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "grid-column-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid-column-start",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "grid-row": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid-row",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "grid-row-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid-row-end",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "grid-row-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid-row-start",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "grid-template": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid-template",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "grid-template-areas": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid-template-areas",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "grid-template-columns": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid-template-columns",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "grid-template-rows": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid-template-rows",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "hanging-punctuation": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/hanging-punctuation",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                height: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/height",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
                 hue: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/hue",
@@ -17455,42 +14593,6 @@ css.properties.width.fit-content_function`
                         "css.types.gradient.conic-gradient.hue_interpolation_method",
                         "Expected:",
                         "[None]"
-                      ]
-                    }
-                  ]
-                },
-                "hyphenate-character": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/hyphenate-character",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "hyphenate-limit-chars": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/hyphenate-limit-chars",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                hyphens: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/hyphens",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
                       ]
                     }
                   ]
@@ -17553,40 +14655,10 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
-                "image-orientation": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/image-orientation",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "image-rendering": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/image-rendering",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
                 "image-resolution": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/image-resolution",
                   messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
                     {
                       message: "Not in BCD",
                       data: [
@@ -17634,114 +14706,6 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
-                "initial-letter": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/initial-letter",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "inline-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/inline-size",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                inset: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/inset",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "inset-block": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/inset-block",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "inset-block-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/inset-block-end",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "inset-block-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/inset-block-start",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "inset-inline": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/inset-inline",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "inset-inline-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/inset-inline-end",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "inset-inline-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/inset-inline-start",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
                 integer: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/integer",
@@ -17752,69 +14716,15 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
-                "interpolate-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/interpolate-size",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
                 isolation: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/isolation",
                   messages: [
                     {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
                       message: "Broken external link",
                       data: [
                         "https://drafts.fxtf.org/compositing-2/",
                         "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "justify-content": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/justify-content",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "justify-items": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/justify-items",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "justify-self": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/justify-self",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
                       ]
                     }
                   ]
@@ -17844,18 +14754,6 @@ css.properties.width.fit-content_function`
                     }
                   }
                 },
-                left: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/left",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
                 length: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/length",
@@ -17876,62 +14774,15 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
-                "letter-spacing": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/letter-spacing",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
                 "lighting-color": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/lighting-color",
                   messages: [
                     {
-                      message: "Bad href",
+                      message: "Broken external link",
                       data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "line-break": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/line-break",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "line-clamp": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/line-clamp",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "line-height": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/line-height",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -17940,12 +14791,6 @@ css.properties.width.fit-content_function`
                   children: {},
                   slug: "/en-US/docs/Web/CSS/line-height-step",
                   messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
                     {
                       message: "Not in BCD",
                       data: [
@@ -17968,301 +14813,10 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
-                "list-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/list-style",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "list-style-image": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/list-style-image",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "list-style-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/list-style-position",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "list-style-type": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/list-style-type",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                margin: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/margin",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "margin-block": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/margin-block",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "margin-block-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/margin-block-end",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "margin-block-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/margin-block-start",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "margin-bottom": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/margin-bottom",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "margin-inline": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/margin-inline",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "margin-inline-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/margin-inline-end",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "margin-inline-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/margin-inline-start",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "margin-left": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/margin-left",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "margin-right": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/margin-right",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "margin-top": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/margin-top",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "margin-trim": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/margin-trim",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                marker: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/marker",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "marker-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/marker-end",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "marker-mid": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/marker-mid",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "marker-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/marker-start",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                mask: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-border": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-border",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 "mask-border-mode": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/mask-border-mode",
                   messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    },
                     {
                       message: "Not in BCD",
                       data: [
@@ -18280,310 +14834,14 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
-                "mask-border-outset": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-border-outset",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-border-repeat": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-border-repeat",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-border-slice": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-border-slice",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-border-source": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-border-source",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-border-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-border-width",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-clip": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-clip",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 "mask-composite": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/mask-composite",
                   messages: [
                     {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
                       message: "Broken link",
                       data: [
                         "/en-US/Web/SVG/Reference/Attribute/mask-type"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-image": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-image",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-mode": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-mode",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-origin": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-origin",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-position",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-repeat": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-repeat",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-size",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-type": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-type",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "math-depth": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/math-depth",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "math-shift": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/math-shift",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "math-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/math-style",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
                       ]
                     }
                   ]
@@ -18598,18 +14856,6 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
-                "max-block-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/max-block-size",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
                 "max-content": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/max-content",
@@ -18617,42 +14863,6 @@ css.properties.width.fit-content_function`
                     {
                       message: "Unreachable via sidebar",
                       data: []
-                    }
-                  ]
-                },
-                "max-height": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/max-height",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "max-inline-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/max-inline-size",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "max-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/max-width",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
                     }
                   ]
                 },
@@ -18666,18 +14876,6 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
-                "min-block-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/min-block-size",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
                 "min-content": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/min-content",
@@ -18685,42 +14883,6 @@ css.properties.width.fit-content_function`
                     {
                       message: "Unreachable via sidebar",
                       data: []
-                    }
-                  ]
-                },
-                "min-height": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/min-height",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "min-inline-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/min-inline-size",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "min-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/min-width",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
                     }
                   ]
                 },
@@ -18744,12 +14906,6 @@ css.properties.grid-template-rows.minmax`
                   children: {},
                   slug: "/en-US/docs/Web/CSS/mix-blend-mode",
                   messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
                     {
                       message: "Broken external link",
                       data: [
@@ -18793,38 +14949,15 @@ css.properties.grid-template-rows.minmax`
                     }
                   ]
                 },
-                "object-fit": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/object-fit",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "object-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/object-position",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
                 offset: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/offset",
                   messages: [
                     {
-                      message: "Bad href",
+                      message: "Broken external link",
                       data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
+                        "https://drafts.fxtf.org/motion-1/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -18834,9 +14967,10 @@ css.properties.grid-template-rows.minmax`
                   slug: "/en-US/docs/Web/CSS/offset-anchor",
                   messages: [
                     {
-                      message: "Bad href",
+                      message: "Broken external link",
                       data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
+                        "https://drafts.fxtf.org/motion-1/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -18846,9 +14980,10 @@ css.properties.grid-template-rows.minmax`
                   slug: "/en-US/docs/Web/CSS/offset-distance",
                   messages: [
                     {
-                      message: "Bad href",
+                      message: "Broken external link",
                       data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
+                        "https://drafts.fxtf.org/motion-1/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -18857,12 +14992,6 @@ css.properties.grid-template-rows.minmax`
                   children: {},
                   slug: "/en-US/docs/Web/CSS/offset-path",
                   messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
                     {
                       message: "External sandbox link",
                       data: [
@@ -18886,6 +15015,13 @@ css.properties.grid-template-rows.minmax`
                       data: [
                         "https://jsfiddle.net/ericwilligers/r1snqdan/"
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/motion-1/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -18894,9 +15030,10 @@ css.properties.grid-template-rows.minmax`
                   slug: "/en-US/docs/Web/CSS/offset-position",
                   messages: [
                     {
-                      message: "Bad href",
+                      message: "Broken external link",
                       data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
+                        "https://drafts.fxtf.org/motion-1/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -18906,465 +15043,10 @@ css.properties.grid-template-rows.minmax`
                   slug: "/en-US/docs/Web/CSS/offset-rotate",
                   messages: [
                     {
-                      message: "Bad href",
+                      message: "Broken external link",
                       data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                opacity: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/opacity",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                order: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/order",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                orphans: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/orphans",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                outline: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/outline",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "outline-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/outline-color",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "outline-offset": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/outline-offset",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "outline-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/outline-style",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "outline-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/outline-width",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                overflow: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/overflow",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "overflow-anchor": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/overflow-anchor",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "overflow-block": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/overflow-block",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "overflow-clip-margin": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/overflow-clip-margin",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "overflow-inline": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/overflow-inline",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "overflow-wrap": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/overflow-wrap",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "overflow-x": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/overflow-x",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "overflow-y": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/overflow-y",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                overlay: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/overlay",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "overscroll-behavior": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/overscroll-behavior",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "overscroll-behavior-block": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/overscroll-behavior-block",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "overscroll-behavior-inline": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/overscroll-behavior-inline",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "overscroll-behavior-x": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/overscroll-behavior-x",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "overscroll-behavior-y": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/overscroll-behavior-y",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                padding: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/padding",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "padding-block": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/padding-block",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "padding-block-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/padding-block-end",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "padding-block-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/padding-block-start",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "padding-bottom": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/padding-bottom",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "padding-inline": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/padding-inline",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "padding-inline-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/padding-inline-end",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "padding-inline-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/padding-inline-start",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "padding-left": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/padding-left",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "padding-right": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/padding-right",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "padding-top": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/padding-top",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                page: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/page",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "page-break-after": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/page-break-after",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "page-break-before": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/page-break-before",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "page-break-inside": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/page-break-inside",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "paint-order": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/paint-order",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
+                        "https://drafts.fxtf.org/motion-1/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -19376,90 +15058,6 @@ css.properties.grid-template-rows.minmax`
                     {
                       message: "Missing syntax code block",
                       data: []
-                    }
-                  ]
-                },
-                perspective: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/perspective",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "perspective-origin": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/perspective-origin",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "place-content": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/place-content",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "place-items": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/place-items",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "place-self": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/place-self",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "pointer-events": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/pointer-events",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                position: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/position",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
                     }
                   ]
                 },
@@ -19481,116 +15079,14 @@ css.properties.grid-template-rows.minmax`
                     }
                   ]
                 },
-                "position-anchor": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/position-anchor",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
                 "position-area": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/position-area",
                   messages: [
                     {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
                       message: "Unexpected asset file",
                       data: [
                         "position-area.drawio"
-                      ]
-                    }
-                  ]
-                },
-                "position-try": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/position-try",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "position-try-fallbacks": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/position-try-fallbacks",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "position-try-order": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/position-try-order",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "position-visibility": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/position-visibility",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "print-color-adjust": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/print-color-adjust",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                quotes: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/quotes",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                r: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/r",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
                       ]
                     }
                   ]
@@ -19602,6 +15098,19 @@ css.properties.grid-template-rows.minmax`
                     {
                       message: "Missing syntax code block",
                       data: []
+                    }
+                  ]
+                },
+                ray: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/ray",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/motion-1/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -20149,18 +15658,6 @@ css.properties.grid-template-rows.repeat`
                     }
                   ]
                 },
-                resize: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/resize",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
                 resolution: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/resolution",
@@ -20191,248 +15688,14 @@ css.properties.grid-template-rows.repeat`
                     }
                   ]
                 },
-                right: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/right",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                rotate: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/rotate",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "row-gap": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/row-gap",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
                 "ruby-align": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/ruby-align",
                   messages: [
                     {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/CSS/ruby-merge"
-                      ]
-                    }
-                  ]
-                },
-                "ruby-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/ruby-position",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                rx: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/rx",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                ry: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/ry",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                scale: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scale",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-behavior": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-behavior",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-margin": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-margin",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-margin-block": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-margin-block",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-margin-block-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-margin-block-end",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-margin-block-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-margin-block-start",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-margin-bottom": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-margin-bottom",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-margin-inline": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-margin-inline",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-margin-inline-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-margin-inline-end",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-margin-inline-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-margin-inline-start",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-margin-left": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-margin-left",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-margin-right": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-margin-right",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-margin-top": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-margin-top",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
                       ]
                     }
                   ]
@@ -20445,246 +15708,6 @@ css.properties.grid-template-rows.repeat`
                       message: "Missing data",
                       data: [
                         "CSS info"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-padding": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-padding",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-padding-block": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-padding-block",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-padding-block-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-padding-block-end",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-padding-block-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-padding-block-start",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-padding-bottom": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-padding-bottom",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-padding-inline": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-padding-inline",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-padding-inline-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-padding-inline-end",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-padding-inline-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-padding-inline-start",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-padding-left": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-padding-left",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-padding-right": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-padding-right",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-padding-top": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-padding-top",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-snap-align": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-snap-align",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-snap-stop": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-snap-stop",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-snap-type": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-snap-type",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-timeline": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-timeline",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-timeline-axis": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-timeline-axis",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-timeline-name": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-timeline-name",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "scrollbar-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scrollbar-color",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "scrollbar-gutter": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scrollbar-gutter",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "scrollbar-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scrollbar-width",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
                       ]
                     }
                   ]
@@ -20707,90 +15730,6 @@ css.properties.grid-template-rows.repeat`
                     }
                   ]
                 },
-                "shape-image-threshold": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/shape-image-threshold",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "shape-margin": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/shape-margin",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "shape-outside": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/shape-outside",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "shape-rendering": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/shape-rendering",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "speak-as": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/speak-as",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "stop-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stop-color",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "stop-opacity": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stop-opacity",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
                 string: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/string",
@@ -20805,165 +15744,6 @@ css.properties.grid-template-rows.repeat`
                         'Unknown word "This string is demarcated by double quotes." (CssSyntaxError)',
                         '"This string is demarcated by double quotes."',
                         "2:1"
-                      ]
-                    }
-                  ]
-                },
-                stroke: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "stroke-dasharray": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-dasharray",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "stroke-dashoffset": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-dashoffset",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "stroke-linecap": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-linecap",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "stroke-linejoin": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-linejoin",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "stroke-miterlimit": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-miterlimit",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "stroke-opacity": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-opacity",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "stroke-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-width",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -20994,414 +15774,6 @@ css.properties.list-style-type.symbols`
                     }
                   ]
                 },
-                "tab-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/tab-size",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "table-layout": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/table-layout",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "text-align": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-align",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "text-align-last": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-align-last",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "text-anchor": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-anchor",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "text-box": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-box",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "text-box-edge": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-box-edge",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "text-box-trim": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-box-trim",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "text-combine-upright": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-combine-upright",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "text-decoration": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-decoration",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "text-decoration-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-decoration-color",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "text-decoration-line": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-decoration-line",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "text-decoration-skip": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-decoration-skip",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "text-decoration-skip-ink": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-decoration-skip-ink",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "text-decoration-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-decoration-style",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "text-decoration-thickness": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-decoration-thickness",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "text-emphasis": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-emphasis",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "text-emphasis-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-emphasis-color",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "text-emphasis-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-emphasis-position",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "text-emphasis-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-emphasis-style",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "text-indent": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-indent",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "text-justify": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-justify",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "text-orientation": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-orientation",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "text-overflow": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-overflow",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "text-rendering": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-rendering",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "text-shadow": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-shadow",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "text-size-adjust": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-size-adjust",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "text-spacing-trim": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-spacing-trim",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "text-transform": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-transform",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "text-underline-offset": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-underline-offset",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "text-underline-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-underline-position",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "text-wrap": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-wrap",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "text-wrap-mode": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-wrap-mode",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "text-wrap-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-wrap-style",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
                 time: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/time",
@@ -21422,64 +15794,10 @@ css.properties.list-style-type.symbols`
                     }
                   ]
                 },
-                "timeline-scope": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/timeline-scope",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                top: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/top",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "touch-action": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/touch-action",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                transform: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/transform",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
                 "transform-box": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/transform-box",
                   messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    },
                     {
                       message: "External sandbox link",
                       data: [
@@ -21703,114 +16021,6 @@ css.properties.list-style-type.symbols`
                     }
                   ]
                 },
-                "transform-origin": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/transform-origin",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "transform-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/transform-style",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                transition: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/transition",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "transition-behavior": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/transition-behavior",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "transition-delay": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/transition-delay",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "transition-duration": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/transition-duration",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "transition-property": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/transition-property",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "transition-timing-function": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/transition-timing-function",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                translate: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/translate",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
                 tutorials: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/Tutorials",
@@ -21822,18 +16032,6 @@ css.properties.list-style-type.symbols`
                     {
                       message: "Unreachable via page",
                       data: []
-                    }
-                  ]
-                },
-                "unicode-bidi": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/unicode-bidi",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
                     }
                   ]
                 },
@@ -21888,102 +16086,6 @@ css.properties.list-style-type.symbols`
                     }
                   ]
                 },
-                "user-select": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/user-select",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "vertical-align": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/vertical-align",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "view-timeline": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/view-timeline",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "view-timeline-axis": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/view-timeline-axis",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "view-timeline-inset": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/view-timeline-inset",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "view-timeline-name": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/view-timeline-name",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "view-transition-name": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/view-transition-name",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                visibility: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/visibility",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
                 webkit_extensions: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/WebKit_Extensions",
@@ -21991,157 +16093,6 @@ css.properties.list-style-type.symbols`
                     {
                       message: "Unreachable via sidebar",
                       data: []
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://trac.webkit.org/wiki/Styling%20Form%20Controls",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "white-space": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/white-space",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "white-space-collapse": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/white-space-collapse",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                widows: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/widows",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                width: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/width",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "will-change": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/will-change",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "word-break": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/word-break",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "word-spacing": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/word-spacing",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "writing-mode": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/writing-mode",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                x: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/x",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                y: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/y",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                "z-index": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/z-index",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
-                    }
-                  ]
-                },
-                zoom: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/zoom",
-                  messages: [
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/CSS/CSS_cascade/Value_processing#initial_value"
-                      ]
                     }
                   ]
                 }
@@ -22863,7 +16814,17 @@ http.headers.Use-As-Dictionary`,
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/HTTP/Guides/Content_negotiation",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.eff.org/deeplinks/2010/01/primer-information-theory-and-privacy",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     },
                     cookies: {
                       children: {},
@@ -23057,6 +17018,19 @@ http.headers.Use-As-Dictionary`,
                             }
                           }
                         },
+                        dnt: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/DNT",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         forwarded: {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Forwarded",
@@ -23162,6 +17136,13 @@ http.headers.Use-As-Dictionary`,
                             {
                               message: "Broken browser compat anchor",
                               data: []
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         },
@@ -23289,19 +17270,6 @@ http.headers.Use-As-Dictionary`,
                             "Parsing error: 'try' expected.",
                             "catch (exception) {",
                             "1:9"
-                          ]
-                        }
-                      ]
-                    },
-                    introduction: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Introduction",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://ecma-international.org/publications-and-standards/standards/ecma-262/",
-                            404
                           ]
                         }
                       ]
@@ -23614,19 +17582,6 @@ http.headers.Use-As-Dictionary`,
                         }
                       }
                     },
-                    javascript_technologies_overview: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Reference/JavaScript_technologies_overview",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://ecma-international.org/publications-and-standards/standards/ecma-262/",
-                            404
-                          ]
-                        }
-                      ]
-                    },
                     lexical_grammar: {
                       children: {},
                       slug: "/en-US/docs/Web/JavaScript/Reference/Lexical_grammar",
@@ -23740,25 +17695,7 @@ http.headers.Use-As-Dictionary`,
               }
             },
             mathml: {
-              children: {
-                guides: {
-                  children: {
-                    authoring: {
-                      children: {},
-                      slug: "/en-US/docs/Web/MathML/Guides/Authoring",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.lyx.org/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                }
-              },
+              children: {},
               slug: "/en-US/docs/Web/MathML",
               messages: [
                 {
