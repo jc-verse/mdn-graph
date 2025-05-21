@@ -74,21 +74,21 @@ const expectedErrors = (
   /(?<file>\/en-US\/docs\/[^ ]+): (?<message>.*)\n~~~\n(?<code>(?:.|\n)+?)~~~\n/g,
 );
 const expectedErrorsMap = new Map<string, Map<string, Map<string, boolean>>>();
+for (const match of expectedErrors) {
+  const { file, message, code } = match.groups!;
+  if (!expectedErrorsMap.has(file)) {
+    expectedErrorsMap.set(file, new Map());
+  }
+  if (!expectedErrorsMap.get(file)!.has(code)) {
+    expectedErrorsMap.get(file)!.set(code, new Map());
+  }
+  expectedErrorsMap.get(file)!.get(code)!.set(message, false);
+}
 
 export async function checkCode(
   nodes: any[],
   report: (node: any, message: string, ...data: string[]) => void,
 ) {
-  for (const match of expectedErrors) {
-    const { file, message, code } = match.groups!;
-    if (!expectedErrorsMap.has(file)) {
-      expectedErrorsMap.set(file, new Map());
-    }
-    if (!expectedErrorsMap.get(file)!.has(code)) {
-      expectedErrorsMap.get(file)!.set(code, new Map());
-    }
-    expectedErrorsMap.get(file)!.get(code)!.set(message, false);
-  }
   const eslint = new ESLint({
     overrideConfigFile: true,
     overrideConfig: eslintConfig,
@@ -99,8 +99,6 @@ export async function checkCode(
   });
   for (const node of nodes) {
     const file = node.id;
-    // TODO: there's something wrong with this code
-    if (file === "/en-US/docs/Web/CSS/@font-face/src") continue;
     const blocks = codes[file];
     if (!blocks) continue;
     for (const block of blocks) {

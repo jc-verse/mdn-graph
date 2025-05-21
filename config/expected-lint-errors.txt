@@ -767,7 +767,7 @@ function displayMessage() {
 function displayMessage(msgText, msgType) {
 ~~~
 
-/en-US/docs/Learn_web_development/Core/Scripting/Conditions: Parsing error: ':' expected.
+/en-US/docs/Learn_web_development/Core/Scripting/Conditionals: Parsing error: ':' expected.
 ~~~
 condition ? run this code : run this code instead
 ~~~
