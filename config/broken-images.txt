@@ -1,0 +1,6 @@
+  Some pages include deliberately missing images to demonstrate them.
+  Use two-space indent for comments.
+
+/en-US/docs/Web/CSS/:-moz-broken	broken.jpg
+/en-US/docs/Web/CSS/-moz-force-broken-image-icon	/broken/image/link.png
+/en-US/docs/Web/HTML/Reference/Elements/a	missing-icon.svg

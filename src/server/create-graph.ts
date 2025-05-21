@@ -29,6 +29,10 @@ const allowedNoSidebar = new Map(
   (await readConfig("allowed-no-sidebar.txt")).map((x) => [x, false]),
 );
 
+const brokenImages = new Map(
+  (await readConfig("broken-images.txt")).map((x) => [x, false]),
+);
+
 function globToRegex(str: string) {
   return new RegExp(
     `^${str
@@ -498,11 +502,7 @@ export default async function createContentGraph() {
     ) {
       allImgs.set(`${nodeId}/${Path.basename(file)}`, false);
     } else {
-      report(
-        graph.getNode(nodeId)!,
-        "Unexpected asset file",
-        Path.basename(file),
-      );
+      report(graph.getNode(nodeId)!, "Unknown asset type", Path.basename(file));
     }
   }
   graph.forEachNode((node) => {
@@ -512,7 +512,11 @@ export default async function createContentGraph() {
           report(node, "External image", img);
       } else {
         if (!allImgs.has(img)) {
-          report(node, "Missing image", img);
+          if (brokenImages.has(`${node.id}\t${img}`)) {
+            brokenImages.set(`${node.id}\t${img}`, true);
+          } else {
+            report(node, "Missing image", img);
+          }
         } else {
           allImgs.set(img, true);
         }
@@ -522,25 +526,68 @@ export default async function createContentGraph() {
       const { css = "", js = "", html = "" } = liveSample;
       const jsSrcReferences = js.matchAll(/\.src = ["']([^"']+)["']/g);
       // Used by Web/API/XMLHttpRequest/load_event and others
-      const jsFuncReferences = js.matchAll(/(?:runXHR|loadImage)\(["']([^"']+)["']\)/g);
+      const jsFuncReferences = js.matchAll(
+        /(?:runXHR|loadImage)\(["']([^"']+)["']\)/g,
+      );
       const jsHrefReferences = js.matchAll(/\.href = ["']([^"']+)["']/g);
       const htmlSrcReferences = html.matchAll(/src=["']([^"']+)["']/g);
-      const htmlSrcsetReferences = [...html.matchAll(/srcset=["']([^"']+)["']/g)].flatMap((match) =>
-        match[1].split(",").map((src) => [, src.split(" ").map((x) => x.trim()).find(Boolean)])
+      const htmlSrcsetReferences = [
+        ...html.matchAll(/srcset=["']([^"']+)["']/g),
+      ].flatMap((match) =>
+        match[1].split(",").map((src) => [
+          ,
+          src
+            .split(" ")
+            .map((x) => x.trim())
+            .find(Boolean),
+        ]),
       );
       const htmlHrefReferences = html.matchAll(/href=["']([^"']+)["']/g);
       const cssUrlReferences = css.matchAll(/url\(["']?([^"')]+)["']?\)/g);
-      const cssImageReferences = css.matchAll(/image\((?:ltr |rtl )?["']([^"']+)["']\)/g);
-      const cssImageSetReferences = [...css.matchAll(/image-set\(((?:[^)]|type\([^)]+\)|url\([^)]+\))+)\)/g)].flatMap((match) =>
-        [...match[1].matchAll(/(?<!type\()["']([^"']+)["']/g)].map((src) => [, src[1]])
+      const cssImageReferences = css.matchAll(
+        /image\((?:ltr |rtl )?["']([^"']+)["']\)/g,
       );
-      for (const match of [...jsSrcReferences, ...jsFuncReferences, ...jsHrefReferences, ...htmlSrcReferences, ...htmlSrcsetReferences, ...htmlHrefReferences, ...cssUrlReferences, ...cssImageReferences, ...cssImageSetReferences]) {
+      const cssImageSetReferences = [
+        ...css.matchAll(/image-set\(((?:[^)]|type\([^)]+\)|url\([^)]+\))+)\)/g),
+      ].flatMap((match) =>
+        [...match[1].matchAll(/(?<!type\()["']([^"']+)["']/g)].map((src) => [
+          ,
+          src[1],
+        ]),
+      );
+      for (const match of [
+        ...jsSrcReferences,
+        ...jsFuncReferences,
+        ...jsHrefReferences,
+        ...htmlSrcReferences,
+        ...htmlSrcsetReferences,
+        ...htmlHrefReferences,
+        ...cssUrlReferences,
+        ...cssImageReferences,
+        ...cssImageSetReferences,
+      ]) {
         const src = match[1];
-        if (!src.startsWith("https:") && !src.startsWith("http:") && !src.startsWith("/shared-assets/") && src !== "#") {
-          const resolvedSrc = new URL(src, `https://developer.mozilla.org${node.id}/`).pathname;
-          if ([".png", ".jpg", ".jpeg", ".gif", ".svg"].includes(Path.extname(resolvedSrc))) {
+        if (
+          !src.startsWith("https:") &&
+          !src.startsWith("http:") &&
+          !src.startsWith("/shared-assets/") &&
+          src !== "#"
+        ) {
+          const resolvedSrc = new URL(
+            src,
+            `https://developer.mozilla.org${node.id}/`,
+          ).pathname;
+          if (
+            [".png", ".jpg", ".jpeg", ".gif", ".svg"].includes(
+              Path.extname(resolvedSrc),
+            )
+          ) {
             if (!allImgs.has(resolvedSrc)) {
-              report(node, "Missing image", src);
+              if (brokenImages.has(`${node.id}\t${src}`)) {
+                brokenImages.set(`${node.id}\t${src}`, true);
+              } else {
+                report(node, "Missing image", src);
+              }
             } else {
               allImgs.set(resolvedSrc, true);
             }

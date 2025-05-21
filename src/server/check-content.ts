@@ -250,7 +250,7 @@ export function checkContent(
     if (text.startsWith("unsupported templ:")) {
       report("Bad macro", text);
     }
-  })
+  });
   if (rawContent.includes("-: "))
     report("Bad DL", rawContent.match(/-: .*$/m)?.[0].slice(0, 50));
   if (rawContent.includes("could not find syntax for this item"))

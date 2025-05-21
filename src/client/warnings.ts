@@ -374,7 +374,7 @@ function displayWarnings() {
         "Asset without content page",
         "External image",
         "Missing image",
-        "Unexpected asset file",
+        "Unknown asset type",
         "Unused image",
       ].includes(message[0])
     ) {

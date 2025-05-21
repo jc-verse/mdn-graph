@@ -25,6 +25,13 @@ const n = 0755; // 493
 const m = 0644; // 420
 ~~~
 
+/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling: Parsing error: 'try' expected.
+~~~
+catch (exception) {
+  statements
+}
+~~~
+
 /en-US/docs/Web/JavaScript/Reference/Template_literals: Parsing error: Hexadecimal digit expected.
 ~~~
 const bad = `bad escape sequence: \unicode`;
@@ -293,9 +300,37 @@ for (let i = "start" in window ? window.start : 0; i < 9; i++) {
 export DefaultExport from "bar.js"; // Invalid
 ~~~
 
+/en-US/docs/Web/JavaScript/Reference/Statements/while: Parsing error: '}' expected.
+~~~
+while (currentNode = iterator.nextNode()) {
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/while: Parsing error: '}' expected.
+~~~
+while ((currentNode = iterator.nextNode()) !== null) {
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/while: Parsing error: '}' expected.
+~~~
+while ((currentNode = iterator.nextNode()) && currentNode) {
+~~~
+
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/Array: Parsing error: Unexpected keyword or identifier.
 ~~~
 arr.0; // a syntax error
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort: Parsing error: ')' expected.
+~~~
+function compareFn(a, b) {
+  if (a is less than b by some ordering criterion) {
+    return -1;
+  } else if (a is greater than b by the ordering criterion) {
+    return 1;
+  }
+  // a must be equal to b
+  return 0;
+}
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Strict_mode: Parsing error: Octal literals are not allowed. Use the syntax '0o15'.
@@ -722,6 +757,21 @@ function f(...p,) {} // SyntaxError: parameter after rest parameter
 (...p,) => {}        // SyntaxError: expected closing parenthesis, got ','
 ~~~
 
+/en-US/docs/Learn_web_development/Core/Scripting/Build_your_own_function: Parsing error: '}' expected.
+~~~
+function displayMessage() {
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/Build_your_own_function: Parsing error: '}' expected.
+~~~
+function displayMessage(msgText, msgType) {
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/Conditions: Parsing error: ':' expected.
+~~~
+condition ? run this code : run this code instead
+~~~
+
 /en-US/docs/Learn_web_development/Core/Scripting/Strings: Parsing error: ',' expected.
 ~~~
 const badString1 = This is a test;
@@ -742,6 +792,16 @@ const badQuotes = "She said "I think so!"";
 /en-US/docs/Learn_web_development/Core/Scripting/Math: Parsing error: Invalid left-hand side expression in unary operation
 ~~~
 3++;
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/What_went_wrong: Parsing error: '}' expected.
+~~~
+function checkGuess() {
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/What_went_wrong: Parsing error: '}' expected.
+~~~
+function checkGuess( {
 ~~~
 
 /en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_are_browser_developer_tools: Parsing error: Unterminated string literal.
@@ -765,6 +825,30 @@ console.log(helloChris;
 ~~~
 function exampleFunc() {
   …
+}
+~~~
+
+/en-US/docs/MDN/Writing_guidelines/Page_structures/Syntax_sections: Parsing error: Expression expected.
+~~~
+arr.slice([begin[, end]])
+~~~
+
+/en-US/docs/Glossary/Boolean: Parsing error: ')' expected.
+~~~
+/* JavaScript if statement */
+if (boolean conditional) {
+  // code to execute if the conditional is true
+}
+
+if (boolean conditional) {
+  console.log("boolean conditional resolved to true");
+} else {
+  console.log("boolean conditional resolved to false");
+}
+
+/* JavaScript for loop */
+for (control variable; boolean conditional; counter) {
+  // code to execute repeatedly if the conditional is true
 }
 ~~~
 
