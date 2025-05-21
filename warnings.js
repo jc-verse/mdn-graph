@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-6nvgqsw2.js";
+} from "./chunk-ymzqs748.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -203,20 +203,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            boolean: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Boolean",
-              messages: [
-                {
-                  message: "JS code issue",
-                  data: [
-                    "Parsing error: ')' expected.",
-                    "if (boolean conditional) {",
-                    "2:9"
-                  ]
                 }
               ]
             },
@@ -1266,38 +1252,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Unexpected keyword or identifier.",
-                            "get incomplete() {",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Declaration expected.",
-                            "@action",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Unexpected keyword or identifier.",
-                            "get todoCountIsOne() {",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Declaration expected.",
-                            "@action",
-                            "1:9"
-                          ]
                         }
                       ]
                     },
@@ -1325,22 +1279,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Declaration expected.",
-                            "@service('todo-data') todos;",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Unexpected keyword or identifier.",
-                            "get all() {",
-                            "1:9"
-                          ]
                         }
                       ]
                     },
@@ -1361,14 +1299,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Unexpected keyword or identifier.",
-                            "get completed() {",
-                            "1:9"
-                          ]
                         }
                       ]
                     },
@@ -1418,100 +1348,6 @@ var warnings_processed_default = {
                             "Parsing error: '...' expected.",
                             "      <AuthorCredit {/* props */} />",
                             "4:9"
-                          ]
-                        }
-                      ]
-                    },
-                    react_components: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_components",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: JSX expressions must have one parent element.",
-                            '<Todo name="Eat" />',
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: JSX expressions must have one parent element.",
-                            '<Todo name="Eat" completed />',
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: JSX expressions must have one parent element.",
-                            '<Todo name="Eat" id="todo-0" completed />',
-                            "1:9"
-                          ]
-                        }
-                      ]
-                    },
-                    react_getting_started: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Expression expected.",
-                            "  );",
-                            "5:9"
-                          ]
-                        }
-                      ]
-                    },
-                    react_interactivity_events_state: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_interactivity_events_state",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: JSX element 'form' has no corresponding closing tag.",
-                            "<form onSubmit={handleSubmit}>",
-                            "1:9"
-                          ]
-                        }
-                      ]
-                    },
-                    react_interactivity_filtering_conditional_rendering: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_interactivity_filtering_conditional_rendering",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: JSX element 'form' has no corresponding closing tag.",
-                            '<form className="stack-small" onSubmit={handleSubmit}>',
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: JSX expressions must have one parent element.",
-                            "<FilterButton />",
-                            "1:9"
-                          ]
-                        }
-                      ]
-                    },
-                    react_todo_list_beginning: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_todo_list_beginning",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: JSX expressions must have one parent element.",
-                            '<input id="todo-0" type="checkbox" defaultChecked />',
-                            "1:9"
                           ]
                         }
                       ]
@@ -1643,22 +1479,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Expression expected.",
-                            "}",
-                            "3:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ';' expected.",
-                            "  onSubmit() {",
-                            "2:9"
-                          ]
                         }
                       ]
                     },
@@ -1706,52 +1526,6 @@ var warnings_processed_default = {
                 },
                 scripting: {
                   children: {
-                    build_your_own_function: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Build_your_own_function",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: '}' expected.",
-                            `function displayMessage() {
-`,
-                            "2:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: '}' expected.",
-                            `function displayMessage(msgText, msgType) {
-`,
-                            "2:9"
-                          ]
-                        }
-                      ]
-                    },
-                    conditionals: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Conditionals",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Expression expected.",
-                            "else /* run some other code instead */",
-                            "2:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: ':' expected.",
-                            "condition ? run this code : run this code instead",
-                            "1:9"
-                          ]
-                        }
-                      ]
-                    },
                     what_went_wrong: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/What_went_wrong",
@@ -1770,24 +1544,6 @@ var warnings_processed_default = {
                           data: [
                             "Parsing error: '}' expected.",
                             `if (userGuess = randomNumber) {
-`,
-                            "2:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: '}' expected.",
-                            `function checkGuess() {
-`,
-                            "2:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: '}' expected.",
-                            `function checkGuess( {
 `,
                             "2:9"
                           ]
@@ -2053,6 +1809,19 @@ var warnings_processed_default = {
                 },
                 performance: {
                   children: {
+                    multimedia: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Multimedia",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://imageoptim.com/online",
+                            "Unable to connect. Is the computer able to access the url?"
+                          ]
+                        }
+                      ]
+                    },
                     web_performance_basics: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Web_Performance_Basics",
@@ -2060,6 +1829,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -2111,6 +1887,40 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            getting_started: {
+              children: {
+                environment_setup: {
+                  children: {},
+                  slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://support.microsoft.com/en-us/windows",
+                        504
+                      ]
+                    }
+                  ]
+                },
+                soft_skills: {
+                  children: {
+                    finding_a_job: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Finding_a_job",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.upwork.com/",
+                            403
+                          ]
                         }
                       ]
                     }
@@ -2313,6 +2123,13 @@ var warnings_processed_default = {
                             "https://webchat.freenode.net/?channels=textmate",
                             521
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.microsoft.com/en-us/windows",
+                            504
+                          ]
                         }
                       ]
                     },
@@ -2323,6 +2140,39 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    how_do_you_host_your_website_on_google_app_engine: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gaesamplesite.appspot.com/downloads.html",
+                            503
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gaesamplesite.appspot.com/",
+                            503
+                          ]
+                        }
+                      ]
+                    },
+                    what_software_do_i_need: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://browsershots.org/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -2537,20 +2387,6 @@ var warnings_processed_default = {
                           ]
                         }
                       }
-                    },
-                    syntax_sections: {
-                      children: {},
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Syntax_sections",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: Expression expected.",
-                            "arr.slice([begin[, end]])",
-                            "1:9"
-                          ]
-                        }
-                      ]
                     }
                   }
                 }
@@ -2659,17 +2495,17 @@ var warnings_processed_default = {
                                       data: []
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "Cannot reach server and Bun hangs"
                                       ]
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "Cannot reach server and Bun hangs"
                                       ]
                                     }
                                   ]
@@ -2693,17 +2529,17 @@ var warnings_processed_default = {
                                       data: []
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "Cannot reach server and Bun hangs"
                                       ]
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "Cannot reach server and Bun hangs"
                                       ]
                                     }
                                   ]
@@ -2712,10 +2548,10 @@ var warnings_processed_default = {
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
                               messages: [
                                 {
-                                  message: "HTTP link",
+                                  message: "Broken external link",
                                   data: [
                                     "http://www.softwareishard.com/blog/har-12-spec/",
-                                    ""
+                                    "Cannot reach server and Bun hangs"
                                   ]
                                 }
                               ]
@@ -2955,24 +2791,6 @@ var warnings_processed_default = {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        menus: {
-                          children: {
-                            onshown: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/onShown",
-                              messages: [
-                                {
-                                  message: "JS code issue",
-                                  data: [
-                                    "Parsing error: Expression expected.",
-                                    "  await /* the function to call */ ;",
-                                    "9:9"
-                                  ]
                                 }
                               ]
                             }
@@ -7146,7 +6964,7 @@ webextensions.manifest.options_ui`,
                   slug: "/en-US/docs/Web/API/Attribution_Reporting_API",
                   messages: [
                     {
-                      message: "Unexpected asset file",
+                      message: "Unknown asset type",
                       data: [
                         "ara-flow.drawio"
                       ]
@@ -9660,130 +9478,6 @@ api.Window.sessionStorage`,
                 },
                 webgl_api: {
                   children: {
-                    by_example: {
-                      children: {
-                        hello_glsl: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/WebGL_API/By_example/Hello_GLSL",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: '}' expected.",
-                                `;(() => {
-  "use strict";
-`,
-                                "3:9"
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Declaration or statement expected.",
-                                "})();",
-                                "1:9"
-                              ]
-                            }
-                          ]
-                        },
-                        hello_vertex_attributes: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/WebGL_API/By_example/Hello_vertex_attributes",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: '}' expected.",
-                                `;(() => {
-  "use strict";
-`,
-                                "3:9"
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Declaration or statement expected.",
-                                "})();",
-                                "1:9"
-                              ]
-                            }
-                          ]
-                        },
-                        raining_rectangles: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/WebGL_API/By_example/Raining_rectangles",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: '}' expected.",
-                                `;(() => {
-  "use strict";
-`,
-                                "3:9"
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Declaration or statement expected.",
-                                "})();",
-                                "1:9"
-                              ]
-                            }
-                          ]
-                        },
-                        scissor_animation: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/WebGL_API/By_example/Scissor_animation",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: '}' expected.",
-                                `;(() => {
-  "use strict";
-`,
-                                "3:9"
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Declaration or statement expected.",
-                                "})();",
-                                "1:9"
-                              ]
-                            }
-                          ]
-                        },
-                        textures_from_code: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/WebGL_API/By_example/Textures_from_code",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: '}' expected.",
-                                `;(() => {
-  "use strict";
-`,
-                                "3:9"
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: Declaration or statement expected.",
-                                "})();",
-                                "1:9"
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
                     matrix_math_for_the_web: {
                       children: {},
                       slug: "/en-US/docs/Web/API/WebGL_API/Matrix_math_for_the_web",
@@ -10226,13 +9920,13 @@ api.Window.sessionStorage`,
                       slug: "/en-US/docs/Web/API/Window_Management_API/Multi-screen_origin",
                       messages: [
                         {
-                          message: "Unexpected asset file",
+                          message: "Unknown asset type",
                           data: [
                             "primary-screen-left-source.drawio"
                           ]
                         },
                         {
-                          message: "Unexpected asset file",
+                          message: "Unknown asset type",
                           data: [
                             "primary-screen-right-source.drawio"
                           ]
@@ -10562,18 +10256,6 @@ api.Window.sessionStorage`,
             },
             css: {
               children: {
-                "_colon_-moz-broken": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:-moz-broken",
-                  messages: [
-                    {
-                      message: "Missing image",
-                      data: [
-                        "broken.jpg"
-                      ]
-                    }
-                  ]
-                },
                 "_colon_-moz-drag-over": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/:-moz-drag-over",
@@ -10873,14 +10555,6 @@ api.Window.sessionStorage`,
                     {
                       message: "Missing syntax code block",
                       data: []
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        'Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                        "</div>",
-                        "0:0"
-                      ]
                     }
                   ]
                 },
@@ -11019,12 +10693,6 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
-                    },
-                    {
-                      message: "Missing image",
-                      data: [
-                        "/broken/image/link.png"
-                      ]
                     }
                   ]
                 },
@@ -11319,13 +10987,13 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@font-face/font-feature-settings",
                       messages: [
                         {
-                          message: "Unexpected asset file",
+                          message: "Unknown asset type",
                           data: [
                             "ofl.txt"
                           ]
                         },
                         {
-                          message: "Unexpected asset file",
+                          message: "Unknown asset type",
                           data: [
                             "montecarlo-regular.woff2"
                           ]
@@ -12203,20 +11871,6 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                "align-content": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/align-content",
-                  messages: [
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        'Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                        "</div>",
-                        "32:0"
-                      ]
-                    }
-                  ]
-                },
                 "alpha-value": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/alpha-value",
@@ -12313,6 +11967,26 @@ css.selectors.-webkit-resizer`,
                         "https://drafts.fxtf.org/filter-effects-2/",
                         "The operation timed out."
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "background-blend-mode": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/background-blend-mode",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/compositing-2/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -12325,13 +11999,6 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Missing syntax code block",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/fill-stroke-3/",
-                            "The operation timed out."
-                          ]
                         },
                         {
                           message: "CSS code issue",
@@ -12359,19 +12026,6 @@ css.selectors.-webkit-resizer`,
                         }
                       ]
                     },
-                    polygon: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/basic-shape/polygon",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/fill-stroke-3/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     rect: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/basic-shape/rect",
@@ -12380,19 +12034,6 @@ css.selectors.-webkit-resizer`,
                           message: "Broken external link",
                           data: [
                             "https://drafts.fxtf.org/css-masking-1/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    shape: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/basic-shape/shape",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/fill-stroke-3/",
                             "The operation timed out."
                           ]
                         }
@@ -12414,6 +12055,13 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/compositing-2/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -12556,14 +12204,6 @@ css.selectors.-webkit-resizer`,
                         "https://drafts.fxtf.org/css-masking-1/",
                         "The operation timed out."
                       ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        'Unexpected closing tag ":svg:clipPath". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                        "    </clipPath>",
-                        "7:4"
-                      ]
                     }
                   ]
                 },
@@ -12576,22 +12216,6 @@ css.selectors.-webkit-resizer`,
                       data: [
                         "https://drafts.fxtf.org/css-masking-1/",
                         "The operation timed out."
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        'Unexpected closing tag ":svg:clipPath". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                        "    </clipPath>",
-                        "4:4"
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        'Unexpected closing tag ":svg:clipPath". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                        "    </clipPath>",
-                        "7:4"
                       ]
                     }
                   ]
@@ -13046,6 +12670,19 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
+                "color-interpolation-filters": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/color-interpolation-filters",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 "color-interpolation-method": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/color-interpolation-method",
@@ -13138,7 +12775,7 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/CSS_anchor_positioning/Using",
                       messages: [
                         {
-                          message: "Unexpected asset file",
+                          message: "Unknown asset type",
                           data: [
                             "position-area.drawio"
                           ]
@@ -13525,14 +13162,6 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            'Unexpected closing tag ":svg:clipPath". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                            "  </clipPath>",
-                            "4:2"
-                          ]
                         }
                       ]
                     },
@@ -13567,19 +13196,6 @@ css.properties.grid-template-rows.masonry`,
                             "api.MediaQueryList",
                             "Expected:",
                             "[None]"
-                          ]
-                        }
-                      ]
-                    },
-                    using_media_queries_for_accessibility: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries_for_accessibility",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2020/09/design-reduced-motion-sensitivities/",
-                            "unknown certificate verification error"
                           ]
                         }
                       ]
@@ -13626,7 +13242,7 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/CSS_overflow/CSS_carousels",
                       messages: [
                         {
-                          message: "Unexpected asset file",
+                          message: "Unknown asset type",
                           data: [
                             "carousel.drawio"
                           ]
@@ -14031,40 +13647,14 @@ css.properties.grid-template-rows.masonry`,
                     }
                   }
                 },
-                fill: {
+                filter: {
                   children: {},
-                  slug: "/en-US/docs/Web/CSS/fill",
+                  slug: "/en-US/docs/Web/CSS/filter",
                   messages: [
                     {
                       message: "Broken external link",
                       data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "fill-opacity": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/fill-opacity",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "fill-rule": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/fill-rule",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "https://drafts.fxtf.org/filter-effects-1/",
                         "The operation timed out."
                       ]
                     }
@@ -14079,6 +13669,13 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "Missing syntax code block",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
                         },
                         {
                           message: "CSS code issue",
@@ -14103,6 +13700,13 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/brightness",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word brightness (CssSyntaxError)",
@@ -14117,6 +13721,13 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/contrast",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word contrast (CssSyntaxError)",
@@ -14126,10 +13737,30 @@ css.properties.grid-template-rows.masonry`,
                         }
                       ]
                     },
+                    "drop-shadow": {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/filter-function/drop-shadow",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     grayscale: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/filter-function/grayscale",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "CSS code issue",
                           data: [
@@ -14147,6 +13778,13 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "Missing syntax code block",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
                         },
                         {
                           message: "CSS code issue",
@@ -14171,6 +13809,13 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/invert",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word invert (CssSyntaxError)",
@@ -14184,6 +13829,13 @@ css.properties.grid-template-rows.masonry`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/filter-function/opacity",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "CSS code issue",
                           data: [
@@ -14199,6 +13851,13 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/saturate",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "CSS code issue",
                           data: [
                             "Unknown word saturate (CssSyntaxError)",
@@ -14212,6 +13871,13 @@ css.properties.grid-template-rows.masonry`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/filter-function/sepia",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "CSS code issue",
                           data: [
@@ -14228,6 +13894,13 @@ css.properties.grid-template-rows.masonry`,
                     {
                       message: "Missing syntax code block",
                       data: []
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -14293,6 +13966,32 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
+                "flood-color": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/flood-color",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "flood-opacity": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/flood-opacity",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 font: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/font",
@@ -14318,13 +14017,13 @@ css.properties.width.fit-content_function`
                   slug: "/en-US/docs/Web/CSS/font-variant-alternates",
                   messages: [
                     {
-                      message: "Unexpected asset file",
+                      message: "Unknown asset type",
                       data: [
                         "ofl.txt"
                       ]
                     },
                     {
-                      message: "Unexpected asset file",
+                      message: "Unknown asset type",
                       data: [
                         "montecarlo-regular.woff2"
                       ]
@@ -14646,6 +14345,19 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
+                isolation: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/isolation",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/compositing-2/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 layout_cookbook: {
                   children: {
                     contribute_a_recipe: {
@@ -14691,6 +14403,19 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
+                "lighting-color": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/lighting-color",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 "line-height-step": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/line-height-step",
@@ -14699,20 +14424,6 @@ css.properties.width.fit-content_function`
                       message: "Not in BCD",
                       data: [
                         "css.properties.line-height-step"
-                      ]
-                    }
-                  ]
-                },
-                "line-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/line-style",
-                  messages: [
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        'Unexpected closing tag "section". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                        "</section>",
-                        "22:0"
                       ]
                     }
                   ]
@@ -15032,6 +14743,13 @@ css.properties.grid-template-rows.minmax`
                         "https://drafts.fxtf.org/compositing/",
                         "The operation timed out."
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/compositing-2/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -15052,45 +14770,6 @@ css.properties.grid-template-rows.minmax`
                     {
                       message: "Missing syntax code block",
                       data: []
-                    }
-                  ]
-                },
-                offset: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/offset",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/motion-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "offset-anchor": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/offset-anchor",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/motion-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "offset-distance": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/offset-distance",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/motion-1/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -15120,39 +14799,6 @@ css.properties.grid-template-rows.minmax`
                       message: "External sandbox link",
                       data: [
                         "https://jsfiddle.net/ericwilligers/r1snqdan/"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/motion-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "offset-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/offset-position",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/motion-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "offset-rotate": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/offset-rotate",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/motion-1/",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -15190,7 +14836,7 @@ css.properties.grid-template-rows.minmax`
                   slug: "/en-US/docs/Web/CSS/position-area",
                   messages: [
                     {
-                      message: "Unexpected asset file",
+                      message: "Unknown asset type",
                       data: [
                         "position-area.drawio"
                       ]
@@ -15204,19 +14850,6 @@ css.properties.grid-template-rows.minmax`
                     {
                       message: "Missing syntax code block",
                       data: []
-                    }
-                  ]
-                },
-                ray: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/ray",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/motion-1/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -15850,117 +15483,6 @@ css.properties.grid-template-rows.repeat`
                         'Unknown word "This string is demarcated by double quotes." (CssSyntaxError)',
                         '"This string is demarcated by double quotes."',
                         "2:1"
-                      ]
-                    }
-                  ]
-                },
-                stroke: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "stroke-dasharray": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-dasharray",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "stroke-dashoffset": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-dashoffset",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "stroke-linecap": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-linecap",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "stroke-linejoin": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-linejoin",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "stroke-miterlimit": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-miterlimit",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "stroke-opacity": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-opacity",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "stroke-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-width",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -16860,24 +16382,6 @@ html.elements.select.size`
                     },
                     elements: {
                       children: {
-                        a: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/a",
-                          messages: [
-                            {
-                              message: "Missing image",
-                              data: [
-                                "missing-icon.svg"
-                              ]
-                            },
-                            {
-                              message: "Missing image",
-                              data: [
-                                "missing-icon.svg"
-                              ]
-                            }
-                          ]
-                        },
                         meta: {
                           children: {
                             name: {
@@ -16937,7 +16441,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/td",
                           messages: [
                             {
-                              message: "Unexpected asset file",
+                              message: "Unknown asset type",
                               data: [
                                 "column-row-span.html"
                               ]
@@ -16949,7 +16453,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/th",
                           messages: [
                             {
-                              message: "Unexpected asset file",
+                              message: "Unknown asset type",
                               data: [
                                 "column-row-span.html"
                               ]
@@ -16961,7 +16465,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/thead",
                           messages: [
                             {
-                              message: "Unexpected asset file",
+                              message: "Unknown asset type",
                               data: [
                                 "column-row-span.html"
                               ]
@@ -17038,7 +16542,7 @@ http.headers.Use-As-Dictionary`,
                       slug: "/en-US/docs/Web/HTTP/Guides/Cookies",
                       messages: [
                         {
-                          message: "Unexpected asset file",
+                          message: "Unknown asset type",
                           data: [
                             "cookie-basic-example.drawio"
                           ]
@@ -17406,6 +16910,13 @@ http.headers.Use-As-Dictionary`,
                             {
                               message: "Missing syntax code block",
                               data: []
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://support.microsoft.com/en-US/office/mitigating-framesniffing-with-the-x-frame-options-header-1911411b-b51e-49fd-9441-e8301dcdcd79",
+                                504
+                              ]
                             }
                           ]
                         },
@@ -17459,20 +16970,6 @@ http.headers.Use-As-Dictionary`,
                         }
                       ]
                     },
-                    control_flow_and_error_handling: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: 'try' expected.",
-                            "catch (exception) {",
-                            "1:9"
-                          ]
-                        }
-                      ]
-                    },
                     using_promises: {
                       children: {},
                       slug: "/en-US/docs/Web/JavaScript/Guide/Using_promises",
@@ -17511,24 +17008,6 @@ http.headers.Use-As-Dictionary`,
                     },
                     global_objects: {
                       children: {
-                        array: {
-                          children: {
-                            sort: {
-                              children: {},
-                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort",
-                              messages: [
-                                {
-                                  message: "JS code issue",
-                                  data: [
-                                    "Parsing error: ')' expected.",
-                                    "  if (a is less than b by some ordering criterion) {",
-                                    "2:9"
-                                  ]
-                                }
-                              ]
-                            }
-                          }
-                        },
                         asyncgeneratorfunction: {
                           children: {
                             prototype: {
@@ -17853,39 +17332,6 @@ http.headers.Use-As-Dictionary`,
                               ]
                             }
                           ]
-                        },
-                        while: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Statements/while",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: '}' expected.",
-                                `while (currentNode = iterator.nextNode()) {
-`,
-                                "2:9"
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: '}' expected.",
-                                `while ((currentNode = iterator.nextNode()) !== null) {
-`,
-                                "2:9"
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "Parsing error: '}' expected.",
-                                `while ((currentNode = iterator.nextNode()) && currentNode) {
-`,
-                                "2:9"
-                              ]
-                            }
-                          ]
                         }
                       }
                     }
@@ -18193,6 +17639,27 @@ http.headers.Use-As-Dictionary`,
                   ]
                 }
               ]
+            },
+            progressive_web_apps: {
+              children: {
+                guides: {
+                  children: {
+                    installing: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Progressive_web_apps/Guides/Installing",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.microsoft.com/en-us/topic/install-manage-or-uninstall-apps-in-microsoft-edge-0c156575-a94a-45e4-a54f-3a84846f6113",
+                            504
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
             },
             security: {
               children: {
@@ -19804,7 +19271,7 @@ svg.elements.feSpotLight.z`
                                 `<div class="resizer">
   <iframe
     class="resized"
-    srcdoc="
+    srcdoc='
 `,
                                 "4:0"
                               ]
@@ -19813,7 +19280,7 @@ svg.elements.feSpotLight.z`
                               message: "HTML code issue",
                               data: [
                                 'Unexpected closing tag "iframe". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                                '  "></iframe>',
+                                "  '></iframe>",
                                 "0:4"
                               ]
                             },
@@ -20484,7 +19951,7 @@ function displayWarnings() {
       "Asset without content page",
       "External image",
       "Missing image",
-      "Unexpected asset file",
+      "Unknown asset type",
       "Unused image"
     ].includes(message[0])) {
       assetIssues.append(option);
