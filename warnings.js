@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-10wwc3y2.js";
+} from "./chunk-k3myb0ng.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -1422,6 +1422,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/guide/scaling-up/sfc.html",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -1488,9 +1495,14 @@ var warnings_processed_default = {
                           data: [
                             "syntax",
                             "Parsing error: '}' expected.",
-                            `if (userGuess === randomNumber) {
-`,
-                            "2:9"
+                            "",
+                            "2:9",
+                            `/en-US/docs/Learn_web_development/Core/Scripting/What_went_wrong
+[syntax] Parsing error: '}' expected.
+~~~
+if (userGuess === randomNumber) {
+~~~
+`
                           ]
                         },
                         {
@@ -1498,9 +1510,14 @@ var warnings_processed_default = {
                           data: [
                             "syntax",
                             "Parsing error: '}' expected.",
-                            `if (userGuess = randomNumber) {
-`,
-                            "2:9"
+                            "",
+                            "2:9",
+                            `/en-US/docs/Learn_web_development/Core/Scripting/What_went_wrong
+[syntax] Parsing error: '}' expected.
+~~~
+if (userGuess = randomNumber) {
+~~~
+`
                           ]
                         }
                       ]
@@ -1663,18 +1680,27 @@ var warnings_processed_default = {
                           ]
                         }
                       ]
-                    },
-                    third_party_apis: {
+                    }
+                  }
+                },
+                "client-side_tools": {
+                  children: {
+                    introducing_complete_toolchain: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Third_party_APIs",
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
                       messages: [
                         {
-                          message: "JS code issue",
+                          message: "Broken external link",
                           data: [
-                            "syntax",
-                            "Parsing error: Expression expected.",
-                            'layers: L.mapquest.tileLayer("map"),',
-                            "1:9"
+                            "https://vite.dev/guide/features.html",
+                            "unknown certificate verification error"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/features.html",
+                            "unknown certificate verification error"
                           ]
                         }
                       ]
@@ -1803,21 +1829,6 @@ var warnings_processed_default = {
                     },
                     express_nodejs: {
                       children: {
-                        deployment: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/deployment",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "import/newline-after-import",
-                                "Expected 1 empty line after require statement not followed by another require.",
-                                'const RateLimit = require("express-rate-limit");',
-                                "7:1"
-                              ]
-                            }
-                          ]
-                        },
                         introduction: {
                           children: {},
                           slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
@@ -1840,6 +1851,27 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            getting_started: {
+              children: {
+                soft_skills: {
+                  children: {
+                    finding_a_job: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Finding_a_job",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.upwork.com/",
+                            403
+                          ]
                         }
                       ]
                     }
@@ -3199,12 +3231,17 @@ webextensions.manifest.options_ui`,
                           data: [
                             "syntax",
                             "Parsing error: '}' expected.",
-                            `if (browser.contextualIdentities === undefined) {
+                            "",
+                            "5:9",
+                            `/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_contextual_identities
+[syntax] Parsing error: '}' expected.
+~~~
+if (browser.contextualIdentities === undefined) {
   div.innerText =
     "browser.contextualIdentities not available. Check that the privacy.userContext.enabled pref is set to true, and reload the add-on.";
 } else {
-`,
-                            "5:9"
+~~~
+`
                           ]
                         },
                         {
@@ -3212,13 +3249,18 @@ webextensions.manifest.options_ui`,
                           data: [
                             "syntax",
                             "Parsing error: '}' expected.",
-                            `  browser.contextualIdentities.query({}).then((identities) => {
+                            "",
+                            "6:9",
+                            `/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_contextual_identities
+[syntax] Parsing error: '}' expected.
+~~~
+  browser.contextualIdentities.query({}).then((identities) => {
     if (!identities.length) {
       div.innerText = "No identities returned from the API.";
       return;
     }
-`,
-                            "6:9"
+~~~
+`
                           ]
                         },
                         {
@@ -3227,7 +3269,37 @@ webextensions.manifest.options_ui`,
                             "syntax",
                             "Parsing error: Declaration or statement expected.",
                             "  });",
-                            "12:9"
+                            "12:9",
+                            `/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_contextual_identities
+[syntax] Parsing error: Declaration or statement expected.
+~~~
+    for (const identity of identities) {
+      const row = document.createElement("div");
+      const span = document.createElement("span");
+      span.className = "identity";
+      span.innerText = identity.name;
+      span.style = \`color: \${identity.color}\`;
+      console.log(identity);
+      row.appendChild(span);
+      createOptions(row, identity);
+      div.appendChild(row);
+    }
+  });
+}
+
+function createOptions(node, identity) {
+  for (const option of ["Create", "Close All"]) {
+    const a = document.createElement("a");
+    a.href = "#";
+    a.innerText = option;
+    a.dataset.action = option.toLowerCase().replace(" ", "-");
+    a.dataset.identity = identity.cookieStoreId;
+    a.addEventListener("click", eventHandler);
+    node.appendChild(a);
+  }
+}
+~~~
+`
                           ]
                         },
                         {
@@ -3235,9 +3307,14 @@ webextensions.manifest.options_ui`,
                           data: [
                             "syntax",
                             "Parsing error: '}' expected.",
-                            `function eventHandler(event) {
-`,
-                            "2:9"
+                            "",
+                            "2:9",
+                            `/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_contextual_identities
+[syntax] Parsing error: '}' expected.
+~~~
+function eventHandler(event) {
+~~~
+`
                           ]
                         },
                         {
@@ -3246,7 +3323,23 @@ webextensions.manifest.options_ui`,
                             "syntax",
                             "Parsing error: Declaration or statement expected.",
                             "}",
-                            "11:9"
+                            "11:9",
+                            `/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_contextual_identities
+[syntax] Parsing error: Declaration or statement expected.
+~~~
+  if (event.target.dataset.action === "close-all") {
+    browser.tabs
+      .query({
+        cookieStoreId: event.target.dataset.identity,
+      })
+      .then((tabs) => {
+        browser.tabs.remove(tabs.map((i) => i.id));
+      });
+  }
+  event.preventDefault();
+}
+~~~
+`
                           ]
                         }
                       ]
@@ -3260,12 +3353,17 @@ webextensions.manifest.options_ui`,
                           data: [
                             "syntax",
                             "Parsing error: '}' expected.",
-                            `  function updateTab(tabs) {
+                            "",
+                            "5:9",
+                            `/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_the_Bookmarks_API
+[syntax] Parsing error: '}' expected.
+~~~
+  function updateTab(tabs) {
     if (tabs[0]) {
       currentTab = tabs[0];
       if (isSupportedProtocol(currentTab.url)) {
-`,
-                            "5:9"
+~~~
+`
                           ]
                         },
                         {
@@ -3273,12 +3371,17 @@ webextensions.manifest.options_ui`,
                           data: [
                             "syntax",
                             "Parsing error: '}' expected.",
-                            `      let searching = browser.bookmarks.search({ url: currentTab.url });
+                            "",
+                            "5:9",
+                            `/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_the_Bookmarks_API
+[syntax] Parsing error: '}' expected.
+~~~
+      let searching = browser.bookmarks.search({ url: currentTab.url });
       searching.then((bookmarks) => {
         currentBookmark = bookmarks[0];
         updateIcon();
-`,
-                            "5:9"
+~~~
+`
                           ]
                         }
                       ]
@@ -3292,14 +3395,19 @@ webextensions.manifest.options_ui`,
                           data: [
                             "syntax",
                             "Parsing error: '}' expected.",
-                            `for (let i = 0; i < bgBtns.length; i++) {
+                            "",
+                            "7:9",
+                            `/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_the_Cookies_API
+[syntax] Parsing error: '}' expected.
+~~~
+for (let i = 0; i < bgBtns.length; i++) {
   let imgName = bgBtns[i].getAttribute("class");
   let bgImg = "url('images/" + imgName + ".png')";
   bgBtns[i].style.backgroundImage = bgImg;
 
   bgBtns[i].onclick = (e) => {
-`,
-                            "7:9"
+~~~
+`
                           ]
                         }
                       ]
@@ -3313,7 +3421,12 @@ webextensions.manifest.options_ui`,
                           data: [
                             "syntax",
                             "Parsing error: '}' expected.",
-                            `function listTabs() {
+                            "",
+                            "9:9",
+                            `/en-US/docs/Mozilla/Add-ons/WebExtensions/Working_with_the_Tabs_API
+[syntax] Parsing error: '}' expected.
+~~~
+function listTabs() {
   getCurrentWindowTabs().then((tabs) => {
     const tabsList = document.getElementById("tabs-list");
     const currentTabs = document.createDocumentFragment();
@@ -3321,8 +3434,8 @@ webextensions.manifest.options_ui`,
     let counter = 0;
 
     tabsList.textContent = "";
-`,
-                            "9:9"
+~~~
+`
                           ]
                         },
                         {
@@ -3331,7 +3444,15 @@ webextensions.manifest.options_ui`,
                             "syntax",
                             "Parsing error: Declaration or statement expected.",
                             "  });",
-                            "2:9"
+                            "2:9",
+                            `/en-US/docs/Mozilla/Add-ons/WebExtensions/Working_with_the_Tabs_API
+[syntax] Parsing error: Declaration or statement expected.
+~~~
+    tabsList.appendChild(currentTabs);
+  });
+}
+~~~
+`
                           ]
                         },
                         {
@@ -3340,7 +3461,21 @@ webextensions.manifest.options_ui`,
                             "syntax",
                             "Parsing error: Declaration or statement expected.",
                             'else if (e.target.id === "tabs-alert-info") {',
-                            "1:9"
+                            "1:9",
+                            `/en-US/docs/Mozilla/Add-ons/WebExtensions/Working_with_the_Tabs_API
+[syntax] Parsing error: Declaration or statement expected.
+~~~
+else if (e.target.id === "tabs-alert-info") {
+  callOnActiveTab((tab) => {
+    let props = "";
+    for (const item in tab) {
+      props += \`\${item} = \${tab[item]} \\n\`;
+    }
+    alert(props);
+  });
+}
+~~~
+`
                           ]
                         },
                         {
@@ -3349,7 +3484,28 @@ webextensions.manifest.options_ui`,
                             "syntax",
                             "Parsing error: Declaration or statement expected.",
                             '  else if (e.target.id === "tabs-add-zoom") {',
-                            "1:9"
+                            "1:9",
+                            `/en-US/docs/Mozilla/Add-ons/WebExtensions/Working_with_the_Tabs_API
+[syntax] Parsing error: Declaration or statement expected.
+~~~
+  else if (e.target.id === "tabs-add-zoom") {
+    callOnActiveTab((tab) => {
+      browser.tabs.getZoom(tab.id).then((zoomFactor) => {
+        // The maximum zoomFactor is 5, it can't go higher
+        if (zoomFactor >= MAX_ZOOM) {
+          alert("Tab zoom factor is already at max!");
+        } else {
+          let newZoomFactor = zoomFactor + ZOOM_INCREMENT;
+          // If the newZoomFactor is set to higher than the max accepted
+          // it won't change, and will never alert that it's at maximum
+          newZoomFactor = newZoomFactor > MAX_ZOOM ? MAX_ZOOM : newZoomFactor;
+          browser.tabs.setZoom(tab.id, newZoomFactor);
+        }
+      });
+    });
+  }
+~~~
+`
                           ]
                         }
                       ]
@@ -3363,20 +3519,6 @@ webextensions.manifest.options_ui`,
                           data: [
                             "http://www.aha-soft.com/free-icons/free-retina-icon-set/",
                             ""
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iconbeast.com/free/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iconbeast.com/faq/",
-                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -7603,6 +7745,36 @@ api.Document.fullscreen`,
                     }
                   ]
                 },
+                htmlimageelement: {
+                  children: {
+                    decode: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLImageElement/decode",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.tunetheweb.com/blog/what-does-the-image-decoding-attribute-actually-do/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    decoding: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLImageElement/decoding",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.tunetheweb.com/blog/what-does-the-image-decoding-attribute-actually-do/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 htmlolistelement: {
                   children: {},
                   slug: "/en-US/docs/Web/API/HTMLOListElement",
@@ -7674,7 +7846,12 @@ api.Document.fullscreen`,
                           data: [
                             "syntax",
                             "Parsing error: '}' expected.",
-                            `function addData(e) {
+                            "",
+                            "16:9",
+                            `/en-US/docs/Web/API/IndexedDB_API/Checking_when_a_deadline_is_due
+[syntax] Parsing error: '}' expected.
+~~~
+function addData(e) {
   e.preventDefault();
 
   if (
@@ -7689,8 +7866,8 @@ api.Document.fullscreen`,
       "Data not submitted — form incomplete.";
     return;
   }
-`,
-                            "16:9"
+~~~
+`
                           ]
                         },
                         {
@@ -7699,7 +7876,44 @@ api.Document.fullscreen`,
                             "syntax",
                             "Parsing error: Declaration or statement expected.",
                             "  else {",
-                            "1:9"
+                            "1:9",
+                            `/en-US/docs/Web/API/IndexedDB_API/Checking_when_a_deadline_is_due
+[syntax] Parsing error: Declaration or statement expected.
+~~~
+  else {
+    const newItem = [
+      {
+        taskTitle: title.value,
+        hours: hours.value,
+        minutes: minutes.value,
+        day: day.value,
+        month: month.value,
+        year: year.value,
+        notified: "no",
+      },
+    ];
+
+    // open a read/write db transaction, ready for adding the data
+    const transaction = db.transaction(["toDoList"], "readwrite");
+
+    // report on the success of opening the transaction
+    transaction.oncomplete = (event) => {
+      note.appendChild(document.createElement("li")).textContent =
+        "Transaction opened for task addition.";
+    };
+
+    transaction.onerror = (event) => {
+      note.appendChild(document.createElement("li")).textContent =
+        "Transaction not opened due to error. Duplicate items not allowed.";
+    };
+
+    // create an object store on the transaction
+    const objectStore = transaction.objectStore("toDoList");
+
+    // add our newItem object to the object store
+    const request = objectStore.add(newItem[0]);
+~~~
+`
                           ]
                         },
                         {
@@ -7708,7 +7922,24 @@ api.Document.fullscreen`,
                             "syntax",
                             "Parsing error: Declaration or statement expected.",
                             "  }",
-                            "12:9"
+                            "12:9",
+                            `/en-US/docs/Web/API/IndexedDB_API/Checking_when_a_deadline_is_due
+[syntax] Parsing error: Declaration or statement expected.
+~~~
+    request.onsuccess = (event) => {
+      note.appendChild(document.createElement("li")).textContent =
+        "New item added to database.";
+
+      title.value = "";
+      hours.value = null;
+      minutes.value = null;
+      day.value = "01";
+      month.value = "January";
+      year.value = 2020;
+    };
+  }
+~~~
+`
                           ]
                         },
                         {
@@ -7717,7 +7948,15 @@ api.Document.fullscreen`,
                             "syntax",
                             "Parsing error: Declaration or statement expected.",
                             "}",
-                            "3:9"
+                            "3:9",
+                            `/en-US/docs/Web/API/IndexedDB_API/Checking_when_a_deadline_is_due
+[syntax] Parsing error: Declaration or statement expected.
+~~~
+  // update the display of data to show the newly added item, by running displayData() again.
+  displayData();
+}
+~~~
+`
                           ]
                         },
                         {
@@ -7725,10 +7964,15 @@ api.Document.fullscreen`,
                           data: [
                             "syntax",
                             "Parsing error: '}' expected.",
-                            `function checkDeadlines() {
+                            "",
+                            "3:9",
+                            `/en-US/docs/Web/API/IndexedDB_API/Checking_when_a_deadline_is_due
+[syntax] Parsing error: '}' expected.
+~~~
+function checkDeadlines() {
   const now = new Date();
-`,
-                            "3:9"
+~~~
+`
                           ]
                         },
                         {
@@ -7736,7 +7980,12 @@ api.Document.fullscreen`,
                           data: [
                             "syntax",
                             "Parsing error: '}' expected.",
-                            `  const objectStore = db
+                            "",
+                            "10:9",
+                            `/en-US/docs/Web/API/IndexedDB_API/Checking_when_a_deadline_is_due
+[syntax] Parsing error: '}' expected.
+~~~
+  const objectStore = db
     .transaction(["toDoList"], "readwrite")
     .objectStore("toDoList");
 
@@ -7745,8 +7994,8 @@ api.Document.fullscreen`,
     let monthNumber;
 
     if (cursor) {
-`,
-                            "10:9"
+~~~
+`
                           ]
                         },
                         {
@@ -7754,7 +8003,12 @@ api.Document.fullscreen`,
                           data: [
                             "syntax",
                             "Parsing error: '}' expected.",
-                            `    // now we need to update the value of notified to "yes" in this particular data object, so the
+                            "",
+                            "26:9",
+                            `/en-US/docs/Web/API/IndexedDB_API/Checking_when_a_deadline_is_due
+[syntax] Parsing error: '}' expected.
+~~~
+    // now we need to update the value of notified to "yes" in this particular data object, so the
     // notification won't be set off on it again
 
     // first open up a transaction as usual
@@ -7779,8 +8033,8 @@ api.Document.fullscreen`,
       requestUpdate.onsuccess = () => {
         displayData();
       };
-`,
-                            "26:9"
+~~~
+`
                           ]
                         },
                         {
@@ -7789,7 +8043,16 @@ api.Document.fullscreen`,
                             "syntax",
                             "Parsing error: Declaration or statement expected.",
                             "    }",
-                            "2:9"
+                            "2:9",
+                            `/en-US/docs/Web/API/IndexedDB_API/Checking_when_a_deadline_is_due
+[syntax] Parsing error: Declaration or statement expected.
+~~~
+      cursor.continue();
+    }
+  }
+}
+~~~
+`
                           ]
                         }
                       ]
@@ -7832,15 +8095,6 @@ api.Document.fullscreen`,
                           message: "Not in BCD",
                           data: [
                             "api.LanguageDetector.availability_static"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-useless-return",
-                            "Unnecessary return statement.",
-                            "  return;",
-                            "8:3 - 8:10"
                           ]
                         }
                       ]
@@ -7973,7 +8227,12 @@ api.Document.fullscreen`,
                           data: [
                             "syntax",
                             "Parsing error: '}' expected.",
-                            `(() => {
+                            "",
+                            "11:9",
+                            `/en-US/docs/Web/API/Media_Capture_and_Streams_API/Taking_still_photos
+[syntax] Parsing error: '}' expected.
+~~~
+(() => {
   const width = 320;    // We will scale the photo width to this
   const height = 0;     // This will be computed based on the input stream
 
@@ -7983,8 +8242,8 @@ api.Document.fullscreen`,
   let canvas = null;
   let photo = null;
   let startButton = null;
-`,
-                            "11:9"
+~~~
+`
                           ]
                         },
                         {
@@ -7992,13 +8251,18 @@ api.Document.fullscreen`,
                           data: [
                             "syntax",
                             "Parsing error: '}' expected.",
-                            `  function startup() {
+                            "",
+                            "6:9",
+                            `/en-US/docs/Web/API/Media_Capture_and_Streams_API/Taking_still_photos
+[syntax] Parsing error: '}' expected.
+~~~
+  function startup() {
     video = document.getElementById("video");
     canvas = document.getElementById("canvas");
     photo = document.getElementById("photo");
     startButton = document.getElementById("start-button");
-`,
-                            "6:9"
+~~~
+`
                           ]
                         },
                         {
@@ -8007,7 +8271,14 @@ api.Document.fullscreen`,
                             "syntax",
                             "Parsing error: Declaration or statement expected.",
                             "  }",
-                            "2:9"
+                            "2:9",
+                            `/en-US/docs/Web/API/Media_Capture_and_Streams_API/Taking_still_photos
+[syntax] Parsing error: Declaration or statement expected.
+~~~
+    clearPhoto();
+  }
+~~~
+`
                           ]
                         }
                       ]
@@ -9002,6 +9273,23 @@ api.Document.fullscreen`,
                     }
                   }
                 },
+                svgimageelement: {
+                  children: {
+                    decode: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGImageElement/decode",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.tunetheweb.com/blog/what-does-the-image-decoding-attribute-actually-do/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 svgrenderingintent: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SVGRenderingIntent",
@@ -9118,15 +9406,6 @@ api.Document.fullscreen`,
                           data: [
                             "api.Translator.availability_static"
                           ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-useless-return",
-                            "Unnecessary return statement.",
-                            "  return;",
-                            "11:3 - 11:10"
-                          ]
                         }
                       ]
                     },
@@ -9223,15 +9502,6 @@ api.Document.fullscreen`,
                           data: [
                             "api.Translator.translateStreaming"
                           ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: ')' expected.",
-                            "const stream = translator.translateStreaming((myTextString);",
-                            "6:9"
-                          ]
                         }
                       ]
                     }
@@ -9242,15 +9512,6 @@ api.Document.fullscreen`,
                       message: "Not in BCD",
                       data: [
                         "api.Translator"
-                      ]
-                    },
-                    {
-                      message: "JS code issue",
-                      data: [
-                        "syntax",
-                        "Parsing error: ')' expected.",
-                        "const stream = translator.translateStreaming((myTextString);",
-                        "1:9"
                       ]
                     }
                   ]
@@ -9271,17 +9532,13 @@ api.Document.fullscreen`,
                           message: "JS code issue",
                           data: [
                             "syntax",
-                            "Parsing error: ')' expected.",
-                            "const stream = translator.translateStreaming((myTextString);",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
                             "Parsing error: '}' expected.",
-                            `async function handleTranslation(e) {
+                            "",
+                            "12:9",
+                            `/en-US/docs/Web/API/Translator_and_Language_Detector_APIs/Using
+[syntax] Parsing error: '}' expected.
+~~~
+async function handleTranslation(e) {
   e.preventDefault();
 
   const formData = new FormData(form);
@@ -9292,8 +9549,8 @@ api.Document.fullscreen`,
   } else {
     translateOutput.innerHTML = "";
   }
-`,
-                            "12:9"
+~~~
+`
                           ]
                         },
                         {
@@ -9301,7 +9558,12 @@ api.Document.fullscreen`,
                           data: [
                             "syntax",
                             "Parsing error: '}' expected.",
-                            `  try {
+                            "",
+                            "29:9",
+                            `/en-US/docs/Web/API/Translator_and_Language_Detector_APIs/Using
+[syntax] Parsing error: '}' expected.
+~~~
+  try {
     const availability = await Translator.availability({
       sourceLanguage: detectedLanguage,
       targetLanguage: formData.get("translateLanguage"),
@@ -9329,8 +9591,8 @@ api.Document.fullscreen`,
         },
       });
     }
-`,
-                            "29:9"
+~~~
+`
                           ]
                         },
                         {
@@ -9339,16 +9601,16 @@ api.Document.fullscreen`,
                             "syntax",
                             "Parsing error: Declaration or statement expected.",
                             "  } catch (e) {",
-                            "1:9"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-else-return",
-                            "Unnecessary 'else' after 'return'.",
-                            "  } else {",
-                            "45:10 - 47:4"
+                            "1:9",
+                            `/en-US/docs/Web/API/Translator_and_Language_Detector_APIs/Using
+[syntax] Parsing error: Declaration or statement expected.
+~~~
+  } catch (e) {
+    translateOutput.innerHTML = \`<span class="error">\${e}</span>\`;
+  }
+}
+~~~
+`
                           ]
                         }
                       ]
@@ -9563,7 +9825,12 @@ api.Document.fullscreen`,
                           data: [
                             "syntax",
                             "Parsing error: '}' expected.",
-                            `function createNoteTable() {
+                            "",
+                            "24:9",
+                            `/en-US/docs/Web/API/Web_Audio_API/Simple_synth
+[syntax] Parsing error: '}' expected.
+~~~
+function createNoteTable() {
   const noteFreq = [];
   for (let i = 0; i < 9; i++) {
     noteFreq[i] = [];
@@ -9586,8 +9853,8 @@ api.Document.fullscreen`,
   noteFreq[1]["A#"] = 58.270470189761239;
   noteFreq[1]["B"] = 61.735412657015513;
   // …
-`,
-                            "24:9"
+~~~
+`
                           ]
                         },
                         {
@@ -9596,7 +9863,28 @@ api.Document.fullscreen`,
                             "syntax",
                             "Parsing error: Declaration or statement expected.",
                             "}",
-                            "16:9"
+                            "16:9",
+                            `/en-US/docs/Web/API/Web_Audio_API/Simple_synth
+[syntax] Parsing error: Declaration or statement expected.
+~~~
+  noteFreq[7]["C"] = 2093.004522404789077;
+  noteFreq[7]["C#"] = 2217.461047814976769;
+  noteFreq[7]["D"] = 2349.318143339260482;
+  noteFreq[7]["D#"] = 2489.015869776647285;
+  noteFreq[7]["E"] = 2637.020455302959437;
+  noteFreq[7]["F"] = 2793.825851464031075;
+  noteFreq[7]["F#"] = 2959.955381693075191;
+  noteFreq[7]["G"] = 3135.963487853994352;
+  noteFreq[7]["G#"] = 3322.437580639561108;
+  noteFreq[7]["A"] = 3520.000000000000000;
+  noteFreq[7]["A#"] = 3729.310092144719331;
+  noteFreq[7]["B"] = 3951.066410048992894;
+
+  noteFreq[8]["C"] = 4186.009044809578154;
+  return noteFreq;
+}
+~~~
+`
                           ]
                         }
                       ]
@@ -9640,9 +9928,14 @@ api.Document.fullscreen`,
                           data: [
                             "syntax",
                             "Parsing error: '}' expected.",
-                            `function draw() {
-`,
-                            "2:9"
+                            "",
+                            "2:9",
+                            `/en-US/docs/Web/API/Web_Audio_API/Visualizations_with_Web_Audio_API
+[syntax] Parsing error: '}' expected.
+~~~
+function draw() {
+~~~
+`
                           ]
                         },
                         {
@@ -9651,7 +9944,15 @@ api.Document.fullscreen`,
                             "syntax",
                             "Parsing error: Declaration or statement expected.",
                             "}",
-                            "3:9"
+                            "3:9",
+                            `/en-US/docs/Web/API/Web_Audio_API/Visualizations_with_Web_Audio_API
+[syntax] Parsing error: Declaration or statement expected.
+~~~
+  canvasCtx.lineTo(WIDTH, HEIGHT / 2);
+  canvasCtx.stroke();
+}
+~~~
+`
                           ]
                         },
                         {
@@ -9659,15 +9960,20 @@ api.Document.fullscreen`,
                           data: [
                             "syntax",
                             "Parsing error: '}' expected.",
-                            `function draw() {
+                            "",
+                            "8:9",
+                            `/en-US/docs/Web/API/Web_Audio_API/Visualizations_with_Web_Audio_API
+[syntax] Parsing error: '}' expected.
+~~~
+function draw() {
   drawVisual = requestAnimationFrame(draw);
 
   analyser.getByteFrequencyData(dataArray);
 
   canvasCtx.fillStyle = "rgb(0 0 0)";
   canvasCtx.fillRect(0, 0, WIDTH, HEIGHT);
-`,
-                            "8:9"
+~~~
+`
                           ]
                         }
                       ]
@@ -9749,7 +10055,15 @@ api.CredentialsContainer.get.publicKey_option.extensions`,
                             "syntax",
                             "Parsing error: ';' expected.",
                             "connectedMoveCallback() {",
-                            "1:9"
+                            "1:9",
+                            `/en-US/docs/Web/API/Web_components/Using_custom_elements
+[syntax] Parsing error: ';' expected.
+~~~
+connectedMoveCallback() {
+  console.log("Custom move-handling logic here.");
+}
+~~~
+`
                           ]
                         }
                       ]
@@ -9802,7 +10116,21 @@ api.Window.sessionStorage`,
                   }
                 },
                 web_workers_api: {
-                  children: {},
+                  children: {
+                    using_web_workers: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Web_Workers_API/Using_web_workers",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/features.html",
+                            "unknown certificate verification error"
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/API/Web_Workers_API",
                   messages: [
                     {
@@ -10086,14 +10414,19 @@ api.Window.sessionStorage`,
                           data: [
                             "syntax",
                             "Parsing error: '}' expected.",
-                            `function start() {
+                            "",
+                            "7:9",
+                            `/en-US/docs/Web/API/WebVR_API/Using_the_WebVR_API
+[syntax] Parsing error: '}' expected.
+~~~
+function start() {
   canvas = document.getElementById("gl-canvas");
 
   initWebGL(canvas); // Initialize the GL context
 
   // WebGL setup code here
-`,
-                            "7:9"
+~~~
+`
                           ]
                         },
                         {
@@ -10101,11 +10434,16 @@ api.Window.sessionStorage`,
                           data: [
                             "syntax",
                             "Parsing error: '}' expected.",
-                            `  // WebVR: Check to see if WebVR is supported
+                            "",
+                            "4:9",
+                            `/en-US/docs/Web/API/WebVR_API/Using_the_WebVR_API
+[syntax] Parsing error: '}' expected.
+~~~
+  // WebVR: Check to see if WebVR is supported
   if (navigator.getVRDisplays) {
     console.log("WebVR 1.1 supported");
-`,
-                            "4:9"
+~~~
+`
                           ]
                         },
                         {
@@ -10113,10 +10451,15 @@ api.Window.sessionStorage`,
                           data: [
                             "syntax",
                             "Parsing error: '}' expected.",
-                            `    // Then get the displays attached to the computer
+                            "",
+                            "3:9",
+                            `/en-US/docs/Web/API/WebVR_API/Using_the_WebVR_API
+[syntax] Parsing error: '}' expected.
+~~~
+    // Then get the displays attached to the computer
     navigator.getVRDisplays().then((displays) => {
-`,
-                            "3:9"
+~~~
+`
                           ]
                         },
                         {
@@ -10124,12 +10467,17 @@ api.Window.sessionStorage`,
                           data: [
                             "syntax",
                             "Parsing error: '}' expected.",
-                            `      // If a display is available, use it to present the scene
+                            "",
+                            "5:9",
+                            `/en-US/docs/Web/API/WebVR_API/Using_the_WebVR_API
+[syntax] Parsing error: '}' expected.
+~~~
+      // If a display is available, use it to present the scene
       if (displays.length > 0) {
         vrDisplay = displays[0];
         console.log("Display found");
-`,
-                            "5:9"
+~~~
+`
                           ]
                         },
                         {
@@ -10137,13 +10485,18 @@ api.Window.sessionStorage`,
                           data: [
                             "syntax",
                             "Parsing error: '}' expected.",
-                            `        // Starting the presentation when the button is clicked: It can only be called in response to a user gesture
+                            "",
+                            "6:9",
+                            `/en-US/docs/Web/API/WebVR_API/Using_the_WebVR_API
+[syntax] Parsing error: '}' expected.
+~~~
+        // Starting the presentation when the button is clicked: It can only be called in response to a user gesture
         btn.addEventListener("click", () => {
           if (btn.textContent === "Start VR display") {
             vrDisplay.requestPresent([{ source: canvas }]).then(() => {
               console.log("Presenting to WebVR display");
-`,
-                            "6:9"
+~~~
+`
                           ]
                         },
                         {
@@ -10152,7 +10505,14 @@ api.Window.sessionStorage`,
                             "syntax",
                             "Parsing error: Declaration or statement expected.",
                             "            });",
-                            "2:9"
+                            "2:9",
+                            `/en-US/docs/Web/API/WebVR_API/Using_the_WebVR_API
+[syntax] Parsing error: Declaration or statement expected.
+~~~
+              btn.textContent = "Exit VR display";
+            });
+~~~
+`
                           ]
                         },
                         {
@@ -10161,7 +10521,29 @@ api.Window.sessionStorage`,
                             "syntax",
                             "Parsing error: Declaration or statement expected.",
                             "          } else {",
-                            "1:9"
+                            "1:9",
+                            `/en-US/docs/Web/API/WebVR_API/Using_the_WebVR_API
+[syntax] Parsing error: Declaration or statement expected.
+~~~
+          } else {
+            vrDisplay.exitPresent();
+            console.log("Stopped presenting to WebVR display");
+
+            btn.textContent = "Start VR display";
+
+            // Stop the VR presentation, and start the normal presentation
+            vrDisplay.cancelAnimationFrame(vrSceneFrame);
+            drawScene();
+          }
+        });
+      }
+    });
+  } else {
+    console.log("WebVR API not supported by this browser.");
+  }
+}
+~~~
+`
                           ]
                         },
                         {
@@ -10169,11 +10551,16 @@ api.Window.sessionStorage`,
                           data: [
                             "syntax",
                             "Parsing error: '}' expected.",
-                            `function drawVRScene() {
+                            "",
+                            "4:9",
+                            `/en-US/docs/Web/API/WebVR_API/Using_the_WebVR_API
+[syntax] Parsing error: '}' expected.
+~~~
+function drawVRScene() {
   // WebVR: Request the next frame of the animation
   vrSceneFrame = vrDisplay.requestAnimationFrame(drawVRScene);
-`,
-                            "4:9"
+~~~
+`
                           ]
                         },
                         {
@@ -10182,7 +10569,15 @@ api.Window.sessionStorage`,
                             "syntax",
                             "Parsing error: Declaration or statement expected.",
                             "}",
-                            "3:9"
+                            "3:9",
+                            `/en-US/docs/Web/API/WebVR_API/Using_the_WebVR_API
+[syntax] Parsing error: Declaration or statement expected.
+~~~
+  // WebVR: Indicate that we are ready to present the rendered frame to the VR display
+  vrDisplay.submitFrame();
+}
+~~~
+`
                           ]
                         },
                         {
@@ -10190,15 +10585,20 @@ api.Window.sessionStorage`,
                           data: [
                             "syntax",
                             "Parsing error: '}' expected.",
-                            `function displayPoseStats(pose) {
+                            "",
+                            "8:9",
+                            `/en-US/docs/Web/API/WebVR_API/Using_the_WebVR_API
+[syntax] Parsing error: '}' expected.
+~~~
+function displayPoseStats(pose) {
   const pos = pose.position;
   const orient = pose.orientation;
   const linVel = pose.linearVelocity;
   const linAcc = pose.linearAcceleration;
   const angVel = pose.angularVelocity;
   const angAcc = pose.angularAcceleration;
-`,
-                            "8:9"
+~~~
+`
                           ]
                         },
                         {
@@ -10207,7 +10607,8 @@ api.Window.sessionStorage`,
                             "syntax",
                             "Parsing error: Declaration or statement expected.",
                             "}",
-                            "35:9"
+                            "35:9",
+                            "/en-US/docs/Web/API/WebVR_API/Using_the_WebVR_API\n[syntax] Parsing error: Declaration or statement expected.\n~~~\n  posStats.textContent = `Position: ` +\n    `x ${pos[0].toFixed(3)}, ` +\n    `y ${pos[1].toFixed(3)}, ` +\n    `z ${pos[2].toFixed(3)}`;\n  orientStats.textContent = `Orientation: ` +\n    `x ${orient[0].toFixed(3)}, ` +\n    `y ${orient[1].toFixed(3)}, ` +\n    `z ${orient[2].toFixed(3)}`;\n  linVelStats.textContent = `Linear velocity: ` +\n    `x ${linVel[0].toFixed(3)}, ` +\n    `y ${linVel[1].toFixed(3)}, ` +\n    `z ${linVel[2].toFixed(3)}`;\n  angVelStats.textContent = `Angular velocity: ` +\n    `x ${angVel[0].toFixed(3)}, ` +\n    `y ${angVel[1].toFixed(3)}, ` +\n    `z ${angVel[2].toFixed(3)}`;\n\n  if (linAcc) {\n    linAccStats.textContent = `Linear acceleration: ` +\n      `x ${linAcc[0].toFixed(3)}, ` +\n      `y ${linAcc[1].toFixed(3)}, ` +\n      `z ${linAcc[2].toFixed(3)}`;\n  } else {\n    linAccStats.textContent = 'Linear acceleration not reported';\n  }\n\n  if (angAcc) {\n    angAccStats.textContent = `Angular acceleration: ` +\n    `x ${angAcc[0].toFixed(3)}, ` +\n    `y ${angAcc[1].toFixed(3)}, ` +\n    `z ${angAcc[2].toFixed(3)}`;\n  } else {\n    angAccStats.textContent = 'Angular acceleration not reported';\n  }\n}\n~~~\n"
                           ]
                         }
                       ]
@@ -10369,6 +10770,23 @@ api.Window.sessionStorage`,
                           message: "Not in BCD",
                           data: [
                             "api.WorkerNavigator.setAppBadge"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                worker: {
+                  children: {
+                    worker: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Worker/Worker",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/features.html",
+                            "unknown certificate verification error"
                           ]
                         }
                       ]
@@ -12326,6 +12744,13 @@ css.selectors.-webkit-resizer`,
                         "https://drafts.fxtf.org/filter-effects-2/",
                         "The operation timed out."
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -13104,6 +13529,19 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
+                "color-interpolation-filters": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/color-interpolation-filters",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 "color-interpolation-method": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/color-interpolation-method",
@@ -13698,6 +14136,13 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2020/03/practical-overview-css-houdini/",
+                            "unknown certificate verification error"
+                          ]
                         }
                       ]
                     }
@@ -14127,6 +14572,19 @@ css.properties.grid-template-rows.masonry`,
                     }
                   ]
                 },
+                filter: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/filter",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 "filter-function": {
                   children: {
                     blur: {
@@ -14136,6 +14594,13 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "Missing syntax code block",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
                         },
                         {
                           message: "CSS code issue",
@@ -14162,6 +14627,13 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/brightness",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "CSS code issue",
                           data: [
                             "CssSyntaxError",
@@ -14177,6 +14649,13 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/contrast",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "CSS code issue",
                           data: [
                             "CssSyntaxError",
@@ -14187,10 +14666,30 @@ css.properties.grid-template-rows.masonry`,
                         }
                       ]
                     },
+                    "drop-shadow": {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/filter-function/drop-shadow",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     grayscale: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/filter-function/grayscale",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "CSS code issue",
                           data: [
@@ -14209,6 +14708,13 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "Missing syntax code block",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
                         },
                         {
                           message: "CSS code issue",
@@ -14235,6 +14741,13 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/invert",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "CSS code issue",
                           data: [
                             "CssSyntaxError",
@@ -14249,6 +14762,13 @@ css.properties.grid-template-rows.masonry`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/filter-function/opacity",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "CSS code issue",
                           data: [
@@ -14265,6 +14785,13 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/saturate",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "CSS code issue",
                           data: [
                             "CssSyntaxError",
@@ -14279,6 +14806,13 @@ css.properties.grid-template-rows.masonry`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/filter-function/sepia",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "CSS code issue",
                           data: [
@@ -14296,6 +14830,13 @@ css.properties.grid-template-rows.masonry`,
                     {
                       message: "Missing syntax code block",
                       data: []
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -14359,6 +14900,32 @@ css.properties.width.fit-content_function`
                     {
                       message: "Missing syntax code block",
                       data: []
+                    }
+                  ]
+                },
+                "flood-color": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/flood-color",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "flood-opacity": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/flood-opacity",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -14783,6 +15350,19 @@ css.properties.width.fit-content_function`
                     {
                       message: "Missing syntax code block",
                       data: []
+                    }
+                  ]
+                },
+                "lighting-color": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/lighting-color",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -16879,6 +17459,19 @@ html.elements.select.size`
                     },
                     elements: {
                       children: {
+                        img: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/img",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.tunetheweb.com/blog/what-does-the-image-decoding-attribute-actually-do/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         meta: {
                           children: {
                             name: {
@@ -17486,21 +18079,6 @@ http.headers.Use-As-Dictionary`,
                         }
                       ]
                     },
-                    control_flow_and_error_handling: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-else-return",
-                            "Unnecessary 'else' after 'return'.",
-                            "  } else {",
-                            "4:10 - 9:4"
-                          ]
-                        }
-                      ]
-                    },
                     using_promises: {
                       children: {},
                       slug: "/en-US/docs/Web/JavaScript/Guide/Using_promises",
@@ -17598,21 +18176,6 @@ http.headers.Use-As-Dictionary`,
                         },
                         function: {
                           children: {
-                            caller: {
-                              children: {},
-                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/caller",
-                              messages: [
-                                {
-                                  message: "JS code issue",
-                                  data: [
-                                    "no-else-return",
-                                    "Unnecessary 'else' after 'return'.",
-                                    "  } else {",
-                                    "4:10 - 6:4"
-                                  ]
-                                }
-                              ]
-                            },
                             prototype: {
                               children: {},
                               slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype",
@@ -17715,40 +18278,6 @@ http.headers.Use-As-Dictionary`,
                               ]
                             }
                           ]
-                        },
-                        string: {
-                          children: {
-                            replace: {
-                              children: {},
-                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace",
-                              messages: [
-                                {
-                                  message: "JS code issue",
-                                  data: [
-                                    "regexp/letter-case",
-                                    "'D' is not in lowercase",
-                                    "const regex = /Dog/i;",
-                                    "6:16 - 6:17"
-                                  ]
-                                }
-                              ]
-                            },
-                            replaceall: {
-                              children: {},
-                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll",
-                              messages: [
-                                {
-                                  message: "JS code issue",
-                                  data: [
-                                    "regexp/letter-case",
-                                    "'D' is not in lowercase",
-                                    "const regex = /Dog/gi;",
-                                    "7:16 - 7:17"
-                                  ]
-                                }
-                              ]
-                            }
-                          }
                         },
                         temporal: {
                           children: {
@@ -17879,21 +18408,6 @@ http.headers.Use-As-Dictionary`,
                     },
                     statements: {
                       children: {
-                        export: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Statements/export",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "import/newline-after-import",
-                                "Expected 1 empty line after import statement not followed by another import.",
-                                'import * as ns from "./barrel.js";',
-                                "1:1"
-                              ]
-                            }
-                          ]
-                        },
                         expression_statement: {
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Statements/Expression_statement",
@@ -17927,21 +18441,6 @@ http.headers.Use-As-Dictionary`,
                               ]
                             }
                           ]
-                        },
-                        label: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Statements/label",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "no-extra-label",
-                                "This label 'loop1' is unnecessary.",
-                                "    continue loop1;",
-                                "5:14 - 5:19"
-                              ]
-                            }
-                          ]
                         }
                       }
                     }
@@ -17961,19 +18460,6 @@ http.headers.Use-As-Dictionary`,
                           message: "Broken external link",
                           data: [
                             "https://www.lyx.org/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    fonts: {
-                      children: {},
-                      slug: "/en-US/docs/Web/MathML/Guides/Fonts",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sourceforge.net/projects/dejavu/files/dejavu/",
                             "The operation timed out."
                           ]
                         }
@@ -19024,6 +19510,19 @@ html.elements.script.integrity`,
                               message: "Not in BCD",
                               data: [
                                 "svg.global_attributes.data"
+                              ]
+                            }
+                          ]
+                        },
+                        decoding: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/decoding",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.tunetheweb.com/blog/what-does-the-image-decoding-attribute-actually-do/",
+                                "The operation timed out."
                               ]
                             }
                           ]
