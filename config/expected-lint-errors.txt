@@ -1,140 +1,1317 @@
-/en-US/docs/Web/JavaScript/Guide/Grammar_and_types: Parsing error: Unterminated regular expression literal.
+/en-US/docs/Glossary/Boolean
+[syntax] Parsing error: ')' expected.
 ~~~
-/* You can't, however, /* nest comments */ SyntaxError */
+/* JavaScript if statement */
+if (boolean conditional) {
+  // code to execute if the conditional is true
+}
+
+if (boolean conditional) {
+  console.log("boolean conditional resolved to true");
+} else {
+  console.log("boolean conditional resolved to false");
+}
+
+/* JavaScript for loop */
+for (control variable; boolean conditional; counter) {
+  // code to execute repeatedly if the conditional is true
+}
 ~~~
 
-/en-US/docs/Web/JavaScript/Guide/Grammar_and_types: Parsing error: Identifier expected.
+/en-US/docs/Glossary/Function
+[syntax] Parsing error: Expression expected.
 ~~~
-const unusualPropertyNames = {
-  "": "An empty string",
-  "!": "Bang!",
+function foo() {
+  console.log("Hello Foo");
+}();
+~~~
+
+/en-US/docs/Glossary/Vendor_Prefix
+[logical-assignment-operators] Assignment (=) can be replaced with operator assignment (||=).
+~~~
+window.requestAnimationFrame =
+  window.requestAnimationFrame ||
+  window.mozRequestAnimationFrame ||
+  window.webkitRequestAnimationFrame ||
+  window.oRequestAnimationFrame ||
+  window.msRequestAnimationFrame;
+~~~
+
+/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Ember_routing
+[array-callback-return] Array.prototype.map() expects a return value from function.
+~~~
+import EmberRouter from "@ember/routing/router";
+import config from "./config/environment";
+
+export default class Router extends EmberRouter {
+  location = config.locationType;
+  rootURL = config.rootURL;
+}
+
+Router.map(function () {
+  this.route("completed");
+  this.route("active");
+});
+~~~
+
+/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features
+[syntax] Parsing error: '...' expected.
+~~~
+<App>
+  <Home>
+    <Article>
+      <AuthorCredit {/* props */} />
+    </Article>
+  </Home>
+</App>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_reactivity_lifecycle_accessibility
+[no-self-assign] 'todos' is assigned to itself.
+~~~
+const checkAllTodos = (completed) => {
+  todos.forEach((t) => (t.completed = completed));
+  todos = todos;
 };
-console.log(unusualPropertyNames.""); // SyntaxError: Unexpected string
-console.log(unusualPropertyNames.!); // SyntaxError: Unexpected token !
 ~~~
 
-/en-US/docs/Web/JavaScript/Guide/Numbers_and_strings: Parsing error: Decimals with leading zeros are not allowed.
+/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_TypeScript
+[@typescript-eslint/no-inferrable-types] Type boolean trivially inferred from a boolean literal, remove type annotation.
 ~~~
-0888 // 888 parsed as decimal
-0777 // parsed as octal, 511 in decimal
-~~~
-
-/en-US/docs/Web/JavaScript/Guide/Numbers_and_strings: Parsing error: Octal literals are not allowed. Use the syntax '0o755'.
-~~~
-const n = 0755; // 493
-const m = 0644; // 420
+export let autofocus: boolean = false;
 ~~~
 
-/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling: Parsing error: 'try' expected.
+/en-US/docs/Learn_web_development/Core/Scripting/A_first_splash
+[operator-assignment] Assignment (=) can be replaced with operator assignment (+=).
+~~~
+let number2 = 1;
+number2 = number2 + 2;
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/Build_your_own_function
+[syntax] Parsing error: '}' expected.
+~~~
+function displayMessage() {
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/Build_your_own_function
+[syntax] Parsing error: '}' expected.
+~~~
+function displayMessage(msgText, msgType) {
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/Conditionals
+[syntax] Parsing error: ':' expected.
+~~~
+condition ? run this code : run this code instead
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/Debugging_JavaScript
+[no-else-return] Unnecessary 'else' after 'return'.
+~~~
+function inchesToMeters(num) {
+  if (typeof num === "number" && !isNaN(num)) {
+    const mVal = (num * 2.54) / 100;
+    const m2dp = mVal.toFixed(2);
+    return m2dp;
+  } else {
+    console.log("A number was not provided. Please correct the input.");
+  }
+}
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/Math
+[syntax] Parsing error: Invalid left-hand side expression in unary operation
+~~~
+3++;
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/Strings
+[syntax] Parsing error: ',' expected.
+~~~
+const badString1 = This is a test;
+const badString2 = 'This is a test;
+const badString3 = This is a test';
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/Strings
+[syntax] Parsing error: ',' expected.
+~~~
+const badQuotes = "She said "I think so!"";
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/Strings
+[syntax] Parsing error: Unterminated string literal.
+~~~
+const badQuotes = 'This is not allowed!";
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/Variables
+[no-const-assign] 'count' is constant.
+~~~
+const count = 1;
+count = 2;
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/What_went_wrong
+[syntax] Parsing error: '}' expected.
+~~~
+function checkGuess() {
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/What_went_wrong
+[syntax] Parsing error: '}' expected.
+~~~
+function checkGuess( {
+~~~
+
+/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
+[syntax] Opening tag "a" not terminated.
+~~~
+<a href=https://www.mozilla.org/>favorite website</a>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
+[syntax] Opening tag "a" not terminated.
+~~~
+<a href=https://www.mozilla.org/ title=The Mozilla homepage>favorite website</a>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
+[syntax] Opening tag "a" not terminated.
+~~~
+<a href="https://www.example.com" title="An "interesting" reference">A link to my example.</a>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
+[syntax] Unexpected character "EOF"
+~~~
+<a href="https://www.example.com'>A link to my example.</a>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
+[syntax] Unexpected closing tag "a". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+~~~
+<a href=https://www.mozilla.org/>favorite website</a>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
+[syntax] Unexpected closing tag "a". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+~~~
+<a href=https://www.mozilla.org/ title=The Mozilla homepage>favorite website</a>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
+[syntax] Unexpected closing tag "a". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+~~~
+<a href="https://www.example.com" title="An "interesting" reference">A link to my example.</a>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
+[syntax] Unexpected closing tag "p". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+~~~
+<p>My cat is <strong>very grumpy.</p></strong>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
+[syntax] Unexpected closing tag "strong". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+~~~
+<p>My cat is <strong>very grumpy.</p></strong>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Structuring_content/Debugging_HTML
+[syntax] Unexpected character "EOF"
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML debugging examples</title>
+  </head>
+
+  <body>
+    <h1>HTML debugging examples</h1>
+    <p>What causes errors in HTML?
+    <ul>
+      <li>Unclosed elements: If an element is <strong>not closed properly,then its effect can spread to areas you didn't intend
+      <li>Badly nested elements: Nesting elements properly is also very important for code behaving correctly. <strong>strong <em>strong emphasized?</strong> what is this?</em>
+      <li>Unclosed attributes: Another common source of HTML problems. Let's look at an example: <a href="https://www.mozilla.org/>link to Mozilla homepage</a>
+    </ul>
+  </body>
+</html>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Structuring_content/Debugging_HTML
+[syntax] Unexpected character "EOF"
+~~~
+<h1>HTML debugging examples</h1>
+
+<p>What causes errors in HTML?
+
+<ul>
+  <li>Unclosed elements: If an element is <strong>not closed properly,
+      then its effect can spread to areas you didn't intend
+
+  <li>Badly nested elements: Nesting elements properly is also very important
+      for code behaving correctly. <strong>strong <em>strong emphasized?</strong>
+      what is this?</em>
+
+  <li>Unclosed attributes: Another common source of HTML problems. Let's
+      look at an example: <a href="https://www.mozilla.org/>link to Mozilla
+      homepage</a>
+</ul>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Structuring_content/Debugging_HTML
+[syntax] Unexpected closing tag "em". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+~~~
+<p>I didn't expect to find the <em>next-door neighbor's <strong>cat</em></strong> here!</p>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Structuring_content/Debugging_HTML
+[syntax] Unexpected closing tag "em". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML debugging examples</title>
+  </head>
+
+  <body>
+    <h1>HTML debugging examples</h1>
+    <p>What causes errors in HTML?
+    <ul>
+      <li>Unclosed elements: If an element is <strong>not closed properly,then its effect can spread to areas you didn't intend
+      <li>Badly nested elements: Nesting elements properly is also very important for code behaving correctly. <strong>strong <em>strong emphasized?</strong> what is this?</em>
+      <li>Unclosed attributes: Another common source of HTML problems. Let's look at an example: <a href="https://www.mozilla.org/>link to Mozilla homepage</a>
+    </ul>
+  </body>
+</html>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Structuring_content/Debugging_HTML
+[syntax] Unexpected closing tag "em". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+~~~
+<h1>HTML debugging examples</h1>
+
+<p>What causes errors in HTML?
+
+<ul>
+  <li>Unclosed elements: If an element is <strong>not closed properly,
+      then its effect can spread to areas you didn't intend
+
+  <li>Badly nested elements: Nesting elements properly is also very important
+      for code behaving correctly. <strong>strong <em>strong emphasized?</strong>
+      what is this?</em>
+
+  <li>Unclosed attributes: Another common source of HTML problems. Let's
+      look at an example: <a href="https://www.mozilla.org/>link to Mozilla
+      homepage</a>
+</ul>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Structuring_content/Debugging_HTML
+[syntax] Unexpected closing tag "strong". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+~~~
+<p>I didn't expect to find the <em>next-door neighbor's <strong>cat</em></strong> here!</p>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Structuring_content/Debugging_HTML
+[syntax] Unexpected closing tag "strong". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML debugging examples</title>
+  </head>
+
+  <body>
+    <h1>HTML debugging examples</h1>
+    <p>What causes errors in HTML?
+    <ul>
+      <li>Unclosed elements: If an element is <strong>not closed properly,then its effect can spread to areas you didn't intend
+      <li>Badly nested elements: Nesting elements properly is also very important for code behaving correctly. <strong>strong <em>strong emphasized?</strong> what is this?</em>
+      <li>Unclosed attributes: Another common source of HTML problems. Let's look at an example: <a href="https://www.mozilla.org/>link to Mozilla homepage</a>
+    </ul>
+  </body>
+</html>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Structuring_content/Debugging_HTML
+[syntax] Unexpected closing tag "strong". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+~~~
+<h1>HTML debugging examples</h1>
+
+<p>What causes errors in HTML?
+
+<ul>
+  <li>Unclosed elements: If an element is <strong>not closed properly,
+      then its effect can spread to areas you didn't intend
+
+  <li>Badly nested elements: Nesting elements properly is also very important
+      for code behaving correctly. <strong>strong <em>strong emphasized?</strong>
+      what is this?</em>
+
+  <li>Unclosed attributes: Another common source of HTML problems. Let's
+      look at an example: <a href="https://www.mozilla.org/>link to Mozilla
+      homepage</a>
+</ul>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Styling_basics/Getting_started
+[CssSyntaxError] Unknown word left (CssSyntaxError)
+~~~
+margin: 0auto;
+padding- left: 10px;
+~~~
+
+/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/forms/Create_genre_form
+[no-useless-return] Unnecessary return statement.
+~~~
+// Process request after validation and sanitization.
+asyncHandler(async (req, res, next) => {
+  // Extract the validation errors from a request.
+  const errors = validationResult(req);
+
+  // Create a genre object with escaped and trimmed data.
+  const genre = new Genre({ name: req.body.name });
+
+  if (!errors.isEmpty()) {
+    // There are errors. Render the form again with sanitized values/error messages.
+    res.render("genre_form", {
+      title: "Create Genre",
+      genre: genre,
+      errors: errors.array(),
+    });
+    return;
+  }
+  // Data from form is valid.
+  // …
+});
+~~~
+
+/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Code_editors
+[syntax] Parsing error: Unterminated string literal.
+~~~
+function createGreeting(name) {
+  const greeting = `Hello, ${Name}!`;
+  return greeting;
+}
+
+const helloChris = createGreeting("Chris);
+
+console.log(helloChris;
+~~~
+
+/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_are_browser_developer_tools
+[syntax] Parsing error: Unterminated string literal.
+~~~
+alert("hello!);
+~~~
+
+/en-US/docs/MDN/Writing_guidelines/Code_style_guide/HTML
+[syntax] Opening tag "img" not terminated.
+~~~
+<img src=images/logo.jpg alt=A circular globe icon class=no-border>
+~~~
+
+/en-US/docs/MDN/Writing_guidelines/Code_style_guide/JavaScript
+[arrow-body-style] Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`.
+~~~
+arr.map((e) => {
+  return e.id;
+});
+~~~
+
+/en-US/docs/MDN/Writing_guidelines/Code_style_guide/JavaScript
+[no-const-assign] 'age' is constant.
+~~~
+const age = 40;
+age++;
+console.log("Happy birthday!");
+~~~
+
+/en-US/docs/MDN/Writing_guidelines/Code_style_guide/JavaScript
+[no-else-return] Unnecessary 'else' after 'return'.
+[no-useless-return] Unnecessary return statement.
+~~~
+if (test) {
+  // Perform something if test is true
+  // …
+  return;
+} else {
+  // Perform something if test is false
+  // …
+}
+~~~
+
+/en-US/docs/MDN/Writing_guidelines/Code_style_guide/JavaScript
+[no-object-constructor] The object literal notation {} is preferable.
+~~~
+const object = new Object();
+~~~
+
+/en-US/docs/MDN/Writing_guidelines/Code_style_guide/JavaScript
+[no-unreachable] Unreachable code.
+~~~
+switch (species) {
+  case "chicken":
+    return farm.shed;
+    break;
+  case "horse":
+    return corral.entry;
+    break;
+  default:
+    return "";
+}
+~~~
+
+/en-US/docs/MDN/Writing_guidelines/Code_style_guide/JavaScript
+[no-useless-return] Unnecessary return statement.
+~~~
+if (test) {
+  // Perform something if test is true
+  // …
+  return;
+}
+
+// Perform something if test is false
+// …
+~~~
+
+/en-US/docs/MDN/Writing_guidelines/Code_style_guide/JavaScript
+[syntax] Parsing error: Invalid character.
+~~~
+function exampleFunc() {
+  …
+}
+~~~
+
+/en-US/docs/MDN/Writing_guidelines/Page_structures/Syntax_sections
+[syntax] Parsing error: Expression expected.
+~~~
+arr.slice([begin[, end]])
+~~~
+
+/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/onShown
+[no-useless-return] Unnecessary return statement.
+~~~
+let lastMenuInstanceId = 0;
+let nextMenuInstanceId = 1;
+
+browser.menus.onShown.addListener(async (info, tab) => {
+  let menuInstanceId = nextMenuInstanceId++;
+  lastMenuInstanceId = menuInstanceId;
+
+  // Call an async function
+  await doSomethingAsync();
+
+  // After completing the async operation, check whether the menu is still shown.
+  if (menuInstanceId !== lastMenuInstanceId) {
+    return; // Menu was closed and shown again.
+  }
+  // Now use menus.create/update + menus.refresh.
+});
+
+browser.menus.onHidden.addListener(() => {
+  lastMenuInstanceId = 0;
+});
+~~~
+
+/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts_legacy/onBeforeScript
+[no-unreachable] Unreachable code.
+~~~
+browser.userScripts.onBeforeScript.addListener((script) => {
+  script; // This is an API object that represents the user script
+  // that is going to be executed.
+
+  script.metadata; // Access the user script metadata (returns the
+  // value of the scriptMetadata property from
+  // the call to userScripts.register).
+
+  // Export some global properties into the user script sandbox
+  // (this method has to be called synchronously from the
+  // listener, otherwise the user script may have executed).
+  script.defineGlobals({
+    aGlobalPropertyAccessibleFromUserScriptCode: "prop value",
+
+    myCustomAPIMethod(param1, param2) {
+      // Custom methods exported from the API script can use
+      // the WebExtensions APIs available to content scripts.
+      browser.runtime.sendMessage(/* … */);
+      // …
+
+      return 123; // primitive values can be returned directly
+      // …
+
+      // Non primitive values have to be exported explicitly
+      // using the export method provided by the script API
+      // object
+      return script.export({
+        objKey1: {
+          nestedProp: "nestedValue",
+        },
+        // Explicitly exported objects can also provide methods.
+        objMethod() {
+          /* … */
+        },
+      });
+    },
+
+    async myAsyncMethod(param1, param2, param3) {
+      // exported methods can also be declared as async
+    },
+  });
+});
+~~~
+
+/en-US/docs/Mozilla/Add-ons/WebExtensions/Internationalization
+[CssSyntaxError] Unknown word padding-__MSG_ (CssSyntaxError)
+~~~
+body {
+  direction: __MSG_@@bidi_dir__;
+}
+
+div#header {
+  margin-bottom: 1.05em;
+  overflow: hidden;
+  padding-bottom: 1.5em;
+  padding-__MSG_@@bidi_start_edge__: 0;
+  padding-__MSG_@@bidi_end_edge__: 1.5em;
+  position: relative;
+}
+~~~
+
+/en-US/docs/Mozilla/Firefox/Releases/3/Updating_web_applications
+[syntax] Only void, custom and foreign elements can be self closed "script"
+~~~
+<script … />
+~~~
+
+/en-US/docs/Mozilla/Firefox/Releases/3/Updating_web_applications
+[syntax] Unexpected character "EOF"
+~~~
+<script … />
+~~~
+
+/en-US/docs/Web/Accessibility/ARIA/Guides/Live_regions
+[no-useless-return] Unnecessary return statement.
+~~~
+function change(event) {
+  const yearOut = document.getElementById("year-output");
+
+  switch (event.target.id) {
+    case "year":
+      yearOut.textContent = event.target.value;
+      break;
+    default:
+      return;
+  }
+}
+~~~
+
+/en-US/docs/Web/API/BaseAudioContext/state
+[no-useless-return] Unnecessary return statement.
+~~~
+function play() {
+  if (audioCtx.state === "interrupted") {
+    audioCtx.resume().then(() => play());
+    return;
+  }
+  // rest of the play() function
+}
+~~~
+
+/en-US/docs/Web/API/DirectoryReaderSync
+[logical-assignment-operators] Assignment (=) can be replaced with operator assignment (||=).
+~~~
+// Taking care of the browser-specific prefixes.
+window.resolveLocalFileSystemURL =
+  window.resolveLocalFileSystemURL || window.webkitResolveLocalFileSystemURL;
+
+// Create web workers
+const worker = new Worker("worker.js");
+worker.onmessage = (e) => {
+  const urls = e.data.entries;
+  urls.forEach((url) => {
+    window.resolveLocalFileSystemURL(url, (fileEntry) => {
+      // Print out file's name.
+      console.log(fileEntry.name);
+    });
+  });
+};
+
+worker.postMessage({ cmd: "list" });
+~~~
+
+/en-US/docs/Web/API/Element/keydown_event
+[no-useless-return] Unnecessary return statement.
+~~~
+eventTarget.addEventListener("keydown", (event) => {
+  if (event.isComposing || event.keyCode === 229) {
+    return;
+  }
+  // do something
+});
+~~~
+
+/en-US/docs/Web/API/Element/keyup_event
+[no-useless-return] Unnecessary return statement.
+~~~
+eventTarget.addEventListener("keyup", (event) => {
+  if (event.isComposing) {
+    return;
+  }
+  // do something
+});
+~~~
+
+/en-US/docs/Web/API/FileSystemDirectoryEntry
+[logical-assignment-operators] Assignment (=) can be replaced with operator assignment (||=).
+~~~
+// Taking care of the browser-specific prefixes.
+window.requestFileSystem =
+  window.requestFileSystem || window.webkitRequestFileSystem;
+window.directoryEntry = window.directoryEntry || window.webkitDirectoryEntry;
+
+// …
+
+function onFs(fs) {
+  fs.root.getDirectory(
+    "Documents",
+    { create: true },
+    (directoryEntry) => {
+      // directoryEntry.isFile === false
+      // directoryEntry.isDirectory === true
+      // directoryEntry.name === 'Documents'
+      // directoryEntry.fullPath === '/Documents'
+    },
+    onError,
+  );
+}
+
+// Opening a file system with temporary storage
+window.requestFileSystem(TEMPORARY, 1024 * 1024 /* 1MB */, onFs, onError);
+~~~
+
+/en-US/docs/Web/API/FileSystemEntry
+[logical-assignment-operators] Assignment (=) can be replaced with operator assignment (||=).
+~~~
+// Taking care of the browser-specific prefixes.
+window.requestFileSystem =
+  window.requestFileSystem || window.webkitRequestFileSystem;
+
+// …
+
+// Opening a file system with temporary storage
+window.requestFileSystem(
+  TEMPORARY,
+  1024 * 1024 /* 1MB */,
+  (fs) => {
+    fs.root.getFile(
+      "log.txt",
+      {},
+      (fileEntry) => {
+        fileEntry.remove(() => {
+          console.log("File removed.");
+        }, onError);
+      },
+      onError,
+    );
+  },
+  onError,
+);
+~~~
+
+/en-US/docs/Web/API/IdleDetector/requestPermission_static
+[no-useless-return] Unnecessary return statement.
+~~~
+startButton.addEventListener("click", async () => {
+  if ((await IdleDetector.requestPermission()) !== "granted") {
+    console.error("Idle detection permission denied.");
+    return;
+  }
+});
+~~~
+
+/en-US/docs/Web/API/LockManager/request
+[no-useless-return] Unnecessary return statement.
+~~~
+await navigator.locks.request(
+  "my_resource",
+  { ifAvailable: true },
+  async (lock) => {
+    if (!lock) {
+      // The lock was not granted - get out fast.
+      return;
+    }
+
+    // The lock was granted, and no other running code in this origin is holding
+    // the 'my_res_lock' lock until this returns.
+  },
+);
+~~~
+
+/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element
+[logical-assignment-operators] Assignment (=) can be replaced with operator assignment (||=).
+~~~
+startButton.addEventListener(
+  "click",
+  () => {
+    navigator.mediaDevices
+      .getUserMedia({
+        video: true,
+        audio: true,
+      })
+      .then((stream) => {
+        preview.srcObject = stream;
+        downloadButton.href = stream;
+        preview.captureStream =
+          preview.captureStream || preview.mozCaptureStream;
+        return new Promise((resolve) => {
+          preview.onplaying = resolve;
+        });
+      })
+      .then(() => startRecording(preview.captureStream(), recordingTimeMS))
+      .then((recordedChunks) => {
+        let recordedBlob = new Blob(recordedChunks, { type: "video/webm" });
+        recording.src = URL.createObjectURL(recordedBlob);
+        downloadButton.href = recording.src;
+        downloadButton.download = "RecordedVideo.webm";
+
+        log(
+          `Successfully recorded ${recordedBlob.size} bytes of ${recordedBlob.type} media.`,
+        );
+      })
+      .catch((error) => {
+        if (error.name === "NotFoundError") {
+          log("Camera or microphone not found. Can't record.");
+        } else {
+          log(error);
+        }
+      });
+  },
+  false,
+);
+~~~
+
+/en-US/docs/Web/API/Navigator/deprecatedReplaceInURN
+[no-template-curly-in-string] Unexpected template string expression.
+~~~
+await navigator.deprecatedReplaceInURN(exampleURN, {
+  "${foo}": "1",
+  "${bar}": "2",
+  "%%baz%%": "3",
+});
+~~~
+
+/en-US/docs/Web/API/Navigator/getInstalledRelatedApps
+[no-useless-return] Unnecessary return statement.
+~~~
+const relatedApps = await navigator.getInstalledRelatedApps();
+
+// Dump all the returned related apps into a table in the console
+console.table(relatedApps);
+
+// Search for a specific installed platform-specific app
+const psApp = relatedApps.find((app) => app.id === "com.example.myapp");
+
+if (psApp && doesVersionSendPushMessages(psApp.version)) {
+  // There's an installed platform-specific app that handles sending push messages
+  // No need to handle this via the web app
+  return;
+}
+~~~
+
+/en-US/docs/Web/API/Navigator/getUserMedia
+[logical-assignment-operators] Assignment (=) can be replaced with operator assignment (||=).
+~~~
+navigator.getUserMedia =
+  navigator.getUserMedia ||
+  navigator.webkitGetUserMedia ||
+  navigator.mozGetUserMedia;
+
+if (navigator.getUserMedia) {
+  navigator.getUserMedia(
+    { audio: true, video: { width: 1280, height: 720 } },
+    (stream) => {
+      const video = document.querySelector("video");
+      video.srcObject = stream;
+      video.onloadedmetadata = (e) => {
+        video.play();
+      };
+    },
+    (err) => {
+      console.error(`The following error occurred: ${err.name}`);
+    },
+  );
+} else {
+  console.log("getUserMedia not supported");
+}
+~~~
+
+/en-US/docs/Web/API/PaymentRequest/canMakePayment
+[no-useless-return] Unnecessary return statement.
+~~~
+async function initPaymentRequest() {
+  const details = {
+    total: {
+      label: "Total",
+      amount: {
+        currency: "USD",
+        value: "0.00",
+      },
+    },
+  };
+
+  const supportsApplePay = new PaymentRequest(
+    [{ supportedMethods: "https://apple.com/apple-pay" }],
+    details,
+  ).canMakePayment();
+
+  // Supports Apple Pay?
+  if (await supportsApplePay) {
+    // show Apple Pay logo, for instance
+    return;
+  }
+
+  // Otherwise, let's see if we can use Example Pay
+  const supportsExamplePay = await new PaymentRequest(
+    [{ supportedMethods: "https://example.com/pay" }],
+    details,
+  ).canMakePayment();
+
+  if (supportsExamplePay) {
+    // show Example Pay support
+    return;
+  }
+
+  // Otherwise, make payments using HTML form element
+}
+~~~
+
+/en-US/docs/Web/API/ReadableStream
+[no-unreachable-loop] Invalid loop. Its body allows only one iteration.
+~~~
+for await (const chunk of stream.values({ preventCancel: true })) {
+  // Do something with 'chunk'
+  break;
+}
+// Acquire a reader for the stream and continue reading ...
+~~~
+
+/en-US/docs/Web/API/Sensor_APIs
+[no-useless-return] Unnecessary return statement.
+~~~
+navigator.permissions.query({ name: "accelerometer" }).then((result) => {
+  if (result.state === "denied") {
+    console.log("Permission to use accelerometer sensor is denied.");
+    return;
+  }
+  // Use the sensor.
+});
+~~~
+
+/en-US/docs/Web/API/SerialPort/close
+[no-unmodified-loop-condition] 'keepReading' is not modified in this loop.
+~~~
+// Without transform streams.
+
+let keepReading = true;
+let reader;
+
+async function readUntilClosed() {
+  while (port.readable && keepReading) {
+    reader = port.readable.getReader();
+    try {
+      while (true) {
+        const { value, done } = await reader.read();
+        if (done) {
+          // reader.cancel() has been called.
+          break;
+        }
+        // value is a Uint8Array.
+        console.log(value);
+      }
+    } catch (error) {
+      // Handle error...
+    } finally {
+      // Allow the serial port to be closed later.
+      reader.releaseLock();
+    }
+  }
+
+  await port.close();
+}
+
+const closedPromise = readUntilClosed();
+
+document.querySelector("button").addEventListener("click", async () => {
+  // User clicked a button to close the serial port.
+  keepReading = false;
+  // Force reader.read() to resolve immediately and subsequently
+  // call reader.releaseLock() in the loop example above.
+  reader.cancel();
+  await closedPromise;
+});
+~~~
+
+/en-US/docs/Web/API/Streams_API/Using_readable_streams
+[no-useless-return] Unnecessary return statement.
+~~~
+if (done) {
+  controller.close();
+  return;
+}
+~~~
+
+/en-US/docs/Web/API/URL_Pattern_API
+[regexp/no-useless-escape] Unnecessary escape character: \(.
+[regexp/no-useless-escape] Unnecessary escape character: \).
+~~~
+new URLPattern({ pathname: "([()])" }); // throws
+new URLPattern({ pathname: "([\\(\\)])" }); // ok
+
+new RegExp("[()]"); // ok
+new RegExp("[\\(\\)]"); // ok
+~~~
+
+/en-US/docs/Web/API/Window/postMessage
+[no-useless-return] Unnecessary return statement.
+~~~
+window.addEventListener(
+  "message",
+  (event) => {
+    if (event.origin !== "http://example.org:8080") return;
+
+    // …
+  },
+  false,
+);
+~~~
+
+/en-US/docs/Web/API/Window/postMessage
+[no-useless-return] Unnecessary return statement.
+~~~
+/*
+ * In window A's scripts, with A being on http://example.com:8080:
+ */
+
+const popup = window.open(/* popup details */);
+
+// When the popup has fully loaded, if not blocked by a popup blocker:
+
+// This does nothing, assuming the window hasn't changed its location.
+popup.postMessage(
+  "The user is 'bob' and the password is 'secret'",
+  "https://secure.example.net",
+);
+
+// This will successfully queue a message to be dispatched to the popup, assuming
+// the window hasn't changed its location.
+popup.postMessage("hello there!", "http://example.com");
+
+window.addEventListener(
+  "message",
+  (event) => {
+    // Do we trust the sender of this message? (might be
+    // different from what we originally opened, for example).
+    if (event.origin !== "http://example.com") return;
+
+    // event.source is popup
+    // event.data is "hi there yourself! the secret response is: rheeeeet!"
+  },
+  false,
+);
+~~~
+
+/en-US/docs/Web/CSS/CSS_syntax/Error_handling
+[CssSyntaxError] Missed semicolon (CssSyntaxError)
+~~~
+p {
+  /* Invalid syntax due to missing semi-colon */
+  border-color: red
+  background-color: green;
+
+  /* Valid syntax but likely a logic error */
+  border-width: 100vh;
+}
+~~~
+
+/en-US/docs/Web/HTML/Reference/Elements/frame
+[syntax] Only void, custom and foreign elements can be self closed "frame"
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <!-- Document metadata goes here -->
+  </head>
+  <frameset cols="400, 500">
+    <frame src="https://developer.mozilla.org/en/HTML/Element/iframe" />
+    <frame src="https://developer.mozilla.org/en/HTML/Element/frame" />
+  </frameset>
+</html>
+~~~
+
+/en-US/docs/Web/HTML/Reference/Elements/frameset
+[syntax] Only void, custom and foreign elements can be self closed "frame"
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <!-- Document metadata goes here -->
+  </head>
+  <frameset cols="50%, 50%">
+    <frame
+      src="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/iframe" />
+    <frame
+      src="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/frame" />
+  </frameset>
+</html>
+~~~
+
+/en-US/docs/Web/HTML/Reference/Elements/noframes
+[syntax] Only void, custom and foreign elements can be self closed "frame"
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <!-- Document metadata goes here -->
+  </head>
+  <frameset rows="45%, 55%">
+    <frame src="https://developer.mozilla.org/en/HTML/Element/frameset" />
+    <frame src="https://developer.mozilla.org/en/HTML/Element/frame" />
+    <noframes>
+      <p>
+        It seems your browser does not support frames or is configured to not
+        allow them.
+      </p>
+    </noframes>
+  </frameset>
+</html>
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling
+[no-cond-assign] Expected a conditional expression and instead saw an assignment.
+~~~
+if (x = y) {
+  // statements here
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling
+[syntax] Parsing error: 'try' expected.
 ~~~
 catch (exception) {
   statements
 }
 ~~~
 
-/en-US/docs/Web/JavaScript/Reference/Template_literals: Parsing error: Hexadecimal digit expected.
+/en-US/docs/Web/JavaScript/Guide/Functions
+[@typescript-eslint/no-this-alias] Unexpected aliasing of 'this' to local variable.
 ~~~
-const bad = `bad escape sequence: \unicode`;
-~~~
+function Person() {
+  // Some choose `that` instead of `self`.
+  // Choose one and be consistent.
+  const self = this;
+  self.age = 0;
 
-/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors: Parsing error: Unexpected keyword or identifier.
-~~~
-const object = {};
-object.1 = "bar"; // SyntaxError
-console.log(object.1); // SyntaxError
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring: Parsing error: ',' expected.
-~~~
-const numbers = [];
-const obj = { a: 1, b: 2 };
-const { a: numbers[0], b: numbers[1] } = obj;
-
-// This is equivalent to:
-//   const numbers[0] = obj.a;
-//   const numbers[1] = obj.b;
-// Which definitely is not valid.
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring: Parsing error: Identifier expected.
-~~~
-const { a, ...{ b } } = { a: 1, b: 2 };
-// SyntaxError: `...` must be followed by an identifier in declaration contexts
-
-let a, b;
-({ a, ...{ b } } = { a: 1, b: 2 });
-// SyntaxError: `...` must be followed by an assignable reference in assignment contexts
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Operators/Grouping: Parsing error: Identifier expected.
-~~~
-function () {
-  // code
-}();
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence: Parsing error: Expression expected.
-~~~
-function* foo() {
-  a + yield 1;
+  setInterval(function growUp() {
+    // The callback refers to the `self` variable of which
+    // the value is the expected object.
+    self.age++;
+  }, 1000);
 }
 ~~~
 
-/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence: Parsing error: Expression expected.
+/en-US/docs/Web/JavaScript/Guide/Grammar_and_types
+[syntax] Parsing error: Unterminated regular expression literal.
 ~~~
-async function* foo() {
-  await yield 1;
+/* You can't, however, /* nest comments */ SyntaxError */
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Indexed_collections
+[prefer-rest-params] Use the rest parameters instead of 'arguments'.
+~~~
+function printArguments() {
+  Array.prototype.forEach.call(arguments, (item) => {
+    console.log(item);
+  });
 }
 ~~~
 
-/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence: Parsing error: ';' expected.
+/en-US/docs/Web/JavaScript/Guide/Inheritance_and_the_prototype_chain
+[new-cap] A constructor name should not start with a lowercase letter.
 ~~~
-let a = 1;
-a++++; // SyntaxError: Invalid left-hand side in postfix operation.
+function doSomething() {}
+doSomething.prototype.foo = "bar"; // add a property onto the prototype
+const doSomeInstancing = new doSomething();
+doSomeInstancing.prop = "some value"; // add a property onto the object
+console.log(doSomeInstancing);
 ~~~
 
-/en-US/docs/Web/JavaScript/Reference/Operators/super: Parsing error: 'super' must be followed by an argument list or member access.
+/en-US/docs/Web/JavaScript/Guide/Inheritance_and_the_prototype_chain
+[new-cap] A constructor name should not start with a lowercase letter.
 ~~~
-const child = {
-  myParent() {
-    console.log(super); // SyntaxError: 'super' keyword unexpected here
-  },
+function doSomething() {}
+doSomething.prototype.foo = "bar";
+const doSomeInstancing = new doSomething();
+doSomeInstancing.prop = "some value";
+console.log("doSomeInstancing.prop:     ", doSomeInstancing.prop);
+console.log("doSomeInstancing.foo:      ", doSomeInstancing.foo);
+console.log("doSomething.prop:          ", doSomething.prop);
+console.log("doSomething.foo:           ", doSomething.foo);
+console.log("doSomething.prototype.prop:", doSomething.prototype.prop);
+console.log("doSomething.prototype.foo: ", doSomething.prototype.foo);
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Inheritance_and_the_prototype_chain
+[no-array-constructor] The array literal notation [] is preferable.
+~~~
+const array = new Array(1, 2, 3);
+const regexp = new RegExp("abc");
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Internationalization
+[no-irregular-whitespace] Irregular whitespace not allowed.
+~~~
+const springBreak = {
+  start: new Date(2023, 2, 10),
+  end: new Date(2023, 2, 26),
 };
+
+const df = new Intl.DateTimeFormat("en-US", { dateStyle: "long" });
+console.log(df.formatRange(springBreak.start, springBreak.end));
+// March 10 – 26, 2023
 ~~~
 
-/en-US/docs/Web/JavaScript/Reference/Operators/void: Parsing error: Expression expected.
+/en-US/docs/Web/JavaScript/Guide/Language_overview
+[logical-assignment-operators] Logical expression can be replaced with an assignment (||=).
 ~~~
-function iife() {
-  console.log("Executed!");
-}(); // SyntaxError: Unexpected token ')'
-
-function () {
-  console.log("Executed!");
-}(); // SyntaxError: Function statements require a function name
+const name = cachedName || (cachedName = getName());
 ~~~
 
-/en-US/docs/Web/JavaScript/Reference/Operators/void: Parsing error: Expression expected.
+/en-US/docs/Web/JavaScript/Guide/Language_overview
+[no-const-assign] 'Pi' is constant.
 ~~~
-void () => { console.log("iife!"); }(); // SyntaxError: Malformed arrow function parameter list
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Operators/Increment: Parsing error: Invalid left-hand side expression in unary operation
-~~~
-++(++x); // SyntaxError: Invalid left-hand side expression in prefix operation
+const Pi = 3.14;
+Pi = 1; // will throw an error because you cannot change a constant variable.
 ~~~
 
-/en-US/docs/Web/JavaScript/Reference/Operators/Decrement: Parsing error: Invalid left-hand side expression in unary operation
+/en-US/docs/Web/JavaScript/Guide/Language_overview
+[no-unreachable] Unreachable code.
 ~~~
---(--x); // SyntaxError: Invalid left-hand side expression in prefix operation
+while (true) {
+  // an infinite loop!
+}
+
+let input;
+do {
+  input = get_input();
+} while (inputIsNotValid(input));
 ~~~
 
-/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining: Parsing error: Invalid optional chain from new expression. Did you mean to call 'Intl()'?
+/en-US/docs/Web/JavaScript/Guide/Modules
+[import/first] Import in body of module; reorder to top.
+[import/newline-after-import] Expected 1 empty line after import statement not followed by another import.
 ~~~
-new Intl?.DateTimeFormat(); // SyntaxError: Invalid optional chain from new expression
-new Map?.();
+// …
+const myCanvas = new Canvas("myCanvas", document.body, 480, 320);
+myCanvas.create();
+import { Canvas } from "./modules/canvas.js";
+myCanvas.createReportList();
+// …
 ~~~
 
-/en-US/docs/Web/JavaScript/Reference/Deprecated_and_obsolete_features: Parsing error: Expression expected.
+/en-US/docs/Web/JavaScript/Guide/Modules
+[import/no-named-default] Use default import syntax to import 'randomSquare'.
+~~~
+import { default as randomSquare } from "./modules/square.js";
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Numbers_and_strings
+[syntax] Parsing error: Decimals with leading zeros are not allowed.
+~~~
+0888 // 888 parsed as decimal
+0777 // parsed as octal, 511 in decimal
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Numbers_and_strings
+[syntax] Parsing error: Octal literals are not allowed. Use the syntax '0o755'.
+~~~
+const n = 0755; // 493
+const m = 0644; // 420
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Using_promises
+[arrow-body-style] Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`.
+~~~
+doSomething()
+  .then((url) => {
+    // `return` keyword added
+    return fetch(url);
+  })
+  .then((result) => {
+    // result is a Response object
+  });
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Using_promises
+[arrow-body-style] Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`.
+~~~
+const listOfIngredients = [];
+
+doSomething()
+  .then((url) => {
+    // `return` keyword now included in front of fetch call.
+    return fetch(url)
+      .then((res) => res.json())
+      .then((data) => {
+        listOfIngredients.push(data);
+      });
+  })
+  .then(() => {
+    console.log(listOfIngredients);
+    // listOfIngredients will now contain data from fetch call.
+  });
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Using_promises
+[no-unreachable] Unreachable code.
+~~~
+doSomething()
+  .then(() => {
+    throw new Error("Something failed");
+
+    console.log("Do this");
+  })
+  .catch(() => {
+    console.error("Do that");
+  })
+  .then(() => {
+    console.log("Do this, no matter what happened before");
+  });
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Using_promises
+[no-unreachable] Unreachable code.
+~~~
+async function main() {
+  try {
+    await doSomething();
+    throw new Error("Something failed");
+    console.log("Do this");
+  } catch (e) {
+    console.error("Do that");
+  }
+  console.log("Do this, no matter what happened before");
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Deprecated_and_obsolete_features
+[syntax] Parsing error: Expression expected.
 ~~~
 <!-- comment
 console.log("a"); <!-- another comment
@@ -143,7 +1320,8 @@ console.log("b");
 // Logs "a" and "b"
 ~~~
 
-/en-US/docs/Web/JavaScript/Reference/Deprecated_and_obsolete_features: Parsing error: Expression or comma expected.
+/en-US/docs/Web/JavaScript/Reference/Deprecated_and_obsolete_features
+[syntax] Parsing error: Expression or comma expected.
 ~~~
 // Legacy array comprehensions
 [for (x of iterable) x]
@@ -156,41 +1334,1096 @@ console.log("b");
 (for (x of iterable) for (y of iterable) x + y)
 ~~~
 
-/en-US/docs/Web/JavaScript/Reference/Lexical_grammar: Parsing error: Identifier expected. 'import' is a reserved word that cannot be used here.
+/en-US/docs/Web/JavaScript/Reference/Errors/Bad_continue
+[no-useless-return] Unnecessary return statement.
 ~~~
-function import() {} // Illegal: import is a reserved word.
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Lexical_grammar: Parsing error: 'else' is not allowed as a variable declaration name.
-~~~
-const els\u{65} = 1;
-// `els\u{65}` encodes the same identifier as `else`
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Lexical_grammar: Parsing error: Decimals with leading zeros are not allowed.
-~~~
-0888 // 888 parsed as decimal
-0777 // parsed as octal, 511 in decimal
+array.forEach((value) => {
+  if (value === 5) {
+    return;
+  }
+  // do something with value
+});
 ~~~
 
-/en-US/docs/Web/JavaScript/Reference/Lexical_grammar: Parsing error: Octal literals are not allowed. Use the syntax '0o755'.
+/en-US/docs/Web/JavaScript/Reference/Errors/Bad_new_optional
+[syntax] Parsing error: Invalid optional chain from new expression. Did you mean to call 'Intl.DateTimeFormat()'?
 ~~~
-0755n; // SyntaxError: invalid BigInt syntax
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Lexical_grammar: Parsing error: Multiple consecutive numeric separators are not permitted.
-~~~
-// More than one underscore in a row is not allowed
-100__000; // SyntaxError
-
-// Not allowed at the end of numeric literals
-100_; // SyntaxError
-
-// Can not be used after leading 0
-0_1; // SyntaxError
+new Intl.DateTimeFormat?.();
 ~~~
 
-/en-US/docs/Web/JavaScript/Reference/Lexical_grammar: Parsing error: ';' expected.
+/en-US/docs/Web/JavaScript/Reference/Errors/Bad_new_optional
+[syntax] Parsing error: Invalid optional chain from new expression. Did you mean to call 'Intl()'?
+~~~
+new Intl?.DateTimeFormat();
+Number?.[parseMethod]`Hello, world!`;
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Either_be_both_static_or_non-static
+[getter-return] Expected to return a value in private getter #foo.
+~~~
+class Test {
+  set #foo(_) {}
+  get #foo() {}
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Either_be_both_static_or_non-static
+[getter-return] Expected to return a value in static private getter #foo.
+~~~
+class Test {
+  static set #foo(_) {}
+  static get #foo() {}
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Illegal_character
+[syntax] Parsing error: Expression expected.
+~~~
+const foo = "bar";<200b>
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Missing_bracket_after_list
+[syntax] Parsing error: Expression or comma expected.
+~~~
+const list = [1, 2,
+
+const instruments = [
+  "Ukulele",
+  "Guitar",
+  "Piano",
+};
+
+const data = [{ foo: "bar" } { bar: "foo" }];
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Missing_colon_after_property_id
+[no-useless-concat] Unexpected string concatenation of literals.
+~~~
+const obj = { ["b" + "ar"]: "foo" };
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Missing_curly_after_function_body
+[syntax] Parsing error: '}' expected.
+~~~
+function charge() {
+  if (sunny) {
+    useSolarCells();
+  } else {
+    promptBikeRide();
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Missing_curly_after_function_body
+[syntax] Parsing error: Declaration or statement expected.
+~~~
+(function () {
+  if (Math.random() < 0.01) {
+    doSomething();
+  }
+)();
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Missing_curly_after_property_list
+[syntax] Parsing error: ',' expected.
+~~~
+const obj = {
+  a: 1,
+  b: { myProp: 2 }
+  c: 3
+};
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Missing_name_after_dot_operator
+[no-useless-concat] Unexpected string concatenation of literals.
+~~~
+console.log("Hello" + "World");
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Missing_parenthesis_after_argument_list
+[no-useless-concat] Unexpected string concatenation of literals.
+~~~
+console.log('"Java" + "Script" = "' + "Java" + 'Script"');
+// '"Java" + "Script" = "JavaScript"'
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/No_variable_name
+[syntax] Parsing error: Variable declaration expected.
+~~~
+const = "foo";
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Regex_incomplete_quantifier
+[regexp/no-useless-quantifier] Unexpected useless quantifier.
+[regexp/prefer-plus-quantifier] Unexpected quantifier '{1,}'. Use '+' instead.
+~~~
+/1{1}/u;
+/1{1,}/u;
+/1{1,2}/u;
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Regex_invalid_capture_group_name
+[regexp/use-ignore-case] The character class(es) '[a-zA-Z_]' can be simplified using the `i` flag.
+~~~
+const tokenTypes = {
+  "number literal": /\d+/,
+  "string literal": /".+?"/,
+  identifier: /[a-zA-Z_]\w*/,
+};
+
+const tokenPattern = new RegExp(
+  Object.entries(tokenTypes)
+    .map(([name, pattern]) => `(?<${name}>${pattern.source})`)
+    .join("|"),
+);
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Regex_invalid_capture_group_name
+[regexp/use-ignore-case] The character class(es) '[a-zA-Z_]' can be simplified using the `i` flag.
+~~~
+const tokenTypes = {
+  numberLiteral: /\d+/,
+  stringLiteral: /".+?"/,
+  identifier: /[a-zA-Z_]\w*/,
+};
+
+const tokenPattern = new RegExp(
+  Object.entries(tokenTypes)
+    .map(([name, pattern]) => `(?<${name}>${pattern.source})`)
+    .join("|"),
+);
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Regex_invalid_decimal_escape
+[regexp/hexadecimal-escape] Unexpected hexadecimal escape ('\x01').
+~~~
+// If you want to match NULL followed by a digit, use a character class
+/[\0]0/u;
+// If you want to match a character by its character value, use \x
+/\x01/u;
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Regex_invalid_group
+[regexp/prefer-character-class] Unexpected the disjunction of single element alternatives. Use character class '[...]' instead.
+~~~
+/Hello(\?|!)/;
+// This is JavaScript syntax for character set operations
+/[\p{Thai}&&\p{Digit}]/v;
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Unexpected_token
+[syntax] Parsing error: ',' expected.
+~~~
+const MyComponent = {
+  mounted: {
+    document.getElementById("app").classList.add("loaded");
+  }
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Unexpected_token
+[syntax] Parsing error: Expression expected.
+~~~
+for (let i = 0; i < 5,; ++i) {
+  console.log(i);
+}
+// Uncaught SyntaxError: expected expression, got ';'
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Unparenthesized_unary_expr_lhs_exponentiation
+[syntax] Parsing error: An unary expression with the '-' operator is not allowed in the left-hand side of an exponentiation expression. Consider enclosing the expression in parentheses.
+~~~
+-a ** b
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Unparenthesized_unary_expr_lhs_exponentiation
+[syntax] Parsing error: An unary expression with the 'await' operator is not allowed in the left-hand side of an exponentiation expression. Consider enclosing the expression in parentheses.
+~~~
+await a ** b
+!a ** b
++a ** b
+~a ** b
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+[logical-assignment-operators] Assignment (=) can be replaced with operator assignment (||=).
+~~~
+callback = callback || (() => {});
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+[syntax] Parsing error: ';' expected.
+~~~
+(a, b, ...r) => expression
+(a = 400, b = 20, c) => expression
+([a, b] = [10, 20]) => expression
+({ a, b } = { a: 10, b: 20 }) => expression
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters
+[@typescript-eslint/no-this-alias] Unexpected aliasing of 'this' to local variable.
+[no-fallthrough] Expected a 'break' statement before 'case'.
+~~~
+function go() {
+  return ":P";
+}
+
+function withDefaults(
+  a,
+  b = 5,
+  c = b,
+  d = go(),
+  e = this,
+  f = arguments,
+  g = this.value,
+) {
+  return [a, b, c, d, e, f, g];
+}
+
+function withoutDefaults(a, b, c, d, e, f, g) {
+  switch (arguments.length) {
+    case 0:
+    case 1:
+      b = 5;
+    case 2:
+      c = b;
+    case 3:
+      d = go();
+    case 4:
+      e = this;
+    case 5:
+      f = arguments;
+    case 6:
+      g = this.value;
+  }
+  return [a, b, c, d, e, f, g];
+}
+
+withDefaults.call({ value: "=^_^=" });
+// [undefined, 5, 5, ":P", {value:"=^_^="}, arguments, "=^_^="]
+
+withoutDefaults.call({ value: "=^_^=" });
+// [undefined, 5, 5, ":P", {value:"=^_^="}, arguments, "=^_^="]
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions
+[new-cap] A constructor name should not start with a lowercase letter.
+~~~
+const obj = {
+  method() {},
+};
+new obj.method(); // TypeError: obj.method is not a constructor
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+[prefer-rest-params] Use the rest parameters instead of 'arguments'.
+~~~
+function f() {
+  console.log(Array.prototype.join.call(arguments, "+"));
+}
+
+f("a", "b"); // 'a+b'
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+[syntax] Parsing error: Unexpected keyword or identifier.
+~~~
+arr.0; // a syntax error
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from
+[prefer-rest-params] Use the rest parameters instead of 'arguments'.
+~~~
+function f() {
+  return Array.from(arguments);
+}
+
+f(1, 2, 3);
+
+// [ 1, 2, 3 ]
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+[array-callback-return] Array.prototype.map() expects a return value from arrow function.
+~~~
+const products = [
+  { name: "sports car" },
+  { name: "laptop" },
+  { name: "phone" },
+];
+
+products.map((product) => {
+  product.price = 100;
+});
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+[array-callback-return] Array.prototype.map() expects a value to be returned at the end of arrow function.
+~~~
+const numbers = [1, 2, 3, 4];
+const filteredNumbers = numbers.map((num, index) => {
+  if (index < 3) {
+    return num;
+  }
+});
+
+// index goes from 0, so the filterNumbers are 1,2,3 and undefined.
+// filteredNumbers is [1, 2, 3, undefined]
+// numbers is still [1, 2, 3, 4]
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+[prefer-numeric-literals] Use binary literals instead of parseInt().
+[radix] Invalid radix parameter, must be an integer between 2 and 36.
+~~~
+/* first iteration  (index is 0): */ parseInt("1", 0); // 1
+/* second iteration (index is 1): */ parseInt("2", 1); // NaN
+/* third iteration  (index is 2): */ parseInt("3", 2); // NaN
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
+[no-const-assign] 'val' is constant.
+~~~
+const val = array.reduce((acc, cur) => update(acc, cur), initialValue);
+
+// Is equivalent to:
+let val = initialValue;
+for (const cur of array) {
+  val = update(val, cur);
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduceRight
+[array-callback-return] Array.prototype.reduceRight() expects a return value from arrow function.
+~~~
+arr.reduceRight((accumulator, currentValue, index, array) => {
+  // …
+});
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
+[prefer-rest-params] Use the rest parameters instead of 'arguments'.
+~~~
+// slice() is called with `this` passed as the first argument
+const slice = Function.prototype.call.bind(Array.prototype.slice);
+
+function list() {
+  return slice(arguments);
+}
+
+const list1 = list(1, 2, 3); // [1, 2, 3]
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
+[syntax] Parsing error: ')' expected.
+~~~
+function compareFn(a, b) {
+  if (a is less than b by some ordering criterion) {
+    return -1;
+  } else if (a is greater than b by the ordering criterion) {
+    return 1;
+  }
+  // a must be equal to b
+  return 0;
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt
+[no-extend-native] BigInt prototype is read only, properties should not be added.
+~~~
+BigInt.prototype.toJSON = function () {
+  return { $bigint: this.toString() };
+};
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt/toString
+[no-extend-native] BigInt prototype is read only, properties should not be added.
+~~~
+BigInt.prototype.toString = () => "Overridden";
+console.log(`${1n}`); // "1"
+console.log(`${Object(1n)}`); // "Overridden"
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean/toString
+[no-extend-native] Boolean prototype is read only, properties should not be added.
+~~~
+Boolean.prototype.toString = () => "Overridden";
+console.log(`${true}`); // "true"
+console.log(`${new Boolean(true)}`); // "Overridden"
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/isError
+[no-ex-assign] Do not assign to the exception parameter.
+~~~
+try {
+  throw "Oops; this is not an Error object";
+} catch (e) {
+  if (!Error.isError(e)) {
+    e = new Error(e);
+  }
+  console.error(e.message);
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/isError
+[no-throw-literal] Expected an error object to be thrown.
+~~~
+try {
+  throw "Oops; this is not an Error object";
+} catch (e) {
+  if (!Error.isError(e)) {
+    e = new Error(e);
+  }
+  console.error(e.message);
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/stack
+[no-new-func] The Function constructor is eval.
+~~~
+console.log(new Function("return new Error('Function failed')")().stack);
+console.log("====");
+console.log(eval("new Error('eval failed')").stack);
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/toString
+[no-extend-native] Error prototype is read only, properties should not be added.
+~~~
+Error.prototype.toString = function () {
+  if (
+    this === null ||
+    (typeof this !== "object" && typeof this !== "function")
+  ) {
+    throw new TypeError();
+  }
+  let name = this.name;
+  name = name === undefined ? "Error" : `${name}`;
+  let msg = this.message;
+  msg = msg === undefined ? "" : `${msg}`;
+  if (name === "") {
+    return msg;
+  }
+  if (msg === "") {
+    return name;
+  }
+  return `${name}: ${msg}`;
+};
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval
+[no-new-func] The Function constructor is eval.
+~~~
+function add(a, b) {
+  return a + b;
+}
+function runCodeWithAddFunction(obj) {
+  return Function("add", `"use strict";return (${obj});`)(add);
+}
+console.log(runCodeWithAddFunction("add(5, 7)")); // 12
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval
+[no-sequences] Unexpected use of comma operator.
+~~~
+// Direct call
+eval("x + y");
+
+// Indirect call using the comma operator to return eval
+(0, eval)("x + y");
+
+// Indirect call through optional chaining
+eval?.("x + y");
+
+// Indirect call using a variable to store and return eval
+const myEval = eval;
+myEval("x + y");
+
+// Indirect call through member access
+const obj = { eval };
+obj.eval("x + y");
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply
+[prefer-rest-params] Use the rest parameters instead of 'arguments'.
+~~~
+function wrapper() {
+  return anotherFn.apply(null, arguments);
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/Function
+[no-template-curly-in-string] Unexpected template string expression.
+~~~
+// The function constructor can take in multiple statements separated by a semicolon. Function expressions require a return statement with the function's name
+
+// Observe that new Function is called. This is so we can call the function we created directly afterwards
+const sumOfArray = new Function(
+  "const sumArray = (arr) => arr.reduce((previousValue, currentValue) => previousValue + currentValue); return sumArray",
+)();
+
+// call the function
+sumOfArray([1, 2, 3, 4]);
+// 10
+
+// If you don't call new Function at the point of creation, you can use the Function.call() method to call it
+const findLargestNumber = new Function(
+  "function findLargestNumber (arr) { return Math.max(...arr) }; return findLargestNumber",
+);
+
+// call the function
+findLargestNumber.call({}).call({}, [2, 4, 1, 8, 5]);
+// 8
+
+// Function declarations do not require a return statement
+const sayHello = new Function(
+  "return function (name) { return `Hello, ${name}` }",
+)();
+
+// call the function
+sayHello("world");
+// Hello, world
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/name
+[new-cap] A constructor name should not start with a lowercase letter.
+~~~
+function a() {}
+const b = new a();
+if (b.constructor.name === "Foo") {
+  console.log("'foo' is an instance of 'Foo'");
+} else {
+  console.log("Oops!");
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/name
+[symbol-description] Expected Symbol to have a description.
+~~~
+const sym1 = Symbol("foo");
+const sym2 = Symbol();
+
+const o = {
+  [sym1]() {},
+  [sym2]() {},
+};
+
+o[sym1].name; // "[foo]"
+o[sym2].name; // "[]"
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype
+[no-extra-bind] The function binding is unnecessary.
+~~~
+const boundFunction = function () {}.bind(null);
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/toString
+[no-useless-computed-key] Unnecessarily computed property [0] found.
+[getter-return] Expected to return a value in getter 'a'.
+[no-extra-bind] The function binding is unnecessary.
+~~~
+function test(fn) {
+  console.log(fn.toString());
+}
+
+function f() {}
+class A {
+  a() {}
+}
+function* g() {}
+
+test(f); // "function f() {}"
+test(A); // "class A { a() {} }"
+test(g); // "function* g() {}"
+test((a) => a); // "(a) => a"
+test({ a() {} }.a); // "a() {}"
+test({ *a() {} }.a); // "*a() {}"
+test({ [0]() {} }[0]); // "[0]() {}"
+test(Object.getOwnPropertyDescriptor({ get a() {} }, "a").get); // "get a() {}"
+test(Object.getOwnPropertyDescriptor({ set a(x) {} }, "a").set); // "set a(x) {}"
+test(Function.prototype.toString); // "function toString() { [native code] }"
+test(function f() {}.bind(0)); // "function () { [native code] }"
+test(Function("a", "b")); // function anonymous(a\n) {\nb\n}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator/return
+[no-unsafe-finally] Unsafe usage of ReturnStatement.
+~~~
+function* gen() {
+  try {
+    yield 1;
+  } finally {
+    return "cleanup";
+  }
+}
+
+const g1 = gen();
+g1.next(); // { value: 1, done: false }
+g1.return("early return"); // { value: 'cleanup', done: true }
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/globalThis
+[no-new-func] The Function constructor is eval.
+~~~
+function check(it) {
+  // Math is known to exist as a global in every environment.
+  return it && it.Math === Math && it;
+}
+
+const globalObject =
+  check(typeof window === "object" && window) ||
+  check(typeof self === "object" && self) ||
+  check(typeof global === "object" && global) ||
+  // This returns undefined when running in strict mode
+  (function () {
+    return this;
+  })() ||
+  Function("return this")();
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON
+[no-extend-native] BigInt prototype is read only, properties should not be added.
+~~~
+// Using toJSON() method
+BigInt.prototype.toJSON = function () {
+  return this.toString();
+};
+const str1 = JSON.stringify(data);
+
+// Using JSON.stringify() with replacer
+const str2 = JSON.stringify(data, (key, value) => {
+  if (key === "gross_gdp") {
+    return value.toString();
+  }
+  return value;
+});
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON
+[no-extend-native] BigInt prototype is read only, properties should not be added.
+~~~
+// Using toJSON() method
+BigInt.prototype.toJSON = function () {
+  return JSON.rawJSON(this.toString());
+};
+const str1 = JSON.stringify(data);
+
+// Using JSON.stringify() with replacer
+const str2 = JSON.stringify(data, (key, value) => {
+  if (key === "gross_gdp") {
+    return JSON.rawJSON(value.toString());
+  }
+  return value;
+});
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/clz32
+[operator-assignment] Assignment (=) can be replaced with operator assignment (|=).
+[operator-assignment] Assignment (=) can be replaced with operator assignment (&=).
+~~~
+const countTrailsMethods = (function (stdlib, foreign, heap) {
+  "use asm";
+  const clz = stdlib.Math.clz32;
+
+  // count trailing zeros
+  function ctrz(integer) {
+    integer = integer | 0; // coerce to an integer
+    if ((integer | 0) == 0) {
+      // skipping this step would make it return -1
+      return 32;
+    }
+    // Note: asm.js doesn't have compound assignment operators such as &=
+    integer = integer & -integer; // equivalent to `int = int & (~int + 1)`
+    return (31 - clz(integer)) | 0;
+  }
+
+  // count trailing ones
+  function ctron(integer) {
+    integer = integer | 0; // coerce to an integer
+    return ctrz(~integer) | 0;
+  }
+
+  // asm.js demands plain objects:
+  return { ctrz: ctrz, ctron: ctron };
+})(window, null, null);
+
+const { ctrz, ctron } = countTrailsMethods;
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toString
+[no-extend-native] Number prototype is read only, properties should not be added.
+~~~
+Number.prototype.toString = () => "Overridden";
+console.log(`${1}`); // "1"
+console.log(`${new Number(1)}`); // "Overridden"
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
+[no-extend-native] Object prototype is read only, properties should not be added.
+~~~
+const user = {};
+
+// A malicious script:
+Object.prototype.authenticated = true;
+
+// Unexpectedly allowing unauthenticated user to pass through
+if (user.authenticated) {
+  // access confidential data
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
+[no-extend-native] Object prototype is read only, properties should not be added.
+~~~
+const current = Object.prototype.valueOf;
+
+// Since my property "-prop-value" is cross-cutting and isn't always
+// on the same prototype chain, I want to modify Object.prototype:
+Object.prototype.valueOf = function (...args) {
+  if (Object.hasOwn(this, "-prop-value")) {
+    return this["-prop-value"];
+  }
+  // It doesn't look like one of my objects, so let's fall back on
+  // the default behavior by reproducing the current behavior as best we can.
+  // The apply behaves like "super" in some other languages.
+  // Even though valueOf() doesn't take arguments, some other hook may.
+  return current.apply(this, args);
+};
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toString
+[no-extend-native] Date prototype is read only, properties should not be added.
+~~~
+const myDate = new Date();
+Object.prototype.toString.call(myDate); // [object Date]
+
+myDate[Symbol.toStringTag] = "myDate";
+Object.prototype.toString.call(myDate); // [object myDate]
+
+Date.prototype[Symbol.toStringTag] = "prototype polluted";
+Object.prototype.toString.call(new Date()); // [object prototype polluted]
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toString
+[no-useless-call] Unnecessary '.call()'.
+~~~
+const toString = Object.prototype.toString;
+
+toString.call(new Date()); // [object Date]
+toString.call(new String()); // [object String]
+// Math has its Symbol.toStringTag
+toString.call(Math); // [object Math]
+
+toString.call(undefined); // [object Undefined]
+toString.call(null); // [object Null]
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec
+[regexp/no-useless-flag] The 'g' flag is unnecessary because the regex is used only once in 'RegExp.prototype.exec'.
+~~~
+// Match "quick brown" followed by "jumps", ignoring characters in between
+// Remember "brown" and "jumps"
+// Ignore case
+const re = /quick\s(?<color>brown).+?(jumps)/dgi;
+const result = re.exec("The Quick Brown Fox Jumps Over The Lazy Dog");
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/flags
+[regexp/sort-flags] The flags 'ig' should be in the order 'gi'.
+[regexp/sort-flags] The flags 'myu' should be in the order 'muy'.
+~~~
+/foo/ig.flags; // "gi"
+/^bar/myu.flags; // "muy"
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/lastParen
+[regexp/no-unused-capturing-group] Capturing group number 1 is defined but never used.
+~~~
+const re = /(hi)/g;
+re.test("hi there!");
+RegExp.lastParen; // "hi"
+RegExp["$+"]; // "hi"
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/n
+[regexp/no-unused-capturing-group] Capturing group number 1 is defined but never used.
+~~~
+const str = "Test 24";
+const number = /(\d+)/.test(str) ? RegExp.$1 : "0";
+number; // "24"
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/source
+[regexp/letter-case] 'B' is not in lowercase
+~~~
+const regex1 = /fooBar/gi;
+
+console.log(regex1.source);
+// Expected output: "fooBar"
+
+console.log(new RegExp().source);
+// Expected output: "(?:)"
+
+console.log(new RegExp("\n").source === "\\n");
+// Expected output: true (starting with ES5)
+// Due to escaping
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/source
+[regexp/letter-case] 'B' is not in lowercase
+~~~
+const regex = /fooBar/gi;
+
+console.log(regex.source); // "fooBar", doesn't contain /.../ and "gi".
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicode
+[regexp/no-useless-escape] Unnecessary escape character: \u.
+[regexp/unicode-escape] Expected unicode escape ('\u0061'), but unicode code point escape ('\u{61}') is used.
+~~~
+const regex1 = new RegExp("\\u{61}");
+const regex2 = new RegExp("\\u{61}", "u");
+
+console.log(regex1.unicode);
+// Expected output: false
+
+console.log(regex2.unicode);
+// Expected output: true
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicode
+[regexp/strict] Incomplete escape sequence '\u'. Either use a valid escape sequence or remove the useless escaping.
+~~~
+const regex1 = new RegExp("\\u{61}");
+const regex2 = new RegExp("\\u{61}", "u");
+
+console.log(regex1.unicode);
+// Expected output: false
+
+console.log(regex2.unicode);
+// Expected output: true
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicode
+[regexp/unicode-escape] Expected unicode escape ('\u0061'), but unicode code point escape ('\u{61}') is used.
+~~~
+const regex = /\u{61}/u;
+
+console.log(regex.unicode); // true
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicodeSets
+[regexp/no-useless-escape] Unnecessary escape character: \p.
+~~~
+const regex1 = new RegExp("[\\p{Lowercase}&&\\p{Script=Greek}]");
+const regex2 = new RegExp("[\\p{Lowercase}&&\\p{Script=Greek}]", "v");
+
+console.log(regex1.unicodeSets);
+// Expected output: false
+
+console.log(regex2.unicodeSets);
+// Expected output: true
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicodeSets
+[regexp/strict] Invalid property escape sequence '\p'. Either use a valid property escape sequence or remove the useless escaping.
+[regexp/no-dupe-characters-character-class] Unexpected duplicate 'e' (U+0065).
+[regexp/no-dupe-characters-character-class] Unexpected duplicate '&' (U+0026).
+[regexp/no-dupe-characters-character-class] Unexpected duplicate '\p' (U+0070).
+[regexp/no-dupe-characters-character-class] Unexpected duplicate '{' (U+007b).
+[regexp/no-dupe-characters-character-class] Unexpected duplicate 'c' (U+0063).
+[regexp/no-dupe-characters-character-class] Unexpected duplicate 'r' (U+0072).
+[regexp/no-dupe-characters-character-class] Unexpected duplicate. 'p' (U+0070) is a duplicate of '\p' (U+0070).
+[regexp/no-dupe-characters-character-class] Unexpected duplicate 'r' (U+0072).
+[regexp/no-dupe-characters-character-class] Unexpected duplicate '}' (U+007d).
+~~~
+const regex1 = new RegExp("[\\p{Lowercase}&&\\p{Script=Greek}]");
+const regex2 = new RegExp("[\\p{Lowercase}&&\\p{Script=Greek}]", "v");
+
+console.log(regex1.unicodeSets);
+// Expected output: false
+
+console.log(regex2.unicodeSets);
+// Expected output: true
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace
+[regexp/no-unused-capturing-group] Capturing group number 1 is defined but never used.
+[regexp/no-useless-dollar-replacements] '$2' replacement will insert '$2' because there are less than 2 capturing groups. Use '$$' if you want to escape '$'.
+[regexp/no-unused-capturing-group] Capturing group number 1 is defined but never used.
+~~~
+"foo".replace(/(f)/, "$2");
+// "$2oo"; the regex doesn't have the second group
+
+"foo".replace("f", "$1");
+// "$1oo"; the pattern is a string, so it doesn't have any groups
+
+"foo".replace(/(f)|(g)/, "$2");
+// "oo"; the second group exists but isn't matched
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/search
+[regexp/no-useless-character-class] Unexpected character class with one character. Can remove brackets.
+~~~
+const str = "hey JudE";
+const re = /[A-Z]/;
+const reDot = /[.]/;
+console.log(str.search(re)); // returns 4, which is the index of the first capital letter "J"
+console.log(str.search(reDot)); // returns -1 cannot find '.' dot punctuation
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toString
+[no-extend-native] String prototype is read only, properties should not be added.
+~~~
+String.prototype.toString = () => "Overridden";
+console.log(`${"foo"}`); // "foo"
+console.log(`${new String("foo")}`); // "Overridden"
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
+[no-extend-native] Int8Array prototype is read only, properties should not be added.
+~~~
+// Setting and getting using standard array syntax
+const int16 = new Int16Array(2);
+int16[0] = 42;
+console.log(int16[0]); // 42
+
+// Indexed properties on prototypes are not consulted (Fx 25)
+Int8Array.prototype[20] = "foo";
+new Int8Array(32)[20]; // 0
+// even when out of bound
+Int8Array.prototype[20] = "foo";
+new Int8Array(8)[20]; // undefined
+// or with negative integers
+Int8Array.prototype[-1] = "foo";
+new Int8Array(8)[-1]; // undefined
+
+// Named properties are allowed, though (Fx 30)
+Int8Array.prototype.foo = "bar";
+new Int8Array(32).foo; // "bar"
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Iteration_protocols
+[no-unreachable-loop] Invalid loop. Its body allows only one iteration.
+~~~
+const obj = {
+  [Symbol.iterator]() {
+    let i = 0;
+    return {
+      next() {
+        i++;
+        console.log("Returning", i);
+        if (i === 3) return { done: true, value: i };
+        return { done: false, value: i };
+      },
+      return() {
+        console.log("Closing");
+        return { done: true };
+      },
+    };
+  },
+};
+
+const [a] = obj;
+// Returning 1
+// Closing
+
+const [b, c, d] = obj;
+// Returning 1
+// Returning 2
+// Returning 3
+// Already reached the end (the last call returned `done: true`),
+// so `return` is not called
+console.log([b, c, d]); // [1, 2, undefined]; the value associated with `done: true` is not reachable
+
+for (const b of obj) {
+  break;
+}
+// Returning 1
+// Closing
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Lexical_grammar
+[no-sequences] Unexpected use of comma operator.
+~~~
+const a = 1
+(1).toString()
+
+const b = 1
+[1, 2, 3].forEach(console.log)
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Lexical_grammar
+[no-sequences] Unexpected use of comma operator.
+~~~
+const a = 1(1).toString();
+
+const b = 1[1, 2, 3].forEach(console.log);
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Lexical_grammar
+[no-unexpected-multiline] Unexpected newline between function and ( of function call.
+[no-unexpected-multiline] Unexpected newline between object and [ of property access.
+~~~
+const a = 1
+(1).toString()
+
+const b = 1
+[1, 2, 3].forEach(console.log)
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Lexical_grammar
+[no-unreachable] Unreachable code.
+~~~
+function foo() {
+  return
+    1 + 1 // Returns undefined; 1 + 1 is ignored
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Lexical_grammar
+[no-unreachable] Unreachable code.
+~~~
+return
+a + b
+
+// is transformed by ASI into
+
+return;
+a + b;
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Lexical_grammar
+[no-unused-labels] 'innerBlock:' is defined but never used.
+~~~
+outerBlock: {
+  innerBlock: {
+    break outerBlock
+  }
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Lexical_grammar
+[no-unused-labels] 'lbl:' is defined but never used.
+~~~
+const decl = 1; // Variable declaration (may also be `let` or `var`)
+function fn() {} // Function declaration
+const obj = { key: "value" }; // Object keys
+// Class declaration
+class C {
+  #priv = "value"; // Private property
+}
+lbl: console.log(1); // Label
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Lexical_grammar
+[regexp/no-useless-character-class] Unexpected character class with one character. Can remove brackets.
+~~~
+/ab+c/g;
+/[/]/;
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Lexical_grammar
+[syntax] Parsing error: ';' expected.
 ~~~
 for (
   let a = 1 // No ASI here
@@ -199,7 +2432,8 @@ for (
 ) {}
 ~~~
 
-/en-US/docs/Web/JavaScript/Reference/Lexical_grammar: Parsing error: ';' expected.
+/en-US/docs/Web/JavaScript/Reference/Lexical_grammar
+[syntax] Parsing error: ';' expected.
 ~~~
 class A {
   a = 1
@@ -207,21 +2441,40 @@ class A {
 }
 ~~~
 
-/en-US/docs/Web/JavaScript/Reference/Lexical_grammar: Parsing error: ';' expected.
+/en-US/docs/Web/JavaScript/Reference/Lexical_grammar
+[syntax] Parsing error: ';' expected.
 ~~~
 class A {
   a = 1 * gen() {}
 }
 ~~~
 
-/en-US/docs/Web/JavaScript/Reference/Lexical_grammar: Parsing error: Invalid left-hand side expression in unary operation
+/en-US/docs/Web/JavaScript/Reference/Lexical_grammar
+[syntax] Parsing error: ';' expected.
 ~~~
-const a = b
-++
-console.log(a) // ReferenceError: Invalid left-hand side expression in prefix operation
+class A {
+  a = 1
+  [b] = 2
+  *gen() {} // Seen as a = 1[b] = 2 * gen() {}
+}
 ~~~
 
-/en-US/docs/Web/JavaScript/Reference/Lexical_grammar: Parsing error: Expression expected.
+/en-US/docs/Web/JavaScript/Reference/Lexical_grammar
+[syntax] Parsing error: 'else' is not allowed as a variable declaration name.
+~~~
+const els\u{65} = 1;
+// `els\u{65}` encodes the same identifier as `else`
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Lexical_grammar
+[syntax] Parsing error: Decimals with leading zeros are not allowed.
+~~~
+0888 // 888 parsed as decimal
+0777 // parsed as octal, 511 in decimal
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Lexical_grammar
+[syntax] Parsing error: Expression expected.
 ~~~
 // The () may be merged with the previous line as a function call
 (() => {
@@ -244,96 +2497,514 @@ console.log(a) // ReferenceError: Invalid left-hand side expression in prefix op
 /pattern/.exec(str).forEach(console.log)
 ~~~
 
-/en-US/docs/Web/JavaScript/Reference/Lexical_grammar: Parsing error: ';' expected.
+/en-US/docs/Web/JavaScript/Reference/Lexical_grammar
+[syntax] Parsing error: Identifier expected. 'import' is a reserved word that cannot be used here.
 ~~~
-class A {
-  a = 1
-  [b] = 2
-  *gen() {} // Seen as a = 1[b] = 2 * gen() {}
+function import() {} // Illegal: import is a reserved word.
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Lexical_grammar
+[syntax] Parsing error: Invalid left-hand side expression in unary operation
+~~~
+const a = b
+++
+console.log(a) // ReferenceError: Invalid left-hand side expression in prefix operation
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Lexical_grammar
+[syntax] Parsing error: Multiple consecutive numeric separators are not permitted.
+~~~
+// More than one underscore in a row is not allowed
+100__000; // SyntaxError
+
+// Not allowed at the end of numeric literals
+100_; // SyntaxError
+
+// Can not be used after leading 0
+0_1; // SyntaxError
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator
+[no-else-return] Unnecessary 'else' after 'return'.
+~~~
+function example() {
+  if (condition1) {
+    return value1;
+  } else if (condition2) {
+    return value2;
+  } else if (condition3) {
+    return value3;
+  } else {
+    return value4;
+  }
 }
 ~~~
 
-/en-US/docs/Web/JavaScript/Reference/Statements/try...catch: Parsing error: '{' expected.
+/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring
+[syntax] Parsing error: ',' expected.
 ~~~
-try doSomething(); // SyntaxError
-catch (e) console.log(e);
+const numbers = [];
+const obj = { a: 1, b: 2 };
+const { a: numbers[0], b: numbers[1] } = obj;
+
+// This is equivalent to:
+//   const numbers[0] = obj.a;
+//   const numbers[1] = obj.b;
+// Which definitely is not valid.
 ~~~
 
-/en-US/docs/Web/JavaScript/Reference/Statements/throw: Parsing error: A throw statement must throw an expression.
+/en-US/docs/Web/JavaScript/Reference/Operators/function
+[no-func-assign] 'foo' is a function.
+~~~
+"use strict";
+
+function foo() {
+  foo = 1;
+}
+foo();
+console.log(foo); // 1
+(function foo() {
+  foo = 1; // TypeError: Assignment to constant variable.
+})();
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/Grouping
+[no-unexpected-multiline] Unexpected newline between function and ( of function call.
+~~~
+const a = 1
+(1).toString()
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/Grouping
+[no-unreachable] Unreachable code.
+~~~
+function sum(a, b) {
+  return
+    a + b;
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/Grouping
+[syntax] Parsing error: Identifier expected.
+~~~
+function () {
+  // code
+}();
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/instanceof
+[no-unsafe-negation] Unexpected negating the left operand of 'instanceof' operator.
+~~~
+if (!myCar instanceof Car) {
+  // unreachable code
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND_assignment
+[no-const-assign] 'x' is constant.
+~~~
+const x = 0;
+x &&= 2;
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND_assignment
+[no-const-assign] 'x' is constant.
+~~~
+const x = 0;
+x &&= console.log("y evaluated");
+// Logs nothing
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/Logical_NOT
+[no-extra-boolean-cast] Redundant Boolean call.
+~~~
+!!true; // !!truthy returns true
+!!{}; // !!truthy returns true: any object is truthy…
+!!new Boolean(false); // … even Boolean objects with a false .valueOf()!
+!!false; // !!falsy returns false
+!!""; // !!falsy returns false
+!!Boolean(false); // !!falsy returns false
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/Logical_OR_assignment
+[no-const-assign] 'x' is constant.
+~~~
+const x = 1;
+x ||= 2;
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/Logical_OR_assignment
+[no-const-assign] 'x' is constant.
+~~~
+const x = 1;
+x ||= console.log("y evaluated");
+// Logs nothing
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_assignment
+[no-const-assign] 'x' is constant.
+~~~
+const x = 1;
+x ??= 2;
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_assignment
+[no-const-assign] 'x' is constant.
+~~~
+const x = 1;
+x ??= console.log("y evaluated");
+// Logs nothing
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence
+[syntax] Parsing error: Expression expected.
+~~~
+function* foo() {
+  a + yield 1;
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence
+[syntax] Parsing error: Expression expected.
+~~~
+async function* foo() {
+  await yield 1;
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors
+[syntax] Parsing error: Unexpected keyword or identifier.
+~~~
+const object = {};
+object.1 = "bar"; // SyntaxError
+console.log(object.1); // SyntaxError
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/this
+[@typescript-eslint/no-this-alias] Unexpected aliasing of 'this' to local variable.
+~~~
+const globalObject = this;
+const foo = () => this;
+console.log(foo() === globalObject); // true
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/this
+[constructor-super] Expected to call 'super()'.
+~~~
+class Base {}
+class Good extends Base {}
+class AlsoGood extends Base {
+  constructor() {
+    return { a: 5 };
+  }
+}
+class Bad extends Base {
+  constructor() {}
+}
+
+new Good();
+new AlsoGood();
+new Bad(); // ReferenceError: Must call super constructor in derived class before accessing 'this' or returning from derived constructor
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/this
+[no-extend-native] Number prototype is read only, properties should not be added.
+~~~
+function getThisStrict() {
+  "use strict"; // Enter strict mode
+  return this;
+}
+
+// Only for demonstration — you should not mutate built-in prototypes
+Number.prototype.getThisStrict = getThisStrict;
+console.log(typeof (1).getThisStrict()); // "number"
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/this
+[no-extend-native] Number prototype is read only, properties should not be added.
+~~~
+function getThis() {
+  return this;
+}
+
+// Only for demonstration — you should not mutate built-in prototypes
+Number.prototype.getThis = getThis;
+console.log(typeof (1).getThis()); // "object"
+console.log(getThis() === globalThis); // true
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/this
+[no-useless-call] Unnecessary '.call()'.
+~~~
+function bar() {
+  console.log(Object.prototype.toString.call(this));
+}
+
+bar.call(7); // [object Number]
+bar.call("foo"); // [object String]
+bar.call(undefined); // [object Window]
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/this
+[no-with] Unexpected use of 'with' statement.
+~~~
+const obj1 = {
+  foo() {
+    return this;
+  },
+};
+
+with (obj1) {
+  console.log(foo() === obj1); // true
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/typeof
+[no-new-func] The Function constructor is eval.
+~~~
+const str = new String("String");
+const num = new Number(100);
+
+typeof str; // "object"
+typeof num; // "object"
+
+const func = new Function();
+
+typeof func; // "function"
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements
+[no-unused-labels] 'label:' is defined but never used.
+~~~
+label: {
+  const a = 1;
+}
+
+if (condition) {
+  let i = 0;
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/class
+[no-class-assign] 'Foo' is a class.
+[no-class-assign] 'Foo2' is a class.
+[no-class-assign] 'Foo3' is a class.
+~~~
+class Foo {
+  static {
+    Foo = 1; // TypeError: Assignment to constant variable.
+  }
+}
+
+class Foo2 {
+  bar = (Foo2 = 1); // TypeError: Assignment to constant variable.
+}
+
+class Foo3 {}
+Foo3 = 1;
+console.log(Foo3); // 1
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/export
+[syntax] Parsing error: Declaration or statement expected.
+~~~
+export DefaultExport from "bar.js"; // Invalid
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/Expression_statement
+[no-unused-labels] 'foo:' is defined but never used.
+~~~
+// For some reason, you have a variable called `let`
+var let = [1, 2, 3];
+
+function setIndex(index, value) {
+  if (index >= 0) {
+    // Intend to assign to the array `let`, but instead creates an extra variable!
+    let[index] = value;
+  }
+}
+
+setIndex(0, [1, 2]);
+console.log(let); // [1, 2, 3]
+
+// This is not an object literal, but a block statement,
+// where `foo` is a label and `1` is an expression statement.
+// This often happens in the console
+{ foo: 1 };
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/for-await...of
+[no-unreachable-loop] Invalid loop. Its body allows only one iteration.
+~~~
+async function* foo() {
+  yield 1;
+  yield 2;
+}
+
+(async function () {
+  for await (const num of foo()) {
+    console.log(num);
+    // Expected output: 1
+
+    break; // Closes iterator, triggers return
+  }
+})();
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/for...of
+[no-extend-native] Object prototype is read only, properties should not be added.
+[no-extend-native] Array prototype is read only, properties should not be added.
+~~~
+Object.prototype.objCustom = function () {};
+Array.prototype.arrCustom = function () {};
+
+const iterable = [3, 5, 7];
+iterable.foo = "hello";
+
+for (const i in iterable) {
+  console.log(i);
+}
+// "0", "1", "2", "foo", "arrCustom", "objCustom"
+
+for (const i in iterable) {
+  if (Object.hasOwn(iterable, i)) {
+    console.log(i);
+  }
+}
+// "0" "1" "2" "foo"
+
+for (const i of iterable) {
+  console.log(i);
+}
+// 3 5 7
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/for...of
+[prefer-rest-params] Use the rest parameters instead of 'arguments'.
+~~~
+function foo() {
+  for (const value of arguments) {
+    console.log(value);
+  }
+}
+
+foo(1, 2, 3);
+// 1
+// 2
+// 3
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/function*
+[new-cap] A constructor name should not start with a lowercase letter.
+~~~
+function* f() {}
+const obj = new f(); // throws "TypeError: f is not a constructor
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/function*
+[no-unreachable] Unreachable code.
+~~~
+function* yieldAndReturn() {
+  yield "Y";
+  return "R";
+  yield "unreachable";
+}
+
+const gen = yieldAndReturn();
+console.log(gen.next()); // { value: "Y", done: false }
+console.log(gen.next()); // { value: "R", done: true }
+console.log(gen.next()); // { value: undefined, done: true }
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/import
+[import/first] Import in body of module; reorder to top.
+~~~
+myModule.doAllTheAmazingThings(); // myModule.doAllTheAmazingThings is imported by the next line
+
+import * as myModule from "/modules/my-module.js";
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/throw
+[syntax] Parsing error: A throw statement must throw an expression.
 ~~~
 throw
 new Error();
 ~~~
 
-/en-US/docs/Web/JavaScript/Reference/Statements/throw: Parsing error: Expression expected.
+/en-US/docs/Web/JavaScript/Reference/Statements/throw
+[syntax] Parsing error: Expression expected.
 ~~~
 throw;
 new Error();
 ~~~
 
-/en-US/docs/Web/JavaScript/Reference/Statements/Expression_statement: Parsing error: Expression expected.
+/en-US/docs/Web/JavaScript/Reference/Statements/try...catch
+[no-throw-literal] Expected an error object to be thrown.
 ~~~
-function foo() {
-  console.log("foo");
-}(); // SyntaxError: Unexpected token '('
-
-// For some reason, you have a variable called `let`
-var let = [1, 2, 3];
-let[0] = 4; // SyntaxError: Invalid destructuring assignment target
-
-{
-  foo: 1,
-  bar: 2, // SyntaxError: Unexpected token ':'
-};
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Statements/for: Parsing error: ')' expected.
-~~~
-for (let i = "start" in window ? window.start : 0; i < 9; i++) {
-  console.log(i);
+try {
+  throw "Oops; this is not an Error object";
+} catch (e) {
+  if (!(e instanceof Error)) {
+    e = new Error(e);
+  }
+  console.error(e.message);
 }
-// SyntaxError: 'for-in' loop variable declaration may not have an initializer.
 ~~~
 
-/en-US/docs/Web/JavaScript/Reference/Statements/export: Parsing error: Declaration or statement expected.
+/en-US/docs/Web/JavaScript/Reference/Statements/try...catch
+[syntax] Parsing error: '{' expected.
 ~~~
-export DefaultExport from "bar.js"; // Invalid
+try doSomething(); // SyntaxError
+catch (e) console.log(e);
 ~~~
 
-/en-US/docs/Web/JavaScript/Reference/Statements/while: Parsing error: '}' expected.
+/en-US/docs/Web/JavaScript/Reference/Statements/while
+[no-cond-assign] Expected a conditional expression and instead saw an assignment.
+~~~
+const iterator = document.createNodeIterator(document, NodeFilter.SHOW_COMMENT);
+let currentNode;
+while (currentNode = iterator.nextNode()) {
+  console.log(currentNode.textContent.trim());
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/while
+[syntax] Parsing error: '}' expected.
 ~~~
 while (currentNode = iterator.nextNode()) {
 ~~~
 
-/en-US/docs/Web/JavaScript/Reference/Statements/while: Parsing error: '}' expected.
+/en-US/docs/Web/JavaScript/Reference/Statements/while
+[syntax] Parsing error: '}' expected.
 ~~~
 while ((currentNode = iterator.nextNode()) !== null) {
 ~~~
 
-/en-US/docs/Web/JavaScript/Reference/Statements/while: Parsing error: '}' expected.
+/en-US/docs/Web/JavaScript/Reference/Statements/while
+[syntax] Parsing error: '}' expected.
 ~~~
 while ((currentNode = iterator.nextNode()) && currentNode) {
 ~~~
 
-/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array: Parsing error: Unexpected keyword or identifier.
+/en-US/docs/Web/JavaScript/Reference/Strict_mode
+[no-new-func] The Function constructor is eval.
 ~~~
-arr.0; // a syntax error
+"use strict";
+eval = 17;
+arguments++;
+++eval;
+const obj = { set p(arguments) {} };
+let eval;
+try {
+} catch (arguments) {}
+function x(eval) {}
+function arguments() {}
+const y = function eval() {};
+const f = new Function("arguments", "'use strict'; return 17;");
 ~~~
 
-/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort: Parsing error: ')' expected.
-~~~
-function compareFn(a, b) {
-  if (a is less than b by some ordering criterion) {
-    return -1;
-  } else if (a is greater than b by the ordering criterion) {
-    return 1;
-  }
-  // a must be equal to b
-  return 0;
-}
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Strict_mode: Parsing error: Octal literals are not allowed. Use the syntax '0o15'.
+/en-US/docs/Web/JavaScript/Reference/Strict_mode
+[syntax] Parsing error: Octal literals are not allowed. Use the syntax '0o15'.
 ~~~
 "use strict";
 const sum =
@@ -342,796 +3013,39 @@ const sum =
   142;
 ~~~
 
-/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions: Parsing error: ';' expected.
+/en-US/docs/Web/JavaScript/Reference/Template_literals
+[no-new-func] The Function constructor is eval.
 ~~~
-(a, b, ...r) => expression
-(a = 400, b = 20, c) => expression
-([a, b] = [10, 20]) => expression
-({ a, b } = { a: 10, b: 20 }) => expression
-~~~
+console.log`Hello`; // [ 'Hello' ]
+console.log.bind(1, 2)`Hello`; // 2 [ 'Hello' ]
+new Function("console.log(arguments)")`Hello`; // [Arguments] { '0': [ 'Hello' ] }
 
-/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions: Parsing error: Identifier expected.
-~~~
-const func = () => { foo: 1 };
-// Calling func() returns undefined!
-
-const func2 = () => { foo: function () {} };
-// SyntaxError: function statement requires a name
-
-const func3 = () => { foo() {} };
-// SyntaxError: Unexpected token '{'
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions: Parsing error: Expression expected.
-~~~
-let callback;
-
-callback = callback || () => {};
-// SyntaxError: invalid arrow-function arguments
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Functions: Parsing error: Identifier expected.
-~~~
-function () { // SyntaxError: Function statements require a function name
-  console.log("FOO!");
-}();
-
-function foo() {
-  console.log("FOO!");
-}(); // SyntaxError: Unexpected token ')'
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/Illegal_character: Parsing error: Invalid character.
-~~~
-“This looks like a string”; // SyntaxError: illegal character
-// “ and ” are not " but look like it
-
-42 – 13; // SyntaxError: illegal character
-// – (en-dash) is not - but looks like it
-
-const foo = "bar"; // SyntaxError: illegal character
-// <37e> is not ; but looks like it
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/Illegal_character: Parsing error: Invalid character.
-~~~
-const operators = ["+", "-", ×", "÷"];
-// SyntaxError: illegal character U+00D7
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/Illegal_character: Parsing error: Expression expected.
-~~~
-const foo = "bar";<200b>
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/Missing_parenthesis_after_condition: Parsing error: ')' expected.
-~~~
-if (Math.PI < 3 {
-  console.log("wait what?");
+function recursive(strings, ...values) {
+  console.log(strings, values);
+  return recursive;
 }
-
-// SyntaxError: missing ) after condition
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/Missing_parenthesis_after_condition: Parsing error: ')' expected.
-~~~
-if (done is true) {
- console.log("we are done!");
-}
-
-// SyntaxError: missing ) after condition
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/Bad_break: Parsing error: Declaration or statement expected.
-~~~
-let score = 0;
-
-function increment() {
-  if (score === 100)
-    break; // SyntaxError: unlabeled break must be inside loop or switch
-  }
-  score++;
-}
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_for-in_initializer: Parsing error: The variable declaration of a 'for...in' statement cannot have an initializer.
-~~~
-const obj = { a: 1, b: 2, c: 3 };
-
-for (const i = 0 in obj) {
-  console.log(obj[i]);
-}
-
-// SyntaxError: for-in loop head declarations may not have initializers
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_octal_escape_sequence: Parsing error: Octal escape sequences are not allowed. Use the syntax '\xa9'.
-~~~
-"use strict";
-
-"\251";
-
-// SyntaxError: octal escape sequences can't be used in untagged template literals or in strict mode code
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/No_variable_name: Parsing error: Variable declaration expected.
-~~~
-const = "foo";
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/No_variable_name: Parsing error: 'debugger' is not allowed as a variable declaration name.
-~~~
-const debugger = "whoop";
-// SyntaxError: missing variable name
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/No_variable_name: Parsing error: Variable declaration expected.
-~~~
-let x, y = "foo",
-const z, = "foo"
-
-const first = document.getElementById("one"),
-const second = document.getElementById("two"),
-
-// SyntaxError: missing variable name
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/No_variable_name: Parsing error: Variable declaration expected.
-~~~
-const arr = 1,2,3,4,5;
-// SyntaxError: missing variable name
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/Bad_return: Parsing error: Declaration or statement expected.
-~~~
-function cheer(score) {
-  if (score === 147)
-    return "Maximum!";
-  }
-  if (score > 100) {
-    return "Century!";
-  }
-}
-
-// SyntaxError: return not in function
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/Unparenthesized_unary_expr_lhs_exponentiation: Parsing error: An unary expression with the '-' operator is not allowed in the left-hand side of an exponentiation expression. Consider enclosing the expression in parentheses.
-~~~
--a ** b
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/Unparenthesized_unary_expr_lhs_exponentiation: Parsing error: An unary expression with the 'await' operator is not allowed in the left-hand side of an exponentiation expression. Consider enclosing the expression in parentheses.
-~~~
-await a ** b
-!a ** b
-+a ** b
-~a ** b
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/Unparenthesized_unary_expr_lhs_exponentiation: Parsing error: An unary expression with the '-' operator is not allowed in the left-hand side of an exponentiation expression. Consider enclosing the expression in parentheses.
-~~~
-function taylorSin(x) {
-  return (n) => (-1 ** n * x ** (2 * n + 1)) / factorial(2 * n + 1);
-  // SyntaxError: unparenthesized unary expression can't appear on the left-hand side of '**'
-}
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/Identifier_after_number: Parsing error: An identifier or keyword cannot immediately follow a numeric literal.
-~~~
-const 1life = "foo";
-// SyntaxError: identifier starts immediately after numeric literal
-
-const foo = 1life;
-// SyntaxError: identifier starts immediately after numeric literal
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/Identifier_after_number: Parsing error: An identifier or keyword cannot immediately follow a numeric literal.
-~~~
-alert(typeof 1.toString())
-// SyntaxError: identifier starts immediately after numeric literal
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/Missing_name_after_dot_operator: Parsing error: Identifier expected.
-~~~
-const obj = { foo: { bar: "baz", bar2: "baz2" } };
-const i = 2;
-
-obj.[foo].[bar]
-// SyntaxError: missing name after . operator
-
-obj.foo."bar"+i;
-// SyntaxError: missing name after . operator
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/Missing_name_after_dot_operator: Parsing error: Identifier expected.
-~~~
-console.log("Hello" . "world");
-
-// SyntaxError: missing name after . operator
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/Reserved_identifier: Parsing error: Identifier expected.
-~~~
-const enum = { RED: 0, GREEN: 1, BLUE: 2 };
-// SyntaxError: enum is a reserved identifier
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/Unnamed_function_statement: Parsing error: Identifier expected.
-~~~
-function () {
-  return "Hello world";
-}
-// SyntaxError: function statement requires a name
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/Unnamed_function_statement: Parsing error: Identifier expected.
-~~~
-function Greeter() {
-  german: function () {
-    return "Moin";
-  }
-}
-// SyntaxError: function statement requires a name
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/Unnamed_function_statement: Parsing error: Identifier expected.
-~~~
-promise.then(
-  function () {
-    console.log("success");
-  });
-  function () {
-    console.log("error");
-}
-// SyntaxError: function statement requires a name
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_assignment_left-hand_side: Parsing error: ')' expected.
-~~~
-if (Math.PI + 1 = 3 || Math.PI + 1 = 4) {
-  console.log("no way!");
-}
-// SyntaxError: invalid assignment left-hand side
-
-const str = "Hello, "
-+= "is it me "
-+= "you're looking for?";
-// SyntaxError: invalid assignment left-hand side
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/Bad_new_optional: Parsing error: Invalid optional chain from new expression. Did you mean to call 'Intl()'?
-~~~
-new Intl?.DateTimeFormat();
-Number?.[parseMethod]`Hello, world!`;
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/Bad_new_optional: Parsing error: Invalid optional chain from new expression. Did you mean to call 'Intl.DateTimeFormat()'?
-~~~
-new Intl.DateTimeFormat?.();
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_for-of_initializer: Parsing error: The variable declaration of a 'for...of' statement cannot have an initializer.
-~~~
-const iterable = [10, 20, 30];
-
-for (const value = 50 of iterable) {
-  console.log(value);
-}
-
-// SyntaxError: a declaration in the head of a for-of loop can't
-// have an initializer
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/Missing_formal_parameter: Parsing error: Identifier expected.
-~~~
-function square(3) {
-  return number * number;
-}
-// SyntaxError: missing formal parameter
-
-function greet("Howdy") {
-  return greeting;
-}
-// SyntaxError: missing formal parameter
-
-function log({ obj: "value"}) {
-  console.log(arg)
-}
-// SyntaxError: missing formal parameter
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/Missing_curly_after_property_list: Parsing error: ',' expected.
-~~~
-const obj = {
-  a: 1,
-  b: { myProp: 2 }
-  c: 3
-};
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/Missing_bracket_after_list: Parsing error: Expression or comma expected.
-~~~
-const list = [1, 2,
-
-const instruments = [
-  "Ukulele",
-  "Guitar",
-  "Piano",
-};
-
-const data = [{ foo: "bar" } { bar: "foo" }];
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_octal_literal: Parsing error: Octal literals are not allowed. Use the syntax '0o3'.
-~~~
-"use strict";
-
-03;
-
-// SyntaxError: "0"-prefixed octal literals are deprecated; use the "0o" prefix instead
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/String_literal_EOL: Parsing error: Unterminated string literal.
-~~~
-const longString = "This is a very long string which needs
-                    to wrap across multiple lines because
-                    otherwise my code is unreadable.";
-// SyntaxError: unterminated string literal
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/Unexpected_token: Parsing error: Expression expected.
-~~~
-for (let i = 0; i < 5,; ++i) {
-  console.log(i);
-}
-// Uncaught SyntaxError: expected expression, got ';'
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/Unexpected_token: Parsing error: Expression expected.
-~~~
-function round(n, upperBound, lowerBound) {
-if (n > upperBound) || (n < lowerBound) { // Missing parentheses here!
-    throw new Error(`Number ${n} is more than ${upperBound} or less than ${lowerBound}`);
-  } else if (n < (upperBound + lowerBound) / 2) {
-    return lowerBound;
-  } else {
-    return upperBound;
-  }
-} // SyntaxError: expected expression, got '||'
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/Unexpected_token: Parsing error: ',' expected.
-~~~
-const MyComponent = {
-  mounted: {
-    document.getElementById("app").classList.add("loaded");
-  }
-}
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/Missing_curly_after_function_body: Parsing error: '}' expected.
-~~~
-function charge() {
-  if (sunny) {
-    useSolarCells();
-  } else {
-    promptBikeRide();
-}
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/Missing_curly_after_function_body: Parsing error: Declaration or statement expected.
-~~~
-(function () {
-  if (Math.random() < 0.01) {
-    doSomething();
-  }
-)();
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/Missing_parenthesis_after_argument_list: Parsing error: ',' expected.
-~~~
-console.log("PI: " Math.PI);
-// SyntaxError: missing ) after argument list
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/Missing_parenthesis_after_argument_list: Parsing error: Unterminated string literal.
-~~~
-console.log('"Java" + "Script" = \"' + "Java" + 'Script\");
-// SyntaxError: missing ) after argument list
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Errors/Missing_colon_after_property_id: Parsing error: ':' expected.
-~~~
-const obj = { "b"+"ar": "foo" };
-// SyntaxError: missing : after property id
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Trailing_commas: Parsing error: Parameter declaration expected.
-~~~
-function f(,) {} // SyntaxError: missing formal parameter
-(,) => {};       // SyntaxError: expected expression, got ','
-f(,)             // SyntaxError: expected expression, got ','
-
-function f(...p,) {} // SyntaxError: parameter after rest parameter
-(...p,) => {}        // SyntaxError: expected closing parenthesis, got ','
-~~~
-
-/en-US/docs/Learn_web_development/Core/Scripting/Build_your_own_function: Parsing error: '}' expected.
-~~~
-function displayMessage() {
-~~~
-
-/en-US/docs/Learn_web_development/Core/Scripting/Build_your_own_function: Parsing error: '}' expected.
-~~~
-function displayMessage(msgText, msgType) {
-~~~
-
-/en-US/docs/Learn_web_development/Core/Scripting/Conditionals: Parsing error: ':' expected.
-~~~
-condition ? run this code : run this code instead
-~~~
-
-/en-US/docs/Learn_web_development/Core/Scripting/Strings: Parsing error: ',' expected.
-~~~
-const badString1 = This is a test;
-const badString2 = 'This is a test;
-const badString3 = This is a test';
-~~~
-
-/en-US/docs/Learn_web_development/Core/Scripting/Strings: Parsing error: Unterminated string literal.
-~~~
-const badQuotes = 'This is not allowed!";
-~~~
-
-/en-US/docs/Learn_web_development/Core/Scripting/Strings: Parsing error: ',' expected.
-~~~
-const badQuotes = "She said "I think so!"";
-~~~
-
-/en-US/docs/Learn_web_development/Core/Scripting/Math: Parsing error: Invalid left-hand side expression in unary operation
-~~~
-3++;
-~~~
-
-/en-US/docs/Learn_web_development/Core/Scripting/What_went_wrong: Parsing error: '}' expected.
-~~~
-function checkGuess() {
-~~~
-
-/en-US/docs/Learn_web_development/Core/Scripting/What_went_wrong: Parsing error: '}' expected.
-~~~
-function checkGuess( {
-~~~
-
-/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_are_browser_developer_tools: Parsing error: Unterminated string literal.
-~~~
-alert("hello!);
-~~~
-
-/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Code_editors: Parsing error: Unterminated string literal.
-~~~
-function createGreeting(name) {
-  const greeting = `Hello, ${Name}!`;
-  return greeting;
-}
-
-const helloChris = createGreeting("Chris);
-
-console.log(helloChris;
-~~~
-
-/en-US/docs/MDN/Writing_guidelines/Code_style_guide/JavaScript: Parsing error: Invalid character.
-~~~
-function exampleFunc() {
-  …
-}
-~~~
-
-/en-US/docs/MDN/Writing_guidelines/Page_structures/Syntax_sections: Parsing error: Expression expected.
-~~~
-arr.slice([begin[, end]])
-~~~
-
-/en-US/docs/Glossary/Boolean: Parsing error: ')' expected.
-~~~
-/* JavaScript if statement */
-if (boolean conditional) {
-  // code to execute if the conditional is true
-}
-
-if (boolean conditional) {
-  console.log("boolean conditional resolved to true");
-} else {
-  console.log("boolean conditional resolved to false");
-}
-
-/* JavaScript for loop */
-for (control variable; boolean conditional; counter) {
-  // code to execute repeatedly if the conditional is true
-}
-~~~
-
-/en-US/docs/Glossary/Function: Parsing error: Expression expected.
-~~~
-function foo() {
-  console.log("Hello Foo");
-}();
-~~~
-
-/en-US/docs/Learn_web_development/Core/Styling_basics/Getting_started: Unknown word left (CssSyntaxError)
-~~~
-margin: 0auto;
-padding- left: 10px;
-~~~
-
-/en-US/docs/Mozilla/Add-ons/WebExtensions/Internationalization: Unknown word padding-__MSG_ (CssSyntaxError)
-~~~
-body {
-  direction: __MSG_@@bidi_dir__;
-}
-
-div#header {
-  margin-bottom: 1.05em;
-  overflow: hidden;
-  padding-bottom: 1.5em;
-  padding-__MSG_@@bidi_start_edge__: 0;
-  padding-__MSG_@@bidi_end_edge__: 1.5em;
-  position: relative;
-}
-~~~
-
-/en-US/docs/Web/CSS/CSS_syntax/Error_handling: Missed semicolon (CssSyntaxError)
-~~~
-p {
-  /* Invalid syntax due to missing semi-colon */
-  border-color: red
-  background-color: green;
-
-  /* Valid syntax but likely a logic error */
-  border-width: 100vh;
-}
-~~~
-
-/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax: Opening tag "a" not terminated.
-~~~
-<a href=https://www.mozilla.org/>favorite website</a>
-~~~
-
-/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax: Unexpected closing tag "a". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-~~~
-<a href=https://www.mozilla.org/>favorite website</a>
-~~~
-
-/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax: Opening tag "a" not terminated.
-~~~
-<a href=https://www.mozilla.org/ title=The Mozilla homepage>favorite website</a>
-~~~
-
-/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax: Unexpected closing tag "a". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-~~~
-<a href=https://www.mozilla.org/ title=The Mozilla homepage>favorite website</a>
-~~~
-
-/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax: Unexpected character "EOF"
-~~~
-<a href="https://www.example.com'>A link to my example.</a>
-~~~
-
-/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax: Opening tag "a" not terminated.
-~~~
-<a href="https://www.example.com" title="An "interesting" reference">A link to my example.</a>
-~~~
-
-/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax: Unexpected closing tag "a". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-~~~
-<a href="https://www.example.com" title="An "interesting" reference">A link to my example.</a>
-~~~
-
-/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax: Unexpected closing tag "p". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-~~~
-<p>My cat is <strong>very grumpy.</p></strong>
-~~~
-
-/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax: Unexpected closing tag "strong". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-~~~
-<p>My cat is <strong>very grumpy.</p></strong>
-~~~
-
-/en-US/docs/Learn_web_development/Core/Structuring_content/Debugging_HTML: Unexpected closing tag "em". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-~~~
-<p>I didn't expect to find the <em>next-door neighbor's <strong>cat</em></strong> here!</p>
-~~~
-
-/en-US/docs/Learn_web_development/Core/Structuring_content/Debugging_HTML: Unexpected closing tag "strong". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-~~~
-<p>I didn't expect to find the <em>next-door neighbor's <strong>cat</em></strong> here!</p>
-~~~
-
-/en-US/docs/Learn_web_development/Core/Structuring_content/Debugging_HTML: Unexpected closing tag "strong". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-~~~
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML debugging examples</title>
-  </head>
-
-  <body>
-    <h1>HTML debugging examples</h1>
-    <p>What causes errors in HTML?
-    <ul>
-      <li>Unclosed elements: If an element is <strong>not closed properly,then its effect can spread to areas you didn't intend
-      <li>Badly nested elements: Nesting elements properly is also very important for code behaving correctly. <strong>strong <em>strong emphasized?</strong> what is this?</em>
-      <li>Unclosed attributes: Another common source of HTML problems. Let's look at an example: <a href="https://www.mozilla.org/>link to Mozilla homepage</a>
-    </ul>
-  </body>
-</html>
-~~~
-
-/en-US/docs/Learn_web_development/Core/Structuring_content/Debugging_HTML: Unexpected closing tag "em". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-~~~
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML debugging examples</title>
-  </head>
-
-  <body>
-    <h1>HTML debugging examples</h1>
-    <p>What causes errors in HTML?
-    <ul>
-      <li>Unclosed elements: If an element is <strong>not closed properly,then its effect can spread to areas you didn't intend
-      <li>Badly nested elements: Nesting elements properly is also very important for code behaving correctly. <strong>strong <em>strong emphasized?</strong> what is this?</em>
-      <li>Unclosed attributes: Another common source of HTML problems. Let's look at an example: <a href="https://www.mozilla.org/>link to Mozilla homepage</a>
-    </ul>
-  </body>
-</html>
-~~~
-
-/en-US/docs/Learn_web_development/Core/Structuring_content/Debugging_HTML: Unexpected character "EOF"
-~~~
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML debugging examples</title>
-  </head>
-
-  <body>
-    <h1>HTML debugging examples</h1>
-    <p>What causes errors in HTML?
-    <ul>
-      <li>Unclosed elements: If an element is <strong>not closed properly,then its effect can spread to areas you didn't intend
-      <li>Badly nested elements: Nesting elements properly is also very important for code behaving correctly. <strong>strong <em>strong emphasized?</strong> what is this?</em>
-      <li>Unclosed attributes: Another common source of HTML problems. Let's look at an example: <a href="https://www.mozilla.org/>link to Mozilla homepage</a>
-    </ul>
-  </body>
-</html>
-~~~
-
-/en-US/docs/Learn_web_development/Core/Structuring_content/Debugging_HTML: Unexpected closing tag "strong". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-~~~
-<h1>HTML debugging examples</h1>
-
-<p>What causes errors in HTML?
-
-<ul>
-  <li>Unclosed elements: If an element is <strong>not closed properly,
-      then its effect can spread to areas you didn't intend
-
-  <li>Badly nested elements: Nesting elements properly is also very important
-      for code behaving correctly. <strong>strong <em>strong emphasized?</strong>
-      what is this?</em>
-
-  <li>Unclosed attributes: Another common source of HTML problems. Let's
-      look at an example: <a href="https://www.mozilla.org/>link to Mozilla
-      homepage</a>
-</ul>
-~~~
-
-/en-US/docs/Learn_web_development/Core/Structuring_content/Debugging_HTML: Unexpected closing tag "em". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-~~~
-<h1>HTML debugging examples</h1>
-
-<p>What causes errors in HTML?
-
-<ul>
-  <li>Unclosed elements: If an element is <strong>not closed properly,
-      then its effect can spread to areas you didn't intend
-
-  <li>Badly nested elements: Nesting elements properly is also very important
-      for code behaving correctly. <strong>strong <em>strong emphasized?</strong>
-      what is this?</em>
-
-  <li>Unclosed attributes: Another common source of HTML problems. Let's
-      look at an example: <a href="https://www.mozilla.org/>link to Mozilla
-      homepage</a>
-</ul>
-~~~
-
-/en-US/docs/Learn_web_development/Core/Structuring_content/Debugging_HTML: Unexpected character "EOF"
-~~~
-<h1>HTML debugging examples</h1>
-
-<p>What causes errors in HTML?
-
-<ul>
-  <li>Unclosed elements: If an element is <strong>not closed properly,
-      then its effect can spread to areas you didn't intend
-
-  <li>Badly nested elements: Nesting elements properly is also very important
-      for code behaving correctly. <strong>strong <em>strong emphasized?</strong>
-      what is this?</em>
-
-  <li>Unclosed attributes: Another common source of HTML problems. Let's
-      look at an example: <a href="https://www.mozilla.org/>link to Mozilla
-      homepage</a>
-</ul>
-~~~
-
-/en-US/docs/Mozilla/Firefox/Releases/3/Updating_web_applications: Only void, custom and foreign elements can be self closed "script"
-~~~
-<script … />
-~~~
-
-/en-US/docs/Mozilla/Firefox/Releases/3/Updating_web_applications: Unexpected character "EOF"
-~~~
-<script … />
-~~~
-
-/en-US/docs/MDN/Writing_guidelines/Code_style_guide/HTML: Opening tag "img" not terminated.
-~~~
-<img src=images/logo.jpg alt=A circular globe icon class=no-border>
+recursive`Hello``World`;
+// [ 'Hello' ] []
+// [ 'World' ] []
 ~~~
 
-/en-US/docs/Web/HTML/Reference/Elements/frame: Only void, custom and foreign elements can be self closed "frame"
+/en-US/docs/Web/JavaScript/Reference/Template_literals
+[no-template-curly-in-string] Unexpected template string expression.
 ~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <!-- Document metadata goes here -->
-  </head>
-  <frameset cols="400, 500">
-    <frame src="https://developer.mozilla.org/en/HTML/Element/iframe" />
-    <frame src="https://developer.mozilla.org/en/HTML/Element/frame" />
-  </frameset>
-</html>
+`\${1}` === "${1}"; // true
 ~~~
 
-/en-US/docs/Web/HTML/Reference/Elements/frameset: Only void, custom and foreign elements can be self closed "frame"
+/en-US/docs/Web/JavaScript/Reference/Template_literals
+[no-unsafe-optional-chaining] Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.
+[no-unexpected-multiline] Unexpected newline between template tag and template literal.
 ~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <!-- Document metadata goes here -->
-  </head>
-  <frameset cols="50%, 50%">
-    <frame
-      src="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/iframe" />
-    <frame
-      src="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/frame" />
-  </frameset>
-</html>
+// Still a syntax error
+const a = console?.log
+`Hello`
 ~~~
 
-/en-US/docs/Web/HTML/Reference/Elements/noframes: Only void, custom and foreign elements can be self closed "frame"
+/en-US/docs/Web/JavaScript/Reference/Template_literals
+[syntax] Parsing error: Hexadecimal digit expected.
 ~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <!-- Document metadata goes here -->
-  </head>
-  <frameset rows="45%, 55%">
-    <frame src="https://developer.mozilla.org/en/HTML/Element/frameset" />
-    <frame src="https://developer.mozilla.org/en/HTML/Element/frame" />
-    <noframes>
-      <p>
-        It seems your browser does not support frames or is configured to not
-        allow them.
-      </p>
-    </noframes>
-  </frameset>
-</html>
+const bad = `bad escape sequence: \unicode`;
 ~~~

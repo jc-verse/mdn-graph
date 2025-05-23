@@ -12,6 +12,7 @@
     "angular-html-parser": "^8.1.0",
     "cheerio": "^1.0.0",
     "eslint": "^9.23.0",
+    "eslint-config-jc": "^6.0.1",
     "gray-matter": "^4.0.3",
     "leven": "^4.0.0",
     "ngraph.events": "0.0.3",

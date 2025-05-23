@@ -532,7 +532,8 @@ export default async function createContentGraph() {
       const jsHrefReferences = js.matchAll(/\.href = ["']([^"']+)["']/g);
       const htmlSrcReferences = html.matchAll(/src=["']([^"']+)["']/g);
       const htmlSrcsetReferences = [
-        ...html.matchAll(/srcset=["']([^"']+)["']/g),
+        // Exclude imagesrcset
+        ...html.matchAll(/ srcset=["']([^"']+)["']/g),
       ].flatMap((match) =>
         match[1].split(",").map((src) => [
           ,

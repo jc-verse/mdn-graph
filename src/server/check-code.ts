@@ -1,7 +1,7 @@
 import { ESLint } from "eslint";
-import tseslint from "typescript-eslint";
 import stylelint from "stylelint";
 import { parse as htmlParse } from "angular-html-parser";
+import eslintConfig from "../../config/eslint-config.ts";
 
 const sanctionedLanguages = [
   "apacheconf",
@@ -47,16 +47,6 @@ const sanctionedLanguages = [
   "yaml",
 ];
 
-const eslintConfig = [
-  {
-    files: ["**/*.js", "**/*.jsx", "**/*.ts", "**/*.tsx"],
-    languageOptions: {
-      parser: tseslint.parser,
-    },
-    // No rules for now
-  },
-];
-
 const stylelintConfig = {
   fix: false,
   rules: {
@@ -71,18 +61,20 @@ const expectedErrors = (
     ),
   ).text()
 ).matchAll(
-  /(?<file>\/en-US\/docs\/[^ ]+): (?<message>.*)\n~~~\n(?<code>(?:.|\n)+?)~~~\n/g,
+  /(?<file>\/en-US\/docs\/[^\n]+)\n(?<reports>(?:\[[^\]]+\] .*\n)+)~~~\n(?<code>(?:.|\n)+?)~~~\n/g,
 );
 const expectedErrorsMap = new Map<string, Map<string, Map<string, boolean>>>();
 for (const match of expectedErrors) {
-  const { file, message, code } = match.groups!;
+  const { file, reports, code } = match.groups!;
   if (!expectedErrorsMap.has(file)) {
     expectedErrorsMap.set(file, new Map());
   }
   if (!expectedErrorsMap.get(file)!.has(code)) {
     expectedErrorsMap.get(file)!.set(code, new Map());
   }
-  expectedErrorsMap.get(file)!.get(code)!.set(message, false);
+  for (const report of reports.trim().split("\n")) {
+    expectedErrorsMap.get(file)!.get(code)!.set(report, false);
+  }
 }
 
 export async function checkCode(
@@ -104,33 +96,65 @@ export async function checkCode(
     for (const block of blocks) {
       const { language, content } = block;
       if (["js", "ts", "jsx", "tsx"].includes(language)) {
-        const results = await eslint.lintText(content, {
-          filePath: `test.${language}`,
-        });
-        for (const result of results) {
-          result.messages.forEach((msg) => {
-            if (
-              expectedErrorsMap.has(file) &&
-              expectedErrorsMap.get(file)!.has(content)
-            ) {
-              const expectedMessages = expectedErrorsMap
-                .get(file)!
-                .get(content)!;
-              if (expectedMessages.has(msg.message)) {
-                expectedMessages.set(msg.message, true);
-                return;
-              }
+        if (content.includes("// SyntaxError: ")) continue;
+        const scripts = content
+          .split(/\/\/ -- ([^ ]*) --\n/)
+          .reduce((acc, part, i, arr) => {
+            if (i % 2 !== 0) {
+              acc.push({ fileName: part, content: arr[i + 1] });
+            } else if (i === 0) {
+              acc.push({ fileName: `test.${language}`, content: part });
             }
-            report(
-              node,
-              language === "html" ? "HTML code issue" : "JS code issue",
-              msg.message,
-              content.split("\n")[msg.line - 1] || content,
-              msg.endLine
-                ? `${msg.line}:${msg.column} - ${msg.endLine}:${msg.endColumn}`
-                : `${msg.line}:${msg.column}`,
-            );
-          });
+            return acc;
+          }, []);
+        for (const { fileName, content } of scripts) {
+          const results = await eslint.lintText(
+            content
+              // Avoid spaced-comment report
+              .replaceAll("/*,", "/* ,")
+              .replaceAll("//@", "// @")
+              .replaceAll("//#", "// #"),
+            {
+              filePath: `${node.id.replace("/en-US/docs/", "")}/${fileName}`,
+            },
+          );
+          for (const result of results) {
+            result.messages.forEach((msg) => {
+              if (
+                expectedErrorsMap.has(file) &&
+                expectedErrorsMap.get(file)!.has(content)
+              ) {
+                const expectedMessages = expectedErrorsMap
+                  .get(file)!
+                  .get(content)!;
+                const fullMessage = `[${msg.ruleId ?? "syntax"}] ${msg.message}`;
+                if (expectedMessages.has(fullMessage)) {
+                  expectedMessages.set(fullMessage, true);
+                  return;
+                }
+              }
+              // No better way to disable this error :(
+              if (
+                msg.ruleId === "no-unused-labels" &&
+                msg.message === "'$:' is defined but never used." &&
+                node.id.startsWith(
+                  "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_",
+                )
+              )
+                return;
+              report(
+                node,
+                "JS code issue",
+                msg.ruleId ?? "syntax",
+                msg.message,
+                content.split("\n")[msg.line - 1] || content,
+                msg.endLine
+                  ? `${msg.line}:${msg.column} - ${msg.endLine}:${msg.endColumn}`
+                  : `${msg.line}:${msg.column}`,
+                // `${node.id}\n[${msg.ruleId ?? "syntax"}] ${msg.message}\n~~~\n${content}~~~\n`,
+              );
+            });
+          }
         }
       } else if (["css"].includes(language)) {
         const results = await stylelint.lint({
@@ -147,14 +171,16 @@ export async function checkCode(
               const expectedMessages = expectedErrorsMap
                 .get(file)!
                 .get(content)!;
-              if (expectedMessages.has(msg.text)) {
-                expectedMessages.set(msg.text, true);
+              const fullMessage = `[${msg.rule}] ${msg.text}`;
+              if (expectedMessages.has(fullMessage)) {
+                expectedMessages.set(fullMessage, true);
                 return;
               }
             }
             report(
               node,
               "CSS code issue",
+              msg.rule,
               msg.text,
               content.split("\n")[msg.line - 1] || content,
               `${msg.line}:${msg.column}`,
@@ -169,14 +195,16 @@ export async function checkCode(
             expectedErrorsMap.get(file)!.has(content)
           ) {
             const expectedMessages = expectedErrorsMap.get(file)!.get(content)!;
-            if (expectedMessages.has(error.msg)) {
-              expectedMessages.set(error.msg, true);
+            const fullMessage = `[syntax] ${error.msg}`;
+            if (expectedMessages.has(fullMessage)) {
+              expectedMessages.set(fullMessage, true);
               return;
             }
           }
           report(
             node,
             "HTML code issue",
+            "syntax",
             error.msg,
             content.split("\n")[error.span.start.line] || content,
             `${error.span.start.line}:${error.span.start.col}`,
@@ -195,7 +223,7 @@ export function postCheckCode() {
       for (const [message, status] of messages) {
         if (!status) {
           console.warn(
-            `${file}: ${message}\n~~~\n${code}~~~\nIs no longer referenced`,
+            `${file}\n${message}\n~~~\n${code}~~~\nIs no longer referenced`,
           );
         }
       }
