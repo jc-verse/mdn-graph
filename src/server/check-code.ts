@@ -147,11 +147,11 @@ export async function checkCode(
                 "JS code issue",
                 msg.ruleId ?? "syntax",
                 msg.message,
-                content.split("\n")[msg.line - 1] || content,
+                content.split("\n")[msg.line - 1],
                 msg.endLine
                   ? `${msg.line}:${msg.column} - ${msg.endLine}:${msg.endColumn}`
                   : `${msg.line}:${msg.column}`,
-                // `${node.id}\n[${msg.ruleId ?? "syntax"}] ${msg.message}\n~~~\n${content}~~~\n`,
+                `${node.id}\n[${msg.ruleId ?? "syntax"}] ${msg.message}\n~~~\n${content}~~~\n`,
               );
             });
           }

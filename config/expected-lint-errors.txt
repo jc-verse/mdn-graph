@@ -367,6 +367,12 @@ margin: 0auto;
 padding- left: 10px;
 ~~~
 
+/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Third_party_APIs
+[syntax] Parsing error: Expression expected.
+~~~
+layers: L.mapquest.tileLayer("map"),
+~~~
+
 /en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/forms/Create_genre_form
 [no-useless-return] Unnecessary return statement.
 ~~~
