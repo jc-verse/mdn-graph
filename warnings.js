@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-ymzqs748.js";
+} from "./chunk-10wwc3y2.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -450,26 +450,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            gpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/GPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/gpl-faq.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/gpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                }
-              ]
-            },
             "high-level_programming_language": {
               children: {},
               slug: "/en-US/docs/Glossary/High-level_programming_language",
@@ -557,19 +537,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            lgpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/LGPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/lgpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
                 }
               ]
             },
@@ -1338,20 +1305,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    main_features: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "Parsing error: '...' expected.",
-                            "      <AuthorCredit {/* props */} />",
-                            "4:9"
-                          ]
-                        }
-                      ]
-                    },
                     svelte_components: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_components",
@@ -1533,6 +1486,7 @@ var warnings_processed_default = {
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: '}' expected.",
                             `if (userGuess === randomNumber) {
 `,
@@ -1542,6 +1496,7 @@ var warnings_processed_default = {
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: '}' expected.",
                             `if (userGuess = randomNumber) {
 `,
@@ -1561,19 +1516,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    },
-                    html_images: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     },
@@ -1721,6 +1663,21 @@ var warnings_processed_default = {
                           ]
                         }
                       ]
+                    },
+                    third_party_apis: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Third_party_APIs",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "syntax",
+                            "Parsing error: Expression expected.",
+                            'layers: L.mapquest.tileLayer("map"),',
+                            "1:9"
+                          ]
+                        }
+                      ]
                     }
                   }
                 },
@@ -1743,6 +1700,7 @@ var warnings_processed_default = {
                         {
                           message: "HTML code issue",
                           data: [
+                            "syntax",
                             'Unexpected closing tag "form". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
                             "</form>",
                             "0:0"
@@ -1809,19 +1767,6 @@ var warnings_processed_default = {
                 },
                 performance: {
                   children: {
-                    multimedia: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Multimedia",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://imageoptim.com/online",
-                            "Unable to connect. Is the computer able to access the url?"
-                          ]
-                        }
-                      ]
-                    },
                     web_performance_basics: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Web_Performance_Basics",
@@ -1829,13 +1774,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/gzip/",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     }
@@ -1865,6 +1803,21 @@ var warnings_processed_default = {
                     },
                     express_nodejs: {
                       children: {
+                        deployment: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/deployment",
+                          messages: [
+                            {
+                              message: "JS code issue",
+                              data: [
+                                "import/newline-after-import",
+                                "Expected 1 empty line after require statement not followed by another require.",
+                                'const RateLimit = require("express-rate-limit");',
+                                "7:1"
+                              ]
+                            }
+                          ]
+                        },
                         introduction: {
                           children: {},
                           slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
@@ -1887,40 +1840,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    }
-                  }
-                }
-              }
-            },
-            getting_started: {
-              children: {
-                environment_setup: {
-                  children: {},
-                  slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://support.microsoft.com/en-us/windows",
-                        504
-                      ]
-                    }
-                  ]
-                },
-                soft_skills: {
-                  children: {
-                    finding_a_job: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Finding_a_job",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.upwork.com/",
-                            403
-                          ]
                         }
                       ]
                     }
@@ -2123,13 +2042,6 @@ var warnings_processed_default = {
                             "https://webchat.freenode.net/?channels=textmate",
                             521
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://support.microsoft.com/en-us/windows",
-                            504
-                          ]
                         }
                       ]
                     },
@@ -2150,28 +2062,8 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://gaesamplesite.appspot.com/downloads.html",
-                            503
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://gaesamplesite.appspot.com/",
                             503
-                          ]
-                        }
-                      ]
-                    },
-                    what_software_do_i_need: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://browsershots.org/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -2379,6 +2271,7 @@ var warnings_processed_default = {
                             {
                               message: "CSS code issue",
                               data: [
+                                "CssSyntaxError",
                                 "Unknown word var (CssSyntaxError)",
                                 "var(--custom-prop)",
                                 "3:1"
@@ -2495,17 +2388,17 @@ var warnings_processed_default = {
                                       data: []
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "Cannot reach server and Bun hangs"
+                                        ""
                                       ]
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "Cannot reach server and Bun hangs"
+                                        ""
                                       ]
                                     }
                                   ]
@@ -2529,17 +2422,17 @@ var warnings_processed_default = {
                                       data: []
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "Cannot reach server and Bun hangs"
+                                        ""
                                       ]
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "Cannot reach server and Bun hangs"
+                                        ""
                                       ]
                                     }
                                   ]
@@ -2548,10 +2441,10 @@ var warnings_processed_default = {
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
                               messages: [
                                 {
-                                  message: "Broken external link",
+                                  message: "HTTP link",
                                   data: [
                                     "http://www.softwareishard.com/blog/har-12-spec/",
-                                    "Cannot reach server and Bun hangs"
+                                    ""
                                   ]
                                 }
                               ]
@@ -3217,6 +3110,20 @@ webextensions.api.clipboard`,
                     },
                     "manifest.json": {
                       children: {
+                        content_scripts: {
+                          children: {},
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/content_scripts",
+                          messages: [
+                            {
+                              message: "Text stuck to code/link",
+                              data: [
+                                "document_end",
+                                "Text before code:",
+                                ", then"
+                              ]
+                            }
+                          ]
+                        },
                         version: {
                           children: {
                             format: {
@@ -3290,6 +3197,7 @@ webextensions.manifest.options_ui`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: '}' expected.",
                             `if (browser.contextualIdentities === undefined) {
   div.innerText =
@@ -3302,6 +3210,7 @@ webextensions.manifest.options_ui`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: '}' expected.",
                             `  browser.contextualIdentities.query({}).then((identities) => {
     if (!identities.length) {
@@ -3315,6 +3224,7 @@ webextensions.manifest.options_ui`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: Declaration or statement expected.",
                             "  });",
                             "12:9"
@@ -3323,6 +3233,7 @@ webextensions.manifest.options_ui`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: '}' expected.",
                             `function eventHandler(event) {
 `,
@@ -3332,6 +3243,7 @@ webextensions.manifest.options_ui`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: Declaration or statement expected.",
                             "}",
                             "11:9"
@@ -3346,6 +3258,7 @@ webextensions.manifest.options_ui`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: '}' expected.",
                             `  function updateTab(tabs) {
     if (tabs[0]) {
@@ -3358,6 +3271,7 @@ webextensions.manifest.options_ui`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: '}' expected.",
                             `      let searching = browser.bookmarks.search({ url: currentTab.url });
       searching.then((bookmarks) => {
@@ -3376,6 +3290,7 @@ webextensions.manifest.options_ui`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: '}' expected.",
                             `for (let i = 0; i < bgBtns.length; i++) {
   let imgName = bgBtns[i].getAttribute("class");
@@ -3396,6 +3311,7 @@ webextensions.manifest.options_ui`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: '}' expected.",
                             `function listTabs() {
   getCurrentWindowTabs().then((tabs) => {
@@ -3412,6 +3328,7 @@ webextensions.manifest.options_ui`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: Declaration or statement expected.",
                             "  });",
                             "2:9"
@@ -3420,6 +3337,7 @@ webextensions.manifest.options_ui`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: Declaration or statement expected.",
                             'else if (e.target.id === "tabs-alert-info") {',
                             "1:9"
@@ -3428,6 +3346,7 @@ webextensions.manifest.options_ui`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: Declaration or statement expected.",
                             '  else if (e.target.id === "tabs-add-zoom") {',
                             "1:9"
@@ -3444,6 +3363,20 @@ webextensions.manifest.options_ui`,
                           data: [
                             "http://www.aha-soft.com/free-icons/free-retina-icon-set/",
                             ""
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.iconbeast.com/free/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.iconbeast.com/faq/",
+                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -6173,6 +6106,25 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
+                    "139": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/139",
+                      messages: [
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "/en-US/docs/Web/API/Web_Authentication_API/WebAuthn_extensions",
+                            "#prf"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabGroups"
+                          ]
+                        }
+                      ]
+                    },
                     "1.5": {
                       children: {
                         changing_the_priority_of_http_requests: {
@@ -7651,52 +7603,6 @@ api.Document.fullscreen`,
                     }
                   ]
                 },
-                htmllinkelement: {
-                  children: {
-                    imagesizes: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLLinkElement/imageSizes",
-                      messages: [
-                        {
-                          message: "Missing image",
-                          data: [
-                            "narrow.png"
-                          ]
-                        },
-                        {
-                          message: "Missing image",
-                          data: [
-                            "medium.png"
-                          ]
-                        },
-                        {
-                          message: "Missing image",
-                          data: [
-                            "wide.png"
-                          ]
-                        }
-                      ]
-                    },
-                    imagesrcset: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLLinkElement/imageSrcset",
-                      messages: [
-                        {
-                          message: "Missing image",
-                          data: [
-                            "bg-narrow.png"
-                          ]
-                        },
-                        {
-                          message: "Missing image",
-                          data: [
-                            "bg-wide.png"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 htmlolistelement: {
                   children: {},
                   slug: "/en-US/docs/Web/API/HTMLOListElement",
@@ -7718,6 +7624,19 @@ api.Document.fullscreen`,
                       message: "Not in BCD",
                       data: [
                         "api.HTMLSelectedContentElement"
+                      ]
+                    }
+                  ]
+                },
+                idbtransaction: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/IDBTransaction",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://peter.sh/2012/05/tab-sizing-string-values-for-indexeddb-and-chrome-21/",
+                        500
                       ]
                     }
                   ]
@@ -7753,6 +7672,7 @@ api.Document.fullscreen`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: '}' expected.",
                             `function addData(e) {
   e.preventDefault();
@@ -7776,6 +7696,7 @@ api.Document.fullscreen`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: Declaration or statement expected.",
                             "  else {",
                             "1:9"
@@ -7784,6 +7705,7 @@ api.Document.fullscreen`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: Declaration or statement expected.",
                             "  }",
                             "12:9"
@@ -7792,6 +7714,7 @@ api.Document.fullscreen`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: Declaration or statement expected.",
                             "}",
                             "3:9"
@@ -7800,6 +7723,7 @@ api.Document.fullscreen`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: '}' expected.",
                             `function checkDeadlines() {
   const now = new Date();
@@ -7810,6 +7734,7 @@ api.Document.fullscreen`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: '}' expected.",
                             `  const objectStore = db
     .transaction(["toDoList"], "readwrite")
@@ -7827,6 +7752,7 @@ api.Document.fullscreen`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: '}' expected.",
                             `    // now we need to update the value of notified to "yes" in this particular data object, so the
     // notification won't be set off on it again
@@ -7860,6 +7786,7 @@ api.Document.fullscreen`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: Declaration or statement expected.",
                             "    }",
                             "2:9"
@@ -7894,6 +7821,112 @@ api.Document.fullscreen`,
                       ]
                     }
                   }
+                },
+                languagedetector: {
+                  children: {
+                    availability_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/LanguageDetector/availability_static",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.LanguageDetector.availability_static"
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-useless-return",
+                            "Unnecessary return statement.",
+                            "  return;",
+                            "8:3 - 8:10"
+                          ]
+                        }
+                      ]
+                    },
+                    create_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/LanguageDetector/create_static",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.LanguageDetector.create_static"
+                          ]
+                        }
+                      ]
+                    },
+                    destroy: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/LanguageDetector/destroy",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.LanguageDetector.destroy"
+                          ]
+                        }
+                      ]
+                    },
+                    detect: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/LanguageDetector/detect",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.LanguageDetector.detect"
+                          ]
+                        }
+                      ]
+                    },
+                    expectedinputlanguages: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/LanguageDetector/expectedInputLanguages",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.LanguageDetector.expectedInputLanguages"
+                          ]
+                        }
+                      ]
+                    },
+                    inputquota: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/LanguageDetector/inputQuota",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.LanguageDetector.inputQuota"
+                          ]
+                        }
+                      ]
+                    },
+                    measureinputusage: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/LanguageDetector/measureInputUsage",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.LanguageDetector.measureInputUsage"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/LanguageDetector",
+                  messages: [
+                    {
+                      message: "Not in BCD",
+                      data: [
+                        "api.LanguageDetector"
+                      ]
+                    }
+                  ]
                 },
                 media_capabilities_api: {
                   children: {
@@ -7938,6 +7971,7 @@ api.Document.fullscreen`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: '}' expected.",
                             `(() => {
   const width = 320;    // We will scale the photo width to this
@@ -7956,6 +7990,7 @@ api.Document.fullscreen`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: '}' expected.",
                             `  function startup() {
     video = document.getElementById("video");
@@ -7969,6 +8004,7 @@ api.Document.fullscreen`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: Declaration or statement expected.",
                             "  }",
                             "2:9"
@@ -8914,6 +8950,58 @@ api.Document.fullscreen`,
                     }
                   ]
                 },
+                summarizer: {
+                  children: {
+                    availability_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Summarizer/availability_static",
+                      messages: [
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "#sharedContext"
+                          ]
+                        }
+                      ]
+                    },
+                    create_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Summarizer/create_static",
+                      messages: [
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "#sharedContext"
+                          ]
+                        }
+                      ]
+                    },
+                    summarize: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Summarizer/summarize",
+                      messages: [
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/API/Summarize/inputQuota"
+                          ]
+                        }
+                      ]
+                    },
+                    summarizestreaming: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Summarizer/summarizeStreaming",
+                      messages: [
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/API/Summarize/inputQuota"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 svgrenderingintent: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SVGRenderingIntent",
@@ -9018,6 +9106,254 @@ api.Document.fullscreen`,
                       ]
                     }
                   ]
+                },
+                translator: {
+                  children: {
+                    availability_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Translator/availability_static",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.Translator.availability_static"
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-useless-return",
+                            "Unnecessary return statement.",
+                            "  return;",
+                            "11:3 - 11:10"
+                          ]
+                        }
+                      ]
+                    },
+                    create_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Translator/create_static",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.Translator.create_static"
+                          ]
+                        }
+                      ]
+                    },
+                    destroy: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Translator/destroy",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.Translator.destroy"
+                          ]
+                        }
+                      ]
+                    },
+                    inputquota: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Translator/inputQuota",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.Translator.inputQuota"
+                          ]
+                        }
+                      ]
+                    },
+                    measureinputusage: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Translator/measureInputUsage",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.Translator.measureInputUsage"
+                          ]
+                        }
+                      ]
+                    },
+                    sourcelanguage: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Translator/sourceLanguage",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.Translator.sourceLanguage"
+                          ]
+                        }
+                      ]
+                    },
+                    targetlanguage: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Translator/targetLanguage",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.Translator.targetLanguage"
+                          ]
+                        }
+                      ]
+                    },
+                    translate: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Translator/translate",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.Translator.translate"
+                          ]
+                        }
+                      ]
+                    },
+                    translatestreaming: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Translator/translateStreaming",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.Translator.translateStreaming"
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "syntax",
+                            "Parsing error: ')' expected.",
+                            "const stream = translator.translateStreaming((myTextString);",
+                            "6:9"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/Translator",
+                  messages: [
+                    {
+                      message: "Not in BCD",
+                      data: [
+                        "api.Translator"
+                      ]
+                    },
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "syntax",
+                        "Parsing error: ')' expected.",
+                        "const stream = translator.translateStreaming((myTextString);",
+                        "1:9"
+                      ]
+                    }
+                  ]
+                },
+                translator_and_language_detector_apis: {
+                  children: {
+                    using: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Translator_and_Language_Detector_APIs/Using",
+                      messages: [
+                        {
+                          message: "Code with space",
+                          data: [
+                            "try { ... }"
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "syntax",
+                            "Parsing error: ')' expected.",
+                            "const stream = translator.translateStreaming((myTextString);",
+                            "1:9"
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "syntax",
+                            "Parsing error: '}' expected.",
+                            `async function handleTranslation(e) {
+  e.preventDefault();
+
+  const formData = new FormData(form);
+
+  if (formData.get("translateLanguage") === detectedLanguage) {
+    translateOutput.innerHTML = \`<span class="error">Input language and translation language are the same.</span>\`;
+    return;
+  } else {
+    translateOutput.innerHTML = "";
+  }
+`,
+                            "12:9"
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "syntax",
+                            "Parsing error: '}' expected.",
+                            `  try {
+    const availability = await Translator.availability({
+      sourceLanguage: detectedLanguage,
+      targetLanguage: formData.get("translateLanguage"),
+    });
+    let translator;
+
+    if (availability === "unavailable") {
+      translateOutput.innerHTML = \`<span class="error">Translation not available; try a different language combination.</span>\`;
+      return;
+    } else if (availability === "available") {
+      translator = await Translator.create({
+        sourceLanguage: detectedLanguage,
+        targetLanguage: formData.get("translateLanguage"),
+      });
+    } else {
+      translator = await Translator.create({
+        sourceLanguage: detectedLanguage,
+        targetLanguage: formData.get("translateLanguage"),
+        monitor: (monitor) => {
+          monitor.addEventListener("downloadprogress", (e) => {
+            translateOutput.textContent = \`Downloaded \${Math.floor(
+              e.loaded * 100
+            )}%\`;
+          });
+        },
+      });
+    }
+`,
+                            "29:9"
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "syntax",
+                            "Parsing error: Declaration or statement expected.",
+                            "  } catch (e) {",
+                            "1:9"
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-else-return",
+                            "Unnecessary 'else' after 'return'.",
+                            "  } else {",
+                            "45:10 - 47:4"
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 ui_events: {
                   children: {},
@@ -9216,6 +9552,7 @@ api.Document.fullscreen`,
                         {
                           message: "HTML code issue",
                           data: [
+                            "syntax",
                             'Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
                             "</div>",
                             "10:0"
@@ -9224,6 +9561,7 @@ api.Document.fullscreen`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: '}' expected.",
                             `function createNoteTable() {
   const noteFreq = [];
@@ -9255,6 +9593,7 @@ api.Document.fullscreen`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: Declaration or statement expected.",
                             "}",
                             "16:9"
@@ -9299,6 +9638,7 @@ api.Document.fullscreen`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: '}' expected.",
                             `function draw() {
 `,
@@ -9308,6 +9648,7 @@ api.Document.fullscreen`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: Declaration or statement expected.",
                             "}",
                             "3:9"
@@ -9316,6 +9657,7 @@ api.Document.fullscreen`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: '}' expected.",
                             `function draw() {
   drawVisual = requestAnimationFrame(draw);
@@ -9404,6 +9746,7 @@ api.CredentialsContainer.get.publicKey_option.extensions`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: ';' expected.",
                             "connectedMoveCallback() {",
                             "1:9"
@@ -9741,6 +10084,7 @@ api.Window.sessionStorage`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: '}' expected.",
                             `function start() {
   canvas = document.getElementById("gl-canvas");
@@ -9755,6 +10099,7 @@ api.Window.sessionStorage`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: '}' expected.",
                             `  // WebVR: Check to see if WebVR is supported
   if (navigator.getVRDisplays) {
@@ -9766,6 +10111,7 @@ api.Window.sessionStorage`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: '}' expected.",
                             `    // Then get the displays attached to the computer
     navigator.getVRDisplays().then((displays) => {
@@ -9776,6 +10122,7 @@ api.Window.sessionStorage`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: '}' expected.",
                             `      // If a display is available, use it to present the scene
       if (displays.length > 0) {
@@ -9788,6 +10135,7 @@ api.Window.sessionStorage`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: '}' expected.",
                             `        // Starting the presentation when the button is clicked: It can only be called in response to a user gesture
         btn.addEventListener("click", () => {
@@ -9801,6 +10149,7 @@ api.Window.sessionStorage`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: Declaration or statement expected.",
                             "            });",
                             "2:9"
@@ -9809,6 +10158,7 @@ api.Window.sessionStorage`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: Declaration or statement expected.",
                             "          } else {",
                             "1:9"
@@ -9817,6 +10167,7 @@ api.Window.sessionStorage`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: '}' expected.",
                             `function drawVRScene() {
   // WebVR: Request the next frame of the animation
@@ -9828,6 +10179,7 @@ api.Window.sessionStorage`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: Declaration or statement expected.",
                             "}",
                             "3:9"
@@ -9836,6 +10188,7 @@ api.Window.sessionStorage`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: '}' expected.",
                             `function displayPoseStats(pose) {
   const pos = pose.position;
@@ -9851,6 +10204,7 @@ api.Window.sessionStorage`,
                         {
                           message: "JS code issue",
                           data: [
+                            "syntax",
                             "Parsing error: Declaration or statement expected.",
                             "}",
                             "35:9"
@@ -11908,6 +12262,7 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "CSS code issue",
                       data: [
+                        "CssSyntaxError",
                         "Unknown word attr (CssSyntaxError)",
                         'attr(data-name raw-string, "stranger")',
                         "1:1"
@@ -11916,6 +12271,7 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "CSS code issue",
                       data: [
+                        "CssSyntaxError",
                         "Unknown word attr (CssSyntaxError)",
                         "attr(id type(<custom-ident>), none)",
                         "1:1"
@@ -11924,6 +12280,7 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "CSS code issue",
                       data: [
+                        "CssSyntaxError",
                         "Unknown word attr (CssSyntaxError)",
                         "attr(data-size type(<length> | <percentage>), 0px)",
                         "1:1"
@@ -11932,6 +12289,7 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "CSS code issue",
                       data: [
+                        "CssSyntaxError",
                         "Unknown word attr (CssSyntaxError)",
                         "attr(data-content type(*))",
                         "1:1"
@@ -11940,6 +12298,7 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "CSS code issue",
                       data: [
+                        "CssSyntaxError",
                         "Unknown word attr (CssSyntaxError)",
                         "attr(data-size rem)",
                         "1:1"
@@ -11965,13 +12324,6 @@ css.selectors.-webkit-resizer`,
                       message: "Broken external link",
                       data: [
                         "https://drafts.fxtf.org/filter-effects-2/",
-                        "The operation timed out."
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/filter-effects-1/",
                         "The operation timed out."
                       ]
                     }
@@ -12001,8 +12353,16 @@ css.selectors.-webkit-resizer`,
                           data: []
                         },
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/fill-stroke-3/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word path (CssSyntaxError)",
                             "path(<string>)",
                             "1:1"
@@ -12011,6 +12371,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word path (CssSyntaxError)",
                             "path( [<fill-rule>,]? <string> )",
                             "1:1"
@@ -12019,9 +12380,23 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word path (CssSyntaxError)",
                             'path("M 10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80");',
                             "1:1"
+                          ]
+                        }
+                      ]
+                    },
+                    polygon: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/basic-shape/polygon",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/fill-stroke-3/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -12034,6 +12409,19 @@ css.selectors.-webkit-resizer`,
                           message: "Broken external link",
                           data: [
                             "https://drafts.fxtf.org/css-masking-1/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    shape: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/basic-shape/shape",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/fill-stroke-3/",
                             "The operation timed out."
                           ]
                         }
@@ -12229,6 +12617,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word color (CssSyntaxError)",
                             "color(from hsl(0 100% 50%) srgb r g b)",
                             "1:1"
@@ -12237,6 +12626,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word color (CssSyntaxError)",
                             "color(from hsl(0 100% 50%) srgb 0.749938 0 0.609579)",
                             "1:1"
@@ -12245,6 +12635,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word color (CssSyntaxError)",
                             "color(from hsl(0 100% 50%) srgb r 1 b)",
                             "1:1"
@@ -12253,6 +12644,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word color (CssSyntaxError)",
                             "color(from hsl(0 100% 50% / 0.8) srgb r g b / alpha)",
                             "1:1"
@@ -12261,6 +12653,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word color (CssSyntaxError)",
                             "color(from hsl(0 100% 50%) srgb calc(r - 0.4) calc(g + 0.1) calc(b + 0.6) / calc(alpha - 0.1))",
                             "1:1"
@@ -12296,6 +12689,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word hsl (CssSyntaxError)",
                             "hsl(from rgb(255 0 0) h s l)",
                             "1:1"
@@ -12304,6 +12698,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word hsl (CssSyntaxError)",
                             "hsl(from rgb(255 0 0) 240 60% 70%)",
                             "1:1"
@@ -12312,6 +12707,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word hsl (CssSyntaxError)",
                             "hsl(from rgb(255 0 0) h 30% 60%)",
                             "1:1"
@@ -12320,6 +12716,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word hsl (CssSyntaxError)",
                             "hsl(from rgb(255 0 0 / 0.8) h s l / alpha)",
                             "1:1"
@@ -12328,6 +12725,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word hsl (CssSyntaxError)",
                             "hsl(from rgb(255 0 0 / 0.8) calc(h + 60) calc(s - 20) calc(l - 10) / calc(alpha - 0.1))",
                             "1:1"
@@ -12342,6 +12740,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word hwb (CssSyntaxError)",
                             "hwb(from hsl(0 100% 50%) h w b)",
                             "1:1"
@@ -12350,6 +12749,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word hwb (CssSyntaxError)",
                             "hwb(from hsl(0 100% 50%) 240 52% 12%)",
                             "1:1"
@@ -12358,6 +12758,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word hwb (CssSyntaxError)",
                             "hwb(from hsl(0 100% 50%) h 30% b)",
                             "1:1"
@@ -12366,6 +12767,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word hwb (CssSyntaxError)",
                             "hwb(from hsl(0 100% 50% / 0.8) h w b / alpha)",
                             "1:1"
@@ -12374,6 +12776,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word hwb (CssSyntaxError)",
                             "hwb(from hsl(0 100% 50%) calc(h + 120) calc(w + 25) calc(b + 10) / calc(alpha - 0.1))",
                             "1:1"
@@ -12388,6 +12791,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word lab (CssSyntaxError)",
                             "lab(from hsl(0 100% 50%) l a b)",
                             "1:1"
@@ -12396,6 +12800,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word lab (CssSyntaxError)",
                             "lab(from hsl(0 100% 50%) 29.692% 44.89% -29.034%)",
                             "1:1"
@@ -12404,6 +12809,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word lab (CssSyntaxError)",
                             "lab(from hsl(0 100% 50%) l -100 b)",
                             "1:1"
@@ -12412,6 +12818,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word lab (CssSyntaxError)",
                             "lab(from hsl(0 100% 50% / 0.8) l a b / alpha)",
                             "1:1"
@@ -12420,6 +12827,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word lab (CssSyntaxError)",
                             "lab(from hsl(0 100% 50%) calc(l + 20) calc(a - 20) calc(b - 40) / calc(alpha - 0.1))",
                             "1:1"
@@ -12434,6 +12842,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word lch (CssSyntaxError)",
                             "lch(from hsl(0 100% 50%) l c h)",
                             "1:1"
@@ -12442,6 +12851,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word lch (CssSyntaxError)",
                             "lch(from hsl(0 100% 50%) 29.6871% 66.83 327.109)",
                             "1:1"
@@ -12450,6 +12860,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word lch (CssSyntaxError)",
                             "lch(from hsl(0 100% 50%) 70 150 h)",
                             "1:1"
@@ -12458,6 +12869,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word lch (CssSyntaxError)",
                             "lch(from hsl(0 100% 50% / 0.8) l c h / alpha)",
                             "1:1"
@@ -12466,6 +12878,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word lch (CssSyntaxError)",
                             "lch(from hsl(0 100% 50%) calc(l + 20) calc(c - 20) calc(h - 40) / calc(alpha - 0.1))",
                             "1:1"
@@ -12480,6 +12893,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word oklab (CssSyntaxError)",
                             "oklab(from hsl(0 100% 50%) l a b)",
                             "1:1"
@@ -12488,6 +12902,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word oklab (CssSyntaxError)",
                             "oklab(from hsl(0 100% 50%) 42.1% 0.165 -0.101)",
                             "1:1"
@@ -12496,6 +12911,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word oklab (CssSyntaxError)",
                             "oklab(from hsl(0 100% 50%) l -0.3 b)",
                             "1:1"
@@ -12504,6 +12920,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word oklab (CssSyntaxError)",
                             "oklab(from hsl(0 100% 50% / 0.8) l a b / alpha)",
                             "1:1"
@@ -12512,6 +12929,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word oklab (CssSyntaxError)",
                             "oklab(from hsl(0 100% 50%) calc(l + 0.2) calc(a - 0.08) calc(b - 0.2) / calc(alpha - 0.1))",
                             "1:1"
@@ -12526,6 +12944,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word oklch (CssSyntaxError)",
                             "oklch(from hsl(0 100% 50%) l c h)",
                             "1:1"
@@ -12534,6 +12953,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word oklch (CssSyntaxError)",
                             "oklch(from hsl(0 100% 50%) 42.1% 0.25 328.363)",
                             "1:1"
@@ -12542,6 +12962,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word oklch (CssSyntaxError)",
                             "oklch(from hsl(0 100% 50%) 0.8 0.4 h)",
                             "1:1"
@@ -12550,6 +12971,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word oklch (CssSyntaxError)",
                             "oklch(from hsl(0 100% 50% / 0.8) l c h / alpha)",
                             "1:1"
@@ -12558,6 +12980,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word oklch (CssSyntaxError)",
                             "oklch(from hsl(0 100% 50%) calc(l + 0.2) calc(c + 0.1) calc(h - 20) / calc(alpha - 0.1))",
                             "1:1"
@@ -12572,6 +12995,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word rgb (CssSyntaxError)",
                             "rgb(from hsl(0 100% 50%) r g b)",
                             "1:1"
@@ -12580,6 +13004,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word rgb (CssSyntaxError)",
                             "rgb(from hsl(0 100% 50%) 132 132 224)",
                             "1:1"
@@ -12588,6 +13013,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word rgb (CssSyntaxError)",
                             "rgb(from hsl(0 100% 50%) r 80 80)",
                             "1:1"
@@ -12596,6 +13022,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word rgb (CssSyntaxError)",
                             "rgb(from hsl(0 100% 50% / 0.8) r g b / alpha)",
                             "1:1"
@@ -12604,6 +13031,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word rgb (CssSyntaxError)",
                             "rgb(from hsl(0 100% 50%) calc(r/2) calc(g + 25) calc(b + 175) / calc(alpha - 0.1))",
                             "1:1"
@@ -12623,6 +13051,7 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "CSS code issue",
                       data: [
+                        "CssSyntaxError",
                         "Unknown word color-mix (CssSyntaxError)",
                         "color-mix(in oklch, oklch(none 0.2 10), oklch(60% none 30))",
                         "1:1"
@@ -12631,6 +13060,7 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "CSS code issue",
                       data: [
+                        "CssSyntaxError",
                         "Unknown word lch (CssSyntaxError)",
                         "lch(80% 30 none)",
                         "1:1"
@@ -12639,6 +13069,7 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "CSS code issue",
                       data: [
+                        "CssSyntaxError",
                         "Unknown word lch (CssSyntaxError)",
                         "lch(80% 30 0)",
                         "1:1"
@@ -12647,6 +13078,7 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "CSS code issue",
                       data: [
+                        "CssSyntaxError",
                         "Unknown word oklch (CssSyntaxError)",
                         "oklch(83.915% 0.0902 0.28)",
                         "1:1"
@@ -12655,6 +13087,7 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "CSS code issue",
                       data: [
+                        "CssSyntaxError",
                         "Unknown word oklch (CssSyntaxError)",
                         "oklch(83.915% 0.0902 none)",
                         "1:1"
@@ -12663,22 +13096,10 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "CSS code issue",
                       data: [
+                        "CssSyntaxError",
                         "Unknown word oklch (CssSyntaxError)",
                         "oklch(83.915% 0.0902 78.748)",
                         "1:1"
-                      ]
-                    }
-                  ]
-                },
-                "color-interpolation-filters": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/color-interpolation-filters",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/filter-effects-1/",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -12719,6 +13140,7 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "CSS code issue",
                       data: [
+                        "CssSyntaxError",
                         "Unknown word cross-fade (CssSyntaxError)",
                         "cross-fade(url(white.png) 0%, url(black.png) 100%); /* fully black */",
                         "1:1"
@@ -12727,6 +13149,7 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "CSS code issue",
                       data: [
+                        "CssSyntaxError",
                         "Unknown word cross-fade (CssSyntaxError)",
                         "cross-fade(url(white.png) 0%, url(black.png)); /* fully black */",
                         "1:1"
@@ -12735,6 +13158,7 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "CSS code issue",
                       data: [
+                        "CssSyntaxError",
                         "Unknown word cross-fade (CssSyntaxError)",
                         "cross-fade(url(red.png), url(yellow.png), url(blue.png)); /* all three will be 33.3333% opaque */",
                         "1:1"
@@ -12743,6 +13167,7 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "CSS code issue",
                       data: [
+                        "CssSyntaxError",
                         "Unknown word cross-fade (CssSyntaxError)",
                         "cross-fade( <image>, <image>, <percentage> )",
                         "1:1"
@@ -12751,6 +13176,7 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "CSS code issue",
                       data: [
+                        "CssSyntaxError",
                         "Unknown word cross-fade (CssSyntaxError)",
                         "cross-fade(url(white.png), url(black.png), 0%);   /* fully black */",
                         "1:1"
@@ -12933,6 +13359,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word hwb (CssSyntaxError)",
                             "hwb(90 10% 10%)",
                             "2:1"
@@ -12947,6 +13374,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word color-function (CssSyntaxError)",
                             "color-function(from origin-color channel1 channel2 channel3)",
                             "1:1"
@@ -12955,6 +13383,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word red (CssSyntaxError)",
                             "red",
                             "1:1"
@@ -12963,6 +13392,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word rgb (CssSyntaxError)",
                             "rgb(from red r g b)",
                             "1:1"
@@ -12971,6 +13401,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word rgb (CssSyntaxError)",
                             "rgb(from red 0 0 255)",
                             "1:1"
@@ -12979,6 +13410,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word rgb (CssSyntaxError)",
                             "rgb(from rgb(200 0 0) r r r)",
                             "1:1"
@@ -12987,6 +13419,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word rgb (CssSyntaxError)",
                             "rgb(from rgb(200 170 0) b g r)",
                             "1:1"
@@ -12995,6 +13428,7 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word color (CssSyntaxError)",
                             "color(from red a98-rgb r g b)",
                             "2:1"
@@ -13578,6 +14012,7 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word cubic-bezier (CssSyntaxError)",
                             "cubic-bezier(0.1, 0.7, 1.0, 0.1)",
                             "2:1"
@@ -13586,6 +14021,7 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word cubic-bezier (CssSyntaxError)",
                             "cubic-bezier(0.1, red, 1.0, green)",
                             "2:1"
@@ -13600,6 +14036,7 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word linear (CssSyntaxError)",
                             "linear(0, 0.25, 1)",
                             "2:1"
@@ -13608,6 +14045,7 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word linear (CssSyntaxError)",
                             "linear(0.5)",
                             "2:1"
@@ -13622,6 +14060,7 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word steps (CssSyntaxError)",
                             "steps(2, jump-start)  /* Or steps(2, start) */",
                             "1:1"
@@ -13630,6 +14069,7 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word steps (CssSyntaxError)",
                             "steps(5, end)",
                             "2:1"
@@ -13638,6 +14078,7 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word steps (CssSyntaxError)",
                             "steps(2.0, jump-end)",
                             "2:1"
@@ -13647,14 +14088,40 @@ css.properties.grid-template-rows.masonry`,
                     }
                   }
                 },
-                filter: {
+                fill: {
                   children: {},
-                  slug: "/en-US/docs/Web/CSS/filter",
+                  slug: "/en-US/docs/Web/CSS/fill",
                   messages: [
                     {
                       message: "Broken external link",
                       data: [
-                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "fill-opacity": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/fill-opacity",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "fill-rule": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/fill-rule",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
                         "The operation timed out."
                       ]
                     }
@@ -13671,15 +14138,9 @@ css.properties.grid-template-rows.masonry`,
                           data: []
                         },
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word blur (CssSyntaxError)",
                             "blur(radius)",
                             "1:1"
@@ -13688,6 +14149,7 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word blur (CssSyntaxError)",
                             "blur()         /* No effect */",
                             "1:1"
@@ -13700,15 +14162,9 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/brightness",
                       messages: [
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word brightness (CssSyntaxError)",
                             "brightness(0)   /* Brightness is reduced to zero, so input turns black */",
                             "1:1"
@@ -13721,31 +14177,12 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/contrast",
                       messages: [
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word contrast (CssSyntaxError)",
                             "contrast(0)    /* Completely gray */",
                             "1:1"
-                          ]
-                        }
-                      ]
-                    },
-                    "drop-shadow": {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/filter-function/drop-shadow",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -13755,15 +14192,9 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/grayscale",
                       messages: [
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word grayscale (CssSyntaxError)",
                             "grayscale(0)     /* No effect */",
                             "1:1"
@@ -13780,15 +14211,9 @@ css.properties.grid-template-rows.masonry`,
                           data: []
                         },
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word hue-rotate (CssSyntaxError)",
                             "hue-rotate(angle)",
                             "1:1"
@@ -13797,6 +14222,7 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word hue-rotate (CssSyntaxError)",
                             "hue-rotate(-180deg)",
                             "1:1"
@@ -13809,15 +14235,9 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/invert",
                       messages: [
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word invert (CssSyntaxError)",
                             "invert(0)     /* No effect */",
                             "1:1"
@@ -13830,15 +14250,9 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/opacity",
                       messages: [
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word opacity (CssSyntaxError)",
                             "opacity(0%)   /* Completely transparent */",
                             "1:1"
@@ -13851,15 +14265,9 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/saturate",
                       messages: [
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word saturate (CssSyntaxError)",
                             "saturate(0)     /* Completely unsaturated */",
                             "1:1"
@@ -13872,15 +14280,9 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/sepia",
                       messages: [
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word sepia (CssSyntaxError)",
                             "sepia(0)     /* No effect */",
                             "1:1"
@@ -13894,13 +14296,6 @@ css.properties.grid-template-rows.masonry`,
                     {
                       message: "Missing syntax code block",
                       data: []
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/filter-effects-1/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -13949,6 +14344,7 @@ css.properties.width.fit-content_function`
                     {
                       message: "CSS code issue",
                       data: [
+                        "CssSyntaxError",
                         "Unknown word fit-content (CssSyntaxError)",
                         "fit-content(200px)",
                         "2:1"
@@ -13963,32 +14359,6 @@ css.properties.width.fit-content_function`
                     {
                       message: "Missing syntax code block",
                       data: []
-                    }
-                  ]
-                },
-                "flood-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/flood-color",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/filter-effects-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "flood-opacity": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/flood-opacity",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/filter-effects-1/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -14089,6 +14459,7 @@ css.properties.width.fit-content_function`
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word conic-gradient (CssSyntaxError)",
                             "conic-gradient(red, orange, yellow, green, blue);",
                             "1:1"
@@ -14097,6 +14468,7 @@ css.properties.width.fit-content_function`
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word conic-gradient (CssSyntaxError)",
                             "conic-gradient(red 40grad, 80grad, blue 360grad);",
                             "1:1"
@@ -14105,6 +14477,7 @@ css.properties.width.fit-content_function`
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word conic-gradient (CssSyntaxError)",
                             "conic-gradient(#fff 0.09turn, #bbb 0.09turn, #bbb 0.27turn, #666 0.27turn, #666 0.54turn, #000 0.54turn);",
                             "1:1"
@@ -14113,6 +14486,7 @@ css.properties.width.fit-content_function`
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word conic-gradient (CssSyntaxError)",
                             "conic-gradient(red .8rad, yellow .6rad, blue 1.3rad);",
                             "1:1"
@@ -14121,6 +14495,7 @@ css.properties.width.fit-content_function`
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word conic-gradient (CssSyntaxError)",
                             "conic-gradient(#fff 90deg, #000 0.25turn 0.5turn, #fff 1rad 1.5rad, #000 300grad);",
                             "1:1"
@@ -14135,6 +14510,7 @@ css.properties.width.fit-content_function`
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word linear-gradient (CssSyntaxError)",
                             "linear-gradient(red, orange, yellow, green, blue);",
                             "1:1"
@@ -14143,6 +14519,7 @@ css.properties.width.fit-content_function`
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word linear-gradient (CssSyntaxError)",
                             "linear-gradient(red 10%, 30%, blue 90%);",
                             "1:1"
@@ -14151,6 +14528,7 @@ css.properties.width.fit-content_function`
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word linear-gradient (CssSyntaxError)",
                             "linear-gradient(red 40%, yellow 30%, blue 65%);",
                             "1:1"
@@ -14159,6 +14537,7 @@ css.properties.width.fit-content_function`
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word linear-gradient (CssSyntaxError)",
                             "linear-gradient(red 0%, orange 10%, orange 30%, yellow 50%, yellow 70%, green 90%, green 100%);",
                             "1:1"
@@ -14173,6 +14552,7 @@ css.properties.width.fit-content_function`
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word repeating-conic-gradient (CssSyntaxError)",
                             "repeating-conic-gradient(from 0deg, red 0deg 30deg, yellow 30deg 60deg, blue 60deg 90deg);",
                             "1:1"
@@ -14181,6 +14561,7 @@ css.properties.width.fit-content_function`
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word repeating-conic-gradient (CssSyntaxError)",
                             "repeating-conic-gradient(red, orange, yellow, green, blue 50%);",
                             "1:1"
@@ -14269,6 +14650,7 @@ css.properties.width.fit-content_function`
                     {
                       message: "CSS code issue",
                       data: [
+                        "CssSyntaxError",
                         "Unknown word url (CssSyntaxError)",
                         "url(test.jpg)               /* A <url>, as long as test.jpg is an actual image */",
                         "1:1"
@@ -14277,6 +14659,7 @@ css.properties.width.fit-content_function`
                     {
                       message: "CSS code issue",
                       data: [
+                        "CssSyntaxError",
                         "Unknown word no-url.jpg (CssSyntaxError)",
                         "no-url.jpg           /* An image file must be defined using the url() function. */",
                         "1:1"
@@ -14400,19 +14783,6 @@ css.properties.width.fit-content_function`
                     {
                       message: "Missing syntax code block",
                       data: []
-                    }
-                  ]
-                },
-                "lighting-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/lighting-color",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/filter-effects-1/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -14824,6 +15194,7 @@ css.properties.grid-template-rows.minmax`
                     {
                       message: "CSS code issue",
                       data: [
+                        "CssSyntaxError",
                         "Unknown word keyword (CssSyntaxError)",
                         "keyword                  /* Either the horizontal or vertical position; the other axis defaults to center */",
                         "2:1"
@@ -15462,6 +15833,7 @@ css.properties.grid-template-rows.repeat`
                     {
                       message: "CSS code issue",
                       data: [
+                        "CssSyntaxError",
                         "Unknown word rect (CssSyntaxError)",
                         "rect(top, right, bottom, left)",
                         "1:1"
@@ -15480,9 +15852,121 @@ css.properties.grid-template-rows.repeat`
                     {
                       message: "CSS code issue",
                       data: [
+                        "CssSyntaxError",
                         'Unknown word "This string is demarcated by double quotes." (CssSyntaxError)',
                         '"This string is demarcated by double quotes."',
                         "2:1"
+                      ]
+                    }
+                  ]
+                },
+                stroke: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "stroke-dasharray": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke-dasharray",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "stroke-dashoffset": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke-dashoffset",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "stroke-linecap": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke-linecap",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "stroke-linejoin": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke-linejoin",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "stroke-miterlimit": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke-miterlimit",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "stroke-opacity": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke-opacity",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "stroke-width": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke-width",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -15564,6 +16048,7 @@ css.properties.list-style-type.symbols`
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word matrix (CssSyntaxError)",
                             "matrix(a, b, c, d, tx, ty)",
                             "1:1"
@@ -15582,6 +16067,7 @@ css.properties.list-style-type.symbols`
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word matrix3d (CssSyntaxError)",
                             "matrix3d(a1, b1, c1, d1, a2, b2, c2, d2, a3, b3, c3, d3, a4, b4, c4, d4)",
                             "1:1"
@@ -15600,6 +16086,7 @@ css.properties.list-style-type.symbols`
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word perspective (CssSyntaxError)",
                             "perspective(d)",
                             "1:1"
@@ -15618,6 +16105,7 @@ css.properties.list-style-type.symbols`
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word rotate (CssSyntaxError)",
                             "rotate(a)",
                             "1:1"
@@ -15636,6 +16124,7 @@ css.properties.list-style-type.symbols`
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word rotate3d (CssSyntaxError)",
                             "rotate3d(x, y, z, a)",
                             "1:1"
@@ -15654,6 +16143,7 @@ css.properties.list-style-type.symbols`
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word rotateX (CssSyntaxError)",
                             "rotateX(a)",
                             "1:1"
@@ -15672,6 +16162,7 @@ css.properties.list-style-type.symbols`
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word rotateY (CssSyntaxError)",
                             "rotateY(a)",
                             "1:1"
@@ -15690,6 +16181,7 @@ css.properties.list-style-type.symbols`
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word rotateZ (CssSyntaxError)",
                             "rotateZ(a)",
                             "1:1"
@@ -15708,6 +16200,7 @@ css.properties.list-style-type.symbols`
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word scale (CssSyntaxError)",
                             "scale(sx)",
                             "1:1"
@@ -15726,6 +16219,7 @@ css.properties.list-style-type.symbols`
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word scale3d (CssSyntaxError)",
                             "scale3d(sx, sy, sz)",
                             "1:1"
@@ -15744,6 +16238,7 @@ css.properties.list-style-type.symbols`
                         {
                           message: "CSS code issue",
                           data: [
+                            "CssSyntaxError",
                             "Unknown word skew (CssSyntaxError)",
                             "skew(ax)",
                             "1:1"
@@ -15795,6 +16290,7 @@ css.properties.list-style-type.symbols`
                     {
                       message: "CSS code issue",
                       data: [
+                        "CssSyntaxError",
                         "Unknown word url (CssSyntaxError)",
                         'url("https://example.com/images/myImg.jpg");',
                         "2:1"
@@ -15803,6 +16299,7 @@ css.properties.list-style-type.symbols`
                     {
                       message: "CSS code issue",
                       data: [
+                        "CssSyntaxError",
                         "Unknown word url (CssSyntaxError)",
                         'url("https://example.com/image.png")',
                         "1:1"
@@ -16415,6 +16912,7 @@ html.elements.select.size`
                             {
                               message: "HTML code issue",
                               data: [
+                                "syntax",
                                 'Unexpected closing tag "rtc". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
                                 "  </rtc>",
                                 "9:2"
@@ -16672,19 +17170,6 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
-                        accept: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.gnu.org/software/wget/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
                         "available-dictionary": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Available-Dictionary",
@@ -16741,18 +17226,6 @@ http.headers.Use-As-Dictionary`,
                         },
                         "permissions-policy": {
                           children: {
-                            "document-domain": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/document-domain",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "http.headers.Permissions-Policy.document-domain"
-                                  ]
-                                }
-                              ]
-                            },
                             gamepad: {
                               children: {},
                               slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/gamepad",
@@ -16761,6 +17234,18 @@ http.headers.Use-As-Dictionary`,
                                   message: "Not in BCD",
                                   data: [
                                     "http.headers.Permissions-Policy.gamepad"
+                                  ]
+                                }
+                              ]
+                            },
+                            "language-detector": {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/language-detector",
+                              messages: [
+                                {
+                                  message: "Not in BCD",
+                                  data: [
+                                    "http.headers.Permissions-Policy.language-detector"
                                   ]
                                 }
                               ]
@@ -16776,8 +17261,29 @@ http.headers.Use-As-Dictionary`,
                                   ]
                                 }
                               ]
+                            },
+                            translator: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/translator",
+                              messages: [
+                                {
+                                  message: "Not in BCD",
+                                  data: [
+                                    "http.headers.Permissions-Policy.translator"
+                                  ]
+                                }
+                              ]
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy",
+                          messages: [
+                            {
+                              message: "Self link",
+                              data: [
+                                "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy"
+                              ]
+                            }
+                          ]
                         },
                         "proxy-authenticate": {
                           children: {},
@@ -16910,13 +17416,6 @@ http.headers.Use-As-Dictionary`,
                             {
                               message: "Missing syntax code block",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://support.microsoft.com/en-US/office/mitigating-framesniffing-with-the-x-frame-options-header-1911411b-b51e-49fd-9441-e8301dcdcd79",
-                                504
-                              ]
                             }
                           ]
                         },
@@ -16927,6 +17426,23 @@ http.headers.Use-As-Dictionary`,
                             {
                               message: "Missing syntax code block",
                               data: []
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    status: {
+                      children: {
+                        "422": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/422",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://ruby-doc.org/3.3.2/stdlibs/base64/Base64.html",
+                                "Unable to connect. Is the computer able to access the url?"
+                              ]
                             }
                           ]
                         }
@@ -16966,6 +17482,21 @@ http.headers.Use-As-Dictionary`,
                           message: "External sandbox link",
                           data: [
                             "https://jsfiddle.net/v7gjv/9573/"
+                          ]
+                        }
+                      ]
+                    },
+                    control_flow_and_error_handling: {
+                      children: {},
+                      slug: "/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-else-return",
+                            "Unnecessary 'else' after 'return'.",
+                            "  } else {",
+                            "4:10 - 9:4"
                           ]
                         }
                       ]
@@ -17067,6 +17598,21 @@ http.headers.Use-As-Dictionary`,
                         },
                         function: {
                           children: {
+                            caller: {
+                              children: {},
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/caller",
+                              messages: [
+                                {
+                                  message: "JS code issue",
+                                  data: [
+                                    "no-else-return",
+                                    "Unnecessary 'else' after 'return'.",
+                                    "  } else {",
+                                    "4:10 - 6:4"
+                                  ]
+                                }
+                              ]
+                            },
                             prototype: {
                               children: {},
                               slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype",
@@ -17169,6 +17715,40 @@ http.headers.Use-As-Dictionary`,
                               ]
                             }
                           ]
+                        },
+                        string: {
+                          children: {
+                            replace: {
+                              children: {},
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace",
+                              messages: [
+                                {
+                                  message: "JS code issue",
+                                  data: [
+                                    "regexp/letter-case",
+                                    "'D' is not in lowercase",
+                                    "const regex = /Dog/i;",
+                                    "6:16 - 6:17"
+                                  ]
+                                }
+                              ]
+                            },
+                            replaceall: {
+                              children: {},
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll",
+                              messages: [
+                                {
+                                  message: "JS code issue",
+                                  data: [
+                                    "regexp/letter-case",
+                                    "'D' is not in lowercase",
+                                    "const regex = /Dog/gi;",
+                                    "7:16 - 7:17"
+                                  ]
+                                }
+                              ]
+                            }
+                          }
                         },
                         temporal: {
                           children: {
@@ -17299,6 +17879,21 @@ http.headers.Use-As-Dictionary`,
                     },
                     statements: {
                       children: {
+                        export: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Statements/export",
+                          messages: [
+                            {
+                              message: "JS code issue",
+                              data: [
+                                "import/newline-after-import",
+                                "Expected 1 empty line after import statement not followed by another import.",
+                                'import * as ns from "./barrel.js";',
+                                "1:1"
+                              ]
+                            }
+                          ]
+                        },
                         expression_statement: {
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Statements/Expression_statement",
@@ -17332,6 +17927,21 @@ http.headers.Use-As-Dictionary`,
                               ]
                             }
                           ]
+                        },
+                        label: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Statements/label",
+                          messages: [
+                            {
+                              message: "JS code issue",
+                              data: [
+                                "no-extra-label",
+                                "This label 'loop1' is unnecessary.",
+                                "    continue loop1;",
+                                "5:14 - 5:19"
+                              ]
+                            }
+                          ]
                         }
                       }
                     }
@@ -17340,7 +17950,38 @@ http.headers.Use-As-Dictionary`,
               }
             },
             mathml: {
-              children: {},
+              children: {
+                guides: {
+                  children: {
+                    authoring: {
+                      children: {},
+                      slug: "/en-US/docs/Web/MathML/Guides/Authoring",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.lyx.org/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    fonts: {
+                      children: {},
+                      slug: "/en-US/docs/Web/MathML/Guides/Fonts",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sourceforge.net/projects/dejavu/files/dejavu/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
               slug: "/en-US/docs/Web/MathML",
               messages: [
                 {
@@ -17639,27 +18280,6 @@ http.headers.Use-As-Dictionary`,
                   ]
                 }
               ]
-            },
-            progressive_web_apps: {
-              children: {
-                guides: {
-                  children: {
-                    installing: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Progressive_web_apps/Guides/Installing",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://support.microsoft.com/en-us/topic/install-manage-or-uninstall-apps-in-microsoft-edge-0c156575-a94a-45e4-a54f-3a84846f6113",
-                            504
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                }
-              }
             },
             security: {
               children: {
@@ -18730,6 +19350,7 @@ svg.elements.view.preserveAspectRatio`
                             {
                               message: "HTML code issue",
                               data: [
+                                "syntax",
                                 'Unexpected closing tag ":svg:svg". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
                                 "</svg>",
                                 "0:0"
@@ -18738,6 +19359,7 @@ svg.elements.view.preserveAspectRatio`
                             {
                               message: "HTML code issue",
                               data: [
+                                "syntax",
                                 'Unexpected closing tag ":svg:svg". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
                                 "</svg>",
                                 "0:0"
@@ -18746,6 +19368,7 @@ svg.elements.view.preserveAspectRatio`
                             {
                               message: "HTML code issue",
                               data: [
+                                "syntax",
                                 'Unexpected closing tag ":svg:svg". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
                                 "</svg>",
                                 "0:0"
@@ -18754,6 +19377,7 @@ svg.elements.view.preserveAspectRatio`
                             {
                               message: "HTML code issue",
                               data: [
+                                "syntax",
                                 'Unexpected closing tag ":svg:svg". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
                                 "</svg>",
                                 "12:0"
@@ -18762,6 +19386,7 @@ svg.elements.view.preserveAspectRatio`
                             {
                               message: "HTML code issue",
                               data: [
+                                "syntax",
                                 'Unexpected closing tag ":svg:svg". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
                                 "</svg>",
                                 "13:0"
@@ -19267,6 +19892,7 @@ svg.elements.feSpotLight.z`
                             {
                               message: "HTML code issue",
                               data: [
+                                "syntax",
                                 'Unexpected character "EOF"',
                                 `<div class="resizer">
   <iframe
@@ -19279,6 +19905,7 @@ svg.elements.feSpotLight.z`
                             {
                               message: "HTML code issue",
                               data: [
+                                "syntax",
                                 'Unexpected closing tag "iframe". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
                                 "  '></iframe>",
                                 "0:4"
@@ -19287,6 +19914,7 @@ svg.elements.feSpotLight.z`
                             {
                               message: "HTML code issue",
                               data: [
+                                "syntax",
                                 'Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
                                 "</div>",
                                 "1:0"
