@@ -75,6 +75,7 @@ preferCurrentTab: true
 slice(0, -1)
 tabs.query({active: true})
 tabs.query({currentWindow: true})
+try { ... }
 
 JS_DoubleToInt32()
 JS_DoubleToUint32()

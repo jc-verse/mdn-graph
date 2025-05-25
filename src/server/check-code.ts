@@ -159,6 +159,7 @@ export async function checkCode(
       } else if (["css"].includes(language)) {
         const results = await stylelint.lint({
           code: content,
+          codeFilename: `${node.id.replace("/en-US/docs/", "")}/test.css`,
           config: stylelintConfig,
           cache: false,
         });
@@ -184,6 +185,7 @@ export async function checkCode(
               msg.text,
               content.split("\n")[msg.line - 1] || content,
               `${msg.line}:${msg.column}`,
+                `${node.id}\n[${msg.rule}] ${msg.text}\n~~~\n${content}~~~\n`,
             );
           });
         }
@@ -208,6 +210,7 @@ export async function checkCode(
             error.msg,
             content.split("\n")[error.span.start.line] || content,
             `${error.span.start.line}:${error.span.start.col}`,
+            `${node.id}\n[syntax] ${error.msg}\n~~~\n${content}~~~\n`,
           );
         });
       } else if (!sanctionedLanguages.includes(language)) {

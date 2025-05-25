@@ -17,14 +17,19 @@ export default [
           newIsCapExceptions: ["webkitSpeechRecognition", "xArray", "xError"],
         },
       ],
+      "no-constant-condition": ["error", { checkLoops: "allExceptWhileTrue" }],
       "no-empty": "off",
       "no-import-assign": "off",
       "no-lone-blocks": "off",
+      "no-multi-assign": "off",
       "no-multi-str": "off",
       "no-promise-executor-return": "off",
       "no-undef": "off",
       "no-unused-private-class-members": "off",
+      "no-useless-assignment": "off",
       "require-atomic-updates": "off",
+      "require-await": "off",
+      strict: "off",
       "vars-on-top": "off",
       yoda: "off",
       "@typescript-eslint/adjacent-overload-signatures": "off",
@@ -52,39 +57,135 @@ export default [
       camelcase: "off", // 322
       "no-restricted-syntax": "off", // 321
       "func-names": "off", // 319
-      eqeqeq: "off", // 200
+      eqeqeq: "off", // TODO
       "no-alert": "off", // 185
       "multiline-comment-style": "off", // 173
-      "no-var": "off", // 151
-      "no-useless-assignment": "off", // 148
+      "no-var": "off", // TODO
       "@typescript-eslint/no-use-before-define": "off", // 145
       "dot-notation": "off", // 131
       "no-implicit-coercion": "off", // 122
       "regexp/prefer-named-capture-group": "off", // 122
-      "no-constant-binary-expression": "off", // 112
+      "no-constant-binary-expression": "off", // TODO
       "prefer-template": "off", // 111
       "@typescript-eslint/no-redeclare": "off", // 105
-      "@typescript-eslint/prefer-for-of": "off", // 100
-      strict: "off", // 98
-      "require-await": "off", // 91
-      "prefer-arrow-callback": "off", // 90
+      "@typescript-eslint/prefer-for-of": "off", // TODO
+      "prefer-arrow-callback": "off", // TODO
       "consistent-return": "off", // 85
-      "object-shorthand": "off", // 83
-      "no-new-wrappers": "off", // 74
-      "no-eval": "off", // 73
-      "no-sparse-arrays": "off", // 72
-      "no-prototype-builtins": "off", // 70
-      "no-loss-of-precision": "off", // 69
-      "no-constant-condition": "off", // 66
-      "no-self-compare": "off", // 61
+      "object-shorthand": "off", // TODO
+      "no-new-wrappers": "off", // TODO
+      "no-eval": "off", // TODO
+      "no-sparse-arrays": "off", // TODO
+      "no-prototype-builtins": "off", // TODO
+      "no-loss-of-precision": "off", // TODO
+      "no-self-compare": "off", // TODO
       "regexp/no-super-linear-move": "off", // 57
-      "prefer-regex-literals": "off", // 51
-      "prefer-exponentiation-operator": "off", // 51
-      "no-return-assign": "off", // 50
-      "no-multi-assign": "off", // 48
+      "prefer-regex-literals": "off", // TODO
+      "prefer-exponentiation-operator": "off", // TODO
+      "no-return-assign": "off", // TODO
       "regexp/no-invalid-regexp": "off", // 47
-      "func-style": "off", // 46
+      "func-style": "off", // TODO
     },
+  },
+  {
+    files: [
+      "Glossary/Falsy/*",
+      "Glossary/Truthy/*",
+      "Web/JavaScript/Reference/Global_Objects/Boolean/*",
+    ],
+    rules: { "no-constant-condition": "off" },
+  },
+  {
+    files: [
+      "Glossary/Falsy/*",
+      "Glossary/Truthy/*",
+      "Web/JavaScript/Guide/Equality_comparisons_and_sameness/*",
+      "Web/JavaScript/Guide/Expressions_and_operators/*",
+      "Web/JavaScript/Guide/Language_overview/*",
+      "Web/JavaScript/Reference/Global_Objects/BigInt/*",
+      "Web/JavaScript/Reference/Global_Objects/Boolean/*",
+      "Web/JavaScript/Reference/Operators/Equality/*",
+      "Web/JavaScript/Reference/Operators/Inequality/*",
+      "Web/JavaScript/Reference/Operators/Logical_AND/*",
+      "Web/JavaScript/Reference/Operators/Logical_OR/*",
+      "Web/JavaScript/Reference/Operators/null/*",
+      "Web/JavaScript/Reference/Operators/Nullish_coalescing/*",
+      "Web/JavaScript/Reference/Operators/Strict_equality/*",
+      "Web/JavaScript/Reference/Operators/Strict_inequality/*",
+      "Web/JavaScript/Reference/Operators/void/*",
+    ],
+    rules: { "no-constant-binary-expression": "off" },
+  },
+  {
+    files: [
+      "Glossary/Hoisting/*",
+      "Glossary/Scope/*",
+      "Learn_web_development/Core/Scripting/Variables/*",
+      "Mozilla/Firefox/Releases/3/Full_page_zoom/*",
+      "Mozilla/Firefox/Releases/4/The_add-on_bar/*",
+      "Mozilla/Firefox/Releases/5/Updating_add-ons/*",
+      "Mozilla/Firefox/Releases/11/*",
+      "Mozilla/Firefox/Releases/36/*",
+      "Mozilla/Firefox/Releases/1.5/Changing_the_priority_of_HTTP_requests/*",
+      "Mozilla/Firefox/Releases/3.5/Updating_extensions/*",
+      "Web/JavaScript/Guide/Closures/*",
+      "Web/JavaScript/Guide/Control_flow_and_error_handling/*",
+      "Web/JavaScript/Guide/Grammar_and_types/*",
+      "Web/JavaScript/Reference/Deprecated_and_obsolete_features/*",
+      "Web/JavaScript/Reference/Errors/Delete_in_strict_mode/*",
+      "Web/JavaScript/Reference/Operators/delete/*",
+      "Web/JavaScript/Reference/Operators/function/*",
+      "Web/JavaScript/Reference/Operators/this/*",
+      "Web/JavaScript/Reference/Statements/*",
+      "Web/JavaScript/Reference/Statements/Expression_statement/*",
+      "Web/JavaScript/Reference/Statements/block/*",
+      "Web/JavaScript/Reference/Statements/function/*",
+      "Web/JavaScript/Reference/Statements/let/*",
+      "Web/JavaScript/Reference/Statements/var/*",
+      "Web/JavaScript/Reference/Strict_mode/*",
+      "Web/JavaScript/Reference/Statements/for/*",
+    ],
+    rules: { "no-var": "off" },
+  },
+  {
+    files: [
+      // TODO: the playground should use the live sample system
+      "Learn_web_development/Core/Scripting/Arrays/*",
+      "Learn_web_development/Core/Scripting/Loops/*",
+      "Learn_web_development/Core/Scripting/Useful_string_methods/*",
+      "Mozilla/Add-ons/WebExtensions/Content_scripts/*",
+      "Mozilla/Add-ons/WebExtensions/Content_Security_Policy/*",
+      "Web/API/TrustedTypePolicyFactory/emptyScript/*",
+      "Web/API/Window/error_event/*",
+      "Web/HTTP/Guides/CSP/*",
+      "Web/JavaScript/Reference/Global_Objects/eval/*",
+    ],
+    rules: { "no-eval": "off" },
+  },
+  {
+    files: [
+      "Learn_web_development/Core/Scripting/Functions/*",
+      "Mozilla/Firefox/Releases/5/Updating_add-ons/*",
+      "Web/JavaScript/Guide/Closures/*",
+      "Web/JavaScript/Guide/Functions/*",
+      "Web/JavaScript/Guide/Using_promises/*",
+      "Web/JavaScript/Reference/Errors/Unnamed_function_statement/*",
+      "Web/JavaScript/Reference/Functions/*",
+      "Web/JavaScript/Reference/Functions/arguments/callee/*",
+      "Web/JavaScript/Reference/Global_Objects/Proxy/Proxy/apply/*",
+      "Web/JavaScript/Reference/Global_Objects/Proxy/Proxy/construct/*",
+      "Web/JavaScript/Reference/Operators/function/*",
+    ],
+    rules: { "prefer-arrow-callback": "off" },
+  },
+  {
+    files: [
+      "Learn_web_development/Core/Scripting/Object_basics/*",
+      "Web/JavaScript/Guide/Working_with_objects/*",
+      "Web/JavaScript/Reference/Functions/Method_definitions/*",
+      "Web/JavaScript/Reference/Global_Objects/Function/name/*",
+      "Web/JavaScript/Reference/Operators/Object_initializer/*",
+    ],
+    rules: { "object-shorthand": "off" },
   },
   {
     files: [
@@ -116,9 +217,11 @@ export default [
   },
   {
     files: [
-      "Mozilla/Add-ons/WebExtensions/Sharing_objects_with_page_scripts/*",
+      "Web/API/**/length/*",
+      "Web/JavaScript/Guide/Closures/*",
+      "Web/JavaScript/Guide/Loops_and_iteration/*",
     ],
-    rules: { "arrow-body-style": "off" },
+    rules: { "@typescript-eslint/prefer-for-of": "off" },
   },
   {
     files: ["Web/API/Document/domain/*"],
@@ -147,6 +250,39 @@ export default [
   },
   {
     files: [
+      "Web/JavaScript/Guide/Control_flow_and_error_handling/*",
+      "Web/JavaScript/Guide/Equality_comparisons_and_sameness/*",
+      "Web/JavaScript/Guide/Expressions_and_operators/*",
+      "Web/JavaScript/Reference/Errors/Cant_assign_to_property/*",
+      "Web/JavaScript/Reference/Global_Objects/Boolean/*",
+      "Web/JavaScript/Reference/Global_Objects/Boolean/Boolean/*",
+      "Web/JavaScript/Reference/Global_Objects/Boolean/toString/*",
+      "Web/JavaScript/Reference/Global_Objects/Boolean/valueOf/*",
+      "Web/JavaScript/Reference/Global_Objects/eval/*",
+      "Web/JavaScript/Reference/Global_Objects/JSON/stringify/*",
+      "Web/JavaScript/Reference/Global_Objects/Number/Number/*",
+      "Web/JavaScript/Reference/Global_Objects/Number/toString/*",
+      "Web/JavaScript/Reference/Global_Objects/Number/valueOf/*",
+      "Web/JavaScript/Reference/Global_Objects/Object/Object/*",
+      "Web/JavaScript/Reference/Global_Objects/Object/toString/*",
+      "Web/JavaScript/Reference/Global_Objects/String/*",
+      "Web/JavaScript/Reference/Global_Objects/String/String/*",
+      "Web/JavaScript/Reference/Global_Objects/String/toString/*",
+      "Web/JavaScript/Reference/Global_Objects/String/valueOf/*",
+      "Web/JavaScript/Reference/Iteration_protocols/*",
+      "Web/JavaScript/Reference/Operators/Equality/*",
+      "Web/JavaScript/Reference/Operators/in/*",
+      "Web/JavaScript/Reference/Operators/Inequality/*",
+      "Web/JavaScript/Reference/Operators/instanceof/*",
+      "Web/JavaScript/Reference/Operators/Logical_NOT/*",
+      "Web/JavaScript/Reference/Operators/Strict_equality/*",
+      "Web/JavaScript/Reference/Operators/typeof/*",
+      "Web/JavaScript/Reference/Statements/if...else/*",
+    ],
+    rules: { "no-new-wrappers": "off" },
+  },
+  {
+    files: [
       "Web/JavaScript/Guide/Equality_comparisons_and_sameness/*",
       "Web/JavaScript/Reference/Global_Objects/Array/indexOf/*",
       "Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf/*",
@@ -161,10 +297,44 @@ export default [
   },
   {
     files: [
+      "Web/JavaScript/Guide/Equality_comparisons_and_sameness/*",
+      "Web/JavaScript/Reference/Global_Objects/BigInt/*",
+      "Web/JavaScript/Reference/Global_Objects/NaN/*",
+      "Web/JavaScript/Reference/Global_Objects/Symbol/*",
+      "Web/JavaScript/Reference/Global_Objects/Symbol/for/*",
+      "Web/JavaScript/Reference/Global_Objects/Symbol/Symbol/*",
+      "Web/JavaScript/Reference/Operators/Equality/*",
+      "Web/JavaScript/Reference/Operators/Greater_than/*",
+      "Web/JavaScript/Reference/Operators/Greater_than_or_equal/*",
+      "Web/JavaScript/Reference/Operators/Inequality/*",
+      "Web/JavaScript/Reference/Operators/Less_than/*",
+      "Web/JavaScript/Reference/Operators/Less_than_or_equal/*",
+      "Web/JavaScript/Reference/Operators/null/*",
+      "Web/JavaScript/Reference/Operators/Strict_equality/*",
+      "Web/JavaScript/Reference/Operators/Strict_inequality/*",
+    ],
+    rules: { "no-self-compare": "off" },
+  },
+  {
+    files: [
       "Web/JavaScript/Guide/Expressions_and_operators/*",
       "Web/JavaScript/Reference/Operators/Addition/*",
     ],
     rules: { "no-useless-concat": "off" },
+  },
+  {
+    files: [
+      "Web/JavaScript/Guide/Functions/*",
+      "Web/JavaScript/Guide/Language_overview/*",
+      "Web/JavaScript/Reference/Errors/Unnamed_function_statement/*",
+      "Web/JavaScript/Reference/Functions/*",
+      "Web/JavaScript/Reference/Global_Objects/Function/name/*",
+      "Web/JavaScript/Reference/Operators/async_function/*",
+      "Web/JavaScript/Reference/Operators/async_function*/*",
+      "Web/JavaScript/Reference/Operators/function/*",
+      "Web/JavaScript/Reference/Operators/function*/*",
+    ],
+    rules: { "func-style": "off" },
   },
   {
     files: [
@@ -200,6 +370,15 @@ export default [
   },
   {
     files: [
+      "Web/JavaScript/Guide/Grammar_and_types/*",
+      "Web/JavaScript/Guide/Indexed_collections/*",
+      "Web/JavaScript/Reference/Global_Objects/Array/**",
+      "Web/JavaScript/Reference/Trailing_commas/*",
+    ],
+    rules: { "no-sparse-arrays": "off" },
+  },
+  {
+    files: [
       "Web/JavaScript/Guide/Indexed_collections/*",
       "Web/JavaScript/Reference/Global_Objects/Array/*",
       "Web/JavaScript/Reference/Global_Objects/Array/Array/*",
@@ -217,6 +396,18 @@ export default [
       "Web/JavaScript/Reference/Global_Objects/Proxy/Proxy/getPrototypeOf/*",
     ],
     rules: { "no-proto": "off" },
+  },
+  {
+    files: [
+      "Web/JavaScript/Guide/Inheritance_and_the_prototype_chain/*",
+      "Web/JavaScript/Reference/Global_Objects/Object/*",
+      "Web/JavaScript/Reference/Global_Objects/Object/defineProperty/*",
+      "Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty/*",
+      "Web/JavaScript/Reference/Global_Objects/Object/isPrototypeOf/*",
+      "Web/JavaScript/Reference/Global_Objects/Object/propertyIsEnumerable/*",
+      "Web/JavaScript/Reference/Global_Objects/Proxy/Proxy/getPrototypeOf/*",
+    ],
+    rules: { "no-prototype-builtins": "off" },
   },
   {
     files: [
@@ -335,6 +526,17 @@ export default [
     rules: { "prefer-spread": "off" },
   },
   {
+    files: ["Web/JavaScript/Reference/Global_Objects/Math/pow/*"],
+    rules: { "prefer-exponentiation-operator": "off" },
+  },
+  {
+    files: [
+      "Web/JavaScript/Reference/Global_Objects/RegExp/RegExp/*",
+      "Web/JavaScript/Reference/Global_Objects/RegExp/toString/*",
+    ],
+    rules: { "prefer-regex-literals": "off" },
+  },
+  {
     files: [
       "Web/JavaScript/Reference/Global_Objects/RegExp/input/*",
       "Web/JavaScript/Reference/Global_Objects/RegExp/lastMatch/*",
@@ -422,6 +624,10 @@ export default [
   },
   {
     files: [
+      "Web/JavaScript/Guide/Equality_comparisons_and_sameness/*",
+      "Web/JavaScript/Guide/Language_overview/*",
+      "Web/JavaScript/Reference/Global_Objects/BigInt/*",
+      "Web/JavaScript/Reference/Global_Objects/Boolean/*",
       "Web/JavaScript/Reference/Operators/Equality/*",
       "Web/JavaScript/Reference/Operators/Inequality/*",
       "Web/JavaScript/Reference/Operators/null/*",

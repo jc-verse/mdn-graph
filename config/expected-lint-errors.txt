@@ -70,7 +70,9 @@ Router.map(function () {
 [no-self-assign] 'todos' is assigned to itself.
 ~~~
 const checkAllTodos = (completed) => {
-  todos.forEach((t) => (t.completed = completed));
+  todos.forEach((t) => {
+    t.completed = completed;
+  });
   todos = todos;
 };
 ~~~
@@ -101,12 +103,22 @@ function displayMessage(msgText, msgType) {
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Scripting/Conditionals
+[no-constant-binary-expression] Unexpected constant truthiness on the left-hand side of a `||` expression.
+[no-constant-condition] Unexpected constant condition.
+~~~
+if (x === 5 || 7 || 10 || 20) {
+  // run my code
+}
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/Conditionals
 [syntax] Parsing error: ':' expected.
 ~~~
 condition ? run this code : run this code instead
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Scripting/Debugging_JavaScript
+[consistent-return] Expected to return a value at the end of function 'inchesToMeters'.
 [no-else-return] Unnecessary 'else' after 'return'.
 ~~~
 function inchesToMeters(num) {
@@ -117,6 +129,16 @@ function inchesToMeters(num) {
   } else {
     console.log("A number was not provided. Please correct the input.");
   }
+}
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/Loops
+[@typescript-eslint/prefer-for-of] Expected a `for-of` loop instead of a `for` loop with this simple iteration.
+~~~
+const cats = ["Leopard", "Serval", "Jaguar", "Tiger", "Caracal", "Lion"];
+
+for (let i = 0; i < cats.length; i++) {
+  console.log(cats[i]);
 }
 ~~~
 
@@ -165,6 +187,18 @@ function checkGuess() {
 function checkGuess( {
 ~~~
 
+/en-US/docs/Learn_web_development/Core/Scripting/What_went_wrong
+[syntax] Parsing error: '}' expected.
+~~~
+if (userGuess === randomNumber) {
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/What_went_wrong
+[syntax] Parsing error: '}' expected.
+~~~
+if (userGuess = randomNumber) {
+~~~
+
 /en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
 [syntax] Opening tag "a" not terminated.
 ~~~
@@ -181,6 +215,15 @@ function checkGuess( {
 [syntax] Opening tag "a" not terminated.
 ~~~
 <a href="https://www.example.com" title="An "interesting" reference">A link to my example.</a>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
+[syntax] Opening tag "a" not terminated.
+[syntax] Unexpected closing tag "a". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+~~~
+<a href=https://www.mozilla.org/>favorite website</a>
+
+<a href=https://www.mozilla.org/ title=The Mozilla homepage>favorite website</a>
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
@@ -388,7 +431,7 @@ asyncHandler(async (req, res, next) => {
     // There are errors. Render the form again with sanitized values/error messages.
     res.render("genre_form", {
       title: "Create Genre",
-      genre: genre,
+      genre,
       errors: errors.array(),
     });
     return;
@@ -424,11 +467,36 @@ alert("hello!);
 ~~~
 
 /en-US/docs/MDN/Writing_guidelines/Code_style_guide/JavaScript
+[@typescript-eslint/prefer-for-of] Expected a `for-of` loop instead of a `for` loop with this simple iteration.
+~~~
+const dogs = ["Rex", "Lassie"];
+for (let i = 0; i < dogs.length; i++) {
+  console.log(dogs[i]);
+}
+~~~
+
+/en-US/docs/MDN/Writing_guidelines/Code_style_guide/JavaScript
 [arrow-body-style] Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`.
 ~~~
 arr.map((e) => {
   return e.id;
 });
+~~~
+
+/en-US/docs/MDN/Writing_guidelines/Code_style_guide/JavaScript
+[eqeqeq] Expected '===' and instead saw '=='.
+[eqeqeq] Expected '!==' and instead saw '!='.
+~~~
+name == "Shilpa";
+age != 25;
+~~~
+
+/en-US/docs/MDN/Writing_guidelines/Code_style_guide/JavaScript
+[func-style] Expected a function declaration.
+~~~
+let sum = function (a, b) {
+  return a + b;
+};
 ~~~
 
 /en-US/docs/MDN/Writing_guidelines/Code_style_guide/JavaScript
@@ -488,6 +556,43 @@ if (test) {
 ~~~
 
 /en-US/docs/MDN/Writing_guidelines/Code_style_guide/JavaScript
+[no-var] Unexpected var, use let or const instead.
+~~~
+var age = 40;
+var name = "Shilpa";
+~~~
+
+/en-US/docs/MDN/Writing_guidelines/Code_style_guide/JavaScript
+[object-shorthand] Expected method shorthand.
+~~~
+const obj = {
+  foo: function () {
+    // …
+  },
+  bar: function () {
+    // …
+  },
+};
+~~~
+
+/en-US/docs/MDN/Writing_guidelines/Code_style_guide/JavaScript
+[object-shorthand] Expected property shorthand.
+~~~
+function createObject(name, age) {
+  return { name: name, age: age };
+}
+~~~
+
+/en-US/docs/MDN/Writing_guidelines/Code_style_guide/JavaScript
+[prefer-arrow-callback] Unexpected function expression.
+~~~
+const array1 = [1, 2, 3, 4];
+const sum = array1.reduce(function (a, b) {
+  return a + b;
+});
+~~~
+
+/en-US/docs/MDN/Writing_guidelines/Code_style_guide/JavaScript
 [syntax] Parsing error: Invalid character.
 ~~~
 function exampleFunc() {
@@ -523,6 +628,25 @@ browser.menus.onShown.addListener(async (info, tab) => {
 
 browser.menus.onHidden.addListener(() => {
   lastMenuInstanceId = 0;
+});
+~~~
+
+/en-US/docs/Mozilla/Add-ons/WebExtensions/API/scripting/executeScript
+[object-shorthand] Expected method shorthand.
+~~~
+browser.action.onClicked.addListener(async (tab) => {
+  try {
+    await browser.scripting.executeScript({
+      target: {
+        tabId: tab.id,
+      },
+      func: () => {
+        document.body.style.border = "5px solid green";
+      },
+    });
+  } catch (err) {
+    console.error(`failed to execute script: ${err}`);
+  }
 });
 ~~~
 
@@ -571,6 +695,79 @@ browser.userScripts.onBeforeScript.addListener((script) => {
     },
   });
 });
+~~~
+
+/en-US/docs/Mozilla/Add-ons/WebExtensions/Background_scripts
+[no-var] Unexpected var, use let or const instead.
+~~~
+var count = 101;
+browser.runtime.onMessage.addListener((message, sender, sendResponse) => {
+  if (message === "count") {
+    ++count;
+    sendResponse(count);
+  }
+});
+~~~
+
+/en-US/docs/Mozilla/Add-ons/WebExtensions/Background_scripts
+[object-shorthand] Expected method shorthand.
+~~~
+browser.runtime.onMessage.addListener((message, sender, sendResponse) => {
+  if (message.data === "setAlarm") {
+    browser.alarms.create({ delayInMinutes: 5 });
+  } else if (message.data === "runLogic") {
+    browser.scripting.executeScript({
+      target: {
+        tabId: sender.tab.id,
+        frameIds: [sender.frameId],
+      },
+      files: ["logic.js"],
+    });
+  } else if (message.data === "changeColor") {
+    browser.scripting.executeScript({
+      target: {
+        tabId: sender.tab.id,
+        frameIds: [sender.frameId],
+      },
+      func: () => {
+        document.body.style.backgroundColor = "orange";
+      },
+    });
+  }
+});
+~~~
+
+/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts/cloneInto
+[object-shorthand] Expected method shorthand.
+~~~
+// content script
+var addonScriptObject = {
+  greetMe: function () {
+    alert("hello from your extension");
+  },
+};
+window.addonScriptObject = cloneInto(addonScriptObject, window, {
+  cloneFunctions: true,
+});
+~~~
+
+/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts/exportFunction
+[object-shorthand] Expected method shorthand.
+~~~
+// less-privileged scope: for example, a page script
+var user = {
+  getUser: function () {
+    return "Bill";
+  },
+};
+var test = document.getElementById("test");
+test.addEventListener(
+  "click",
+  function () {
+    window.logUser(user);
+  },
+  false,
+);
 ~~~
 
 /en-US/docs/Mozilla/Add-ons/WebExtensions/Internationalization
@@ -630,6 +827,30 @@ function play() {
 }
 ~~~
 
+/en-US/docs/Web/API/CSSKeyframesRule
+[@typescript-eslint/prefer-for-of] Expected a `for-of` loop instead of a `for` loop with this simple iteration.
+~~~
+const keyframes = document.styleSheets[0].cssRules[0];
+
+for (let i = 0; i < keyframes.length; i++) {
+  console.log(keyframes[i].keyText);
+}
+
+// Output:
+// 0%
+// 100%
+~~~
+
+/en-US/docs/Web/API/CSSStyleSheet/cssRules
+[@typescript-eslint/prefer-for-of] Expected a `for-of` loop instead of a `for` loop with this simple iteration.
+~~~
+const ruleList = document.styleSheets[0].cssRules;
+
+for (let i = 0; i < ruleList.length; i++) {
+  processRule(ruleList[i]);
+}
+~~~
+
 /en-US/docs/Web/API/DirectoryReaderSync
 [logical-assignment-operators] Assignment (=) can be replaced with operator assignment (||=).
 ~~~
@@ -672,6 +893,26 @@ eventTarget.addEventListener("keyup", (event) => {
   }
   // do something
 });
+~~~
+
+/en-US/docs/Web/API/EventTarget/addEventListener
+[prefer-arrow-callback] Unexpected function expression.
+~~~
+// Function to change the content of t2
+function modifyText(newText) {
+  const t2 = document.getElementById("t2");
+  t2.firstChild.nodeValue = newText;
+}
+
+// Function to add event listener to table
+const el = document.getElementById("outside");
+el.addEventListener(
+  "click",
+  function () {
+    modifyText("four");
+  },
+  false,
+);
 ~~~
 
 /en-US/docs/Web/API/FileSystemDirectoryEntry
@@ -763,6 +1004,49 @@ await navigator.locks.request(
 /en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element
 [logical-assignment-operators] Assignment (=) can be replaced with operator assignment (||=).
 ~~~
+let preview = document.getElementById("preview");
+let recording = document.getElementById("recording");
+let startButton = document.getElementById("startButton");
+let stopButton = document.getElementById("stopButton");
+let downloadButton = document.getElementById("downloadButton");
+let logElement = document.getElementById("log");
+
+let recordingTimeMS = 5000;
+
+function log(msg) {
+  logElement.innerText += `${msg}\n`;
+}
+
+function wait(delayInMS) {
+  return new Promise((resolve) => setTimeout(resolve, delayInMS));
+}
+
+function startRecording(stream, lengthInMS) {
+  let recorder = new MediaRecorder(stream);
+  let data = [];
+
+  recorder.ondataavailable = (event) => data.push(event.data);
+  recorder.start();
+  log(`${recorder.state} for ${lengthInMS / 1000} seconds…`);
+
+  let stopped = new Promise((resolve, reject) => {
+    recorder.onstop = resolve;
+    recorder.onerror = (event) => reject(event.name);
+  });
+
+  let recorded = wait(lengthInMS).then(() => {
+    if (recorder.state === "recording") {
+      recorder.stop();
+    }
+  });
+
+  return Promise.all([stopped, recorded]).then(() => data);
+}
+
+function stop(stream) {
+  stream.getTracks().forEach((track) => track.stop());
+}
+
 startButton.addEventListener(
   "click",
   () => {
@@ -798,6 +1082,14 @@ startButton.addEventListener(
           log(error);
         }
       });
+  },
+  false,
+);
+
+stopButton.addEventListener(
+  "click",
+  () => {
+    stop(preview.srcObject);
   },
   false,
 );
@@ -858,6 +1150,14 @@ if (navigator.getUserMedia) {
 }
 ~~~
 
+/en-US/docs/Web/API/NodeList
+[@typescript-eslint/prefer-for-of] Expected a `for-of` loop instead of a `for` loop with this simple iteration.
+~~~
+for (let i = 0; i < myNodeList.length; i++) {
+  let item = myNodeList[i];
+}
+~~~
+
 /en-US/docs/Web/API/PaymentRequest/canMakePayment
 [no-useless-return] Unnecessary return statement.
 ~~~
@@ -896,6 +1196,14 @@ async function initPaymentRequest() {
 
   // Otherwise, make payments using HTML form element
 }
+~~~
+
+/en-US/docs/Web/API/PerformanceScriptTiming/sourceFunctionName
+[prefer-arrow-callback] Unexpected function expression.
+~~~
+setTimeout(function libFunc() {
+  slowFunction();
+});
 ~~~
 
 /en-US/docs/Web/API/ReadableStream
@@ -974,6 +1282,16 @@ if (done) {
 ~~~
 
 /en-US/docs/Web/API/URL_Pattern_API
+[prefer-regex-literals] Use a regular expression literal instead of the 'RegExp' constructor.
+~~~
+new URLPattern({ pathname: "([()])" }); // throws
+new URLPattern({ pathname: "([\\(\\)])" }); // ok
+
+new RegExp("[()]"); // ok
+new RegExp("[\\(\\)]"); // ok
+~~~
+
+/en-US/docs/Web/API/URL_Pattern_API
 [regexp/no-useless-escape] Unnecessary escape character: \(.
 [regexp/no-useless-escape] Unnecessary escape character: \).
 ~~~
@@ -982,6 +1300,16 @@ new URLPattern({ pathname: "([\\(\\)])" }); // ok
 
 new RegExp("[()]"); // ok
 new RegExp("[\\(\\)]"); // ok
+~~~
+
+/en-US/docs/Web/API/Window/frames
+[@typescript-eslint/prefer-for-of] Expected a `for-of` loop instead of a `for` loop with this simple iteration.
+~~~
+const frames = window.frames; // or const frames = window.parent.frames;
+for (let i = 0; i < frames.length; i++) {
+  // do something with each subframe as frames[i]
+  frames[i].document.body.style.background = "red";
+}
 ~~~
 
 /en-US/docs/Web/API/Window/postMessage
@@ -1031,6 +1359,24 @@ window.addEventListener(
   },
   false,
 );
+~~~
+
+/en-US/docs/Web/API/Window/setTimeout
+[prefer-arrow-callback] Unexpected function expression.
+~~~
+setTimeout(function () {
+  myArray.myMethod();
+}, 2.0 * 1000); // prints "zero,one,two" after 2 seconds
+setTimeout(function () {
+  myArray.myMethod("1");
+}, 2.5 * 1000); // prints "one" after 2.5 seconds
+~~~
+
+/en-US/docs/Web/API/Window/window
+[no-var] Unexpected var, use let or const instead.
+~~~
+var global = { data: 0 };
+alert(global === window.global); // displays "true"
 ~~~
 
 /en-US/docs/Web/CSS/CSS_syntax/Error_handling
@@ -1099,6 +1445,53 @@ p {
 </html>
 ~~~
 
+/en-US/docs/Web/HTML/Reference/Elements/rtc
+[syntax] Unexpected closing tag "rtc". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+~~~
+<ruby lang="zh-Hant">
+  <rbc>
+    <rb>馬</rb><rp>(</rp><rt>mǎ</rt><rp>)</rp>
+    <rb>來</rb><rp>(</rp><rt>lái</rt><rp>)</rp>
+    <rb>西</rb><rp>(</rp><rt>xī</rt><rp>)</rp>
+    <rb>亞</rb><rp>(</rp><rt>yà</rt><rp>)</rp>
+  </rbc>
+  <rtc lang="en">
+    <rp>(</rp><rt>Malaysia</rt><rp>)</rp>
+  </rtc>
+</ruby>
+~~~
+
+/en-US/docs/Web/HTTP/Guides/Browser_detection_using_the_user_agent
+[prefer-regex-literals] Use a regular expression literal instead of the 'RegExp' constructor.
+~~~
+let splitUpString;
+
+if (navigator.userAgent.includes("Chrome")) {
+  const camelCaseExpression = new RegExp("(?<=[A-Z])");
+  splitUpString = (str) => String(str).split(camelCaseExpression);
+} else {
+  // This fallback is inefficient, but it works
+  splitUpString = (str) =>
+    String(str)
+      .split(/(.*?[A-Z])/)
+      .filter(Boolean);
+}
+console.log(splitUpString("fooBar")); // ["fooB", "ar"]
+console.log(splitUpString("jQWhy")); // ["jQ", "W", "hy"]
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling
+[eqeqeq] Expected '===' and instead saw '=='.
+~~~
+const b = new Boolean(false);
+if (b) {
+  // this condition evaluates to true
+}
+if (b == true) {
+  // this condition evaluates to false
+}
+~~~
+
 /en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling
 [no-cond-assign] Expected a conditional expression and instead saw an assignment.
 ~~~
@@ -1133,9 +1526,27 @@ function Person() {
 ~~~
 
 /en-US/docs/Web/JavaScript/Guide/Grammar_and_types
+[no-constant-condition] Unexpected constant condition.
+~~~
+if (true) {
+  var x = 5;
+}
+console.log(x); // x is 5
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Grammar_and_types
 [syntax] Parsing error: Unterminated regular expression literal.
 ~~~
 /* You can't, however, /* nest comments */ SyntaxError */
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Indexed_collections
+[@typescript-eslint/prefer-for-of] Expected a `for-of` loop instead of a `for` loop with this simple iteration.
+~~~
+const colors = ["red", "green", "blue"];
+for (let i = 0; i < colors.length; i++) {
+  console.log(colors[i]);
+}
 ~~~
 
 /en-US/docs/Web/JavaScript/Guide/Indexed_collections
@@ -1175,6 +1586,7 @@ console.log("doSomething.prototype.foo: ", doSomething.prototype.foo);
 
 /en-US/docs/Web/JavaScript/Guide/Inheritance_and_the_prototype_chain
 [no-array-constructor] The array literal notation [] is preferable.
+[prefer-regex-literals] Use a regular expression literal instead of the 'RegExp' constructor.
 ~~~
 const array = new Array(1, 2, 3);
 const regexp = new RegExp("abc");
@@ -1191,6 +1603,20 @@ const springBreak = {
 const df = new Intl.DateTimeFormat("en-US", { dateStyle: "long" });
 console.log(df.formatRange(springBreak.start, springBreak.end));
 // March 10 – 26, 2023
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Introduction
+[no-eval] eval can be harmful.
+~~~
+console.log(eval("3 + 5"));
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Language_overview
+[@typescript-eslint/prefer-for-of] Expected a `for-of` loop instead of a `for` loop with this simple iteration.
+~~~
+for (let i = 0; i < a.length; i++) {
+  // Do something with a[i]
+}
 ~~~
 
 /en-US/docs/Web/JavaScript/Guide/Language_overview
@@ -1249,6 +1675,37 @@ import { default as randomSquare } from "./modules/square.js";
 ~~~
 const n = 0755; // 493
 const m = 0644; // 420
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Regular_expressions
+[prefer-regex-literals] Use a regular expression literal instead of the 'RegExp' constructor.
+~~~
+const re = new RegExp("\\w+\\s", "g");
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Regular_expressions
+[prefer-regex-literals] Use a regular expression literal instead of the 'RegExp' constructor.
+~~~
+const re = new RegExp("ab+c");
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Regular_expressions
+[prefer-regex-literals] Use a regular expression literal instead of the 'RegExp' constructor.
+~~~
+const myRe = new RegExp("d(b+)d", "g");
+const myArray = myRe.exec("cdbbdbsbz");
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Regular_expressions
+[prefer-regex-literals] Use a regular expression literal instead of the 'RegExp' constructor.
+~~~
+const re = new RegExp("pattern", "flags");
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Using_classes
+[no-self-compare] Comparing to itself is potentially pointless.
+~~~
+console.log(new Color().getRed === new Color().getRed); // false
 ~~~
 
 /en-US/docs/Web/JavaScript/Guide/Using_promises
@@ -1316,6 +1773,52 @@ async function main() {
 }
 ~~~
 
+/en-US/docs/Web/JavaScript/Guide/Working_with_objects
+[eqeqeq] Expected '===' and instead saw '=='.
+~~~
+// Two variables, two distinct objects with the same properties
+const fruit = { name: "apple" };
+const anotherFruit = { name: "apple" };
+
+fruit == anotherFruit; // return false
+fruit === anotherFruit; // return false
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Working_with_objects
+[eqeqeq] Expected '===' and instead saw '=='.
+~~~
+// Two variables, a single object
+const fruit = { name: "apple" };
+const anotherFruit = fruit; // Assign fruit object reference to anotherFruit
+
+// Here fruit and anotherFruit are pointing to same object
+fruit == anotherFruit; // return true
+fruit === anotherFruit; // return true
+
+fruit.name = "grape";
+console.log(anotherFruit); // { name: "grape" }; not { name: "apple" }
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Classes/Static_initialization_blocks
+[no-var] Unexpected var, use let or const instead.
+~~~
+var y = "Outer y";
+
+class A {
+  static field = "Inner y";
+  static {
+    // var y only hoisted inside block
+    console.log(y); // undefined <-- not 'Outer y'
+
+    var y = this.field;
+  }
+}
+
+// var y defined in static block is not hoisted
+// outside the block
+console.log(y); // 'Outer y'
+~~~
+
 /en-US/docs/Web/JavaScript/Reference/Deprecated_and_obsolete_features
 [syntax] Parsing error: Expression expected.
 ~~~
@@ -1362,6 +1865,12 @@ new Intl.DateTimeFormat?.();
 ~~~
 new Intl?.DateTimeFormat();
 Number?.[parseMethod]`Hello, world!`;
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Bad_regexp_flag
+[prefer-regex-literals] Use a regular expression literal instead of the 'RegExp' constructor.
+~~~
+const re = new RegExp("pattern", "flags");
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Errors/Either_be_both_static_or_non-static
@@ -1458,6 +1967,18 @@ console.log('"Java" + "Script" = "' + "Java" + 'Script"');
 const = "foo";
 ~~~
 
+/en-US/docs/Web/JavaScript/Reference/Errors/Regex_backslash_at_end_of_pattern
+[prefer-regex-literals] Use a regular expression literal instead of the 'RegExp' constructor.
+~~~
+const pattern = new RegExp("\\");
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Regex_backslash_at_end_of_pattern
+[prefer-regex-literals] Use a regular expression literal instead of the 'RegExp' constructor.
+~~~
+const pattern = new RegExp("\\\\");
+~~~
+
 /en-US/docs/Web/JavaScript/Reference/Errors/Regex_incomplete_quantifier
 [regexp/no-useless-quantifier] Unexpected useless quantifier.
 [regexp/prefer-plus-quantifier] Unexpected quantifier '{1,}'. Use '+' instead.
@@ -1535,6 +2056,16 @@ for (let i = 0; i < 5,; ++i) {
 // Uncaught SyntaxError: expected expression, got ';'
 ~~~
 
+/en-US/docs/Web/JavaScript/Reference/Errors/Unnamed_function_statement
+[object-shorthand] Expected method shorthand.
+~~~
+const greeter = {
+  german: function () {
+    return "Moin";
+  },
+};
+~~~
+
 /en-US/docs/Web/JavaScript/Reference/Errors/Unparenthesized_unary_expr_lhs_exponentiation
 [syntax] Parsing error: An unary expression with the '-' operator is not allowed in the left-hand side of an exponentiation expression. Consider enclosing the expression in parentheses.
 ~~~
@@ -1548,6 +2079,19 @@ await a ** b
 !a ** b
 +a ** b
 ~a ** b
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Functions
+[no-var] Unexpected var, use let or const instead.
+~~~
+// Using a var makes it available as a global variable,
+// with closer behavior to a top-level function declaration
+var zero;
+if (shouldDefineZero) {
+  zero = function () {
+    console.log("This is zero.");
+  };
+}
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
@@ -1611,6 +2155,18 @@ withoutDefaults.call({ value: "=^_^=" });
 // [undefined, 5, 5, ":P", {value:"=^_^="}, arguments, "=^_^="]
 ~~~
 
+/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters
+[no-var] Unexpected var, use let or const instead.
+~~~
+function f(a, b = () => console.log(a)) {
+  var a = 1;
+  b();
+}
+
+f(); // undefined
+f(5); // 5
+~~~
+
 /en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions
 [new-cap] A constructor name should not start with a lowercase letter.
 ~~~
@@ -1634,6 +2190,23 @@ f("a", "b"); // 'a+b'
 [syntax] Parsing error: Unexpected keyword or identifier.
 ~~~
 arr.0; // a syntax error
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+[@typescript-eslint/prefer-for-of] Expected a `for-of` loop instead of a `for` loop with this simple iteration.
+~~~
+const items = ["item1", "item2", "item3"];
+const copyItems = [];
+
+// before
+for (let i = 0; i < items.length; i++) {
+  copyItems.push(items[i]);
+}
+
+// after
+items.forEach((item) => {
+  copyItems.push(item);
+});
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from
@@ -1733,6 +2306,34 @@ function compareFn(a, b) {
 }
 ~~~
 
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Symbol.unscopables
+[no-var] Unexpected var, use let or const instead.
+~~~
+var values = [];
+
+with (values) {
+  values.push("something");
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt
+[no-constant-condition] Unexpected constant condition.
+~~~
+if (0n) {
+  console.log("Hello from the if!");
+} else {
+  console.log("Hello from the else!");
+}
+// "Hello from the else!"
+
+0n || 12n; // 12n
+0n && 12n; // 0n
+Boolean(0n); // false
+Boolean(12n); // true
+!12n; // false
+!0n; // true
+~~~
+
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt
 [no-extend-native] BigInt prototype is read only, properties should not be added.
 ~~~
@@ -1784,6 +2385,7 @@ try {
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/stack
+[no-eval] eval can be harmful.
 [no-new-func] The Function constructor is eval.
 ~~~
 console.log(new Function("return new Error('Function failed')")().stack);
@@ -1846,6 +2448,31 @@ myEval("x + y");
 // Indirect call through member access
 const obj = { eval };
 obj.eval("x + y");
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function
+[no-var] Unexpected var, use let or const instead.
+~~~
+// Create a global property with `var`
+var x = 10;
+
+function createFunction1() {
+  const x = 20;
+  return new Function("return x;"); // this `x` refers to global `x`
+}
+
+function createFunction2() {
+  const x = 20;
+  function f() {
+    return x; // this `x` refers to the local `x` above
+  }
+  return f;
+}
+
+const f1 = createFunction1();
+console.log(f1()); // 10
+const f2 = createFunction2();
+console.log(f2()); // 20
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply
@@ -1923,9 +2550,10 @@ const boundFunction = function () {}.bind(null);
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/toString
-[no-useless-computed-key] Unnecessarily computed property [0] found.
 [getter-return] Expected to return a value in getter 'a'.
 [no-extra-bind] The function binding is unnecessary.
+[no-useless-computed-key] Unnecessarily computed property [0] found.
+[prefer-arrow-callback] Unexpected function expression.
 ~~~
 function test(fn) {
   console.log(fn.toString());
@@ -1986,6 +2614,27 @@ const globalObject =
   Function("return this")();
 ~~~
 
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/format
+[no-loss-of-precision] This number literal will lose precision at runtime.
+~~~
+new Intl.NumberFormat("en-US").format(1234567891234567891); // 1,234,567,891,234,568,000
+new Intl.NumberFormat("en-US").format(1234567891234567891n); // 1,234,567,891,234,567,891
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/format
+[no-loss-of-precision] This number literal will lose precision at runtime.
+~~~
+const numberFormat = new Intl.NumberFormat("en-US");
+
+// Here the value is converted to a Number
+console.log(numberFormat.format(987654321987654321));
+// 987,654,321,987,654,300
+
+// Here we use a string and don't lose precision
+console.log(numberFormat.format("987654321987654321"));
+// 987,654,321,987,654,321
+~~~
+
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON
 [no-extend-native] BigInt prototype is read only, properties should not be added.
 ~~~
@@ -2022,6 +2671,95 @@ const str2 = JSON.stringify(data, (key, value) => {
 });
 ~~~
 
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/isRawJSON
+[no-loss-of-precision] This number literal will lose precision at runtime.
+~~~
+console.log(
+  mySerializer({
+    name: "Josh",
+    userId: 12345678901234567890,
+    friends: [
+      { name: "Alice", userId: 9876543210987654321 },
+      { name: "Bob", userId: 56789012345678901234 },
+    ],
+  }),
+);
+
+// name: "Josh"
+// userId: 12345678901234567000
+// friends:
+//   - name: "Alice"
+//     userId: 9876543210987655000
+//   - name: "Bob"
+//     userId: 56789012345678900000
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/rawJSON
+[no-loss-of-precision] This number literal will lose precision at runtime.
+~~~
+JSON.stringify({ value: 12345678901234567890 });
+// {"value":12345678901234567000}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map
+[prefer-arrow-callback] Unexpected function expression.
+~~~
+const myMap = new Map();
+
+const keyString = "a string";
+const keyObj = {};
+const keyFunc = function () {};
+
+// setting the values
+myMap.set(keyString, "value associated with 'a string'");
+myMap.set(keyObj, "value associated with keyObj");
+myMap.set(keyFunc, "value associated with keyFunc");
+
+console.log(myMap.size); // 3
+
+// getting the values
+console.log(myMap.get(keyString)); // "value associated with 'a string'"
+console.log(myMap.get(keyObj)); // "value associated with keyObj"
+console.log(myMap.get(keyFunc)); // "value associated with keyFunc"
+
+console.log(myMap.get("a string")); // "value associated with 'a string'", because keyString === 'a string'
+console.log(myMap.get({})); // undefined, because keyObj !== {}
+console.log(myMap.get(function () {})); // undefined, because keyFunc !== function () {}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/clz32
+[eqeqeq] Expected '===' and instead saw '=='.
+[object-shorthand] Expected property shorthand.
+~~~
+const countTrailsMethods = (function (stdlib, foreign, heap) {
+  "use asm";
+  const clz = stdlib.Math.clz32;
+
+  // count trailing zeros
+  function ctrz(integer) {
+    integer = integer | 0; // coerce to an integer
+    if ((integer | 0) == 0) {
+      // skipping this step would make it return -1
+      return 32;
+    }
+    // Note: asm.js doesn't have compound assignment operators such as &=
+    integer = integer & -integer; // equivalent to `int = int & (~int + 1)`
+    return (31 - clz(integer)) | 0;
+  }
+
+  // count trailing ones
+  function ctron(integer) {
+    integer = integer | 0; // coerce to an integer
+    return ctrz(~integer) | 0;
+  }
+
+  // asm.js demands plain objects:
+  return { ctrz: ctrz, ctron: ctron };
+})(window, null, null);
+
+const { ctrz, ctron } = countTrailsMethods;
+~~~
+
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/clz32
 [operator-assignment] Assignment (=) can be replaced with operator assignment (|=).
 [operator-assignment] Assignment (=) can be replaced with operator assignment (&=).
@@ -2053,6 +2791,53 @@ const countTrailsMethods = (function (stdlib, foreign, heap) {
 })(window, null, null);
 
 const { ctrz, ctron } = countTrailsMethods;
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger
+[no-loss-of-precision] This number literal will lose precision at runtime.
+~~~
+Number.isInteger(0); // true
+Number.isInteger(1); // true
+Number.isInteger(-100000); // true
+Number.isInteger(99999999999999999999999); // true
+
+Number.isInteger(0.1); // false
+Number.isInteger(Math.PI); // false
+
+Number.isInteger(NaN); // false
+Number.isInteger(Infinity); // false
+Number.isInteger(-Infinity); // false
+Number.isInteger("10"); // false
+Number.isInteger(true); // false
+Number.isInteger(false); // false
+Number.isInteger([1]); // false
+
+Number.isInteger(5.0); // true
+Number.isInteger(5.000000000000001); // false
+Number.isInteger(5.0000000000000001); // true, because of loss of precision
+Number.isInteger(4500000000000000.1); // true, because of loss of precision
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed
+[no-loss-of-precision] This number literal will lose precision at runtime.
+~~~
+const numObj = 12345.6789;
+
+numObj.toFixed(); // '12346'; rounding, no fractional part
+numObj.toFixed(1); // '12345.7'; it rounds up
+numObj.toFixed(6); // '12345.678900'; additional zeros
+(1.23e20).toFixed(2); // '123000000000000000000.00'
+(1.23e-10).toFixed(2); // '0.00'
+(2.34).toFixed(1); // '2.3'
+(2.35).toFixed(1); // '2.4'; it rounds up
+(2.55).toFixed(1); // '2.5'
+// it rounds down as it can't be represented exactly by a float and the
+// closest representable float is lower
+(2.449999999999999999).toFixed(1); // '2.5'
+// it rounds up as it's less than Number.EPSILON away from 2.45.
+// This literal actually encodes the same number value as 2.45
+
+(6.02 * 10 ** 23).toFixed(50); // '6.019999999999999e+23'; large numbers still use exponential notation
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toString
@@ -2096,6 +2881,16 @@ Object.prototype.valueOf = function (...args) {
 };
 ~~~
 
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/__defineGetter__
+[prefer-arrow-callback] Unexpected function expression.
+~~~
+const o = {};
+o.__defineGetter__("gimmeFive", function () {
+  return 5;
+});
+console.log(o.gimmeFive); // 5
+~~~
+
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toString
 [no-extend-native] Date prototype is read only, properties should not be added.
 ~~~
@@ -2121,6 +2916,59 @@ toString.call(Math); // [object Math]
 
 toString.call(undefined); // [object Undefined]
 toString.call(null); // [object Null]
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/valueOf
+[eqeqeq] Expected '===' and instead saw '=='.
+~~~
+const box = new Box(123);
+console.log(box + 456); // 579
+console.log(box == 123); // true
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/catch
+[prefer-arrow-callback] Unexpected function expression.
+~~~
+// overriding original Promise.prototype.then/catch just to add some logs
+((Promise) => {
+  const originalThen = Promise.prototype.then;
+  const originalCatch = Promise.prototype.catch;
+
+  Promise.prototype.then = function (...args) {
+    console.log("Called .then on %o with arguments: %o", this, args);
+    return originalThen.apply(this, args);
+  };
+  Promise.prototype.catch = function (...args) {
+    console.error("Called .catch on %o with arguments: %o", this, args);
+    return originalCatch.apply(this, args);
+  };
+})(Promise);
+
+// calling catch on an already resolved promise
+Promise.resolve().catch(function XXX() {});
+
+// Logs:
+// Called .catch on Promise{} with arguments: Arguments{1} [0: function XXX()]
+// Called .then on Promise{} with arguments: Arguments{2} [0: undefined, 1: function XXX()]
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp
+[prefer-regex-literals] Use a regular expression literal instead of the 'RegExp' constructor.
+~~~
+const re = /\w+/;
+// OR
+const re = new RegExp("\\w+");
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp
+[prefer-regex-literals] Use a regular expression literal instead of the 'RegExp' constructor.
+[prefer-regex-literals] Use regular expression literal with flags instead of the 'RegExp' constructor.
+~~~
+const re = /ab+c/i; // literal notation
+// OR
+const re = new RegExp("ab+c", "i"); // constructor with string pattern as first argument
+// OR
+const re = new RegExp(/ab+c/, "i"); // constructor with regular expression literal as first argument
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec
@@ -2159,6 +3007,30 @@ number; // "24"
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/source
+[prefer-regex-literals] Use a regular expression literal instead of the 'RegExp' constructor.
+~~~
+const regex1 = /fooBar/gi;
+
+console.log(regex1.source);
+// Expected output: "fooBar"
+
+console.log(new RegExp().source);
+// Expected output: "(?:)"
+
+console.log(new RegExp("\n").source === "\\n");
+// Expected output: true (starting with ES5)
+// Due to escaping
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/source
+[prefer-regex-literals] Use a regular expression literal instead of the 'RegExp' constructor.
+~~~
+new RegExp().source; // "(?:)"
+
+new RegExp("\n").source === "\\n"; // true, starting with ES5
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/source
 [regexp/letter-case] 'B' is not in lowercase
 ~~~
 const regex1 = /fooBar/gi;
@@ -2184,23 +3056,11 @@ console.log(regex.source); // "fooBar", doesn't contain /.../ and "gi".
 
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicode
 [regexp/no-useless-escape] Unnecessary escape character: \u.
+[regexp/strict] Incomplete escape sequence '\u'. Either use a valid escape sequence or remove the useless escaping.
 [regexp/unicode-escape] Expected unicode escape ('\u0061'), but unicode code point escape ('\u{61}') is used.
 ~~~
-const regex1 = new RegExp("\\u{61}");
-const regex2 = new RegExp("\\u{61}", "u");
-
-console.log(regex1.unicode);
-// Expected output: false
-
-console.log(regex2.unicode);
-// Expected output: true
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicode
-[regexp/strict] Incomplete escape sequence '\u'. Either use a valid escape sequence or remove the useless escaping.
-~~~
-const regex1 = new RegExp("\\u{61}");
-const regex2 = new RegExp("\\u{61}", "u");
+const regex1 = /\u{61}/;
+const regex2 = /\u{61}/u;
 
 console.log(regex1.unicode);
 // Expected output: false
@@ -2218,19 +3078,6 @@ console.log(regex.unicode); // true
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicodeSets
-[regexp/no-useless-escape] Unnecessary escape character: \p.
-~~~
-const regex1 = new RegExp("[\\p{Lowercase}&&\\p{Script=Greek}]");
-const regex2 = new RegExp("[\\p{Lowercase}&&\\p{Script=Greek}]", "v");
-
-console.log(regex1.unicodeSets);
-// Expected output: false
-
-console.log(regex2.unicodeSets);
-// Expected output: true
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicodeSets
 [regexp/strict] Invalid property escape sequence '\p'. Either use a valid property escape sequence or remove the useless escaping.
 [regexp/no-dupe-characters-character-class] Unexpected duplicate 'e' (U+0065).
 [regexp/no-dupe-characters-character-class] Unexpected duplicate '&' (U+0026).
@@ -2241,15 +3088,59 @@ console.log(regex2.unicodeSets);
 [regexp/no-dupe-characters-character-class] Unexpected duplicate. 'p' (U+0070) is a duplicate of '\p' (U+0070).
 [regexp/no-dupe-characters-character-class] Unexpected duplicate 'r' (U+0072).
 [regexp/no-dupe-characters-character-class] Unexpected duplicate '}' (U+007d).
+[regexp/no-useless-escape] Unnecessary escape character: \p.
 ~~~
-const regex1 = new RegExp("[\\p{Lowercase}&&\\p{Script=Greek}]");
-const regex2 = new RegExp("[\\p{Lowercase}&&\\p{Script=Greek}]", "v");
+const regex1 = /[\p{Lowercase}&&\p{Script=Greek}]/;
+const regex2 = /[\p{Lowercase}&&\p{Script=Greek}]/v;
 
 console.log(regex1.unicodeSets);
 // Expected output: false
 
 console.log(regex2.unicodeSets);
 // Expected output: true
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+[no-eval] eval can be harmful.
+~~~
+const s1 = "2 + 2"; // creates a string primitive
+const s2 = new String("2 + 2"); // creates a String object
+console.log(eval(s1)); // returns the number 4
+console.log(eval(s2)); // returns the string "2 + 2"
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+[no-eval] eval can be harmful.
+~~~
+console.log(eval(s2.valueOf())); // returns the number 4
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/raw
+[prefer-regex-literals] Use a regular expression literal instead of the 'RegExp' constructor.
+~~~
+// A String.raw template allows a fairly readable regular expression matching a URL:
+const reRawTemplate = new RegExp(
+  String.raw`https://developer\.mozilla\.org/en-US/docs/Web/JavaScript/Reference/`,
+);
+
+// The same thing with a regexp literal looks like this, with \/ for
+// each forward slash:
+const reRegexpLiteral =
+  /https:\/\/developer\.mozilla\.org\/en-US\/docs\/Web\/JavaScript\/Reference\//;
+
+// And the same thing written with the RegExp constructor and a
+// traditional string literal, with \\. for each period:
+const reStringLiteral = new RegExp(
+  "https://developer\\.mozilla\\.org/en-US/docs/Web/JavaScript/Reference/",
+);
+
+// String.raw also allows dynamic parts to be included
+function makeURLRegExp(path) {
+  return new RegExp(String.raw`https://developer\.mozilla\.org/${path}`);
+}
+
+const reDynamic = makeURLRegExp("en-US/docs/Web/JavaScript/Reference/");
+const reWildcard = makeURLRegExp(".*");
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace
@@ -2283,6 +3174,95 @@ console.log(str.search(reDot)); // returns -1 cannot find '.' dot punctuation
 String.prototype.toString = () => "Overridden";
 console.log(`${"foo"}`); // "foo"
 console.log(`${new String("foo")}`); // "Overridden"
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/unscopables
+[no-var] Unexpected var, use let or const instead.
+~~~
+var values = [];
+
+with (values) {
+  // If [Symbol.unscopables] did not exist, values would become
+  // Array.prototype.values starting with ECMAScript 2015.
+  // And an error would have occurred.
+  values.push("something");
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/unscopables
+[object-shorthand] Expected method shorthand.
+~~~
+const character = {
+  name: "Yoda",
+  toString: function () {
+    return "Use with statements, you must not";
+  },
+};
+
+with (character) {
+  console.log(name + ' says: "' + toString() + '"'); // Yoda says: "Use with statements, you must not"
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/unscopables
+[object-shorthand] Expected method shorthand.
+~~~
+const character = {
+  name: "Yoda",
+  toString: function () {
+    return "Use with statements, you must not";
+  },
+  student: "Luke",
+  [Symbol.unscopables]: {
+    // Make `student` unscopable
+    student: true,
+  },
+};
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/unscopables
+[object-shorthand] Expected method shorthand.
+~~~
+const character = {
+  name: "Yoda",
+  toString: function () {
+    return "Use with statements, you must not";
+  },
+  student: "Luke",
+  [Symbol.unscopables]: {
+    // Make the object have `null` prototype to prevent
+    // `Object.prototype` methods from being unscopable
+    __proto__: null,
+    // Make `student` unscopable
+    student: true,
+  },
+};
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError
+[no-eval] eval can be harmful.
+~~~
+try {
+  eval("hoo bar");
+} catch (e) {
+  console.log(e instanceof SyntaxError); // true
+  console.log(e.message);
+  console.log(e.name); // "SyntaxError"
+  console.log(e.stack); // Stack of the error
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError/SyntaxError
+[no-eval] eval can be harmful.
+~~~
+try {
+  eval("hoo bar");
+} catch (e) {
+  console.log(e instanceof SyntaxError); // true
+  console.log(e.message);
+  console.log(e.name); // "SyntaxError"
+  console.log(e.stack); // Stack of the error
+}
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
@@ -2530,6 +3510,38 @@ console.log(a) // ReferenceError: Invalid left-hand side expression in prefix op
 0_1; // SyntaxError
 ~~~
 
+/en-US/docs/Web/JavaScript/Reference/Operators/Comma_operator
+[no-eval] eval can be harmful.
+~~~
+globalThis.isDirectEval = false;
+
+{
+  const isDirectEval = true;
+  console.log(eval("isDirectEval")); // true
+  console.log((eval)("isDirectEval")); // true (the grouping operator still returns a reference to `eval`)
+  console.log((0, eval)("isDirectEval")); // false (the comma operator returns a new value)
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/Comma_operator
+[no-return-assign] Arrow function should not return assignment.
+~~~
+let sum = 0;
+const squares = [1, 2, 3, 4, 5].map((x) => ((sum += x), x * x));
+console.log(squares); // [1, 4, 9, 16, 25]
+console.log(sum); // 15
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/Comma_operator
+[no-return-assign] Return statement should not contain assignment.
+~~~
+function myFunc() {
+  let x = 0;
+
+  return (x += 1, x); // the same as return ++x;
+}
+~~~
+
 /en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator
 [no-else-return] Unnecessary 'else' after 'return'.
 ~~~
@@ -2606,6 +3618,14 @@ if (!myCar instanceof Car) {
 }
 ~~~
 
+/en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND
+[no-self-compare] Comparing to itself is potentially pointless.
+~~~
+true || false && false; // true
+true && (false || false); // false
+(2 === 3) || (4 < 0) && (1 === 1); // false
+~~~
+
 /en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND_assignment
 [no-const-assign] 'x' is constant.
 ~~~
@@ -2679,6 +3699,12 @@ async function* foo() {
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors
+[no-eval] eval can be harmful.
+~~~
+const x = eval(`document.forms.form_name.elements.${strFormControl}.value`);
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors
 [syntax] Parsing error: Unexpected keyword or identifier.
 ~~~
 const object = {};
@@ -2711,6 +3737,21 @@ class Bad extends Base {
 new Good();
 new AlsoGood();
 new Bad(); // ReferenceError: Must call super constructor in derived class before accessing 'this' or returning from derived constructor
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/this
+[no-eval] eval can be harmful.
+~~~
+function test() {
+  // Direct eval
+  console.log(eval("this") === this);
+  // Indirect eval, non-strict
+  console.log(eval?.("this") === globalThis);
+  // Indirect eval, strict
+  console.log(eval?.("'use strict'; this") === globalThis);
+}
+
+test.call({ name: "obj" }); // Logs 3 "true"
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Operators/this
@@ -2779,6 +3820,12 @@ const func = new Function();
 typeof func; // "function"
 ~~~
 
+/en-US/docs/Web/JavaScript/Reference/Regular_expressions
+[prefer-regex-literals] Use a regular expression literal instead of the 'RegExp' constructor.
+~~~
+const regex2 = new RegExp("ab+c", "g");
+~~~
+
 /en-US/docs/Web/JavaScript/Reference/Statements
 [no-unused-labels] 'label:' is defined but never used.
 ~~~
@@ -2789,6 +3836,24 @@ label: {
 if (condition) {
   let i = 0;
 }
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/block
+[no-constant-condition] Unexpected constant condition.
+~~~
+var x = 1;
+let y = 1;
+
+if (true) {
+  var x = 2;
+  let y = 2;
+}
+
+console.log(x);
+// Expected output: 2
+
+console.log(y);
+// Expected output: 1
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Statements/class
@@ -2809,6 +3874,26 @@ class Foo2 {
 class Foo3 {}
 Foo3 = 1;
 console.log(Foo3); // 1
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/do...while
+[no-constant-condition] Unexpected constant condition.
+~~~
+do {
+  if (!user.loggedIn) {
+    console.log("You are not logged in");
+    break;
+  }
+  const friends = user.getFriends();
+  if (!friends.length) {
+    console.log("No friends found");
+    break;
+  }
+  for (const friend of friends) {
+    handleFriend(friend);
+  }
+} while (false);
+// The rest of code
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Statements/export
@@ -2898,6 +3983,54 @@ foo(1, 2, 3);
 // 1
 // 2
 // 3
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/function
+[no-constant-condition] Unexpected constant condition.
+~~~
+console.log(
+  `'foo' name ${
+    "foo" in globalThis ? "is" : "is not"
+  } global. typeof foo is ${typeof foo}`,
+);
+if (false) {
+  function foo() {
+    return 1;
+  }
+}
+
+// In Chrome:
+// 'foo' name is global. typeof foo is undefined
+//
+// In Firefox:
+// 'foo' name is global. typeof foo is undefined
+//
+// In Safari:
+// 'foo' name is global. typeof foo is function
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/function
+[no-constant-condition] Unexpected constant condition.
+~~~
+console.log(
+  `'foo' name ${
+    "foo" in globalThis ? "is" : "is not"
+  } global. typeof foo is ${typeof foo}`,
+);
+if (true) {
+  function foo() {
+    return 1;
+  }
+}
+
+// In Chrome:
+// 'foo' name is global. typeof foo is undefined
+//
+// In Firefox:
+// 'foo' name is global. typeof foo is undefined
+//
+// In Safari:
+// 'foo' name is global. typeof foo is function
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Statements/function*
@@ -2993,6 +4126,7 @@ while ((currentNode = iterator.nextNode()) && currentNode) {
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Strict_mode
+[func-style] Expected a function declaration.
 [no-new-func] The Function constructor is eval.
 ~~~
 "use strict";
@@ -3007,6 +4141,15 @@ function x(eval) {}
 function arguments() {}
 const y = function eval() {};
 const f = new Function("arguments", "'use strict'; return 17;");
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Strict_mode
+[no-eval] eval can be harmful.
+~~~
+var x = 17;
+var evalX = eval("'use strict'; var x = 42; x;");
+console.assert(x === 17);
+console.assert(evalX === 42);
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Strict_mode
@@ -3033,6 +4176,25 @@ function recursive(strings, ...values) {
 recursive`Hello``World`;
 // [ 'Hello' ] []
 // [ 'World' ] []
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Template_literals
+[no-self-compare] Comparing to itself is potentially pointless.
+~~~
+const callHistory = [];
+
+function tag(strings, ...values) {
+  callHistory.push(strings);
+  // Return a freshly made object
+  return {};
+}
+
+function evaluateLiteral() {
+  return tag`Hello, ${"world"}!`;
+}
+
+console.log(evaluateLiteral() === evaluateLiteral()); // false; each time `tag` is called, it returns a new object
+console.log(callHistory[0] === callHistory[1]); // true; all evaluations of the same tagged literal would pass in the same strings array
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Template_literals

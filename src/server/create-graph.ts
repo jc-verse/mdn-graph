@@ -333,7 +333,7 @@ export default async function createContentGraph() {
         }
         linkTargets.push(href);
       });
-      let selector = "pre:not(.css-formal-syntax)";
+      let selector = "pre:not(.css-formal-syntax, [class*='live-sample---'])";
       if (
         part.value.id === "syntax" &&
         ![
@@ -522,8 +522,13 @@ export default async function createContentGraph() {
         }
       }
     }
+    const codes = pageToCodes.get(node.id) ?? [];
+    pageToCodes.set(node.id, codes);
     for (const liveSample of node.data.live_samples) {
       const { css = "", js = "", html = "" } = liveSample;
+      if (css) codes.push({ language: "css", content: css });
+      if (js) codes.push({ language: "js", content: js });
+      if (html) codes.push({ language: "html", content: html });
       const jsSrcReferences = js.matchAll(/\.src = ["']([^"']+)["']/g);
       // Used by Web/API/XMLHttpRequest/load_event and others
       const jsFuncReferences = js.matchAll(
