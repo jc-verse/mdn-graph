@@ -37,6 +37,15 @@ window.requestAnimationFrame =
   window.msRequestAnimationFrame;
 ~~~
 
+/en-US/docs/Learn_web_development/Core/CSS_layout/Supporting_Older_Browsers
+[declaration-block-no-duplicate-properties] Unexpected duplicate "display" (declaration-block-no-duplicate-properties)
+~~~
+.container {
+  display: inline-flex;
+  display: inline flex;
+}
+~~~
+
 /en-US/docs/Learn_web_development/Core/Frameworks_libraries/Ember_routing
 [array-callback-return] Array.prototype.map() expects a return value from function.
 ~~~
@@ -441,6 +450,30 @@ asyncHandler(async (req, res, next) => {
 });
 ~~~
 
+/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS
+[declaration-block-no-duplicate-properties] Unexpected duplicate "background-color" (declaration-block-no-duplicate-properties)
+~~~
+button {
+  /* … */
+
+  background-color: #ff0000;
+  background-color: rgb(255 0 0 / 100%);
+  box-shadow:
+    inset 1px 1px 3px rgb(255 255 255 / 40%),
+    inset -1px -1px 3px rgb(0 0 0 / 40%);
+}
+
+button:hover {
+  background-color: rgb(255 0 0 / 50%);
+}
+
+button:active {
+  box-shadow:
+    inset 1px 1px 3px rgb(0 0 0 / 40%),
+    inset -1px -1px 3px rgb(255 255 255 / 40%);
+}
+~~~
+
 /en-US/docs/Learn_web_development/Getting_started/Environment_setup/Code_editors
 [syntax] Parsing error: Unterminated string literal.
 ~~~
@@ -452,6 +485,15 @@ function createGreeting(name) {
 const helloChris = createGreeting("Chris);
 
 console.log(helloChris;
+~~~
+
+/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/CSS_FAQ
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "font" after "font-weight" (declaration-block-no-shorthand-property-overrides)
+~~~
+#stockTicker {
+  font-weight: bold;
+  font: 12px Verdana; /* font-weight is now set to normal */
+}
 ~~~
 
 /en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_are_browser_developer_tools
@@ -1379,6 +1421,173 @@ var global = { data: 0 };
 alert(global === window.global); // displays "true"
 ~~~
 
+/en-US/docs/Web/CSS/:autofill
+[function-no-unknown] Unexpected unknown function "-internal-light-dark" (function-no-unknown)
+~~~
+background-color: rgb(232 240 254) !important;
+background-image: none !important;
+color: -internal-light-dark(black, white) !important;
+~~~
+
+/en-US/docs/Web/CSS/@import
+[no-invalid-position-at-import-rule] Unexpected invalid position @import rule (no-invalid-position-at-import-rule)
+~~~
+* {
+  margin: 0;
+  padding: 0;
+}
+/* more styles */
+@import url("my-imported-styles.css");
+~~~
+
+/en-US/docs/Web/CSS/@keyframes
+[keyframe-block-no-duplicate-selectors] Unexpected duplicate "50%" (keyframe-block-no-duplicate-selectors)
+~~~
+@keyframes identifier {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: 30px;
+    left: 20px;
+  }
+  50% {
+    top: 10px;
+  }
+  100% {
+    top: 0;
+  }
+}
+~~~
+
+/en-US/docs/Web/CSS/border-bottom
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-bottom" after "border-bottom-style" (declaration-block-no-shorthand-property-overrides)
+~~~
+border-bottom-style: dotted;
+border-bottom: thick green;
+~~~
+
+/en-US/docs/Web/CSS/border-bottom
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-bottom" after "border-bottom-style" (declaration-block-no-shorthand-property-overrides)
+~~~
+border-bottom-style: dotted;
+border-bottom: none thick green;
+~~~
+
+/en-US/docs/Web/CSS/border-left
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-left" after "border-left-style" (declaration-block-no-shorthand-property-overrides)
+~~~
+border-left-style: dotted;
+border-left: thick green;
+~~~
+
+/en-US/docs/Web/CSS/border-left
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-left" after "border-left-style" (declaration-block-no-shorthand-property-overrides)
+~~~
+border-left-style: dotted;
+border-left: none thick green;
+~~~
+
+/en-US/docs/Web/CSS/border-right
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-right" after "border-right-style" (declaration-block-no-shorthand-property-overrides)
+~~~
+border-right-style: dotted;
+border-right: thick green;
+~~~
+
+/en-US/docs/Web/CSS/border-right
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-right" after "border-right-style" (declaration-block-no-shorthand-property-overrides)
+~~~
+border-right-style: dotted;
+border-right: none thick green;
+~~~
+
+/en-US/docs/Web/CSS/border-top
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-top" after "border-top-style" (declaration-block-no-shorthand-property-overrides)
+~~~
+border-top-style: dotted;
+border-top: thick green;
+~~~
+
+/en-US/docs/Web/CSS/border-top
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-top" after "border-top-style" (declaration-block-no-shorthand-property-overrides)
+~~~
+border-top-style: dotted;
+border-top: none thick green;
+~~~
+
+/en-US/docs/Web/CSS/CSS_cascade/Shorthand_properties
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "background" after "background-color" (declaration-block-no-shorthand-property-overrides)
+~~~
+p {
+  background-color: red;
+  background: url(images/bg.gif) no-repeat left top;
+}
+~~~
+
+/en-US/docs/Web/CSS/CSS_colors/Applying_color
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "text-decoration" after "text-decoration-color" (declaration-block-no-shorthand-property-overrides)
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "text-decoration" after "text-decoration-line" (declaration-block-no-shorthand-property-overrides)
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "text-decoration" after "text-decoration-style" (declaration-block-no-shorthand-property-overrides)
+~~~
+.wrapper {
+  height: 110px;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  text-align: center;
+  font:
+    28px "Marker Felt",
+    "Zapfino",
+    cursive;
+  border: 6px solid mediumturquoise;
+}
+
+div {
+  flex: 1;
+}
+
+.boxLeft {
+  background-color: rgb(245 130 130);
+  outline: 2px solid darkred;
+}
+
+.boxRight {
+  background-color: hwb(270deg 63% 13%);
+  outline: 4px dashed #6e1478;
+  color: hsl(0deg 100% 100%);
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #8f8;
+  text-decoration: underline wavy #8f8;
+  text-shadow: 2px 2px 3px black;
+}
+~~~
+
+/en-US/docs/Web/CSS/CSS_conditional_rules/Using_feature_queries
+[no-invalid-position-at-import-rule] Unexpected invalid position @import rule (no-invalid-position-at-import-rule)
+~~~
+/* `@supports` at-rule */
+@supports (color: red) {
+  /* CSS rules to apply */
+}
+
+/* `supports()` function */
+@import "/css/styles.css" supports(color: red);
+~~~
+
+/en-US/docs/Web/CSS/CSS_conditional_rules/Using_feature_queries
+[no-invalid-position-at-import-rule] Unexpected invalid position @import rule (no-invalid-position-at-import-rule)
+~~~
+/* `@supports` at-rule */
+@supports (color: AccentColor) {
+  /* CSS rules to apply */
+}
+
+/* `supports()` function */
+@import "/css/styles.css" supports(color: AccentColor);
+~~~
+
 /en-US/docs/Web/CSS/CSS_syntax/Error_handling
 [CssSyntaxError] Missed semicolon (CssSyntaxError)
 ~~~
@@ -1389,6 +1598,66 @@ p {
 
   /* Valid syntax but likely a logic error */
   border-width: 100vh;
+}
+~~~
+
+/en-US/docs/Web/CSS/display
+[declaration-block-no-duplicate-properties] Unexpected duplicate "display" (declaration-block-no-duplicate-properties)
+~~~
+.container {
+  display: inline-flex;
+  display: inline flex;
+}
+~~~
+
+/en-US/docs/Web/CSS/element
+[color-no-invalid-hex] Unexpected invalid hex color "#css" (color-no-invalid-hex)
+~~~
+#css-result {
+  background: -moz-element(#css-source) no-repeat;
+  width: 256px;
+  height: 32px;
+  background-size: 80%;
+  border: dashed;
+}
+~~~
+
+/en-US/docs/Web/CSS/font-family
+[color-no-invalid-hex] Unexpected invalid hex color "#POUND" (color-no-invalid-hex)
+~~~
+font-family: Goudy Bookletter 1911, sans-serif;
+font-family: Red/Black, sans-serif;
+font-family: "Lucida" Grande, sans-serif;
+font-family: Ahem!, sans-serif;
+font-family: test@foo, sans-serif;
+font-family: #POUND, sans-serif;
+font-family: Hawaii 5-0, sans-serif;
+~~~
+
+/en-US/docs/Web/CSS/important
+[declaration-block-no-duplicate-custom-properties] Unexpected duplicate "--myColor" (declaration-block-no-duplicate-custom-properties)
+[declaration-block-no-duplicate-properties] Unexpected duplicate "color" (declaration-block-no-duplicate-properties)
+~~~
+:root {
+  --myColor: red !important;
+  --myColor: blue;
+}
+p {
+  color: var(--myColor);
+}
+blockquote {
+  color: var(--myColor);
+  color: purple;
+}
+~~~
+
+/en-US/docs/Web/CSS/important
+[declaration-block-no-duplicate-properties] Unexpected duplicate "property" (declaration-block-no-duplicate-properties)
+~~~
+selector {
+  property: value; /* normal declaration */
+  property: value !important; /* important declaration (preferred) */
+  property: value ! important; /* important declaration (not preferred) */
 }
 ~~~
 

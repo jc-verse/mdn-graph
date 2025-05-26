@@ -2,6 +2,7 @@ import { ESLint } from "eslint";
 import stylelint from "stylelint";
 import { parse as htmlParse } from "angular-html-parser";
 import eslintConfig from "../../config/eslint-config.ts";
+import stylelintConfig from "../../config/stylelint-config.ts";
 
 const sanctionedLanguages = [
   "apacheconf",
@@ -46,13 +47,6 @@ const sanctionedLanguages = [
   "xml",
   "yaml",
 ];
-
-const stylelintConfig = {
-  fix: false,
-  rules: {
-    // No rules for now
-  },
-};
 
 const expectedErrors = (
   await Bun.file(
@@ -157,10 +151,11 @@ export async function checkCode(
           }
         }
       } else if (["css"].includes(language)) {
+        const isPropertyOnly = !content.includes("{");
         const results = await stylelint.lint({
           code: content,
           codeFilename: `${node.id.replace("/en-US/docs/", "")}/test.css`,
-          config: stylelintConfig,
+          config: stylelintConfig(isPropertyOnly),
           cache: false,
         });
         for (const result of results.results) {
@@ -185,7 +180,7 @@ export async function checkCode(
               msg.text,
               content.split("\n")[msg.line - 1] || content,
               `${msg.line}:${msg.column}`,
-                `${node.id}\n[${msg.rule}] ${msg.text}\n~~~\n${content}~~~\n`,
+              `${node.id}\n[${msg.rule}] ${msg.text}\n~~~\n${content}~~~\n`,
             );
           });
         }
