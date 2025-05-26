@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-xzx2tmn2.js";
+} from "./chunk-bs6cfmed.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -236,6 +236,13 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://trac.webkit.org/wiki/JavaScriptCore",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -1292,8 +1299,324 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://phabricator.wikimedia.org/T241180",
-                            "429 Retry-After: 1000"
+                            "https://new.drupal.org/",
+                            403
+                          ]
+                        }
+                      ]
+                    },
+                    react_todo_list_beginning: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_todo_list_beginning",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-block-no-duplicate-properties",
+                            'Unexpected duplicate "clip" (declaration-block-no-duplicate-properties)',
+                            "  clip: rect(1px 1px 1px 1px);",
+                            "120:3",
+                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_todo_list_beginning
+[declaration-block-no-duplicate-properties] Unexpected duplicate "clip" (declaration-block-no-duplicate-properties)
+~~~
+/* Resets */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+*:focus-visible {
+  outline: 3px dashed #228bec;
+  outline-offset: 0;
+}
+html {
+  font: 62.5% / 1.15 sans-serif;
+}
+h1,
+h2 {
+  margin-bottom: 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+button {
+  -moz-osx-font-smoothing: inherit;
+  -webkit-font-smoothing: inherit;
+  appearance: none;
+  background: transparent;
+  border: none;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  margin: 0;
+  overflow: visible;
+  padding: 0;
+  width: auto;
+}
+button::-moz-focus-inner {
+  border: 0;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+button,
+input {
+  overflow: visible;
+}
+input[type="text"] {
+  border-radius: 0;
+}
+body {
+  background-color: #f5f5f5;
+  color: #4d4d4d;
+  font:
+    1.6rem/1.25 Arial,
+    sans-serif;
+  margin: 0 auto;
+  max-width: 68rem;
+  width: 100%;
+}
+@media screen and (min-width: 620px) {
+  body {
+    font-size: 1.9rem;
+    line-height: 1.31579;
+  }
+}
+/* End resets */
+/* Global styles */
+.form-group > input[type="text"] {
+  display: inline-block;
+  margin-top: 0.4rem;
+}
+.btn {
+  border: 0.2rem solid #4d4d4d;
+  cursor: pointer;
+  padding: 0.8rem 1rem 0.7rem;
+  text-transform: capitalize;
+}
+.btn.toggle-btn {
+  border-color: #d3d3d3;
+  border-width: 1px;
+}
+.btn.toggle-btn[aria-pressed="true"] {
+  border-color: #4d4d4d;
+  text-decoration: underline;
+}
+.btn__danger {
+  background-color: #ca3c3c;
+  border-color: #bd2130;
+  color: #fff;
+}
+.btn__filter {
+  border-color: lightgrey;
+}
+.btn__primary {
+  background-color: #000;
+  color: #fff;
+}
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+}
+.btn-group > * {
+  flex: 1 1 49%;
+}
+.btn-group > * + * {
+  margin-left: 0.8rem;
+}
+.label-wrapper {
+  flex: 0 0 100%;
+  margin: 0;
+  text-align: center;
+}
+.visually-hidden {
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute !important;
+  white-space: nowrap;
+  width: 1px;
+}
+[class*="stack"] > * {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.stack-small > * + * {
+  margin-top: 1.25rem;
+}
+.stack-large > * + * {
+  margin-top: 2.5rem;
+}
+@media screen and (min-width: 550px) {
+  .stack-small > * + * {
+    margin-top: 1.4rem;
+  }
+  .stack-large > * + * {
+    margin-top: 2.8rem;
+  }
+}
+.stack-exception {
+  margin-top: 1.2rem;
+}
+/* End global styles */
+/* General app styles */
+.todoapp {
+  background: #fff;
+  box-shadow:
+    0 2px 4px 0 rgb(0 0 0 / 20%),
+    0 2.5rem 5rem 0 rgb(0 0 0 / 10%);
+  margin: 2rem 0 4rem 0;
+  padding: 1rem;
+  position: relative;
+}
+@media screen and (min-width: 550px) {
+  .todoapp {
+    padding: 4rem;
+  }
+}
+.todoapp > * {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50rem;
+}
+.todoapp > form {
+  max-width: 100%;
+}
+.todoapp > h1 {
+  display: block;
+  margin: 0;
+  margin-bottom: 1rem;
+  max-width: 100%;
+  text-align: center;
+}
+.label__lg {
+  line-height: 1.01567;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+  text-align: center;
+}
+.input__lg {
+  border: 2px solid #000;
+  padding: 2rem;
+}
+.input__lg:focus-visible {
+  border-color: #4d4d4d;
+  box-shadow: inset 0 0 0 2px;
+}
+[class*="__lg"] {
+  display: inline-block;
+  font-size: 1.9rem;
+  width: 100%;
+}
+[class*="__lg"]:not(:last-child) {
+  margin-bottom: 1rem;
+}
+@media screen and (min-width: 620px) {
+  [class*="__lg"] {
+    font-size: 2.4rem;
+  }
+}
+/* End general app styles */
+/* Todo item styles */
+.todo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.todo > * {
+  flex: 0 0 100%;
+}
+.todo-text {
+  border: 2px solid #565656;
+  min-height: 4.4rem;
+  padding: 0.4rem 0.8rem;
+  width: 100%;
+}
+.todo-text:focus-visible {
+  box-shadow: inset 0 0 0 2px;
+}
+/* End todo item styles */
+/* Checkbox styles */
+.c-cb {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  clear: left;
+  display: block;
+  font-family: Arial, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.25;
+  min-height: 44px;
+  padding-left: 40px;
+  position: relative;
+}
+.c-cb > label::before,
+.c-cb > input[type="checkbox"] {
+  box-sizing: border-box;
+  height: 44px;
+  left: -2px;
+  top: -2px;
+  width: 44px;
+}
+.c-cb > input[type="checkbox"] {
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  margin: 0;
+  opacity: 0;
+  position: absolute;
+  z-index: 1;
+}
+.c-cb > label {
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  margin-bottom: 0;
+  padding: 8px 15px 5px;
+  touch-action: manipulation;
+}
+.c-cb > label::before {
+  background: transparent;
+  border: 2px solid currentcolor;
+  content: "";
+  position: absolute;
+}
+.c-cb > input[type="checkbox"]:focus-visible + label::before {
+  border-width: 4px;
+  outline: 3px dashed #228bec;
+}
+.c-cb > label::after {
+  background: transparent;
+  border: solid;
+  border-width: 0 0 5px 5px;
+  border-top-color: transparent;
+  box-sizing: content-box;
+  content: "";
+  height: 7px;
+  left: 9px;
+  opacity: 0;
+  position: absolute;
+  top: 11px;
+  transform: rotate(-45deg);
+  width: 18px;
+}
+.c-cb > input[type="checkbox"]:checked + label::after {
+  opacity: 1;
+}
+/* End checkbox styles */
+~~~
+`
                           ]
                         }
                       ]
@@ -1373,6 +1696,322 @@ const checkAllTodos = (completed) => {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-block-no-duplicate-properties",
+                            'Unexpected duplicate "clip" (declaration-block-no-duplicate-properties)',
+                            "  clip: rect(1px 1px 1px 1px);",
+                            "129:3",
+                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_Todo_list_beginning
+[declaration-block-no-duplicate-properties] Unexpected duplicate "clip" (declaration-block-no-duplicate-properties)
+~~~
+/* RESETS */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+*:focus {
+  outline: 3px dashed #228bec;
+  outline-offset: 0;
+}
+html {
+  font: 62.5% / 1.15 sans-serif;
+}
+h1,
+h2 {
+  margin-bottom: 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  appearance: none;
+}
+button::-moz-focus-inner {
+  border: 0;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+button,
+input {
+  overflow: visible;
+}
+input[type="text"] {
+  border-radius: 0;
+}
+body {
+  width: 100%;
+  max-width: 68rem;
+  margin: 0 auto;
+  font:
+    1.6rem/1.25 Arial,
+    sans-serif;
+  background-color: #f5f5f5;
+  color: #4d4d4d;
+}
+@media screen and (min-width: 620px) {
+  body {
+    font-size: 1.9rem;
+    line-height: 1.31579;
+  }
+}
+/*END RESETS*/
+
+/* GLOBAL STYLES */
+.form-group > input[type="text"] {
+  display: inline-block;
+  margin-top: 0.4rem;
+}
+.btn {
+  padding: 0.8rem 1rem 0.7rem;
+  border: 0.2rem solid #4d4d4d;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.btn.toggle-btn {
+  border-width: 1px;
+  border-color: #d3d3d3;
+}
+.btn.toggle-btn[aria-pressed="true"] {
+  text-decoration: underline;
+  border-color: #4d4d4d;
+}
+.btn__danger {
+  color: #fff;
+  background-color: #ca3c3c;
+  border-color: #bd2130;
+}
+.btn__filter {
+  border-color: lightgrey;
+}
+.btn__primary {
+  color: #fff;
+  background-color: #000;
+}
+.btn__primary:disabled {
+  color: darkgrey;
+  background-color: #565656;
+}
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+}
+.btn-group > * {
+  flex: 1 1 49%;
+}
+.btn-group > * + * {
+  margin-left: 0.8rem;
+}
+.label-wrapper {
+  margin: 0;
+  flex: 0 0 100%;
+  text-align: center;
+}
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+}
+[class*="stack"] > * {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.stack-small > * + * {
+  margin-top: 1.25rem;
+}
+.stack-large > * + * {
+  margin-top: 2.5rem;
+}
+@media screen and (min-width: 550px) {
+  .stack-small > * + * {
+    margin-top: 1.4rem;
+  }
+  .stack-large > * + * {
+    margin-top: 2.8rem;
+  }
+}
+.stack-exception {
+  margin-top: 1.2rem;
+}
+/* END GLOBAL STYLES */
+
+.todoapp {
+  background: #fff;
+  margin: 2rem 0 4rem 0;
+  padding: 1rem;
+  position: relative;
+  box-shadow:
+    0 2px 4px 0 rgb(0 0 0 / 20%),
+    0 2.5rem 5rem 0 rgb(0 0 0 / 10%);
+}
+@media screen and (min-width: 550px) {
+  .todoapp {
+    padding: 4rem;
+  }
+}
+.todoapp > * {
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.todoapp > form {
+  max-width: 100%;
+}
+.todoapp > h1 {
+  display: block;
+  max-width: 100%;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+.label__lg {
+  line-height: 1.01567;
+  font-weight: 300;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.input__lg {
+  padding: 2rem;
+  border: 2px solid #000;
+}
+.input__lg:focus {
+  border-color: #4d4d4d;
+  box-shadow: inset 0 0 0 2px;
+}
+[class*="__lg"] {
+  display: inline-block;
+  width: 100%;
+  font-size: 1.9rem;
+}
+[class*="__lg"]:not(:last-child) {
+  margin-bottom: 1rem;
+}
+@media screen and (min-width: 620px) {
+  [class*="__lg"] {
+    font-size: 2.4rem;
+  }
+}
+.filters {
+  width: 100%;
+  margin: unset auto;
+}
+/* Todo item styles */
+.todo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.todo > * {
+  flex: 0 0 100%;
+}
+.todo-text {
+  width: 100%;
+  min-height: 4.4rem;
+  padding: 0.4rem 0.8rem;
+  border: 2px solid #565656;
+}
+.todo-text:focus {
+  box-shadow: inset 0 0 0 2px;
+}
+/* CHECKBOX STYLES */
+.c-cb {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.25;
+  display: block;
+  position: relative;
+  min-height: 44px;
+  padding-left: 40px;
+  clear: left;
+}
+.c-cb > label::before,
+.c-cb > input[type="checkbox"] {
+  box-sizing: border-box;
+  top: -2px;
+  left: -2px;
+  width: 44px;
+  height: 44px;
+}
+.c-cb > input[type="checkbox"] {
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  position: absolute;
+  z-index: 1;
+  margin: 0;
+  opacity: 0;
+}
+.c-cb > label {
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  display: inline-block;
+  margin-bottom: 0;
+  padding: 8px 15px 5px;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+.c-cb > label::before {
+  content: "";
+  position: absolute;
+  border: 2px solid currentcolor;
+  background: transparent;
+}
+.c-cb > input[type="checkbox"]:focus + label::before {
+  border-width: 4px;
+  outline: 3px dashed #228bec;
+}
+.c-cb > label::after {
+  box-sizing: content-box;
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: 9px;
+  width: 18px;
+  height: 7px;
+  transform: rotate(-45deg);
+  border: solid;
+  border-width: 0 0 5px 5px;
+  border-top-color: transparent;
+  opacity: 0;
+  background: transparent;
+}
+.c-cb > input[type="checkbox"]:checked + label::after {
+  opacity: 1;
+}
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -1473,6 +2112,20 @@ const checkAllTodos = (completed) => {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/guide/extras/composition-api-faq.html",
+                            "unknown certificate verification error"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/guide/extras/composition-api-faq.html",
+                            "unknown certificate verification error"
+                          ]
                         }
                       ]
                     },
@@ -1483,6 +2136,510 @@ const checkAllTodos = (completed) => {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-block-no-duplicate-properties",
+                            'Unexpected duplicate "font-size" (declaration-block-no-duplicate-properties)',
+                            "  font-size: 16px;",
+                            "6:3",
+                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_styling
+[declaration-block-no-duplicate-properties] Unexpected duplicate "font-size" (declaration-block-no-duplicate-properties)
+~~~
+.custom-checkbox > .checkbox-label {
+  font-family: Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.25;
+  color: #0b0c0c;
+  display: block;
+  margin-bottom: 5px;
+}
+.custom-checkbox > .checkbox {
+  font-family: Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.25;
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  height: 2.5rem;
+  margin-top: 0;
+  padding: 5px;
+  border: 2px solid #0b0c0c;
+  border-radius: 0;
+  appearance: none;
+}
+.custom-checkbox > input:focus {
+  outline: 3px dashed #fd0;
+  outline-offset: 0;
+  box-shadow: inset 0 0 0 2px;
+}
+.custom-checkbox {
+  font-family: Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.25;
+  display: block;
+  position: relative;
+  min-height: 40px;
+  margin-bottom: 10px;
+  padding-left: 40px;
+  clear: left;
+}
+.custom-checkbox > input[type="checkbox"] {
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  position: absolute;
+  z-index: 1;
+  top: -2px;
+  left: -2px;
+  width: 44px;
+  height: 44px;
+  margin: 0;
+  opacity: 0;
+}
+.custom-checkbox > .checkbox-label {
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  display: inline-block;
+  margin-bottom: 0;
+  padding: 8px 15px 5px;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+.custom-checkbox > label::before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border: 2px solid currentcolor;
+  background: transparent;
+}
+.custom-checkbox > input[type="checkbox"]:focus + label::before {
+  border-width: 4px;
+  outline: 3px dashed #228bec;
+}
+.custom-checkbox > label::after {
+  box-sizing: content-box;
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: 9px;
+  width: 18px;
+  height: 7px;
+  transform: rotate(-45deg);
+  border: solid;
+  border-width: 0 0 5px 5px;
+  border-top-color: transparent;
+  opacity: 0;
+  background: transparent;
+}
+.custom-checkbox > input[type="checkbox"]:checked + label::after {
+  opacity: 1;
+}
+@media only screen and (min-width: 40rem) {
+  label,
+  input,
+  .custom-checkbox {
+    font-size: 19px;
+    font-size: 1.9rem;
+    line-height: 1.31579;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-block-no-duplicate-properties",
+                            'Unexpected duplicate "font-size" (declaration-block-no-duplicate-properties)',
+                            "  font-size: 16px;",
+                            "18:3",
+                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_styling
+[declaration-block-no-duplicate-properties] Unexpected duplicate "font-size" (declaration-block-no-duplicate-properties)
+~~~
+.custom-checkbox > .checkbox-label {
+  font-family: Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.25;
+  color: #0b0c0c;
+  display: block;
+  margin-bottom: 5px;
+}
+.custom-checkbox > .checkbox {
+  font-family: Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.25;
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  height: 2.5rem;
+  margin-top: 0;
+  padding: 5px;
+  border: 2px solid #0b0c0c;
+  border-radius: 0;
+  appearance: none;
+}
+.custom-checkbox > input:focus {
+  outline: 3px dashed #fd0;
+  outline-offset: 0;
+  box-shadow: inset 0 0 0 2px;
+}
+.custom-checkbox {
+  font-family: Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.25;
+  display: block;
+  position: relative;
+  min-height: 40px;
+  margin-bottom: 10px;
+  padding-left: 40px;
+  clear: left;
+}
+.custom-checkbox > input[type="checkbox"] {
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  position: absolute;
+  z-index: 1;
+  top: -2px;
+  left: -2px;
+  width: 44px;
+  height: 44px;
+  margin: 0;
+  opacity: 0;
+}
+.custom-checkbox > .checkbox-label {
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  display: inline-block;
+  margin-bottom: 0;
+  padding: 8px 15px 5px;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+.custom-checkbox > label::before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border: 2px solid currentcolor;
+  background: transparent;
+}
+.custom-checkbox > input[type="checkbox"]:focus + label::before {
+  border-width: 4px;
+  outline: 3px dashed #228bec;
+}
+.custom-checkbox > label::after {
+  box-sizing: content-box;
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: 9px;
+  width: 18px;
+  height: 7px;
+  transform: rotate(-45deg);
+  border: solid;
+  border-width: 0 0 5px 5px;
+  border-top-color: transparent;
+  opacity: 0;
+  background: transparent;
+}
+.custom-checkbox > input[type="checkbox"]:checked + label::after {
+  opacity: 1;
+}
+@media only screen and (min-width: 40rem) {
+  label,
+  input,
+  .custom-checkbox {
+    font-size: 19px;
+    font-size: 1.9rem;
+    line-height: 1.31579;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-block-no-duplicate-properties",
+                            'Unexpected duplicate "height" (declaration-block-no-duplicate-properties)',
+                            "  height: 40px;",
+                            "23:3",
+                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_styling
+[declaration-block-no-duplicate-properties] Unexpected duplicate "height" (declaration-block-no-duplicate-properties)
+~~~
+.custom-checkbox > .checkbox-label {
+  font-family: Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.25;
+  color: #0b0c0c;
+  display: block;
+  margin-bottom: 5px;
+}
+.custom-checkbox > .checkbox {
+  font-family: Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.25;
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  height: 2.5rem;
+  margin-top: 0;
+  padding: 5px;
+  border: 2px solid #0b0c0c;
+  border-radius: 0;
+  appearance: none;
+}
+.custom-checkbox > input:focus {
+  outline: 3px dashed #fd0;
+  outline-offset: 0;
+  box-shadow: inset 0 0 0 2px;
+}
+.custom-checkbox {
+  font-family: Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.25;
+  display: block;
+  position: relative;
+  min-height: 40px;
+  margin-bottom: 10px;
+  padding-left: 40px;
+  clear: left;
+}
+.custom-checkbox > input[type="checkbox"] {
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  position: absolute;
+  z-index: 1;
+  top: -2px;
+  left: -2px;
+  width: 44px;
+  height: 44px;
+  margin: 0;
+  opacity: 0;
+}
+.custom-checkbox > .checkbox-label {
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  display: inline-block;
+  margin-bottom: 0;
+  padding: 8px 15px 5px;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+.custom-checkbox > label::before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border: 2px solid currentcolor;
+  background: transparent;
+}
+.custom-checkbox > input[type="checkbox"]:focus + label::before {
+  border-width: 4px;
+  outline: 3px dashed #228bec;
+}
+.custom-checkbox > label::after {
+  box-sizing: content-box;
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: 9px;
+  width: 18px;
+  height: 7px;
+  transform: rotate(-45deg);
+  border: solid;
+  border-width: 0 0 5px 5px;
+  border-top-color: transparent;
+  opacity: 0;
+  background: transparent;
+}
+.custom-checkbox > input[type="checkbox"]:checked + label::after {
+  opacity: 1;
+}
+@media only screen and (min-width: 40rem) {
+  label,
+  input,
+  .custom-checkbox {
+    font-size: 19px;
+    font-size: 1.9rem;
+    line-height: 1.31579;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-block-no-duplicate-properties",
+                            'Unexpected duplicate "font-size" (declaration-block-no-duplicate-properties)',
+                            "    font-size: 19px;",
+                            "108:5",
+                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_styling
+[declaration-block-no-duplicate-properties] Unexpected duplicate "font-size" (declaration-block-no-duplicate-properties)
+~~~
+.custom-checkbox > .checkbox-label {
+  font-family: Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.25;
+  color: #0b0c0c;
+  display: block;
+  margin-bottom: 5px;
+}
+.custom-checkbox > .checkbox {
+  font-family: Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.25;
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  height: 2.5rem;
+  margin-top: 0;
+  padding: 5px;
+  border: 2px solid #0b0c0c;
+  border-radius: 0;
+  appearance: none;
+}
+.custom-checkbox > input:focus {
+  outline: 3px dashed #fd0;
+  outline-offset: 0;
+  box-shadow: inset 0 0 0 2px;
+}
+.custom-checkbox {
+  font-family: Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.25;
+  display: block;
+  position: relative;
+  min-height: 40px;
+  margin-bottom: 10px;
+  padding-left: 40px;
+  clear: left;
+}
+.custom-checkbox > input[type="checkbox"] {
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  position: absolute;
+  z-index: 1;
+  top: -2px;
+  left: -2px;
+  width: 44px;
+  height: 44px;
+  margin: 0;
+  opacity: 0;
+}
+.custom-checkbox > .checkbox-label {
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  display: inline-block;
+  margin-bottom: 0;
+  padding: 8px 15px 5px;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+.custom-checkbox > label::before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border: 2px solid currentcolor;
+  background: transparent;
+}
+.custom-checkbox > input[type="checkbox"]:focus + label::before {
+  border-width: 4px;
+  outline: 3px dashed #228bec;
+}
+.custom-checkbox > label::after {
+  box-sizing: content-box;
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: 9px;
+  width: 18px;
+  height: 7px;
+  transform: rotate(-45deg);
+  border: solid;
+  border-width: 0 0 5px 5px;
+  border-top-color: transparent;
+  opacity: 0;
+  background: transparent;
+}
+.custom-checkbox > input[type="checkbox"]:checked + label::after {
+  opacity: 1;
+}
+@media only screen and (min-width: 40rem) {
+  label,
+  input,
+  .custom-checkbox {
+    font-size: 19px;
+    font-size: 1.9rem;
+    line-height: 1.31579;
+  }
+}
+~~~
+`
+                          ]
                         }
                       ]
                     }
@@ -1497,19 +2654,6 @@ const checkAllTodos = (completed) => {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    },
-                    html_images: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://copyrightservice.co.uk/copyright/p27_work_of_others",
-                            403
-                          ]
                         }
                       ]
                     },
@@ -1660,15 +2804,1859 @@ const checkAllTodos = (completed) => {
                     }
                   }
                 },
+                "client-side_tools": {
+                  children: {
+                    introducing_complete_toolchain: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/features.html",
+                            "unknown certificate verification error"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/features.html",
+                            "unknown certificate verification error"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 forms: {
                   children: {
                     how_to_build_custom_form_controls: {
-                      children: {},
+                      children: {
+                        example_1: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls/Example_1",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-block-no-duplicate-properties",
+                                'Unexpected duplicate "background" (declaration-block-no-duplicate-properties)',
+                                "  background: #f0f0f0;",
+                                "45:3",
+                                `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls/Example_1
+[declaration-block-no-duplicate-properties] Unexpected duplicate "background" (declaration-block-no-duplicate-properties)
+~~~
+/* --------------- */
+/* Required Styles */
+/* --------------- */
+
+.select {
+  position: relative;
+  display: inline-block;
+}
+
+.select.active,
+.select:focus {
+  box-shadow: 0 0 3px 1px #227755;
+  outline-color: transparent;
+}
+
+.select .optList {
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.select .optList.hidden {
+  max-height: 0;
+  visibility: hidden;
+}
+
+/* ------------ */
+/* Fancy Styles */
+/* ------------ */
+
+.select {
+  font-size: 0.625em; /* 10px */
+  font-family: Verdana, Arial, sans-serif;
+
+  box-sizing: border-box;
+
+  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
+  width: 10em; /* 100px */
+
+  border: 0.2em solid #000; /* 2px */
+  border-radius: 0.4em; /* 4px */
+
+  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
+
+  background: #f0f0f0;
+  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
+}
+
+.select .value {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: top;
+}
+
+.select::after {
+  content: "▼";
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 2em; /* 20px */
+  top: 0;
+  right: 0;
+
+  padding-top: 0.1em;
+
+  box-sizing: border-box;
+
+  text-align: center;
+
+  border-left: 0.2em solid #000;
+  border-radius: 0 0.1em 0.1em 0;
+
+  background-color: #000;
+  color: #fff;
+}
+
+.select .optList {
+  z-index: 2;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  background: #f0f0f0;
+  border: 0.2em solid #000;
+  border-top-width: 0.1em;
+  border-radius: 0 0 0.4em 0.4em;
+
+  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
+
+  box-sizing: border-box;
+
+  min-width: 100%;
+  max-height: 10em; /* 100px */
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.select .option {
+  padding: 0.2em 0.3em;
+}
+
+.select .highlight {
+  background: #000;
+  color: #ffffff;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-block-no-duplicate-properties",
+                                'Unexpected duplicate "background" (declaration-block-no-duplicate-properties)',
+                                "  background: #f0f0f0;",
+                                "45:3",
+                                `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls/Example_1
+[declaration-block-no-duplicate-properties] Unexpected duplicate "background" (declaration-block-no-duplicate-properties)
+~~~
+/* --------------- */
+/* Required Styles */
+/* --------------- */
+
+.select {
+  position: relative;
+  display: inline-block;
+}
+
+.select.active,
+.select:focus {
+  box-shadow: 0 0 3px 1px #227755;
+  outline-color: transparent;
+}
+
+.select .optList {
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.select .optList.hidden {
+  max-height: 0;
+  visibility: hidden;
+}
+
+/* ------------ */
+/* Fancy Styles */
+/* ------------ */
+
+.select {
+  font-size: 0.625em; /* 10px */
+  font-family: Verdana, Arial, sans-serif;
+
+  box-sizing: border-box;
+
+  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
+  width: 10em; /* 100px */
+
+  border: 0.2em solid #000; /* 2px */
+  border-radius: 0.4em; /* 4px */
+
+  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
+
+  background: #f0f0f0;
+  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
+}
+
+.select .value {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: top;
+}
+
+.select::after {
+  content: "▼";
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 2em; /* 20px */
+  top: 0;
+  right: 0;
+
+  padding-top: 0.1em;
+
+  box-sizing: border-box;
+
+  text-align: center;
+
+  border-left: 0.2em solid #000;
+  border-radius: 0 0.1em 0.1em 0;
+
+  background-color: #000;
+  color: #fff;
+}
+
+.select .optList {
+  z-index: 2;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  background: #f0f0f0;
+  border: 0.2em solid #000;
+  border-top-width: 0.1em;
+  border-radius: 0 0 0.4em 0.4em;
+
+  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
+
+  box-sizing: border-box;
+
+  min-width: 100%;
+  max-height: 10em; /* 100px */
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.select .option {
+  padding: 0.2em 0.3em;
+}
+
+.select .highlight {
+  background: #000;
+  color: #ffffff;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-block-no-duplicate-properties",
+                                'Unexpected duplicate "background" (declaration-block-no-duplicate-properties)',
+                                "  background: #f0f0f0;",
+                                "45:3",
+                                `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls/Example_1
+[declaration-block-no-duplicate-properties] Unexpected duplicate "background" (declaration-block-no-duplicate-properties)
+~~~
+/* --------------- */
+/* Required Styles */
+/* --------------- */
+
+.select {
+  position: relative;
+  display: inline-block;
+}
+
+.select.active,
+.select:focus {
+  box-shadow: 0 0 3px 1px #227755;
+  outline-color: transparent;
+}
+
+.select .optList {
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.select .optList.hidden {
+  max-height: 0;
+  visibility: hidden;
+}
+
+/* ------------ */
+/* Fancy Styles */
+/* ------------ */
+
+.select {
+  font-size: 0.625em; /* 10px */
+  font-family: Verdana, Arial, sans-serif;
+
+  box-sizing: border-box;
+
+  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
+  width: 10em; /* 100px */
+
+  border: 0.2em solid #000; /* 2px */
+  border-radius: 0.4em; /* 4px */
+
+  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
+
+  background: #f0f0f0;
+  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
+}
+
+.select .value {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: top;
+}
+
+.select::after {
+  content: "▼";
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 2em; /* 20px */
+  top: 0;
+  right: 0;
+
+  padding-top: 0.1em;
+
+  box-sizing: border-box;
+
+  text-align: center;
+
+  border-left: 0.2em solid #000;
+  border-radius: 0 0.1em 0.1em 0;
+
+  background-color: #000;
+  color: #fff;
+}
+
+.select .optList {
+  z-index: 2;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  background: #f0f0f0;
+  border: 0.2em solid #000;
+  border-top-width: 0.1em;
+  border-radius: 0 0 0.4em 0.4em;
+
+  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
+
+  box-sizing: border-box;
+
+  min-width: 100%;
+  max-height: 10em; /* 100px */
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.select .option {
+  padding: 0.2em 0.3em;
+}
+
+.select .highlight {
+  background: #000;
+  color: #fff;
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        example_2: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls/Example_2",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-block-no-duplicate-properties",
+                                'Unexpected duplicate "background" (declaration-block-no-duplicate-properties)',
+                                "  background: #f0f0f0;",
+                                "53:3",
+                                `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls/Example_2
+[declaration-block-no-duplicate-properties] Unexpected duplicate "background" (declaration-block-no-duplicate-properties)
+~~~
+.widget select,
+.no-widget .select {
+  position: absolute;
+  left: -5000em;
+  height: 0;
+  overflow: hidden;
+}
+
+/* --------------- */
+/* Required Styles */
+/* --------------- */
+
+.select {
+  position: relative;
+  display: inline-block;
+}
+
+.select.active,
+.select:focus {
+  box-shadow: 0 0 3px 1px #227755;
+  outline: none;
+}
+
+.select .optList {
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.select .optList.hidden {
+  max-height: 0;
+  visibility: hidden;
+}
+
+/* ------------ */
+/* Fancy Styles */
+/* ------------ */
+
+.select {
+  font-size: 0.625em; /* 10px */
+  font-family: Verdana, Arial, sans-serif;
+
+  box-sizing: border-box;
+
+  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
+  width: 10em; /* 100px */
+
+  border: 0.2em solid #000; /* 2px */
+  border-radius: 0.4em; /* 4px */
+
+  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
+
+  background: #f0f0f0;
+  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
+}
+
+.select .value {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: top;
+}
+
+.select::after {
+  content: "▼";
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 2em; /* 20px */
+  top: 0;
+  right: 0;
+
+  padding-top: 0.1em;
+
+  box-sizing: border-box;
+
+  text-align: center;
+
+  border-left: 0.2em solid #000;
+  border-radius: 0 0.1em 0.1em 0;
+
+  background-color: #000;
+  color: #fff;
+}
+
+.select .optList {
+  z-index: 2;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  background: #f0f0f0;
+  border: 0.2em solid #000;
+  border-top-width: 0.1em;
+  border-radius: 0 0 0.4em 0.4em;
+
+  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
+
+  box-sizing: border-box;
+
+  min-width: 100%;
+  max-height: 10em; /* 100px */
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.select .option {
+  padding: 0.2em 0.3em;
+}
+
+.select .highlight {
+  background: #000;
+  color: #ffffff;
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        example_3: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls/Example_3",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-block-no-duplicate-properties",
+                                'Unexpected duplicate "background" (declaration-block-no-duplicate-properties)',
+                                "  background: #f0f0f0;",
+                                "53:3",
+                                `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls/Example_3
+[declaration-block-no-duplicate-properties] Unexpected duplicate "background" (declaration-block-no-duplicate-properties)
+~~~
+.widget select,
+.no-widget .select {
+  position: absolute;
+  left: -5000em;
+  height: 0;
+  overflow: hidden;
+}
+
+/* --------------- */
+/* Required Styles */
+/* --------------- */
+
+.select {
+  position: relative;
+  display: inline-block;
+}
+
+.select.active,
+.select:focus {
+  box-shadow: 0 0 3px 1px #227755;
+  outline-color: transparent;
+}
+
+.select .optList {
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.select .optList.hidden {
+  max-height: 0;
+  visibility: hidden;
+}
+
+/* ------------ */
+/* Fancy Styles */
+/* ------------ */
+
+.select {
+  font-size: 0.625em; /* 10px */
+  font-family: Verdana, Arial, sans-serif;
+
+  box-sizing: border-box;
+
+  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
+  width: 10em; /* 100px */
+
+  border: 0.2em solid #000; /* 2px */
+  border-radius: 0.4em; /* 4px */
+
+  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
+
+  background: #f0f0f0;
+  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
+}
+
+.select .value {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: top;
+}
+
+.select::after {
+  content: "▼";
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 2em; /* 20px */
+  top: 0;
+  right: 0;
+
+  padding-top: 0.1em;
+
+  box-sizing: border-box;
+
+  text-align: center;
+
+  border-left: 0.2em solid #000;
+  border-radius: 0 0.1em 0.1em 0;
+
+  background-color: #000;
+  color: #fff;
+}
+
+.select .optList {
+  z-index: 2;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  background: #f0f0f0;
+  border: 0.2em solid #000;
+  border-top-width: 0.1em;
+  border-radius: 0 0 0.4em 0.4em;
+
+  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
+
+  box-sizing: border-box;
+
+  min-width: 100%;
+  max-height: 10em; /* 100px */
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.select .option {
+  padding: 0.2em 0.3em;
+}
+
+.select .highlight {
+  background: #000;
+  color: #ffffff;
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        example_4: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls/Example_4",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-block-no-duplicate-properties",
+                                'Unexpected duplicate "background" (declaration-block-no-duplicate-properties)',
+                                "  background: #f0f0f0;",
+                                "53:3",
+                                `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls/Example_4
+[declaration-block-no-duplicate-properties] Unexpected duplicate "background" (declaration-block-no-duplicate-properties)
+~~~
+.widget select,
+.no-widget .select {
+  position: absolute;
+  left: -5000em;
+  height: 0;
+  overflow: hidden;
+}
+
+/* --------------- */
+/* Required Styles */
+/* --------------- */
+
+.select {
+  position: relative;
+  display: inline-block;
+}
+
+.select.active,
+.select:focus {
+  box-shadow: 0 0 3px 1px #227755;
+  outline-color: transparent;
+}
+
+.select .optList {
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.select .optList.hidden {
+  max-height: 0;
+  visibility: hidden;
+}
+
+/* ------------ */
+/* Fancy Styles */
+/* ------------ */
+
+.select {
+  font-size: 0.625em; /* 10px */
+  font-family: Verdana, Arial, sans-serif;
+
+  box-sizing: border-box;
+
+  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
+  width: 10em; /* 100px */
+
+  border: 0.2em solid #000; /* 2px */
+  border-radius: 0.4em; /* 4px */
+
+  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
+
+  background: #f0f0f0;
+  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
+}
+
+.select .value {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: top;
+}
+
+.select::after {
+  content: "▼";
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 2em; /* 20px */
+  top: 0;
+  right: 0;
+
+  padding-top: 0.1em;
+
+  box-sizing: border-box;
+
+  text-align: center;
+
+  border-left: 0.2em solid #000;
+  border-radius: 0 0.1em 0.1em 0;
+
+  background-color: #000;
+  color: #fff;
+}
+
+.select .optList {
+  z-index: 2;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  background: #f0f0f0;
+  border: 0.2em solid #000;
+  border-top-width: 0.1em;
+  border-radius: 0 0 0.4em 0.4em;
+
+  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
+
+  box-sizing: border-box;
+
+  min-width: 100%;
+  max-height: 10em; /* 100px */
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.select .option {
+  padding: 0.2em 0.3em;
+}
+
+.select .highlight {
+  background: #000;
+  color: #ffffff;
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        example_5: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls/Example_5",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-block-no-duplicate-properties",
+                                'Unexpected duplicate "background" (declaration-block-no-duplicate-properties)',
+                                "  background: #f0f0f0;",
+                                "53:3",
+                                `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls/Example_5
+[declaration-block-no-duplicate-properties] Unexpected duplicate "background" (declaration-block-no-duplicate-properties)
+~~~
+.widget select,
+.no-widget .select {
+  position: absolute;
+  left: -5000em;
+  height: 0;
+  overflow: hidden;
+}
+
+/* --------------- */
+/* Required Styles */
+/* --------------- */
+
+.select {
+  position: relative;
+  display: inline-block;
+}
+
+.select.active,
+.select:focus {
+  box-shadow: 0 0 3px 1px #227755;
+  outline-color: transparent;
+}
+
+.select .optList {
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.select .optList.hidden {
+  max-height: 0;
+  visibility: hidden;
+}
+
+/* ------------ */
+/* Fancy Styles */
+/* ------------ */
+
+.select {
+  font-size: 0.625em; /* 10px */
+  font-family: Verdana, Arial, sans-serif;
+
+  box-sizing: border-box;
+
+  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
+  width: 10em; /* 100px */
+
+  border: 0.2em solid #000; /* 2px */
+  border-radius: 0.4em; /* 4px */
+
+  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
+
+  background: #f0f0f0;
+  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
+}
+
+.select .value {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: top;
+}
+
+.select::after {
+  content: "▼";
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 2em; /* 20px */
+  top: 0;
+  right: 0;
+
+  padding-top: 0.1em;
+
+  box-sizing: border-box;
+
+  text-align: center;
+
+  border-left: 0.2em solid #000;
+  border-radius: 0 0.1em 0.1em 0;
+
+  background-color: #000;
+  color: #fff;
+}
+
+.select .optList {
+  z-index: 2;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  background: #f0f0f0;
+  border: 0.2em solid #000;
+  border-top-width: 0.1em;
+  border-radius: 0 0 0.4em 0.4em;
+
+  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
+
+  box-sizing: border-box;
+
+  min-width: 100%;
+  max-height: 10em; /* 100px */
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.select .option {
+  padding: 0.2em 0.3em;
+}
+
+.select .highlight {
+  background: #000;
+  color: #ffffff;
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        }
+                      },
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls",
                       messages: [
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-block-no-duplicate-properties",
+                            'Unexpected duplicate "background" (declaration-block-no-duplicate-properties)',
+                            "  background: #f0f0f0;",
+                            "18:3",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls
+[declaration-block-no-duplicate-properties] Unexpected duplicate "background" (declaration-block-no-duplicate-properties)
+~~~
+.select {
+  /* The computations are made assuming 1em equals 16px which is the default value in most browsers.
+     If you are lost with px to em conversion, try https://nekocalc.com/px-to-em-converter */
+  font-size: 0.625em; /* this (10px) is the new font size context for em value in this context */
+  font-family: Verdana, Arial, sans-serif;
+
+  box-sizing: border-box;
+
+  /* We need extra room for the down arrow we will add */
+  padding: 0.1em 2.5em 0.2em 0.5em;
+  width: 10em; /* 100px */
+
+  border: 0.2em solid #000;
+  border-radius: 0.4em;
+  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%);
+
+  /* The first declaration is for browsers that do not support linear gradients. */
+  background: #f0f0f0;
+  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
+}
+
+.select .value {
+  /* Because the value can be wider than our control, we have to make sure it will not
+     change the control's width. If the content overflows, we display an ellipsis */
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: top;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-block-no-duplicate-properties",
+                            'Unexpected duplicate "background" (declaration-block-no-duplicate-properties)',
+                            "  background: #f0f0f0;",
+                            "37:3",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls
+[declaration-block-no-duplicate-properties] Unexpected duplicate "background" (declaration-block-no-duplicate-properties)
+~~~
+.select {
+  position: relative;
+  display: inline-block;
+}
+
+.select.active,
+.select:focus {
+  box-shadow: 0 0 3px 1px #227755;
+  outline-color: transparent;
+}
+
+.select .optList {
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.select .optList.hidden {
+  max-height: 0;
+  visibility: hidden;
+}
+
+.select {
+  font-size: 0.625em; /* 10px */
+  font-family: Verdana, Arial, sans-serif;
+
+  box-sizing: border-box;
+
+  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
+  width: 10em; /* 100px */
+
+  border: 0.2em solid #000; /* 2px */
+  border-radius: 0.4em; /* 4px */
+
+  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
+
+  background: #f0f0f0;
+  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
+}
+
+.select .value {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: top;
+}
+
+.select::after {
+  content: "▼";
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 2em; /* 20px */
+  top: 0;
+  right: 0;
+
+  padding-top: 0.1em;
+
+  box-sizing: border-box;
+
+  text-align: center;
+
+  border-left: 0.2em solid #000;
+  border-radius: 0 0.1em 0.1em 0;
+
+  background-color: #000;
+  color: #fff;
+}
+
+.select .optList {
+  z-index: 2;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  background: #f0f0f0;
+  border: 0.2em solid #000;
+  border-top-width: 0.1em;
+  border-radius: 0 0 0.4em 0.4em;
+
+  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
+
+  box-sizing: border-box;
+
+  min-width: 100%;
+  max-height: 10em; /* 100px */
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.select .option {
+  padding: 0.2em 0.3em;
+}
+
+.select .highlight {
+  background: #000;
+  color: #ffffff;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-block-no-duplicate-properties",
+                            'Unexpected duplicate "background" (declaration-block-no-duplicate-properties)',
+                            "  background: #f0f0f0;",
+                            "37:3",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls
+[declaration-block-no-duplicate-properties] Unexpected duplicate "background" (declaration-block-no-duplicate-properties)
+~~~
+.select {
+  position: relative;
+  display: inline-block;
+}
+
+.select.active,
+.select:focus {
+  box-shadow: 0 0 3px 1px #227755;
+  outline-color: transparent;
+}
+
+.select .optList {
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.select .optList.hidden {
+  max-height: 0;
+  visibility: hidden;
+}
+
+.select {
+  font-size: 0.625em; /* 10px */
+  font-family: Verdana, Arial, sans-serif;
+
+  box-sizing: border-box;
+
+  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
+  width: 10em; /* 100px */
+
+  border: 0.2em solid #000; /* 2px */
+  border-radius: 0.4em; /* 4px */
+
+  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
+
+  background: #f0f0f0;
+  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
+}
+
+.select .value {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: top;
+}
+
+.select::after {
+  content: "▼";
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 2em; /* 20px */
+  top: 0;
+  right: 0;
+
+  padding-top: 0.1em;
+
+  box-sizing: border-box;
+
+  text-align: center;
+
+  border-left: 0.2em solid #000;
+  border-radius: 0 0.1em 0.1em 0;
+
+  background-color: #000;
+  color: #fff;
+}
+
+.select .optList {
+  z-index: 2;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  background: #f0f0f0;
+  border: 0.2em solid #000;
+  border-top-width: 0.1em;
+  border-radius: 0 0 0.4em 0.4em;
+
+  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
+
+  box-sizing: border-box;
+
+  min-width: 100%;
+  max-height: 10em; /* 100px */
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.select .option {
+  padding: 0.2em 0.3em;
+}
+
+.select .highlight {
+  background: #000;
+  color: #ffffff;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-block-no-duplicate-properties",
+                            'Unexpected duplicate "background" (declaration-block-no-duplicate-properties)',
+                            "  background: #f0f0f0;",
+                            "37:3",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls
+[declaration-block-no-duplicate-properties] Unexpected duplicate "background" (declaration-block-no-duplicate-properties)
+~~~
+.select {
+  position: relative;
+  display: inline-block;
+}
+
+.select.active,
+.select:focus {
+  box-shadow: 0 0 3px 1px #227755;
+  outline-color: transparent;
+}
+
+.select .optList {
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.select .optList.hidden {
+  max-height: 0;
+  visibility: hidden;
+}
+
+.select {
+  font-size: 0.625em; /* 10px */
+  font-family: Verdana, Arial, sans-serif;
+
+  box-sizing: border-box;
+
+  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
+  width: 10em; /* 100px */
+
+  border: 0.2em solid #000; /* 2px */
+  border-radius: 0.4em; /* 4px */
+
+  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
+
+  background: #f0f0f0;
+  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
+}
+
+.select .value {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: top;
+}
+
+.select::after {
+  content: "▼";
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 2em; /* 20px */
+  top: 0;
+  right: 0;
+
+  padding-top: 0.1em;
+
+  box-sizing: border-box;
+
+  text-align: center;
+
+  border-left: 0.2em solid #000;
+  border-radius: 0 0.1em 0.1em 0;
+
+  background-color: #000;
+  color: #fff;
+}
+
+.select .optList {
+  z-index: 2;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  background: #f0f0f0;
+  border: 0.2em solid #000;
+  border-top-width: 0.1em;
+  border-radius: 0 0 0.4em 0.4em;
+
+  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
+
+  box-sizing: border-box;
+
+  min-width: 100%;
+  max-height: 10em; /* 100px */
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.select .option {
+  padding: 0.2em 0.3em;
+}
+
+.select .highlight {
+  background: #000;
+  color: #fff;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-block-no-duplicate-properties",
+                            'Unexpected duplicate "background" (declaration-block-no-duplicate-properties)',
+                            "  background: #f0f0f0;",
+                            "45:3",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls
+[declaration-block-no-duplicate-properties] Unexpected duplicate "background" (declaration-block-no-duplicate-properties)
+~~~
+.widget select,
+.no-widget .select {
+  position: absolute;
+  left: -5000em;
+  height: 0;
+  overflow: hidden;
+}
+
+.select {
+  position: relative;
+  display: inline-block;
+}
+
+.select.active,
+.select:focus {
+  box-shadow: 0 0 3px 1px #227755;
+  outline-color: transparent;
+}
+
+.select .optList {
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.select .optList.hidden {
+  max-height: 0;
+  visibility: hidden;
+}
+
+.select {
+  font-size: 0.625em; /* 10px */
+  font-family: Verdana, Arial, sans-serif;
+
+  box-sizing: border-box;
+
+  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
+  width: 10em; /* 100px */
+
+  border: 0.2em solid #000; /* 2px */
+  border-radius: 0.4em; /* 4px */
+
+  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
+
+  background: #f0f0f0;
+  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
+}
+
+.select .value {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: top;
+}
+
+.select::after {
+  content: "▼";
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 2em; /* 20px */
+  top: 0;
+  right: 0;
+
+  padding-top: 0.1em;
+
+  box-sizing: border-box;
+
+  text-align: center;
+
+  border-left: 0.2em solid #000;
+  border-radius: 0 0.1em 0.1em 0;
+
+  background-color: #000;
+  color: #fff;
+}
+
+.select .optList {
+  z-index: 2;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  background: #f0f0f0;
+  border: 0.2em solid #000;
+  border-top-width: 0.1em;
+  border-radius: 0 0 0.4em 0.4em;
+
+  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
+
+  box-sizing: border-box;
+
+  min-width: 100%;
+  max-height: 10em; /* 100px */
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.select .option {
+  padding: 0.2em 0.3em;
+}
+
+.select .highlight {
+  background: #000;
+  color: #ffffff;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-block-no-duplicate-properties",
+                            'Unexpected duplicate "background" (declaration-block-no-duplicate-properties)',
+                            "  background: #f0f0f0;",
+                            "45:3",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls
+[declaration-block-no-duplicate-properties] Unexpected duplicate "background" (declaration-block-no-duplicate-properties)
+~~~
+.widget select,
+.no-widget .select {
+  position: absolute;
+  left: -5000em;
+  height: 0;
+  overflow: hidden;
+}
+
+.select {
+  position: relative;
+  display: inline-block;
+}
+
+.select.active,
+.select:focus {
+  box-shadow: 0 0 3px 1px #227755;
+  outline-color: transparent;
+}
+
+.select .optList {
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.select .optList.hidden {
+  max-height: 0;
+  visibility: hidden;
+}
+
+.select {
+  font-size: 0.625em; /* 10px */
+  font-family: Verdana, Arial, sans-serif;
+
+  box-sizing: border-box;
+
+  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
+  width: 10em; /* 100px */
+
+  border: 0.2em solid #000; /* 2px */
+  border-radius: 0.4em; /* 4px */
+
+  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
+
+  background: #f0f0f0;
+  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
+}
+
+.select .value {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: top;
+}
+
+.select::after {
+  content: "▼";
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 2em; /* 20px */
+  top: 0;
+  right: 0;
+
+  padding-top: 0.1em;
+
+  box-sizing: border-box;
+
+  text-align: center;
+
+  border-left: 0.2em solid #000;
+  border-radius: 0 0.1em 0.1em 0;
+
+  background-color: #000;
+  color: #fff;
+}
+
+.select .optList {
+  z-index: 2;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  background: #f0f0f0;
+  border: 0.2em solid #000;
+  border-top-width: 0.1em;
+  border-radius: 0 0 0.4em 0.4em;
+
+  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
+
+  box-sizing: border-box;
+
+  min-width: 100%;
+  max-height: 10em; /* 100px */
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.select .option {
+  padding: 0.2em 0.3em;
+}
+
+.select .highlight {
+  background: #000;
+  color: #ffffff;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-block-no-duplicate-properties",
+                            'Unexpected duplicate "background" (declaration-block-no-duplicate-properties)',
+                            "  background: #f0f0f0;",
+                            "45:3",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls
+[declaration-block-no-duplicate-properties] Unexpected duplicate "background" (declaration-block-no-duplicate-properties)
+~~~
+.widget select,
+.no-widget .select {
+  position: absolute;
+  left: -5000em;
+  height: 0;
+  overflow: hidden;
+}
+
+.select {
+  position: relative;
+  display: inline-block;
+}
+
+.select.active,
+.select:focus {
+  box-shadow: 0 0 3px 1px #227755;
+  outline-color: transparent;
+}
+
+.select .optList {
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.select .optList.hidden {
+  max-height: 0;
+  visibility: hidden;
+}
+
+.select {
+  font-size: 0.625em; /* 10px */
+  font-family: Verdana, Arial, sans-serif;
+
+  box-sizing: border-box;
+
+  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
+  width: 10em; /* 100px */
+
+  border: 0.2em solid #000; /* 2px */
+  border-radius: 0.4em; /* 4px */
+
+  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
+
+  background: #f0f0f0;
+  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
+}
+
+.select .value {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: top;
+}
+
+.select::after {
+  content: "▼";
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 2em; /* 20px */
+  top: 0;
+  right: 0;
+
+  padding-top: 0.1em;
+
+  box-sizing: border-box;
+
+  text-align: center;
+
+  border-left: 0.2em solid #000;
+  border-radius: 0 0.1em 0.1em 0;
+
+  background-color: #000;
+  color: #fff;
+}
+
+.select .optList {
+  z-index: 2;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  background: #f0f0f0;
+  border: 0.2em solid #000;
+  border-top-width: 0.1em;
+  border-radius: 0 0 0.4em 0.4em;
+
+  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
+
+  box-sizing: border-box;
+
+  min-width: 100%;
+  max-height: 10em; /* 100px */
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.select .option {
+  padding: 0.2em 0.3em;
+}
+
+.select .highlight {
+  background: #000;
+  color: #ffffff;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-block-no-duplicate-properties",
+                            'Unexpected duplicate "background" (declaration-block-no-duplicate-properties)',
+                            "  background: #f0f0f0;",
+                            "45:3",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls
+[declaration-block-no-duplicate-properties] Unexpected duplicate "background" (declaration-block-no-duplicate-properties)
+~~~
+.widget select,
+.no-widget .select {
+  position: absolute;
+  left: -5000em;
+  height: 0;
+  overflow: hidden;
+}
+
+.select {
+  position: relative;
+  display: inline-block;
+}
+
+.select.active,
+.select:focus {
+  box-shadow: 0 0 3px 1px #227755;
+  outline-color: transparent;
+}
+
+.select .optList {
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.select .optList.hidden {
+  max-height: 0;
+  visibility: hidden;
+}
+
+.select {
+  font-size: 0.625em; /* 10px */
+  font-family: Verdana, Arial, sans-serif;
+
+  box-sizing: border-box;
+
+  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
+  width: 10em; /* 100px */
+
+  border: 0.2em solid #000; /* 2px */
+  border-radius: 0.4em; /* 4px */
+
+  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
+
+  background: #f0f0f0;
+  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
+}
+
+.select .value {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: top;
+}
+
+.select::after {
+  content: "▼";
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 2em; /* 20px */
+  top: 0;
+  right: 0;
+
+  padding-top: 0.1em;
+
+  box-sizing: border-box;
+
+  text-align: center;
+
+  border-left: 0.2em solid #000;
+  border-radius: 0 0.1em 0.1em 0;
+
+  background-color: #000;
+  color: #fff;
+}
+
+.select .optList {
+  z-index: 2;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  background: #f0f0f0;
+  border: 0.2em solid #000;
+  border-top-width: 0.1em;
+  border-radius: 0 0 0.4em 0.4em;
+
+  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
+
+  box-sizing: border-box;
+
+  min-width: 100%;
+  max-height: 10em; /* 100px */
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.select .option {
+  padding: 0.2em 0.3em;
+}
+
+.select .highlight {
+  background: #000;
+  color: #ffffff;
+}
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -1679,6 +4667,38 @@ const checkAllTodos = (completed) => {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-block-no-duplicate-properties",
+                            'Unexpected duplicate "border" (declaration-block-no-duplicate-properties)',
+                            "  border: auto;",
+                            "12:3",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/HTML_forms_in_legacy_browsers
+[declaration-block-no-duplicate-properties] Unexpected duplicate "border" (declaration-block-no-duplicate-properties)
+~~~
+input {
+  /* This rule turns off the default rendering for the input types that have a border,
+     including buttons defined with an input element */
+  border: 1px solid #ccc;
+}
+input[type="button"] {
+  /* This does NOT restore the default rendering */
+  border: none;
+}
+input[type="button"] {
+  /* These don't either! Actually there is no standard way to do it in any browser */
+  border: auto;
+  border: initial;
+}
+input[type="button"] {
+  /* This will come the closest to restoring default rendering. */
+  border: revert;
+}
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -2047,6 +5067,19 @@ asyncHandler(async (req, res, next) => {
                           data: []
                         }
                       ]
+                    },
+                    how_do_you_host_your_website_on_google_app_engine: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gaesamplesite.appspot.com/",
+                            503
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup",
@@ -2173,6 +5206,13 @@ asyncHandler(async (req, res, next) => {
                             {
                               message: "Unreachable via sidebar",
                               data: []
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://trac.webkit.org/wiki/WebKitIDL",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         },
@@ -3126,6 +6166,19 @@ webextensions.api.clipboard`,
                     },
                     "manifest.json": {
                       children: {
+                        chrome_settings_overrides: {
+                          children: {},
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/chrome_settings_overrides",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.iana.org/assignments/character-sets/character-sets.xhtml",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         version: {
                           children: {
                             format: {
@@ -5582,19 +8635,6 @@ else if (e.target.id === "tabs-alert-info") {
                         }
                       ]
                     },
-                    "39": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/39",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.bbc.co.uk/news/newsbeat-32220611",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     "40": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/40",
@@ -6827,6 +9867,68 @@ else if (e.target.id === "tabs-alert-info") {
                         },
                         roles: {
                           children: {
+                            switch_role: {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/switch_role",
+                              messages: [
+                                {
+                                  message: "CSS code issue",
+                                  data: [
+                                    "declaration-block-no-shorthand-property-overrides",
+                                    'Unexpected shorthand "font" after "line-height" (declaration-block-no-shorthand-property-overrides)',
+                                    "  font:",
+                                    "12:3",
+                                    `/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/switch_role
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "font" after "line-height" (declaration-block-no-shorthand-property-overrides)
+~~~
+button.switch {
+  margin: 0;
+  padding: 0;
+  width: 70px;
+  height: 26px;
+  border: 2px solid black;
+  display: inline-block;
+  margin-right: 0.25em;
+  line-height: 20px;
+  vertical-align: middle;
+  text-align: center;
+  font:
+    12px "Open Sans",
+    "Arial",
+    serif;
+}
+
+button.switch span {
+  padding: 0 4px;
+  pointer-events: none;
+}
+
+[role="switch"][aria-checked="false"] :first-child,
+[role="switch"][aria-checked="true"] :last-child {
+  background: #262;
+  color: #eef;
+}
+
+[role="switch"][aria-checked="false"] :last-child,
+[role="switch"][aria-checked="true"] :first-child {
+  color: #bbd;
+}
+
+label.switch {
+  font:
+    16px "Open Sans",
+    "Arial",
+    sans-serif;
+  line-height: 20px;
+  vertical-align: middle;
+  user-select: none;
+}
+~~~
+`
+                                  ]
+                                }
+                              ]
+                            },
                             timer_role: {
                               children: {},
                               slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/timer_role",
@@ -7001,6 +10103,53 @@ else if (e.target.id === "tabs-alert-info") {
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/rachelnabors/pen/eJyWzm?editors=0010"
+                          ]
+                        }
+                      ]
+                    },
+                    overallprogress: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Animation/overallProgress",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-block-no-duplicate-properties",
+                            'Unexpected duplicate "margin" (declaration-block-no-duplicate-properties)',
+                            "  margin: 0;",
+                            "10:3",
+                            `/en-US/docs/Web/API/Animation/overallProgress
+[declaration-block-no-duplicate-properties] Unexpected duplicate "margin" (declaration-block-no-duplicate-properties)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.progress {
+  font-weight: bold;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border-radius: 40px 20px;
+  border: 10px solid black;
+  background: lightseagreen;
+  margin: 0 auto;
+}
+~~~
+`
                           ]
                         }
                       ]
@@ -7798,13 +10947,6 @@ api.Document.fullscreen`,
                       message: "External sandbox link",
                       data: [
                         "https://jsbin.com/hiqasek/edit?html,js,output"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://mdn.github.io/dom-examples/drag-and-drop/copy-move-DataTransferItemList.html",
-                        503
                       ]
                     }
                   ]
@@ -8734,6 +11876,23 @@ function checkDeadlines() {
                     }
                   }
                 },
+                rtccodecstats: {
+                  children: {
+                    mimetype: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/RTCCodecStats/mimeType",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 rtcicecandidatepair: {
                   children: {
                     local: {
@@ -8949,6 +12108,145 @@ function checkDeadlines() {
                           message: "Not in BCD",
                           data: [
                             "api.RTCStatsReport.type_inbound-rtp.sliCount"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                rtcrtpreceiver: {
+                  children: {
+                    getcapabilities_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/RTCRtpReceiver/getCapabilities_static",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    getparameters: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/RTCRtpReceiver/getParameters",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                rtcrtpsender: {
+                  children: {
+                    getcapabilities_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/RTCRtpSender/getCapabilities_static",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    getparameters: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/RTCRtpSender/getParameters",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    setparameters: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/RTCRtpSender/setParameters",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                rtcrtptransceiver: {
+                  children: {
+                    setcodecpreferences: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/RTCRtpTransceiver/setCodecPreferences",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -9774,7 +13072,21 @@ api.Window.sessionStorage`,
                   }
                 },
                 web_workers_api: {
-                  children: {},
+                  children: {
+                    using_web_workers: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Web_Workers_API/Using_web_workers",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/features.html",
+                            "unknown certificate verification error"
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/API/Web_Workers_API",
                   messages: [
                     {
@@ -9965,6 +13277,104 @@ api.Window.sessionStorage`,
                               message: "No link to child page",
                               data: [
                                 "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers/Answer_a_call"
+                              ]
+                            }
+                          ]
+                        },
+                        setup: {
+                          children: {},
+                          slug: "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Setup",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "function-no-unknown",
+                                'Unexpected unknown function "-internal-light-dark" (function-no-unknown)',
+                                "  background-color: -internal-light-dark(white, black);",
+                                "27:21",
+                                `/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Setup
+[function-no-unknown] Unexpected unknown function "-internal-light-dark" (function-no-unknown)
+~~~
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  color: darkslategrey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: antiquewhite;
+}
+
+h1 {
+  font-size: 6rem;
+  letter-spacing: 0.2rem;
+  margin-bottom: auto;
+}
+
+p {
+  text-align: center;
+  font-size: 2rem;
+}
+
+button {
+  background-color: -internal-light-dark(white, black);
+  padding: 1rem 10rem;
+  border-radius: 3rem;
+  border: none;
+  cursor: pointer;
+}
+
+.call-btn {
+  background-color: darkslategrey;
+  color: antiquewhite;
+  font-size: 3rem;
+  margin-left: 7rem;
+}
+
+.hangup-btn {
+  background-color: darkred;
+  color: white;
+  font-size: 1.5rem;
+  margin-left: 6rem;
+  margin-top: 4rem;
+}
+
+.modal {
+  padding: 5rem;
+  background-color: whitesmoke;
+  border-radius: 2rem;
+  width: 40rem;
+  height: 20rem;
+}
+
+.inner-modal {
+  text-align: center;
+}
+
+.modal label {
+  font-size: 1.5rem;
+}
+.modal input {
+  margin: 1rem 7rem 3rem;
+  display: block;
+  padding: 1rem;
+  border-radius: 3rem;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.19);
+  border: none;
+  width: 50%;
+}
+
+.connect-btn {
+  background-color: #0c1d1d;
+  color: whitesmoke;
+  font-size: 1.5rem;
+}
+~~~
+`
                               ]
                             }
                           ]
@@ -10414,6 +13824,23 @@ function displayPoseStats(pose) {
                           message: "Not in BCD",
                           data: [
                             "api.WorkerNavigator.setAppBadge"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                worker: {
+                  children: {
+                    worker: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Worker/Worker",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/features.html",
+                            "unknown certificate verification error"
                           ]
                         }
                       ]
@@ -10987,6 +14414,151 @@ function displayPoseStats(pose) {
                     }
                   ]
                 },
+                _colon_open: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/:open",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-block-no-shorthand-property-overrides",
+                        'Unexpected shorthand "background" after "background-color" (declaration-block-no-shorthand-property-overrides)',
+                        `  background: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='5,5 15,5 10,15'/%3E%3C/svg%3E")`,
+                        "10:3",
+                        `/en-US/docs/Web/CSS/:open
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "background" after "background-color" (declaration-block-no-shorthand-property-overrides)
+~~~
+select {
+  appearance: none;
+  width: 100%;
+  display: block;
+  font-family: inherit;
+  font-size: 100%;
+  padding: 5px;
+  border: 1px solid black;
+  background-color: white;
+  background: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='5,5 15,5 10,15'/%3E%3C/svg%3E")
+    no-repeat right 3px center / 1em 1em;
+}
+
+label {
+  font-family: sans-serif;
+  max-width: 20em;
+  display: block;
+  padding: 20px;
+  border: 2px solid transparent;
+}
+
+select:open {
+  background-color: #f8f2dc;
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='5,15 10,5 15,15'/%3E%3C/svg%3E");
+}
+
+label:has(select:open) {
+  background-color: #81adc8;
+  border-color: #cd4631;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "_colon_read-only": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/:read-only",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-block-no-duplicate-properties",
+                        'Unexpected duplicate "padding" (declaration-block-no-duplicate-properties)',
+                        "  padding: 0;",
+                        "31:3",
+                        `/en-US/docs/Web/CSS/:read-only
+[declaration-block-no-duplicate-properties] Unexpected duplicate "padding" (declaration-block-no-duplicate-properties)
+~~~
+body {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 20px auto;
+  max-width: 460px;
+}
+
+fieldset {
+  padding: 10px 30px 0;
+  margin-bottom: 20px;
+}
+
+legend {
+  color: white;
+  background: black;
+  padding: 5px 10px;
+}
+
+fieldset > div {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button,
+label,
+input[type="text"],
+textarea {
+  display: block;
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 5px;
+  height: 30px;
+}
+
+input[type="text"],
+textarea {
+  width: 50%;
+}
+
+textarea {
+  height: 110px;
+  resize: none;
+}
+
+label {
+  width: 40%;
+}
+
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+  background-color: #eee;
+}
+
+button {
+  width: 60%;
+  margin: 20px auto;
+}
+
+input:read-only,
+textarea:read-only {
+  border: 0;
+  box-shadow: none;
+  background-color: #ddd;
+}
+
+textarea:read-write {
+  outline: 1px dashed red;
+  outline-offset: 2px;
+  border-radius: 5px;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
                 _colon_state: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/:state",
@@ -11060,6 +14632,13 @@ function displayPoseStats(pose) {
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/CSS/::-webkit-textfield-decoration-container"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://trac.webkit.org/wiki/Styling%20Form%20Controls",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -11184,6 +14763,19 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
+                    }
+                  ]
+                },
+                "@charset": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/@charset",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.iana.org/assignments/character-sets/character-sets.xhtml",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -12136,6 +15728,23 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "media-query-no-invalid",
+                            'Unexpected invalid media query "(update: < none | slow | fast >)" (media-query-no-invalid)',
+                            "@media (update: < none | slow | fast >) {",
+                            "1:8",
+                            `/en-US/docs/Web/CSS/@media/update
+[media-query-no-invalid] Unexpected invalid media query "(update: < none | slow | fast >)" (media-query-no-invalid)
+~~~
+@media (update: < none | slow | fast >) {
+  /* styles to apply if the update frequency of the output device is a match */
+}
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -12267,6 +15876,23 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "at-rule-prelude-no-invalid",
+                        'Unexpected invalid prelude "(transform-style: preserve-3d) or ((-moz-transform-style: preserve-3d) or (-webkit-transform-style: preserve-3d)))" for at-rule "@supports" (at-rule-prelude-no-invalid)',
+                        "@supports (transform-style: preserve-3d) or ((-moz-transform-style: preserve-3d) or (-webkit-transform-style: preserve-3d))) {}",
+                        "3:11",
+                        `/en-US/docs/Web/CSS/@supports
+[at-rule-prelude-no-invalid] Unexpected invalid prelude "(transform-style: preserve-3d) or ((-moz-transform-style: preserve-3d) or (-webkit-transform-style: preserve-3d)))" for at-rule "@supports" (at-rule-prelude-no-invalid)
+~~~
+@supports (transform-style: preserve) or (-moz-transform-style: preserve) or (-webkit-transform-style: preserve) {}
+
+@supports (transform-style: preserve-3d) or ((-moz-transform-style: preserve-3d) or (-webkit-transform-style: preserve-3d))) {}
+~~~
+`
+                      ]
                     }
                   ]
                 },
@@ -12425,6 +16051,13 @@ attr(data-rotation deg)
                           data: []
                         },
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/fill-stroke-3/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "CSS code issue",
                           data: [
                             "CssSyntaxError",
@@ -12472,6 +16105,19 @@ path(evenodd,"M 10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80");
                         }
                       ]
                     },
+                    polygon: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/basic-shape/polygon",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/fill-stroke-3/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     rect: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/basic-shape/rect",
@@ -12480,6 +16126,19 @@ path(evenodd,"M 10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80");
                           message: "Broken external link",
                           data: [
                             "https://drafts.fxtf.org/css-masking-1/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    shape: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/basic-shape/shape",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/fill-stroke-3/",
                             "The operation timed out."
                           ]
                         }
@@ -13629,6 +17288,68 @@ cross-fade(url(white.png), url(black.png), 100%); /* fully white */
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "at-rule-descriptor-value-no-unknown",
+                            'Unexpected unknown value "unset" for descriptor "bottom" (at-rule-descriptor-value-no-unknown)',
+                            "  bottom: unset;",
+                            "37:11",
+                            `/en-US/docs/Web/CSS/CSS_anchor_positioning/Try_options_hiding
+[at-rule-descriptor-value-no-unknown] Unexpected unknown value "unset" for descriptor "bottom" (at-rule-descriptor-value-no-unknown)
+~~~
+.anchor {
+  font-size: 1.8rem;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  background-color: hsl(240 100% 75%);
+  width: fit-content;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 3px;
+}
+
+.anchor {
+  anchor-name: --myAnchor;
+  position: absolute;
+  top: 100px;
+  left: 45%;
+}
+
+.infobox {
+  color: darkblue;
+  background-color: azure;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+form {
+  position: fixed;
+  bottom: 2px;
+  right: 2px;
+}
+
+@position-try --custom-bottom {
+  top: anchor(bottom);
+  bottom: unset;
+  margin-top: 10px;
+}
+
+.infobox {
+  position: fixed;
+  position-anchor: --myAnchor;
+  bottom: anchor(top);
+  margin-bottom: 10px;
+  justify-self: anchor-center;
+  position-try-fallbacks: --custom-bottom;
+}
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -13788,6 +17509,150 @@ cross-fade(url(white.png), url(black.png), 100%); /* fully white */
                 },
                 css_colors: {
                   children: {
+                    applying_color: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_colors/Applying_color",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-block-no-duplicate-properties",
+                            'Unexpected duplicate "text-decoration" (declaration-block-no-duplicate-properties)',
+                            "  text-decoration: underline;",
+                            "27:3",
+                            `/en-US/docs/Web/CSS/CSS_colors/Applying_color
+[declaration-block-no-duplicate-properties] Unexpected duplicate "text-decoration" (declaration-block-no-duplicate-properties)
+~~~
+.wrapper {
+  height: 110px;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  text-align: center;
+  font:
+    28px "Marker Felt",
+    "Zapfino",
+    cursive;
+  border: 6px solid mediumturquoise;
+}
+
+div {
+  flex: 1;
+}
+
+.boxLeft {
+  background-color: rgb(245 130 130);
+  outline: 2px solid darkred;
+}
+
+.boxRight {
+  background-color: hwb(270deg 63% 13%);
+  outline: 4px dashed #6e1478;
+  color: hsl(0deg 100% 100%);
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #8f8;
+  text-decoration: underline wavy #8f8;
+  text-shadow: 2px 2px 3px black;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-block-no-shorthand-property-overrides",
+                            'Unexpected shorthand "text-decoration" after "text-decoration-style" (declaration-block-no-shorthand-property-overrides)',
+                            "  text-decoration: underline wavy #8f8;",
+                            "30:3",
+                            `/en-US/docs/Web/CSS/CSS_colors/Applying_color
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "text-decoration" after "text-decoration-style" (declaration-block-no-shorthand-property-overrides)
+~~~
+.wrapper {
+  height: 110px;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  text-align: center;
+  font:
+    28px "Marker Felt",
+    "Zapfino",
+    cursive;
+  border: 6px solid mediumturquoise;
+}
+
+div {
+  flex: 1;
+}
+
+.boxLeft {
+  background-color: rgb(245 130 130);
+  outline: 2px solid darkred;
+}
+
+.boxRight {
+  background-color: hwb(270deg 63% 13%);
+  outline: 4px dashed #6e1478;
+  color: hsl(0deg 100% 100%);
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #8f8;
+  text-decoration: underline wavy #8f8;
+  text-shadow: 2px 2px 3px black;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-block-no-shorthand-property-overrides",
+                            'Unexpected shorthand "text-decoration" after "text-decoration-color" (declaration-block-no-shorthand-property-overrides)',
+                            "  text-decoration: underline wavy #8f8;",
+                            "30:3",
+                            `/en-US/docs/Web/CSS/CSS_colors/Applying_color
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "text-decoration" after "text-decoration-color" (declaration-block-no-shorthand-property-overrides)
+~~~
+.wrapper {
+  height: 110px;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  text-align: center;
+  font:
+    28px "Marker Felt",
+    "Zapfino",
+    cursive;
+  border: 6px solid mediumturquoise;
+}
+
+div {
+  flex: 1;
+}
+
+.boxLeft {
+  background-color: rgb(245 130 130);
+  outline: 2px solid darkred;
+}
+
+.boxRight {
+  background-color: hwb(270deg 63% 13%);
+  outline: 4px dashed #6e1478;
+  color: hsl(0deg 100% 100%);
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #8f8;
+  text-decoration: underline wavy #8f8;
+  text-shadow: 2px 2px 3px black;
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
                     relative_colors: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_colors/Relative_colors",
@@ -13955,6 +17820,89 @@ rgb(from red r g b / alpha)
                     }
                   ]
                 },
+                css_conditional_rules: {
+                  children: {
+                    using_feature_queries: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_conditional_rules/Using_feature_queries",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "at-rule-prelude-no-invalid",
+                            'Unexpected invalid prelude "<support-condition>" for at-rule "@supports" (at-rule-prelude-no-invalid)',
+                            "@supports <support-condition> {",
+                            "2:11",
+                            `/en-US/docs/Web/CSS/CSS_conditional_rules/Using_feature_queries
+[at-rule-prelude-no-invalid] Unexpected invalid prelude "<support-condition>" for at-rule "@supports" (at-rule-prelude-no-invalid)
+~~~
+/* \`@supports\` at-rule */
+@supports <support-condition> {
+  /* CSS rules to apply */
+}
+
+/* \`supports()\` function */
+@import url_to_import supports(<declaration>);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "at-rule-prelude-no-invalid",
+                            'Unexpected invalid prelude "url_to_import supports(<declaration>)" for at-rule "@import" (at-rule-prelude-no-invalid)',
+                            "@import url_to_import supports(<declaration>);",
+                            "7:9",
+                            `/en-US/docs/Web/CSS/CSS_conditional_rules/Using_feature_queries
+[at-rule-prelude-no-invalid] Unexpected invalid prelude "url_to_import supports(<declaration>)" for at-rule "@import" (at-rule-prelude-no-invalid)
+~~~
+/* \`@supports\` at-rule */
+@supports <support-condition> {
+  /* CSS rules to apply */
+}
+
+/* \`supports()\` function */
+@import url_to_import supports(<declaration>);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "no-invalid-position-at-import-rule",
+                            "Unexpected invalid position @import rule (no-invalid-position-at-import-rule)",
+                            "@import url_to_import supports(<declaration>);",
+                            "7:1",
+                            `/en-US/docs/Web/CSS/CSS_conditional_rules/Using_feature_queries
+[no-invalid-position-at-import-rule] Unexpected invalid position @import rule (no-invalid-position-at-import-rule)
+~~~
+/* \`@supports\` at-rule */
+@supports <support-condition> {
+  /* CSS rules to apply */
+}
+
+/* \`supports()\` function */
+@import url_to_import supports(<declaration>);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "at-rule-prelude-no-invalid",
+                            'Unexpected invalid prelude "`/css/webkitShadowStyles.css`\n  supports(selector(::-webkit-inner-spin-button))" for at-rule "@import" (at-rule-prelude-no-invalid)',
+                            "@import `/css/webkitShadowStyles.css`",
+                            "2:9",
+                            '/en-US/docs/Web/CSS/CSS_conditional_rules/Using_feature_queries\n[at-rule-prelude-no-invalid] Unexpected invalid prelude "`/css/webkitShadowStyles.css`\n  supports(selector(::-webkit-inner-spin-button))" for at-rule "@import" (at-rule-prelude-no-invalid)\n~~~\n/* A `selector()` query within a `supports()` function */\n@import `/css/webkitShadowStyles.css`\n  supports(selector(::-webkit-inner-spin-button));\n~~~\n'
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 css_containment: {
                   children: {
                     container_size_and_style_queries: {
@@ -13968,6 +17916,36 @@ rgb(from red r g b / alpha)
                             "css.at-rules.container",
                             "Expected:",
                             "[None]"
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "at-rule-descriptor-no-unknown",
+                            'Unexpected unknown descriptor "inherited" for at-rule "@property" (at-rule-descriptor-no-unknown)',
+                            "  inherited: true;",
+                            "3:3",
+                            `/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries
+[at-rule-descriptor-no-unknown] Unexpected unknown descriptor "inherited" for at-rule "@property" (at-rule-descriptor-no-unknown)
+~~~
+@property --theme-color {
+  initial-value: rebeccapurple;
+  inherited: true;
+}
+
+:root {
+  --theme-color: rebeccapurple;
+}
+
+main {
+  --theme-color: blue;
+}
+
+@container style(--theme-color) {
+  /* <stylesheet> */
+}
+~~~
+`
                           ]
                         }
                       ]
@@ -13990,6 +17968,56 @@ rgb(from red r g b / alpha)
                 },
                 css_fonts: {
                   children: {
+                    variable_fonts_guide: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "at-rule-descriptor-value-no-unknown",
+                            'Unexpected unknown value "oblique -15 15" for descriptor "font-style" (at-rule-descriptor-value-no-unknown)',
+                            "  font-style: oblique -15 15;",
+                            "3:15",
+                            `/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide
+[at-rule-descriptor-value-no-unknown] Unexpected unknown value "oblique -15 15" for descriptor "font-style" (at-rule-descriptor-value-no-unknown)
+~~~
+@font-face {
+  font-family: "SlantFont";
+  font-style: oblique -15 15;
+  src: url("https://mdn.github.io/shared-assets/fonts/font_with_slant_axis.woff2")
+    format("woff2");
+}
+
+p {
+  font-family: "SlantFont";
+  display: inline-block;
+  margin: 1rem;
+  font-size: 4rem;
+}
+
+.adjustable-box {
+  border: 1px dashed;
+  --text-axis: -5;
+}
+
+.font-style {
+  font-style: oblique 5deg;
+}
+
+.font-variation {
+  font-variation-settings: "slnt" -5;
+}
+
+.adjustable {
+  font-variation-settings: "slnt" var(--slant-angle);
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
                     woff: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_fonts/WOFF",
@@ -14138,6 +18166,80 @@ css.properties.grid-template-rows.masonry`,
                             "api.MediaQueryList",
                             "Expected:",
                             "[None]"
+                          ]
+                        }
+                      ]
+                    },
+                    using_media_queries: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "media-query-no-invalid",
+                            'Unexpected invalid media query "(screen and (color))" (media-query-no-invalid)',
+                            "@media (not (screen and (color))), print and (color) {",
+                            "1:13",
+                            `/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries
+[media-query-no-invalid] Unexpected invalid media query "(screen and (color))" (media-query-no-invalid)
+~~~
+@media (not (screen and (color))), print and (color) {
+  /* … */
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "media-query-no-invalid",
+                            'Unexpected invalid media query "(all and (monochrome))" (media-query-no-invalid)',
+                            "@media not (all and (monochrome)) {",
+                            "1:12",
+                            `/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries
+[media-query-no-invalid] Unexpected invalid media query "(all and (monochrome))" (media-query-no-invalid)
+~~~
+@media not (all and (monochrome)) {
+  /* … */
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "media-query-no-invalid",
+                            'Unexpected invalid media query "(not all)" (media-query-no-invalid)',
+                            "@media (not all) and (monochrome) {",
+                            "1:8",
+                            `/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries
+[media-query-no-invalid] Unexpected invalid media query "(not all)" (media-query-no-invalid)
+~~~
+@media (not all) and (monochrome) {
+  /* … */
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "media-query-no-invalid",
+                            'Unexpected invalid media query "(not(hover))" (media-query-no-invalid)',
+                            "@media all and (not(hover)) {",
+                            "1:16",
+                            `/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries
+[media-query-no-invalid] Unexpected invalid media query "(not(hover))" (media-query-no-invalid)
+~~~
+@media all and (not(hover)) {
+  /* … */
+}
+~~~
+`
                           ]
                         }
                       ]
@@ -14326,6 +18428,13 @@ css.properties.grid-template-rows.masonry`,
                       data: [
                         "https://codepen.io/KristopherVanSant/post/css-shapes-resources"
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webdesignerdepot.com/how-to-get-started-with-css-shapes/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -14338,6 +18447,22 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "at-rule-no-unknown",
+                            'Unexpected unknown at-rule "@identifier" (at-rule-no-unknown)',
+                            "@identifier function([argument]? [, argument]!) {",
+                            "1:1",
+                            `/en-US/docs/Web/CSS/CSS_syntax/At-rule_functions
+[at-rule-no-unknown] Unexpected unknown at-rule "@identifier" (at-rule-no-unknown)
+~~~
+@identifier function([argument]? [, argument]!) {
+}
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -14685,6 +18810,45 @@ steps(0, jump-none)
                       ]
                     }
                   }
+                },
+                fill: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/fill",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "fill-opacity": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/fill-opacity",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "fill-rule": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/fill-rule",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 filter: {
                   children: {},
@@ -15212,6 +19376,40 @@ fit-content(40%)
                     }
                   ]
                 },
+                "font-weight": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/font-weight",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-block-no-shorthand-property-overrides",
+                        'Unexpected shorthand "font" after "font-weight" (declaration-block-no-shorthand-property-overrides)',
+                        "  font:",
+                        "11:3",
+                        `/en-US/docs/Web/CSS/font-weight
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "font" after "font-weight" (declaration-block-no-shorthand-property-overrides)
+~~~
+@font-face {
+  src: url("https://mdn.github.io/shared-assets/fonts/variable-fonts/MutatorSans.ttf");
+  font-family: "MutatorSans";
+  font-style: normal;
+  font-weight: 1 1000;
+}
+
+.sample {
+  text-transform: uppercase;
+  font-weight: 500;
+  font:
+    1.5rem "MutatorSans",
+    sans-serif;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
                 frequency: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/frequency",
@@ -15672,6 +19870,148 @@ image-set('cat.jpg' 1x, 'dog.jpg' 1x) /* every image in an image set must have a
                     }
                   }
                 },
+                left: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/left",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-block-no-duplicate-properties",
+                        'Unexpected duplicate "white-space" (declaration-block-no-duplicate-properties)',
+                        "  white-space: pre;",
+                        "8:3",
+                        `/en-US/docs/Web/CSS/left
+[declaration-block-no-duplicate-properties] Unexpected duplicate "white-space" (declaration-block-no-duplicate-properties)
+~~~
+#wrap {
+  width: 700px;
+  margin: 0 auto;
+  background: #5c5c5c;
+}
+
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  white-space: pre-line;
+  word-wrap: break-word;
+}
+
+#example_1 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  background-color: #d8f5ff;
+}
+
+#example_2 {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 0;
+  right: 0;
+  background-color: #c1ffdb;
+}
+#example_3 {
+  width: 600px;
+  height: 400px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  background-color: #ffd7c2;
+}
+
+#example_4 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  background-color: #ffc7e4;
+}
+#example_5 {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 100px;
+  background-color: #d7ffc2;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-block-no-duplicate-properties",
+                        'Unexpected duplicate "white-space" (declaration-block-no-duplicate-properties)',
+                        "  white-space: pre-wrap;",
+                        "9:3",
+                        `/en-US/docs/Web/CSS/left
+[declaration-block-no-duplicate-properties] Unexpected duplicate "white-space" (declaration-block-no-duplicate-properties)
+~~~
+#wrap {
+  width: 700px;
+  margin: 0 auto;
+  background: #5c5c5c;
+}
+
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  white-space: pre-line;
+  word-wrap: break-word;
+}
+
+#example_1 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  background-color: #d8f5ff;
+}
+
+#example_2 {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 0;
+  right: 0;
+  background-color: #c1ffdb;
+}
+#example_3 {
+  width: 600px;
+  height: 400px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  background-color: #ffd7c2;
+}
+
+#example_4 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  background-color: #ffc7e4;
+}
+#example_5 {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 100px;
+  background-color: #d7ffc2;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
                 length: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/length",
@@ -16055,45 +20395,6 @@ css.properties.grid-template-rows.minmax`
                     }
                   ]
                 },
-                offset: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/offset",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/motion-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "offset-anchor": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/offset-anchor",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/motion-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "offset-distance": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/offset-distance",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/motion-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 "offset-path": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/offset-path",
@@ -16120,39 +20421,6 @@ css.properties.grid-template-rows.minmax`
                       message: "External sandbox link",
                       data: [
                         "https://jsfiddle.net/ericwilligers/r1snqdan/"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/motion-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "offset-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/offset-position",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/motion-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "offset-rotate": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/offset-rotate",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/motion-1/",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -16215,6 +20483,144 @@ keyword value keyword value /* Each value is an offset from the keyword that pre
                     }
                   ]
                 },
+                "position-try": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/position-try",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "at-rule-descriptor-value-no-unknown",
+                        'Unexpected unknown value "unset" for descriptor "bottom" (at-rule-descriptor-value-no-unknown)',
+                        "  bottom: unset;",
+                        "37:11",
+                        `/en-US/docs/Web/CSS/position-try
+[at-rule-descriptor-value-no-unknown] Unexpected unknown value "unset" for descriptor "bottom" (at-rule-descriptor-value-no-unknown)
+~~~
+.anchor {
+  font-size: 1.8rem;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  background-color: hsl(240 100% 75%);
+  width: fit-content;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 3px;
+}
+
+.anchor {
+  anchor-name: --myAnchor;
+  position: absolute;
+  top: 100px;
+  left: 45%;
+}
+
+.infobox {
+  color: darkblue;
+  background-color: azure;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+form {
+  position: fixed;
+  bottom: 2px;
+  right: 2px;
+}
+
+@position-try --custom-bottom {
+  top: anchor(bottom);
+  bottom: unset;
+  margin-top: 10px;
+}
+
+.infobox {
+  position: fixed;
+  position-anchor: --myAnchor;
+
+  bottom: anchor(top);
+  margin-bottom: 10px;
+  justify-self: anchor-center;
+
+  position-try: most-height --custom-bottom;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "position-try-order": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/position-try-order",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "at-rule-descriptor-value-no-unknown",
+                        'Unexpected unknown value "unset" for descriptor "bottom" (at-rule-descriptor-value-no-unknown)',
+                        "  bottom: unset;",
+                        "35:11",
+                        `/en-US/docs/Web/CSS/position-try-order
+[at-rule-descriptor-value-no-unknown] Unexpected unknown value "unset" for descriptor "bottom" (at-rule-descriptor-value-no-unknown)
+~~~
+.anchor {
+  font-size: 1.8rem;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  background-color: hsl(240 100% 75%);
+  width: fit-content;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 3px;
+}
+
+.anchor {
+  anchor-name: --myAnchor;
+  margin: 90px auto;
+}
+
+.infobox {
+  color: darkblue;
+  background-color: azure;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+form {
+  position: fixed;
+  bottom: 2px;
+  right: 2px;
+}
+
+@position-try --custom-bottom {
+  top: anchor(bottom);
+  bottom: unset;
+  margin-top: 10px;
+}
+
+.infobox {
+  position: fixed;
+  position-anchor: --myAnchor;
+
+  bottom: anchor(top);
+  margin-bottom: 10px;
+  justify-self: anchor-center;
+
+  position-try: normal --custom-bottom;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
                 ratio: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/ratio",
@@ -16222,19 +20628,6 @@ keyword value keyword value /* Each value is an offset from the keyword that pre
                     {
                       message: "Missing syntax code block",
                       data: []
-                    }
-                  ]
-                },
-                ray: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/ray",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/motion-1/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -16903,6 +21296,117 @@ awesome string"
                     }
                   ]
                 },
+                stroke: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "stroke-dasharray": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke-dasharray",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "stroke-dashoffset": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke-dashoffset",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "stroke-linecap": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke-linecap",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "stroke-linejoin": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke-linejoin",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "stroke-miterlimit": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke-miterlimit",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "stroke-opacity": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke-opacity",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "stroke-width": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke-width",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 symbols: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/symbols",
@@ -17380,6 +21884,13 @@ url(https://example.com/image.png)
                     {
                       message: "Unreachable via sidebar",
                       data: []
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://trac.webkit.org/wiki/Styling%20Form%20Controls",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 }
@@ -17678,7 +22189,17 @@ html.elements.textarea.disabled`
                                 }
                               ]
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.iana.org/assignments/link-relations/link-relations.xhtml",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         },
                         size: {
                           children: {},
@@ -18260,6 +22781,19 @@ http.headers.Use-As-Dictionary`,
                             }
                           ]
                         },
+                        link: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Link",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.iana.org/assignments/link-relations/link-relations.xhtml",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         "permissions-policy": {
                           children: {
                             gamepad: {
@@ -18453,23 +22987,6 @@ http.headers.Use-As-Dictionary`,
                             {
                               message: "Missing syntax code block",
                               data: []
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    status: {
-                      children: {
-                        "422": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/422",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://ruby-doc.org/3.3.2/stdlibs/base64/Base64.html",
-                                "Unable to connect. Is the computer able to access the url?"
-                              ]
                             }
                           ]
                         }
@@ -19295,25 +23812,7 @@ console.log(regex2.unicodeSets);
               }
             },
             mathml: {
-              children: {
-                guides: {
-                  children: {
-                    authoring: {
-                      children: {},
-                      slug: "/en-US/docs/Web/MathML/Guides/Authoring",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.lyx.org/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                }
-              },
+              children: {},
               slug: "/en-US/docs/Web/MathML",
               messages: [
                 {
@@ -19331,6 +23830,36 @@ console.log(regex2.unicodeSets);
                   children: {
                     audio_and_video_delivery: {
                       children: {
+                        adding_captions_and_subtitles_to_html5_video: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-block-no-duplicate-properties",
+                                'Unexpected duplicate "font-size" (declaration-block-no-duplicate-properties)',
+                                "  font-size: 16px;",
+                                "4:3",
+                                `/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video
+[declaration-block-no-duplicate-properties] Unexpected duplicate "font-size" (declaration-block-no-duplicate-properties)
+~~~
+.controls button[data-state="subtitles"] {
+  height: 85%;
+  text-indent: 0;
+  font-size: 16px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #666;
+  background: #000;
+  border-radius: 2px;
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
                         buffering_seeking_time_ranges: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/buffering_seeking_time_ranges",
@@ -19483,6 +24012,13 @@ console.log(regex2.unicodeSets);
                       children: {},
                       slug: "/en-US/docs/Web/Performance/Guides/CSS_JavaScript_animation_performance",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gsap.com/",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "HTTP link",
                           data: [
