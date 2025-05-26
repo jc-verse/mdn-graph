@@ -185,29 +185,62 @@ export async function checkCode(
           });
         }
       } else if (["html"].includes(language)) {
-        const { errors } = htmlParse(content);
-        errors.forEach((error) => {
-          if (
-            expectedErrorsMap.has(file) &&
-            expectedErrorsMap.get(file)!.has(content)
-          ) {
-            const expectedMessages = expectedErrorsMap.get(file)!.get(content)!;
-            const fullMessage = `[syntax] ${error.msg}`;
-            if (expectedMessages.has(fullMessage)) {
-              expectedMessages.set(fullMessage, true);
-              return;
+        const { rootNodes, errors } = htmlParse(content);
+        if (errors.length) {
+          errors.forEach((error) => {
+            if (
+              expectedErrorsMap.has(file) &&
+              expectedErrorsMap.get(file)!.has(content)
+            ) {
+              const expectedMessages = expectedErrorsMap.get(file)!.get(content)!;
+              const fullMessage = `[syntax] ${error.msg}`;
+              if (expectedMessages.has(fullMessage)) {
+                expectedMessages.set(fullMessage, true);
+                return;
+              }
             }
-          }
-          report(
-            node,
-            "HTML code issue",
-            "syntax",
-            error.msg,
-            content.split("\n")[error.span.start.line] || content,
-            `${error.span.start.line}:${error.span.start.col}`,
-            `${node.id}\n[syntax] ${error.msg}\n~~~\n${content}~~~\n`,
-          );
-        });
+            report(
+              node,
+              "HTML code issue",
+              "syntax",
+              error.msg,
+              content.split("\n")[error.span.start.line] || content,
+              `${error.span.start.line}:${error.span.start.col}`,
+              `${node.id}\n[syntax] ${error.msg}\n~~~\n${content}~~~\n`,
+            );
+          });
+        } else {
+          rootNodes.forEach((rootNode) => {
+            rootNode.visit({
+              visitAttribute(attr, ctx) {
+                if (attr.name.startsWith("on")) {
+                  report(
+                    node,
+                    "HTML code issue",
+                    "no-inline-event-handlers",
+                    `Do not use inline event handler "${attr.name}".`,
+                    content.split("\n")[attr.sourceSpan.start.line],
+                    `${attr.sourceSpan.start.line}:${attr.sourceSpan.start.col}`,
+                    `${node.id}\n[no-inline-event-handlers] Do not use inline event handler "${attr.name}".\n~~~\n${content}~~~\n`,
+                  );
+                }
+              },
+              visitElement(el, ctx) {
+                el.attrs.forEach((attr) => attr.visit(this, ctx));
+                el.children.forEach((child) => child.visit(this, ctx));
+              },
+              visitText() {},
+              visitComment() {},
+              visitCdata() {},
+              visitDocType() {},
+              visitBlock() {},
+              visitExpansion() {},
+              visitExpansionCase() {},
+              visitLetDeclaration() {},
+              visitBlockParameter() {},
+            }, undefined);
+          })
+        }
       } else if (!sanctionedLanguages.includes(language)) {
         report(node, "Invalid code block language", language);
       }
