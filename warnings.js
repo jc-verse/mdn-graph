@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-bs6cfmed.js";
+} from "./chunk-4xg8z1xp.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -1065,6 +1065,19 @@ var warnings_processed_default = {
                           data: []
                         }
                       ]
+                    },
+                    what_is_accessibility: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/What_is_accessibility",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.who.int/en/news-room/fact-sheets/detail/blindness-and-visual-impairment",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Learn_web_development/Core/Accessibility",
@@ -1294,6 +1307,13 @@ var warnings_processed_default = {
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/mxmason/pen/XWbPNmw"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://phabricator.wikimedia.org/T241180",
+                            "429 Retry-After: 1000"
                           ]
                         },
                         {
@@ -2116,14 +2136,7 @@ body {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://vuejs.org/guide/extras/composition-api-faq.html",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vuejs.org/guide/extras/composition-api-faq.html",
+                            "https://cli.vuejs.org/guide/deployment.html",
                             "unknown certificate verification error"
                           ]
                         }
@@ -2645,6 +2658,69 @@ body {
                     }
                   }
                 },
+                scripting: {
+                  children: {
+                    events: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Events",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '<button onclick="bgChange()">Press me</button>',
+                            "0:8",
+                            `/en-US/docs/Learn_web_development/Core/Scripting/Events
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<button onclick="bgChange()">Press me</button>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            `<button onclick="alert('Hello, this is my old-fashioned event handler!');">`,
+                            "0:8",
+                            `/en-US/docs/Learn_web_development/Core/Scripting/Events
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<button onclick="alert('Hello, this is my old-fashioned event handler!');">
+  Press me
+</button>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    what_is_javascript: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '<button onclick="createParagraph()">Click me!</button>',
+                            "0:8",
+                            `/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<button onclick="createParagraph()">Click me!</button>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 structuring_content: {
                   children: {
                     general_embedding_technologies: {
@@ -2683,6 +2759,19 @@ body {
                           data: [
                             "http://tavmjong.free.fr/INKSCAPE/MANUAL/html/Web-Inkscape.html",
                             ""
+                          ]
+                        }
+                      ]
+                    },
+                    table_accessibility: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.who.int/en/news-room/fact-sheets/detail/blindness-and-visual-impairment",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -2751,6 +2840,23 @@ body {
                       ]
                     }
                   ]
+                },
+                text_styling: {
+                  children: {
+                    web_fonts: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.exljbris.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 }
               },
               slug: "/en-US/docs/Learn_web_development/Core",
@@ -2798,30 +2904,6 @@ body {
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/mikethomas/pen/kQjKLW"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                "client-side_tools": {
-                  children: {
-                    introducing_complete_toolchain: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vite.dev/guide/features.html",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vite.dev/guide/features.html",
-                            "unknown certificate verification error"
                           ]
                         }
                       ]
@@ -4702,6 +4784,19 @@ input[type="button"] {
                         }
                       ]
                     },
+                    sending_and_retrieving_form_data: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Sending_and_retrieving_form_data",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://symfony.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     sending_forms_through_javascript: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Sending_forms_through_JavaScript",
@@ -4729,6 +4824,25 @@ input[type="button"] {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "ondragstart".',
+                            `  ondragstart="event.dataTransfer.setData('text/plain', 'This text may be dragged')">`,
+                            "2:2",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/User_input_methods
+[no-inline-event-handlers] Do not use inline event handler "ondragstart".
+~~~
+<div
+  draggable="true"
+  ondragstart="event.dataTransfer.setData('text/plain', 'This text may be dragged')">
+  This text <strong>may</strong> be dragged.
+</div>
+~~~
+`
+                          ]
                         }
                       ]
                     }
@@ -4758,6 +4872,26 @@ input[type="button"] {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onload".',
+                            `  onload="this.media='all'" />`,
+                            "4:2",
+                            `/en-US/docs/Learn_web_development/Extensions/Performance/Web_Performance_Basics
+[no-inline-event-handlers] Do not use inline event handler "onload".
+~~~
+<link
+  rel="stylesheet"
+  href="/path/to/my.css"
+  media="print"
+  onload="this.media='all'" />
+<noscript><link rel="stylesheet" href="/path/to/my.css" /></noscript>
+~~~
+`
+                          ]
                         }
                       ]
                     }
@@ -4784,6 +4918,82 @@ input[type="button"] {
                           data: []
                         }
                       ]
+                    },
+                    django: {
+                      children: {
+                        web_application_security: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/web_application_security",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-inline-event-handlers",
+                                'Do not use inline event handler "onload".',
+                                '  <body onload="document.EvilForm.submit()">',
+                                "1:8",
+                                `/en-US/docs/Learn_web_development/Extensions/Server-side/Django/web_application_security
+[no-inline-event-handlers] Do not use inline event handler "onload".
+~~~
+<html lang="en">
+  <body onload="document.EvilForm.submit()">
+    <form
+      action="http://127.0.0.1:8000/catalog/author/create/"
+      method="post"
+      name="EvilForm">
+      <table>
+        <tr>
+          <th><label for="id_first_name">First name:</label></th>
+          <td>
+            <input
+              id="id_first_name"
+              maxlength="100"
+              name="first_name"
+              type="text"
+              value="Mad"
+              required />
+          </td>
+        </tr>
+        <tr>
+          <th><label for="id_last_name">Last name:</label></th>
+          <td>
+            <input
+              id="id_last_name"
+              maxlength="100"
+              name="last_name"
+              type="text"
+              value="Man"
+              required />
+          </td>
+        </tr>
+        <tr>
+          <th><label for="id_date_of_birth">Date of birth:</label></th>
+          <td>
+            <input id="id_date_of_birth" name="date_of_birth" type="text" />
+          </td>
+        </tr>
+        <tr>
+          <th><label for="id_date_of_death">Died:</label></th>
+          <td>
+            <input
+              id="id_date_of_death"
+              name="date_of_death"
+              type="text"
+              value="12/10/2016" />
+          </td>
+        </tr>
+      </table>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
+~~~
+`
+                              ]
+                            }
+                          ]
+                        }
+                      }
                     },
                     express_nodejs: {
                       children: {
@@ -4846,6 +5056,23 @@ asyncHandler(async (req, res, next) => {
                         }
                       }
                     },
+                    first_steps: {
+                      children: {
+                        "client-server_overview": {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://websniffer.com/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     node_server_without_framework: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Node_server_without_framework",
@@ -4853,6 +5080,27 @@ asyncHandler(async (req, res, next) => {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            getting_started: {
+              children: {
+                soft_skills: {
+                  children: {
+                    finding_a_job: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Finding_a_job",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.upwork.com/",
+                            403
+                          ]
                         }
                       ]
                     }
@@ -5067,19 +5315,6 @@ asyncHandler(async (req, res, next) => {
                           data: []
                         }
                       ]
-                    },
-                    how_do_you_host_your_website_on_google_app_engine: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gaesamplesite.appspot.com/",
-                            503
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup",
@@ -5206,13 +5441,6 @@ asyncHandler(async (req, res, next) => {
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://trac.webkit.org/wiki/WebKitIDL",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         },
@@ -5342,6 +5570,19 @@ var(--custom-prop, var(--default-value, red))
               children: {
                 webextensions: {
                   children: {
+                    add_a_button_to_the_toolbar: {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Add_a_button_to_the_toolbar",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.iconfinder.com/iconsets/bitsies",
+                            502
+                          ]
+                        }
+                      ]
+                    },
                     api: {
                       children: {
                         contentscripts: {
@@ -6121,6 +6362,27 @@ var(--custom-prop, var(--default-value, red))
                         }
                       }
                     },
+                    content_security_policy: {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_Security_Policy",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            `<div onclick="console.log('click')">Click me!</div>`,
+                            "0:5",
+                            `/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_Security_Policy
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<div onclick="console.log('click')">Click me!</div>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
                     developing_webextensions_for_thunderbird: {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Developing_WebExtensions_for_Thunderbird",
@@ -6166,19 +6428,6 @@ webextensions.api.clipboard`,
                     },
                     "manifest.json": {
                       children: {
-                        chrome_settings_overrides: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/chrome_settings_overrides",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iana.org/assignments/character-sets/character-sets.xhtml",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         version: {
                           children: {
                             format: {
@@ -9394,6 +9643,228 @@ else if (e.target.id === "tabs-alert-info") {
                             }
                           ]
                         },
+                        "using_firefox_1.5_caching": {
+                          children: {},
+                          slug: "/en-US/docs/Mozilla/Firefox/Releases/1.5/Using_Firefox_1.5_caching",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-inline-event-handlers",
+                                'Do not use inline event handler "onload".',
+                                '  <body onload="onLoad();" onpageshow="if (event.persisted) onPageShow();">',
+                                "49:8",
+                                `/en-US/docs/Mozilla/Firefox/Releases/1.5/Using_Firefox_1.5_caching
+[no-inline-event-handlers] Do not use inline event handler "onload".
+~~~
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <title>Order query Firefox 1.5 Example</title>
+    <style type="text/css">
+      body,
+      p {
+        font-family: Verdana, sans-serif;
+        font-size: 12px;
+      }
+    </style>
+    <script>
+      function onLoad() {
+        loadOnlyFirst();
+        onPageShow();
+      }
+
+      function onPageShow() {
+        // Calculate current time
+        var currentTime = new Date();
+        var year = currentTime.getFullYear();
+        var month = currentTime.getMonth() + 1;
+        var day = currentTime.getDate();
+        var hour = currentTime.getHours();
+        var min = currentTime.getMinutes();
+        var sec = currentTime.getSeconds();
+        var mil = currentTime.getMilliseconds();
+        var displayTime =
+          month +
+          "/" +
+          day +
+          "/" +
+          year +
+          " " +
+          hour +
+          ":" +
+          min +
+          ":" +
+          sec +
+          ":" +
+          mil;
+        document.getElementById("time-field").value = displayTime;
+      }
+
+      function loadOnlyFirst() {
+        document.zipForm.name.focus();
+      }
+    </script>
+  </head>
+  <body onload="onLoad();" onpageshow="if (event.persisted) onPageShow();">
+    <h2>Order query</h2>
+
+    <form
+      name="zipForm"
+      action="http://www.example.com/formresult.html"
+      method="get">
+      <label for="time-field">Date and time:</label>
+      <input type="text" id="time-field" /><br />
+      <label for="name">Name:</label>
+      <input type="text" id="name" /><br />
+      <label for="address">Email address:</label>
+      <input type="text" id="address" /><br />
+      <label for="order">Order number:</label>
+      <input type="text" id="order" /><br />
+      <input type="submit" name="submit" value="Submit Query" />
+    </form>
+  </body>
+</html>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-inline-event-handlers",
+                                'Do not use inline event handler "onpageshow".',
+                                '  <body onload="onLoad();" onpageshow="if (event.persisted) onPageShow();">',
+                                "49:27",
+                                `/en-US/docs/Mozilla/Firefox/Releases/1.5/Using_Firefox_1.5_caching
+[no-inline-event-handlers] Do not use inline event handler "onpageshow".
+~~~
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <title>Order query Firefox 1.5 Example</title>
+    <style type="text/css">
+      body,
+      p {
+        font-family: Verdana, sans-serif;
+        font-size: 12px;
+      }
+    </style>
+    <script>
+      function onLoad() {
+        loadOnlyFirst();
+        onPageShow();
+      }
+
+      function onPageShow() {
+        // Calculate current time
+        var currentTime = new Date();
+        var year = currentTime.getFullYear();
+        var month = currentTime.getMonth() + 1;
+        var day = currentTime.getDate();
+        var hour = currentTime.getHours();
+        var min = currentTime.getMinutes();
+        var sec = currentTime.getSeconds();
+        var mil = currentTime.getMilliseconds();
+        var displayTime =
+          month +
+          "/" +
+          day +
+          "/" +
+          year +
+          " " +
+          hour +
+          ":" +
+          min +
+          ":" +
+          sec +
+          ":" +
+          mil;
+        document.getElementById("time-field").value = displayTime;
+      }
+
+      function loadOnlyFirst() {
+        document.zipForm.name.focus();
+      }
+    </script>
+  </head>
+  <body onload="onLoad();" onpageshow="if (event.persisted) onPageShow();">
+    <h2>Order query</h2>
+
+    <form
+      name="zipForm"
+      action="http://www.example.com/formresult.html"
+      method="get">
+      <label for="time-field">Date and time:</label>
+      <input type="text" id="time-field" /><br />
+      <label for="name">Name:</label>
+      <input type="text" id="name" /><br />
+      <label for="address">Email address:</label>
+      <input type="text" id="address" /><br />
+      <label for="order">Order number:</label>
+      <input type="text" id="order" /><br />
+      <input type="submit" name="submit" value="Submit Query" />
+    </form>
+  </body>
+</html>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-inline-event-handlers",
+                                'Do not use inline event handler "onload".',
+                                '<body onload="onLoad();"></body>',
+                                "37:6",
+                                `/en-US/docs/Mozilla/Firefox/Releases/1.5/Using_Firefox_1.5_caching
+[no-inline-event-handlers] Do not use inline event handler "onload".
+~~~
+<head>
+  <script>
+    function onLoad() {
+      loadOnlyFirst();
+
+      // Calculate current time
+      var currentTime = new Date();
+      var year = currentTime.getFullYear();
+      var month = currentTime.getMonth() + 1;
+      var day = currentTime.getDate();
+      var hour = currentTime.getHours();
+      var min = currentTime.getMinutes();
+      var sec = currentTime.getSeconds();
+      var mil = currentTime.getMilliseconds();
+      var displayTime =
+        month +
+        "/" +
+        day +
+        "/" +
+        year +
+        " " +
+        hour +
+        ":" +
+        min +
+        ":" +
+        sec +
+        ":" +
+        mil;
+      document.getElementById("time-field").value = displayTime;
+    }
+
+    function loadOnlyFirst() {
+      document.zipForm.name.focus();
+    }
+  </script>
+</head>
+
+<body onload="onLoad();"></body>
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
                         "what_s_new_in_1.5_alpha": {
                           children: {},
                           slug: "/en-US/docs/Mozilla/Firefox/Releases/1.5/What_s_new_in_1.5_alpha",
@@ -9851,10 +10322,224 @@ else if (e.target.id === "tabs-alert-info") {
               children: {
                 aria: {
                   children: {
+                    guides: {
+                      children: {
+                        live_regions: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Accessibility/ARIA/Guides/Live_regions",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-inline-event-handlers",
+                                'Do not use inline event handler "onblur".',
+                                '  <input type="text" id="year" value="1990" onblur="change(event)" />',
+                                "2:44",
+                                `/en-US/docs/Web/Accessibility/ARIA/Guides/Live_regions
+[no-inline-event-handlers] Do not use inline event handler "onblur".
+~~~
+<div id="date-input">
+  <label for="year">Year:</label>
+  <input type="text" id="year" value="1990" onblur="change(event)" />
+</div>
+
+<div id="date-output" aria-atomic="true" aria-live="polite">
+  The set year is:
+  <span id="year-output">1990</span>
+</div>
+~~~
+`
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     reference: {
                       children: {
                         attributes: {
-                          children: {},
+                          children: {
+                            "aria-invalid": {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-invalid",
+                              messages: [
+                                {
+                                  message: "HTML code issue",
+                                  data: [
+                                    "no-inline-event-handlers",
+                                    'Do not use inline event handler "onblur".',
+                                    `      onblur="checkValidity('name', ' ', 'Invalid name entered (requires both first and last name)');" />`,
+                                    "9:6",
+                                    `/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-invalid
+[no-inline-event-handlers] Do not use inline event handler "onblur".
+~~~
+<ul>
+  <li>
+    <label for="name">Full Name</label>
+    <input
+      type="text"
+      name="name"
+      id="name"
+      aria-required="true"
+      aria-invalid="false"
+      onblur="checkValidity('name', ' ', 'Invalid name entered (requires both first and last name)');" />
+  </li>
+  <li>
+    <label for="email">Email Address</label>
+    <input
+      type="email"
+      name="email"
+      id="email"
+      aria-required="true"
+      aria-invalid="false"
+      onblur="checkValidity('email', '@', 'Invalid email address');" />
+  </li>
+</ul>
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "HTML code issue",
+                                  data: [
+                                    "no-inline-event-handlers",
+                                    'Do not use inline event handler "onblur".',
+                                    `      onblur="checkValidity('email', '@', 'Invalid email address');" />`,
+                                    "19:6",
+                                    `/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-invalid
+[no-inline-event-handlers] Do not use inline event handler "onblur".
+~~~
+<ul>
+  <li>
+    <label for="name">Full Name</label>
+    <input
+      type="text"
+      name="name"
+      id="name"
+      aria-required="true"
+      aria-invalid="false"
+      onblur="checkValidity('name', ' ', 'Invalid name entered (requires both first and last name)');" />
+  </li>
+  <li>
+    <label for="email">Email Address</label>
+    <input
+      type="email"
+      name="email"
+      id="email"
+      aria-required="true"
+      aria-invalid="false"
+      onblur="checkValidity('email', '@', 'Invalid email address');" />
+  </li>
+</ul>
+~~~
+`
+                                  ]
+                                }
+                              ]
+                            },
+                            "aria-label": {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-label",
+                              messages: [
+                                {
+                                  message: "HTML code issue",
+                                  data: [
+                                    "no-inline-event-handlers",
+                                    'Do not use inline event handler "onclick".',
+                                    '<button aria-label="Close" onclick="myDialog.close()">',
+                                    "0:27",
+                                    `/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-label
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<button aria-label="Close" onclick="myDialog.close()">
+  <svg
+    aria-hidden="true"
+    focusable="false"
+    width="17"
+    height="17"
+    xmlns="http://www.w3.org/2000/svg">
+    <path
+      d="m.967 14.217 5.8-5.906-5.765-5.89L3.094.26l5.783 5.888L14.66.26l2.092 2.162-5.766 5.889 5.801 5.906-2.092 2.162-5.818-5.924-5.818 5.924-2.092-2.162Z"
+      fill="#000" />
+  </svg>
+</button>
+~~~
+`
+                                  ]
+                                }
+                              ]
+                            },
+                            "aria-modal": {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-modal",
+                              messages: [
+                                {
+                                  message: "HTML code issue",
+                                  data: [
+                                    "no-inline-event-handlers",
+                                    'Do not use inline event handler "onclick".',
+                                    '    <button type="button" onclick="closeDialog(this)">',
+                                    "10:26",
+                                    `/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-modal
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<div id="backdrop" class="no-scroll">
+  <div
+    role="alertdialog"
+    aria-modal="true"
+    aria-labelledby="dialog_label"
+    aria-describedby="dialog_desc">
+    <h2 id="dialog_label">Confirmation</h2>
+    <div id="dialog_desc">
+      <p>Are you sure you want to delete this file?</p>
+    </div>
+    <button type="button" onclick="closeDialog(this)">
+      No. Close this popup.
+    </button>
+    <button type="button" onclick="deleteFile(this)">
+      Yes. Delete the file.
+    </button>
+  </div>
+</div>
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "HTML code issue",
+                                  data: [
+                                    "no-inline-event-handlers",
+                                    'Do not use inline event handler "onclick".',
+                                    '    <button type="button" onclick="deleteFile(this)">',
+                                    "13:26",
+                                    `/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-modal
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<div id="backdrop" class="no-scroll">
+  <div
+    role="alertdialog"
+    aria-modal="true"
+    aria-labelledby="dialog_label"
+    aria-describedby="dialog_desc">
+    <h2 id="dialog_label">Confirmation</h2>
+    <div id="dialog_desc">
+      <p>Are you sure you want to delete this file?</p>
+    </div>
+    <button type="button" onclick="closeDialog(this)">
+      No. Close this popup.
+    </button>
+    <button type="button" onclick="deleteFile(this)">
+      Yes. Delete the file.
+    </button>
+  </div>
+</div>
+~~~
+`
+                                  ]
+                                }
+                              ]
+                            }
+                          },
                           slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes",
                           messages: [
                             {
@@ -9867,6 +10552,511 @@ else if (e.target.id === "tabs-alert-info") {
                         },
                         roles: {
                           children: {
+                            alertdialog_role: {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/alertdialog_role",
+                              messages: [
+                                {
+                                  message: "HTML code issue",
+                                  data: [
+                                    "no-inline-event-handlers",
+                                    'Do not use inline event handler "onclick".',
+                                    '      <button type="button" onclick="closeThis()">No</button>',
+                                    "13:28",
+                                    `/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/alertdialog_role
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<div
+  id="alert_dialog"
+  role="alertdialog"
+  aria-modal="true"
+  aria-labelledby="dialog_label"
+  aria-describedby="dialog_desc">
+  <h2 id="dialog_label">Confirmation</h2>
+  <div id="dialog_desc">
+    <p>Are you sure you want to delete this image?</p>
+    <p>This change can't be undone.</p>
+  </div>
+  <ul>
+    <li>
+      <button type="button" onclick="closeThis()">No</button>
+    </li>
+    <li>
+      <button
+        type="button"
+        aria-controls="form"
+        id="delete_file_confirm"
+        onclick="deleteFile()">
+        Yes
+      </button>
+    </li>
+  </ul>
+</div>
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "HTML code issue",
+                                  data: [
+                                    "no-inline-event-handlers",
+                                    'Do not use inline event handler "onclick".',
+                                    '        onclick="deleteFile()">',
+                                    "20:8",
+                                    `/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/alertdialog_role
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<div
+  id="alert_dialog"
+  role="alertdialog"
+  aria-modal="true"
+  aria-labelledby="dialog_label"
+  aria-describedby="dialog_desc">
+  <h2 id="dialog_label">Confirmation</h2>
+  <div id="dialog_desc">
+    <p>Are you sure you want to delete this image?</p>
+    <p>This change can't be undone.</p>
+  </div>
+  <ul>
+    <li>
+      <button type="button" onclick="closeThis()">No</button>
+    </li>
+    <li>
+      <button
+        type="button"
+        aria-controls="form"
+        id="delete_file_confirm"
+        onclick="deleteFile()">
+        Yes
+      </button>
+    </li>
+  </ul>
+</div>
+~~~
+`
+                                  ]
+                                }
+                              ]
+                            },
+                            button_role: {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/button_role",
+                              messages: [
+                                {
+                                  message: "HTML code issue",
+                                  data: [
+                                    "no-inline-event-handlers",
+                                    'Do not use inline event handler "onclick".',
+                                    '  onclick="handleCommand(event)"',
+                                    "7:2",
+                                    `/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/button_role
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<h1>ARIA Button Example</h1>
+<ul id="nameList"></ul>
+<label for="newName">Enter your Name: </label>
+<input type="text" id="newName" />
+<span
+  role="button"
+  tabindex="0"
+  onclick="handleCommand(event)"
+  onKeyDown="handleCommand(event)"
+  >Add Name</span
+>
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "HTML code issue",
+                                  data: [
+                                    "no-inline-event-handlers",
+                                    'Do not use inline event handler "onKeyDown".',
+                                    '  onKeyDown="handleCommand(event)"',
+                                    "8:2",
+                                    `/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/button_role
+[no-inline-event-handlers] Do not use inline event handler "onKeyDown".
+~~~
+<h1>ARIA Button Example</h1>
+<ul id="nameList"></ul>
+<label for="newName">Enter your Name: </label>
+<input type="text" id="newName" />
+<span
+  role="button"
+  tabindex="0"
+  onclick="handleCommand(event)"
+  onKeyDown="handleCommand(event)"
+  >Add Name</span
+>
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "HTML code issue",
+                                  data: [
+                                    "no-inline-event-handlers",
+                                    'Do not use inline event handler "onclick".',
+                                    '  onclick="handleBtnClick(event)"',
+                                    "2:2",
+                                    `/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/button_role
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<button
+  type="button"
+  onclick="handleBtnClick(event)"
+  onKeyDown="handleBtnKeyDown(event)">
+  Mute Audio
+</button>
+
+<span
+  role="button"
+  tabindex="0"
+  aria-pressed="false"
+  onclick="handleBtnClick(event)"
+  onKeyDown="handleBtnKeyDown(event)">
+  Mute Audio
+</span>
+
+<audio
+  id="audio"
+  src="https://soundbible.com/mp3/Tyrannosaurus%20Rex%20Roar-SoundBible.com-807702404.mp3">
+  Your browser does not support the \`audio\` element.
+</audio>
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "HTML code issue",
+                                  data: [
+                                    "no-inline-event-handlers",
+                                    'Do not use inline event handler "onKeyDown".',
+                                    '  onKeyDown="handleBtnKeyDown(event)">',
+                                    "3:2",
+                                    `/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/button_role
+[no-inline-event-handlers] Do not use inline event handler "onKeyDown".
+~~~
+<button
+  type="button"
+  onclick="handleBtnClick(event)"
+  onKeyDown="handleBtnKeyDown(event)">
+  Mute Audio
+</button>
+
+<span
+  role="button"
+  tabindex="0"
+  aria-pressed="false"
+  onclick="handleBtnClick(event)"
+  onKeyDown="handleBtnKeyDown(event)">
+  Mute Audio
+</span>
+
+<audio
+  id="audio"
+  src="https://soundbible.com/mp3/Tyrannosaurus%20Rex%20Roar-SoundBible.com-807702404.mp3">
+  Your browser does not support the \`audio\` element.
+</audio>
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "HTML code issue",
+                                  data: [
+                                    "no-inline-event-handlers",
+                                    'Do not use inline event handler "onclick".',
+                                    '  onclick="handleBtnClick(event)"',
+                                    "11:2",
+                                    `/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/button_role
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<button
+  type="button"
+  onclick="handleBtnClick(event)"
+  onKeyDown="handleBtnKeyDown(event)">
+  Mute Audio
+</button>
+
+<span
+  role="button"
+  tabindex="0"
+  aria-pressed="false"
+  onclick="handleBtnClick(event)"
+  onKeyDown="handleBtnKeyDown(event)">
+  Mute Audio
+</span>
+
+<audio
+  id="audio"
+  src="https://soundbible.com/mp3/Tyrannosaurus%20Rex%20Roar-SoundBible.com-807702404.mp3">
+  Your browser does not support the \`audio\` element.
+</audio>
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "HTML code issue",
+                                  data: [
+                                    "no-inline-event-handlers",
+                                    'Do not use inline event handler "onKeyDown".',
+                                    '  onKeyDown="handleBtnKeyDown(event)">',
+                                    "12:2",
+                                    `/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/button_role
+[no-inline-event-handlers] Do not use inline event handler "onKeyDown".
+~~~
+<button
+  type="button"
+  onclick="handleBtnClick(event)"
+  onKeyDown="handleBtnKeyDown(event)">
+  Mute Audio
+</button>
+
+<span
+  role="button"
+  tabindex="0"
+  aria-pressed="false"
+  onclick="handleBtnClick(event)"
+  onKeyDown="handleBtnKeyDown(event)">
+  Mute Audio
+</span>
+
+<audio
+  id="audio"
+  src="https://soundbible.com/mp3/Tyrannosaurus%20Rex%20Roar-SoundBible.com-807702404.mp3">
+  Your browser does not support the \`audio\` element.
+</audio>
+~~~
+`
+                                  ]
+                                }
+                              ]
+                            },
+                            checkbox_role: {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/checkbox_role",
+                              messages: [
+                                {
+                                  message: "HTML code issue",
+                                  data: [
+                                    "no-inline-event-handlers",
+                                    'Do not use inline event handler "onclick".',
+                                    '  onclick="changeCheckbox()"',
+                                    "4:2",
+                                    `/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/checkbox_role
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<span
+  role="checkbox"
+  id="chkPref"
+  aria-checked="false"
+  onclick="changeCheckbox()"
+  onKeyDown="changeCheckbox(event.code)"
+  tabindex="0"
+  aria-labelledby="chk1-label"></span>
+<label
+  id="chk1-label"
+  onclick="changeCheckbox()"
+  onKeyDown="changeCheckbox(event.code)"
+  >Remember my preferences</label
+>
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "HTML code issue",
+                                  data: [
+                                    "no-inline-event-handlers",
+                                    'Do not use inline event handler "onKeyDown".',
+                                    '  onKeyDown="changeCheckbox(event.code)"',
+                                    "5:2",
+                                    `/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/checkbox_role
+[no-inline-event-handlers] Do not use inline event handler "onKeyDown".
+~~~
+<span
+  role="checkbox"
+  id="chkPref"
+  aria-checked="false"
+  onclick="changeCheckbox()"
+  onKeyDown="changeCheckbox(event.code)"
+  tabindex="0"
+  aria-labelledby="chk1-label"></span>
+<label
+  id="chk1-label"
+  onclick="changeCheckbox()"
+  onKeyDown="changeCheckbox(event.code)"
+  >Remember my preferences</label
+>
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "HTML code issue",
+                                  data: [
+                                    "no-inline-event-handlers",
+                                    'Do not use inline event handler "onclick".',
+                                    '  onclick="changeCheckbox()"',
+                                    "10:2",
+                                    `/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/checkbox_role
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<span
+  role="checkbox"
+  id="chkPref"
+  aria-checked="false"
+  onclick="changeCheckbox()"
+  onKeyDown="changeCheckbox(event.code)"
+  tabindex="0"
+  aria-labelledby="chk1-label"></span>
+<label
+  id="chk1-label"
+  onclick="changeCheckbox()"
+  onKeyDown="changeCheckbox(event.code)"
+  >Remember my preferences</label
+>
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "HTML code issue",
+                                  data: [
+                                    "no-inline-event-handlers",
+                                    'Do not use inline event handler "onKeyDown".',
+                                    '  onKeyDown="changeCheckbox(event.code)"',
+                                    "11:2",
+                                    `/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/checkbox_role
+[no-inline-event-handlers] Do not use inline event handler "onKeyDown".
+~~~
+<span
+  role="checkbox"
+  id="chkPref"
+  aria-checked="false"
+  onclick="changeCheckbox()"
+  onKeyDown="changeCheckbox(event.code)"
+  tabindex="0"
+  aria-labelledby="chk1-label"></span>
+<label
+  id="chk1-label"
+  onclick="changeCheckbox()"
+  onKeyDown="changeCheckbox(event.code)"
+  >Remember my preferences</label
+>
+~~~
+`
+                                  ]
+                                }
+                              ]
+                            },
+                            listbox_role: {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/listbox_role",
+                              messages: [
+                                {
+                                  message: "HTML code issue",
+                                  data: [
+                                    "no-inline-event-handlers",
+                                    'Do not use inline event handler "onclick".',
+                                    '  onclick="return listItemClick(event);"',
+                                    "6:2",
+                                    `/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/listbox_role
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<p id="listbox1label" role="label">Select a color:</p>
+<div
+  role="listbox"
+  tabindex="0"
+  id="listbox1"
+  aria-labelledby="listbox1label"
+  onclick="return listItemClick(event);"
+  onkeydown="return listItemKeyEvent(event);"
+  onkeypress="return listItemKeyEvent(event);"
+  aria-activedescendant="listbox1-1">
+  <div role="option" id="listbox1-1" class="selected" aria-selected="true">
+    Green
+  </div>
+  <div role="option" id="listbox1-2">Orange</div>
+  <div role="option" id="listbox1-3">Red</div>
+  <div role="option" id="listbox1-4">Blue</div>
+  <div role="option" id="listbox1-5">Violet</div>
+  <div role="option" id="listbox1-6">Periwinkle</div>
+</div>
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "HTML code issue",
+                                  data: [
+                                    "no-inline-event-handlers",
+                                    'Do not use inline event handler "onkeydown".',
+                                    '  onkeydown="return listItemKeyEvent(event);"',
+                                    "7:2",
+                                    `/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/listbox_role
+[no-inline-event-handlers] Do not use inline event handler "onkeydown".
+~~~
+<p id="listbox1label" role="label">Select a color:</p>
+<div
+  role="listbox"
+  tabindex="0"
+  id="listbox1"
+  aria-labelledby="listbox1label"
+  onclick="return listItemClick(event);"
+  onkeydown="return listItemKeyEvent(event);"
+  onkeypress="return listItemKeyEvent(event);"
+  aria-activedescendant="listbox1-1">
+  <div role="option" id="listbox1-1" class="selected" aria-selected="true">
+    Green
+  </div>
+  <div role="option" id="listbox1-2">Orange</div>
+  <div role="option" id="listbox1-3">Red</div>
+  <div role="option" id="listbox1-4">Blue</div>
+  <div role="option" id="listbox1-5">Violet</div>
+  <div role="option" id="listbox1-6">Periwinkle</div>
+</div>
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "HTML code issue",
+                                  data: [
+                                    "no-inline-event-handlers",
+                                    'Do not use inline event handler "onkeypress".',
+                                    '  onkeypress="return listItemKeyEvent(event);"',
+                                    "8:2",
+                                    `/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/listbox_role
+[no-inline-event-handlers] Do not use inline event handler "onkeypress".
+~~~
+<p id="listbox1label" role="label">Select a color:</p>
+<div
+  role="listbox"
+  tabindex="0"
+  id="listbox1"
+  aria-labelledby="listbox1label"
+  onclick="return listItemClick(event);"
+  onkeydown="return listItemKeyEvent(event);"
+  onkeypress="return listItemKeyEvent(event);"
+  aria-activedescendant="listbox1-1">
+  <div role="option" id="listbox1-1" class="selected" aria-selected="true">
+    Green
+  </div>
+  <div role="option" id="listbox1-2">Orange</div>
+  <div role="option" id="listbox1-3">Red</div>
+  <div role="option" id="listbox1-4">Blue</div>
+  <div role="option" id="listbox1-5">Violet</div>
+  <div role="option" id="listbox1-6">Periwinkle</div>
+</div>
+~~~
+`
+                                  ]
+                                }
+                              ]
+                            },
                             switch_role: {
                               children: {},
                               slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/switch_role",
@@ -10003,6 +11193,27 @@ label.switch {
                         }
                       ]
                     },
+                    "keyboard-navigable_javascript_widgets": {
+                      children: {},
+                      slug: "/en-US/docs/Web/Accessibility/Guides/Keyboard-navigable_JavaScript_widgets",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onkeydown".',
+                            '<span tabindex="-1" onkeydown="return handleKeyDown();">…</span>',
+                            "0:20",
+                            `/en-US/docs/Web/Accessibility/Guides/Keyboard-navigable_JavaScript_widgets
+[no-inline-event-handlers] Do not use inline event handler "onkeydown".
+~~~
+<span tabindex="-1" onkeydown="return handleKeyDown();">…</span>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
                     seizure_disorders: {
                       children: {},
                       slug: "/en-US/docs/Web/Accessibility/Guides/Seizure_disorders",
@@ -10019,6 +11230,28 @@ label.switch {
                           data: [
                             "http://diagramcenter.org/",
                             ""
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '    onclick="set_background()" />',
+                            "4:4",
+                            `/en-US/docs/Web/Accessibility/Guides/Seizure_disorders
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<body>
+  <input
+    type="button"
+    value="Set paragraph background color"
+    onclick="set_background()" />
+  <p>hi</p>
+  <p>hello</p>
+</body>
+~~~
+`
                           ]
                         }
                       ]
@@ -10359,8 +11592,232 @@ api.MessagePort`,
                     }
                   ]
                 },
+                cspviolationreportbody: {
+                  children: {
+                    blockedurl: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSPViolationReportBody/blockedURL",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '    <button onclick="updateContent()">Update Content</button>',
+                            "10:12",
+                            `/en-US/docs/Web/API/CSPViolationReportBody/blockedURL
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self' 'report-sample' 'unsafe-inline'; trusted-types 'myPolicy'; require-trusted-types-for 'script'" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <input type="text" id="userInput" />
+    <button onclick="updateContent()">Update Content</button>
+    <div id="content"></div>
+  </body>
+
+  <script>
+    function updateContent() {
+      const userInput = document.getElementById("userInput").value;
+
+      // Passing unsanitized content - a violation of the policy
+      document.getElementById("content").innerHTML = userInput;
+    }
+  </script>
+</html>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 css_object_model: {
-                  children: {},
+                  children: {
+                    using_dynamic_styling_information: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSS_Object_Model/Using_dynamic_styling_information",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '    <p id="p1" onclick="alterStyle(this);">',
+                            "26:15",
+                            `/en-US/docs/Web/API/CSS_Object_Model/Using_dynamic_styling_information
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>simple style example</title>
+
+    <script>
+      function alterStyle(elem) {
+        elem.style.background = "green";
+      }
+
+      function resetStyle(elemId) {
+        const elem = document.getElementById(elemId);
+        elem.style.background = "white";
+      }
+    </script>
+    <style>
+      #p1 {
+        border: solid blue 2px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- passes a reference to the element's object as parameter 'this'. -->
+    <p id="p1" onclick="alterStyle(this);">
+      Click here to change background color.
+    </p>
+
+    <!-- passes the 'p1' id of another element's style to modify. -->
+    <button onclick="resetStyle('p1');">Reset background color</button>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            `    <button onclick="resetStyle('p1');">Reset background color</button>`,
+                            "31:12",
+                            `/en-US/docs/Web/API/CSS_Object_Model/Using_dynamic_styling_information
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>simple style example</title>
+
+    <script>
+      function alterStyle(elem) {
+        elem.style.background = "green";
+      }
+
+      function resetStyle(elemId) {
+        const elem = document.getElementById(elemId);
+        elem.style.background = "white";
+      }
+    </script>
+    <style>
+      #p1 {
+        border: solid blue 2px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- passes a reference to the element's object as parameter 'this'. -->
+    <p id="p1" onclick="alterStyle(this);">
+      Click here to change background color.
+    </p>
+
+    <!-- passes the 'p1' id of another element's style to modify. -->
+    <button onclick="resetStyle('p1');">Reset background color</button>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '    <button onclick="setStyle()">Click here to change text color</button>',
+                            "19:12",
+                            `/en-US/docs/Web/API/CSS_Object_Model/Using_dynamic_styling_information
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Style Property Example</title>
+    <link rel="StyleSheet" href="example.css" />
+    <script>
+      function setStyle() {
+        document.getElementById("d").style.color = "orange";
+      }
+      function resetStyle() {
+        document.getElementById("d").style.color = "black";
+      }
+    </script>
+  </head>
+
+  <body>
+    <div id="d" class="thunder">Thunder</div>
+    <button onclick="setStyle()">Click here to change text color</button>
+    <button onclick="resetStyle()">Reset text color</button>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '    <button onclick="resetStyle()">Reset text color</button>',
+                            "20:12",
+                            `/en-US/docs/Web/API/CSS_Object_Model/Using_dynamic_styling_information
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Style Property Example</title>
+    <link rel="StyleSheet" href="example.css" />
+    <script>
+      function setStyle() {
+        document.getElementById("d").style.color = "orange";
+      }
+      function resetStyle() {
+        document.getElementById("d").style.color = "black";
+      }
+    </script>
+  </head>
+
+  <body>
+    <div id="d" class="thunder">Thunder</div>
+    <button onclick="setStyle()">Click here to change text color</button>
+    <button onclick="resetStyle()">Reset text color</button>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/API/CSS_Object_Model",
                   messages: [
                     {
@@ -10469,6 +11926,84 @@ api.MessagePort`,
                           data: [
                             "https://codepen.io/tech_query/pen/MqGgap"
                           ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "ondragstart".',
+                            '  <p id="source" ondragstart="dragstart_handler(event);" draggable="true">',
+                            "1:17",
+                            `/en-US/docs/Web/API/DataTransfer/dropEffect
+[no-inline-event-handlers] Do not use inline event handler "ondragstart".
+~~~
+<div>
+  <p id="source" ondragstart="dragstart_handler(event);" draggable="true">
+    Select this element, drag it to the Drop Zone and then release the selection
+    to move the element.
+  </p>
+</div>
+<div
+  id="target"
+  ondrop="drop_handler(event);"
+  ondragover="dragover_handler(event);">
+  Drop Zone
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "ondrop".',
+                            '  ondrop="drop_handler(event);"',
+                            "8:2",
+                            `/en-US/docs/Web/API/DataTransfer/dropEffect
+[no-inline-event-handlers] Do not use inline event handler "ondrop".
+~~~
+<div>
+  <p id="source" ondragstart="dragstart_handler(event);" draggable="true">
+    Select this element, drag it to the Drop Zone and then release the selection
+    to move the element.
+  </p>
+</div>
+<div
+  id="target"
+  ondrop="drop_handler(event);"
+  ondragover="dragover_handler(event);">
+  Drop Zone
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "ondragover".',
+                            '  ondragover="dragover_handler(event);">',
+                            "9:2",
+                            `/en-US/docs/Web/API/DataTransfer/dropEffect
+[no-inline-event-handlers] Do not use inline event handler "ondragover".
+~~~
+<div>
+  <p id="source" ondragstart="dragstart_handler(event);" draggable="true">
+    Select this element, drag it to the Drop Zone and then release the selection
+    to move the element.
+  </p>
+</div>
+<div
+  id="target"
+  ondrop="drop_handler(event);"
+  ondragover="dragover_handler(event);">
+  Drop Zone
+</div>
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -10510,6 +12045,106 @@ api.MessagePort`,
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/tech_query/pen/MqGgap"
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "ondrop".',
+                            '<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">',
+                            "0:15",
+                            `/en-US/docs/Web/API/DataTransfer/getData
+[no-inline-event-handlers] Do not use inline event handler "ondrop".
+~~~
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <span id="drag" draggable="true" ondragstart="drag(event)"
+    >drag me to the other box</span
+  >
+</div>
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "ondragover".',
+                            '<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">',
+                            "0:36",
+                            `/en-US/docs/Web/API/DataTransfer/getData
+[no-inline-event-handlers] Do not use inline event handler "ondragover".
+~~~
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <span id="drag" draggable="true" ondragstart="drag(event)"
+    >drag me to the other box</span
+  >
+</div>
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "ondragstart".',
+                            '  <span id="drag" draggable="true" ondragstart="drag(event)"',
+                            "1:35",
+                            `/en-US/docs/Web/API/DataTransfer/getData
+[no-inline-event-handlers] Do not use inline event handler "ondragstart".
+~~~
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <span id="drag" draggable="true" ondragstart="drag(event)"
+    >drag me to the other box</span
+  >
+</div>
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "ondrop".',
+                            '<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>',
+                            "5:15",
+                            `/en-US/docs/Web/API/DataTransfer/getData
+[no-inline-event-handlers] Do not use inline event handler "ondrop".
+~~~
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <span id="drag" draggable="true" ondragstart="drag(event)"
+    >drag me to the other box</span
+  >
+</div>
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "ondragover".',
+                            '<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>',
+                            "5:36",
+                            `/en-US/docs/Web/API/DataTransfer/getData
+[no-inline-event-handlers] Do not use inline event handler "ondragover".
+~~~
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <span id="drag" draggable="true" ondragstart="drag(event)"
+    >drag me to the other box</span
+  >
+</div>
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+~~~
+`
                           ]
                         }
                       ]
@@ -10553,6 +12188,231 @@ api.MessagePort`,
                           data: [
                             "https://codepen.io/tech_query/pen/MqGgap"
                           ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "ondragstart".',
+                            '      <p id="source" ondragstart="dragStartHandler(event);" draggable="true">',
+                            "48:21",
+                            `/en-US/docs/Web/API/DataTransfer/setDragImage
+[no-inline-event-handlers] Do not use inline event handler "ondragstart".
+~~~
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Example of DataTransfer.setDragImage()</title>
+    <meta name="viewport" content="width=device-width" />
+    <style>
+      div {
+        margin: 0em;
+        padding: 2em;
+      }
+      #source {
+        color: blue;
+        border: 1px solid black;
+      }
+      #target {
+        border: 1px solid black;
+      }
+    </style>
+    <script>
+      function dragStartHandler(ev) {
+        console.log("dragStart");
+        // Set the drag's format and data. Use the event target's id for the data
+        ev.dataTransfer.setData("text/plain", ev.target.id);
+        // Create an image and use it for the drag image
+        // NOTE: change "example.gif" to an existing image or the image will not
+        // be created and the default drag image will be used.
+        const img = new Image();
+        img.src = "example.gif";
+        ev.dataTransfer.setDragImage(img, 10, 10);
+      }
+
+      function dragOverHandler(ev) {
+        console.log("dragOver");
+        ev.preventDefault();
+      }
+
+      function dropHandler(ev) {
+        console.log("Drop");
+        ev.preventDefault();
+        // Get the data, which is the id of the drop target
+        const data = ev.dataTransfer.getData("text");
+        ev.target.appendChild(document.getElementById(data));
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Example of <code>DataTransfer.setDragImage()</code></h1>
+    <div>
+      <p id="source" ondragstart="dragStartHandler(event);" draggable="true">
+        Select this element, drag it to the Drop Zone and then release the
+        selection to move the element.
+      </p>
+    </div>
+    <div
+      id="target"
+      ondrop="dropHandler(event);"
+      ondragover="dragOverHandler(event);">
+      Drop Zone
+    </div>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "ondrop".',
+                            '      ondrop="dropHandler(event);"',
+                            "55:6",
+                            `/en-US/docs/Web/API/DataTransfer/setDragImage
+[no-inline-event-handlers] Do not use inline event handler "ondrop".
+~~~
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Example of DataTransfer.setDragImage()</title>
+    <meta name="viewport" content="width=device-width" />
+    <style>
+      div {
+        margin: 0em;
+        padding: 2em;
+      }
+      #source {
+        color: blue;
+        border: 1px solid black;
+      }
+      #target {
+        border: 1px solid black;
+      }
+    </style>
+    <script>
+      function dragStartHandler(ev) {
+        console.log("dragStart");
+        // Set the drag's format and data. Use the event target's id for the data
+        ev.dataTransfer.setData("text/plain", ev.target.id);
+        // Create an image and use it for the drag image
+        // NOTE: change "example.gif" to an existing image or the image will not
+        // be created and the default drag image will be used.
+        const img = new Image();
+        img.src = "example.gif";
+        ev.dataTransfer.setDragImage(img, 10, 10);
+      }
+
+      function dragOverHandler(ev) {
+        console.log("dragOver");
+        ev.preventDefault();
+      }
+
+      function dropHandler(ev) {
+        console.log("Drop");
+        ev.preventDefault();
+        // Get the data, which is the id of the drop target
+        const data = ev.dataTransfer.getData("text");
+        ev.target.appendChild(document.getElementById(data));
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Example of <code>DataTransfer.setDragImage()</code></h1>
+    <div>
+      <p id="source" ondragstart="dragStartHandler(event);" draggable="true">
+        Select this element, drag it to the Drop Zone and then release the
+        selection to move the element.
+      </p>
+    </div>
+    <div
+      id="target"
+      ondrop="dropHandler(event);"
+      ondragover="dragOverHandler(event);">
+      Drop Zone
+    </div>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "ondragover".',
+                            '      ondragover="dragOverHandler(event);">',
+                            "56:6",
+                            `/en-US/docs/Web/API/DataTransfer/setDragImage
+[no-inline-event-handlers] Do not use inline event handler "ondragover".
+~~~
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Example of DataTransfer.setDragImage()</title>
+    <meta name="viewport" content="width=device-width" />
+    <style>
+      div {
+        margin: 0em;
+        padding: 2em;
+      }
+      #source {
+        color: blue;
+        border: 1px solid black;
+      }
+      #target {
+        border: 1px solid black;
+      }
+    </style>
+    <script>
+      function dragStartHandler(ev) {
+        console.log("dragStart");
+        // Set the drag's format and data. Use the event target's id for the data
+        ev.dataTransfer.setData("text/plain", ev.target.id);
+        // Create an image and use it for the drag image
+        // NOTE: change "example.gif" to an existing image or the image will not
+        // be created and the default drag image will be used.
+        const img = new Image();
+        img.src = "example.gif";
+        ev.dataTransfer.setDragImage(img, 10, 10);
+      }
+
+      function dragOverHandler(ev) {
+        console.log("dragOver");
+        ev.preventDefault();
+      }
+
+      function dropHandler(ev) {
+        console.log("Drop");
+        ev.preventDefault();
+        // Get the data, which is the id of the drop target
+        const data = ev.dataTransfer.getData("text");
+        ev.target.appendChild(document.getElementById(data));
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Example of <code>DataTransfer.setDragImage()</code></h1>
+    <div>
+      <p id="source" ondragstart="dragStartHandler(event);" draggable="true">
+        Select this element, drag it to the Drop Zone and then release the
+        selection to move the element.
+      </p>
+    </div>
+    <div
+      id="target"
+      ondrop="dropHandler(event);"
+      ondragover="dragOverHandler(event);">
+      Drop Zone
+    </div>
+  </body>
+</html>
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -10564,6 +12424,350 @@ api.MessagePort`,
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/tech_query/pen/MqGgap"
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "ondragstart".',
+                            '      <li id="i1" ondragstart="dragstart_handler(event);" draggable="true">',
+                            "57:18",
+                            `/en-US/docs/Web/API/DataTransfer/types
+[no-inline-event-handlers] Do not use inline event handler "ondragstart".
+~~~
+<!doctype html>
+<html lang="en">
+  <title>Examples of DataTransfer.{types,items} properties</title>
+  <meta content="width=device-width" />
+  <style>
+    div {
+      margin: 0em;
+      padding: 2em;
+    }
+    #target {
+      border: 1px solid black;
+    }
+  </style>
+  <script>
+    function dragstart_handler(ev) {
+      console.log("dragStart: target.id = " + ev.target.id);
+
+      // Add this element's id to the drag payload so the drop handler will
+      // know which element to add to its tree
+      ev.dataTransfer.setData("text/plain", ev.target.id);
+      ev.dataTransfer.effectAllowed = "move";
+    }
+
+    function drop_handler(ev) {
+      console.log("drop: target.id = " + ev.target.id);
+      ev.preventDefault();
+
+      // Get the id of the target and add the moved element to the target's DOM
+      const data = ev.dataTransfer.getData("text");
+      ev.target.appendChild(document.getElementById(data));
+
+      // Print each format type
+      for (let i = 0; i < ev.dataTransfer.types.length; i++) {
+        console.log(\`… types[\${i}] = \${ev.dataTransfer.types[i]}\`);
+      }
+
+      // Print each item's "kind" and "type"
+      for (let i = 0; i < ev.dataTransfer.items.length; i++) {
+        console.log(
+          \`… items[\${i}].kind = \${ev.dataTransfer.items[i].kind}; type = \${ev.dataTransfer.items[i].type}\`,
+        );
+      }
+    }
+
+    function dragover_handler(ev) {
+      console.log("dragOver");
+      ev.preventDefault();
+      // Set the dropEffect to move
+      ev.dataTransfer.dropEffect = "move";
+    }
+  </script>
+  <body>
+    <h1>
+      Examples of <code>DataTransfer</code>.{<code>types</code>,
+      <code>items</code>} properties
+    </h1>
+    <ul>
+      <li id="i1" ondragstart="dragstart_handler(event);" draggable="true">
+        Drag Item 1 to the Drop Zone
+      </li>
+      <li id="i2" ondragstart="dragstart_handler(event);" draggable="true">
+        Drag Item 2 to the Drop Zone
+      </li>
+    </ul>
+    <div
+      id="target"
+      ondrop="drop_handler(event);"
+      ondragover="dragover_handler(event);">
+      Drop Zone
+    </div>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "ondragstart".',
+                            '      <li id="i2" ondragstart="dragstart_handler(event);" draggable="true">',
+                            "60:18",
+                            `/en-US/docs/Web/API/DataTransfer/types
+[no-inline-event-handlers] Do not use inline event handler "ondragstart".
+~~~
+<!doctype html>
+<html lang="en">
+  <title>Examples of DataTransfer.{types,items} properties</title>
+  <meta content="width=device-width" />
+  <style>
+    div {
+      margin: 0em;
+      padding: 2em;
+    }
+    #target {
+      border: 1px solid black;
+    }
+  </style>
+  <script>
+    function dragstart_handler(ev) {
+      console.log("dragStart: target.id = " + ev.target.id);
+
+      // Add this element's id to the drag payload so the drop handler will
+      // know which element to add to its tree
+      ev.dataTransfer.setData("text/plain", ev.target.id);
+      ev.dataTransfer.effectAllowed = "move";
+    }
+
+    function drop_handler(ev) {
+      console.log("drop: target.id = " + ev.target.id);
+      ev.preventDefault();
+
+      // Get the id of the target and add the moved element to the target's DOM
+      const data = ev.dataTransfer.getData("text");
+      ev.target.appendChild(document.getElementById(data));
+
+      // Print each format type
+      for (let i = 0; i < ev.dataTransfer.types.length; i++) {
+        console.log(\`… types[\${i}] = \${ev.dataTransfer.types[i]}\`);
+      }
+
+      // Print each item's "kind" and "type"
+      for (let i = 0; i < ev.dataTransfer.items.length; i++) {
+        console.log(
+          \`… items[\${i}].kind = \${ev.dataTransfer.items[i].kind}; type = \${ev.dataTransfer.items[i].type}\`,
+        );
+      }
+    }
+
+    function dragover_handler(ev) {
+      console.log("dragOver");
+      ev.preventDefault();
+      // Set the dropEffect to move
+      ev.dataTransfer.dropEffect = "move";
+    }
+  </script>
+  <body>
+    <h1>
+      Examples of <code>DataTransfer</code>.{<code>types</code>,
+      <code>items</code>} properties
+    </h1>
+    <ul>
+      <li id="i1" ondragstart="dragstart_handler(event);" draggable="true">
+        Drag Item 1 to the Drop Zone
+      </li>
+      <li id="i2" ondragstart="dragstart_handler(event);" draggable="true">
+        Drag Item 2 to the Drop Zone
+      </li>
+    </ul>
+    <div
+      id="target"
+      ondrop="drop_handler(event);"
+      ondragover="dragover_handler(event);">
+      Drop Zone
+    </div>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "ondrop".',
+                            '      ondrop="drop_handler(event);"',
+                            "66:6",
+                            `/en-US/docs/Web/API/DataTransfer/types
+[no-inline-event-handlers] Do not use inline event handler "ondrop".
+~~~
+<!doctype html>
+<html lang="en">
+  <title>Examples of DataTransfer.{types,items} properties</title>
+  <meta content="width=device-width" />
+  <style>
+    div {
+      margin: 0em;
+      padding: 2em;
+    }
+    #target {
+      border: 1px solid black;
+    }
+  </style>
+  <script>
+    function dragstart_handler(ev) {
+      console.log("dragStart: target.id = " + ev.target.id);
+
+      // Add this element's id to the drag payload so the drop handler will
+      // know which element to add to its tree
+      ev.dataTransfer.setData("text/plain", ev.target.id);
+      ev.dataTransfer.effectAllowed = "move";
+    }
+
+    function drop_handler(ev) {
+      console.log("drop: target.id = " + ev.target.id);
+      ev.preventDefault();
+
+      // Get the id of the target and add the moved element to the target's DOM
+      const data = ev.dataTransfer.getData("text");
+      ev.target.appendChild(document.getElementById(data));
+
+      // Print each format type
+      for (let i = 0; i < ev.dataTransfer.types.length; i++) {
+        console.log(\`… types[\${i}] = \${ev.dataTransfer.types[i]}\`);
+      }
+
+      // Print each item's "kind" and "type"
+      for (let i = 0; i < ev.dataTransfer.items.length; i++) {
+        console.log(
+          \`… items[\${i}].kind = \${ev.dataTransfer.items[i].kind}; type = \${ev.dataTransfer.items[i].type}\`,
+        );
+      }
+    }
+
+    function dragover_handler(ev) {
+      console.log("dragOver");
+      ev.preventDefault();
+      // Set the dropEffect to move
+      ev.dataTransfer.dropEffect = "move";
+    }
+  </script>
+  <body>
+    <h1>
+      Examples of <code>DataTransfer</code>.{<code>types</code>,
+      <code>items</code>} properties
+    </h1>
+    <ul>
+      <li id="i1" ondragstart="dragstart_handler(event);" draggable="true">
+        Drag Item 1 to the Drop Zone
+      </li>
+      <li id="i2" ondragstart="dragstart_handler(event);" draggable="true">
+        Drag Item 2 to the Drop Zone
+      </li>
+    </ul>
+    <div
+      id="target"
+      ondrop="drop_handler(event);"
+      ondragover="dragover_handler(event);">
+      Drop Zone
+    </div>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "ondragover".',
+                            '      ondragover="dragover_handler(event);">',
+                            "67:6",
+                            `/en-US/docs/Web/API/DataTransfer/types
+[no-inline-event-handlers] Do not use inline event handler "ondragover".
+~~~
+<!doctype html>
+<html lang="en">
+  <title>Examples of DataTransfer.{types,items} properties</title>
+  <meta content="width=device-width" />
+  <style>
+    div {
+      margin: 0em;
+      padding: 2em;
+    }
+    #target {
+      border: 1px solid black;
+    }
+  </style>
+  <script>
+    function dragstart_handler(ev) {
+      console.log("dragStart: target.id = " + ev.target.id);
+
+      // Add this element's id to the drag payload so the drop handler will
+      // know which element to add to its tree
+      ev.dataTransfer.setData("text/plain", ev.target.id);
+      ev.dataTransfer.effectAllowed = "move";
+    }
+
+    function drop_handler(ev) {
+      console.log("drop: target.id = " + ev.target.id);
+      ev.preventDefault();
+
+      // Get the id of the target and add the moved element to the target's DOM
+      const data = ev.dataTransfer.getData("text");
+      ev.target.appendChild(document.getElementById(data));
+
+      // Print each format type
+      for (let i = 0; i < ev.dataTransfer.types.length; i++) {
+        console.log(\`… types[\${i}] = \${ev.dataTransfer.types[i]}\`);
+      }
+
+      // Print each item's "kind" and "type"
+      for (let i = 0; i < ev.dataTransfer.items.length; i++) {
+        console.log(
+          \`… items[\${i}].kind = \${ev.dataTransfer.items[i].kind}; type = \${ev.dataTransfer.items[i].type}\`,
+        );
+      }
+    }
+
+    function dragover_handler(ev) {
+      console.log("dragOver");
+      ev.preventDefault();
+      // Set the dropEffect to move
+      ev.dataTransfer.dropEffect = "move";
+    }
+  </script>
+  <body>
+    <h1>
+      Examples of <code>DataTransfer</code>.{<code>types</code>,
+      <code>items</code>} properties
+    </h1>
+    <ul>
+      <li id="i1" ondragstart="dragstart_handler(event);" draggable="true">
+        Drag Item 1 to the Drop Zone
+      </li>
+      <li id="i2" ondragstart="dragstart_handler(event);" draggable="true">
+        Drag Item 2 to the Drop Zone
+      </li>
+    </ul>
+    <div
+      id="target"
+      ondrop="drop_handler(event);"
+      ondragover="dragover_handler(event);">
+      Drop Zone
+    </div>
+  </body>
+</html>
+~~~
+`
                           ]
                         }
                       ]
@@ -10594,6 +12798,511 @@ api.MessagePort`,
                       ]
                     }
                   }
+                },
+                datatransferitemlist: {
+                  children: {
+                    add: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/DataTransferItemList/add",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "ondragstart".',
+                            '    ondragstart="dragstart_handler(event);"',
+                            "3:4",
+                            `/en-US/docs/Web/API/DataTransferItemList/add
+[no-inline-event-handlers] Do not use inline event handler "ondragstart".
+~~~
+<div>
+  <p
+    id="source"
+    ondragstart="dragstart_handler(event);"
+    ondragend="dragend_handler(event);"
+    draggable="true">
+    Select this element, drag it to the Drop Zone and then release the selection
+    to move the element.
+  </p>
+</div>
+<div
+  id="target"
+  ondrop="drop_handler(event);"
+  ondragover="dragover_handler(event);">
+  Drop Zone
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "ondragend".',
+                            '    ondragend="dragend_handler(event);"',
+                            "4:4",
+                            `/en-US/docs/Web/API/DataTransferItemList/add
+[no-inline-event-handlers] Do not use inline event handler "ondragend".
+~~~
+<div>
+  <p
+    id="source"
+    ondragstart="dragstart_handler(event);"
+    ondragend="dragend_handler(event);"
+    draggable="true">
+    Select this element, drag it to the Drop Zone and then release the selection
+    to move the element.
+  </p>
+</div>
+<div
+  id="target"
+  ondrop="drop_handler(event);"
+  ondragover="dragover_handler(event);">
+  Drop Zone
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "ondrop".',
+                            '  ondrop="drop_handler(event);"',
+                            "12:2",
+                            `/en-US/docs/Web/API/DataTransferItemList/add
+[no-inline-event-handlers] Do not use inline event handler "ondrop".
+~~~
+<div>
+  <p
+    id="source"
+    ondragstart="dragstart_handler(event);"
+    ondragend="dragend_handler(event);"
+    draggable="true">
+    Select this element, drag it to the Drop Zone and then release the selection
+    to move the element.
+  </p>
+</div>
+<div
+  id="target"
+  ondrop="drop_handler(event);"
+  ondragover="dragover_handler(event);">
+  Drop Zone
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "ondragover".',
+                            '  ondragover="dragover_handler(event);">',
+                            "13:2",
+                            `/en-US/docs/Web/API/DataTransferItemList/add
+[no-inline-event-handlers] Do not use inline event handler "ondragover".
+~~~
+<div>
+  <p
+    id="source"
+    ondragstart="dragstart_handler(event);"
+    ondragend="dragend_handler(event);"
+    draggable="true">
+    Select this element, drag it to the Drop Zone and then release the selection
+    to move the element.
+  </p>
+</div>
+<div
+  id="target"
+  ondrop="drop_handler(event);"
+  ondragover="dragover_handler(event);">
+  Drop Zone
+</div>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    clear: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/DataTransferItemList/clear",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "ondragstart".',
+                            '    ondragstart="dragstartHandler(event);"',
+                            "3:4",
+                            `/en-US/docs/Web/API/DataTransferItemList/clear
+[no-inline-event-handlers] Do not use inline event handler "ondragstart".
+~~~
+<div>
+  <p
+    id="source"
+    ondragstart="dragstartHandler(event);"
+    ondragend="dragendHandler(event);"
+    draggable="true">
+    Select this element, drag it to the Drop Zone and then release the selection
+    to move the element.
+  </p>
+</div>
+<div
+  id="target"
+  ondrop="dropHandler(event);"
+  ondragover="dragoverHandler(event);">
+  Drop Zone
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "ondragend".',
+                            '    ondragend="dragendHandler(event);"',
+                            "4:4",
+                            `/en-US/docs/Web/API/DataTransferItemList/clear
+[no-inline-event-handlers] Do not use inline event handler "ondragend".
+~~~
+<div>
+  <p
+    id="source"
+    ondragstart="dragstartHandler(event);"
+    ondragend="dragendHandler(event);"
+    draggable="true">
+    Select this element, drag it to the Drop Zone and then release the selection
+    to move the element.
+  </p>
+</div>
+<div
+  id="target"
+  ondrop="dropHandler(event);"
+  ondragover="dragoverHandler(event);">
+  Drop Zone
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "ondrop".',
+                            '  ondrop="dropHandler(event);"',
+                            "12:2",
+                            `/en-US/docs/Web/API/DataTransferItemList/clear
+[no-inline-event-handlers] Do not use inline event handler "ondrop".
+~~~
+<div>
+  <p
+    id="source"
+    ondragstart="dragstartHandler(event);"
+    ondragend="dragendHandler(event);"
+    draggable="true">
+    Select this element, drag it to the Drop Zone and then release the selection
+    to move the element.
+  </p>
+</div>
+<div
+  id="target"
+  ondrop="dropHandler(event);"
+  ondragover="dragoverHandler(event);">
+  Drop Zone
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "ondragover".',
+                            '  ondragover="dragoverHandler(event);">',
+                            "13:2",
+                            `/en-US/docs/Web/API/DataTransferItemList/clear
+[no-inline-event-handlers] Do not use inline event handler "ondragover".
+~~~
+<div>
+  <p
+    id="source"
+    ondragstart="dragstartHandler(event);"
+    ondragend="dragendHandler(event);"
+    draggable="true">
+    Select this element, drag it to the Drop Zone and then release the selection
+    to move the element.
+  </p>
+</div>
+<div
+  id="target"
+  ondrop="dropHandler(event);"
+  ondragover="dragoverHandler(event);">
+  Drop Zone
+</div>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    length: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/DataTransferItemList/length",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "ondragstart".',
+                            '    ondragstart="dragstart_handler(event);"',
+                            "3:4",
+                            `/en-US/docs/Web/API/DataTransferItemList/length
+[no-inline-event-handlers] Do not use inline event handler "ondragstart".
+~~~
+<div>
+  <p
+    id="source"
+    ondragstart="dragstart_handler(event);"
+    ondragend="dragend_handler(event);"
+    draggable="true">
+    Select this element, drag it to the Drop Zone and then release the selection
+    to move the element.
+  </p>
+</div>
+<div
+  id="target"
+  ondrop="drop_handler(event);"
+  ondragover="dragover_handler(event);">
+  Drop Zone
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "ondragend".',
+                            '    ondragend="dragend_handler(event);"',
+                            "4:4",
+                            `/en-US/docs/Web/API/DataTransferItemList/length
+[no-inline-event-handlers] Do not use inline event handler "ondragend".
+~~~
+<div>
+  <p
+    id="source"
+    ondragstart="dragstart_handler(event);"
+    ondragend="dragend_handler(event);"
+    draggable="true">
+    Select this element, drag it to the Drop Zone and then release the selection
+    to move the element.
+  </p>
+</div>
+<div
+  id="target"
+  ondrop="drop_handler(event);"
+  ondragover="dragover_handler(event);">
+  Drop Zone
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "ondrop".',
+                            '  ondrop="drop_handler(event);"',
+                            "12:2",
+                            `/en-US/docs/Web/API/DataTransferItemList/length
+[no-inline-event-handlers] Do not use inline event handler "ondrop".
+~~~
+<div>
+  <p
+    id="source"
+    ondragstart="dragstart_handler(event);"
+    ondragend="dragend_handler(event);"
+    draggable="true">
+    Select this element, drag it to the Drop Zone and then release the selection
+    to move the element.
+  </p>
+</div>
+<div
+  id="target"
+  ondrop="drop_handler(event);"
+  ondragover="dragover_handler(event);">
+  Drop Zone
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "ondragover".',
+                            '  ondragover="dragover_handler(event);">',
+                            "13:2",
+                            `/en-US/docs/Web/API/DataTransferItemList/length
+[no-inline-event-handlers] Do not use inline event handler "ondragover".
+~~~
+<div>
+  <p
+    id="source"
+    ondragstart="dragstart_handler(event);"
+    ondragend="dragend_handler(event);"
+    draggable="true">
+    Select this element, drag it to the Drop Zone and then release the selection
+    to move the element.
+  </p>
+</div>
+<div
+  id="target"
+  ondrop="drop_handler(event);"
+  ondragover="dragover_handler(event);">
+  Drop Zone
+</div>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/DataTransferItemList",
+                  messages: [
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "ondragstart".',
+                        '    ondragstart="dragstartHandler(event);"',
+                        "3:4",
+                        `/en-US/docs/Web/API/DataTransferItemList
+[no-inline-event-handlers] Do not use inline event handler "ondragstart".
+~~~
+<div>
+  <p
+    id="source"
+    ondragstart="dragstartHandler(event);"
+    ondragend="dragendHandler(event);"
+    draggable="true">
+    Select this element, drag it to the Drop Zone and then release the selection
+    to move the element.
+  </p>
+</div>
+<div
+  id="target"
+  ondrop="dropHandler(event);"
+  ondragover="dragoverHandler(event);">
+  Drop Zone
+</div>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "ondragend".',
+                        '    ondragend="dragendHandler(event);"',
+                        "4:4",
+                        `/en-US/docs/Web/API/DataTransferItemList
+[no-inline-event-handlers] Do not use inline event handler "ondragend".
+~~~
+<div>
+  <p
+    id="source"
+    ondragstart="dragstartHandler(event);"
+    ondragend="dragendHandler(event);"
+    draggable="true">
+    Select this element, drag it to the Drop Zone and then release the selection
+    to move the element.
+  </p>
+</div>
+<div
+  id="target"
+  ondrop="dropHandler(event);"
+  ondragover="dragoverHandler(event);">
+  Drop Zone
+</div>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "ondrop".',
+                        '  ondrop="dropHandler(event);"',
+                        "12:2",
+                        `/en-US/docs/Web/API/DataTransferItemList
+[no-inline-event-handlers] Do not use inline event handler "ondrop".
+~~~
+<div>
+  <p
+    id="source"
+    ondragstart="dragstartHandler(event);"
+    ondragend="dragendHandler(event);"
+    draggable="true">
+    Select this element, drag it to the Drop Zone and then release the selection
+    to move the element.
+  </p>
+</div>
+<div
+  id="target"
+  ondrop="dropHandler(event);"
+  ondragover="dragoverHandler(event);">
+  Drop Zone
+</div>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "ondragover".',
+                        '  ondragover="dragoverHandler(event);">',
+                        "13:2",
+                        `/en-US/docs/Web/API/DataTransferItemList
+[no-inline-event-handlers] Do not use inline event handler "ondragover".
+~~~
+<div>
+  <p
+    id="source"
+    ondragstart="dragstartHandler(event);"
+    ondragend="dragendHandler(event);"
+    draggable="true">
+    Select this element, drag it to the Drop Zone and then release the selection
+    to move the element.
+  </p>
+</div>
+<div
+  id="target"
+  ondrop="dropHandler(event);"
+  ondragover="dragoverHandler(event);">
+  Drop Zone
+</div>
+~~~
+`
+                      ]
+                    }
+                  ]
                 },
                 device_orientation_events: {
                   children: {
@@ -10651,7 +13360,648 @@ api.DeviceOrientationEvent`,
                   ]
                 },
                 document_object_model: {
-                  children: {},
+                  children: {
+                    examples: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document_Object_Model/Examples",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onload".',
+                            '  <body onload="init();">',
+                            "36:8",
+                            `/en-US/docs/Web/API/Document_Object_Model/Examples
+[no-inline-event-handlers] Do not use inline event handler "onload".
+~~~
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>width/height example</title>
+    <script>
+      function init() {
+        const arrImages = new Array(3);
+
+        arrImages[0] = document.getElementById("image1");
+        arrImages[1] = document.getElementById("image2");
+        arrImages[2] = document.getElementById("image3");
+
+        const objOutput = document.getElementById("output");
+        let strHtml = "<ul>";
+
+        for (let i = 0; i < arrImages.length; i++) {
+          strHtml +=
+            "<li>image" +
+            (i + 1) +
+            ": height=" +
+            arrImages[i].height +
+            ", width=" +
+            arrImages[i].width +
+            ", style.height=" +
+            arrImages[i].style.height +
+            ", style.width=" +
+            arrImages[i].style.width +
+            "</li>";
+        }
+
+        strHtml += "</ul>";
+
+        objOutput.innerHTML = strHtml;
+      }
+    </script>
+  </head>
+  <body onload="init();">
+    <p>
+      Image 1: no height, width, or style
+      <img
+        id="image1"
+        src="https://www.mozilla.org/images/mozilla-banner.gif" />
+    </p>
+
+    <p>
+      Image 2: height="50", width="500", but no style
+      <img
+        id="image2"
+        src="https://www.mozilla.org/images/mozilla-banner.gif"
+        height="50"
+        width="500" />
+    </p>
+
+    <p>
+      Image 3: no height, width, but style="height: 50px; width: 500px;"
+      <img
+        id="image3"
+        src="https://www.mozilla.org/images/mozilla-banner.gif"
+        style="height: 50px; width: 500px;" />
+    </p>
+
+    <div id="output"></div>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '        onclick="setBorderWidth(20);" />',
+                            "27:8",
+                            `/en-US/docs/Web/API/Document_Object_Model/Examples
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Modifying an image border</title>
+
+    <script>
+      function setBorderWidth(width) {
+        document.getElementById("img1").style.borderWidth = width + "px";
+      }
+    </script>
+  </head>
+
+  <body>
+    <p>
+      <img
+        id="img1"
+        src="image1.gif"
+        style="border: 5px solid green;"
+        width="100"
+        height="100"
+        alt="border test" />
+    </p>
+
+    <form name="FormName">
+      <input
+        type="button"
+        value="Make border 20px-wide"
+        onclick="setBorderWidth(20);" />
+      <input
+        type="button"
+        value="Make border 5px-wide"
+        onclick="setBorderWidth(5);" />
+    </form>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '        onclick="setBorderWidth(5);" />',
+                            "31:8",
+                            `/en-US/docs/Web/API/Document_Object_Model/Examples
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Modifying an image border</title>
+
+    <script>
+      function setBorderWidth(width) {
+        document.getElementById("img1").style.borderWidth = width + "px";
+      }
+    </script>
+  </head>
+
+  <body>
+    <p>
+      <img
+        id="img1"
+        src="image1.gif"
+        style="border: 5px solid green;"
+        width="100"
+        height="100"
+        alt="border test" />
+    </p>
+
+    <form name="FormName">
+      <input
+        type="button"
+        value="Make border 20px-wide"
+        onclick="setBorderWidth(20);" />
+      <input
+        type="button"
+        value="Make border 5px-wide"
+        onclick="setBorderWidth(5);" />
+    </form>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            `    <p id="pid" onclick="window.location.href = 'http://www.cnn.com/';">`,
+                            "15:16",
+                            `/en-US/docs/Web/API/Document_Object_Model/Examples
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Changing color and font-size example</title>
+
+    <script>
+      function changeText() {
+        const p = document.getElementById("pid");
+
+        p.style.color = "blue";
+        p.style.fontSize = "18pt";
+      }
+    </script>
+  </head>
+  <body>
+    <p id="pid" onclick="window.location.href = 'http://www.cnn.com/';">
+      linker
+    </p>
+
+    <form>
+      <p><input value="rec" type="button" onclick="changeText();" /></p>
+    </form>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '      <p><input value="rec" type="button" onclick="changeText();" /></p>',
+                            "20:42",
+                            `/en-US/docs/Web/API/Document_Object_Model/Examples
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Changing color and font-size example</title>
+
+    <script>
+      function changeText() {
+        const p = document.getElementById("pid");
+
+        p.style.color = "blue";
+        p.style.fontSize = "18pt";
+      }
+    </script>
+  </head>
+  <body>
+    <p id="pid" onclick="window.location.href = 'http://www.cnn.com/';">
+      linker
+    </p>
+
+    <form>
+      <p><input value="rec" type="button" onclick="changeText();" /></p>
+    </form>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onload".',
+                            '  <body onload="load();">',
+                            "31:8",
+                            `/en-US/docs/Web/API/Document_Object_Model/Examples
+[no-inline-event-handlers] Do not use inline event handler "onload".
+~~~
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Event Propagation</title>
+
+    <style>
+      #t-daddy {
+        border: 1px solid red;
+      }
+      #c1 {
+        background-color: pink;
+      }
+    </style>
+
+    <script>
+      function stopEvent(event) {
+        const c2 = document.getElementById("c2");
+        c2.textContent = "hello";
+
+        // this ought to keep t-daddy from getting the click.
+        event.stopPropagation();
+        alert("event propagation halted.");
+      }
+
+      function load() {
+        const elem = document.getElementById("tbl1");
+        elem.addEventListener("click", stopEvent, false);
+      }
+    </script>
+  </head>
+
+  <body onload="load();">
+    <table id="t-daddy" onclick="alert('hi');">
+      <tr id="tbl1">
+        <td id="c1">one</td>
+      </tr>
+      <tr>
+        <td id="c2">two</td>
+      </tr>
+    </table>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            `    <table id="t-daddy" onclick="alert('hi');">`,
+                            "32:24",
+                            `/en-US/docs/Web/API/Document_Object_Model/Examples
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Event Propagation</title>
+
+    <style>
+      #t-daddy {
+        border: 1px solid red;
+      }
+      #c1 {
+        background-color: pink;
+      }
+    </style>
+
+    <script>
+      function stopEvent(event) {
+        const c2 = document.getElementById("c2");
+        c2.textContent = "hello";
+
+        // this ought to keep t-daddy from getting the click.
+        event.stopPropagation();
+        alert("event propagation halted.");
+      }
+
+      function load() {
+        const elem = document.getElementById("tbl1");
+        elem.addEventListener("click", stopEvent, false);
+      }
+    </script>
+  </head>
+
+  <body onload="load();">
+    <table id="t-daddy" onclick="alert('hi');">
+      <tr id="tbl1">
+        <td id="c1">one</td>
+      </tr>
+      <tr>
+        <td id="c2">two</td>
+      </tr>
+    </table>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '        <button type="button" onclick="cStyles();">getComputedStyle</button>',
+                            "46:30",
+                            `/en-US/docs/Web/API/Document_Object_Model/Examples
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>getComputedStyle example</title>
+
+    <script>
+      function cStyles() {
+        const RefDiv = document.getElementById("d1");
+        const txtHeight = document.getElementById("t1");
+        const h_style = document.defaultView
+          .getComputedStyle(RefDiv, null)
+          .getPropertyValue("height");
+
+        txtHeight.value = h_style;
+
+        const txtWidth = document.getElementById("t2");
+        const w_style = document.defaultView
+          .getComputedStyle(RefDiv, null)
+          .getPropertyValue("width");
+
+        txtWidth.value = w_style;
+
+        const txtBackgroundColor = document.getElementById("t3");
+        const b_style = document.defaultView
+          .getComputedStyle(RefDiv, null)
+          .getPropertyValue("background-color");
+
+        txtBackgroundColor.value = b_style;
+      }
+    </script>
+
+    <style>
+      #d1 {
+        margin-left: 10px;
+        background-color: rgb(173 216 230);
+        height: 20px;
+        max-width: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="d1">&nbsp;</div>
+
+    <form action="">
+      <p>
+        <button type="button" onclick="cStyles();">getComputedStyle</button>
+        height<input id="t1" type="text" value="1" /> max-width<input
+          id="t2"
+          type="text"
+          value="2" />
+        bg-color<input id="t3" type="text" value="3" />
+      </p>
+    </form>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    introduction: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document_Object_Model/Introduction",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onload".',
+                            `<body onload="console.log('Welcome to my home page!');">`,
+                            "0:6",
+                            `/en-US/docs/Web/API/Document_Object_Model/Introduction
+[no-inline-event-handlers] Do not use inline event handler "onload".
+~~~
+<body onload="console.log('Welcome to my home page!');">
+  …
+</body>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    traversing_an_html_table_with_javascript_and_dom_interfaces: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document_Object_Model/Traversing_an_HTML_table_with_JavaScript_and_DOM_Interfaces",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onload".',
+                            '  <body onload="start()"></body>',
+                            "44:8",
+                            `/en-US/docs/Web/API/Document_Object_Model/Traversing_an_HTML_table_with_JavaScript_and_DOM_Interfaces
+[no-inline-event-handlers] Do not use inline event handler "onload".
+~~~
+<html lang="en">
+  <head>
+    <title>
+      Sample code - Traversing an HTML Table with JavaScript and DOM Interfaces
+    </title>
+    <script>
+      function start() {
+        // get the reference for the body
+        const myBody = document.getElementsByTagName("body")[0];
+
+        // creates <table> and <tbody> elements
+        const myTable = document.createElement("table");
+        const myTableBody = document.createElement("tbody");
+
+        // creating all cells
+        for (let j = 0; j < 3; j++) {
+          // creates a <tr> element
+          const myCurrentRow = document.createElement("tr");
+
+          for (let i = 0; i < 4; i++) {
+            // creates a <td> element
+            const myCurrentCell = document.createElement("td");
+            // creates a Text Node
+            const currentText = document.createTextNode(
+              \`cell is row \${j}, column \${i}\`,
+            );
+            // appends the Text Node we created into the cell <td>
+            myCurrentCell.appendChild(currentText);
+            // appends the cell <td> into the row <tr>
+            myCurrentRow.appendChild(myCurrentCell);
+          }
+          // appends the row <tr> into <tbody>
+          myTableBody.appendChild(myCurrentRow);
+        }
+
+        // appends <tbody> into <table>
+        myTable.appendChild(myTableBody);
+        // appends <table> into <body>
+        myBody.appendChild(myTable);
+        // sets the border attribute of myTable to 2;
+        myTable.setAttribute("border", "2");
+      }
+    </script>
+  </head>
+  <body onload="start()"></body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onload".',
+                            '  <body onload="start()"></body>',
+                            "1:8",
+                            `/en-US/docs/Web/API/Document_Object_Model/Traversing_an_HTML_table_with_JavaScript_and_DOM_Interfaces
+[no-inline-event-handlers] Do not use inline event handler "onload".
+~~~
+<html lang="en">
+  <body onload="start()"></body>
+  <script>
+    function start() {
+      const myBody = document.getElementsByTagName("body")[0];
+      const myTable = document.createElement("table");
+      const myTableBody = document.createElement("tbody");
+
+      for (let row = 0; row < 2; row++) {
+        const myCurrentRow = document.createElement("tr");
+        for (let col = 0; col < 2; col++) {
+          const myCurrentCell = document.createElement("td");
+          const currentText = document.createTextNode(\`cell is: \${row}\${col}\`);
+          myCurrentCell.appendChild(currentText);
+          myCurrentRow.appendChild(myCurrentCell);
+          // set the cell background color
+          // if the column is 0. If the column is 1 hide the cell
+          if (col === 0) {
+            myCurrentCell.style.background = "rgb(255 0 0)";
+          } else {
+            myCurrentCell.style.display = "none";
+          }
+        }
+        myTableBody.appendChild(myCurrentRow);
+      }
+      myTable.appendChild(myTableBody);
+      myBody.appendChild(myTable);
+    }
+  </script>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '<input type="button" value="Generate a table" onclick="generateTable()" />',
+                            "0:46",
+                            `/en-US/docs/Web/API/Document_Object_Model/Traversing_an_HTML_table_with_JavaScript_and_DOM_Interfaces
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<input type="button" value="Generate a table" onclick="generateTable()" />
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '    onclick="setBackground()" />',
+                            "4:4",
+                            `/en-US/docs/Web/API/Document_Object_Model/Traversing_an_HTML_table_with_JavaScript_and_DOM_Interfaces
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<body>
+  <input
+    type="button"
+    value="Set paragraph background color"
+    onclick="setBackground()" />
+  <p>hi</p>
+  <p>hello</p>
+</body>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    using_the_document_object_model: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document_Object_Model/Using_the_Document_Object_Model",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '    <input type="button" value="Change this document." onclick="change()" />',
+                            "5:55",
+                            `/en-US/docs/Web/API/Document_Object_Model/Using_the_Document_Object_Model
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<html lang="en">
+  <head>
+    <title>My Document</title>
+  </head>
+  <body>
+    <input type="button" value="Change this document." onclick="change()" />
+    <h2>Header</h2>
+    <p>Paragraph</p>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/API/Document_Object_Model",
                   messages: [
                     {
@@ -10721,6 +14071,83 @@ api.DeviceOrientationEvent`,
                           data: [
                             "https://jsfiddle.net/S4yNp"
                           ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onload".',
+                            '  <body onload="init()">',
+                            "19:8",
+                            `/en-US/docs/Web/API/Document/anchors
+[no-inline-event-handlers] Do not use inline event handler "onload".
+~~~
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Test</title>
+    <script>
+      function init() {
+        const toc = document.getElementById("toc");
+        for (const anchor of document.anchors) {
+          const li = document.createElement("li");
+          const newAnchor = document.createElement("a");
+          newAnchor.href = "#" + anchor.name;
+          newAnchor.textContent = anchor.text;
+          li.appendChild(newAnchor);
+          toc.appendChild(li);
+        }
+      }
+    </script>
+  </head>
+  <body onload="init()">
+    <h1>Title</h1>
+    <h2><a name="contents">Contents</a></h2>
+    <ul id="toc"></ul>
+
+    <h2><a name="plants">Plants</a></h2>
+    <ol>
+      <li>Apples</li>
+      <li>Oranges</li>
+      <li>Pears</li>
+    </ol>
+
+    <h2><a name="veggies">Veggies</a></h2>
+    <ol>
+      <li>Carrots</li>
+      <li>Celery</li>
+      <li>Beats</li>
+    </ol>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    characterset: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document/characterSet",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '<button onclick="console.log(document.characterSet);">',
+                            "0:8",
+                            `/en-US/docs/Web/API/Document/characterSet
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<button onclick="console.log(document.characterSet);">
+  Log character encoding
+</button>
+<!-- displays document's character encoding in the dev console, such as "ISO-8859-1" or "UTF-8" -->
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -10731,6 +14158,422 @@ api.DeviceOrientationEvent`,
                         {
                           message: "Missing syntax code block",
                           data: []
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '<button onclick="showCookies()">Show cookies</button>',
+                            "0:8",
+                            `/en-US/docs/Web/API/Document/cookie
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<button onclick="showCookies()">Show cookies</button>
+
+<button onclick="clearOutputCookies()">Clear</button>
+
+<div>
+  <code id="cookies"></code>
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '<button onclick="clearOutputCookies()">Clear</button>',
+                            "2:8",
+                            `/en-US/docs/Web/API/Document/cookie
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<button onclick="showCookies()">Show cookies</button>
+
+<button onclick="clearOutputCookies()">Clear</button>
+
+<div>
+  <code id="cookies"></code>
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '<button onclick="showCookieValue()">Show cookie value</button>',
+                            "0:8",
+                            `/en-US/docs/Web/API/Document/cookie
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<button onclick="showCookieValue()">Show cookie value</button>
+
+<button onclick="clearOutputCookieValue()">Clear</button>
+
+<div>
+  <code id="cookie-value"></code>
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '<button onclick="clearOutputCookieValue()">Clear</button>',
+                            "2:8",
+                            `/en-US/docs/Web/API/Document/cookie
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<button onclick="showCookieValue()">Show cookie value</button>
+
+<button onclick="clearOutputCookieValue()">Clear</button>
+
+<div>
+  <code id="cookie-value"></code>
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '<button onclick="doOnce()">Only do something once</button>',
+                            "0:8",
+                            `/en-US/docs/Web/API/Document/cookie
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<button onclick="doOnce()">Only do something once</button>
+
+<button onclick="clearOutputDoOnce()">Clear</button>
+
+<div>
+  <code id="do-once"></code>
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '<button onclick="clearOutputDoOnce()">Clear</button>',
+                            "2:8",
+                            `/en-US/docs/Web/API/Document/cookie
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<button onclick="doOnce()">Only do something once</button>
+
+<button onclick="clearOutputDoOnce()">Clear</button>
+
+<div>
+  <code id="do-once"></code>
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '<button onclick="resetOnce()">Reset only once cookie</button>',
+                            "0:8",
+                            `/en-US/docs/Web/API/Document/cookie
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<button onclick="resetOnce()">Reset only once cookie</button>
+
+<button onclick="clearOutputResetOnce()">Clear</button>
+
+<div>
+  <code id="reset-once"></code>
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '<button onclick="clearOutputResetOnce()">Clear</button>',
+                            "2:8",
+                            `/en-US/docs/Web/API/Document/cookie
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<button onclick="resetOnce()">Reset only once cookie</button>
+
+<button onclick="clearOutputResetOnce()">Clear</button>
+
+<div>
+  <code id="reset-once"></code>
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '<button onclick="checkACookieExists()">Check a cookie exists</button>',
+                            "0:8",
+                            `/en-US/docs/Web/API/Document/cookie
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<button onclick="checkACookieExists()">Check a cookie exists</button>
+
+<button onclick="clearOutputACookieExists()">Clear</button>
+
+<div>
+  <code id="a-cookie-existence"></code>
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '<button onclick="clearOutputACookieExists()">Clear</button>',
+                            "2:8",
+                            `/en-US/docs/Web/API/Document/cookie
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<button onclick="checkACookieExists()">Check a cookie exists</button>
+
+<button onclick="clearOutputACookieExists()">Clear</button>
+
+<div>
+  <code id="a-cookie-existence"></code>
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '<button onclick="checkCookieHasASpecificValue()">',
+                            "0:8",
+                            `/en-US/docs/Web/API/Document/cookie
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<button onclick="checkCookieHasASpecificValue()">
+  Check that a cookie has a specific value
+</button>
+
+<button onclick="clearASpecificValueOfTheCookie()">Clear</button>
+
+<div>
+  <code id="a-specific-value-of-the-cookie"></code>
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '<button onclick="clearASpecificValueOfTheCookie()">Clear</button>',
+                            "4:8",
+                            `/en-US/docs/Web/API/Document/cookie
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<button onclick="checkCookieHasASpecificValue()">
+  Check that a cookie has a specific value
+</button>
+
+<button onclick="clearASpecificValueOfTheCookie()">Clear</button>
+
+<div>
+  <code id="a-specific-value-of-the-cookie"></code>
+</div>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    createtextnode: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document/createTextNode",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            `    <button onclick="addTextNode('YES! ');">YES!</button>`,
+                            "15:12",
+                            `/en-US/docs/Web/API/Document/createTextNode
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>createTextNode example</title>
+    <script>
+      function addTextNode(text) {
+        const newText = document.createTextNode(text);
+        const p1 = document.getElementById("p1");
+
+        p1.appendChild(newText);
+      }
+    </script>
+  </head>
+
+  <body>
+    <button onclick="addTextNode('YES! ');">YES!</button>
+    <button onclick="addTextNode('NO! ');">NO!</button>
+    <button onclick="addTextNode('WE CAN! ');">WE CAN!</button>
+
+    <hr />
+
+    <p id="p1">First line of paragraph.</p>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            `    <button onclick="addTextNode('NO! ');">NO!</button>`,
+                            "16:12",
+                            `/en-US/docs/Web/API/Document/createTextNode
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>createTextNode example</title>
+    <script>
+      function addTextNode(text) {
+        const newText = document.createTextNode(text);
+        const p1 = document.getElementById("p1");
+
+        p1.appendChild(newText);
+      }
+    </script>
+  </head>
+
+  <body>
+    <button onclick="addTextNode('YES! ');">YES!</button>
+    <button onclick="addTextNode('NO! ');">NO!</button>
+    <button onclick="addTextNode('WE CAN! ');">WE CAN!</button>
+
+    <hr />
+
+    <p id="p1">First line of paragraph.</p>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            `    <button onclick="addTextNode('WE CAN! ');">WE CAN!</button>`,
+                            "17:12",
+                            `/en-US/docs/Web/API/Document/createTextNode
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>createTextNode example</title>
+    <script>
+      function addTextNode(text) {
+        const newText = document.createTextNode(text);
+        const p1 = document.getElementById("p1");
+
+        p1.appendChild(newText);
+      }
+    </script>
+  </head>
+
+  <body>
+    <button onclick="addTextNode('YES! ');">YES!</button>
+    <button onclick="addTextNode('NO! ');">NO!</button>
+    <button onclick="addTextNode('WE CAN! ');">WE CAN!</button>
+
+    <hr />
+
+    <p id="p1">First line of paragraph.</p>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    elementfrompoint: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document/elementFromPoint",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            `<button onclick="changeColor('blue');">Blue</button>`,
+                            "1:8",
+                            `/en-US/docs/Web/API/Document/elementFromPoint
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<p id="para1">Some text here</p>
+<button onclick="changeColor('blue');">Blue</button>
+<button onclick="changeColor('red');">Red</button>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            `<button onclick="changeColor('red');">Red</button>`,
+                            "2:8",
+                            `/en-US/docs/Web/API/Document/elementFromPoint
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<p id="para1">Some text here</p>
+<button onclick="changeColor('blue');">Blue</button>
+<button onclick="changeColor('red');">Red</button>
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -10754,6 +14597,726 @@ api.DeviceOrientationEvent`,
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/chrisdavidmills/full/gzYjag/"
+                          ]
+                        }
+                      ]
+                    },
+                    forms: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document/forms",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '        onclick="alert(document.forms[0].id);"',
+                            "10:8",
+                            `/en-US/docs/Web/API/Document/forms
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>document.forms example</title>
+  </head>
+
+  <body>
+    <form id="robby">
+      <input
+        type="button"
+        onclick="alert(document.forms[0].id);"
+        value="robby's form" />
+    </form>
+
+    <form id="dave">
+      <input
+        type="button"
+        onclick="alert(document.forms[1].id);"
+        value="dave's form" />
+    </form>
+
+    <form id="paul">
+      <input
+        type="button"
+        onclick="alert(document.forms[2].id);"
+        value="paul's form" />
+    </form>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '        onclick="alert(document.forms[1].id);"',
+                            "17:8",
+                            `/en-US/docs/Web/API/Document/forms
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>document.forms example</title>
+  </head>
+
+  <body>
+    <form id="robby">
+      <input
+        type="button"
+        onclick="alert(document.forms[0].id);"
+        value="robby's form" />
+    </form>
+
+    <form id="dave">
+      <input
+        type="button"
+        onclick="alert(document.forms[1].id);"
+        value="dave's form" />
+    </form>
+
+    <form id="paul">
+      <input
+        type="button"
+        onclick="alert(document.forms[2].id);"
+        value="paul's form" />
+    </form>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '        onclick="alert(document.forms[2].id);"',
+                            "24:8",
+                            `/en-US/docs/Web/API/Document/forms
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>document.forms example</title>
+  </head>
+
+  <body>
+    <form id="robby">
+      <input
+        type="button"
+        onclick="alert(document.forms[0].id);"
+        value="robby's form" />
+    </form>
+
+    <form id="dave">
+      <input
+        type="button"
+        onclick="alert(document.forms[1].id);"
+        value="dave's form" />
+    </form>
+
+    <form id="paul">
+      <input
+        type="button"
+        onclick="alert(document.forms[2].id);"
+        value="paul's form" />
+    </form>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    getelementbyid: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document/getElementById",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            `    <button onclick="changeColor('blue');">blue</button>`,
+                            "6:12",
+                            `/en-US/docs/Web/API/Document/getElementById
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<html lang="en">
+  <head>
+    <title>getElementById example</title>
+  </head>
+  <body>
+    <p id="para">Some text here</p>
+    <button onclick="changeColor('blue');">blue</button>
+    <button onclick="changeColor('red');">red</button>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            `    <button onclick="changeColor('red');">red</button>`,
+                            "7:12",
+                            `/en-US/docs/Web/API/Document/getElementById
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<html lang="en">
+  <head>
+    <title>getElementById example</title>
+  </head>
+  <body>
+    <p id="para">Some text here</p>
+    <button onclick="changeColor('blue');">blue</button>
+    <button onclick="changeColor('red');">red</button>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    getelementsbytagname: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document/getElementsByTagName",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '    <button onclick="getAllParaElems();">',
+                            "45:12",
+                            `/en-US/docs/Web/API/Document/getElementsByTagName
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>getElementsByTagName example</title>
+    <script>
+      function getAllParaElems() {
+        const allParas = document.getElementsByTagName("p");
+        const num = allParas.length;
+        alert(\`There are \${num} paragraph in this document\`);
+      }
+
+      function div1ParaElems() {
+        const div1 = document.getElementById("div1");
+        const div1Paras = div1.getElementsByTagName("p");
+        const num = div1Paras.length;
+        alert(\`There are \${num} paragraph in #div1\`);
+      }
+
+      function div2ParaElems() {
+        const div2 = document.getElementById("div2");
+        const div2Paras = div2.getElementsByTagName("p");
+        const num = div2Paras.length;
+        alert(\`There are \${num} paragraph in #div2\`);
+      }
+    </script>
+  </head>
+  <body style="border: solid green 3px">
+    <p>Some outer text</p>
+    <p>Some outer text</p>
+
+    <div id="div1" style="border: solid blue 3px">
+      <p>Some div1 text</p>
+      <p>Some div1 text</p>
+      <p>Some div1 text</p>
+
+      <div id="div2" style="border: solid red 3px">
+        <p>Some div2 text</p>
+        <p>Some div2 text</p>
+      </div>
+    </div>
+
+    <p>Some outer text</p>
+    <p>Some outer text</p>
+
+    <button onclick="getAllParaElems();">
+      Show all p elements in document
+    </button>
+    <br />
+
+    <button onclick="div1ParaElems();">
+      Show all p elements in div1 element
+    </button>
+    <br />
+
+    <button onclick="div2ParaElems();">
+      Show all p elements in div2 element
+    </button>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '    <button onclick="div1ParaElems();">',
+                            "50:12",
+                            `/en-US/docs/Web/API/Document/getElementsByTagName
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>getElementsByTagName example</title>
+    <script>
+      function getAllParaElems() {
+        const allParas = document.getElementsByTagName("p");
+        const num = allParas.length;
+        alert(\`There are \${num} paragraph in this document\`);
+      }
+
+      function div1ParaElems() {
+        const div1 = document.getElementById("div1");
+        const div1Paras = div1.getElementsByTagName("p");
+        const num = div1Paras.length;
+        alert(\`There are \${num} paragraph in #div1\`);
+      }
+
+      function div2ParaElems() {
+        const div2 = document.getElementById("div2");
+        const div2Paras = div2.getElementsByTagName("p");
+        const num = div2Paras.length;
+        alert(\`There are \${num} paragraph in #div2\`);
+      }
+    </script>
+  </head>
+  <body style="border: solid green 3px">
+    <p>Some outer text</p>
+    <p>Some outer text</p>
+
+    <div id="div1" style="border: solid blue 3px">
+      <p>Some div1 text</p>
+      <p>Some div1 text</p>
+      <p>Some div1 text</p>
+
+      <div id="div2" style="border: solid red 3px">
+        <p>Some div2 text</p>
+        <p>Some div2 text</p>
+      </div>
+    </div>
+
+    <p>Some outer text</p>
+    <p>Some outer text</p>
+
+    <button onclick="getAllParaElems();">
+      Show all p elements in document
+    </button>
+    <br />
+
+    <button onclick="div1ParaElems();">
+      Show all p elements in div1 element
+    </button>
+    <br />
+
+    <button onclick="div2ParaElems();">
+      Show all p elements in div2 element
+    </button>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '    <button onclick="div2ParaElems();">',
+                            "55:12",
+                            `/en-US/docs/Web/API/Document/getElementsByTagName
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>getElementsByTagName example</title>
+    <script>
+      function getAllParaElems() {
+        const allParas = document.getElementsByTagName("p");
+        const num = allParas.length;
+        alert(\`There are \${num} paragraph in this document\`);
+      }
+
+      function div1ParaElems() {
+        const div1 = document.getElementById("div1");
+        const div1Paras = div1.getElementsByTagName("p");
+        const num = div1Paras.length;
+        alert(\`There are \${num} paragraph in #div1\`);
+      }
+
+      function div2ParaElems() {
+        const div2 = document.getElementById("div2");
+        const div2Paras = div2.getElementsByTagName("p");
+        const num = div2Paras.length;
+        alert(\`There are \${num} paragraph in #div2\`);
+      }
+    </script>
+  </head>
+  <body style="border: solid green 3px">
+    <p>Some outer text</p>
+    <p>Some outer text</p>
+
+    <div id="div1" style="border: solid blue 3px">
+      <p>Some div1 text</p>
+      <p>Some div1 text</p>
+      <p>Some div1 text</p>
+
+      <div id="div2" style="border: solid red 3px">
+        <p>Some div2 text</p>
+        <p>Some div2 text</p>
+      </div>
+    </div>
+
+    <p>Some outer text</p>
+    <p>Some outer text</p>
+
+    <button onclick="getAllParaElems();">
+      Show all p elements in document
+    </button>
+    <br />
+
+    <button onclick="div1ParaElems();">
+      Show all p elements in div1 element
+    </button>
+    <br />
+
+    <button onclick="div2ParaElems();">
+      Show all p elements in div2 element
+    </button>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    getelementsbytagnamens: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document/getElementsByTagNameNS",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '    <button onclick="getAllParaElems();">',
+                            "54:12",
+                            `/en-US/docs/Web/API/Document/getElementsByTagNameNS
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>getElementsByTagNameNS example</title>
+
+    <script>
+      function getAllParaElems() {
+        const allParas = document.getElementsByTagNameNS(
+          "http://www.w3.org/1999/xhtml",
+          "p",
+        );
+        const num = allParas.length;
+        alert(\`There are \${num} &lt;p&gt; elements in this document\`);
+      }
+
+      function div1ParaElems() {
+        const div1 = document.getElementById("div1");
+        const div1Paras = div1.getElementsByTagNameNS(
+          "http://www.w3.org/1999/xhtml",
+          "p",
+        );
+        const num = div1Paras.length;
+        alert(\`There are \${num} &lt;p&gt; elements in div1 element\`);
+      }
+
+      function div2ParaElems() {
+        const div2 = document.getElementById("div2");
+        const div2Paras = div2.getElementsByTagNameNS(
+          "http://www.w3.org/1999/xhtml",
+          "p",
+        );
+        const num = div2Paras.length;
+        alert(\`There are \${num} &lt;p&gt; elements in div2 element\`);
+      }
+    </script>
+  </head>
+
+  <body style="border: solid green 3px">
+    <p>Some outer text</p>
+    <p>Some outer text</p>
+
+    <div id="div1" style="border: solid blue 3px">
+      <p>Some div1 text</p>
+      <p>Some div1 text</p>
+      <p>Some div1 text</p>
+
+      <div id="div2" style="border: solid red 3px">
+        <p>Some div2 text</p>
+        <p>Some div2 text</p>
+      </div>
+    </div>
+
+    <p>Some outer text</p>
+    <p>Some outer text</p>
+
+    <button onclick="getAllParaElems();">
+      Show all p elements in document
+    </button>
+    <br />
+
+    <button onclick="div1ParaElems();">
+      Show all p elements in div1 element
+    </button>
+    <br />
+
+    <button onclick="div2ParaElems();">
+      show all p elements in div2 element
+    </button>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '    <button onclick="div1ParaElems();">',
+                            "59:12",
+                            `/en-US/docs/Web/API/Document/getElementsByTagNameNS
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>getElementsByTagNameNS example</title>
+
+    <script>
+      function getAllParaElems() {
+        const allParas = document.getElementsByTagNameNS(
+          "http://www.w3.org/1999/xhtml",
+          "p",
+        );
+        const num = allParas.length;
+        alert(\`There are \${num} &lt;p&gt; elements in this document\`);
+      }
+
+      function div1ParaElems() {
+        const div1 = document.getElementById("div1");
+        const div1Paras = div1.getElementsByTagNameNS(
+          "http://www.w3.org/1999/xhtml",
+          "p",
+        );
+        const num = div1Paras.length;
+        alert(\`There are \${num} &lt;p&gt; elements in div1 element\`);
+      }
+
+      function div2ParaElems() {
+        const div2 = document.getElementById("div2");
+        const div2Paras = div2.getElementsByTagNameNS(
+          "http://www.w3.org/1999/xhtml",
+          "p",
+        );
+        const num = div2Paras.length;
+        alert(\`There are \${num} &lt;p&gt; elements in div2 element\`);
+      }
+    </script>
+  </head>
+
+  <body style="border: solid green 3px">
+    <p>Some outer text</p>
+    <p>Some outer text</p>
+
+    <div id="div1" style="border: solid blue 3px">
+      <p>Some div1 text</p>
+      <p>Some div1 text</p>
+      <p>Some div1 text</p>
+
+      <div id="div2" style="border: solid red 3px">
+        <p>Some div2 text</p>
+        <p>Some div2 text</p>
+      </div>
+    </div>
+
+    <p>Some outer text</p>
+    <p>Some outer text</p>
+
+    <button onclick="getAllParaElems();">
+      Show all p elements in document
+    </button>
+    <br />
+
+    <button onclick="div1ParaElems();">
+      Show all p elements in div1 element
+    </button>
+    <br />
+
+    <button onclick="div2ParaElems();">
+      show all p elements in div2 element
+    </button>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '    <button onclick="div2ParaElems();">',
+                            "64:12",
+                            `/en-US/docs/Web/API/Document/getElementsByTagNameNS
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>getElementsByTagNameNS example</title>
+
+    <script>
+      function getAllParaElems() {
+        const allParas = document.getElementsByTagNameNS(
+          "http://www.w3.org/1999/xhtml",
+          "p",
+        );
+        const num = allParas.length;
+        alert(\`There are \${num} &lt;p&gt; elements in this document\`);
+      }
+
+      function div1ParaElems() {
+        const div1 = document.getElementById("div1");
+        const div1Paras = div1.getElementsByTagNameNS(
+          "http://www.w3.org/1999/xhtml",
+          "p",
+        );
+        const num = div1Paras.length;
+        alert(\`There are \${num} &lt;p&gt; elements in div1 element\`);
+      }
+
+      function div2ParaElems() {
+        const div2 = document.getElementById("div2");
+        const div2Paras = div2.getElementsByTagNameNS(
+          "http://www.w3.org/1999/xhtml",
+          "p",
+        );
+        const num = div2Paras.length;
+        alert(\`There are \${num} &lt;p&gt; elements in div2 element\`);
+      }
+    </script>
+  </head>
+
+  <body style="border: solid green 3px">
+    <p>Some outer text</p>
+    <p>Some outer text</p>
+
+    <div id="div1" style="border: solid blue 3px">
+      <p>Some div1 text</p>
+      <p>Some div1 text</p>
+      <p>Some div1 text</p>
+
+      <div id="div2" style="border: solid red 3px">
+        <p>Some div2 text</p>
+        <p>Some div2 text</p>
+      </div>
+    </div>
+
+    <p>Some outer text</p>
+    <p>Some outer text</p>
+
+    <button onclick="getAllParaElems();">
+      Show all p elements in document
+    </button>
+    <br />
+
+    <button onclick="div1ParaElems();">
+      Show all p elements in div1 element
+    </button>
+    <br />
+
+    <button onclick="div2ParaElems();">
+      show all p elements in div2 element
+    </button>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    querycommandstate: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document/queryCommandState",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            `<button onclick="makeBold();">Test the state of the 'bold' command</button>`,
+                            "1:8",
+                            `/en-US/docs/Web/API/Document/queryCommandState
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<div contenteditable="true">Select a part of this text!</div>
+<button onclick="makeBold();">Test the state of the 'bold' command</button>
+
+<hr />
+
+<div id="output"></div>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    write: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document/write",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '<button onclick="newContent()">Replace document content</button>',
+                            "1:8",
+                            `/en-US/docs/Web/API/Document/write
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<p>Some original document content.</p>
+<button onclick="newContent()">Replace document content</button>
+~~~
+`
                           ]
                         }
                       ]
@@ -10782,6 +15345,230 @@ api.DeviceOrientationEvent`,
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/rachelnabors/pen/rxpmJL/?editors=0010"
+                          ]
+                        }
+                      ]
+                    },
+                    attributes: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Element/attributes",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '          onclick="listAttributes();" />',
+                            "30:10",
+                            `/en-US/docs/Web/API/Element/attributes
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <title>Attributes example</title>
+    <script>
+      function listAttributes() {
+        const paragraph = document.getElementById("paragraph");
+        const result = document.getElementById("result");
+
+        // First, let's verify that the paragraph has some attributes
+        if (paragraph.hasAttributes()) {
+          let output = "Attributes of first paragraph:\\n";
+          for (const attr of paragraph.attributes) {
+            output += \`\${attr.name} -> \${attr.value}\\n\`;
+          }
+          result.textContent = output;
+        } else {
+          result.textContent = "No attributes to show";
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <p id="paragraph" style="color: green;">Sample Paragraph</p>
+    <form action="">
+      <p>
+        <input
+          type="button"
+          value="Show first attribute name and value"
+          onclick="listAttributes();" />
+      </p>
+    </form>
+    <pre id="result"></pre>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    haspointercapture: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Element/hasPointerCapture",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onload".',
+                            '  <body onload="init();">',
+                            "23:8",
+                            `/en-US/docs/Web/API/Element/hasPointerCapture
+[no-inline-event-handlers] Do not use inline event handler "onload".
+~~~
+<html lang="en">
+  <script>
+    function downHandler(ev) {
+      const el = document.getElementById("target");
+      // Element 'target' will receive/capture further events
+      el.setPointerCapture(ev.pointerId);
+
+      // …
+
+      // Check whether element still has pointer capture
+      let pointerCap = el.hasPointerCapture(ev.pointerId);
+      if (pointerCap) {
+        // We've still got pointer capture
+      } else {
+        // oops, we've lost pointer capture!
+      }
+    }
+
+    function init() {
+      const el = document.getElementById("target");
+      el.onpointerdown = downHandler;
+    }
+  </script>
+  <body onload="init();">
+    <div id="target">Touch this element with a pointer.</div>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    setcapture: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Element/setCapture",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onload".',
+                            '  <body onload="init()">',
+                            "42:8",
+                            `/en-US/docs/Web/API/Element/setCapture
+[no-inline-event-handlers] Do not use inline event handler "onload".
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Mouse Capture Example</title>
+    <style>
+      #myButton {
+        border: solid black 1px;
+        color: black;
+        padding: 2px;
+        box-shadow: black 2px 2px;
+      }
+    </style>
+
+    <script>
+      function init() {
+        const btn = document.getElementById("myButton");
+        if (btn.setCapture) {
+          btn.addEventListener("mousedown", mouseDown, false);
+          btn.addEventListener("mouseup", mouseUp, false);
+        } else {
+          document.getElementById("output").textContent =
+            "Sorry, there appears to be no setCapture support on this browser";
+        }
+      }
+
+      function mouseDown(e) {
+        e.target.setCapture();
+        e.target.addEventListener("mousemove", mouseMoved, false);
+      }
+
+      function mouseUp(e) {
+        e.target.removeEventListener("mousemove", mouseMoved, false);
+      }
+
+      function mouseMoved(e) {
+        const output = document.getElementById("output");
+        output.textContent = \`Position: \${e.clientX}, \${e.clientY}\`;
+      }
+    </script>
+  </head>
+  <body onload="init()">
+    <p>
+      This is an example of how to use mouse capture on elements in Gecko 2.0.
+    </p>
+    <p><a id="myButton" href="#">Test Me</a></p>
+    <div id="output">No events yet</div>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                eventtarget: {
+                  children: {
+                    addeventlistener: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/EventTarget/addEventListener",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '<table id="my_table" onclick="console.log(this.id);">',
+                            "0:21",
+                            `/en-US/docs/Web/API/EventTarget/addEventListener
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<table id="my_table" onclick="console.log(this.id);">
+  <!-- \`this\` refers to the table; logs 'my_table' -->
+  …
+</table>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '<table id="my_table" onclick="logID();">',
+                            "5:21",
+                            `/en-US/docs/Web/API/EventTarget/addEventListener
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<script>
+  function logID() {
+    console.log(this.id);
+  }
+</script>
+<table id="my_table" onclick="logID();">
+  <!-- when called, \`this\` will refer to the global object -->
+  …
+</table>
+~~~
+`
                           ]
                         }
                       ]
@@ -10845,6 +15632,54 @@ http.headers.Permissions-Policy.deferred-fetch-minimal`,
                         {
                           message: "Broken browser compat anchor",
                           data: []
+                        }
+                      ]
+                    }
+                  }
+                },
+                filereader: {
+                  children: {
+                    readasdataurl: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/FileReader/readAsDataURL",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onchange".',
+                            '<input type="file" onchange="previewFile()" /><br />',
+                            "0:19",
+                            `/en-US/docs/Web/API/FileReader/readAsDataURL
+[no-inline-event-handlers] Do not use inline event handler "onchange".
+~~~
+<input type="file" onchange="previewFile()" /><br />
+<img src="" height="200" alt="Image preview" />
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    readastext: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/FileReader/readAsText",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onchange".',
+                            '<input type="file" onchange="previewFile()" /><br />',
+                            "0:19",
+                            `/en-US/docs/Web/API/FileReader/readAsText
+[no-inline-event-handlers] Do not use inline event handler "onchange".
+~~~
+<input type="file" onchange="previewFile()" /><br />
+<p class="content"></p>
+~~~
+`
+                          ]
                         }
                       ]
                     }
@@ -10928,7 +15763,71 @@ api.Document.fullscreen`,
                   ]
                 },
                 html_drag_and_drop_api: {
-                  children: {},
+                  children: {
+                    file_drag_and_drop: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTML_Drag_and_Drop_API/File_drag_and_drop",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "ondrop".',
+                            '<div id="drop_zone" ondrop="dropHandler(event);">',
+                            "0:20",
+                            `/en-US/docs/Web/API/HTML_Drag_and_Drop_API/File_drag_and_drop
+[no-inline-event-handlers] Do not use inline event handler "ondrop".
+~~~
+<div id="drop_zone" ondrop="dropHandler(event);">
+  <p>Drag one or more files to this <i>drop zone</i>.</p>
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "ondrop".',
+                            '  ondrop="dropHandler(event);"',
+                            "2:2",
+                            `/en-US/docs/Web/API/HTML_Drag_and_Drop_API/File_drag_and_drop
+[no-inline-event-handlers] Do not use inline event handler "ondrop".
+~~~
+<div
+  id="drop_zone"
+  ondrop="dropHandler(event);"
+  ondragover="dragOverHandler(event);">
+  <p>Drag one or more files to this <i>drop zone</i>.</p>
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "ondragover".',
+                            '  ondragover="dragOverHandler(event);">',
+                            "3:2",
+                            `/en-US/docs/Web/API/HTML_Drag_and_Drop_API/File_drag_and_drop
+[no-inline-event-handlers] Do not use inline event handler "ondragover".
+~~~
+<div
+  id="drop_zone"
+  ondrop="dropHandler(event);"
+  ondragover="dragOverHandler(event);">
+  <p>Drag one or more files to this <i>drop zone</i>.</p>
+</div>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/API/HTML_Drag_and_Drop_API",
                   messages: [
                     {
@@ -10948,6 +15847,189 @@ api.Document.fullscreen`,
                       data: [
                         "https://jsbin.com/hiqasek/edit?html,js,output"
                       ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "ondrop".',
+                        '<p id="target" ondrop="dropHandler(event)" ondragover="dragoverHandler(event)">',
+                        "13:15",
+                        `/en-US/docs/Web/API/HTML_Drag_and_Drop_API
+[no-inline-event-handlers] Do not use inline event handler "ondrop".
+~~~
+<script>
+  function dragoverHandler(ev) {
+    ev.preventDefault();
+    ev.dataTransfer.dropEffect = "move";
+  }
+  function dropHandler(ev) {
+    ev.preventDefault();
+    // Get the id of the target and add the moved element to the target's DOM
+    const data = ev.dataTransfer.getData("text/plain");
+    ev.target.appendChild(document.getElementById(data));
+  }
+</script>
+
+<p id="target" ondrop="dropHandler(event)" ondragover="dragoverHandler(event)">
+  Drop Zone
+</p>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "ondragover".',
+                        '<p id="target" ondrop="dropHandler(event)" ondragover="dragoverHandler(event)">',
+                        "13:43",
+                        `/en-US/docs/Web/API/HTML_Drag_and_Drop_API
+[no-inline-event-handlers] Do not use inline event handler "ondragover".
+~~~
+<script>
+  function dragoverHandler(ev) {
+    ev.preventDefault();
+    ev.dataTransfer.dropEffect = "move";
+  }
+  function dropHandler(ev) {
+    ev.preventDefault();
+    // Get the id of the target and add the moved element to the target's DOM
+    const data = ev.dataTransfer.getData("text/plain");
+    ev.target.appendChild(document.getElementById(data));
+  }
+</script>
+
+<p id="target" ondrop="dropHandler(event)" ondragover="dragoverHandler(event)">
+  Drop Zone
+</p>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "ondragstart".',
+                        '<p id="p1" draggable="true" ondragstart="dragstartHandler(event)">',
+                        "18:28",
+                        `/en-US/docs/Web/API/HTML_Drag_and_Drop_API
+[no-inline-event-handlers] Do not use inline event handler "ondragstart".
+~~~
+<script>
+  function dragstartHandler(ev) {
+    // Add the target element's id to the data transfer object
+    ev.dataTransfer.setData("application/my-app", ev.target.id);
+    ev.dataTransfer.effectAllowed = "move";
+  }
+  function dragoverHandler(ev) {
+    ev.preventDefault();
+    ev.dataTransfer.dropEffect = "move";
+  }
+  function dropHandler(ev) {
+    ev.preventDefault();
+    // Get the id of the target and add the moved element to the target's DOM
+    const data = ev.dataTransfer.getData("application/my-app");
+    ev.target.appendChild(document.getElementById(data));
+  }
+</script>
+
+<p id="p1" draggable="true" ondragstart="dragstartHandler(event)">
+  This element is draggable.
+</p>
+<div
+  id="target"
+  ondrop="dropHandler(event)"
+  ondragover="dragoverHandler(event)">
+  Drop Zone
+</div>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "ondrop".',
+                        '  ondrop="dropHandler(event)"',
+                        "23:2",
+                        `/en-US/docs/Web/API/HTML_Drag_and_Drop_API
+[no-inline-event-handlers] Do not use inline event handler "ondrop".
+~~~
+<script>
+  function dragstartHandler(ev) {
+    // Add the target element's id to the data transfer object
+    ev.dataTransfer.setData("application/my-app", ev.target.id);
+    ev.dataTransfer.effectAllowed = "move";
+  }
+  function dragoverHandler(ev) {
+    ev.preventDefault();
+    ev.dataTransfer.dropEffect = "move";
+  }
+  function dropHandler(ev) {
+    ev.preventDefault();
+    // Get the id of the target and add the moved element to the target's DOM
+    const data = ev.dataTransfer.getData("application/my-app");
+    ev.target.appendChild(document.getElementById(data));
+  }
+</script>
+
+<p id="p1" draggable="true" ondragstart="dragstartHandler(event)">
+  This element is draggable.
+</p>
+<div
+  id="target"
+  ondrop="dropHandler(event)"
+  ondragover="dragoverHandler(event)">
+  Drop Zone
+</div>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "ondragover".',
+                        '  ondragover="dragoverHandler(event)">',
+                        "24:2",
+                        `/en-US/docs/Web/API/HTML_Drag_and_Drop_API
+[no-inline-event-handlers] Do not use inline event handler "ondragover".
+~~~
+<script>
+  function dragstartHandler(ev) {
+    // Add the target element's id to the data transfer object
+    ev.dataTransfer.setData("application/my-app", ev.target.id);
+    ev.dataTransfer.effectAllowed = "move";
+  }
+  function dragoverHandler(ev) {
+    ev.preventDefault();
+    ev.dataTransfer.dropEffect = "move";
+  }
+  function dropHandler(ev) {
+    ev.preventDefault();
+    // Get the id of the target and add the moved element to the target's DOM
+    const data = ev.dataTransfer.getData("application/my-app");
+    ev.target.appendChild(document.getElementById(data));
+  }
+</script>
+
+<p id="p1" draggable="true" ondragstart="dragstartHandler(event)">
+  This element is draggable.
+</p>
+<div
+  id="target"
+  ondrop="dropHandler(event)"
+  ondragover="dragoverHandler(event)">
+  Drop Zone
+</div>
+~~~
+`
+                      ]
                     }
                   ]
                 },
@@ -10962,6 +16044,338 @@ api.Document.fullscreen`,
                       ]
                     }
                   ]
+                },
+                htmlelement: {
+                  children: {
+                    blur: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLElement/blur",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '<button type="button" onclick="focusInput()">Click me to gain focus</button>',
+                            "1:22",
+                            `/en-US/docs/Web/API/HTMLElement/blur
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<input type="text" id="sampleText" value="Sample Text" /> <br /><br />
+<button type="button" onclick="focusInput()">Click me to gain focus</button>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    click: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLElement/click",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onmouseover".',
+                            '    onmouseover="myFunction()"',
+                            "4:4",
+                            `/en-US/docs/Web/API/HTMLElement/click
+[no-inline-event-handlers] Do not use inline event handler "onmouseover".
+~~~
+<form>
+  <input
+    type="checkbox"
+    id="myCheck"
+    onmouseover="myFunction()"
+    onclick="alert('click event occurred')" />
+</form>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            `    onclick="alert('click event occurred')" />`,
+                            "5:4",
+                            `/en-US/docs/Web/API/HTMLElement/click
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<form>
+  <input
+    type="checkbox"
+    id="myCheck"
+    onmouseover="myFunction()"
+    onclick="alert('click event occurred')" />
+</form>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    load_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLElement/load_event",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '<div><button onclick="reload()">Reload</button></div>',
+                            "5:13",
+                            `/en-US/docs/Web/API/HTMLElement/load_event
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<img
+  id="image"
+  src="/shared-assets/images/examples/favicon144.png"
+  alt="MDN logo"
+  width="72" />
+<div><button onclick="reload()">Reload</button></div>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                htmlformelement: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/HTMLFormElement",
+                  messages: [
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "onclick".',
+                        '    <button type="button" onclick="getFormInfo();">Info</button>',
+                        "3:26",
+                        `/en-US/docs/Web/API/HTMLFormElement
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<form name="formA" action="/cgi-bin/test" method="post">
+  <p>Press "Info" for form details, or "Set" to change those details.</p>
+  <p>
+    <button type="button" onclick="getFormInfo();">Info</button>
+    <button type="button" onclick="setFormInfo(this.form);">Set</button>
+    <button type="reset">Reset</button>
+  </p>
+
+  <textarea id="form-info" rows="15" cols="20"></textarea>
+</form>
+
+<script>
+  function getFormInfo() {
+    // Get a reference to the form via its name
+    const f = document.forms["formA"];
+    // The form properties we're interested in
+    const properties = [
+      "elements",
+      "length",
+      "name",
+      "charset",
+      "action",
+      "acceptCharset",
+      "action",
+      "enctype",
+      "method",
+      "target",
+    ];
+    // Iterate over the properties, turning them into a string that we can display to the user
+    const info = properties
+      .map((property) => \`\${property}: \${f[property]}\`)
+      .join("\\n");
+
+    // Set the form's <textarea> to display the form's properties
+    document.forms["formA"].elements["form-info"].value = info; // document.forms["formA"]['form-info'].value would also work
+  }
+
+  function setFormInfo(f) {
+    // Argument should be a form element reference.
+    f.action = "a-different-url.cgi";
+    f.name = "a-different-name";
+  }
+</script>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "onclick".',
+                        '    <button type="button" onclick="setFormInfo(this.form);">Set</button>',
+                        "4:26",
+                        `/en-US/docs/Web/API/HTMLFormElement
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<form name="formA" action="/cgi-bin/test" method="post">
+  <p>Press "Info" for form details, or "Set" to change those details.</p>
+  <p>
+    <button type="button" onclick="getFormInfo();">Info</button>
+    <button type="button" onclick="setFormInfo(this.form);">Set</button>
+    <button type="reset">Reset</button>
+  </p>
+
+  <textarea id="form-info" rows="15" cols="20"></textarea>
+</form>
+
+<script>
+  function getFormInfo() {
+    // Get a reference to the form via its name
+    const f = document.forms["formA"];
+    // The form properties we're interested in
+    const properties = [
+      "elements",
+      "length",
+      "name",
+      "charset",
+      "action",
+      "acceptCharset",
+      "action",
+      "enctype",
+      "method",
+      "target",
+    ];
+    // Iterate over the properties, turning them into a string that we can display to the user
+    const info = properties
+      .map((property) => \`\${property}: \${f[property]}\`)
+      .join("\\n");
+
+    // Set the form's <textarea> to display the form's properties
+    document.forms["formA"].elements["form-info"].value = info; // document.forms["formA"]['form-info'].value would also work
+  }
+
+  function setFormInfo(f) {
+    // Argument should be a form element reference.
+    f.action = "a-different-url.cgi";
+    f.name = "a-different-name";
+  }
+</script>
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                htmlinputelement: {
+                  children: {
+                    select: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLInputElement/select",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onClick".',
+                            '<input onClick="this.select();" value="Sample Text" />',
+                            "0:7",
+                            `/en-US/docs/Web/API/HTMLInputElement/select
+[no-inline-event-handlers] Do not use inline event handler "onClick".
+~~~
+<input onClick="this.select();" value="Sample Text" />
+<!-- equivalent to -->
+<input
+  onClick="this.setSelectionRange(0, this.value.length);"
+  value="Sample Text" />
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onClick".',
+                            '  onClick="this.setSelectionRange(0, this.value.length);"',
+                            "3:2",
+                            `/en-US/docs/Web/API/HTMLInputElement/select
+[no-inline-event-handlers] Do not use inline event handler "onClick".
+~~~
+<input onClick="this.select();" value="Sample Text" />
+<!-- equivalent to -->
+<input
+  onClick="this.setSelectionRange(0, this.value.length);"
+  value="Sample Text" />
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '<button onclick="selectText()">Select text</button>',
+                            "1:8",
+                            `/en-US/docs/Web/API/HTMLInputElement/select
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<input type="text" id="text-box" size="20" value="Hello world!" />
+<button onclick="selectText()">Select text</button>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    setrangetext: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLInputElement/setRangeText",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '<button onclick="selectText()">Update text</button>',
+                            "5:8",
+                            `/en-US/docs/Web/API/HTMLInputElement/setRangeText
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<input
+  type="text"
+  id="text-box"
+  size="30"
+  value="This text has NOT been updated." />
+<button onclick="selectText()">Update text</button>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    setselectionrange: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLInputElement/setSelectionRange",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '<button onclick="selectText()">Select text</button>',
+                            "1:8",
+                            `/en-US/docs/Web/API/HTMLInputElement/setSelectionRange
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<input type="text" id="text-box" size="20" value="Mozilla" />
+<button onclick="selectText()">Select text</button>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 htmlolistelement: {
                   children: {},
@@ -10984,6 +16398,33 @@ api.Document.fullscreen`,
                       message: "Not in BCD",
                       data: [
                         "api.HTMLSelectedContentElement"
+                      ]
+                    }
+                  ]
+                },
+                htmltextareaelement: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/HTMLTextAreaElement",
+                  messages: [
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "onkeyup".',
+                        '    <p><textarea class="no-scrollbars" onkeyup="autoGrow(this);"></textarea></p>',
+                        "3:39",
+                        `/en-US/docs/Web/API/HTMLTextAreaElement
+[no-inline-event-handlers] Do not use inline event handler "onkeyup".
+~~~
+<form>
+  <fieldset>
+    <legend>Your comments</legend>
+    <p><textarea class="no-scrollbars" onkeyup="autoGrow(this);"></textarea></p>
+    <p><input type="submit" value="Send" /></p>
+  </fieldset>
+</form>
+~~~
+`
                       ]
                     }
                   ]
@@ -11246,6 +16687,57 @@ function checkDeadlines() {
                 },
                 keyboardevent: {
                   children: {
+                    altkey: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/KeyboardEvent/altKey",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onkeydown".',
+                            '  <body onkeydown="showChar(event);">',
+                            "24:8",
+                            `/en-US/docs/Web/API/KeyboardEvent/altKey
+[no-inline-event-handlers] Do not use inline event handler "onkeydown".
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>altKey example</title>
+
+    <script>
+      function showChar(e) {
+        alert(
+          "Key KeyDown: " +
+            String.fromCharCode(e.charCode) +
+            "\\n" +
+            "charCode: " +
+            e.charCode +
+            "\\n" +
+            "ALT key KeyDown: " +
+            e.altKey +
+            "\\n",
+        );
+      }
+    </script>
+  </head>
+
+  <body onkeydown="showChar(event);">
+    <p>
+      Press any character key, with or without holding down the ALT key.<br />
+      You can also use the SHIFT key together with the ALT key.
+    </p>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
                     charcode: {
                       children: {},
                       slug: "/en-US/docs/Web/API/KeyboardEvent/charCode",
@@ -11254,6 +16746,118 @@ function checkDeadlines() {
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Gecko_Keypress_Event"
+                          ]
+                        }
+                      ]
+                    },
+                    ctrlkey: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/KeyboardEvent/ctrlKey",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onkeypress".',
+                            '  <body onkeypress="showChar(event);">',
+                            "9:8",
+                            `/en-US/docs/Web/API/KeyboardEvent/ctrlKey
+[no-inline-event-handlers] Do not use inline event handler "onkeypress".
+~~~
+<html lang="en">
+  <head>
+    <title>ctrlKey example</title>
+    <script>
+      function showChar(e) {
+        alert(\`Key Pressed: \${e.key}\\nCTRL key pressed: \${e.ctrlKey}\\n\`);
+      }
+    </script>
+  </head>
+  <body onkeypress="showChar(event);">
+    <p>
+      Press any character key, with or without holding down the CTRL key.<br />
+      You can also use the SHIFT key together with the CTRL key.
+    </p>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    metakey: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/KeyboardEvent/metaKey",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '<button onclick="ismetaKey(event)">Click me with the meta key</button>',
+                            "0:8",
+                            `/en-US/docs/Web/API/KeyboardEvent/metaKey
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<button onclick="ismetaKey(event)">Click me with the meta key</button>
+
+<p id="output"></p>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    shiftkey: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/KeyboardEvent/shiftKey",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onkeypress".',
+                            '  <body onkeypress="showChar(event);">',
+                            "26:8",
+                            `/en-US/docs/Web/API/KeyboardEvent/shiftKey
+[no-inline-event-handlers] Do not use inline event handler "onkeypress".
+~~~
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>shiftKey example</title>
+
+    <script>
+      function showChar(e) {
+        alert(
+          "Key Pressed: " +
+            String.fromCharCode(e.charCode) +
+            "\\n" +
+            "charCode: " +
+            e.charCode +
+            "\\n" +
+            "SHIFT key pressed: " +
+            e.shiftKey +
+            "\\n" +
+            "ALT key pressed: " +
+            e.altKey +
+            "\\n",
+        );
+      }
+    </script>
+  </head>
+
+  <body onkeypress="showChar(event);">
+    <p>
+      Press any character key, with or without holding down the SHIFT key.<br />
+      You can also use the SHIFT key together with the ALT key.
+    </p>
+  </body>
+</html>
+~~~
+`
                           ]
                         }
                       ]
@@ -11409,6 +17013,235 @@ function checkDeadlines() {
                 },
                 mouseevent: {
                   children: {
+                    button: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/MouseEvent/button",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "oncontextmenu".',
+                            '<button id="button" oncontextmenu="event.preventDefault();">',
+                            "0:20",
+                            `/en-US/docs/Web/API/MouseEvent/button
+[no-inline-event-handlers] Do not use inline event handler "oncontextmenu".
+~~~
+<button id="button" oncontextmenu="event.preventDefault();">
+  Click here with your mouse…
+</button>
+<p id="log"></p>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    layerx: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/MouseEvent/layerX",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onmousedown".',
+                            '  <body onmousedown="showCoords(event)">',
+                            "43:8",
+                            `/en-US/docs/Web/API/MouseEvent/layerX
+[no-inline-event-handlers] Do not use inline event handler "onmousedown".
+~~~
+<html lang="en">
+  <head>
+    <title>pageX\\pageY & layerX\\layerY example</title>
+
+    <script>
+      function showCoords(evt) {
+        const form = document.forms.form_coords;
+        const parent_id = evt.target.parentNode.id;
+        form.parentId.value = parent_id;
+        form.pageXCoords.value = evt.pageX;
+        form.pageYCoords.value = evt.pageY;
+        form.layerXCoords.value = evt.layerX;
+        form.layerYCoords.value = evt.layerY;
+      }
+    </script>
+
+    <style>
+      #d1 {
+        border: solid blue 1px;
+        padding: 20px;
+      }
+
+      #d2 {
+        position: absolute;
+        top: 180px;
+        left: 80%;
+        right: auto;
+        width: 40%;
+        border: solid blue 1px;
+        padding: 20px;
+      }
+
+      #d3 {
+        position: absolute;
+        top: 240px;
+        left: 20%;
+        width: 50%;
+        border: solid blue 1px;
+        padding: 10px;
+      }
+    </style>
+  </head>
+
+  <body onmousedown="showCoords(event)">
+    <p>To display the mouse coordinates please click anywhere on the page.</p>
+
+    <div id="d1">
+      <span>
+        This is an un-positioned div so clicking it will return layerX/layerY
+        values almost the same as pageX/PageY values.
+      </span>
+    </div>
+
+    <div id="d2">
+      <span>
+        This is a positioned div so clicking it will return layerX/layerY values
+        that are relative to the top-left corner of this positioned element.
+        Note the pageX\\pageY properties still return the absolute position in
+        the document, including page scrolling.
+      </span>
+
+      <span>
+        Make the page scroll more! This is a positioned div so clicking it will
+        return layerX/layerY values that are relative to the top-left corner of
+        this positioned element. Note the pageX\\pageY properties still return
+        the absolute position in the document, including page scrolling.
+      </span>
+    </div>
+
+    <div id="d3">
+      <form name="form_coords" id="form1">
+        Parent Element id: <input type="text" name="parentId" size="7" /><br />
+        pageX: <input type="text" name="pageXCoords" size="7" /> pageY:
+        <input type="text" name="pageYCoords" size="7" /><br />
+        layerX: <input type="text" name="layerXCoords" size="7" /> layerY:
+        <input type="text" name="layerYCoords" size="7" />
+      </form>
+    </div>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    layery: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/MouseEvent/layerY",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onmousedown".',
+                            '  <body onmousedown="showCoords(event)">',
+                            "43:8",
+                            `/en-US/docs/Web/API/MouseEvent/layerY
+[no-inline-event-handlers] Do not use inline event handler "onmousedown".
+~~~
+<html lang="en">
+  <head>
+    <title>pageX\\pageY & layerX\\layerY example</title>
+
+    <script>
+      function showCoords(evt) {
+        const form = document.forms.form_coords;
+        const parent_id = evt.target.parentNode.id;
+        form.parentId.value = parent_id;
+        form.pageXCoords.value = evt.pageX;
+        form.pageYCoords.value = evt.pageY;
+        form.layerXCoords.value = evt.layerX;
+        form.layerYCoords.value = evt.layerY;
+      }
+    </script>
+
+    <style>
+      #d1 {
+        border: solid blue 1px;
+        padding: 20px;
+      }
+
+      #d2 {
+        position: absolute;
+        top: 180px;
+        left: 80%;
+        right: auto;
+        width: 40%;
+        border: solid blue 1px;
+        padding: 20px;
+      }
+
+      #d3 {
+        position: absolute;
+        top: 240px;
+        left: 20%;
+        width: 50%;
+        border: solid blue 1px;
+        padding: 10px;
+      }
+    </style>
+  </head>
+
+  <body onmousedown="showCoords(event)">
+    <p>To display the mouse coordinates please click anywhere on the page.</p>
+
+    <div id="d1">
+      <span>
+        This is an un-positioned div so clicking it will return layerX/layerY
+        values almost the same as pageX/PageY values.
+      </span>
+    </div>
+
+    <div id="d2">
+      <span>
+        This is a positioned div so clicking it will return layerX/layerY values
+        that are relative to the top-left corner of this positioned element.
+        Note the pageX\\pageY properties still return the absolute position in
+        the document, including page scrolling.
+      </span>
+
+      <span>
+        Make the page scroll more! This is a positioned div so clicking it will
+        return layerX/layerY values that are relative to the top-left corner of
+        this positioned element. Note the pageX\\pageY properties still return
+        the absolute position in the document, including page scrolling.
+      </span>
+    </div>
+
+    <div id="d3">
+      <form name="form_coords" id="form1">
+        <label for="parentId">Parent Element id: </label>
+        <input type="text" name="parentId" size="7" /><br />
+        <label for="pageXCoords">pageX: </label>
+        <input type="text" name="pageXCoords" size="7" />
+        <label for="pageYCoords">pageY: </label>
+        <input type="text" name="pageYCoords" size="7" /><br />
+        <label for="layerXCoords">layerX: </label>
+        <input type="text" name="layerXCoords" size="7" />
+        <label for="layerYCoords">layerY: </label>
+        <input type="text" name="layerYCoords" size="7" />
+      </form>
+    </div>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
                     mozinputsource: {
                       children: {},
                       slug: "/en-US/docs/Web/API/MouseEvent/mozInputSource",
@@ -11507,6 +17340,74 @@ function checkDeadlines() {
                     }
                   ]
                 },
+                namednodemap: {
+                  children: {
+                    item: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NamedNodeMap/item",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "one".',
+                            '<pre zero="test" one="test" two="test"></pre>',
+                            "0:17",
+                            `/en-US/docs/Web/API/NamedNodeMap/item
+[no-inline-event-handlers] Do not use inline event handler "one".
+~~~
+<pre zero="test" one="test" two="test"></pre>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    length: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NamedNodeMap/length",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "one".',
+                            '<pre zero="test" one="test" two="test"></pre>',
+                            "0:17",
+                            `/en-US/docs/Web/API/NamedNodeMap/length
+[no-inline-event-handlers] Do not use inline event handler "one".
+~~~
+<pre zero="test" one="test" two="test"></pre>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    setnameditem: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/NamedNodeMap/setNamedItem",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "one".',
+                            '<span one="one" two="two"></span>',
+                            "0:6",
+                            `/en-US/docs/Web/API/NamedNodeMap/setNamedItem
+[no-inline-event-handlers] Do not use inline event handler "one".
+~~~
+<span one="one" two="two"></span>
+<pre test="testValue"></pre>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 navigator: {
                   children: {
                     getbattery: {
@@ -11545,6 +17446,49 @@ function checkDeadlines() {
                       ]
                     }
                   }
+                },
+                notification: {
+                  children: {
+                    requestpermission_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Notification/requestPermission_static",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '<button onclick="notifyMe()">Notify me!</button>',
+                            "0:8",
+                            `/en-US/docs/Web/API/Notification/requestPermission_static
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<button onclick="notifyMe()">Notify me!</button>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/Notification",
+                  messages: [
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "onclick".',
+                        '<button onclick="notifyMe()">Notify me!</button>',
+                        "0:8",
+                        `/en-US/docs/Web/API/Notification
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<button onclick="notifyMe()">Notify me!</button>
+~~~
+`
+                      ]
+                    }
+                  ]
                 },
                 notifications_api: {
                   children: {
@@ -11740,6 +17684,81 @@ function checkDeadlines() {
                         {
                           message: "Unreachable via page",
                           data: []
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onload".',
+                            '<body onload="init();" style="touch-action:none">',
+                            "0:6",
+                            `/en-US/docs/Web/API/Pointer_events/Multi-touch_interaction
+[no-inline-event-handlers] Do not use inline event handler "onload".
+~~~
+<body onload="init();" style="touch-action:none">
+  <div id="target1">Tap, Hold or Swipe me 1</div>
+  <div id="target2">Tap, Hold or Swipe me 2</div>
+  <div id="target3">Tap, Hold or Swipe me 3</div>
+
+  <!-- UI for logging/debugging -->
+  <button id="log" onclick="enableLog(event);">Start/Stop event logging</button>
+  <button id="clearlog" onclick="clearLog(event);">Clear the log</button>
+  <p></p>
+  <output></output>
+</body>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '  <button id="log" onclick="enableLog(event);">Start/Stop event logging</button>',
+                            "6:19",
+                            `/en-US/docs/Web/API/Pointer_events/Multi-touch_interaction
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<body onload="init();" style="touch-action:none">
+  <div id="target1">Tap, Hold or Swipe me 1</div>
+  <div id="target2">Tap, Hold or Swipe me 2</div>
+  <div id="target3">Tap, Hold or Swipe me 3</div>
+
+  <!-- UI for logging/debugging -->
+  <button id="log" onclick="enableLog(event);">Start/Stop event logging</button>
+  <button id="clearlog" onclick="clearLog(event);">Clear the log</button>
+  <p></p>
+  <output></output>
+</body>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '  <button id="clearlog" onclick="clearLog(event);">Clear the log</button>',
+                            "7:24",
+                            `/en-US/docs/Web/API/Pointer_events/Multi-touch_interaction
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<body onload="init();" style="touch-action:none">
+  <div id="target1">Tap, Hold or Swipe me 1</div>
+  <div id="target2">Tap, Hold or Swipe me 2</div>
+  <div id="target3">Tap, Hold or Swipe me 3</div>
+
+  <!-- UI for logging/debugging -->
+  <button id="log" onclick="enableLog(event);">Start/Stop event logging</button>
+  <button id="clearlog" onclick="clearLog(event);">Clear the log</button>
+  <p></p>
+  <output></output>
+</body>
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -11750,6 +17769,84 @@ function checkDeadlines() {
                         {
                           message: "Unreachable via page",
                           data: []
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onload".',
+                            '<body onload="init();" style="touch-action:none">',
+                            "0:6",
+                            `/en-US/docs/Web/API/Pointer_events/Pinch_zoom_gestures
+[no-inline-event-handlers] Do not use inline event handler "onload".
+~~~
+<body onload="init();" style="touch-action:none">
+  <div id="target">
+    Touch and Hold with 2 pointers, then pinch in or out.<br />
+    The background color will change to pink if the pinch is opening (Zoom In)
+    or changes to lightblue if the pinch is closing (Zoom out).
+  </div>
+  <!-- UI for logging/debugging -->
+  <button id="log" onclick="enableLog(event);">Start/Stop event logging</button>
+  <button id="clearlog" onclick="clearLog(event);">Clear the log</button>
+  <p></p>
+  <output></output>
+</body>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '  <button id="log" onclick="enableLog(event);">Start/Stop event logging</button>',
+                            "7:19",
+                            `/en-US/docs/Web/API/Pointer_events/Pinch_zoom_gestures
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<body onload="init();" style="touch-action:none">
+  <div id="target">
+    Touch and Hold with 2 pointers, then pinch in or out.<br />
+    The background color will change to pink if the pinch is opening (Zoom In)
+    or changes to lightblue if the pinch is closing (Zoom out).
+  </div>
+  <!-- UI for logging/debugging -->
+  <button id="log" onclick="enableLog(event);">Start/Stop event logging</button>
+  <button id="clearlog" onclick="clearLog(event);">Clear the log</button>
+  <p></p>
+  <output></output>
+</body>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '  <button id="clearlog" onclick="clearLog(event);">Clear the log</button>',
+                            "8:24",
+                            `/en-US/docs/Web/API/Pointer_events/Pinch_zoom_gestures
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<body onload="init();" style="touch-action:none">
+  <div id="target">
+    Touch and Hold with 2 pointers, then pinch in or out.<br />
+    The background color will change to pink if the pinch is opening (Zoom In)
+    or changes to lightblue if the pinch is closing (Zoom out).
+  </div>
+  <!-- UI for logging/debugging -->
+  <button id="log" onclick="enableLog(event);">Start/Stop event logging</button>
+  <button id="clearlog" onclick="clearLog(event);">Clear the log</button>
+  <p></p>
+  <output></output>
+</body>
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -11876,17 +17973,25 @@ function checkDeadlines() {
                     }
                   }
                 },
-                rtccodecstats: {
+                response: {
                   children: {
-                    mimetype: {
+                    arraybuffer: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/RTCCodecStats/mimeType",
+                      slug: "/en-US/docs/Web/API/Response/arrayBuffer",
                       messages: [
                         {
-                          message: "Broken external link",
+                          message: "HTML code issue",
                           data: [
-                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
-                            "The operation timed out."
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onchange".',
+                            '<input type="file" onchange="readFile(this.files[0])" />',
+                            "0:19",
+                            `/en-US/docs/Web/API/Response/arrayBuffer
+[no-inline-event-handlers] Do not use inline event handler "onchange".
+~~~
+<input type="file" onchange="readFile(this.files[0])" />
+~~~
+`
                           ]
                         }
                       ]
@@ -12114,145 +18219,6 @@ function checkDeadlines() {
                     }
                   }
                 },
-                rtcrtpreceiver: {
-                  children: {
-                    getcapabilities_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/RTCRtpReceiver/getCapabilities_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    getparameters: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/RTCRtpReceiver/getParameters",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                rtcrtpsender: {
-                  children: {
-                    getcapabilities_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/RTCRtpSender/getCapabilities_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    getparameters: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/RTCRtpSender/getParameters",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    setparameters: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/RTCRtpSender/setParameters",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                rtcrtptransceiver: {
-                  children: {
-                    setcodecpreferences: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/RTCRtpTransceiver/setCodecPreferences",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 rtcstatsreport: {
                   children: {
                     "symbol.iterator": {
@@ -12455,6 +18421,141 @@ function checkDeadlines() {
                     }
                   ]
                 },
+                stylesheet: {
+                  children: {
+                    href: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/StyleSheet/href",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '    <button onclick="printRef()">ss</button>',
+                            "15:12",
+                            `/en-US/docs/Web/API/StyleSheet/href
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>href example</title>
+    <link rel="styleSheet" href="example.css" />
+    <script>
+      function printRef() {
+        alert(document.styleSheets[0].href);
+      }
+    </script>
+  </head>
+  <body>
+    <div class="thunder">Thunder</div>
+    <button onclick="printRef()">ss</button>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    ownernode: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/StyleSheet/ownerNode",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '    <button onclick="alert(document.styleSheets[0].ownerNode)">',
+                            "5:12",
+                            `/en-US/docs/Web/API/StyleSheet/ownerNode
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="example.css" />
+  </head>
+  <body>
+    <button onclick="alert(document.styleSheets[0].ownerNode)">
+      Show example.css's ownerNode
+    </button>
+  </body>
+</html>
+// Displays "object HTMLLinkElement"
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                svgcircleelement: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/SVGCircleElement",
+                  messages: [
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "onclick".',
+                        '    onclick="clickCircle();" />',
+                        "11:4",
+                        `/en-US/docs/Web/API/SVGCircleElement
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 250 250"
+  width="250"
+  height="250">
+  <circle
+    cx="100"
+    cy="100"
+    r="50"
+    fill="gold"
+    id="circle"
+    onclick="clickCircle();" />
+</svg>
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                svgellipseelement: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/SVGEllipseElement",
+                  messages: [
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "onclick".',
+                        '    onclick="outputSize();" />',
+                        "7:4",
+                        `/en-US/docs/Web/API/SVGEllipseElement
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <ellipse
+    cx="100"
+    cy="100"
+    rx="100"
+    ry="60"
+    id="ellipse"
+    onclick="outputSize();" />
+</svg>
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
                 svgrenderingintent: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SVGRenderingIntent",
@@ -12521,6 +18622,144 @@ function checkDeadlines() {
                     }
                   ]
                 },
+                svgtransformlist: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/SVGTransformList",
+                  messages: [
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "onclick".',
+                        '    onclick="transformMe(evt)" />',
+                        "38:4",
+                        `/en-US/docs/Web/API/SVGTransformList
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<svg
+  id="my-svg"
+  viewBox="0 0 300 280"
+  xmlns="http://www.w3.org/2000/svg"
+  version="1.1">
+  <desc>
+    Example showing how to transform svg elements that using SVGTransform
+    objects
+  </desc>
+  <script>
+    <![CDATA[
+      function transformMe(evt) {
+        // svg root element to access the createSVGTransform() function
+        const svgRoot = evt.target.parentNode;
+        // SVGTransformList of the element that has been clicked on
+        const tfmList = evt.target.transform.baseVal;
+
+        // Create a separate transform object for each transform
+        const translate = svgRoot.createSVGTransform();
+        translate.setTranslate(50,5);
+        const rotate = svgRoot.createSVGTransform();
+        rotate.setRotate(10,0,0);
+        const scale = svgRoot.createSVGTransform();
+        scale.setScale(0.8,0.8);
+
+        // apply the transformations by appending the SVGTransform objects to the SVGTransformList associated with the element
+        tfmList.appendItem(translate);
+        tfmList.appendItem(rotate);
+        tfmList.appendItem(scale);
+      }
+    ]]>
+  </script>
+
+  <polygon
+    fill="orange"
+    stroke="black"
+    stroke-width="5"
+    points="100,225 100,115 130,115 70,15 70,15 10,115 40,115 40,225"
+    onclick="transformMe(evt)" />
+  <rect
+    x="200"
+    y="100"
+    width="100"
+    height="100"
+    fill="yellow"
+    stroke="black"
+    stroke-width="5"
+    onclick="transformMe(evt)" />
+  <text x="40" y="250" font-family="Verdana" font-size="16" fill="green">
+    Click on a shape to transform it
+  </text>
+</svg>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "onclick".',
+                        '    onclick="transformMe(evt)" />',
+                        "47:4",
+                        `/en-US/docs/Web/API/SVGTransformList
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<svg
+  id="my-svg"
+  viewBox="0 0 300 280"
+  xmlns="http://www.w3.org/2000/svg"
+  version="1.1">
+  <desc>
+    Example showing how to transform svg elements that using SVGTransform
+    objects
+  </desc>
+  <script>
+    <![CDATA[
+      function transformMe(evt) {
+        // svg root element to access the createSVGTransform() function
+        const svgRoot = evt.target.parentNode;
+        // SVGTransformList of the element that has been clicked on
+        const tfmList = evt.target.transform.baseVal;
+
+        // Create a separate transform object for each transform
+        const translate = svgRoot.createSVGTransform();
+        translate.setTranslate(50,5);
+        const rotate = svgRoot.createSVGTransform();
+        rotate.setRotate(10,0,0);
+        const scale = svgRoot.createSVGTransform();
+        scale.setScale(0.8,0.8);
+
+        // apply the transformations by appending the SVGTransform objects to the SVGTransformList associated with the element
+        tfmList.appendItem(translate);
+        tfmList.appendItem(rotate);
+        tfmList.appendItem(scale);
+      }
+    ]]>
+  </script>
+
+  <polygon
+    fill="orange"
+    stroke="black"
+    stroke-width="5"
+    points="100,225 100,115 130,115 70,15 70,15 10,115 40,115 40,225"
+    onclick="transformMe(evt)" />
+  <rect
+    x="200"
+    y="100"
+    width="100"
+    height="100"
+    fill="yellow"
+    stroke="black"
+    stroke-width="5"
+    onclick="transformMe(evt)" />
+  <text x="40" y="250" font-family="Verdana" font-size="16" fill="green">
+    Click on a shape to transform it
+  </text>
+</svg>
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
                 touch_events: {
                   children: {
                     "multi-touch_interaction": {
@@ -12530,6 +18769,54 @@ function checkDeadlines() {
                         {
                           message: "Unreachable via page",
                           data: []
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '<button id="log" onclick="enableLog(event);">Start/Stop event logging</button>',
+                            "6:17",
+                            `/en-US/docs/Web/API/Touch_events/Multi-touch_interaction
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<div id="target1">Tap, Hold or Swipe me 1</div>
+<div id="target2">Tap, Hold or Swipe me 2</div>
+<div id="target3">Tap, Hold or Swipe me 3</div>
+<div id="target4">Tap, Hold or Swipe me 4</div>
+
+<!-- UI for logging/debugging -->
+<button id="log" onclick="enableLog(event);">Start/Stop event logging</button>
+<button id="clearlog" onclick="clearLog(event);">Clear the log</button>
+<p></p>
+<output></output>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '<button id="clearlog" onclick="clearLog(event);">Clear the log</button>',
+                            "7:22",
+                            `/en-US/docs/Web/API/Touch_events/Multi-touch_interaction
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<div id="target1">Tap, Hold or Swipe me 1</div>
+<div id="target2">Tap, Hold or Swipe me 2</div>
+<div id="target3">Tap, Hold or Swipe me 3</div>
+<div id="target4">Tap, Hold or Swipe me 4</div>
+
+<!-- UI for logging/debugging -->
+<button id="log" onclick="enableLog(event);">Start/Stop event logging</button>
+<button id="clearlog" onclick="clearLog(event);">Clear the log</button>
+<p></p>
+<output></output>
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -12672,6 +18959,102 @@ async function handleTranslation(e) {
                       ]
                     }
                   ]
+                },
+                uievent: {
+                  children: {
+                    which: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/UIEvent/which",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onkeypress".',
+                            '  <body onkeypress="showKeyPress(event);" onkeydown="keyDown(event);">',
+                            "25:8",
+                            `/en-US/docs/Web/API/UIEvent/which
+[no-inline-event-handlers] Do not use inline event handler "onkeypress".
+~~~
+<html lang="en">
+  <head>
+    <title>charCode/keyCode/which example</title>
+
+    <script>
+      function showKeyPress(evt) {
+        alert(
+          \`onkeypress handler:\\n\` +
+            \`keyCode property: \${evt.keyCode}\\n\` +
+            \`which property: \${evt.which}\\n\` +
+            \`charCode property: \${evt.charCode}\\n\` +
+            \`Character Key Pressed: \${String.fromCharCode(evt.charCode)}\\n\`,
+        );
+      }
+
+      function keyDown(evt) {
+        alert(
+          \`onkeydown handler:\\n\` +
+            \`keyCode property: \${evt.keyCode}\\n\` +
+            \`which property: \${evt.which}\\n\`,
+        );
+      }
+    </script>
+  </head>
+
+  <body onkeypress="showKeyPress(event);" onkeydown="keyDown(event);">
+    <p>Please press any key.</p>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onkeydown".',
+                            '  <body onkeypress="showKeyPress(event);" onkeydown="keyDown(event);">',
+                            "25:42",
+                            `/en-US/docs/Web/API/UIEvent/which
+[no-inline-event-handlers] Do not use inline event handler "onkeydown".
+~~~
+<html lang="en">
+  <head>
+    <title>charCode/keyCode/which example</title>
+
+    <script>
+      function showKeyPress(evt) {
+        alert(
+          \`onkeypress handler:\\n\` +
+            \`keyCode property: \${evt.keyCode}\\n\` +
+            \`which property: \${evt.which}\\n\` +
+            \`charCode property: \${evt.charCode}\\n\` +
+            \`Character Key Pressed: \${String.fromCharCode(evt.charCode)}\\n\`,
+        );
+      }
+
+      function keyDown(evt) {
+        alert(
+          \`onkeydown handler:\\n\` +
+            \`keyCode property: \${evt.keyCode}\\n\` +
+            \`which property: \${evt.which}\\n\`,
+        );
+      }
+    </script>
+  </head>
+
+  <body onkeypress="showKeyPress(event);" onkeydown="keyDown(event);">
+    <p>Please press any key.</p>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 url_api: {
                   children: {},
@@ -13072,21 +19455,7 @@ api.Window.sessionStorage`,
                   }
                 },
                 web_workers_api: {
-                  children: {
-                    using_web_workers: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Web_Workers_API/Using_web_workers",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vite.dev/guide/features.html",
-                            "unknown certificate verification error"
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/API/Web_Workers_API",
                   messages: [
                     {
@@ -13386,6 +19755,33 @@ button {
                           message: "No link to child page",
                           data: [
                             "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Build_the_server"
+                          ]
+                        }
+                      ]
+                    },
+                    signaling_and_video_calling: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/WebRTC_API/Signaling_and_video_calling",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '    <button id="hangup-button" onclick="hangUpCall();" disabled>Hang Up</button>',
+                            "4:31",
+                            `/en-US/docs/Web/API/WebRTC_API/Signaling_and_video_calling
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<div class="flexChild" id="camera-container">
+  <div class="camera-box">
+    <video id="received_video" autoplay></video>
+    <video id="local_video" autoplay muted></video>
+    <button id="hangup-button" onclick="hangUpCall();" disabled>Hang Up</button>
+  </div>
+</div>
+~~~
+`
                           ]
                         }
                       ]
@@ -13722,6 +20118,1403 @@ function displayPoseStats(pose) {
                     }
                   }
                 },
+                window: {
+                  children: {
+                    crypto: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/crypto",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onClick".',
+                            '<button type="button" onClick="genRandomNumbers()">',
+                            "1:22",
+                            `/en-US/docs/Web/API/Window/crypto
+[no-inline-event-handlers] Do not use inline event handler "onClick".
+~~~
+<p id="myRandText">The random numbers are:</p>
+<button type="button" onClick="genRandomNumbers()">
+  Generate 10 random numbers
+</button>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    find: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/find",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onClick".',
+                            `<button type="button" onClick='findString("Apples")'>Search for Apples</button>`,
+                            "1:22",
+                            `/en-US/docs/Web/API/Window/find
+[no-inline-event-handlers] Do not use inline event handler "onClick".
+~~~
+<p>Apples, Bananas, and Oranges.</p>
+<button type="button" onClick='findString("Apples")'>Search for Apples</button>
+<button type="button" onClick='findString("Bananas")'>
+  Search for Bananas
+</button>
+<button type="button" onClick='findString("Orange")'>Search for Orange</button>
+
+<p id="output"></p>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onClick".',
+                            `<button type="button" onClick='findString("Bananas")'>`,
+                            "2:22",
+                            `/en-US/docs/Web/API/Window/find
+[no-inline-event-handlers] Do not use inline event handler "onClick".
+~~~
+<p>Apples, Bananas, and Oranges.</p>
+<button type="button" onClick='findString("Apples")'>Search for Apples</button>
+<button type="button" onClick='findString("Bananas")'>
+  Search for Bananas
+</button>
+<button type="button" onClick='findString("Orange")'>Search for Orange</button>
+
+<p id="output"></p>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onClick".',
+                            `<button type="button" onClick='findString("Orange")'>Search for Orange</button>`,
+                            "5:22",
+                            `/en-US/docs/Web/API/Window/find
+[no-inline-event-handlers] Do not use inline event handler "onClick".
+~~~
+<p>Apples, Bananas, and Oranges.</p>
+<button type="button" onClick='findString("Apples")'>Search for Apples</button>
+<button type="button" onClick='findString("Bananas")'>
+  Search for Bananas
+</button>
+<button type="button" onClick='findString("Orange")'>Search for Orange</button>
+
+<p id="output"></p>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    location: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/location",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            `      [&nbsp;<span class="intLink" onclick="showBookmark('#myBookmark2');"`,
+                            "58:35",
+                            `/en-US/docs/Web/API/Window/location
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <title>MDN Example</title>
+    <script>
+      function showNode(node) {
+        document.documentElement.scrollTop = node.offsetTop;
+        document.documentElement.scrollLeft = node.offsetLeft;
+      }
+
+      function showBookmark(bookmark, useHash) {
+        if (arguments.length === 1 || useHash) {
+          location.hash = bookmark;
+          return;
+        }
+        const bookmarkElement = document.querySelector(bookmark);
+        if (bookmarkElement) {
+          showNode(bookmarkElement);
+        }
+      }
+    </script>
+    <style>
+      span.intLink {
+        cursor: pointer;
+        color: #0000ff;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultrices
+      dolor ac dolor imperdiet ullamcorper. Suspendisse quam libero, luctus
+      auctor mollis sed, malesuada condimentum magna. Quisque in ante tellus, in
+      placerat est. Pellentesque habitant morbi tristique senectus et netus et
+      malesuada fames ac turpis egestas. Donec a mi magna, quis mattis dolor.
+      Etiam sit amet ligula quis urna auctor imperdiet nec faucibus ante. Mauris
+      vel consectetur dolor. Nunc eget elit eget velit pulvinar fringilla
+      consectetur aliquam purus. Curabitur convallis, justo posuere porta
+      egestas, velit erat ornare tortor, non viverra justo diam eget arcu.
+      Phasellus adipiscing fermentum nibh ac commodo. Nam turpis nunc, suscipit
+      a hendrerit vitae, volutpat non ipsum.
+    </p>
+    <p>
+      Duis lobortis sapien quis nisl luctus porttitor. In tempor semper libero,
+      eu tincidunt dolor eleifend sit amet. Ut nec velit in dolor tincidunt
+      rhoncus non diam. Morbi auctor ornare orci, non euismod felis gravida nec.
+      Curabitur elementum nisi a eros rutrum nec blandit diam placerat. Aenean
+      tincidunt risus ut nisi consectetur cursus. Ut vitae quam elit. Donec
+      dignissim est in quam tempor consequat. Aliquam diam non felis convallis
+      suscipit. Nulla facilisi. Donec lacus risus, dignissim et fringilla et,
+      egestas vel eros. Duis malesuada accumsan dui, at fringilla mauris
+      bibendum quis. Cras adipiscing ultricies fermentum. Praesent bibendum
+      condimentum feugiat.
+    </p>
+    <p id="myBookmark1">
+      [&nbsp;<span class="intLink" onclick="showBookmark('#myBookmark2');"
+        >Go to bookmark #2</span
+      >&nbsp;]
+    </p>
+    <p>
+      Vivamus blandit massa ut metus mattis in fringilla lectus imperdiet. Proin
+      ac ante a felis ornare vehicula. Fusce pellentesque lacus vitae eros
+      convallis ut mollis magna pellentesque. Pellentesque placerat enim at
+      lacus ultricies vitae facilisis nisi fringilla. In tincidunt tincidunt
+      tincidunt. Nulla vitae tempor nisl. Etiam congue, elit vitae egestas
+      mollis, ipsum nisi malesuada turpis, a volutpat arcu arcu id risus.
+    </p>
+    <p>
+      Nam faucibus, ligula eu fringilla pulvinar, lectus tellus iaculis nunc,
+      vitae scelerisque metus leo non metus. Proin mattis lobortis lobortis.
+      Quisque accumsan faucibus erat, vel varius tortor ultricies ac. Lorem
+      ipsum dolor sit amet, consectetur adipiscing elit. Sed nec libero nunc.
+      Nullam tortor nunc, elementum a consectetur et, ultrices eu orci. Lorem
+      ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a nisl eu
+      sem vehicula egestas.
+    </p>
+    <p>
+      Aenean viverra varius mauris, sed elementum lacus interdum non. Phasellus
+      sit amet lectus vitae eros egestas pellentesque fermentum eget magna.
+      Quisque mauris nisl, gravida vitae placerat et, condimentum id metus.
+      Nulla eu est dictum dolor pulvinar volutpat. Pellentesque vitae
+      sollicitudin nunc. Donec neque magna, lobortis id egestas nec, sodales
+      quis lectus. Fusce cursus sollicitudin porta. Suspendisse ut tortor in
+      mauris tincidunt rhoncus. Maecenas tincidunt fermentum facilisis.
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+      ac turpis egestas.
+    </p>
+    <p>
+      Suspendisse turpis nisl, consectetur in lacinia ut, ornare vel mi. Lorem
+      ipsum dolor sit amet, consectetur adipiscing elit. Proin non lectus eu
+      turpis vulputate cursus. Mauris interdum tincidunt erat id pharetra.
+      Nullam in libero elit, sed consequat lectus. Morbi odio nisi, porta vitae
+      molestie ut, gravida ut nunc. Ut non est dui, id ullamcorper orci.
+      Praesent vel elementum felis. Maecenas ornare, dui quis auctor hendrerit,
+      turpis sem ullamcorper odio, in auctor magna metus quis leo. Morbi at odio
+      ante.
+    </p>
+    <p>
+      Curabitur est ipsum, porta ac viverra faucibus, eleifend sed eros. In sit
+      amet vehicula tortor. Vestibulum viverra pellentesque erat a elementum.
+      Integer commodo ultricies lorem, eget tincidunt risus viverra et. In enim
+      turpis, porttitor ac ornare et, suscipit sit amet nisl. Vestibulum ante
+      ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+      Pellentesque vel ultrices nibh. Sed commodo aliquam aliquam. Nulla
+      euismod, odio ut eleifend mollis, nisi dui gravida nibh, vitae laoreet
+      turpis purus id ipsum. Donec convallis, velit non scelerisque bibendum,
+      diam nulla auctor nunc, vel dictum risus ipsum sit amet est. Praesent ut
+      nibh sit amet nibh congue pulvinar. Suspendisse dictum porttitor tempor.
+    </p>
+    <p>
+      Vestibulum dignissim erat vitae lectus auctor ac bibendum eros semper.
+      Integer aliquet, leo non ornare faucibus, risus arcu tristique dolor, a
+      aliquet massa mauris quis arcu. In porttitor, lectus ac semper egestas,
+      ligula magna laoreet libero, eu commodo mauris odio id ante. In hac
+      habitasse platea dictumst. In pretium erat diam, nec consequat eros.
+      Praesent augue mi, consequat sed porttitor at, volutpat vitae eros. Sed
+      pretium pharetra dapibus. Donec auctor interdum erat, lacinia molestie
+      nibh commodo ut. Maecenas vestibulum vulputate felis, ut ullamcorper arcu
+      faucibus in. Curabitur id arcu est. In semper mollis lorem at
+      pellentesque. Sed lectus nisl, vestibulum id scelerisque eu, feugiat et
+      tortor. Pellentesque porttitor facilisis ultricies.
+    </p>
+    <p id="myBookmark2">
+      [&nbsp;<span class="intLink" onclick="showBookmark('#myBookmark1');"
+        >Go to bookmark #1</span
+      >
+      |
+      <span class="intLink" onclick="showBookmark('#myBookmark1', false);"
+        >Go to bookmark #1 without using location.hash</span
+      >
+      |
+      <span class="intLink" onclick="showBookmark('#myBookmark3');"
+        >Go to bookmark #3</span
+      >&nbsp;]
+    </p>
+    <p>
+      Phasellus tempus fringilla nunc, eget sagittis orci molestie vel. Nulla
+      sollicitudin diam non quam iaculis ac porta justo venenatis. Quisque
+      tellus urna, molestie vitae egestas sit amet, suscipit sed sem. Quisque
+      nec lorem eu velit faucibus tristique ut ut dolor. Cras eu tortor ut
+      libero placerat venenatis ut ut massa. Sed quis libero augue, et consequat
+      libero. Morbi rutrum augue sed turpis elementum sed luctus nisl molestie.
+      Aenean vitae purus risus, a semper nisl. Pellentesque malesuada, est id
+      sagittis consequat, libero mauris tincidunt tellus, eu sagittis arcu purus
+      rutrum eros. Quisque eget eleifend mi. Duis pharetra mi ac eros mattis
+      lacinia rutrum ipsum varius.
+    </p>
+    <p>
+      Fusce cursus pulvinar aliquam. Duis justo enim, ornare vitae elementum
+      sed, porta a quam. Aliquam eu enim eu libero mollis tempus. Morbi ornare
+      aliquam posuere. Proin faucibus luctus libero, sed ultrices lorem sagittis
+      et. Vestibulum malesuada, ante nec molestie vehicula, quam diam mollis
+      ipsum, rhoncus posuere mauris lectus in eros. Nullam feugiat ultrices
+      augue, ac sodales sem mollis in.
+    </p>
+    <p id="myBookmark3"><em>Here is the bookmark #3</em></p>
+    <p>
+      Proin vitae sem non lorem pellentesque molestie. Nam tempus massa et
+      turpis placerat sit amet sollicitudin orci sodales. Pellentesque enim
+      enim, sagittis a lobortis ut, tempus sed arcu. Aliquam augue turpis,
+      varius vel bibendum ut, aliquam at diam. Nam lobortis, dui eu hendrerit
+      pellentesque, sem neque porttitor erat, non dapibus velit lectus in metus.
+      Vestibulum sit amet felis enim. In quis est vitae nunc malesuada consequat
+      nec nec sapien. Suspendisse aliquam massa placerat dui lacinia luctus sed
+      vitae risus. Fusce tempus, neque id ultrices volutpat, mi urna auctor
+      arcu, viverra semper libero sem vel enim. Mauris dictum, elit non placerat
+      malesuada, libero elit euismod nibh, nec posuere massa arcu eu risus.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer urna
+      velit, dapibus eget varius feugiat, pellentesque sit amet ligula. Maecenas
+      nulla nisl, facilisis eu egestas scelerisque, mollis eget metus.
+      Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+      cubilia Curae; Morbi sed congue mi.
+    </p>
+    <p>
+      Fusce metus velit, pharetra at vestibulum nec, facilisis porttitor mi.
+      Curabitur ligula sapien, fermentum vel porttitor id, rutrum sit amet
+      magna. Sed sit amet sollicitudin turpis. Aenean luctus rhoncus dolor, et
+      pulvinar ante egestas et. Donec ac massa orci, quis dapibus augue. Vivamus
+      consectetur auctor pellentesque. Praesent vestibulum tincidunt ante sed
+      consectetur. Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Fusce purus metus, imperdiet vitae iaculis
+      convallis, bibendum vitae turpis.
+    </p>
+    <p>
+      Fusce aliquet molestie dolor, in ornare dui sodales nec. In molestie
+      sollicitudin felis a porta. Mauris nec orci sit amet orci blandit
+      tristique congue nec nunc. Praesent et tellus sollicitudin mauris accumsan
+      fringilla. Morbi sodales, justo eu sollicitudin lacinia, lectus sapien
+      ullamcorper eros, quis molestie urna elit bibendum risus. Proin eget
+      tincidunt quam. Nam luctus commodo mauris, eu posuere nunc luctus non.
+      Nulla facilisi. Vivamus eget leo rhoncus quam accumsan fringilla. Aliquam
+      sit amet lorem est. Nullam vel tellus nibh, id imperdiet orci. Integer
+      egestas leo eu turpis blandit scelerisque.
+    </p>
+    <p>
+      Etiam in blandit tellus. Integer sed varius quam. Vestibulum dapibus mi
+      gravida arcu viverra blandit. Praesent tristique augue id sem adipiscing
+      pellentesque. Sed sollicitudin, leo sed interdum elementum, nisi ante
+      condimentum leo, eget ornare libero diam semper quam. Vivamus augue urna,
+      porta eget ultrices et, dapibus ut ligula. Ut laoreet consequat faucibus.
+      Praesent at lectus ut lectus malesuada mollis. Nam interdum adipiscing
+      eros, nec sodales mi porta nec. Proin et quam vitae sem interdum aliquet.
+      Proin vel odio at lacus vehicula aliquet.
+    </p>
+    <p>
+      Etiam placerat dui ut sem ornare vel vestibulum augue mattis. Sed semper
+      malesuada mi, eu bibendum lacus lobortis nec. Etiam fringilla elementum
+      risus, eget consequat urna laoreet nec. Etiam mollis quam non sem
+      convallis vel consectetur lectus ullamcorper. Aenean mattis lacus quis
+      ligula mattis eget vestibulum diam hendrerit. In non placerat mauris.
+      Praesent faucibus nunc quis eros sagittis viverra. In hac habitasse platea
+      dictumst. Suspendisse eget nisl erat, ac molestie massa. Praesent mollis
+      vestibulum tincidunt. Fusce suscipit laoreet malesuada. Aliquam erat
+      volutpat. Aliquam dictum elementum rhoncus. Praesent in est massa,
+      pulvinar sodales nunc. Pellentesque gravida euismod mi ac convallis.
+    </p>
+    <p>
+      Mauris vel odio vel nulla facilisis lacinia. Aliquam ultrices est at leo
+      blandit tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et
+      ultrices posuere cubilia Curae; Suspendisse porttitor adipiscing
+      facilisis. Duis cursus quam iaculis augue interdum porttitor. Vestibulum
+      ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+      Curae; Duis vulputate magna ac metus pretium condimentum. In tempus, est
+      eget vestibulum blandit, velit massa dignissim nisl, ut scelerisque lorem
+      neque vel velit. Maecenas fermentum commodo viverra. Curabitur a nibh non
+      velit aliquam cursus. Integer semper condimentum tortor a pellentesque.
+      Pellentesque semper, nisl id porttitor vehicula, sem dui feugiat lacus,
+      vitae consequat augue urna vel odio.
+    </p>
+    <p>
+      Vestibulum id neque nec turpis iaculis pulvinar et a massa. Vestibulum sed
+      nibh vitae arcu eleifend egestas. Mauris fermentum ultrices blandit.
+      Suspendisse vitae lorem libero. Aenean et pellentesque tellus. Morbi quis
+      neque orci, eu dignissim dui. Fusce sollicitudin mauris ac arcu vestibulum
+      imperdiet. Proin ultricies nisl sit amet enim imperdiet eu ornare dui
+      tempus. Maecenas lobortis nisi a tortor vestibulum vel eleifend tellus
+      vestibulum. Donec metus sapien, hendrerit a fermentum id, dictum quis
+      libero.
+    </p>
+    <p>
+      Pellentesque a lorem nulla, in tempor justo. Duis odio nisl, dignissim sed
+      consequat sit amet, hendrerit ac neque. Nunc ac augue nec massa tempor
+      rhoncus. Nam feugiat, tellus a varius euismod, justo nisl faucibus velit,
+      ut vulputate justo massa eu nibh. Sed bibendum urna quis magna facilisis
+      in accumsan dolor malesuada. Morbi sit amet nunc risus, in faucibus sem.
+      Nullam sollicitudin magna sed sem mollis id commodo libero condimentum.
+      Duis eu massa et lacus semper molestie ut adipiscing sem.
+    </p>
+    <p>
+      Sed id nulla mi, eget suscipit eros. Aliquam tempus molestie rutrum. In
+      quis varius elit. Nullam dignissim neque nec velit vulputate porttitor.
+      Mauris ac ligula sit amet elit fermentum rhoncus. In tellus urna, pulvinar
+      quis condimentum ut, porta nec justo. In hac habitasse platea dictumst.
+      Proin volutpat elit id quam molestie ac commodo lacus sagittis. Quisque
+      placerat, augue tempor placerat pulvinar, nisi nisi venenatis urna, eget
+      convallis eros velit quis magna. Suspendisse volutpat iaculis quam, ut
+      tristique lacus luctus quis.
+    </p>
+    <p>
+      Nullam commodo suscipit lacus non aliquet. Phasellus ac nisl lorem, sed
+      facilisis ligula. Nam cursus lobortis placerat. Sed dui nisi, elementum eu
+      sodales ac, placerat sit amet mauris. Pellentesque dapibus tellus ut ipsum
+      aliquam eu auctor dui vehicula. Quisque ultrices laoreet erat, at ultrices
+      tortor sodales non. Sed venenatis luctus magna, ultricies ultricies nunc
+      fringilla eget. Praesent scelerisque urna vitae nibh tristique varius
+      consequat neque luctus. Integer ornare, erat a porta tempus, velit justo
+      fermentum elit, a fermentum metus nisi eu ipsum. Vivamus eget augue vel
+      dui viverra adipiscing congue ut massa. Praesent vitae eros erat, pulvinar
+      laoreet magna. Maecenas vestibulum mollis nunc in posuere. Pellentesque
+      sit amet metus a turpis lobortis tempor eu vel tortor. Cras sodales
+      eleifend interdum.
+    </p>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            `      [&nbsp;<span class="intLink" onclick="showBookmark('#myBookmark1');"`,
+                            "126:35",
+                            `/en-US/docs/Web/API/Window/location
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <title>MDN Example</title>
+    <script>
+      function showNode(node) {
+        document.documentElement.scrollTop = node.offsetTop;
+        document.documentElement.scrollLeft = node.offsetLeft;
+      }
+
+      function showBookmark(bookmark, useHash) {
+        if (arguments.length === 1 || useHash) {
+          location.hash = bookmark;
+          return;
+        }
+        const bookmarkElement = document.querySelector(bookmark);
+        if (bookmarkElement) {
+          showNode(bookmarkElement);
+        }
+      }
+    </script>
+    <style>
+      span.intLink {
+        cursor: pointer;
+        color: #0000ff;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultrices
+      dolor ac dolor imperdiet ullamcorper. Suspendisse quam libero, luctus
+      auctor mollis sed, malesuada condimentum magna. Quisque in ante tellus, in
+      placerat est. Pellentesque habitant morbi tristique senectus et netus et
+      malesuada fames ac turpis egestas. Donec a mi magna, quis mattis dolor.
+      Etiam sit amet ligula quis urna auctor imperdiet nec faucibus ante. Mauris
+      vel consectetur dolor. Nunc eget elit eget velit pulvinar fringilla
+      consectetur aliquam purus. Curabitur convallis, justo posuere porta
+      egestas, velit erat ornare tortor, non viverra justo diam eget arcu.
+      Phasellus adipiscing fermentum nibh ac commodo. Nam turpis nunc, suscipit
+      a hendrerit vitae, volutpat non ipsum.
+    </p>
+    <p>
+      Duis lobortis sapien quis nisl luctus porttitor. In tempor semper libero,
+      eu tincidunt dolor eleifend sit amet. Ut nec velit in dolor tincidunt
+      rhoncus non diam. Morbi auctor ornare orci, non euismod felis gravida nec.
+      Curabitur elementum nisi a eros rutrum nec blandit diam placerat. Aenean
+      tincidunt risus ut nisi consectetur cursus. Ut vitae quam elit. Donec
+      dignissim est in quam tempor consequat. Aliquam diam non felis convallis
+      suscipit. Nulla facilisi. Donec lacus risus, dignissim et fringilla et,
+      egestas vel eros. Duis malesuada accumsan dui, at fringilla mauris
+      bibendum quis. Cras adipiscing ultricies fermentum. Praesent bibendum
+      condimentum feugiat.
+    </p>
+    <p id="myBookmark1">
+      [&nbsp;<span class="intLink" onclick="showBookmark('#myBookmark2');"
+        >Go to bookmark #2</span
+      >&nbsp;]
+    </p>
+    <p>
+      Vivamus blandit massa ut metus mattis in fringilla lectus imperdiet. Proin
+      ac ante a felis ornare vehicula. Fusce pellentesque lacus vitae eros
+      convallis ut mollis magna pellentesque. Pellentesque placerat enim at
+      lacus ultricies vitae facilisis nisi fringilla. In tincidunt tincidunt
+      tincidunt. Nulla vitae tempor nisl. Etiam congue, elit vitae egestas
+      mollis, ipsum nisi malesuada turpis, a volutpat arcu arcu id risus.
+    </p>
+    <p>
+      Nam faucibus, ligula eu fringilla pulvinar, lectus tellus iaculis nunc,
+      vitae scelerisque metus leo non metus. Proin mattis lobortis lobortis.
+      Quisque accumsan faucibus erat, vel varius tortor ultricies ac. Lorem
+      ipsum dolor sit amet, consectetur adipiscing elit. Sed nec libero nunc.
+      Nullam tortor nunc, elementum a consectetur et, ultrices eu orci. Lorem
+      ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a nisl eu
+      sem vehicula egestas.
+    </p>
+    <p>
+      Aenean viverra varius mauris, sed elementum lacus interdum non. Phasellus
+      sit amet lectus vitae eros egestas pellentesque fermentum eget magna.
+      Quisque mauris nisl, gravida vitae placerat et, condimentum id metus.
+      Nulla eu est dictum dolor pulvinar volutpat. Pellentesque vitae
+      sollicitudin nunc. Donec neque magna, lobortis id egestas nec, sodales
+      quis lectus. Fusce cursus sollicitudin porta. Suspendisse ut tortor in
+      mauris tincidunt rhoncus. Maecenas tincidunt fermentum facilisis.
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+      ac turpis egestas.
+    </p>
+    <p>
+      Suspendisse turpis nisl, consectetur in lacinia ut, ornare vel mi. Lorem
+      ipsum dolor sit amet, consectetur adipiscing elit. Proin non lectus eu
+      turpis vulputate cursus. Mauris interdum tincidunt erat id pharetra.
+      Nullam in libero elit, sed consequat lectus. Morbi odio nisi, porta vitae
+      molestie ut, gravida ut nunc. Ut non est dui, id ullamcorper orci.
+      Praesent vel elementum felis. Maecenas ornare, dui quis auctor hendrerit,
+      turpis sem ullamcorper odio, in auctor magna metus quis leo. Morbi at odio
+      ante.
+    </p>
+    <p>
+      Curabitur est ipsum, porta ac viverra faucibus, eleifend sed eros. In sit
+      amet vehicula tortor. Vestibulum viverra pellentesque erat a elementum.
+      Integer commodo ultricies lorem, eget tincidunt risus viverra et. In enim
+      turpis, porttitor ac ornare et, suscipit sit amet nisl. Vestibulum ante
+      ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+      Pellentesque vel ultrices nibh. Sed commodo aliquam aliquam. Nulla
+      euismod, odio ut eleifend mollis, nisi dui gravida nibh, vitae laoreet
+      turpis purus id ipsum. Donec convallis, velit non scelerisque bibendum,
+      diam nulla auctor nunc, vel dictum risus ipsum sit amet est. Praesent ut
+      nibh sit amet nibh congue pulvinar. Suspendisse dictum porttitor tempor.
+    </p>
+    <p>
+      Vestibulum dignissim erat vitae lectus auctor ac bibendum eros semper.
+      Integer aliquet, leo non ornare faucibus, risus arcu tristique dolor, a
+      aliquet massa mauris quis arcu. In porttitor, lectus ac semper egestas,
+      ligula magna laoreet libero, eu commodo mauris odio id ante. In hac
+      habitasse platea dictumst. In pretium erat diam, nec consequat eros.
+      Praesent augue mi, consequat sed porttitor at, volutpat vitae eros. Sed
+      pretium pharetra dapibus. Donec auctor interdum erat, lacinia molestie
+      nibh commodo ut. Maecenas vestibulum vulputate felis, ut ullamcorper arcu
+      faucibus in. Curabitur id arcu est. In semper mollis lorem at
+      pellentesque. Sed lectus nisl, vestibulum id scelerisque eu, feugiat et
+      tortor. Pellentesque porttitor facilisis ultricies.
+    </p>
+    <p id="myBookmark2">
+      [&nbsp;<span class="intLink" onclick="showBookmark('#myBookmark1');"
+        >Go to bookmark #1</span
+      >
+      |
+      <span class="intLink" onclick="showBookmark('#myBookmark1', false);"
+        >Go to bookmark #1 without using location.hash</span
+      >
+      |
+      <span class="intLink" onclick="showBookmark('#myBookmark3');"
+        >Go to bookmark #3</span
+      >&nbsp;]
+    </p>
+    <p>
+      Phasellus tempus fringilla nunc, eget sagittis orci molestie vel. Nulla
+      sollicitudin diam non quam iaculis ac porta justo venenatis. Quisque
+      tellus urna, molestie vitae egestas sit amet, suscipit sed sem. Quisque
+      nec lorem eu velit faucibus tristique ut ut dolor. Cras eu tortor ut
+      libero placerat venenatis ut ut massa. Sed quis libero augue, et consequat
+      libero. Morbi rutrum augue sed turpis elementum sed luctus nisl molestie.
+      Aenean vitae purus risus, a semper nisl. Pellentesque malesuada, est id
+      sagittis consequat, libero mauris tincidunt tellus, eu sagittis arcu purus
+      rutrum eros. Quisque eget eleifend mi. Duis pharetra mi ac eros mattis
+      lacinia rutrum ipsum varius.
+    </p>
+    <p>
+      Fusce cursus pulvinar aliquam. Duis justo enim, ornare vitae elementum
+      sed, porta a quam. Aliquam eu enim eu libero mollis tempus. Morbi ornare
+      aliquam posuere. Proin faucibus luctus libero, sed ultrices lorem sagittis
+      et. Vestibulum malesuada, ante nec molestie vehicula, quam diam mollis
+      ipsum, rhoncus posuere mauris lectus in eros. Nullam feugiat ultrices
+      augue, ac sodales sem mollis in.
+    </p>
+    <p id="myBookmark3"><em>Here is the bookmark #3</em></p>
+    <p>
+      Proin vitae sem non lorem pellentesque molestie. Nam tempus massa et
+      turpis placerat sit amet sollicitudin orci sodales. Pellentesque enim
+      enim, sagittis a lobortis ut, tempus sed arcu. Aliquam augue turpis,
+      varius vel bibendum ut, aliquam at diam. Nam lobortis, dui eu hendrerit
+      pellentesque, sem neque porttitor erat, non dapibus velit lectus in metus.
+      Vestibulum sit amet felis enim. In quis est vitae nunc malesuada consequat
+      nec nec sapien. Suspendisse aliquam massa placerat dui lacinia luctus sed
+      vitae risus. Fusce tempus, neque id ultrices volutpat, mi urna auctor
+      arcu, viverra semper libero sem vel enim. Mauris dictum, elit non placerat
+      malesuada, libero elit euismod nibh, nec posuere massa arcu eu risus.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer urna
+      velit, dapibus eget varius feugiat, pellentesque sit amet ligula. Maecenas
+      nulla nisl, facilisis eu egestas scelerisque, mollis eget metus.
+      Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+      cubilia Curae; Morbi sed congue mi.
+    </p>
+    <p>
+      Fusce metus velit, pharetra at vestibulum nec, facilisis porttitor mi.
+      Curabitur ligula sapien, fermentum vel porttitor id, rutrum sit amet
+      magna. Sed sit amet sollicitudin turpis. Aenean luctus rhoncus dolor, et
+      pulvinar ante egestas et. Donec ac massa orci, quis dapibus augue. Vivamus
+      consectetur auctor pellentesque. Praesent vestibulum tincidunt ante sed
+      consectetur. Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Fusce purus metus, imperdiet vitae iaculis
+      convallis, bibendum vitae turpis.
+    </p>
+    <p>
+      Fusce aliquet molestie dolor, in ornare dui sodales nec. In molestie
+      sollicitudin felis a porta. Mauris nec orci sit amet orci blandit
+      tristique congue nec nunc. Praesent et tellus sollicitudin mauris accumsan
+      fringilla. Morbi sodales, justo eu sollicitudin lacinia, lectus sapien
+      ullamcorper eros, quis molestie urna elit bibendum risus. Proin eget
+      tincidunt quam. Nam luctus commodo mauris, eu posuere nunc luctus non.
+      Nulla facilisi. Vivamus eget leo rhoncus quam accumsan fringilla. Aliquam
+      sit amet lorem est. Nullam vel tellus nibh, id imperdiet orci. Integer
+      egestas leo eu turpis blandit scelerisque.
+    </p>
+    <p>
+      Etiam in blandit tellus. Integer sed varius quam. Vestibulum dapibus mi
+      gravida arcu viverra blandit. Praesent tristique augue id sem adipiscing
+      pellentesque. Sed sollicitudin, leo sed interdum elementum, nisi ante
+      condimentum leo, eget ornare libero diam semper quam. Vivamus augue urna,
+      porta eget ultrices et, dapibus ut ligula. Ut laoreet consequat faucibus.
+      Praesent at lectus ut lectus malesuada mollis. Nam interdum adipiscing
+      eros, nec sodales mi porta nec. Proin et quam vitae sem interdum aliquet.
+      Proin vel odio at lacus vehicula aliquet.
+    </p>
+    <p>
+      Etiam placerat dui ut sem ornare vel vestibulum augue mattis. Sed semper
+      malesuada mi, eu bibendum lacus lobortis nec. Etiam fringilla elementum
+      risus, eget consequat urna laoreet nec. Etiam mollis quam non sem
+      convallis vel consectetur lectus ullamcorper. Aenean mattis lacus quis
+      ligula mattis eget vestibulum diam hendrerit. In non placerat mauris.
+      Praesent faucibus nunc quis eros sagittis viverra. In hac habitasse platea
+      dictumst. Suspendisse eget nisl erat, ac molestie massa. Praesent mollis
+      vestibulum tincidunt. Fusce suscipit laoreet malesuada. Aliquam erat
+      volutpat. Aliquam dictum elementum rhoncus. Praesent in est massa,
+      pulvinar sodales nunc. Pellentesque gravida euismod mi ac convallis.
+    </p>
+    <p>
+      Mauris vel odio vel nulla facilisis lacinia. Aliquam ultrices est at leo
+      blandit tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et
+      ultrices posuere cubilia Curae; Suspendisse porttitor adipiscing
+      facilisis. Duis cursus quam iaculis augue interdum porttitor. Vestibulum
+      ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+      Curae; Duis vulputate magna ac metus pretium condimentum. In tempus, est
+      eget vestibulum blandit, velit massa dignissim nisl, ut scelerisque lorem
+      neque vel velit. Maecenas fermentum commodo viverra. Curabitur a nibh non
+      velit aliquam cursus. Integer semper condimentum tortor a pellentesque.
+      Pellentesque semper, nisl id porttitor vehicula, sem dui feugiat lacus,
+      vitae consequat augue urna vel odio.
+    </p>
+    <p>
+      Vestibulum id neque nec turpis iaculis pulvinar et a massa. Vestibulum sed
+      nibh vitae arcu eleifend egestas. Mauris fermentum ultrices blandit.
+      Suspendisse vitae lorem libero. Aenean et pellentesque tellus. Morbi quis
+      neque orci, eu dignissim dui. Fusce sollicitudin mauris ac arcu vestibulum
+      imperdiet. Proin ultricies nisl sit amet enim imperdiet eu ornare dui
+      tempus. Maecenas lobortis nisi a tortor vestibulum vel eleifend tellus
+      vestibulum. Donec metus sapien, hendrerit a fermentum id, dictum quis
+      libero.
+    </p>
+    <p>
+      Pellentesque a lorem nulla, in tempor justo. Duis odio nisl, dignissim sed
+      consequat sit amet, hendrerit ac neque. Nunc ac augue nec massa tempor
+      rhoncus. Nam feugiat, tellus a varius euismod, justo nisl faucibus velit,
+      ut vulputate justo massa eu nibh. Sed bibendum urna quis magna facilisis
+      in accumsan dolor malesuada. Morbi sit amet nunc risus, in faucibus sem.
+      Nullam sollicitudin magna sed sem mollis id commodo libero condimentum.
+      Duis eu massa et lacus semper molestie ut adipiscing sem.
+    </p>
+    <p>
+      Sed id nulla mi, eget suscipit eros. Aliquam tempus molestie rutrum. In
+      quis varius elit. Nullam dignissim neque nec velit vulputate porttitor.
+      Mauris ac ligula sit amet elit fermentum rhoncus. In tellus urna, pulvinar
+      quis condimentum ut, porta nec justo. In hac habitasse platea dictumst.
+      Proin volutpat elit id quam molestie ac commodo lacus sagittis. Quisque
+      placerat, augue tempor placerat pulvinar, nisi nisi venenatis urna, eget
+      convallis eros velit quis magna. Suspendisse volutpat iaculis quam, ut
+      tristique lacus luctus quis.
+    </p>
+    <p>
+      Nullam commodo suscipit lacus non aliquet. Phasellus ac nisl lorem, sed
+      facilisis ligula. Nam cursus lobortis placerat. Sed dui nisi, elementum eu
+      sodales ac, placerat sit amet mauris. Pellentesque dapibus tellus ut ipsum
+      aliquam eu auctor dui vehicula. Quisque ultrices laoreet erat, at ultrices
+      tortor sodales non. Sed venenatis luctus magna, ultricies ultricies nunc
+      fringilla eget. Praesent scelerisque urna vitae nibh tristique varius
+      consequat neque luctus. Integer ornare, erat a porta tempus, velit justo
+      fermentum elit, a fermentum metus nisi eu ipsum. Vivamus eget augue vel
+      dui viverra adipiscing congue ut massa. Praesent vitae eros erat, pulvinar
+      laoreet magna. Maecenas vestibulum mollis nunc in posuere. Pellentesque
+      sit amet metus a turpis lobortis tempor eu vel tortor. Cras sodales
+      eleifend interdum.
+    </p>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            `      <span class="intLink" onclick="showBookmark('#myBookmark1', false);"`,
+                            "130:28",
+                            `/en-US/docs/Web/API/Window/location
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <title>MDN Example</title>
+    <script>
+      function showNode(node) {
+        document.documentElement.scrollTop = node.offsetTop;
+        document.documentElement.scrollLeft = node.offsetLeft;
+      }
+
+      function showBookmark(bookmark, useHash) {
+        if (arguments.length === 1 || useHash) {
+          location.hash = bookmark;
+          return;
+        }
+        const bookmarkElement = document.querySelector(bookmark);
+        if (bookmarkElement) {
+          showNode(bookmarkElement);
+        }
+      }
+    </script>
+    <style>
+      span.intLink {
+        cursor: pointer;
+        color: #0000ff;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultrices
+      dolor ac dolor imperdiet ullamcorper. Suspendisse quam libero, luctus
+      auctor mollis sed, malesuada condimentum magna. Quisque in ante tellus, in
+      placerat est. Pellentesque habitant morbi tristique senectus et netus et
+      malesuada fames ac turpis egestas. Donec a mi magna, quis mattis dolor.
+      Etiam sit amet ligula quis urna auctor imperdiet nec faucibus ante. Mauris
+      vel consectetur dolor. Nunc eget elit eget velit pulvinar fringilla
+      consectetur aliquam purus. Curabitur convallis, justo posuere porta
+      egestas, velit erat ornare tortor, non viverra justo diam eget arcu.
+      Phasellus adipiscing fermentum nibh ac commodo. Nam turpis nunc, suscipit
+      a hendrerit vitae, volutpat non ipsum.
+    </p>
+    <p>
+      Duis lobortis sapien quis nisl luctus porttitor. In tempor semper libero,
+      eu tincidunt dolor eleifend sit amet. Ut nec velit in dolor tincidunt
+      rhoncus non diam. Morbi auctor ornare orci, non euismod felis gravida nec.
+      Curabitur elementum nisi a eros rutrum nec blandit diam placerat. Aenean
+      tincidunt risus ut nisi consectetur cursus. Ut vitae quam elit. Donec
+      dignissim est in quam tempor consequat. Aliquam diam non felis convallis
+      suscipit. Nulla facilisi. Donec lacus risus, dignissim et fringilla et,
+      egestas vel eros. Duis malesuada accumsan dui, at fringilla mauris
+      bibendum quis. Cras adipiscing ultricies fermentum. Praesent bibendum
+      condimentum feugiat.
+    </p>
+    <p id="myBookmark1">
+      [&nbsp;<span class="intLink" onclick="showBookmark('#myBookmark2');"
+        >Go to bookmark #2</span
+      >&nbsp;]
+    </p>
+    <p>
+      Vivamus blandit massa ut metus mattis in fringilla lectus imperdiet. Proin
+      ac ante a felis ornare vehicula. Fusce pellentesque lacus vitae eros
+      convallis ut mollis magna pellentesque. Pellentesque placerat enim at
+      lacus ultricies vitae facilisis nisi fringilla. In tincidunt tincidunt
+      tincidunt. Nulla vitae tempor nisl. Etiam congue, elit vitae egestas
+      mollis, ipsum nisi malesuada turpis, a volutpat arcu arcu id risus.
+    </p>
+    <p>
+      Nam faucibus, ligula eu fringilla pulvinar, lectus tellus iaculis nunc,
+      vitae scelerisque metus leo non metus. Proin mattis lobortis lobortis.
+      Quisque accumsan faucibus erat, vel varius tortor ultricies ac. Lorem
+      ipsum dolor sit amet, consectetur adipiscing elit. Sed nec libero nunc.
+      Nullam tortor nunc, elementum a consectetur et, ultrices eu orci. Lorem
+      ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a nisl eu
+      sem vehicula egestas.
+    </p>
+    <p>
+      Aenean viverra varius mauris, sed elementum lacus interdum non. Phasellus
+      sit amet lectus vitae eros egestas pellentesque fermentum eget magna.
+      Quisque mauris nisl, gravida vitae placerat et, condimentum id metus.
+      Nulla eu est dictum dolor pulvinar volutpat. Pellentesque vitae
+      sollicitudin nunc. Donec neque magna, lobortis id egestas nec, sodales
+      quis lectus. Fusce cursus sollicitudin porta. Suspendisse ut tortor in
+      mauris tincidunt rhoncus. Maecenas tincidunt fermentum facilisis.
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+      ac turpis egestas.
+    </p>
+    <p>
+      Suspendisse turpis nisl, consectetur in lacinia ut, ornare vel mi. Lorem
+      ipsum dolor sit amet, consectetur adipiscing elit. Proin non lectus eu
+      turpis vulputate cursus. Mauris interdum tincidunt erat id pharetra.
+      Nullam in libero elit, sed consequat lectus. Morbi odio nisi, porta vitae
+      molestie ut, gravida ut nunc. Ut non est dui, id ullamcorper orci.
+      Praesent vel elementum felis. Maecenas ornare, dui quis auctor hendrerit,
+      turpis sem ullamcorper odio, in auctor magna metus quis leo. Morbi at odio
+      ante.
+    </p>
+    <p>
+      Curabitur est ipsum, porta ac viverra faucibus, eleifend sed eros. In sit
+      amet vehicula tortor. Vestibulum viverra pellentesque erat a elementum.
+      Integer commodo ultricies lorem, eget tincidunt risus viverra et. In enim
+      turpis, porttitor ac ornare et, suscipit sit amet nisl. Vestibulum ante
+      ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+      Pellentesque vel ultrices nibh. Sed commodo aliquam aliquam. Nulla
+      euismod, odio ut eleifend mollis, nisi dui gravida nibh, vitae laoreet
+      turpis purus id ipsum. Donec convallis, velit non scelerisque bibendum,
+      diam nulla auctor nunc, vel dictum risus ipsum sit amet est. Praesent ut
+      nibh sit amet nibh congue pulvinar. Suspendisse dictum porttitor tempor.
+    </p>
+    <p>
+      Vestibulum dignissim erat vitae lectus auctor ac bibendum eros semper.
+      Integer aliquet, leo non ornare faucibus, risus arcu tristique dolor, a
+      aliquet massa mauris quis arcu. In porttitor, lectus ac semper egestas,
+      ligula magna laoreet libero, eu commodo mauris odio id ante. In hac
+      habitasse platea dictumst. In pretium erat diam, nec consequat eros.
+      Praesent augue mi, consequat sed porttitor at, volutpat vitae eros. Sed
+      pretium pharetra dapibus. Donec auctor interdum erat, lacinia molestie
+      nibh commodo ut. Maecenas vestibulum vulputate felis, ut ullamcorper arcu
+      faucibus in. Curabitur id arcu est. In semper mollis lorem at
+      pellentesque. Sed lectus nisl, vestibulum id scelerisque eu, feugiat et
+      tortor. Pellentesque porttitor facilisis ultricies.
+    </p>
+    <p id="myBookmark2">
+      [&nbsp;<span class="intLink" onclick="showBookmark('#myBookmark1');"
+        >Go to bookmark #1</span
+      >
+      |
+      <span class="intLink" onclick="showBookmark('#myBookmark1', false);"
+        >Go to bookmark #1 without using location.hash</span
+      >
+      |
+      <span class="intLink" onclick="showBookmark('#myBookmark3');"
+        >Go to bookmark #3</span
+      >&nbsp;]
+    </p>
+    <p>
+      Phasellus tempus fringilla nunc, eget sagittis orci molestie vel. Nulla
+      sollicitudin diam non quam iaculis ac porta justo venenatis. Quisque
+      tellus urna, molestie vitae egestas sit amet, suscipit sed sem. Quisque
+      nec lorem eu velit faucibus tristique ut ut dolor. Cras eu tortor ut
+      libero placerat venenatis ut ut massa. Sed quis libero augue, et consequat
+      libero. Morbi rutrum augue sed turpis elementum sed luctus nisl molestie.
+      Aenean vitae purus risus, a semper nisl. Pellentesque malesuada, est id
+      sagittis consequat, libero mauris tincidunt tellus, eu sagittis arcu purus
+      rutrum eros. Quisque eget eleifend mi. Duis pharetra mi ac eros mattis
+      lacinia rutrum ipsum varius.
+    </p>
+    <p>
+      Fusce cursus pulvinar aliquam. Duis justo enim, ornare vitae elementum
+      sed, porta a quam. Aliquam eu enim eu libero mollis tempus. Morbi ornare
+      aliquam posuere. Proin faucibus luctus libero, sed ultrices lorem sagittis
+      et. Vestibulum malesuada, ante nec molestie vehicula, quam diam mollis
+      ipsum, rhoncus posuere mauris lectus in eros. Nullam feugiat ultrices
+      augue, ac sodales sem mollis in.
+    </p>
+    <p id="myBookmark3"><em>Here is the bookmark #3</em></p>
+    <p>
+      Proin vitae sem non lorem pellentesque molestie. Nam tempus massa et
+      turpis placerat sit amet sollicitudin orci sodales. Pellentesque enim
+      enim, sagittis a lobortis ut, tempus sed arcu. Aliquam augue turpis,
+      varius vel bibendum ut, aliquam at diam. Nam lobortis, dui eu hendrerit
+      pellentesque, sem neque porttitor erat, non dapibus velit lectus in metus.
+      Vestibulum sit amet felis enim. In quis est vitae nunc malesuada consequat
+      nec nec sapien. Suspendisse aliquam massa placerat dui lacinia luctus sed
+      vitae risus. Fusce tempus, neque id ultrices volutpat, mi urna auctor
+      arcu, viverra semper libero sem vel enim. Mauris dictum, elit non placerat
+      malesuada, libero elit euismod nibh, nec posuere massa arcu eu risus.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer urna
+      velit, dapibus eget varius feugiat, pellentesque sit amet ligula. Maecenas
+      nulla nisl, facilisis eu egestas scelerisque, mollis eget metus.
+      Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+      cubilia Curae; Morbi sed congue mi.
+    </p>
+    <p>
+      Fusce metus velit, pharetra at vestibulum nec, facilisis porttitor mi.
+      Curabitur ligula sapien, fermentum vel porttitor id, rutrum sit amet
+      magna. Sed sit amet sollicitudin turpis. Aenean luctus rhoncus dolor, et
+      pulvinar ante egestas et. Donec ac massa orci, quis dapibus augue. Vivamus
+      consectetur auctor pellentesque. Praesent vestibulum tincidunt ante sed
+      consectetur. Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Fusce purus metus, imperdiet vitae iaculis
+      convallis, bibendum vitae turpis.
+    </p>
+    <p>
+      Fusce aliquet molestie dolor, in ornare dui sodales nec. In molestie
+      sollicitudin felis a porta. Mauris nec orci sit amet orci blandit
+      tristique congue nec nunc. Praesent et tellus sollicitudin mauris accumsan
+      fringilla. Morbi sodales, justo eu sollicitudin lacinia, lectus sapien
+      ullamcorper eros, quis molestie urna elit bibendum risus. Proin eget
+      tincidunt quam. Nam luctus commodo mauris, eu posuere nunc luctus non.
+      Nulla facilisi. Vivamus eget leo rhoncus quam accumsan fringilla. Aliquam
+      sit amet lorem est. Nullam vel tellus nibh, id imperdiet orci. Integer
+      egestas leo eu turpis blandit scelerisque.
+    </p>
+    <p>
+      Etiam in blandit tellus. Integer sed varius quam. Vestibulum dapibus mi
+      gravida arcu viverra blandit. Praesent tristique augue id sem adipiscing
+      pellentesque. Sed sollicitudin, leo sed interdum elementum, nisi ante
+      condimentum leo, eget ornare libero diam semper quam. Vivamus augue urna,
+      porta eget ultrices et, dapibus ut ligula. Ut laoreet consequat faucibus.
+      Praesent at lectus ut lectus malesuada mollis. Nam interdum adipiscing
+      eros, nec sodales mi porta nec. Proin et quam vitae sem interdum aliquet.
+      Proin vel odio at lacus vehicula aliquet.
+    </p>
+    <p>
+      Etiam placerat dui ut sem ornare vel vestibulum augue mattis. Sed semper
+      malesuada mi, eu bibendum lacus lobortis nec. Etiam fringilla elementum
+      risus, eget consequat urna laoreet nec. Etiam mollis quam non sem
+      convallis vel consectetur lectus ullamcorper. Aenean mattis lacus quis
+      ligula mattis eget vestibulum diam hendrerit. In non placerat mauris.
+      Praesent faucibus nunc quis eros sagittis viverra. In hac habitasse platea
+      dictumst. Suspendisse eget nisl erat, ac molestie massa. Praesent mollis
+      vestibulum tincidunt. Fusce suscipit laoreet malesuada. Aliquam erat
+      volutpat. Aliquam dictum elementum rhoncus. Praesent in est massa,
+      pulvinar sodales nunc. Pellentesque gravida euismod mi ac convallis.
+    </p>
+    <p>
+      Mauris vel odio vel nulla facilisis lacinia. Aliquam ultrices est at leo
+      blandit tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et
+      ultrices posuere cubilia Curae; Suspendisse porttitor adipiscing
+      facilisis. Duis cursus quam iaculis augue interdum porttitor. Vestibulum
+      ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+      Curae; Duis vulputate magna ac metus pretium condimentum. In tempus, est
+      eget vestibulum blandit, velit massa dignissim nisl, ut scelerisque lorem
+      neque vel velit. Maecenas fermentum commodo viverra. Curabitur a nibh non
+      velit aliquam cursus. Integer semper condimentum tortor a pellentesque.
+      Pellentesque semper, nisl id porttitor vehicula, sem dui feugiat lacus,
+      vitae consequat augue urna vel odio.
+    </p>
+    <p>
+      Vestibulum id neque nec turpis iaculis pulvinar et a massa. Vestibulum sed
+      nibh vitae arcu eleifend egestas. Mauris fermentum ultrices blandit.
+      Suspendisse vitae lorem libero. Aenean et pellentesque tellus. Morbi quis
+      neque orci, eu dignissim dui. Fusce sollicitudin mauris ac arcu vestibulum
+      imperdiet. Proin ultricies nisl sit amet enim imperdiet eu ornare dui
+      tempus. Maecenas lobortis nisi a tortor vestibulum vel eleifend tellus
+      vestibulum. Donec metus sapien, hendrerit a fermentum id, dictum quis
+      libero.
+    </p>
+    <p>
+      Pellentesque a lorem nulla, in tempor justo. Duis odio nisl, dignissim sed
+      consequat sit amet, hendrerit ac neque. Nunc ac augue nec massa tempor
+      rhoncus. Nam feugiat, tellus a varius euismod, justo nisl faucibus velit,
+      ut vulputate justo massa eu nibh. Sed bibendum urna quis magna facilisis
+      in accumsan dolor malesuada. Morbi sit amet nunc risus, in faucibus sem.
+      Nullam sollicitudin magna sed sem mollis id commodo libero condimentum.
+      Duis eu massa et lacus semper molestie ut adipiscing sem.
+    </p>
+    <p>
+      Sed id nulla mi, eget suscipit eros. Aliquam tempus molestie rutrum. In
+      quis varius elit. Nullam dignissim neque nec velit vulputate porttitor.
+      Mauris ac ligula sit amet elit fermentum rhoncus. In tellus urna, pulvinar
+      quis condimentum ut, porta nec justo. In hac habitasse platea dictumst.
+      Proin volutpat elit id quam molestie ac commodo lacus sagittis. Quisque
+      placerat, augue tempor placerat pulvinar, nisi nisi venenatis urna, eget
+      convallis eros velit quis magna. Suspendisse volutpat iaculis quam, ut
+      tristique lacus luctus quis.
+    </p>
+    <p>
+      Nullam commodo suscipit lacus non aliquet. Phasellus ac nisl lorem, sed
+      facilisis ligula. Nam cursus lobortis placerat. Sed dui nisi, elementum eu
+      sodales ac, placerat sit amet mauris. Pellentesque dapibus tellus ut ipsum
+      aliquam eu auctor dui vehicula. Quisque ultrices laoreet erat, at ultrices
+      tortor sodales non. Sed venenatis luctus magna, ultricies ultricies nunc
+      fringilla eget. Praesent scelerisque urna vitae nibh tristique varius
+      consequat neque luctus. Integer ornare, erat a porta tempus, velit justo
+      fermentum elit, a fermentum metus nisi eu ipsum. Vivamus eget augue vel
+      dui viverra adipiscing congue ut massa. Praesent vitae eros erat, pulvinar
+      laoreet magna. Maecenas vestibulum mollis nunc in posuere. Pellentesque
+      sit amet metus a turpis lobortis tempor eu vel tortor. Cras sodales
+      eleifend interdum.
+    </p>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            `      <span class="intLink" onclick="showBookmark('#myBookmark3');"`,
+                            "134:28",
+                            `/en-US/docs/Web/API/Window/location
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <title>MDN Example</title>
+    <script>
+      function showNode(node) {
+        document.documentElement.scrollTop = node.offsetTop;
+        document.documentElement.scrollLeft = node.offsetLeft;
+      }
+
+      function showBookmark(bookmark, useHash) {
+        if (arguments.length === 1 || useHash) {
+          location.hash = bookmark;
+          return;
+        }
+        const bookmarkElement = document.querySelector(bookmark);
+        if (bookmarkElement) {
+          showNode(bookmarkElement);
+        }
+      }
+    </script>
+    <style>
+      span.intLink {
+        cursor: pointer;
+        color: #0000ff;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultrices
+      dolor ac dolor imperdiet ullamcorper. Suspendisse quam libero, luctus
+      auctor mollis sed, malesuada condimentum magna. Quisque in ante tellus, in
+      placerat est. Pellentesque habitant morbi tristique senectus et netus et
+      malesuada fames ac turpis egestas. Donec a mi magna, quis mattis dolor.
+      Etiam sit amet ligula quis urna auctor imperdiet nec faucibus ante. Mauris
+      vel consectetur dolor. Nunc eget elit eget velit pulvinar fringilla
+      consectetur aliquam purus. Curabitur convallis, justo posuere porta
+      egestas, velit erat ornare tortor, non viverra justo diam eget arcu.
+      Phasellus adipiscing fermentum nibh ac commodo. Nam turpis nunc, suscipit
+      a hendrerit vitae, volutpat non ipsum.
+    </p>
+    <p>
+      Duis lobortis sapien quis nisl luctus porttitor. In tempor semper libero,
+      eu tincidunt dolor eleifend sit amet. Ut nec velit in dolor tincidunt
+      rhoncus non diam. Morbi auctor ornare orci, non euismod felis gravida nec.
+      Curabitur elementum nisi a eros rutrum nec blandit diam placerat. Aenean
+      tincidunt risus ut nisi consectetur cursus. Ut vitae quam elit. Donec
+      dignissim est in quam tempor consequat. Aliquam diam non felis convallis
+      suscipit. Nulla facilisi. Donec lacus risus, dignissim et fringilla et,
+      egestas vel eros. Duis malesuada accumsan dui, at fringilla mauris
+      bibendum quis. Cras adipiscing ultricies fermentum. Praesent bibendum
+      condimentum feugiat.
+    </p>
+    <p id="myBookmark1">
+      [&nbsp;<span class="intLink" onclick="showBookmark('#myBookmark2');"
+        >Go to bookmark #2</span
+      >&nbsp;]
+    </p>
+    <p>
+      Vivamus blandit massa ut metus mattis in fringilla lectus imperdiet. Proin
+      ac ante a felis ornare vehicula. Fusce pellentesque lacus vitae eros
+      convallis ut mollis magna pellentesque. Pellentesque placerat enim at
+      lacus ultricies vitae facilisis nisi fringilla. In tincidunt tincidunt
+      tincidunt. Nulla vitae tempor nisl. Etiam congue, elit vitae egestas
+      mollis, ipsum nisi malesuada turpis, a volutpat arcu arcu id risus.
+    </p>
+    <p>
+      Nam faucibus, ligula eu fringilla pulvinar, lectus tellus iaculis nunc,
+      vitae scelerisque metus leo non metus. Proin mattis lobortis lobortis.
+      Quisque accumsan faucibus erat, vel varius tortor ultricies ac. Lorem
+      ipsum dolor sit amet, consectetur adipiscing elit. Sed nec libero nunc.
+      Nullam tortor nunc, elementum a consectetur et, ultrices eu orci. Lorem
+      ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a nisl eu
+      sem vehicula egestas.
+    </p>
+    <p>
+      Aenean viverra varius mauris, sed elementum lacus interdum non. Phasellus
+      sit amet lectus vitae eros egestas pellentesque fermentum eget magna.
+      Quisque mauris nisl, gravida vitae placerat et, condimentum id metus.
+      Nulla eu est dictum dolor pulvinar volutpat. Pellentesque vitae
+      sollicitudin nunc. Donec neque magna, lobortis id egestas nec, sodales
+      quis lectus. Fusce cursus sollicitudin porta. Suspendisse ut tortor in
+      mauris tincidunt rhoncus. Maecenas tincidunt fermentum facilisis.
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+      ac turpis egestas.
+    </p>
+    <p>
+      Suspendisse turpis nisl, consectetur in lacinia ut, ornare vel mi. Lorem
+      ipsum dolor sit amet, consectetur adipiscing elit. Proin non lectus eu
+      turpis vulputate cursus. Mauris interdum tincidunt erat id pharetra.
+      Nullam in libero elit, sed consequat lectus. Morbi odio nisi, porta vitae
+      molestie ut, gravida ut nunc. Ut non est dui, id ullamcorper orci.
+      Praesent vel elementum felis. Maecenas ornare, dui quis auctor hendrerit,
+      turpis sem ullamcorper odio, in auctor magna metus quis leo. Morbi at odio
+      ante.
+    </p>
+    <p>
+      Curabitur est ipsum, porta ac viverra faucibus, eleifend sed eros. In sit
+      amet vehicula tortor. Vestibulum viverra pellentesque erat a elementum.
+      Integer commodo ultricies lorem, eget tincidunt risus viverra et. In enim
+      turpis, porttitor ac ornare et, suscipit sit amet nisl. Vestibulum ante
+      ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+      Pellentesque vel ultrices nibh. Sed commodo aliquam aliquam. Nulla
+      euismod, odio ut eleifend mollis, nisi dui gravida nibh, vitae laoreet
+      turpis purus id ipsum. Donec convallis, velit non scelerisque bibendum,
+      diam nulla auctor nunc, vel dictum risus ipsum sit amet est. Praesent ut
+      nibh sit amet nibh congue pulvinar. Suspendisse dictum porttitor tempor.
+    </p>
+    <p>
+      Vestibulum dignissim erat vitae lectus auctor ac bibendum eros semper.
+      Integer aliquet, leo non ornare faucibus, risus arcu tristique dolor, a
+      aliquet massa mauris quis arcu. In porttitor, lectus ac semper egestas,
+      ligula magna laoreet libero, eu commodo mauris odio id ante. In hac
+      habitasse platea dictumst. In pretium erat diam, nec consequat eros.
+      Praesent augue mi, consequat sed porttitor at, volutpat vitae eros. Sed
+      pretium pharetra dapibus. Donec auctor interdum erat, lacinia molestie
+      nibh commodo ut. Maecenas vestibulum vulputate felis, ut ullamcorper arcu
+      faucibus in. Curabitur id arcu est. In semper mollis lorem at
+      pellentesque. Sed lectus nisl, vestibulum id scelerisque eu, feugiat et
+      tortor. Pellentesque porttitor facilisis ultricies.
+    </p>
+    <p id="myBookmark2">
+      [&nbsp;<span class="intLink" onclick="showBookmark('#myBookmark1');"
+        >Go to bookmark #1</span
+      >
+      |
+      <span class="intLink" onclick="showBookmark('#myBookmark1', false);"
+        >Go to bookmark #1 without using location.hash</span
+      >
+      |
+      <span class="intLink" onclick="showBookmark('#myBookmark3');"
+        >Go to bookmark #3</span
+      >&nbsp;]
+    </p>
+    <p>
+      Phasellus tempus fringilla nunc, eget sagittis orci molestie vel. Nulla
+      sollicitudin diam non quam iaculis ac porta justo venenatis. Quisque
+      tellus urna, molestie vitae egestas sit amet, suscipit sed sem. Quisque
+      nec lorem eu velit faucibus tristique ut ut dolor. Cras eu tortor ut
+      libero placerat venenatis ut ut massa. Sed quis libero augue, et consequat
+      libero. Morbi rutrum augue sed turpis elementum sed luctus nisl molestie.
+      Aenean vitae purus risus, a semper nisl. Pellentesque malesuada, est id
+      sagittis consequat, libero mauris tincidunt tellus, eu sagittis arcu purus
+      rutrum eros. Quisque eget eleifend mi. Duis pharetra mi ac eros mattis
+      lacinia rutrum ipsum varius.
+    </p>
+    <p>
+      Fusce cursus pulvinar aliquam. Duis justo enim, ornare vitae elementum
+      sed, porta a quam. Aliquam eu enim eu libero mollis tempus. Morbi ornare
+      aliquam posuere. Proin faucibus luctus libero, sed ultrices lorem sagittis
+      et. Vestibulum malesuada, ante nec molestie vehicula, quam diam mollis
+      ipsum, rhoncus posuere mauris lectus in eros. Nullam feugiat ultrices
+      augue, ac sodales sem mollis in.
+    </p>
+    <p id="myBookmark3"><em>Here is the bookmark #3</em></p>
+    <p>
+      Proin vitae sem non lorem pellentesque molestie. Nam tempus massa et
+      turpis placerat sit amet sollicitudin orci sodales. Pellentesque enim
+      enim, sagittis a lobortis ut, tempus sed arcu. Aliquam augue turpis,
+      varius vel bibendum ut, aliquam at diam. Nam lobortis, dui eu hendrerit
+      pellentesque, sem neque porttitor erat, non dapibus velit lectus in metus.
+      Vestibulum sit amet felis enim. In quis est vitae nunc malesuada consequat
+      nec nec sapien. Suspendisse aliquam massa placerat dui lacinia luctus sed
+      vitae risus. Fusce tempus, neque id ultrices volutpat, mi urna auctor
+      arcu, viverra semper libero sem vel enim. Mauris dictum, elit non placerat
+      malesuada, libero elit euismod nibh, nec posuere massa arcu eu risus.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer urna
+      velit, dapibus eget varius feugiat, pellentesque sit amet ligula. Maecenas
+      nulla nisl, facilisis eu egestas scelerisque, mollis eget metus.
+      Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+      cubilia Curae; Morbi sed congue mi.
+    </p>
+    <p>
+      Fusce metus velit, pharetra at vestibulum nec, facilisis porttitor mi.
+      Curabitur ligula sapien, fermentum vel porttitor id, rutrum sit amet
+      magna. Sed sit amet sollicitudin turpis. Aenean luctus rhoncus dolor, et
+      pulvinar ante egestas et. Donec ac massa orci, quis dapibus augue. Vivamus
+      consectetur auctor pellentesque. Praesent vestibulum tincidunt ante sed
+      consectetur. Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Fusce purus metus, imperdiet vitae iaculis
+      convallis, bibendum vitae turpis.
+    </p>
+    <p>
+      Fusce aliquet molestie dolor, in ornare dui sodales nec. In molestie
+      sollicitudin felis a porta. Mauris nec orci sit amet orci blandit
+      tristique congue nec nunc. Praesent et tellus sollicitudin mauris accumsan
+      fringilla. Morbi sodales, justo eu sollicitudin lacinia, lectus sapien
+      ullamcorper eros, quis molestie urna elit bibendum risus. Proin eget
+      tincidunt quam. Nam luctus commodo mauris, eu posuere nunc luctus non.
+      Nulla facilisi. Vivamus eget leo rhoncus quam accumsan fringilla. Aliquam
+      sit amet lorem est. Nullam vel tellus nibh, id imperdiet orci. Integer
+      egestas leo eu turpis blandit scelerisque.
+    </p>
+    <p>
+      Etiam in blandit tellus. Integer sed varius quam. Vestibulum dapibus mi
+      gravida arcu viverra blandit. Praesent tristique augue id sem adipiscing
+      pellentesque. Sed sollicitudin, leo sed interdum elementum, nisi ante
+      condimentum leo, eget ornare libero diam semper quam. Vivamus augue urna,
+      porta eget ultrices et, dapibus ut ligula. Ut laoreet consequat faucibus.
+      Praesent at lectus ut lectus malesuada mollis. Nam interdum adipiscing
+      eros, nec sodales mi porta nec. Proin et quam vitae sem interdum aliquet.
+      Proin vel odio at lacus vehicula aliquet.
+    </p>
+    <p>
+      Etiam placerat dui ut sem ornare vel vestibulum augue mattis. Sed semper
+      malesuada mi, eu bibendum lacus lobortis nec. Etiam fringilla elementum
+      risus, eget consequat urna laoreet nec. Etiam mollis quam non sem
+      convallis vel consectetur lectus ullamcorper. Aenean mattis lacus quis
+      ligula mattis eget vestibulum diam hendrerit. In non placerat mauris.
+      Praesent faucibus nunc quis eros sagittis viverra. In hac habitasse platea
+      dictumst. Suspendisse eget nisl erat, ac molestie massa. Praesent mollis
+      vestibulum tincidunt. Fusce suscipit laoreet malesuada. Aliquam erat
+      volutpat. Aliquam dictum elementum rhoncus. Praesent in est massa,
+      pulvinar sodales nunc. Pellentesque gravida euismod mi ac convallis.
+    </p>
+    <p>
+      Mauris vel odio vel nulla facilisis lacinia. Aliquam ultrices est at leo
+      blandit tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et
+      ultrices posuere cubilia Curae; Suspendisse porttitor adipiscing
+      facilisis. Duis cursus quam iaculis augue interdum porttitor. Vestibulum
+      ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+      Curae; Duis vulputate magna ac metus pretium condimentum. In tempus, est
+      eget vestibulum blandit, velit massa dignissim nisl, ut scelerisque lorem
+      neque vel velit. Maecenas fermentum commodo viverra. Curabitur a nibh non
+      velit aliquam cursus. Integer semper condimentum tortor a pellentesque.
+      Pellentesque semper, nisl id porttitor vehicula, sem dui feugiat lacus,
+      vitae consequat augue urna vel odio.
+    </p>
+    <p>
+      Vestibulum id neque nec turpis iaculis pulvinar et a massa. Vestibulum sed
+      nibh vitae arcu eleifend egestas. Mauris fermentum ultrices blandit.
+      Suspendisse vitae lorem libero. Aenean et pellentesque tellus. Morbi quis
+      neque orci, eu dignissim dui. Fusce sollicitudin mauris ac arcu vestibulum
+      imperdiet. Proin ultricies nisl sit amet enim imperdiet eu ornare dui
+      tempus. Maecenas lobortis nisi a tortor vestibulum vel eleifend tellus
+      vestibulum. Donec metus sapien, hendrerit a fermentum id, dictum quis
+      libero.
+    </p>
+    <p>
+      Pellentesque a lorem nulla, in tempor justo. Duis odio nisl, dignissim sed
+      consequat sit amet, hendrerit ac neque. Nunc ac augue nec massa tempor
+      rhoncus. Nam feugiat, tellus a varius euismod, justo nisl faucibus velit,
+      ut vulputate justo massa eu nibh. Sed bibendum urna quis magna facilisis
+      in accumsan dolor malesuada. Morbi sit amet nunc risus, in faucibus sem.
+      Nullam sollicitudin magna sed sem mollis id commodo libero condimentum.
+      Duis eu massa et lacus semper molestie ut adipiscing sem.
+    </p>
+    <p>
+      Sed id nulla mi, eget suscipit eros. Aliquam tempus molestie rutrum. In
+      quis varius elit. Nullam dignissim neque nec velit vulputate porttitor.
+      Mauris ac ligula sit amet elit fermentum rhoncus. In tellus urna, pulvinar
+      quis condimentum ut, porta nec justo. In hac habitasse platea dictumst.
+      Proin volutpat elit id quam molestie ac commodo lacus sagittis. Quisque
+      placerat, augue tempor placerat pulvinar, nisi nisi venenatis urna, eget
+      convallis eros velit quis magna. Suspendisse volutpat iaculis quam, ut
+      tristique lacus luctus quis.
+    </p>
+    <p>
+      Nullam commodo suscipit lacus non aliquet. Phasellus ac nisl lorem, sed
+      facilisis ligula. Nam cursus lobortis placerat. Sed dui nisi, elementum eu
+      sodales ac, placerat sit amet mauris. Pellentesque dapibus tellus ut ipsum
+      aliquam eu auctor dui vehicula. Quisque ultrices laoreet erat, at ultrices
+      tortor sodales non. Sed venenatis luctus magna, ultricies ultricies nunc
+      fringilla eget. Praesent scelerisque urna vitae nibh tristique varius
+      consequat neque luctus. Integer ornare, erat a porta tempus, velit justo
+      fermentum elit, a fermentum metus nisi eu ipsum. Vivamus eget augue vel
+      dui viverra adipiscing congue ut massa. Praesent vitae eros erat, pulvinar
+      laoreet magna. Maecenas vestibulum mollis nunc in posuere. Pellentesque
+      sit amet metus a turpis lobortis tempor eu vel tortor. Cras sodales
+      eleifend interdum.
+    </p>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    scroll: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/scroll",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '<button onclick="scroll(0, 100);">click to scroll to the 100th pixel</button>',
+                            "2:8",
+                            `/en-US/docs/Web/API/Window/scroll
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<!-- put the 100th vertical pixel at the top of the window -->
+
+<button onclick="scroll(0, 100);">click to scroll to the 100th pixel</button>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    scrollbylines: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/scrollByLines",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '<button id="scroll-up" onclick="scrollByLines(-5);">Up 5 lines</button>',
+                            "1:23",
+                            `/en-US/docs/Web/API/Window/scrollByLines
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<!-- Scroll up the document by 5 lines -->
+<button id="scroll-up" onclick="scrollByLines(-5);">Up 5 lines</button>
+
+<!-- Scroll down the document by 5 lines -->
+<button id="scroll-down" onclick="scrollByLines(5);">Down 5 lines</button>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '<button id="scroll-down" onclick="scrollByLines(5);">Down 5 lines</button>',
+                            "4:25",
+                            `/en-US/docs/Web/API/Window/scrollByLines
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<!-- Scroll up the document by 5 lines -->
+<button id="scroll-up" onclick="scrollByLines(-5);">Up 5 lines</button>
+
+<!-- Scroll down the document by 5 lines -->
+<button id="scroll-down" onclick="scrollByLines(5);">Down 5 lines</button>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    settimeout: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/setTimeout",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '<button onclick="delayedMessage();">Show a message after two seconds</button>',
+                            "0:8",
+                            `/en-US/docs/Web/API/Window/setTimeout
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<button onclick="delayedMessage();">Show a message after two seconds</button>
+<button onclick="clearMessage();">Cancel message before it happens</button>
+
+<div id="output"></div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '<button onclick="clearMessage();">Cancel message before it happens</button>',
+                            "1:8",
+                            `/en-US/docs/Web/API/Window/setTimeout
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<button onclick="delayedMessage();">Show a message after two seconds</button>
+<button onclick="clearMessage();">Cancel message before it happens</button>
+
+<div id="output"></div>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/Window",
+                  messages: [
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "onresize".',
+                        '<body onresize="console.log(event.currentTarget)"></body>',
+                        "0:6",
+                        `/en-US/docs/Web/API/Window
+[no-inline-event-handlers] Do not use inline event handler "onresize".
+~~~
+<body onresize="console.log(event.currentTarget)"></body>
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
                 window_management_api: {
                   children: {
                     "multi-screen_origin": {
@@ -13824,23 +21617,6 @@ function displayPoseStats(pose) {
                           message: "Not in BCD",
                           data: [
                             "api.WorkerNavigator.setAppBadge"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                worker: {
-                  children: {
-                    worker: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Worker/Worker",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vite.dev/guide/features.html",
-                            "unknown certificate verification error"
                           ]
                         }
                       ]
@@ -14674,6 +22450,32 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
+                "-moz-image-rect": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/-moz-image-rect",
+                  messages: [
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "onclick".',
+                        '<div id="container" onclick="rotate()">',
+                        "0:20",
+                        `/en-US/docs/Web/CSS/-moz-image-rect
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<div id="container" onclick="rotate()">
+  <div id="box1" style="left:0px;top:0px;">Top left</div>
+  <div id="box2" style="left:133px;top:0px;">Top right</div>
+  <div id="box3" style="left:0px;top:136px;">Bottom left</div>
+  <div id="box4" style="left:133px;top:136px;">Bottom right</div>
+</div>
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
                 "-moz-image-region": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/-moz-image-region",
@@ -14763,19 +22565,6 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
-                    }
-                  ]
-                },
-                "@charset": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/@charset",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.iana.org/assignments/character-sets/character-sets.xhtml",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -16040,6 +23829,19 @@ attr(data-rotation deg)
                     }
                   ]
                 },
+                "background-blend-mode": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/background-blend-mode",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/compositing-2/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 "basic-shape": {
                   children: {
                     path: {
@@ -16118,19 +23920,6 @@ path(evenodd,"M 10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80");
                         }
                       ]
                     },
-                    rect: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/basic-shape/rect",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/css-masking-1/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     shape: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/basic-shape/shape",
@@ -16160,6 +23949,13 @@ path(evenodd,"M 10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80");
                     {
                       message: "Missing syntax code block",
                       data: []
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/compositing-2/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -16275,45 +24071,6 @@ path(evenodd,"M 10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80");
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/CSS/calc-value"
-                      ]
-                    }
-                  ]
-                },
-                clip: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/clip",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "clip-path": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/clip-path",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "clip-rule": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/clip-rule",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -17952,6 +25709,51 @@ main {
                     }
                   }
                 },
+                css_display: {
+                  children: {
+                    "multi-keyword_syntax_of_display": {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_display/multi-keyword_syntax_of_display",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onchange".',
+                            '  <select id="displayType" onchange="changeDisplayType()">',
+                            "2:27",
+                            `/en-US/docs/Web/CSS/CSS_display/multi-keyword_syntax_of_display
+[no-inline-event-handlers] Do not use inline event handler "onchange".
+~~~
+<div id="controls">
+  <label for="displayType">display:</label>
+  <select id="displayType" onchange="changeDisplayType()">
+    <option value="block">block</option>
+    <option value="flow-root">flow-root</option>
+    <option value="block flow-root">block flow-root</option>
+    <option value="inline">inline</option>
+    <option value="inline flow-root">inline flow-root</option>
+  </select>
+</div>
+
+<div id="parent">
+  <p id="child">The #child paragraph (nested in #parent).</p>
+</div>
+<p id="sibling">The #sibling paragraph (sibling of #parent).</p>
+
+<p>
+  This paragraph has a span <span class="inline-block">with padding</span> it is
+  an inline-block so the padding is contained and pushes the other line boxes
+  away.
+</p>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 css_filter_effects: {
                   children: {
                     using_filter_effects: {
@@ -19355,6 +27157,6174 @@ fit-content(40%)
                         "/en-US/docs/Web/CSS/font-stretch",
                         "#interpolation"
                       ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "onchange".',
+                        '        onchange="setCss()" />',
+                        "13:8",
+                        `/en-US/docs/Web/CSS/font
+[no-inline-event-handlers] Do not use inline event handler "onchange".
+~~~
+<p>
+  Change the radio buttons below to see the generated shorthand and its effect.
+</p>
+<form action="createShortHand()">
+  <div class="cf">
+    <div class="setPropCont">
+      font-style<br />
+      <input
+        type="radio"
+        id="font-style-none"
+        name="font_style"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="font-style-none">none</label><br />
+      <input
+        type="radio"
+        id="font-style-normal"
+        name="font_style"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-style-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-style-italic"
+        name="font_style"
+        value="italic"
+        onchange="setCss()" />
+      <label for="font-style-italic">italic</label><br />
+      <input
+        type="radio"
+        id="font-style-oblique"
+        name="font_style"
+        value="oblique"
+        onchange="setCss()" />
+      <label for="font-style-oblique">oblique</label>
+    </div>
+
+    <div class="setPropCont">
+      font-variant<br />
+      <input
+        type="radio"
+        id="font-variant-none"
+        name="font_variant"
+        checked=""
+        value=" "
+        onchange="setCss()" />
+      <label for="font-variant-none">none</label><br />
+      <input
+        type="radio"
+        id="font-variant-normal"
+        name="font_variant"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-variant-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-variant-small-caps"
+        name="font_variant"
+        value="small-caps"
+        onchange="setCss()" />
+      <label for="font-variant-small-caps">small-caps</label>
+    </div>
+
+    <div class="setPropCont">
+      font-weight<br />
+      <input
+        type="radio"
+        id="font-weight-none"
+        name="font_weight"
+        value=""
+        onchange="setCss()" />
+      <label for="font-weight-none">none</label><br />
+      <input
+        type="radio"
+        id="font-weight-normal"
+        checked=""
+        name="font_weight"
+        value="400"
+        onchange="setCss()" />
+      <label for="font-weight-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-weight-bold"
+        name="font_weight"
+        value="700"
+        onchange="setCss()" />
+      <label for="font-weight-bold">bold</label>
+    </div>
+
+    <div class="setPropCont">
+      font-size<br />
+      <input
+        type="radio"
+        id="font-size-12px"
+        name="font_size"
+        value="12px"
+        onchange="setCss()" />
+      <label for="font-size-12px">12px</label><br />
+      <input
+        type="radio"
+        id="font-size-16px"
+        name="font_size"
+        value="16px"
+        checked=""
+        onchange="setCss()" />
+      <label for="font-size-16px">16px</label><br />
+      <input
+        type="radio"
+        id="font-size-24px"
+        name="font_size"
+        value="24px"
+        onchange="setCss()" />
+      <label for="font-size-24px">24px</label>
+    </div>
+
+    <div class="setPropCont">
+      line-height<br />
+      <input
+        type="radio"
+        id="line-height-none"
+        name="line_height"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="line-height-none">none</label><br />
+      <input
+        type="radio"
+        id="line-height-1.2"
+        name="line_height"
+        value="/1.2"
+        onchange="setCss()" />
+      <label for="line-height-1.2">1.2</label><br />
+      <input
+        type="radio"
+        id="line-height-3"
+        name="line_height"
+        value="/3"
+        onchange="setCss()" />
+      <label for="line-height-3">3</label>
+    </div>
+    <br />
+
+    <div class="setPropCont fontfamily">
+      font-family<br />
+      <input
+        type="radio"
+        id="font-family-courier"
+        name="font_family"
+        checked=""
+        value="courier"
+        onchange="setCss(5,'courier')" />
+      <label for="font-family-courier">courier</label><br />
+      <input
+        type="radio"
+        id="font-family-serif"
+        name="font_family"
+        value="serif"
+        onchange="setCss()" />
+      <label for="font-family-serif">serif</label><br />
+      <input
+        type="radio"
+        id="font-family-sans-serif"
+        name="font_family"
+        value="sans-serif"
+        onchange="setCss()" />
+      <label for="font-family-sans-serif">sans-serif</label><br />
+      <input
+        type="radio"
+        id="font-family-arial"
+        name="font_family"
+        value="arial"
+        onchange="setCss()" />
+      <label for="font-family-arial">Arial</label><br />
+      <input
+        type="radio"
+        id="font-family-monospace"
+        name="font_family"
+        value="monospace"
+        onchange="setCss()" />
+      <label for="font-family-monospace">monospace</label><br />
+      <input
+        type="radio"
+        id="font-family-cursive"
+        name="font_family"
+        value="cursive"
+        onchange="setCss()" />
+      <label for="font-family-cursive">cursive</label><br />
+      <input
+        type="radio"
+        id="font-family-fantasy"
+        name="font_family"
+        value="fantasy"
+        onchange="setCss()" />
+      <label for="font-family-fantasy">fantasy</label><br />
+      <input
+        type="radio"
+        id="font-family-system-ui"
+        name="font_family"
+        value="system-ui"
+        onchange="setCss()" />
+      <label for="font-family-system-ui">system-ui</label><br />
+    </div>
+  </div>
+
+  <div class="cf propInputs">
+    <div class="propInputCont tar">font :</div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_style" /><br />
+      font-style <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_variant" /> <br />
+      font-variant <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_weight" /> <br />
+      font-weight <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
+      font-size <br />
+      mandatory
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_line_height" /> <br />
+      line-height <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_family" />
+      <br />
+      font-family <br />
+      mandatory
+    </div>
+  </div>
+</form>
+
+<div class="fontShortHand">This is some sample text.</div>
+<br /><br /><br /><br /><br /><br />
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "onchange".',
+                        '        onchange="setCss()" />',
+                        "20:8",
+                        `/en-US/docs/Web/CSS/font
+[no-inline-event-handlers] Do not use inline event handler "onchange".
+~~~
+<p>
+  Change the radio buttons below to see the generated shorthand and its effect.
+</p>
+<form action="createShortHand()">
+  <div class="cf">
+    <div class="setPropCont">
+      font-style<br />
+      <input
+        type="radio"
+        id="font-style-none"
+        name="font_style"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="font-style-none">none</label><br />
+      <input
+        type="radio"
+        id="font-style-normal"
+        name="font_style"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-style-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-style-italic"
+        name="font_style"
+        value="italic"
+        onchange="setCss()" />
+      <label for="font-style-italic">italic</label><br />
+      <input
+        type="radio"
+        id="font-style-oblique"
+        name="font_style"
+        value="oblique"
+        onchange="setCss()" />
+      <label for="font-style-oblique">oblique</label>
+    </div>
+
+    <div class="setPropCont">
+      font-variant<br />
+      <input
+        type="radio"
+        id="font-variant-none"
+        name="font_variant"
+        checked=""
+        value=" "
+        onchange="setCss()" />
+      <label for="font-variant-none">none</label><br />
+      <input
+        type="radio"
+        id="font-variant-normal"
+        name="font_variant"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-variant-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-variant-small-caps"
+        name="font_variant"
+        value="small-caps"
+        onchange="setCss()" />
+      <label for="font-variant-small-caps">small-caps</label>
+    </div>
+
+    <div class="setPropCont">
+      font-weight<br />
+      <input
+        type="radio"
+        id="font-weight-none"
+        name="font_weight"
+        value=""
+        onchange="setCss()" />
+      <label for="font-weight-none">none</label><br />
+      <input
+        type="radio"
+        id="font-weight-normal"
+        checked=""
+        name="font_weight"
+        value="400"
+        onchange="setCss()" />
+      <label for="font-weight-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-weight-bold"
+        name="font_weight"
+        value="700"
+        onchange="setCss()" />
+      <label for="font-weight-bold">bold</label>
+    </div>
+
+    <div class="setPropCont">
+      font-size<br />
+      <input
+        type="radio"
+        id="font-size-12px"
+        name="font_size"
+        value="12px"
+        onchange="setCss()" />
+      <label for="font-size-12px">12px</label><br />
+      <input
+        type="radio"
+        id="font-size-16px"
+        name="font_size"
+        value="16px"
+        checked=""
+        onchange="setCss()" />
+      <label for="font-size-16px">16px</label><br />
+      <input
+        type="radio"
+        id="font-size-24px"
+        name="font_size"
+        value="24px"
+        onchange="setCss()" />
+      <label for="font-size-24px">24px</label>
+    </div>
+
+    <div class="setPropCont">
+      line-height<br />
+      <input
+        type="radio"
+        id="line-height-none"
+        name="line_height"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="line-height-none">none</label><br />
+      <input
+        type="radio"
+        id="line-height-1.2"
+        name="line_height"
+        value="/1.2"
+        onchange="setCss()" />
+      <label for="line-height-1.2">1.2</label><br />
+      <input
+        type="radio"
+        id="line-height-3"
+        name="line_height"
+        value="/3"
+        onchange="setCss()" />
+      <label for="line-height-3">3</label>
+    </div>
+    <br />
+
+    <div class="setPropCont fontfamily">
+      font-family<br />
+      <input
+        type="radio"
+        id="font-family-courier"
+        name="font_family"
+        checked=""
+        value="courier"
+        onchange="setCss(5,'courier')" />
+      <label for="font-family-courier">courier</label><br />
+      <input
+        type="radio"
+        id="font-family-serif"
+        name="font_family"
+        value="serif"
+        onchange="setCss()" />
+      <label for="font-family-serif">serif</label><br />
+      <input
+        type="radio"
+        id="font-family-sans-serif"
+        name="font_family"
+        value="sans-serif"
+        onchange="setCss()" />
+      <label for="font-family-sans-serif">sans-serif</label><br />
+      <input
+        type="radio"
+        id="font-family-arial"
+        name="font_family"
+        value="arial"
+        onchange="setCss()" />
+      <label for="font-family-arial">Arial</label><br />
+      <input
+        type="radio"
+        id="font-family-monospace"
+        name="font_family"
+        value="monospace"
+        onchange="setCss()" />
+      <label for="font-family-monospace">monospace</label><br />
+      <input
+        type="radio"
+        id="font-family-cursive"
+        name="font_family"
+        value="cursive"
+        onchange="setCss()" />
+      <label for="font-family-cursive">cursive</label><br />
+      <input
+        type="radio"
+        id="font-family-fantasy"
+        name="font_family"
+        value="fantasy"
+        onchange="setCss()" />
+      <label for="font-family-fantasy">fantasy</label><br />
+      <input
+        type="radio"
+        id="font-family-system-ui"
+        name="font_family"
+        value="system-ui"
+        onchange="setCss()" />
+      <label for="font-family-system-ui">system-ui</label><br />
+    </div>
+  </div>
+
+  <div class="cf propInputs">
+    <div class="propInputCont tar">font :</div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_style" /><br />
+      font-style <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_variant" /> <br />
+      font-variant <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_weight" /> <br />
+      font-weight <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
+      font-size <br />
+      mandatory
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_line_height" /> <br />
+      line-height <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_family" />
+      <br />
+      font-family <br />
+      mandatory
+    </div>
+  </div>
+</form>
+
+<div class="fontShortHand">This is some sample text.</div>
+<br /><br /><br /><br /><br /><br />
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "onchange".',
+                        '        onchange="setCss()" />',
+                        "27:8",
+                        `/en-US/docs/Web/CSS/font
+[no-inline-event-handlers] Do not use inline event handler "onchange".
+~~~
+<p>
+  Change the radio buttons below to see the generated shorthand and its effect.
+</p>
+<form action="createShortHand()">
+  <div class="cf">
+    <div class="setPropCont">
+      font-style<br />
+      <input
+        type="radio"
+        id="font-style-none"
+        name="font_style"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="font-style-none">none</label><br />
+      <input
+        type="radio"
+        id="font-style-normal"
+        name="font_style"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-style-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-style-italic"
+        name="font_style"
+        value="italic"
+        onchange="setCss()" />
+      <label for="font-style-italic">italic</label><br />
+      <input
+        type="radio"
+        id="font-style-oblique"
+        name="font_style"
+        value="oblique"
+        onchange="setCss()" />
+      <label for="font-style-oblique">oblique</label>
+    </div>
+
+    <div class="setPropCont">
+      font-variant<br />
+      <input
+        type="radio"
+        id="font-variant-none"
+        name="font_variant"
+        checked=""
+        value=" "
+        onchange="setCss()" />
+      <label for="font-variant-none">none</label><br />
+      <input
+        type="radio"
+        id="font-variant-normal"
+        name="font_variant"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-variant-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-variant-small-caps"
+        name="font_variant"
+        value="small-caps"
+        onchange="setCss()" />
+      <label for="font-variant-small-caps">small-caps</label>
+    </div>
+
+    <div class="setPropCont">
+      font-weight<br />
+      <input
+        type="radio"
+        id="font-weight-none"
+        name="font_weight"
+        value=""
+        onchange="setCss()" />
+      <label for="font-weight-none">none</label><br />
+      <input
+        type="radio"
+        id="font-weight-normal"
+        checked=""
+        name="font_weight"
+        value="400"
+        onchange="setCss()" />
+      <label for="font-weight-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-weight-bold"
+        name="font_weight"
+        value="700"
+        onchange="setCss()" />
+      <label for="font-weight-bold">bold</label>
+    </div>
+
+    <div class="setPropCont">
+      font-size<br />
+      <input
+        type="radio"
+        id="font-size-12px"
+        name="font_size"
+        value="12px"
+        onchange="setCss()" />
+      <label for="font-size-12px">12px</label><br />
+      <input
+        type="radio"
+        id="font-size-16px"
+        name="font_size"
+        value="16px"
+        checked=""
+        onchange="setCss()" />
+      <label for="font-size-16px">16px</label><br />
+      <input
+        type="radio"
+        id="font-size-24px"
+        name="font_size"
+        value="24px"
+        onchange="setCss()" />
+      <label for="font-size-24px">24px</label>
+    </div>
+
+    <div class="setPropCont">
+      line-height<br />
+      <input
+        type="radio"
+        id="line-height-none"
+        name="line_height"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="line-height-none">none</label><br />
+      <input
+        type="radio"
+        id="line-height-1.2"
+        name="line_height"
+        value="/1.2"
+        onchange="setCss()" />
+      <label for="line-height-1.2">1.2</label><br />
+      <input
+        type="radio"
+        id="line-height-3"
+        name="line_height"
+        value="/3"
+        onchange="setCss()" />
+      <label for="line-height-3">3</label>
+    </div>
+    <br />
+
+    <div class="setPropCont fontfamily">
+      font-family<br />
+      <input
+        type="radio"
+        id="font-family-courier"
+        name="font_family"
+        checked=""
+        value="courier"
+        onchange="setCss(5,'courier')" />
+      <label for="font-family-courier">courier</label><br />
+      <input
+        type="radio"
+        id="font-family-serif"
+        name="font_family"
+        value="serif"
+        onchange="setCss()" />
+      <label for="font-family-serif">serif</label><br />
+      <input
+        type="radio"
+        id="font-family-sans-serif"
+        name="font_family"
+        value="sans-serif"
+        onchange="setCss()" />
+      <label for="font-family-sans-serif">sans-serif</label><br />
+      <input
+        type="radio"
+        id="font-family-arial"
+        name="font_family"
+        value="arial"
+        onchange="setCss()" />
+      <label for="font-family-arial">Arial</label><br />
+      <input
+        type="radio"
+        id="font-family-monospace"
+        name="font_family"
+        value="monospace"
+        onchange="setCss()" />
+      <label for="font-family-monospace">monospace</label><br />
+      <input
+        type="radio"
+        id="font-family-cursive"
+        name="font_family"
+        value="cursive"
+        onchange="setCss()" />
+      <label for="font-family-cursive">cursive</label><br />
+      <input
+        type="radio"
+        id="font-family-fantasy"
+        name="font_family"
+        value="fantasy"
+        onchange="setCss()" />
+      <label for="font-family-fantasy">fantasy</label><br />
+      <input
+        type="radio"
+        id="font-family-system-ui"
+        name="font_family"
+        value="system-ui"
+        onchange="setCss()" />
+      <label for="font-family-system-ui">system-ui</label><br />
+    </div>
+  </div>
+
+  <div class="cf propInputs">
+    <div class="propInputCont tar">font :</div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_style" /><br />
+      font-style <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_variant" /> <br />
+      font-variant <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_weight" /> <br />
+      font-weight <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
+      font-size <br />
+      mandatory
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_line_height" /> <br />
+      line-height <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_family" />
+      <br />
+      font-family <br />
+      mandatory
+    </div>
+  </div>
+</form>
+
+<div class="fontShortHand">This is some sample text.</div>
+<br /><br /><br /><br /><br /><br />
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "onchange".',
+                        '        onchange="setCss()" />',
+                        "34:8",
+                        `/en-US/docs/Web/CSS/font
+[no-inline-event-handlers] Do not use inline event handler "onchange".
+~~~
+<p>
+  Change the radio buttons below to see the generated shorthand and its effect.
+</p>
+<form action="createShortHand()">
+  <div class="cf">
+    <div class="setPropCont">
+      font-style<br />
+      <input
+        type="radio"
+        id="font-style-none"
+        name="font_style"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="font-style-none">none</label><br />
+      <input
+        type="radio"
+        id="font-style-normal"
+        name="font_style"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-style-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-style-italic"
+        name="font_style"
+        value="italic"
+        onchange="setCss()" />
+      <label for="font-style-italic">italic</label><br />
+      <input
+        type="radio"
+        id="font-style-oblique"
+        name="font_style"
+        value="oblique"
+        onchange="setCss()" />
+      <label for="font-style-oblique">oblique</label>
+    </div>
+
+    <div class="setPropCont">
+      font-variant<br />
+      <input
+        type="radio"
+        id="font-variant-none"
+        name="font_variant"
+        checked=""
+        value=" "
+        onchange="setCss()" />
+      <label for="font-variant-none">none</label><br />
+      <input
+        type="radio"
+        id="font-variant-normal"
+        name="font_variant"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-variant-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-variant-small-caps"
+        name="font_variant"
+        value="small-caps"
+        onchange="setCss()" />
+      <label for="font-variant-small-caps">small-caps</label>
+    </div>
+
+    <div class="setPropCont">
+      font-weight<br />
+      <input
+        type="radio"
+        id="font-weight-none"
+        name="font_weight"
+        value=""
+        onchange="setCss()" />
+      <label for="font-weight-none">none</label><br />
+      <input
+        type="radio"
+        id="font-weight-normal"
+        checked=""
+        name="font_weight"
+        value="400"
+        onchange="setCss()" />
+      <label for="font-weight-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-weight-bold"
+        name="font_weight"
+        value="700"
+        onchange="setCss()" />
+      <label for="font-weight-bold">bold</label>
+    </div>
+
+    <div class="setPropCont">
+      font-size<br />
+      <input
+        type="radio"
+        id="font-size-12px"
+        name="font_size"
+        value="12px"
+        onchange="setCss()" />
+      <label for="font-size-12px">12px</label><br />
+      <input
+        type="radio"
+        id="font-size-16px"
+        name="font_size"
+        value="16px"
+        checked=""
+        onchange="setCss()" />
+      <label for="font-size-16px">16px</label><br />
+      <input
+        type="radio"
+        id="font-size-24px"
+        name="font_size"
+        value="24px"
+        onchange="setCss()" />
+      <label for="font-size-24px">24px</label>
+    </div>
+
+    <div class="setPropCont">
+      line-height<br />
+      <input
+        type="radio"
+        id="line-height-none"
+        name="line_height"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="line-height-none">none</label><br />
+      <input
+        type="radio"
+        id="line-height-1.2"
+        name="line_height"
+        value="/1.2"
+        onchange="setCss()" />
+      <label for="line-height-1.2">1.2</label><br />
+      <input
+        type="radio"
+        id="line-height-3"
+        name="line_height"
+        value="/3"
+        onchange="setCss()" />
+      <label for="line-height-3">3</label>
+    </div>
+    <br />
+
+    <div class="setPropCont fontfamily">
+      font-family<br />
+      <input
+        type="radio"
+        id="font-family-courier"
+        name="font_family"
+        checked=""
+        value="courier"
+        onchange="setCss(5,'courier')" />
+      <label for="font-family-courier">courier</label><br />
+      <input
+        type="radio"
+        id="font-family-serif"
+        name="font_family"
+        value="serif"
+        onchange="setCss()" />
+      <label for="font-family-serif">serif</label><br />
+      <input
+        type="radio"
+        id="font-family-sans-serif"
+        name="font_family"
+        value="sans-serif"
+        onchange="setCss()" />
+      <label for="font-family-sans-serif">sans-serif</label><br />
+      <input
+        type="radio"
+        id="font-family-arial"
+        name="font_family"
+        value="arial"
+        onchange="setCss()" />
+      <label for="font-family-arial">Arial</label><br />
+      <input
+        type="radio"
+        id="font-family-monospace"
+        name="font_family"
+        value="monospace"
+        onchange="setCss()" />
+      <label for="font-family-monospace">monospace</label><br />
+      <input
+        type="radio"
+        id="font-family-cursive"
+        name="font_family"
+        value="cursive"
+        onchange="setCss()" />
+      <label for="font-family-cursive">cursive</label><br />
+      <input
+        type="radio"
+        id="font-family-fantasy"
+        name="font_family"
+        value="fantasy"
+        onchange="setCss()" />
+      <label for="font-family-fantasy">fantasy</label><br />
+      <input
+        type="radio"
+        id="font-family-system-ui"
+        name="font_family"
+        value="system-ui"
+        onchange="setCss()" />
+      <label for="font-family-system-ui">system-ui</label><br />
+    </div>
+  </div>
+
+  <div class="cf propInputs">
+    <div class="propInputCont tar">font :</div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_style" /><br />
+      font-style <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_variant" /> <br />
+      font-variant <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_weight" /> <br />
+      font-weight <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
+      font-size <br />
+      mandatory
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_line_height" /> <br />
+      line-height <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_family" />
+      <br />
+      font-family <br />
+      mandatory
+    </div>
+  </div>
+</form>
+
+<div class="fontShortHand">This is some sample text.</div>
+<br /><br /><br /><br /><br /><br />
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "onchange".',
+                        '        onchange="setCss()" />',
+                        "46:8",
+                        `/en-US/docs/Web/CSS/font
+[no-inline-event-handlers] Do not use inline event handler "onchange".
+~~~
+<p>
+  Change the radio buttons below to see the generated shorthand and its effect.
+</p>
+<form action="createShortHand()">
+  <div class="cf">
+    <div class="setPropCont">
+      font-style<br />
+      <input
+        type="radio"
+        id="font-style-none"
+        name="font_style"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="font-style-none">none</label><br />
+      <input
+        type="radio"
+        id="font-style-normal"
+        name="font_style"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-style-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-style-italic"
+        name="font_style"
+        value="italic"
+        onchange="setCss()" />
+      <label for="font-style-italic">italic</label><br />
+      <input
+        type="radio"
+        id="font-style-oblique"
+        name="font_style"
+        value="oblique"
+        onchange="setCss()" />
+      <label for="font-style-oblique">oblique</label>
+    </div>
+
+    <div class="setPropCont">
+      font-variant<br />
+      <input
+        type="radio"
+        id="font-variant-none"
+        name="font_variant"
+        checked=""
+        value=" "
+        onchange="setCss()" />
+      <label for="font-variant-none">none</label><br />
+      <input
+        type="radio"
+        id="font-variant-normal"
+        name="font_variant"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-variant-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-variant-small-caps"
+        name="font_variant"
+        value="small-caps"
+        onchange="setCss()" />
+      <label for="font-variant-small-caps">small-caps</label>
+    </div>
+
+    <div class="setPropCont">
+      font-weight<br />
+      <input
+        type="radio"
+        id="font-weight-none"
+        name="font_weight"
+        value=""
+        onchange="setCss()" />
+      <label for="font-weight-none">none</label><br />
+      <input
+        type="radio"
+        id="font-weight-normal"
+        checked=""
+        name="font_weight"
+        value="400"
+        onchange="setCss()" />
+      <label for="font-weight-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-weight-bold"
+        name="font_weight"
+        value="700"
+        onchange="setCss()" />
+      <label for="font-weight-bold">bold</label>
+    </div>
+
+    <div class="setPropCont">
+      font-size<br />
+      <input
+        type="radio"
+        id="font-size-12px"
+        name="font_size"
+        value="12px"
+        onchange="setCss()" />
+      <label for="font-size-12px">12px</label><br />
+      <input
+        type="radio"
+        id="font-size-16px"
+        name="font_size"
+        value="16px"
+        checked=""
+        onchange="setCss()" />
+      <label for="font-size-16px">16px</label><br />
+      <input
+        type="radio"
+        id="font-size-24px"
+        name="font_size"
+        value="24px"
+        onchange="setCss()" />
+      <label for="font-size-24px">24px</label>
+    </div>
+
+    <div class="setPropCont">
+      line-height<br />
+      <input
+        type="radio"
+        id="line-height-none"
+        name="line_height"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="line-height-none">none</label><br />
+      <input
+        type="radio"
+        id="line-height-1.2"
+        name="line_height"
+        value="/1.2"
+        onchange="setCss()" />
+      <label for="line-height-1.2">1.2</label><br />
+      <input
+        type="radio"
+        id="line-height-3"
+        name="line_height"
+        value="/3"
+        onchange="setCss()" />
+      <label for="line-height-3">3</label>
+    </div>
+    <br />
+
+    <div class="setPropCont fontfamily">
+      font-family<br />
+      <input
+        type="radio"
+        id="font-family-courier"
+        name="font_family"
+        checked=""
+        value="courier"
+        onchange="setCss(5,'courier')" />
+      <label for="font-family-courier">courier</label><br />
+      <input
+        type="radio"
+        id="font-family-serif"
+        name="font_family"
+        value="serif"
+        onchange="setCss()" />
+      <label for="font-family-serif">serif</label><br />
+      <input
+        type="radio"
+        id="font-family-sans-serif"
+        name="font_family"
+        value="sans-serif"
+        onchange="setCss()" />
+      <label for="font-family-sans-serif">sans-serif</label><br />
+      <input
+        type="radio"
+        id="font-family-arial"
+        name="font_family"
+        value="arial"
+        onchange="setCss()" />
+      <label for="font-family-arial">Arial</label><br />
+      <input
+        type="radio"
+        id="font-family-monospace"
+        name="font_family"
+        value="monospace"
+        onchange="setCss()" />
+      <label for="font-family-monospace">monospace</label><br />
+      <input
+        type="radio"
+        id="font-family-cursive"
+        name="font_family"
+        value="cursive"
+        onchange="setCss()" />
+      <label for="font-family-cursive">cursive</label><br />
+      <input
+        type="radio"
+        id="font-family-fantasy"
+        name="font_family"
+        value="fantasy"
+        onchange="setCss()" />
+      <label for="font-family-fantasy">fantasy</label><br />
+      <input
+        type="radio"
+        id="font-family-system-ui"
+        name="font_family"
+        value="system-ui"
+        onchange="setCss()" />
+      <label for="font-family-system-ui">system-ui</label><br />
+    </div>
+  </div>
+
+  <div class="cf propInputs">
+    <div class="propInputCont tar">font :</div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_style" /><br />
+      font-style <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_variant" /> <br />
+      font-variant <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_weight" /> <br />
+      font-weight <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
+      font-size <br />
+      mandatory
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_line_height" /> <br />
+      line-height <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_family" />
+      <br />
+      font-family <br />
+      mandatory
+    </div>
+  </div>
+</form>
+
+<div class="fontShortHand">This is some sample text.</div>
+<br /><br /><br /><br /><br /><br />
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "onchange".',
+                        '        onchange="setCss()" />',
+                        "53:8",
+                        `/en-US/docs/Web/CSS/font
+[no-inline-event-handlers] Do not use inline event handler "onchange".
+~~~
+<p>
+  Change the radio buttons below to see the generated shorthand and its effect.
+</p>
+<form action="createShortHand()">
+  <div class="cf">
+    <div class="setPropCont">
+      font-style<br />
+      <input
+        type="radio"
+        id="font-style-none"
+        name="font_style"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="font-style-none">none</label><br />
+      <input
+        type="radio"
+        id="font-style-normal"
+        name="font_style"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-style-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-style-italic"
+        name="font_style"
+        value="italic"
+        onchange="setCss()" />
+      <label for="font-style-italic">italic</label><br />
+      <input
+        type="radio"
+        id="font-style-oblique"
+        name="font_style"
+        value="oblique"
+        onchange="setCss()" />
+      <label for="font-style-oblique">oblique</label>
+    </div>
+
+    <div class="setPropCont">
+      font-variant<br />
+      <input
+        type="radio"
+        id="font-variant-none"
+        name="font_variant"
+        checked=""
+        value=" "
+        onchange="setCss()" />
+      <label for="font-variant-none">none</label><br />
+      <input
+        type="radio"
+        id="font-variant-normal"
+        name="font_variant"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-variant-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-variant-small-caps"
+        name="font_variant"
+        value="small-caps"
+        onchange="setCss()" />
+      <label for="font-variant-small-caps">small-caps</label>
+    </div>
+
+    <div class="setPropCont">
+      font-weight<br />
+      <input
+        type="radio"
+        id="font-weight-none"
+        name="font_weight"
+        value=""
+        onchange="setCss()" />
+      <label for="font-weight-none">none</label><br />
+      <input
+        type="radio"
+        id="font-weight-normal"
+        checked=""
+        name="font_weight"
+        value="400"
+        onchange="setCss()" />
+      <label for="font-weight-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-weight-bold"
+        name="font_weight"
+        value="700"
+        onchange="setCss()" />
+      <label for="font-weight-bold">bold</label>
+    </div>
+
+    <div class="setPropCont">
+      font-size<br />
+      <input
+        type="radio"
+        id="font-size-12px"
+        name="font_size"
+        value="12px"
+        onchange="setCss()" />
+      <label for="font-size-12px">12px</label><br />
+      <input
+        type="radio"
+        id="font-size-16px"
+        name="font_size"
+        value="16px"
+        checked=""
+        onchange="setCss()" />
+      <label for="font-size-16px">16px</label><br />
+      <input
+        type="radio"
+        id="font-size-24px"
+        name="font_size"
+        value="24px"
+        onchange="setCss()" />
+      <label for="font-size-24px">24px</label>
+    </div>
+
+    <div class="setPropCont">
+      line-height<br />
+      <input
+        type="radio"
+        id="line-height-none"
+        name="line_height"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="line-height-none">none</label><br />
+      <input
+        type="radio"
+        id="line-height-1.2"
+        name="line_height"
+        value="/1.2"
+        onchange="setCss()" />
+      <label for="line-height-1.2">1.2</label><br />
+      <input
+        type="radio"
+        id="line-height-3"
+        name="line_height"
+        value="/3"
+        onchange="setCss()" />
+      <label for="line-height-3">3</label>
+    </div>
+    <br />
+
+    <div class="setPropCont fontfamily">
+      font-family<br />
+      <input
+        type="radio"
+        id="font-family-courier"
+        name="font_family"
+        checked=""
+        value="courier"
+        onchange="setCss(5,'courier')" />
+      <label for="font-family-courier">courier</label><br />
+      <input
+        type="radio"
+        id="font-family-serif"
+        name="font_family"
+        value="serif"
+        onchange="setCss()" />
+      <label for="font-family-serif">serif</label><br />
+      <input
+        type="radio"
+        id="font-family-sans-serif"
+        name="font_family"
+        value="sans-serif"
+        onchange="setCss()" />
+      <label for="font-family-sans-serif">sans-serif</label><br />
+      <input
+        type="radio"
+        id="font-family-arial"
+        name="font_family"
+        value="arial"
+        onchange="setCss()" />
+      <label for="font-family-arial">Arial</label><br />
+      <input
+        type="radio"
+        id="font-family-monospace"
+        name="font_family"
+        value="monospace"
+        onchange="setCss()" />
+      <label for="font-family-monospace">monospace</label><br />
+      <input
+        type="radio"
+        id="font-family-cursive"
+        name="font_family"
+        value="cursive"
+        onchange="setCss()" />
+      <label for="font-family-cursive">cursive</label><br />
+      <input
+        type="radio"
+        id="font-family-fantasy"
+        name="font_family"
+        value="fantasy"
+        onchange="setCss()" />
+      <label for="font-family-fantasy">fantasy</label><br />
+      <input
+        type="radio"
+        id="font-family-system-ui"
+        name="font_family"
+        value="system-ui"
+        onchange="setCss()" />
+      <label for="font-family-system-ui">system-ui</label><br />
+    </div>
+  </div>
+
+  <div class="cf propInputs">
+    <div class="propInputCont tar">font :</div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_style" /><br />
+      font-style <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_variant" /> <br />
+      font-variant <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_weight" /> <br />
+      font-weight <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
+      font-size <br />
+      mandatory
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_line_height" /> <br />
+      line-height <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_family" />
+      <br />
+      font-family <br />
+      mandatory
+    </div>
+  </div>
+</form>
+
+<div class="fontShortHand">This is some sample text.</div>
+<br /><br /><br /><br /><br /><br />
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "onchange".',
+                        '        onchange="setCss()" />',
+                        "60:8",
+                        `/en-US/docs/Web/CSS/font
+[no-inline-event-handlers] Do not use inline event handler "onchange".
+~~~
+<p>
+  Change the radio buttons below to see the generated shorthand and its effect.
+</p>
+<form action="createShortHand()">
+  <div class="cf">
+    <div class="setPropCont">
+      font-style<br />
+      <input
+        type="radio"
+        id="font-style-none"
+        name="font_style"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="font-style-none">none</label><br />
+      <input
+        type="radio"
+        id="font-style-normal"
+        name="font_style"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-style-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-style-italic"
+        name="font_style"
+        value="italic"
+        onchange="setCss()" />
+      <label for="font-style-italic">italic</label><br />
+      <input
+        type="radio"
+        id="font-style-oblique"
+        name="font_style"
+        value="oblique"
+        onchange="setCss()" />
+      <label for="font-style-oblique">oblique</label>
+    </div>
+
+    <div class="setPropCont">
+      font-variant<br />
+      <input
+        type="radio"
+        id="font-variant-none"
+        name="font_variant"
+        checked=""
+        value=" "
+        onchange="setCss()" />
+      <label for="font-variant-none">none</label><br />
+      <input
+        type="radio"
+        id="font-variant-normal"
+        name="font_variant"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-variant-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-variant-small-caps"
+        name="font_variant"
+        value="small-caps"
+        onchange="setCss()" />
+      <label for="font-variant-small-caps">small-caps</label>
+    </div>
+
+    <div class="setPropCont">
+      font-weight<br />
+      <input
+        type="radio"
+        id="font-weight-none"
+        name="font_weight"
+        value=""
+        onchange="setCss()" />
+      <label for="font-weight-none">none</label><br />
+      <input
+        type="radio"
+        id="font-weight-normal"
+        checked=""
+        name="font_weight"
+        value="400"
+        onchange="setCss()" />
+      <label for="font-weight-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-weight-bold"
+        name="font_weight"
+        value="700"
+        onchange="setCss()" />
+      <label for="font-weight-bold">bold</label>
+    </div>
+
+    <div class="setPropCont">
+      font-size<br />
+      <input
+        type="radio"
+        id="font-size-12px"
+        name="font_size"
+        value="12px"
+        onchange="setCss()" />
+      <label for="font-size-12px">12px</label><br />
+      <input
+        type="radio"
+        id="font-size-16px"
+        name="font_size"
+        value="16px"
+        checked=""
+        onchange="setCss()" />
+      <label for="font-size-16px">16px</label><br />
+      <input
+        type="radio"
+        id="font-size-24px"
+        name="font_size"
+        value="24px"
+        onchange="setCss()" />
+      <label for="font-size-24px">24px</label>
+    </div>
+
+    <div class="setPropCont">
+      line-height<br />
+      <input
+        type="radio"
+        id="line-height-none"
+        name="line_height"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="line-height-none">none</label><br />
+      <input
+        type="radio"
+        id="line-height-1.2"
+        name="line_height"
+        value="/1.2"
+        onchange="setCss()" />
+      <label for="line-height-1.2">1.2</label><br />
+      <input
+        type="radio"
+        id="line-height-3"
+        name="line_height"
+        value="/3"
+        onchange="setCss()" />
+      <label for="line-height-3">3</label>
+    </div>
+    <br />
+
+    <div class="setPropCont fontfamily">
+      font-family<br />
+      <input
+        type="radio"
+        id="font-family-courier"
+        name="font_family"
+        checked=""
+        value="courier"
+        onchange="setCss(5,'courier')" />
+      <label for="font-family-courier">courier</label><br />
+      <input
+        type="radio"
+        id="font-family-serif"
+        name="font_family"
+        value="serif"
+        onchange="setCss()" />
+      <label for="font-family-serif">serif</label><br />
+      <input
+        type="radio"
+        id="font-family-sans-serif"
+        name="font_family"
+        value="sans-serif"
+        onchange="setCss()" />
+      <label for="font-family-sans-serif">sans-serif</label><br />
+      <input
+        type="radio"
+        id="font-family-arial"
+        name="font_family"
+        value="arial"
+        onchange="setCss()" />
+      <label for="font-family-arial">Arial</label><br />
+      <input
+        type="radio"
+        id="font-family-monospace"
+        name="font_family"
+        value="monospace"
+        onchange="setCss()" />
+      <label for="font-family-monospace">monospace</label><br />
+      <input
+        type="radio"
+        id="font-family-cursive"
+        name="font_family"
+        value="cursive"
+        onchange="setCss()" />
+      <label for="font-family-cursive">cursive</label><br />
+      <input
+        type="radio"
+        id="font-family-fantasy"
+        name="font_family"
+        value="fantasy"
+        onchange="setCss()" />
+      <label for="font-family-fantasy">fantasy</label><br />
+      <input
+        type="radio"
+        id="font-family-system-ui"
+        name="font_family"
+        value="system-ui"
+        onchange="setCss()" />
+      <label for="font-family-system-ui">system-ui</label><br />
+    </div>
+  </div>
+
+  <div class="cf propInputs">
+    <div class="propInputCont tar">font :</div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_style" /><br />
+      font-style <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_variant" /> <br />
+      font-variant <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_weight" /> <br />
+      font-weight <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
+      font-size <br />
+      mandatory
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_line_height" /> <br />
+      line-height <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_family" />
+      <br />
+      font-family <br />
+      mandatory
+    </div>
+  </div>
+</form>
+
+<div class="fontShortHand">This is some sample text.</div>
+<br /><br /><br /><br /><br /><br />
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "onchange".',
+                        '        onchange="setCss()" />',
+                        "71:8",
+                        `/en-US/docs/Web/CSS/font
+[no-inline-event-handlers] Do not use inline event handler "onchange".
+~~~
+<p>
+  Change the radio buttons below to see the generated shorthand and its effect.
+</p>
+<form action="createShortHand()">
+  <div class="cf">
+    <div class="setPropCont">
+      font-style<br />
+      <input
+        type="radio"
+        id="font-style-none"
+        name="font_style"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="font-style-none">none</label><br />
+      <input
+        type="radio"
+        id="font-style-normal"
+        name="font_style"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-style-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-style-italic"
+        name="font_style"
+        value="italic"
+        onchange="setCss()" />
+      <label for="font-style-italic">italic</label><br />
+      <input
+        type="radio"
+        id="font-style-oblique"
+        name="font_style"
+        value="oblique"
+        onchange="setCss()" />
+      <label for="font-style-oblique">oblique</label>
+    </div>
+
+    <div class="setPropCont">
+      font-variant<br />
+      <input
+        type="radio"
+        id="font-variant-none"
+        name="font_variant"
+        checked=""
+        value=" "
+        onchange="setCss()" />
+      <label for="font-variant-none">none</label><br />
+      <input
+        type="radio"
+        id="font-variant-normal"
+        name="font_variant"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-variant-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-variant-small-caps"
+        name="font_variant"
+        value="small-caps"
+        onchange="setCss()" />
+      <label for="font-variant-small-caps">small-caps</label>
+    </div>
+
+    <div class="setPropCont">
+      font-weight<br />
+      <input
+        type="radio"
+        id="font-weight-none"
+        name="font_weight"
+        value=""
+        onchange="setCss()" />
+      <label for="font-weight-none">none</label><br />
+      <input
+        type="radio"
+        id="font-weight-normal"
+        checked=""
+        name="font_weight"
+        value="400"
+        onchange="setCss()" />
+      <label for="font-weight-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-weight-bold"
+        name="font_weight"
+        value="700"
+        onchange="setCss()" />
+      <label for="font-weight-bold">bold</label>
+    </div>
+
+    <div class="setPropCont">
+      font-size<br />
+      <input
+        type="radio"
+        id="font-size-12px"
+        name="font_size"
+        value="12px"
+        onchange="setCss()" />
+      <label for="font-size-12px">12px</label><br />
+      <input
+        type="radio"
+        id="font-size-16px"
+        name="font_size"
+        value="16px"
+        checked=""
+        onchange="setCss()" />
+      <label for="font-size-16px">16px</label><br />
+      <input
+        type="radio"
+        id="font-size-24px"
+        name="font_size"
+        value="24px"
+        onchange="setCss()" />
+      <label for="font-size-24px">24px</label>
+    </div>
+
+    <div class="setPropCont">
+      line-height<br />
+      <input
+        type="radio"
+        id="line-height-none"
+        name="line_height"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="line-height-none">none</label><br />
+      <input
+        type="radio"
+        id="line-height-1.2"
+        name="line_height"
+        value="/1.2"
+        onchange="setCss()" />
+      <label for="line-height-1.2">1.2</label><br />
+      <input
+        type="radio"
+        id="line-height-3"
+        name="line_height"
+        value="/3"
+        onchange="setCss()" />
+      <label for="line-height-3">3</label>
+    </div>
+    <br />
+
+    <div class="setPropCont fontfamily">
+      font-family<br />
+      <input
+        type="radio"
+        id="font-family-courier"
+        name="font_family"
+        checked=""
+        value="courier"
+        onchange="setCss(5,'courier')" />
+      <label for="font-family-courier">courier</label><br />
+      <input
+        type="radio"
+        id="font-family-serif"
+        name="font_family"
+        value="serif"
+        onchange="setCss()" />
+      <label for="font-family-serif">serif</label><br />
+      <input
+        type="radio"
+        id="font-family-sans-serif"
+        name="font_family"
+        value="sans-serif"
+        onchange="setCss()" />
+      <label for="font-family-sans-serif">sans-serif</label><br />
+      <input
+        type="radio"
+        id="font-family-arial"
+        name="font_family"
+        value="arial"
+        onchange="setCss()" />
+      <label for="font-family-arial">Arial</label><br />
+      <input
+        type="radio"
+        id="font-family-monospace"
+        name="font_family"
+        value="monospace"
+        onchange="setCss()" />
+      <label for="font-family-monospace">monospace</label><br />
+      <input
+        type="radio"
+        id="font-family-cursive"
+        name="font_family"
+        value="cursive"
+        onchange="setCss()" />
+      <label for="font-family-cursive">cursive</label><br />
+      <input
+        type="radio"
+        id="font-family-fantasy"
+        name="font_family"
+        value="fantasy"
+        onchange="setCss()" />
+      <label for="font-family-fantasy">fantasy</label><br />
+      <input
+        type="radio"
+        id="font-family-system-ui"
+        name="font_family"
+        value="system-ui"
+        onchange="setCss()" />
+      <label for="font-family-system-ui">system-ui</label><br />
+    </div>
+  </div>
+
+  <div class="cf propInputs">
+    <div class="propInputCont tar">font :</div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_style" /><br />
+      font-style <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_variant" /> <br />
+      font-variant <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_weight" /> <br />
+      font-weight <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
+      font-size <br />
+      mandatory
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_line_height" /> <br />
+      line-height <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_family" />
+      <br />
+      font-family <br />
+      mandatory
+    </div>
+  </div>
+</form>
+
+<div class="fontShortHand">This is some sample text.</div>
+<br /><br /><br /><br /><br /><br />
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "onchange".',
+                        '        onchange="setCss()" />',
+                        "79:8",
+                        `/en-US/docs/Web/CSS/font
+[no-inline-event-handlers] Do not use inline event handler "onchange".
+~~~
+<p>
+  Change the radio buttons below to see the generated shorthand and its effect.
+</p>
+<form action="createShortHand()">
+  <div class="cf">
+    <div class="setPropCont">
+      font-style<br />
+      <input
+        type="radio"
+        id="font-style-none"
+        name="font_style"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="font-style-none">none</label><br />
+      <input
+        type="radio"
+        id="font-style-normal"
+        name="font_style"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-style-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-style-italic"
+        name="font_style"
+        value="italic"
+        onchange="setCss()" />
+      <label for="font-style-italic">italic</label><br />
+      <input
+        type="radio"
+        id="font-style-oblique"
+        name="font_style"
+        value="oblique"
+        onchange="setCss()" />
+      <label for="font-style-oblique">oblique</label>
+    </div>
+
+    <div class="setPropCont">
+      font-variant<br />
+      <input
+        type="radio"
+        id="font-variant-none"
+        name="font_variant"
+        checked=""
+        value=" "
+        onchange="setCss()" />
+      <label for="font-variant-none">none</label><br />
+      <input
+        type="radio"
+        id="font-variant-normal"
+        name="font_variant"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-variant-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-variant-small-caps"
+        name="font_variant"
+        value="small-caps"
+        onchange="setCss()" />
+      <label for="font-variant-small-caps">small-caps</label>
+    </div>
+
+    <div class="setPropCont">
+      font-weight<br />
+      <input
+        type="radio"
+        id="font-weight-none"
+        name="font_weight"
+        value=""
+        onchange="setCss()" />
+      <label for="font-weight-none">none</label><br />
+      <input
+        type="radio"
+        id="font-weight-normal"
+        checked=""
+        name="font_weight"
+        value="400"
+        onchange="setCss()" />
+      <label for="font-weight-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-weight-bold"
+        name="font_weight"
+        value="700"
+        onchange="setCss()" />
+      <label for="font-weight-bold">bold</label>
+    </div>
+
+    <div class="setPropCont">
+      font-size<br />
+      <input
+        type="radio"
+        id="font-size-12px"
+        name="font_size"
+        value="12px"
+        onchange="setCss()" />
+      <label for="font-size-12px">12px</label><br />
+      <input
+        type="radio"
+        id="font-size-16px"
+        name="font_size"
+        value="16px"
+        checked=""
+        onchange="setCss()" />
+      <label for="font-size-16px">16px</label><br />
+      <input
+        type="radio"
+        id="font-size-24px"
+        name="font_size"
+        value="24px"
+        onchange="setCss()" />
+      <label for="font-size-24px">24px</label>
+    </div>
+
+    <div class="setPropCont">
+      line-height<br />
+      <input
+        type="radio"
+        id="line-height-none"
+        name="line_height"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="line-height-none">none</label><br />
+      <input
+        type="radio"
+        id="line-height-1.2"
+        name="line_height"
+        value="/1.2"
+        onchange="setCss()" />
+      <label for="line-height-1.2">1.2</label><br />
+      <input
+        type="radio"
+        id="line-height-3"
+        name="line_height"
+        value="/3"
+        onchange="setCss()" />
+      <label for="line-height-3">3</label>
+    </div>
+    <br />
+
+    <div class="setPropCont fontfamily">
+      font-family<br />
+      <input
+        type="radio"
+        id="font-family-courier"
+        name="font_family"
+        checked=""
+        value="courier"
+        onchange="setCss(5,'courier')" />
+      <label for="font-family-courier">courier</label><br />
+      <input
+        type="radio"
+        id="font-family-serif"
+        name="font_family"
+        value="serif"
+        onchange="setCss()" />
+      <label for="font-family-serif">serif</label><br />
+      <input
+        type="radio"
+        id="font-family-sans-serif"
+        name="font_family"
+        value="sans-serif"
+        onchange="setCss()" />
+      <label for="font-family-sans-serif">sans-serif</label><br />
+      <input
+        type="radio"
+        id="font-family-arial"
+        name="font_family"
+        value="arial"
+        onchange="setCss()" />
+      <label for="font-family-arial">Arial</label><br />
+      <input
+        type="radio"
+        id="font-family-monospace"
+        name="font_family"
+        value="monospace"
+        onchange="setCss()" />
+      <label for="font-family-monospace">monospace</label><br />
+      <input
+        type="radio"
+        id="font-family-cursive"
+        name="font_family"
+        value="cursive"
+        onchange="setCss()" />
+      <label for="font-family-cursive">cursive</label><br />
+      <input
+        type="radio"
+        id="font-family-fantasy"
+        name="font_family"
+        value="fantasy"
+        onchange="setCss()" />
+      <label for="font-family-fantasy">fantasy</label><br />
+      <input
+        type="radio"
+        id="font-family-system-ui"
+        name="font_family"
+        value="system-ui"
+        onchange="setCss()" />
+      <label for="font-family-system-ui">system-ui</label><br />
+    </div>
+  </div>
+
+  <div class="cf propInputs">
+    <div class="propInputCont tar">font :</div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_style" /><br />
+      font-style <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_variant" /> <br />
+      font-variant <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_weight" /> <br />
+      font-weight <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
+      font-size <br />
+      mandatory
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_line_height" /> <br />
+      line-height <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_family" />
+      <br />
+      font-family <br />
+      mandatory
+    </div>
+  </div>
+</form>
+
+<div class="fontShortHand">This is some sample text.</div>
+<br /><br /><br /><br /><br /><br />
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "onchange".',
+                        '        onchange="setCss()" />',
+                        "86:8",
+                        `/en-US/docs/Web/CSS/font
+[no-inline-event-handlers] Do not use inline event handler "onchange".
+~~~
+<p>
+  Change the radio buttons below to see the generated shorthand and its effect.
+</p>
+<form action="createShortHand()">
+  <div class="cf">
+    <div class="setPropCont">
+      font-style<br />
+      <input
+        type="radio"
+        id="font-style-none"
+        name="font_style"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="font-style-none">none</label><br />
+      <input
+        type="radio"
+        id="font-style-normal"
+        name="font_style"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-style-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-style-italic"
+        name="font_style"
+        value="italic"
+        onchange="setCss()" />
+      <label for="font-style-italic">italic</label><br />
+      <input
+        type="radio"
+        id="font-style-oblique"
+        name="font_style"
+        value="oblique"
+        onchange="setCss()" />
+      <label for="font-style-oblique">oblique</label>
+    </div>
+
+    <div class="setPropCont">
+      font-variant<br />
+      <input
+        type="radio"
+        id="font-variant-none"
+        name="font_variant"
+        checked=""
+        value=" "
+        onchange="setCss()" />
+      <label for="font-variant-none">none</label><br />
+      <input
+        type="radio"
+        id="font-variant-normal"
+        name="font_variant"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-variant-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-variant-small-caps"
+        name="font_variant"
+        value="small-caps"
+        onchange="setCss()" />
+      <label for="font-variant-small-caps">small-caps</label>
+    </div>
+
+    <div class="setPropCont">
+      font-weight<br />
+      <input
+        type="radio"
+        id="font-weight-none"
+        name="font_weight"
+        value=""
+        onchange="setCss()" />
+      <label for="font-weight-none">none</label><br />
+      <input
+        type="radio"
+        id="font-weight-normal"
+        checked=""
+        name="font_weight"
+        value="400"
+        onchange="setCss()" />
+      <label for="font-weight-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-weight-bold"
+        name="font_weight"
+        value="700"
+        onchange="setCss()" />
+      <label for="font-weight-bold">bold</label>
+    </div>
+
+    <div class="setPropCont">
+      font-size<br />
+      <input
+        type="radio"
+        id="font-size-12px"
+        name="font_size"
+        value="12px"
+        onchange="setCss()" />
+      <label for="font-size-12px">12px</label><br />
+      <input
+        type="radio"
+        id="font-size-16px"
+        name="font_size"
+        value="16px"
+        checked=""
+        onchange="setCss()" />
+      <label for="font-size-16px">16px</label><br />
+      <input
+        type="radio"
+        id="font-size-24px"
+        name="font_size"
+        value="24px"
+        onchange="setCss()" />
+      <label for="font-size-24px">24px</label>
+    </div>
+
+    <div class="setPropCont">
+      line-height<br />
+      <input
+        type="radio"
+        id="line-height-none"
+        name="line_height"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="line-height-none">none</label><br />
+      <input
+        type="radio"
+        id="line-height-1.2"
+        name="line_height"
+        value="/1.2"
+        onchange="setCss()" />
+      <label for="line-height-1.2">1.2</label><br />
+      <input
+        type="radio"
+        id="line-height-3"
+        name="line_height"
+        value="/3"
+        onchange="setCss()" />
+      <label for="line-height-3">3</label>
+    </div>
+    <br />
+
+    <div class="setPropCont fontfamily">
+      font-family<br />
+      <input
+        type="radio"
+        id="font-family-courier"
+        name="font_family"
+        checked=""
+        value="courier"
+        onchange="setCss(5,'courier')" />
+      <label for="font-family-courier">courier</label><br />
+      <input
+        type="radio"
+        id="font-family-serif"
+        name="font_family"
+        value="serif"
+        onchange="setCss()" />
+      <label for="font-family-serif">serif</label><br />
+      <input
+        type="radio"
+        id="font-family-sans-serif"
+        name="font_family"
+        value="sans-serif"
+        onchange="setCss()" />
+      <label for="font-family-sans-serif">sans-serif</label><br />
+      <input
+        type="radio"
+        id="font-family-arial"
+        name="font_family"
+        value="arial"
+        onchange="setCss()" />
+      <label for="font-family-arial">Arial</label><br />
+      <input
+        type="radio"
+        id="font-family-monospace"
+        name="font_family"
+        value="monospace"
+        onchange="setCss()" />
+      <label for="font-family-monospace">monospace</label><br />
+      <input
+        type="radio"
+        id="font-family-cursive"
+        name="font_family"
+        value="cursive"
+        onchange="setCss()" />
+      <label for="font-family-cursive">cursive</label><br />
+      <input
+        type="radio"
+        id="font-family-fantasy"
+        name="font_family"
+        value="fantasy"
+        onchange="setCss()" />
+      <label for="font-family-fantasy">fantasy</label><br />
+      <input
+        type="radio"
+        id="font-family-system-ui"
+        name="font_family"
+        value="system-ui"
+        onchange="setCss()" />
+      <label for="font-family-system-ui">system-ui</label><br />
+    </div>
+  </div>
+
+  <div class="cf propInputs">
+    <div class="propInputCont tar">font :</div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_style" /><br />
+      font-style <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_variant" /> <br />
+      font-variant <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_weight" /> <br />
+      font-weight <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
+      font-size <br />
+      mandatory
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_line_height" /> <br />
+      line-height <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_family" />
+      <br />
+      font-family <br />
+      mandatory
+    </div>
+  </div>
+</form>
+
+<div class="fontShortHand">This is some sample text.</div>
+<br /><br /><br /><br /><br /><br />
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "onchange".',
+                        '        onchange="setCss()" />',
+                        "97:8",
+                        `/en-US/docs/Web/CSS/font
+[no-inline-event-handlers] Do not use inline event handler "onchange".
+~~~
+<p>
+  Change the radio buttons below to see the generated shorthand and its effect.
+</p>
+<form action="createShortHand()">
+  <div class="cf">
+    <div class="setPropCont">
+      font-style<br />
+      <input
+        type="radio"
+        id="font-style-none"
+        name="font_style"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="font-style-none">none</label><br />
+      <input
+        type="radio"
+        id="font-style-normal"
+        name="font_style"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-style-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-style-italic"
+        name="font_style"
+        value="italic"
+        onchange="setCss()" />
+      <label for="font-style-italic">italic</label><br />
+      <input
+        type="radio"
+        id="font-style-oblique"
+        name="font_style"
+        value="oblique"
+        onchange="setCss()" />
+      <label for="font-style-oblique">oblique</label>
+    </div>
+
+    <div class="setPropCont">
+      font-variant<br />
+      <input
+        type="radio"
+        id="font-variant-none"
+        name="font_variant"
+        checked=""
+        value=" "
+        onchange="setCss()" />
+      <label for="font-variant-none">none</label><br />
+      <input
+        type="radio"
+        id="font-variant-normal"
+        name="font_variant"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-variant-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-variant-small-caps"
+        name="font_variant"
+        value="small-caps"
+        onchange="setCss()" />
+      <label for="font-variant-small-caps">small-caps</label>
+    </div>
+
+    <div class="setPropCont">
+      font-weight<br />
+      <input
+        type="radio"
+        id="font-weight-none"
+        name="font_weight"
+        value=""
+        onchange="setCss()" />
+      <label for="font-weight-none">none</label><br />
+      <input
+        type="radio"
+        id="font-weight-normal"
+        checked=""
+        name="font_weight"
+        value="400"
+        onchange="setCss()" />
+      <label for="font-weight-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-weight-bold"
+        name="font_weight"
+        value="700"
+        onchange="setCss()" />
+      <label for="font-weight-bold">bold</label>
+    </div>
+
+    <div class="setPropCont">
+      font-size<br />
+      <input
+        type="radio"
+        id="font-size-12px"
+        name="font_size"
+        value="12px"
+        onchange="setCss()" />
+      <label for="font-size-12px">12px</label><br />
+      <input
+        type="radio"
+        id="font-size-16px"
+        name="font_size"
+        value="16px"
+        checked=""
+        onchange="setCss()" />
+      <label for="font-size-16px">16px</label><br />
+      <input
+        type="radio"
+        id="font-size-24px"
+        name="font_size"
+        value="24px"
+        onchange="setCss()" />
+      <label for="font-size-24px">24px</label>
+    </div>
+
+    <div class="setPropCont">
+      line-height<br />
+      <input
+        type="radio"
+        id="line-height-none"
+        name="line_height"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="line-height-none">none</label><br />
+      <input
+        type="radio"
+        id="line-height-1.2"
+        name="line_height"
+        value="/1.2"
+        onchange="setCss()" />
+      <label for="line-height-1.2">1.2</label><br />
+      <input
+        type="radio"
+        id="line-height-3"
+        name="line_height"
+        value="/3"
+        onchange="setCss()" />
+      <label for="line-height-3">3</label>
+    </div>
+    <br />
+
+    <div class="setPropCont fontfamily">
+      font-family<br />
+      <input
+        type="radio"
+        id="font-family-courier"
+        name="font_family"
+        checked=""
+        value="courier"
+        onchange="setCss(5,'courier')" />
+      <label for="font-family-courier">courier</label><br />
+      <input
+        type="radio"
+        id="font-family-serif"
+        name="font_family"
+        value="serif"
+        onchange="setCss()" />
+      <label for="font-family-serif">serif</label><br />
+      <input
+        type="radio"
+        id="font-family-sans-serif"
+        name="font_family"
+        value="sans-serif"
+        onchange="setCss()" />
+      <label for="font-family-sans-serif">sans-serif</label><br />
+      <input
+        type="radio"
+        id="font-family-arial"
+        name="font_family"
+        value="arial"
+        onchange="setCss()" />
+      <label for="font-family-arial">Arial</label><br />
+      <input
+        type="radio"
+        id="font-family-monospace"
+        name="font_family"
+        value="monospace"
+        onchange="setCss()" />
+      <label for="font-family-monospace">monospace</label><br />
+      <input
+        type="radio"
+        id="font-family-cursive"
+        name="font_family"
+        value="cursive"
+        onchange="setCss()" />
+      <label for="font-family-cursive">cursive</label><br />
+      <input
+        type="radio"
+        id="font-family-fantasy"
+        name="font_family"
+        value="fantasy"
+        onchange="setCss()" />
+      <label for="font-family-fantasy">fantasy</label><br />
+      <input
+        type="radio"
+        id="font-family-system-ui"
+        name="font_family"
+        value="system-ui"
+        onchange="setCss()" />
+      <label for="font-family-system-ui">system-ui</label><br />
+    </div>
+  </div>
+
+  <div class="cf propInputs">
+    <div class="propInputCont tar">font :</div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_style" /><br />
+      font-style <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_variant" /> <br />
+      font-variant <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_weight" /> <br />
+      font-weight <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
+      font-size <br />
+      mandatory
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_line_height" /> <br />
+      line-height <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_family" />
+      <br />
+      font-family <br />
+      mandatory
+    </div>
+  </div>
+</form>
+
+<div class="fontShortHand">This is some sample text.</div>
+<br /><br /><br /><br /><br /><br />
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "onchange".',
+                        '        onchange="setCss()" />',
+                        "105:8",
+                        `/en-US/docs/Web/CSS/font
+[no-inline-event-handlers] Do not use inline event handler "onchange".
+~~~
+<p>
+  Change the radio buttons below to see the generated shorthand and its effect.
+</p>
+<form action="createShortHand()">
+  <div class="cf">
+    <div class="setPropCont">
+      font-style<br />
+      <input
+        type="radio"
+        id="font-style-none"
+        name="font_style"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="font-style-none">none</label><br />
+      <input
+        type="radio"
+        id="font-style-normal"
+        name="font_style"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-style-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-style-italic"
+        name="font_style"
+        value="italic"
+        onchange="setCss()" />
+      <label for="font-style-italic">italic</label><br />
+      <input
+        type="radio"
+        id="font-style-oblique"
+        name="font_style"
+        value="oblique"
+        onchange="setCss()" />
+      <label for="font-style-oblique">oblique</label>
+    </div>
+
+    <div class="setPropCont">
+      font-variant<br />
+      <input
+        type="radio"
+        id="font-variant-none"
+        name="font_variant"
+        checked=""
+        value=" "
+        onchange="setCss()" />
+      <label for="font-variant-none">none</label><br />
+      <input
+        type="radio"
+        id="font-variant-normal"
+        name="font_variant"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-variant-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-variant-small-caps"
+        name="font_variant"
+        value="small-caps"
+        onchange="setCss()" />
+      <label for="font-variant-small-caps">small-caps</label>
+    </div>
+
+    <div class="setPropCont">
+      font-weight<br />
+      <input
+        type="radio"
+        id="font-weight-none"
+        name="font_weight"
+        value=""
+        onchange="setCss()" />
+      <label for="font-weight-none">none</label><br />
+      <input
+        type="radio"
+        id="font-weight-normal"
+        checked=""
+        name="font_weight"
+        value="400"
+        onchange="setCss()" />
+      <label for="font-weight-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-weight-bold"
+        name="font_weight"
+        value="700"
+        onchange="setCss()" />
+      <label for="font-weight-bold">bold</label>
+    </div>
+
+    <div class="setPropCont">
+      font-size<br />
+      <input
+        type="radio"
+        id="font-size-12px"
+        name="font_size"
+        value="12px"
+        onchange="setCss()" />
+      <label for="font-size-12px">12px</label><br />
+      <input
+        type="radio"
+        id="font-size-16px"
+        name="font_size"
+        value="16px"
+        checked=""
+        onchange="setCss()" />
+      <label for="font-size-16px">16px</label><br />
+      <input
+        type="radio"
+        id="font-size-24px"
+        name="font_size"
+        value="24px"
+        onchange="setCss()" />
+      <label for="font-size-24px">24px</label>
+    </div>
+
+    <div class="setPropCont">
+      line-height<br />
+      <input
+        type="radio"
+        id="line-height-none"
+        name="line_height"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="line-height-none">none</label><br />
+      <input
+        type="radio"
+        id="line-height-1.2"
+        name="line_height"
+        value="/1.2"
+        onchange="setCss()" />
+      <label for="line-height-1.2">1.2</label><br />
+      <input
+        type="radio"
+        id="line-height-3"
+        name="line_height"
+        value="/3"
+        onchange="setCss()" />
+      <label for="line-height-3">3</label>
+    </div>
+    <br />
+
+    <div class="setPropCont fontfamily">
+      font-family<br />
+      <input
+        type="radio"
+        id="font-family-courier"
+        name="font_family"
+        checked=""
+        value="courier"
+        onchange="setCss(5,'courier')" />
+      <label for="font-family-courier">courier</label><br />
+      <input
+        type="radio"
+        id="font-family-serif"
+        name="font_family"
+        value="serif"
+        onchange="setCss()" />
+      <label for="font-family-serif">serif</label><br />
+      <input
+        type="radio"
+        id="font-family-sans-serif"
+        name="font_family"
+        value="sans-serif"
+        onchange="setCss()" />
+      <label for="font-family-sans-serif">sans-serif</label><br />
+      <input
+        type="radio"
+        id="font-family-arial"
+        name="font_family"
+        value="arial"
+        onchange="setCss()" />
+      <label for="font-family-arial">Arial</label><br />
+      <input
+        type="radio"
+        id="font-family-monospace"
+        name="font_family"
+        value="monospace"
+        onchange="setCss()" />
+      <label for="font-family-monospace">monospace</label><br />
+      <input
+        type="radio"
+        id="font-family-cursive"
+        name="font_family"
+        value="cursive"
+        onchange="setCss()" />
+      <label for="font-family-cursive">cursive</label><br />
+      <input
+        type="radio"
+        id="font-family-fantasy"
+        name="font_family"
+        value="fantasy"
+        onchange="setCss()" />
+      <label for="font-family-fantasy">fantasy</label><br />
+      <input
+        type="radio"
+        id="font-family-system-ui"
+        name="font_family"
+        value="system-ui"
+        onchange="setCss()" />
+      <label for="font-family-system-ui">system-ui</label><br />
+    </div>
+  </div>
+
+  <div class="cf propInputs">
+    <div class="propInputCont tar">font :</div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_style" /><br />
+      font-style <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_variant" /> <br />
+      font-variant <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_weight" /> <br />
+      font-weight <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
+      font-size <br />
+      mandatory
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_line_height" /> <br />
+      line-height <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_family" />
+      <br />
+      font-family <br />
+      mandatory
+    </div>
+  </div>
+</form>
+
+<div class="fontShortHand">This is some sample text.</div>
+<br /><br /><br /><br /><br /><br />
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "onchange".',
+                        '        onchange="setCss()" />',
+                        "112:8",
+                        `/en-US/docs/Web/CSS/font
+[no-inline-event-handlers] Do not use inline event handler "onchange".
+~~~
+<p>
+  Change the radio buttons below to see the generated shorthand and its effect.
+</p>
+<form action="createShortHand()">
+  <div class="cf">
+    <div class="setPropCont">
+      font-style<br />
+      <input
+        type="radio"
+        id="font-style-none"
+        name="font_style"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="font-style-none">none</label><br />
+      <input
+        type="radio"
+        id="font-style-normal"
+        name="font_style"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-style-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-style-italic"
+        name="font_style"
+        value="italic"
+        onchange="setCss()" />
+      <label for="font-style-italic">italic</label><br />
+      <input
+        type="radio"
+        id="font-style-oblique"
+        name="font_style"
+        value="oblique"
+        onchange="setCss()" />
+      <label for="font-style-oblique">oblique</label>
+    </div>
+
+    <div class="setPropCont">
+      font-variant<br />
+      <input
+        type="radio"
+        id="font-variant-none"
+        name="font_variant"
+        checked=""
+        value=" "
+        onchange="setCss()" />
+      <label for="font-variant-none">none</label><br />
+      <input
+        type="radio"
+        id="font-variant-normal"
+        name="font_variant"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-variant-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-variant-small-caps"
+        name="font_variant"
+        value="small-caps"
+        onchange="setCss()" />
+      <label for="font-variant-small-caps">small-caps</label>
+    </div>
+
+    <div class="setPropCont">
+      font-weight<br />
+      <input
+        type="radio"
+        id="font-weight-none"
+        name="font_weight"
+        value=""
+        onchange="setCss()" />
+      <label for="font-weight-none">none</label><br />
+      <input
+        type="radio"
+        id="font-weight-normal"
+        checked=""
+        name="font_weight"
+        value="400"
+        onchange="setCss()" />
+      <label for="font-weight-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-weight-bold"
+        name="font_weight"
+        value="700"
+        onchange="setCss()" />
+      <label for="font-weight-bold">bold</label>
+    </div>
+
+    <div class="setPropCont">
+      font-size<br />
+      <input
+        type="radio"
+        id="font-size-12px"
+        name="font_size"
+        value="12px"
+        onchange="setCss()" />
+      <label for="font-size-12px">12px</label><br />
+      <input
+        type="radio"
+        id="font-size-16px"
+        name="font_size"
+        value="16px"
+        checked=""
+        onchange="setCss()" />
+      <label for="font-size-16px">16px</label><br />
+      <input
+        type="radio"
+        id="font-size-24px"
+        name="font_size"
+        value="24px"
+        onchange="setCss()" />
+      <label for="font-size-24px">24px</label>
+    </div>
+
+    <div class="setPropCont">
+      line-height<br />
+      <input
+        type="radio"
+        id="line-height-none"
+        name="line_height"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="line-height-none">none</label><br />
+      <input
+        type="radio"
+        id="line-height-1.2"
+        name="line_height"
+        value="/1.2"
+        onchange="setCss()" />
+      <label for="line-height-1.2">1.2</label><br />
+      <input
+        type="radio"
+        id="line-height-3"
+        name="line_height"
+        value="/3"
+        onchange="setCss()" />
+      <label for="line-height-3">3</label>
+    </div>
+    <br />
+
+    <div class="setPropCont fontfamily">
+      font-family<br />
+      <input
+        type="radio"
+        id="font-family-courier"
+        name="font_family"
+        checked=""
+        value="courier"
+        onchange="setCss(5,'courier')" />
+      <label for="font-family-courier">courier</label><br />
+      <input
+        type="radio"
+        id="font-family-serif"
+        name="font_family"
+        value="serif"
+        onchange="setCss()" />
+      <label for="font-family-serif">serif</label><br />
+      <input
+        type="radio"
+        id="font-family-sans-serif"
+        name="font_family"
+        value="sans-serif"
+        onchange="setCss()" />
+      <label for="font-family-sans-serif">sans-serif</label><br />
+      <input
+        type="radio"
+        id="font-family-arial"
+        name="font_family"
+        value="arial"
+        onchange="setCss()" />
+      <label for="font-family-arial">Arial</label><br />
+      <input
+        type="radio"
+        id="font-family-monospace"
+        name="font_family"
+        value="monospace"
+        onchange="setCss()" />
+      <label for="font-family-monospace">monospace</label><br />
+      <input
+        type="radio"
+        id="font-family-cursive"
+        name="font_family"
+        value="cursive"
+        onchange="setCss()" />
+      <label for="font-family-cursive">cursive</label><br />
+      <input
+        type="radio"
+        id="font-family-fantasy"
+        name="font_family"
+        value="fantasy"
+        onchange="setCss()" />
+      <label for="font-family-fantasy">fantasy</label><br />
+      <input
+        type="radio"
+        id="font-family-system-ui"
+        name="font_family"
+        value="system-ui"
+        onchange="setCss()" />
+      <label for="font-family-system-ui">system-ui</label><br />
+    </div>
+  </div>
+
+  <div class="cf propInputs">
+    <div class="propInputCont tar">font :</div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_style" /><br />
+      font-style <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_variant" /> <br />
+      font-variant <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_weight" /> <br />
+      font-weight <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
+      font-size <br />
+      mandatory
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_line_height" /> <br />
+      line-height <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_family" />
+      <br />
+      font-family <br />
+      mandatory
+    </div>
+  </div>
+</form>
+
+<div class="fontShortHand">This is some sample text.</div>
+<br /><br /><br /><br /><br /><br />
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "onchange".',
+                        '        onchange="setCss()" />',
+                        "124:8",
+                        `/en-US/docs/Web/CSS/font
+[no-inline-event-handlers] Do not use inline event handler "onchange".
+~~~
+<p>
+  Change the radio buttons below to see the generated shorthand and its effect.
+</p>
+<form action="createShortHand()">
+  <div class="cf">
+    <div class="setPropCont">
+      font-style<br />
+      <input
+        type="radio"
+        id="font-style-none"
+        name="font_style"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="font-style-none">none</label><br />
+      <input
+        type="radio"
+        id="font-style-normal"
+        name="font_style"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-style-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-style-italic"
+        name="font_style"
+        value="italic"
+        onchange="setCss()" />
+      <label for="font-style-italic">italic</label><br />
+      <input
+        type="radio"
+        id="font-style-oblique"
+        name="font_style"
+        value="oblique"
+        onchange="setCss()" />
+      <label for="font-style-oblique">oblique</label>
+    </div>
+
+    <div class="setPropCont">
+      font-variant<br />
+      <input
+        type="radio"
+        id="font-variant-none"
+        name="font_variant"
+        checked=""
+        value=" "
+        onchange="setCss()" />
+      <label for="font-variant-none">none</label><br />
+      <input
+        type="radio"
+        id="font-variant-normal"
+        name="font_variant"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-variant-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-variant-small-caps"
+        name="font_variant"
+        value="small-caps"
+        onchange="setCss()" />
+      <label for="font-variant-small-caps">small-caps</label>
+    </div>
+
+    <div class="setPropCont">
+      font-weight<br />
+      <input
+        type="radio"
+        id="font-weight-none"
+        name="font_weight"
+        value=""
+        onchange="setCss()" />
+      <label for="font-weight-none">none</label><br />
+      <input
+        type="radio"
+        id="font-weight-normal"
+        checked=""
+        name="font_weight"
+        value="400"
+        onchange="setCss()" />
+      <label for="font-weight-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-weight-bold"
+        name="font_weight"
+        value="700"
+        onchange="setCss()" />
+      <label for="font-weight-bold">bold</label>
+    </div>
+
+    <div class="setPropCont">
+      font-size<br />
+      <input
+        type="radio"
+        id="font-size-12px"
+        name="font_size"
+        value="12px"
+        onchange="setCss()" />
+      <label for="font-size-12px">12px</label><br />
+      <input
+        type="radio"
+        id="font-size-16px"
+        name="font_size"
+        value="16px"
+        checked=""
+        onchange="setCss()" />
+      <label for="font-size-16px">16px</label><br />
+      <input
+        type="radio"
+        id="font-size-24px"
+        name="font_size"
+        value="24px"
+        onchange="setCss()" />
+      <label for="font-size-24px">24px</label>
+    </div>
+
+    <div class="setPropCont">
+      line-height<br />
+      <input
+        type="radio"
+        id="line-height-none"
+        name="line_height"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="line-height-none">none</label><br />
+      <input
+        type="radio"
+        id="line-height-1.2"
+        name="line_height"
+        value="/1.2"
+        onchange="setCss()" />
+      <label for="line-height-1.2">1.2</label><br />
+      <input
+        type="radio"
+        id="line-height-3"
+        name="line_height"
+        value="/3"
+        onchange="setCss()" />
+      <label for="line-height-3">3</label>
+    </div>
+    <br />
+
+    <div class="setPropCont fontfamily">
+      font-family<br />
+      <input
+        type="radio"
+        id="font-family-courier"
+        name="font_family"
+        checked=""
+        value="courier"
+        onchange="setCss(5,'courier')" />
+      <label for="font-family-courier">courier</label><br />
+      <input
+        type="radio"
+        id="font-family-serif"
+        name="font_family"
+        value="serif"
+        onchange="setCss()" />
+      <label for="font-family-serif">serif</label><br />
+      <input
+        type="radio"
+        id="font-family-sans-serif"
+        name="font_family"
+        value="sans-serif"
+        onchange="setCss()" />
+      <label for="font-family-sans-serif">sans-serif</label><br />
+      <input
+        type="radio"
+        id="font-family-arial"
+        name="font_family"
+        value="arial"
+        onchange="setCss()" />
+      <label for="font-family-arial">Arial</label><br />
+      <input
+        type="radio"
+        id="font-family-monospace"
+        name="font_family"
+        value="monospace"
+        onchange="setCss()" />
+      <label for="font-family-monospace">monospace</label><br />
+      <input
+        type="radio"
+        id="font-family-cursive"
+        name="font_family"
+        value="cursive"
+        onchange="setCss()" />
+      <label for="font-family-cursive">cursive</label><br />
+      <input
+        type="radio"
+        id="font-family-fantasy"
+        name="font_family"
+        value="fantasy"
+        onchange="setCss()" />
+      <label for="font-family-fantasy">fantasy</label><br />
+      <input
+        type="radio"
+        id="font-family-system-ui"
+        name="font_family"
+        value="system-ui"
+        onchange="setCss()" />
+      <label for="font-family-system-ui">system-ui</label><br />
+    </div>
+  </div>
+
+  <div class="cf propInputs">
+    <div class="propInputCont tar">font :</div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_style" /><br />
+      font-style <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_variant" /> <br />
+      font-variant <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_weight" /> <br />
+      font-weight <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
+      font-size <br />
+      mandatory
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_line_height" /> <br />
+      line-height <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_family" />
+      <br />
+      font-family <br />
+      mandatory
+    </div>
+  </div>
+</form>
+
+<div class="fontShortHand">This is some sample text.</div>
+<br /><br /><br /><br /><br /><br />
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "onchange".',
+                        '        onchange="setCss()" />',
+                        "131:8",
+                        `/en-US/docs/Web/CSS/font
+[no-inline-event-handlers] Do not use inline event handler "onchange".
+~~~
+<p>
+  Change the radio buttons below to see the generated shorthand and its effect.
+</p>
+<form action="createShortHand()">
+  <div class="cf">
+    <div class="setPropCont">
+      font-style<br />
+      <input
+        type="radio"
+        id="font-style-none"
+        name="font_style"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="font-style-none">none</label><br />
+      <input
+        type="radio"
+        id="font-style-normal"
+        name="font_style"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-style-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-style-italic"
+        name="font_style"
+        value="italic"
+        onchange="setCss()" />
+      <label for="font-style-italic">italic</label><br />
+      <input
+        type="radio"
+        id="font-style-oblique"
+        name="font_style"
+        value="oblique"
+        onchange="setCss()" />
+      <label for="font-style-oblique">oblique</label>
+    </div>
+
+    <div class="setPropCont">
+      font-variant<br />
+      <input
+        type="radio"
+        id="font-variant-none"
+        name="font_variant"
+        checked=""
+        value=" "
+        onchange="setCss()" />
+      <label for="font-variant-none">none</label><br />
+      <input
+        type="radio"
+        id="font-variant-normal"
+        name="font_variant"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-variant-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-variant-small-caps"
+        name="font_variant"
+        value="small-caps"
+        onchange="setCss()" />
+      <label for="font-variant-small-caps">small-caps</label>
+    </div>
+
+    <div class="setPropCont">
+      font-weight<br />
+      <input
+        type="radio"
+        id="font-weight-none"
+        name="font_weight"
+        value=""
+        onchange="setCss()" />
+      <label for="font-weight-none">none</label><br />
+      <input
+        type="radio"
+        id="font-weight-normal"
+        checked=""
+        name="font_weight"
+        value="400"
+        onchange="setCss()" />
+      <label for="font-weight-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-weight-bold"
+        name="font_weight"
+        value="700"
+        onchange="setCss()" />
+      <label for="font-weight-bold">bold</label>
+    </div>
+
+    <div class="setPropCont">
+      font-size<br />
+      <input
+        type="radio"
+        id="font-size-12px"
+        name="font_size"
+        value="12px"
+        onchange="setCss()" />
+      <label for="font-size-12px">12px</label><br />
+      <input
+        type="radio"
+        id="font-size-16px"
+        name="font_size"
+        value="16px"
+        checked=""
+        onchange="setCss()" />
+      <label for="font-size-16px">16px</label><br />
+      <input
+        type="radio"
+        id="font-size-24px"
+        name="font_size"
+        value="24px"
+        onchange="setCss()" />
+      <label for="font-size-24px">24px</label>
+    </div>
+
+    <div class="setPropCont">
+      line-height<br />
+      <input
+        type="radio"
+        id="line-height-none"
+        name="line_height"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="line-height-none">none</label><br />
+      <input
+        type="radio"
+        id="line-height-1.2"
+        name="line_height"
+        value="/1.2"
+        onchange="setCss()" />
+      <label for="line-height-1.2">1.2</label><br />
+      <input
+        type="radio"
+        id="line-height-3"
+        name="line_height"
+        value="/3"
+        onchange="setCss()" />
+      <label for="line-height-3">3</label>
+    </div>
+    <br />
+
+    <div class="setPropCont fontfamily">
+      font-family<br />
+      <input
+        type="radio"
+        id="font-family-courier"
+        name="font_family"
+        checked=""
+        value="courier"
+        onchange="setCss(5,'courier')" />
+      <label for="font-family-courier">courier</label><br />
+      <input
+        type="radio"
+        id="font-family-serif"
+        name="font_family"
+        value="serif"
+        onchange="setCss()" />
+      <label for="font-family-serif">serif</label><br />
+      <input
+        type="radio"
+        id="font-family-sans-serif"
+        name="font_family"
+        value="sans-serif"
+        onchange="setCss()" />
+      <label for="font-family-sans-serif">sans-serif</label><br />
+      <input
+        type="radio"
+        id="font-family-arial"
+        name="font_family"
+        value="arial"
+        onchange="setCss()" />
+      <label for="font-family-arial">Arial</label><br />
+      <input
+        type="radio"
+        id="font-family-monospace"
+        name="font_family"
+        value="monospace"
+        onchange="setCss()" />
+      <label for="font-family-monospace">monospace</label><br />
+      <input
+        type="radio"
+        id="font-family-cursive"
+        name="font_family"
+        value="cursive"
+        onchange="setCss()" />
+      <label for="font-family-cursive">cursive</label><br />
+      <input
+        type="radio"
+        id="font-family-fantasy"
+        name="font_family"
+        value="fantasy"
+        onchange="setCss()" />
+      <label for="font-family-fantasy">fantasy</label><br />
+      <input
+        type="radio"
+        id="font-family-system-ui"
+        name="font_family"
+        value="system-ui"
+        onchange="setCss()" />
+      <label for="font-family-system-ui">system-ui</label><br />
+    </div>
+  </div>
+
+  <div class="cf propInputs">
+    <div class="propInputCont tar">font :</div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_style" /><br />
+      font-style <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_variant" /> <br />
+      font-variant <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_weight" /> <br />
+      font-weight <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
+      font-size <br />
+      mandatory
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_line_height" /> <br />
+      line-height <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_family" />
+      <br />
+      font-family <br />
+      mandatory
+    </div>
+  </div>
+</form>
+
+<div class="fontShortHand">This is some sample text.</div>
+<br /><br /><br /><br /><br /><br />
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "onchange".',
+                        '        onchange="setCss()" />',
+                        "138:8",
+                        `/en-US/docs/Web/CSS/font
+[no-inline-event-handlers] Do not use inline event handler "onchange".
+~~~
+<p>
+  Change the radio buttons below to see the generated shorthand and its effect.
+</p>
+<form action="createShortHand()">
+  <div class="cf">
+    <div class="setPropCont">
+      font-style<br />
+      <input
+        type="radio"
+        id="font-style-none"
+        name="font_style"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="font-style-none">none</label><br />
+      <input
+        type="radio"
+        id="font-style-normal"
+        name="font_style"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-style-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-style-italic"
+        name="font_style"
+        value="italic"
+        onchange="setCss()" />
+      <label for="font-style-italic">italic</label><br />
+      <input
+        type="radio"
+        id="font-style-oblique"
+        name="font_style"
+        value="oblique"
+        onchange="setCss()" />
+      <label for="font-style-oblique">oblique</label>
+    </div>
+
+    <div class="setPropCont">
+      font-variant<br />
+      <input
+        type="radio"
+        id="font-variant-none"
+        name="font_variant"
+        checked=""
+        value=" "
+        onchange="setCss()" />
+      <label for="font-variant-none">none</label><br />
+      <input
+        type="radio"
+        id="font-variant-normal"
+        name="font_variant"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-variant-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-variant-small-caps"
+        name="font_variant"
+        value="small-caps"
+        onchange="setCss()" />
+      <label for="font-variant-small-caps">small-caps</label>
+    </div>
+
+    <div class="setPropCont">
+      font-weight<br />
+      <input
+        type="radio"
+        id="font-weight-none"
+        name="font_weight"
+        value=""
+        onchange="setCss()" />
+      <label for="font-weight-none">none</label><br />
+      <input
+        type="radio"
+        id="font-weight-normal"
+        checked=""
+        name="font_weight"
+        value="400"
+        onchange="setCss()" />
+      <label for="font-weight-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-weight-bold"
+        name="font_weight"
+        value="700"
+        onchange="setCss()" />
+      <label for="font-weight-bold">bold</label>
+    </div>
+
+    <div class="setPropCont">
+      font-size<br />
+      <input
+        type="radio"
+        id="font-size-12px"
+        name="font_size"
+        value="12px"
+        onchange="setCss()" />
+      <label for="font-size-12px">12px</label><br />
+      <input
+        type="radio"
+        id="font-size-16px"
+        name="font_size"
+        value="16px"
+        checked=""
+        onchange="setCss()" />
+      <label for="font-size-16px">16px</label><br />
+      <input
+        type="radio"
+        id="font-size-24px"
+        name="font_size"
+        value="24px"
+        onchange="setCss()" />
+      <label for="font-size-24px">24px</label>
+    </div>
+
+    <div class="setPropCont">
+      line-height<br />
+      <input
+        type="radio"
+        id="line-height-none"
+        name="line_height"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="line-height-none">none</label><br />
+      <input
+        type="radio"
+        id="line-height-1.2"
+        name="line_height"
+        value="/1.2"
+        onchange="setCss()" />
+      <label for="line-height-1.2">1.2</label><br />
+      <input
+        type="radio"
+        id="line-height-3"
+        name="line_height"
+        value="/3"
+        onchange="setCss()" />
+      <label for="line-height-3">3</label>
+    </div>
+    <br />
+
+    <div class="setPropCont fontfamily">
+      font-family<br />
+      <input
+        type="radio"
+        id="font-family-courier"
+        name="font_family"
+        checked=""
+        value="courier"
+        onchange="setCss(5,'courier')" />
+      <label for="font-family-courier">courier</label><br />
+      <input
+        type="radio"
+        id="font-family-serif"
+        name="font_family"
+        value="serif"
+        onchange="setCss()" />
+      <label for="font-family-serif">serif</label><br />
+      <input
+        type="radio"
+        id="font-family-sans-serif"
+        name="font_family"
+        value="sans-serif"
+        onchange="setCss()" />
+      <label for="font-family-sans-serif">sans-serif</label><br />
+      <input
+        type="radio"
+        id="font-family-arial"
+        name="font_family"
+        value="arial"
+        onchange="setCss()" />
+      <label for="font-family-arial">Arial</label><br />
+      <input
+        type="radio"
+        id="font-family-monospace"
+        name="font_family"
+        value="monospace"
+        onchange="setCss()" />
+      <label for="font-family-monospace">monospace</label><br />
+      <input
+        type="radio"
+        id="font-family-cursive"
+        name="font_family"
+        value="cursive"
+        onchange="setCss()" />
+      <label for="font-family-cursive">cursive</label><br />
+      <input
+        type="radio"
+        id="font-family-fantasy"
+        name="font_family"
+        value="fantasy"
+        onchange="setCss()" />
+      <label for="font-family-fantasy">fantasy</label><br />
+      <input
+        type="radio"
+        id="font-family-system-ui"
+        name="font_family"
+        value="system-ui"
+        onchange="setCss()" />
+      <label for="font-family-system-ui">system-ui</label><br />
+    </div>
+  </div>
+
+  <div class="cf propInputs">
+    <div class="propInputCont tar">font :</div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_style" /><br />
+      font-style <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_variant" /> <br />
+      font-variant <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_weight" /> <br />
+      font-weight <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
+      font-size <br />
+      mandatory
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_line_height" /> <br />
+      line-height <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_family" />
+      <br />
+      font-family <br />
+      mandatory
+    </div>
+  </div>
+</form>
+
+<div class="fontShortHand">This is some sample text.</div>
+<br /><br /><br /><br /><br /><br />
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "onchange".',
+                        `        onchange="setCss(5,'courier')" />`,
+                        "151:8",
+                        `/en-US/docs/Web/CSS/font
+[no-inline-event-handlers] Do not use inline event handler "onchange".
+~~~
+<p>
+  Change the radio buttons below to see the generated shorthand and its effect.
+</p>
+<form action="createShortHand()">
+  <div class="cf">
+    <div class="setPropCont">
+      font-style<br />
+      <input
+        type="radio"
+        id="font-style-none"
+        name="font_style"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="font-style-none">none</label><br />
+      <input
+        type="radio"
+        id="font-style-normal"
+        name="font_style"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-style-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-style-italic"
+        name="font_style"
+        value="italic"
+        onchange="setCss()" />
+      <label for="font-style-italic">italic</label><br />
+      <input
+        type="radio"
+        id="font-style-oblique"
+        name="font_style"
+        value="oblique"
+        onchange="setCss()" />
+      <label for="font-style-oblique">oblique</label>
+    </div>
+
+    <div class="setPropCont">
+      font-variant<br />
+      <input
+        type="radio"
+        id="font-variant-none"
+        name="font_variant"
+        checked=""
+        value=" "
+        onchange="setCss()" />
+      <label for="font-variant-none">none</label><br />
+      <input
+        type="radio"
+        id="font-variant-normal"
+        name="font_variant"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-variant-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-variant-small-caps"
+        name="font_variant"
+        value="small-caps"
+        onchange="setCss()" />
+      <label for="font-variant-small-caps">small-caps</label>
+    </div>
+
+    <div class="setPropCont">
+      font-weight<br />
+      <input
+        type="radio"
+        id="font-weight-none"
+        name="font_weight"
+        value=""
+        onchange="setCss()" />
+      <label for="font-weight-none">none</label><br />
+      <input
+        type="radio"
+        id="font-weight-normal"
+        checked=""
+        name="font_weight"
+        value="400"
+        onchange="setCss()" />
+      <label for="font-weight-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-weight-bold"
+        name="font_weight"
+        value="700"
+        onchange="setCss()" />
+      <label for="font-weight-bold">bold</label>
+    </div>
+
+    <div class="setPropCont">
+      font-size<br />
+      <input
+        type="radio"
+        id="font-size-12px"
+        name="font_size"
+        value="12px"
+        onchange="setCss()" />
+      <label for="font-size-12px">12px</label><br />
+      <input
+        type="radio"
+        id="font-size-16px"
+        name="font_size"
+        value="16px"
+        checked=""
+        onchange="setCss()" />
+      <label for="font-size-16px">16px</label><br />
+      <input
+        type="radio"
+        id="font-size-24px"
+        name="font_size"
+        value="24px"
+        onchange="setCss()" />
+      <label for="font-size-24px">24px</label>
+    </div>
+
+    <div class="setPropCont">
+      line-height<br />
+      <input
+        type="radio"
+        id="line-height-none"
+        name="line_height"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="line-height-none">none</label><br />
+      <input
+        type="radio"
+        id="line-height-1.2"
+        name="line_height"
+        value="/1.2"
+        onchange="setCss()" />
+      <label for="line-height-1.2">1.2</label><br />
+      <input
+        type="radio"
+        id="line-height-3"
+        name="line_height"
+        value="/3"
+        onchange="setCss()" />
+      <label for="line-height-3">3</label>
+    </div>
+    <br />
+
+    <div class="setPropCont fontfamily">
+      font-family<br />
+      <input
+        type="radio"
+        id="font-family-courier"
+        name="font_family"
+        checked=""
+        value="courier"
+        onchange="setCss(5,'courier')" />
+      <label for="font-family-courier">courier</label><br />
+      <input
+        type="radio"
+        id="font-family-serif"
+        name="font_family"
+        value="serif"
+        onchange="setCss()" />
+      <label for="font-family-serif">serif</label><br />
+      <input
+        type="radio"
+        id="font-family-sans-serif"
+        name="font_family"
+        value="sans-serif"
+        onchange="setCss()" />
+      <label for="font-family-sans-serif">sans-serif</label><br />
+      <input
+        type="radio"
+        id="font-family-arial"
+        name="font_family"
+        value="arial"
+        onchange="setCss()" />
+      <label for="font-family-arial">Arial</label><br />
+      <input
+        type="radio"
+        id="font-family-monospace"
+        name="font_family"
+        value="monospace"
+        onchange="setCss()" />
+      <label for="font-family-monospace">monospace</label><br />
+      <input
+        type="radio"
+        id="font-family-cursive"
+        name="font_family"
+        value="cursive"
+        onchange="setCss()" />
+      <label for="font-family-cursive">cursive</label><br />
+      <input
+        type="radio"
+        id="font-family-fantasy"
+        name="font_family"
+        value="fantasy"
+        onchange="setCss()" />
+      <label for="font-family-fantasy">fantasy</label><br />
+      <input
+        type="radio"
+        id="font-family-system-ui"
+        name="font_family"
+        value="system-ui"
+        onchange="setCss()" />
+      <label for="font-family-system-ui">system-ui</label><br />
+    </div>
+  </div>
+
+  <div class="cf propInputs">
+    <div class="propInputCont tar">font :</div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_style" /><br />
+      font-style <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_variant" /> <br />
+      font-variant <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_weight" /> <br />
+      font-weight <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
+      font-size <br />
+      mandatory
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_line_height" /> <br />
+      line-height <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_family" />
+      <br />
+      font-family <br />
+      mandatory
+    </div>
+  </div>
+</form>
+
+<div class="fontShortHand">This is some sample text.</div>
+<br /><br /><br /><br /><br /><br />
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "onchange".',
+                        '        onchange="setCss()" />',
+                        "158:8",
+                        `/en-US/docs/Web/CSS/font
+[no-inline-event-handlers] Do not use inline event handler "onchange".
+~~~
+<p>
+  Change the radio buttons below to see the generated shorthand and its effect.
+</p>
+<form action="createShortHand()">
+  <div class="cf">
+    <div class="setPropCont">
+      font-style<br />
+      <input
+        type="radio"
+        id="font-style-none"
+        name="font_style"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="font-style-none">none</label><br />
+      <input
+        type="radio"
+        id="font-style-normal"
+        name="font_style"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-style-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-style-italic"
+        name="font_style"
+        value="italic"
+        onchange="setCss()" />
+      <label for="font-style-italic">italic</label><br />
+      <input
+        type="radio"
+        id="font-style-oblique"
+        name="font_style"
+        value="oblique"
+        onchange="setCss()" />
+      <label for="font-style-oblique">oblique</label>
+    </div>
+
+    <div class="setPropCont">
+      font-variant<br />
+      <input
+        type="radio"
+        id="font-variant-none"
+        name="font_variant"
+        checked=""
+        value=" "
+        onchange="setCss()" />
+      <label for="font-variant-none">none</label><br />
+      <input
+        type="radio"
+        id="font-variant-normal"
+        name="font_variant"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-variant-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-variant-small-caps"
+        name="font_variant"
+        value="small-caps"
+        onchange="setCss()" />
+      <label for="font-variant-small-caps">small-caps</label>
+    </div>
+
+    <div class="setPropCont">
+      font-weight<br />
+      <input
+        type="radio"
+        id="font-weight-none"
+        name="font_weight"
+        value=""
+        onchange="setCss()" />
+      <label for="font-weight-none">none</label><br />
+      <input
+        type="radio"
+        id="font-weight-normal"
+        checked=""
+        name="font_weight"
+        value="400"
+        onchange="setCss()" />
+      <label for="font-weight-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-weight-bold"
+        name="font_weight"
+        value="700"
+        onchange="setCss()" />
+      <label for="font-weight-bold">bold</label>
+    </div>
+
+    <div class="setPropCont">
+      font-size<br />
+      <input
+        type="radio"
+        id="font-size-12px"
+        name="font_size"
+        value="12px"
+        onchange="setCss()" />
+      <label for="font-size-12px">12px</label><br />
+      <input
+        type="radio"
+        id="font-size-16px"
+        name="font_size"
+        value="16px"
+        checked=""
+        onchange="setCss()" />
+      <label for="font-size-16px">16px</label><br />
+      <input
+        type="radio"
+        id="font-size-24px"
+        name="font_size"
+        value="24px"
+        onchange="setCss()" />
+      <label for="font-size-24px">24px</label>
+    </div>
+
+    <div class="setPropCont">
+      line-height<br />
+      <input
+        type="radio"
+        id="line-height-none"
+        name="line_height"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="line-height-none">none</label><br />
+      <input
+        type="radio"
+        id="line-height-1.2"
+        name="line_height"
+        value="/1.2"
+        onchange="setCss()" />
+      <label for="line-height-1.2">1.2</label><br />
+      <input
+        type="radio"
+        id="line-height-3"
+        name="line_height"
+        value="/3"
+        onchange="setCss()" />
+      <label for="line-height-3">3</label>
+    </div>
+    <br />
+
+    <div class="setPropCont fontfamily">
+      font-family<br />
+      <input
+        type="radio"
+        id="font-family-courier"
+        name="font_family"
+        checked=""
+        value="courier"
+        onchange="setCss(5,'courier')" />
+      <label for="font-family-courier">courier</label><br />
+      <input
+        type="radio"
+        id="font-family-serif"
+        name="font_family"
+        value="serif"
+        onchange="setCss()" />
+      <label for="font-family-serif">serif</label><br />
+      <input
+        type="radio"
+        id="font-family-sans-serif"
+        name="font_family"
+        value="sans-serif"
+        onchange="setCss()" />
+      <label for="font-family-sans-serif">sans-serif</label><br />
+      <input
+        type="radio"
+        id="font-family-arial"
+        name="font_family"
+        value="arial"
+        onchange="setCss()" />
+      <label for="font-family-arial">Arial</label><br />
+      <input
+        type="radio"
+        id="font-family-monospace"
+        name="font_family"
+        value="monospace"
+        onchange="setCss()" />
+      <label for="font-family-monospace">monospace</label><br />
+      <input
+        type="radio"
+        id="font-family-cursive"
+        name="font_family"
+        value="cursive"
+        onchange="setCss()" />
+      <label for="font-family-cursive">cursive</label><br />
+      <input
+        type="radio"
+        id="font-family-fantasy"
+        name="font_family"
+        value="fantasy"
+        onchange="setCss()" />
+      <label for="font-family-fantasy">fantasy</label><br />
+      <input
+        type="radio"
+        id="font-family-system-ui"
+        name="font_family"
+        value="system-ui"
+        onchange="setCss()" />
+      <label for="font-family-system-ui">system-ui</label><br />
+    </div>
+  </div>
+
+  <div class="cf propInputs">
+    <div class="propInputCont tar">font :</div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_style" /><br />
+      font-style <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_variant" /> <br />
+      font-variant <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_weight" /> <br />
+      font-weight <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
+      font-size <br />
+      mandatory
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_line_height" /> <br />
+      line-height <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_family" />
+      <br />
+      font-family <br />
+      mandatory
+    </div>
+  </div>
+</form>
+
+<div class="fontShortHand">This is some sample text.</div>
+<br /><br /><br /><br /><br /><br />
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "onchange".',
+                        '        onchange="setCss()" />',
+                        "165:8",
+                        `/en-US/docs/Web/CSS/font
+[no-inline-event-handlers] Do not use inline event handler "onchange".
+~~~
+<p>
+  Change the radio buttons below to see the generated shorthand and its effect.
+</p>
+<form action="createShortHand()">
+  <div class="cf">
+    <div class="setPropCont">
+      font-style<br />
+      <input
+        type="radio"
+        id="font-style-none"
+        name="font_style"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="font-style-none">none</label><br />
+      <input
+        type="radio"
+        id="font-style-normal"
+        name="font_style"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-style-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-style-italic"
+        name="font_style"
+        value="italic"
+        onchange="setCss()" />
+      <label for="font-style-italic">italic</label><br />
+      <input
+        type="radio"
+        id="font-style-oblique"
+        name="font_style"
+        value="oblique"
+        onchange="setCss()" />
+      <label for="font-style-oblique">oblique</label>
+    </div>
+
+    <div class="setPropCont">
+      font-variant<br />
+      <input
+        type="radio"
+        id="font-variant-none"
+        name="font_variant"
+        checked=""
+        value=" "
+        onchange="setCss()" />
+      <label for="font-variant-none">none</label><br />
+      <input
+        type="radio"
+        id="font-variant-normal"
+        name="font_variant"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-variant-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-variant-small-caps"
+        name="font_variant"
+        value="small-caps"
+        onchange="setCss()" />
+      <label for="font-variant-small-caps">small-caps</label>
+    </div>
+
+    <div class="setPropCont">
+      font-weight<br />
+      <input
+        type="radio"
+        id="font-weight-none"
+        name="font_weight"
+        value=""
+        onchange="setCss()" />
+      <label for="font-weight-none">none</label><br />
+      <input
+        type="radio"
+        id="font-weight-normal"
+        checked=""
+        name="font_weight"
+        value="400"
+        onchange="setCss()" />
+      <label for="font-weight-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-weight-bold"
+        name="font_weight"
+        value="700"
+        onchange="setCss()" />
+      <label for="font-weight-bold">bold</label>
+    </div>
+
+    <div class="setPropCont">
+      font-size<br />
+      <input
+        type="radio"
+        id="font-size-12px"
+        name="font_size"
+        value="12px"
+        onchange="setCss()" />
+      <label for="font-size-12px">12px</label><br />
+      <input
+        type="radio"
+        id="font-size-16px"
+        name="font_size"
+        value="16px"
+        checked=""
+        onchange="setCss()" />
+      <label for="font-size-16px">16px</label><br />
+      <input
+        type="radio"
+        id="font-size-24px"
+        name="font_size"
+        value="24px"
+        onchange="setCss()" />
+      <label for="font-size-24px">24px</label>
+    </div>
+
+    <div class="setPropCont">
+      line-height<br />
+      <input
+        type="radio"
+        id="line-height-none"
+        name="line_height"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="line-height-none">none</label><br />
+      <input
+        type="radio"
+        id="line-height-1.2"
+        name="line_height"
+        value="/1.2"
+        onchange="setCss()" />
+      <label for="line-height-1.2">1.2</label><br />
+      <input
+        type="radio"
+        id="line-height-3"
+        name="line_height"
+        value="/3"
+        onchange="setCss()" />
+      <label for="line-height-3">3</label>
+    </div>
+    <br />
+
+    <div class="setPropCont fontfamily">
+      font-family<br />
+      <input
+        type="radio"
+        id="font-family-courier"
+        name="font_family"
+        checked=""
+        value="courier"
+        onchange="setCss(5,'courier')" />
+      <label for="font-family-courier">courier</label><br />
+      <input
+        type="radio"
+        id="font-family-serif"
+        name="font_family"
+        value="serif"
+        onchange="setCss()" />
+      <label for="font-family-serif">serif</label><br />
+      <input
+        type="radio"
+        id="font-family-sans-serif"
+        name="font_family"
+        value="sans-serif"
+        onchange="setCss()" />
+      <label for="font-family-sans-serif">sans-serif</label><br />
+      <input
+        type="radio"
+        id="font-family-arial"
+        name="font_family"
+        value="arial"
+        onchange="setCss()" />
+      <label for="font-family-arial">Arial</label><br />
+      <input
+        type="radio"
+        id="font-family-monospace"
+        name="font_family"
+        value="monospace"
+        onchange="setCss()" />
+      <label for="font-family-monospace">monospace</label><br />
+      <input
+        type="radio"
+        id="font-family-cursive"
+        name="font_family"
+        value="cursive"
+        onchange="setCss()" />
+      <label for="font-family-cursive">cursive</label><br />
+      <input
+        type="radio"
+        id="font-family-fantasy"
+        name="font_family"
+        value="fantasy"
+        onchange="setCss()" />
+      <label for="font-family-fantasy">fantasy</label><br />
+      <input
+        type="radio"
+        id="font-family-system-ui"
+        name="font_family"
+        value="system-ui"
+        onchange="setCss()" />
+      <label for="font-family-system-ui">system-ui</label><br />
+    </div>
+  </div>
+
+  <div class="cf propInputs">
+    <div class="propInputCont tar">font :</div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_style" /><br />
+      font-style <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_variant" /> <br />
+      font-variant <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_weight" /> <br />
+      font-weight <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
+      font-size <br />
+      mandatory
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_line_height" /> <br />
+      line-height <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_family" />
+      <br />
+      font-family <br />
+      mandatory
+    </div>
+  </div>
+</form>
+
+<div class="fontShortHand">This is some sample text.</div>
+<br /><br /><br /><br /><br /><br />
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "onchange".',
+                        '        onchange="setCss()" />',
+                        "172:8",
+                        `/en-US/docs/Web/CSS/font
+[no-inline-event-handlers] Do not use inline event handler "onchange".
+~~~
+<p>
+  Change the radio buttons below to see the generated shorthand and its effect.
+</p>
+<form action="createShortHand()">
+  <div class="cf">
+    <div class="setPropCont">
+      font-style<br />
+      <input
+        type="radio"
+        id="font-style-none"
+        name="font_style"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="font-style-none">none</label><br />
+      <input
+        type="radio"
+        id="font-style-normal"
+        name="font_style"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-style-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-style-italic"
+        name="font_style"
+        value="italic"
+        onchange="setCss()" />
+      <label for="font-style-italic">italic</label><br />
+      <input
+        type="radio"
+        id="font-style-oblique"
+        name="font_style"
+        value="oblique"
+        onchange="setCss()" />
+      <label for="font-style-oblique">oblique</label>
+    </div>
+
+    <div class="setPropCont">
+      font-variant<br />
+      <input
+        type="radio"
+        id="font-variant-none"
+        name="font_variant"
+        checked=""
+        value=" "
+        onchange="setCss()" />
+      <label for="font-variant-none">none</label><br />
+      <input
+        type="radio"
+        id="font-variant-normal"
+        name="font_variant"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-variant-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-variant-small-caps"
+        name="font_variant"
+        value="small-caps"
+        onchange="setCss()" />
+      <label for="font-variant-small-caps">small-caps</label>
+    </div>
+
+    <div class="setPropCont">
+      font-weight<br />
+      <input
+        type="radio"
+        id="font-weight-none"
+        name="font_weight"
+        value=""
+        onchange="setCss()" />
+      <label for="font-weight-none">none</label><br />
+      <input
+        type="radio"
+        id="font-weight-normal"
+        checked=""
+        name="font_weight"
+        value="400"
+        onchange="setCss()" />
+      <label for="font-weight-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-weight-bold"
+        name="font_weight"
+        value="700"
+        onchange="setCss()" />
+      <label for="font-weight-bold">bold</label>
+    </div>
+
+    <div class="setPropCont">
+      font-size<br />
+      <input
+        type="radio"
+        id="font-size-12px"
+        name="font_size"
+        value="12px"
+        onchange="setCss()" />
+      <label for="font-size-12px">12px</label><br />
+      <input
+        type="radio"
+        id="font-size-16px"
+        name="font_size"
+        value="16px"
+        checked=""
+        onchange="setCss()" />
+      <label for="font-size-16px">16px</label><br />
+      <input
+        type="radio"
+        id="font-size-24px"
+        name="font_size"
+        value="24px"
+        onchange="setCss()" />
+      <label for="font-size-24px">24px</label>
+    </div>
+
+    <div class="setPropCont">
+      line-height<br />
+      <input
+        type="radio"
+        id="line-height-none"
+        name="line_height"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="line-height-none">none</label><br />
+      <input
+        type="radio"
+        id="line-height-1.2"
+        name="line_height"
+        value="/1.2"
+        onchange="setCss()" />
+      <label for="line-height-1.2">1.2</label><br />
+      <input
+        type="radio"
+        id="line-height-3"
+        name="line_height"
+        value="/3"
+        onchange="setCss()" />
+      <label for="line-height-3">3</label>
+    </div>
+    <br />
+
+    <div class="setPropCont fontfamily">
+      font-family<br />
+      <input
+        type="radio"
+        id="font-family-courier"
+        name="font_family"
+        checked=""
+        value="courier"
+        onchange="setCss(5,'courier')" />
+      <label for="font-family-courier">courier</label><br />
+      <input
+        type="radio"
+        id="font-family-serif"
+        name="font_family"
+        value="serif"
+        onchange="setCss()" />
+      <label for="font-family-serif">serif</label><br />
+      <input
+        type="radio"
+        id="font-family-sans-serif"
+        name="font_family"
+        value="sans-serif"
+        onchange="setCss()" />
+      <label for="font-family-sans-serif">sans-serif</label><br />
+      <input
+        type="radio"
+        id="font-family-arial"
+        name="font_family"
+        value="arial"
+        onchange="setCss()" />
+      <label for="font-family-arial">Arial</label><br />
+      <input
+        type="radio"
+        id="font-family-monospace"
+        name="font_family"
+        value="monospace"
+        onchange="setCss()" />
+      <label for="font-family-monospace">monospace</label><br />
+      <input
+        type="radio"
+        id="font-family-cursive"
+        name="font_family"
+        value="cursive"
+        onchange="setCss()" />
+      <label for="font-family-cursive">cursive</label><br />
+      <input
+        type="radio"
+        id="font-family-fantasy"
+        name="font_family"
+        value="fantasy"
+        onchange="setCss()" />
+      <label for="font-family-fantasy">fantasy</label><br />
+      <input
+        type="radio"
+        id="font-family-system-ui"
+        name="font_family"
+        value="system-ui"
+        onchange="setCss()" />
+      <label for="font-family-system-ui">system-ui</label><br />
+    </div>
+  </div>
+
+  <div class="cf propInputs">
+    <div class="propInputCont tar">font :</div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_style" /><br />
+      font-style <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_variant" /> <br />
+      font-variant <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_weight" /> <br />
+      font-weight <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
+      font-size <br />
+      mandatory
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_line_height" /> <br />
+      line-height <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_family" />
+      <br />
+      font-family <br />
+      mandatory
+    </div>
+  </div>
+</form>
+
+<div class="fontShortHand">This is some sample text.</div>
+<br /><br /><br /><br /><br /><br />
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "onchange".',
+                        '        onchange="setCss()" />',
+                        "179:8",
+                        `/en-US/docs/Web/CSS/font
+[no-inline-event-handlers] Do not use inline event handler "onchange".
+~~~
+<p>
+  Change the radio buttons below to see the generated shorthand and its effect.
+</p>
+<form action="createShortHand()">
+  <div class="cf">
+    <div class="setPropCont">
+      font-style<br />
+      <input
+        type="radio"
+        id="font-style-none"
+        name="font_style"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="font-style-none">none</label><br />
+      <input
+        type="radio"
+        id="font-style-normal"
+        name="font_style"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-style-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-style-italic"
+        name="font_style"
+        value="italic"
+        onchange="setCss()" />
+      <label for="font-style-italic">italic</label><br />
+      <input
+        type="radio"
+        id="font-style-oblique"
+        name="font_style"
+        value="oblique"
+        onchange="setCss()" />
+      <label for="font-style-oblique">oblique</label>
+    </div>
+
+    <div class="setPropCont">
+      font-variant<br />
+      <input
+        type="radio"
+        id="font-variant-none"
+        name="font_variant"
+        checked=""
+        value=" "
+        onchange="setCss()" />
+      <label for="font-variant-none">none</label><br />
+      <input
+        type="radio"
+        id="font-variant-normal"
+        name="font_variant"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-variant-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-variant-small-caps"
+        name="font_variant"
+        value="small-caps"
+        onchange="setCss()" />
+      <label for="font-variant-small-caps">small-caps</label>
+    </div>
+
+    <div class="setPropCont">
+      font-weight<br />
+      <input
+        type="radio"
+        id="font-weight-none"
+        name="font_weight"
+        value=""
+        onchange="setCss()" />
+      <label for="font-weight-none">none</label><br />
+      <input
+        type="radio"
+        id="font-weight-normal"
+        checked=""
+        name="font_weight"
+        value="400"
+        onchange="setCss()" />
+      <label for="font-weight-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-weight-bold"
+        name="font_weight"
+        value="700"
+        onchange="setCss()" />
+      <label for="font-weight-bold">bold</label>
+    </div>
+
+    <div class="setPropCont">
+      font-size<br />
+      <input
+        type="radio"
+        id="font-size-12px"
+        name="font_size"
+        value="12px"
+        onchange="setCss()" />
+      <label for="font-size-12px">12px</label><br />
+      <input
+        type="radio"
+        id="font-size-16px"
+        name="font_size"
+        value="16px"
+        checked=""
+        onchange="setCss()" />
+      <label for="font-size-16px">16px</label><br />
+      <input
+        type="radio"
+        id="font-size-24px"
+        name="font_size"
+        value="24px"
+        onchange="setCss()" />
+      <label for="font-size-24px">24px</label>
+    </div>
+
+    <div class="setPropCont">
+      line-height<br />
+      <input
+        type="radio"
+        id="line-height-none"
+        name="line_height"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="line-height-none">none</label><br />
+      <input
+        type="radio"
+        id="line-height-1.2"
+        name="line_height"
+        value="/1.2"
+        onchange="setCss()" />
+      <label for="line-height-1.2">1.2</label><br />
+      <input
+        type="radio"
+        id="line-height-3"
+        name="line_height"
+        value="/3"
+        onchange="setCss()" />
+      <label for="line-height-3">3</label>
+    </div>
+    <br />
+
+    <div class="setPropCont fontfamily">
+      font-family<br />
+      <input
+        type="radio"
+        id="font-family-courier"
+        name="font_family"
+        checked=""
+        value="courier"
+        onchange="setCss(5,'courier')" />
+      <label for="font-family-courier">courier</label><br />
+      <input
+        type="radio"
+        id="font-family-serif"
+        name="font_family"
+        value="serif"
+        onchange="setCss()" />
+      <label for="font-family-serif">serif</label><br />
+      <input
+        type="radio"
+        id="font-family-sans-serif"
+        name="font_family"
+        value="sans-serif"
+        onchange="setCss()" />
+      <label for="font-family-sans-serif">sans-serif</label><br />
+      <input
+        type="radio"
+        id="font-family-arial"
+        name="font_family"
+        value="arial"
+        onchange="setCss()" />
+      <label for="font-family-arial">Arial</label><br />
+      <input
+        type="radio"
+        id="font-family-monospace"
+        name="font_family"
+        value="monospace"
+        onchange="setCss()" />
+      <label for="font-family-monospace">monospace</label><br />
+      <input
+        type="radio"
+        id="font-family-cursive"
+        name="font_family"
+        value="cursive"
+        onchange="setCss()" />
+      <label for="font-family-cursive">cursive</label><br />
+      <input
+        type="radio"
+        id="font-family-fantasy"
+        name="font_family"
+        value="fantasy"
+        onchange="setCss()" />
+      <label for="font-family-fantasy">fantasy</label><br />
+      <input
+        type="radio"
+        id="font-family-system-ui"
+        name="font_family"
+        value="system-ui"
+        onchange="setCss()" />
+      <label for="font-family-system-ui">system-ui</label><br />
+    </div>
+  </div>
+
+  <div class="cf propInputs">
+    <div class="propInputCont tar">font :</div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_style" /><br />
+      font-style <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_variant" /> <br />
+      font-variant <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_weight" /> <br />
+      font-weight <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
+      font-size <br />
+      mandatory
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_line_height" /> <br />
+      line-height <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_family" />
+      <br />
+      font-family <br />
+      mandatory
+    </div>
+  </div>
+</form>
+
+<div class="fontShortHand">This is some sample text.</div>
+<br /><br /><br /><br /><br /><br />
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "onchange".',
+                        '        onchange="setCss()" />',
+                        "186:8",
+                        `/en-US/docs/Web/CSS/font
+[no-inline-event-handlers] Do not use inline event handler "onchange".
+~~~
+<p>
+  Change the radio buttons below to see the generated shorthand and its effect.
+</p>
+<form action="createShortHand()">
+  <div class="cf">
+    <div class="setPropCont">
+      font-style<br />
+      <input
+        type="radio"
+        id="font-style-none"
+        name="font_style"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="font-style-none">none</label><br />
+      <input
+        type="radio"
+        id="font-style-normal"
+        name="font_style"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-style-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-style-italic"
+        name="font_style"
+        value="italic"
+        onchange="setCss()" />
+      <label for="font-style-italic">italic</label><br />
+      <input
+        type="radio"
+        id="font-style-oblique"
+        name="font_style"
+        value="oblique"
+        onchange="setCss()" />
+      <label for="font-style-oblique">oblique</label>
+    </div>
+
+    <div class="setPropCont">
+      font-variant<br />
+      <input
+        type="radio"
+        id="font-variant-none"
+        name="font_variant"
+        checked=""
+        value=" "
+        onchange="setCss()" />
+      <label for="font-variant-none">none</label><br />
+      <input
+        type="radio"
+        id="font-variant-normal"
+        name="font_variant"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-variant-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-variant-small-caps"
+        name="font_variant"
+        value="small-caps"
+        onchange="setCss()" />
+      <label for="font-variant-small-caps">small-caps</label>
+    </div>
+
+    <div class="setPropCont">
+      font-weight<br />
+      <input
+        type="radio"
+        id="font-weight-none"
+        name="font_weight"
+        value=""
+        onchange="setCss()" />
+      <label for="font-weight-none">none</label><br />
+      <input
+        type="radio"
+        id="font-weight-normal"
+        checked=""
+        name="font_weight"
+        value="400"
+        onchange="setCss()" />
+      <label for="font-weight-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-weight-bold"
+        name="font_weight"
+        value="700"
+        onchange="setCss()" />
+      <label for="font-weight-bold">bold</label>
+    </div>
+
+    <div class="setPropCont">
+      font-size<br />
+      <input
+        type="radio"
+        id="font-size-12px"
+        name="font_size"
+        value="12px"
+        onchange="setCss()" />
+      <label for="font-size-12px">12px</label><br />
+      <input
+        type="radio"
+        id="font-size-16px"
+        name="font_size"
+        value="16px"
+        checked=""
+        onchange="setCss()" />
+      <label for="font-size-16px">16px</label><br />
+      <input
+        type="radio"
+        id="font-size-24px"
+        name="font_size"
+        value="24px"
+        onchange="setCss()" />
+      <label for="font-size-24px">24px</label>
+    </div>
+
+    <div class="setPropCont">
+      line-height<br />
+      <input
+        type="radio"
+        id="line-height-none"
+        name="line_height"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="line-height-none">none</label><br />
+      <input
+        type="radio"
+        id="line-height-1.2"
+        name="line_height"
+        value="/1.2"
+        onchange="setCss()" />
+      <label for="line-height-1.2">1.2</label><br />
+      <input
+        type="radio"
+        id="line-height-3"
+        name="line_height"
+        value="/3"
+        onchange="setCss()" />
+      <label for="line-height-3">3</label>
+    </div>
+    <br />
+
+    <div class="setPropCont fontfamily">
+      font-family<br />
+      <input
+        type="radio"
+        id="font-family-courier"
+        name="font_family"
+        checked=""
+        value="courier"
+        onchange="setCss(5,'courier')" />
+      <label for="font-family-courier">courier</label><br />
+      <input
+        type="radio"
+        id="font-family-serif"
+        name="font_family"
+        value="serif"
+        onchange="setCss()" />
+      <label for="font-family-serif">serif</label><br />
+      <input
+        type="radio"
+        id="font-family-sans-serif"
+        name="font_family"
+        value="sans-serif"
+        onchange="setCss()" />
+      <label for="font-family-sans-serif">sans-serif</label><br />
+      <input
+        type="radio"
+        id="font-family-arial"
+        name="font_family"
+        value="arial"
+        onchange="setCss()" />
+      <label for="font-family-arial">Arial</label><br />
+      <input
+        type="radio"
+        id="font-family-monospace"
+        name="font_family"
+        value="monospace"
+        onchange="setCss()" />
+      <label for="font-family-monospace">monospace</label><br />
+      <input
+        type="radio"
+        id="font-family-cursive"
+        name="font_family"
+        value="cursive"
+        onchange="setCss()" />
+      <label for="font-family-cursive">cursive</label><br />
+      <input
+        type="radio"
+        id="font-family-fantasy"
+        name="font_family"
+        value="fantasy"
+        onchange="setCss()" />
+      <label for="font-family-fantasy">fantasy</label><br />
+      <input
+        type="radio"
+        id="font-family-system-ui"
+        name="font_family"
+        value="system-ui"
+        onchange="setCss()" />
+      <label for="font-family-system-ui">system-ui</label><br />
+    </div>
+  </div>
+
+  <div class="cf propInputs">
+    <div class="propInputCont tar">font :</div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_style" /><br />
+      font-style <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_variant" /> <br />
+      font-variant <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_weight" /> <br />
+      font-weight <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
+      font-size <br />
+      mandatory
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_line_height" /> <br />
+      line-height <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_family" />
+      <br />
+      font-family <br />
+      mandatory
+    </div>
+  </div>
+</form>
+
+<div class="fontShortHand">This is some sample text.</div>
+<br /><br /><br /><br /><br /><br />
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "onchange".',
+                        '        onchange="setCss()" />',
+                        "193:8",
+                        `/en-US/docs/Web/CSS/font
+[no-inline-event-handlers] Do not use inline event handler "onchange".
+~~~
+<p>
+  Change the radio buttons below to see the generated shorthand and its effect.
+</p>
+<form action="createShortHand()">
+  <div class="cf">
+    <div class="setPropCont">
+      font-style<br />
+      <input
+        type="radio"
+        id="font-style-none"
+        name="font_style"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="font-style-none">none</label><br />
+      <input
+        type="radio"
+        id="font-style-normal"
+        name="font_style"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-style-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-style-italic"
+        name="font_style"
+        value="italic"
+        onchange="setCss()" />
+      <label for="font-style-italic">italic</label><br />
+      <input
+        type="radio"
+        id="font-style-oblique"
+        name="font_style"
+        value="oblique"
+        onchange="setCss()" />
+      <label for="font-style-oblique">oblique</label>
+    </div>
+
+    <div class="setPropCont">
+      font-variant<br />
+      <input
+        type="radio"
+        id="font-variant-none"
+        name="font_variant"
+        checked=""
+        value=" "
+        onchange="setCss()" />
+      <label for="font-variant-none">none</label><br />
+      <input
+        type="radio"
+        id="font-variant-normal"
+        name="font_variant"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-variant-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-variant-small-caps"
+        name="font_variant"
+        value="small-caps"
+        onchange="setCss()" />
+      <label for="font-variant-small-caps">small-caps</label>
+    </div>
+
+    <div class="setPropCont">
+      font-weight<br />
+      <input
+        type="radio"
+        id="font-weight-none"
+        name="font_weight"
+        value=""
+        onchange="setCss()" />
+      <label for="font-weight-none">none</label><br />
+      <input
+        type="radio"
+        id="font-weight-normal"
+        checked=""
+        name="font_weight"
+        value="400"
+        onchange="setCss()" />
+      <label for="font-weight-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-weight-bold"
+        name="font_weight"
+        value="700"
+        onchange="setCss()" />
+      <label for="font-weight-bold">bold</label>
+    </div>
+
+    <div class="setPropCont">
+      font-size<br />
+      <input
+        type="radio"
+        id="font-size-12px"
+        name="font_size"
+        value="12px"
+        onchange="setCss()" />
+      <label for="font-size-12px">12px</label><br />
+      <input
+        type="radio"
+        id="font-size-16px"
+        name="font_size"
+        value="16px"
+        checked=""
+        onchange="setCss()" />
+      <label for="font-size-16px">16px</label><br />
+      <input
+        type="radio"
+        id="font-size-24px"
+        name="font_size"
+        value="24px"
+        onchange="setCss()" />
+      <label for="font-size-24px">24px</label>
+    </div>
+
+    <div class="setPropCont">
+      line-height<br />
+      <input
+        type="radio"
+        id="line-height-none"
+        name="line_height"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="line-height-none">none</label><br />
+      <input
+        type="radio"
+        id="line-height-1.2"
+        name="line_height"
+        value="/1.2"
+        onchange="setCss()" />
+      <label for="line-height-1.2">1.2</label><br />
+      <input
+        type="radio"
+        id="line-height-3"
+        name="line_height"
+        value="/3"
+        onchange="setCss()" />
+      <label for="line-height-3">3</label>
+    </div>
+    <br />
+
+    <div class="setPropCont fontfamily">
+      font-family<br />
+      <input
+        type="radio"
+        id="font-family-courier"
+        name="font_family"
+        checked=""
+        value="courier"
+        onchange="setCss(5,'courier')" />
+      <label for="font-family-courier">courier</label><br />
+      <input
+        type="radio"
+        id="font-family-serif"
+        name="font_family"
+        value="serif"
+        onchange="setCss()" />
+      <label for="font-family-serif">serif</label><br />
+      <input
+        type="radio"
+        id="font-family-sans-serif"
+        name="font_family"
+        value="sans-serif"
+        onchange="setCss()" />
+      <label for="font-family-sans-serif">sans-serif</label><br />
+      <input
+        type="radio"
+        id="font-family-arial"
+        name="font_family"
+        value="arial"
+        onchange="setCss()" />
+      <label for="font-family-arial">Arial</label><br />
+      <input
+        type="radio"
+        id="font-family-monospace"
+        name="font_family"
+        value="monospace"
+        onchange="setCss()" />
+      <label for="font-family-monospace">monospace</label><br />
+      <input
+        type="radio"
+        id="font-family-cursive"
+        name="font_family"
+        value="cursive"
+        onchange="setCss()" />
+      <label for="font-family-cursive">cursive</label><br />
+      <input
+        type="radio"
+        id="font-family-fantasy"
+        name="font_family"
+        value="fantasy"
+        onchange="setCss()" />
+      <label for="font-family-fantasy">fantasy</label><br />
+      <input
+        type="radio"
+        id="font-family-system-ui"
+        name="font_family"
+        value="system-ui"
+        onchange="setCss()" />
+      <label for="font-family-system-ui">system-ui</label><br />
+    </div>
+  </div>
+
+  <div class="cf propInputs">
+    <div class="propInputCont tar">font :</div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_style" /><br />
+      font-style <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_variant" /> <br />
+      font-variant <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_weight" /> <br />
+      font-weight <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
+      font-size <br />
+      mandatory
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_line_height" /> <br />
+      line-height <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_family" />
+      <br />
+      font-family <br />
+      mandatory
+    </div>
+  </div>
+</form>
+
+<div class="fontShortHand">This is some sample text.</div>
+<br /><br /><br /><br /><br /><br />
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "onchange".',
+                        '        onchange="setCss()" />',
+                        "200:8",
+                        `/en-US/docs/Web/CSS/font
+[no-inline-event-handlers] Do not use inline event handler "onchange".
+~~~
+<p>
+  Change the radio buttons below to see the generated shorthand and its effect.
+</p>
+<form action="createShortHand()">
+  <div class="cf">
+    <div class="setPropCont">
+      font-style<br />
+      <input
+        type="radio"
+        id="font-style-none"
+        name="font_style"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="font-style-none">none</label><br />
+      <input
+        type="radio"
+        id="font-style-normal"
+        name="font_style"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-style-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-style-italic"
+        name="font_style"
+        value="italic"
+        onchange="setCss()" />
+      <label for="font-style-italic">italic</label><br />
+      <input
+        type="radio"
+        id="font-style-oblique"
+        name="font_style"
+        value="oblique"
+        onchange="setCss()" />
+      <label for="font-style-oblique">oblique</label>
+    </div>
+
+    <div class="setPropCont">
+      font-variant<br />
+      <input
+        type="radio"
+        id="font-variant-none"
+        name="font_variant"
+        checked=""
+        value=" "
+        onchange="setCss()" />
+      <label for="font-variant-none">none</label><br />
+      <input
+        type="radio"
+        id="font-variant-normal"
+        name="font_variant"
+        value="normal"
+        onchange="setCss()" />
+      <label for="font-variant-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-variant-small-caps"
+        name="font_variant"
+        value="small-caps"
+        onchange="setCss()" />
+      <label for="font-variant-small-caps">small-caps</label>
+    </div>
+
+    <div class="setPropCont">
+      font-weight<br />
+      <input
+        type="radio"
+        id="font-weight-none"
+        name="font_weight"
+        value=""
+        onchange="setCss()" />
+      <label for="font-weight-none">none</label><br />
+      <input
+        type="radio"
+        id="font-weight-normal"
+        checked=""
+        name="font_weight"
+        value="400"
+        onchange="setCss()" />
+      <label for="font-weight-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-weight-bold"
+        name="font_weight"
+        value="700"
+        onchange="setCss()" />
+      <label for="font-weight-bold">bold</label>
+    </div>
+
+    <div class="setPropCont">
+      font-size<br />
+      <input
+        type="radio"
+        id="font-size-12px"
+        name="font_size"
+        value="12px"
+        onchange="setCss()" />
+      <label for="font-size-12px">12px</label><br />
+      <input
+        type="radio"
+        id="font-size-16px"
+        name="font_size"
+        value="16px"
+        checked=""
+        onchange="setCss()" />
+      <label for="font-size-16px">16px</label><br />
+      <input
+        type="radio"
+        id="font-size-24px"
+        name="font_size"
+        value="24px"
+        onchange="setCss()" />
+      <label for="font-size-24px">24px</label>
+    </div>
+
+    <div class="setPropCont">
+      line-height<br />
+      <input
+        type="radio"
+        id="line-height-none"
+        name="line_height"
+        checked=""
+        value=""
+        onchange="setCss()" />
+      <label for="line-height-none">none</label><br />
+      <input
+        type="radio"
+        id="line-height-1.2"
+        name="line_height"
+        value="/1.2"
+        onchange="setCss()" />
+      <label for="line-height-1.2">1.2</label><br />
+      <input
+        type="radio"
+        id="line-height-3"
+        name="line_height"
+        value="/3"
+        onchange="setCss()" />
+      <label for="line-height-3">3</label>
+    </div>
+    <br />
+
+    <div class="setPropCont fontfamily">
+      font-family<br />
+      <input
+        type="radio"
+        id="font-family-courier"
+        name="font_family"
+        checked=""
+        value="courier"
+        onchange="setCss(5,'courier')" />
+      <label for="font-family-courier">courier</label><br />
+      <input
+        type="radio"
+        id="font-family-serif"
+        name="font_family"
+        value="serif"
+        onchange="setCss()" />
+      <label for="font-family-serif">serif</label><br />
+      <input
+        type="radio"
+        id="font-family-sans-serif"
+        name="font_family"
+        value="sans-serif"
+        onchange="setCss()" />
+      <label for="font-family-sans-serif">sans-serif</label><br />
+      <input
+        type="radio"
+        id="font-family-arial"
+        name="font_family"
+        value="arial"
+        onchange="setCss()" />
+      <label for="font-family-arial">Arial</label><br />
+      <input
+        type="radio"
+        id="font-family-monospace"
+        name="font_family"
+        value="monospace"
+        onchange="setCss()" />
+      <label for="font-family-monospace">monospace</label><br />
+      <input
+        type="radio"
+        id="font-family-cursive"
+        name="font_family"
+        value="cursive"
+        onchange="setCss()" />
+      <label for="font-family-cursive">cursive</label><br />
+      <input
+        type="radio"
+        id="font-family-fantasy"
+        name="font_family"
+        value="fantasy"
+        onchange="setCss()" />
+      <label for="font-family-fantasy">fantasy</label><br />
+      <input
+        type="radio"
+        id="font-family-system-ui"
+        name="font_family"
+        value="system-ui"
+        onchange="setCss()" />
+      <label for="font-family-system-ui">system-ui</label><br />
+    </div>
+  </div>
+
+  <div class="cf propInputs">
+    <div class="propInputCont tar">font :</div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_style" /><br />
+      font-style <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_variant" /> <br />
+      font-variant <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_weight" /> <br />
+      font-weight <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
+      font-size <br />
+      mandatory
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_line_height" /> <br />
+      line-height <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_family" />
+      <br />
+      font-family <br />
+      mandatory
+    </div>
+  </div>
+</form>
+
+<div class="fontShortHand">This is some sample text.</div>
+<br /><br /><br /><br /><br /><br />
+~~~
+`
+                      ]
                     }
                   ]
                 },
@@ -19845,6 +33815,19 @@ image-set('cat.jpg' 1x, 'dog.jpg' 1x) /* every image in an image set must have a
                     }
                   ]
                 },
+                isolation: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/isolation",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/compositing-2/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 layout_cookbook: {
                   children: {
                     contribute_a_recipe: {
@@ -20057,43 +34040,10 @@ pre {
                     }
                   ]
                 },
-                mask: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-border": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-border",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 "mask-border-mode": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/mask-border-mode",
                   messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    },
                     {
                       message: "Not in BCD",
                       data: [
@@ -20111,84 +34061,6 @@ pre {
                     }
                   ]
                 },
-                "mask-border-outset": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-border-outset",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-border-repeat": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-border-repeat",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-border-slice": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-border-slice",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-border-source": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-border-source",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-border-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-border-width",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-clip": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-clip",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 "mask-composite": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/mask-composite",
@@ -20197,104 +34069,6 @@ pre {
                       message: "Broken link",
                       data: [
                         "/en-US/Web/SVG/Reference/Attribute/mask-type"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-image": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-image",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-mode": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-mode",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-origin": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-origin",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-position",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-repeat": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-repeat",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-size",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-type": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-type",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -20370,6 +34144,13 @@ css.properties.grid-template-rows.minmax`
                       message: "Broken external link",
                       data: [
                         "https://drafts.fxtf.org/compositing/",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/compositing-2/",
                         "The operation timed out."
                       ]
                     }
@@ -22189,17 +35970,7 @@ html.elements.textarea.disabled`
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iana.org/assignments/link-relations/link-relations.xhtml",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
+                          }
                         },
                         size: {
                           children: {},
@@ -22446,11 +36217,201 @@ html.elements.select.size`
                           data: [
                             "/en-US/docs/Web/HTML/Reference/Attributes/width"
                           ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '<div onclick="console.log(event)">Click me!</div>',
+                            "0:5",
+                            `/en-US/docs/Web/HTML/Reference/Attributes
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<div onclick="console.log(event)">Click me!</div>
+<!-- The synthesized handler has a name; you can reference itself -->
+<div onclick="console.log(onclick)">Click me!</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '<div onclick="console.log(onclick)">Click me!</div>',
+                            "2:5",
+                            `/en-US/docs/Web/HTML/Reference/Attributes
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<div onclick="console.log(event)">Click me!</div>
+<!-- The synthesized handler has a name; you can reference itself -->
+<div onclick="console.log(onclick)">Click me!</div>
+~~~
+`
+                          ]
                         }
                       ]
                     },
                     elements: {
                       children: {
+                        menu: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/menu",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-inline-event-handlers",
+                                'Do not use inline event handler "onclick".',
+                                '  <li><button onclick="copy()">Copy</button></li>',
+                                "1:14",
+                                `/en-US/docs/Web/HTML/Reference/Elements/menu
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<menu>
+  <li><button onclick="copy()">Copy</button></li>
+  <li><button onclick="cut()">Cut</button></li>
+  <li><button onclick="paste()">Paste</button></li>
+</menu>
+
+<ul>
+  <li><button onclick="copy()">Copy</button></li>
+  <li><button onclick="cut()">Cut</button></li>
+  <li><button onclick="paste()">Paste</button></li>
+</ul>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-inline-event-handlers",
+                                'Do not use inline event handler "onclick".',
+                                '  <li><button onclick="cut()">Cut</button></li>',
+                                "2:14",
+                                `/en-US/docs/Web/HTML/Reference/Elements/menu
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<menu>
+  <li><button onclick="copy()">Copy</button></li>
+  <li><button onclick="cut()">Cut</button></li>
+  <li><button onclick="paste()">Paste</button></li>
+</menu>
+
+<ul>
+  <li><button onclick="copy()">Copy</button></li>
+  <li><button onclick="cut()">Cut</button></li>
+  <li><button onclick="paste()">Paste</button></li>
+</ul>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-inline-event-handlers",
+                                'Do not use inline event handler "onclick".',
+                                '  <li><button onclick="paste()">Paste</button></li>',
+                                "3:14",
+                                `/en-US/docs/Web/HTML/Reference/Elements/menu
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<menu>
+  <li><button onclick="copy()">Copy</button></li>
+  <li><button onclick="cut()">Cut</button></li>
+  <li><button onclick="paste()">Paste</button></li>
+</menu>
+
+<ul>
+  <li><button onclick="copy()">Copy</button></li>
+  <li><button onclick="cut()">Cut</button></li>
+  <li><button onclick="paste()">Paste</button></li>
+</ul>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-inline-event-handlers",
+                                'Do not use inline event handler "onclick".',
+                                '  <li><button onclick="copy()">Copy</button></li>',
+                                "7:14",
+                                `/en-US/docs/Web/HTML/Reference/Elements/menu
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<menu>
+  <li><button onclick="copy()">Copy</button></li>
+  <li><button onclick="cut()">Cut</button></li>
+  <li><button onclick="paste()">Paste</button></li>
+</menu>
+
+<ul>
+  <li><button onclick="copy()">Copy</button></li>
+  <li><button onclick="cut()">Cut</button></li>
+  <li><button onclick="paste()">Paste</button></li>
+</ul>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-inline-event-handlers",
+                                'Do not use inline event handler "onclick".',
+                                '  <li><button onclick="cut()">Cut</button></li>',
+                                "8:14",
+                                `/en-US/docs/Web/HTML/Reference/Elements/menu
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<menu>
+  <li><button onclick="copy()">Copy</button></li>
+  <li><button onclick="cut()">Cut</button></li>
+  <li><button onclick="paste()">Paste</button></li>
+</menu>
+
+<ul>
+  <li><button onclick="copy()">Copy</button></li>
+  <li><button onclick="cut()">Cut</button></li>
+  <li><button onclick="paste()">Paste</button></li>
+</ul>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-inline-event-handlers",
+                                'Do not use inline event handler "onclick".',
+                                '  <li><button onclick="paste()">Paste</button></li>',
+                                "9:14",
+                                `/en-US/docs/Web/HTML/Reference/Elements/menu
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<menu>
+  <li><button onclick="copy()">Copy</button></li>
+  <li><button onclick="cut()">Cut</button></li>
+  <li><button onclick="paste()">Paste</button></li>
+</menu>
+
+<ul>
+  <li><button onclick="copy()">Copy</button></li>
+  <li><button onclick="cut()">Cut</button></li>
+  <li><button onclick="paste()">Paste</button></li>
+</ul>
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
                         meta: {
                           children: {
                             name: {
@@ -22523,6 +36484,40 @@ html.elements.select.size`
                               message: "Unknown asset type",
                               data: [
                                 "column-row-span.html"
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    global_attributes: {
+                      children: {
+                        "data-_star_": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/data-*",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-inline-event-handlers",
+                                'Do not use inline event handler "onclick".',
+                                '  onclick="spaceships[this.dataset.shipId].blasted()" />',
+                                "9:2",
+                                `/en-US/docs/Web/HTML/Reference/Global_attributes/data-*
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<img
+  class="spaceship cruiserX3"
+  src="shipX3.png"
+  data-ship-id="324"
+  data-weapons="laserI laserII"
+  data-shields="72%"
+  data-x="414354"
+  data-y="85160"
+  data-z="31940"
+  onclick="spaceships[this.dataset.shipId].blasted()" />
+~~~
+`
                               ]
                             }
                           ]
@@ -22657,7 +36652,55 @@ http.headers.Use-As-Dictionary`,
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/HTTP/Guides/CSP",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onmouseover".',
+                            '<img onmouseover="console.log(`You\'ve been hacked!`)" />',
+                            "0:5",
+                            `/en-US/docs/Web/HTTP/Guides/CSP
+[no-inline-event-handlers] Do not use inline event handler "onmouseover".
+~~~
+<img onmouseover="console.log(\`You've been hacked!\`)" />
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onerror".',
+                            `<img src="x" onerror="console.log('Hello from an inline event handler')" />`,
+                            "0:13",
+                            `/en-US/docs/Web/HTTP/Guides/CSP
+[no-inline-event-handlers] Do not use inline event handler "onerror".
+~~~
+<img src="x" onerror="console.log('Hello from an inline event handler')" />
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            `<p onclick="console.log('Hello from an inline event handler')">click me</p>`,
+                            "0:3",
+                            `/en-US/docs/Web/HTTP/Guides/CSP
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<p onclick="console.log('Hello from an inline event handler')">click me</p>
+~~~
+`
+                          ]
+                        }
+                      ]
                     },
                     mime_types: {
                       children: {
@@ -22768,8 +36811,106 @@ http.headers.Use-As-Dictionary`,
                                   data: []
                                 }
                               ]
+                            },
+                            "script-src": {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/script-src",
+                              messages: [
+                                {
+                                  message: "HTML code issue",
+                                  data: [
+                                    "no-inline-event-handlers",
+                                    'Do not use inline event handler "onclick".',
+                                    '<button id="btn" onclick="doSomething()"></button>',
+                                    "0:17",
+                                    `/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/script-src
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<button id="btn" onclick="doSomething()"></button>
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "HTML code issue",
+                                  data: [
+                                    "no-inline-event-handlers",
+                                    'Do not use inline event handler "onclick".',
+                                    '<button onclick="myScript()">Submit</button>',
+                                    "7:8",
+                                    `/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/script-src
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<!-- Allowed by CSP: script-src 'sha256-{HASHED_INLINE_SCRIPT}' -->
+<script>
+  const inline = 1;
+</script>
+
+<!-- CSP: script-src 'sha256-{HASHED_EVENT_HANDLER}'
+      will not allow this event handler -->
+<button onclick="myScript()">Submit</button>
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "HTML code issue",
+                                  data: [
+                                    "no-inline-event-handlers",
+                                    'Do not use inline event handler "onclick".',
+                                    '<button onclick="myScript()">Submit</button>',
+                                    "1:8",
+                                    `/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/script-src
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<!-- I want to use addEventListener, but I can't :( -->
+<button onclick="myScript()">Submit</button>
+~~~
+`
+                                  ]
+                                }
+                              ]
+                            },
+                            "script-src-attr": {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/script-src-attr",
+                              messages: [
+                                {
+                                  message: "HTML code issue",
+                                  data: [
+                                    "no-inline-event-handlers",
+                                    'Do not use inline event handler "onclick".',
+                                    '<button id="btn" onclick="doSomething()"></button>',
+                                    "0:17",
+                                    `/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/script-src-attr
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<button id="btn" onclick="doSomething()"></button>
+~~~
+`
+                                  ]
+                                }
+                              ]
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-inline-event-handlers",
+                                'Do not use inline event handler "onclick".',
+                                '<button onclick="transferAllMyMoney()">Transfer all my money</button>',
+                                "0:8",
+                                `/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<button onclick="transferAllMyMoney()">Transfer all my money</button>
+~~~
+`
+                              ]
+                            }
+                          ]
                         },
                         forwarded: {
                           children: {},
@@ -22778,19 +36919,6 @@ http.headers.Use-As-Dictionary`,
                             {
                               message: "Missing syntax code block",
                               data: []
-                            }
-                          ]
-                        },
-                        link: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Link",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iana.org/assignments/link-relations/link-relations.xhtml",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         },
@@ -23026,6 +37154,28 @@ http.headers.Use-As-Dictionary`,
                           message: "External sandbox link",
                           data: [
                             "https://jsfiddle.net/v7gjv/9573/"
+                          ]
+                        }
+                      ]
+                    },
+                    expressions_and_operators: {
+                      children: {},
+                      slug: "/en-US/docs/Web/JavaScript/Guide/Expressions_and_operators",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onChange".',
+                            '<input type="text" name="age" size="3" onChange="validate(this, 18, 99);" />',
+                            "1:39",
+                            `/en-US/docs/Web/JavaScript/Guide/Expressions_and_operators
+[no-inline-event-handlers] Do not use inline event handler "onChange".
+~~~
+<p>Enter a number between 18 and 99:</p>
+<input type="text" name="age" size="3" onChange="validate(this, 18, 99);" />
+~~~
+`
                           ]
                         }
                       ]
@@ -23766,6 +37916,44 @@ console.log(regex2.unicodeSets);
                               ]
                             }
                           ]
+                        },
+                        this: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Operators/this",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-inline-event-handlers",
+                                'Do not use inline event handler "onclick".',
+                                '<button onclick="alert(this.tagName.toLowerCase());">Show this</button>',
+                                "0:8",
+                                `/en-US/docs/Web/JavaScript/Reference/Operators/this
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<button onclick="alert(this.tagName.toLowerCase());">Show this</button>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-inline-event-handlers",
+                                'Do not use inline event handler "onclick".',
+                                '<button onclick="alert((function () { return this; })());">',
+                                "0:8",
+                                `/en-US/docs/Web/JavaScript/Reference/Operators/this
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<button onclick="alert((function () { return this; })());">
+  Show inner this
+</button>
+~~~
+`
+                              ]
+                            }
+                          ]
                         }
                       }
                     },
@@ -24013,13 +38201,6 @@ console.log(regex2.unicodeSets);
                       slug: "/en-US/docs/Web/Performance/Guides/CSS_JavaScript_animation_performance",
                       messages: [
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://gsap.com/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
                           message: "HTTP link",
                           data: [
                             "http://velocityjs.org/",
@@ -24036,6 +38217,78 @@ console.log(regex2.unicodeSets);
               children: {
                 guides: {
                   children: {
+                    firefox_tracking_protection: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Privacy/Guides/Firefox_tracking_protection",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            `  onclick="trackLink('http://www.example.com', event);">`,
+                            "2:2",
+                            `/en-US/docs/Web/Privacy/Guides/Firefox_tracking_protection
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<a
+  href="http://www.example.com"
+  onclick="trackLink('http://www.example.com', event);">
+  Visit example.com
+</a>
+
+<script>
+  function trackLink(url, event) {
+    event.preventDefault();
+    ga("send", "event", "outbound", "click", url, {
+      transport: "beacon",
+      hitCallback() {
+        document.location = url;
+      },
+    });
+  }
+</script>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            `  onclick="trackLink('http://www.example.com', event);">`,
+                            "2:2",
+                            `/en-US/docs/Web/Privacy/Guides/Firefox_tracking_protection
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<a
+  href="http://www.example.com"
+  onclick="trackLink('http://www.example.com', event);">
+  Visit example.com
+</a>
+
+<script>
+  function trackLink(url, event) {
+    event.preventDefault();
+    if (window.ga && ga.loaded) {
+      ga("send", "event", "outbound", "click", url, {
+        transport: "beacon",
+        hitCallback() {
+          document.location = url;
+        },
+      });
+    } else {
+      document.location = url;
+    }
+  }
+</script>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
                     privacy_sandbox: {
                       children: {
                         partitioned_cookies: {
@@ -24192,6 +38445,32 @@ console.log(regex2.unicodeSets);
                           data: []
                         }
                       ]
+                    },
+                    xss: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Security/Attacks/XSS",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onerror".',
+                            `  <img src="x" onerror="alert('hello!')" />`,
+                            "1:15",
+                            `/en-US/docs/Web/Security/Attacks/XSS
+[no-inline-event-handlers] Do not use inline event handler "onerror".
+~~~
+<div>
+  <img src="x" onerror="alert('hello!')" />
+  <script>
+    alert("hello!");
+  </script>
+</div>
+~~~
+`
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/Security/Attacks",
@@ -24323,6 +38602,51 @@ html.elements.script.integrity`,
             },
             svg: {
               children: {
+                guides: {
+                  children: {
+                    applying_svg_effects_to_html_content: {
+                      children: {},
+                      slug: "/en-US/docs/Web/SVG/Guides/Applying_SVG_effects_to_HTML_content",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-event-handlers",
+                            'Do not use inline event handler "onclick".',
+                            '<button onclick="toggleRadius()">Toggle radius</button>',
+                            "13:8",
+                            `/en-US/docs/Web/SVG/Guides/Applying_SVG_effects_to_HTML_content
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<p class="target" style="background:lime;">
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+</p>
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipisicing
+  <em class="target"
+    >elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+    aliqua.</em
+  >
+  Ut enim ad minim veniam.
+</p>
+
+<button onclick="toggleRadius()">Toggle radius</button>
+
+<svg height="0">
+  <clipPath id="clipping-path-1" clipPathUnits="objectBoundingBox">
+    <circle cx="0.25" cy="0.25" r="0.25" id="circle" />
+    <rect x="0.5" y="0.2" width="0.5" height="0.8" />
+  </clipPath>
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 reference: {
                   children: {
                     attribute: {
@@ -25820,6 +40144,19 @@ svg.elements.feSpotLight.z`
                   children: {
                     svg_from_scratch: {
                       children: {
+                        getting_started: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Getting_started",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://websniffer.com/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         paths: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Paths",
@@ -26344,8 +40681,18 @@ function createTable(root, data, displayedMessages, fileIncluded, showMessage) {
       }
       for (const value of message.data) {
         let elem = tr2.appendChild(document.createElement("td"));
+        const lines = typeof value === "string" ? value.match(/\n/g)?.length ?? 0 : 0;
+        if (lines > 5) {
+          const details = document.createElement("details");
+          const summary = document.createElement("summary");
+          summary.textContent = `${lines} lines`;
+          details.append(summary);
+          elem = elem.appendChild(details);
+        }
         if (typeof value === "string" && value.includes("  "))
           elem = elem.appendChild(document.createElement("pre"));
+        else
+          elem = elem.appendChild(document.createElement("div"));
         elem.innerText = value ?? "";
       }
       maxDataLen = Math.max(maxDataLen, message.data.length);
