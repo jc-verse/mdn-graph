@@ -6,5 +6,9 @@
 /en-US/docs/Web/API/WebGL_API/Matrix_math_for_the_web	The order that matrices are multiplied in matters. When multiplying numbers, a * b = c, and b * a = c are both true. For example 3 * 4 = 12, and 4 * 3 = 12. In math, these numbers would be described as
 /en-US/docs/Web/CSS/color_value/lab	functional notation expresses a given color in the CIE L*a*b*
 /en-US/docs/Web/CSS/CSS_colors/Color_values	functional notation expresses a given color in the CIE L*a*b* color space. The
+/en-US/docs/MDN/Writing_guidelines/Writing_style_guide	: Use the term "element" to refer to HTML and XML elements, instead of "tag". In addition, the element should be wrapped in angle brackets "<>" and should be styled using backticks (`). For example, using <input> inside backticks will style it as
+/en-US/docs/MDN/Writing_guidelines/Writing_style_guide	As shown in the previous examples, add code formatting using backticks (`) to keywords and literals in the link text, even though the formatting is not used in page and section titles. For example, for the page title "Array() constructor", the link text will be
+/en-US/docs/Web/API/KeyboardEvent/keyCode	Back tick ("`") key.
+/en-US/docs/Web/API/UI_Events/Keyboard_event_key_values	`
   The error message actually contains backticks
 /en-US/docs/Web/JavaScript/Reference/Errors	SyntaxError: cannot use `??` unparenthesized within `||` and `&&` expressions

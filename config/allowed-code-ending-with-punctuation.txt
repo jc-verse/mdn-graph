@@ -1,0 +1,39 @@
+?.
+\.
+\,
+\\.
+..
+*.
+,,
+"():<>?@[\]{},
+1 2 3 . . .
+01 02 03 . . . 09 10 11 . . .
+a b c . . .y z aa ab . . .
+A B C . . . Y Z AA AB . . .
+i ii iii iv v . . .
+I II III IV V . . .
+code .
+data:*/*;base64,
+document.execCommand('cut'/'copy') was denied because it was not called from inside a short running user-generated event handler.
+git add .
+www.
+Hello Chris: welcome to our company.
+Our company is called Chris.
+Refused to apply inline style because it violates the following Content Security Policy Directive: "xyz". uvw.
+Refused to execute inline event handler because it violates the following Content Security Policy directive: "xyz". uvw.
+Refused to execute inline script because it violates the following Content Security Policy directive: "xyz". uvw.
+Refused to run the JavaScript URL because it violates the following Content Security Policy directive: "xyz". uvw.
+Scripts may not close windows that were not opened by script.
+.prototype.
+$.	/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Literal_character
+1.0.	/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/version/format
+1.0..	/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/version/format
+2.	/en-US/docs/Mozilla/Firefox/Releases/70
+Module.	/en-US/docs/Web/JavaScript/Guide/Modules
+None.	/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/API_method_subpage_template
+myObject.	/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Object_prototypes
+obj1.	/en-US/docs/Web/JavaScript/Reference/Operators/this
+window.	/en-US/docs/Web/API/Window/window
+global.	/en-US/docs/Web/JavaScript/Reference/Operators/Assignment
+globalThis.	/en-US/docs/Web/JavaScript/Reference/Operators/Assignment
+window.	/en-US/docs/Web/JavaScript/Reference/Operators/Assignment

@@ -211,18 +211,6 @@ if (userGuess = randomNumber) {
 /en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
 [syntax] Opening tag "a" not terminated.
 ~~~
-<a href=https://www.mozilla.org/>favorite website</a>
-~~~
-
-/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
-[syntax] Opening tag "a" not terminated.
-~~~
-<a href=https://www.mozilla.org/ title=The Mozilla homepage>favorite website</a>
-~~~
-
-/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
-[syntax] Opening tag "a" not terminated.
-~~~
 <a href="https://www.example.com" title="An "interesting" reference">A link to my example.</a>
 ~~~
 
@@ -239,18 +227,6 @@ if (userGuess = randomNumber) {
 [syntax] Unexpected character "EOF"
 ~~~
 <a href="https://www.example.com'>A link to my example.</a>
-~~~
-
-/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
-[syntax] Unexpected closing tag "a". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-~~~
-<a href=https://www.mozilla.org/>favorite website</a>
-~~~
-
-/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
-[syntax] Unexpected closing tag "a". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-~~~
-<a href=https://www.mozilla.org/ title=The Mozilla homepage>favorite website</a>
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax

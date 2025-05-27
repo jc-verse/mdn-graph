@@ -340,6 +340,7 @@ function displayWarnings() {
         "Bad href",
         "Bad macro",
         "Bad sidebar link",
+        "Code ending with punctuation",
         "Code with space",
         "Code with underscore",
         "Duplicate specifications",

@@ -2,6 +2,10 @@ import type { CheerioAPI } from "cheerio";
 import type { Element } from "domhandler";
 import { readConfig, configHas } from "./config.js";
 
+const allowedCodeEndingWithPunctuation = new Map(
+  (await readConfig("allowed-code-ending-with-punctuation.txt")).map((x) => [x, false]),
+);
+
 const allowedCodeLinkTextRec = new Map(
   (await readConfig("allowed-code-link-text.txt")).map((x) => [x, false]),
 );
@@ -148,13 +152,13 @@ export function checkContent(
       report("Bad DL", $(li).text().slice(0, 50));
     }
   });
-  $(":not(code, code *, pre, pre *, math, math *)").each((i, el) => {
+  $(":not(code, code *, pre, pre *, math, math *, kbd, kbd *)").each((i, el) => {
     const texts = $(el)
       .contents()
       .filter((i, el) => el.type === "text");
     for (const text of texts) {
       if (
-        /`[^`]+`|```|\*[^*]+\*|\[.+\]\(.+\)|\b_[^_]+_\b/.test(text.data) &&
+        /`|\*[^*]+\*|\[.+\]\(.+\)|\b_[^_]+_\b/.test(text.data) &&
         !configHas(
           allowedUnrenderedMarkdown,
           `${context.slug}\t${text.data.trim()}`,
@@ -239,6 +243,21 @@ export function checkContent(
       );
     }
   });
+  $("code:not(pre code)").each((i, code) => {
+    const text = $(code).text();
+    if (((text.endsWith(".") && !text.endsWith("...")) || text.endsWith(",")) && text.length > 1 && !configHas(
+      allowedCodeEndingWithPunctuation,
+      `${text}\t${context.slug}`,
+    ) && !configHas(
+      allowedCodeEndingWithPunctuation,
+      text,
+    )) {
+      report(
+        "Code ending with punctuation",
+        text,
+      );
+    }
+  });
   $("dd + dd").each((i, dd) => {
     report("Bad DL", $(dd).text().slice(0, 50));
   });
@@ -260,6 +279,12 @@ export function checkContent(
 }
 
 export function postCheckContent() {
+  for (const [code, used] of allowedCodeEndingWithPunctuation) {
+    if (!used) console.warn("Unused code ending with punctuation", code);
+  }
+  for (const [code, used] of allowedUnrenderedMarkdown) {
+    if (!used) console.warn("Unused unrendered Markdown config", code);
+  }
   for (const [code, used] of allowedCodeLinkTextRec) {
     if (!used) console.warn("Unused code link text", code);
   }

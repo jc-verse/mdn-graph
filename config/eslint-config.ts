@@ -57,30 +57,17 @@ export default [
       camelcase: "off", // 322
       "no-restricted-syntax": "off", // 321
       "func-names": "off", // 319
-      eqeqeq: "off", // TODO
       "no-alert": "off", // 185
       "multiline-comment-style": "off", // 173
-      "no-var": "off", // TODO
       "@typescript-eslint/no-use-before-define": "off", // 145
       "dot-notation": "off", // 131
       "no-implicit-coercion": "off", // 122
       "regexp/prefer-named-capture-group": "off", // 122
-      "no-constant-binary-expression": "off", // TODO
       "prefer-template": "off", // 111
       "@typescript-eslint/no-redeclare": "off", // 105
-      "@typescript-eslint/prefer-for-of": "off", // TODO
       "prefer-arrow-callback": "off", // TODO
       "consistent-return": "off", // 85
-      "object-shorthand": "off", // TODO
-      "no-new-wrappers": "off", // TODO
-      "no-eval": "off", // TODO
-      "no-sparse-arrays": "off", // TODO
-      "no-prototype-builtins": "off", // TODO
-      "no-loss-of-precision": "off", // TODO
-      "no-self-compare": "off", // TODO
       "regexp/no-super-linear-move": "off", // 57
-      "prefer-regex-literals": "off", // TODO
-      "prefer-exponentiation-operator": "off", // TODO
       "no-return-assign": "off", // TODO
       "regexp/no-invalid-regexp": "off", // 47
       "func-style": "off", // TODO
