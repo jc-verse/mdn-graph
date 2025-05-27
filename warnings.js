@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-khjj59ek.js";
+} from "./chunk-b6g9e65j.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -1299,8 +1299,8 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://v2.vuejs.org/v2/guide/comparison.html",
-                            "The operation timed out."
+                            "https://new.drupal.org/",
+                            403
                           ]
                         }
                       ]
@@ -2072,13 +2072,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vuejs.org/guide/scaling-up/sfc.html",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2703,6 +2696,18 @@ body {
                 },
                 structuring_content: {
                   children: {
+                    basic_html_syntax: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax",
+                      messages: [
+                        {
+                          message: "Code ending with punctuation",
+                          data: [
+                            "</em>."
+                          ]
+                        }
+                      ]
+                    },
                     general_embedding_technologies: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/General_embedding_technologies",
@@ -2710,6 +2715,19 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        }
+                      ]
+                    },
+                    html_images: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -4858,6 +4876,30 @@ input[type="button"] {
                     },
                     django: {
                       children: {
+                        development_environment: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/development_environment",
+                          messages: [
+                            {
+                              message: "Code ending with punctuation",
+                              data: [
+                                "python3."
+                              ]
+                            }
+                          ]
+                        },
+                        models: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Models",
+                          messages: [
+                            {
+                              message: "Code ending with punctuation",
+                              data: [
+                                "type__cover__name__exact='hard'."
+                              ]
+                            }
+                          ]
+                        },
                         web_application_security: {
                           children: {},
                           slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/web_application_security",
@@ -4934,50 +4976,6 @@ input[type="button"] {
                     },
                     express_nodejs: {
                       children: {
-                        forms: {
-                          children: {
-                            create_genre_form: {
-                              children: {},
-                              slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/forms/Create_genre_form",
-                              messages: [
-                                {
-                                  message: "JS code issue",
-                                  data: [
-                                    "no-useless-return",
-                                    "Unnecessary return statement.",
-                                    "    return;",
-                                    "16:5 - 16:12",
-                                    `/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/forms/Create_genre_form
-[no-useless-return] Unnecessary return statement.
-~~~
-// Process request after validation and sanitization.
-asyncHandler(async (req, res, next) => {
-  // Extract the validation errors from a request.
-  const errors = validationResult(req);
-
-  // Create a genre object with escaped and trimmed data.
-  const genre = new Genre({ name: req.body.name });
-
-  if (!errors.isEmpty()) {
-    // There are errors. Render the form again with sanitized values/error messages.
-    res.render("genre_form", {
-      title: "Create Genre",
-      genre: genre,
-      errors: errors.array(),
-    });
-    return;
-  }
-  // Data from form is valid.
-  // …
-});
-~~~
-`
-                                  ]
-                                }
-                              ]
-                            }
-                          }
-                        },
                         introduction: {
                           children: {},
                           slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
@@ -4987,6 +4985,18 @@ asyncHandler(async (req, res, next) => {
                               data: [
                                 "http://callbackhell.com/",
                                 ""
+                              ]
+                            }
+                          ]
+                        },
+                        skeleton_website: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/skeleton_website",
+                          messages: [
+                            {
+                              message: "Code ending with punctuation",
+                              data: [
+                                '"type": "module",'
                               ]
                             }
                           ]
@@ -5000,6 +5010,27 @@ asyncHandler(async (req, res, next) => {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            getting_started: {
+              children: {
+                environment_setup: {
+                  children: {
+                    browsing_the_web: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Browsing_the_web",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gemini.google.com/app",
+                            502
+                          ]
                         }
                       ]
                     }
@@ -5504,6 +5535,24 @@ var(--custom-prop, var(--default-value, red))
                         },
                         cookies: {
                           children: {
+                            getall: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies/getAll",
+                              messages: [
+                                {
+                                  message: "Possibly unrendered Markdown",
+                                  data: [
+                                    "If included without `topLevelSite', all cookies from partitioned and unpartitioned storage are returned."
+                                  ]
+                                },
+                                {
+                                  message: "Possibly unrendered Markdown",
+                                  data: [
+                                    "If included with the specified `topLevelSite', cookies from the specified partition storage are returned."
+                                  ]
+                                }
+                              ]
+                            },
                             samesitestatus: {
                               children: {},
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies/SameSiteStatus",
@@ -5864,6 +5913,22 @@ var(--custom-prop, var(--default-value, red))
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        runtime: {
+                          children: {
+                            getcontexts: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/getContexts",
+                              messages: [
+                                {
+                                  message: "Possibly unrendered Markdown",
+                                  data: [
+                                    "string`. The origin of the document associated with the context or undefined if the context is not hosted in a document."
+                                  ]
                                 }
                               ]
                             }
@@ -6246,6 +6311,145 @@ var(--custom-prop, var(--default-value, red))
                             {
                               message: "Unreachable via sidebar",
                               data: []
+                            },
+                            {
+                              message: "JS code issue",
+                              data: [
+                                "no-var",
+                                "Unexpected var, use let or const instead.",
+                                "var clonedObject = cloneInto(myObject, targetWindow);",
+                                "1:1 - 1:54",
+                                `/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts/cloneInto
+[no-var] Unexpected var, use let or const instead.
+~~~
+var clonedObject = cloneInto(myObject, targetWindow);
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "JS code issue",
+                              data: [
+                                "no-var",
+                                "Unexpected var, use let or const instead.",
+                                'var addonScriptObject = { greeting: "hello from your extension" };',
+                                "2:1 - 2:67",
+                                `/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts/cloneInto
+[no-var] Unexpected var, use let or const instead.
+~~~
+// content script
+var addonScriptObject = { greeting: "hello from your extension" };
+window.addonScriptObject = cloneInto(addonScriptObject, window);
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "JS code issue",
+                              data: [
+                                "no-var",
+                                "Unexpected var, use let or const instead.",
+                                'var addonScriptObject = { message: "hello from your extension" };',
+                                "2:1 - 2:66",
+                                `/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts/cloneInto
+[no-var] Unexpected var, use let or const instead.
+~~~
+// content script
+var addonScriptObject = { message: "hello from your extension" };
+window.foo(cloneInto(addonScriptObject, window)); // "they said: hello from your extension"
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "JS code issue",
+                              data: [
+                                "no-var",
+                                "Unexpected var, use let or const instead.",
+                                "var addonScriptObject = {",
+                                "2:1 - 6:3",
+                                `/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts/cloneInto
+[no-var] Unexpected var, use let or const instead.
+~~~
+// content script
+var addonScriptObject = {
+  greetMe: function () {
+    alert("hello from your extension");
+  },
+};
+window.addonScriptObject = cloneInto(addonScriptObject, window, {
+  cloneFunctions: true,
+});
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "JS code issue",
+                              data: [
+                                "no-var",
+                                "Unexpected var, use let or const instead.",
+                                'var test = document.getElementById("test");',
+                                "2:1 - 2:44",
+                                `/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts/cloneInto
+[no-var] Unexpected var, use let or const instead.
+~~~
+// page script
+var test = document.getElementById("test");
+test.addEventListener(
+  "click",
+  function () {
+    window.addonScriptObject.greetMe();
+  },
+  false,
+);
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "JS code issue",
+                              data: [
+                                "no-var",
+                                "Unexpected var, use let or const instead.",
+                                "var addonScriptObject = {",
+                                "2:1 - 4:3",
+                                `/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts/cloneInto
+[no-var] Unexpected var, use let or const instead.
+~~~
+// content script
+var addonScriptObject = {
+  body: window.document.body,
+};
+window.addonScriptObject = cloneInto(addonScriptObject, window, {
+  wrapReflectors: true,
+});
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "JS code issue",
+                              data: [
+                                "no-var",
+                                "Unexpected var, use let or const instead.",
+                                'var test = document.getElementById("test");',
+                                "2:1 - 2:44",
+                                `/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts/cloneInto
+[no-var] Unexpected var, use let or const instead.
+~~~
+// page script
+var test = document.getElementById("test");
+test.addEventListener(
+  "click",
+  function () {
+    console.log(window.addonScriptObject.body.innerHTML);
+  },
+  false,
+);
+~~~
+`
+                              ]
                             }
                           ]
                         },
@@ -6256,6 +6460,232 @@ var(--custom-prop, var(--default-value, red))
                             {
                               message: "Unreachable via sidebar",
                               data: []
+                            },
+                            {
+                              message: "JS code issue",
+                              data: [
+                                "no-var",
+                                "Unexpected var, use let or const instead.",
+                                'var user = { name: "Jim" };',
+                                "2:1 - 2:28",
+                                `/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts/exportFunction
+[no-var] Unexpected var, use let or const instead.
+~~~
+// less-privileged scope: for example, a page script
+var user = { name: "Jim" };
+var test = document.getElementById("test");
+test.addEventListener(
+  "click",
+  function () {
+    console.log(user.name); // "Jim"
+    window.changeMyName(user);
+    console.log(user.name); // "Bill"
+  },
+  false,
+);
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "JS code issue",
+                              data: [
+                                "no-var",
+                                "Unexpected var, use let or const instead.",
+                                'var test = document.getElementById("test");',
+                                "3:1 - 3:44",
+                                `/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts/exportFunction
+[no-var] Unexpected var, use let or const instead.
+~~~
+// less-privileged scope: for example, a page script
+var user = { name: "Jim" };
+var test = document.getElementById("test");
+test.addEventListener(
+  "click",
+  function () {
+    console.log(user.name); // "Jim"
+    window.changeMyName(user);
+    console.log(user.name); // "Bill"
+  },
+  false,
+);
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "JS code issue",
+                              data: [
+                                "no-var",
+                                "Unexpected var, use let or const instead.",
+                                "var user = {",
+                                "2:1 - 6:3",
+                                `/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts/exportFunction
+[no-var] Unexpected var, use let or const instead.
+~~~
+// less-privileged scope: for example, a page script
+var user = {
+  getUser: function () {
+    return "Bill";
+  },
+};
+var test = document.getElementById("test");
+test.addEventListener(
+  "click",
+  function () {
+    window.logUser(user);
+  },
+  false,
+);
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "JS code issue",
+                              data: [
+                                "no-var",
+                                "Unexpected var, use let or const instead.",
+                                'var test = document.getElementById("test");',
+                                "7:1 - 7:44",
+                                `/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts/exportFunction
+[no-var] Unexpected var, use let or const instead.
+~~~
+// less-privileged scope: for example, a page script
+var user = {
+  getUser: function () {
+    return "Bill";
+  },
+};
+var test = document.getElementById("test");
+test.addEventListener(
+  "click",
+  function () {
+    window.logUser(user);
+  },
+  false,
+);
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "JS code issue",
+                              data: [
+                                "no-var",
+                                "Unexpected var, use let or const instead.",
+                                'var test = document.getElementById("test");',
+                                "5:1 - 5:44",
+                                `/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts/exportFunction
+[no-var] Unexpected var, use let or const instead.
+~~~
+// less-privileged scope: for example, a page script
+function getUser() {
+  return "Bill";
+}
+var test = document.getElementById("test");
+test.addEventListener(
+  "click",
+  function () {
+    window.logUser(getUser);
+  },
+  false,
+);
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "JS code issue",
+                              data: [
+                                "no-var",
+                                "Unexpected var, use let or const instead.",
+                                'var salutation = "hello ";',
+                                "2:1 - 2:27",
+                                `/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts/exportFunction
+[no-var] Unexpected var, use let or const instead.
+~~~
+// extension-script.js
+var salutation = "hello ";
+function greetMe(user) {
+  return salutation + user;
+}
+exportFunction(greetMe, window, { defineAs: "foo" });
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "JS code issue",
+                              data: [
+                                "no-var",
+                                "Unexpected var, use let or const instead.",
+                                'var salutation = "hello ";',
+                                "2:1 - 2:27",
+                                `/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts/exportFunction
+[no-var] Unexpected var, use let or const instead.
+~~~
+// extension-script.js
+var salutation = "hello ";
+function greetMe(user) {
+  return salutation + user;
+}
+window.foo = exportFunction(greetMe, window);
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "JS code issue",
+                              data: [
+                                "no-var",
+                                "Unexpected var, use let or const instead.",
+                                'var greeting = foo("alice");',
+                                "2:1 - 2:29",
+                                `/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts/exportFunction
+[no-var] Unexpected var, use let or const instead.
+~~~
+// page-script.js
+var greeting = foo("alice");
+console.log(greeting);
+// "hello alice"
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "JS code issue",
+                              data: [
+                                "no-var",
+                                "Unexpected var, use let or const instead.",
+                                "var bar = {};",
+                                "2:1 - 2:14",
+                                `/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts/exportFunction
+[no-var] Unexpected var, use let or const instead.
+~~~
+// page-script.js
+var bar = {};
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "JS code issue",
+                              data: [
+                                "no-var",
+                                "Unexpected var, use let or const instead.",
+                                'var value = bar.greetMe("bob");',
+                                "2:1 - 2:32",
+                                `/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts/exportFunction
+[no-var] Unexpected var, use let or const instead.
+~~~
+// page-script.js
+var value = bar.greetMe("bob");
+console.log(value);
+// "hello bob"
+~~~
+`
+                              ]
                             }
                           ]
                         }
@@ -6316,6 +6746,12 @@ webextensions.api.clipboard`,
                       children: {},
                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Internationalization",
                       messages: [
+                        {
+                          message: "Code ending with punctuation",
+                          data: [
+                            "zh."
+                          ]
+                        },
                         {
                           message: "HTTP link",
                           data: [
@@ -6489,6 +6925,12 @@ webextensions.manifest.options_ui`,
                       children: {},
                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_contextual_identities",
                       messages: [
+                        {
+                          message: "Code ending with punctuation",
+                          data: [
+                            "contextualIdentities.query."
+                          ]
+                        },
                         {
                           message: "JS code issue",
                           data: [
@@ -7968,6 +8410,12 @@ else if (e.target.id === "tabs-alert-info") {
                           slug: "/en-US/docs/Mozilla/Firefox/Releases/8/Updating_add-ons",
                           messages: [
                             {
+                              message: "Code ending with punctuation",
+                              data: [
+                                "security.ssl2."
+                              ]
+                            },
+                            {
                               message: "Broken link",
                               data: [
                                 "/en-US/docs/Mozilla/Developer_guide/Interface_Compatibility"
@@ -8564,6 +9012,18 @@ else if (e.target.id === "tabs-alert-info") {
                         }
                       ]
                     },
+                    "29": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/29",
+                      messages: [
+                        {
+                          message: "Code ending with punctuation",
+                          data: [
+                            "0."
+                          ]
+                        }
+                      ]
+                    },
                     "30": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/30",
@@ -8983,6 +9443,12 @@ else if (e.target.id === "tabs-alert-info") {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/49",
                       messages: [
+                        {
+                          message: "Code ending with punctuation",
+                          data: [
+                            '"AudioVolumeMute".'
+                          ]
+                        },
                         {
                           message: "Broken anchor",
                           data: [
@@ -10206,7 +10672,55 @@ else if (e.target.id === "tabs-alert-info") {
           ]
         },
         related: {
-          children: {},
+          children: {
+            imsc: {
+              children: {
+                imsc_and_other_standards: {
+                  children: {},
+                  slug: "/en-US/docs/Related/IMSC/IMSC_and_other_standards",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://tech.ebu.ch/publications/tech3380",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://tech.ebu.ch/publications/tech3380",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                namespaces: {
+                  children: {},
+                  slug: "/en-US/docs/Related/IMSC/Namespaces",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://tech.ebu.ch/publications/tech3390",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                }
+              },
+              slug: "/en-US/docs/Related/IMSC",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://tech.ebu.ch/publications/tech3380",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            }
+          },
           slug: "/en-US/docs/Related",
           messages: [
             {
@@ -11415,6 +11929,22 @@ body {
                     }
                   ]
                 },
+                audiocontext: {
+                  children: {
+                    setsinkid: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/AudioContext/setSinkId",
+                      messages: [
+                        {
+                          message: "Possibly unrendered Markdown",
+                          data: [
+                            " attribute` as the parameter."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 audioworkletprocessor: {
                   children: {
                     parameterdescriptors: {
@@ -11774,6 +12304,34 @@ api.MessagePort`,
                     }
                   }
                 },
+                cssmathinvert: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/CSSMathInvert",
+                  messages: [
+                    {
+                      message: "Code ending with punctuation",
+                      data: [
+                        "calc(1 / <value>)."
+                      ]
+                    }
+                  ]
+                },
+                cssprimitivevalue: {
+                  children: {
+                    setstringvalue: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSSPrimitiveValue/setStringValue",
+                      messages: [
+                        {
+                          message: "Possibly unrendered Markdown",
+                          data: [
+                            "`NoModificationAllowedError' "
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 csspropertyrule: {
                   children: {
                     initialvalue: {
@@ -11784,6 +12342,80 @@ api.MessagePort`,
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Web/CSS/declaration-value"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                cssstylesheet: {
+                  children: {
+                    insertrule: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSSStyleSheet/insertRule",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-const-assign",
+                            "'rule' is constant.",
+                            "      rule = rule[1];",
+                            "35:7 - 35:11",
+                            `/en-US/docs/Web/API/CSSStyleSheet/insertRule
+[no-const-assign] 'rule' is constant.
+~~~
+/**
+ * Add a stylesheet rule to the document (it may be better practice
+ * to dynamically change classes, so style information can be kept in
+ * genuine stylesheets and avoid adding extra elements to the DOM).
+ * Note that an array is needed for declarations and rules since ECMAScript does
+ * not guarantee a predictable object iteration order, and since CSS is
+ * order-dependent.
+ * @param {Array} rules Accepts an array of JSON-encoded declarations
+ * @example
+addStylesheetRules([
+  ['h2', // Also accepts a second argument as an array of arrays instead
+    ['color', 'red'],
+    ['background-color', 'green', true] // 'true' for !important rules
+  ],
+  ['.myClass',
+    ['background-color', 'yellow']
+  ]
+]);
+*/
+function addStylesheetRules(rules) {
+  const styleEl = document.createElement("style");
+
+  // Append <style> element to <head>
+  document.head.appendChild(styleEl);
+
+  // Grab style element's sheet
+  const styleSheet = styleEl.sheet;
+
+  for (const rule of rules) {
+    let i = 1,
+      selector = rule[0],
+      propStr = "";
+    // If the second argument of a rule is an array of arrays, correct our variables.
+    if (Array.isArray(rule[1][0])) {
+      rule = rule[1];
+      i = 0;
+    }
+
+    for (; i < rule.length; i++) {
+      const prop = rule[i];
+      propStr += \`\${prop[0]}: \${prop[1]}\${prop[2] ? " !important" : ""};\\n\`;
+    }
+
+    // Insert CSS Rule
+    styleSheet.insertRule(
+      \`\${selector}{\${propStr}}\`,
+      styleSheet.cssRules.length,
+    );
+  }
+}
+~~~
+`
                           ]
                         }
                       ]
@@ -15172,6 +15804,18 @@ api.DeviceOrientationEvent`,
                         }
                       ]
                     },
+                    prepend: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document/prepend",
+                      messages: [
+                        {
+                          message: "Possibly unrendered Markdown",
+                          data: [
+                            "If you try to prepend an element to an existing HTML document,\nit might throw a `HierarchyRequestError' "
+                          ]
+                        }
+                      ]
+                    },
                     querycommandstate: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Document/queryCommandState",
@@ -15300,6 +15944,30 @@ api.DeviceOrientationEvent`,
 </html>
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    },
+                    checkvisibility: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Element/checkVisibility",
+                      messages: [
+                        {
+                          message: "Possibly unrendered Markdown",
+                          data: [
+                            " then all tests should return `false."
+                          ]
+                        }
+                      ]
+                    },
+                    computedstylemap: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Element/computedStyleMap",
+                      messages: [
+                        {
+                          message: "Code ending with punctuation",
+                          data: [
+                            "computedStyleMap()."
                           ]
                         }
                       ]
@@ -15943,6 +16611,22 @@ api.Document.fullscreen`,
                       ]
                     }
                   ]
+                },
+                htmlcanvaselement: {
+                  children: {
+                    contextrestored_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLCanvasElement/contextrestored_event",
+                      messages: [
+                        {
+                          message: "Possibly unrendered Markdown",
+                          data: [
+                            "OffscreenCanvas: contextlost` event"
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 htmlelement: {
                   children: {
@@ -17462,6 +18146,22 @@ function checkDeadlines() {
                     }
                   }
                 },
+                paymentresponse: {
+                  children: {
+                    retry: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PaymentResponse/retry",
+                      messages: [
+                        {
+                          message: "Possibly unrendered Markdown",
+                          data: [
+                            "`paymentMethod "
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 performance_api: {
                   children: {
                     monitoring_bfcache_blocking_reasons: {
@@ -17480,6 +18180,49 @@ function checkDeadlines() {
                       ]
                     }
                   }
+                },
+                performancetiming: {
+                  children: {
+                    loadeventend: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PerformanceTiming/loadEventEnd",
+                      messages: [
+                        {
+                          message: "Code ending with punctuation",
+                          data: [
+                            "0."
+                          ]
+                        }
+                      ]
+                    },
+                    loadeventstart: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PerformanceTiming/loadEventStart",
+                      messages: [
+                        {
+                          message: "Code ending with punctuation",
+                          data: [
+                            "0."
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/PerformanceTiming",
+                  messages: [
+                    {
+                      message: "Code ending with punctuation",
+                      data: [
+                        "0."
+                      ]
+                    },
+                    {
+                      message: "Code ending with punctuation",
+                      data: [
+                        "0."
+                      ]
+                    }
+                  ]
                 },
                 periodicsyncevent: {
                   children: {
@@ -17866,6 +18609,22 @@ function checkDeadlines() {
                           message: "External sandbox link",
                           data: [
                             "https://jsbin.com/gameboy/edit?js,console"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                remoteplayback: {
+                  children: {
+                    cancelwatchavailability: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/RemotePlayback/cancelWatchAvailability",
+                      messages: [
+                        {
+                          message: "Code ending with punctuation",
+                          data: [
+                            "cancelWatchAvailability()."
                           ]
                         }
                       ]
@@ -18320,6 +19079,34 @@ function checkDeadlines() {
                     }
                   ]
                 },
+                speculation_rules_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Speculation_Rules_API",
+                  messages: [
+                    {
+                      message: "Possibly unrendered Markdown",
+                      data: [
+                        ' (requires the containing document\'s visibility state to be `"visible", '
+                      ]
+                    }
+                  ]
+                },
+                storage_access_api: {
+                  children: {
+                    related_website_sets: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Storage_Access_API/Related_website_sets",
+                      messages: [
+                        {
+                          message: "Code ending with punctuation",
+                          data: [
+                            "i.e."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 stylesheet: {
                   children: {
                     href: {
@@ -18659,6 +19446,22 @@ function checkDeadlines() {
                     }
                   ]
                 },
+                textdecoder: {
+                  children: {
+                    encoding: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/TextDecoder/encoding",
+                      messages: [
+                        {
+                          message: "Possibly unrendered Markdown",
+                          data: [
+                            "'`,\n"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 touch_events: {
                   children: {
                     "multi-touch_interaction": {
@@ -18746,6 +19549,22 @@ function checkDeadlines() {
                     }
                   ]
                 },
+                transitionevent: {
+                  children: {
+                    pseudoelement: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/TransitionEvent/pseudoElement",
+                      messages: [
+                        {
+                          message: "Code ending with punctuation",
+                          data: [
+                            "''``."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 translator_and_language_detector_apis: {
                   children: {
                     using: {
@@ -18806,7 +19625,7 @@ async function handleTranslation(e) {
       translator = await Translator.create({
         sourceLanguage: detectedLanguage,
         targetLanguage: formData.get("translateLanguage"),
-        monitor: (monitor) => {
+        monitor(monitor) {
           monitor.addEventListener("downloadprogress", (e) => {
             translateOutput.textContent = \`Downloaded \${Math.floor(
               e.loaded * 100
@@ -19354,7 +20173,167 @@ api.Window.sessionStorage`,
                   }
                 },
                 web_workers_api: {
-                  children: {},
+                  children: {
+                    using_web_workers: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Web_Workers_API/Using_web_workers",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-eval",
+                            "eval can be harmful.",
+                            "  return eval(`(${JSON.stringify(vVal)})`);",
+                            "2:10 - 2:14",
+                            `/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
+[no-eval] eval can be harmful.
+~~~
+function emulateMessage(vVal) {
+  return eval(\`(\${JSON.stringify(vVal)})\`);
+}
+
+// Tests
+
+// test #1
+const example1 = new Number(3);
+console.log(typeof example1); // object
+console.log(typeof emulateMessage(example1)); // number
+
+// test #2
+const example2 = true;
+console.log(typeof example2); // boolean
+console.log(typeof emulateMessage(example2)); // boolean
+
+// test #3
+const example3 = new String("Hello World");
+console.log(typeof example3); // object
+console.log(typeof emulateMessage(example3)); // string
+
+// test #4
+const example4 = {
+  name: "Carina Anand",
+  age: 43,
+};
+console.log(typeof example4); // object
+console.log(typeof emulateMessage(example4)); // object
+
+// test #5
+function Animal(type, age) {
+  this.type = type;
+  this.age = age;
+}
+const example5 = new Animal("Cat", 3);
+alert(example5.constructor); // Animal
+alert(emulateMessage(example5).constructor); // Object
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-new-wrappers",
+                            "Do not use Number as a constructor.",
+                            "const example1 = new Number(3);",
+                            "8:18 - 8:31",
+                            `/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
+[no-new-wrappers] Do not use Number as a constructor.
+~~~
+function emulateMessage(vVal) {
+  return eval(\`(\${JSON.stringify(vVal)})\`);
+}
+
+// Tests
+
+// test #1
+const example1 = new Number(3);
+console.log(typeof example1); // object
+console.log(typeof emulateMessage(example1)); // number
+
+// test #2
+const example2 = true;
+console.log(typeof example2); // boolean
+console.log(typeof emulateMessage(example2)); // boolean
+
+// test #3
+const example3 = new String("Hello World");
+console.log(typeof example3); // object
+console.log(typeof emulateMessage(example3)); // string
+
+// test #4
+const example4 = {
+  name: "Carina Anand",
+  age: 43,
+};
+console.log(typeof example4); // object
+console.log(typeof emulateMessage(example4)); // object
+
+// test #5
+function Animal(type, age) {
+  this.type = type;
+  this.age = age;
+}
+const example5 = new Animal("Cat", 3);
+alert(example5.constructor); // Animal
+alert(emulateMessage(example5).constructor); // Object
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-new-wrappers",
+                            "Do not use String as a constructor.",
+                            'const example3 = new String("Hello World");',
+                            "18:18 - 18:43",
+                            `/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
+[no-new-wrappers] Do not use String as a constructor.
+~~~
+function emulateMessage(vVal) {
+  return eval(\`(\${JSON.stringify(vVal)})\`);
+}
+
+// Tests
+
+// test #1
+const example1 = new Number(3);
+console.log(typeof example1); // object
+console.log(typeof emulateMessage(example1)); // number
+
+// test #2
+const example2 = true;
+console.log(typeof example2); // boolean
+console.log(typeof emulateMessage(example2)); // boolean
+
+// test #3
+const example3 = new String("Hello World");
+console.log(typeof example3); // object
+console.log(typeof emulateMessage(example3)); // string
+
+// test #4
+const example4 = {
+  name: "Carina Anand",
+  age: 43,
+};
+console.log(typeof example4); // object
+console.log(typeof emulateMessage(example4)); // object
+
+// test #5
+function Animal(type, age) {
+  this.type = type;
+  this.age = age;
+}
+const example5 = new Animal("Cat", 3);
+alert(example5.constructor); // Animal
+alert(emulateMessage(example5).constructor); // Object
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/API/Web_Workers_API",
                   messages: [
                     {
@@ -22332,6 +23311,26 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
+                _doublecolon_placeholder: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/::placeholder",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.nngroup.com/articles/form-design-placeholders/",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.nngroup.com/articles/form-design-placeholders/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 "-moz-force-broken-image-icon": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/-moz-force-broken-image-icon",
@@ -23711,6 +24710,13 @@ attr(data-rotation deg)
                         "https://drafts.fxtf.org/filter-effects-2/",
                         "The operation timed out."
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -24802,6 +25808,19 @@ oklch(63.612% 0.1522 78.748)
                     }
                   ]
                 },
+                "color-interpolation-filters": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/color-interpolation-filters",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 "color-interpolation-method": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/color-interpolation-method",
@@ -25602,10 +26621,88 @@ main {
                 },
                 css_display: {
                   children: {
+                    flow_layout_and_writing_modes: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_display/Flow_layout_and_writing_modes",
+                      messages: [
+                        {
+                          message: "Code ending with punctuation",
+                          data: [
+                            "horizontal-tb,"
+                          ]
+                        }
+                      ]
+                    },
                     "multi-keyword_syntax_of_display": {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_display/multi-keyword_syntax_of_display",
                       messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-var",
+                            "Unexpected var, use let or const instead.",
+                            '  var parentDiv = document.getElementById("parent");',
+                            "2:3 - 2:53",
+                            `/en-US/docs/Web/CSS/CSS_display/multi-keyword_syntax_of_display
+[no-var] Unexpected var, use let or const instead.
+~~~
+function changeDisplayType() {
+  var parentDiv = document.getElementById("parent");
+  var siblingDiv = document.getElementById("sibling");
+  var displayType = document.getElementById("displayType").value;
+
+  parentDiv.style.display = displayType;
+  siblingDiv.style.display = displayType;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-var",
+                            "Unexpected var, use let or const instead.",
+                            '  var siblingDiv = document.getElementById("sibling");',
+                            "3:3 - 3:55",
+                            `/en-US/docs/Web/CSS/CSS_display/multi-keyword_syntax_of_display
+[no-var] Unexpected var, use let or const instead.
+~~~
+function changeDisplayType() {
+  var parentDiv = document.getElementById("parent");
+  var siblingDiv = document.getElementById("sibling");
+  var displayType = document.getElementById("displayType").value;
+
+  parentDiv.style.display = displayType;
+  siblingDiv.style.display = displayType;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-var",
+                            "Unexpected var, use let or const instead.",
+                            '  var displayType = document.getElementById("displayType").value;',
+                            "4:3 - 4:66",
+                            `/en-US/docs/Web/CSS/CSS_display/multi-keyword_syntax_of_display
+[no-var] Unexpected var, use let or const instead.
+~~~
+function changeDisplayType() {
+  var parentDiv = document.getElementById("parent");
+  var siblingDiv = document.getElementById("sibling");
+  var displayType = document.getElementById("displayType").value;
+
+  parentDiv.style.display = displayType;
+  siblingDiv.style.display = displayType;
+}
+~~~
+`
+                          ]
+                        },
                         {
                           message: "HTML code issue",
                           data: [
@@ -25832,6 +26929,12 @@ css.properties.grid-template-rows.masonry`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_masking/Masking",
                       messages: [
+                        {
+                          message: "Code ending with punctuation",
+                          data: [
+                            "luminance."
+                          ]
+                        },
                         {
                           message: "Broken link",
                           data: [
@@ -26184,6 +27287,23 @@ css.properties.grid-template-rows.masonry`,
                     }
                   }
                 },
+                css_text: {
+                  children: {
+                    wrapping_breaking_text: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_text/Wrapping_breaking_text",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2019/09/overflow-data-loss-css/",
+                            "unknown certificate verification error"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 css_values_and_units: {
                   children: {
                     css_data_types: {
@@ -26497,6 +27617,19 @@ steps(0, jump-none)
                     }
                   }
                 },
+                filter: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/filter",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 "filter-function": {
                   children: {
                     blur: {
@@ -26506,6 +27639,13 @@ steps(0, jump-none)
                         {
                           message: "Missing syntax code block",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
                         },
                         {
                           message: "CSS code issue",
@@ -26548,6 +27688,19 @@ blur(1.17rem)  /* Blur with 1.17rem radius */
                       slug: "/en-US/docs/Web/CSS/filter-function/brightness",
                       messages: [
                         {
+                          message: "Possibly unrendered Markdown",
+                          data: [
+                            " element.`"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "CSS code issue",
                           data: [
                             "CssSyntaxError",
@@ -26580,6 +27733,13 @@ brightness(200%)
                       slug: "/en-US/docs/Web/CSS/filter-function/contrast",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "CSS code issue",
                           data: [
                             "CssSyntaxError",
@@ -26607,10 +27767,30 @@ contrast(200%)
                         }
                       ]
                     },
+                    "drop-shadow": {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/filter-function/drop-shadow",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     grayscale: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/filter-function/grayscale",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "CSS code issue",
                           data: [
@@ -26640,6 +27820,13 @@ grayscale(100%)
                         {
                           message: "Missing syntax code block",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
                         },
                         {
                           message: "CSS code issue",
@@ -26682,6 +27869,13 @@ hue-rotate(0.5turn)
                       slug: "/en-US/docs/Web/CSS/filter-function/invert",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "CSS code issue",
                           data: [
                             "CssSyntaxError",
@@ -26708,6 +27902,13 @@ invert(100%)
                       slug: "/en-US/docs/Web/CSS/filter-function/opacity",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "CSS code issue",
                           data: [
                             "CssSyntaxError",
@@ -26733,6 +27934,13 @@ opacity(1)
                       slug: "/en-US/docs/Web/CSS/filter-function/saturate",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "CSS code issue",
                           data: [
                             "CssSyntaxError",
@@ -26757,6 +27965,13 @@ saturate(200%)  /* Double saturation */
                       children: {},
                       slug: "/en-US/docs/Web/CSS/filter-function/sepia",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/filter-effects-1/",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "CSS code issue",
                           data: [
@@ -26784,6 +27999,13 @@ sepia(100%)
                     {
                       message: "Missing syntax code block",
                       data: []
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -26860,6 +28082,32 @@ fit-content(40%)
                     {
                       message: "Missing syntax code block",
                       data: []
+                    }
+                  ]
+                },
+                "flood-color": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/flood-color",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "flood-opacity": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/flood-opacity",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -33051,6 +34299,19 @@ fit-content(40%)
                     }
                   ]
                 },
+                "font-smooth": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/font-smooth",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.zachleat.com/web/font-smooth/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 "font-variant-alternates": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/font-variant-alternates",
@@ -33738,6 +34999,19 @@ pre {
                     }
                   ]
                 },
+                "lighting-color": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/lighting-color",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/filter-effects-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 "line-height-step": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/line-height-step",
@@ -34095,45 +35369,6 @@ css.properties.grid-template-rows.minmax`
                     }
                   ]
                 },
-                offset: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/offset",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/motion-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "offset-anchor": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/offset-anchor",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/motion-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "offset-distance": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/offset-distance",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/motion-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 "offset-path": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/offset-path",
@@ -34160,39 +35395,6 @@ css.properties.grid-template-rows.minmax`
                       message: "External sandbox link",
                       data: [
                         "https://jsfiddle.net/ericwilligers/r1snqdan/"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/motion-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "offset-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/offset-position",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/motion-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "offset-rotate": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/offset-rotate",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/motion-1/",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -34400,19 +35602,6 @@ form {
                     {
                       message: "Missing syntax code block",
                       data: []
-                    }
-                  ]
-                },
-                ray: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/ray",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/motion-1/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -35432,6 +36621,18 @@ skew(ax, ay)
                     {
                       message: "Missing syntax code block",
                       data: []
+                    }
+                  ]
+                },
+                "transition-behavior": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/transition-behavior",
+                  messages: [
+                    {
+                      message: "Code ending with punctuation",
+                      data: [
+                        "transition-behavior."
+                      ]
                     }
                   ]
                 },
@@ -37211,6 +38412,19 @@ http.headers.Use-As-Dictionary`,
                             }
                           }
                         },
+                        intl: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         object: {
                           children: {
                             defineproperty: {
@@ -37265,418 +38479,6 @@ http.headers.Use-As-Dictionary`,
                               ]
                             }
                           ]
-                        },
-                        regexp: {
-                          children: {
-                            unicode: {
-                              children: {},
-                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicode",
-                              messages: [
-                                {
-                                  message: "JS code issue",
-                                  data: [
-                                    "regexp/no-useless-escape",
-                                    "Unnecessary escape character: \\u.",
-                                    'const regex1 = new RegExp("\\\\u{61}");',
-                                    "1:28 - 1:30",
-                                    `/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicode
-[regexp/no-useless-escape] Unnecessary escape character: \\u.
-~~~
-const regex1 = new RegExp("\\\\u{61}");
-const regex2 = new RegExp("\\\\u{61}", "u");
-
-console.log(regex1.unicode);
-// Expected output: false
-
-console.log(regex2.unicode);
-// Expected output: true
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "JS code issue",
-                                  data: [
-                                    "regexp/strict",
-                                    "Incomplete escape sequence '\\u'. Either use a valid escape sequence or remove the useless escaping.",
-                                    'const regex1 = new RegExp("\\\\u{61}");',
-                                    "1:28 - 1:31",
-                                    `/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicode
-[regexp/strict] Incomplete escape sequence '\\u'. Either use a valid escape sequence or remove the useless escaping.
-~~~
-const regex1 = new RegExp("\\\\u{61}");
-const regex2 = new RegExp("\\\\u{61}", "u");
-
-console.log(regex1.unicode);
-// Expected output: false
-
-console.log(regex2.unicode);
-// Expected output: true
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "JS code issue",
-                                  data: [
-                                    "regexp/unicode-escape",
-                                    "Expected unicode escape ('\\u0061'), but unicode code point escape ('\\u{61}') is used.",
-                                    'const regex2 = new RegExp("\\\\u{61}", "u");',
-                                    "2:28 - 2:35",
-                                    `/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicode
-[regexp/unicode-escape] Expected unicode escape ('\\u0061'), but unicode code point escape ('\\u{61}') is used.
-~~~
-const regex1 = new RegExp("\\\\u{61}");
-const regex2 = new RegExp("\\\\u{61}", "u");
-
-console.log(regex1.unicode);
-// Expected output: false
-
-console.log(regex2.unicode);
-// Expected output: true
-~~~
-`
-                                  ]
-                                }
-                              ]
-                            },
-                            unicodesets: {
-                              children: {},
-                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicodeSets",
-                              messages: [
-                                {
-                                  message: "JS code issue",
-                                  data: [
-                                    "regexp/no-useless-escape",
-                                    "Unnecessary escape character: \\p.",
-                                    'const regex1 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]");',
-                                    "1:29 - 1:31",
-                                    `/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicodeSets
-[regexp/no-useless-escape] Unnecessary escape character: \\p.
-~~~
-const regex1 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]");
-const regex2 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]", "v");
-
-console.log(regex1.unicodeSets);
-// Expected output: false
-
-console.log(regex2.unicodeSets);
-// Expected output: true
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "JS code issue",
-                                  data: [
-                                    "regexp/strict",
-                                    "Invalid property escape sequence '\\p'. Either use a valid property escape sequence or remove the useless escaping.",
-                                    'const regex1 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]");',
-                                    "1:29 - 1:32",
-                                    `/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicodeSets
-[regexp/strict] Invalid property escape sequence '\\p'. Either use a valid property escape sequence or remove the useless escaping.
-~~~
-const regex1 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]");
-const regex2 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]", "v");
-
-console.log(regex1.unicodeSets);
-// Expected output: false
-
-console.log(regex2.unicodeSets);
-// Expected output: true
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "JS code issue",
-                                  data: [
-                                    "regexp/no-dupe-characters-character-class",
-                                    "Unexpected duplicate 'e' (U+0065).",
-                                    'const regex1 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]");',
-                                    "1:41 - 1:42",
-                                    `/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicodeSets
-[regexp/no-dupe-characters-character-class] Unexpected duplicate 'e' (U+0065).
-~~~
-const regex1 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]");
-const regex2 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]", "v");
-
-console.log(regex1.unicodeSets);
-// Expected output: false
-
-console.log(regex2.unicodeSets);
-// Expected output: true
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "JS code issue",
-                                  data: [
-                                    "regexp/no-dupe-characters-character-class",
-                                    "Unexpected duplicate '&' (U+0026).",
-                                    'const regex1 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]");',
-                                    "1:44 - 1:45",
-                                    `/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicodeSets
-[regexp/no-dupe-characters-character-class] Unexpected duplicate '&' (U+0026).
-~~~
-const regex1 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]");
-const regex2 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]", "v");
-
-console.log(regex1.unicodeSets);
-// Expected output: false
-
-console.log(regex2.unicodeSets);
-// Expected output: true
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "JS code issue",
-                                  data: [
-                                    "regexp/no-dupe-characters-character-class",
-                                    "Unexpected duplicate '\\p' (U+0070).",
-                                    'const regex1 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]");',
-                                    "1:45 - 1:48",
-                                    `/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicodeSets
-[regexp/no-dupe-characters-character-class] Unexpected duplicate '\\p' (U+0070).
-~~~
-const regex1 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]");
-const regex2 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]", "v");
-
-console.log(regex1.unicodeSets);
-// Expected output: false
-
-console.log(regex2.unicodeSets);
-// Expected output: true
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "JS code issue",
-                                  data: [
-                                    "regexp/no-useless-escape",
-                                    "Unnecessary escape character: \\p.",
-                                    'const regex1 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]");',
-                                    "1:45 - 1:47",
-                                    `/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicodeSets
-[regexp/no-useless-escape] Unnecessary escape character: \\p.
-~~~
-const regex1 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]");
-const regex2 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]", "v");
-
-console.log(regex1.unicodeSets);
-// Expected output: false
-
-console.log(regex2.unicodeSets);
-// Expected output: true
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "JS code issue",
-                                  data: [
-                                    "regexp/strict",
-                                    "Invalid property escape sequence '\\p'. Either use a valid property escape sequence or remove the useless escaping.",
-                                    'const regex1 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]");',
-                                    "1:45 - 1:48",
-                                    `/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicodeSets
-[regexp/strict] Invalid property escape sequence '\\p'. Either use a valid property escape sequence or remove the useless escaping.
-~~~
-const regex1 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]");
-const regex2 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]", "v");
-
-console.log(regex1.unicodeSets);
-// Expected output: false
-
-console.log(regex2.unicodeSets);
-// Expected output: true
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "JS code issue",
-                                  data: [
-                                    "regexp/no-dupe-characters-character-class",
-                                    "Unexpected duplicate '{' (U+007b).",
-                                    'const regex1 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]");',
-                                    "1:48 - 1:49",
-                                    `/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicodeSets
-[regexp/no-dupe-characters-character-class] Unexpected duplicate '{' (U+007b).
-~~~
-const regex1 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]");
-const regex2 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]", "v");
-
-console.log(regex1.unicodeSets);
-// Expected output: false
-
-console.log(regex2.unicodeSets);
-// Expected output: true
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "JS code issue",
-                                  data: [
-                                    "regexp/no-dupe-characters-character-class",
-                                    "Unexpected duplicate 'c' (U+0063).",
-                                    'const regex1 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]");',
-                                    "1:50 - 1:51",
-                                    `/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicodeSets
-[regexp/no-dupe-characters-character-class] Unexpected duplicate 'c' (U+0063).
-~~~
-const regex1 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]");
-const regex2 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]", "v");
-
-console.log(regex1.unicodeSets);
-// Expected output: false
-
-console.log(regex2.unicodeSets);
-// Expected output: true
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "JS code issue",
-                                  data: [
-                                    "regexp/no-dupe-characters-character-class",
-                                    "Unexpected duplicate 'r' (U+0072).",
-                                    'const regex1 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]");',
-                                    "1:51 - 1:52",
-                                    `/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicodeSets
-[regexp/no-dupe-characters-character-class] Unexpected duplicate 'r' (U+0072).
-~~~
-const regex1 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]");
-const regex2 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]", "v");
-
-console.log(regex1.unicodeSets);
-// Expected output: false
-
-console.log(regex2.unicodeSets);
-// Expected output: true
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "JS code issue",
-                                  data: [
-                                    "regexp/no-dupe-characters-character-class",
-                                    "Unexpected duplicate. 'p' (U+0070) is a duplicate of '\\p' (U+0070).",
-                                    'const regex1 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]");',
-                                    "1:53 - 1:54",
-                                    `/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicodeSets
-[regexp/no-dupe-characters-character-class] Unexpected duplicate. 'p' (U+0070) is a duplicate of '\\p' (U+0070).
-~~~
-const regex1 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]");
-const regex2 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]", "v");
-
-console.log(regex1.unicodeSets);
-// Expected output: false
-
-console.log(regex2.unicodeSets);
-// Expected output: true
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "JS code issue",
-                                  data: [
-                                    "regexp/no-dupe-characters-character-class",
-                                    "Unexpected duplicate 'r' (U+0072).",
-                                    'const regex1 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]");',
-                                    "1:57 - 1:58",
-                                    `/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicodeSets
-[regexp/no-dupe-characters-character-class] Unexpected duplicate 'r' (U+0072).
-~~~
-const regex1 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]");
-const regex2 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]", "v");
-
-console.log(regex1.unicodeSets);
-// Expected output: false
-
-console.log(regex2.unicodeSets);
-// Expected output: true
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "JS code issue",
-                                  data: [
-                                    "regexp/no-dupe-characters-character-class",
-                                    "Unexpected duplicate 'e' (U+0065).",
-                                    'const regex1 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]");',
-                                    "1:58 - 1:59",
-                                    `/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicodeSets
-[regexp/no-dupe-characters-character-class] Unexpected duplicate 'e' (U+0065).
-~~~
-const regex1 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]");
-const regex2 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]", "v");
-
-console.log(regex1.unicodeSets);
-// Expected output: false
-
-console.log(regex2.unicodeSets);
-// Expected output: true
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "JS code issue",
-                                  data: [
-                                    "regexp/no-dupe-characters-character-class",
-                                    "Unexpected duplicate 'e' (U+0065).",
-                                    'const regex1 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]");',
-                                    "1:59 - 1:60",
-                                    `/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicodeSets
-[regexp/no-dupe-characters-character-class] Unexpected duplicate 'e' (U+0065).
-~~~
-const regex1 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]");
-const regex2 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]", "v");
-
-console.log(regex1.unicodeSets);
-// Expected output: false
-
-console.log(regex2.unicodeSets);
-// Expected output: true
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "JS code issue",
-                                  data: [
-                                    "regexp/no-dupe-characters-character-class",
-                                    "Unexpected duplicate '}' (U+007d).",
-                                    'const regex1 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]");',
-                                    "1:61 - 1:62",
-                                    `/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicodeSets
-[regexp/no-dupe-characters-character-class] Unexpected duplicate '}' (U+007d).
-~~~
-const regex1 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]");
-const regex2 = new RegExp("[\\\\p{Lowercase}&&\\\\p{Script=Greek}]", "v");
-
-console.log(regex1.unicodeSets);
-// Expected output: false
-
-console.log(regex2.unicodeSets);
-// Expected output: true
-~~~
-`
-                                  ]
-                                }
-                              ]
-                            }
-                          }
                         },
                         temporal: {
                           children: {
@@ -37886,25 +38688,7 @@ console.log(regex2.unicodeSets);
               }
             },
             mathml: {
-              children: {
-                guides: {
-                  children: {
-                    authoring: {
-                      children: {},
-                      slug: "/en-US/docs/Web/MathML/Guides/Authoring",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.lyx.org/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                }
-              },
+              children: {},
               slug: "/en-US/docs/Web/MathML",
               messages: [
                 {
@@ -38057,66 +38841,6 @@ console.log(regex2.unicodeSets);
                     },
                     formats: {
                       children: {
-                        audio_codecs: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Audio_codecs",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/standard/43345.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/standard/26797.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        codecs_parameter: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/codecs_parameter",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/standard/54838.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/standard/54838.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        containers: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Containers",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/standard/74427.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/standard/75929.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -38126,13 +38850,6 @@ console.log(regex2.unicodeSets);
                               data: [
                                 "http://hevc.info/",
                                 ""
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/standard/61152.html",
-                                "The operation timed out."
                               ]
                             }
                           ]
@@ -38152,10 +38869,35 @@ console.log(regex2.unicodeSets);
                       slug: "/en-US/docs/Web/Performance/Guides/CSS_JavaScript_animation_performance",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://gsap.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "HTTP link",
                           data: [
                             "http://velocityjs.org/",
                             ""
+                          ]
+                        }
+                      ]
+                    },
+                    navigation_and_resource_timings: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Performance/Guides/Navigation_and_resource_timings",
+                      messages: [
+                        {
+                          message: "Code ending with punctuation",
+                          data: [
+                            "0."
+                          ]
+                        },
+                        {
+                          message: "Code ending with punctuation",
+                          data: [
+                            "0."
                           ]
                         }
                       ]
@@ -40117,13 +40859,6 @@ svg.elements.feSpotLight.z`
                                 "http://snapsvg.io/",
                                 ""
                               ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsxgraph.uni-bayreuth.de/wp/",
-                                "Cannot reach server and Bun hangs"
-                              ]
                             }
                           ]
                         }
@@ -40210,6 +40945,13 @@ svg.elements.feSpotLight.z`
                             {
                               message: "Missing syntax code block",
                               data: []
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.iana.org/assignments/urn-namespaces/urn-namespaces.xhtml",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         }
@@ -40365,24 +41107,6 @@ svg.elements.feSpotLight.z`
           slug: "/en-US/docs/Web",
           messages: [
             {
-              message: "Asset without content page",
-              data: [
-                "en-us/web/svg/reference/element/discard/bar_no_discard.svg"
-              ]
-            },
-            {
-              message: "Asset without content page",
-              data: [
-                "en-us/web/svg/reference/element/discard/bar_discard_time.svg"
-              ]
-            },
-            {
-              message: "Asset without content page",
-              data: [
-                "en-us/web/svg/reference/element/discard/bar_discard_event.svg"
-              ]
-            },
-            {
               message: "No link to child page",
               data: [
                 "/en-US/docs/Mozilla"
@@ -40420,6 +41144,22 @@ svg.elements.feSpotLight.z`
         },
         webassembly: {
           children: {
+            guides: {
+              children: {
+                rust_to_wasm: {
+                  children: {},
+                  slug: "/en-US/docs/WebAssembly/Guides/Rust_to_Wasm",
+                  messages: [
+                    {
+                      message: "Code ending with punctuation",
+                      data: [
+                        '"Hello, Steve!".'
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
             reference: {
               children: {
                 memory: {
@@ -40745,6 +41485,7 @@ function displayWarnings() {
       "Bad href",
       "Bad macro",
       "Bad sidebar link",
+      "Code ending with punctuation",
       "Code with space",
       "Code with underscore",
       "Duplicate specifications",
