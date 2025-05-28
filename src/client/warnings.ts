@@ -203,7 +203,8 @@ function createTable(
       }
       for (const value of message.data) {
         let elem: HTMLElement = tr.appendChild(document.createElement("td"));
-        const lines = (typeof value === "string" ? value.match(/\n/g)?.length ?? 0 : 0);
+        const lines =
+          typeof value === "string" ? (value.match(/\n/g)?.length ?? 0) : 0;
         if (lines > 5) {
           const details = document.createElement("details");
           const summary = document.createElement("summary");
@@ -213,8 +214,7 @@ function createTable(
         }
         if (typeof value === "string" && value.includes("  "))
           elem = elem.appendChild(document.createElement("pre"));
-        else
-          elem = elem.appendChild(document.createElement("div"));
+        else elem = elem.appendChild(document.createElement("div"));
         elem.innerText = value ?? "";
       }
       maxDataLen = Math.max(maxDataLen, message.data.length);

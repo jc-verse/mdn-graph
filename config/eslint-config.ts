@@ -8,6 +8,8 @@ export default [
       "accessor-pairs": "off",
       "block-scoped-var": "off",
       curly: "off",
+      "dot-notation": "off", // Need a heuristic similar to noPropertyAccessFromIndexSignature
+      "func-names": "off",
       "new-cap": [
         "error",
         {
@@ -19,6 +21,7 @@ export default [
       ],
       "no-constant-condition": ["error", { checkLoops: "allExceptWhileTrue" }],
       "no-empty": "off",
+      "no-implicit-coercion": ["error", { allow: ["!!", "*"] }],
       "no-import-assign": "off",
       "no-lone-blocks": "off",
       "no-multi-assign": "off",
@@ -44,6 +47,7 @@ export default [
       "import/no-absolute-path": "off",
       "import/no-extraneous-dependencies": "off",
       "regexp/no-control-character": "off",
+      "regexp/no-super-linear-move": "off",
       "regexp/unicode-property": "off",
 
       // TODO
@@ -56,20 +60,14 @@ export default [
       "regexp/require-unicode-regexp": "off", // 404
       camelcase: "off", // 322
       "no-restricted-syntax": "off", // 321
-      "func-names": "off", // 319
       "no-alert": "off", // 185
       "multiline-comment-style": "off", // 173
       "@typescript-eslint/no-use-before-define": "off", // 145
-      "dot-notation": "off", // 131
-      "no-implicit-coercion": "off", // 122
       "regexp/prefer-named-capture-group": "off", // 122
-      "prefer-template": "off", // 111
       "@typescript-eslint/no-redeclare": "off", // 105
       "prefer-arrow-callback": "off", // TODO
       "consistent-return": "off", // 85
-      "regexp/no-super-linear-move": "off", // 57
       "no-return-assign": "off", // TODO
-      "regexp/no-invalid-regexp": "off", // 47
       "func-style": "off", // TODO
     },
   },
@@ -270,6 +268,16 @@ export default [
   },
   {
     files: [
+      "Web/JavaScript/Guide/Data_structures/*",
+      "Web/JavaScript/Guide/Numbers_and_strings/*",
+      "Web/JavaScript/Reference/Global_Objects/Symbol/toPrimitive/*",
+      "Web/JavaScript/Reference/Operators/Addition/*",
+      "Web/JavaScript/Reference/Template_literals/*",
+    ],
+    rules: { "prefer-template": "off" },
+  },
+  {
+    files: [
       "Web/JavaScript/Guide/Equality_comparisons_and_sameness/*",
       "Web/JavaScript/Reference/Global_Objects/Array/indexOf/*",
       "Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf/*",
@@ -353,7 +361,18 @@ export default [
       "no-useless-concat": "off",
       "operator-assignment": "off",
       "prefer-numeric-literals": "off",
+      "prefer-template": "off",
     },
+  },
+  {
+    files: [
+      "Web/JavaScript/Guide/Grammar_and_types/*",
+      "Web/JavaScript/Reference/Global_Objects/Object/valueOf/*",
+      "Web/JavaScript/Reference/Global_Objects/Symbol/toPrimitive/*",
+      "Web/JavaScript/Reference/Operators/Addition/*",
+      "Web/JavaScript/Reference/Operators/Unary_plus/*",
+    ],
+    rules: { "no-implicit-coercion": "off" },
   },
   {
     files: [
@@ -474,6 +493,10 @@ export default [
       "no-obj-calls": "off",
       "no-new-native-nonconstructor": "off",
     },
+  },
+  {
+    files: ["Web/JavaScript/Reference/Errors/Regex_*/*"],
+    rules: { "regexp/no-invalid-regexp": "off" },
   },
   {
     files: [

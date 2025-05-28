@@ -1,0 +1,11 @@
+  Texts in this file will not be reported by the "Text stuck to code/link" check.
+  Use two-space indent for comments.
+
+/en-US/docs/Web/API/WebGLRenderingContext/getParameter	GLboolean	>
+/en-US/docs/Web/Security/Practical_implementation_guides/CSP	hash-	based
+/en-US/docs/Web/SVG/Reference/Attribute/d
+/en-US/docs/Web/SVG/Reference/Attribute/points	<number>	+
+/en-US/docs/Web/SVG/Reference/Element/animateMotion	<number>	+
+/en-US/docs/Web/SVG/Reference/Element/animateMotion	<number>	*
+/en-US/docs/Web/SVG/Reference/Element/polygon	<number>	+
+/en-US/docs/Web/SVG/Reference/Element/polyline	<number>	+

@@ -3,7 +3,10 @@ import type { Element } from "domhandler";
 import { readConfig, configHas } from "./config.js";
 
 const allowedCodeEndingWithPunctuation = new Map(
-  (await readConfig("allowed-code-ending-with-punctuation.txt")).map((x) => [x, false]),
+  (await readConfig("allowed-code-ending-with-punctuation.txt")).map((x) => [
+    x,
+    false,
+  ]),
 );
 
 const allowedCodeLinkTextRec = new Map(
@@ -16,6 +19,10 @@ const allowedQuotedCode = new Map(
 
 const allowedUnrenderedMarkdown = new Map(
   (await readConfig("allowed-unrendered-markdown.txt")).map((x) => [x, false]),
+);
+
+const allowedCodeStuckToText = new Map(
+  (await readConfig("allowed-code-stuck-to-text.txt")).map((x) => [x, false]),
 );
 
 const allowedSpacedCodeLink = [
@@ -152,22 +159,24 @@ export function checkContent(
       report("Bad DL", $(li).text().slice(0, 50));
     }
   });
-  $(":not(code, code *, pre, pre *, math, math *, kbd, kbd *)").each((i, el) => {
-    const texts = $(el)
-      .contents()
-      .filter((i, el) => el.type === "text");
-    for (const text of texts) {
-      if (
-        /`|\*[^*]+\*|\[.+\]\(.+\)|\b_[^_]+_\b/.test(text.data) &&
-        !configHas(
-          allowedUnrenderedMarkdown,
-          `${context.slug}\t${text.data.trim()}`,
-        )
-      ) {
-        report("Possibly unrendered Markdown", text.data);
+  $(":not(code, code *, pre, pre *, math, math *, kbd, kbd *)").each(
+    (i, el) => {
+      const texts = $(el)
+        .contents()
+        .filter((i, el) => el.type === "text");
+      for (const text of texts) {
+        if (
+          /`|\*[^*]+\*|\[.+\]\(.+\)|\b_[^_]+_\b/.test(text.data) &&
+          !configHas(
+            allowedUnrenderedMarkdown,
+            `${context.slug}\t${text.data.trim()}`,
+          )
+        ) {
+          report("Possibly unrendered Markdown", text.data);
+        }
       }
-    }
-  });
+    },
+  );
   $("a").each((i, a) => {
     const childNodes = $(a).contents();
     if (
@@ -214,27 +223,53 @@ export function checkContent(
       !configHas(allowedQuotedCode, `${context.slug}\t${$(code).text()}`)
     ) {
       report("Quoted code", $(code).text());
-    } else if (
+    }
+    if (
       textAfter &&
       !/^([\s.,?!:;…—–\-"')/]|e?s\b|th\b|⚠️)/.test(textAfter) &&
       !(
         code.tagName === "code" &&
         ["transform", "await", "yield"].includes($(code).text()) &&
         /^ed\b/.test(textAfter)
-      ) &&
-      !(code.tagName === "a" && $(code).text().endsWith(" "))
+      )
     ) {
+      for (const entry of allowedCodeStuckToText.keys()) {
+        const values = entry.split("\t");
+        if (values.length === 1 && values[0] === context.slug) {
+          allowedCodeStuckToText.set(entry, true);
+          return;
+        } else if (
+          values.length === 3 &&
+          values[0] === context.slug &&
+          values[1] === $(code).text() &&
+          textAfter.startsWith(values[2])
+        ) {
+          allowedCodeStuckToText.set(entry, true);
+          return;
+        }
+      }
       report(
         "Text stuck to code/link",
         $(code).text(),
         `Text after ${code.tagName === "a" ? "link" : "code"}:`,
         textAfter.slice(0, 50),
       );
-    } else if (
-      textBefore &&
-      !/[\s—–\-"'(/±]$/.test(textBefore) &&
-      !(code.tagName === "a" && $(code).text().startsWith(" "))
-    ) {
+    } else if (textBefore && !/[\s—–\-"'(/±]$/.test(textBefore)) {
+      for (const entry of allowedCodeStuckToText.keys()) {
+        const values = entry.split("\t");
+        if (values.length === 1 && values[0] === context.slug) {
+          allowedCodeStuckToText.set(entry, true);
+          return;
+        } else if (
+          values.length === 3 &&
+          values[0] === context.slug &&
+          values[1] === $(code).text() &&
+          textBefore.endsWith(values[2])
+        ) {
+          allowedCodeStuckToText.set(entry, true);
+          return;
+        }
+      }
       report(
         "Text stuck to code/link",
         $(code).text(),
@@ -245,17 +280,16 @@ export function checkContent(
   });
   $("code:not(pre code)").each((i, code) => {
     const text = $(code).text();
-    if (((text.endsWith(".") && !text.endsWith("...")) || text.endsWith(",")) && text.length > 1 && !configHas(
-      allowedCodeEndingWithPunctuation,
-      `${text}\t${context.slug}`,
-    ) && !configHas(
-      allowedCodeEndingWithPunctuation,
-      text,
-    )) {
-      report(
-        "Code ending with punctuation",
-        text,
-      );
+    if (
+      ((text.endsWith(".") && !text.endsWith("...")) || text.endsWith(",")) &&
+      text.length > 1 &&
+      !configHas(
+        allowedCodeEndingWithPunctuation,
+        `${text}\t${context.slug}`,
+      ) &&
+      !configHas(allowedCodeEndingWithPunctuation, text)
+    ) {
+      report("Code ending with punctuation", text);
     }
   });
   $("dd + dd").each((i, dd) => {
@@ -290,5 +324,8 @@ export function postCheckContent() {
   }
   for (const [code, used] of allowedQuotedCode) {
     if (!used) console.warn("Unused quoted code config", code);
+  }
+  for (const [code, used] of allowedCodeStuckToText) {
+    if (!used) console.warn("Unused code stuck to text config", code);
   }
 }

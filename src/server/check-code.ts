@@ -192,7 +192,9 @@ export async function checkCode(
               expectedErrorsMap.has(file) &&
               expectedErrorsMap.get(file)!.has(content)
             ) {
-              const expectedMessages = expectedErrorsMap.get(file)!.get(content)!;
+              const expectedMessages = expectedErrorsMap
+                .get(file)!
+                .get(content)!;
               const fullMessage = `[syntax] ${error.msg}`;
               if (expectedMessages.has(fullMessage)) {
                 expectedMessages.set(fullMessage, true);
@@ -211,35 +213,38 @@ export async function checkCode(
           });
         } else {
           rootNodes.forEach((rootNode) => {
-            rootNode.visit({
-              visitAttribute(attr, ctx) {
-                if (attr.name.startsWith("on")) {
-                  report(
-                    node,
-                    "HTML code issue",
-                    "no-inline-event-handlers",
-                    `Do not use inline event handler "${attr.name}".`,
-                    content.split("\n")[attr.sourceSpan.start.line],
-                    `${attr.sourceSpan.start.line}:${attr.sourceSpan.start.col}`,
-                    `${node.id}\n[no-inline-event-handlers] Do not use inline event handler "${attr.name}".\n~~~\n${content}~~~\n`,
-                  );
-                }
+            rootNode.visit(
+              {
+                visitAttribute(attr, ctx) {
+                  if (attr.name.startsWith("on")) {
+                    report(
+                      node,
+                      "HTML code issue",
+                      "no-inline-event-handlers",
+                      `Do not use inline event handler "${attr.name}".`,
+                      content.split("\n")[attr.sourceSpan.start.line],
+                      `${attr.sourceSpan.start.line}:${attr.sourceSpan.start.col}`,
+                      `${node.id}\n[no-inline-event-handlers] Do not use inline event handler "${attr.name}".\n~~~\n${content}~~~\n`,
+                    );
+                  }
+                },
+                visitElement(el, ctx) {
+                  el.attrs.forEach((attr) => attr.visit(this, ctx));
+                  el.children.forEach((child) => child.visit(this, ctx));
+                },
+                visitText() {},
+                visitComment() {},
+                visitCdata() {},
+                visitDocType() {},
+                visitBlock() {},
+                visitExpansion() {},
+                visitExpansionCase() {},
+                visitLetDeclaration() {},
+                visitBlockParameter() {},
               },
-              visitElement(el, ctx) {
-                el.attrs.forEach((attr) => attr.visit(this, ctx));
-                el.children.forEach((child) => child.visit(this, ctx));
-              },
-              visitText() {},
-              visitComment() {},
-              visitCdata() {},
-              visitDocType() {},
-              visitBlock() {},
-              visitExpansion() {},
-              visitExpansionCase() {},
-              visitLetDeclaration() {},
-              visitBlockParameter() {},
-            }, undefined);
-          })
+              undefined,
+            );
+          });
         }
       } else if (!sanctionedLanguages.includes(language)) {
         report(node, "Invalid code block language", language);
