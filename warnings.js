@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-6chwa9p7.js";
+} from "./chunk-2pem7vw6.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -146,6 +146,752 @@ var warnings_processed_default = {
                   ]
                 }
               ]
+            },
+            tutorials: {
+              children: {
+                "2d_breakout_game_pure_javascript": {
+                  children: {
+                    finishing_up: {
+                      children: {},
+                      slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Finishing_up",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '  ctx.fillText("Score: " + score, 8, 20);',
+                            "121:16 - 121:33",
+                            `/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Finishing_up
+[prefer-template] Unexpected string concatenation.
+~~~
+const canvas = document.getElementById("myCanvas");
+const ctx = canvas.getContext("2d");
+const ballRadius = 10;
+
+let x = canvas.width / 2;
+let y = canvas.height - 30;
+let dx = 2;
+let dy = -2;
+
+const paddleHeight = 10;
+const paddleWidth = 75;
+
+let paddleX = (canvas.width - paddleWidth) / 2;
+let rightPressed = false;
+let leftPressed = false;
+
+const brickRowCount = 5;
+const brickColumnCount = 3;
+const brickWidth = 75;
+const brickHeight = 20;
+const brickPadding = 10;
+const brickOffsetTop = 30;
+const brickOffsetLeft = 30;
+
+let score = 0;
+let lives = 3;
+
+let bricks = [];
+
+for (let c = 0; c < brickColumnCount; c++) {
+  bricks[c] = [];
+  for (let r = 0; r < brickRowCount; r++) {
+    bricks[c][r] = { x: 0, y: 0, status: 1 };
+  }
+}
+
+document.addEventListener("keydown", keyDownHandler, false);
+document.addEventListener("keyup", keyUpHandler, false);
+document.addEventListener("mousemove", mouseMoveHandler, false);
+
+function keyDownHandler(e) {
+  if (e.key === "Right" || e.key === "ArrowRight") {
+    rightPressed = true;
+  } else if (e.key === "Left" || e.key === "ArrowLeft") {
+    leftPressed = true;
+  }
+}
+
+function keyUpHandler(e) {
+  if (e.key === "Right" || e.key === "ArrowRight") {
+    rightPressed = false;
+  } else if (e.key === "Left" || e.key === "ArrowLeft") {
+    leftPressed = false;
+  }
+}
+
+function mouseMoveHandler(e) {
+  let relativeX = e.clientX - canvas.offsetLeft;
+  if (relativeX > 0 && relativeX < canvas.width) {
+    paddleX = relativeX - paddleWidth / 2;
+  }
+}
+function collisionDetection() {
+  for (let c = 0; c < brickColumnCount; c++) {
+    for (let r = 0; r < brickRowCount; r++) {
+      let b = bricks[c][r];
+      if (b.status === 1) {
+        if (
+          x > b.x &&
+          x < b.x + brickWidth &&
+          y > b.y &&
+          y < b.y + brickHeight
+        ) {
+          dy = -dy;
+          b.status = 0;
+          score++;
+          if (score === brickRowCount * brickColumnCount) {
+            alert("YOU WIN, CONGRATS!");
+            document.location.reload();
+          }
+        }
+      }
+    }
+  }
+}
+
+function drawBall() {
+  ctx.beginPath();
+  ctx.arc(x, y, ballRadius, 0, Math.PI * 2);
+  ctx.fillStyle = "#0095DD";
+  ctx.fill();
+  ctx.closePath();
+}
+function drawPaddle() {
+  ctx.beginPath();
+  ctx.rect(paddleX, canvas.height - paddleHeight, paddleWidth, paddleHeight);
+  ctx.fillStyle = "#0095DD";
+  ctx.fill();
+  ctx.closePath();
+}
+function drawBricks() {
+  for (let c = 0; c < brickColumnCount; c++) {
+    for (let r = 0; r < brickRowCount; r++) {
+      if (bricks[c][r].status === 1) {
+        const brickX = r * (brickWidth + brickPadding) + brickOffsetLeft;
+        const brickY = c * (brickHeight + brickPadding) + brickOffsetTop;
+        bricks[c][r].x = brickX;
+        bricks[c][r].y = brickY;
+        ctx.beginPath();
+        ctx.rect(brickX, brickY, brickWidth, brickHeight);
+        ctx.fillStyle = "#0095DD";
+        ctx.fill();
+        ctx.closePath();
+      }
+    }
+  }
+}
+function drawScore() {
+  ctx.font = "16px Arial";
+  ctx.fillStyle = "#0095DD";
+  ctx.fillText("Score: " + score, 8, 20);
+}
+function drawLives() {
+  ctx.font = "16px Arial";
+  ctx.fillStyle = "#0095DD";
+  ctx.fillText("Lives: " + lives, canvas.width - 65, 20);
+}
+
+function draw() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  drawBricks();
+  drawBall();
+  drawPaddle();
+  drawScore();
+  drawLives();
+  collisionDetection();
+
+  if (x + dx > canvas.width - ballRadius || x + dx < ballRadius) {
+    dx = -dx;
+  }
+  if (y + dy < ballRadius) {
+    dy = -dy;
+  } else if (y + dy > canvas.height - ballRadius) {
+    if (x > paddleX && x < paddleX + paddleWidth) {
+      dy = -dy;
+    } else {
+      lives--;
+      if (!lives) {
+        alert("GAME OVER");
+        document.location.reload();
+      } else {
+        x = canvas.width / 2;
+        y = canvas.height - 30;
+        dx = 3;
+        dy = -3;
+        paddleX = (canvas.width - paddleWidth) / 2;
+      }
+    }
+  }
+
+  if (rightPressed && paddleX < canvas.width - paddleWidth) {
+    paddleX += 7;
+  } else if (leftPressed && paddleX > 0) {
+    paddleX -= 7;
+  }
+
+  x += dx;
+  y += dy;
+  requestAnimationFrame(draw);
+}
+
+document.getElementById("runButton").addEventListener("click", function () {
+  draw();
+  this.disabled = true;
+});
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '  ctx.fillText("Lives: " + lives, canvas.width - 65, 20);',
+                            "126:16 - 126:33",
+                            `/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Finishing_up
+[prefer-template] Unexpected string concatenation.
+~~~
+const canvas = document.getElementById("myCanvas");
+const ctx = canvas.getContext("2d");
+const ballRadius = 10;
+
+let x = canvas.width / 2;
+let y = canvas.height - 30;
+let dx = 2;
+let dy = -2;
+
+const paddleHeight = 10;
+const paddleWidth = 75;
+
+let paddleX = (canvas.width - paddleWidth) / 2;
+let rightPressed = false;
+let leftPressed = false;
+
+const brickRowCount = 5;
+const brickColumnCount = 3;
+const brickWidth = 75;
+const brickHeight = 20;
+const brickPadding = 10;
+const brickOffsetTop = 30;
+const brickOffsetLeft = 30;
+
+let score = 0;
+let lives = 3;
+
+let bricks = [];
+
+for (let c = 0; c < brickColumnCount; c++) {
+  bricks[c] = [];
+  for (let r = 0; r < brickRowCount; r++) {
+    bricks[c][r] = { x: 0, y: 0, status: 1 };
+  }
+}
+
+document.addEventListener("keydown", keyDownHandler, false);
+document.addEventListener("keyup", keyUpHandler, false);
+document.addEventListener("mousemove", mouseMoveHandler, false);
+
+function keyDownHandler(e) {
+  if (e.key === "Right" || e.key === "ArrowRight") {
+    rightPressed = true;
+  } else if (e.key === "Left" || e.key === "ArrowLeft") {
+    leftPressed = true;
+  }
+}
+
+function keyUpHandler(e) {
+  if (e.key === "Right" || e.key === "ArrowRight") {
+    rightPressed = false;
+  } else if (e.key === "Left" || e.key === "ArrowLeft") {
+    leftPressed = false;
+  }
+}
+
+function mouseMoveHandler(e) {
+  let relativeX = e.clientX - canvas.offsetLeft;
+  if (relativeX > 0 && relativeX < canvas.width) {
+    paddleX = relativeX - paddleWidth / 2;
+  }
+}
+function collisionDetection() {
+  for (let c = 0; c < brickColumnCount; c++) {
+    for (let r = 0; r < brickRowCount; r++) {
+      let b = bricks[c][r];
+      if (b.status === 1) {
+        if (
+          x > b.x &&
+          x < b.x + brickWidth &&
+          y > b.y &&
+          y < b.y + brickHeight
+        ) {
+          dy = -dy;
+          b.status = 0;
+          score++;
+          if (score === brickRowCount * brickColumnCount) {
+            alert("YOU WIN, CONGRATS!");
+            document.location.reload();
+          }
+        }
+      }
+    }
+  }
+}
+
+function drawBall() {
+  ctx.beginPath();
+  ctx.arc(x, y, ballRadius, 0, Math.PI * 2);
+  ctx.fillStyle = "#0095DD";
+  ctx.fill();
+  ctx.closePath();
+}
+function drawPaddle() {
+  ctx.beginPath();
+  ctx.rect(paddleX, canvas.height - paddleHeight, paddleWidth, paddleHeight);
+  ctx.fillStyle = "#0095DD";
+  ctx.fill();
+  ctx.closePath();
+}
+function drawBricks() {
+  for (let c = 0; c < brickColumnCount; c++) {
+    for (let r = 0; r < brickRowCount; r++) {
+      if (bricks[c][r].status === 1) {
+        const brickX = r * (brickWidth + brickPadding) + brickOffsetLeft;
+        const brickY = c * (brickHeight + brickPadding) + brickOffsetTop;
+        bricks[c][r].x = brickX;
+        bricks[c][r].y = brickY;
+        ctx.beginPath();
+        ctx.rect(brickX, brickY, brickWidth, brickHeight);
+        ctx.fillStyle = "#0095DD";
+        ctx.fill();
+        ctx.closePath();
+      }
+    }
+  }
+}
+function drawScore() {
+  ctx.font = "16px Arial";
+  ctx.fillStyle = "#0095DD";
+  ctx.fillText("Score: " + score, 8, 20);
+}
+function drawLives() {
+  ctx.font = "16px Arial";
+  ctx.fillStyle = "#0095DD";
+  ctx.fillText("Lives: " + lives, canvas.width - 65, 20);
+}
+
+function draw() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  drawBricks();
+  drawBall();
+  drawPaddle();
+  drawScore();
+  drawLives();
+  collisionDetection();
+
+  if (x + dx > canvas.width - ballRadius || x + dx < ballRadius) {
+    dx = -dx;
+  }
+  if (y + dy < ballRadius) {
+    dy = -dy;
+  } else if (y + dy > canvas.height - ballRadius) {
+    if (x > paddleX && x < paddleX + paddleWidth) {
+      dy = -dy;
+    } else {
+      lives--;
+      if (!lives) {
+        alert("GAME OVER");
+        document.location.reload();
+      } else {
+        x = canvas.width / 2;
+        y = canvas.height - 30;
+        dx = 3;
+        dy = -3;
+        paddleX = (canvas.width - paddleWidth) / 2;
+      }
+    }
+  }
+
+  if (rightPressed && paddleX < canvas.width - paddleWidth) {
+    paddleX += 7;
+  } else if (leftPressed && paddleX > 0) {
+    paddleX -= 7;
+  }
+
+  x += dx;
+  y += dy;
+  requestAnimationFrame(draw);
+}
+
+document.getElementById("runButton").addEventListener("click", function () {
+  draw();
+  this.disabled = true;
+});
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    mouse_controls: {
+                      children: {},
+                      slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Mouse_controls",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '  ctx.fillText("Score: " + score, 8, 20);',
+                            "122:16 - 122:33",
+                            `/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Mouse_controls
+[prefer-template] Unexpected string concatenation.
+~~~
+const canvas = document.getElementById("myCanvas");
+const ctx = canvas.getContext("2d");
+const ballRadius = 10;
+
+let x = canvas.width / 2;
+let y = canvas.height - 30;
+let dx = 2;
+let dy = -2;
+
+const paddleHeight = 10;
+const paddleWidth = 75;
+
+let paddleX = (canvas.width - paddleWidth) / 2;
+let rightPressed = false;
+let leftPressed = false;
+
+let interval = 0;
+
+const brickRowCount = 5;
+const brickColumnCount = 3;
+const brickWidth = 75;
+const brickHeight = 20;
+const brickPadding = 10;
+const brickOffsetTop = 30;
+const brickOffsetLeft = 30;
+
+let score = 0;
+let bricks = [];
+
+for (let c = 0; c < brickColumnCount; c++) {
+  bricks[c] = [];
+  for (let r = 0; r < brickRowCount; r++) {
+    bricks[c][r] = { x: 0, y: 0, status: 1 };
+  }
+}
+
+document.addEventListener("keydown", keyDownHandler, false);
+document.addEventListener("keyup", keyUpHandler, false);
+document.addEventListener("mousemove", mouseMoveHandler, false);
+
+function keyDownHandler(e) {
+  if (e.key === "Right" || e.key === "ArrowRight") {
+    rightPressed = true;
+  } else if (e.key === "Left" || e.key === "ArrowLeft") {
+    leftPressed = true;
+  }
+}
+
+function keyUpHandler(e) {
+  if (e.key === "Right" || e.key === "ArrowRight") {
+    rightPressed = false;
+  } else if (e.key === "Left" || e.key === "ArrowLeft") {
+    leftPressed = false;
+  }
+}
+
+function mouseMoveHandler(e) {
+  const relativeX = e.clientX - canvas.offsetLeft;
+  if (relativeX > 0 && relativeX < canvas.width) {
+    paddleX = relativeX - paddleWidth / 2;
+  }
+}
+function collisionDetection() {
+  for (let c = 0; c < brickColumnCount; c++) {
+    for (let r = 0; r < brickRowCount; r++) {
+      let b = bricks[c][r];
+      if (b.status === 1) {
+        if (
+          x > b.x &&
+          x < b.x + brickWidth &&
+          y > b.y &&
+          y < b.y + brickHeight
+        ) {
+          dy = -dy;
+          b.status = 0;
+          score++;
+          if (score === brickRowCount * brickColumnCount) {
+            alert("YOU WIN, CONGRATS!");
+            document.location.reload();
+            clearInterval(interval); // Needed for Chrome to end game
+          }
+        }
+      }
+    }
+  }
+}
+
+function drawBall() {
+  ctx.beginPath();
+  ctx.arc(x, y, ballRadius, 0, Math.PI * 2);
+  ctx.fillStyle = "#0095DD";
+  ctx.fill();
+  ctx.closePath();
+}
+function drawPaddle() {
+  ctx.beginPath();
+  ctx.rect(paddleX, canvas.height - paddleHeight, paddleWidth, paddleHeight);
+  ctx.fillStyle = "#0095DD";
+  ctx.fill();
+  ctx.closePath();
+}
+function drawBricks() {
+  for (let c = 0; c < brickColumnCount; c++) {
+    for (let r = 0; r < brickRowCount; r++) {
+      if (bricks[c][r].status === 1) {
+        const brickX = r * (brickWidth + brickPadding) + brickOffsetLeft;
+        const brickY = c * (brickHeight + brickPadding) + brickOffsetTop;
+        bricks[c][r].x = brickX;
+        bricks[c][r].y = brickY;
+        ctx.beginPath();
+        ctx.rect(brickX, brickY, brickWidth, brickHeight);
+        ctx.fillStyle = "#0095DD";
+        ctx.fill();
+        ctx.closePath();
+      }
+    }
+  }
+}
+function drawScore() {
+  ctx.font = "16px Arial";
+  ctx.fillStyle = "#0095DD";
+  ctx.fillText("Score: " + score, 8, 20);
+}
+
+function draw() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  drawBricks();
+  drawBall();
+  drawPaddle();
+  drawScore();
+  collisionDetection();
+
+  if (x + dx > canvas.width - ballRadius || x + dx < ballRadius) {
+    dx = -dx;
+  }
+  if (y + dy < ballRadius) {
+    dy = -dy;
+  } else if (y + dy > canvas.height - ballRadius) {
+    if (x > paddleX && x < paddleX + paddleWidth) {
+      dy = -dy;
+    } else {
+      alert("GAME OVER");
+      document.location.reload();
+      clearInterval(interval); // Needed for Chrome to end game
+    }
+  }
+
+  if (rightPressed && paddleX < canvas.width - paddleWidth) {
+    paddleX += 7;
+  } else if (leftPressed && paddleX > 0) {
+    paddleX -= 7;
+  }
+
+  x += dx;
+  y += dy;
+}
+
+function startGame() {
+  interval = setInterval(draw, 10);
+}
+
+document.getElementById("runButton").addEventListener("click", function () {
+  startGame();
+});
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    track_the_score_and_win: {
+                      children: {},
+                      slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Track_the_score_and_win",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '  ctx.fillText("Score: " + score, 8, 20);',
+                            "108:16 - 108:33",
+                            `/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Track_the_score_and_win
+[prefer-template] Unexpected string concatenation.
+~~~
+const canvas = document.getElementById("myCanvas");
+const ctx = canvas.getContext("2d");
+const ballRadius = 10;
+let x = canvas.width / 2;
+let y = canvas.height - 30;
+let dx = 2;
+let dy = -2;
+const paddleHeight = 10;
+const paddleWidth = 75;
+let paddleX = (canvas.width - paddleWidth) / 2;
+let rightPressed = false;
+let leftPressed = false;
+let interval = 0;
+const brickRowCount = 5;
+const brickColumnCount = 3;
+const brickWidth = 75;
+const brickHeight = 20;
+const brickPadding = 10;
+const brickOffsetTop = 30;
+const brickOffsetLeft = 30;
+let score = 0;
+
+let bricks = [];
+for (let c = 0; c < brickColumnCount; c++) {
+  bricks[c] = [];
+  for (let r = 0; r < brickRowCount; r++) {
+    bricks[c][r] = { x: 0, y: 0, status: 1 };
+  }
+}
+
+document.addEventListener("keydown", keyDownHandler, false);
+document.addEventListener("keyup", keyUpHandler, false);
+
+function keyDownHandler(e) {
+  if (e.key === "Right" || e.key === "ArrowRight") {
+    rightPressed = true;
+  } else if (e.key === "Left" || e.key === "ArrowLeft") {
+    leftPressed = true;
+  }
+}
+
+function keyUpHandler(e) {
+  if (e.key === "Right" || e.key === "ArrowRight") {
+    rightPressed = false;
+  } else if (e.key === "Left" || e.key === "ArrowLeft") {
+    leftPressed = false;
+  }
+}
+function collisionDetection() {
+  for (let c = 0; c < brickColumnCount; c++) {
+    for (let r = 0; r < brickRowCount; r++) {
+      let b = bricks[c][r];
+      if (b.status === 1) {
+        if (
+          x > b.x &&
+          x < b.x + brickWidth &&
+          y > b.y &&
+          y < b.y + brickHeight
+        ) {
+          dy = -dy;
+          b.status = 0;
+          score++;
+          if (score === brickRowCount * brickColumnCount) {
+            alert("YOU WIN, CONGRATS!");
+            document.location.reload();
+            clearInterval(interval); // Needed for Chrome to end game
+          }
+        }
+      }
+    }
+  }
+}
+
+function drawBall() {
+  ctx.beginPath();
+  ctx.arc(x, y, ballRadius, 0, Math.PI * 2);
+  ctx.fillStyle = "#0095DD";
+  ctx.fill();
+  ctx.closePath();
+}
+function drawPaddle() {
+  ctx.beginPath();
+  ctx.rect(paddleX, canvas.height - paddleHeight, paddleWidth, paddleHeight);
+  ctx.fillStyle = "#0095DD";
+  ctx.fill();
+  ctx.closePath();
+}
+function drawBricks() {
+  for (let c = 0; c < brickColumnCount; c++) {
+    for (let r = 0; r < brickRowCount; r++) {
+      if (bricks[c][r].status === 1) {
+        const brickX = r * (brickWidth + brickPadding) + brickOffsetLeft;
+        const brickY = c * (brickHeight + brickPadding) + brickOffsetTop;
+        bricks[c][r].x = brickX;
+        bricks[c][r].y = brickY;
+        ctx.beginPath();
+        ctx.rect(brickX, brickY, brickWidth, brickHeight);
+        ctx.fillStyle = "#0095DD";
+        ctx.fill();
+        ctx.closePath();
+      }
+    }
+  }
+}
+function drawScore() {
+  ctx.font = "16px Arial";
+  ctx.fillStyle = "#0095DD";
+  ctx.fillText("Score: " + score, 8, 20);
+}
+
+function draw() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  drawBricks();
+  drawBall();
+  drawPaddle();
+  drawScore();
+  collisionDetection();
+
+  if (x + dx > canvas.width - ballRadius || x + dx < ballRadius) {
+    dx = -dx;
+  }
+  if (y + dy < ballRadius) {
+    dy = -dy;
+  } else if (y + dy > canvas.height - ballRadius) {
+    if (x > paddleX && x < paddleX + paddleWidth) {
+      dy = -dy;
+    } else {
+      alert("GAME OVER");
+      document.location.reload();
+      clearInterval(interval); // Needed for Chrome to end game
+    }
+  }
+
+  if (rightPressed && paddleX < canvas.width - paddleWidth) {
+    paddleX += 7;
+  } else if (leftPressed && paddleX > 0) {
+    paddleX -= 7;
+  }
+
+  x += dx;
+  y += dy;
+}
+
+function startGame() {
+  interval = setInterval(draw, 10);
+}
+
+document.getElementById("runButton").addEventListener("click", function () {
+  startGame();
+});
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
             }
           },
           slug: "/en-US/docs/Games",
@@ -450,26 +1196,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            gpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/GPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/gpl-faq.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/gpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                }
-              ]
-            },
             "high-level_programming_language": {
               children: {},
               slug: "/en-US/docs/Glossary/High-level_programming_language",
@@ -557,19 +1283,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            lgpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/LGPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/lgpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
                 }
               ]
             },
@@ -1331,6 +2044,32 @@ var warnings_processed_default = {
                         }
                       ]
                     },
+                    react_getting_started: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            "<h1>Hello, {subject + ' :)'}!</h1>",
+                            "2:13 - 2:28",
+                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started
+[prefer-template] Unexpected string concatenation.
+~~~
+{/* Hello, React :)! */}
+<h1>Hello, {subject + ' :)'}!</h1>
+{/* Hello, REACT */}
+<h1>Hello, {subject.toUpperCase()}</h1>
+{/* Hello, 4! */}
+<h1>Hello, {2 + 2}!</h1>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
                     svelte_components: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_components",
@@ -1456,6 +2195,32 @@ const checkAllTodos = (completed) => {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '      id: "todo-" + crypto.randomUUID(),',
+                            "9:11 - 9:40",
+                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_first_component
+[prefer-template] Unexpected string concatenation.
+~~~
+export default {
+  props: {
+    label: { required: true, type: String },
+    done: { default: false, type: Boolean },
+  },
+  data() {
+    return {
+      isDone: this.done,
+      id: "todo-" + crypto.randomUUID(),
+    };
+  },
+};
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -1476,6 +2241,211 @@ const checkAllTodos = (completed) => {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '        { id: "todo-" + nanoid(), label: "Learn Vue", done: false },',
+                            "10:15 - 10:33",
+                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_methods_events_models
+[prefer-template] Unexpected string concatenation.
+~~~
+export default {
+  name: "app",
+  components: {
+    ToDoItem,
+    ToDoForm,
+  },
+  data() {
+    return {
+      ToDoItems: [
+        { id: "todo-" + nanoid(), label: "Learn Vue", done: false },
+        {
+          id: "todo-" + nanoid(),
+          label: "Create a Vue project with the CLI",
+          done: true,
+        },
+        { id: "todo-" + nanoid(), label: "Have fun", done: true },
+        {
+          id: "todo-" + nanoid(),
+          label: "Create a to-do list",
+          done: false,
+        },
+      ],
+    };
+  },
+  methods: {
+    addToDo() {
+      console.log("To-do added");
+    },
+  },
+};
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '          id: "todo-" + nanoid(),',
+                            "12:15 - 12:33",
+                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_methods_events_models
+[prefer-template] Unexpected string concatenation.
+~~~
+export default {
+  name: "app",
+  components: {
+    ToDoItem,
+    ToDoForm,
+  },
+  data() {
+    return {
+      ToDoItems: [
+        { id: "todo-" + nanoid(), label: "Learn Vue", done: false },
+        {
+          id: "todo-" + nanoid(),
+          label: "Create a Vue project with the CLI",
+          done: true,
+        },
+        { id: "todo-" + nanoid(), label: "Have fun", done: true },
+        {
+          id: "todo-" + nanoid(),
+          label: "Create a to-do list",
+          done: false,
+        },
+      ],
+    };
+  },
+  methods: {
+    addToDo() {
+      console.log("To-do added");
+    },
+  },
+};
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '        { id: "todo-" + nanoid(), label: "Have fun", done: true },',
+                            "16:15 - 16:33",
+                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_methods_events_models
+[prefer-template] Unexpected string concatenation.
+~~~
+export default {
+  name: "app",
+  components: {
+    ToDoItem,
+    ToDoForm,
+  },
+  data() {
+    return {
+      ToDoItems: [
+        { id: "todo-" + nanoid(), label: "Learn Vue", done: false },
+        {
+          id: "todo-" + nanoid(),
+          label: "Create a Vue project with the CLI",
+          done: true,
+        },
+        { id: "todo-" + nanoid(), label: "Have fun", done: true },
+        {
+          id: "todo-" + nanoid(),
+          label: "Create a to-do list",
+          done: false,
+        },
+      ],
+    };
+  },
+  methods: {
+    addToDo() {
+      console.log("To-do added");
+    },
+  },
+};
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '          id: "todo-" + nanoid(),',
+                            "18:15 - 18:33",
+                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_methods_events_models
+[prefer-template] Unexpected string concatenation.
+~~~
+export default {
+  name: "app",
+  components: {
+    ToDoItem,
+    ToDoForm,
+  },
+  data() {
+    return {
+      ToDoItems: [
+        { id: "todo-" + nanoid(), label: "Learn Vue", done: false },
+        {
+          id: "todo-" + nanoid(),
+          label: "Create a Vue project with the CLI",
+          done: true,
+        },
+        { id: "todo-" + nanoid(), label: "Have fun", done: true },
+        {
+          id: "todo-" + nanoid(),
+          label: "Create a to-do list",
+          done: false,
+        },
+      ],
+    };
+  },
+  methods: {
+    addToDo() {
+      console.log("To-do added");
+    },
+  },
+};
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '        id: "todo-" + nanoid(),',
+                            "7:13 - 7:31",
+                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_methods_events_models
+[prefer-template] Unexpected string concatenation.
+~~~
+export default {
+  // …
+  methods: {
+    // …
+    addToDo(toDoLabel) {
+      this.ToDoItems.push({
+        id: "todo-" + nanoid(),
+        label: toDoLabel,
+        done: false,
+      });
+    },
+    // …
+  },
+  // …
+};
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -1496,6 +2466,170 @@ const checkAllTodos = (completed) => {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '        { id: "todo-" + nanoid(), label: "Learn Vue", done: false },',
+                            "12:15 - 12:33",
+                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_rendering_lists
+[prefer-template] Unexpected string concatenation.
+~~~
+import { nanoid } from "nanoid";
+import ToDoItem from "./components/ToDoItem.vue";
+
+export default {
+  name: "app",
+  components: {
+    ToDoItem,
+  },
+  data() {
+    return {
+      ToDoItems: [
+        { id: "todo-" + nanoid(), label: "Learn Vue", done: false },
+        {
+          id: "todo-" + nanoid(),
+          label: "Create a Vue project with the CLI",
+          done: true,
+        },
+        { id: "todo-" + nanoid(), label: "Have fun", done: true },
+        {
+          id: "todo-" + nanoid(),
+          label: "Create a to-do list",
+          done: false,
+        },
+      ],
+    };
+  },
+};
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '          id: "todo-" + nanoid(),',
+                            "14:15 - 14:33",
+                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_rendering_lists
+[prefer-template] Unexpected string concatenation.
+~~~
+import { nanoid } from "nanoid";
+import ToDoItem from "./components/ToDoItem.vue";
+
+export default {
+  name: "app",
+  components: {
+    ToDoItem,
+  },
+  data() {
+    return {
+      ToDoItems: [
+        { id: "todo-" + nanoid(), label: "Learn Vue", done: false },
+        {
+          id: "todo-" + nanoid(),
+          label: "Create a Vue project with the CLI",
+          done: true,
+        },
+        { id: "todo-" + nanoid(), label: "Have fun", done: true },
+        {
+          id: "todo-" + nanoid(),
+          label: "Create a to-do list",
+          done: false,
+        },
+      ],
+    };
+  },
+};
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '        { id: "todo-" + nanoid(), label: "Have fun", done: true },',
+                            "18:15 - 18:33",
+                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_rendering_lists
+[prefer-template] Unexpected string concatenation.
+~~~
+import { nanoid } from "nanoid";
+import ToDoItem from "./components/ToDoItem.vue";
+
+export default {
+  name: "app",
+  components: {
+    ToDoItem,
+  },
+  data() {
+    return {
+      ToDoItems: [
+        { id: "todo-" + nanoid(), label: "Learn Vue", done: false },
+        {
+          id: "todo-" + nanoid(),
+          label: "Create a Vue project with the CLI",
+          done: true,
+        },
+        { id: "todo-" + nanoid(), label: "Have fun", done: true },
+        {
+          id: "todo-" + nanoid(),
+          label: "Create a to-do list",
+          done: false,
+        },
+      ],
+    };
+  },
+};
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '          id: "todo-" + nanoid(),',
+                            "20:15 - 20:33",
+                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_rendering_lists
+[prefer-template] Unexpected string concatenation.
+~~~
+import { nanoid } from "nanoid";
+import ToDoItem from "./components/ToDoItem.vue";
+
+export default {
+  name: "app",
+  components: {
+    ToDoItem,
+  },
+  data() {
+    return {
+      ToDoItems: [
+        { id: "todo-" + nanoid(), label: "Learn Vue", done: false },
+        {
+          id: "todo-" + nanoid(),
+          label: "Create a Vue project with the CLI",
+          done: true,
+        },
+        { id: "todo-" + nanoid(), label: "Have fun", done: true },
+        {
+          id: "todo-" + nanoid(),
+          label: "Create a to-do list",
+          done: false,
+        },
+      ],
+    };
+  },
+};
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -1593,19 +2727,6 @@ const checkAllTodos = (completed) => {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    },
-                    html_images: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     },
@@ -1855,13 +2976,6 @@ const checkAllTodos = (completed) => {
                           data: []
                         },
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/gzip/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
                           message: "HTML code issue",
                           data: [
                             "no-inline-event-handlers",
@@ -2007,29 +3121,66 @@ const checkAllTodos = (completed) => {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                testing: {
-                  children: {
-                    testing_strategies: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.virtualbox.org/wiki/Downloads",
-                            502
-                          ]
                         },
                         {
-                          message: "Broken external link",
+                          message: "JS code issue",
                           data: [
-                            "https://www.virtualbox.org/wiki/Downloads",
-                            502
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '  const streamPath = found ? filePath : STATIC_PATH + "/404.html";',
+                            "30:41 - 30:66",
+                            `/en-US/docs/Learn_web_development/Extensions/Server-side/Node_server_without_framework
+[prefer-template] Unexpected string concatenation.
+~~~
+import * as fs from "node:fs";
+import * as http from "node:http";
+import * as path from "node:path";
+
+const PORT = 8000;
+
+const MIME_TYPES = {
+  default: "application/octet-stream",
+  html: "text/html; charset=UTF-8",
+  js: "text/javascript",
+  css: "text/css",
+  png: "image/png",
+  jpg: "image/jpeg",
+  gif: "image/gif",
+  ico: "image/x-icon",
+  svg: "image/svg+xml",
+};
+
+const STATIC_PATH = path.join(process.cwd(), "./static");
+
+const toBool = [() => true, () => false];
+
+const prepareFile = async (url) => {
+  const paths = [STATIC_PATH, url];
+  if (url.endsWith("/")) paths.push("index.html");
+  const filePath = path.join(...paths);
+  const pathTraversal = !filePath.startsWith(STATIC_PATH);
+  const exists = await fs.promises.access(filePath).then(...toBool);
+  const found = !pathTraversal && exists;
+  const streamPath = found ? filePath : STATIC_PATH + "/404.html";
+  const ext = path.extname(streamPath).substring(1).toLowerCase();
+  const stream = fs.createReadStream(streamPath);
+  return { found, ext, stream };
+};
+
+http
+  .createServer(async (req, res) => {
+    const file = await prepareFile(req.url);
+    const statusCode = file.found ? 200 : 404;
+    const mimeType = MIME_TYPES[file.ext] || MIME_TYPES.default;
+    res.writeHead(statusCode, { "Content-Type": mimeType });
+    file.stream.pipe(res);
+    console.log(\`\${req.method} \${req.url} \${statusCode}\`);
+  })
+  .listen(PORT);
+
+console.log(\`Server running at http://127.0.0.1:\${PORT}/\`);
+~~~
+`
                           ]
                         }
                       ]
@@ -2245,32 +3396,6 @@ const checkAllTodos = (completed) => {
                           data: []
                         }
                       ]
-                    },
-                    how_do_you_host_your_website_on_google_app_engine: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gaesamplesite.appspot.com/",
-                            503
-                          ]
-                        }
-                      ]
-                    },
-                    what_software_do_i_need: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://browsershots.org/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup",
@@ -2351,24 +3476,7 @@ const checkAllTodos = (completed) => {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/MDN/Community/Issues",
-                  messages: [
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists",
-                        "https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-tasklists"
-                      ]
-                    },
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists",
-                        "https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-tasklists"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 learn_forum: {
                   children: {},
@@ -3336,6 +4444,24 @@ var clonedObject = cloneInto(myObject, targetWindow);
 // content script
 var addonScriptObject = { greeting: "hello from your extension" };
 window.addonScriptObject = cloneInto(addonScriptObject, window);
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "JS code issue",
+                              data: [
+                                "prefer-template",
+                                "Unexpected string concatenation.",
+                                '  console.log("they said: " + greeting.message);',
+                                "3:15 - 3:47",
+                                `/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts/cloneInto
+[prefer-template] Unexpected string concatenation.
+~~~
+// page script
+function foo(greeting) {
+  console.log("they said: " + greeting.message);
+}
 ~~~
 `
                               ]
@@ -6096,13 +7222,6 @@ else if (e.target.id === "tabs-alert-info") {
                           data: [
                             "/en-US/docs/Mozilla/Add-ons/Add-on_Debugger"
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/web-animations/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -7877,6 +8996,31 @@ else if (e.target.id === "tabs-alert-info") {
                         },
                         roles: {
                           children: {
+                            alert_role: {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/alert_role",
+                              messages: [
+                                {
+                                  message: "JS code issue",
+                                  data: [
+                                    "prefer-template",
+                                    "Unexpected string concatenation.",
+                                    '  "Your session will expire in " + expiration + " minutes";',
+                                    "5:3 - 5:59",
+                                    `/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/alert_role
+[prefer-template] Unexpected string concatenation.
+~~~
+// clear the contents of the container
+document.getElementById("alertContainer").textContent = "";
+// inject the new alert message
+document.getElementById("alertContainer").textContent =
+  "Your session will expire in " + expiration + " minutes";
+~~~
+`
+                                  ]
+                                }
+                              ]
+                            },
                             alertdialog_role: {
                               children: {},
                               slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/alertdialog_role",
@@ -8796,6 +9940,251 @@ api.MessagePort`,
                     }
                   }
                 },
+                chapterinformation: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/ChapterInformation",
+                  messages: [
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "prefer-template",
+                        "Unexpected string concatenation.",
+                        '          src: BASE_URL + "sintel/chapter1-128.png",',
+                        "11:16 - 11:52",
+                        `/en-US/docs/Web/API/ChapterInformation
+[prefer-template] Unexpected string concatenation.
+~~~
+const BASE_URL = "https://storage.googleapis.com/media-session/";
+
+const metadata = {
+  // …
+  chapterInfo: [
+    {
+      title: "Chapter 1",
+      startTime: 0,
+      artwork: [
+        {
+          src: BASE_URL + "sintel/chapter1-128.png",
+          sizes: "128x128",
+          type: "image/png",
+        },
+        {
+          src: BASE_URL + "sintel/chapter1-512.png",
+          sizes: "512x512",
+          type: "image/png",
+        },
+      ],
+    },
+    {
+      title: "Chapter 2",
+      startTime: 37,
+      artwork: [
+        {
+          src: BASE_URL + "sintel/chapter2-128.png",
+          sizes: "128x128",
+          type: "image/png",
+        },
+        {
+          src: BASE_URL + "sintel/chapter2-512.png",
+          sizes: "512x512",
+          type: "image/png",
+        },
+      ],
+    },
+  ],
+};
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "prefer-template",
+                        "Unexpected string concatenation.",
+                        '          src: BASE_URL + "sintel/chapter1-512.png",',
+                        "16:16 - 16:52",
+                        `/en-US/docs/Web/API/ChapterInformation
+[prefer-template] Unexpected string concatenation.
+~~~
+const BASE_URL = "https://storage.googleapis.com/media-session/";
+
+const metadata = {
+  // …
+  chapterInfo: [
+    {
+      title: "Chapter 1",
+      startTime: 0,
+      artwork: [
+        {
+          src: BASE_URL + "sintel/chapter1-128.png",
+          sizes: "128x128",
+          type: "image/png",
+        },
+        {
+          src: BASE_URL + "sintel/chapter1-512.png",
+          sizes: "512x512",
+          type: "image/png",
+        },
+      ],
+    },
+    {
+      title: "Chapter 2",
+      startTime: 37,
+      artwork: [
+        {
+          src: BASE_URL + "sintel/chapter2-128.png",
+          sizes: "128x128",
+          type: "image/png",
+        },
+        {
+          src: BASE_URL + "sintel/chapter2-512.png",
+          sizes: "512x512",
+          type: "image/png",
+        },
+      ],
+    },
+  ],
+};
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "prefer-template",
+                        "Unexpected string concatenation.",
+                        '          src: BASE_URL + "sintel/chapter2-128.png",',
+                        "27:16 - 27:52",
+                        `/en-US/docs/Web/API/ChapterInformation
+[prefer-template] Unexpected string concatenation.
+~~~
+const BASE_URL = "https://storage.googleapis.com/media-session/";
+
+const metadata = {
+  // …
+  chapterInfo: [
+    {
+      title: "Chapter 1",
+      startTime: 0,
+      artwork: [
+        {
+          src: BASE_URL + "sintel/chapter1-128.png",
+          sizes: "128x128",
+          type: "image/png",
+        },
+        {
+          src: BASE_URL + "sintel/chapter1-512.png",
+          sizes: "512x512",
+          type: "image/png",
+        },
+      ],
+    },
+    {
+      title: "Chapter 2",
+      startTime: 37,
+      artwork: [
+        {
+          src: BASE_URL + "sintel/chapter2-128.png",
+          sizes: "128x128",
+          type: "image/png",
+        },
+        {
+          src: BASE_URL + "sintel/chapter2-512.png",
+          sizes: "512x512",
+          type: "image/png",
+        },
+      ],
+    },
+  ],
+};
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "prefer-template",
+                        "Unexpected string concatenation.",
+                        '          src: BASE_URL + "sintel/chapter2-512.png",',
+                        "32:16 - 32:52",
+                        `/en-US/docs/Web/API/ChapterInformation
+[prefer-template] Unexpected string concatenation.
+~~~
+const BASE_URL = "https://storage.googleapis.com/media-session/";
+
+const metadata = {
+  // …
+  chapterInfo: [
+    {
+      title: "Chapter 1",
+      startTime: 0,
+      artwork: [
+        {
+          src: BASE_URL + "sintel/chapter1-128.png",
+          sizes: "128x128",
+          type: "image/png",
+        },
+        {
+          src: BASE_URL + "sintel/chapter1-512.png",
+          sizes: "512x512",
+          type: "image/png",
+        },
+      ],
+    },
+    {
+      title: "Chapter 2",
+      startTime: 37,
+      artwork: [
+        {
+          src: BASE_URL + "sintel/chapter2-128.png",
+          sizes: "128x128",
+          type: "image/png",
+        },
+        {
+          src: BASE_URL + "sintel/chapter2-512.png",
+          sizes: "512x512",
+          type: "image/png",
+        },
+      ],
+    },
+  ],
+};
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "prefer-template",
+                        "Unexpected string concatenation.",
+                        '  log("Playing " + track.title + " track...");',
+                        "4:7 - 4:45",
+                        `/en-US/docs/Web/API/ChapterInformation
+[prefer-template] Unexpected string concatenation.
+~~~
+function updateMetadata() {
+  const track = playlist[index];
+
+  log("Playing " + track.title + " track...");
+  navigator.mediaSession.metadata = new MediaMetadata({
+    title: track.title,
+    artist: track.artist,
+    artwork: track.artwork,
+    chapterInfo: track.chapterInfo,
+  });
+
+  // …
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
                 convolvernode: {
                   children: {},
                   slug: "/en-US/docs/Web/API/ConvolverNode",
@@ -9101,80 +10490,6 @@ api.MessagePort`,
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Web/CSS/declaration-value"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                cssstylesheet: {
-                  children: {
-                    insertrule: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSSStyleSheet/insertRule",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-const-assign",
-                            "'rule' is constant.",
-                            "      rule = rule[1];",
-                            "35:7 - 35:11",
-                            `/en-US/docs/Web/API/CSSStyleSheet/insertRule
-[no-const-assign] 'rule' is constant.
-~~~
-/**
- * Add a stylesheet rule to the document (it may be better practice
- * to dynamically change classes, so style information can be kept in
- * genuine stylesheets and avoid adding extra elements to the DOM).
- * Note that an array is needed for declarations and rules since ECMAScript does
- * not guarantee a predictable object iteration order, and since CSS is
- * order-dependent.
- * @param {Array} rules Accepts an array of JSON-encoded declarations
- * @example
-addStylesheetRules([
-  ['h2', // Also accepts a second argument as an array of arrays instead
-    ['color', 'red'],
-    ['background-color', 'green', true] // 'true' for !important rules
-  ],
-  ['.myClass',
-    ['background-color', 'yellow']
-  ]
-]);
-*/
-function addStylesheetRules(rules) {
-  const styleEl = document.createElement("style");
-
-  // Append <style> element to <head>
-  document.head.appendChild(styleEl);
-
-  // Grab style element's sheet
-  const styleSheet = styleEl.sheet;
-
-  for (const rule of rules) {
-    let i = 1,
-      selector = rule[0],
-      propStr = "";
-    // If the second argument of a rule is an array of arrays, correct our variables.
-    if (Array.isArray(rule[1][0])) {
-      rule = rule[1];
-      i = 0;
-    }
-
-    for (; i < rule.length; i++) {
-      const prop = rule[i];
-      propStr += \`\${prop[0]}: \${prop[1]}\${prop[2] ? " !important" : ""};\\n\`;
-    }
-
-    // Insert CSS Rule
-    styleSheet.insertRule(
-      \`\${selector}{\${propStr}}\`,
-      styleSheet.cssRules.length,
-    );
-  }
-}
-~~~
-`
                           ]
                         }
                       ]
@@ -10588,6 +11903,120 @@ function addStylesheetRules(rules) {
   ondragover="dragoverHandler(event);">
   Drop Zone
 </div>
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                delegatedinktrailpresenter: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/DelegatedInkTrailPresenter",
+                  messages: [
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "prefer-template",
+                        "Unexpected string concatenation.",
+                        '      color: "rgb(" + r + " " + g + " " + b + " / 100%)",',
+                        "21:14 - 21:57",
+                        `/en-US/docs/Web/API/DelegatedInkTrailPresenter
+[prefer-template] Unexpected string concatenation.
+~~~
+const ctx = canvas.getContext("2d");
+let presenter = navigator.ink.requestPresenter({ presentationArea: canvas });
+let move_cnt = 0;
+let style = { color: "rgb(0 0 255 / 100%)", diameter: 10 };
+
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+canvas.addEventListener("pointermove", (evt) => {
+  const pointSize = 10;
+  ctx.fillStyle = "#000000";
+  ctx.fillRect(evt.pageX, evt.pageY, pointSize, pointSize);
+  if (move_cnt === 50) {
+    let r = getRandomInt(0, 255);
+    let g = getRandomInt(0, 255);
+    let b = getRandomInt(0, 255);
+    style = {
+      color: "rgb(" + r + " " + g + " " + b + " / 100%)",
+      diameter: 10,
+    };
+    move_cnt = 0;
+    document.getElementById("div").style.backgroundColor =
+      "rgb(" + r + " " + g + " " + b + " / 100%)";
+  }
+  move_cnt += 1;
+  presenter.then(function (v) {
+    v.updateInkTrailStartPoint(evt, style);
+  });
+});
+
+window.addEventListener("pointerdown", (evt) => {
+  evt.pointerId;
+  ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+});
+
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "prefer-template",
+                        "Unexpected string concatenation.",
+                        '      "rgb(" + r + " " + g + " " + b + " / 100%)";',
+                        "26:7 - 26:50",
+                        `/en-US/docs/Web/API/DelegatedInkTrailPresenter
+[prefer-template] Unexpected string concatenation.
+~~~
+const ctx = canvas.getContext("2d");
+let presenter = navigator.ink.requestPresenter({ presentationArea: canvas });
+let move_cnt = 0;
+let style = { color: "rgb(0 0 255 / 100%)", diameter: 10 };
+
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+canvas.addEventListener("pointermove", (evt) => {
+  const pointSize = 10;
+  ctx.fillStyle = "#000000";
+  ctx.fillRect(evt.pageX, evt.pageY, pointSize, pointSize);
+  if (move_cnt === 50) {
+    let r = getRandomInt(0, 255);
+    let g = getRandomInt(0, 255);
+    let b = getRandomInt(0, 255);
+    style = {
+      color: "rgb(" + r + " " + g + " " + b + " / 100%)",
+      diameter: 10,
+    };
+    move_cnt = 0;
+    document.getElementById("div").style.backgroundColor =
+      "rgb(" + r + " " + g + " " + b + " / 100%)";
+  }
+  move_cnt += 1;
+  presenter.then(function (v) {
+    v.updateInkTrailStartPoint(evt, style);
+  });
+});
+
+window.addEventListener("pointerdown", (evt) => {
+  evt.pointerId;
+  ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+});
+
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
 ~~~
 `
                       ]
@@ -12814,6 +14243,125 @@ api.DeviceOrientationEvent`,
                     }
                   }
                 },
+                errorevent: {
+                  children: {
+                    colno: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/ErrorEvent/colno",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '  console.log("The error occur in column: " + ev.colno);',
+                            "2:15 - 2:55",
+                            `/en-US/docs/Web/API/ErrorEvent/colno
+[prefer-template] Unexpected string concatenation.
+~~~
+window.addEventListener("error", (ev) => {
+  console.log("The error occur in column: " + ev.colno);
+});
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    error: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/ErrorEvent/error",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '  console.log("The error instance: " + ev.error);',
+                            "2:15 - 2:48",
+                            `/en-US/docs/Web/API/ErrorEvent/error
+[prefer-template] Unexpected string concatenation.
+~~~
+window.addEventListener("error", (ev) => {
+  console.log("The error instance: " + ev.error);
+});
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    filename: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/ErrorEvent/filename",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '  console.log("The error occur in file: " + ev.filename);',
+                            "2:15 - 2:56",
+                            `/en-US/docs/Web/API/ErrorEvent/filename
+[prefer-template] Unexpected string concatenation.
+~~~
+window.addEventListener("error", (ev) => {
+  console.log("The error occur in file: " + ev.filename);
+});
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    lineno: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/ErrorEvent/lineno",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '  console.log("The error occur in line: " + ev.lineno);',
+                            "2:15 - 2:54",
+                            `/en-US/docs/Web/API/ErrorEvent/lineno
+[prefer-template] Unexpected string concatenation.
+~~~
+window.addEventListener("error", (ev) => {
+  console.log("The error occur in line: " + ev.lineno);
+});
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    message: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/ErrorEvent/message",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '  console.log("The error message: " + ev.message);',
+                            "2:15 - 2:49",
+                            `/en-US/docs/Web/API/ErrorEvent/message
+[prefer-template] Unexpected string concatenation.
+~~~
+window.addEventListener("error", (ev) => {
+  console.log("The error message: " + ev.message);
+});
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 eventtarget: {
                   children: {
                     addeventlistener: {
@@ -12967,6 +14515,184 @@ http.headers.Permissions-Policy.deferred-fetch-minimal`,
 ~~~
 <input type="file" onchange="previewFile()" /><br />
 <p class="content"></p>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                filesystemfilehandle: {
+                  children: {
+                    createsyncaccesshandle: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/FileSystemFileHandle/createSyncAccessHandle",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '    console.log("File contents: " + textDecoder.decode(dataView));',
+                            "32:17 - 32:65",
+                            `/en-US/docs/Web/API/FileSystemFileHandle/createSyncAccessHandle
+[prefer-template] Unexpected string concatenation.
+~~~
+onmessage = function (e) {
+  console.log("Worker: Message received from main script");
+
+  // Get the current size of the file
+  let size = accessHandle.getSize();
+
+  if (e.data.command === "empty") {
+    // Truncate the file to 0 bytes
+    accessHandle.truncate(0);
+
+    // Get the current size of the file
+    size = accessHandle.getSize();
+  } else {
+    const textEncoder = new TextEncoder();
+    const textDecoder = new TextDecoder();
+
+    // Encode content to write to the file
+    const content = textEncoder.encode(e.data.content);
+    // Write the content at the end of the file
+    accessHandle.write(content, { at: size });
+
+    // Get the current size of the file
+    size = accessHandle.getSize();
+
+    // Prepare a data view of the length of the file
+    const dataView = new DataView(new ArrayBuffer(size));
+
+    // Read the entire file into the data view
+    accessHandle.read(dataView, { at: 0 });
+
+    // Log the current file contents to the console
+    console.log("File contents: " + textDecoder.decode(dataView));
+
+    // Flush the changes
+    accessHandle.flush();
+  }
+
+  // Log the size of the file to the console
+  console.log("Size: " + size);
+};
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '  console.log("Size: " + size);',
+                            "39:15 - 39:30",
+                            `/en-US/docs/Web/API/FileSystemFileHandle/createSyncAccessHandle
+[prefer-template] Unexpected string concatenation.
+~~~
+onmessage = function (e) {
+  console.log("Worker: Message received from main script");
+
+  // Get the current size of the file
+  let size = accessHandle.getSize();
+
+  if (e.data.command === "empty") {
+    // Truncate the file to 0 bytes
+    accessHandle.truncate(0);
+
+    // Get the current size of the file
+    size = accessHandle.getSize();
+  } else {
+    const textEncoder = new TextEncoder();
+    const textDecoder = new TextDecoder();
+
+    // Encode content to write to the file
+    const content = textEncoder.encode(e.data.content);
+    // Write the content at the end of the file
+    accessHandle.write(content, { at: size });
+
+    // Get the current size of the file
+    size = accessHandle.getSize();
+
+    // Prepare a data view of the length of the file
+    const dataView = new DataView(new ArrayBuffer(size));
+
+    // Read the entire file into the data view
+    accessHandle.read(dataView, { at: 0 });
+
+    // Log the current file contents to the console
+    console.log("File contents: " + textDecoder.decode(dataView));
+
+    // Flush the changes
+    accessHandle.flush();
+  }
+
+  // Log the size of the file to the console
+  console.log("Size: " + size);
+};
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                filesystemhandle: {
+                  children: {
+                    remove: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/FileSystemHandle/remove",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '    if (handle.name === e.target.id + ".txt") {',
+                            "3:25 - 3:45",
+                            `/en-US/docs/Web/API/FileSystemHandle/remove
+[prefer-template] Unexpected string concatenation.
+~~~
+async function deleteFile(e) {
+  for (const handle of savedFileRefs) {
+    if (handle.name === e.target.id + ".txt") {
+      await handle.remove();
+      savedFileRefs = savedFileRefs.filter(
+        (handle) => handle.name !== e.target.id + ".txt",
+      );
+      e.target.parentElement.parentElement.removeChild(e.target.parentElement);
+    }
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '        (handle) => handle.name !== e.target.id + ".txt",',
+                            "6:37 - 6:57",
+                            `/en-US/docs/Web/API/FileSystemHandle/remove
+[prefer-template] Unexpected string concatenation.
+~~~
+async function deleteFile(e) {
+  for (const handle of savedFileRefs) {
+    if (handle.name === e.target.id + ".txt") {
+      await handle.remove();
+      savedFileRefs = savedFileRefs.filter(
+        (handle) => handle.name !== e.target.id + ".txt",
+      );
+      e.target.parentElement.parentElement.removeChild(e.target.parentElement);
+    }
+  }
+}
 ~~~
 `
                           ]
@@ -13407,6 +15133,56 @@ api.Document.fullscreen`,
                         }
                       ]
                     },
+                    iscontenteditable: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLElement/isContentEditable",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            'infoText1.textContent += " " + firstParagraph.isContentEditable;',
+                            "7:26 - 7:64",
+                            `/en-US/docs/Web/API/HTMLElement/isContentEditable
+[prefer-template] Unexpected string concatenation.
+~~~
+const firstParagraph = document.getElementById("firstParagraph");
+const secondParagraph = document.getElementById("secondParagraph");
+
+const infoText1 = document.getElementById("infoText1");
+const infoText2 = document.getElementById("infoText2");
+
+infoText1.textContent += " " + firstParagraph.isContentEditable;
+infoText2.textContent += " " + secondParagraph.isContentEditable;
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            'infoText2.textContent += " " + secondParagraph.isContentEditable;',
+                            "8:26 - 8:65",
+                            `/en-US/docs/Web/API/HTMLElement/isContentEditable
+[prefer-template] Unexpected string concatenation.
+~~~
+const firstParagraph = document.getElementById("firstParagraph");
+const secondParagraph = document.getElementById("secondParagraph");
+
+const infoText1 = document.getElementById("infoText1");
+const infoText2 = document.getElementById("infoText2");
+
+infoText1.textContent += " " + firstParagraph.isContentEditable;
+infoText2.textContent += " " + secondParagraph.isContentEditable;
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
                     load_event: {
                       children: {},
                       slug: "/en-US/docs/Web/API/HTMLElement/load_event",
@@ -13557,6 +15333,39 @@ api.Document.fullscreen`,
                 },
                 htmlinputelement: {
                   children: {
+                    files: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLInputElement/files",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '    file.size < 1000 ? file.size : Math.round(file.size / 1000) + "KB",',
+                            "10:36 - 10:71",
+                            `/en-US/docs/Web/API/HTMLInputElement/files
+[prefer-template] Unexpected string concatenation.
+~~~
+const fileInput = document.getElementById("files");
+
+console.log(fileInput.files instanceof FileList); // true even if empty
+
+for (const file of fileInput.files) {
+  console.log(file.name); // prints file name
+  let fileDate = new Date(file.lastModified);
+  console.log(fileDate.toLocaleDateString()); // prints legible date
+  console.log(
+    file.size < 1000 ? file.size : Math.round(file.size / 1000) + "KB",
+  );
+  console.log(file.type); // prints MIME type
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
                     select: {
                       children: {},
                       slug: "/en-US/docs/Web/API/HTMLInputElement/select",
@@ -13611,6 +15420,30 @@ api.Document.fullscreen`,
 ~~~
 <input type="text" id="text-box" size="20" value="Hello world!" />
 <button onclick="selectText()">Select text</button>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    selectiondirection: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLInputElement/selectionDirection",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '  "Selection direction : " + textSelectionDirection.selectionDirection;',
+                            "4:3 - 4:71",
+                            `/en-US/docs/Web/API/HTMLInputElement/selectionDirection
+[prefer-template] Unexpected string concatenation.
+~~~
+const textSelectionDirection = document.querySelector("#selectionDirection");
+const pConsole = document.querySelector("#direction");
+pConsole.textContent =
+  "Selection direction : " + textSelectionDirection.selectionDirection;
 ~~~
 `
                           ]
@@ -14532,6 +16365,34 @@ function checkDeadlines() {
                         }
                       ]
                     },
+                    movementx: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/MouseEvent/movementX",
+                      messages: [
+                        {
+                          message: "Text stuck to code/link",
+                          data: [
+                            "use different units for movementX and ",
+                            "Text after link:",
+                            "screenX"
+                          ]
+                        }
+                      ]
+                    },
+                    movementy: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/MouseEvent/movementY",
+                      messages: [
+                        {
+                          message: "Text stuck to code/link",
+                          data: [
+                            "use different units for movementY and ",
+                            "Text after link:",
+                            "screenY"
+                          ]
+                        }
+                      ]
+                    },
                     mozinputsource: {
                       children: {},
                       slug: "/en-US/docs/Web/API/MouseEvent/mozInputSource",
@@ -14866,6 +16727,76 @@ function checkDeadlines() {
                             "api.PerformanceNavigationTiming.notRestoredReasons",
                             "Expected:",
                             "[None]"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                performancenavigationtiming: {
+                  children: {
+                    activationstart: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PerformanceNavigationTiming/activationStart",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            'console.log("time to first paint: " + (firstPaint - activationStart));',
+                            "13:13 - 13:69",
+                            `/en-US/docs/Web/API/PerformanceNavigationTiming/activationStart
+[prefer-template] Unexpected string concatenation.
+~~~
+// Time to when activation occurred
+let activationStart =
+  performance.getEntriesByType("navigation")[0].activationStart;
+
+// Time to first paint
+let firstPaint = performance.getEntriesByName("first-paint")[0].startTime;
+
+// Time to first contentful paint
+let firstContentfulPaint = performance.getEntriesByName(
+  "first-contentful-paint",
+)[0].startTime;
+
+console.log("time to first paint: " + (firstPaint - activationStart));
+console.log(
+  "time to first-contentful-paint: " + (firstContentfulPaint - activationStart),
+);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '  "time to first-contentful-paint: " + (firstContentfulPaint - activationStart),',
+                            "15:3 - 15:80",
+                            `/en-US/docs/Web/API/PerformanceNavigationTiming/activationStart
+[prefer-template] Unexpected string concatenation.
+~~~
+// Time to when activation occurred
+let activationStart =
+  performance.getEntriesByType("navigation")[0].activationStart;
+
+// Time to first paint
+let firstPaint = performance.getEntriesByName("first-paint")[0].startTime;
+
+// Time to first contentful paint
+let firstContentfulPaint = performance.getEntriesByName(
+  "first-contentful-paint",
+)[0].startTime;
+
+console.log("time to first paint: " + (firstPaint - activationStart));
+console.log(
+  "time to first-contentful-paint: " + (firstContentfulPaint - activationStart),
+);
+~~~
+`
                           ]
                         }
                       ]
@@ -15262,6 +17193,456 @@ function checkDeadlines() {
                       ]
                     }
                   }
+                },
+                resizeobserver: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/ResizeObserver",
+                  messages: [
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "prefer-template",
+                        "Unexpected string concatenation.",
+                        '    entry.target.style.width = entry.contentBoxSize[0].inlineSize + 10 + "px";',
+                        "5:32 - 5:78",
+                        `/en-US/docs/Web/API/ResizeObserver
+[prefer-template] Unexpected string concatenation.
+~~~
+const divElem = document.querySelector("body > div");
+
+const resizeObserver = new ResizeObserver((entries) => {
+  for (const entry of entries) {
+    entry.target.style.width = entry.contentBoxSize[0].inlineSize + 10 + "px";
+  }
+});
+
+resizeObserver.observe(divElem);
+
+window.addEventListener("error", (e) => {
+  console.error(e.message);
+});
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "prefer-template",
+                        "Unexpected string concatenation.",
+                        '      entry.target.style.width = entry.contentBoxSize[0].inlineSize + 10 + "px";',
+                        "6:34 - 6:80",
+                        `/en-US/docs/Web/API/ResizeObserver
+[prefer-template] Unexpected string concatenation.
+~~~
+const divElem = document.querySelector("body > div");
+
+const resizeObserver = new ResizeObserver((entries) => {
+  requestAnimationFrame(() => {
+    for (const entry of entries) {
+      entry.target.style.width = entry.contentBoxSize[0].inlineSize + 10 + "px";
+    }
+  });
+});
+
+resizeObserver.observe(divElem);
+
+window.addEventListener("error", (e) => {
+  console.error(e.message);
+});
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                resizeobserverentry: {
+                  children: {
+                    contentboxsize: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/ResizeObserverEntry/contentBoxSize",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            "          Math.min(",
+                            "7:11 - 11:19",
+                            `/en-US/docs/Web/API/ResizeObserverEntry/contentBoxSize
+[prefer-template] Unexpected string concatenation.
+~~~
+const resizeObserver = new ResizeObserver((entries) => {
+  for (const entry of entries) {
+    if (entry.contentBoxSize) {
+      // The standard makes contentBoxSize an array...
+      if (entry.contentBoxSize[0]) {
+        entry.target.style.borderRadius =
+          Math.min(
+            100,
+            entry.contentBoxSize[0].inlineSize / 10 +
+              entry.contentBoxSize[0].blockSize / 10,
+          ) + "px";
+      } else {
+        // … but old versions of Firefox treat it as a single item
+        entry.target.style.borderRadius =
+          Math.min(
+            100,
+            entry.contentBoxSize.inlineSize / 10 +
+              entry.contentBoxSize.blockSize / 10,
+          ) + "px";
+      }
+    } else {
+      entry.target.style.borderRadius =
+        Math.min(
+          100,
+          entry.contentRect.width / 10 + entry.contentRect.height / 10,
+        ) + "px";
+    }
+  }
+});
+
+resizeObserver.observe(document.querySelector("div"));
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            "          Math.min(",
+                            "15:11 - 19:19",
+                            `/en-US/docs/Web/API/ResizeObserverEntry/contentBoxSize
+[prefer-template] Unexpected string concatenation.
+~~~
+const resizeObserver = new ResizeObserver((entries) => {
+  for (const entry of entries) {
+    if (entry.contentBoxSize) {
+      // The standard makes contentBoxSize an array...
+      if (entry.contentBoxSize[0]) {
+        entry.target.style.borderRadius =
+          Math.min(
+            100,
+            entry.contentBoxSize[0].inlineSize / 10 +
+              entry.contentBoxSize[0].blockSize / 10,
+          ) + "px";
+      } else {
+        // … but old versions of Firefox treat it as a single item
+        entry.target.style.borderRadius =
+          Math.min(
+            100,
+            entry.contentBoxSize.inlineSize / 10 +
+              entry.contentBoxSize.blockSize / 10,
+          ) + "px";
+      }
+    } else {
+      entry.target.style.borderRadius =
+        Math.min(
+          100,
+          entry.contentRect.width / 10 + entry.contentRect.height / 10,
+        ) + "px";
+    }
+  }
+});
+
+resizeObserver.observe(document.querySelector("div"));
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            "        Math.min(",
+                            "23:9 - 26:17",
+                            `/en-US/docs/Web/API/ResizeObserverEntry/contentBoxSize
+[prefer-template] Unexpected string concatenation.
+~~~
+const resizeObserver = new ResizeObserver((entries) => {
+  for (const entry of entries) {
+    if (entry.contentBoxSize) {
+      // The standard makes contentBoxSize an array...
+      if (entry.contentBoxSize[0]) {
+        entry.target.style.borderRadius =
+          Math.min(
+            100,
+            entry.contentBoxSize[0].inlineSize / 10 +
+              entry.contentBoxSize[0].blockSize / 10,
+          ) + "px";
+      } else {
+        // … but old versions of Firefox treat it as a single item
+        entry.target.style.borderRadius =
+          Math.min(
+            100,
+            entry.contentBoxSize.inlineSize / 10 +
+              entry.contentBoxSize.blockSize / 10,
+          ) + "px";
+      }
+    } else {
+      entry.target.style.borderRadius =
+        Math.min(
+          100,
+          entry.contentRect.width / 10 + entry.contentRect.height / 10,
+        ) + "px";
+    }
+  }
+});
+
+resizeObserver.observe(document.querySelector("div"));
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/ResizeObserverEntry",
+                  messages: [
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "prefer-template",
+                        "Unexpected string concatenation.",
+                        '          Math.max(1.5, entry.contentBoxSize[0].inlineSize / 200) + "rem";',
+                        "7:11 - 7:74",
+                        `/en-US/docs/Web/API/ResizeObserverEntry
+[prefer-template] Unexpected string concatenation.
+~~~
+const resizeObserver = new ResizeObserver((entries) => {
+  for (const entry of entries) {
+    if (entry.contentBoxSize) {
+      // The standard makes contentBoxSize an array...
+      if (entry.contentBoxSize[0]) {
+        h1Elem.style.fontSize =
+          Math.max(1.5, entry.contentBoxSize[0].inlineSize / 200) + "rem";
+        pElem.style.fontSize =
+          Math.max(1, entry.contentBoxSize[0].inlineSize / 600) + "rem";
+      } else {
+        // … but old versions of Firefox treat it as a single item
+        h1Elem.style.fontSize =
+          Math.max(1.5, entry.contentBoxSize.inlineSize / 200) + "rem";
+        pElem.style.fontSize =
+          Math.max(1, entry.contentBoxSize.inlineSize / 600) + "rem";
+      }
+    } else {
+      h1Elem.style.fontSize =
+        Math.max(1.5, entry.contentRect.width / 200) + "rem";
+      pElem.style.fontSize = Math.max(1, entry.contentRect.width / 600) + "rem";
+    }
+  }
+  console.log("Size changed");
+});
+
+resizeObserver.observe(divElem);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "prefer-template",
+                        "Unexpected string concatenation.",
+                        '          Math.max(1, entry.contentBoxSize[0].inlineSize / 600) + "rem";',
+                        "9:11 - 9:72",
+                        `/en-US/docs/Web/API/ResizeObserverEntry
+[prefer-template] Unexpected string concatenation.
+~~~
+const resizeObserver = new ResizeObserver((entries) => {
+  for (const entry of entries) {
+    if (entry.contentBoxSize) {
+      // The standard makes contentBoxSize an array...
+      if (entry.contentBoxSize[0]) {
+        h1Elem.style.fontSize =
+          Math.max(1.5, entry.contentBoxSize[0].inlineSize / 200) + "rem";
+        pElem.style.fontSize =
+          Math.max(1, entry.contentBoxSize[0].inlineSize / 600) + "rem";
+      } else {
+        // … but old versions of Firefox treat it as a single item
+        h1Elem.style.fontSize =
+          Math.max(1.5, entry.contentBoxSize.inlineSize / 200) + "rem";
+        pElem.style.fontSize =
+          Math.max(1, entry.contentBoxSize.inlineSize / 600) + "rem";
+      }
+    } else {
+      h1Elem.style.fontSize =
+        Math.max(1.5, entry.contentRect.width / 200) + "rem";
+      pElem.style.fontSize = Math.max(1, entry.contentRect.width / 600) + "rem";
+    }
+  }
+  console.log("Size changed");
+});
+
+resizeObserver.observe(divElem);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "prefer-template",
+                        "Unexpected string concatenation.",
+                        '          Math.max(1.5, entry.contentBoxSize.inlineSize / 200) + "rem";',
+                        "13:11 - 13:71",
+                        `/en-US/docs/Web/API/ResizeObserverEntry
+[prefer-template] Unexpected string concatenation.
+~~~
+const resizeObserver = new ResizeObserver((entries) => {
+  for (const entry of entries) {
+    if (entry.contentBoxSize) {
+      // The standard makes contentBoxSize an array...
+      if (entry.contentBoxSize[0]) {
+        h1Elem.style.fontSize =
+          Math.max(1.5, entry.contentBoxSize[0].inlineSize / 200) + "rem";
+        pElem.style.fontSize =
+          Math.max(1, entry.contentBoxSize[0].inlineSize / 600) + "rem";
+      } else {
+        // … but old versions of Firefox treat it as a single item
+        h1Elem.style.fontSize =
+          Math.max(1.5, entry.contentBoxSize.inlineSize / 200) + "rem";
+        pElem.style.fontSize =
+          Math.max(1, entry.contentBoxSize.inlineSize / 600) + "rem";
+      }
+    } else {
+      h1Elem.style.fontSize =
+        Math.max(1.5, entry.contentRect.width / 200) + "rem";
+      pElem.style.fontSize = Math.max(1, entry.contentRect.width / 600) + "rem";
+    }
+  }
+  console.log("Size changed");
+});
+
+resizeObserver.observe(divElem);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "prefer-template",
+                        "Unexpected string concatenation.",
+                        '          Math.max(1, entry.contentBoxSize.inlineSize / 600) + "rem";',
+                        "15:11 - 15:69",
+                        `/en-US/docs/Web/API/ResizeObserverEntry
+[prefer-template] Unexpected string concatenation.
+~~~
+const resizeObserver = new ResizeObserver((entries) => {
+  for (const entry of entries) {
+    if (entry.contentBoxSize) {
+      // The standard makes contentBoxSize an array...
+      if (entry.contentBoxSize[0]) {
+        h1Elem.style.fontSize =
+          Math.max(1.5, entry.contentBoxSize[0].inlineSize / 200) + "rem";
+        pElem.style.fontSize =
+          Math.max(1, entry.contentBoxSize[0].inlineSize / 600) + "rem";
+      } else {
+        // … but old versions of Firefox treat it as a single item
+        h1Elem.style.fontSize =
+          Math.max(1.5, entry.contentBoxSize.inlineSize / 200) + "rem";
+        pElem.style.fontSize =
+          Math.max(1, entry.contentBoxSize.inlineSize / 600) + "rem";
+      }
+    } else {
+      h1Elem.style.fontSize =
+        Math.max(1.5, entry.contentRect.width / 200) + "rem";
+      pElem.style.fontSize = Math.max(1, entry.contentRect.width / 600) + "rem";
+    }
+  }
+  console.log("Size changed");
+});
+
+resizeObserver.observe(divElem);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "prefer-template",
+                        "Unexpected string concatenation.",
+                        '        Math.max(1.5, entry.contentRect.width / 200) + "rem";',
+                        "19:9 - 19:61",
+                        `/en-US/docs/Web/API/ResizeObserverEntry
+[prefer-template] Unexpected string concatenation.
+~~~
+const resizeObserver = new ResizeObserver((entries) => {
+  for (const entry of entries) {
+    if (entry.contentBoxSize) {
+      // The standard makes contentBoxSize an array...
+      if (entry.contentBoxSize[0]) {
+        h1Elem.style.fontSize =
+          Math.max(1.5, entry.contentBoxSize[0].inlineSize / 200) + "rem";
+        pElem.style.fontSize =
+          Math.max(1, entry.contentBoxSize[0].inlineSize / 600) + "rem";
+      } else {
+        // … but old versions of Firefox treat it as a single item
+        h1Elem.style.fontSize =
+          Math.max(1.5, entry.contentBoxSize.inlineSize / 200) + "rem";
+        pElem.style.fontSize =
+          Math.max(1, entry.contentBoxSize.inlineSize / 600) + "rem";
+      }
+    } else {
+      h1Elem.style.fontSize =
+        Math.max(1.5, entry.contentRect.width / 200) + "rem";
+      pElem.style.fontSize = Math.max(1, entry.contentRect.width / 600) + "rem";
+    }
+  }
+  console.log("Size changed");
+});
+
+resizeObserver.observe(divElem);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "prefer-template",
+                        "Unexpected string concatenation.",
+                        '      pElem.style.fontSize = Math.max(1, entry.contentRect.width / 600) + "rem";',
+                        "20:30 - 20:80",
+                        `/en-US/docs/Web/API/ResizeObserverEntry
+[prefer-template] Unexpected string concatenation.
+~~~
+const resizeObserver = new ResizeObserver((entries) => {
+  for (const entry of entries) {
+    if (entry.contentBoxSize) {
+      // The standard makes contentBoxSize an array...
+      if (entry.contentBoxSize[0]) {
+        h1Elem.style.fontSize =
+          Math.max(1.5, entry.contentBoxSize[0].inlineSize / 200) + "rem";
+        pElem.style.fontSize =
+          Math.max(1, entry.contentBoxSize[0].inlineSize / 600) + "rem";
+      } else {
+        // … but old versions of Firefox treat it as a single item
+        h1Elem.style.fontSize =
+          Math.max(1.5, entry.contentBoxSize.inlineSize / 200) + "rem";
+        pElem.style.fontSize =
+          Math.max(1, entry.contentBoxSize.inlineSize / 600) + "rem";
+      }
+    } else {
+      h1Elem.style.fontSize =
+        Math.max(1.5, entry.contentRect.width / 200) + "rem";
+      pElem.style.fontSize = Math.max(1, entry.contentRect.width / 600) + "rem";
+    }
+  }
+  console.log("Size changed");
+});
+
+resizeObserver.observe(divElem);
+~~~
+`
+                      ]
+                    }
+                  ]
                 },
                 response: {
                   children: {
@@ -15711,6 +18092,38 @@ function checkDeadlines() {
                     }
                   ]
                 },
+                storagemanager: {
+                  children: {
+                    estimate: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/StorageManager/estimate",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '    (estimate.quota / 1024 / 1024).toFixed(2) + "MB";',
+                            "7:5 - 7:53",
+                            `/en-US/docs/Web/API/StorageManager/estimate
+[prefer-template] Unexpected string concatenation.
+~~~
+navigator.storage.estimate().then((estimate) => {
+  document.getElementById("percent").value = (
+    (estimate.usage / estimate.quota) *
+    100
+  ).toFixed(2);
+  document.getElementById("quota").value =
+    (estimate.quota / 1024 / 1024).toFixed(2) + "MB";
+});
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 stylesheet: {
                   children: {
                     href: {
@@ -15846,6 +18259,58 @@ function checkDeadlines() {
                     }
                   ]
                 },
+                svglengthlist: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/SVGLengthList",
+                  messages: [
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "prefer-template",
+                        "Unexpected string concatenation.",
+                        '    output.innerText += list.getItem(i).value + "\\n";',
+                        "22:25 - 22:53",
+                        `/en-US/docs/Web/API/SVGLengthList
+[prefer-template] Unexpected string concatenation.
+~~~
+const text = document.getElementById("text1");
+const output = document.getElementById("output");
+const list = text.x.baseVal;
+function equallyDistribute() {
+  list.clear();
+  for (let i = 0; i < text.textContent.length; i++) {
+    const length = text.ownerSVGElement.createSVGLength();
+    length.value = i * 20 + 10;
+    list.appendItem(length);
+  }
+  printList();
+}
+function resetSpacing() {
+  const length = text.ownerSVGElement.createSVGLength();
+  length.value = 10;
+  list.initialize(length);
+  printList();
+}
+function printList() {
+  output.textContent = "";
+  for (let i = 0; i < list.length; i++) {
+    output.innerText += list.getItem(i).value + "\\n";
+  }
+}
+printList();
+
+document
+  .getElementById("equally-distribute")
+  .addEventListener("click", equallyDistribute);
+document
+  .getElementById("reset-spacing")
+  .addEventListener("click", resetSpacing);
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
                 svgrenderingintent: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SVGRenderingIntent",
@@ -15865,7 +18330,40 @@ function checkDeadlines() {
                   ]
                 },
                 svgsvgelement: {
-                  children: {},
+                  children: {
+                    getelementbyid: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGSVGElement/getElementById",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '    elementDisplay.textContent = "Element found: " + circleElement.tagName;',
+                            "8:34 - 8:75",
+                            `/en-US/docs/Web/API/SVGSVGElement/getElementById
+[prefer-template] Unexpected string concatenation.
+~~~
+const svgElement = document.getElementById("exampleSVG");
+const getElementButton = document.getElementById("getElementButton");
+const elementDisplay = document.getElementById("elementDisplay");
+
+getElementButton.addEventListener("click", () => {
+  const circleElement = svgElement.getElementById("circle1");
+  if (circleElement) {
+    elementDisplay.textContent = "Element found: " + circleElement.tagName;
+  } else {
+    elementDisplay.textContent = "Element not found.";
+  }
+});
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/API/SVGSVGElement",
                   messages: [
                     {
@@ -16357,6 +18855,170 @@ async function handleTranslation(e) {
                       ]
                     }
                   ]
+                },
+                validitystate: {
+                  children: {
+                    badinput: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/ValidityState/badInput",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '    log("Bad input detected: " + userInput.validationMessage);',
+                            "11:9 - 11:61",
+                            `/en-US/docs/Web/API/ValidityState/badInput
+[prefer-template] Unexpected string concatenation.
+~~~
+const userInput = document.getElementById("age");
+const logElement = document.getElementById("log");
+
+function log(text) {
+  logElement.innerText = text;
+}
+
+userInput.addEventListener("input", () => {
+  userInput.reportValidity();
+  if (userInput.validity.badInput) {
+    log("Bad input detected: " + userInput.validationMessage);
+  }
+});
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    customerror: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/ValidityState/customError",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '    log("Custom validity error: " + userInput.validationMessage);',
+                            "27:9 - 27:64",
+                            `/en-US/docs/Web/API/ValidityState/customError
+[prefer-template] Unexpected string concatenation.
+~~~
+const userInput = document.getElementById("userInput");
+const checkButton = document.getElementById("checkButton");
+const logElement = document.getElementById("log");
+
+function log(text) {
+  logElement.innerText = text;
+}
+
+const check = (input) => {
+  // Handle cases where input is too vague
+  if (input.value === "good" || input.value === "fine") {
+    input.setCustomValidity(\`"\${input.value}" is not a feeling.\`);
+  } else {
+    // An empty string resets the custom validity state
+    input.setCustomValidity("");
+  }
+};
+
+userInput.addEventListener("input", () => {
+  check(userInput);
+});
+
+const validateInput = () => {
+  userInput.reportValidity();
+  if (userInput.validity.customError) {
+    // We can handle custom validity states here
+    log("Custom validity error: " + userInput.validationMessage);
+  } else {
+    log(userInput.validationMessage);
+  }
+};
+
+checkButton.addEventListener("click", validateInput);
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    typemismatch: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/ValidityState/typeMismatch",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '    log("Validation failed: " + emailInput.validationMessage);',
+                            "15:9 - 15:61",
+                            `/en-US/docs/Web/API/ValidityState/typeMismatch
+[prefer-template] Unexpected string concatenation.
+~~~
+const emailInput = document.getElementById("emailInput");
+const logElement = document.getElementById("log");
+
+function log(text) {
+  logElement.innerText = text;
+}
+
+emailInput.addEventListener("input", () => {
+  emailInput.reportValidity();
+  if (emailInput.validity.valid) {
+    log("Input OK…");
+  } else if (emailInput.validity.typeMismatch) {
+    log("Input is not an email.");
+  } else {
+    log("Validation failed: " + emailInput.validationMessage);
+  }
+});
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    valuemissing: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/ValidityState/valueMissing",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '    log("Bad input detected: " + userInput.validationMessage);',
+                            "15:9 - 15:61",
+                            `/en-US/docs/Web/API/ValidityState/valueMissing
+[prefer-template] Unexpected string concatenation.
+~~~
+const userInput = document.getElementById("age");
+const logElement = document.getElementById("log");
+
+function log(text) {
+  logElement.innerText = text;
+}
+
+userInput.addEventListener("input", () => {
+  userInput.reportValidity();
+  if (userInput.validity.valid) {
+    log("Input OK…");
+  } else if (userInput.validity.valueMissing) {
+    log("Required field cannot be empty.");
+  } else {
+    log("Bad input detected: " + userInput.validationMessage);
+  }
+});
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 vrlayerinit: {
                   children: {
@@ -17031,24 +19693,6 @@ alert(emulateMessage(example5).constructor); // Object
                       ]
                     }
                   ]
-                },
-                webglrenderingcontext: {
-                  children: {
-                    getparameter: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WebGLRenderingContext/getParameter",
-                      messages: [
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "GLboolean",
-                            "Text after link:",
-                            ">"
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 webotp_api: {
                   children: {},
@@ -19060,6 +21704,48 @@ function displayPoseStats(pose) {
                     }
                   ]
                 },
+                writablestream: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/WritableStream",
+                  messages: [
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "prefer-template",
+                        "Unexpected string concatenation.",
+                        '  console.error("Stream error: " + error);',
+                        "21:17 - 21:41",
+                        `/en-US/docs/Web/API/WritableStream
+[prefer-template] Unexpected string concatenation.
+~~~
+const writableStream = new WritableStream(
+  // Implement the sink
+  {
+    write(chunk) {
+      const textElement = document.getElementById("text-output");
+      textElement.textContent += chunk;
+    },
+  },
+);
+
+const writer = writableStream.getWriter();
+
+try {
+  writer.write("Hello, ");
+  writer.write("world!\\n");
+  writer.write("This has been a demo!\\n");
+
+  await writer.close(); // wait for all chunks to be written
+  console.log("All chunks written");
+} catch (error) {
+  console.error("Stream error: " + error);
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
                 xmlhttprequest_api: {
                   children: {
                     html_in_xmlhttprequest: {
@@ -19796,6 +22482,50 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
+                    },
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "prefer-template",
+                        "Unexpected string concatenation.",
+                        'span.textContent = ".post width: " + post.clientWidth + "px";',
+                        "3:20 - 3:61",
+                        `/en-US/docs/Web/CSS/@container
+[prefer-template] Unexpected string concatenation.
+~~~
+const post = document.querySelector(".post");
+const span = document.createElement("span");
+span.textContent = ".post width: " + post.clientWidth + "px";
+post.parentNode.insertBefore(span, post.nextSibling);
+// update on resize
+window.addEventListener("resize", () => {
+  span.textContent = ".post width: " + post.clientWidth + "px";
+});
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "prefer-template",
+                        "Unexpected string concatenation.",
+                        '  span.textContent = ".post width: " + post.clientWidth + "px";',
+                        "7:22 - 7:63",
+                        `/en-US/docs/Web/CSS/@container
+[prefer-template] Unexpected string concatenation.
+~~~
+const post = document.querySelector(".post");
+const span = document.createElement("span");
+span.textContent = ".post width: " + post.clientWidth + "px";
+post.parentNode.insertBefore(span, post.nextSibling);
+// update on resize
+window.addEventListener("resize", () => {
+  span.textContent = ".post width: " + post.clientWidth + "px";
+});
+~~~
+`
+                      ]
                     }
                   ]
                 },
@@ -20878,6 +23608,636 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
+                anchor: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/anchor",
+                  messages: [
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "prefer-template",
+                        "Unexpected string concatenation.",
+                        '        elem.style.left = elem.offsetLeft + 5 + "px";',
+                        "12:27 - 12:53",
+                        `/en-US/docs/Web/CSS/anchor
+[prefer-template] Unexpected string concatenation.
+~~~
+// grab all the anchors and make each one draggable
+const anchors = document.querySelectorAll(".anchor");
+anchors.forEach((anchor) => makeDraggable(anchor));
+
+function makeDraggable(elem) {
+  let pos1, pos2, pos3, pos4;
+
+  elem.onmousedown = dragMouseDown;
+  elem.addEventListener("keyup", (e) => {
+    switch (e.key) {
+      case "d":
+        elem.style.left = elem.offsetLeft + 5 + "px";
+        break;
+      case "a":
+        elem.style.left = elem.offsetLeft - 5 + "px";
+        break;
+      case "w":
+        elem.style.top = elem.offsetTop - 5 + "px";
+        break;
+      case "s":
+        elem.style.top = elem.offsetTop + 5 + "px";
+        break;
+    }
+    e.preventDefault();
+  });
+
+  function elementMove(e) {
+    console.dir(e);
+    // calculate the new cursor position:
+    pos1 = pos3 - e.offsetLeft;
+    pos2 = pos4 - e.offsetTop;
+    pos3 = e.offsetLeft;
+    pos4 = e.offsetTop;
+    // set the element's new position:
+    elem.style.top = elem.offsetTop - pos2 + "px";
+    elem.style.left = elem.offsetLeft - pos1 + "px";
+  }
+
+  function dragMouseDown(e) {
+    // get the mouse cursor position at startup:
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    // call a function whenever the mouse moves:
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    // calculate the new cursor position:
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    // set the element's new position:
+    elem.style.top = elem.offsetTop - pos2 + "px";
+    elem.style.left = elem.offsetLeft - pos1 + "px";
+  }
+
+  function closeDragElement() {
+    // stop moving when mouse button is released:
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "prefer-template",
+                        "Unexpected string concatenation.",
+                        '        elem.style.left = elem.offsetLeft - 5 + "px";',
+                        "15:27 - 15:53",
+                        `/en-US/docs/Web/CSS/anchor
+[prefer-template] Unexpected string concatenation.
+~~~
+// grab all the anchors and make each one draggable
+const anchors = document.querySelectorAll(".anchor");
+anchors.forEach((anchor) => makeDraggable(anchor));
+
+function makeDraggable(elem) {
+  let pos1, pos2, pos3, pos4;
+
+  elem.onmousedown = dragMouseDown;
+  elem.addEventListener("keyup", (e) => {
+    switch (e.key) {
+      case "d":
+        elem.style.left = elem.offsetLeft + 5 + "px";
+        break;
+      case "a":
+        elem.style.left = elem.offsetLeft - 5 + "px";
+        break;
+      case "w":
+        elem.style.top = elem.offsetTop - 5 + "px";
+        break;
+      case "s":
+        elem.style.top = elem.offsetTop + 5 + "px";
+        break;
+    }
+    e.preventDefault();
+  });
+
+  function elementMove(e) {
+    console.dir(e);
+    // calculate the new cursor position:
+    pos1 = pos3 - e.offsetLeft;
+    pos2 = pos4 - e.offsetTop;
+    pos3 = e.offsetLeft;
+    pos4 = e.offsetTop;
+    // set the element's new position:
+    elem.style.top = elem.offsetTop - pos2 + "px";
+    elem.style.left = elem.offsetLeft - pos1 + "px";
+  }
+
+  function dragMouseDown(e) {
+    // get the mouse cursor position at startup:
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    // call a function whenever the mouse moves:
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    // calculate the new cursor position:
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    // set the element's new position:
+    elem.style.top = elem.offsetTop - pos2 + "px";
+    elem.style.left = elem.offsetLeft - pos1 + "px";
+  }
+
+  function closeDragElement() {
+    // stop moving when mouse button is released:
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "prefer-template",
+                        "Unexpected string concatenation.",
+                        '        elem.style.top = elem.offsetTop - 5 + "px";',
+                        "18:26 - 18:51",
+                        `/en-US/docs/Web/CSS/anchor
+[prefer-template] Unexpected string concatenation.
+~~~
+// grab all the anchors and make each one draggable
+const anchors = document.querySelectorAll(".anchor");
+anchors.forEach((anchor) => makeDraggable(anchor));
+
+function makeDraggable(elem) {
+  let pos1, pos2, pos3, pos4;
+
+  elem.onmousedown = dragMouseDown;
+  elem.addEventListener("keyup", (e) => {
+    switch (e.key) {
+      case "d":
+        elem.style.left = elem.offsetLeft + 5 + "px";
+        break;
+      case "a":
+        elem.style.left = elem.offsetLeft - 5 + "px";
+        break;
+      case "w":
+        elem.style.top = elem.offsetTop - 5 + "px";
+        break;
+      case "s":
+        elem.style.top = elem.offsetTop + 5 + "px";
+        break;
+    }
+    e.preventDefault();
+  });
+
+  function elementMove(e) {
+    console.dir(e);
+    // calculate the new cursor position:
+    pos1 = pos3 - e.offsetLeft;
+    pos2 = pos4 - e.offsetTop;
+    pos3 = e.offsetLeft;
+    pos4 = e.offsetTop;
+    // set the element's new position:
+    elem.style.top = elem.offsetTop - pos2 + "px";
+    elem.style.left = elem.offsetLeft - pos1 + "px";
+  }
+
+  function dragMouseDown(e) {
+    // get the mouse cursor position at startup:
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    // call a function whenever the mouse moves:
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    // calculate the new cursor position:
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    // set the element's new position:
+    elem.style.top = elem.offsetTop - pos2 + "px";
+    elem.style.left = elem.offsetLeft - pos1 + "px";
+  }
+
+  function closeDragElement() {
+    // stop moving when mouse button is released:
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "prefer-template",
+                        "Unexpected string concatenation.",
+                        '        elem.style.top = elem.offsetTop + 5 + "px";',
+                        "21:26 - 21:51",
+                        `/en-US/docs/Web/CSS/anchor
+[prefer-template] Unexpected string concatenation.
+~~~
+// grab all the anchors and make each one draggable
+const anchors = document.querySelectorAll(".anchor");
+anchors.forEach((anchor) => makeDraggable(anchor));
+
+function makeDraggable(elem) {
+  let pos1, pos2, pos3, pos4;
+
+  elem.onmousedown = dragMouseDown;
+  elem.addEventListener("keyup", (e) => {
+    switch (e.key) {
+      case "d":
+        elem.style.left = elem.offsetLeft + 5 + "px";
+        break;
+      case "a":
+        elem.style.left = elem.offsetLeft - 5 + "px";
+        break;
+      case "w":
+        elem.style.top = elem.offsetTop - 5 + "px";
+        break;
+      case "s":
+        elem.style.top = elem.offsetTop + 5 + "px";
+        break;
+    }
+    e.preventDefault();
+  });
+
+  function elementMove(e) {
+    console.dir(e);
+    // calculate the new cursor position:
+    pos1 = pos3 - e.offsetLeft;
+    pos2 = pos4 - e.offsetTop;
+    pos3 = e.offsetLeft;
+    pos4 = e.offsetTop;
+    // set the element's new position:
+    elem.style.top = elem.offsetTop - pos2 + "px";
+    elem.style.left = elem.offsetLeft - pos1 + "px";
+  }
+
+  function dragMouseDown(e) {
+    // get the mouse cursor position at startup:
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    // call a function whenever the mouse moves:
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    // calculate the new cursor position:
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    // set the element's new position:
+    elem.style.top = elem.offsetTop - pos2 + "px";
+    elem.style.left = elem.offsetLeft - pos1 + "px";
+  }
+
+  function closeDragElement() {
+    // stop moving when mouse button is released:
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "prefer-template",
+                        "Unexpected string concatenation.",
+                        '    elem.style.top = elem.offsetTop - pos2 + "px";',
+                        "35:22 - 35:50",
+                        `/en-US/docs/Web/CSS/anchor
+[prefer-template] Unexpected string concatenation.
+~~~
+// grab all the anchors and make each one draggable
+const anchors = document.querySelectorAll(".anchor");
+anchors.forEach((anchor) => makeDraggable(anchor));
+
+function makeDraggable(elem) {
+  let pos1, pos2, pos3, pos4;
+
+  elem.onmousedown = dragMouseDown;
+  elem.addEventListener("keyup", (e) => {
+    switch (e.key) {
+      case "d":
+        elem.style.left = elem.offsetLeft + 5 + "px";
+        break;
+      case "a":
+        elem.style.left = elem.offsetLeft - 5 + "px";
+        break;
+      case "w":
+        elem.style.top = elem.offsetTop - 5 + "px";
+        break;
+      case "s":
+        elem.style.top = elem.offsetTop + 5 + "px";
+        break;
+    }
+    e.preventDefault();
+  });
+
+  function elementMove(e) {
+    console.dir(e);
+    // calculate the new cursor position:
+    pos1 = pos3 - e.offsetLeft;
+    pos2 = pos4 - e.offsetTop;
+    pos3 = e.offsetLeft;
+    pos4 = e.offsetTop;
+    // set the element's new position:
+    elem.style.top = elem.offsetTop - pos2 + "px";
+    elem.style.left = elem.offsetLeft - pos1 + "px";
+  }
+
+  function dragMouseDown(e) {
+    // get the mouse cursor position at startup:
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    // call a function whenever the mouse moves:
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    // calculate the new cursor position:
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    // set the element's new position:
+    elem.style.top = elem.offsetTop - pos2 + "px";
+    elem.style.left = elem.offsetLeft - pos1 + "px";
+  }
+
+  function closeDragElement() {
+    // stop moving when mouse button is released:
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "prefer-template",
+                        "Unexpected string concatenation.",
+                        '    elem.style.left = elem.offsetLeft - pos1 + "px";',
+                        "36:23 - 36:52",
+                        `/en-US/docs/Web/CSS/anchor
+[prefer-template] Unexpected string concatenation.
+~~~
+// grab all the anchors and make each one draggable
+const anchors = document.querySelectorAll(".anchor");
+anchors.forEach((anchor) => makeDraggable(anchor));
+
+function makeDraggable(elem) {
+  let pos1, pos2, pos3, pos4;
+
+  elem.onmousedown = dragMouseDown;
+  elem.addEventListener("keyup", (e) => {
+    switch (e.key) {
+      case "d":
+        elem.style.left = elem.offsetLeft + 5 + "px";
+        break;
+      case "a":
+        elem.style.left = elem.offsetLeft - 5 + "px";
+        break;
+      case "w":
+        elem.style.top = elem.offsetTop - 5 + "px";
+        break;
+      case "s":
+        elem.style.top = elem.offsetTop + 5 + "px";
+        break;
+    }
+    e.preventDefault();
+  });
+
+  function elementMove(e) {
+    console.dir(e);
+    // calculate the new cursor position:
+    pos1 = pos3 - e.offsetLeft;
+    pos2 = pos4 - e.offsetTop;
+    pos3 = e.offsetLeft;
+    pos4 = e.offsetTop;
+    // set the element's new position:
+    elem.style.top = elem.offsetTop - pos2 + "px";
+    elem.style.left = elem.offsetLeft - pos1 + "px";
+  }
+
+  function dragMouseDown(e) {
+    // get the mouse cursor position at startup:
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    // call a function whenever the mouse moves:
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    // calculate the new cursor position:
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    // set the element's new position:
+    elem.style.top = elem.offsetTop - pos2 + "px";
+    elem.style.left = elem.offsetLeft - pos1 + "px";
+  }
+
+  function closeDragElement() {
+    // stop moving when mouse button is released:
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "prefer-template",
+                        "Unexpected string concatenation.",
+                        '    elem.style.top = elem.offsetTop - pos2 + "px";',
+                        "55:22 - 55:50",
+                        `/en-US/docs/Web/CSS/anchor
+[prefer-template] Unexpected string concatenation.
+~~~
+// grab all the anchors and make each one draggable
+const anchors = document.querySelectorAll(".anchor");
+anchors.forEach((anchor) => makeDraggable(anchor));
+
+function makeDraggable(elem) {
+  let pos1, pos2, pos3, pos4;
+
+  elem.onmousedown = dragMouseDown;
+  elem.addEventListener("keyup", (e) => {
+    switch (e.key) {
+      case "d":
+        elem.style.left = elem.offsetLeft + 5 + "px";
+        break;
+      case "a":
+        elem.style.left = elem.offsetLeft - 5 + "px";
+        break;
+      case "w":
+        elem.style.top = elem.offsetTop - 5 + "px";
+        break;
+      case "s":
+        elem.style.top = elem.offsetTop + 5 + "px";
+        break;
+    }
+    e.preventDefault();
+  });
+
+  function elementMove(e) {
+    console.dir(e);
+    // calculate the new cursor position:
+    pos1 = pos3 - e.offsetLeft;
+    pos2 = pos4 - e.offsetTop;
+    pos3 = e.offsetLeft;
+    pos4 = e.offsetTop;
+    // set the element's new position:
+    elem.style.top = elem.offsetTop - pos2 + "px";
+    elem.style.left = elem.offsetLeft - pos1 + "px";
+  }
+
+  function dragMouseDown(e) {
+    // get the mouse cursor position at startup:
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    // call a function whenever the mouse moves:
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    // calculate the new cursor position:
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    // set the element's new position:
+    elem.style.top = elem.offsetTop - pos2 + "px";
+    elem.style.left = elem.offsetLeft - pos1 + "px";
+  }
+
+  function closeDragElement() {
+    // stop moving when mouse button is released:
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "prefer-template",
+                        "Unexpected string concatenation.",
+                        '    elem.style.left = elem.offsetLeft - pos1 + "px";',
+                        "56:23 - 56:52",
+                        `/en-US/docs/Web/CSS/anchor
+[prefer-template] Unexpected string concatenation.
+~~~
+// grab all the anchors and make each one draggable
+const anchors = document.querySelectorAll(".anchor");
+anchors.forEach((anchor) => makeDraggable(anchor));
+
+function makeDraggable(elem) {
+  let pos1, pos2, pos3, pos4;
+
+  elem.onmousedown = dragMouseDown;
+  elem.addEventListener("keyup", (e) => {
+    switch (e.key) {
+      case "d":
+        elem.style.left = elem.offsetLeft + 5 + "px";
+        break;
+      case "a":
+        elem.style.left = elem.offsetLeft - 5 + "px";
+        break;
+      case "w":
+        elem.style.top = elem.offsetTop - 5 + "px";
+        break;
+      case "s":
+        elem.style.top = elem.offsetTop + 5 + "px";
+        break;
+    }
+    e.preventDefault();
+  });
+
+  function elementMove(e) {
+    console.dir(e);
+    // calculate the new cursor position:
+    pos1 = pos3 - e.offsetLeft;
+    pos2 = pos4 - e.offsetTop;
+    pos3 = e.offsetLeft;
+    pos4 = e.offsetTop;
+    // set the element's new position:
+    elem.style.top = elem.offsetTop - pos2 + "px";
+    elem.style.left = elem.offsetLeft - pos1 + "px";
+  }
+
+  function dragMouseDown(e) {
+    // get the mouse cursor position at startup:
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    // call a function whenever the mouse moves:
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    // calculate the new cursor position:
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    // set the element's new position:
+    elem.style.top = elem.offsetTop - pos2 + "px";
+    elem.style.left = elem.offsetLeft - pos1 + "px";
+  }
+
+  function closeDragElement() {
+    // stop moving when mouse button is released:
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
                 angle: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/angle",
@@ -21029,13 +24389,6 @@ attr(data-rotation deg)
                           data: []
                         },
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/fill-stroke-3/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
                           message: "CSS code issue",
                           data: [
                             "CssSyntaxError",
@@ -21083,27 +24436,14 @@ path(evenodd,"M 10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80");
                         }
                       ]
                     },
-                    polygon: {
+                    rect: {
                       children: {},
-                      slug: "/en-US/docs/Web/CSS/basic-shape/polygon",
+                      slug: "/en-US/docs/Web/CSS/basic-shape/rect",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://drafts.fxtf.org/fill-stroke-3/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    shape: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/basic-shape/shape",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/fill-stroke-3/",
+                            "https://drafts.fxtf.org/css-masking-1/",
                             "The operation timed out."
                           ]
                         }
@@ -21226,6 +24566,66 @@ path(evenodd,"M 10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80");
                       data: [
                         "/en-US/docs/Web/CSS/calc-value"
                       ]
+                    },
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "prefer-template",
+                        "Unexpected string concatenation.",
+                        '  e.style.transform = "rotate(calc(1deg * pow(" + this.value + ", e)))";',
+                        "9:23 - 9:72",
+                        `/en-US/docs/Web/CSS/calc-keyword
+[prefer-template] Unexpected string concatenation.
+~~~
+// sliders
+const eInput = document.querySelector("#e-slider");
+const piInput = document.querySelector("#pi-slider");
+// spans for displaying values
+const eValue = document.querySelector("#e-value");
+const piValue = document.querySelector("#pi-value");
+
+eInput.addEventListener("input", function () {
+  e.style.transform = "rotate(calc(1deg * pow(" + this.value + ", e)))";
+  eValue.textContent = e.style.transform;
+});
+
+piInput.addEventListener("input", function () {
+  pi.style.rotate = "calc(sin(" + this.value + " * pi) * 100deg)";
+  piValue.textContent = pi.style.rotate;
+});
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "prefer-template",
+                        "Unexpected string concatenation.",
+                        '  pi.style.rotate = "calc(sin(" + this.value + " * pi) * 100deg)";',
+                        "14:21 - 14:66",
+                        `/en-US/docs/Web/CSS/calc-keyword
+[prefer-template] Unexpected string concatenation.
+~~~
+// sliders
+const eInput = document.querySelector("#e-slider");
+const piInput = document.querySelector("#pi-slider");
+// spans for displaying values
+const eValue = document.querySelector("#e-value");
+const piValue = document.querySelector("#pi-value");
+
+eInput.addEventListener("input", function () {
+  e.style.transform = "rotate(calc(1deg * pow(" + this.value + ", e)))";
+  eValue.textContent = e.style.transform;
+});
+
+piInput.addEventListener("input", function () {
+  pi.style.rotate = "calc(sin(" + this.value + " * pi) * 100deg)";
+  piValue.textContent = pi.style.rotate;
+});
+~~~
+`
+                      ]
                     }
                   ]
                 },
@@ -21247,6 +24647,45 @@ path(evenodd,"M 10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80");
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/CSS/calc-value"
+                      ]
+                    }
+                  ]
+                },
+                clip: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/clip",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "clip-path": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/clip-path",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "clip-rule": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/clip-rule",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -22811,7 +26250,109 @@ function changeDisplayType() {
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/CSS/CSS_filter_effects",
+                  messages: [
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "prefer-template",
+                        "Unexpected string concatenation.",
+                        '    "filter: " +',
+                        "27:5 - 38:8",
+                        `/en-US/docs/Web/CSS/CSS_filter_effects
+[prefer-template] Unexpected string concatenation.
+~~~
+const image = document.querySelector("img");
+const controls = document.querySelectorAll("input");
+const output = document.querySelector("output");
+
+for (control of controls) {
+  control.addEventListener(
+    "change",
+    () => {
+      /* do function */
+      changeCSS();
+    },
+    false,
+  );
+}
+document.querySelector("button").addEventListener(
+  "click",
+  () => {
+    setTimeout(function () {
+      changeCSS();
+    }, 50);
+  },
+  false,
+);
+
+function changeCSS() {
+  let currentFilter =
+    "filter: " +
+    blur() +
+    brightness() +
+    contrast() +
+    dropShadow() +
+    grayscale() +
+    hueRotate() +
+    invert() +
+    opacity() +
+    saturate() +
+    sepia() +
+    ";";
+  image.setAttribute("style", currentFilter);
+  output.innerText = currentFilter;
+}
+function blur() {
+  let blurValue = document.getElementsByName("blur")[0].value;
+  return blurValue === "0" ? "" : \`blur(\${blurValue}rem) \`;
+}
+function brightness() {
+  let brightnessValue = document.getElementsByName("brightness")[0].value;
+  return brightnessValue.toString() === "1"
+    ? ""
+    : \`brightness(\${brightnessValue}) \`;
+}
+function contrast() {
+  let contrastValue = document.getElementsByName("contrast")[0].value;
+  return contrastValue === 1 ? "" : \`contrast(\${contrastValue}) \`;
+}
+function dropShadow() {
+  let dropShadowValue = document.getElementsByName("dropShadow")[0].value;
+  return dropShadowValue === 0
+    ? ""
+    : \`drop-shadow(\${dropShadowValue}rem \${dropShadowValue}rem 0rem orange) \`;
+}
+function grayscale() {
+  let grayscaleValue = document.getElementsByName("grayscale")[0].value;
+  return grayscaleValue === 0 ? "" : \`grayscale(\${grayscaleValue}) \`;
+}
+function hueRotate() {
+  let hueRotateValue = document.getElementsByName("hueRotate")[0].value;
+  return hueRotateValue === 0 ? "" : \`hue-rotate(\${hueRotateValue}turn) \`;
+}
+function invert() {
+  let invertValue = document.getElementsByName("invert")[0].value;
+  return invertValue === 0 ? "" : \`invert(\${invertValue}) \`;
+}
+function opacity() {
+  let opacityValue = document.getElementsByName("opacity")[0].value;
+  return opacityValue === 1 ? "" : \`opacity(\${opacityValue}) \`;
+}
+function saturate() {
+  let saturateValue = document.getElementsByName("saturate")[0].value;
+  return saturateValue === 1 ? "" : \`saturate(\${saturateValue}) \`;
+}
+function sepia() {
+  let sepiaValue = document.getElementsByName("sepia")[0].value;
+  return sepiaValue === 0 ? "" : \`sepia(\${sepiaValue})\`;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
                 },
                 css_fonts: {
                   children: {
@@ -23526,45 +27067,6 @@ steps(0, jump-none)
                       ]
                     }
                   }
-                },
-                fill: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/fill",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "fill-opacity": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/fill-opacity",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "fill-rule": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/fill-rule",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 },
                 "filter-function": {
                   children: {
@@ -30643,10 +34145,43 @@ image-set('cat.jpg' 1x, 'dog.jpg' 1x) /* every image in an image set must have a
                     }
                   ]
                 },
+                mask: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/mask",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "mask-border": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/mask-border",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 "mask-border-mode": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/mask-border-mode",
                   messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
+                      ]
+                    },
                     {
                       message: "Not in BCD",
                       data: [
@@ -30664,6 +34199,84 @@ image-set('cat.jpg' 1x, 'dog.jpg' 1x) /* every image in an image set must have a
                     }
                   ]
                 },
+                "mask-border-outset": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/mask-border-outset",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "mask-border-repeat": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/mask-border-repeat",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "mask-border-slice": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/mask-border-slice",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "mask-border-source": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/mask-border-source",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "mask-border-width": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/mask-border-width",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "mask-clip": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/mask-clip",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 "mask-composite": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/mask-composite",
@@ -30672,6 +34285,104 @@ image-set('cat.jpg' 1x, 'dog.jpg' 1x) /* every image in an image set must have a
                       message: "Broken link",
                       data: [
                         "/en-US/Web/SVG/Reference/Attribute/mask-type"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "mask-image": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/mask-image",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "mask-mode": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/mask-mode",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "mask-origin": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/mask-origin",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "mask-position": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/mask-position",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "mask-repeat": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/mask-repeat",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "mask-size": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/mask-size",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "mask-type": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/mask-type",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -31765,117 +35476,6 @@ awesome string"
                     }
                   ]
                 },
-                stroke: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "stroke-dasharray": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-dasharray",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "stroke-dashoffset": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-dashoffset",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "stroke-linecap": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-linecap",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "stroke-linejoin": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-linejoin",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "stroke-miterlimit": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-miterlimit",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "stroke-opacity": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-opacity",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "stroke-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-width",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 symbols: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/symbols",
@@ -32937,6 +36537,21 @@ html.elements.select.size`
                     },
                     elements: {
                       children: {
+                        figure: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/figure",
+                          messages: [
+                            {
+                              message: "Text stuck to code/link",
+                              data: [
+                                "figcaption ",
+                                "Text after link:",
+                                `descendant:
+        `
+                              ]
+                            }
+                          ]
+                        },
                         menu: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/menu",
@@ -33132,6 +36747,21 @@ html.elements.select.size`
                               ]
                             }
                           }
+                        },
+                        select: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/select",
+                          messages: [
+                            {
+                              message: "Text stuck to code/link",
+                              data: [
+                                "form-associated ",
+                                "Text after link:",
+                                `element
+      `
+                              ]
+                            }
+                          ]
                         },
                         td: {
                           children: {},
@@ -33451,19 +37081,6 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
-                        accept: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.gnu.org/software/wget/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
                         "available-dictionary": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Available-Dictionary",
@@ -33940,6 +37557,99 @@ http.headers.Use-As-Dictionary`,
                               ]
                             }
                           ]
+                        },
+                        reduce_of_empty_array_with_no_initial_value: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Reduce_of_empty_array_with_no_initial_value",
+                          messages: [
+                            {
+                              message: "JS code issue",
+                              data: [
+                                "prefer-template",
+                                "Unexpected string concatenation.",
+                                '  (acc, name) => acc + ", " + name,',
+                                "4:18 - 4:35",
+                                `/en-US/docs/Web/JavaScript/Reference/Errors/Reduce_of_empty_array_with_no_initial_value
+[prefer-template] Unexpected string concatenation.
+~~~
+const names = document.getElementsByClassName("names");
+const name_list = Array.prototype.reduce.call(
+  names,
+  (acc, name) => acc + ", " + name,
+);
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        requires_global_regexp: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Errors/Requires_global_RegExp",
+                          messages: [
+                            {
+                              message: "JS code issue",
+                              data: [
+                                "prefer-template",
+                                "Unexpected string concatenation.",
+                                '  existingPattern.flags + "g",',
+                                "7:3 - 7:30",
+                                `/en-US/docs/Web/JavaScript/Reference/Errors/Requires_global_RegExp
+[prefer-template] Unexpected string concatenation.
+~~~
+[..."abc".matchAll(/./g)]; // [[ "a" ], [ "b" ], [ "c" ]]
+"abc".replaceAll(/./g, "f"); // "fff"
+
+const existingPattern = /./;
+const newPattern = new RegExp(
+  existingPattern.source,
+  existingPattern.flags + "g",
+);
+"abc".replaceAll(newPattern, "f"); // "fff"
+~~~
+`
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    functions: {
+                      children: {
+                        method_definitions: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions",
+                          messages: [
+                            {
+                              message: "JS code issue",
+                              data: [
+                                "prefer-template",
+                                "Unexpected string concatenation.",
+                                '  ["foo" + 2]() {',
+                                "8:4 - 8:13",
+                                `/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions
+[prefer-template] Unexpected string concatenation.
+~~~
+const bar = {
+  foo0: function () {
+    return 0;
+  },
+  foo1() {
+    return 1;
+  },
+  ["foo" + 2]() {
+    return 2;
+  },
+};
+
+console.log(bar.foo0()); // 0
+console.log(bar.foo1()); // 1
+console.log(bar.foo2()); // 2
+~~~
+`
+                              ]
+                            }
+                          ]
                         }
                       }
                     },
@@ -34004,6 +37714,48 @@ http.headers.Use-As-Dictionary`,
                         },
                         function: {
                           children: {
+                            apply: {
+                              children: {},
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply",
+                              messages: [
+                                {
+                                  message: "JS code issue",
+                                  data: [
+                                    "no-implicit-coercion",
+                                    "Unexpected implicit coercion encountered. Use `Number(Infinity)` instead.",
+                                    "min = +Infinity;",
+                                    "13:7 - 13:16",
+                                    `/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply
+[no-implicit-coercion] Unexpected implicit coercion encountered. Use \`Number(Infinity)\` instead.
+~~~
+// min/max number in an array
+const numbers = [5, 6, 2, 3, 7];
+
+// using Math.min/Math.max apply
+let max = Math.max.apply(null, numbers);
+// This about equal to Math.max(numbers[0], …)
+// or Math.max(5, 6, …)
+
+let min = Math.min.apply(null, numbers);
+
+// vs. loop based algorithm
+max = -Infinity;
+min = +Infinity;
+
+for (const n of numbers) {
+  if (n > max) {
+    max = n;
+  }
+  if (n < min) {
+    min = n;
+  }
+}
+~~~
+`
+                                  ]
+                                }
+                              ]
+                            },
                             prototype: {
                               children: {},
                               slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype",
@@ -34046,6 +37798,85 @@ http.headers.Use-As-Dictionary`,
                                     "[None]",
                                     "Expected:",
                                     "javascript.builtins.GeneratorFunction.prototype"
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        math: {
+                          children: {
+                            floor: {
+                              children: {},
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor",
+                              messages: [
+                                {
+                                  message: "JS code issue",
+                                  data: [
+                                    "no-implicit-coercion",
+                                    "Unexpected implicit coercion encountered. Use `Number(newExponent)` instead.",
+                                    "  return Number(`${newMagnitude}e${+newExponent + exp}`);",
+                                    "27:36 - 27:48",
+                                    `/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor
+[no-implicit-coercion] Unexpected implicit coercion encountered. Use \`Number(newExponent)\` instead.
+~~~
+/**
+ * Adjusts a number to the specified digit.
+ *
+ * @param {"round" | "floor" | "ceil"} type The type of adjustment.
+ * @param {number} value The number.
+ * @param {number} exp The exponent (the 10 logarithm of the adjustment base).
+ * @returns {number} The adjusted value.
+ */
+function decimalAdjust(type, value, exp) {
+  type = String(type);
+  if (!["round", "floor", "ceil"].includes(type)) {
+    throw new TypeError(
+      "The type of decimal adjustment must be one of 'round', 'floor', or 'ceil'.",
+    );
+  }
+  exp = Number(exp);
+  value = Number(value);
+  if (exp % 1 !== 0 || Number.isNaN(value)) {
+    return NaN;
+  } else if (exp === 0) {
+    return Math[type](value);
+  }
+  const [magnitude, exponent = 0] = value.toString().split("e");
+  const adjustedValue = Math[type](\`\${magnitude}e\${exponent - exp}\`);
+  // Shift back
+  const [newMagnitude, newExponent = 0] = adjustedValue.toString().split("e");
+  return Number(\`\${newMagnitude}e\${+newExponent + exp}\`);
+}
+
+// Decimal round
+const round10 = (value, exp) => decimalAdjust("round", value, exp);
+// Decimal floor
+const floor10 = (value, exp) => decimalAdjust("floor", value, exp);
+// Decimal ceil
+const ceil10 = (value, exp) => decimalAdjust("ceil", value, exp);
+
+// Round
+round10(55.55, -1); // 55.6
+round10(55.549, -1); // 55.5
+round10(55, 1); // 60
+round10(54.9, 1); // 50
+round10(-55.55, -1); // -55.5
+round10(-55.551, -1); // -55.6
+round10(-55, 1); // -50
+round10(-55.1, 1); // -60
+// Floor
+floor10(55.59, -1); // 55.5
+floor10(59, 1); // 50
+floor10(-55.51, -1); // -55.6
+floor10(-51, 1); // -60
+// Ceil
+ceil10(55.51, -1); // 55.6
+ceil10(51, 1); // 60
+ceil10(-55.59, -1); // -55.5
+ceil10(-59, 1); // -50
+~~~
+`
                                   ]
                                 }
                               ]
@@ -34106,6 +37937,137 @@ http.headers.Use-As-Dictionary`,
                               ]
                             }
                           ]
+                        },
+                        reflect: {
+                          children: {
+                            get: {
+                              children: {},
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect/get",
+                              messages: [
+                                {
+                                  message: "JS code issue",
+                                  data: [
+                                    "prefer-template",
+                                    "Unexpected string concatenation.",
+                                    '      return k + "bar";',
+                                    "13:14 - 13:23",
+                                    `/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect/get
+[prefer-template] Unexpected string concatenation.
+~~~
+// Object
+const obj1 = { x: 1, y: 2 };
+Reflect.get(obj1, "x"); // 1
+
+// Array
+Reflect.get(["zero", "one"], 1); // "one"
+
+// Proxy with a get handler
+const obj2 = new Proxy(
+  { p: 1 },
+  {
+    get(t, k, r) {
+      return k + "bar";
+    },
+  },
+);
+Reflect.get(obj2, "foo"); // "foobar"
+
+// Proxy with get handler and receiver
+const obj3 = new Proxy(
+  { p: 1, foo: 2 },
+  {
+    get(t, prop, receiver) {
+      return receiver[prop] + "bar";
+    },
+  },
+);
+Reflect.get(obj3, "foo", { foo: 3 }); // "3bar"
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "JS code issue",
+                                  data: [
+                                    "prefer-template",
+                                    "Unexpected string concatenation.",
+                                    '      return receiver[prop] + "bar";',
+                                    "24:14 - 24:36",
+                                    `/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect/get
+[prefer-template] Unexpected string concatenation.
+~~~
+// Object
+const obj1 = { x: 1, y: 2 };
+Reflect.get(obj1, "x"); // 1
+
+// Array
+Reflect.get(["zero", "one"], 1); // "one"
+
+// Proxy with a get handler
+const obj2 = new Proxy(
+  { p: 1 },
+  {
+    get(t, k, r) {
+      return k + "bar";
+    },
+  },
+);
+Reflect.get(obj2, "foo"); // "foobar"
+
+// Proxy with get handler and receiver
+const obj3 = new Proxy(
+  { p: 1, foo: 2 },
+  {
+    get(t, prop, receiver) {
+      return receiver[prop] + "bar";
+    },
+  },
+);
+Reflect.get(obj3, "foo", { foo: 3 }); // "3bar"
+~~~
+`
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        string: {
+                          children: {
+                            match: {
+                              children: {},
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match",
+                              messages: [
+                                {
+                                  message: "JS code issue",
+                                  data: [
+                                    "no-implicit-coercion",
+                                    "Unexpected implicit coercion encountered. Use `Number(Infinity)` instead.",
+                                    'str1.match(+Infinity); // returns ["Infinity"]',
+                                    "9:12 - 9:21",
+                                    `/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match
+[no-implicit-coercion] Unexpected implicit coercion encountered. Use \`Number(Infinity)\` instead.
+~~~
+const str1 =
+  "NaN means not a number. Infinity contains -Infinity and +Infinity in JavaScript.";
+const str2 =
+  "My grandfather is 65 years old and My grandmother is 63 years old.";
+const str3 = "The contract was declared null and void.";
+str1.match("number"); // "number" is a string. returns ["number"]
+str1.match(NaN); // the type of NaN is the number. returns ["NaN"]
+str1.match(Infinity); // the type of Infinity is the number. returns ["Infinity"]
+str1.match(+Infinity); // returns ["Infinity"]
+str1.match(-Infinity); // returns ["-Infinity"]
+str2.match(65); // returns ["65"]
+str2.match(+65); // A number with a positive sign. returns ["65"]
+str3.match(null); // returns ["null"]
+~~~
+`
+                                  ]
+                                }
+                              ]
+                            }
+                          }
                         },
                         temporal: {
                           children: {
@@ -34232,6 +38194,27 @@ http.headers.Use-As-Dictionary`,
                             }
                           ]
                         },
+                        import: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Operators/import",
+                          messages: [
+                            {
+                              message: "JS code issue",
+                              data: [
+                                "prefer-template",
+                                "Unexpected string concatenation.",
+                                'import("/my-module.js?t=" + Date.now());',
+                                "1:8 - 1:39",
+                                `/en-US/docs/Web/JavaScript/Reference/Operators/import
+[prefer-template] Unexpected string concatenation.
+~~~
+import("/my-module.js?t=" + Date.now());
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
                         this: {
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Operators/this",
@@ -34274,6 +38257,30 @@ http.headers.Use-As-Dictionary`,
                     },
                     statements: {
                       children: {
+                        const: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Statements/const",
+                          messages: [
+                            {
+                              message: "JS code issue",
+                              data: [
+                                "prefer-template",
+                                "Unexpected string concatenation.",
+                                'console.log("my favorite number is: " + MY_FAV);',
+                                "4:13 - 4:47",
+                                `/en-US/docs/Web/JavaScript/Reference/Statements/const
+[prefer-template] Unexpected string concatenation.
+~~~
+// define MY_FAV as a constant and give it the value 7
+const MY_FAV = 7;
+
+console.log("my favorite number is: " + MY_FAV);
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
                         expression_statement: {
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Statements/Expression_statement",
@@ -34315,25 +38322,7 @@ http.headers.Use-As-Dictionary`,
               }
             },
             mathml: {
-              children: {
-                guides: {
-                  children: {
-                    authoring: {
-                      children: {},
-                      slug: "/en-US/docs/Web/MathML/Guides/Authoring",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.lyx.org/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                }
-              },
+              children: {},
               slug: "/en-US/docs/Web/MathML",
               messages: [
                 {
@@ -34456,6 +38445,60 @@ http.headers.Use-As-Dictionary`,
                     },
                     formats: {
                       children: {
+                        audio_codecs: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Audio_codecs",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.iso.org/standard/43345.html",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.iso.org/standard/26797.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        containers: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Containers",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.iso.org/standard/19180.html",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.iso.org/standard/74427.html",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.iso.org/standard/75929.html",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.iso.org/standard/55688.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -34465,6 +38508,27 @@ http.headers.Use-As-Dictionary`,
                               data: [
                                 "http://hevc.info/",
                                 ""
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.iso.org/standard/69668.html",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.iso.org/standard/22411.html",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.iso.org/standard/61152.html",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -34804,24 +38868,6 @@ http.headers.Use-As-Dictionary`,
                     }
                   ]
                 },
-                practical_implementation_guides: {
-                  children: {
-                    csp: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Security/Practical_implementation_guides/CSP",
-                      messages: [
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "hash-",
-                            "Text after link:",
-                            "based fetch directives to ensure that only scripts"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 subdomain_takeovers: {
                   children: {},
                   slug: "/en-US/docs/Web/Security/Subdomain_takeovers",
@@ -35013,500 +39059,6 @@ html.elements.script.integrity`,
                                 "[None]",
                                 "Expected:",
                                 "svg.elements.clipPath.clipPathUnits"
-                              ]
-                            }
-                          ]
-                        },
-                        d: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/d",
-                          messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "y",
-                                "Text before code:",
-                                ","
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "x",
-                                "Text before code:",
-                                " = {"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "y",
-                                "Text after code:",
-                                `}
-        `
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "dy",
-                                "Text after code:",
-                                `}
-        `
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "y",
-                                "Text before code:",
-                                ","
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "x",
-                                "Text before code:",
-                                " = {"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "y",
-                                "Text after code:",
-                                `}
-        `
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "dy",
-                                "Text after code:",
-                                `}
-        `
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "x",
-                                "Text after code:",
-                                `+
-      `
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "x",
-                                "Text before code:",
-                                " = {"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "dx",
-                                "Text after code:",
-                                `+
-      `
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "y",
-                                "Text after code:",
-                                `+
-      `
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "y",
-                                "Text after code:",
-                                `}
-        `
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "dy",
-                                "Text after code:",
-                                `+
-      `
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "dy",
-                                "Text after code:",
-                                `}
-        `
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "y1",
-                                "Text before code:",
-                                ","
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "y2",
-                                "Text before code:",
-                                ","
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "y",
-                                "Text before code:",
-                                ","
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "y",
-                                "Text before code:",
-                                ","
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "y1",
-                                "Text before code:",
-                                ","
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "y2",
-                                "Text before code:",
-                                ","
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "x",
-                                "Text before code:",
-                                " = {"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "y",
-                                "Text after code:",
-                                "} ;"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "x1",
-                                "Text before code:",
-                                " = {"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "y1",
-                                "Text after code:",
-                                "} ;"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "x2",
-                                "Text before code:",
-                                " = {"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "y2",
-                                "Text after code:",
-                                `}
-          `
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "dy1",
-                                "Text before code:",
-                                ","
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "dy2",
-                                "Text before code:",
-                                ","
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "dy",
-                                "Text before code:",
-                                ","
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "dy",
-                                "Text after code:",
-                                "} ;"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "dy1",
-                                "Text after code:",
-                                "} ;"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "dy2",
-                                "Text after code:",
-                                `}
-          `
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "y2",
-                                "Text before code:",
-                                ","
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "y",
-                                "Text before code:",
-                                ","
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "y",
-                                "Text before code:",
-                                ","
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "y2",
-                                "Text before code:",
-                                ","
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "dy2",
-                                "Text before code:",
-                                ","
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "dy",
-                                "Text before code:",
-                                ","
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "y1",
-                                "Text before code:",
-                                ","
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "y",
-                                "Text before code:",
-                                ","
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "y",
-                                "Text before code:",
-                                ","
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "y1",
-                                "Text before code:",
-                                ","
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "x",
-                                "Text before code:",
-                                " = {"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "y",
-                                "Text after code:",
-                                "} ;"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "x1",
-                                "Text before code:",
-                                " = {"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "y1",
-                                "Text after code:",
-                                `}
-          `
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "dy1",
-                                "Text before code:",
-                                ","
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "dy",
-                                "Text before code:",
-                                ","
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "dy",
-                                "Text after code:",
-                                "} ;"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "dy1",
-                                "Text after code:",
-                                `}
-          `
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "y",
-                                "Text before code:",
-                                ","
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "y",
-                                "Text before code:",
-                                ","
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "x",
-                                "Text before code:",
-                                " = {"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "y",
-                                "Text after code:",
-                                `}
-          `
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "dy",
-                                "Text before code:",
-                                ","
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "dy",
-                                "Text after code:",
-                                `}
-          `
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "y",
-                                "Text before code:",
-                                ","
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "y",
-                                "Text before code:",
-                                ","
                               ]
                             }
                           ]
@@ -35781,38 +39333,6 @@ svg.elements.textPath.path`
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/points",
                           messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<number>",
-                                "Text after link:",
-                                "+ ]#"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<number>",
-                                "Text after code:",
-                                "+ ]#"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<number>",
-                                "Text after link:",
-                                "+ ]#"
-                              ]
-                            },
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<number>",
-                                "Text after code:",
-                                "+ ]#"
-                              ]
-                            },
                             {
                               message: "Unexpected BCD keys",
                               data: [
@@ -36374,52 +39894,6 @@ svg.elements.feSpotLight.z`
                           ]
                         }
                       ]
-                    },
-                    element: {
-                      children: {
-                        animatemotion: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/animateMotion",
-                          messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<number>",
-                                "Text after link:",
-                                "*; "
-                              ]
-                            }
-                          ]
-                        },
-                        polygon: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/polygon",
-                          messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<number>",
-                                "Text after link:",
-                                "+; "
-                              ]
-                            }
-                          ]
-                        },
-                        polyline: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/polyline",
-                          messages: [
-                            {
-                              message: "Text stuck to code/link",
-                              data: [
-                                "<number>",
-                                "Text after link:",
-                                "+; "
-                              ]
-                            }
-                          ]
-                        }
-                      }
                     }
                   }
                 },
