@@ -183,6 +183,8 @@ async function checkCSS(
     codeFilename: `${node.id.replace("/en-US/docs/", "")}/test.${language}`,
     config: stylelintConfig(isPropertyOnly),
     cache: false,
+    fix: false,
+    validate: false,
   });
   for (const result of results.results) {
     result.warnings.forEach((msg) => {
