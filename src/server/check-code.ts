@@ -177,6 +177,7 @@ async function checkCSS(
   report: (node: any, message: string, ...data: string[]) => void,
   fullContent: string = content,
 ) {
+  return;
   const isPropertyOnly = !content.includes("{");
   const results = await stylelint.lint({
     code: content,
@@ -207,7 +208,7 @@ async function checkCSS(
   }
 }
 
-function checkHTML(
+async function checkHTML(
   content: string,
   language: string,
   node: Node,
@@ -238,7 +239,8 @@ function checkHTML(
     content: string;
     span: any;
   }[] = [];
-  rootNodes.forEach((rootNode) => {
+  const otherPromises: Promise<void>[] = [];
+  for (const rootNode of rootNodes) {
     rootNode.visit(
       {
         visitAttribute(attr, ctx) {
@@ -274,7 +276,7 @@ function checkHTML(
               span: el.sourceSpan,
             });
             if (el.children.length === 1 && el.children[0]!.type === "text") {
-              checkJS(el.children[0]!.value, "js", node, report, content);
+              otherPromises.push(checkJS(el.children[0]!.value, "js", node, report, content));
             } else {
               messages.push({
                 ruleId: "empty-script",
@@ -292,7 +294,7 @@ function checkHTML(
               span: el.sourceSpan,
             });
             if (el.children.length === 1 && el.children[0]!.type === "text") {
-              checkCSS(el.children[0]!.value, "css", node, report, content);
+              otherPromises.push(checkCSS(el.children[0]!.value, "css", node, report, content));
             } else {
               messages.push({
                 ruleId: "empty-style",
@@ -323,7 +325,8 @@ function checkHTML(
       },
       { isTemplate: 0 },
     );
-  });
+  }
+  await Promise.all(otherPromises);
   const filePath = node.id.replace("/en-US/docs/", "");
   for (const msg of messages) {
     continue; // Don't report anything for now

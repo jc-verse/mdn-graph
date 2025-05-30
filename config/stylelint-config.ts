@@ -1,5 +1,7 @@
 export default function stylelintConfig(isPropertyOnly: boolean) {
   return {
+    fix: false,
+    validate: false,
     languageOptions: {
       syntax: {
         atRules: {
