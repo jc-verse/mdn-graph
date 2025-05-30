@@ -4,7 +4,6 @@ import { parse as htmlParse } from "angular-html-parser";
 import eslintConfig from "../../config/eslint-config.ts";
 import stylelintConfig from "../../config/stylelint-config.ts";
 import htmlLintConfig from "../../config/html-lint-config.ts";
-import type { Node } from "ngraph.graph";
 
 const sanctionedLanguages = [
   "apacheconf",
@@ -80,41 +79,41 @@ const eslint = new ESLint({
 });
 
 function reportIfUnexpected(
-  node: Node,
+  path: string,
   language: string,
   ruleId: string,
   message: string,
   content: string,
   range: string,
   region: string,
-  report: (node: any, message: string, ...data: string[]) => void,
+  report: (path: string, message: string, ...data: string[]) => void,
 ) {
   if (
-    expectedErrorsMap.has(node.id) &&
-    expectedErrorsMap.get(node.id)!.has(content)
+    expectedErrorsMap.has(path) &&
+    expectedErrorsMap.get(path)!.has(content)
   ) {
-    const expectedMessages = expectedErrorsMap.get(node.id)!.get(content)!;
+    const expectedMessages = expectedErrorsMap.get(path)!.get(content)!;
     if (expectedMessages.has(`[${ruleId}] ${message}`)) {
       expectedMessages.set(`[${ruleId}] ${message}`, true);
       return;
     }
   }
   report(
-    node,
+    path,
     `${language.toUpperCase()} code issue`,
     ruleId,
     message,
     region,
     range,
-    `${node.id}\n[${ruleId}] ${message}\n~~~\n${content}~~~\n`,
+    `${path}\n[${ruleId}] ${message}\n~~~\n${content}~~~\n`,
   );
 }
 
 async function checkJS(
   content: string,
   language: string,
-  node: Node,
-  report: (node: any, message: string, ...data: string[]) => void,
+  path: string,
+  report: (path: string, message: string, ...data: string[]) => void,
   fullContent: string = content,
 ) {
   if (content.includes("// SyntaxError: ")) return;
@@ -136,7 +135,7 @@ async function checkJS(
         .replaceAll("//@", "// @")
         .replaceAll("//#", "// #"),
       {
-        filePath: `${node.id.replace("/en-US/docs/", "")}/${fileName}`,
+        filePath: `${path.replace("/en-US/docs/", "")}/${fileName}`,
       },
     );
     for (const result of results) {
@@ -145,13 +144,13 @@ async function checkJS(
         if (
           msg.ruleId === "no-unused-labels" &&
           msg.message === "'$:' is defined but never used." &&
-          node.id.startsWith(
+          path.startsWith(
             "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_",
           )
         )
           return;
         reportIfUnexpected(
-          node,
+          path,
           "js",
           msg.ruleId ?? "syntax",
           msg.message,
@@ -173,15 +172,14 @@ async function checkJS(
 async function checkCSS(
   content: string,
   language: string,
-  node: Node,
-  report: (node: any, message: string, ...data: string[]) => void,
+  path: string,
+  report: (path: string, message: string, ...data: string[]) => void,
   fullContent: string = content,
 ) {
-  return;
   const isPropertyOnly = !content.includes("{");
   const results = await stylelint.lint({
     code: content,
-    codeFilename: `${node.id.replace("/en-US/docs/", "")}/test.${language}`,
+    codeFilename: `${path.replace("/en-US/docs/", "")}/test.${language}`,
     config: stylelintConfig(isPropertyOnly),
     cache: false,
     fix: false,
@@ -190,7 +188,7 @@ async function checkCSS(
   for (const result of results.results) {
     result.warnings.forEach((msg) => {
       reportIfUnexpected(
-        node,
+        path,
         "css",
         msg.rule,
         msg.text,
@@ -211,14 +209,14 @@ async function checkCSS(
 async function checkHTML(
   content: string,
   language: string,
-  node: Node,
-  report: (node: any, message: string, ...data: string[]) => void,
+  path: string,
+  report: (path: string, message: string, ...data: string[]) => void,
 ) {
   const { rootNodes, errors } = htmlParse(content);
   if (errors.length) {
     errors.forEach((error) => {
       reportIfUnexpected(
-        node,
+        path,
         "html",
         "syntax",
         error.msg,
@@ -276,7 +274,9 @@ async function checkHTML(
               span: el.sourceSpan,
             });
             if (el.children.length === 1 && el.children[0]!.type === "text") {
-              otherPromises.push(checkJS(el.children[0]!.value, "js", node, report, content));
+              otherPromises.push(
+                checkJS(el.children[0]!.value, "js", path, report, content),
+              );
             } else {
               messages.push({
                 ruleId: "empty-script",
@@ -294,7 +294,9 @@ async function checkHTML(
               span: el.sourceSpan,
             });
             if (el.children.length === 1 && el.children[0]!.type === "text") {
-              otherPromises.push(checkCSS(el.children[0]!.value, "css", node, report, content));
+              otherPromises.push(
+                checkCSS(el.children[0]!.value, "css", path, report, content),
+              );
             } else {
               messages.push({
                 ruleId: "empty-style",
@@ -327,7 +329,7 @@ async function checkHTML(
     );
   }
   await Promise.all(otherPromises);
-  const filePath = node.id.replace("/en-US/docs/", "");
+  const filePath = path.replace("/en-US/docs/", "");
   for (const msg of messages) {
     continue; // Don't report anything for now
     if (
@@ -344,7 +346,7 @@ async function checkHTML(
       continue;
     }
     reportIfUnexpected(
-      node,
+      path,
       "html",
       msg.ruleId,
       msg.message,
@@ -359,31 +361,34 @@ async function checkHTML(
   }
 }
 
-export async function checkCode(
-  nodes: any[],
-  report: (node: any, message: string, ...data: string[]) => void,
-) {
+export default async function checkCode() {
   const { default: codes } = await import("../../data/codes.json", {
     with: { type: "json" },
   });
-  const allChecks = nodes.flatMap(
-    (node) =>
-      codes[node.id]?.map(async (block) => {
+  const allReports: { [path: string]: { message: string; data: string[] }[] } =
+    {};
+  function report(path: string, message: string, ...args: any[]) {
+    (allReports[path] ??= []).push({
+      message,
+      data: args,
+    });
+  }
+
+  const allChecks = Object.entries(codes).flatMap(
+    ([path, blocks]) =>
+      blocks.map(async (block) => {
         if (["js", "ts", "jsx", "tsx"].includes(block.language)) {
-          await checkJS(block.content, block.language, node, report);
+          await checkJS(block.content, block.language, path, report);
         } else if (["css"].includes(block.language)) {
-          await checkCSS(block.content, block.language, node, report);
+          await checkCSS(block.content, block.language, path, report);
         } else if (["html"].includes(block.language)) {
-          checkHTML(block.content, block.language, node, report);
+          checkHTML(block.content, block.language, path, report);
         } else if (!sanctionedLanguages.includes(block.language)) {
-          report(node, "Invalid code block language", block.language);
+          report(path, "Invalid code block language", block.language);
         }
       }) ?? [],
   );
   await Promise.all(allChecks);
-}
-
-export function postCheckCode() {
   for (const [file, blocks] of expectedErrorsMap) {
     for (const [code, messages] of blocks) {
       for (const [message, status] of messages) {
@@ -393,4 +398,6 @@ export function postCheckCode() {
       }
     }
   }
+  await Bun.write("./data/lint.json", JSON.stringify(allReports, null, 2));
+  console.log("Lint results written to data/lint.json");
 }

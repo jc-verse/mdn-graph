@@ -1247,6 +1247,18 @@ for (let i = 0; i < myNodeList.length; i++) {
 }
 ~~~
 
+/en-US/docs/Web/API/PaintWorkletGlobalScope
+[declaration-block-no-duplicate-properties] Unexpected duplicate "background-image" (declaration-block-no-duplicate-properties)
+~~~
+<style>
+  textarea {
+    background-image: url(checkerboard);
+    background-image: paint(checkerboard);
+  }
+</style>
+<textarea></textarea>
+~~~
+
 /en-US/docs/Web/API/PaymentRequest/canMakePayment
 [no-useless-return] Unnecessary return statement.
 ~~~
@@ -1507,6 +1519,45 @@ color: -internal-light-dark(black, white) !important;
 }
 ~~~
 
+/en-US/docs/Web/CSS/@property
+[declaration-property-value-no-unknown] Unexpected unknown value "1000px" for property "--item-size" (declaration-property-value-no-unknown)
+~~~
+@property --item-size {
+  syntax: "<percentage>";
+  inherits: true;
+  initial-value: 40%;
+}
+
+.container {
+  display: flex;
+  height: 200px;
+  border: 1px dashed black;
+
+  /* set custom property values on parent */
+  --item-size: 20%;
+  --item-color: orange;
+}
+
+/* use custom properties to set item size and background color */
+.item {
+  width: var(--item-size);
+  height: var(--item-size);
+  background-color: var(--item-color);
+}
+
+/* set custom property values on element itself */
+.two {
+  --item-size: initial;
+  --item-color: inherit;
+}
+
+.three {
+  /* invalid values */
+  --item-size: 1000px;
+  --item-color: xyz;
+}
+~~~
+
 /en-US/docs/Web/CSS/border-bottom
 [declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-bottom" after "border-bottom-style" (declaration-block-no-shorthand-property-overrides)
 ~~~
@@ -1569,6 +1620,81 @@ border-top: none thick green;
 p {
   background-color: red;
   background: url(images/bg.gif) no-repeat left top;
+}
+~~~
+
+/en-US/docs/Web/CSS/CSS_cascading_variables/Using_CSS_custom_properties
+[declaration-property-value-no-unknown] Unexpected unknown value "16px" for property "--text-color" (declaration-property-value-no-unknown)
+~~~
+@property --text-color {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: cornflowerblue;
+}
+
+:root {
+  --text-color: 16px;
+}
+
+p {
+  color: blue;
+}
+
+p {
+  color: var(--text-color);
+}
+~~~
+
+/en-US/docs/Web/CSS/CSS_cascading_variables/Using_CSS_custom_properties
+[declaration-property-value-no-unknown] Unexpected unknown value "16px" for property "color" (declaration-property-value-no-unknown)
+~~~
+p {
+  color: blue;
+}
+
+p {
+  /* oops, not a valid color */
+  color: 16px;
+}
+~~~
+
+/en-US/docs/Web/CSS/CSS_cascading_variables/Using_CSS_custom_properties
+[declaration-property-value-no-unknown] Unexpected unknown value "aqumarine" for property "--box-color" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Unexpected unknown value "2rem" for property "--box-color" (declaration-property-value-no-unknown)
+~~~
+@property --box-color {
+  syntax: "<color>";
+  initial-value: cornflowerblue;
+  inherits: false;
+}
+
+.one {
+  --box-color: aquamarine;
+  background-color: var(--box-color);
+}
+
+.two {
+  --box-color: aqumarine;
+  background-color: var(--box-color);
+}
+
+.three {
+  --box-color: 2rem;
+  background-color: var(--box-color);
+}
+
+div {
+  color: white;
+  font-family: sans-serif;
+  width: 100px;
+  height: 100px;
+  margin: 4px;
+  padding: 8px;
+  border: 2px black solid;
+  display: inline-block;
+}
+.one {
+  color: black;
 }
 ~~~
 
@@ -1682,6 +1808,50 @@ p {
 }
 ~~~
 
+/en-US/docs/Web/CSS/CSS_syntax/Error_handling
+[CssSyntaxError] Unclosed block (CssSyntaxError)
+~~~
+<style>
+@keyframes move {
+  100% {
+    transform: translateX(100vw)
+</style>
+~~~
+
+/en-US/docs/Web/CSS/CSS_syntax/Error_handling
+[CssSyntaxError] Unclosed comment (CssSyntaxError)
+~~~
+<style>
+  /* this comment is not closed
+  @keyframes move {
+    0% {transform: translateX(0);}
+    100% {transform: translateX(100vw);}
+  }
+</style>
+<p style="/* another unclosed comment">Parsed as HTML.</p>
+~~~
+
+/en-US/docs/Web/CSS/CSS_syntax/Error_handling
+[declaration-property-value-no-unknown] Unexpected unknown value "-ms-flexbox" for property "display" (declaration-property-value-no-unknown)
+~~~
+/* Prefixed values */
+.wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  display: block flex;
+}
+/* Prefixed properties */
+.rounded {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+~~~
+
 /en-US/docs/Web/CSS/display
 [declaration-block-no-duplicate-properties] Unexpected duplicate "display" (declaration-block-no-duplicate-properties)
 ~~~
@@ -1705,6 +1875,24 @@ p {
 
 /en-US/docs/Web/CSS/font-family
 [color-no-invalid-hex] Unexpected invalid hex color "#POUND" (color-no-invalid-hex)
+~~~
+font-family: Goudy Bookletter 1911, sans-serif;
+font-family: Red/Black, sans-serif;
+font-family: "Lucida" Grande, sans-serif;
+font-family: Ahem!, sans-serif;
+font-family: test@foo, sans-serif;
+font-family: #POUND, sans-serif;
+font-family: Hawaii 5-0, sans-serif;
+~~~
+
+/en-US/docs/Web/CSS/font-family
+[declaration-property-value-no-unknown] Unexpected unknown value "1911" for property "font-family" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Unexpected unknown value "/" for property "font-family" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Unexpected unknown value "Grande" for property "font-family" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Cannot parse property value "Ahem!, sans-serif" for property "font-family" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Cannot parse property value "test@foo, sans-serif" for property "font-family" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Unexpected unknown value "#POUND" for property "font-family" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Unexpected unknown value "5" for property "font-family" (declaration-property-value-no-unknown)
 ~~~
 font-family: Goudy Bookletter 1911, sans-serif;
 font-family: Red/Black, sans-serif;
@@ -1859,6 +2047,27 @@ selector {
 <p>Just some text</p>
 <h3 style="all: revert">This should be reverted to browser/user defaults.</h3>
 <p>Just some text</p>
+~~~
+
+/en-US/docs/Web/CSS/var
+[declaration-property-value-no-unknown] Unexpected unknown value "20px" for property "color" (declaration-property-value-no-unknown)
+~~~
+p {
+  color: red;
+}
+
+.p1 {
+  color: var(--invalid-color);
+}
+
+.p2 {
+  --invalid-color: 20px;
+  color: var(--invalid-color);
+}
+
+.p3 {
+  color: 20px;
+}
 ~~~
 
 /en-US/docs/Web/CSS/vertical-align

@@ -1,8 +1,10 @@
 import createContentGraph from "./src/server/create-graph.ts";
 import processWarnings from "./src/server/process-warnings.ts";
+import checkCode from "./src/server/lint.ts";
 
 const bundleOnly = Bun.argv.includes("--bundle-only");
 const buildGraph = Bun.argv.includes("graph");
+const buildLint = Bun.argv.includes("lint");
 const buildWarnings = Bun.argv.includes("warnings");
 const buildWarningsFast = Bun.argv.includes("warnings-fast");
 const buildExternalLinks = Bun.argv.includes("external-links");
@@ -10,6 +12,9 @@ const buildExternalLinks = Bun.argv.includes("external-links");
 if (!bundleOnly) {
   if (buildGraph) {
     await createContentGraph();
+  }
+  if (buildLint) {
+    await checkCode();
   }
   if (buildWarnings) {
     await processWarnings();

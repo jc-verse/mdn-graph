@@ -1,6 +1,5 @@
 import type { Node } from "ngraph.graph";
 import { checkBCDMatching } from "./check-bcd-matching.js";
-import { checkCode, postCheckCode } from "./check-code.js";
 import {
   createLinkRequests,
   depleteQueue,
@@ -23,6 +22,13 @@ export default async function processWarnings(fast: boolean = false) {
   const { default: nodes } = await import("../../data/nodes.json", {
     with: { type: "json" },
   });
+  const { default: lintWarnings } = await import(
+    "../../data/lint.json",
+    { with: { type: "json" } }
+  );
+  for (const [nodeId, arr] of Object.entries(lintWarnings)) {
+    (warnings[nodeId] ??= []).push(...arr);
+  }
 
   const missingFeatures = new Set(
     (await readConfig("missing-features.txt")).map((x) => {
@@ -83,10 +89,6 @@ export default async function processWarnings(fast: boolean = false) {
 
   checkBCDMatching(nodes, report);
   console.log("BCD check completed");
-
-  await checkCode(nodes, report);
-  postCheckCode();
-  console.log("Code check completed");
 
   for (const node of nodes) {
     if (!node.data.flaws || Object.keys(node.data.flaws).length === 0) continue;

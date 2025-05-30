@@ -3,6 +3,7 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
     fix: false,
     validate: false,
     languageOptions: {
+      // NEW
       syntax: {
         atRules: {
           "position-try": {
@@ -55,13 +56,34 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
       "annotation-no-unknown": true,
       "at-rule-descriptor-no-unknown": true,
       "at-rule-descriptor-value-no-unknown": true,
-      "at-rule-no-unknown": true,
+      "at-rule-no-unknown": [
+        true,
+        {
+          ignoreAtRules: [
+            // NEW
+            "color-profile",
+          ],
+        },
+      ],
       "declaration-property-value-no-unknown": [
         true,
         {
           ignoreProperties: {
-            appearance: "base-select",
-            "/^(left|top|right|bottom)$/": "<anchor()>",
+            "text-justify": ["distribute"], // TODO: remove
+            // NEW
+            "/^(align-self|justify-self)$": ["anchor-center"],
+            appearance: ["base-select"],
+            "/^(left|top|right|bottom)$/": ["<anchor()>"],
+            "/^(width|height)$/": ["<calc-size()>"],
+            "alignment-baseline": ["text-bottom", "text-top"],
+            "background-clip": ["border-area"],
+            "container-type": ["scroll-state"],
+            "grid-template-rows": ["masonry"],
+            "grid-template-columns": ["masonry"],
+            "margin-trim": ["inline-end", "inline-start"],
+            "mix-blend-mode": ["plus-darker"],
+            "text-transform": ["math-auto"],
+            "word-break": ["manual"],
           },
         },
       ],
@@ -76,23 +98,55 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
       "no-unknown-custom-properties": null, // TODO
       "property-no-unknown": [
         true,
-        { ignoreProperties: ["scroll-marker-group"] },
+        {
+          ignoreProperties: [
+            "property",
+            // NEW
+            "scroll-marker-group",
+            "reading-flow",
+            "reading-order",
+          ],
+        },
       ],
       "selector-pseudo-class-no-unknown": [
         true,
-        { ignorePseudoClasses: ["unsupported-pseudo"] },
+        {
+          ignorePseudoClasses: [
+            "unsupported-pseudo",
+            "invalid-pseudo",
+            "invalid-pseudo-class",
+            "maybe-unsupported",
+            "bad-pseudoclass",
+            "target-current",
+            "unsupported",
+            // NEW
+            "target-within",
+            "target-current",
+          ],
+        },
       ],
       "selector-pseudo-element-no-unknown": [
         true,
-        { ignorePseudoElements: ["picker", "picker-icon", "checkmark"] },
+        {
+          ignorePseudoElements: [
+            // NEW
+            "picker",
+            "picker-icon",
+            "checkmark",
+            "column",
+            "scroll-button",
+            "scroll-marker",
+          ],
+        },
       ],
       "selector-type-no-unknown": [
         true,
         {
           ignoreTypes: [
-            "selectedcontent",
             "some-element",
             /(\w+-)?custom-element/,
+            // NEW
+            "selectedcontent",
           ],
         },
       ],
@@ -116,15 +170,12 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
         },
       },
       {
-        files: ["Web/API/WebVTT_API/**"],
+        files: [
+          "Web/API/WebVTT_API/**",
+          "Media/Guides/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video/*",
+        ],
         rules: {
           "selector-type-no-unknown": [true, { ignoreTypes: ["c", "v"] }],
-        },
-      },
-      {
-        files: ["Web/CSS/@color-profile/*", "Web/CSS/dashed-ident/*"],
-        rules: {
-          "at-rule-no-unknown": [true, { ignoreAtRules: ["color-profile"] }],
         },
       },
       {
@@ -154,14 +205,29 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
         rules: { "keyframe-declaration-no-important": null },
       },
       {
-        files: ["Web/CSS/@media/scan/*"],
+        files: [
+          "Web/CSS/@media/scan/*",
+          "Web/CSS/@media/-moz-device-pixel-ratio/*",
+          "Web/CSS/@media/device-posture/*",
+          "Web/CSS/@media/shape/*",
+        ],
         rules: { "media-feature-name-value-no-unknown": null },
+      },
+      {
+        files: ["Web/CSS/:local-link/*"],
+        rules: {
+          "selector-pseudo-class-no-unknown": [
+            true,
+            { ignorePseudoClasses: ["local-link"] },
+          ],
+        },
       },
       {
         files: ["Web/CSS/::scroll-button/*"],
         rules: {
           "selector-type-no-unknown": [
             true,
+            // NEW
             { ignoreTypes: ["left", "right"] },
           ],
         },
@@ -222,6 +288,10 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
             true,
             { ignoreProperties: "scroll-timeline" },
           ],
+          "declaration-property-value-no-unknown": [
+            true,
+            { ignoreProperties: { "scroll-timeline": ["horizontal"] } },
+          ],
         },
       },
       {
@@ -231,6 +301,10 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
             true,
             { ignoreProperties: "scroll-timeline-axis" },
           ],
+          "declaration-property-value-no-unknown": [
+            true,
+            { ignoreProperties: { "scroll-timeline-axis": ["horizontal"] } },
+          ],
         },
       },
       {
@@ -239,6 +313,10 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
           "declaration-block-no-duplicate-properties": [
             true,
             { ignoreProperties: "view-timeline-axis" },
+          ],
+          "declaration-property-value-no-unknown": [
+            true,
+            { ignoreProperties: { "view-timeline-axis": ["horizontal"] } },
           ],
         },
       },
@@ -301,6 +379,15 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
           "declaration-block-no-duplicate-properties": [
             true,
             { ignoreProperties: ["transition"] },
+          ],
+        },
+      },
+      {
+        files: ["Web/HTML/Reference/Global_attributes/exportparts/*"],
+        rules: {
+          "selector-type-no-unknown": [
+            true,
+            { ignoreTypes: ["card-wrapper", "card-component"] },
           ],
         },
       },
