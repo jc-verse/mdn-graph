@@ -79,9 +79,7 @@ Router.map(function () {
 [no-self-assign] 'todos' is assigned to itself.
 ~~~
 const checkAllTodos = (completed) => {
-  todos.forEach((t) => {
-    t.completed = completed;
-  });
+  todos.forEach((t) => (t.completed = completed));
   todos = todos;
 };
 ~~~
@@ -90,6 +88,14 @@ const checkAllTodos = (completed) => {
 [@typescript-eslint/no-inferrable-types] Type boolean trivially inferred from a boolean literal, remove type annotation.
 ~~~
 export let autofocus: boolean = false;
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/A_first_splash
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<script>
+  // Your JavaScript goes here
+</script>
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Scripting/A_first_splash
@@ -139,6 +145,17 @@ function inchesToMeters(num) {
     console.log("A number was not provided. Please correct the input.");
   }
 }
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/Functions
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!-- Excerpt from my HTML -->
+<script src="first.js"></script>
+<script src="second.js"></script>
+<script>
+  greeting();
+</script>
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Scripting/Loops
@@ -945,6 +962,29 @@ eventTarget.addEventListener("keyup", (event) => {
 ~~~
 
 /en-US/docs/Web/API/EventTarget/addEventListener
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<table id="my_table" onclick="console.log(this.id);">
+  <!-- `this` refers to the table; logs 'my_table' -->
+  …
+</table>
+~~~
+
+/en-US/docs/Web/API/EventTarget/addEventListener
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<script>
+  function logID() {
+    console.log(this.id);
+  }
+</script>
+<table id="my_table" onclick="logID();">
+  <!-- when called, `this` will refer to the global object -->
+  …
+</table>
+~~~
+
+/en-US/docs/Web/API/EventTarget/addEventListener
 [prefer-arrow-callback] Unexpected function expression.
 ~~~
 // Function to change the content of t2
@@ -1595,6 +1635,40 @@ div {
 @import "/css/styles.css" supports(color: AccentColor);
 ~~~
 
+/en-US/docs/Web/CSS/CSS_grid_layout/Masonry_layout
+[no-style-attr] Do not use the style attribute.
+~~~
+<div class="grid">
+  <div class="item" style="inline-size: 2em;"></div>
+  <div class="item" style="inline-size: 3em;"></div>
+  <div class="item" style="inline-size: 1.6em;"></div>
+  <div class="item" style="inline-size: 4em;"></div>
+  <div class="item" style="inline-size: 2.2em;"></div>
+  <div class="item" style="inline-size: 3em;"></div>
+  <div class="item" style="inline-size: 4.5em;"></div>
+  <div class="item" style="inline-size: 1em;"></div>
+  <div class="item" style="inline-size: 3.5em;"></div>
+  <div class="item" style="inline-size: 2.8em;"></div>
+</div>
+~~~
+
+/en-US/docs/Web/CSS/CSS_grid_layout/Masonry_layout
+[no-style-attr] Do not use the style attribute.
+~~~
+<div class="grid">
+  <div class="item" style="block-size: 2em;"></div>
+  <div class="item" style="block-size: 3em; grid-column-end: span 2;"></div>
+  <div class="item" style="block-size: 1.6em;"></div>
+  <div class="item" style="block-size: 4em;"></div>
+  <div class="item" style="block-size: 2.2em; grid-column-end: span 2"></div>
+  <div class="item" style="block-size: 3em;"></div>
+  <div class="item" style="block-size: 4.5em;"></div>
+  <div class="item" style="block-size: 1em;"></div>
+  <div class="item" style="block-size: 3.5em;"></div>
+  <div class="item" style="block-size: 2.8em;"></div>
+</div>
+~~~
+
 /en-US/docs/Web/CSS/CSS_syntax/Error_handling
 [CssSyntaxError] Missed semicolon (CssSyntaxError)
 ~~~
@@ -1668,6 +1742,146 @@ selector {
 }
 ~~~
 
+/en-US/docs/Web/CSS/line-style
+[no-style-attr] Do not use the style attribute.
+~~~
+<section>
+  <div style="border-color: #000000"></div>
+  <div style="border-color: #000001"></div>
+  <div style="border-color: #ffffff"></div>
+
+  <div style="border-color: #ff00ff"></div>
+  <div style="border-color: #ffff00"></div>
+  <div style="border-color: #00ffff"></div>
+
+  <div style="border-color: #cc33cc"></div>
+  <div style="border-color: #cccc33"></div>
+  <div style="border-color: #33cccc"></div>
+
+  <div style="border-color: #ff0000"></div>
+  <div style="border-color: #00ff00"></div>
+  <div style="border-color: #0000ff"></div>
+
+  <div style="border-color: #cc3333"></div>
+  <div style="border-color: #33cc33"></div>
+  <div style="border-color: #3333cc"></div>
+
+  <div style="border-color: #993333"></div>
+  <div style="border-color: #339933"></div>
+  <div style="border-color: #333399"></div>
+</section>
+~~~
+
+/en-US/docs/Web/CSS/log
+[no-style-attr] Do not use the style attribute.
+~~~
+<div class="bar" style="--value: 50">50</div>
+<div class="bar" style="--value: 100">100</div>
+<div class="bar" style="--value: 500">500</div>
+<div class="bar" style="--value: 10000">10,000</div>
+<div class="bar" style="--value: 2000000">2,000,000</div>
+~~~
+
+/en-US/docs/Web/CSS/math-depth
+[no-style-attr] Do not use the style attribute.
+~~~
+<p>
+  <math>
+    <mtext>0</mtext>
+
+    <!-- auto-add value has no effect when math-style is normal -->
+    <mrow style="math-style: normal">
+      <mrow style="math-depth: auto-add">
+        <mtext>0</mtext>
+      </mrow>
+    </mrow>
+
+    <!-- the inherited math-style is compact, so math-depth is set to 1 -->
+    <mrow style="math-depth: auto-add">
+      <mtext>1</mtext>
+    </mrow>
+
+    <mrow style="math-depth: add(2)">
+      <mtext>2</mtext>
+      <mrow style="math-depth: add(-1)">
+        <mtext>1</mtext>
+      </mrow>
+      <mrow style="math-depth: 0">
+        <mtext>0</mtext>
+      </mrow>
+    </mrow>
+  </math>
+</p>
+~~~
+
+/en-US/docs/Web/CSS/order
+[no-style-attr] Do not use the style attribute.
+~~~
+<section class="default-example" id="default-example">
+  <div class="transition-all" id="example-element">Box 1:</div>
+  <div style="order: 1">Box 2: <code>order: 1;</code></div>
+  <div style="order: 2">Box 3: <code>order: 2;</code></div>
+  <div style="order: 2">Box 4: <code>order: 2;</code></div>
+  <div style="order: 3">Box 5: <code>order: 3;</code></div>
+</section>
+~~~
+
+/en-US/docs/Web/CSS/position-area
+[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+~~~
+<div class="anchor" contenteditable="true">⚓︎</div>
+
+<p class="positionedElement" contenteditable="true">This can be edited.</p>
+
+<style contenteditable="true">.positionedElement {
+    position-area: CHANGEME;
+  }
+</style>
+~~~
+
+/en-US/docs/Web/CSS/revert
+[no-style-attr] Do not use the style attribute.
+~~~
+<h3 style="font-weight: revert; color: revert;">
+  This should have its original font-weight (bold) and color: black
+</h3>
+<p>Just some text</p>
+<h3 style="font-weight: unset; color: unset;">
+  This will still have font-weight: normal, but color: black
+</h3>
+<p>Just some text</p>
+~~~
+
+/en-US/docs/Web/CSS/revert
+[no-style-attr] Do not use the style attribute.
+~~~
+<h3>This will have custom styles</h3>
+<p>Just some text</p>
+<h3 style="all: revert">This should be reverted to browser/user defaults.</h3>
+<p>Just some text</p>
+~~~
+
+/en-US/docs/Web/CSS/vertical-align
+[no-style-attr] Do not use the style attribute.
+~~~
+<p>
+top:         <img style="vertical-align: top" src="star.png" alt="star"/>
+middle:      <img style="vertical-align: middle" src="star.png" alt="star"/>
+bottom:      <img style="vertical-align: bottom" src="star.png" alt="star"/>
+super:       <img style="vertical-align: super" src="star.png" alt="star"/>
+sub:         <img style="vertical-align: sub" src="star.png" alt="star"/>
+</p>
+
+<p>
+text-top:    <img style="vertical-align: text-top" src="star.png" alt="star"/>
+text-bottom: <img style="vertical-align: text-bottom" src="star.png" alt="star"/>
+0.2em:       <img style="vertical-align: 0.2em" src="star.png" alt="star"/>
+-1em:        <img style="vertical-align: -1em" src="star.png" alt="star"/>
+20%:         <img style="vertical-align: 20%" src="star.png" alt="star"/>
+-100%:       <img style="vertical-align: -100%" src="star.png" alt="star"/>
+</p>
+~~~
+
 /en-US/docs/Web/HTML/Reference/Elements/frame
 [syntax] Only void, custom and foreign elements can be self closed "frame"
 ~~~
@@ -1698,6 +1912,33 @@ selector {
       src="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/frame" />
   </frameset>
 </html>
+~~~
+
+/en-US/docs/Web/HTML/Reference/Elements/link
+[no-style-attr] Do not use the style attribute.
+~~~
+<link href="/shared-assets/misc/link-element-example.css" rel="stylesheet" />
+
+<p>This text will be red as defined in the external stylesheet.</p>
+<p style="color: blue">
+  The <code>style</code> attribute can override it, though.
+</p>
+~~~
+
+/en-US/docs/Web/HTML/Reference/Elements/menu
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<menu>
+  <li><button onclick="copy()">Copy</button></li>
+  <li><button onclick="cut()">Cut</button></li>
+  <li><button onclick="paste()">Paste</button></li>
+</menu>
+
+<ul>
+  <li><button onclick="copy()">Copy</button></li>
+  <li><button onclick="cut()">Cut</button></li>
+  <li><button onclick="paste()">Paste</button></li>
+</ul>
 ~~~
 
 /en-US/docs/Web/HTML/Reference/Elements/noframes
@@ -1754,6 +1995,20 @@ if (navigator.userAgent.includes("Chrome")) {
 }
 console.log(splitUpString("fooBar")); // ["fooB", "ar"]
 console.log(splitUpString("jQWhy")); // ["jQ", "W", "hy"]
+~~~
+
+/en-US/docs/Web/HTTP/Reference/Headers/X-XSS-Protection
+[no-var] Unexpected var, use let or const instead.
+~~~
+<script>
+  var productionMode = true;
+</script>
+<!-- [...] -->
+<script>
+  if (!window.productionMode) {
+    // Some vulnerable debug code
+  }
+</script>
 ~~~
 
 /en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling
@@ -1949,6 +2204,40 @@ myCanvas.createReportList();
 import { default as randomSquare } from "./modules/square.js";
 ~~~
 
+/en-US/docs/Web/JavaScript/Guide/Modules
+[no-var] Unexpected var, use let or const instead.
+~~~
+<script>
+  import("./modules/square.js").then((module) => {
+    // Do something with the module.
+  });
+  // Other code that operates on the global scope and is not
+  // ready to be refactored into modules yet.
+  var btn = document.querySelector(".square");
+</script>
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Modules
+[no-var] Unexpected var, use let or const instead.
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <div id="main"></div>
+    <script>
+      // A var statement creates a global variable.
+      var text = "Hello";
+    </script>
+    <script type="module" src="./render.js"></script>
+  </body>
+</html>
+~~~
+
 /en-US/docs/Web/JavaScript/Guide/Numbers_and_strings
 [syntax] Parsing error: Decimals with leading zeros are not allowed.
 ~~~
@@ -2129,6 +2418,23 @@ console.log("b");
 (for (x of iterable) for (y of iterable) x + y)
 ~~~
 
+/en-US/docs/Web/JavaScript/Reference/Errors/Bad_await
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<script>
+  await fetch("https://example.com");
+  // SyntaxError: await is only valid in async functions, async generators and modules
+</script>
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Bad_await
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<script type="module">
+  await fetch("https://example.com");
+</script>
+~~~
+
 /en-US/docs/Web/JavaScript/Reference/Errors/Bad_continue
 [no-useless-return] Unnecessary return statement.
 ~~~
@@ -2271,6 +2577,26 @@ console.log("PI: " + Math.PI);
 [syntax] Parsing error: Variable declaration expected.
 ~~~
 const = "foo";
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Property_access_denied
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <iframe
+      id="myframe"
+      src="http://www1.w3c-test.org/common/blank.html"></iframe>
+    <script>
+      onload = function () {
+        console.log(frames[0].document);
+        // Error: Permission denied to access property "document"
+      };
+    </script>
+  </head>
+  <body></body>
+</html>
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Errors/Regex_backslash_at_end_of_pattern
@@ -3239,6 +3565,70 @@ console.log(box + 456); // 579
 console.log(box == 123); // true
 ~~~
 
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!doctype html>
+<iframe></iframe>
+<!-- we have a realm here -->
+<script>
+  // we have a realm here as well
+  const bound = frames[0].postMessage.bind(frames[0], "some data", "*");
+  // bound is a built-in function — there is no user
+  // code on the stack, so which realm do we use?
+  setTimeout(bound);
+  // this still works, because we use the youngest
+  // realm (the incumbent) on the stack
+</script>
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!doctype html>
+<iframe></iframe>
+<!-- we have a realm here -->
+<script>
+  // we have a realm here as well
+  const bound = frames[0].postMessage.bind(frames[0], "some data", "*");
+  // bound is a built in function — there is no user
+  // code on the stack — which realm do we use?
+  Promise.resolve(undefined).then(bound);
+  // this still works, because we use the youngest
+  // realm (the incumbent) on the stack
+</script>
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!-- y.html -->
+<!doctype html>
+<iframe src="x.html"></iframe>
+<script>
+  const bound = frames[0].postMessage.bind(frames[0], "some data", "*");
+  Promise.resolve(undefined).then(bound);
+</script>
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!-- x.html -->
+<!doctype html>
+<script>
+  window.addEventListener(
+    "message",
+    (event) => {
+      document.querySelector("#text").textContent = "hello";
+      // this code will only run in browsers that track the incumbent settings object
+      console.log(event);
+    },
+    false,
+  );
+</script>
+~~~
+
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/catch
 [prefer-arrow-callback] Unexpected function expression.
 ~~~
@@ -3971,6 +4361,32 @@ function () {
 }();
 ~~~
 
+/en-US/docs/Web/JavaScript/Reference/Operators/import.meta
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<script type="module">
+  import "./index.mjs?someURLInfo=5";
+</script>
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/import.meta/resolve
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!-- index.html -->
+<script type="importmap">
+  {
+    "imports": {
+      "my-module": "./modules/my-module/index.js"
+    }
+  }
+</script>
+
+<script type="module">
+  const moduleEntryPath = import.meta.resolve("my-module");
+  console.log(moduleEntryPath);
+</script>
+~~~
+
 /en-US/docs/Web/JavaScript/Reference/Operators/instanceof
 [no-unsafe-negation] Unexpected negating the left operand of 'instanceof' operator.
 ~~~
@@ -4142,6 +4558,20 @@ console.log(getThis() === globalThis); // true
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Operators/this
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<button onclick="alert((function () { return this; })());">
+  Show inner this
+</button>
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/this
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<button onclick="alert(this.tagName.toLowerCase());">Show this</button>
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/this
 [no-useless-call] Unnecessary '.call()'.
 ~~~
 function bar() {
@@ -4303,7 +4733,7 @@ async function* foo() {
   yield 2;
 }
 
-(async function () {
+(async () => {
   for await (const num of foo()) {
     console.log(num);
     // Expected output: 1
@@ -4354,6 +4784,16 @@ foo(1, 2, 3);
 // 1
 // 2
 // 3
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/function
+[func-style] Expected a function declaration.
+~~~
+notHoisted(); // TypeError: notHoisted is not a function
+
+var notHoisted = function () {
+  console.log("bar");
+};
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Statements/function
@@ -4432,6 +4872,43 @@ console.log(gen.next()); // { value: undefined, done: true }
 myModule.doAllTheAmazingThings(); // myModule.doAllTheAmazingThings is imported by the next line
 
 import * as myModule from "/modules/my-module.js";
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/import/with
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <script type="module">
+      import data from "./data.json" with { type: "json" };
+
+      const p = document.createElement("p");
+      p.textContent = `name: ${data.name}`;
+      document.body.appendChild(p);
+    </script>
+  </head>
+  <body></body>
+</html>
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/import/with
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <script type="module">
+      import data from "./data.json" with { type: "json" };
+      const p = document.createElement("p");
+      p.textContent = `name: ${data.name}`;
+      document.body.appendChild(p);
+    </script>
+  </head>
+  <body></body>
+</html>
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Statements/throw
@@ -4587,4 +5064,86 @@ const a = console?.log
 [syntax] Parsing error: Hexadecimal digit expected.
 ~~~
 const bad = `bad escape sequence: \unicode`;
+~~~
+
+/en-US/docs/Web/Security/Attacks/XSS
+[no-inline-event-handlers] Do not use inline event handler "onerror".
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<div>
+  <img src="x" onerror="alert('hello!')" />
+  <script>
+    alert("hello!");
+  </script>
+</div>
+~~~
+
+/en-US/docs/Web/Security/Types_of_attacks
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<form action="https://bank.example.com/withdraw" method="POST">
+  <input type="hidden" name="account" value="bob" />
+  <input type="hidden" name="amount" value="1000000" />
+  <input type="hidden" name="for" value="mallory" />
+</form>
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    document.querySelector("form").submit();
+  });
+</script>
+~~~
+
+/en-US/docs/Web/URI/Reference/Schemes/javascript
+[no-var] Unexpected var, use let or const instead.
+~~~
+<a href="javascript:pageContent">Click me</a>
+<script>
+  // Use a var so it becomes a global variable and can be read elsewhere
+  var pageContent = "Hello, world!";
+</script>
+~~~
+
+/en-US/docs/Web/URI/Reference/Schemes/javascript
+[no-var] Unexpected var, use let or const instead.
+~~~
+<iframe src="javascript:pageContent"></iframe>
+<script>
+  // Use a var so it becomes a global variable and can be read elsewhere
+  var pageContent = "Hello, world!";
+</script>
+~~~
+
+/en-US/docs/WebAssembly/Guides/Existing_C_to_Wasm
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<script src="./a.out.js"></script>
+<script>
+  Module.onRuntimeInitialized = async () => {
+    const api = {
+      version: Module.cwrap("version", "number", []),
+    };
+    console.log(api.version());
+  };
+</script>
+~~~
+
+/en-US/docs/WebAssembly/Guides/Rust_to_Wasm
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>hello-wasm example</title>
+  </head>
+  <body>
+    <script type="module">
+      import init, { greet } from "./pkg/hello_wasm.js";
+
+      init().then(() => {
+        greet("WebAssembly");
+      });
+    </script>
+  </body>
+</html>
 ~~~

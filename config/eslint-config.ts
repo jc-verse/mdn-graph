@@ -65,10 +65,8 @@ export default [
       "@typescript-eslint/no-use-before-define": "off", // 145
       "regexp/prefer-named-capture-group": "off", // 122
       "@typescript-eslint/no-redeclare": "off", // 105
-      "prefer-arrow-callback": "off", // TODO
       "consistent-return": "off", // 85
       "no-return-assign": "off", // TODO
-      "func-style": "off", // TODO
     },
   },
   {
@@ -105,13 +103,6 @@ export default [
       "Glossary/Hoisting/*",
       "Glossary/Scope/*",
       "Learn_web_development/Core/Scripting/Variables/*",
-      "Mozilla/Firefox/Releases/3/Full_page_zoom/*",
-      "Mozilla/Firefox/Releases/4/The_add-on_bar/*",
-      "Mozilla/Firefox/Releases/5/Updating_add-ons/*",
-      "Mozilla/Firefox/Releases/11/*",
-      "Mozilla/Firefox/Releases/36/*",
-      "Mozilla/Firefox/Releases/1.5/Changing_the_priority_of_HTTP_requests/*",
-      "Mozilla/Firefox/Releases/3.5/Updating_extensions/*",
       "Web/JavaScript/Guide/Closures/*",
       "Web/JavaScript/Guide/Control_flow_and_error_handling/*",
       "Web/JavaScript/Guide/Grammar_and_types/*",
@@ -149,7 +140,6 @@ export default [
   {
     files: [
       "Learn_web_development/Core/Scripting/Functions/*",
-      "Mozilla/Firefox/Releases/5/Updating_add-ons/*",
       "Web/JavaScript/Guide/Closures/*",
       "Web/JavaScript/Guide/Functions/*",
       "Web/JavaScript/Guide/Using_promises/*",
@@ -199,6 +189,22 @@ export default [
       "Web/JavaScript/Reference/Global_Objects/Object/Object/*",
     ],
     rules: { "no-object-constructor": "off" },
+  },
+  {
+    files: [
+      "Mozilla/Firefox/Releases/3/**",
+      "Mozilla/Firefox/Releases/4/**",
+      "Mozilla/Firefox/Releases/5/**",
+      "Mozilla/Firefox/Releases/11/**",
+      "Mozilla/Firefox/Releases/36/**",
+      "Mozilla/Firefox/Releases/1.5/**",
+      "Mozilla/Firefox/Releases/3.5/**",
+    ],
+    rules: {
+      "no-var": "off",
+      "prefer-arrow-callback": "off",
+      "prefer-template": "off",
+    },
   },
   {
     files: [

@@ -74,11 +74,11 @@ export default async function processWarnings(fast: boolean = false) {
   const { checkedLinks, linkRequests } = createLinkRequests(nodes, report);
   if (!fast) {
     await depleteQueue(linkRequests);
+    reportBrokenLinks(nodes, report, checkedLinks);
+    postExternalLinkCheck();
   } else {
     console.warn("Skipping external link check");
   }
-  reportBrokenLinks(nodes, report, checkedLinks);
-  postExternalLinkCheck();
   console.log("External link check completed");
 
   checkBCDMatching(nodes, report);

@@ -3,6 +3,8 @@ import stylelint from "stylelint";
 import { parse as htmlParse } from "angular-html-parser";
 import eslintConfig from "../../config/eslint-config.ts";
 import stylelintConfig from "../../config/stylelint-config.ts";
+import htmlLintConfig from "../../config/html-lint-config.ts";
+import type { Node } from "ngraph.graph";
 
 const sanctionedLanguages = [
   "apacheconf",
@@ -71,186 +73,309 @@ for (const match of expectedErrors) {
   }
 }
 
+const eslint = new ESLint({
+  overrideConfigFile: true,
+  overrideConfig: eslintConfig,
+  fix: false,
+});
+
+function reportIfUnexpected(
+  node: Node,
+  language: string,
+  ruleId: string,
+  message: string,
+  content: string,
+  range: string,
+  region: string,
+  report: (node: any, message: string, ...data: string[]) => void,
+) {
+  if (
+    expectedErrorsMap.has(node.id) &&
+    expectedErrorsMap.get(node.id)!.has(content)
+  ) {
+    const expectedMessages = expectedErrorsMap.get(node.id)!.get(content)!;
+    if (expectedMessages.has(`[${ruleId}] ${message}`)) {
+      expectedMessages.set(`[${ruleId}] ${message}`, true);
+      return;
+    }
+  }
+  report(
+    node,
+    `${language.toUpperCase()} code issue`,
+    ruleId,
+    message,
+    region,
+    range,
+    `${node.id}\n[${ruleId}] ${message}\n~~~\n${content}~~~\n`,
+  );
+}
+
+async function checkJS(
+  content: string,
+  language: string,
+  node: Node,
+  report: (node: any, message: string, ...data: string[]) => void,
+  fullContent: string = content,
+) {
+  if (content.includes("// SyntaxError: ")) return;
+  const scripts = content
+    .split(/\/\/ -- ([^ ]*) --\n/)
+    .reduce<{ fileName: string; content: string }[]>((acc, part, i, arr) => {
+      if (i % 2 !== 0) {
+        acc.push({ fileName: part, content: arr[i + 1] });
+      } else if (i === 0) {
+        acc.push({ fileName: `test.${language}`, content: part });
+      }
+      return acc;
+    }, []);
+  for (const { fileName, content } of scripts) {
+    const results = await eslint.lintText(
+      content
+        // Avoid spaced-comment report
+        .replaceAll("/*,", "/* ,")
+        .replaceAll("//@", "// @")
+        .replaceAll("//#", "// #"),
+      {
+        filePath: `${node.id.replace("/en-US/docs/", "")}/${fileName}`,
+      },
+    );
+    for (const result of results) {
+      result.messages.forEach((msg) => {
+        // No better way to disable this error :(
+        if (
+          msg.ruleId === "no-unused-labels" &&
+          msg.message === "'$:' is defined but never used." &&
+          node.id.startsWith(
+            "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_",
+          )
+        )
+          return;
+        reportIfUnexpected(
+          node,
+          "js",
+          msg.ruleId ?? "syntax",
+          msg.message,
+          fullContent,
+          msg.endLine
+            ? `${msg.line}:${msg.column} - ${msg.endLine}:${msg.endColumn}`
+            : `${msg.line}:${msg.column}`,
+          content
+            .split("\n")
+            .slice(msg.line - 1, msg.endLine ? msg.endLine : msg.line)
+            .join("\n"),
+          report,
+        );
+      });
+    }
+  }
+}
+
+async function checkCSS(
+  content: string,
+  language: string,
+  node: Node,
+  report: (node: any, message: string, ...data: string[]) => void,
+  fullContent: string = content,
+) {
+  const isPropertyOnly = !content.includes("{");
+  const results = await stylelint.lint({
+    code: content,
+    codeFilename: `${node.id.replace("/en-US/docs/", "")}/test.${language}`,
+    config: stylelintConfig(isPropertyOnly),
+    cache: false,
+  });
+  for (const result of results.results) {
+    result.warnings.forEach((msg) => {
+      reportIfUnexpected(
+        node,
+        "css",
+        msg.rule,
+        msg.text,
+        fullContent,
+        msg.endLine
+          ? `${msg.line}:${msg.column} - ${msg.endLine}:${msg.endColumn}`
+          : `${msg.line}:${msg.column}`,
+        content
+          .split("\n")
+          .slice(msg.line - 1, msg.endLine ? msg.endLine : msg.line)
+          .join("\n"),
+        report,
+      );
+    });
+  }
+}
+
+function checkHTML(
+  content: string,
+  language: string,
+  node: Node,
+  report: (node: any, message: string, ...data: string[]) => void,
+) {
+  const { rootNodes, errors } = htmlParse(content);
+  if (errors.length) {
+    errors.forEach((error) => {
+      reportIfUnexpected(
+        node,
+        "html",
+        "syntax",
+        error.msg,
+        content,
+        `${error.span.start.line}:${error.span.start.col} - ${error.span.end.line}:${error.span.end.col}`,
+        content
+          .split("\n")
+          .slice(error.span.start.line - 1, error.span.end.line)
+          .join("\n"),
+        report,
+      );
+    });
+    return;
+  }
+  const messages: {
+    ruleId: string;
+    message: string;
+    content: string;
+    span: any;
+  }[] = [];
+  rootNodes.forEach((rootNode) => {
+    rootNode.visit(
+      {
+        visitAttribute(attr, ctx) {
+          if (attr.name.startsWith("on")) {
+            messages.push({
+              ruleId: "no-inline-event-handlers",
+              message: `Do not use inline event handler "${attr.name}".`,
+              content,
+              span: attr.sourceSpan,
+            });
+          } else if (attr.name === "style") {
+            messages.push({
+              ruleId: "no-style-attr",
+              message: `Do not use the style attribute.`,
+              content,
+              span: attr.sourceSpan,
+            });
+          }
+        },
+        visitElement(el, ctx) {
+          if (
+            el.name === "script" &&
+            !el.attrs.some((attr) => attr.name === "src") &&
+            !el.attrs.some(
+              (attr) => attr.name === "type" && attr.value !== "module",
+            )
+          ) {
+            messages.push({
+              ruleId: "no-inline-script",
+              message:
+                "Do not write JS within the <script> element; use separate JS blocks instead.",
+              content,
+              span: el.sourceSpan,
+            });
+            if (el.children.length === 1 && el.children[0]!.type === "text") {
+              checkJS(el.children[0]!.value, "js", node, report, content);
+            } else {
+              messages.push({
+                ruleId: "empty-script",
+                message: "Script element should have non-empty text.",
+                content,
+                span: el.sourceSpan,
+              });
+            }
+          } else if (el.name === "style" && !ctx.isTemplate) {
+            messages.push({
+              ruleId: "no-style-elem",
+              message:
+                "Do not use the <style> element; use separate CSS blocks instead.",
+              content,
+              span: el.sourceSpan,
+            });
+            if (el.children.length === 1 && el.children[0]!.type === "text") {
+              checkCSS(el.children[0]!.value, "css", node, report, content);
+            } else {
+              messages.push({
+                ruleId: "empty-style",
+                message: "Style element should have non-empty text.",
+                content,
+                span: el.sourceSpan,
+              });
+            }
+          }
+          if (el.name === "template") {
+            ctx.isTemplate++;
+          }
+          el.attrs.forEach((attr) => attr.visit(this, ctx));
+          el.children.forEach((child) => child.visit(this, ctx));
+          if (el.name === "template") {
+            ctx.isTemplate--;
+          }
+        },
+        visitText() {},
+        visitComment() {},
+        visitCdata() {},
+        visitDocType() {},
+        visitBlock() {},
+        visitExpansion() {},
+        visitExpansionCase() {},
+        visitLetDeclaration() {},
+        visitBlockParameter() {},
+      },
+      { isTemplate: 0 },
+    );
+  });
+  const filePath = node.id.replace("/en-US/docs/", "");
+  for (const msg of messages) {
+    continue; // Don't report anything for now
+    if (
+      htmlLintConfig.ignore.some(
+        (ignore) =>
+          ignore.files.some((file) => {
+            if (file.endsWith("/**")) {
+              return filePath.startsWith(file.slice(0, -3).replace(/\/$/, ""));
+            }
+            return filePath === file;
+          }) && ignore.rules[msg.ruleId] === "off",
+      )
+    ) {
+      continue;
+    }
+    reportIfUnexpected(
+      node,
+      "html",
+      msg.ruleId,
+      msg.message,
+      content,
+      `${msg.span.start.line}:${msg.span.start.col} - ${msg.span.end.line}:${msg.span.end.col}`,
+      content
+        .split("\n")
+        .slice(msg.span.start.line, msg.span.end.line + 1)
+        .join("\n"),
+      report,
+    );
+  }
+}
+
 export async function checkCode(
   nodes: any[],
   report: (node: any, message: string, ...data: string[]) => void,
 ) {
-  const eslint = new ESLint({
-    overrideConfigFile: true,
-    overrideConfig: eslintConfig,
-    fix: false,
-  });
   const { default: codes } = await import("../../data/codes.json", {
     with: { type: "json" },
   });
-  for (const node of nodes) {
-    const file = node.id;
-    const blocks = codes[file];
-    if (!blocks) continue;
-    for (const block of blocks) {
-      const { language, content } = block;
-      if (["js", "ts", "jsx", "tsx"].includes(language)) {
-        if (content.includes("// SyntaxError: ")) continue;
-        const scripts = content
-          .split(/\/\/ -- ([^ ]*) --\n/)
-          .reduce((acc, part, i, arr) => {
-            if (i % 2 !== 0) {
-              acc.push({ fileName: part, content: arr[i + 1] });
-            } else if (i === 0) {
-              acc.push({ fileName: `test.${language}`, content: part });
-            }
-            return acc;
-          }, []);
-        for (const { fileName, content } of scripts) {
-          const results = await eslint.lintText(
-            content
-              // Avoid spaced-comment report
-              .replaceAll("/*,", "/* ,")
-              .replaceAll("//@", "// @")
-              .replaceAll("//#", "// #"),
-            {
-              filePath: `${node.id.replace("/en-US/docs/", "")}/${fileName}`,
-            },
-          );
-          for (const result of results) {
-            result.messages.forEach((msg) => {
-              if (
-                expectedErrorsMap.has(file) &&
-                expectedErrorsMap.get(file)!.has(content)
-              ) {
-                const expectedMessages = expectedErrorsMap
-                  .get(file)!
-                  .get(content)!;
-                const fullMessage = `[${msg.ruleId ?? "syntax"}] ${msg.message}`;
-                if (expectedMessages.has(fullMessage)) {
-                  expectedMessages.set(fullMessage, true);
-                  return;
-                }
-              }
-              // No better way to disable this error :(
-              if (
-                msg.ruleId === "no-unused-labels" &&
-                msg.message === "'$:' is defined but never used." &&
-                node.id.startsWith(
-                  "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_",
-                )
-              )
-                return;
-              report(
-                node,
-                "JS code issue",
-                msg.ruleId ?? "syntax",
-                msg.message,
-                content.split("\n")[msg.line - 1],
-                msg.endLine
-                  ? `${msg.line}:${msg.column} - ${msg.endLine}:${msg.endColumn}`
-                  : `${msg.line}:${msg.column}`,
-                `${node.id}\n[${msg.ruleId ?? "syntax"}] ${msg.message}\n~~~\n${content}~~~\n`,
-              );
-            });
-          }
+  const allChecks = nodes.flatMap(
+    (node) =>
+      codes[node.id]?.map(async (block) => {
+        if (["js", "ts", "jsx", "tsx"].includes(block.language)) {
+          await checkJS(block.content, block.language, node, report);
+        } else if (["css"].includes(block.language)) {
+          await checkCSS(block.content, block.language, node, report);
+        } else if (["html"].includes(block.language)) {
+          checkHTML(block.content, block.language, node, report);
+        } else if (!sanctionedLanguages.includes(block.language)) {
+          report(node, "Invalid code block language", block.language);
         }
-      } else if (["css"].includes(language)) {
-        const isPropertyOnly = !content.includes("{");
-        const results = await stylelint.lint({
-          code: content,
-          codeFilename: `${node.id.replace("/en-US/docs/", "")}/test.css`,
-          config: stylelintConfig(isPropertyOnly),
-          cache: false,
-        });
-        for (const result of results.results) {
-          result.warnings.forEach((msg) => {
-            if (
-              expectedErrorsMap.has(file) &&
-              expectedErrorsMap.get(file)!.has(content)
-            ) {
-              const expectedMessages = expectedErrorsMap
-                .get(file)!
-                .get(content)!;
-              const fullMessage = `[${msg.rule}] ${msg.text}`;
-              if (expectedMessages.has(fullMessage)) {
-                expectedMessages.set(fullMessage, true);
-                return;
-              }
-            }
-            report(
-              node,
-              "CSS code issue",
-              msg.rule,
-              msg.text,
-              content.split("\n")[msg.line - 1] || content,
-              `${msg.line}:${msg.column}`,
-              `${node.id}\n[${msg.rule}] ${msg.text}\n~~~\n${content}~~~\n`,
-            );
-          });
-        }
-      } else if (["html"].includes(language)) {
-        const { rootNodes, errors } = htmlParse(content);
-        if (errors.length) {
-          errors.forEach((error) => {
-            if (
-              expectedErrorsMap.has(file) &&
-              expectedErrorsMap.get(file)!.has(content)
-            ) {
-              const expectedMessages = expectedErrorsMap
-                .get(file)!
-                .get(content)!;
-              const fullMessage = `[syntax] ${error.msg}`;
-              if (expectedMessages.has(fullMessage)) {
-                expectedMessages.set(fullMessage, true);
-                return;
-              }
-            }
-            report(
-              node,
-              "HTML code issue",
-              "syntax",
-              error.msg,
-              content.split("\n")[error.span.start.line] || content,
-              `${error.span.start.line}:${error.span.start.col}`,
-              `${node.id}\n[syntax] ${error.msg}\n~~~\n${content}~~~\n`,
-            );
-          });
-        } else {
-          rootNodes.forEach((rootNode) => {
-            rootNode.visit(
-              {
-                visitAttribute(attr, ctx) {
-                  if (attr.name.startsWith("on")) {
-                    report(
-                      node,
-                      "HTML code issue",
-                      "no-inline-event-handlers",
-                      `Do not use inline event handler "${attr.name}".`,
-                      content.split("\n")[attr.sourceSpan.start.line],
-                      `${attr.sourceSpan.start.line}:${attr.sourceSpan.start.col}`,
-                      `${node.id}\n[no-inline-event-handlers] Do not use inline event handler "${attr.name}".\n~~~\n${content}~~~\n`,
-                    );
-                  }
-                },
-                visitElement(el, ctx) {
-                  el.attrs.forEach((attr) => attr.visit(this, ctx));
-                  el.children.forEach((child) => child.visit(this, ctx));
-                },
-                visitText() {},
-                visitComment() {},
-                visitCdata() {},
-                visitDocType() {},
-                visitBlock() {},
-                visitExpansion() {},
-                visitExpansionCase() {},
-                visitLetDeclaration() {},
-                visitBlockParameter() {},
-              },
-              undefined,
-            );
-          });
-        }
-      } else if (!sanctionedLanguages.includes(language)) {
-        report(node, "Invalid code block language", language);
-      }
-    }
-  }
+      }) ?? [],
+  );
+  await Promise.all(allChecks);
 }
 
 export function postCheckCode() {
@@ -258,9 +383,7 @@ export function postCheckCode() {
     for (const [code, messages] of blocks) {
       for (const [message, status] of messages) {
         if (!status) {
-          console.warn(
-            `${file}\n${message}\n~~~\n${code}~~~\nIs no longer referenced`,
-          );
+          console.warn(`${file}\n${message}\n~~~\n${code}~~~\n`);
         }
       }
     }

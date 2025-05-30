@@ -43,6 +43,7 @@ steps(n, <jump-term>)
 
   Code:
 "display": "browser"
+"target_hint": "_blank"
 "x" in obj
 FileSystemHandle.requestPermission({mode: 'readwrite'})
 Math.floor(x + 0.5)
