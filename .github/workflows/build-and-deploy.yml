@@ -50,7 +50,7 @@ jobs:
         working-directory: ./content
 
       - name: Build MDN graph
-        run: bun build.ts graph warnings external-links
+        run: bun build.ts graph lint warnings external-links
         working-directory: ./mdn-graph
         env:
           BUILT_CONTENT_ROOT: ../content/build
