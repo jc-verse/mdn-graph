@@ -374,21 +374,36 @@ export default async function checkCode() {
     });
   }
 
-  const allChecks = Object.entries(codes).flatMap(
-    ([path, blocks]) =>
-      blocks.map(async (block) => {
-        if (["js", "ts", "jsx", "tsx"].includes(block.language)) {
-          await checkJS(block.content, block.language, path, report);
-        } else if (["css"].includes(block.language)) {
-          await checkCSS(block.content, block.language, path, report);
-        } else if (["html"].includes(block.language)) {
-          checkHTML(block.content, block.language, path, report);
-        } else if (!sanctionedLanguages.includes(block.language)) {
-          report(path, "Invalid code block language", block.language);
-        }
-      }) ?? [],
-  );
-  await Promise.all(allChecks);
+  // const allChecks = Object.entries(codes).flatMap(
+  //   ([path, blocks]) =>
+  //     blocks.map((block) => {
+  //       if (["js", "ts", "jsx", "tsx"].includes(block.language)) {
+  //         return checkJS(block.content, block.language, path, report);
+  //       } else if (["css"].includes(block.language)) {
+  //         return checkCSS(block.content, block.language, path, report);
+  //       } else if (["html"].includes(block.language)) {
+  //         return checkHTML(block.content, block.language, path, report);
+  //       } else if (!sanctionedLanguages.includes(block.language)) {
+  //         report(path, "Invalid code block language", block.language);
+  //       }
+  //       return undefined;
+  //     }) ?? [],
+  // );
+  // await Promise.all(allChecks);
+  // Can't be parallel, otherwise stylelint OOMs
+  for (const [path, blocks] of Object.entries(codes)) {
+    for (const block of blocks) {
+      if (["js", "ts", "jsx", "tsx"].includes(block.language)) {
+        await checkJS(block.content, block.language, path, report, block.full);
+      } else if (["css"].includes(block.language)) {
+        await checkCSS(block.content, block.language, path, report, block.full);
+      } else if (["html"].includes(block.language)) {
+        await checkHTML(block.content, block.language, path, report);
+      } else if (!sanctionedLanguages.includes(block.language)) {
+        report(path, "Invalid code block language", block.language);
+      }
+    }
+  }
   for (const [file, blocks] of expectedErrorsMap) {
     for (const [code, messages] of blocks) {
       for (const [message, status] of messages) {

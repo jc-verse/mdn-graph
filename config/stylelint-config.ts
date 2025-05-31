@@ -3,9 +3,9 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
     fix: false,
     validate: false,
     languageOptions: {
-      // NEW
       syntax: {
         atRules: {
+          // csstree has nearly everything except position-anchor & position-area
           "position-try": {
             prelude: "<dashed-ident>",
             descriptors: {
@@ -19,6 +19,82 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
                 "auto | <length-percentage> | <anchor()> | <anchor-size()>",
             },
           },
+        },
+        properties: {
+          // LEGACY
+          appearance: "| slider-vertical | base-select", // NEW: base-select
+          display: "| box | -moz-box",
+          "box-align": "start | center | end | baseline | stretch",
+          "box-direction": "normal | reverse",
+          "box-lines": "single | multiple",
+          "box-ordinal-group": "<integer>",
+          "box-orient": "horizontal | vertical | inline-axis | block-axis",
+          "box-pack": "start | center | end | stretch",
+          "text-justify": "| distribute", // TODO: remove
+          // NEW: anchor positioning
+          "align-self": "| anchor-center",
+          "justify-self": "| anchor-center",
+          left: "| <anchor()>",
+          top: "| <anchor()>",
+          right: "| <anchor()>",
+          bottom: "| <anchor()>",
+          // NEW: masonry layout
+          "grid-template-rows": "| masonry",
+          "grid-template-columns": "| masonry",
+          // NEW: CSS carousel
+          "container-type": "normal | [ [ size | inline-size ] || scroll-state ]",
+          // NEW
+          "alignment-baseline": "| text-bottom | text-top",
+          "background-clip": "| border-area",
+          "border-inline-width": "<'border-top-width'>{1,2}",
+          "dominant-baseline": "| text-bottom | text-top",
+          "fill-opacity": "<'opacity'>", // csstree incorrect
+          "margin-trim": "| inline-start | inline-end",
+          "text-transform": "| math-auto",
+          "word-break": "| manual",
+          // NEW: calc-size
+          // https://github.com/stylelint/stylelint/issues/8320
+          // I can't extend the length type, only each property
+          height: "| <calc-size()>",
+          width: "| <calc-size()>",
+          // csstree bugs?
+          "-webkit-mask-repeat-x": "[ repeat | no-repeat | space | round ]#",
+          "-webkit-mask-repeat-y": "[ repeat | no-repeat | space | round ]#",
+          "-webkit-text-stroke-width": "| thin | medium | thick",
+          "mix-blend-mode": "| plus-darker",
+        },
+        types: {
+          // LEGACY
+          "image": "| <-moz-element()> | <-moz-image-rect()>",
+          "-moz-element()": "-moz-element( <id-selector> )",
+          "-moz-image-rect()":
+            "-moz-image-rect( <url> , [ <integer> | <percentage> ]#{4} )",
+          // NEW: anchor positioning
+          "anchor()":
+            "anchor( <anchor-name>? && <anchor-side> , <length-percentage>? )",
+          "anchor-size()":
+            "anchor-size( [ <anchor-name> || <anchor-size> ]? , <length-percentage>? )",
+          "anchor-name": "<dashed-ident>",
+          "anchor-side":
+            "inside | outside | top | left | right | bottom | start | end | self-start | self-end | <percentage> | center",
+          "anchor-size":
+            "width | height | block | inline | self-block | self-inline",
+          // NEW: calc-size
+          // https://github.com/stylelint/stylelint/issues/8320
+          "calc-size()": "calc-size( <calc-size-basis> , <calc-sum> )",
+          "calc-size-basis":
+            "<size-keyword> | <calc-size()> | any | <calc-sum>",
+          length: "| <calc-size()> | <anchor-size()>",
+          // should suffice to accept all valid values
+          "size-keyword":
+            "auto | fit-content | min-content | max-content | fill-available | stretch",
+          // NEW
+          "color()":
+            "color( [ from <color> ]? <colorspace-params> [ / [ <alpha-value> | none ] ]? )",
+          // https://github.com/stylelint/stylelint/issues/8379
+          "easing-function": "| <linear-easing-function>",
+          "linear-easing-function": "linear | <linear()>",
+          "linear()": "linear( [ <number> && <percentage>{0,2} ]# )",
         },
       },
     },
@@ -69,21 +145,9 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
         true,
         {
           ignoreProperties: {
-            "text-justify": ["distribute"], // TODO: remove
-            // NEW
-            "/^(align-self|justify-self)$": ["anchor-center"],
-            appearance: ["base-select"],
-            "/^(left|top|right|bottom)$/": ["<anchor()>"],
-            "/^(width|height)$/": ["<calc-size()>"],
-            "alignment-baseline": ["text-bottom", "text-top"],
-            "background-clip": ["border-area"],
-            "container-type": ["scroll-state"],
-            "grid-template-rows": ["masonry"],
-            "grid-template-columns": ["masonry"],
-            "margin-trim": ["inline-end", "inline-start"],
-            "mix-blend-mode": ["plus-darker"],
-            "text-transform": ["math-auto"],
-            "word-break": ["manual"],
+            // NEW: calc-size
+            // https://github.com/stylelint/stylelint/issues/8320
+            "/^(width|height)$/": ["size"],
           },
         },
       ],
@@ -129,10 +193,11 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
         true,
         {
           ignorePseudoElements: [
-            // NEW
+            // NEW: customizable select
             "picker",
             "picker-icon",
             "checkmark",
+            // NEW: CSS carousel
             "column",
             "scroll-button",
             "scroll-marker",
@@ -172,7 +237,7 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
       {
         files: [
           "Web/API/WebVTT_API/**",
-          "Media/Guides/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video/*",
+          "Web/Media/Guides/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video/*",
         ],
         rules: {
           "selector-type-no-unknown": [true, { ignoreTypes: ["c", "v"] }],
@@ -205,13 +270,35 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
         rules: { "keyframe-declaration-no-important": null },
       },
       {
-        files: [
-          "Web/CSS/@media/scan/*",
-          "Web/CSS/@media/-moz-device-pixel-ratio/*",
-          "Web/CSS/@media/device-posture/*",
-          "Web/CSS/@media/shape/*",
-        ],
+        files: ["Web/CSS/@media/-moz-device-pixel-ratio/*"],
+        rules: {
+          "media-feature-name-no-unknown": [
+            true,
+            { ignoreMediaFeatureNames: ["min--moz-device-pixel-ratio"] },
+          ],
+        },
+      },
+      {
+        files: ["Web/CSS/@media/device-posture/*"],
+        rules: {
+          "media-feature-name-no-unknown": [
+            true,
+            { ignoreMediaFeatureNames: ["device-posture"] },
+          ],
+        },
+      },
+      {
+        files: ["Web/CSS/@media/scan/*"],
         rules: { "media-feature-name-value-no-unknown": null },
+      },
+      {
+        files: ["Web/CSS/@media/shape/*"],
+        rules: {
+          "media-feature-name-no-unknown": [
+            true,
+            { ignoreMediaFeatureNames: ["shape"] },
+          ],
+        },
       },
       {
         files: ["Web/CSS/:local-link/*"],
@@ -223,17 +310,21 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
         },
       },
       {
-        files: ["Web/CSS/::scroll-button/*"],
+        files: [
+          "Web/CSS/::scroll-button/*",
+          "Web/CSS/CSS_overflow/CSS_carousels/*",
+        ],
         rules: {
           "selector-type-no-unknown": [
             true,
-            // NEW
+            // NEW: CSS carousel
+            // These are parameters of ::scroll-button; is there no better way to configure this??
             { ignoreTypes: ["left", "right"] },
           ],
         },
       },
       {
-        files: ["Web/CSS/box-orient/*", "Web/CSS/box-pack/*"],
+        files: ["Web/CSS/box-align/*", "Web/CSS/box-flex/*", "Web/CSS/box-orient/*", "Web/CSS/box-pack/*"],
         rules: {
           "declaration-block-no-duplicate-properties": [
             true,

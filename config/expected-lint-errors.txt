@@ -1481,6 +1481,7 @@ alert(global === window.global); // displays "true"
 ~~~
 
 /en-US/docs/Web/CSS/:autofill
+[declaration-property-value-no-unknown] Unexpected unknown value "-internal-light-dark(black, white)" for property "color" (declaration-property-value-no-unknown)
 [function-no-unknown] Unexpected unknown function "-internal-light-dark" (function-no-unknown)
 ~~~
 background-color: rgb(232 240 254) !important;

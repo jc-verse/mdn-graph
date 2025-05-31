@@ -22,12 +22,18 @@ export default async function processWarnings(fast: boolean = false) {
   const { default: nodes } = await import("../../data/nodes.json", {
     with: { type: "json" },
   });
-  const { default: lintWarnings } = await import(
-    "../../data/lint.json",
-    { with: { type: "json" } }
+  const { default: lintWarnings } = await import("../../data/lint.json", {
+    with: { type: "json" },
+  });
+  const nodeToSlug = new Map(
+    nodes.map((x) => [x.data.metadata.source.folder, x.id]),
   );
-  for (const [nodeId, arr] of Object.entries(lintWarnings)) {
-    (warnings[nodeId] ??= []).push(...arr);
+  const slugToNode = new Map(
+    nodes.map((x) => [x.id, x.data.metadata.source.folder]),
+  );
+
+  for (const [path, arr] of Object.entries(lintWarnings)) {
+    (warnings[slugToNode.get(path)] ??= []).push(...arr);
   }
 
   const missingFeatures = new Set(
@@ -156,10 +162,6 @@ export default async function processWarnings(fast: boolean = false) {
   );
 
   const tree = { children: {}, slug: "" };
-
-  const nodeToSlug = new Map(
-    nodes.map((x) => [x.data.metadata.source.folder, x.id]),
-  );
 
   for (const [nodeId, baseMessages] of warningList) {
     const messages = baseMessages.filter(
