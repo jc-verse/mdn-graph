@@ -2,6 +2,7 @@ import createContentGraph from "./src/server/create-graph.ts";
 import processWarnings from "./src/server/process-warnings.ts";
 import checkCode from "./src/server/lint.ts";
 
+const dataOnly = Bun.argv.includes("--data-only");
 const bundleOnly = Bun.argv.includes("--bundle-only");
 const buildGraph = Bun.argv.includes("graph");
 const buildLint = Bun.argv.includes("lint");
@@ -23,15 +24,17 @@ if (!bundleOnly) {
   }
 }
 
-await Bun.build({
-  entrypoints: [
-    buildGraph && "./src/client/index.ts",
-    (buildWarnings || buildWarningsFast) && "./src/client/warnings.ts",
-    buildExternalLinks && "./src/client/external-links.ts",
-  ].filter(Boolean) as string[],
-  outdir: "./docs",
-  splitting: true,
-});
+if (!dataOnly) {
+  await Bun.build({
+    entrypoints: [
+      buildGraph && "./src/client/index.ts",
+      (buildWarnings || buildWarningsFast) && "./src/client/warnings.ts",
+      buildExternalLinks && "./src/client/external-links.ts",
+    ].filter(Boolean) as string[],
+    outdir: "./docs",
+    splitting: true,
+  });
+}
 
 // TODO: not sure why I need this
 process.exit(0);

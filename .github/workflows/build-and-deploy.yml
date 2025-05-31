@@ -50,10 +50,22 @@ jobs:
         working-directory: ./content
 
       - name: Build MDN graph
-        run: bun build.ts graph lint warnings external-links
+        run: bun build.ts graph --data-only
         working-directory: ./mdn-graph
         env:
           BUILT_CONTENT_ROOT: ../content/build
+
+      - name: Lint
+        run: bun build.ts lint --data-only
+        working-directory: ./mdn-graph
+
+      - name: Collect warnings
+        run: bun build.ts warnings --data-only
+        working-directory: ./mdn-graph
+
+      - name: Build site
+        run: bun build.ts graph warnings external-links --bundle-only
+        working-directory: ./mdn-graph
 
       - name: Determine commit message
         id: commit-message
