@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-xtc1mvh3.js";
+} from "./chunk-vvc15e02.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -1345,28 +1345,8 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://phabricator.wikimedia.org/T241180",
-                            "429 Retry-After: 1000"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://new.drupal.org/",
                             403
-                          ]
-                        }
-                      ]
-                    },
-                    react_resources: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_resources",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2020/01/introduction-react-context-api/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -1538,6 +1518,131 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "," for property "clip-path" (declaration-property-value-no-unknown)',
+                            "    clip-path: rect(1px, 1px, 1px, 1px);",
+                            "58:24 - 58:25",
+                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_styling
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "clip-path" (declaration-property-value-no-unknown)
+~~~
+<style>
+  /* Global styles */
+  .btn {
+    padding: 0.8rem 1rem 0.7rem;
+    border: 0.2rem solid #4d4d4d;
+    cursor: pointer;
+    text-transform: capitalize;
+  }
+  .btn__danger {
+    color: #fff;
+    background-color: #ca3c3c;
+    border-color: #bd2130;
+  }
+  .btn__filter {
+    border-color: lightgrey;
+  }
+  .btn__danger:focus {
+    outline-color: #c82333;
+  }
+  .btn__primary {
+    color: #fff;
+    background-color: #000;
+  }
+  .btn-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  .btn-group > * {
+    flex: 1 1 auto;
+  }
+  .btn-group > * + * {
+    margin-left: 0.8rem;
+  }
+  .label-wrapper {
+    margin: 0;
+    flex: 0 0 100%;
+    text-align: center;
+  }
+  [class*="__lg"] {
+    display: inline-block;
+    width: 100%;
+    font-size: 1.9rem;
+  }
+  [class*="__lg"]:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+  @media screen and (min-width: 620px) {
+    [class*="__lg"] {
+      font-size: 2.4rem;
+    }
+  }
+  .visually-hidden {
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap;
+  }
+  [class*="stack"] > * {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .stack-small > * + * {
+    margin-top: 1.25rem;
+  }
+  .stack-large > * + * {
+    margin-top: 2.5rem;
+  }
+  @media screen and (min-width: 550px) {
+    .stack-small > * + * {
+      margin-top: 1.4rem;
+    }
+    .stack-large > * + * {
+      margin-top: 2.8rem;
+    }
+  }
+  /* End global styles */
+  #app {
+    background: #fff;
+    margin: 2rem 0 4rem 0;
+    padding: 1rem;
+    padding-top: 0;
+    position: relative;
+    box-shadow:
+      0 2px 4px 0 rgb(0 0 0 / 20%),
+      0 2.5rem 5rem 0 rgb(0 0 0 / 10%);
+  }
+  @media screen and (min-width: 550px) {
+    #app {
+      padding: 4rem;
+    }
+  }
+  #app > * {
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #app > form {
+    max-width: 100%;
+  }
+  #app h1 {
+    display: block;
+    min-width: 100%;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+</style>
+~~~
+`
+                          ]
                         }
                       ]
                     }
@@ -1590,6 +1695,19 @@ var warnings_processed_default = {
                         }
                       ]
                     },
+                    html_images: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
                     html_video_and_audio: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_video_and_audio",
@@ -1610,6 +1728,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "HTTP link",
+                          data: [
+                            "http://tavmjong.free.fr/INKSCAPE/MANUAL/html/Web-Inkscape.html",
+                            ""
+                          ]
                         }
                       ]
                     }
@@ -1781,6 +1906,29 @@ var warnings_processed_default = {
                           data: []
                         }
                       ]
+                    },
+                    your_first_form: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Your_first_form",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word … (CssSyntaxError)",
+                            "  …",
+                            "2:3 - 2:4",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Your_first_form
+[CssSyntaxError] Unknown word … (CssSyntaxError)
+~~~
+<style>
+  …
+</style>
+~~~
+`
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Learn_web_development/Extensions/Forms",
@@ -1881,35 +2029,14 @@ var warnings_processed_default = {
                           message: "Broken external link",
                           data: [
                             "https://www.virtualbox.org/wiki/Downloads",
-                            "The operation timed out."
+                            502
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
                             "https://www.virtualbox.org/wiki/Downloads",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                }
-              }
-            },
-            getting_started: {
-              children: {
-                soft_skills: {
-                  children: {
-                    finding_a_job: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Finding_a_job",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.upwork.com/",
-                            403
+                            502
                           ]
                         }
                       ]
@@ -1990,6 +2117,28 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    css_faq: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/CSS_FAQ",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "property-no-unknown",
+                            'Unexpected unknown property "text-stroke" (property-no-unknown)',
+                            "text-stroke: 4px navy;",
+                            "2:1 - 2:12",
+                            `/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/CSS_FAQ
+[property-no-unknown] Unexpected unknown property "text-stroke" (property-no-unknown)
+~~~
+-webkit-text-stroke: 4px navy;
+text-stroke: 4px navy;
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -2103,6 +2252,26 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    how_do_you_host_your_website_on_google_app_engine: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gaesamplesite.appspot.com/downloads.html",
+                            503
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gaesamplesite.appspot.com/",
+                            503
+                          ]
                         }
                       ]
                     }
@@ -2299,6 +2468,45 @@ var warnings_processed_default = {
                           ]
                         }
                       }
+                    },
+                    page_types: {
+                      children: {
+                        css_function_page_template: {
+                          children: {},
+                          slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/CSS_function_page_template",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "CssSyntaxError",
+                                "Unknown word var (CssSyntaxError)",
+                                "var(--custom-prop)",
+                                "3:1 - 3:4",
+                                `/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/CSS_function_page_template
+[CssSyntaxError] Unknown word var (CssSyntaxError)
+~~~
+/* Without a fallback */
+/* var( <custom-property-name> ) */
+var(--custom-prop)
+
+/* With an empty fallback */
+/* var( <custom-property-name> , ) */
+var(--custom-prop,)
+
+/* With a fallback value */
+/* var( <custom-property-name> , <declaration-value> ) */
+var(--custom-prop, initial)
+var(--custom-prop, #FF0000)
+var(--my-background, linear-gradient(transparent, aqua), pink)
+var(--custom-prop, var(--default-value))
+var(--custom-prop, var(--default-value, red))
+~~~
+`
+                              ]
+                            }
+                          ]
+                        }
+                      }
                     }
                   }
                 }
@@ -2407,17 +2615,17 @@ var warnings_processed_default = {
                                       data: []
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "Cannot reach server and Bun hangs"
                                       ]
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "Cannot reach server and Bun hangs"
                                       ]
                                     }
                                   ]
@@ -2441,17 +2649,17 @@ var warnings_processed_default = {
                                       data: []
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "Cannot reach server and Bun hangs"
                                       ]
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "Cannot reach server and Bun hangs"
                                       ]
                                     }
                                   ]
@@ -2460,10 +2668,10 @@ var warnings_processed_default = {
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
                               messages: [
                                 {
-                                  message: "HTTP link",
+                                  message: "Broken external link",
                                   data: [
                                     "http://www.softwareishard.com/blog/har-12-spec/",
-                                    ""
+                                    "Cannot reach server and Bun hangs"
                                   ]
                                 }
                               ]
@@ -2691,63 +2899,6 @@ var warnings_processed_default = {
                                   ]
                                 }
                               }
-                            }
-                          }
-                        },
-                        history: {
-                          children: {
-                            addurl: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/history/addUrl",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://www.iso.org/iso-8601-date-and-time-format.html",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            deleterange: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/history/deleteRange",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://www.iso.org/iso-8601-date-and-time-format.html",
-                                    "The operation timed out."
-                                  ]
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://www.iso.org/iso-8601-date-and-time-format.html",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            search: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/history/search",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://www.iso.org/iso-8601-date-and-time-format.html",
-                                    "The operation timed out."
-                                  ]
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://www.iso.org/iso-8601-date-and-time-format.html",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
                             }
                           }
                         },
@@ -7777,6 +7928,62 @@ api.MessagePort`,
                     }
                   }
                 },
+                cssnesteddeclarations: {
+                  children: {
+                    style: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSSNestedDeclarations/style",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "media-feature-name-no-unknown",
+                            'Unexpected unknown media feature name "screen" (media-feature-name-no-unknown)',
+                            "  @media (screen) {",
+                            "3:11 - 3:17",
+                            `/en-US/docs/Web/API/CSSNestedDeclarations/style
+[media-feature-name-no-unknown] Unexpected unknown media feature name "screen" (media-feature-name-no-unknown)
+~~~
+.foo {
+  font-size: 1.2rem;
+  @media (screen) {
+    color: tomato;
+    background-color: darkgrey;
+  }
+  color: black;
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/CSSNestedDeclarations",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "media-feature-name-no-unknown",
+                        'Unexpected unknown media feature name "screen" (media-feature-name-no-unknown)',
+                        "  @media (screen) {",
+                        "3:11 - 3:17",
+                        `/en-US/docs/Web/API/CSSNestedDeclarations
+[media-feature-name-no-unknown] Unexpected unknown media feature name "screen" (media-feature-name-no-unknown)
+~~~
+.foo {
+  background-color: silver;
+  @media (screen) {
+    color: tomato;
+  }
+  color: black;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
                 csspropertyrule: {
                   children: {
                     initialvalue: {
@@ -7787,6 +7994,39 @@ api.MessagePort`,
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Web/CSS/declaration-value"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                cssstyledeclaration: {
+                  children: {
+                    getpropertyvalue: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSSStyleDeclaration/getPropertyValue",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "90" for property "color" (declaration-property-value-no-unknown)',
+                            "    color: hsl(250 90 50);",
+                            "3:20 - 3:22",
+                            `/en-US/docs/Web/API/CSSStyleDeclaration/getPropertyValue
+[declaration-property-value-no-unknown] Unexpected unknown value "90" for property "color" (declaration-property-value-no-unknown)
+~~~
+<style>
+  p#blueish {
+    color: hsl(250 90 50);
+  }
+</style>
+<script>
+  const declaration = document.styleSheets[0].cssRules[0].style;
+  const value = declaration.getPropertyValue("color");
+</script>
+~~~
+`
                           ]
                         }
                       ]
@@ -8129,6 +8369,35 @@ api.DeviceOrientationEvent`,
                           ]
                         }
                       ]
+                    },
+                    mozsetimageelement: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document/mozSetImageElement",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-no-invalid-hex",
+                            'Unexpected invalid hex color "#canvas" (color-no-invalid-hex)',
+                            "    background-image: -moz-element(#canvas-bg);",
+                            "3:36 - 3:43",
+                            `/en-US/docs/Web/API/Document/mozSetImageElement
+[color-no-invalid-hex] Unexpected invalid hex color "#canvas" (color-no-invalid-hex)
+~~~
+<style>
+  #my-box {
+    background-image: -moz-element(#canvas-bg);
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    cursor: pointer;
+  }
+</style>
+~~~
+`
+                          ]
+                        }
+                      ]
                     }
                   }
                 },
@@ -8335,17 +8604,76 @@ api.Document.fullscreen`,
                     }
                   ]
                 },
-                htmlelement: {
+                htmlimageelement: {
                   children: {
-                    focus: {
+                    crossorigin: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/HTMLElement/focus",
+                      slug: "/en-US/docs/Web/API/HTMLImageElement/crossOrigin",
                       messages: [
                         {
-                          message: "Broken external link",
+                          message: "CSS code issue",
                           data: [
-                            "https://blog.whatwg.org/focusing-on-focus",
-                            500
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "," for property "font" (declaration-property-value-no-unknown)',
+                            "    1.125rem/1.5,",
+                            "3:17 - 3:18",
+                            `/en-US/docs/Web/API/HTMLImageElement/crossOrigin
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "font" (declaration-property-value-no-unknown)
+~~~
+body {
+  font:
+    1.125rem/1.5,
+    Helvetica,
+    sans-serif;
+}
+
+.container {
+  display: flow-root;
+  width: 37.5em;
+  border: 1px solid #d2d2d2;
+}
+
+img {
+  float: left;
+  padding-right: 1.5em;
+}
+
+output {
+  background: rgb(100 100 100 / 100%);
+  font-family: Courier, monospace;
+  width: 95%;
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                htmllinkelement: {
+                  children: {
+                    hreflang: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLLinkElement/hreflang",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "" for property "font" (declaration-property-value-no-unknown)',
+                            "  font: bold;",
+                            "3:13 - 3:14",
+                            `/en-US/docs/Web/API/HTMLLinkElement/hreflang
+[declaration-property-value-no-unknown] Unexpected unknown value "" for property "font" (declaration-property-value-no-unknown)
+~~~
+.tag {
+  margin-left: 20px;
+  font: bold;
+  font-size: 24px;
+}
+~~~
+`
                           ]
                         }
                       ]
@@ -9002,53 +9330,6 @@ function checkDeadlines() {
                           message: "Not in BCD",
                           data: [
                             "api.PaymentRequestEvent.instrumentKey"
-                          ]
-                        }
-                      ]
-                    },
-                    total: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PaymentRequestEvent/total",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iso.org/iso-4217-currency-codes.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                paymentrequest: {
-                  children: {
-                    show: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PaymentRequest/show",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iso.org/iso-4217-currency-codes.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                paymentrequestupdateevent: {
-                  children: {
-                    updatewith: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PaymentRequestUpdateEvent/updateWith",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iso.org/iso-4217-currency-codes.html",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -10133,6 +10414,13 @@ async function handleTranslation(e) {
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/Rumyra/pen/oPxvYB/"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.dspguide.com/CH20.PDF",
+                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -11587,6 +11875,24 @@ function displayPoseStats(pose) {
                   slug: "/en-US/docs/Web/CSS/:-moz-loading",
                   messages: [
                     {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "center" for property "background-image" (declaration-property-value-no-unknown)',
+                        "  background-image: url(loading-animation.gif) center no-repeat;",
+                        "3:48 - 3:54",
+                        `/en-US/docs/Web/CSS/:-moz-loading
+[declaration-property-value-no-unknown] Unexpected unknown value "center" for property "background-image" (declaration-property-value-no-unknown)
+~~~
+:-moz-loading {
+  background-color: #aaa;
+  background-image: url(loading-animation.gif) center no-repeat;
+}
+~~~
+`
+                      ]
+                    },
+                    {
                       message: "Not in BCD",
                       data: [
                         "css.selectors.-moz-loading"
@@ -11746,6 +12052,23 @@ function displayPoseStats(pose) {
                     {
                       message: "Missing syntax code block",
                       data: []
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "selector-type-no-unknown",
+                        'Unexpected unknown type selector "<forgiving-selector-list" (selector-type-no-unknown)',
+                        ":is(<forgiving-selector-list>) {",
+                        "1:5 - 1:29",
+                        `/en-US/docs/Web/CSS/:is
+[selector-type-no-unknown] Unexpected unknown type selector "<forgiving-selector-list" (selector-type-no-unknown)
+~~~
+:is(<forgiving-selector-list>) {
+  /* ... */
+}
+~~~
+`
+                      ]
                     }
                   ]
                 },
@@ -11787,6 +12110,23 @@ function displayPoseStats(pose) {
                     {
                       message: "Missing syntax code block",
                       data: []
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "selector-type-no-unknown",
+                        'Unexpected unknown type selector "<complex-selector-list" (selector-type-no-unknown)',
+                        ":not(<complex-selector-list>) {",
+                        "1:6 - 1:28",
+                        `/en-US/docs/Web/CSS/:not
+[selector-type-no-unknown] Unexpected unknown type selector "<complex-selector-list" (selector-type-no-unknown)
+~~~
+:not(<complex-selector-list>) {
+  /* ... */
+}
+~~~
+`
+                      ]
                     }
                   ]
                 },
@@ -11868,6 +12208,23 @@ function displayPoseStats(pose) {
                     {
                       message: "Missing syntax code block",
                       data: []
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "selector-type-no-unknown",
+                        'Unexpected unknown type selector "<complex-selector-list" (selector-type-no-unknown)',
+                        ":where(<complex-selector-list>) {",
+                        "1:8 - 1:30",
+                        `/en-US/docs/Web/CSS/:where
+[selector-type-no-unknown] Unexpected unknown type selector "<complex-selector-list" (selector-type-no-unknown)
+~~~
+:where(<complex-selector-list>) {
+  /* ... */
+}
+~~~
+`
+                      ]
                     }
                   ]
                 },
@@ -11924,6 +12281,77 @@ css.selectors.-webkit-scrollbar-corner
 css.selectors.-webkit-resizer`,
                         "Expected:",
                         "css.selectors.-webkit-scrollbar"
+                      ]
+                    }
+                  ]
+                },
+                _doublecolon_backdrop: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/::backdrop",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "0" for property "background-image" (declaration-property-value-no-unknown)',
+                        "      #272b66 0 50grad,",
+                        "11:15 - 11:16",
+                        `/en-US/docs/Web/CSS/::backdrop
+[declaration-property-value-no-unknown] Unexpected unknown value "0" for property "background-image" (declaration-property-value-no-unknown)
+~~~
+::backdrop {
+  background-image:
+    radial-gradient(
+      circle,
+      #fff 0 5vw,
+      transparent 5vw 20vw,
+      #fff 20vw 22.5vw,
+      #eee 22.5vw
+    ),
+    conic-gradient(
+      #272b66 0 50grad,
+      #2d559f 50grad 100grad,
+      #9ac147 100grad 150grad,
+      #639b47 150grad 200grad,
+      #e1e23b 200grad 250grad,
+      #f7941e 250grad 300grad,
+      #662a6c 300grad 350grad,
+      #9a1d34 350grad 400grad,
+      #43a1cd 100grad 150grad,
+      #ba3e2e
+    );
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                _doublecolon_picker: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/::picker",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "anchor-size(self-inline)" for property "min-inline-size" (declaration-property-value-no-unknown)',
+                        "min-inline-size: anchor-size(self-inline);",
+                        "3:18 - 3:42",
+                        `/en-US/docs/Web/CSS/::picker
+[declaration-property-value-no-unknown] Unexpected unknown value "anchor-size(self-inline)" for property "min-inline-size" (declaration-property-value-no-unknown)
+~~~
+inset: auto;
+margin: 0;
+min-inline-size: anchor-size(self-inline);
+min-block-size: 1lh;
+/* Go to the edge of the viewport, and add scrollbars if needed. */
+max-block-size: stretch;
+overflow: auto;
+/* Below and span-right, by default. */
+position-area: block-end span-inline-end;
+~~~
+`
                       ]
                     }
                   ]
@@ -12020,6 +12448,29 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
+                "-webkit-mask-box-image": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/-webkit-mask-box-image",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "100" for property "-webkit-mask-box-image" (declaration-property-value-no-unknown)',
+                        '  -webkit-mask-box-image: url("logo.png") 100 100 0 0 round round;',
+                        "2:43 - 2:46",
+                        `/en-US/docs/Web/CSS/-webkit-mask-box-image
+[declaration-property-value-no-unknown] Unexpected unknown value "100" for property "-webkit-mask-box-image" (declaration-property-value-no-unknown)
+~~~
+.example-two {
+  -webkit-mask-box-image: url("logo.png") 100 100 0 0 round round;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
                 "-webkit-text-stroke": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/-webkit-text-stroke",
@@ -12034,6 +12485,26 @@ css.selectors.-webkit-resizer`,
                   children: {},
                   slug: "/en-US/docs/Web/CSS/@color-profile",
                   messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "--swop5c" for property "background-color" (declaration-property-value-no-unknown)',
+                        "  background-color: color(--swop5c 0% 70% 20% 0%);",
+                        "5:27 - 5:35",
+                        `/en-US/docs/Web/CSS/@color-profile
+[declaration-property-value-no-unknown] Unexpected unknown value "--swop5c" for property "background-color" (declaration-property-value-no-unknown)
+~~~
+@color-profile --swop5c {
+  src: url("https://example.org/SWOP2006_Coated5v2.icc");
+}
+.header {
+  background-color: color(--swop5c 0% 70% 20% 0%);
+}
+~~~
+`
+                      ]
+                    },
                     {
                       message: "Not in BCD",
                       data: [
@@ -12979,6 +13450,57 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "media-feature-name-no-unknown",
+                            'Unexpected unknown media feature name "none" (media-feature-name-no-unknown)',
+                            "@media (update: < none | slow | fast >) {",
+                            "1:19 - 1:23",
+                            `/en-US/docs/Web/CSS/@media/update
+[media-feature-name-no-unknown] Unexpected unknown media feature name "none" (media-feature-name-no-unknown)
+~~~
+@media (update: < none | slow | fast >) {
+  /* styles to apply if the update frequency of the output device is a match */
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "media-feature-name-no-unknown",
+                            'Unexpected unknown media feature name "fast" (media-feature-name-no-unknown)',
+                            "@media (update: < none | slow | fast >) {",
+                            "1:33 - 1:37",
+                            `/en-US/docs/Web/CSS/@media/update
+[media-feature-name-no-unknown] Unexpected unknown media feature name "fast" (media-feature-name-no-unknown)
+~~~
+@media (update: < none | slow | fast >) {
+  /* styles to apply if the update frequency of the output device is a match */
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "media-query-no-invalid",
+                            'Unexpected invalid media query "(update: < none | slow | fast >)" (media-query-no-invalid)',
+                            "@media (update: < none | slow | fast >) {",
+                            "1:8 - 1:40",
+                            `/en-US/docs/Web/CSS/@media/update
+[media-query-no-invalid] Unexpected invalid media query "(update: < none | slow | fast >)" (media-query-no-invalid)
+~~~
+@media (update: < none | slow | fast >) {
+  /* styles to apply if the update frequency of the output device is a match */
+}
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -13090,6 +13612,27 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "CssSyntaxError",
+                        "Unknown word rulesets (CssSyntaxError)",
+                        "      rulesets",
+                        "3:7 - 3:15",
+                        `/en-US/docs/Web/CSS/@scope
+[CssSyntaxError] Unknown word rulesets (CssSyntaxError)
+~~~
+<parent-element>
+  <style>
+    @scope {
+      rulesets
+    }
+  </style>
+</parent-element>
+~~~
+`
+                      ]
                     }
                   ]
                 },
@@ -13113,6 +13656,222 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
+                acos: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/acos",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "acos(1)" for property "transform" (declaration-property-value-no-unknown)',
+                        "  transform: rotate(acos(1));",
+                        "15:21 - 15:28",
+                        `/en-US/docs/Web/CSS/acos
+[declaration-property-value-no-unknown] Unexpected unknown value "acos(1)" for property "transform" (declaration-property-value-no-unknown)
+~~~
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+div.box {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(orange, red);
+}
+div.box-1 {
+  transform: rotate(acos(1));
+}
+div.box-2 {
+  transform: rotate(acos(0.5));
+}
+div.box-3 {
+  transform: rotate(acos(0));
+}
+div.box-4 {
+  transform: rotate(acos(-0.5));
+}
+div.box-5 {
+  transform: rotate(acos(-1));
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "acos(0.5)" for property "transform" (declaration-property-value-no-unknown)',
+                        "  transform: rotate(acos(0.5));",
+                        "18:21 - 18:30",
+                        `/en-US/docs/Web/CSS/acos
+[declaration-property-value-no-unknown] Unexpected unknown value "acos(0.5)" for property "transform" (declaration-property-value-no-unknown)
+~~~
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+div.box {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(orange, red);
+}
+div.box-1 {
+  transform: rotate(acos(1));
+}
+div.box-2 {
+  transform: rotate(acos(0.5));
+}
+div.box-3 {
+  transform: rotate(acos(0));
+}
+div.box-4 {
+  transform: rotate(acos(-0.5));
+}
+div.box-5 {
+  transform: rotate(acos(-1));
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "acos(0)" for property "transform" (declaration-property-value-no-unknown)',
+                        "  transform: rotate(acos(0));",
+                        "21:21 - 21:28",
+                        `/en-US/docs/Web/CSS/acos
+[declaration-property-value-no-unknown] Unexpected unknown value "acos(0)" for property "transform" (declaration-property-value-no-unknown)
+~~~
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+div.box {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(orange, red);
+}
+div.box-1 {
+  transform: rotate(acos(1));
+}
+div.box-2 {
+  transform: rotate(acos(0.5));
+}
+div.box-3 {
+  transform: rotate(acos(0));
+}
+div.box-4 {
+  transform: rotate(acos(-0.5));
+}
+div.box-5 {
+  transform: rotate(acos(-1));
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "acos(-0.5)" for property "transform" (declaration-property-value-no-unknown)',
+                        "  transform: rotate(acos(-0.5));",
+                        "24:21 - 24:31",
+                        `/en-US/docs/Web/CSS/acos
+[declaration-property-value-no-unknown] Unexpected unknown value "acos(-0.5)" for property "transform" (declaration-property-value-no-unknown)
+~~~
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+div.box {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(orange, red);
+}
+div.box-1 {
+  transform: rotate(acos(1));
+}
+div.box-2 {
+  transform: rotate(acos(0.5));
+}
+div.box-3 {
+  transform: rotate(acos(0));
+}
+div.box-4 {
+  transform: rotate(acos(-0.5));
+}
+div.box-5 {
+  transform: rotate(acos(-1));
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "acos(-1)" for property "transform" (declaration-property-value-no-unknown)',
+                        "  transform: rotate(acos(-1));",
+                        "27:21 - 27:29",
+                        `/en-US/docs/Web/CSS/acos
+[declaration-property-value-no-unknown] Unexpected unknown value "acos(-1)" for property "transform" (declaration-property-value-no-unknown)
+~~~
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+div.box {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(orange, red);
+}
+div.box-1 {
+  transform: rotate(acos(1));
+}
+div.box-2 {
+  transform: rotate(acos(0.5));
+}
+div.box-3 {
+  transform: rotate(acos(0));
+}
+div.box-4 {
+  transform: rotate(acos(-0.5));
+}
+div.box-5 {
+  transform: rotate(acos(-1));
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
                 "alpha-value": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/alpha-value",
@@ -13120,6 +13879,90 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
+                    }
+                  ]
+                },
+                "anchor-size": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/anchor-size",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "anchor-size(width)" for property "width" (declaration-property-value-no-unknown)',
+                        "  width: anchor-size(width);",
+                        "2:10 - 2:28",
+                        `/en-US/docs/Web/CSS/anchor-size
+[declaration-property-value-no-unknown] Unexpected unknown value "anchor-size(width)" for property "width" (declaration-property-value-no-unknown)
+~~~
+.positionedElem {
+  width: anchor-size(width);
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "anchor-size(height)" for property "height" (declaration-property-value-no-unknown)',
+                        "  height: anchor-size(height);",
+                        "38:11 - 38:30",
+                        `/en-US/docs/Web/CSS/anchor-size
+[declaration-property-value-no-unknown] Unexpected unknown value "anchor-size(height)" for property "height" (declaration-property-value-no-unknown)
+~~~
+.anchor {
+  font-size: 2rem;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  background-color: hsl(240 100% 75%);
+  text-align: center;
+  align-content: center;
+  outline: 1px solid black;
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.infobox {
+  align-content: center;
+  color: darkblue;
+  background-color: azure;
+  outline: 1px solid #ddd;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.anchor {
+  anchor-name: --myAnchor;
+  width: 100px;
+  height: 100px;
+}
+
+.infobox {
+  position-anchor: --myAnchor;
+  position: fixed;
+}
+
+#infobox1 {
+  position-area: right;
+  height: anchor-size(height);
+  width: calc(anchor-size(width) * 2);
+  margin-left: 5px;
+}
+
+#infobox2 {
+  position-area: top span-right;
+  height: calc(anchor-size(height) / 1.5);
+  margin-bottom: 5px;
+}
+~~~
+`
+                      ]
                     }
                   ]
                 },
@@ -13143,15 +13986,916 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                "aspect-ratio": {
+                asin: {
                   children: {},
-                  slug: "/en-US/docs/Web/CSS/aspect-ratio",
+                  slug: "/en-US/docs/Web/CSS/asin",
                   messages: [
                     {
-                      message: "Broken external link",
+                      message: "CSS code issue",
                       data: [
-                        "https://www.smashingmagazine.com/2019/03/aspect-ratio-unit-css/",
-                        "The operation timed out."
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "asin(1)" for property "transform" (declaration-property-value-no-unknown)',
+                        "  transform: rotate(asin(1));",
+                        "15:21 - 15:28",
+                        `/en-US/docs/Web/CSS/asin
+[declaration-property-value-no-unknown] Unexpected unknown value "asin(1)" for property "transform" (declaration-property-value-no-unknown)
+~~~
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+div.box {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(orange, red);
+}
+div.box-1 {
+  transform: rotate(asin(1));
+}
+div.box-2 {
+  transform: rotate(asin(0.5));
+}
+div.box-3 {
+  transform: rotate(asin(0));
+}
+div.box-4 {
+  transform: rotate(asin(-0.5));
+}
+div.box-5 {
+  transform: rotate(asin(-1));
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "asin(0.5)" for property "transform" (declaration-property-value-no-unknown)',
+                        "  transform: rotate(asin(0.5));",
+                        "18:21 - 18:30",
+                        `/en-US/docs/Web/CSS/asin
+[declaration-property-value-no-unknown] Unexpected unknown value "asin(0.5)" for property "transform" (declaration-property-value-no-unknown)
+~~~
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+div.box {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(orange, red);
+}
+div.box-1 {
+  transform: rotate(asin(1));
+}
+div.box-2 {
+  transform: rotate(asin(0.5));
+}
+div.box-3 {
+  transform: rotate(asin(0));
+}
+div.box-4 {
+  transform: rotate(asin(-0.5));
+}
+div.box-5 {
+  transform: rotate(asin(-1));
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "asin(0)" for property "transform" (declaration-property-value-no-unknown)',
+                        "  transform: rotate(asin(0));",
+                        "21:21 - 21:28",
+                        `/en-US/docs/Web/CSS/asin
+[declaration-property-value-no-unknown] Unexpected unknown value "asin(0)" for property "transform" (declaration-property-value-no-unknown)
+~~~
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+div.box {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(orange, red);
+}
+div.box-1 {
+  transform: rotate(asin(1));
+}
+div.box-2 {
+  transform: rotate(asin(0.5));
+}
+div.box-3 {
+  transform: rotate(asin(0));
+}
+div.box-4 {
+  transform: rotate(asin(-0.5));
+}
+div.box-5 {
+  transform: rotate(asin(-1));
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "asin(-0.5)" for property "transform" (declaration-property-value-no-unknown)',
+                        "  transform: rotate(asin(-0.5));",
+                        "24:21 - 24:31",
+                        `/en-US/docs/Web/CSS/asin
+[declaration-property-value-no-unknown] Unexpected unknown value "asin(-0.5)" for property "transform" (declaration-property-value-no-unknown)
+~~~
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+div.box {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(orange, red);
+}
+div.box-1 {
+  transform: rotate(asin(1));
+}
+div.box-2 {
+  transform: rotate(asin(0.5));
+}
+div.box-3 {
+  transform: rotate(asin(0));
+}
+div.box-4 {
+  transform: rotate(asin(-0.5));
+}
+div.box-5 {
+  transform: rotate(asin(-1));
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "asin(-1)" for property "transform" (declaration-property-value-no-unknown)',
+                        "  transform: rotate(asin(-1));",
+                        "27:21 - 27:29",
+                        `/en-US/docs/Web/CSS/asin
+[declaration-property-value-no-unknown] Unexpected unknown value "asin(-1)" for property "transform" (declaration-property-value-no-unknown)
+~~~
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+div.box {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(orange, red);
+}
+div.box-1 {
+  transform: rotate(asin(1));
+}
+div.box-2 {
+  transform: rotate(asin(0.5));
+}
+div.box-3 {
+  transform: rotate(asin(0));
+}
+div.box-4 {
+  transform: rotate(asin(-0.5));
+}
+div.box-5 {
+  transform: rotate(asin(-1));
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                atan: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/atan",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "atan(-99999)" for property "transform" (declaration-property-value-no-unknown)',
+                        "  transform: rotate(atan(-99999));",
+                        "15:21 - 15:33",
+                        `/en-US/docs/Web/CSS/atan
+[declaration-property-value-no-unknown] Unexpected unknown value "atan(-99999)" for property "transform" (declaration-property-value-no-unknown)
+~~~
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+div.box {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(orange, red);
+}
+div.box-1 {
+  transform: rotate(atan(-99999));
+}
+div.box-2 {
+  transform: rotate(atan(-1));
+}
+div.box-3 {
+  transform: rotate(atan(0));
+}
+div.box-4 {
+  transform: rotate(atan(1));
+}
+div.box-5 {
+  transform: rotate(atan(99999));
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "atan(-1)" for property "transform" (declaration-property-value-no-unknown)',
+                        "  transform: rotate(atan(-1));",
+                        "18:21 - 18:29",
+                        `/en-US/docs/Web/CSS/atan
+[declaration-property-value-no-unknown] Unexpected unknown value "atan(-1)" for property "transform" (declaration-property-value-no-unknown)
+~~~
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+div.box {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(orange, red);
+}
+div.box-1 {
+  transform: rotate(atan(-99999));
+}
+div.box-2 {
+  transform: rotate(atan(-1));
+}
+div.box-3 {
+  transform: rotate(atan(0));
+}
+div.box-4 {
+  transform: rotate(atan(1));
+}
+div.box-5 {
+  transform: rotate(atan(99999));
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "atan(0)" for property "transform" (declaration-property-value-no-unknown)',
+                        "  transform: rotate(atan(0));",
+                        "21:21 - 21:28",
+                        `/en-US/docs/Web/CSS/atan
+[declaration-property-value-no-unknown] Unexpected unknown value "atan(0)" for property "transform" (declaration-property-value-no-unknown)
+~~~
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+div.box {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(orange, red);
+}
+div.box-1 {
+  transform: rotate(atan(-99999));
+}
+div.box-2 {
+  transform: rotate(atan(-1));
+}
+div.box-3 {
+  transform: rotate(atan(0));
+}
+div.box-4 {
+  transform: rotate(atan(1));
+}
+div.box-5 {
+  transform: rotate(atan(99999));
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "atan(1)" for property "transform" (declaration-property-value-no-unknown)',
+                        "  transform: rotate(atan(1));",
+                        "24:21 - 24:28",
+                        `/en-US/docs/Web/CSS/atan
+[declaration-property-value-no-unknown] Unexpected unknown value "atan(1)" for property "transform" (declaration-property-value-no-unknown)
+~~~
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+div.box {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(orange, red);
+}
+div.box-1 {
+  transform: rotate(atan(-99999));
+}
+div.box-2 {
+  transform: rotate(atan(-1));
+}
+div.box-3 {
+  transform: rotate(atan(0));
+}
+div.box-4 {
+  transform: rotate(atan(1));
+}
+div.box-5 {
+  transform: rotate(atan(99999));
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "atan(99999)" for property "transform" (declaration-property-value-no-unknown)',
+                        "  transform: rotate(atan(99999));",
+                        "27:21 - 27:32",
+                        `/en-US/docs/Web/CSS/atan
+[declaration-property-value-no-unknown] Unexpected unknown value "atan(99999)" for property "transform" (declaration-property-value-no-unknown)
+~~~
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+div.box {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(orange, red);
+}
+div.box-1 {
+  transform: rotate(atan(-99999));
+}
+div.box-2 {
+  transform: rotate(atan(-1));
+}
+div.box-3 {
+  transform: rotate(atan(0));
+}
+div.box-4 {
+  transform: rotate(atan(1));
+}
+div.box-5 {
+  transform: rotate(atan(99999));
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                atan2: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/atan2",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "atan2(3, 2)" for property "transform" (declaration-property-value-no-unknown)',
+                        "  transform: rotate(atan2(3, 2));",
+                        "15:21 - 15:32",
+                        `/en-US/docs/Web/CSS/atan2
+[declaration-property-value-no-unknown] Unexpected unknown value "atan2(3, 2)" for property "transform" (declaration-property-value-no-unknown)
+~~~
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+div.box {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(orange, red);
+}
+div.box-1 {
+  transform: rotate(atan2(3, 2));
+}
+div.box-2 {
+  transform: rotate(atan2(3%, -2%));
+}
+div.box-3 {
+  transform: rotate(atan2(-1, 0.5));
+}
+div.box-4 {
+  transform: rotate(atan2(1, 0.5));
+}
+div.box-5 {
+  transform: rotate(atan2(1rem, -0.5rem));
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "atan2(3%, -2%)" for property "transform" (declaration-property-value-no-unknown)',
+                        "  transform: rotate(atan2(3%, -2%));",
+                        "18:21 - 18:35",
+                        `/en-US/docs/Web/CSS/atan2
+[declaration-property-value-no-unknown] Unexpected unknown value "atan2(3%, -2%)" for property "transform" (declaration-property-value-no-unknown)
+~~~
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+div.box {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(orange, red);
+}
+div.box-1 {
+  transform: rotate(atan2(3, 2));
+}
+div.box-2 {
+  transform: rotate(atan2(3%, -2%));
+}
+div.box-3 {
+  transform: rotate(atan2(-1, 0.5));
+}
+div.box-4 {
+  transform: rotate(atan2(1, 0.5));
+}
+div.box-5 {
+  transform: rotate(atan2(1rem, -0.5rem));
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "atan2(-1, 0.5)" for property "transform" (declaration-property-value-no-unknown)',
+                        "  transform: rotate(atan2(-1, 0.5));",
+                        "21:21 - 21:35",
+                        `/en-US/docs/Web/CSS/atan2
+[declaration-property-value-no-unknown] Unexpected unknown value "atan2(-1, 0.5)" for property "transform" (declaration-property-value-no-unknown)
+~~~
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+div.box {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(orange, red);
+}
+div.box-1 {
+  transform: rotate(atan2(3, 2));
+}
+div.box-2 {
+  transform: rotate(atan2(3%, -2%));
+}
+div.box-3 {
+  transform: rotate(atan2(-1, 0.5));
+}
+div.box-4 {
+  transform: rotate(atan2(1, 0.5));
+}
+div.box-5 {
+  transform: rotate(atan2(1rem, -0.5rem));
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "atan2(1, 0.5)" for property "transform" (declaration-property-value-no-unknown)',
+                        "  transform: rotate(atan2(1, 0.5));",
+                        "24:21 - 24:34",
+                        `/en-US/docs/Web/CSS/atan2
+[declaration-property-value-no-unknown] Unexpected unknown value "atan2(1, 0.5)" for property "transform" (declaration-property-value-no-unknown)
+~~~
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+div.box {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(orange, red);
+}
+div.box-1 {
+  transform: rotate(atan2(3, 2));
+}
+div.box-2 {
+  transform: rotate(atan2(3%, -2%));
+}
+div.box-3 {
+  transform: rotate(atan2(-1, 0.5));
+}
+div.box-4 {
+  transform: rotate(atan2(1, 0.5));
+}
+div.box-5 {
+  transform: rotate(atan2(1rem, -0.5rem));
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "atan2(1rem, -0.5rem)" for property "transform" (declaration-property-value-no-unknown)',
+                        "  transform: rotate(atan2(1rem, -0.5rem));",
+                        "27:21 - 27:41",
+                        `/en-US/docs/Web/CSS/atan2
+[declaration-property-value-no-unknown] Unexpected unknown value "atan2(1rem, -0.5rem)" for property "transform" (declaration-property-value-no-unknown)
+~~~
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+div.box {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(orange, red);
+}
+div.box-1 {
+  transform: rotate(atan2(3, 2));
+}
+div.box-2 {
+  transform: rotate(atan2(3%, -2%));
+}
+div.box-3 {
+  transform: rotate(atan2(-1, 0.5));
+}
+div.box-4 {
+  transform: rotate(atan2(1, 0.5));
+}
+div.box-5 {
+  transform: rotate(atan2(1rem, -0.5rem));
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                attr: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/attr",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "CssSyntaxError",
+                        "Unknown word attr (CssSyntaxError)",
+                        'attr(data-name raw-string, "stranger")',
+                        "1:1 - 1:5",
+                        `/en-US/docs/Web/CSS/attr
+[CssSyntaxError] Unknown word attr (CssSyntaxError)
+~~~
+attr(data-name raw-string, "stranger")
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "CssSyntaxError",
+                        "Unknown word attr (CssSyntaxError)",
+                        "attr(id type(<custom-ident>), none)",
+                        "1:1 - 1:5",
+                        `/en-US/docs/Web/CSS/attr
+[CssSyntaxError] Unknown word attr (CssSyntaxError)
+~~~
+attr(id type(<custom-ident>), none)
+attr(data-count type(<number>), 0)
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "CssSyntaxError",
+                        "Unknown word attr (CssSyntaxError)",
+                        "attr(data-size type(<length> | <percentage>), 0px)",
+                        "1:1 - 1:5",
+                        `/en-US/docs/Web/CSS/attr
+[CssSyntaxError] Unknown word attr (CssSyntaxError)
+~~~
+attr(data-size type(<length> | <percentage>), 0px)
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "CssSyntaxError",
+                        "Unknown word attr (CssSyntaxError)",
+                        "attr(data-content type(*))",
+                        "1:1 - 1:5",
+                        `/en-US/docs/Web/CSS/attr
+[CssSyntaxError] Unknown word attr (CssSyntaxError)
+~~~
+attr(data-content type(*))
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "CssSyntaxError",
+                        "Unknown word attr (CssSyntaxError)",
+                        "attr(data-size rem)",
+                        "1:1 - 1:5",
+                        `/en-US/docs/Web/CSS/attr
+[CssSyntaxError] Unknown word attr (CssSyntaxError)
+~~~
+attr(data-size rem)
+attr(data-width px, inherit)
+attr(data-rotation deg)
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Cannot parse property value "url(attr(data-icon))" for property "background-image" (declaration-property-value-no-unknown)',
+                        "    background-image: url(attr(data-icon));",
+                        "3:23 - 3:43",
+                        `/en-US/docs/Web/CSS/attr
+[declaration-property-value-no-unknown] Cannot parse property value "url(attr(data-icon))" for property "background-image" (declaration-property-value-no-unknown)
+~~~
+<!-- This won't work! -->
+<span data-icon="https://example.org/icons/question-mark.svg">help</span>
+<style>
+  span[data-icon] {
+    background-image: url(attr(data-icon));
+  }
+</style>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "1px" for property "content" (declaration-property-value-no-unknown)',
+                        "  content: attr(text) 1px;",
+                        "5:23 - 5:26",
+                        `/en-US/docs/Web/CSS/attr
+[declaration-property-value-no-unknown] Unexpected unknown value "1px" for property "content" (declaration-property-value-no-unknown)
+~~~
+div::before {
+  content: attr(text) " World";
+}
+div::before {
+  content: attr(text) 1px;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Cannot parse property value "attr(data-background type(<color>), red)" for property "background-color" (declaration-property-value-no-unknown)',
+                        "  background-color: attr(data-background type(<color>), red);",
+                        "10:21 - 10:61",
+                        `/en-US/docs/Web/CSS/attr
+[declaration-property-value-no-unknown] Cannot parse property value "attr(data-background type(<color>), red)" for property "background-color" (declaration-property-value-no-unknown)
+~~~
+.background {
+  height: 100vh;
+}
+
+.background {
+  background-color: red;
+}
+
+.background[data-background] {
+  background-color: attr(data-background type(<color>), red);
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "attr(data-rotation deg, 1.5deg)" for property "rotate" (declaration-property-value-no-unknown)',
+                        "  rotate: attr(data-rotation deg, 1.5deg);",
+                        "17:11 - 17:42",
+                        `/en-US/docs/Web/CSS/attr
+[declaration-property-value-no-unknown] Unexpected unknown value "attr(data-rotation deg, 1.5deg)" for property "rotate" (declaration-property-value-no-unknown)
+~~~
+body {
+  min-height: 100svh;
+  display: grid;
+  place-content: center;
+  gap: 1em;
+}
+div {
+  margin: 0 auto;
+  border: 1px solid;
+  border-radius: 0.25em;
+  padding: 0.5em;
+}
+
+div {
+  width: fit-content;
+  transform-origin: 50% 50%;
+  rotate: attr(data-rotation deg, 1.5deg);
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Cannot parse property value "attr(id type(<custom-ident>), none)" for property "view-transition-name" (declaration-property-value-no-unknown)',
+                        "  view-transition-name: attr(id type(<custom-ident>), none);",
+                        "68:25 - 68:60",
+                        `/en-US/docs/Web/CSS/attr
+[declaration-property-value-no-unknown] Cannot parse property value "attr(id type(<custom-ident>), none)" for property "view-transition-name" (declaration-property-value-no-unknown)
+~~~
+.cards {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  padding: 1em;
+}
+
+:root {
+  view-transition-name: none;
+}
+::view-transition {
+  pointer-events: none;
+}
+
+@supports (x: attr(x type(*))) {
+  .warning {
+    display: none;
+  }
+}
+
+@layer layout {
+  .card {
+    border-radius: 0.25em;
+    width: 20vw;
+    max-width: 5em;
+    aspect-ratio: 1 / 1.6;
+    background: lightgrey;
+
+    display: grid;
+    place-content: center;
+    font-size: 2em;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    min-height: 100svh;
+    display: grid;
+    place-content: center;
+  }
+
+  button {
+    justify-self: center;
+  }
+}
+
+@layer warning {
+  .warning {
+    padding: 1em;
+    border: 1px solid #ccc;
+    background: rgba(255 255 205 / 0.8);
+    text-align: center;
+    order: -1;
+    margin: 1em;
+  }
+
+  .warning > :first-child {
+    margin-top: 0;
+  }
+  .warning > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+.card {
+  view-transition-name: attr(id type(<custom-ident>), none);
+  view-transition-class: card;
+}
+~~~
+`
                       ]
                     }
                   ]
@@ -13174,13 +14918,6 @@ css.selectors.-webkit-resizer`,
                       message: "Broken external link",
                       data: [
                         "https://drafts.fxtf.org/filter-effects-2/",
-                        "The operation timed out."
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/filter-effects-1/",
                         "The operation timed out."
                       ]
                     }
@@ -13208,17 +14945,447 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Missing syntax code block",
                           data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word path (CssSyntaxError)",
+                            "path(<string>)",
+                            "1:1 - 1:5",
+                            `/en-US/docs/Web/CSS/basic-shape/path
+[CssSyntaxError] Unknown word path (CssSyntaxError)
+~~~
+path(<string>)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word path (CssSyntaxError)",
+                            "path( [<fill-rule>,]? <string> )",
+                            "1:1 - 1:5",
+                            `/en-US/docs/Web/CSS/basic-shape/path
+[CssSyntaxError] Unknown word path (CssSyntaxError)
+~~~
+path( [<fill-rule>,]? <string> )
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word path (CssSyntaxError)",
+                            'path("M 10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80");',
+                            "1:1 - 1:5",
+                            `/en-US/docs/Web/CSS/basic-shape/path
+[CssSyntaxError] Unknown word path (CssSyntaxError)
+~~~
+path("M 10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80");
+path(evenodd,"M 10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80");
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/fill-stroke-3/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
-                    rect: {
+                    polygon: {
                       children: {},
-                      slug: "/en-US/docs/Web/CSS/basic-shape/rect",
+                      slug: "/en-US/docs/Web/CSS/basic-shape/polygon",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://drafts.fxtf.org/css-masking-1/",
+                            "https://drafts.fxtf.org/fill-stroke-3/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    shape: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/basic-shape/shape",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            `Unexpected unknown value "shape(
+    from 30% 60px,
+    curve to 180px 180px with 90px 190px,
+    close,
+    move by 0px 150px,
+    hline by 40%
+  )" for property "offset-path" (declaration-property-value-no-unknown)`,
+                            `  offset-path: shape(
+    from 30% 60px,
+    curve to 180px 180px with 90px 190px,
+    close,
+    move by 0px 150px,
+    hline by 40%
+  );`,
+                            "36:16 - 42:4",
+                            `/en-US/docs/Web/CSS/basic-shape/shape
+[declaration-property-value-no-unknown] Unexpected unknown value "shape(
+    from 30% 60px,
+    curve to 180px 180px with 90px 190px,
+    close,
+    move by 0px 150px,
+    hline by 40%
+  )" for property "offset-path" (declaration-property-value-no-unknown)
+~~~
+body {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.container {
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  border: 2px dotted green;
+  margin: 20px;
+}
+
+@supports not (offset-path: shape(from 0 0, move to 0 0)) {
+  .container {
+    display: none;
+  }
+  body::after {
+    content: "Your browser doesn't support the \`shape()\` function yet.";
+  }
+}
+
+.shape {
+  width: 50px;
+  height: 50px;
+  background: #2bc4a2;
+  position: absolute;
+  text-align: center;
+  line-height: 50px;
+  animation: move 6s infinite linear;
+}
+
+.shape1 {
+  offset-path: shape(
+    from 30% 60px,
+    curve to 180px 180px with 90px 190px,
+    close,
+    move by 0px 150px,
+    hline by 40%
+  );
+}
+
+.shape2 {
+  offset-path: shape(
+    from 50px 90px,
+    hline to 8em,
+    move to 50px 90px,
+    vline by 20%,
+    close
+  );
+}
+
+@keyframes move {
+  0% {
+    offset-distance: 0%;
+  }
+  100% {
+    offset-distance: 100%;
+    background-color: hotpink;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            `Unexpected unknown value "shape(
+    from 50px 90px,
+    hline to 8em,
+    move to 50px 90px,
+    vline by 20%,
+    close
+  )" for property "offset-path" (declaration-property-value-no-unknown)`,
+                            `  offset-path: shape(
+    from 50px 90px,
+    hline to 8em,
+    move to 50px 90px,
+    vline by 20%,
+    close
+  );`,
+                            "46:16 - 52:4",
+                            `/en-US/docs/Web/CSS/basic-shape/shape
+[declaration-property-value-no-unknown] Unexpected unknown value "shape(
+    from 50px 90px,
+    hline to 8em,
+    move to 50px 90px,
+    vline by 20%,
+    close
+  )" for property "offset-path" (declaration-property-value-no-unknown)
+~~~
+body {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.container {
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  border: 2px dotted green;
+  margin: 20px;
+}
+
+@supports not (offset-path: shape(from 0 0, move to 0 0)) {
+  .container {
+    display: none;
+  }
+  body::after {
+    content: "Your browser doesn't support the \`shape()\` function yet.";
+  }
+}
+
+.shape {
+  width: 50px;
+  height: 50px;
+  background: #2bc4a2;
+  position: absolute;
+  text-align: center;
+  line-height: 50px;
+  animation: move 6s infinite linear;
+}
+
+.shape1 {
+  offset-path: shape(
+    from 30% 60px,
+    curve to 180px 180px with 90px 190px,
+    close,
+    move by 0px 150px,
+    hline by 40%
+  );
+}
+
+.shape2 {
+  offset-path: shape(
+    from 50px 90px,
+    hline to 8em,
+    move to 50px 90px,
+    vline by 20%,
+    close
+  );
+}
+
+@keyframes move {
+  0% {
+    offset-distance: 0%;
+  }
+  100% {
+    offset-distance: 100%;
+    background-color: hotpink;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "shape(from 0% 0%, line to 100% 0%, line to 50% 100%, close)" for property "clip-path" (declaration-property-value-no-unknown)',
+                            "  clip-path: shape(from 0% 0%, line to 100% 0%, line to 50% 100%, close);",
+                            "36:14 - 36:73",
+                            `/en-US/docs/Web/CSS/basic-shape/shape
+[declaration-property-value-no-unknown] Unexpected unknown value "shape(from 0% 0%, line to 100% 0%, line to 50% 100%, close)" for property "clip-path" (declaration-property-value-no-unknown)
+~~~
+body {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.container {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  background-color: lightgray;
+}
+
+@supports not (clip-path: shape(from 0 0, move to 0 0)) {
+  .container {
+    display: none;
+  }
+  body::after {
+    content: "Your browser doesn't support the \`shape()\` function yet.";
+  }
+}
+
+.shape {
+  width: 100%;
+  height: 100%;
+  background: #2bc4a2;
+  position: absolute;
+  text-align: center;
+  line-height: 50px;
+}
+
+/* Triangular clipping region */
+.shape1 {
+  clip-path: shape(from 0% 0%, line to 100% 0%, line to 50% 100%, close);
+}
+
+/* A Heart clipping region using curve and arc transitions
+   and a box using hline and vline transitions */
+.shape2 {
+  clip-path: shape(
+    from 20px 70px,
+    arc to 100px 70px of 1% cw,
+    arc to 180px 70px of 1% cw,
+    curve to 100px 190px with 180px 130px,
+    curve to 20px 70px with 20px 130px,
+    close,
+    move to 150px 150px,
+    hline by 40px,
+    vline by 40px,
+    hline by -40px,
+    close
+  );
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            `Unexpected unknown value "shape(
+    from 20px 70px,
+    arc to 100px 70px of 1% cw,
+    arc to 180px 70px of 1% cw,
+    curve to 100px 190px with 180px 130px,
+    curve to 20px 70px with 20px 130px,
+    close,
+    move to 150px 150px,
+    hline by 40px,
+    vline by 40px,
+    hline by -40px,
+    close
+  )" for property "clip-path" (declaration-property-value-no-unknown)`,
+                            `  clip-path: shape(
+    from 20px 70px,
+    arc to 100px 70px of 1% cw,
+    arc to 180px 70px of 1% cw,
+    curve to 100px 190px with 180px 130px,
+    curve to 20px 70px with 20px 130px,
+    close,
+    move to 150px 150px,
+    hline by 40px,
+    vline by 40px,
+    hline by -40px,
+    close
+  );`,
+                            "42:14 - 54:4",
+                            `/en-US/docs/Web/CSS/basic-shape/shape
+[declaration-property-value-no-unknown] Unexpected unknown value "shape(
+    from 20px 70px,
+    arc to 100px 70px of 1% cw,
+    arc to 180px 70px of 1% cw,
+    curve to 100px 190px with 180px 130px,
+    curve to 20px 70px with 20px 130px,
+    close,
+    move to 150px 150px,
+    hline by 40px,
+    vline by 40px,
+    hline by -40px,
+    close
+  )" for property "clip-path" (declaration-property-value-no-unknown)
+~~~
+body {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.container {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  background-color: lightgray;
+}
+
+@supports not (clip-path: shape(from 0 0, move to 0 0)) {
+  .container {
+    display: none;
+  }
+  body::after {
+    content: "Your browser doesn't support the \`shape()\` function yet.";
+  }
+}
+
+.shape {
+  width: 100%;
+  height: 100%;
+  background: #2bc4a2;
+  position: absolute;
+  text-align: center;
+  line-height: 50px;
+}
+
+/* Triangular clipping region */
+.shape1 {
+  clip-path: shape(from 0% 0%, line to 100% 0%, line to 50% 100%, close);
+}
+
+/* A Heart clipping region using curve and arc transitions
+   and a box using hline and vline transitions */
+.shape2 {
+  clip-path: shape(
+    from 20px 70px,
+    arc to 100px 70px of 1% cw,
+    arc to 180px 70px of 1% cw,
+    curve to 100px 190px with 180px 130px,
+    curve to 20px 70px with 20px 130px,
+    close,
+    move to 150px 150px,
+    hline by 40px,
+    vline by 40px,
+    hline by -40px,
+    close
+  );
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/fill-stroke-3/",
                             "The operation timed out."
                           ]
                         }
@@ -13322,41 +15489,110 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                "break-after": {
+                calc: {
                   children: {},
-                  slug: "/en-US/docs/Web/CSS/break-after",
+                  slug: "/en-US/docs/Web/CSS/calc",
                   messages: [
                     {
-                      message: "Broken external link",
+                      message: "CSS code issue",
                       data: [
-                        "https://www.smashingmagazine.com/2019/02/css-fragmentation/",
-                        "The operation timed out."
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "from" for property "color" (declaration-property-value-no-unknown)',
+                        "  color: lch(from rebeccapurple l c calc(h + 80));",
+                        "11:14 - 11:18",
+                        `/en-US/docs/Web/CSS/calc
+[declaration-property-value-no-unknown] Unexpected unknown value "from" for property "color" (declaration-property-value-no-unknown)
+~~~
+p {
+  font-family: monospace;
+  font-size: 16px;
+}
+
+.original {
+  color: rebeccapurple;
+}
+
+.increase-hue {
+  color: lch(from rebeccapurple l c calc(h + 80));
+}
+
+.increase-lightness {
+  color: lch(from rebeccapurple calc(l + 20) c h);
+}
+
+.decrease-lightness {
+  color: lch(from rebeccapurple calc(l - 10) c h);
+}
+~~~
+`
                       ]
-                    }
-                  ]
-                },
-                "break-before": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/break-before",
-                  messages: [
+                    },
                     {
-                      message: "Broken external link",
+                      message: "CSS code issue",
                       data: [
-                        "https://www.smashingmagazine.com/2019/02/css-fragmentation/",
-                        "The operation timed out."
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "from" for property "color" (declaration-property-value-no-unknown)',
+                        "  color: lch(from rebeccapurple calc(l + 20) c h);",
+                        "15:14 - 15:18",
+                        `/en-US/docs/Web/CSS/calc
+[declaration-property-value-no-unknown] Unexpected unknown value "from" for property "color" (declaration-property-value-no-unknown)
+~~~
+p {
+  font-family: monospace;
+  font-size: 16px;
+}
+
+.original {
+  color: rebeccapurple;
+}
+
+.increase-hue {
+  color: lch(from rebeccapurple l c calc(h + 80));
+}
+
+.increase-lightness {
+  color: lch(from rebeccapurple calc(l + 20) c h);
+}
+
+.decrease-lightness {
+  color: lch(from rebeccapurple calc(l - 10) c h);
+}
+~~~
+`
                       ]
-                    }
-                  ]
-                },
-                "break-inside": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/break-inside",
-                  messages: [
+                    },
                     {
-                      message: "Broken external link",
+                      message: "CSS code issue",
                       data: [
-                        "https://www.smashingmagazine.com/2019/02/css-fragmentation/",
-                        "The operation timed out."
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "from" for property "color" (declaration-property-value-no-unknown)',
+                        "  color: lch(from rebeccapurple calc(l - 10) c h);",
+                        "19:14 - 19:18",
+                        `/en-US/docs/Web/CSS/calc
+[declaration-property-value-no-unknown] Unexpected unknown value "from" for property "color" (declaration-property-value-no-unknown)
+~~~
+p {
+  font-family: monospace;
+  font-size: 16px;
+}
+
+.original {
+  color: rebeccapurple;
+}
+
+.increase-hue {
+  color: lch(from rebeccapurple l c calc(h + 80));
+}
+
+.increase-lightness {
+  color: lch(from rebeccapurple calc(l + 20) c h);
+}
+
+.decrease-lightness {
+  color: lch(from rebeccapurple calc(l - 10) c h);
+}
+~~~
+`
                       ]
                     }
                   ]
@@ -13379,6 +15615,289 @@ css.selectors.-webkit-resizer`,
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/CSS/calc-value"
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "left" for property "align-items" (declaration-property-value-no-unknown)',
+                        "  align-items: left;",
+                        "10:16 - 10:20",
+                        `/en-US/docs/Web/CSS/calc-keyword
+[declaration-property-value-no-unknown] Unexpected unknown value "left" for property "align-items" (declaration-property-value-no-unknown)
+~~~
+#wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 200px;
+}
+.container > div {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+span {
+  font-family: monospace;
+  font-size: 0.8em;
+}
+
+#e {
+  background-color: blue;
+}
+
+#pi {
+  background-color: blue;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "calc-size": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/calc-size",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "size" for property "height" (declaration-property-value-no-unknown)',
+                        "  height: calc-size(calc-size(max-content, size), size + 2rem);",
+                        "2:44 - 2:48",
+                        `/en-US/docs/Web/CSS/calc-size
+[declaration-property-value-no-unknown] Unexpected unknown value "size" for property "height" (declaration-property-value-no-unknown)
+~~~
+section {
+  height: calc-size(calc-size(max-content, size), size + 2rem);
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "size" for property "height" (declaration-property-value-no-unknown)',
+                        "  height: calc-size(300px + 2rem, size / 2);",
+                        "2:35 - 2:39",
+                        `/en-US/docs/Web/CSS/calc-size
+[declaration-property-value-no-unknown] Unexpected unknown value "size" for property "height" (declaration-property-value-no-unknown)
+~~~
+section {
+  height: calc-size(300px + 2rem, size / 2);
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "size" for property "width" (declaration-property-value-no-unknown)',
+                        "  width: calc-size(auto, size);",
+                        "8:26 - 8:30",
+                        `/en-US/docs/Web/CSS/calc-size
+[declaration-property-value-no-unknown] Unexpected unknown value "size" for property "width" (declaration-property-value-no-unknown)
+~~~
+section {
+  width: 0;
+  transition: width ease 1s;
+}
+
+section:hover,
+section:focus {
+  width: calc-size(auto, size);
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "size" for property "width" (declaration-property-value-no-unknown)',
+                        "  width: calc-size(auto, size + 2rem);",
+                        "8:26 - 8:30",
+                        `/en-US/docs/Web/CSS/calc-size
+[declaration-property-value-no-unknown] Unexpected unknown value "size" for property "width" (declaration-property-value-no-unknown)
+~~~
+section {
+  width: 0;
+  transition: width ease 1s;
+}
+
+section:hover,
+section:focus {
+  width: calc-size(auto, size + 2rem);
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "size" for property "width" (declaration-property-value-no-unknown)',
+                        "  width: calc-size(fit-content, size + 6rem);",
+                        "28:33 - 28:37",
+                        `/en-US/docs/Web/CSS/calc-size
+[declaration-property-value-no-unknown] Unexpected unknown value "size" for property "width" (declaration-property-value-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+section {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid black;
+}
+
+h2 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 1.1rem;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: calc-size(fit-content, size + 6rem);
+  height: calc-size(auto, size * 2);
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "size" for property "height" (declaration-property-value-no-unknown)',
+                        "  height: calc-size(auto, size * 2);",
+                        "29:27 - 29:31",
+                        `/en-US/docs/Web/CSS/calc-size
+[declaration-property-value-no-unknown] Unexpected unknown value "size" for property "height" (declaration-property-value-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+section {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid black;
+}
+
+h2 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 1.1rem;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: calc-size(fit-content, size + 6rem);
+  height: calc-size(auto, size * 2);
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "size" for property "height" (declaration-property-value-no-unknown)',
+                        "  height: calc-size(max-content, size + 2rem);",
+                        "50:34 - 50:38",
+                        `/en-US/docs/Web/CSS/calc-size
+[declaration-property-value-no-unknown] Unexpected unknown value "size" for property "height" (declaration-property-value-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+section {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 175px;
+  border-radius: 5px;
+  background: #eee;
+  box-shadow:
+    inset 1px 1px 4px rgb(255 255 255 / 0.5),
+    inset -1px -1px 4px rgb(0 0 0 / 0.5);
+}
+
+header {
+  padding: 10px;
+  border-bottom: 2px solid #ccc;
+}
+
+main {
+  padding: 0.7rem;
+}
+
+h2 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 1.1rem;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+p,
+li {
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+p {
+  margin-top: 0;
+}
+
+section {
+  height: 2.5rem;
+  overflow: hidden;
+  transition: height ease 1s;
+}
+
+section:hover,
+section:focus {
+  height: calc-size(max-content, size + 2rem);
+}
+~~~
+`
                       ]
                     }
                   ]
@@ -13405,47 +15924,199 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                clip: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/clip",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 "clip-path": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/clip-path",
                   messages: [
                     {
-                      message: "Broken external link",
+                      message: "CSS code issue",
                       data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "shape(from 50% 0, line to 100% 100%, line to 0 100%, close)" for property "clip-path" (declaration-property-value-no-unknown)',
+                        "  clip-path: shape(from 50% 0, line to 100% 100%, line to 0 100%, close);",
+                        "26:14 - 26:73",
+                        `/en-US/docs/Web/CSS/clip-path
+[declaration-property-value-no-unknown] Unexpected unknown value "shape(from 50% 0, line to 100% 100%, line to 0 100%, close)" for property "clip-path" (declaration-property-value-no-unknown)
+~~~
+body {
+  display: flex;
+  gap: 20px;
+  flex-flow: row wrap;
+}
+
+div {
+  height: 200px;
+  width: 200px;
+  box-sizing: border-box;
+  background-color: rebeccapurple;
+  border: 20px solid magenta;
+
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+}
+
+div:last-of-type {
+  clip-path: content-box polygon(50% 0, 100% 100%, 0 100%);
+}
+
+div {
+  clip-path: path("M100 0 L200 200 L0 200 Z");
+}
+
+div:last-of-type {
+  clip-path: shape(from 50% 0, line to 100% 100%, line to 0 100%, close);
+}
+~~~
+`
                       ]
-                    }
-                  ]
-                },
-                "clip-rule": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/clip-rule",
-                  messages: [
+                    },
                     {
-                      message: "Broken external link",
+                      message: "CSS code issue",
                       data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "shape(from 50% 0, line to 100% 100%, line to 0 100%, close)" for property "clip-path" (declaration-property-value-no-unknown)',
+                        "  clip-path: shape(from 50% 0, line to 100% 100%, line to 0 100%, close);",
+                        "26:14 - 26:73",
+                        `/en-US/docs/Web/CSS/clip-path
+[declaration-property-value-no-unknown] Unexpected unknown value "shape(from 50% 0, line to 100% 100%, line to 0 100%, close)" for property "clip-path" (declaration-property-value-no-unknown)
+~~~
+body {
+  display: flex;
+  gap: 20px;
+  flex-flow: row wrap;
+}
+
+div {
+  height: 200px;
+  width: 200px;
+  box-sizing: border-box;
+  background-color: rebeccapurple;
+  border: 20px solid magenta;
+
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+}
+
+div:last-of-type {
+  clip-path: content-box polygon(50% 0, 100% 100%, 0 100%);
+}
+
+div {
+  clip-path: path("M100 0 L200 200 L0 200 Z");
+}
+
+div:last-of-type {
+  clip-path: shape(from 50% 0, line to 100% 100%, line to 0 100%, close);
+}
+
+div {
+  width: 250px;
+  height: 250px;
+}
+~~~
+`
                       ]
                     }
                   ]
                 },
                 color_value: {
                   children: {
+                    color: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/color_value/color",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word color (CssSyntaxError)",
+                            "color(from hsl(0 100% 50%) srgb r g b)",
+                            "1:1 - 1:6",
+                            `/en-US/docs/Web/CSS/color_value/color
+[CssSyntaxError] Unknown word color (CssSyntaxError)
+~~~
+color(from hsl(0 100% 50%) srgb r g b)
+color(from hsl(0 100% 50%) xyz x y z)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word color (CssSyntaxError)",
+                            "color(from hsl(0 100% 50%) srgb 0.749938 0 0.609579)",
+                            "1:1 - 1:6",
+                            `/en-US/docs/Web/CSS/color_value/color
+[CssSyntaxError] Unknown word color (CssSyntaxError)
+~~~
+color(from hsl(0 100% 50%) srgb 0.749938 0 0.609579)
+/* Computed output color: color(srgb 0.749938 0 0.609579) */
+
+color(from hsl(0 100% 50%) xyz 0.75 0.6554 0.1)
+/* Computed output color: color(xyz-d65 0.75 0.6554 0.1 */
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word color (CssSyntaxError)",
+                            "color(from hsl(0 100% 50%) srgb r 1 b)",
+                            "1:1 - 1:6",
+                            `/en-US/docs/Web/CSS/color_value/color
+[CssSyntaxError] Unknown word color (CssSyntaxError)
+~~~
+color(from hsl(0 100% 50%) srgb r 1 b)
+/* Computed output color: color(srgb 1 1 0) */
+
+color(from hsl(0 100% 50%) xyz x y 0.5)
+/* Computed output color: color(xyz-d65 0.412426 0.212648 0.5) */
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word color (CssSyntaxError)",
+                            "color(from hsl(0 100% 50% / 0.8) srgb r g b / alpha)",
+                            "1:1 - 1:6",
+                            `/en-US/docs/Web/CSS/color_value/color
+[CssSyntaxError] Unknown word color (CssSyntaxError)
+~~~
+color(from hsl(0 100% 50% / 0.8) srgb r g b / alpha)
+/* Computed output color: color(srgb 1 0 0 / 0.8) */
+
+color(from hsl(0 100% 50% / 0.8) xyz x y z / 0.5)
+/* Computed output color: color(xyz-d65 0.412426 0.212648 0.0193173 / 0.5) */
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word color (CssSyntaxError)",
+                            "color(from hsl(0 100% 50%) srgb calc(r - 0.4) calc(g + 0.1) calc(b + 0.6) / calc(alpha - 0.1))",
+                            "1:1 - 1:6",
+                            `/en-US/docs/Web/CSS/color_value/color
+[CssSyntaxError] Unknown word color (CssSyntaxError)
+~~~
+color(from hsl(0 100% 50%) srgb calc(r - 0.4) calc(g + 0.1) calc(b + 0.6) / calc(alpha - 0.1))
+/* Computed output color: color(srgb 0.6 0.1 0.6 / 0.9)  */
+
+color(from hsl(0 100% 50%) xyz calc(x - 0.3) calc(y + 0.3) calc(z + 0.3) / calc(alpha - 0.1))
+/* Computed output color: color(xyz-d65 0.112426 0.512648 0.319317 / 0.9) */
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
                     "device-cmyk": {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/color_value/device-cmyk",
@@ -13466,6 +16137,601 @@ css.selectors.-webkit-resizer`,
                           ]
                         }
                       ]
+                    },
+                    hsl: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/color_value/hsl",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word hsl (CssSyntaxError)",
+                            "hsl(from rgb(255 0 0) h s l)",
+                            "1:1 - 1:4",
+                            `/en-US/docs/Web/CSS/color_value/hsl
+[CssSyntaxError] Unknown word hsl (CssSyntaxError)
+~~~
+hsl(from rgb(255 0 0) h s l)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word hsl (CssSyntaxError)",
+                            "hsl(from rgb(255 0 0) 240 60% 70%)",
+                            "1:1 - 1:4",
+                            `/en-US/docs/Web/CSS/color_value/hsl
+[CssSyntaxError] Unknown word hsl (CssSyntaxError)
+~~~
+hsl(from rgb(255 0 0) 240 60% 70%)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word hsl (CssSyntaxError)",
+                            "hsl(from rgb(255 0 0) h 30% 60%)",
+                            "1:1 - 1:4",
+                            `/en-US/docs/Web/CSS/color_value/hsl
+[CssSyntaxError] Unknown word hsl (CssSyntaxError)
+~~~
+hsl(from rgb(255 0 0) h 30% 60%)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word hsl (CssSyntaxError)",
+                            "hsl(from rgb(255 0 0 / 0.8) h s l / alpha)",
+                            "1:1 - 1:4",
+                            `/en-US/docs/Web/CSS/color_value/hsl
+[CssSyntaxError] Unknown word hsl (CssSyntaxError)
+~~~
+hsl(from rgb(255 0 0 / 0.8) h s l / alpha)
+/* Computed output color: color(srgb 1 0 0 / 0.8) */
+
+hsl(from rgb(255 0 0 / 0.8) h s l / 0.5)
+/* Computed output color: color(srgb 1 0 0 / 0.5) */
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word hsl (CssSyntaxError)",
+                            "hsl(from rgb(255 0 0 / 0.8) calc(h + 60) calc(s - 20) calc(l - 10) / calc(alpha - 0.1))",
+                            "1:1 - 1:4",
+                            `/en-US/docs/Web/CSS/color_value/hsl
+[CssSyntaxError] Unknown word hsl (CssSyntaxError)
+~~~
+hsl(from rgb(255 0 0 / 0.8) calc(h + 60) calc(s - 20) calc(l - 10) / calc(alpha - 0.1))
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    hwb: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/color_value/hwb",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word hwb (CssSyntaxError)",
+                            "hwb(from hsl(0 100% 50%) h w b)",
+                            "1:1 - 1:4",
+                            `/en-US/docs/Web/CSS/color_value/hwb
+[CssSyntaxError] Unknown word hwb (CssSyntaxError)
+~~~
+hwb(from hsl(0 100% 50%) h w b)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word hwb (CssSyntaxError)",
+                            "hwb(from hsl(0 100% 50%) 240 52% 12%)",
+                            "1:1 - 1:4",
+                            `/en-US/docs/Web/CSS/color_value/hwb
+[CssSyntaxError] Unknown word hwb (CssSyntaxError)
+~~~
+hwb(from hsl(0 100% 50%) 240 52% 12%)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word hwb (CssSyntaxError)",
+                            "hwb(from hsl(0 100% 50%) h 30% b)",
+                            "1:1 - 1:4",
+                            `/en-US/docs/Web/CSS/color_value/hwb
+[CssSyntaxError] Unknown word hwb (CssSyntaxError)
+~~~
+hwb(from hsl(0 100% 50%) h 30% b)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word hwb (CssSyntaxError)",
+                            "hwb(from hsl(0 100% 50% / 0.8) h w b / alpha)",
+                            "1:1 - 1:4",
+                            `/en-US/docs/Web/CSS/color_value/hwb
+[CssSyntaxError] Unknown word hwb (CssSyntaxError)
+~~~
+hwb(from hsl(0 100% 50% / 0.8) h w b / alpha)
+/* Computed output color: color(srgb 1 0 0 / 0.8) */
+
+hwb(from hsl(0 100% 50% / 0.8) h w b / 0.5)
+/* Computed output color: color(srgb 1 0 0 / 0.5) */
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word hwb (CssSyntaxError)",
+                            "hwb(from hsl(0 100% 50%) calc(h + 120) calc(w + 25) calc(b + 10) / calc(alpha - 0.1))",
+                            "1:1 - 1:4",
+                            `/en-US/docs/Web/CSS/color_value/hwb
+[CssSyntaxError] Unknown word hwb (CssSyntaxError)
+~~~
+hwb(from hsl(0 100% 50%) calc(h + 120) calc(w + 25) calc(b + 10) / calc(alpha - 0.1))
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    lab: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/color_value/lab",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word lab (CssSyntaxError)",
+                            "lab(from hsl(0 100% 50%) l a b)",
+                            "1:1 - 1:4",
+                            `/en-US/docs/Web/CSS/color_value/lab
+[CssSyntaxError] Unknown word lab (CssSyntaxError)
+~~~
+lab(from hsl(0 100% 50%) l a b)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word lab (CssSyntaxError)",
+                            "lab(from hsl(0 100% 50%) 29.692% 44.89% -29.034%)",
+                            "1:1 - 1:4",
+                            `/en-US/docs/Web/CSS/color_value/lab
+[CssSyntaxError] Unknown word lab (CssSyntaxError)
+~~~
+lab(from hsl(0 100% 50%) 29.692% 44.89% -29.034%)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word lab (CssSyntaxError)",
+                            "lab(from hsl(0 100% 50%) l -100 b)",
+                            "1:1 - 1:4",
+                            `/en-US/docs/Web/CSS/color_value/lab
+[CssSyntaxError] Unknown word lab (CssSyntaxError)
+~~~
+lab(from hsl(0 100% 50%) l -100 b)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word lab (CssSyntaxError)",
+                            "lab(from hsl(0 100% 50% / 0.8) l a b / alpha)",
+                            "1:1 - 1:4",
+                            `/en-US/docs/Web/CSS/color_value/lab
+[CssSyntaxError] Unknown word lab (CssSyntaxError)
+~~~
+lab(from hsl(0 100% 50% / 0.8) l a b / alpha)
+/* Computed output color: lab(54.29 80.8198 69.8997 / 0.8) */
+
+lab(from hsl(0 100% 50% / 0.8) l a b / 0.5)
+/* Computed output color: lab(54.29 80.8198 69.8997 / 0.5) */
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word lab (CssSyntaxError)",
+                            "lab(from hsl(0 100% 50%) calc(l + 20) calc(a - 20) calc(b - 40) / calc(alpha - 0.1))",
+                            "1:1 - 1:4",
+                            `/en-US/docs/Web/CSS/color_value/lab
+[CssSyntaxError] Unknown word lab (CssSyntaxError)
+~~~
+lab(from hsl(0 100% 50%) calc(l + 20) calc(a - 20) calc(b - 40) / calc(alpha - 0.1))
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    lch: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/color_value/lch",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word lch (CssSyntaxError)",
+                            "lch(from hsl(0 100% 50%) l c h)",
+                            "1:1 - 1:4",
+                            `/en-US/docs/Web/CSS/color_value/lch
+[CssSyntaxError] Unknown word lch (CssSyntaxError)
+~~~
+lch(from hsl(0 100% 50%) l c h)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word lch (CssSyntaxError)",
+                            "lch(from hsl(0 100% 50%) 29.6871% 66.83 327.109)",
+                            "1:1 - 1:4",
+                            `/en-US/docs/Web/CSS/color_value/lch
+[CssSyntaxError] Unknown word lch (CssSyntaxError)
+~~~
+lch(from hsl(0 100% 50%) 29.6871% 66.83 327.109)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word lch (CssSyntaxError)",
+                            "lch(from hsl(0 100% 50%) 70 150 h)",
+                            "1:1 - 1:4",
+                            `/en-US/docs/Web/CSS/color_value/lch
+[CssSyntaxError] Unknown word lch (CssSyntaxError)
+~~~
+lch(from hsl(0 100% 50%) 70 150 h)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word lch (CssSyntaxError)",
+                            "lch(from hsl(0 100% 50% / 0.8) l c h / alpha)",
+                            "1:1 - 1:4",
+                            `/en-US/docs/Web/CSS/color_value/lch
+[CssSyntaxError] Unknown word lch (CssSyntaxError)
+~~~
+lch(from hsl(0 100% 50% / 0.8) l c h / alpha)
+/* Computed output color: lch(54.29 106.854 40.856 / 0.8) */
+
+lch(from hsl(0 100% 50% / 0.8) l c h / 0.5)
+/* Computed output color: lch(54.29 106.854 40.856 / 0.5) */
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word lch (CssSyntaxError)",
+                            "lch(from hsl(0 100% 50%) calc(l + 20) calc(c - 20) calc(h - 40) / calc(alpha - 0.1))",
+                            "1:1 - 1:4",
+                            `/en-US/docs/Web/CSS/color_value/lch
+[CssSyntaxError] Unknown word lch (CssSyntaxError)
+~~~
+lch(from hsl(0 100% 50%) calc(l + 20) calc(c - 20) calc(h - 40) / calc(alpha - 0.1))
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    oklab: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/color_value/oklab",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word oklab (CssSyntaxError)",
+                            "oklab(from hsl(0 100% 50%) l a b)",
+                            "1:1 - 1:6",
+                            `/en-US/docs/Web/CSS/color_value/oklab
+[CssSyntaxError] Unknown word oklab (CssSyntaxError)
+~~~
+oklab(from hsl(0 100% 50%) l a b)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word oklab (CssSyntaxError)",
+                            "oklab(from hsl(0 100% 50%) 42.1% 0.165 -0.101)",
+                            "1:1 - 1:6",
+                            `/en-US/docs/Web/CSS/color_value/oklab
+[CssSyntaxError] Unknown word oklab (CssSyntaxError)
+~~~
+oklab(from hsl(0 100% 50%) 42.1% 0.165 -0.101)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word oklab (CssSyntaxError)",
+                            "oklab(from hsl(0 100% 50%) l -0.3 b)",
+                            "1:1 - 1:6",
+                            `/en-US/docs/Web/CSS/color_value/oklab
+[CssSyntaxError] Unknown word oklab (CssSyntaxError)
+~~~
+oklab(from hsl(0 100% 50%) l -0.3 b)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word oklab (CssSyntaxError)",
+                            "oklab(from hsl(0 100% 50% / 0.8) l a b / alpha)",
+                            "1:1 - 1:6",
+                            `/en-US/docs/Web/CSS/color_value/oklab
+[CssSyntaxError] Unknown word oklab (CssSyntaxError)
+~~~
+oklab(from hsl(0 100% 50% / 0.8) l a b / alpha)
+/* Computed output color: oklab(0.627966 0.22488 0.125859 / 0.8) */
+
+oklab(from hsl(0 100% 50% / 0.8) l a b / 0.5)
+/* Computed output color: oklab(0.627966 0.22488 0.125859 / 0.5) */
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word oklab (CssSyntaxError)",
+                            "oklab(from hsl(0 100% 50%) calc(l + 0.2) calc(a - 0.08) calc(b - 0.2) / calc(alpha - 0.1))",
+                            "1:1 - 1:6",
+                            `/en-US/docs/Web/CSS/color_value/oklab
+[CssSyntaxError] Unknown word oklab (CssSyntaxError)
+~~~
+oklab(from hsl(0 100% 50%) calc(l + 0.2) calc(a - 0.08) calc(b - 0.2) / calc(alpha - 0.1))
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    oklch: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/color_value/oklch",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word oklch (CssSyntaxError)",
+                            "oklch(from hsl(0 100% 50%) l c h)",
+                            "1:1 - 1:6",
+                            `/en-US/docs/Web/CSS/color_value/oklch
+[CssSyntaxError] Unknown word oklch (CssSyntaxError)
+~~~
+oklch(from hsl(0 100% 50%) l c h)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word oklch (CssSyntaxError)",
+                            "oklch(from hsl(0 100% 50%) 42.1% 0.25 328.363)",
+                            "1:1 - 1:6",
+                            `/en-US/docs/Web/CSS/color_value/oklch
+[CssSyntaxError] Unknown word oklch (CssSyntaxError)
+~~~
+oklch(from hsl(0 100% 50%) 42.1% 0.25 328.363)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word oklch (CssSyntaxError)",
+                            "oklch(from hsl(0 100% 50%) 0.8 0.4 h)",
+                            "1:1 - 1:6",
+                            `/en-US/docs/Web/CSS/color_value/oklch
+[CssSyntaxError] Unknown word oklch (CssSyntaxError)
+~~~
+oklch(from hsl(0 100% 50%) 0.8 0.4 h)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word oklch (CssSyntaxError)",
+                            "oklch(from hsl(0 100% 50% / 0.8) l c h / alpha)",
+                            "1:1 - 1:6",
+                            `/en-US/docs/Web/CSS/color_value/oklch
+[CssSyntaxError] Unknown word oklch (CssSyntaxError)
+~~~
+oklch(from hsl(0 100% 50% / 0.8) l c h / alpha)
+/* Computed output color: oklch(0.627966 0.257704 29.2346 / 0.8) */
+
+oklch(from hsl(0 100% 50% / 0.8) l c h / 0.5)
+/* Computed output color: oklch(0.627966 0.257704 29.2346 / 0.5) */
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word oklch (CssSyntaxError)",
+                            "oklch(from hsl(0 100% 50%) calc(l + 0.2) calc(c + 0.1) calc(h - 20) / calc(alpha - 0.1))",
+                            "1:1 - 1:6",
+                            `/en-US/docs/Web/CSS/color_value/oklch
+[CssSyntaxError] Unknown word oklch (CssSyntaxError)
+~~~
+oklch(from hsl(0 100% 50%) calc(l + 0.2) calc(c + 0.1) calc(h - 20) / calc(alpha - 0.1))
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    rgb: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/color_value/rgb",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word rgb (CssSyntaxError)",
+                            "rgb(from hsl(0 100% 50%) r g b)",
+                            "1:1 - 1:4",
+                            `/en-US/docs/Web/CSS/color_value/rgb
+[CssSyntaxError] Unknown word rgb (CssSyntaxError)
+~~~
+rgb(from hsl(0 100% 50%) r g b)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word rgb (CssSyntaxError)",
+                            "rgb(from hsl(0 100% 50%) 132 132 224)",
+                            "1:1 - 1:4",
+                            `/en-US/docs/Web/CSS/color_value/rgb
+[CssSyntaxError] Unknown word rgb (CssSyntaxError)
+~~~
+rgb(from hsl(0 100% 50%) 132 132 224)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word rgb (CssSyntaxError)",
+                            "rgb(from hsl(0 100% 50%) r 80 80)",
+                            "1:1 - 1:4",
+                            `/en-US/docs/Web/CSS/color_value/rgb
+[CssSyntaxError] Unknown word rgb (CssSyntaxError)
+~~~
+rgb(from hsl(0 100% 50%) r 80 80)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word rgb (CssSyntaxError)",
+                            "rgb(from hsl(0 100% 50% / 0.8) r g b / alpha)",
+                            "1:1 - 1:4",
+                            `/en-US/docs/Web/CSS/color_value/rgb
+[CssSyntaxError] Unknown word rgb (CssSyntaxError)
+~~~
+rgb(from hsl(0 100% 50% / 0.8) r g b / alpha)
+/* Computed output color: color(srgb 1 0 0 / 0.8) */
+
+rgb(from hsl(0 100% 50% / 0.8) r g b / 0.5)
+/* Computed output color: color(srgb 1 0 0 / 0.5) */
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word rgb (CssSyntaxError)",
+                            "rgb(from hsl(0 100% 50%) calc(r/2) calc(g + 25) calc(b + 175) / calc(alpha - 0.1))",
+                            "1:1 - 1:4",
+                            `/en-US/docs/Web/CSS/color_value/rgb
+[CssSyntaxError] Unknown word rgb (CssSyntaxError)
+~~~
+rgb(from hsl(0 100% 50%) calc(r/2) calc(g + 25) calc(b + 175) / calc(alpha - 0.1))
+~~~
+`
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/CSS/color_value",
@@ -13475,18 +16741,122 @@ css.selectors.-webkit-resizer`,
                       data: [
                         "/en-US/docs/Web/CSS/color_value/device-cmyk"
                       ]
-                    }
-                  ]
-                },
-                "color-interpolation-filters": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/color-interpolation-filters",
-                  messages: [
+                    },
                     {
-                      message: "Broken external link",
+                      message: "CSS code issue",
                       data: [
-                        "https://drafts.fxtf.org/filter-effects-1/",
-                        "The operation timed out."
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "none" for property "background-color" (declaration-property-value-no-unknown)',
+                        "background-color: hsl(none 100% 50%);",
+                        "6:23 - 6:27",
+                        `/en-US/docs/Web/CSS/color_value
+[declaration-property-value-no-unknown] Unexpected unknown value "none" for property "background-color" (declaration-property-value-no-unknown)
+~~~
+/* These are equivalent */
+color: oklab(50% none -0.25);
+color: oklab(50% 0 -0.25);
+
+/* These are equivalent */
+background-color: hsl(none 100% 50%);
+background-color: hsl(0deg 100% 50%);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "CssSyntaxError",
+                        "Unknown word color-mix (CssSyntaxError)",
+                        "color-mix(in oklch, oklch(none 0.2 10), oklch(60% none 30))",
+                        "1:1 - 1:10",
+                        `/en-US/docs/Web/CSS/color_value
+[CssSyntaxError] Unknown word color-mix (CssSyntaxError)
+~~~
+color-mix(in oklch, oklch(none 0.2 10), oklch(60% none 30))
+color-mix(in oklch, oklch(60% 0.2 10), oklch(60% 0.2 30))
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "CssSyntaxError",
+                        "Unknown word lch (CssSyntaxError)",
+                        "lch(80% 30 none)",
+                        "1:1 - 1:4",
+                        `/en-US/docs/Web/CSS/color_value
+[CssSyntaxError] Unknown word lch (CssSyntaxError)
+~~~
+lch(80% 30 none)
+color(display-p3 0.7 0.5 none)
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "CssSyntaxError",
+                        "Unknown word lch (CssSyntaxError)",
+                        "lch(80% 30 0)",
+                        "1:1 - 1:4",
+                        `/en-US/docs/Web/CSS/color_value
+[CssSyntaxError] Unknown word lch (CssSyntaxError)
+~~~
+lch(80% 30 0)
+color(display-p3 0.7 0.5 0)
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "CssSyntaxError",
+                        "Unknown word oklch (CssSyntaxError)",
+                        "oklch(83.915% 0.0902 0.28)",
+                        "1:1 - 1:6",
+                        `/en-US/docs/Web/CSS/color_value
+[CssSyntaxError] Unknown word oklch (CssSyntaxError)
+~~~
+oklch(83.915% 0.0902 0.28)
+oklch(63.612% 0.1522 78.748)
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "CssSyntaxError",
+                        "Unknown word oklch (CssSyntaxError)",
+                        "oklch(83.915% 0.0902 none)",
+                        "1:1 - 1:6",
+                        `/en-US/docs/Web/CSS/color_value
+[CssSyntaxError] Unknown word oklch (CssSyntaxError)
+~~~
+oklch(83.915% 0.0902 none)
+oklch(63.612% 0.1522 78.748)
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "CssSyntaxError",
+                        "Unknown word oklch (CssSyntaxError)",
+                        "oklch(83.915% 0.0902 78.748)",
+                        "1:1 - 1:6",
+                        `/en-US/docs/Web/CSS/color_value
+[CssSyntaxError] Unknown word oklch (CssSyntaxError)
+~~~
+oklch(83.915% 0.0902 78.748)
+oklch(63.612% 0.1522 78.748)
+~~~
+`
                       ]
                     }
                   ]
@@ -13498,6 +16868,144 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "in" for property "background-image" (declaration-property-value-no-unknown)',
+                        "    in lab,",
+                        "12:5 - 12:7",
+                        `/en-US/docs/Web/CSS/color-interpolation-method
+[declaration-property-value-no-unknown] Unexpected unknown value "in" for property "background-image" (declaration-property-value-no-unknown)
+~~~
+.gradient {
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  font-family: monospace;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.conic {
+  background-image: repeating-conic-gradient(
+    in lab,
+    burlywood,
+    blueviolet 120deg
+  );
+}
+
+.linear {
+  background-image: repeating-linear-gradient(
+    in oklch,
+    burlywood,
+    blueviolet 75px
+  );
+}
+
+.radial {
+  background-image: repeating-radial-gradient(
+    in oklch longer hue,
+    blueviolet 50px,
+    burlywood 100px
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "in" for property "background-image" (declaration-property-value-no-unknown)',
+                        "    in oklch,",
+                        "20:5 - 20:7",
+                        `/en-US/docs/Web/CSS/color-interpolation-method
+[declaration-property-value-no-unknown] Unexpected unknown value "in" for property "background-image" (declaration-property-value-no-unknown)
+~~~
+.gradient {
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  font-family: monospace;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.conic {
+  background-image: repeating-conic-gradient(
+    in lab,
+    burlywood,
+    blueviolet 120deg
+  );
+}
+
+.linear {
+  background-image: repeating-linear-gradient(
+    in oklch,
+    burlywood,
+    blueviolet 75px
+  );
+}
+
+.radial {
+  background-image: repeating-radial-gradient(
+    in oklch longer hue,
+    blueviolet 50px,
+    burlywood 100px
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "in" for property "background-image" (declaration-property-value-no-unknown)',
+                        "    in oklch longer hue,",
+                        "28:5 - 28:7",
+                        `/en-US/docs/Web/CSS/color-interpolation-method
+[declaration-property-value-no-unknown] Unexpected unknown value "in" for property "background-image" (declaration-property-value-no-unknown)
+~~~
+.gradient {
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  font-family: monospace;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.conic {
+  background-image: repeating-conic-gradient(
+    in lab,
+    burlywood,
+    blueviolet 120deg
+  );
+}
+
+.linear {
+  background-image: repeating-linear-gradient(
+    in oklch,
+    burlywood,
+    blueviolet 75px
+  );
+}
+
+.radial {
+  background-image: repeating-radial-gradient(
+    in oklch longer hue,
+    blueviolet 50px,
+    burlywood 100px
+  );
+}
+~~~
+`
+                      ]
                     }
                   ]
                 },
@@ -13523,6 +17031,136 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "CssSyntaxError",
+                        "Unknown word cross-fade (CssSyntaxError)",
+                        "cross-fade(url(white.png) 0%, url(black.png) 100%); /* fully black */",
+                        "1:1 - 1:11",
+                        `/en-US/docs/Web/CSS/cross-fade
+[CssSyntaxError] Unknown word cross-fade (CssSyntaxError)
+~~~
+cross-fade(url(white.png) 0%, url(black.png) 100%); /* fully black */
+cross-fade(url(white.png) 25%, url(black.png) 75%); /* 25% white, 75% black */
+cross-fade(url(white.png) 50%, url(black.png) 50%); /* 50% white, 50% black */
+cross-fade(url(white.png) 75%, url(black.png) 25%); /* 75% white, 25% black */
+cross-fade(url(white.png) 100%, url(black.png) 0%); /* fully white */
+cross-fade(url(green.png) 75%, url(red.png) 75%); /* both green and red at 75% */
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "CssSyntaxError",
+                        "Unknown word cross-fade (CssSyntaxError)",
+                        "cross-fade(url(white.png) 0%, url(black.png)); /* fully black */",
+                        "1:1 - 1:11",
+                        `/en-US/docs/Web/CSS/cross-fade
+[CssSyntaxError] Unknown word cross-fade (CssSyntaxError)
+~~~
+cross-fade(url(white.png) 0%, url(black.png)); /* fully black */
+cross-fade(url(white.png) 25%, url(black.png)); /* 25% white, 75% black */
+cross-fade(url(white.png), url(black.png)); /* 50% white, 50% black */
+cross-fade(url(white.png) 75%, url(black.png)); /* 75% white, 25% black */
+cross-fade(url(white.png) 100%, url(black.png)); /* fully white */
+cross-fade(url(green.png) 75%, url(red.png) 75%); /* both green and red at 75% */
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "CssSyntaxError",
+                        "Unknown word cross-fade (CssSyntaxError)",
+                        "cross-fade(url(red.png), url(yellow.png), url(blue.png)); /* all three will be 33.3333% opaque */",
+                        "1:1 - 1:11",
+                        `/en-US/docs/Web/CSS/cross-fade
+[CssSyntaxError] Unknown word cross-fade (CssSyntaxError)
+~~~
+cross-fade(url(red.png), url(yellow.png), url(blue.png)); /* all three will be 33.3333% opaque */
+cross-fade(url(red.png) 33.33%, url(yellow.png) 33.33%, url(blue.png) 33.33%);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "CssSyntaxError",
+                        "Unknown word cross-fade (CssSyntaxError)",
+                        "cross-fade( <image>, <image>, <percentage> )",
+                        "1:1 - 1:11",
+                        `/en-US/docs/Web/CSS/cross-fade
+[CssSyntaxError] Unknown word cross-fade (CssSyntaxError)
+~~~
+cross-fade( <image>, <image>, <percentage> )
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "CssSyntaxError",
+                        "Unknown word cross-fade (CssSyntaxError)",
+                        "cross-fade(url(white.png), url(black.png), 0%);   /* fully black */",
+                        "1:1 - 1:11",
+                        `/en-US/docs/Web/CSS/cross-fade
+[CssSyntaxError] Unknown word cross-fade (CssSyntaxError)
+~~~
+cross-fade(url(white.png), url(black.png), 0%);   /* fully black */
+cross-fade(url(white.png), url(black.png), 25%);  /* 25% white, 75% black */
+cross-fade(url(white.png), url(black.png), 50%);  /* 50% white, 50% black */
+cross-fade(url(white.png), url(black.png), 75%);  /* 75% white, 25% black */
+cross-fade(url(white.png), url(black.png), 100%); /* fully white */
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "-webkit-cross-fade(url("br.png"), url("tr.png"), 75%)" for property "background-image" (declaration-property-value-no-unknown)',
+                        '  background-image: -webkit-cross-fade(url("br.png"), url("tr.png"), 75%);',
+                        "4:21 - 4:74",
+                        `/en-US/docs/Web/CSS/cross-fade
+[declaration-property-value-no-unknown] Unexpected unknown value "-webkit-cross-fade(url("br.png"), url("tr.png"), 75%)" for property "background-image" (declaration-property-value-no-unknown)
+~~~
+.cross-fade {
+  width: 300px;
+  height: 300px;
+  background-image: -webkit-cross-fade(url("br.png"), url("tr.png"), 75%);
+  background-image: cross-fade(url("br.png"), url("tr.png"), 75%);
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "," for property "background-image" (declaration-property-value-no-unknown)',
+                        '  background-image: cross-fade(url("br.png"), url("tr.png"), 75%);',
+                        "5:60 - 5:61",
+                        `/en-US/docs/Web/CSS/cross-fade
+[declaration-property-value-no-unknown] Unexpected unknown value "," for property "background-image" (declaration-property-value-no-unknown)
+~~~
+.cross-fade {
+  width: 300px;
+  height: 300px;
+  background-image: -webkit-cross-fade(url("br.png"), url("tr.png"), 75%);
+  background-image: cross-fade(url("br.png"), url("tr.png"), 75%);
+}
+~~~
+`
+                      ]
                     }
                   ]
                 },
@@ -13535,6 +17173,68 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "at-rule-descriptor-value-no-unknown",
+                            'Unexpected unknown value "unset" for descriptor "bottom" (at-rule-descriptor-value-no-unknown)',
+                            "  bottom: unset;",
+                            "37:11 - 37:16",
+                            `/en-US/docs/Web/CSS/CSS_anchor_positioning/Try_options_hiding
+[at-rule-descriptor-value-no-unknown] Unexpected unknown value "unset" for descriptor "bottom" (at-rule-descriptor-value-no-unknown)
+~~~
+.anchor {
+  font-size: 1.8rem;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  background-color: hsl(240 100% 75%);
+  width: fit-content;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 3px;
+}
+
+.anchor {
+  anchor-name: --myAnchor;
+  position: absolute;
+  top: 100px;
+  left: 45%;
+}
+
+.infobox {
+  color: darkblue;
+  background-color: azure;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+form {
+  position: fixed;
+  bottom: 2px;
+  right: 2px;
+}
+
+@position-try --custom-bottom {
+  top: anchor(bottom);
+  bottom: unset;
+  margin-top: 10px;
+}
+
+.infobox {
+  position: fixed;
+  position-anchor: --myAnchor;
+  bottom: anchor(top);
+  margin-bottom: 10px;
+  justify-self: anchor-center;
+  position-try-fallbacks: --custom-bottom;
+}
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -13551,19 +17251,283 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "anchor-size(width)" for property "left" (declaration-property-value-no-unknown)',
+                            "left: anchor-size(width);",
+                            "1:7 - 1:25",
+                            `/en-US/docs/Web/CSS/CSS_anchor_positioning/Using
+[declaration-property-value-no-unknown] Unexpected unknown value "anchor-size(width)" for property "left" (declaration-property-value-no-unknown)
+~~~
+left: anchor-size(width);
+inset-inline-end: anchor-size(--myAnchor height, 100px);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "anchor-size(--myAnchor height, 100px)" for property "inset-inline-end" (declaration-property-value-no-unknown)',
+                            "inset-inline-end: anchor-size(--myAnchor height, 100px);",
+                            "2:19 - 2:56",
+                            `/en-US/docs/Web/CSS/CSS_anchor_positioning/Using
+[declaration-property-value-no-unknown] Unexpected unknown value "anchor-size(--myAnchor height, 100px)" for property "inset-inline-end" (declaration-property-value-no-unknown)
+~~~
+left: anchor-size(width);
+inset-inline-end: anchor-size(--myAnchor height, 100px);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "anchor-size(--myAnchor self-block, 20px)" for property "margin-block-start" (declaration-property-value-no-unknown)',
+                            "margin-block-start: anchor-size(--myAnchor self-block, 20px);",
+                            "2:21 - 2:61",
+                            `/en-US/docs/Web/CSS/CSS_anchor_positioning/Using
+[declaration-property-value-no-unknown] Unexpected unknown value "anchor-size(--myAnchor self-block, 20px)" for property "margin-block-start" (declaration-property-value-no-unknown)
+~~~
+margin-left: calc(anchor-size(width) / 4);
+margin-block-start: anchor-size(--myAnchor self-block, 20px);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "anchor-size(width)" for property "width" (declaration-property-value-no-unknown)',
+                            "  width: anchor-size(width);",
+                            "2:10 - 2:28",
+                            `/en-US/docs/Web/CSS/CSS_anchor_positioning/Using
+[declaration-property-value-no-unknown] Unexpected unknown value "anchor-size(width)" for property "width" (declaration-property-value-no-unknown)
+~~~
+.elem {
+  width: anchor-size(width);
+}
+
+.elem {
+  inline-size: calc(anchor-size(self-inline) * 4);
+}
+
+.anchor {
+  font-size: 1.8rem;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  background-color: hsl(240 100% 75%);
+  width: fit-content;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 3px;
+}
+
+.anchor {
+  anchor-name: --myAnchor;
+}
+
+body {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.infobox {
+  color: darkblue;
+  background-color: azure;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.infobox {
+  position: fixed;
+  position-anchor: --myAnchor;
+  position-area: right;
+  margin-left: 5px;
+  width: calc(anchor-size(width) * 5);
+}
+
+.anchor {
+  text-align: center;
+  width: 30px;
+  transition: 1s width;
+}
+
+.anchor:hover,
+.anchor:focus {
+  width: 50px;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "anchor-size(width)" for property "left" (declaration-property-value-no-unknown)',
+                            "  left: anchor-size(width);",
+                            "47:9 - 47:27",
+                            `/en-US/docs/Web/CSS/CSS_anchor_positioning/Using
+[declaration-property-value-no-unknown] Unexpected unknown value "anchor-size(width)" for property "left" (declaration-property-value-no-unknown)
+~~~
+.anchor {
+  font-size: 2rem;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  background-color: hsl(240 100% 75%);
+  text-align: center;
+  align-content: center;
+  outline: 1px solid black;
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.infobox {
+  align-content: center;
+  color: darkblue;
+  background-color: azure;
+  outline: 1px solid #ddd;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.anchor {
+  anchor-name: --myAnchor;
+  width: 100px;
+  height: 100px;
+  transition: 1s all;
+}
+
+.infobox {
+  position-anchor: --myAnchor;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+}
+
+.anchor:hover,
+.anchor:focus {
+  width: 300px;
+}
+
+.infobox {
+  top: anchor(top);
+  left: anchor-size(width);
+  margin-left: calc(anchor-size(width) / 4);
+}
+~~~
+`
+                          ]
                         }
                       ]
                     }
                   }
                 },
                 css_backgrounds_and_borders: {
-                  children: {},
+                  children: {
+                    using_multiple_backgrounds: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Using_multiple_backgrounds",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "background1" for property "background" (declaration-property-value-no-unknown)',
+                            "    background1,",
+                            "3:5 - 3:16",
+                            `/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Using_multiple_backgrounds
+[declaration-property-value-no-unknown] Unexpected unknown value "background1" for property "background" (declaration-property-value-no-unknown)
+~~~
+.myclass {
+  background:
+    background1,
+    background2,
+    /* …, */ backgroundN;
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/CSS/CSS_backgrounds_and_borders",
                   messages: [
                     {
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Box-shadow_generator"
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "0" for property "border-image-source" (declaration-property-value-no-unknown)',
+                        "    currentColor 0 3deg,",
+                        "39:18 - 39:19",
+                        `/en-US/docs/Web/CSS/CSS_backgrounds_and_borders
+[declaration-property-value-no-unknown] Unexpected unknown value "0" for property "border-image-source" (declaration-property-value-no-unknown)
+~~~
+article {
+  display: flex;
+  gap: 10px;
+}
+div {
+  color: #58ade3;
+  height: 320px;
+  width: 240px;
+  padding: 20px;
+  margin: 10px;
+  border: dotted 15px; /* defaults to \`currentcolor\` */
+  border-radius: 100px 0;
+  background-image:
+    radial-gradient(
+      circle,
+      transparent 60%,
+      currentcolor 60% 70%,
+      transparent 70%
+    ),
+    linear-gradient(45deg, currentcolor, white),
+    linear-gradient(transparent, transparent);
+  /* the third transparent background image was added to provide space for the background color to show through */
+  background-color: currentcolor;
+  background-position: center;
+  background-size:
+    60px 60px,
+    120px 120px;
+  background-clip: content-box, content-box, padding-box;
+  box-shadow:
+    inset 5px 5px 5px rgb(0 0 0 / 0.4),
+    inset -5px -5px 5px rgb(0 0 0 / 0.4),
+    5px 5px 5px rgb(0 0 0 / 0.4),
+    -5px -5px 5px rgb(0 0 0 / 0.4);
+}
+div:first-of-type {
+  border-radius: 0;
+  border-image-source: repeating-conic-gradient(
+    from 3deg at 25% 25%,
+    currentColor 0 3deg,
+    transparent 3deg 6deg
+  );
+  border-image-slice: 30;
+}
+~~~
+`
                       ]
                     }
                   ]
@@ -13619,6 +17583,58 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "1.1" for property "font-size" (declaration-property-value-no-unknown)',
+                            "  font-size: 1.1;",
+                            "12:14 - 12:17",
+                            `/en-US/docs/Web/CSS/CSS_box_sizing/Understanding_aspect-ratio
+[declaration-property-value-no-unknown] Unexpected unknown value "1.1" for property "font-size" (declaration-property-value-no-unknown)
+~~~
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(95px, 1fr));
+}
+
+.item {
+  aspect-ratio: 1;
+}
+
+div {
+  gap: 20px;
+  font-size: 1.1;
+}
+
+div div {
+  background-color: #ccc;
+  aspect-ratio: 1;
+  counter-increment: items;
+}
+
+div div::after {
+  content: counter(items);
+}
+
+.item::after {
+  /*  hide the number if there's content  */
+  position: absolute;
+  color: transparent;
+}
+
+.item {
+  min-height: 0;
+  overflow: auto;
+}
+
+.item > * {
+  max-height: 100%;
+}
+~~~
+`
+                          ]
                         }
                       ]
                     }
@@ -13633,6 +17649,131 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "at-rule-prelude-no-invalid",
+                            'Unexpected invalid prelude "unlayeredStyles.css" for at-rule "@import" (at-rule-prelude-no-invalid)',
+                            "  @import unlayeredStyles.css;",
+                            "2:11 - 2:30",
+                            `/en-US/docs/Web/CSS/CSS_cascade/Cascade
+[at-rule-prelude-no-invalid] Unexpected invalid prelude "unlayeredStyles.css" for at-rule "@import" (at-rule-prelude-no-invalid)
+~~~
+<style>
+  @import unlayeredStyles.css;
+  @import AStyles.css layer(A);
+  @import moreUnlayeredStyles.css;
+  @import BStyles.css layer(B);
+  @import CStyles.css layer(C);
+  p {
+    color: red;
+    padding: 1em !important;
+  }
+</style>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "at-rule-prelude-no-invalid",
+                            'Unexpected invalid prelude "AStyles.css layer(A)" for at-rule "@import" (at-rule-prelude-no-invalid)',
+                            "  @import AStyles.css layer(A);",
+                            "3:11 - 3:31",
+                            `/en-US/docs/Web/CSS/CSS_cascade/Cascade
+[at-rule-prelude-no-invalid] Unexpected invalid prelude "AStyles.css layer(A)" for at-rule "@import" (at-rule-prelude-no-invalid)
+~~~
+<style>
+  @import unlayeredStyles.css;
+  @import AStyles.css layer(A);
+  @import moreUnlayeredStyles.css;
+  @import BStyles.css layer(B);
+  @import CStyles.css layer(C);
+  p {
+    color: red;
+    padding: 1em !important;
+  }
+</style>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "at-rule-prelude-no-invalid",
+                            'Unexpected invalid prelude "moreUnlayeredStyles.css" for at-rule "@import" (at-rule-prelude-no-invalid)',
+                            "  @import moreUnlayeredStyles.css;",
+                            "4:11 - 4:34",
+                            `/en-US/docs/Web/CSS/CSS_cascade/Cascade
+[at-rule-prelude-no-invalid] Unexpected invalid prelude "moreUnlayeredStyles.css" for at-rule "@import" (at-rule-prelude-no-invalid)
+~~~
+<style>
+  @import unlayeredStyles.css;
+  @import AStyles.css layer(A);
+  @import moreUnlayeredStyles.css;
+  @import BStyles.css layer(B);
+  @import CStyles.css layer(C);
+  p {
+    color: red;
+    padding: 1em !important;
+  }
+</style>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "at-rule-prelude-no-invalid",
+                            'Unexpected invalid prelude "BStyles.css layer(B)" for at-rule "@import" (at-rule-prelude-no-invalid)',
+                            "  @import BStyles.css layer(B);",
+                            "5:11 - 5:31",
+                            `/en-US/docs/Web/CSS/CSS_cascade/Cascade
+[at-rule-prelude-no-invalid] Unexpected invalid prelude "BStyles.css layer(B)" for at-rule "@import" (at-rule-prelude-no-invalid)
+~~~
+<style>
+  @import unlayeredStyles.css;
+  @import AStyles.css layer(A);
+  @import moreUnlayeredStyles.css;
+  @import BStyles.css layer(B);
+  @import CStyles.css layer(C);
+  p {
+    color: red;
+    padding: 1em !important;
+  }
+</style>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "at-rule-prelude-no-invalid",
+                            'Unexpected invalid prelude "CStyles.css layer(C)" for at-rule "@import" (at-rule-prelude-no-invalid)',
+                            "  @import CStyles.css layer(C);",
+                            "6:11 - 6:31",
+                            `/en-US/docs/Web/CSS/CSS_cascade/Cascade
+[at-rule-prelude-no-invalid] Unexpected invalid prelude "CStyles.css layer(C)" for at-rule "@import" (at-rule-prelude-no-invalid)
+~~~
+<style>
+  @import unlayeredStyles.css;
+  @import AStyles.css layer(A);
+  @import moreUnlayeredStyles.css;
+  @import BStyles.css layer(B);
+  @import CStyles.css layer(C);
+  p {
+    color: red;
+    padding: 1em !important;
+  }
+</style>
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -13663,6 +17804,44 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "at-rule-prelude-no-invalid",
+                            'Unexpected invalid prelude "TW.css layer()" for at-rule "@import" (at-rule-prelude-no-invalid)',
+                            "  @import TW.css layer();",
+                            "2:11 - 2:25",
+                            `/en-US/docs/Web/CSS/CSS_cascade/Specificity
+[at-rule-prelude-no-invalid] Unexpected invalid prelude "TW.css layer()" for at-rule "@import" (at-rule-prelude-no-invalid)
+~~~
+<style>
+  @import TW.css layer();
+  p,
+  p * {
+    font-size: 1rem;
+  }
+</style>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "at-rule-prelude-no-invalid",
+                            'Unexpected invalid prelude "importantOverrides.css layer()" for at-rule "@import" (at-rule-prelude-no-invalid)',
+                            "  @import importantOverrides.css layer();",
+                            "2:11 - 2:41",
+                            `/en-US/docs/Web/CSS/CSS_cascade/Specificity
+[at-rule-prelude-no-invalid] Unexpected invalid prelude "importantOverrides.css layer()" for at-rule "@import" (at-rule-prelude-no-invalid)
+~~~
+<style>
+  @import importantOverrides.css layer();
+</style>
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -13693,7 +17872,197 @@ css.selectors.-webkit-resizer`,
                   }
                 },
                 css_colors: {
-                  children: {},
+                  children: {
+                    relative_colors: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_colors/Relative_colors",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word color-function (CssSyntaxError)",
+                            "color-function(from origin-color channel1 channel2 channel3)",
+                            "1:1 - 1:15",
+                            `/en-US/docs/Web/CSS/CSS_colors/Relative_colors
+[CssSyntaxError] Unknown word color-function (CssSyntaxError)
+~~~
+color-function(from origin-color channel1 channel2 channel3)
+color-function(from origin-color channel1 channel2 channel3 / alpha)
+
+/* color space included in the case of color() functions */
+color(from origin-color colorspace channel1 channel2 channel3)
+color(from origin-color colorspace channel1 channel2 channel3 / alpha)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word red (CssSyntaxError)",
+                            "red",
+                            "1:1 - 1:4",
+                            `/en-US/docs/Web/CSS/CSS_colors/Relative_colors
+[CssSyntaxError] Unknown word red (CssSyntaxError)
+~~~
+red
+rgb(255 0 0)
+rgb(from red r g b)
+rgb(from red 255 g b)
+rgb(from red 255 0 0)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word rgb (CssSyntaxError)",
+                            "rgb(from red r g b)",
+                            "1:1 - 1:4",
+                            `/en-US/docs/Web/CSS/CSS_colors/Relative_colors
+[CssSyntaxError] Unknown word rgb (CssSyntaxError)
+~~~
+rgb(from red r g b)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word rgb (CssSyntaxError)",
+                            "rgb(from red 0 0 255)",
+                            "1:1 - 1:4",
+                            `/en-US/docs/Web/CSS/CSS_colors/Relative_colors
+[CssSyntaxError] Unknown word rgb (CssSyntaxError)
+~~~
+rgb(from red 0 0 255)
+/* output color is equivalent to rgb(0 0 255), full blue */
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word rgb (CssSyntaxError)",
+                            "rgb(from rgb(200 0 0) r r r)",
+                            "1:1 - 1:4",
+                            `/en-US/docs/Web/CSS/CSS_colors/Relative_colors
+[CssSyntaxError] Unknown word rgb (CssSyntaxError)
+~~~
+rgb(from rgb(200 0 0) r r r)
+/* output color is equivalent to rgb(200 200 200), light gray */
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word rgb (CssSyntaxError)",
+                            "rgb(from rgb(200 170 0) b g r)",
+                            "1:1 - 1:4",
+                            `/en-US/docs/Web/CSS/CSS_colors/Relative_colors
+[CssSyntaxError] Unknown word rgb (CssSyntaxError)
+~~~
+rgb(from rgb(200 170 0) b g r)
+/* output color is equivalent to rgb(0 170 200) */
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word color (CssSyntaxError)",
+                            "color(from red a98-rgb r g b)",
+                            "2:1 - 2:6",
+                            `/en-US/docs/Web/CSS/CSS_colors/Relative_colors
+[CssSyntaxError] Unknown word color (CssSyntaxError)
+~~~
+/* color() with and without alpha channel */
+color(from red a98-rgb r g b)
+color(from red a98-rgb r g b / alpha)
+
+color(from red xyz-d50 x y z)
+color(from red xyz-d50 x y z / alpha)
+
+/* hsl() with and without alpha channel */
+hsl(from red h s l)
+hsl(from red h s l / alpha)
+
+/* hwb() with and without alpha channel */
+hwb(from red h w b)
+hwb(from red h w b / alpha)
+
+/* lab() with and without alpha channel */
+lab(from red l a b)
+lab(from red l a b / alpha)
+
+/* lch() with and without alpha channel */
+lch(from red l c h)
+lch(from red l c h / alpha)
+
+/* oklab() with and without alpha channel */
+oklab(from red l a b)
+oklab(from red l a b / alpha)
+
+/* oklch() with and without alpha channel */
+oklch(from red l c h)
+oklch(from red l c h / alpha)
+
+/* rgb() with and without alpha channel */
+rgb(from red r g b)
+rgb(from red r g b / alpha)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "from" for property "background-color" (declaration-property-value-no-unknown)',
+                            "  background-color: rgb(from red 200 g b);",
+                            "18:25 - 18:29",
+                            `/en-US/docs/Web/CSS/CSS_colors/Relative_colors
+[declaration-property-value-no-unknown] Unexpected unknown value "from" for property "background-color" (declaration-property-value-no-unknown)
+~~~
+#container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.item {
+  flex: 1;
+  margin: 20px;
+}
+
+#one {
+  background-color: red;
+}
+
+#two {
+  background-color: rgb(from red 200 g b);
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/CSS/CSS_colors",
                   messages: [
                     {
@@ -13703,6 +18072,79 @@ css.selectors.-webkit-resizer`,
                       ]
                     }
                   ]
+                },
+                css_conditional_rules: {
+                  children: {
+                    using_feature_queries: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_conditional_rules/Using_feature_queries",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "at-rule-prelude-no-invalid",
+                            'Unexpected invalid prelude "<support-condition>" for at-rule "@supports" (at-rule-prelude-no-invalid)',
+                            "@supports <support-condition> {",
+                            "2:11 - 2:30",
+                            `/en-US/docs/Web/CSS/CSS_conditional_rules/Using_feature_queries
+[at-rule-prelude-no-invalid] Unexpected invalid prelude "<support-condition>" for at-rule "@supports" (at-rule-prelude-no-invalid)
+~~~
+/* \`@supports\` at-rule */
+@supports <support-condition> {
+  /* CSS rules to apply */
+}
+
+/* \`supports()\` function */
+@import url_to_import supports(<declaration>);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "at-rule-prelude-no-invalid",
+                            'Unexpected invalid prelude "url_to_import supports(<declaration>)" for at-rule "@import" (at-rule-prelude-no-invalid)',
+                            "@import url_to_import supports(<declaration>);",
+                            "7:9 - 7:46",
+                            `/en-US/docs/Web/CSS/CSS_conditional_rules/Using_feature_queries
+[at-rule-prelude-no-invalid] Unexpected invalid prelude "url_to_import supports(<declaration>)" for at-rule "@import" (at-rule-prelude-no-invalid)
+~~~
+/* \`@supports\` at-rule */
+@supports <support-condition> {
+  /* CSS rules to apply */
+}
+
+/* \`supports()\` function */
+@import url_to_import supports(<declaration>);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "no-invalid-position-at-import-rule",
+                            "Unexpected invalid position @import rule (no-invalid-position-at-import-rule)",
+                            "@import url_to_import supports(<declaration>);",
+                            "7:1 - 7:46",
+                            `/en-US/docs/Web/CSS/CSS_conditional_rules/Using_feature_queries
+[no-invalid-position-at-import-rule] Unexpected invalid position @import rule (no-invalid-position-at-import-rule)
+~~~
+/* \`@supports\` at-rule */
+@supports <support-condition> {
+  /* CSS rules to apply */
+}
+
+/* \`supports()\` function */
+@import url_to_import supports(<declaration>);
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 css_containment: {
                   children: {
@@ -13717,6 +18159,66 @@ css.selectors.-webkit-resizer`,
                             "css.at-rules.container",
                             "Expected:",
                             "[None]"
+                          ]
+                        }
+                      ]
+                    },
+                    using_css_containment: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_containment/Using_CSS_containment",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "" for property "contain-intrinsic-size" (declaration-property-value-no-unknown)',
+                            "  contain-intrinsic-size: 100vw auto;",
+                            "3:37 - 3:38",
+                            `/en-US/docs/Web/CSS/CSS_containment/Using_CSS_containment
+[declaration-property-value-no-unknown] Unexpected unknown value "" for property "contain-intrinsic-size" (declaration-property-value-no-unknown)
+~~~
+article {
+  contain: size;
+  contain-intrinsic-size: 100vw auto;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "" for property "contain-intrinsic-size" (declaration-property-value-no-unknown)',
+                            "  contain-intrinsic-size: 80vw auto;",
+                            "3:36 - 3:37",
+                            `/en-US/docs/Web/CSS/CSS_containment/Using_CSS_containment
+[declaration-property-value-no-unknown] Unexpected unknown value "" for property "contain-intrinsic-size" (declaration-property-value-no-unknown)
+~~~
+article {
+  contain: strict;
+  contain-intrinsic-size: 80vw auto;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "" for property "contain-intrinsic-size" (declaration-property-value-no-unknown)',
+                            "  contain-intrinsic-size: 80vw auto;",
+                            "3:36 - 3:37",
+                            `/en-US/docs/Web/CSS/CSS_containment/Using_CSS_containment
+[declaration-property-value-no-unknown] Unexpected unknown value "" for property "contain-intrinsic-size" (declaration-property-value-no-unknown)
+~~~
+article {
+  contain: size layout paint style;
+  contain-intrinsic-size: 80vw auto;
+}
+~~~
+`
                           ]
                         }
                       ]
@@ -13803,6 +18305,29 @@ css.properties.grid-template-rows.masonry`,
                 },
                 css_images: {
                   children: {
+                    implementing_image_sprites_in_css: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_images/Implementing_image_sprites_in_CSS",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Cannot parse property value "<pixels shifted right>px <pixels shifted down>px" for property "background-position" (declaration-property-value-no-unknown)',
+                            "  background-position: <pixels shifted right>px <pixels shifted down>px;",
+                            "2:24 - 2:72",
+                            `/en-US/docs/Web/CSS/CSS_images/Implementing_image_sprites_in_CSS
+[declaration-property-value-no-unknown] Cannot parse property value "<pixels shifted right>px <pixels shifted down>px" for property "background-position" (declaration-property-value-no-unknown)
+~~~
+#btn:hover {
+  background-position: <pixels shifted right>px <pixels shifted down>px;
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
                     replaced_element_properties: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_images/Replaced_element_properties",
@@ -13853,6 +18378,78 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            `Unexpected unknown value "shape(
+    from 20px 70px,
+    arc to 100px 70px of 1% cw,
+    arc to 180px 70px of 1% cw,
+    curve to 100px 190px with 180px 130px,
+    curve to 20px 70px with 20px 130px
+  )" for property "clip-path" (declaration-property-value-no-unknown)`,
+                            `  clip-path: shape(
+    from 20px 70px,
+    arc to 100px 70px of 1% cw,
+    arc to 180px 70px of 1% cw,
+    curve to 100px 190px with 180px 130px,
+    curve to 20px 70px with 20px 130px
+  );`,
+                            "2:14 - 8:4",
+                            `/en-US/docs/Web/CSS/CSS_masking/Clipping
+[declaration-property-value-no-unknown] Unexpected unknown value "shape(
+    from 20px 70px,
+    arc to 100px 70px of 1% cw,
+    arc to 180px 70px of 1% cw,
+    curve to 100px 190px with 180px 130px,
+    curve to 20px 70px with 20px 130px
+  )" for property "clip-path" (declaration-property-value-no-unknown)
+~~~
+.heart {
+  clip-path: shape(
+    from 20px 70px,
+    arc to 100px 70px of 1% cw,
+    arc to 180px 70px of 1% cw,
+    curve to 100px 190px with 180px 130px,
+    curve to 20px 70px with 20px 130px
+  );
+}
+
+:root {
+  --m: 10;
+}
+.heart {
+  width: calc(20px * var(--m));
+  height: calc(20px * var(--m));
+  display: inline-block;
+  background: linear-gradient(rebeccapurple, magenta) blue;
+  clip-path: border-box
+    shape(
+      from calc(2px * var(--m)) calc(7px * var(--m)),
+      arc to calc(10px * var(--m)) calc(7px * var(--m)) of 1% cw,
+      arc to calc(18px * var(--m)) calc(7px * var(--m)) of 1% cw,
+      curve to calc(10px * var(--m)) calc(19px * var(--m)) with
+        calc(18px * var(--m)) calc(13px * var(--m)),
+      curve to calc(2px * var(--m)) calc(7px * var(--m)) with
+        calc(2px * var(--m)) calc(13px * var(--m))
+    );
+}
+.small {
+  --m: 4;
+}
+
+.medium {
+  --m: 8;
+}
+
+.large {
+  --m: 12;
+}
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -13926,6 +18523,442 @@ css.properties.grid-template-rows.masonry`,
                     }
                   ]
                 },
+                css_nesting: {
+                  children: {
+                    nesting_and_specificity: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_nesting/Nesting_and_specificity",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "selector-type-no-unknown",
+                            'Unexpected unknown type selector "c" (selector-type-no-unknown)',
+                            "  & c {",
+                            "2:5 - 2:6",
+                            `/en-US/docs/Web/CSS/CSS_nesting/Nesting_and_specificity
+[selector-type-no-unknown] Unexpected unknown type selector "c" (selector-type-no-unknown)
+~~~
+#a, b {
+  & c {
+    color: blue;
+  }
+}
+
+.foo c {
+  color: red;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "selector-type-no-unknown",
+                            'Unexpected unknown type selector "c" (selector-type-no-unknown)',
+                            ".foo c {",
+                            "7:6 - 7:7",
+                            `/en-US/docs/Web/CSS/CSS_nesting/Nesting_and_specificity
+[selector-type-no-unknown] Unexpected unknown type selector "c" (selector-type-no-unknown)
+~~~
+#a, b {
+  & c {
+    color: blue;
+  }
+}
+
+.foo c {
+  color: red;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "selector-type-no-unknown",
+                            'Unexpected unknown type selector "c" (selector-type-no-unknown)',
+                            "  & c {",
+                            "2:5 - 2:6",
+                            `/en-US/docs/Web/CSS/CSS_nesting/Nesting_and_specificity
+[selector-type-no-unknown] Unexpected unknown type selector "c" (selector-type-no-unknown)
+~~~
+:is(#a, b) {
+  & c {
+    color: blue;
+  }
+}
+
+.foo c {
+  color: red;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "selector-type-no-unknown",
+                            'Unexpected unknown type selector "c" (selector-type-no-unknown)',
+                            ".foo c {",
+                            "7:6 - 7:7",
+                            `/en-US/docs/Web/CSS/CSS_nesting/Nesting_and_specificity
+[selector-type-no-unknown] Unexpected unknown type selector "c" (selector-type-no-unknown)
+~~~
+:is(#a, b) {
+  & c {
+    color: blue;
+  }
+}
+
+.foo c {
+  color: red;
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    using_css_nesting: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "selector-type-no-unknown",
+                            'Unexpected unknown type selector "parent" (selector-type-no-unknown)',
+                            "parent {",
+                            "2:1 - 2:7",
+                            `/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting
+[selector-type-no-unknown] Unexpected unknown type selector "parent" (selector-type-no-unknown)
+~~~
+/* Without nesting selector */
+parent {
+  /* parent styles */
+  child {
+    /* child of parent styles */
+  }
+}
+
+/* With nesting selector */
+parent {
+  /* parent styles */
+  & child {
+    /* child of parent styles */
+  }
+}
+
+/* the browser will parse both of these as */
+parent {
+  /* parent styles */
+}
+parent child {
+  /* child of parent styles */
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "selector-type-no-unknown",
+                            'Unexpected unknown type selector "child" (selector-type-no-unknown)',
+                            "  child {",
+                            "4:3 - 4:8",
+                            `/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting
+[selector-type-no-unknown] Unexpected unknown type selector "child" (selector-type-no-unknown)
+~~~
+/* Without nesting selector */
+parent {
+  /* parent styles */
+  child {
+    /* child of parent styles */
+  }
+}
+
+/* With nesting selector */
+parent {
+  /* parent styles */
+  & child {
+    /* child of parent styles */
+  }
+}
+
+/* the browser will parse both of these as */
+parent {
+  /* parent styles */
+}
+parent child {
+  /* child of parent styles */
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "selector-type-no-unknown",
+                            'Unexpected unknown type selector "parent" (selector-type-no-unknown)',
+                            "parent {",
+                            "10:1 - 10:7",
+                            `/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting
+[selector-type-no-unknown] Unexpected unknown type selector "parent" (selector-type-no-unknown)
+~~~
+/* Without nesting selector */
+parent {
+  /* parent styles */
+  child {
+    /* child of parent styles */
+  }
+}
+
+/* With nesting selector */
+parent {
+  /* parent styles */
+  & child {
+    /* child of parent styles */
+  }
+}
+
+/* the browser will parse both of these as */
+parent {
+  /* parent styles */
+}
+parent child {
+  /* child of parent styles */
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "selector-type-no-unknown",
+                            'Unexpected unknown type selector "child" (selector-type-no-unknown)',
+                            "  & child {",
+                            "12:5 - 12:10",
+                            `/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting
+[selector-type-no-unknown] Unexpected unknown type selector "child" (selector-type-no-unknown)
+~~~
+/* Without nesting selector */
+parent {
+  /* parent styles */
+  child {
+    /* child of parent styles */
+  }
+}
+
+/* With nesting selector */
+parent {
+  /* parent styles */
+  & child {
+    /* child of parent styles */
+  }
+}
+
+/* the browser will parse both of these as */
+parent {
+  /* parent styles */
+}
+parent child {
+  /* child of parent styles */
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "selector-type-no-unknown",
+                            'Unexpected unknown type selector "parent" (selector-type-no-unknown)',
+                            "parent {",
+                            "18:1 - 18:7",
+                            `/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting
+[selector-type-no-unknown] Unexpected unknown type selector "parent" (selector-type-no-unknown)
+~~~
+/* Without nesting selector */
+parent {
+  /* parent styles */
+  child {
+    /* child of parent styles */
+  }
+}
+
+/* With nesting selector */
+parent {
+  /* parent styles */
+  & child {
+    /* child of parent styles */
+  }
+}
+
+/* the browser will parse both of these as */
+parent {
+  /* parent styles */
+}
+parent child {
+  /* child of parent styles */
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "selector-type-no-unknown",
+                            'Unexpected unknown type selector "parent" (selector-type-no-unknown)',
+                            "parent child {",
+                            "21:1 - 21:7",
+                            `/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting
+[selector-type-no-unknown] Unexpected unknown type selector "parent" (selector-type-no-unknown)
+~~~
+/* Without nesting selector */
+parent {
+  /* parent styles */
+  child {
+    /* child of parent styles */
+  }
+}
+
+/* With nesting selector */
+parent {
+  /* parent styles */
+  & child {
+    /* child of parent styles */
+  }
+}
+
+/* the browser will parse both of these as */
+parent {
+  /* parent styles */
+}
+parent child {
+  /* child of parent styles */
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "selector-type-no-unknown",
+                            'Unexpected unknown type selector "child" (selector-type-no-unknown)',
+                            "parent child {",
+                            "21:8 - 21:13",
+                            `/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting
+[selector-type-no-unknown] Unexpected unknown type selector "child" (selector-type-no-unknown)
+~~~
+/* Without nesting selector */
+parent {
+  /* parent styles */
+  child {
+    /* child of parent styles */
+  }
+}
+
+/* With nesting selector */
+parent {
+  /* parent styles */
+  & child {
+    /* child of parent styles */
+  }
+}
+
+/* the browser will parse both of these as */
+parent {
+  /* parent styles */
+}
+parent child {
+  /* child of parent styles */
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "media-feature-name-no-unknown",
+                            'Unexpected unknown media feature name "screen" (media-feature-name-no-unknown)',
+                            "  @media (screen) {",
+                            "3:11 - 3:17",
+                            `/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting
+[media-feature-name-no-unknown] Unexpected unknown media feature name "screen" (media-feature-name-no-unknown)
+~~~
+.foo {
+  background-color: silver;
+  @media (screen) {
+    color: tomato;
+  }
+  color: black;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "selector-type-no-unknown",
+                            'Unexpected unknown type selector "element" (selector-type-no-unknown)',
+                            "  element& {",
+                            "2:3 - 2:10",
+                            `/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting
+[selector-type-no-unknown] Unexpected unknown type selector "element" (selector-type-no-unknown)
+~~~
+.my-class {
+  element& {
+  }
+}
+
+/* the browser parses this to become a compound selector */
+.my-class {
+}
+element.my-class {
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "selector-type-no-unknown",
+                            'Unexpected unknown type selector "element" (selector-type-no-unknown)',
+                            "element.my-class {",
+                            "9:1 - 9:8",
+                            `/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting
+[selector-type-no-unknown] Unexpected unknown type selector "element" (selector-type-no-unknown)
+~~~
+.my-class {
+  element& {
+  }
+}
+
+/* the browser parses this to become a compound selector */
+.my-class {
+}
+element.my-class {
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 css_overflow: {
                   children: {
                     css_carousels: {
@@ -13944,7 +18977,301 @@ css.properties.grid-template-rows.masonry`,
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/CSS/CSS_overflow",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-keyword-no-deprecated",
+                        'Expected "overlay" to be "auto" (declaration-property-value-keyword-no-deprecated)',
+                        "  overflow: overlay overlay;",
+                        "64:13 - 64:20",
+                        `/en-US/docs/Web/CSS/CSS_overflow
+[declaration-property-value-keyword-no-deprecated] Expected "overlay" to be "auto" (declaration-property-value-keyword-no-deprecated)
+~~~
+article {
+  display: flex;
+  gap: 1em;
+}
+
+label {
+  display: block;
+  white-space: nowrap;
+}
+
+pre {
+  border: 2px dashed crimson;
+  height: 150px;
+  width: 20em;
+  margin-bottom: 3em;
+  overflow-clip-margin: 1em;
+  text-align: center;
+}
+
+.wide {
+  width: 40em;
+}
+
+::before {
+  font-weight: bold;
+  color: white;
+  background: crimson;
+  display: inline-block;
+  min-width: 50%;
+  padding: 3px 5px;
+  box-sizing: border-box;
+}
+
+.hidden {
+  overflow: hidden hidden;
+}
+.hidden::before {
+  content: "hidden: ";
+}
+
+.clip {
+  overflow: clip clip;
+}
+.clip::before {
+  content: "clip: ";
+}
+
+.scroll {
+  overflow: scroll scroll;
+}
+.scroll::before {
+  content: "scroll: ";
+}
+
+.auto {
+  overflow: auto auto;
+}
+.auto::before {
+  content: "auto: ";
+}
+
+.overlay {
+  overflow: clip clip;
+  overflow: overlay overlay;
+}
+.overlay::before {
+  content: "overlay (or clip if not supported): ";
+}
+
+.visible {
+  overflow: visible visible;
+}
+.visible::before {
+  content: "visible: ";
+}
+
+article:not(:has(pre.clip)) > fieldset > label:nth-of-type(2),
+article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
+  fieldset
+  fieldset {
+  opacity: 20%;
+  pointer-events: none;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-keyword-no-deprecated",
+                        'Expected "overlay" to be "auto" (declaration-property-value-keyword-no-deprecated)',
+                        "  overflow: overlay overlay;",
+                        "64:21 - 64:28",
+                        `/en-US/docs/Web/CSS/CSS_overflow
+[declaration-property-value-keyword-no-deprecated] Expected "overlay" to be "auto" (declaration-property-value-keyword-no-deprecated)
+~~~
+article {
+  display: flex;
+  gap: 1em;
+}
+
+label {
+  display: block;
+  white-space: nowrap;
+}
+
+pre {
+  border: 2px dashed crimson;
+  height: 150px;
+  width: 20em;
+  margin-bottom: 3em;
+  overflow-clip-margin: 1em;
+  text-align: center;
+}
+
+.wide {
+  width: 40em;
+}
+
+::before {
+  font-weight: bold;
+  color: white;
+  background: crimson;
+  display: inline-block;
+  min-width: 50%;
+  padding: 3px 5px;
+  box-sizing: border-box;
+}
+
+.hidden {
+  overflow: hidden hidden;
+}
+.hidden::before {
+  content: "hidden: ";
+}
+
+.clip {
+  overflow: clip clip;
+}
+.clip::before {
+  content: "clip: ";
+}
+
+.scroll {
+  overflow: scroll scroll;
+}
+.scroll::before {
+  content: "scroll: ";
+}
+
+.auto {
+  overflow: auto auto;
+}
+.auto::before {
+  content: "auto: ";
+}
+
+.overlay {
+  overflow: clip clip;
+  overflow: overlay overlay;
+}
+.overlay::before {
+  content: "overlay (or clip if not supported): ";
+}
+
+.visible {
+  overflow: visible visible;
+}
+.visible::before {
+  content: "visible: ";
+}
+
+article:not(:has(pre.clip)) > fieldset > label:nth-of-type(2),
+article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
+  fieldset
+  fieldset {
+  opacity: 20%;
+  pointer-events: none;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "overlay" for property "overflow" (declaration-property-value-no-unknown)',
+                        "  overflow: overlay overlay;",
+                        "64:21 - 64:28",
+                        `/en-US/docs/Web/CSS/CSS_overflow
+[declaration-property-value-no-unknown] Unexpected unknown value "overlay" for property "overflow" (declaration-property-value-no-unknown)
+~~~
+article {
+  display: flex;
+  gap: 1em;
+}
+
+label {
+  display: block;
+  white-space: nowrap;
+}
+
+pre {
+  border: 2px dashed crimson;
+  height: 150px;
+  width: 20em;
+  margin-bottom: 3em;
+  overflow-clip-margin: 1em;
+  text-align: center;
+}
+
+.wide {
+  width: 40em;
+}
+
+::before {
+  font-weight: bold;
+  color: white;
+  background: crimson;
+  display: inline-block;
+  min-width: 50%;
+  padding: 3px 5px;
+  box-sizing: border-box;
+}
+
+.hidden {
+  overflow: hidden hidden;
+}
+.hidden::before {
+  content: "hidden: ";
+}
+
+.clip {
+  overflow: clip clip;
+}
+.clip::before {
+  content: "clip: ";
+}
+
+.scroll {
+  overflow: scroll scroll;
+}
+.scroll::before {
+  content: "scroll: ";
+}
+
+.auto {
+  overflow: auto auto;
+}
+.auto::before {
+  content: "auto: ";
+}
+
+.overlay {
+  overflow: clip clip;
+  overflow: overlay overlay;
+}
+.overlay::before {
+  content: "overlay (or clip if not supported): ";
+}
+
+.visible {
+  overflow: visible visible;
+}
+.visible::before {
+  content: "visible: ";
+}
+
+article:not(:has(pre.clip)) > fieldset > label:nth-of-type(2),
+article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
+  fieldset
+  fieldset {
+  opacity: 20%;
+  pointer-events: none;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
                 },
                 css_properties_and_values_api: {
                   children: {
@@ -14087,6 +19414,22 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "at-rule-no-unknown",
+                            'Unexpected unknown at-rule "@identifier" (at-rule-no-unknown)',
+                            "@identifier function([argument]? [, argument]!) {",
+                            "1:1 - 1:12",
+                            `/en-US/docs/Web/CSS/CSS_syntax/At-rule_functions
+[at-rule-no-unknown] Unexpected unknown at-rule "@identifier" (at-rule-no-unknown)
+~~~
+@identifier function([argument]? [, argument]!) {
+}
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -14122,6 +19465,33 @@ css.properties.grid-template-rows.masonry`,
                     }
                   }
                 },
+                css_transitions: {
+                  children: {
+                    using_css_transitions: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_transitions/Using_CSS_transitions",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Cannot parse property value "<property> <duration> <timing-function> <delay>" for property "transition" (declaration-property-value-no-unknown)',
+                            "  transition: <property> <duration> <timing-function> <delay>;",
+                            "2:15 - 2:62",
+                            `/en-US/docs/Web/CSS/CSS_transitions/Using_CSS_transitions
+[declaration-property-value-no-unknown] Cannot parse property value "<property> <duration> <timing-function> <delay>" for property "transition" (declaration-property-value-no-unknown)
+~~~
+div {
+  transition: <property> <duration> <timing-function> <delay>;
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 css_values_and_units: {
                   children: {
                     css_data_types: {
@@ -14139,6 +19509,46 @@ css.properties.grid-template-rows.masonry`,
                           data: [
                             "/en-US/docs/Web/CSS/calc-value"
                           ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Cannot parse property value "<unit-data-type>" for property "property" (declaration-property-value-no-unknown)',
+                            "  property: <unit-data-type>;",
+                            "2:13 - 2:29",
+                            `/en-US/docs/Web/CSS/CSS_Values_and_Units/CSS_data_types
+[declaration-property-value-no-unknown] Cannot parse property value "<unit-data-type>" for property "property" (declaration-property-value-no-unknown)
+~~~
+selector {
+  property: <unit-data-type>;
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    css_value_functions: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_Values_and_Units/CSS_Value_Functions",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Cannot parse property value "function([argument]? [, argument]!)" for property "property" (declaration-property-value-no-unknown)',
+                            "  property: function([argument]? [, argument]!);",
+                            "2:13 - 2:48",
+                            `/en-US/docs/Web/CSS/CSS_Values_and_Units/CSS_Value_Functions
+[declaration-property-value-no-unknown] Cannot parse property value "function([argument]? [, argument]!)" for property "property" (declaration-property-value-no-unknown)
+~~~
+selector {
+  property: function([argument]? [, argument]!);
+}
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -14150,6 +19560,57 @@ css.properties.grid-template-rows.masonry`,
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Web/CSS/toggle"
+                          ]
+                        }
+                      ]
+                    },
+                    using_css_math_functions: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_Values_and_Units/Using_CSS_math_functions",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Cannot parse property value "min(<first value>, <second value>, <third value>, ...)" for property "property" (declaration-property-value-no-unknown)',
+                            "property: min(<first value>, <second value>, <third value>, ...);",
+                            "1:11 - 1:65",
+                            `/en-US/docs/Web/CSS/CSS_Values_and_Units/Using_CSS_math_functions
+[declaration-property-value-no-unknown] Cannot parse property value "min(<first value>, <second value>, <third value>, ...)" for property "property" (declaration-property-value-no-unknown)
+~~~
+property: min(<first value>, <second value>, <third value>, ...);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Cannot parse property value "max(<first value>, <second value>, <third value>, ...)" for property "property" (declaration-property-value-no-unknown)',
+                            "property: max(<first value>, <second value>, <third value>, ...);",
+                            "1:11 - 1:65",
+                            `/en-US/docs/Web/CSS/CSS_Values_and_Units/Using_CSS_math_functions
+[declaration-property-value-no-unknown] Cannot parse property value "max(<first value>, <second value>, <third value>, ...)" for property "property" (declaration-property-value-no-unknown)
+~~~
+property: max(<first value>, <second value>, <third value>, ...);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Cannot parse property value "clamp(<minimum value>, <value to be clamped>, <maximum value>)" for property "property" (declaration-property-value-no-unknown)',
+                            "property: clamp(<minimum value>, <value to be clamped>, <maximum value>);",
+                            "1:11 - 1:73",
+                            `/en-US/docs/Web/CSS/CSS_Values_and_Units/Using_CSS_math_functions
+[declaration-property-value-no-unknown] Cannot parse property value "clamp(<minimum value>, <value to be clamped>, <maximum value>)" for property "property" (declaration-property-value-no-unknown)
+~~~
+property: clamp(<minimum value>, <value to be clamped>, <maximum value>);
+~~~
+`
                           ]
                         }
                       ]
@@ -14187,6 +19648,27 @@ css.properties.grid-template-rows.masonry`,
                     {
                       message: "Missing syntax code block",
                       data: []
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "--my-color-profile" for property "background-color" (declaration-property-value-no-unknown)',
+                        "  background-color: color(--my-color-profile 0% 70% 20% 0%);",
+                        "6:27 - 6:45",
+                        `/en-US/docs/Web/CSS/dashed-ident
+[declaration-property-value-no-unknown] Unexpected unknown value "--my-color-profile" for property "background-color" (declaration-property-value-no-unknown)
+~~~
+@color-profile --my-color-profile {
+  src: url("https://example.org/SWOP2006_Coated5v2.icc");
+}
+
+.header {
+  background-color: color(--my-color-profile 0% 70% 20% 0%);
+}
+~~~
+`
+                      ]
                     }
                   ]
                 },
@@ -14260,15 +19742,287 @@ css.properties.grid-template-rows.masonry`,
                     }
                   ]
                 },
+                "easing-function": {
+                  children: {
+                    "cubic-bezier": {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/easing-function/cubic-bezier",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word cubic-bezier (CssSyntaxError)",
+                            "cubic-bezier(0.1, 0.7, 1.0, 0.1)",
+                            "2:1 - 2:13",
+                            `/en-US/docs/Web/CSS/easing-function/cubic-bezier
+[CssSyntaxError] Unknown word cubic-bezier (CssSyntaxError)
+~~~
+/* The canonical Bézier curve with four <number> in the [0,1] range */
+cubic-bezier(0.1, 0.7, 1.0, 0.1)
+
+/* Using <integer> is valid because any <integer> is also a <number> */
+cubic-bezier(0, 0, 1, 1)
+
+/* Negative values for ordinates are valid, leading to bouncing effects */
+cubic-bezier(0.1, -0.6, 0.2, 0)
+
+/* Values greater than 1.0 for ordinates are also valid */
+cubic-bezier(0, 1.1, 0.8, 4)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word cubic-bezier (CssSyntaxError)",
+                            "cubic-bezier(0.1, red, 1.0, green)",
+                            "2:1 - 2:13",
+                            `/en-US/docs/Web/CSS/easing-function/cubic-bezier
+[CssSyntaxError] Unknown word cubic-bezier (CssSyntaxError)
+~~~
+/* Parameters must be numbers */
+cubic-bezier(0.1, red, 1.0, green)
+
+/* X coordinates must be in the [0, 1] range */
+cubic-bezier(2.45, 0.6, 4, 0.1)
+
+/* There must be exactly four parameters */
+cubic-bezier(0.3, 2.1)
+
+/* X coordinates must be in the [0, 1] range */
+cubic-bezier(-1.9, 0.3, -0.2, 2.1)
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    linear: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/easing-function/linear",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word linear (CssSyntaxError)",
+                            "linear(0, 0.25, 1)",
+                            "2:1 - 2:7",
+                            `/en-US/docs/Web/CSS/easing-function/linear
+[CssSyntaxError] Unknown word linear (CssSyntaxError)
+~~~
+/* Three evenly distributed progress points */
+linear(0, 0.25, 1)
+
+/* Custom timing with percentage values */
+linear(0, 0.5 25% 75%, 1)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word linear (CssSyntaxError)",
+                            "linear(0.5)",
+                            "2:1 - 2:7",
+                            `/en-US/docs/Web/CSS/easing-function/linear
+[CssSyntaxError] Unknown word linear (CssSyntaxError)
+~~~
+/* At least two parameters are required */
+linear(0.5)
+
+/* Percentages must be in ascending order */
+linear(0, 0.25 80%, 0.5 60%, 1)
+
+/* Values must be numbers */
+linear(start, middle, end)
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    steps: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/easing-function/steps",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word steps (CssSyntaxError)",
+                            "steps(2, jump-start)  /* Or steps(2, start) */",
+                            "1:1 - 1:6",
+                            `/en-US/docs/Web/CSS/easing-function/steps
+[CssSyntaxError] Unknown word steps (CssSyntaxError)
+~~~
+steps(2, jump-start)  /* Or steps(2, start) */
+steps(4, jump-end)    /* Or steps(4, end) */
+steps(5, jump-none)
+steps(3, jump-both)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word steps (CssSyntaxError)",
+                            "steps(5, end)",
+                            "2:1 - 2:6",
+                            `/en-US/docs/Web/CSS/easing-function/steps
+[CssSyntaxError] Unknown word steps (CssSyntaxError)
+~~~
+/* Five steps with jump at the end */
+steps(5, end)
+
+/* Two steps with jump at the start */
+steps(2, start)
+
+/* Using default second parameter */
+steps(2)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word steps (CssSyntaxError)",
+                            "steps(2.0, jump-end)",
+                            "2:1 - 2:6",
+                            `/en-US/docs/Web/CSS/easing-function/steps
+[CssSyntaxError] Unknown word steps (CssSyntaxError)
+~~~
+/* First parameter must be an <integer>, not a real value */
+steps(2.0, jump-end)
+
+/* Number of steps must be positive */
+steps(-3, start)
+
+/* Number of steps must be at least 1 */
+steps(0, jump-none)
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                "field-sizing": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/field-sizing",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "property-no-unknown",
+                        'Unexpected unknown property "valign" (property-no-unknown)',
+                        "  valign: top;",
+                        "25:3 - 25:9",
+                        `/en-US/docs/Web/CSS/field-sizing
+[property-no-unknown] Unexpected unknown property "valign" (property-no-unknown)
+~~~
+body {
+  box-sizing: border-box;
+  display: flex;
+  gap: 20px;
+  font-family: sans-serif;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1rem;
+  text-align: center;
+  flex: 1 0 100%;
+}
+
+div {
+  margin-bottom: 20px;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+select {
+  valign: top;
+}
+
+.field-sizing select {
+  field-sizing: content;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                fill: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/fill",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "fill-opacity": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/fill-opacity",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "fill-rule": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/fill-rule",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 filter: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/filter",
                   messages: [
                     {
-                      message: "Broken external link",
+                      message: "CSS code issue",
                       data: [
-                        "https://drafts.fxtf.org/filter-effects-1/",
-                        "The operation timed out."
+                        "declaration-property-value-no-unknown",
+                        'Cannot parse property value "<filter-function> [<filter-function>]* | none" for property "filter" (declaration-property-value-no-unknown)',
+                        "filter: <filter-function> [<filter-function>]* | none;",
+                        "1:9 - 1:54",
+                        `/en-US/docs/Web/CSS/filter
+[declaration-property-value-no-unknown] Cannot parse property value "<filter-function> [<filter-function>]* | none" for property "filter" (declaration-property-value-no-unknown)
+~~~
+filter: <filter-function> [<filter-function>]* | none;
+~~~
+`
                       ]
                     }
                   ]
@@ -14284,10 +20038,37 @@ css.properties.grid-template-rows.masonry`,
                           data: []
                         },
                         {
-                          message: "Broken external link",
+                          message: "CSS code issue",
                           data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
+                            "CssSyntaxError",
+                            "Unknown word blur (CssSyntaxError)",
+                            "blur(radius)",
+                            "1:1 - 1:5",
+                            `/en-US/docs/Web/CSS/filter-function/blur
+[CssSyntaxError] Unknown word blur (CssSyntaxError)
+~~~
+blur(radius)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word blur (CssSyntaxError)",
+                            "blur()         /* No effect */",
+                            "1:1 - 1:5",
+                            `/en-US/docs/Web/CSS/filter-function/blur
+[CssSyntaxError] Unknown word blur (CssSyntaxError)
+~~~
+blur()         /* No effect */
+blur(0)        /* No effect */
+
+blur(8px)      /* Blur with 8px radius */
+blur(1.17rem)  /* Blur with 1.17rem radius */
+~~~
+`
                           ]
                         }
                       ]
@@ -14297,10 +20078,29 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/brightness",
                       messages: [
                         {
-                          message: "Broken external link",
+                          message: "CSS code issue",
                           data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
+                            "CssSyntaxError",
+                            "Unknown word brightness (CssSyntaxError)",
+                            "brightness(0)   /* Brightness is reduced to zero, so input turns black */",
+                            "1:1 - 1:11",
+                            `/en-US/docs/Web/CSS/filter-function/brightness
+[CssSyntaxError] Unknown word brightness (CssSyntaxError)
+~~~
+brightness(0)   /* Brightness is reduced to zero, so input turns black */
+brightness(0%)
+
+brightness(0.4) /* Brightness of input is reduced to 40%, so input is 60% darker */
+brightness(40%)
+
+brightens()     /* Brightness of input is not changed */
+brightness(1)
+brightness(100%)
+
+brightness(2)   /* Brightness of input is doubled */
+brightness(200%)
+~~~
+`
                           ]
                         }
                       ]
@@ -14310,23 +20110,29 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/contrast",
                       messages: [
                         {
-                          message: "Broken external link",
+                          message: "CSS code issue",
                           data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "drop-shadow": {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/filter-function/drop-shadow",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
+                            "CssSyntaxError",
+                            "Unknown word contrast (CssSyntaxError)",
+                            "contrast(0)    /* Completely gray */",
+                            "1:1 - 1:9",
+                            `/en-US/docs/Web/CSS/filter-function/contrast
+[CssSyntaxError] Unknown word contrast (CssSyntaxError)
+~~~
+contrast(0)    /* Completely gray */
+contrast(0%)
+
+contrast(0.65) /* 65% contrast */
+contrast(65%)
+
+contrast()     /* No effect */
+contrast(1)
+contrast(100%)
+
+contrast(2)    /* Double contrast */
+contrast(200%)
+~~~
+`
                           ]
                         }
                       ]
@@ -14336,10 +20142,23 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/grayscale",
                       messages: [
                         {
-                          message: "Broken external link",
+                          message: "CSS code issue",
                           data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
+                            "CssSyntaxError",
+                            "Unknown word grayscale (CssSyntaxError)",
+                            "grayscale(0)     /* No effect */",
+                            "1:1 - 1:10",
+                            `/en-US/docs/Web/CSS/filter-function/grayscale
+[CssSyntaxError] Unknown word grayscale (CssSyntaxError)
+~~~
+grayscale(0)     /* No effect */
+grayscale(.7)    /* 70% grayscale */
+
+grayscale()      /* Completely grayscale */
+grayscale(1)
+grayscale(100%)
+~~~
+`
                           ]
                         }
                       ]
@@ -14353,10 +20172,37 @@ css.properties.grid-template-rows.masonry`,
                           data: []
                         },
                         {
-                          message: "Broken external link",
+                          message: "CSS code issue",
                           data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
+                            "CssSyntaxError",
+                            "Unknown word hue-rotate (CssSyntaxError)",
+                            "hue-rotate(angle)",
+                            "1:1 - 1:11",
+                            `/en-US/docs/Web/CSS/filter-function/hue-rotate
+[CssSyntaxError] Unknown word hue-rotate (CssSyntaxError)
+~~~
+hue-rotate(angle)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word hue-rotate (CssSyntaxError)",
+                            "hue-rotate(-180deg)",
+                            "1:1 - 1:11",
+                            `/en-US/docs/Web/CSS/filter-function/hue-rotate
+[CssSyntaxError] Unknown word hue-rotate (CssSyntaxError)
+~~~
+hue-rotate(-180deg)
+hue-rotate(540deg)
+hue-rotate(200grad)
+hue-rotate(3.14159rad)
+hue-rotate(0.5turn)
+~~~
+`
                           ]
                         }
                       ]
@@ -14366,10 +20212,23 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/invert",
                       messages: [
                         {
-                          message: "Broken external link",
+                          message: "CSS code issue",
                           data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
+                            "CssSyntaxError",
+                            "Unknown word invert (CssSyntaxError)",
+                            "invert(0)     /* No effect */",
+                            "1:1 - 1:7",
+                            `/en-US/docs/Web/CSS/filter-function/invert
+[CssSyntaxError] Unknown word invert (CssSyntaxError)
+~~~
+invert(0)     /* No effect */
+invert(.6)    /* 60% inversion */
+
+invert()      /* Completely inverted */
+invert(1)
+invert(100%)
+~~~
+`
                           ]
                         }
                       ]
@@ -14379,10 +20238,22 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/opacity",
                       messages: [
                         {
-                          message: "Broken external link",
+                          message: "CSS code issue",
                           data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
+                            "CssSyntaxError",
+                            "Unknown word opacity (CssSyntaxError)",
+                            "opacity(0%)   /* Completely transparent */",
+                            "1:1 - 1:8",
+                            `/en-US/docs/Web/CSS/filter-function/opacity
+[CssSyntaxError] Unknown word opacity (CssSyntaxError)
+~~~
+opacity(0%)   /* Completely transparent */
+opacity(50%)  /* 50% transparent */
+
+opacity()     /* No effect */
+opacity(1)
+~~~
+`
                           ]
                         }
                       ]
@@ -14392,10 +20263,22 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/saturate",
                       messages: [
                         {
-                          message: "Broken external link",
+                          message: "CSS code issue",
                           data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
+                            "CssSyntaxError",
+                            "Unknown word saturate (CssSyntaxError)",
+                            "saturate(0)     /* Completely unsaturated */",
+                            "1:1 - 1:9",
+                            `/en-US/docs/Web/CSS/filter-function/saturate
+[CssSyntaxError] Unknown word saturate (CssSyntaxError)
+~~~
+saturate(0)     /* Completely unsaturated */
+saturate(.4)    /* 40% saturated */
+saturate()      /* No effect */
+saturate(100%)  /* No effect */
+saturate(200%)  /* Double saturation */
+~~~
+`
                           ]
                         }
                       ]
@@ -14405,10 +20288,22 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/filter-function/sepia",
                       messages: [
                         {
-                          message: "Broken external link",
+                          message: "CSS code issue",
                           data: [
-                            "https://drafts.fxtf.org/filter-effects-1/",
-                            "The operation timed out."
+                            "CssSyntaxError",
+                            "Unknown word sepia (CssSyntaxError)",
+                            "sepia(0)     /* No effect */",
+                            "1:1 - 1:6",
+                            `/en-US/docs/Web/CSS/filter-function/sepia
+[CssSyntaxError] Unknown word sepia (CssSyntaxError)
+~~~
+sepia(0)     /* No effect */
+sepia(.65)   /* 65% sepia */
+
+sepia()      /* Completely sepia */
+sepia(100%)
+~~~
+`
                           ]
                         }
                       ]
@@ -14421,10 +20316,25 @@ css.properties.grid-template-rows.masonry`,
                       data: []
                     },
                     {
-                      message: "Broken external link",
+                      message: "CSS code issue",
                       data: [
-                        "https://drafts.fxtf.org/filter-effects-1/",
-                        "The operation timed out."
+                        "declaration-property-value-no-unknown",
+                        'Cannot parse property value "<filter-function>(<value>)" for property "filter" (declaration-property-value-no-unknown)',
+                        "  filter: <filter-function>(<value>);",
+                        "7:11 - 7:37",
+                        `/en-US/docs/Web/CSS/filter-function
+[declaration-property-value-no-unknown] Cannot parse property value "<filter-function>(<value>)" for property "filter" (declaration-property-value-no-unknown)
+~~~
+div {
+  width: 100%;
+  height: 512px;
+  background: url(fx-nightly-512.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  filter: <filter-function>(<value>);
+}
+~~~
+`
                       ]
                     }
                   ]
@@ -14446,6 +20356,28 @@ css.properties.grid-template-rows.masonry`,
                     {
                       message: "Missing syntax code block",
                       data: []
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "CssSyntaxError",
+                        "Unknown word fit-content (CssSyntaxError)",
+                        "fit-content(200px)",
+                        "2:1 - 2:12",
+                        `/en-US/docs/Web/CSS/fit-content_function
+[CssSyntaxError] Unknown word fit-content (CssSyntaxError)
+~~~
+/* <length> values */
+fit-content(200px)
+fit-content(5cm)
+fit-content(30vw)
+fit-content(100ch)
+
+/* <percentage> value */
+fit-content(40%)
+~~~
+`
+                      ]
                     },
                     {
                       message: "Unexpected BCD keys",
@@ -14473,6 +20405,48 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
+                flex: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/flex",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "property-no-unknown",
+                        'Unexpected unknown property "text-select" (property-no-unknown)',
+                        "  text-select: none;",
+                        "3:3 - 3:14",
+                        `/en-US/docs/Web/CSS/flex
+[property-no-unknown] Unexpected unknown property "text-select" (property-no-unknown)
+~~~
+body * {
+  padding: 1rem;
+  text-select: none;
+  box-sizing: border-box;
+  font-family: Consolas, Arial, sans-serif;
+}
+
+#flex-container {
+  border: 2px dashed gray;
+  display: flex;
+}
+
+#flex-auto {
+  cursor: pointer;
+  background-color: wheat;
+
+  flex: auto;
+}
+
+#default {
+  background-color: lightblue;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
                 flex_value: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/flex_value",
@@ -14483,28 +20457,25 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
-                "flood-color": {
+                "flex-flow": {
                   children: {},
-                  slug: "/en-US/docs/Web/CSS/flood-color",
+                  slug: "/en-US/docs/Web/CSS/flex-flow",
                   messages: [
                     {
-                      message: "Broken external link",
+                      message: "CSS code issue",
                       data: [
-                        "https://drafts.fxtf.org/filter-effects-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "flood-opacity": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/flood-opacity",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/filter-effects-1/",
-                        "The operation timed out."
+                        "selector-type-no-unknown",
+                        'Unexpected unknown type selector "element" (selector-type-no-unknown)',
+                        "element {",
+                        "1:1 - 1:8",
+                        `/en-US/docs/Web/CSS/flex-flow
+[selector-type-no-unknown] Unexpected unknown type selector "element" (selector-type-no-unknown)
+~~~
+element {
+  flex-flow: column-reverse wrap;
+}
+~~~
+`
                       ]
                     }
                   ]
@@ -14525,6 +20496,260 @@ css.properties.width.fit-content_function`
                       data: [
                         "/en-US/docs/Web/CSS/font-stretch",
                         "#interpolation"
+                      ]
+                    }
+                  ]
+                },
+                "font-palette": {
+                  children: {
+                    "palette-mix": {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/font-palette/palette-mix",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "palette-mix(in lch, --blueNabla 55%, --yellowNabla 45%)" for property "font-palette" (declaration-property-value-no-unknown)',
+                            "  font-palette: palette-mix(in lch, --blueNabla 55%, --yellowNabla 45%);",
+                            "29:17 - 29:72",
+                            `/en-US/docs/Web/CSS/font-palette/palette-mix
+[declaration-property-value-no-unknown] Unexpected unknown value "palette-mix(in lch, --blueNabla 55%, --yellowNabla 45%)" for property "font-palette" (declaration-property-value-no-unknown)
+~~~
+@import url("https://fonts.googleapis.com/css2?family=Nabla&display=swap");
+
+@font-palette-values --blueNabla {
+  font-family: Nabla;
+  base-palette: 2; /* this is Nabla's blue palette */
+}
+
+@font-palette-values --yellowNabla {
+  font-family: Nabla;
+  base-palette: 7; /* this is Nabla's yellow palette */
+}
+
+p {
+  font-family: "Nabla";
+  font-size: 4rem;
+  text-align: center;
+  margin: 0;
+}
+
+.yellowPalette {
+  font-palette: --yellowNabla;
+}
+
+.bluePalette {
+  font-palette: --blueNabla;
+}
+
+.mixedPalette {
+  font-palette: palette-mix(in lch, --blueNabla 55%, --yellowNabla 45%);
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                "font-synthesis": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/font-synthesis",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "sub" for property "font-variant" (declaration-property-value-no-unknown)',
+                        "  font-variant: sub;",
+                        "78:17 - 78:20",
+                        `/en-US/docs/Web/CSS/font-synthesis
+[declaration-property-value-no-unknown] Unexpected unknown value "sub" for property "font-variant" (declaration-property-value-no-unknown)
+~~~
+@font-face {
+  font-family: Oxygen;
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.gstatic.com/s/oxygen/v14/2sDfZG1Wl4LcnbuKjk0m.woff2")
+    format("woff2");
+}
+
+/* [108] */
+@font-face {
+  font-family: "Ma Shan Zheng";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.108.woff2")
+    format("woff2");
+}
+/* [110] */
+@font-face {
+  font-family: "Ma Shan Zheng";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.110.woff2")
+    format("woff2");
+}
+/* [117] */
+@font-face {
+  font-family: "Ma Shan Zheng";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.117.woff2")
+    format("woff2");
+}
+/* [118] */
+@font-face {
+  font-family: "Ma Shan Zheng";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.118.woff2")
+    format("woff2");
+}
+/* [119] */
+@font-face {
+  font-family: "Ma Shan Zheng";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.119.woff2")
+    format("woff2");
+}
+
+.english {
+  font-size: 1.2em;
+  font-family: Oxygen;
+}
+
+.chinese {
+  font-size: 1.2em;
+  font-family: "Ma Shan Zheng";
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.small-caps {
+  font-variant: small-caps;
+}
+
+.sub {
+  font-variant: sub;
+}
+
+.sup {
+  font-variant: super;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "super" for property "font-variant" (declaration-property-value-no-unknown)',
+                        "  font-variant: super;",
+                        "82:17 - 82:22",
+                        `/en-US/docs/Web/CSS/font-synthesis
+[declaration-property-value-no-unknown] Unexpected unknown value "super" for property "font-variant" (declaration-property-value-no-unknown)
+~~~
+@font-face {
+  font-family: Oxygen;
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.gstatic.com/s/oxygen/v14/2sDfZG1Wl4LcnbuKjk0m.woff2")
+    format("woff2");
+}
+
+/* [108] */
+@font-face {
+  font-family: "Ma Shan Zheng";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.108.woff2")
+    format("woff2");
+}
+/* [110] */
+@font-face {
+  font-family: "Ma Shan Zheng";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.110.woff2")
+    format("woff2");
+}
+/* [117] */
+@font-face {
+  font-family: "Ma Shan Zheng";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.117.woff2")
+    format("woff2");
+}
+/* [118] */
+@font-face {
+  font-family: "Ma Shan Zheng";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.118.woff2")
+    format("woff2");
+}
+/* [119] */
+@font-face {
+  font-family: "Ma Shan Zheng";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.119.woff2")
+    format("woff2");
+}
+
+.english {
+  font-size: 1.2em;
+  font-family: Oxygen;
+}
+
+.chinese {
+  font-size: 1.2em;
+  font-family: "Ma Shan Zheng";
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.small-caps {
+  font-variant: small-caps;
+}
+
+.sub {
+  font-variant: sub;
+}
+
+.sup {
+  font-variant: super;
+}
+~~~
+`
                       ]
                     }
                   ]
@@ -14598,7 +20823,706 @@ css.properties.width.fit-content_function`
                   ]
                 },
                 gradient: {
-                  children: {},
+                  children: {
+                    "conic-gradient": {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/gradient/conic-gradient",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word conic-gradient (CssSyntaxError)",
+                            "conic-gradient(red, orange, yellow, green, blue);",
+                            "1:1 - 1:15",
+                            `/en-US/docs/Web/CSS/gradient/conic-gradient
+[CssSyntaxError] Unknown word conic-gradient (CssSyntaxError)
+~~~
+conic-gradient(red, orange, yellow, green, blue);
+conic-gradient(red 0deg, orange 90deg, yellow 180deg, green 270deg, blue 360deg);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word conic-gradient (CssSyntaxError)",
+                            "conic-gradient(red 40grad, 80grad, blue 360grad);",
+                            "1:1 - 1:15",
+                            `/en-US/docs/Web/CSS/gradient/conic-gradient
+[CssSyntaxError] Unknown word conic-gradient (CssSyntaxError)
+~~~
+conic-gradient(red 40grad, 80grad, blue 360grad);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word conic-gradient (CssSyntaxError)",
+                            "conic-gradient(#fff 0.09turn, #bbb 0.09turn, #bbb 0.27turn, #666 0.27turn, #666 0.54turn, #000 0.54turn);",
+                            "1:1 - 1:15",
+                            `/en-US/docs/Web/CSS/gradient/conic-gradient
+[CssSyntaxError] Unknown word conic-gradient (CssSyntaxError)
+~~~
+conic-gradient(#fff 0.09turn, #bbb 0.09turn, #bbb 0.27turn, #666 0.27turn, #666 0.54turn, #000 0.54turn);
+conic-gradient(#fff 0turn 0.09turn, #bbb 0.09turn 0.27turn, #666 0.27turn 0.54turn, #000 0.54turn 1turn);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word conic-gradient (CssSyntaxError)",
+                            "conic-gradient(red .8rad, yellow .6rad, blue 1.3rad);",
+                            "1:1 - 1:15",
+                            `/en-US/docs/Web/CSS/gradient/conic-gradient
+[CssSyntaxError] Unknown word conic-gradient (CssSyntaxError)
+~~~
+conic-gradient(red .8rad, yellow .6rad, blue 1.3rad);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word conic-gradient (CssSyntaxError)",
+                            "conic-gradient(#fff 90deg, #000 0.25turn 0.5turn, #fff 1rad 1.5rad, #000 300grad);",
+                            "1:1 - 1:15",
+                            `/en-US/docs/Web/CSS/gradient/conic-gradient
+[CssSyntaxError] Unknown word conic-gradient (CssSyntaxError)
+~~~
+conic-gradient(#fff 90deg, #000 0.25turn 0.5turn, #fff 1rad 1.5rad, #000 300grad);
+background-size: 25% 25%;
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "in" for property "background-image" (declaration-property-value-no-unknown)',
+                            "  background-image: conic-gradient(in hsl shorter hue, red, blue);",
+                            "21:36 - 21:38",
+                            `/en-US/docs/Web/CSS/gradient/conic-gradient
+[declaration-property-value-no-unknown] Unexpected unknown value "in" for property "background-image" (declaration-property-value-no-unknown)
+~~~
+div {
+  display: inline-block;
+  margin-top: 1rem;
+  width: 45vw;
+  height: 80vh;
+}
+
+.shorter::before {
+  content: "shorter hue";
+  display: block;
+  margin-top: -1rem;
+}
+
+.longer::before {
+  content: "longer hue";
+  display: block;
+  margin-top: -1rem;
+}
+
+.shorter {
+  background-image: conic-gradient(in hsl shorter hue, red, blue);
+}
+
+.longer {
+  background-image: conic-gradient(in hsl longer hue, red, blue);
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "in" for property "background-image" (declaration-property-value-no-unknown)',
+                            "  background-image: conic-gradient(in hsl longer hue, red, blue);",
+                            "25:36 - 25:38",
+                            `/en-US/docs/Web/CSS/gradient/conic-gradient
+[declaration-property-value-no-unknown] Unexpected unknown value "in" for property "background-image" (declaration-property-value-no-unknown)
+~~~
+div {
+  display: inline-block;
+  margin-top: 1rem;
+  width: 45vw;
+  height: 80vh;
+}
+
+.shorter::before {
+  content: "shorter hue";
+  display: block;
+  margin-top: -1rem;
+}
+
+.longer::before {
+  content: "longer hue";
+  display: block;
+  margin-top: -1rem;
+}
+
+.shorter {
+  background-image: conic-gradient(in hsl shorter hue, red, blue);
+}
+
+.longer {
+  background-image: conic-gradient(in hsl longer hue, red, blue);
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    "linear-gradient": {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/gradient/linear-gradient",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word linear-gradient (CssSyntaxError)",
+                            "linear-gradient(red, orange, yellow, green, blue);",
+                            "1:1 - 1:16",
+                            `/en-US/docs/Web/CSS/gradient/linear-gradient
+[CssSyntaxError] Unknown word linear-gradient (CssSyntaxError)
+~~~
+linear-gradient(red, orange, yellow, green, blue);
+linear-gradient(red 0%, orange 25%, yellow 50%, green 75%, blue 100%);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word linear-gradient (CssSyntaxError)",
+                            "linear-gradient(red 10%, 30%, blue 90%);",
+                            "1:1 - 1:16",
+                            `/en-US/docs/Web/CSS/gradient/linear-gradient
+[CssSyntaxError] Unknown word linear-gradient (CssSyntaxError)
+~~~
+linear-gradient(red 10%, 30%, blue 90%);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word linear-gradient (CssSyntaxError)",
+                            "linear-gradient(red 40%, yellow 30%, blue 65%);",
+                            "1:1 - 1:16",
+                            `/en-US/docs/Web/CSS/gradient/linear-gradient
+[CssSyntaxError] Unknown word linear-gradient (CssSyntaxError)
+~~~
+linear-gradient(red 40%, yellow 30%, blue 65%);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word linear-gradient (CssSyntaxError)",
+                            "linear-gradient(red 0%, orange 10%, orange 30%, yellow 50%, yellow 70%, green 90%, green 100%);",
+                            "1:1 - 1:16",
+                            `/en-US/docs/Web/CSS/gradient/linear-gradient
+[CssSyntaxError] Unknown word linear-gradient (CssSyntaxError)
+~~~
+linear-gradient(red 0%, orange 10%, orange 30%, yellow 50%, yellow 70%, green 90%, green 100%);
+linear-gradient(red, orange 10% 30%, yellow 50% 70%, green 90%);
+linear-gradient(red 0%, orange 10% 30%, yellow 50% 70%, green 90% 100%);
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    "radial-gradient": {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/gradient/radial-gradient",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "in" for property "background-image" (declaration-property-value-no-unknown)',
+                            "    circle at center in hsl shorter hue,",
+                            "22:22 - 22:24",
+                            `/en-US/docs/Web/CSS/gradient/radial-gradient
+[declaration-property-value-no-unknown] Unexpected unknown value "in" for property "background-image" (declaration-property-value-no-unknown)
+~~~
+div {
+  display: inline-block;
+  margin-top: 1rem;
+  width: 45vw;
+  height: 80vh;
+}
+
+.shorter::before {
+  content: "shorter hue";
+  display: block;
+  margin-top: -1rem;
+}
+
+.longer::before {
+  content: "longer hue";
+  display: block;
+  margin-top: -1rem;
+}
+
+.shorter {
+  background-image: radial-gradient(
+    circle at center in hsl shorter hue,
+    red,
+    blue
+  );
+}
+
+.longer {
+  background-image: radial-gradient(
+    circle at center in hsl longer hue,
+    red,
+    blue
+  );
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "in" for property "background-image" (declaration-property-value-no-unknown)',
+                            "    circle at center in hsl longer hue,",
+                            "30:22 - 30:24",
+                            `/en-US/docs/Web/CSS/gradient/radial-gradient
+[declaration-property-value-no-unknown] Unexpected unknown value "in" for property "background-image" (declaration-property-value-no-unknown)
+~~~
+div {
+  display: inline-block;
+  margin-top: 1rem;
+  width: 45vw;
+  height: 80vh;
+}
+
+.shorter::before {
+  content: "shorter hue";
+  display: block;
+  margin-top: -1rem;
+}
+
+.longer::before {
+  content: "longer hue";
+  display: block;
+  margin-top: -1rem;
+}
+
+.shorter {
+  background-image: radial-gradient(
+    circle at center in hsl shorter hue,
+    red,
+    blue
+  );
+}
+
+.longer {
+  background-image: radial-gradient(
+    circle at center in hsl longer hue,
+    red,
+    blue
+  );
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    "repeating-conic-gradient": {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/gradient/repeating-conic-gradient",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word repeating-conic-gradient (CssSyntaxError)",
+                            "repeating-conic-gradient(from 0deg, red 0deg 30deg, yellow 30deg 60deg, blue 60deg 90deg);",
+                            "1:1 - 1:25",
+                            `/en-US/docs/Web/CSS/gradient/repeating-conic-gradient
+[CssSyntaxError] Unknown word repeating-conic-gradient (CssSyntaxError)
+~~~
+repeating-conic-gradient(from 0deg, red 0deg 30deg, yellow 30deg 60deg, blue 60deg 90deg);
+
+repeating-radial-gradient(red 0 8%, yellow 8% 16%, blue 16% 24%);
+
+conic-gradient(red 120deg, yellow 120deg 240deg, blue 240deg);
+
+radial-gradient(red 33%, yellow 33% 66%, blue 66%);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word repeating-conic-gradient (CssSyntaxError)",
+                            "repeating-conic-gradient(red, orange, yellow, green, blue 50%);",
+                            "1:1 - 1:25",
+                            `/en-US/docs/Web/CSS/gradient/repeating-conic-gradient
+[CssSyntaxError] Unknown word repeating-conic-gradient (CssSyntaxError)
+~~~
+repeating-conic-gradient(red, orange, yellow, green, blue 50%);
+repeating-conic-gradient(from -45deg, red 45deg, orange, yellow, green, blue 225deg)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "0" for property "background-image" (declaration-property-value-no-unknown)',
+                            "  background-image: repeating-conic-gradient(#fff 0 9deg, #000 9deg 18deg);",
+                            "7:51 - 7:52",
+                            `/en-US/docs/Web/CSS/gradient/repeating-conic-gradient
+[declaration-property-value-no-unknown] Unexpected unknown value "0" for property "background-image" (declaration-property-value-no-unknown)
+~~~
+div {
+  width: 200px;
+  height: 200px;
+}
+
+div {
+  background-image: repeating-conic-gradient(#fff 0 9deg, #000 9deg 18deg);
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "in" for property "background-image" (declaration-property-value-no-unknown)',
+                            "    in hsl shorter hue,",
+                            "22:5 - 22:7",
+                            `/en-US/docs/Web/CSS/gradient/repeating-conic-gradient
+[declaration-property-value-no-unknown] Unexpected unknown value "in" for property "background-image" (declaration-property-value-no-unknown)
+~~~
+div {
+  display: inline-block;
+  margin-top: 1rem;
+  width: 45vw;
+  height: 80vh;
+}
+
+.shorter::before {
+  content: "shorter hue";
+  display: block;
+  margin-top: -1rem;
+}
+
+.longer::before {
+  content: "longer hue";
+  display: block;
+  margin-top: -1rem;
+}
+
+.shorter {
+  background-image: repeating-conic-gradient(
+    in hsl shorter hue,
+    red,
+    blue 180deg
+  );
+}
+
+.longer {
+  background-image: repeating-conic-gradient(
+    in hsl longer hue,
+    red,
+    blue 180deg
+  );
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "in" for property "background-image" (declaration-property-value-no-unknown)',
+                            "    in hsl longer hue,",
+                            "30:5 - 30:7",
+                            `/en-US/docs/Web/CSS/gradient/repeating-conic-gradient
+[declaration-property-value-no-unknown] Unexpected unknown value "in" for property "background-image" (declaration-property-value-no-unknown)
+~~~
+div {
+  display: inline-block;
+  margin-top: 1rem;
+  width: 45vw;
+  height: 80vh;
+}
+
+.shorter::before {
+  content: "shorter hue";
+  display: block;
+  margin-top: -1rem;
+}
+
+.longer::before {
+  content: "longer hue";
+  display: block;
+  margin-top: -1rem;
+}
+
+.shorter {
+  background-image: repeating-conic-gradient(
+    in hsl shorter hue,
+    red,
+    blue 180deg
+  );
+}
+
+.longer {
+  background-image: repeating-conic-gradient(
+    in hsl longer hue,
+    red,
+    blue 180deg
+  );
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    "repeating-linear-gradient": {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/gradient/repeating-linear-gradient",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "in" for property "background" (declaration-property-value-no-unknown)',
+                            "  background: repeating-linear-gradient(90deg in oklab, blue, red 100px);",
+                            "7:47 - 7:49",
+                            `/en-US/docs/Web/CSS/gradient/repeating-linear-gradient
+[declaration-property-value-no-unknown] Unexpected unknown value "in" for property "background" (declaration-property-value-no-unknown)
+~~~
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  background: repeating-linear-gradient(90deg in oklab, blue, red 100px);
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "in" for property "background" (declaration-property-value-no-unknown)',
+                            "    90deg in hsl shorter hue,",
+                            "10:11 - 10:13",
+                            `/en-US/docs/Web/CSS/gradient/repeating-linear-gradient
+[declaration-property-value-no-unknown] Unexpected unknown value "in" for property "background" (declaration-property-value-no-unknown)
+~~~
+div {
+  height: 50vh;
+  color: #330;
+  font-weight: bolder;
+  padding-left: 1.5rem;
+}
+
+.shorter {
+  background: repeating-linear-gradient(
+    90deg in hsl shorter hue,
+    red,
+    blue 300px
+  );
+}
+
+.longer {
+  background: repeating-linear-gradient(
+    90deg in hsl longer hue,
+    red,
+    blue 300px
+  );
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "in" for property "background" (declaration-property-value-no-unknown)',
+                            "    90deg in hsl longer hue,",
+                            "18:11 - 18:13",
+                            `/en-US/docs/Web/CSS/gradient/repeating-linear-gradient
+[declaration-property-value-no-unknown] Unexpected unknown value "in" for property "background" (declaration-property-value-no-unknown)
+~~~
+div {
+  height: 50vh;
+  color: #330;
+  font-weight: bolder;
+  padding-left: 1.5rem;
+}
+
+.shorter {
+  background: repeating-linear-gradient(
+    90deg in hsl shorter hue,
+    red,
+    blue 300px
+  );
+}
+
+.longer {
+  background: repeating-linear-gradient(
+    90deg in hsl longer hue,
+    red,
+    blue 300px
+  );
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    "repeating-radial-gradient": {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/gradient/repeating-radial-gradient",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "in" for property "background-image" (declaration-property-value-no-unknown)',
+                            "    circle at center in hsl shorter hue,",
+                            "22:22 - 22:24",
+                            `/en-US/docs/Web/CSS/gradient/repeating-radial-gradient
+[declaration-property-value-no-unknown] Unexpected unknown value "in" for property "background-image" (declaration-property-value-no-unknown)
+~~~
+div {
+  display: inline-block;
+  margin-top: 1rem;
+  width: 45vw;
+  height: 80vh;
+}
+
+.shorter::before {
+  content: "shorter hue";
+  display: block;
+  margin-top: -1rem;
+}
+
+.longer::before {
+  content: "longer hue";
+  display: block;
+  margin-top: -1rem;
+}
+
+.shorter {
+  background-image: repeating-radial-gradient(
+    circle at center in hsl shorter hue,
+    red 30px,
+    blue 60px
+  );
+}
+
+.longer {
+  background-image: repeating-radial-gradient(
+    circle at center in hsl longer hue,
+    red 30px,
+    blue 60px
+  );
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "in" for property "background-image" (declaration-property-value-no-unknown)',
+                            "    circle at center in hsl longer hue,",
+                            "30:22 - 30:24",
+                            `/en-US/docs/Web/CSS/gradient/repeating-radial-gradient
+[declaration-property-value-no-unknown] Unexpected unknown value "in" for property "background-image" (declaration-property-value-no-unknown)
+~~~
+div {
+  display: inline-block;
+  margin-top: 1rem;
+  width: 45vw;
+  height: 80vh;
+}
+
+.shorter::before {
+  content: "shorter hue";
+  display: block;
+  margin-top: -1rem;
+}
+
+.longer::before {
+  content: "longer hue";
+  display: block;
+  margin-top: -1rem;
+}
+
+.shorter {
+  background-image: repeating-radial-gradient(
+    circle at center in hsl shorter hue,
+    red 30px,
+    blue 60px
+  );
+}
+
+.longer {
+  background-image: repeating-radial-gradient(
+    circle at center in hsl longer hue,
+    red 30px,
+    blue 60px
+  );
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/CSS/gradient",
                   messages: [
                     {
@@ -14653,6 +21577,23 @@ css.properties.width.fit-content_function`
                       slug: "/en-US/docs/Web/CSS/image/image",
                       messages: [
                         {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "image("sprite.png#xywh=32,64,16,16")" for property "cursor" (declaration-property-value-no-unknown)',
+                            '  cursor: image("sprite.png#xywh=32,64,16,16");',
+                            "2:11 - 2:47",
+                            `/en-US/docs/Web/CSS/image/image
+[declaration-property-value-no-unknown] Unexpected unknown value "image("sprite.png#xywh=32,64,16,16")" for property "cursor" (declaration-property-value-no-unknown)
+~~~
+.box:hover {
+  cursor: image("sprite.png#xywh=32,64,16,16");
+}
+~~~
+`
+                          ]
+                        },
+                        {
                           message: "Not in BCD",
                           data: [
                             "css.types.image.image"
@@ -14675,6 +21616,127 @@ css.properties.width.fit-content_function`
                     {
                       message: "Missing syntax code block",
                       data: []
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "CssSyntaxError",
+                        "Unknown word url (CssSyntaxError)",
+                        "url(test.jpg)               /* A <url>, as long as test.jpg is an actual image */",
+                        "1:1 - 1:4",
+                        `/en-US/docs/Web/CSS/image
+[CssSyntaxError] Unknown word url (CssSyntaxError)
+~~~
+url(test.jpg)               /* A <url>, as long as test.jpg is an actual image */
+linear-gradient(blue, red)  /* A <gradient> */
+element(#real-id)            /* A part of the webpage, referenced with the element() function,
+                               if "real-id" is an existing ID on the page */
+image(ltr 'arrow.png#xywh=0,0,16,16', red)
+                            /* A section 16x16 section of <url>, starting from the top, left of the original
+                               image as long as arrow.png is a supported image, otherwise a solid
+                               red swatch. If language is rtl, the image will be horizontally flipped. */
+cross-fade(20% url(twenty.png), url(eighty.png))
+                            /* cross faded images, with twenty being 20% opaque
+                               and eighty being 80% opaque. */
+image-set('test.jpg' 1x, 'test-2x.jpg' 2x)
+                            /* a selection of images with varying resolutions */
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "CssSyntaxError",
+                        "Unknown word no-url.jpg (CssSyntaxError)",
+                        "no-url.jpg           /* An image file must be defined using the url() function. */",
+                        "1:1 - 1:11",
+                        `/en-US/docs/Web/CSS/image
+[CssSyntaxError] Unknown word no-url.jpg (CssSyntaxError)
+~~~
+no-url.jpg           /* An image file must be defined using the url() function. */
+url(report.pdf)      /* A file pointed to by the url() function must be an image. */
+element(#fakeid)     /* An element ID must be an existing ID on the page. */
+image(z.jpg#xy=0,0)  /* The spatial fragment must be written in the format of xywh=#,#,#,# */
+image-set('cat.jpg' 1x, 'dog.jpg' 1x) /* every image in an image set must have a different resolution */
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "image-orientation": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/image-orientation",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "none" for property "image-orientation" (declaration-property-value-no-unknown)',
+                        "image-orientation: none;",
+                        "1:20 - 1:24",
+                        `/en-US/docs/Web/CSS/image-orientation
+[declaration-property-value-no-unknown] Unexpected unknown value "none" for property "image-orientation" (declaration-property-value-no-unknown)
+~~~
+image-orientation: none;
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "image-rendering": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/image-rendering",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "smooth" for property "image-rendering" (declaration-property-value-no-unknown)',
+                        "image-rendering: smooth;",
+                        "1:18 - 1:24",
+                        `/en-US/docs/Web/CSS/image-rendering
+[declaration-property-value-no-unknown] Unexpected unknown value "smooth" for property "image-rendering" (declaration-property-value-no-unknown)
+~~~
+image-rendering: smooth;
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "smooth" for property "image-rendering" (declaration-property-value-no-unknown)',
+                        "  image-rendering: smooth;",
+                        "10:20 - 10:26",
+                        `/en-US/docs/Web/CSS/image-rendering
+[declaration-property-value-no-unknown] Unexpected unknown value "smooth" for property "image-rendering" (declaration-property-value-no-unknown)
+~~~
+img {
+  height: 200px;
+}
+
+.auto {
+  image-rendering: auto;
+}
+
+.smooth {
+  image-rendering: smooth;
+}
+
+.pixelated {
+  image-rendering: pixelated;
+}
+
+.crisp-edges {
+  image-rendering: crisp-edges;
+}
+~~~
+`
+                      ]
                     }
                   ]
                 },
@@ -14797,19 +21859,6 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
-                "lighting-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/lighting-color",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/filter-effects-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 "line-height-step": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/line-height-step",
@@ -14822,28 +21871,41 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
-                mask: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 "mask-border": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/mask-border",
                   messages: [
                     {
-                      message: "Broken external link",
+                      message: "CSS code issue",
                       data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "30" for property "-webkit-mask-box-image" (declaration-property-value-no-unknown)',
+                        "    30 fill /          /* slice */",
+                        "8:5 - 8:7",
+                        `/en-US/docs/Web/CSS/mask-border
+[declaration-property-value-no-unknown] Unexpected unknown value "30" for property "-webkit-mask-box-image" (declaration-property-value-no-unknown)
+~~~
+.masked {
+  width: 200px;
+  background-color: lavender;
+  border: 18px solid salmon;
+  padding: 10px;
+
+  -webkit-mask-box-image: url("https://mdn.github.io/shared-assets/images/examples/mask-border-diamonds.png")
+    30 fill /          /* slice */
+    20px /             /* width */
+    1px                /* outset */
+    round;             /* repeat */
+
+  mask-border:
+    url("https://mdn.github.io/shared-assets/images/examples/mask-border-diamonds.png")
+    30 fill /        /* slice */
+    20px /           /* width */
+    1px              /* outset */
+    round;           /* repeat */
+}
+~~~
+`
                       ]
                     }
                   ]
@@ -14852,13 +21914,6 @@ css.properties.width.fit-content_function`
                   children: {},
                   slug: "/en-US/docs/Web/CSS/mask-border-mode",
                   messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    },
                     {
                       message: "Not in BCD",
                       data: [
@@ -14876,80 +21931,23 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
-                "mask-border-outset": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-border-outset",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-border-repeat": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-border-repeat",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-border-slice": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-border-slice",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-border-source": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-border-source",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 "mask-border-width": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/mask-border-width",
                   messages: [
                     {
-                      message: "Broken external link",
+                      message: "CSS code issue",
                       data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-clip": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-clip",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "fill" for property "mask-border-width" (declaration-property-value-no-unknown)',
+                        "mask-border-width: 30 fill;",
+                        "1:23 - 1:27",
+                        `/en-US/docs/Web/CSS/mask-border-width
+[declaration-property-value-no-unknown] Unexpected unknown value "fill" for property "mask-border-width" (declaration-property-value-no-unknown)
+~~~
+mask-border-width: 30 fill;
+~~~
+`
                       ]
                     }
                   ]
@@ -14962,104 +21960,6 @@ css.properties.width.fit-content_function`
                       message: "Broken link",
                       data: [
                         "/en-US/Web/SVG/Reference/Attribute/mask-type"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-image": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-image",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-mode": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-mode",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-origin": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-origin",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-position",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-repeat": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-repeat",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-size",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-type": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-type",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -15167,6 +22067,45 @@ css.properties.grid-template-rows.minmax`
                     }
                   ]
                 },
+                offset: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/offset",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/motion-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "offset-anchor": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/offset-anchor",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/motion-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "offset-distance": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/offset-distance",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/motion-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 "offset-path": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/offset-path",
@@ -15194,6 +22133,39 @@ css.properties.grid-template-rows.minmax`
                       data: [
                         "https://jsfiddle.net/ericwilligers/r1snqdan/"
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/motion-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "offset-position": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/offset-position",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/motion-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "offset-rotate": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/offset-rotate",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/motion-1/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -15214,6 +22186,32 @@ css.properties.grid-template-rows.minmax`
                     {
                       message: "Missing syntax code block",
                       data: []
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "CssSyntaxError",
+                        "Unknown word keyword (CssSyntaxError)",
+                        "keyword                  /* Either the horizontal or vertical position; the other axis defaults to center */",
+                        "2:1 - 2:8",
+                        `/en-US/docs/Web/CSS/position_value
+[CssSyntaxError] Unknown word keyword (CssSyntaxError)
+~~~
+/* 1-value syntax */
+keyword                  /* Either the horizontal or vertical position; the other axis defaults to center */
+value                    /* The position on the x-axis; the y-axis defaults to 50% */
+
+/* 2-value syntax */
+keyword keyword          /* A keyword for each direction (the order is irrelevant) */
+keyword value            /* A keyword for horizontal position, value for vertical position */
+value keyword            /* A value for horizontal position, keyword for vertical position */
+value value              /* A value for each direction (horizontal then vertical) */
+
+/* 4-value syntax */
+keyword value keyword value /* Each value is an offset from the keyword that precedes it */
+~~~
+`
+                      ]
                     }
                   ]
                 },
@@ -15226,6 +22224,166 @@ css.properties.grid-template-rows.minmax`
                       data: [
                         "position-area.drawio"
                       ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "CHANGEME" for property "position-area" (declaration-property-value-no-unknown)',
+                        "    position-area: CHANGEME;",
+                        "2:20 - 2:28",
+                        `/en-US/docs/Web/CSS/position-area
+[declaration-property-value-no-unknown] Unexpected unknown value "CHANGEME" for property "position-area" (declaration-property-value-no-unknown)
+~~~
+<div class="anchor" contenteditable="true">⚓︎</div>
+
+<p class="positionedElement" contenteditable="true">This can be edited.</p>
+
+<style contenteditable="true">.positionedElement {
+    position-area: CHANGEME;
+  }
+</style>
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "position-try": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/position-try",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "at-rule-descriptor-value-no-unknown",
+                        'Unexpected unknown value "unset" for descriptor "bottom" (at-rule-descriptor-value-no-unknown)',
+                        "  bottom: unset;",
+                        "37:11 - 37:16",
+                        `/en-US/docs/Web/CSS/position-try
+[at-rule-descriptor-value-no-unknown] Unexpected unknown value "unset" for descriptor "bottom" (at-rule-descriptor-value-no-unknown)
+~~~
+.anchor {
+  font-size: 1.8rem;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  background-color: hsl(240 100% 75%);
+  width: fit-content;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 3px;
+}
+
+.anchor {
+  anchor-name: --myAnchor;
+  position: absolute;
+  top: 100px;
+  left: 45%;
+}
+
+.infobox {
+  color: darkblue;
+  background-color: azure;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+form {
+  position: fixed;
+  bottom: 2px;
+  right: 2px;
+}
+
+@position-try --custom-bottom {
+  top: anchor(bottom);
+  bottom: unset;
+  margin-top: 10px;
+}
+
+.infobox {
+  position: fixed;
+  position-anchor: --myAnchor;
+
+  bottom: anchor(top);
+  margin-bottom: 10px;
+  justify-self: anchor-center;
+
+  position-try: most-height --custom-bottom;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "position-try-order": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/position-try-order",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "at-rule-descriptor-value-no-unknown",
+                        'Unexpected unknown value "unset" for descriptor "bottom" (at-rule-descriptor-value-no-unknown)',
+                        "  bottom: unset;",
+                        "35:11 - 35:16",
+                        `/en-US/docs/Web/CSS/position-try-order
+[at-rule-descriptor-value-no-unknown] Unexpected unknown value "unset" for descriptor "bottom" (at-rule-descriptor-value-no-unknown)
+~~~
+.anchor {
+  font-size: 1.8rem;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  background-color: hsl(240 100% 75%);
+  width: fit-content;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 3px;
+}
+
+.anchor {
+  anchor-name: --myAnchor;
+  margin: 90px auto;
+}
+
+.infobox {
+  color: darkblue;
+  background-color: azure;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+form {
+  position: fixed;
+  bottom: 2px;
+  right: 2px;
+}
+
+@position-try --custom-bottom {
+  top: anchor(bottom);
+  bottom: unset;
+  margin-top: 10px;
+}
+
+.infobox {
+  position: fixed;
+  position-anchor: --myAnchor;
+
+  bottom: anchor(top);
+  margin-bottom: 10px;
+  justify-self: anchor-center;
+
+  position-try: normal --custom-bottom;
+}
+~~~
+`
+                      ]
                     }
                   ]
                 },
@@ -15236,6 +22394,19 @@ css.properties.grid-template-rows.minmax`
                     {
                       message: "Missing syntax code block",
                       data: []
+                    }
+                  ]
+                },
+                ray: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/ray",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/motion-1/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -15794,6 +22965,25 @@ css.properties.grid-template-rows.minmax`
                   slug: "/en-US/docs/Web/CSS/repeat",
                   messages: [
                     {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "max-content" for property "grid-template-columns" (declaration-property-value-no-unknown)',
+                        "    repeat(2, minmax(min-content, max-content));",
+                        "4:35 - 4:46",
+                        `/en-US/docs/Web/CSS/repeat
+[declaration-property-value-no-unknown] Unexpected unknown value "max-content" for property "grid-template-columns" (declaration-property-value-no-unknown)
+~~~
+.wrapper {
+  grid-template-columns:
+    repeat(auto-fill, 10px)
+    repeat(2, minmax(min-content, max-content));
+}
+~~~
+`
+                      ]
+                    },
+                    {
                       message: "Unexpected BCD keys",
                       data: [
                         "Actual:",
@@ -15837,6 +23027,54 @@ css.properties.grid-template-rows.repeat`
                     }
                   ]
                 },
+                round: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/round",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "round(117px, 25px)" for property "height" (declaration-property-value-no-unknown)',
+                        "  height: round(117px, 25px);",
+                        "27:11 - 27:29",
+                        `/en-US/docs/Web/CSS/round
+[declaration-property-value-no-unknown] Unexpected unknown value "round(117px, 25px)" for property "height" (declaration-property-value-no-unknown)
+~~~
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+div.box {
+  width: 100px;
+  height: 100px;
+  background: lightblue;
+  --rounding-interval: 25px;
+}
+
+div.box-2 {
+  height: round(up, 101px, var(--rounding-interval));
+}
+div.box-3 {
+  height: round(down, 122px, var(--rounding-interval));
+}
+div.box-4 {
+  height: round(to-zero, 120px, var(--rounding-interval));
+}
+
+div.box-5 {
+  height: round(117px, 25px);
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
                 "ruby-align": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/ruby-align",
@@ -15845,6 +23083,86 @@ css.properties.grid-template-rows.repeat`
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/CSS/ruby-merge"
+                      ]
+                    }
+                  ]
+                },
+                "scroll-behavior": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/scroll-behavior",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "selector-type-no-unknown",
+                        'Unexpected unknown type selector "scroll-container" (selector-type-no-unknown)',
+                        "scroll-container {",
+                        "9:1 - 9:17",
+                        `/en-US/docs/Web/CSS/scroll-behavior
+[selector-type-no-unknown] Unexpected unknown type selector "scroll-container" (selector-type-no-unknown)
+~~~
+.container {
+  flex-direction: column;
+}
+
+.nav a {
+  color: #009e5f;
+}
+
+scroll-container {
+  border: 1px solid black;
+  display: block;
+  height: 200px;
+  overflow-y: scroll;
+  width: 200px;
+}
+
+scroll-page {
+  align-items: center;
+  display: flex;
+  font-size: 5em;
+  height: 100%;
+  justify-content: center;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "selector-type-no-unknown",
+                        'Unexpected unknown type selector "scroll-page" (selector-type-no-unknown)',
+                        "scroll-page {",
+                        "17:1 - 17:12",
+                        `/en-US/docs/Web/CSS/scroll-behavior
+[selector-type-no-unknown] Unexpected unknown type selector "scroll-page" (selector-type-no-unknown)
+~~~
+.container {
+  flex-direction: column;
+}
+
+.nav a {
+  color: #009e5f;
+}
+
+scroll-container {
+  border: 1px solid black;
+  display: block;
+  height: 200px;
+  overflow-y: scroll;
+  width: 200px;
+}
+
+scroll-page {
+  align-items: center;
+  display: flex;
+  font-size: 5em;
+  height: 100%;
+  justify-content: center;
+}
+~~~
+`
                       ]
                     }
                   ]
@@ -15861,6 +23179,60 @@ css.properties.grid-template-rows.repeat`
                     }
                   ]
                 },
+                "scroll-timeline": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/scroll-timeline",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "vertical" for property "scroll-timeline" (declaration-property-value-no-unknown)',
+                        "  scroll-timeline: --squareTimeline vertical;",
+                        "6:37 - 6:45",
+                        `/en-US/docs/Web/CSS/scroll-timeline
+[declaration-property-value-no-unknown] Unexpected unknown value "vertical" for property "scroll-timeline" (declaration-property-value-no-unknown)
+~~~
+#container {
+  height: 300px;
+  overflow-y: scroll;
+  scroll-timeline: --squareTimeline y;
+  /* Firefox supports the older "vertical" syntax */
+  scroll-timeline: --squareTimeline vertical;
+  position: relative;
+}
+
+#square {
+  background-color: deeppink;
+  width: 100px;
+  height: 100px;
+  animation-name: rotateAnimation;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  animation-timeline: --squareTimeline;
+  position: absolute;
+  bottom: 0;
+}
+
+#stretcher {
+  height: 600px;
+  background: #dedede;
+}
+
+@keyframes rotateAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
                 shape: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/shape",
@@ -15868,6 +23240,44 @@ css.properties.grid-template-rows.repeat`
                     {
                       message: "Missing syntax code block",
                       data: []
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "CssSyntaxError",
+                        "Unknown word rect (CssSyntaxError)",
+                        "rect(top, right, bottom, left)",
+                        "1:1 - 1:5",
+                        `/en-US/docs/Web/CSS/shape
+[CssSyntaxError] Unknown word rect (CssSyntaxError)
+~~~
+rect(top, right, bottom, left)
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                sign: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/sign",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "sign(10%)" for property "background-position" (declaration-property-value-no-unknown)',
+                        "  background-position: sign(10%);",
+                        "2:24 - 2:33",
+                        `/en-US/docs/Web/CSS/sign
+[declaration-property-value-no-unknown] Unexpected unknown value "sign(10%)" for property "background-position" (declaration-property-value-no-unknown)
+~~~
+div {
+  background-position: sign(10%);
+}
+~~~
+`
+                      ]
                     }
                   ]
                 },
@@ -15878,6 +23288,169 @@ css.properties.grid-template-rows.repeat`
                     {
                       message: "Missing syntax code block",
                       data: []
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "CssSyntaxError",
+                        'Unknown word "This string is demarcated by double quotes." (CssSyntaxError)',
+                        '"This string is demarcated by double quotes."',
+                        "2:1 - 2:46",
+                        `/en-US/docs/Web/CSS/string
+[CssSyntaxError] Unknown word "This string is demarcated by double quotes." (CssSyntaxError)
+~~~
+/* Basic strings */
+"This string is demarcated by double quotes."
+'This string is demarcated by single quotes.'
+
+/* Character escaping */
+"This is a string with \\" an escaped double quote."
+"This string also has \\22 an escaped double quote."
+'This is a string with \\' an escaped single quote.'
+'This string also has \\27 an escaped single quote.'
+"This is a string with \\\\ an escaped backslash."
+
+/* New line in a string */
+"This string has a \\Aline break in it."
+
+/* String spanning two lines of code (these two strings will have identical output) */
+"A really long \\
+awesome string"
+"A really long awesome string"
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                stroke: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "linear-gradient(90deg, green, white)" for property "stroke" (declaration-property-value-no-unknown)',
+                        "  stroke: linear-gradient(90deg, green, white);",
+                        "5:11 - 5:47",
+                        `/en-US/docs/Web/CSS/stroke
+[declaration-property-value-no-unknown] Unexpected unknown value "linear-gradient(90deg, green, white)" for property "stroke" (declaration-property-value-no-unknown)
+~~~
+rect {
+  stroke: url(#greenwhite);
+}
+circle {
+  stroke: linear-gradient(90deg, green, white);
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "stroke-dasharray": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke-dasharray",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "stroke-dashoffset": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke-dashoffset",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "stroke-linecap": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke-linecap",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "stroke-linejoin": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke-linejoin",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "stroke-miterlimit": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke-miterlimit",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "stroke-opacity": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke-opacity",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "stroke-width": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke-width",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -15885,6 +23458,23 @@ css.properties.grid-template-rows.repeat`
                   children: {},
                   slug: "/en-US/docs/Web/CSS/symbols",
                   messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "cyclic" for property "list-style" (declaration-property-value-no-unknown)',
+                        '  list-style: symbols(cyclic "*" "†" "‡");',
+                        "2:23 - 2:29",
+                        `/en-US/docs/Web/CSS/symbols
+[declaration-property-value-no-unknown] Unexpected unknown value "cyclic" for property "list-style" (declaration-property-value-no-unknown)
+~~~
+ol {
+  list-style: symbols(cyclic "*" "†" "‡");
+}
+~~~
+`
+                      ]
+                    },
                     {
                       message: "Unexpected BCD keys",
                       data: [
@@ -15954,6 +23544,21 @@ css.properties.list-style-type.symbols`
                         {
                           message: "Missing syntax code block",
                           data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word matrix (CssSyntaxError)",
+                            "matrix(a, b, c, d, tx, ty)",
+                            "1:1 - 1:7",
+                            `/en-US/docs/Web/CSS/transform-function/matrix
+[CssSyntaxError] Unknown word matrix (CssSyntaxError)
+~~~
+matrix(a, b, c, d, tx, ty)
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -15964,6 +23569,21 @@ css.properties.list-style-type.symbols`
                         {
                           message: "Missing syntax code block",
                           data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word matrix3d (CssSyntaxError)",
+                            "matrix3d(a1, b1, c1, d1, a2, b2, c2, d2, a3, b3, c3, d3, a4, b4, c4, d4)",
+                            "1:1 - 1:9",
+                            `/en-US/docs/Web/CSS/transform-function/matrix3d
+[CssSyntaxError] Unknown word matrix3d (CssSyntaxError)
+~~~
+matrix3d(a1, b1, c1, d1, a2, b2, c2, d2, a3, b3, c3, d3, a4, b4, c4, d4)
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -15974,6 +23594,21 @@ css.properties.list-style-type.symbols`
                         {
                           message: "Missing syntax code block",
                           data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word perspective (CssSyntaxError)",
+                            "perspective(d)",
+                            "1:1 - 1:12",
+                            `/en-US/docs/Web/CSS/transform-function/perspective
+[CssSyntaxError] Unknown word perspective (CssSyntaxError)
+~~~
+perspective(d)
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -15984,6 +23619,21 @@ css.properties.list-style-type.symbols`
                         {
                           message: "Missing syntax code block",
                           data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word rotate (CssSyntaxError)",
+                            "rotate(a)",
+                            "1:1 - 1:7",
+                            `/en-US/docs/Web/CSS/transform-function/rotate
+[CssSyntaxError] Unknown word rotate (CssSyntaxError)
+~~~
+rotate(a)
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -15994,6 +23644,36 @@ css.properties.list-style-type.symbols`
                         {
                           message: "Missing syntax code block",
                           data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "" for property "transform" (declaration-property-value-no-unknown)',
+                            "transform: rotate3d(0);",
+                            "1:23 - 1:24",
+                            `/en-US/docs/Web/CSS/transform-function/rotate3d
+[declaration-property-value-no-unknown] Unexpected unknown value "" for property "transform" (declaration-property-value-no-unknown)
+~~~
+transform: rotate3d(0);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word rotate3d (CssSyntaxError)",
+                            "rotate3d(x, y, z, a)",
+                            "1:1 - 1:9",
+                            `/en-US/docs/Web/CSS/transform-function/rotate3d
+[CssSyntaxError] Unknown word rotate3d (CssSyntaxError)
+~~~
+rotate3d(x, y, z, a)
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -16004,6 +23684,21 @@ css.properties.list-style-type.symbols`
                         {
                           message: "Missing syntax code block",
                           data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word rotateX (CssSyntaxError)",
+                            "rotateX(a)",
+                            "1:1 - 1:8",
+                            `/en-US/docs/Web/CSS/transform-function/rotateX
+[CssSyntaxError] Unknown word rotateX (CssSyntaxError)
+~~~
+rotateX(a)
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -16014,6 +23709,21 @@ css.properties.list-style-type.symbols`
                         {
                           message: "Missing syntax code block",
                           data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word rotateY (CssSyntaxError)",
+                            "rotateY(a)",
+                            "1:1 - 1:8",
+                            `/en-US/docs/Web/CSS/transform-function/rotateY
+[CssSyntaxError] Unknown word rotateY (CssSyntaxError)
+~~~
+rotateY(a)
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -16024,6 +23734,21 @@ css.properties.list-style-type.symbols`
                         {
                           message: "Missing syntax code block",
                           data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word rotateZ (CssSyntaxError)",
+                            "rotateZ(a)",
+                            "1:1 - 1:8",
+                            `/en-US/docs/Web/CSS/transform-function/rotateZ
+[CssSyntaxError] Unknown word rotateZ (CssSyntaxError)
+~~~
+rotateZ(a)
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -16034,6 +23759,23 @@ css.properties.list-style-type.symbols`
                         {
                           message: "Missing syntax code block",
                           data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word scale (CssSyntaxError)",
+                            "scale(sx)",
+                            "1:1 - 1:6",
+                            `/en-US/docs/Web/CSS/transform-function/scale
+[CssSyntaxError] Unknown word scale (CssSyntaxError)
+~~~
+scale(sx)
+
+scale(sx, sy)
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -16044,6 +23786,21 @@ css.properties.list-style-type.symbols`
                         {
                           message: "Missing syntax code block",
                           data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word scale3d (CssSyntaxError)",
+                            "scale3d(sx, sy, sz)",
+                            "1:1 - 1:8",
+                            `/en-US/docs/Web/CSS/transform-function/scale3d
+[CssSyntaxError] Unknown word scale3d (CssSyntaxError)
+~~~
+scale3d(sx, sy, sz)
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -16054,6 +23811,23 @@ css.properties.list-style-type.symbols`
                         {
                           message: "Missing syntax code block",
                           data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word skew (CssSyntaxError)",
+                            "skew(ax)",
+                            "1:1 - 1:5",
+                            `/en-US/docs/Web/CSS/transform-function/skew
+[CssSyntaxError] Unknown word skew (CssSyntaxError)
+~~~
+skew(ax)
+
+skew(ax, ay)
+~~~
+`
+                          ]
                         }
                       ]
                     }
@@ -16097,6 +23871,73 @@ css.properties.list-style-type.symbols`
                     {
                       message: "Missing syntax code block",
                       data: []
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "CssSyntaxError",
+                        "Unknown word url (CssSyntaxError)",
+                        'url("https://example.com/images/myImg.jpg");',
+                        "2:1 - 2:4",
+                        `/en-US/docs/Web/CSS/url_function
+[CssSyntaxError] Unknown word url (CssSyntaxError)
+~~~
+/* Basic usage */
+url("https://example.com/images/myImg.jpg");
+url('https://example.com/images/myImg.jpg');
+url(https://example.com/images/myImg.jpg);
+url("data:image/jpeg;base64,iRxVB0…");
+url(myImg.jpg);
+url(#IDofSVGpath);
+
+/* associated properties */
+background-image: url("star.gif");
+list-style-image: url('../images/bullet.jpg');
+content: url("my-icon.jpg");
+cursor: url(my-cursor.cur);
+border-image-source: url(/media/diamonds.png);
+src: url('fantastic-font.woff');
+offset-path: url(#path);
+mask-image: url("masks.svg#mask1");
+
+/* Properties with fallbacks */
+cursor: url(pointer.cur), pointer;
+
+/* Associated short-hand properties */
+background: url('star.gif') bottom right repeat-x blue;
+border-image: url("/media/diamonds.png") 30 fill / 30px / 30px space;
+
+/* As a parameter in another CSS function */
+background-image: cross-fade(20% url(first.png), url(second.png));
+mask-image: image(url(mask.png), skyblue, linear-gradient(rgb(0 0 0 / 100%), transparent));
+
+/* as part of a non-shorthand multiple value */
+content: url(star.svg) url(star.svg) url(star.svg) url(star.svg) url(star.svg);
+
+/* at-rules */
+@document url("https://www.example.com/") { /* … */ }
+@import url("https://www.example.com/style.css");
+@namespace url(http://www.w3.org/1999/xhtml);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "CssSyntaxError",
+                        "Unknown word url (CssSyntaxError)",
+                        'url("https://example.com/image.png")',
+                        "1:1 - 1:4",
+                        `/en-US/docs/Web/CSS/url_function
+[CssSyntaxError] Unknown word url (CssSyntaxError)
+~~~
+url("https://example.com/image.png")
+url('https://example.com/image.png')
+url(https://example.com/image.png)
+~~~
+`
+                      ]
                     }
                   ]
                 },
@@ -16298,23 +24139,6 @@ css.properties.list-style-type.symbols`
             },
             html: {
               children: {
-                guides: {
-                  children: {
-                    date_and_time_formats: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Guides/Date_and_time_formats",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iso.org/iso-8601-date-and-time-format.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 how_to: {
                   children: {
                     add_javascript_to_your_web_page: {
@@ -17381,47 +25205,6 @@ http.headers.Use-As-Dictionary`,
                             }
                           }
                         },
-                        intl: {
-                          children: {
-                            displaynames: {
-                              children: {
-                                of: {
-                                  children: {},
-                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DisplayNames/of",
-                                  messages: [
-                                    {
-                                      message: "Broken external link",
-                                      data: [
-                                        "https://www.iso.org/iso-3166-country-codes.html",
-                                        "The operation timed out."
-                                      ]
-                                    },
-                                    {
-                                      message: "Broken external link",
-                                      data: [
-                                        "https://www.iso.org/iso-4217-currency-codes.html",
-                                        "The operation timed out."
-                                      ]
-                                    }
-                                  ]
-                                }
-                              }
-                            },
-                            supportedvaluesof: {
-                              children: {},
-                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/supportedValuesOf",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://www.iso.org/iso-4217-currency-codes.html",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            }
-                          }
-                        },
                         object: {
                           children: {}
                         },
@@ -17505,13 +25288,6 @@ http.headers.Use-As-Dictionary`,
                           slug: "/en-US/docs/Web/JavaScript/Reference/Statements/function*",
                           messages: [
                             {
-                              message: "HTTP link",
-                              data: [
-                                "http://callbackhell.com/",
-                                ""
-                              ]
-                            },
-                            {
                               message: "JS code issue",
                               data: [
                                 "func-style",
@@ -17533,6 +25309,13 @@ const bar = foo();
 console.log(bar.next()); // {value: 10, done: false}
 ~~~
 `
+                              ]
+                            },
+                            {
+                              message: "HTTP link",
+                              data: [
+                                "http://callbackhell.com/",
+                                ""
                               ]
                             }
                           ]
@@ -17685,101 +25468,6 @@ console.log(bar.next()); // {value: 10, done: false}
                     },
                     formats: {
                       children: {
-                        audio_codecs: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Audio_codecs",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/standard/53943.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/standard/43345.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/standard/22412.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/standard/26797.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        codecs_parameter: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/codecs_parameter",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/standard/54838.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/standard/54838.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        containers: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Containers",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/standard/53943.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/standard/19180.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/standard/74427.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/standard/75929.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/standard/55688.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -17789,27 +25477,6 @@ console.log(bar.next()); // {value: 10, done: false}
                               data: [
                                 "http://hevc.info/",
                                 ""
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/standard/69668.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/standard/22411.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/standard/61152.html",
-                                "The operation timed out."
                               ]
                             }
                           ]
@@ -17985,6 +25652,16 @@ console.log(bar.next()); // {value: 10, done: false}
                     csrf: {
                       children: {},
                       slug: "/en-US/docs/Web/Security/Attacks/CSRF",
+                      messages: [
+                        {
+                          message: "Unreachable via page",
+                          data: []
+                        }
+                      ]
+                    },
+                    mitm: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Security/Attacks/MITM",
                       messages: [
                         {
                           message: "Unreachable via page",
@@ -18171,19 +25848,6 @@ html.elements.script.integrity`,
                             }
                           ]
                         },
-                        begin: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/begin",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/iso-8601-date-and-time-format.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         calcmode: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/calcMode",
@@ -18274,19 +25938,6 @@ svg.elements.tspan.dy`
                                 "Expected:",
                                 `svg.elements.feConvolveMatrix.edgeMode
 svg.elements.feGaussianBlur.edgeMode`
-                              ]
-                            }
-                          ]
-                        },
-                        end: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/end",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.iso.org/iso-8601-date-and-time-format.html",
-                                "The operation timed out."
                               ]
                             }
                           ]
