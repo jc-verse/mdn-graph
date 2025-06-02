@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-jsk22jfs.js";
+} from "./chunk-2bq3gfsn.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -96,46 +96,6 @@ var warnings_processed_default = {
                 },
                 control_mechanisms: {
                   children: {
-                    desktop_with_mouse_and_keyboard: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Techniques/Control_mechanisms/Desktop_with_mouse_and_keyboard",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://phaser.io/docs/2.6.1/Phaser.Keyboard.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://phaser.io/docs/2.6.1/Phaser.KeyCode.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    mobile_touch: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Techniques/Control_mechanisms/Mobile_touch",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://phaser.io/docs/2.6.1/Phaser.Touch.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://phaser.io/docs/2.6.1/Phaser.Pointer.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     other: {
                       children: {},
                       slug: "/en-US/docs/Games/Techniques/Control_mechanisms/Other",
@@ -149,17 +109,7 @@ var warnings_processed_default = {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Games/Techniques/Control_mechanisms",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://phaser.io/",
-                        "Cannot reach server and Bun hangs"
-                      ]
-                    }
-                  ]
+                  }
                 }
               }
             },
@@ -196,114 +146,6 @@ var warnings_processed_default = {
                   ]
                 }
               ]
-            },
-            tutorials: {
-              children: {
-                "2d_breakout_game_phaser": {
-                  children: {
-                    initialize_the_framework: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/Initialize_the_framework",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://phaser.io/download/stable",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    physics: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/Physics",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://phaser.io/docs/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    randomizing_gameplay: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/Randomizing_gameplay",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://phaser.io/docs/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://phaser.io/",
-                        "Cannot reach server and Bun hangs"
-                      ]
-                    }
-                  ]
-                },
-                html5_gamedev_phaser_device_orientation: {
-                  children: {},
-                  slug: "/en-US/docs/Games/Tutorials/HTML5_Gamedev_Phaser_Device_Orientation",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://phaser.io/",
-                        "Cannot reach server and Bun hangs"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://phaser.io/",
-                        "Cannot reach server and Bun hangs"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://phaser.io/docs/",
-                        "Cannot reach server and Bun hangs"
-                      ]
-                    }
-                  ]
-                }
-              },
-              slug: "/en-US/docs/Games/Tutorials",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://phaser.io/",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://phaser.io/",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://phaser.io/",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                }
-              ]
             }
           },
           slug: "/en-US/docs/Games",
@@ -337,19 +179,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            algorithm: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Algorithm",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.bigocheatsheet.com/",
-                    "Cannot reach server and Bun hangs"
-                  ]
                 }
               ]
             },
@@ -434,19 +263,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            chrome: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Chrome",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.nngroup.com/articles/browser-and-gui-chrome/",
-                    403
-                  ]
                 }
               ]
             },
@@ -1866,15 +1682,15 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    headings_and_paragraphs: {
+                    html_images: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Headings_and_paragraphs",
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.nngroup.com/articles/how-long-do-users-stay-on-web-pages/",
-                            403
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -1982,19 +1798,6 @@ var warnings_processed_default = {
               children: {
                 advanced_javascript_objects: {
                   children: {
-                    object_building_practice: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Object_building_practice",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://phaser.io/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     test_your_skills: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Test_your_skills",
@@ -2034,19 +1837,6 @@ var warnings_processed_default = {
                 },
                 forms: {
                   children: {
-                    form_validation: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.nngroup.com/articles/errors-forms-design-guidelines/",
-                            403
-                          ]
-                        }
-                      ]
-                    },
                     how_to_build_custom_form_controls: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls",
@@ -2064,19 +1854,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    },
-                    sending_and_retrieving_form_data: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Sending_and_retrieving_form_data",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.mamp.info/en/downloads/",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     },
@@ -2130,13 +1907,6 @@ var warnings_processed_default = {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2011/11/extensive-guide-web-form-usability/",
-                            "unknown certificate verification error"
-                          ]
                         }
                       ]
                     }
@@ -2159,19 +1929,6 @@ var warnings_processed_default = {
                 },
                 performance: {
                   children: {
-                    multimedia: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Multimedia",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://imageoptim.com/online",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     web_performance_basics: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Web_Performance_Basics",
@@ -2722,19 +2479,6 @@ var(--custom-prop, var(--default-value, red))
                       }
                     }
                   }
-                },
-                writing_style_guide: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Writing_guidelines/Writing_style_guide",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://imageoptim.com/",
-                        "Cannot reach server and Bun hangs"
-                      ]
-                    }
-                  ]
                 }
               },
               slug: "/en-US/docs/MDN/Writing_guidelines",
@@ -4097,26 +3841,6 @@ console.log(value);
 webextensions.api.clipboard`,
                             "Expected:",
                             "[None]"
-                          ]
-                        }
-                      ]
-                    },
-                    intercept_http_requests: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Intercept_HTTP_requests",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://useragentstring.com/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://useragentstring.com/",
-                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -6182,19 +5906,6 @@ else if (e.target.id === "tabs-alert-info") {
                         }
                       ]
                     },
-                    "20": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/20",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/20.0/releasenotes/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     "21": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/21",
@@ -7799,13 +7510,6 @@ else if (e.target.id === "tabs-alert-info") {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.nngroup.com/articles/glanceable-fonts/",
-                            403
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://colorusage.arc.nasa.gov/design_lum_1.php",
                             "Unable to connect. Is the computer able to access the url?"
                           ]
@@ -8099,13 +7803,6 @@ else if (e.target.id === "tabs-alert-info") {
                       data: [
                         "http://paperjs.org/",
                         ""
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://phaser.io/",
-                        "Cannot reach server and Bun hangs"
                       ]
                     }
                   ]
@@ -11330,13 +11027,6 @@ alert(emulateMessage(example5).constructor); // Object
                         "http://www.webglacademy.com/",
                         ""
                       ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://phaser.io/",
-                        "Cannot reach server and Bun hangs"
-                      ]
                     }
                   ]
                 },
@@ -12642,26 +12332,6 @@ overflow: auto;
 position-area: block-end span-inline-end;
 ~~~
 `
-                      ]
-                    }
-                  ]
-                },
-                _doublecolon_placeholder: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::placeholder",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.nngroup.com/articles/form-design-placeholders/",
-                        403
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.nngroup.com/articles/form-design-placeholders/",
-                        403
                       ]
                     }
                   ]
@@ -25704,15 +25374,15 @@ console.log(bar.next()); // {value: 10, done: false}
               children: {
                 guides: {
                   children: {
-                    proving_the_pythagorean_theorem: {
+                    authoring: {
                       children: {},
-                      slug: "/en-US/docs/Web/MathML/Guides/Proving_the_Pythagorean_theorem",
+                      slug: "/en-US/docs/Web/MathML/Guides/Authoring",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.cut-the-knot.org/pythagoras/proof31.gif",
-                            "Cannot reach server and Bun hangs"
+                            "https://www.lyx.org/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -25723,10 +25393,10 @@ console.log(bar.next()); // {value: 10, done: false}
               slug: "/en-US/docs/Web/MathML",
               messages: [
                 {
-                  message: "Broken external link",
+                  message: "HTTP link",
                   data: [
                     "http://eyeasme.com/Joe/MathML/MathML_browser_test.html",
-                    "Cannot reach server and Bun hangs"
+                    ""
                   ]
                 }
               ]
@@ -25842,26 +25512,6 @@ console.log(bar.next()); // {value: 10, done: false}
                     },
                     formats: {
                       children: {
-                        image_types: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Image_types",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://gif.ski/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://ev.buaa.edu.cn/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -25890,10 +25540,10 @@ console.log(bar.next()); // {value: 10, done: false}
                       slug: "/en-US/docs/Web/Performance/Guides/CSS_JavaScript_animation_performance",
                       messages: [
                         {
-                          message: "Broken external link",
+                          message: "HTTP link",
                           data: [
                             "http://velocityjs.org/",
-                            "Cannot reach server and Bun hangs"
+                            ""
                           ]
                         }
                       ]
@@ -26185,23 +25835,6 @@ html.elements.script.integrity`,
             },
             svg: {
               children: {
-                guides: {
-                  children: {
-                    linking: {
-                      children: {},
-                      slug: "/en-US/docs/Web/SVG/Guides/Linking",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.codedread.com/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 reference: {
                   children: {
                     attribute: {
