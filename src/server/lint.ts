@@ -250,12 +250,21 @@ async function checkHTML(
               span: attr.sourceSpan,
             });
           } else if (attr.name === "style") {
-            messages.push({
-              ruleId: "no-style-attr",
-              message: `Do not use the style attribute.`,
-              content,
-              span: attr.sourceSpan,
-            });
+            if (
+              // Not worth fixing
+              !(
+                path ===
+                  "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Paths" &&
+                attr.value === "display:none"
+              )
+            ) {
+              messages.push({
+                ruleId: "no-style-attr",
+                message: `Do not use the style attribute.`,
+                content,
+                span: attr.sourceSpan,
+              });
+            }
           }
         },
         visitElement(el, ctx) {
@@ -266,13 +275,23 @@ async function checkHTML(
               (attr) => attr.name === "type" && attr.value !== "module",
             )
           ) {
-            messages.push({
-              ruleId: "no-inline-script",
-              message:
-                "Do not write JS within the <script> element; use separate JS blocks instead.",
-              content,
-              span: el.sourceSpan,
-            });
+            if (
+              !(
+                el.children.length === 1 &&
+                el.children[0]!.type === "text" &&
+                el.children[0]!.value.trim().match(
+                  /^\/\/ (?:…|Code goes below this line|Your JavaScript goes here|JavaScript goes here|JavaScript code goes here|scene setup goes here|Inline JavaScript code)$|\/\* (?:All of our JavaScript code goes here|all our JavaScript code goes here) \*\/$/,
+                )
+              )
+            ) {
+              messages.push({
+                ruleId: "no-inline-script",
+                message:
+                  "Do not write JS within the <script> element; use separate JS blocks instead.",
+                content,
+                span: el.sourceSpan,
+              });
+            }
             if (el.children.length === 1 && el.children[0]!.type === "text") {
               otherPromises.push(
                 checkJS(el.children[0]!.value, "js", path, report, content),
@@ -285,14 +304,32 @@ async function checkHTML(
                 span: el.sourceSpan,
               });
             }
-          } else if (el.name === "style" && !ctx.isTemplate) {
-            messages.push({
-              ruleId: "no-style-elem",
-              message:
-                "Do not use the <style> element; use separate CSS blocks instead.",
-              content,
-              span: el.sourceSpan,
-            });
+          } else if (
+            el.name === "style" &&
+            !ctx.isTemplate &&
+            // If the style has an id, it is probably used by a script
+            !el.attrs.some((attr) => attr.name === "id")
+          ) {
+            if (
+              !(
+                el.children.length === 1 &&
+                el.children[0]!.type === "text" &&
+                (el.children[0]!.value.trim().match(
+                  /^\/\* (?:…|Add styles here|Insert your CSS here|CSS goes here) \*\/$/,
+                ) ||
+                  // Used by a few game articles
+                  el.children[0]!.value.replace(/\s/g, "") ===
+                    "html,body,canvas{margin:0;padding:0;width:100%;height:100%;font-size:0;}")
+              )
+            ) {
+              messages.push({
+                ruleId: "no-style-elem",
+                message:
+                  "Do not use the <style> element; use separate CSS blocks instead.",
+                content,
+                span: el.sourceSpan,
+              });
+            }
             if (el.children.length === 1 && el.children[0]!.type === "text") {
               otherPromises.push(
                 checkCSS(el.children[0]!.value, "css", path, report, content),
@@ -331,7 +368,6 @@ async function checkHTML(
   await Promise.all(otherPromises);
   const filePath = path.replace("/en-US/docs/", "");
   for (const msg of messages) {
-    continue; // Don't report anything for now
     if (
       htmlLintConfig.ignore.some(
         (ignore) =>

@@ -2,6 +2,9 @@
   "name": "mdn-graph",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "format": "prettier -w . && bun config/sort-lint-errors.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest",
     "prettier": "^3.3.3"
@@ -9,6 +12,7 @@
   "dependencies": {
     "@mdn/browser-compat-data": "6",
     "@types/three": "^0.167.1",
+    "@webref/css": "^6.21.2",
     "angular-html-parser": "^8.1.0",
     "cheerio": "^1.0.0",
     "eslint": "^9.23.0",

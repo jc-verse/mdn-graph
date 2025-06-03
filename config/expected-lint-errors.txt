@@ -26,6 +26,12 @@ function foo() {
 }();
 ~~~
 
+/en-US/docs/Glossary/Semantics
+[no-style-attr] Do not use the style attribute.
+~~~
+<span style="font-size: 32px; margin: 21px 0;">Not a top-level heading!</span>
+~~~
+
 /en-US/docs/Glossary/Vendor_Prefix
 [logical-assignment-operators] Assignment (=) can be replaced with operator assignment (||=).
 ~~~
@@ -35,6 +41,31 @@ window.requestAnimationFrame =
   window.webkitRequestAnimationFrame ||
   window.oRequestAnimationFrame ||
   window.msRequestAnimationFrame;
+~~~
+
+/en-US/docs/Learn_web_development/Core/Accessibility/HTML
+[no-style-attr] Do not use the style attribute.
+~~~
+<span style="font-size: 3em">My heading</span> <br /><br />
+This is the first section of my document.
+<br /><br />
+I'll add another paragraph here too.
+<br /><br />
+1. Here is
+<br /><br />
+2. a list for
+<br /><br />
+3. you to read
+<br /><br />
+<span style="font-size: 2.5em">My subheading</span>
+<br /><br />
+This is the first subsection of my document. I'd love people to be able to find
+this content!
+<br /><br />
+<span style="font-size: 2.5em">My 2nd subheading</span>
+<br /><br />
+This is the second subsection of my content. I think is more interesting than
+the last one.
 ~~~
 
 /en-US/docs/Learn_web_development/Core/CSS_layout/Supporting_Older_Browsers
@@ -91,14 +122,6 @@ export let autofocus: boolean = false;
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Scripting/A_first_splash
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<script>
-  // Your JavaScript goes here
-</script>
-~~~
-
-/en-US/docs/Learn_web_development/Core/Scripting/A_first_splash
 [operator-assignment] Assignment (=) can be replaced with operator assignment (+=).
 ~~~
 let number2 = 1;
@@ -145,6 +168,43 @@ function inchesToMeters(num) {
     console.log("A number was not provided. Please correct the input.");
   }
 }
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/DOM_scripting
+[no-style-attr] Do not use the style attribute.
+~~~
+<p
+  style="color: white; background-color: black; padding: 10px; width: 250px; text-align: center;">
+  We hope you enjoyed the ride.
+</p>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/DOM_scripting
+[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+~~~
+<style>
+  .highlight {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+  }
+</style>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/Events
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<button onclick="bgChange()">Press me</button>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/Events
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<button onclick="alert('Hello, this is my old-fashioned event handler!');">
+  Press me
+</button>
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Scripting/Functions
@@ -207,6 +267,12 @@ const badQuotes = 'This is not allowed!";
 ~~~
 const count = 1;
 count = 2;
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript
+[no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<button onclick="createParagraph()">Click me!</button>
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Scripting/What_went_wrong
@@ -413,6 +479,24 @@ if (userGuess = randomNumber) {
 </ul>
 ~~~
 
+/en-US/docs/Learn_web_development/Core/Structuring_content/Headings_and_paragraphs
+[no-style-attr] Do not use the style attribute.
+~~~
+<span style="font-size: 32px; margin: 21px 0; display: block;">
+  Is this a top level heading?
+</span>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Styling_basics/Cascade_layers
+[no-style-attr] Do not use the style attribute.
+~~~
+<div>
+  <h1 style="color: yellow; background-color: maroon !important;">
+    Inline styles
+  </h1>
+</div>
+~~~
+
 /en-US/docs/Learn_web_development/Core/Styling_basics/Getting_started
 [CssSyntaxError] Unknown word left (CssSyntaxError)
 ~~~
@@ -420,10 +504,83 @@ margin: 0auto;
 padding- left: 10px;
 ~~~
 
+/en-US/docs/Learn_web_development/Core/Styling_basics/Getting_started
+[no-style-attr] Do not use the style attribute.
+~~~
+<span style="color: purple; font-weight: bold">span element</span>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Styling_basics/Getting_started
+[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+~~~
+<style>
+  p {
+    color: purple;
+  }
+</style>
+~~~
+
 /en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Third_party_APIs
 [syntax] Parsing error: Expression expected.
 ~~~
 layers: L.mapquest.tileLayer("map"),
+~~~
+
+/en-US/docs/Learn_web_development/Extensions/Server-side/Django/web_application_security
+[no-inline-event-handlers] Do not use inline event handler "onload".
+~~~
+<html lang="en">
+  <body onload="document.EvilForm.submit()">
+    <form
+      action="http://127.0.0.1:8000/catalog/author/create/"
+      method="post"
+      name="EvilForm">
+      <table>
+        <tr>
+          <th><label for="id_first_name">First name:</label></th>
+          <td>
+            <input
+              id="id_first_name"
+              maxlength="100"
+              name="first_name"
+              type="text"
+              value="Mad"
+              required />
+          </td>
+        </tr>
+        <tr>
+          <th><label for="id_last_name">Last name:</label></th>
+          <td>
+            <input
+              id="id_last_name"
+              maxlength="100"
+              name="last_name"
+              type="text"
+              value="Man"
+              required />
+          </td>
+        </tr>
+        <tr>
+          <th><label for="id_date_of_birth">Date of birth:</label></th>
+          <td>
+            <input id="id_date_of_birth" name="date_of_birth" type="text" />
+          </td>
+        </tr>
+        <tr>
+          <th><label for="id_date_of_death">Died:</label></th>
+          <td>
+            <input
+              id="id_date_of_death"
+              name="date_of_death"
+              type="text"
+              value="12/10/2016" />
+          </td>
+        </tr>
+      </table>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
 ~~~
 
 /en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/forms/Create_genre_form
@@ -495,6 +652,28 @@ console.log(helloChris;
   font-weight: bold;
   font: 12px Verdana; /* font-weight is now set to normal */
 }
+~~~
+
+/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/CSS_FAQ
+[no-style-attr] Do not use the style attribute.
+~~~
+<div id="orange" class="green" style="color: red;">This is red</div>
+~~~
+
+/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/CSS_FAQ
+[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+~~~
+<style>
+  .news {
+    background: black;
+    color: white;
+  }
+  .today {
+    font-weight: bold;
+  }
+</style>
+
+<div class="news today">Content of today's news goes here.</div>
 ~~~
 
 /en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_are_browser_developer_tools
@@ -664,6 +843,26 @@ console.log("Hi! I'm" + name + "!"); // Hi! I'mShilpa!
 function exampleFunc() {
   …
 }
+~~~
+
+/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/CSS_function_page_template
+[CssSyntaxError] Unknown word var (CssSyntaxError)
+~~~
+/* Without a fallback */
+/* var( <custom-property-name> ) */
+var(--custom-prop)
+
+/* With an empty fallback */
+/* var( <custom-property-name> , ) */
+var(--custom-prop,)
+
+/* With a fallback value */
+/* var( <custom-property-name> , <declaration-value> ) */
+var(--custom-prop, initial)
+var(--custom-prop, #FF0000)
+var(--my-background, linear-gradient(transparent, aqua), pink)
+var(--custom-prop, var(--default-value))
+var(--custom-prop, var(--default-value, red))
 ~~~
 
 /en-US/docs/MDN/Writing_guidelines/Page_structures/Syntax_sections
@@ -854,6 +1053,13 @@ div#header {
 ~~~
 
 /en-US/docs/Mozilla/Firefox/Releases/3/Updating_web_applications
+[empty-script] Script element should have non-empty text.
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<script …></script>
+~~~
+
+/en-US/docs/Mozilla/Firefox/Releases/3/Updating_web_applications
 [syntax] Only void, custom and foreign elements can be self closed "script"
 ~~~
 <script … />
@@ -865,20 +1071,88 @@ div#header {
 <script … />
 ~~~
 
-/en-US/docs/Web/Accessibility/ARIA/Guides/Live_regions
-[no-useless-return] Unnecessary return statement.
+/en-US/docs/Mozilla/Firefox/Releases/65
+[no-style-attr] Do not use the style attribute.
 ~~~
-function change(event) {
-  const yearOut = document.getElementById("year-output");
+<div style="-webkit-user-select: all">
+  All
+  <div style="-webkit-user-select: none">None</div>
+</div>
+~~~
 
-  switch (event.target.id) {
-    case "year":
-      yearOut.textContent = event.target.value;
-      break;
-    default:
-      return;
-  }
-}
+/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/menu_role
+[no-style-attr] Do not use the style attribute.
+~~~
+<div>
+  <button
+    type="button"
+    aria-haspopup="menu"
+    aria-controls="colormenu"
+    tabindex="0"
+    aria-label="Text Color: purple">
+    Purple
+  </button>
+  <ul role="menu" id="colormenu" aria-label="Color Options" tabindex="-1">
+    <li
+      role="menuitemradio"
+      aria-checked="true"
+      style="color: purple"
+      tabindex="-1">
+      Purple
+    </li>
+    <li
+      role="menuitemradio"
+      aria-checked="false"
+      style="color: magenta"
+      tabindex="-1">
+      Magenta
+    </li>
+    <li
+      role="menuitemradio"
+      aria-checked="false"
+      style="color: black;"
+      tabindex="-1">
+      Black
+    </li>
+  </ul>
+</div>
+~~~
+
+/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/meter_role
+[no-style-attr] Do not use the style attribute.
+~~~
+<div
+  role="meter"
+  aria-valuenow="90"
+  aria-valuemin="0"
+  aria-valuemax="100"
+  aria-labelledby="cpu_usage_label">
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="width: 90%">
+    <rect x="0" y="0" width="100%" height="100%" fill="currentcolor"></rect>
+  </svg>
+</div>
+~~~
+
+/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/slider_role
+[no-style-attr] Do not use the style attribute.
+~~~
+<div>
+  <div id="temperatureLabel">Temperature</div>
+  <div id="temperatureValue">20°C</div>
+  <div id="temperatureSlider">
+    <div
+      id="temperatureSliderThumb"
+      role="slider"
+      aria-labelledby="temperatureLabel"
+      aria-orientation="vertical"
+      tabindex="0"
+      aria-valuemin="15.0"
+      aria-valuemax="25.0"
+      aria-valuenow="20.0"
+      aria-valuetext="20 degrees Celsius"
+      style="top: calc((25 - 20)*2rem - 0.5rem)"></div>
+  </div>
+</div>
 ~~~
 
 /en-US/docs/Web/API/BaseAudioContext/state
@@ -905,6 +1179,20 @@ for (let i = 0; i < keyframes.length; i++) {
 // Output:
 // 0%
 // 100%
+~~~
+
+/en-US/docs/Web/API/CSSStyleDeclaration/cssText
+[no-style-attr] Do not use the style attribute.
+~~~
+<span id="s1" style="color: red;">Some text</span>
+~~~
+
+/en-US/docs/Web/API/CSSStyleDeclaration/length
+[no-style-attr] Do not use the style attribute.
+~~~
+<div
+  id="div1"
+  style="margin: 0 10px; background-color: #CA1; font-family: monospace"></div>
 ~~~
 
 /en-US/docs/Web/API/CSSStyleSheet/cssRules
@@ -937,6 +1225,104 @@ worker.onmessage = (e) => {
 };
 
 worker.postMessage({ cmd: "list" });
+~~~
+
+/en-US/docs/Web/API/Document_Object_Model/Examples
+[no-style-attr] Do not use the style attribute.
+~~~
+<p>
+  Image 1: no height, width, or style
+  <img id="image1" src="https://www.mozilla.org/images/mozilla-banner.gif" />
+</p>
+
+<p>
+  Image 2: height="50", width="500", but no style
+  <img
+    id="image2"
+    src="https://www.mozilla.org/images/mozilla-banner.gif"
+    height="50"
+    width="500" />
+</p>
+
+<p>
+  Image 3: no height, width, but style="height: 50px; width: 500px;"
+  <img
+    id="image3"
+    src="https://www.mozilla.org/images/mozilla-banner.gif"
+    style="height: 50px; width: 500px;" />
+</p>
+
+<div id="output"></div>
+~~~
+
+/en-US/docs/Web/API/Document_Object_Model/Introduction
+[no-inline-event-handlers] Do not use inline event handler "onload".
+~~~
+<body onload="console.log('Welcome to my home page!');">
+  …
+</body>
+~~~
+
+/en-US/docs/Web/API/Document_Object_Model/Introduction
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<html lang="en">
+  <head>
+    <script>
+      // run this function when the document is loaded
+      window.onload = () => {
+        // create a couple of elements in an otherwise empty HTML page
+        const heading = document.createElement("h1");
+        const headingText = document.createTextNode("Big Head!");
+        heading.appendChild(headingText);
+        document.body.appendChild(heading);
+      };
+    </script>
+  </head>
+  <body></body>
+</html>
+~~~
+
+/en-US/docs/Web/API/Document/DOMContentLoaded_event
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<script>
+  document.addEventListener("DOMContentLoaded", (event) => {
+    console.log("DOM fully loaded and parsed");
+  });
+
+  for (let i = 0; i < 1_000_000_000; i++);
+  // This synchronous script is going to delay parsing of the DOM,
+  // so the DOMContentLoaded event is going to launch later.
+</script>
+~~~
+
+/en-US/docs/Web/API/Document/write
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<script>
+  document.write("<h1>Main title</h1>");
+</script>
+~~~
+
+/en-US/docs/Web/API/Element/currentCSSZoom
+[no-style-attr] Do not use the style attribute.
+~~~
+<div id="parent">
+  parent
+  <div style="zoom: 2" id="child1">
+    child1 (zoom: 2)
+    <div style="zoom: 3" id="child2">
+      child2 (zoom: 3)
+      <div id="child3_rendered">child3_rendered</div>
+      <div style="display: none" id="child3_not-rendered">
+        child3_not-rendered
+      </div>
+    </div>
+  </div>
+</div>
+
+<pre id="log"></pre>
 ~~~
 
 /en-US/docs/Web/API/Element/keydown_event
@@ -972,6 +1358,20 @@ eventTarget.addEventListener("keyup", (event) => {
 
 /en-US/docs/Web/API/EventTarget/addEventListener
 [no-inline-event-handlers] Do not use inline event handler "onclick".
+~~~
+<script>
+  function logID() {
+    console.log(this.id);
+  }
+</script>
+<table id="my_table" onclick="logID();">
+  <!-- when called, `this` will refer to the global object -->
+  …
+</table>
+~~~
+
+/en-US/docs/Web/API/EventTarget/addEventListener
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
 ~~~
 <script>
   function logID() {
@@ -1559,6 +1959,54 @@ color: -internal-light-dark(black, white) !important;
 }
 ~~~
 
+/en-US/docs/Web/CSS/@scope
+[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+~~~
+<parent-element>
+  <style>
+    @scope {
+      rulesets
+    }
+  </style>
+</parent-element>
+~~~
+
+/en-US/docs/Web/CSS/@scope
+[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+~~~
+<section class="article-body">
+  <style>
+    @scope {
+      img {
+        border: 5px solid black;
+        background-color: goldenrod;
+      }
+    }
+  </style>
+
+  <!-- ... -->
+</section>
+~~~
+
+/en-US/docs/Web/CSS/attr
+[declaration-property-value-no-unknown] Cannot parse property value "url(attr(data-icon))" for property "background-image" (declaration-property-value-no-unknown)
+~~~
+span[data-icon] {
+  background-image: url(attr(data-icon));
+}
+~~~
+
+/en-US/docs/Web/CSS/attr
+[declaration-property-value-no-unknown] Unexpected unknown value "1px" for property "content" (declaration-property-value-no-unknown)
+~~~
+div::before {
+  content: attr(text) " World";
+}
+div::before {
+  content: attr(text) 1px;
+}
+~~~
+
 /en-US/docs/Web/CSS/border-bottom
 [declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-bottom" after "border-bottom-style" (declaration-block-no-shorthand-property-overrides)
 ~~~
@@ -2092,6 +2540,44 @@ text-bottom: <img style="vertical-align: text-bottom" src="star.png" alt="star"/
 </p>
 ~~~
 
+/en-US/docs/Web/HTML/Reference/Attributes/rel/preload
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<head>
+  <meta charset="utf-8" />
+  <title>Responsive preload example</title>
+
+  <link
+    rel="preload"
+    href="bg-image-narrow.png"
+    as="image"
+    media="(max-width: 600px)" />
+  <link
+    rel="preload"
+    href="bg-image-wide.png"
+    as="image"
+    media="(min-width: 601px)" />
+
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+  <header>
+    <h1>My site</h1>
+  </header>
+
+  <script>
+    const mediaQueryList = window.matchMedia("(max-width: 600px)");
+    const header = document.querySelector("header");
+
+    if (mediaQueryList.matches) {
+      header.style.backgroundImage = "url(bg-image-narrow.png)";
+    } else {
+      header.style.backgroundImage = "url(bg-image-wide.png)";
+    }
+  </script>
+</body>
+~~~
+
 /en-US/docs/Web/HTML/Reference/Elements/frame
 [syntax] Only void, custom and foreign elements can be self closed "frame"
 ~~~
@@ -2186,6 +2672,44 @@ text-bottom: <img style="vertical-align: text-bottom" src="star.png" alt="star"/
     <rp>(</rp><rt>Malaysia</rt><rp>)</rp>
   </rtc>
 </ruby>
+~~~
+
+/en-US/docs/Web/HTML/Reference/Elements/template
+[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+~~~
+<p hidden>
+  ⛔ Your browser doesn't support <code>shadowrootmode</code> attribute yet.
+</p>
+<article>
+  <style>
+    p {
+      padding: 8px;
+      background-color: wheat;
+    }
+  </style>
+  <p>I'm in the DOM.</p>
+</article>
+<article>
+  <template shadowrootmode="open">
+    <style>
+      p {
+        padding: 8px;
+        background-color: plum;
+      }
+    </style>
+    <p>I'm in the shadow DOM.</p>
+  </template>
+</article>
+~~~
+
+/en-US/docs/Web/HTML/Reference/Global_attributes/hidden
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<div hidden>
+  <script>
+    console.warn("Boo! I'm hidden *and* running!");
+  </script>
+</div>
 ~~~
 
 /en-US/docs/Web/HTTP/Guides/Browser_detection_using_the_user_agent
@@ -3541,32 +4065,6 @@ console.log(
 ~~~
 JSON.stringify({ value: 12345678901234567890 });
 // {"value":12345678901234567000}
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map
-[prefer-arrow-callback] Unexpected function expression.
-~~~
-const myMap = new Map();
-
-const keyString = "a string";
-const keyObj = {};
-const keyFunc = function () {};
-
-// setting the values
-myMap.set(keyString, "value associated with 'a string'");
-myMap.set(keyObj, "value associated with keyObj");
-myMap.set(keyFunc, "value associated with keyFunc");
-
-console.log(myMap.size); // 3
-
-// getting the values
-console.log(myMap.get(keyString)); // "value associated with 'a string'"
-console.log(myMap.get(keyObj)); // "value associated with keyObj"
-console.log(myMap.get(keyFunc)); // "value associated with keyFunc"
-
-console.log(myMap.get("a string")); // "value associated with 'a string'", because keyString === 'a string'
-console.log(myMap.get({})); // undefined, because keyObj !== {}
-console.log(myMap.get(function () {})); // undefined, because keyFunc !== function () {}
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/clz32
@@ -5103,24 +5601,6 @@ import * as myModule from "/modules/my-module.js";
 </html>
 ~~~
 
-/en-US/docs/Web/JavaScript/Reference/Statements/import/with
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <script type="module">
-      import data from "./data.json" with { type: "json" };
-      const p = document.createElement("p");
-      p.textContent = `name: ${data.name}`;
-      document.body.appendChild(p);
-    </script>
-  </head>
-  <body></body>
-</html>
-~~~
-
 /en-US/docs/Web/JavaScript/Reference/Statements/throw
 [syntax] Parsing error: A throw statement must throw an expression.
 ~~~
@@ -5276,6 +5756,17 @@ const a = console?.log
 const bad = `bad escape sequence: \unicode`;
 ~~~
 
+/en-US/docs/Web/Progressive_web_apps/Tutorials/CycleTracker/Service_workers
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!-- Register the app's service worker. -->
+<script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("sw.js");
+  }
+</script>
+~~~
+
 /en-US/docs/Web/Security/Attacks/XSS
 [no-inline-event-handlers] Do not use inline event handler "onerror".
 [no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
@@ -5286,21 +5777,6 @@ const bad = `bad escape sequence: \unicode`;
     alert("hello!");
   </script>
 </div>
-~~~
-
-/en-US/docs/Web/Security/Types_of_attacks
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<form action="https://bank.example.com/withdraw" method="POST">
-  <input type="hidden" name="account" value="bob" />
-  <input type="hidden" name="amount" value="1000000" />
-  <input type="hidden" name="for" value="mallory" />
-</form>
-<script>
-  window.addEventListener("DOMContentLoaded", () => {
-    document.querySelector("form").submit();
-  });
-</script>
 ~~~
 
 /en-US/docs/Web/URI/Reference/Schemes/javascript

@@ -1,3 +1,49 @@
+import cssSyntax from "@webref/css";
+
+const parsedFiles = await cssSyntax.listAll();
+
+function toPropertiesSyntax(spec) {
+  const res = {};
+  for (const prop of spec.properties) {
+    if (prop.value) {
+      res[prop.name] = prop.value;
+    } else if (prop.newValues) {
+      res[prop.name] = `| ${prop.newValues}`;
+    }
+  }
+  return res;
+}
+
+function toTypesSyntax(spec) {
+  const res = {};
+  for (const prop of spec.values) {
+    if (prop.value) {
+      res[prop.name.replace(/^<|>$/g, "")] = prop.value;
+    }
+  }
+  return res;
+}
+
+function mergeSyntaxes(...entries) {
+  const res = {};
+  for (const entry of entries) {
+    for (const [key, value] of Object.entries(entry)) {
+      if (res[key]) {
+        if (value.startsWith("| ")) {
+          res[key] += value;
+        } else if (res[key].startsWith("| ")) {
+          res[key] = value + res[key];
+        } else {
+          res[key] = value;
+        }
+      } else {
+        res[key] = value;
+      }
+    }
+  }
+  return res;
+}
+
 export default function stylelintConfig(isPropertyOnly: boolean) {
   return {
     fix: false,
@@ -20,82 +66,80 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
             },
           },
         },
-        properties: {
-          // LEGACY
-          appearance: "| slider-vertical | base-select", // NEW: base-select
-          display: "| box | -moz-box",
-          "box-align": "start | center | end | baseline | stretch",
-          "box-direction": "normal | reverse",
-          "box-lines": "single | multiple",
-          "box-ordinal-group": "<integer>",
-          "box-orient": "horizontal | vertical | inline-axis | block-axis",
-          "box-pack": "start | center | end | stretch",
-          "text-justify": "| distribute", // TODO: remove
-          // NEW: anchor positioning
-          "align-self": "| anchor-center",
-          "justify-self": "| anchor-center",
-          left: "| <anchor()>",
-          top: "| <anchor()>",
-          right: "| <anchor()>",
-          bottom: "| <anchor()>",
-          // NEW: masonry layout
-          "grid-template-rows": "| masonry",
-          "grid-template-columns": "| masonry",
-          // NEW: CSS carousel
-          "container-type": "normal | [ [ size | inline-size ] || scroll-state ]",
-          // NEW
-          "alignment-baseline": "| text-bottom | text-top",
-          "background-clip": "| border-area",
-          "border-inline-width": "<'border-top-width'>{1,2}",
-          "dominant-baseline": "| text-bottom | text-top",
-          "fill-opacity": "<'opacity'>", // csstree incorrect
-          "margin-trim": "| inline-start | inline-end",
-          "text-transform": "| math-auto",
-          "word-break": "| manual",
-          // NEW: calc-size
-          // https://github.com/stylelint/stylelint/issues/8320
-          // I can't extend the length type, only each property
-          height: "| <calc-size()>",
-          width: "| <calc-size()>",
-          // csstree bugs?
-          "-webkit-mask-repeat-x": "[ repeat | no-repeat | space | round ]#",
-          "-webkit-mask-repeat-y": "[ repeat | no-repeat | space | round ]#",
-          "-webkit-text-stroke-width": "| thin | medium | thick",
-          "mix-blend-mode": "| plus-darker",
-        },
-        types: {
-          // LEGACY
-          "image": "| <-moz-element()> | <-moz-image-rect()>",
-          "-moz-element()": "-moz-element( <id-selector> )",
-          "-moz-image-rect()":
-            "-moz-image-rect( <url> , [ <integer> | <percentage> ]#{4} )",
-          // NEW: anchor positioning
-          "anchor()":
-            "anchor( <anchor-name>? && <anchor-side> , <length-percentage>? )",
-          "anchor-size()":
-            "anchor-size( [ <anchor-name> || <anchor-size> ]? , <length-percentage>? )",
-          "anchor-name": "<dashed-ident>",
-          "anchor-side":
-            "inside | outside | top | left | right | bottom | start | end | self-start | self-end | <percentage> | center",
-          "anchor-size":
-            "width | height | block | inline | self-block | self-inline",
-          // NEW: calc-size
-          // https://github.com/stylelint/stylelint/issues/8320
-          "calc-size()": "calc-size( <calc-size-basis> , <calc-sum> )",
-          "calc-size-basis":
-            "<size-keyword> | <calc-size()> | any | <calc-sum>",
-          length: "| <calc-size()> | <anchor-size()>",
-          // should suffice to accept all valid values
-          "size-keyword":
-            "auto | fit-content | min-content | max-content | fill-available | stretch",
-          // NEW
-          "color()":
-            "color( [ from <color> ]? <colorspace-params> [ / [ <alpha-value> | none ] ]? )",
-          // https://github.com/stylelint/stylelint/issues/8379
-          "easing-function": "| <linear-easing-function>",
-          "linear-easing-function": "linear | <linear()>",
-          "linear()": "linear( [ <number> && <percentage>{0,2} ]# )",
-        },
+        properties: mergeSyntaxes(
+          toPropertiesSyntax(parsedFiles["css-anchor-position"]),
+          toPropertiesSyntax(parsedFiles["css-backgrounds-4"]),
+          toPropertiesSyntax(parsedFiles["css-borders"]),
+          toPropertiesSyntax(parsedFiles["css-box"]),
+          toPropertiesSyntax(parsedFiles["css-conditional-5"]),
+          toPropertiesSyntax(parsedFiles["css-fonts"]),
+          toPropertiesSyntax(parsedFiles["css-images"]),
+          toPropertiesSyntax(parsedFiles["css-inline"]),
+          toPropertiesSyntax(parsedFiles["css-text-4"]),
+          toPropertiesSyntax(parsedFiles["compositing"]),
+          {
+            // LEGACY
+            "alignment-baseline": "| hanging",
+            appearance: "| slider-vertical | base-select", // NEW: base-select
+            display: "| box | -moz-box",
+            "box-align": "start | center | end | baseline | stretch",
+            "box-direction": "normal | reverse",
+            "box-lines": "single | multiple",
+            "box-ordinal-group": "<integer>",
+            "box-orient": "horizontal | vertical | inline-axis | block-axis",
+            "box-pack": "start | center | end | stretch",
+            "text-justify": "| distribute", // TODO: remove
+            "fill-opacity": "<'opacity'>", // csstree incorrect
+            // NEW: calc-size
+            // https://github.com/stylelint/stylelint/issues/8320
+            // I can't extend the length type, only each property
+            height: "| <calc-size()>",
+            width: "| <calc-size()>",
+            // csstree bugs?
+            "-webkit-mask-repeat-x": "[ repeat | no-repeat | space | round ]#",
+            "-webkit-mask-repeat-y": "[ repeat | no-repeat | space | round ]#",
+            "-webkit-text-stroke-width": "| thin | medium | thick",
+          },
+        ),
+        types: mergeSyntaxes(
+          toTypesSyntax(parsedFiles["css-anchor-position"]),
+          toTypesSyntax(parsedFiles["css-backgrounds-4"]),
+          toTypesSyntax(parsedFiles["css-borders"]),
+          toTypesSyntax(parsedFiles["css-color"]),
+          toTypesSyntax(parsedFiles["css-color-5"]),
+          toTypesSyntax(parsedFiles["css-counter-styles"]),
+          toTypesSyntax(parsedFiles["css-easing"]),
+          toTypesSyntax(parsedFiles["css-fonts"]),
+          toTypesSyntax(parsedFiles["css-images"]),
+          toTypesSyntax(parsedFiles["css-images-4"]),
+          { image: "| <paint()>" }, // TODO
+          toTypesSyntax(parsedFiles["css-shapes-2"]),
+          toTypesSyntax(parsedFiles["css-text-4"]),
+          toTypesSyntax(parsedFiles["css-values-5"]),
+          {
+            // should suffice to accept all valid values
+            "size-keyword":
+              "auto | fit-content | min-content | max-content | fill-available | stretch",
+            // TODO: verify
+            "attr-unit":
+              "string | color | url | integer | number | length | angle | time | frequency | cap | ch | em | ex | ic | lh | rlh | rem | vb | vi | vw | vh | vmin | vmax | mm | Q | cm | in | pt | pc | px | deg | grad | rad | turn | ms | s | Hz | kHz | %",
+          },
+          toTypesSyntax(parsedFiles["compositing"]),
+          {
+            // I think this is a bug with the compositing spec:
+            // <background-blend-mode> refers to <mix-blend-mode>
+            // without declaring the latter as a type
+            "mix-blend-mode": "<blend-mode> | plus-darker | plus-lighter",
+          },
+          // toTypesSyntax(parsedFiles["fill-stroke"]),
+          {
+            // LEGACY
+            image: "| <-moz-element()> | <-moz-image-rect()>",
+            "-moz-element()": "-moz-element( <id-selector> )",
+            "-moz-image-rect()":
+              "-moz-image-rect( <url> , [ <integer> | <percentage> ]#{4} )",
+          },
+        ),
       },
     },
     rules: {
@@ -141,16 +185,7 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
           ],
         },
       ],
-      "declaration-property-value-no-unknown": [
-        true,
-        {
-          ignoreProperties: {
-            // NEW: calc-size
-            // https://github.com/stylelint/stylelint/issues/8320
-            "/^(width|height)$/": ["size"],
-          },
-        },
-      ],
+      "declaration-property-value-no-unknown": true,
       "function-no-unknown": true,
       "media-feature-name-no-unknown": [
         true,
@@ -324,7 +359,12 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
         },
       },
       {
-        files: ["Web/CSS/box-align/*", "Web/CSS/box-flex/*", "Web/CSS/box-orient/*", "Web/CSS/box-pack/*"],
+        files: [
+          "Web/CSS/box-align/*",
+          "Web/CSS/box-flex/*",
+          "Web/CSS/box-orient/*",
+          "Web/CSS/box-pack/*",
+        ],
         rules: {
           "declaration-block-no-duplicate-properties": [
             true,
