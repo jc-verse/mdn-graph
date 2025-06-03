@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-2bq3gfsn.js";
+} from "./chunk-rnm26474.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -210,19 +210,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            brotli_compression: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Brotli_compression",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://rosettacode.org/wiki/Huffman_coding",
-                    "Unable to connect. Is the computer able to access the url?"
-                  ]
                 }
               ]
             },
@@ -1199,6 +1186,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://cloud.google.com/appengine/docs/standard/hosting-a-static-website",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -1334,6 +1328,19 @@ var warnings_processed_default = {
                           data: [
                             "https://new.drupal.org/",
                             403
+                          ]
+                        }
+                      ]
+                    },
+                    main_features: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://v2.vuejs.org/v2/api/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -1505,131 +1512,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Unexpected unknown value "," for property "clip-path" (declaration-property-value-no-unknown)',
-                            "    clip-path: rect(1px, 1px, 1px, 1px);",
-                            "58:24 - 58:25",
-                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_styling
-[declaration-property-value-no-unknown] Unexpected unknown value "," for property "clip-path" (declaration-property-value-no-unknown)
-~~~
-<style>
-  /* Global styles */
-  .btn {
-    padding: 0.8rem 1rem 0.7rem;
-    border: 0.2rem solid #4d4d4d;
-    cursor: pointer;
-    text-transform: capitalize;
-  }
-  .btn__danger {
-    color: #fff;
-    background-color: #ca3c3c;
-    border-color: #bd2130;
-  }
-  .btn__filter {
-    border-color: lightgrey;
-  }
-  .btn__danger:focus {
-    outline-color: #c82333;
-  }
-  .btn__primary {
-    color: #fff;
-    background-color: #000;
-  }
-  .btn-group {
-    display: flex;
-    justify-content: space-between;
-  }
-  .btn-group > * {
-    flex: 1 1 auto;
-  }
-  .btn-group > * + * {
-    margin-left: 0.8rem;
-  }
-  .label-wrapper {
-    margin: 0;
-    flex: 0 0 100%;
-    text-align: center;
-  }
-  [class*="__lg"] {
-    display: inline-block;
-    width: 100%;
-    font-size: 1.9rem;
-  }
-  [class*="__lg"]:not(:last-child) {
-    margin-bottom: 1rem;
-  }
-  @media screen and (min-width: 620px) {
-    [class*="__lg"] {
-      font-size: 2.4rem;
-    }
-  }
-  .visually-hidden {
-    position: absolute;
-    height: 1px;
-    width: 1px;
-    overflow: hidden;
-    clip: rect(1px, 1px, 1px, 1px);
-    clip-path: rect(1px, 1px, 1px, 1px);
-    white-space: nowrap;
-  }
-  [class*="stack"] > * {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  .stack-small > * + * {
-    margin-top: 1.25rem;
-  }
-  .stack-large > * + * {
-    margin-top: 2.5rem;
-  }
-  @media screen and (min-width: 550px) {
-    .stack-small > * + * {
-      margin-top: 1.4rem;
-    }
-    .stack-large > * + * {
-      margin-top: 2.8rem;
-    }
-  }
-  /* End global styles */
-  #app {
-    background: #fff;
-    margin: 2rem 0 4rem 0;
-    padding: 1rem;
-    padding-top: 0;
-    position: relative;
-    box-shadow:
-      0 2px 4px 0 rgb(0 0 0 / 20%),
-      0 2.5rem 5rem 0 rgb(0 0 0 / 10%);
-  }
-  @media screen and (min-width: 550px) {
-    #app {
-      padding: 4rem;
-    }
-  }
-  #app > * {
-    max-width: 50rem;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  #app > form {
-    max-width: 100%;
-  }
-  #app h1 {
-    display: block;
-    min-width: 100%;
-    width: 100%;
-    text-align: center;
-    margin: 0;
-    margin-bottom: 1rem;
-  }
-</style>
-~~~
-`
-                          ]
                         }
                       ]
                     }
@@ -1679,19 +1561,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    },
-                    html_images: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     },
@@ -2003,17 +1872,17 @@ var warnings_processed_default = {
             },
             getting_started: {
               children: {
-                soft_skills: {
+                your_first_website: {
                   children: {
-                    finding_a_job: {
+                    creating_the_content: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Finding_a_job",
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.upwork.com/",
-                            403
+                            "https://mdn.github.io/beginner-html-site/",
+                            503
                           ]
                         }
                       ]
@@ -2094,28 +1963,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via page",
                           data: []
-                        }
-                      ]
-                    },
-                    css_faq: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/CSS_FAQ",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "property-no-unknown",
-                            'Unexpected unknown property "text-stroke" (property-no-unknown)',
-                            "text-stroke: 4px navy;",
-                            "2:1 - 2:12",
-                            `/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/CSS_FAQ
-[property-no-unknown] Unexpected unknown property "text-stroke" (property-no-unknown)
-~~~
--webkit-text-stroke: 4px navy;
-text-stroke: 4px navy;
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -2229,19 +2076,6 @@ text-stroke: 4px navy;
                         {
                           message: "Unreachable via page",
                           data: []
-                        }
-                      ]
-                    },
-                    how_do_you_host_your_website_on_google_app_engine: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gaesamplesite.appspot.com/",
-                            503
-                          ]
                         }
                       ]
                     }
@@ -7898,62 +7732,6 @@ api.MessagePort`,
                     }
                   }
                 },
-                cssnesteddeclarations: {
-                  children: {
-                    style: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSSNestedDeclarations/style",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "media-feature-name-no-unknown",
-                            'Unexpected unknown media feature name "screen" (media-feature-name-no-unknown)',
-                            "  @media (screen) {",
-                            "3:11 - 3:17",
-                            `/en-US/docs/Web/API/CSSNestedDeclarations/style
-[media-feature-name-no-unknown] Unexpected unknown media feature name "screen" (media-feature-name-no-unknown)
-~~~
-.foo {
-  font-size: 1.2rem;
-  @media (screen) {
-    color: tomato;
-    background-color: darkgrey;
-  }
-  color: black;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/CSSNestedDeclarations",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "media-feature-name-no-unknown",
-                        'Unexpected unknown media feature name "screen" (media-feature-name-no-unknown)',
-                        "  @media (screen) {",
-                        "3:11 - 3:17",
-                        `/en-US/docs/Web/API/CSSNestedDeclarations
-[media-feature-name-no-unknown] Unexpected unknown media feature name "screen" (media-feature-name-no-unknown)
-~~~
-.foo {
-  background-color: silver;
-  @media (screen) {
-    color: tomato;
-  }
-  color: black;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 csspropertyrule: {
                   children: {
                     initialvalue: {
@@ -8590,82 +8368,6 @@ api.Document.fullscreen`,
                       ]
                     }
                   ]
-                },
-                htmlimageelement: {
-                  children: {
-                    crossorigin: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLImageElement/crossOrigin",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Unexpected unknown value "," for property "font" (declaration-property-value-no-unknown)',
-                            "    1.125rem/1.5,",
-                            "3:17 - 3:18",
-                            `/en-US/docs/Web/API/HTMLImageElement/crossOrigin
-[declaration-property-value-no-unknown] Unexpected unknown value "," for property "font" (declaration-property-value-no-unknown)
-~~~
-body {
-  font:
-    1.125rem/1.5,
-    Helvetica,
-    sans-serif;
-}
-
-.container {
-  display: flow-root;
-  width: 37.5em;
-  border: 1px solid #d2d2d2;
-}
-
-img {
-  float: left;
-  padding-right: 1.5em;
-}
-
-output {
-  background: rgb(100 100 100 / 100%);
-  font-family: Courier, monospace;
-  width: 95%;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                htmllinkelement: {
-                  children: {
-                    hreflang: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLLinkElement/hreflang",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Unexpected unknown value "" for property "font" (declaration-property-value-no-unknown)',
-                            "  font: bold;",
-                            "3:13 - 3:14",
-                            `/en-US/docs/Web/API/HTMLLinkElement/hreflang
-[declaration-property-value-no-unknown] Unexpected unknown value "" for property "font" (declaration-property-value-no-unknown)
-~~~
-.tag {
-  margin-left: 20px;
-  font: bold;
-  font-size: 24px;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 htmlolistelement: {
                   children: {},
@@ -11855,24 +11557,6 @@ function displayPoseStats(pose) {
                   slug: "/en-US/docs/Web/CSS/:-moz-loading",
                   messages: [
                     {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "center" for property "background-image" (declaration-property-value-no-unknown)',
-                        "  background-image: url(loading-animation.gif) center no-repeat;",
-                        "3:48 - 3:54",
-                        `/en-US/docs/Web/CSS/:-moz-loading
-[declaration-property-value-no-unknown] Unexpected unknown value "center" for property "background-image" (declaration-property-value-no-unknown)
-~~~
-:-moz-loading {
-  background-color: #aaa;
-  background-image: url(loading-animation.gif) center no-repeat;
-}
-~~~
-`
-                      ]
-                    },
-                    {
                       message: "Not in BCD",
                       data: [
                         "css.selectors.-moz-loading"
@@ -12424,29 +12108,6 @@ position-area: block-end span-inline-end;
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/CSS/-webkit-border-before-width"
-                      ]
-                    }
-                  ]
-                },
-                "-webkit-mask-box-image": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-webkit-mask-box-image",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "100" for property "-webkit-mask-box-image" (declaration-property-value-no-unknown)',
-                        '  -webkit-mask-box-image: url("logo.png") 100 100 0 0 round round;',
-                        "2:43 - 2:46",
-                        `/en-US/docs/Web/CSS/-webkit-mask-box-image
-[declaration-property-value-no-unknown] Unexpected unknown value "100" for property "-webkit-mask-box-image" (declaration-property-value-no-unknown)
-~~~
-.example-two {
-  -webkit-mask-box-image: url("logo.png") 100 100 0 0 round round;
-}
-~~~
-`
                       ]
                     }
                   ]
@@ -14701,18 +14362,14 @@ attr(data-rotation deg)
                       data: [
                         "declaration-property-value-no-unknown",
                         'Cannot parse property value "url(attr(data-icon))" for property "background-image" (declaration-property-value-no-unknown)',
-                        "    background-image: url(attr(data-icon));",
-                        "3:23 - 3:43",
+                        "  background-image: url(attr(data-icon));",
+                        "2:21 - 2:41",
                         `/en-US/docs/Web/CSS/attr
 [declaration-property-value-no-unknown] Cannot parse property value "url(attr(data-icon))" for property "background-image" (declaration-property-value-no-unknown)
 ~~~
-<!-- This won't work! -->
-<span data-icon="https://example.org/icons/question-mark.svg">help</span>
-<style>
-  span[data-icon] {
-    background-image: url(attr(data-icon));
-  }
-</style>
+span[data-icon] {
+  background-image: url(attr(data-icon));
+}
 ~~~
 `
                       ]
@@ -14978,24 +14635,17 @@ path(evenodd,"M 10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80");
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/fill-stroke-3/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
-                    polygon: {
+                    rect: {
                       children: {},
-                      slug: "/en-US/docs/Web/CSS/basic-shape/polygon",
+                      slug: "/en-US/docs/Web/CSS/basic-shape/rect",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://drafts.fxtf.org/fill-stroke-3/",
+                            "https://drafts.fxtf.org/css-masking-1/",
                             "The operation timed out."
                           ]
                         }
@@ -15368,13 +15018,6 @@ body {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://drafts.fxtf.org/fill-stroke-3/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     }
@@ -15602,50 +15245,6 @@ p {
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/CSS/calc-value"
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "left" for property "align-items" (declaration-property-value-no-unknown)',
-                        "  align-items: left;",
-                        "10:16 - 10:20",
-                        `/en-US/docs/Web/CSS/calc-keyword
-[declaration-property-value-no-unknown] Unexpected unknown value "left" for property "align-items" (declaration-property-value-no-unknown)
-~~~
-#wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  width: 200px;
-}
-.container > div {
-  width: 100px;
-  height: 100px;
-  margin: 10px;
-}
-
-span {
-  font-family: monospace;
-  font-size: 0.8em;
-}
-
-#e {
-  background-color: blue;
-}
-
-#pi {
-  background-color: blue;
-}
-~~~
-`
                       ]
                     }
                   ]
@@ -15911,6 +15510,19 @@ section:focus {
                     }
                   ]
                 },
+                clip: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/clip",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 "clip-path": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/clip-path",
@@ -16000,6 +15612,26 @@ div {
 }
 ~~~
 `
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "clip-rule": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/clip-rule",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -17583,58 +17215,6 @@ div:first-of-type {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Unexpected unknown value "1.1" for property "font-size" (declaration-property-value-no-unknown)',
-                            "  font-size: 1.1;",
-                            "12:14 - 12:17",
-                            `/en-US/docs/Web/CSS/CSS_box_sizing/Understanding_aspect-ratio
-[declaration-property-value-no-unknown] Unexpected unknown value "1.1" for property "font-size" (declaration-property-value-no-unknown)
-~~~
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(95px, 1fr));
-}
-
-.item {
-  aspect-ratio: 1;
-}
-
-div {
-  gap: 20px;
-  font-size: 1.1;
-}
-
-div div {
-  background-color: #ccc;
-  aspect-ratio: 1;
-  counter-increment: items;
-}
-
-div div::after {
-  content: counter(items);
-}
-
-.item::after {
-  /*  hide the number if there's content  */
-  position: absolute;
-  color: transparent;
-}
-
-.item {
-  min-height: 0;
-  overflow: auto;
-}
-
-.item > * {
-  max-height: 100%;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     }
@@ -17649,131 +17229,6 @@ div div::after {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "at-rule-prelude-no-invalid",
-                            'Unexpected invalid prelude "unlayeredStyles.css" for at-rule "@import" (at-rule-prelude-no-invalid)',
-                            "  @import unlayeredStyles.css;",
-                            "2:11 - 2:30",
-                            `/en-US/docs/Web/CSS/CSS_cascade/Cascade
-[at-rule-prelude-no-invalid] Unexpected invalid prelude "unlayeredStyles.css" for at-rule "@import" (at-rule-prelude-no-invalid)
-~~~
-<style>
-  @import unlayeredStyles.css;
-  @import AStyles.css layer(A);
-  @import moreUnlayeredStyles.css;
-  @import BStyles.css layer(B);
-  @import CStyles.css layer(C);
-  p {
-    color: red;
-    padding: 1em !important;
-  }
-</style>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "at-rule-prelude-no-invalid",
-                            'Unexpected invalid prelude "AStyles.css layer(A)" for at-rule "@import" (at-rule-prelude-no-invalid)',
-                            "  @import AStyles.css layer(A);",
-                            "3:11 - 3:31",
-                            `/en-US/docs/Web/CSS/CSS_cascade/Cascade
-[at-rule-prelude-no-invalid] Unexpected invalid prelude "AStyles.css layer(A)" for at-rule "@import" (at-rule-prelude-no-invalid)
-~~~
-<style>
-  @import unlayeredStyles.css;
-  @import AStyles.css layer(A);
-  @import moreUnlayeredStyles.css;
-  @import BStyles.css layer(B);
-  @import CStyles.css layer(C);
-  p {
-    color: red;
-    padding: 1em !important;
-  }
-</style>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "at-rule-prelude-no-invalid",
-                            'Unexpected invalid prelude "moreUnlayeredStyles.css" for at-rule "@import" (at-rule-prelude-no-invalid)',
-                            "  @import moreUnlayeredStyles.css;",
-                            "4:11 - 4:34",
-                            `/en-US/docs/Web/CSS/CSS_cascade/Cascade
-[at-rule-prelude-no-invalid] Unexpected invalid prelude "moreUnlayeredStyles.css" for at-rule "@import" (at-rule-prelude-no-invalid)
-~~~
-<style>
-  @import unlayeredStyles.css;
-  @import AStyles.css layer(A);
-  @import moreUnlayeredStyles.css;
-  @import BStyles.css layer(B);
-  @import CStyles.css layer(C);
-  p {
-    color: red;
-    padding: 1em !important;
-  }
-</style>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "at-rule-prelude-no-invalid",
-                            'Unexpected invalid prelude "BStyles.css layer(B)" for at-rule "@import" (at-rule-prelude-no-invalid)',
-                            "  @import BStyles.css layer(B);",
-                            "5:11 - 5:31",
-                            `/en-US/docs/Web/CSS/CSS_cascade/Cascade
-[at-rule-prelude-no-invalid] Unexpected invalid prelude "BStyles.css layer(B)" for at-rule "@import" (at-rule-prelude-no-invalid)
-~~~
-<style>
-  @import unlayeredStyles.css;
-  @import AStyles.css layer(A);
-  @import moreUnlayeredStyles.css;
-  @import BStyles.css layer(B);
-  @import CStyles.css layer(C);
-  p {
-    color: red;
-    padding: 1em !important;
-  }
-</style>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "at-rule-prelude-no-invalid",
-                            'Unexpected invalid prelude "CStyles.css layer(C)" for at-rule "@import" (at-rule-prelude-no-invalid)',
-                            "  @import CStyles.css layer(C);",
-                            "6:11 - 6:31",
-                            `/en-US/docs/Web/CSS/CSS_cascade/Cascade
-[at-rule-prelude-no-invalid] Unexpected invalid prelude "CStyles.css layer(C)" for at-rule "@import" (at-rule-prelude-no-invalid)
-~~~
-<style>
-  @import unlayeredStyles.css;
-  @import AStyles.css layer(A);
-  @import moreUnlayeredStyles.css;
-  @import BStyles.css layer(B);
-  @import CStyles.css layer(C);
-  p {
-    color: red;
-    padding: 1em !important;
-  }
-</style>
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -17804,44 +17259,6 @@ div div::after {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "at-rule-prelude-no-invalid",
-                            'Unexpected invalid prelude "TW.css layer()" for at-rule "@import" (at-rule-prelude-no-invalid)',
-                            "  @import TW.css layer();",
-                            "2:11 - 2:25",
-                            `/en-US/docs/Web/CSS/CSS_cascade/Specificity
-[at-rule-prelude-no-invalid] Unexpected invalid prelude "TW.css layer()" for at-rule "@import" (at-rule-prelude-no-invalid)
-~~~
-<style>
-  @import TW.css layer();
-  p,
-  p * {
-    font-size: 1rem;
-  }
-</style>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "at-rule-prelude-no-invalid",
-                            'Unexpected invalid prelude "importantOverrides.css layer()" for at-rule "@import" (at-rule-prelude-no-invalid)',
-                            "  @import importantOverrides.css layer();",
-                            "2:11 - 2:41",
-                            `/en-US/docs/Web/CSS/CSS_cascade/Specificity
-[at-rule-prelude-no-invalid] Unexpected invalid prelude "importantOverrides.css layer()" for at-rule "@import" (at-rule-prelude-no-invalid)
-~~~
-<style>
-  @import importantOverrides.css layer();
-</style>
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -18162,66 +17579,6 @@ rgb(from red r g b / alpha)
                           ]
                         }
                       ]
-                    },
-                    using_css_containment: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_containment/Using_CSS_containment",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Unexpected unknown value "" for property "contain-intrinsic-size" (declaration-property-value-no-unknown)',
-                            "  contain-intrinsic-size: 100vw auto;",
-                            "3:37 - 3:38",
-                            `/en-US/docs/Web/CSS/CSS_containment/Using_CSS_containment
-[declaration-property-value-no-unknown] Unexpected unknown value "" for property "contain-intrinsic-size" (declaration-property-value-no-unknown)
-~~~
-article {
-  contain: size;
-  contain-intrinsic-size: 100vw auto;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Unexpected unknown value "" for property "contain-intrinsic-size" (declaration-property-value-no-unknown)',
-                            "  contain-intrinsic-size: 80vw auto;",
-                            "3:36 - 3:37",
-                            `/en-US/docs/Web/CSS/CSS_containment/Using_CSS_containment
-[declaration-property-value-no-unknown] Unexpected unknown value "" for property "contain-intrinsic-size" (declaration-property-value-no-unknown)
-~~~
-article {
-  contain: strict;
-  contain-intrinsic-size: 80vw auto;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Unexpected unknown value "" for property "contain-intrinsic-size" (declaration-property-value-no-unknown)',
-                            "  contain-intrinsic-size: 80vw auto;",
-                            "3:36 - 3:37",
-                            `/en-US/docs/Web/CSS/CSS_containment/Using_CSS_containment
-[declaration-property-value-no-unknown] Unexpected unknown value "" for property "contain-intrinsic-size" (declaration-property-value-no-unknown)
-~~~
-article {
-  contain: size layout paint style;
-  contain-intrinsic-size: 80vw auto;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
                     }
                   }
                 },
@@ -18525,104 +17882,6 @@ css.properties.grid-template-rows.masonry`,
                 },
                 css_nesting: {
                   children: {
-                    nesting_and_specificity: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_nesting/Nesting_and_specificity",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "selector-type-no-unknown",
-                            'Unexpected unknown type selector "c" (selector-type-no-unknown)',
-                            "  & c {",
-                            "2:5 - 2:6",
-                            `/en-US/docs/Web/CSS/CSS_nesting/Nesting_and_specificity
-[selector-type-no-unknown] Unexpected unknown type selector "c" (selector-type-no-unknown)
-~~~
-#a, b {
-  & c {
-    color: blue;
-  }
-}
-
-.foo c {
-  color: red;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "selector-type-no-unknown",
-                            'Unexpected unknown type selector "c" (selector-type-no-unknown)',
-                            ".foo c {",
-                            "7:6 - 7:7",
-                            `/en-US/docs/Web/CSS/CSS_nesting/Nesting_and_specificity
-[selector-type-no-unknown] Unexpected unknown type selector "c" (selector-type-no-unknown)
-~~~
-#a, b {
-  & c {
-    color: blue;
-  }
-}
-
-.foo c {
-  color: red;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "selector-type-no-unknown",
-                            'Unexpected unknown type selector "c" (selector-type-no-unknown)',
-                            "  & c {",
-                            "2:5 - 2:6",
-                            `/en-US/docs/Web/CSS/CSS_nesting/Nesting_and_specificity
-[selector-type-no-unknown] Unexpected unknown type selector "c" (selector-type-no-unknown)
-~~~
-:is(#a, b) {
-  & c {
-    color: blue;
-  }
-}
-
-.foo c {
-  color: red;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "selector-type-no-unknown",
-                            'Unexpected unknown type selector "c" (selector-type-no-unknown)',
-                            ".foo c {",
-                            "7:6 - 7:7",
-                            `/en-US/docs/Web/CSS/CSS_nesting/Nesting_and_specificity
-[selector-type-no-unknown] Unexpected unknown type selector "c" (selector-type-no-unknown)
-~~~
-:is(#a, b) {
-  & c {
-    color: blue;
-  }
-}
-
-.foo c {
-  color: red;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     using_css_nesting: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting",
@@ -18881,27 +18140,6 @@ parent {
 }
 parent child {
   /* child of parent styles */
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "media-feature-name-no-unknown",
-                            'Unexpected unknown media feature name "screen" (media-feature-name-no-unknown)',
-                            "  @media (screen) {",
-                            "3:11 - 3:17",
-                            `/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting
-[media-feature-name-no-unknown] Unexpected unknown media feature name "screen" (media-feature-name-no-unknown)
-~~~
-.foo {
-  background-color: silver;
-  @media (screen) {
-    color: tomato;
-  }
-  color: black;
 }
 ~~~
 `
@@ -19967,45 +19205,6 @@ select {
                     }
                   ]
                 },
-                fill: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/fill",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "fill-opacity": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/fill-opacity",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "fill-rule": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/fill-rule",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 filter: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/filter",
@@ -20491,48 +19690,6 @@ css.properties.min-height.fit-content_function
 css.properties.min-inline-size.fit-content_function
 css.properties.min-width.fit-content_function
 css.properties.width.fit-content_function`
-                      ]
-                    }
-                  ]
-                },
-                flex: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/flex",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "property-no-unknown",
-                        'Unexpected unknown property "text-select" (property-no-unknown)',
-                        "  text-select: none;",
-                        "3:3 - 3:14",
-                        `/en-US/docs/Web/CSS/flex
-[property-no-unknown] Unexpected unknown property "text-select" (property-no-unknown)
-~~~
-body * {
-  padding: 1rem;
-  text-select: none;
-  box-sizing: border-box;
-  font-family: Consolas, Arial, sans-serif;
-}
-
-#flex-container {
-  border: 2px dashed gray;
-  display: flex;
-}
-
-#flex-auto {
-  cursor: pointer;
-  background-color: wheat;
-
-  flex: auto;
-}
-
-#default {
-  background-color: lightblue;
-}
-~~~
-`
                       ]
                     }
                   ]
@@ -22000,6 +21157,19 @@ img {
                     }
                   ]
                 },
+                mask: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/mask",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 "mask-border": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/mask-border",
@@ -22036,6 +21206,13 @@ img {
 ~~~
 `
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -22043,6 +21220,13 @@ img {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/mask-border-mode",
                   messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
+                      ]
+                    },
                     {
                       message: "Not in BCD",
                       data: [
@@ -22056,6 +21240,58 @@ img {
                         "[None]",
                         "Expected:",
                         "css.properties.mask-border-mode"
+                      ]
+                    }
+                  ]
+                },
+                "mask-border-outset": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/mask-border-outset",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "mask-border-repeat": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/mask-border-repeat",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "mask-border-slice": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/mask-border-slice",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "mask-border-source": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/mask-border-source",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -22078,6 +21314,26 @@ mask-border-width: 30 fill;
 ~~~
 `
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "mask-clip": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/mask-clip",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -22089,6 +21345,104 @@ mask-border-width: 30 fill;
                       message: "Broken link",
                       data: [
                         "/en-US/Web/SVG/Reference/Attribute/mask-type"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "mask-image": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/mask-image",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "mask-mode": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/mask-mode",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "mask-origin": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/mask-origin",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "mask-position": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/mask-position",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "mask-repeat": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/mask-repeat",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "mask-size": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/mask-size",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "mask-type": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/mask-type",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/css-masking-1/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -23390,111 +22744,6 @@ circle {
 ~~~
 `
                       ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "stroke-dasharray": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-dasharray",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "stroke-dashoffset": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-dashoffset",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "stroke-linecap": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-linecap",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "stroke-linejoin": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-linejoin",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "stroke-miterlimit": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-miterlimit",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "stroke-opacity": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-opacity",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "stroke-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke-width",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/fill-stroke-3/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -23688,21 +22937,6 @@ rotate(a)
                         {
                           message: "Missing syntax code block",
                           data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Unexpected unknown value "" for property "transform" (declaration-property-value-no-unknown)',
-                            "transform: rotate3d(0);",
-                            "1:23 - 1:24",
-                            `/en-US/docs/Web/CSS/transform-function/rotate3d
-[declaration-property-value-no-unknown] Unexpected unknown value "" for property "transform" (declaration-property-value-no-unknown)
-~~~
-transform: rotate3d(0);
-~~~
-`
-                          ]
                         },
                         {
                           message: "CSS code issue",
@@ -25106,36 +24340,6 @@ http.headers.Use-As-Dictionary`,
               children: {
                 guide: {
                   children: {
-                    closures: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Closures",
-                      messages: [
-                        {
-                          message: "External sandbox link",
-                          data: [
-                            "https://jsfiddle.net/3dxck52m/"
-                          ]
-                        },
-                        {
-                          message: "External sandbox link",
-                          data: [
-                            "https://jsfiddle.net/hotae160/"
-                          ]
-                        },
-                        {
-                          message: "External sandbox link",
-                          data: [
-                            "https://jsfiddle.net/v7gjv/8164/"
-                          ]
-                        },
-                        {
-                          message: "External sandbox link",
-                          data: [
-                            "https://jsfiddle.net/v7gjv/9573/"
-                          ]
-                        }
-                      ]
-                    },
                     using_promises: {
                       children: {},
                       slug: "/en-US/docs/Web/JavaScript/Guide/Using_promises",
@@ -25693,26 +24897,6 @@ console.log(bar.next()); // {value: 10, done: false}
               children: {
                 attacks: {
                   children: {
-                    csrf: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Security/Attacks/CSRF",
-                      messages: [
-                        {
-                          message: "Unreachable via page",
-                          data: []
-                        }
-                      ]
-                    },
-                    mitm: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Security/Attacks/MITM",
-                      messages: [
-                        {
-                          message: "Unreachable via page",
-                          data: []
-                        }
-                      ]
-                    },
                     "xs-leaks": {
                       children: {},
                       slug: "/en-US/docs/Web/Security/Attacks/XS-Leaks",
@@ -25801,12 +24985,6 @@ html.elements.script.integrity`,
               },
               slug: "/en-US/docs/Web/Security",
               messages: [
-                {
-                  message: "No link to child page",
-                  data: [
-                    "/en-US/docs/Web/Security/Types_of_attacks"
-                  ]
-                },
                 {
                   message: "No link to child page",
                   data: [
