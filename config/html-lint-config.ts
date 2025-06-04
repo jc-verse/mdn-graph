@@ -42,6 +42,10 @@ export default {
       rules: { "no-inline-script": "off" },
     },
     {
+      files: ["Web/API/HTMLScriptElement/**"],
+      rules: { "empty-script": "off" },
+    },
+    {
       files: ["Web/CSS/CSS_syntax/Error_handling"],
       rules: {
         "no-style-attr": "off",

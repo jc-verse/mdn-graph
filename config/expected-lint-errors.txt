@@ -1167,6 +1167,80 @@ function play() {
 }
 ~~~
 
+/en-US/docs/Web/API/Canvas_API/Manipulating_video_using_canvas
+[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Video test page</title>
+    <style>
+      body {
+        background: black;
+        color: #cccccc;
+      }
+      #c2 {
+        background-image: url(media/foo.png);
+        background-repeat: no-repeat;
+      }
+      div {
+        float: left;
+        border: 1px solid #444444;
+        padding: 10px;
+        margin: 10px;
+        background: #3b3b3b;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <video
+        id="video"
+        src="media/video.mp4"
+        controls
+        crossorigin="anonymous"></video>
+    </div>
+    <div>
+      <canvas id="c1" width="160" height="96"></canvas>
+      <canvas id="c2" width="160" height="96"></canvas>
+    </div>
+    <script src="processor.js"></script>
+  </body>
+</html>
+~~~
+
+/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_usage
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Canvas tutorial</title>
+    <style>
+      canvas {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="tutorial" width="150" height="150"></canvas>
+    <script>
+      function draw() {
+        const canvas = document.getElementById("tutorial");
+        if (canvas.getContext) {
+          const ctx = canvas.getContext("2d");
+        }
+      }
+      window.addEventListener("load", draw);
+    </script>
+  </body>
+</html>
+~~~
+
 /en-US/docs/Web/API/CSSKeyframesRule
 [@typescript-eslint/prefer-for-of] Expected a `for-of` loop instead of a `for` loop with this simple iteration.
 ~~~
@@ -1461,6 +1535,65 @@ window.requestFileSystem(
 );
 ~~~
 
+/en-US/docs/Web/API/HTMLElement/attributeStyleMap
+[no-style-attr] Do not use the style attribute.
+~~~
+<div id="el" style="border-top: 1px solid blue; color: red;">
+  An example element
+</div>
+<div id="output"></div>
+~~~
+
+/en-US/docs/Web/API/HTMLElement/innerText
+[no-style-attr] Do not use the style attribute.
+[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+~~~
+<h3>Source element:</h3>
+<p id="source">
+  <style>
+    #source {
+      color: red;
+    }
+    #text {
+      text-transform: uppercase;
+    }
+  </style>
+  <span id="text">
+    Take a look at<br />
+    how this text<br />
+    is interpreted below.
+  </span>
+  <span style="display:none">HIDDEN TEXT</span>
+</p>
+<h3>Result of textContent:</h3>
+<textarea id="textContentOutput" rows="6" cols="30" readonly>…</textarea>
+<h3>Result of innerText:</h3>
+<textarea id="innerTextOutput" rows="6" cols="30" readonly>…</textarea>
+~~~
+
+/en-US/docs/Web/API/HTMLElement/style
+[no-style-attr] Do not use the style attribute.
+~~~
+<div style="font-weight: bold;">
+  <div style="border-top: 1px solid blue; color: red;" id="elt">
+    An example div
+  </div>
+  <pre id="out"></pre>
+</div>
+~~~
+
+/en-US/docs/Web/API/HTMLImageElement/border
+[no-style-attr] Do not use the style attribute.
+~~~
+<img src="image.png" style="border: 2px;" />
+~~~
+
+/en-US/docs/Web/API/HTMLImageElement/border
+[no-style-attr] Do not use the style attribute.
+~~~
+<img src="image.png" style="border: dashed 2px #333388;" />
+~~~
+
 /en-US/docs/Web/API/IdleDetector/requestPermission_static
 [no-useless-return] Unnecessary return statement.
 ~~~
@@ -1470,6 +1603,25 @@ startButton.addEventListener("click", async () => {
     return;
   }
 });
+~~~
+
+/en-US/docs/Web/API/InputEvent/dataTransfer
+[no-style-attr] Do not use the style attribute.
+~~~
+<p><span style="font-weight: bold; color: blue">Whoa, bold blue text!</span></p>
+<p>
+  <span style="font-style: italic; color: red">Exciting: italic red text!</span>
+</p>
+<p>Boring normal text ;-(</p>
+
+<hr />
+
+<p contenteditable="true">
+  Go on, try pasting some content into this editable paragraph and see what
+  happens!
+</p>
+
+<p class="result"></p>
 ~~~
 
 /en-US/docs/Web/API/LockManager/request
@@ -1488,6 +1640,38 @@ await navigator.locks.request(
     // the 'my_res_lock' lock until this returns.
   },
 );
+~~~
+
+/en-US/docs/Web/API/MathMLElement/attributeStyleMap
+[no-style-attr] Do not use the style attribute.
+~~~
+<math>
+  <mrow>
+    <mi>f</mi>
+    <mo stretchy="false">(</mo>
+    <mi id="el" style="border-top: 1px solid blue; color: red;">x</mi>
+    <mo stretchy="false">)</mo>
+    <mo>=</mo>
+    <mi>x</mi>
+  </mrow>
+</math>
+<div id="output"></div>
+~~~
+
+/en-US/docs/Web/API/MathMLElement/style
+[no-style-attr] Do not use the style attribute.
+~~~
+<math>
+  <mrow>
+    <mi>f</mi>
+    <mo stretchy="false">(</mo>
+    <mi class="parameter" style="color: red; border-bottom: 1px solid">x</mi>
+    <mo stretchy="false">)</mo>
+    <mo>=</mo>
+    <mi>x</mi>
+  </mrow>
+</math>
+<pre id="out"></pre>
 ~~~
 
 /en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element
@@ -1639,6 +1823,21 @@ if (navigator.getUserMedia) {
 }
 ~~~
 
+/en-US/docs/Web/API/Node/parentElement
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!doctype html>
+<html>
+  <body>
+    <script>
+      const html = document.querySelector("html");
+      console.log(html.parentElement); // null
+      console.log(html.parentNode); // document
+    </script>
+  </body>
+</html>
+~~~
+
 /en-US/docs/Web/API/NodeList
 [@typescript-eslint/prefer-for-of] Expected a `for-of` loop instead of a `for` loop with this simple iteration.
 ~~~
@@ -1650,13 +1849,10 @@ for (let i = 0; i < myNodeList.length; i++) {
 /en-US/docs/Web/API/PaintWorkletGlobalScope
 [declaration-block-no-duplicate-properties] Unexpected duplicate "background-image" (declaration-block-no-duplicate-properties)
 ~~~
-<style>
-  textarea {
-    background-image: url(checkerboard);
-    background-image: paint(checkerboard);
-  }
-</style>
-<textarea></textarea>
+textarea {
+  background-image: url(checkerboard);
+  background-image: paint(checkerboard);
+}
 ~~~
 
 /en-US/docs/Web/API/PaymentRequest/canMakePayment

@@ -44,6 +44,9 @@ function mergeSyntaxes(...entries) {
   return res;
 }
 
+// console.log(Object.keys(parsedFiles).sort().join("\n"));
+// console.log(mergeSyntaxes(toTypesSyntax(parsedFiles["css-shapes-2"])));
+
 export default function stylelintConfig(isPropertyOnly: boolean) {
   return {
     fix: false,

@@ -31,6 +31,8 @@ for (const node of nodes) {
         domain.endsWith(".github.io"))
     )
       domain += `/${linkURL.pathname.split("/")[1]}`;
+    if (domain === "www.w3.org/TR")
+      domain += `/${linkURL.pathname.split("/")[2]}`;
     const tldp1 = linkURL.host.split(".").slice(-2).join(".");
     if (!linksByTLDp1.has(tldp1)) {
       linksByTLDp1.set(tldp1, new Map());
@@ -60,7 +62,9 @@ loopTLDp1: for (const [tldp1, allLinks] of [...linksByTLDp1].sort((a, b) =>
     const linkTbl = document.createElement("table");
     linkTbl.innerHTML = `<thead><tr><th>Page</th><th>Link</th></tr></thead>`;
     const linkTbody = document.createElement("tbody");
-    for (const { page, link } of links) {
+    for (const { page, link } of links.sort((a, b) =>
+      a.page.localeCompare(b.page, "en-US", { numeric: true }),
+    )) {
       const row = document.createElement("tr");
       row.innerHTML = `<td>${page}</td><td><a href="${link}">${link}</a></td>`;
       linkTbody.appendChild(row);

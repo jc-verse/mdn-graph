@@ -272,7 +272,15 @@ async function checkHTML(
             el.name === "script" &&
             !el.attrs.some((attr) => attr.name === "src") &&
             !el.attrs.some(
-              (attr) => attr.name === "type" && attr.value !== "module",
+              (attr) =>
+                attr.name === "type" &&
+                [
+                  "application/json",
+                  "x-shader/x-vertex",
+                  "x-shader/x-fragment",
+                  "speculationrules",
+                  "importmap",
+                ].includes(attr.value),
             )
           ) {
             if (
@@ -282,7 +290,9 @@ async function checkHTML(
                 el.children[0]!.value.trim().match(
                   /^\/\/ (?:…|Code goes below this line|Your JavaScript goes here|JavaScript goes here|JavaScript code goes here|scene setup goes here|Inline JavaScript code)$|\/\* (?:All of our JavaScript code goes here|all our JavaScript code goes here) \*\/$/,
                 )
-              )
+              ) &&
+              // If the element has an id, it is probably used by a script
+              !el.attrs.some((attr) => attr.name === "id")
             ) {
               messages.push({
                 ruleId: "no-inline-script",
@@ -304,12 +314,7 @@ async function checkHTML(
                 span: el.sourceSpan,
               });
             }
-          } else if (
-            el.name === "style" &&
-            !ctx.isTemplate &&
-            // If the style has an id, it is probably used by a script
-            !el.attrs.some((attr) => attr.name === "id")
-          ) {
+          } else if (el.name === "style") {
             if (
               !(
                 el.children.length === 1 &&
@@ -320,7 +325,10 @@ async function checkHTML(
                   // Used by a few game articles
                   el.children[0]!.value.replace(/\s/g, "") ===
                     "html,body,canvas{margin:0;padding:0;width:100%;height:100%;font-size:0;}")
-              )
+              ) &&
+              !ctx.isTemplate &&
+              // If the style has an id, it is probably used by a script
+              !el.attrs.some((attr) => attr.name === "id")
             ) {
               messages.push({
                 ruleId: "no-style-elem",

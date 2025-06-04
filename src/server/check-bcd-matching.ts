@@ -89,6 +89,7 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
     case "mdn-writing-guide":
     // Mozilla/Firefox
     case "firefox-release-notes":
+    case "active-fx-release":
     // Web/Accessibility/ARIA/Attributes/
     case "aria-attribute":
     // Web/Accessibility/ARIA/Roles/
