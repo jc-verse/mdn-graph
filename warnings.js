@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-0c7q5p8x.js";
+} from "./chunk-g3fqkyph.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -724,26 +724,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            gpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/GPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/gpl-faq.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/gpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                }
-              ]
-            },
             "high-level_programming_language": {
               children: {},
               slug: "/en-US/docs/Glossary/High-level_programming_language",
@@ -831,19 +811,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            lgpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/LGPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/lgpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
                 }
               ]
             },
@@ -1828,19 +1795,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    html_images: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     html_video_and_audio: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_video_and_audio",
@@ -1861,13 +1815,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "HTTP link",
-                          data: [
-                            "http://tavmjong.free.fr/INKSCAPE/MANUAL/html/Web-Inkscape.html",
-                            ""
-                          ]
                         }
                       ]
                     }
@@ -1985,6 +1932,19 @@ var warnings_processed_default = {
                           ]
                         }
                       ]
+                    },
+                    introduction: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Introduction",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.flickr.com/photos/easy-pics/",
+                            500
+                          ]
+                        }
+                      ]
                     }
                   }
                 },
@@ -2066,13 +2026,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/gzip/",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     }
@@ -2124,23 +2077,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                testing: {
-                  children: {
-                    testing_strategies: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://help.ubuntu.com/community/WindowsDualBoot",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     }
@@ -4383,6 +4319,78 @@ else if (e.target.id === "tabs-alert-info") {
                   children: {},
                   slug: "/en-US/docs/Mozilla/Firefox/Experimental_features",
                   messages: [
+                    {
+                      message: "Code with underscore",
+                      data: [
+                        "javascript.options.atomics_wait_async"
+                      ]
+                    },
+                    {
+                      message: "Code with underscore",
+                      data: [
+                        "dom.security.trusted_types.enabled"
+                      ]
+                    },
+                    {
+                      message: "Code with underscore",
+                      data: [
+                        "dom.mutation_events.enabled"
+                      ]
+                    },
+                    {
+                      message: "Code with underscore",
+                      data: [
+                        "dom.events.script_execute.enable"
+                      ]
+                    },
+                    {
+                      message: "Code with underscore",
+                      data: [
+                        "dom.performance.event_timing.enable_interactionid"
+                      ]
+                    },
+                    {
+                      message: "Code with underscore",
+                      data: [
+                        "image.avif.compliance_strictness"
+                      ]
+                    },
+                    {
+                      message: "Code with underscore",
+                      data: [
+                        "dom.shadowdom.selection_across_boundary.enabled"
+                      ]
+                    },
+                    {
+                      message: "Code with underscore",
+                      data: [
+                        "dom.enable_web_task_scheduling"
+                      ]
+                    },
+                    {
+                      message: "Code with underscore",
+                      data: [
+                        "security.mixed_content.block_object_subrequest"
+                      ]
+                    },
+                    {
+                      message: "Code with underscore",
+                      data: [
+                        "security.insecure_connection_text.enabled"
+                      ]
+                    },
+                    {
+                      message: "Code with underscore",
+                      data: [
+                        "security.insecure_connection_text.pbmode.enabled"
+                      ]
+                    },
+                    {
+                      message: "Code with underscore",
+                      data: [
+                        "network.cors_preflight.authorization_covered_by_wildcard"
+                      ]
+                    },
                     {
                       message: "Broken link",
                       data: [
@@ -7092,36 +7100,6 @@ else if (e.target.id === "tabs-alert-info") {
                             "/en-US/docs/Web/API/Web_Authentication_API/WebAuthn_extensions",
                             "#prf"
                           ]
-                        },
-                        {
-                          message: "Unexpected page type",
-                          data: [
-                            "active-fx-release"
-                          ]
-                        }
-                      ]
-                    },
-                    "140": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/140",
-                      messages: [
-                        {
-                          message: "Unexpected page type",
-                          data: [
-                            "active-fx-release"
-                          ]
-                        }
-                      ]
-                    },
-                    "141": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/141",
-                      messages: [
-                        {
-                          message: "Unexpected page type",
-                          data: [
-                            "active-fx-release"
-                          ]
                         }
                       ]
                     },
@@ -7606,22 +7584,6 @@ else if (e.target.id === "tabs-alert-info") {
                               ]
                             }
                           ]
-                        },
-                        roles: {
-                          children: {
-                            timer_role: {
-                              children: {},
-                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/timer_role",
-                              messages: [
-                                {
-                                  message: "External sandbox link",
-                                  data: [
-                                    "https://codepen.io/heydon/pres/NGgNjZ"
-                                  ]
-                                }
-                              ]
-                            }
-                          }
                         }
                       }
                     }
@@ -7932,81 +7894,6 @@ else if (e.target.id === "tabs-alert-info") {
                 },
                 canvas_api: {
                   children: {
-                    manipulating_video_using_canvas: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Canvas_API/Manipulating_video_using_canvas",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-elem",
-                            "Do not use the <style> element; use separate CSS blocks instead.",
-                            `    <style>
-      body {
-        background: black;
-        color: #cccccc;
-      }
-      #c2 {
-        background-image: url(media/foo.png);
-        background-repeat: no-repeat;
-      }
-      div {
-        float: left;
-        border: 1px solid #444444;
-        padding: 10px;
-        margin: 10px;
-        background: #3b3b3b;
-      }
-    </style>`,
-                            "5:4 - 21:12",
-                            `/en-US/docs/Web/API/Canvas_API/Manipulating_video_using_canvas
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
-~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Video test page</title>
-    <style>
-      body {
-        background: black;
-        color: #cccccc;
-      }
-      #c2 {
-        background-image: url(media/foo.png);
-        background-repeat: no-repeat;
-      }
-      div {
-        float: left;
-        border: 1px solid #444444;
-        padding: 10px;
-        margin: 10px;
-        background: #3b3b3b;
-      }
-    </style>
-  </head>
-
-  <body>
-    <div>
-      <video
-        id="video"
-        src="media/video.mp4"
-        controls
-        crossorigin="anonymous"></video>
-    </div>
-    <div>
-      <canvas id="c1" width="160" height="96"></canvas>
-      <canvas id="c2" width="160" height="96"></canvas>
-    </div>
-    <script src="processor.js"></script>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     tutorial: {
                       children: {
                         advanced_animations: {
@@ -8069,100 +7956,6 @@ else if (e.target.id === "tabs-alert-info") {
 [no-style-attr] Do not use the style attribute.
 ~~~
 <canvas id="canvas" style="border: 1px solid" width="600" height="300"></canvas>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        basic_usage: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_usage",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-elem",
-                                "Do not use the <style> element; use separate CSS blocks instead.",
-                                `    <style>
-      canvas {
-        border: 1px solid black;
-      }
-    </style>`,
-                                "5:4 - 9:12",
-                                `/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_usage
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
-~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <title>Canvas tutorial</title>
-    <style>
-      canvas {
-        border: 1px solid black;
-      }
-    </style>
-  </head>
-  <body>
-    <canvas id="tutorial" width="150" height="150"></canvas>
-    <script>
-      function draw() {
-        const canvas = document.getElementById("tutorial");
-        if (canvas.getContext) {
-          const ctx = canvas.getContext("2d");
-        }
-      }
-      window.addEventListener("load", draw);
-    </script>
-  </body>
-</html>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-inline-script",
-                                "Do not write JS within the <script> element; use separate JS blocks instead.",
-                                `    <script>
-      function draw() {
-        const canvas = document.getElementById("tutorial");
-        if (canvas.getContext) {
-          const ctx = canvas.getContext("2d");
-        }
-      }
-      window.addEventListener("load", draw);
-    </script>`,
-                                "13:4 - 21:13",
-                                `/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_usage
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <title>Canvas tutorial</title>
-    <style>
-      canvas {
-        border: 1px solid black;
-      }
-    </style>
-  </head>
-  <body>
-    <canvas id="tutorial" width="150" height="150"></canvas>
-    <script>
-      function draw() {
-        const canvas = document.getElementById("tutorial");
-        if (canvas.getContext) {
-          const ctx = canvas.getContext("2d");
-        }
-      }
-      window.addEventListener("load", draw);
-    </script>
-  </body>
-</html>
 ~~~
 `
                               ]
@@ -9781,89 +9574,6 @@ api.Document.fullscreen`,
                         }
                       ]
                     },
-                    innertext: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLElement/innerText",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-elem",
-                            "Do not use the <style> element; use separate CSS blocks instead.",
-                            `  <style>
-    #source {
-      color: red;
-    }
-    #text {
-      text-transform: uppercase;
-    }
-  </style>`,
-                            "2:2 - 9:10",
-                            `/en-US/docs/Web/API/HTMLElement/innerText
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
-~~~
-<h3>Source element:</h3>
-<p id="source">
-  <style>
-    #source {
-      color: red;
-    }
-    #text {
-      text-transform: uppercase;
-    }
-  </style>
-  <span id="text">
-    Take a look at<br />
-    how this text<br />
-    is interpreted below.
-  </span>
-  <span style="display:none">HIDDEN TEXT</span>
-</p>
-<h3>Result of textContent:</h3>
-<textarea id="textContentOutput" rows="6" cols="30" readonly>…</textarea>
-<h3>Result of innerText:</h3>
-<textarea id="innerTextOutput" rows="6" cols="30" readonly>…</textarea>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '  <span style="display:none">HIDDEN TEXT</span>',
-                            "15:8 - 15:28",
-                            `/en-US/docs/Web/API/HTMLElement/innerText
-[no-style-attr] Do not use the style attribute.
-~~~
-<h3>Source element:</h3>
-<p id="source">
-  <style>
-    #source {
-      color: red;
-    }
-    #text {
-      text-transform: uppercase;
-    }
-  </style>
-  <span id="text">
-    Take a look at<br />
-    how this text<br />
-    is interpreted below.
-  </span>
-  <span style="display:none">HIDDEN TEXT</span>
-</p>
-<h3>Result of textContent:</h3>
-<textarea id="textContentOutput" rows="6" cols="30" readonly>…</textarea>
-<h3>Result of innerText:</h3>
-<textarea id="innerTextOutput" rows="6" cols="30" readonly>…</textarea>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     load_event: {
                       children: {},
                       slug: "/en-US/docs/Web/API/HTMLElement/load_event",
@@ -10254,46 +9964,6 @@ api.Document.fullscreen`,
                     }
                   ]
                 },
-                htmlimageelement: {
-                  children: {
-                    border: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLImageElement/border",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '<img src="image.png" style="border: 2px;" />',
-                            "0:21 - 0:41",
-                            `/en-US/docs/Web/API/HTMLImageElement/border
-[no-style-attr] Do not use the style attribute.
-~~~
-<img src="image.png" style="border: 2px;" />
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '<img src="image.png" style="border: dashed 2px #333388;" />',
-                            "0:21 - 0:56",
-                            `/en-US/docs/Web/API/HTMLImageElement/border
-[no-style-attr] Do not use the style attribute.
-~~~
-<img src="image.png" style="border: dashed 2px #333388;" />
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 htmlinputelement: {
                   children: {
                     select: {
@@ -10450,75 +10120,6 @@ api.Document.fullscreen`,
                       ]
                     }
                   ]
-                },
-                htmlscriptelement: {
-                  children: {
-                    nomodule: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLScriptElement/noModule",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-script",
-                            "Do not write JS within the <script> element; use separate JS blocks instead.",
-                            `<script id="el" nomodule>
-  // If the browser supports JavaScript modules, the following script will not be executed.
-  console.log("The browser does not support JavaScript modules");
-</script>`,
-                            "0:0 - 3:9",
-                            `/en-US/docs/Web/API/HTMLScriptElement/noModule
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<script id="el" nomodule>
-  // If the browser supports JavaScript modules, the following script will not be executed.
-  console.log("The browser does not support JavaScript modules");
-</script>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    src: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLScriptElement/src",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-script",
-                            "Do not write JS within the <script> element; use separate JS blocks instead.",
-                            '<script id="script-without-src" type="module"></script>',
-                            "1:0 - 1:55",
-                            `/en-US/docs/Web/API/HTMLScriptElement/src
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<script id="script-with-src" type="module" src="/main.js"></script>
-<script id="script-without-src" type="module"></script>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "empty-script",
-                            "Script element should have non-empty text.",
-                            '<script id="script-without-src" type="module"></script>',
-                            "1:0 - 1:55",
-                            `/en-US/docs/Web/API/HTMLScriptElement/src
-[empty-script] Script element should have non-empty text.
-~~~
-<script id="script-with-src" type="module" src="/main.js"></script>
-<script id="script-without-src" type="module"></script>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 htmlselectedcontentelement: {
                   children: {},
@@ -10917,68 +10518,6 @@ function checkDeadlines() {
                 },
                 inputevent: {
                   children: {
-                    datatransfer: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/InputEvent/dataTransfer",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '<p><span style="font-weight: bold; color: blue">Whoa, bold blue text!</span></p>',
-                            "0:9 - 0:47",
-                            `/en-US/docs/Web/API/InputEvent/dataTransfer
-[no-style-attr] Do not use the style attribute.
-~~~
-<p><span style="font-weight: bold; color: blue">Whoa, bold blue text!</span></p>
-<p>
-  <span style="font-style: italic; color: red">Exciting: italic red text!</span>
-</p>
-<p>Boring normal text ;-(</p>
-
-<hr />
-
-<p contenteditable="true">
-  Go on, try pasting some content into this editable paragraph and see what
-  happens!
-</p>
-
-<p class="result"></p>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '  <span style="font-style: italic; color: red">Exciting: italic red text!</span>',
-                            "2:8 - 2:46",
-                            `/en-US/docs/Web/API/InputEvent/dataTransfer
-[no-style-attr] Do not use the style attribute.
-~~~
-<p><span style="font-weight: bold; color: blue">Whoa, bold blue text!</span></p>
-<p>
-  <span style="font-style: italic; color: red">Exciting: italic red text!</span>
-</p>
-<p>Boring normal text ;-(</p>
-
-<hr />
-
-<p contenteditable="true">
-  Go on, try pasting some content into this editable paragraph and see what
-  happens!
-</p>
-
-<p class="result"></p>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     inputtype: {
                       children: {},
                       slug: "/en-US/docs/Web/API/InputEvent/inputType",
@@ -11122,37 +10661,6 @@ function checkDeadlines() {
   </math>
   <div id="output"></div>
 </div>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    style: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MathMLElement/style",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    <mi class="parameter" style="color: red; border-bottom: 1px solid">x</mi>',
-                            "4:26 - 4:70",
-                            `/en-US/docs/Web/API/MathMLElement/style
-[no-style-attr] Do not use the style attribute.
-~~~
-<math>
-  <mrow>
-    <mi>f</mi>
-    <mo stretchy="false">(</mo>
-    <mi class="parameter" style="color: red; border-bottom: 1px solid">x</mi>
-    <mo stretchy="false">)</mo>
-    <mo>=</mo>
-    <mi>x</mi>
-  </mrow>
-</math>
-<pre id="out"></pre>
 ~~~
 `
                           ]
@@ -12463,40 +11971,6 @@ function checkDeadlines() {
                         }
                       ]
                     },
-                    parentelement: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Node/parentElement",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-script",
-                            "Do not write JS within the <script> element; use separate JS blocks instead.",
-                            `    <script>
-      const html = document.querySelector("html");
-      console.log(html.parentElement); // null
-      console.log(html.parentNode); // document
-    </script>`,
-                            "3:4 - 7:13",
-                            `/en-US/docs/Web/API/Node/parentElement
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<!doctype html>
-<html>
-  <body>
-    <script>
-      const html = document.querySelector("html");
-      console.log(html.parentElement); // null
-      console.log(html.parentNode); // document
-    </script>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     textcontent: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Node/textContent",
@@ -12600,6 +12074,27 @@ function checkDeadlines() {
                   slug: "/en-US/docs/Web/API/PaintWorkletGlobalScope",
                   messages: [
                     {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-block-no-duplicate-properties",
+                        'Unexpected duplicate "background-image" (declaration-block-no-duplicate-properties)',
+                        "    background-image: url(checkerboard);",
+                        "3:5 - 3:21",
+                        `/en-US/docs/Web/API/PaintWorkletGlobalScope
+[declaration-block-no-duplicate-properties] Unexpected duplicate "background-image" (declaration-block-no-duplicate-properties)
+~~~
+<style>
+  textarea {
+    background-image: url(checkerboard);
+    background-image: paint(checkerboard);
+  }
+</style>
+<textarea></textarea>
+~~~
+`
+                      ]
+                    },
+                    {
                       message: "HTML code issue",
                       data: [
                         "no-style-elem",
@@ -12680,6 +12175,53 @@ function checkDeadlines() {
                           message: "Not in BCD",
                           data: [
                             "api.PaymentRequestEvent.instrumentKey"
+                          ]
+                        }
+                      ]
+                    },
+                    total: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PaymentRequestEvent/total",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.iso.org/iso-4217-currency-codes.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                paymentrequest: {
+                  children: {
+                    show: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PaymentRequest/show",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.iso.org/iso-4217-currency-codes.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                paymentrequestupdateevent: {
+                  children: {
+                    updatewith: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PaymentRequestUpdateEvent/updateWith",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.iso.org/iso-4217-currency-codes.html",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -19703,6 +19245,81 @@ alert(emulateMessage(example5).constructor); // Object
                           data: [
                             "no-inline-script",
                             "Do not write JS within the <script> element; use separate JS blocks instead.",
+                            `    <script type="text/js-worker">
+      // This script WON'T be parsed by JS engines because its MIME type is text/js-worker.
+      const myVar = 'Hello World!';
+      // Rest of your worker code goes here.
+    </script>`,
+                            "6:4 - 10:13",
+                            `/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>MDN Example - Embedded worker</title>
+    <script type="text/js-worker">
+      // This script WON'T be parsed by JS engines because its MIME type is text/js-worker.
+      const myVar = 'Hello World!';
+      // Rest of your worker code goes here.
+    </script>
+    <script>
+      // This script WILL be parsed by JS engines because its MIME type is text/javascript.
+      function pageLog(sMsg) {
+        // Use a fragment: browser will only render/reflow once.
+        const frag = document.createDocumentFragment();
+        frag.appendChild(document.createTextNode(sMsg));
+        frag.appendChild(document.createElement("br"));
+        document.querySelector("#logDisplay").appendChild(frag);
+      }
+    </script>
+    <script type="text/js-worker">
+      // This script WON'T be parsed by JS engines because its MIME type is text/js-worker.
+      onmessage = (event) => {
+        postMessage(myVar);
+      };
+      // Rest of your worker code goes here.
+    </script>
+    <script>
+      // This script WILL be parsed by JS engines because its MIME type is text/javascript.
+
+      // In the past blob builder existed, but now we use Blob
+      const blob = new Blob(
+        Array.prototype.map.call(
+          document.querySelectorAll("script[type='text/js-worker']"),
+          (script) => script.textContent,
+        ),
+        { type: "text/javascript" },
+      );
+
+      // Creating a new document.worker property containing all our "text/js-worker" scripts.
+      document.worker = new Worker(window.URL.createObjectURL(blob));
+
+      document.worker.onmessage = (event) => {
+        pageLog(\`Received: \${event.data}\`);
+      };
+
+      // Start the worker.
+      window.onload = () => {
+        document.worker.postMessage("");
+      };
+    </script>
+  </head>
+  <body>
+    <div id="logDisplay"></div>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-script",
+                            "Do not write JS within the <script> element; use separate JS blocks instead.",
                             `    <script>
       // This script WILL be parsed by JS engines because its MIME type is text/javascript.
       function pageLog(sMsg) {
@@ -19714,6 +19331,83 @@ alert(emulateMessage(example5).constructor); // Object
       }
     </script>`,
                             "11:4 - 20:13",
+                            `/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>MDN Example - Embedded worker</title>
+    <script type="text/js-worker">
+      // This script WON'T be parsed by JS engines because its MIME type is text/js-worker.
+      const myVar = 'Hello World!';
+      // Rest of your worker code goes here.
+    </script>
+    <script>
+      // This script WILL be parsed by JS engines because its MIME type is text/javascript.
+      function pageLog(sMsg) {
+        // Use a fragment: browser will only render/reflow once.
+        const frag = document.createDocumentFragment();
+        frag.appendChild(document.createTextNode(sMsg));
+        frag.appendChild(document.createElement("br"));
+        document.querySelector("#logDisplay").appendChild(frag);
+      }
+    </script>
+    <script type="text/js-worker">
+      // This script WON'T be parsed by JS engines because its MIME type is text/js-worker.
+      onmessage = (event) => {
+        postMessage(myVar);
+      };
+      // Rest of your worker code goes here.
+    </script>
+    <script>
+      // This script WILL be parsed by JS engines because its MIME type is text/javascript.
+
+      // In the past blob builder existed, but now we use Blob
+      const blob = new Blob(
+        Array.prototype.map.call(
+          document.querySelectorAll("script[type='text/js-worker']"),
+          (script) => script.textContent,
+        ),
+        { type: "text/javascript" },
+      );
+
+      // Creating a new document.worker property containing all our "text/js-worker" scripts.
+      document.worker = new Worker(window.URL.createObjectURL(blob));
+
+      document.worker.onmessage = (event) => {
+        pageLog(\`Received: \${event.data}\`);
+      };
+
+      // Start the worker.
+      window.onload = () => {
+        document.worker.postMessage("");
+      };
+    </script>
+  </head>
+  <body>
+    <div id="logDisplay"></div>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-script",
+                            "Do not write JS within the <script> element; use separate JS blocks instead.",
+                            `    <script type="text/js-worker">
+      // This script WON'T be parsed by JS engines because its MIME type is text/js-worker.
+      onmessage = (event) => {
+        postMessage(myVar);
+      };
+      // Rest of your worker code goes here.
+    </script>`,
+                            "21:4 - 27:13",
                             `/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
 [no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
 ~~~
@@ -26001,19 +25695,6 @@ div.box-5 {
                     }
                   ]
                 },
-                "aspect-ratio": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/aspect-ratio",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.smashingmagazine.com/2019/03/aspect-ratio-unit-css/",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                      ]
-                    }
-                  ]
-                },
                 atan: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/atan",
@@ -26769,17 +26450,24 @@ path(evenodd,"M 10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80");
 ~~~
 `
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/fill-stroke-3/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
-                    rect: {
+                    polygon: {
                       children: {},
-                      slug: "/en-US/docs/Web/CSS/basic-shape/rect",
+                      slug: "/en-US/docs/Web/CSS/basic-shape/polygon",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://drafts.fxtf.org/css-masking-1/",
+                            "https://drafts.fxtf.org/fill-stroke-3/",
                             "The operation timed out."
                           ]
                         }
@@ -27151,6 +26839,13 @@ body {
 }
 ~~~
 `
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://drafts.fxtf.org/fill-stroke-3/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -27644,19 +27339,6 @@ section:focus {
                     }
                   ]
                 },
-                clip: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/clip",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 "clip-path": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/clip-path",
@@ -27746,26 +27428,6 @@ div {
 }
 ~~~
 `
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "clip-rule": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/clip-rule",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -31384,6 +31046,13 @@ body {
                           ]
                         },
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/native-css-masonry-layout-css-grid/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "Unexpected BCD keys",
                           data: [
                             "Actual:",
@@ -32614,6 +32283,23 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                     }
                   }
                 },
+                css_text: {
+                  children: {
+                    wrapping_breaking_text: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_text/Wrapping_breaking_text",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2019/09/overflow-data-loss-css/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 css_transforms: {
                   children: {
                     using_css_transforms: {
@@ -33249,6 +32935,45 @@ steps(0, jump-none)
 </div>
 ~~~
 `
+                      ]
+                    }
+                  ]
+                },
+                fill: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/fill",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "fill-opacity": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/fill-opacity",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "fill-rule": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/fill-rule",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -41343,19 +41068,6 @@ image-set('cat.jpg' 1x, 'dog.jpg' 1x) /* every image in an image set must have a
                     }
                   ]
                 },
-                mask: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 "mask-border": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/mask-border",
@@ -41392,13 +41104,6 @@ image-set('cat.jpg' 1x, 'dog.jpg' 1x) /* every image in an image set must have a
 ~~~
 `
                       ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -41406,13 +41111,6 @@ image-set('cat.jpg' 1x, 'dog.jpg' 1x) /* every image in an image set must have a
                   children: {},
                   slug: "/en-US/docs/Web/CSS/mask-border-mode",
                   messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    },
                     {
                       message: "Not in BCD",
                       data: [
@@ -41426,58 +41124,6 @@ image-set('cat.jpg' 1x, 'dog.jpg' 1x) /* every image in an image set must have a
                         "[None]",
                         "Expected:",
                         "css.properties.mask-border-mode"
-                      ]
-                    }
-                  ]
-                },
-                "mask-border-outset": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-border-outset",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-border-repeat": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-border-repeat",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-border-slice": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-border-slice",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-border-source": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-border-source",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -41500,26 +41146,6 @@ mask-border-width: 30 fill;
 ~~~
 `
                       ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-clip": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-clip",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -41531,104 +41157,6 @@ mask-border-width: 30 fill;
                       message: "Broken link",
                       data: [
                         "/en-US/Web/SVG/Reference/Attribute/mask-type"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-image": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-image",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-mode": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-mode",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-origin": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-origin",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-position",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-repeat": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-repeat",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-size",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "mask-type": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-type",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://drafts.fxtf.org/css-masking-1/",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -42984,6 +42512,111 @@ circle {
 ~~~
 `
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "stroke-dasharray": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke-dasharray",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "stroke-dashoffset": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke-dashoffset",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "stroke-linecap": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke-linecap",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "stroke-linejoin": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke-linejoin",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "stroke-miterlimit": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke-miterlimit",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "stroke-opacity": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke-opacity",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "stroke-width": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/stroke-width",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://drafts.fxtf.org/fill-stroke-3/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -44307,19 +43940,6 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
-                        accept: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.gnu.org/software/wget/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
                         "available-dictionary": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Available-Dictionary",
@@ -44580,19 +44200,6 @@ http.headers.Use-As-Dictionary`,
               children: {
                 guide: {
                   children: {
-                    regular_expressions: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Regular_expressions",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://regexr.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     using_promises: {
                       children: {},
                       slug: "/en-US/docs/Web/JavaScript/Guide/Using_promises",
@@ -44717,13 +44324,26 @@ http.headers.Use-As-Dictionary`,
                                     {
                                       message: "Broken external link",
                                       data: [
-                                        "https://www.iso.org/iso-3166-country-codes.html",
+                                        "https://www.iso.org/iso-4217-currency-codes.html",
                                         "The operation timed out."
                                       ]
                                     }
                                   ]
                                 }
                               }
+                            },
+                            supportedvaluesof: {
+                              children: {},
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/supportedValuesOf",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://www.iso.org/iso-4217-currency-codes.html",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
                             }
                           }
                         },
@@ -54245,23 +53865,6 @@ svg.elements.feSpotLight.z`
         },
         webassembly: {
           children: {
-            guides: {
-              children: {
-                existing_c_to_wasm: {
-                  children: {},
-                  slug: "/en-US/docs/WebAssembly/Guides/Existing_C_to_Wasm",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://emscripten.org/docs/compiling/Building-Projects.html",
-                        503
-                      ]
-                    }
-                  ]
-                }
-              }
-            },
             reference: {
               children: {
                 memory: {
