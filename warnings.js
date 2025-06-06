@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-9r56g58w.js";
+} from "./chunk-t4zypbth.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -54,13 +54,6 @@ var warnings_processed_default = {
                       message: "External sandbox link",
                       data: [
                         "https://jsfiddle.net/jlr7245/teb4znk0/20/"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.sevenson.com.au/programming/sat/",
-                        "Cannot reach server and Bun hangs"
                       ]
                     }
                   ]
@@ -1616,6 +1609,26 @@ var warnings_processed_default = {
                             "https://new.drupal.org/",
                             403
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gatsbyjs.com/",
+                            "unknown certificate verification error"
+                          ]
+                        }
+                      ]
+                    },
+                    react_resources: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_resources",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2020/01/introduction-react-context-api/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -1842,6 +1855,19 @@ var warnings_processed_default = {
                         }
                       ]
                     },
+                    html_images: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
                     html_video_and_audio: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_video_and_audio",
@@ -1862,6 +1888,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "HTTP link",
+                          data: [
+                            "http://tavmjong.free.fr/INKSCAPE/MANUAL/html/Web-Inkscape.html",
+                            ""
+                          ]
                         }
                       ]
                     }
@@ -1876,6 +1909,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://mdn.github.io/learning-area/css/styling-boxes/advanced_box_effects/blend-modes.html",
+                            503
+                          ]
                         }
                       ]
                     },
@@ -1929,6 +1969,23 @@ var warnings_processed_default = {
                       ]
                     }
                   ]
+                },
+                text_styling: {
+                  children: {
+                    web_fonts: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.exljbris.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 }
               },
               slug: "/en-US/docs/Learn_web_development/Core",
@@ -2118,27 +2175,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    }
-                  }
-                }
-              }
-            },
-            getting_started: {
-              children: {
-                soft_skills: {
-                  children: {
-                    finding_a_job: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Finding_a_job",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.upwork.com/",
-                            403
-                          ]
                         }
                       ]
                     }
@@ -2338,13 +2374,6 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gaesamplesite.appspot.com/downloads.html",
-                            503
-                          ]
-                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -4293,6 +4322,20 @@ else if (e.target.id === "tabs-alert-info") {
                           data: [
                             "http://www.aha-soft.com/free-icons/free-retina-icon-set/",
                             ""
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.iconbeast.com/free/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.iconbeast.com/faq/",
+                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -7658,13 +7701,6 @@ else if (e.target.id === "tabs-alert-info") {
                           data: [
                             "https://colorusage.arc.nasa.gov/flashing.php",
                             "Unable to connect. Is the computer able to access the url?"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.techrepublic.com/forums/discussions/epilepsy-and-crt-lcd-screen-flicker/",
-                            "The operation timed out."
                           ]
                         },
                         {
@@ -32076,6 +32112,13 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2020/03/practical-overview-css-houdini/",
+                            "unknown certificate verification error"
+                          ]
                         }
                       ]
                     }
@@ -44321,6 +44364,27 @@ http.headers.Use-As-Dictionary`,
                             }
                           }
                         },
+                        intl: {
+                          children: {
+                            displaynames: {
+                              children: {
+                                of: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DisplayNames/of",
+                                  messages: [
+                                    {
+                                      message: "Broken external link",
+                                      data: [
+                                        "https://www.iso.org/iso-3166-country-codes.html",
+                                        "The operation timed out."
+                                      ]
+                                    }
+                                  ]
+                                }
+                              }
+                            }
+                          }
+                        },
                         object: {
                           children: {}
                         },
@@ -44497,6 +44561,19 @@ console.log(bar.next()); // {value: 10, done: false}
                             }
                           ]
                         },
+                        live_streaming_web_audio_and_video: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/Live_streaming_web_audio_and_video",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://larryjordan.com/articles/basics-of-http-live-streaming/",
+                                "Unable to connect. Is the computer able to access the url?"
+                              ]
+                            }
+                          ]
+                        },
                         webaudio_playbackrate_explained: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/WebAudio_playbackRate_explained",
@@ -44608,6 +44685,33 @@ console.log(bar.next()); // {value: 10, done: false}
                                 "https://www.iso.org/standard/22412.html",
                                 "The operation timed out."
                               ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.iso.org/standard/26797.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        codecs_parameter: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/codecs_parameter",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.iso.org/standard/54838.html",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.iso.org/standard/54838.html",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         },
@@ -44625,7 +44729,21 @@ console.log(bar.next()); // {value: 10, done: false}
                             {
                               message: "Broken external link",
                               data: [
+                                "https://www.iso.org/standard/19180.html",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
                                 "https://www.iso.org/standard/74427.html",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.iso.org/standard/75929.html",
                                 "The operation timed out."
                               ]
                             },
@@ -44653,6 +44771,20 @@ console.log(bar.next()); // {value: 10, done: false}
                               message: "Broken external link",
                               data: [
                                 "https://www.iso.org/standard/69668.html",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.iso.org/standard/22411.html",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.iso.org/standard/61152.html",
                                 "The operation timed out."
                               ]
                             }
@@ -44821,28 +44953,6 @@ console.log(bar.next()); // {value: 10, done: false}
                   ]
                 }
               ]
-            },
-            progressive_web_apps: {
-              children: {
-                manifest: {
-                  children: {
-                    reference: {
-                      children: {
-                        scope_extensions: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/scope_extensions",
-                          messages: [
-                            {
-                              message: "Missing syntax code block",
-                              data: []
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  }
-                }
-              }
             },
             security: {
               children: {
@@ -53792,30 +53902,6 @@ svg.elements.feSpotLight.z`
         },
         webassembly: {
           children: {
-            guides: {
-              children: {
-                using_the_javascript_api: {
-                  children: {},
-                  slug: "/en-US/docs/WebAssembly/Guides/Using_the_JavaScript_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://raw.githubusercontent.com/mdn/webassembly-examples/master/js-api-examples/memory.wasm",
-                        "429 Retry-After: 300"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://raw.githubusercontent.com/mdn/webassembly-examples/master/js-api-examples/table.wasm",
-                        "429 Retry-After: 300"
-                      ]
-                    }
-                  ]
-                }
-              }
-            },
             reference: {
               children: {
                 memory: {
