@@ -122,6 +122,19 @@ declarative_net_request.rule_resources
 browser_specific_settings.gecko.id
 storage.managed_schema
 
+dom.enable_web_task_scheduling
+dom.events.script_execute.enable
+dom.mutation_events.enabled
+dom.performance.event_timing.enable_interactionid
+dom.security.trusted_types.enabled
+dom.shadowdom.selection_across_boundary.enabled
+image.avif.compliance_strictness
+javascript.options.atomics_wait_async
+network.cors_preflight.authorization_covered_by_wildcard
+security.insecure_connection_text.enabled
+security.insecure_connection_text.pbmode.enabled
+security.mixed_content.block_object_subrequest
+
 first baseline	/en-US/docs/Web/CSS/baseline-position
 last baseline	/en-US/docs/Web/CSS/baseline-position
 string text	/en-US/docs/Web/JavaScript/Reference/Template_literals

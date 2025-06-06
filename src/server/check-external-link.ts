@@ -210,6 +210,7 @@ export function createLinkRequests(
           "https://tc39.es",
           "https://drafts.csswg.org",
           "https://drafts.css-houdini.org",
+          "https://drafts.fxtf.org",
           "https://unicode.org",
           "https://www.unicode.org",
           "https://datatracker.ietf.org",
@@ -231,6 +232,7 @@ export function createLinkRequests(
           // URL shorteners
           "https://mzl.la",
           // Is this safe?
+          "https://www.iso.org",
           "https://www.w3.org",
           "https://www.npmjs.com",
         ].some((domain) => link.startsWith(domain)) ||
