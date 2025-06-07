@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-m2kd4wnb.js";
+} from "./chunk-n51j3krj.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -706,6 +706,26 @@ var warnings_processed_default = {
                 }
               ]
             },
+            gpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/GPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-faq.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                }
+              ]
+            },
             "high-level_programming_language": {
               children: {},
               slug: "/en-US/docs/Glossary/High-level_programming_language",
@@ -786,6 +806,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            javascript: {
+              children: {},
+              slug: "/en-US/docs/Glossary/JavaScript",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://nodejs.org/en",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
             khronos: {
               children: {},
               slug: "/en-US/docs/Glossary/Khronos",
@@ -793,6 +826,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            lgpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/LGPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/lgpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
                 }
               ]
             },
@@ -1651,6 +1697,27 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/api/built-in-directives.html",
+                            "unknown certificate verification error"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/api/built-in-directives.html",
+                            "unknown certificate verification error"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/api/built-in-directives.html",
+                            "unknown certificate verification error"
+                          ]
                         }
                       ]
                     },
@@ -1681,6 +1748,27 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/api/built-in-directives.html",
+                            "unknown certificate verification error"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/api/built-in-directives.html",
+                            "unknown certificate verification error"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/api/built-in-directives.html",
+                            "unknown certificate verification error"
+                          ]
                         }
                       ]
                     },
@@ -1701,6 +1789,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/api/built-in-directives.html",
+                            "unknown certificate verification error"
+                          ]
                         }
                       ]
                     },
@@ -1777,6 +1872,19 @@ var warnings_processed_default = {
                         }
                       ]
                     },
+                    html_images: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
                     html_video_and_audio: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_video_and_audio",
@@ -1797,6 +1905,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "HTTP link",
+                          data: [
+                            "http://tavmjong.free.fr/INKSCAPE/MANUAL/html/Web-Inkscape.html",
+                            ""
+                          ]
                         }
                       ]
                     }
@@ -1936,6 +2051,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2011/11/but-the-client-wants-ie-6-support/",
+                            "unknown certificate verification error"
+                          ]
                         }
                       ]
                     },
@@ -1995,6 +2117,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -2033,6 +2162,23 @@ var warnings_processed_default = {
                               data: [
                                 "http://callbackhell.com/",
                                 ""
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    first_steps: {
+                      children: {
+                        web_frameworks: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Web_frameworks",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://metacpan.org/pod/CGI",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -2231,6 +2377,19 @@ var warnings_processed_default = {
                 },
                 tools_and_setup: {
                   children: {
+                    available_text_editors: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.codelobster.com/forum/index.php",
+                            503
+                          ]
+                        }
+                      ]
+                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -2248,7 +2407,7 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://gaesamplesite.appspot.com/downloads.html",
+                            "https://gaesamplesite.appspot.com/",
                             503
                           ]
                         }
@@ -4193,6 +4352,20 @@ else if (e.target.id === "tabs-alert-info") {
                           data: [
                             "http://www.aha-soft.com/free-icons/free-retina-icon-set/",
                             ""
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.iconbeast.com/free/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.iconbeast.com/faq/",
+                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -10551,13 +10724,6 @@ function checkDeadlines() {
 </div>
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://d-toybox.com/studio/lib/input_event_viewer.html",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -19722,54 +19888,6 @@ alert(emulateMessage(example5).constructor); // Object
                 },
                 webgl_api: {
                   children: {
-                    matrix_math_for_the_web: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WebGL_API/Matrix_math_for_the_web",
-                      messages: [
-                        {
-                          message: "External sandbox link",
-                          data: [
-                            "https://jsfiddle.net/tatumcreative/g24mgw6y/"
-                          ]
-                        },
-                        {
-                          message: "External sandbox link",
-                          data: [
-                            "https://jsfiddle.net/tatumcreative/fndd6e1b/"
-                          ]
-                        },
-                        {
-                          message: "External sandbox link",
-                          data: [
-                            "https://jsfiddle.net/tatumcreative/9vr2dorz/"
-                          ]
-                        },
-                        {
-                          message: "External sandbox link",
-                          data: [
-                            "https://jsfiddle.net/tatumcreative/tk072doc/"
-                          ]
-                        },
-                        {
-                          message: "External sandbox link",
-                          data: [
-                            "https://jsfiddle.net/tatumcreative/qxxg3yvc/"
-                          ]
-                        }
-                      ]
-                    },
-                    webgl_best_practices: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WebGL_API/WebGL_best_practices",
-                      messages: [
-                        {
-                          message: "External sandbox link",
-                          data: [
-                            "https://jsfiddle.net/ptkyewhx/"
-                          ]
-                        }
-                      ]
-                    },
                     webgl_model_view_projection: {
                       children: {},
                       slug: "/en-US/docs/Web/API/WebGL_API/WebGL_model_view_projection",
@@ -19887,6 +20005,13 @@ alert(emulateMessage(example5).constructor); // Object
                           message: "No link to child page",
                           data: [
                             "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Build_the_server"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://nodejs.org/en",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -20429,7 +20554,24 @@ alert(emulateMessage(example5).constructor); // Object
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/WebSockets_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://nodejs.org/en",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://nodejs.org/en",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 webtransport_api: {
                   children: {},
@@ -30924,13 +31066,6 @@ body {
 </div>
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/native-css-masonry-layout-css-grid/",
-                            "The operation timed out."
                           ]
                         },
                         {
@@ -43293,16 +43428,6 @@ html.elements.select.size`
               children: {
                 guides: {
                   children: {
-                    browser_detection_using_the_user_agent: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTTP/Guides/Browser_detection_using_the_user_agent",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
                     compression_dictionary_transport: {
                       children: {},
                       slug: "/en-US/docs/Web/HTTP/Guides/Compression_dictionary_transport",
@@ -43324,20 +43449,6 @@ http.headers.Use-As-Dictionary`,
                           ]
                         }
                       ]
-                    },
-                    content_negotiation: {
-                      children: {
-                        list_of_default_accept_values: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Guides/Content_negotiation/List_of_default_Accept_values",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        }
-                      }
                     },
                     cookies: {
                       children: {},
@@ -43395,28 +43506,7 @@ http.headers.Use-As-Dictionary`,
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Web/HTTP/Guides/CSP/Errors",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    mime_types: {
-                      children: {
-                        common_types: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Guides/MIME_types/Common_types",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
+                          }
                         }
                       }
                     },
@@ -43424,10 +43514,6 @@ http.headers.Use-As-Dictionary`,
                       children: {},
                       slug: "/en-US/docs/Web/HTTP/Guides/Network_Error_Logging",
                       messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        },
                         {
                           message: "Unexpected BCD keys",
                           data: [
@@ -43453,20 +43539,6 @@ http.headers.Use-As-Dictionary`,
                           ]
                         }
                       ]
-                    },
-                    proxy_servers_and_tunneling: {
-                      children: {
-                        "proxy_auto-configuration_pac_file": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Guides/Proxy_servers_and_tunneling/Proxy_Auto-Configuration_PAC_file",
-                          messages: [
-                            {
-                              message: "Unreachable via sidebar",
-                              data: []
-                            }
-                          ]
-                        }
-                      }
                     }
                   }
                 },
@@ -43474,6 +43546,19 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         "available-dictionary": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Available-Dictionary",
@@ -43969,25 +44054,7 @@ console.log(bar.next()); // {value: 10, done: false}
               }
             },
             mathml: {
-              children: {
-                guides: {
-                  children: {
-                    authoring: {
-                      children: {},
-                      slug: "/en-US/docs/Web/MathML/Guides/Authoring",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.lyx.org/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                }
-              },
+              children: {},
               slug: "/en-US/docs/Web/MathML",
               messages: [
                 {
@@ -44031,7 +44098,7 @@ console.log(bar.next()); // {value: 10, done: false}
                               message: "Broken external link",
                               data: [
                                 "https://larryjordan.com/articles/basics-of-http-live-streaming/",
-                                "Unable to connect. Is the computer able to access the url?"
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -44195,10 +44262,6 @@ console.log(bar.next()); // {value: 10, done: false}
                               slug: "/en-US/docs/Web/Privacy/Guides/Storage_Access_Policy/Errors/CookieBlockedAll",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                },
-                                {
                                   message: "Unreachable via page",
                                   data: []
                                 }
@@ -44208,10 +44271,6 @@ console.log(bar.next()); // {value: 10, done: false}
                               children: {},
                               slug: "/en-US/docs/Web/Privacy/Guides/Storage_Access_Policy/Errors/CookieBlockedByPermission",
                               messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                },
                                 {
                                   message: "Unreachable via page",
                                   data: []
@@ -44223,10 +44282,6 @@ console.log(bar.next()); // {value: 10, done: false}
                               slug: "/en-US/docs/Web/Privacy/Guides/Storage_Access_Policy/Errors/CookieBlockedForeign",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                },
-                                {
                                   message: "Unreachable via page",
                                   data: []
                                 }
@@ -44237,10 +44292,6 @@ console.log(bar.next()); // {value: 10, done: false}
                               slug: "/en-US/docs/Web/Privacy/Guides/Storage_Access_Policy/Errors/CookieBlockedTracker",
                               messages: [
                                 {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                },
-                                {
                                   message: "Unreachable via page",
                                   data: []
                                 }
@@ -44250,10 +44301,6 @@ console.log(bar.next()); // {value: 10, done: false}
                               children: {},
                               slug: "/en-US/docs/Web/Privacy/Guides/Storage_Access_Policy/Errors/CookiePartitionedForeign",
                               messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                },
                                 {
                                   message: "Unreachable via page",
                                   data: []
@@ -53056,6 +53103,13 @@ svg.elements.feSpotLight.z`
                             {
                               message: "Missing syntax code block",
                               data: []
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://isbnsearch.org/isbn/9780141036144",
+                                500
+                              ]
                             }
                           ]
                         }
