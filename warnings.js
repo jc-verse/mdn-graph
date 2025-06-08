@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-9w1eh968.js";
+} from "./chunk-rhf9asz6.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -32,6 +32,32 @@ var warnings_processed_default = {
                       data: [
                         "https://gamesaturn.com/",
                         403
+                      ]
+                    }
+                  ]
+                },
+                game_monetization: {
+                  children: {},
+                  slug: "/en-US/docs/Games/Publishing_games/Game_monetization",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://gamedevelopment.tutsplus.com/",
+                        "https://code.tutsplus.com/c/game-development"
+                      ]
+                    }
+                  ]
+                },
+                game_promotion: {
+                  children: {},
+                  slug: "/en-US/docs/Games/Publishing_games/Game_promotion",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://gamedevelopment.tutsplus.com/",
+                        "https://code.tutsplus.com/c/game-development"
                       ]
                     }
                   ]
@@ -429,6 +455,13 @@ var warnings_processed_default = {
                 "http://creativejs.com/",
                 ""
               ]
+            },
+            {
+              message: "Redirected external link",
+              data: [
+                "https://gamedevelopment.tutsplus.com/",
+                "https://code.tutsplus.com/c/game-development"
+              ]
             }
           ]
         },
@@ -441,6 +474,18 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            attribute: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Attribute",
+              messages: [
+                {
+                  message: "w3.org/TR link",
+                  data: [
+                    "https://www.w3.org/TR/xml#sec-starttags"
+                  ]
                 }
               ]
             },
@@ -666,6 +711,18 @@ var warnings_processed_default = {
                 }
               ]
             },
+            flexbox: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Flexbox",
+              messages: [
+                {
+                  message: "w3.org/TR link",
+                  data: [
+                    "https://www.w3.org/TR/css-flexbox-1/"
+                  ]
+                }
+              ]
+            },
             fragmentainer: {
               children: {},
               slug: "/en-US/docs/Glossary/Fragmentainer",
@@ -673,6 +730,12 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                },
+                {
+                  message: "w3.org/TR link",
+                  data: [
+                    "https://www.w3.org/TR/css-break-3/"
+                  ]
                 }
               ]
             },
@@ -703,6 +766,18 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            guaranteed_invalid_value: {
+              children: {},
+              slug: "/en-US/docs/Glossary/guaranteed_invalid_value",
+              messages: [
+                {
+                  message: "w3.org/TR link",
+                  data: [
+                    "https://www.w3.org/TR/css-variables-1/#guaranteed-invalid"
+                  ]
                 }
               ]
             },
@@ -783,6 +858,18 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            intrinsic_size: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Intrinsic_Size",
+              messages: [
+                {
+                  message: "w3.org/TR link",
+                  data: [
+                    "https://www.w3.org/TR/css-sizing-3/#intrinsic-sizes"
+                  ]
                 }
               ]
             },
@@ -1267,6 +1354,18 @@ var warnings_processed_default = {
                 }
               ]
             },
+            xlink: {
+              children: {},
+              slug: "/en-US/docs/Glossary/XLink",
+              messages: [
+                {
+                  message: "w3.org/TR link",
+                  data: [
+                    "https://www.w3.org/TR/xlink11/"
+                  ]
+                }
+              ]
+            },
             xmlhttprequest: {
               children: {},
               slug: "/en-US/docs/Glossary/XMLHttpRequest",
@@ -1274,6 +1373,24 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            xpath: {
+              children: {},
+              slug: "/en-US/docs/Glossary/XPath",
+              messages: [
+                {
+                  message: "w3.org/TR link",
+                  data: [
+                    "https://www.w3.org/TR/xpath-30/"
+                  ]
+                },
+                {
+                  message: "w3.org/TR link",
+                  data: [
+                    "https://www.w3.org/TR/?tag=xml"
+                  ]
                 }
               ]
             },
@@ -1548,8 +1665,28 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://phabricator.wikimedia.org/T241180",
+                            "429 Retry-After: 1000"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://new.drupal.org/",
                             403
+                          ]
+                        }
+                      ]
+                    },
+                    react_getting_started: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -1601,6 +1738,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuex.vuejs.org/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -1671,6 +1815,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -1917,6 +2068,63 @@ var warnings_processed_default = {
                     }
                   }
                 },
+                "client-side_tools": {
+                  children: {
+                    introducing_complete_toolchain: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/features.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/features.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    overview: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    package_management: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Package_management",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 forms: {
                   children: {
                     how_to_build_custom_form_controls: {
@@ -1956,6 +2164,18 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    "ui_pseudo-classes": {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes",
+                      messages: [
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/CSS21/selector.html#dynamic-pseudo-classes"
+                          ]
                         }
                       ]
                     },
@@ -2039,6 +2259,23 @@ var warnings_processed_default = {
                         }
                       }
                     },
+                    first_steps: {
+                      children: {
+                        web_frameworks: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Web_frameworks",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.techuseful.com/drone-definitions-learning-the-drone-lingo/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     node_server_without_framework: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Node_server_without_framework",
@@ -2046,6 +2283,23 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        }
+                      ]
+                    }
+                  }
+                },
+                testing: {
+                  children: {
+                    testing_strategies: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://help.ubuntu.com/community/WindowsDualBoot",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -4469,6 +4723,42 @@ else if (e.target.id === "tabs-alert-info") {
                             {
                               message: "Unreachable via sidebar",
                               data: []
+                            },
+                            {
+                              message: "w3.org/TR link",
+                              data: [
+                                "https://www.w3.org/TR/SVG11/extend.html#ForeignObjectElement"
+                              ]
+                            },
+                            {
+                              message: "w3.org/TR link",
+                              data: [
+                                "https://www.w3.org/TR/SVG11/pservers.html#PatternElement"
+                              ]
+                            },
+                            {
+                              message: "w3.org/TR link",
+                              data: [
+                                "https://www.w3.org/TR/SVG11/masking.html#MaskElement"
+                              ]
+                            },
+                            {
+                              message: "w3.org/TR link",
+                              data: [
+                                "https://www.w3.org/TR/SVG11/filters.html"
+                              ]
+                            },
+                            {
+                              message: "w3.org/TR link",
+                              data: [
+                                "https://www.w3.org/TR/SVG/text.html#WhiteSpace"
+                              ]
+                            },
+                            {
+                              message: "w3.org/TR link",
+                              data: [
+                                "https://www.w3.org/TR/SVG/painting.html#SpecifyingPaint"
+                              ]
                             }
                           ]
                         },
@@ -5984,6 +6274,18 @@ else if (e.target.id === "tabs-alert-info") {
                         }
                       ]
                     },
+                    "20": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/20",
+                      messages: [
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/css-masking-1/#the-mask-type"
+                          ]
+                        }
+                      ]
+                    },
                     "21": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/21",
@@ -6871,6 +7173,18 @@ else if (e.target.id === "tabs-alert-info") {
                         }
                       ]
                     },
+                    "76": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/76",
+                      messages: [
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/css-color-4/#typedef-system-color"
+                          ]
+                        }
+                      ]
+                    },
                     "90": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/90",
@@ -6968,6 +7282,18 @@ else if (e.target.id === "tabs-alert-info") {
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Web/API/RTCMediaSourceStats"
+                          ]
+                        }
+                      ]
+                    },
+                    "119": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/119",
+                      messages: [
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/css-values-3/#lengths"
                           ]
                         }
                       ]
@@ -7179,6 +7505,18 @@ else if (e.target.id === "tabs-alert-info") {
                           message: "No link to child page",
                           data: [
                             "/en-US/docs/Mozilla/Firefox/Releases/1.5/Changing_the_priority_of_HTTP_requests"
+                          ]
+                        },
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/xslt/"
+                          ]
+                        },
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/xpath/"
                           ]
                         }
                       ]
@@ -7520,6 +7858,12 @@ else if (e.target.id === "tabs-alert-info") {
                           data: [
                             "/en-US/docs/XPCOM_Interface_Reference/nsIAccessibleEvent"
                           ]
+                        },
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/css3-values/#lengths"
+                          ]
                         }
                       ]
                     }
@@ -7541,7 +7885,69 @@ else if (e.target.id === "tabs-alert-info") {
           ]
         },
         related: {
-          children: {},
+          children: {
+            imsc: {
+              children: {
+                imsc_and_other_standards: {
+                  children: {},
+                  slug: "/en-US/docs/Related/IMSC/IMSC_and_other_standards",
+                  messages: [
+                    {
+                      message: "w3.org/TR link",
+                      data: [
+                        "https://www.w3.org/TR/ttml-imsc/all/"
+                      ]
+                    },
+                    {
+                      message: "w3.org/TR link",
+                      data: [
+                        "https://www.w3.org/TR/ttml-imsc1.0.1/#smpte-tt-smpte-st-2052-1"
+                      ]
+                    },
+                    {
+                      message: "w3.org/TR link",
+                      data: [
+                        "https://www.w3.org/TR/ttml-imsc1.1/#cff-tt"
+                      ]
+                    },
+                    {
+                      message: "w3.org/TR link",
+                      data: [
+                        "https://www.w3.org/TR/ttml-imsc1.0.1/"
+                      ]
+                    },
+                    {
+                      message: "w3.org/TR link",
+                      data: [
+                        "https://www.w3.org/TR/ttml-imsc1.1/"
+                      ]
+                    }
+                  ]
+                },
+                namespaces: {
+                  children: {},
+                  slug: "/en-US/docs/Related/IMSC/Namespaces",
+                  messages: [
+                    {
+                      message: "w3.org/TR link",
+                      data: [
+                        "https://www.w3.org/TR/ttml-imsc1.0.1/#namespaces"
+                      ]
+                    }
+                  ]
+                }
+              },
+              slug: "/en-US/docs/Related/IMSC",
+              messages: [
+                {
+                  message: "w3.org/TR link",
+                  data: [
+                    "https://www.w3.org/TR/ttml-imsc/all/"
+                  ]
+                }
+              ]
+            }
+          },
           slug: "/en-US/docs/Related",
           messages: [
             {
@@ -7608,6 +8014,12 @@ else if (e.target.id === "tabs-alert-info") {
                       slug: "/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance",
                       messages: [
                         {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/css-color-4/"
+                          ]
+                        },
+                        {
                           message: "Broken external link",
                           data: [
                             "https://colorusage.arc.nasa.gov/design_lum_1.php",
@@ -7635,17 +8047,34 @@ else if (e.target.id === "tabs-alert-info") {
                       slug: "/en-US/docs/Web/Accessibility/Guides/Seizure_disorders",
                       messages: [
                         {
-                          message: "Broken external link",
+                          message: "w3.org/TR link",
                           data: [
-                            "https://colorusage.arc.nasa.gov/flashing.php",
-                            "Unable to connect. Is the computer able to access the url?"
+                            "https://www.w3.org/TR/css-animations-1/#animation-play-state"
+                          ]
+                        },
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/web-animations-1/"
+                          ]
+                        },
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/css-color-3/"
+                          ]
+                        },
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/web-animations-1/"
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.techrepublic.com/forums/discussions/epilepsy-and-crt-lcd-screen-flicker/",
-                            503
+                            "https://colorusage.arc.nasa.gov/flashing.php",
+                            "Unable to connect. Is the computer able to access the url?"
                           ]
                         },
                         {
@@ -8100,7 +8529,20 @@ api.MessagePort`,
                   ]
                 },
                 css_object_model: {
-                  children: {},
+                  children: {
+                    determining_the_dimensions_of_elements: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSS_Object_Model/Determining_the_dimensions_of_elements",
+                      messages: [
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/cssom-view-1/"
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/API/CSS_Object_Model",
                   messages: [
                     {
@@ -8168,6 +8610,28 @@ api.MessagePort`,
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Web/CSS/declaration-value"
+                          ]
+                        },
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/css-syntax-3/#typedef-declaration-value"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                cssrule: {
+                  children: {
+                    csstext: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSSRule/cssText",
+                      messages: [
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/cssom-1/#changes-from-5-december-2013"
                           ]
                         }
                       ]
@@ -8477,6 +8941,30 @@ api.DeviceOrientationEvent`,
                           ]
                         }
                       ]
+                    },
+                    whitespace: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document_Object_Model/Whitespace",
+                      messages: [
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/css-text-3/"
+                          ]
+                        },
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/css-text-3/#white-space-property"
+                          ]
+                        },
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/css-text-3/#white-space-processing"
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/API/Document_Object_Model",
@@ -8579,86 +9067,6 @@ api.DeviceOrientationEvent`,
                           ]
                         }
                       ]
-                    },
-                    sethtml: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/setHTML",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-useless-concat",
-                            "Unexpected string concatenation of literals.",
-                            'const unsanitizedString = "abc <script>alert(1)<" + "/script> def";',
-                            "2:51 - 2:52",
-                            `/en-US/docs/Web/API/Element/setHTML
-[no-useless-concat] Unexpected string concatenation of literals.
-~~~
-// Define unsanitized string of HTML
-const unsanitizedString = "abc <script>alert(1)<" + "/script> def";
-// Get the target Element with id "target"
-const target = document.getElementById("target");
-
-// setHTML() with default sanitizer
-target.setHTML(unsanitizedString);
-
-// Define custom Sanitizer and use in setHTML()
-// This allows only elements: div, p, button (script is unsafe and will be removed)
-const sanitizer1 = new Sanitizer({
-  elements: ["div", "p", "button", "script"],
-});
-target.setHTML(unsanitizedString, { sanitizer: sanitizer1 });
-
-// Define custom SanitizerConfig within setHTML()
-// This removes elements div, p, button, script, and any other unsafe elements/attributes
-target.setHTML(unsanitizedString, {
-  sanitizer: { removeElements: ["div", "p", "button", "script"] },
-});
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    sethtmlunsafe: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/setHTMLUnsafe",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-useless-concat",
-                            "Unexpected string concatenation of literals.",
-                            'const unsanitizedString = "abc <script>alert(1)<" + "/script> def";',
-                            "2:51 - 2:52",
-                            `/en-US/docs/Web/API/Element/setHTMLUnsafe
-[no-useless-concat] Unexpected string concatenation of literals.
-~~~
-// Define unsanitized string of HTML
-const unsanitizedString = "abc <script>alert(1)<" + "/script> def";
-// Get the target Element with id "target"
-const target = document.getElementById("target");
-
-// setHTML() with no sanitizer
-target.setHTMLUnsafe(unsanitizedString);
-
-// Define custom Sanitizer and use in setHTMLUnsafe()
-// This allows only elements: div, p, button, script
-const sanitizer1 = new Sanitizer({
-  elements: ["div", "p", "button", "script"],
-});
-target.setHTML(unsanitizedString, { sanitizer: sanitizer1 });
-
-// Define custom SanitizerConfig within setHTMLUnsafe()
-// Removes the <script> element but allows other potentially unsafe entities.
-target.setHTMLUnsafe(unsanitizedString, {
-  sanitizer: { removeElements: ["script"] },
-});
-~~~
-`
-                          ]
-                        }
-                      ]
                     }
                   }
                 },
@@ -8723,6 +9131,24 @@ http.headers.Permissions-Policy.deferred-fetch-minimal`,
                       ]
                     }
                   }
+                },
+                fontfaceset: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/FontFaceSet",
+                  messages: [
+                    {
+                      message: "w3.org/TR link",
+                      data: [
+                        "https://www.w3.org/TR/css-font-loading-3/#css-connected"
+                      ]
+                    },
+                    {
+                      message: "w3.org/TR link",
+                      data: [
+                        "https://www.w3.org/TR/css-font-loading-3/#css-connected"
+                      ]
+                    }
+                  ]
                 },
                 fullscreen_api: {
                   children: {
@@ -9234,151 +9660,6 @@ api.Document.fullscreen`,
                         {
                           message: "Unreachable via page",
                           data: []
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-useless-concat",
-                            "Unexpected string concatenation of literals.",
-                            'const untrustedString = "abc <script>alert(1)<" + "/script> def";',
-                            "1:49 - 1:50",
-                            `/en-US/docs/Web/API/HTML_Sanitizer_API/Using_the_HTML_Sanitizer_API
-[no-useless-concat] Unexpected string concatenation of literals.
-~~~
-const untrustedString = "abc <script>alert(1)<" + "/script> def";
-const someTargetElement = document.getElementById("target");
-
-// someElement.innerHTML = untrustedString;
-someElement.setHTML(untrustedString);
-
-console.log(target.innerHTML); // abc def
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-useless-concat",
-                            "Unexpected string concatenation of literals.",
-                            '    <script>alert(1)<` + "/script></div>";',
-                            "12:24 - 12:25",
-                            `/en-US/docs/Web/API/HTML_Sanitizer_API/Using_the_HTML_Sanitizer_API
-[no-useless-concat] Unexpected string concatenation of literals.
-~~~
-const logElement = document.querySelector("#log");
-function log(text) {
-  logElement.textContent = text;
-}
-
-if ("Sanitizer" in window) {
-  // Define unsafe string of HTML
-  const initialHTMLString =
-    \`<div id="mainDiv"><!-- HTML comment -->
-    <p data-paratest="true">This is a paragraph. <button onclick="alert('You clicked the button!')">Click me</button></p>
-    <p>Be <b>bold</b> and brave!</p>
-    <script>alert(1)<\` + "/script></div>";
-
-  // Set unsafe string as a text node of first element
-  const unmodifiedElement = document.querySelector("#unmodified");
-  unmodifiedElement.innerText = initialHTMLString;
-  unsafeHTMLString = unmodifiedElement.innerText;
-
-  const setHTMLElement = document.querySelector("#setHTML");
-  const setHTMLUnsafeElement = document.querySelector("#setHTMLUnsafe");
-  // Create and apply default sanitizer when we start
-  let sanitizer = new Sanitizer({});
-  applySanitizer(sanitizer);
-
-function applySanitizer(sanitizer) {
-  // Get string to parse into element
-  unsafeHTMLString = unmodifiedElement.innerText;
-
-  // Sanitize string using safe method and then display as text
-  setHTMLElement.setHTML(unsafeHTMLString, { sanitizer: sanitizer });
-  setHTMLElement.innerText = setHTMLElement.innerHTML;
-
-  // Sanitize string using unsafe method and then display as text
-  setHTMLUnsafeElement.setHTMLUnsafe(unsafeHTMLString, {
-    sanitizer: sanitizer,
-  });
-  setHTMLUnsafeElement.innerText = setHTMLUnsafeElement.innerHTML;
-
-  // Display sanitizer configuration
-  const sanitizerConfig = sanitizer.get();
-  log(JSON.stringify(sanitizerConfig, null, 2));
-}
-
-const defaultSanitizerBtn = document.querySelector("#defaultSanitizerBtn");
-const emptySanitizerBtn = document.querySelector("#emptySanitizerBtn");
-const allowElementSelect = document.querySelector("#allowElementSelect");
-const removeElementSelect = document.querySelector("#removeElementSelect");
-const allowAttributeSelect = document.querySelector("#allowAttributeSelect");
-const removeAttributeSelect = document.querySelector("#removeAttributeSelect");
-
-const toggleCommentsBtn = document.querySelector("#toggleCommentsBtn");
-const toggleDataAttributesBtn = document.querySelector(
-  "#toggleDataAttributesBtn",
-);
-
-defaultSanitizerBtn.addEventListener("click", () => {
-  sanitizer = new Sanitizer();
-  applySanitizer(sanitizer);
-});
-
-emptySanitizerBtn.addEventListener("click", () => {
-  sanitizer = new Sanitizer({});
-  applySanitizer(sanitizer);
-});
-
-allowElementSelect.addEventListener("change", (event) => {
-  if (event.target.value != "") {
-    sanitizer.allowElement(event.target.value);
-    applySanitizer(sanitizer);
-  }
-});
-removeElementSelect.addEventListener("change", (event) => {
-  if (event.target.value != "") {
-    sanitizer.removeElement(event.target.value);
-    applySanitizer(sanitizer);
-  }
-});
-allowAttributeSelect.addEventListener("change", (event) => {
-  if (event.target.value != "") {
-    sanitizer.allowAttribute(event.target.value);
-    applySanitizer(sanitizer);
-  }
-});
-removeAttributeSelect.addEventListener("change", (event) => {
-  if (event.target.value != "") {
-    sanitizer.removeAttribute(event.target.value);
-    applySanitizer(sanitizer);
-  }
-});
-
-let dataAttributesActive = true;
-let commentsActive = true;
-
-toggleCommentsBtn.addEventListener("click", () => {
-  commentsActive = !commentsActive;
-  sanitizer.setComments(commentsActive);
-  applySanitizer(sanitizer);
-});
-
-toggleDataAttributesBtn.addEventListener("click", () => {
-  dataAttributesActive = !dataAttributesActive;
-  sanitizer.setDataAttributes(dataAttributesActive);
-  applySanitizer(sanitizer);
-});
-
-
-} else {
-  log("The HTML Sanitizer API is NOT supported in this browser.");
-  // Provide fallback or alternative behavior
-}
-~~~
-`
-                          ]
                         },
                         {
                           message: "JS code issue",
@@ -10133,27 +10414,6 @@ toggleDataAttributesBtn.addEventListener("click", () => {
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/HTML_Sanitizer_API/Using_the_HTML_Sanitizer_API"
-                      ]
-                    },
-                    {
-                      message: "JS code issue",
-                      data: [
-                        "no-useless-concat",
-                        "Unexpected string concatenation of literals.",
-                        'const untrustedString = "abc <script>alert(1)<" + "/script> def"; // Untrusted HTML (perhaps from user input)',
-                        "1:49 - 1:50",
-                        `/en-US/docs/Web/API/HTML_Sanitizer_API
-[no-useless-concat] Unexpected string concatenation of literals.
-~~~
-const untrustedString = "abc <script>alert(1)<" + "/script> def"; // Untrusted HTML (perhaps from user input)
-const someTargetElement = document.getElementById("target");
-
-// someElement.innerHTML = untrustedString;
-someElement.setHTML(untrustedString);
-
-console.log(target.innerHTML); // abc def
-~~~
-`
                       ]
                     }
                   ]
@@ -12776,6 +13036,18 @@ function checkDeadlines() {
                 },
                 navigator: {
                   children: {
+                    donottrack: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Navigator/doNotTrack",
+                      messages: [
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/tracking-dnt/#dom-navigator-donottrack"
+                          ]
+                        }
+                      ]
+                    },
                     getbattery: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Navigator/getBattery",
@@ -15088,28 +15360,6 @@ log(JSON.stringify(sanitizerConfig, null, 2));
                     }
                   ]
                 },
-                sanitizerconfig: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/SanitizerConfig",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "api.SanitizerConfig"
-                      ]
-                    },
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        `api.Sanitizer.get
-api.Sanitizer.Sanitizer`,
-                        "Expected:",
-                        "api.SanitizerConfig"
-                      ]
-                    }
-                  ]
-                },
                 screen_capture_api: {
                   children: {
                     using_screen_capture: {
@@ -15226,80 +15476,7 @@ api.Sanitizer.Sanitizer`,
                   }
                 },
                 shadowroot: {
-                  children: {
-                    sethtml: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/ShadowRoot/setHTML",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-useless-concat",
-                            "Unexpected string concatenation of literals.",
-                            'const unsanitizedString = "abc <script>alert(1)<" + "/script> def";',
-                            "2:51 - 2:52",
-                            `/en-US/docs/Web/API/ShadowRoot/setHTML
-[no-useless-concat] Unexpected string concatenation of literals.
-~~~
-// Define unsanitized string of HTML
-const unsanitizedString = "abc <script>alert(1)<" + "/script> def";
-
-// setHTML() with default sanitizer
-shadow.setHTML(unsanitizedString);
-
-// Define custom Sanitizer and use in setHTML()
-// This allows only elements: <div>, <p>, <span> (<script> is unsafe and will be removed)
-const sanitizer1 = new Sanitizer({ elements: ["div", "p", "span", "script"] });
-shadow.setHTML(unsanitizedString, { sanitizer: sanitizer1 });
-
-// Define custom SanitizerConfig within setHTML()
-// This removes elements <div>, <p>, <span>, <script>, and any other unsafe elements/attributes
-shadow.setHTML(unsanitizedString, {
-  sanitizer: { removeElements: ["div", "p", "span", "script"] },
-});
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    sethtmlunsafe: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/ShadowRoot/setHTMLUnsafe",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-useless-concat",
-                            "Unexpected string concatenation of literals.",
-                            'const unsanitizedString = "abc <script>alert(1)<" + "/script> def";',
-                            "2:51 - 2:52",
-                            `/en-US/docs/Web/API/ShadowRoot/setHTMLUnsafe
-[no-useless-concat] Unexpected string concatenation of literals.
-~~~
-// Define unsanitized string of HTML
-const unsanitizedString = "abc <script>alert(1)<" + "/script> def";
-
-// setHTMLUnsafe() with no sanitizer (no filtering)
-shadow.setHTMLUnsafe(unsanitizedString);
-
-// Define custom Sanitizer and use in setHTMLUnsafe()
-// This allows only elements: <div>, <p>, <span>, <script> (<script> is unsafe)
-const sanitizer1 = new Sanitizer({ elements: ["div", "p", "span", "script"] });
-shadow.setHTMLUnsafe(unsanitizedString, { sanitizer: sanitizer1 });
-
-// Define custom SanitizerConfig within setHTMLUnsafe()
-// This removes only the script
-shadow.setHTMLUnsafe(unsanitizedString, {
-  sanitizer: { removeElements: ["script"] },
-});
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/API/ShadowRoot",
                   messages: [
                     {
@@ -18534,6 +18711,34 @@ shadow.setHTMLUnsafe(unsanitizedString, {
                     }
                   ]
                 },
+                svgrect: {
+                  children: {
+                    x: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGRect/x",
+                      messages: [
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/css3-values/#lengths"
+                          ]
+                        },
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/css3-values/#percentages"
+                          ]
+                        },
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/SVG11/types.html#DataTypeLength"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 svgrenderingintent: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SVGRenderingIntent",
@@ -20962,6 +21167,13 @@ alert(emulateMessage(example5).constructor); // Object
 ~~~
 `
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/features.html",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -20984,6 +21196,18 @@ alert(emulateMessage(example5).constructor); // Object
                 },
                 webgl_api: {
                   children: {
+                    webgl_best_practices: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/WebGL_API/WebGL_best_practices",
+                      messages: [
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/resize-observer/#resize-observer-interface"
+                          ]
+                        }
+                      ]
+                    },
                     webgl_model_view_projection: {
                       children: {},
                       slug: "/en-US/docs/Web/API/WebGL_API/WebGL_model_view_projection",
@@ -21946,6 +22170,12 @@ function displayPoseStats(pose) {
                         {
                           message: "Broken browser compat anchor",
                           data: []
+                        },
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/webxr-ar-module-1/"
+                          ]
                         }
                       ]
                     }
@@ -22116,6 +22346,18 @@ function displayPoseStats(pose) {
 </script>
 ~~~
 `
+                          ]
+                        },
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/cssom-1/#dom-window-getcomputedstyle"
+                          ]
+                        },
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/css-pseudo-4/"
                           ]
                         }
                       ]
@@ -24389,6 +24631,23 @@ function displayPoseStats(pose) {
                     }
                   }
                 },
+                worker: {
+                  children: {
+                    worker: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Worker/Worker",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/features.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 workletsharedstorage: {
                   children: {
                     context: {
@@ -24650,6 +24909,31 @@ function displayPoseStats(pose) {
                       data: [
                         "/en-US/docs/Web/API/WebXR_Device_API/Fundamentals",
                         "#the_webxr_compositor"
+                      ]
+                    }
+                  ]
+                },
+                xsltprocessor: {
+                  children: {
+                    importstylesheet: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/XSLTProcessor/importStylesheet",
+                      messages: [
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/xslt/#result-element-stylesheet"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/XSLTProcessor",
+                  messages: [
+                    {
+                      message: "w3.org/TR link",
+                      data: [
+                        "https://www.w3.org/TR/xslt/#result-element-stylesheet"
                       ]
                     }
                   ]
@@ -25907,6 +26191,12 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/css-color-adjust-1/#forced"
+                          ]
                         }
                       ]
                     },
@@ -30256,6 +30546,12 @@ form {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/css-variables/#custom-property"
+                          ]
                         }
                       ]
                     }
@@ -31305,6 +31601,24 @@ rgb(from red r g b / alpha)
                         }
                       ]
                     },
+                    flow_layout_and_overflow: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_display/Flow_layout_and_overflow",
+                      messages: [
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/css-overflow-3/"
+                          ]
+                        },
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/css-overflow-3/"
+                          ]
+                        }
+                      ]
+                    },
                     "multi-keyword_syntax_of_display": {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_display/multi-keyword_syntax_of_display",
@@ -31343,6 +31657,24 @@ rgb(from red r g b / alpha)
 ~~~
 `
                           ]
+                        },
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/css-display-3/#outer-role"
+                          ]
+                        },
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/css-display-3/#inner-model"
+                          ]
+                        },
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/css-display-3/#legacy-display"
+                          ]
                         }
                       ]
                     }
@@ -31362,8 +31694,42 @@ rgb(from red r g b / alpha)
                     }
                   }
                 },
+                css_flexible_box_layout: {
+                  children: {
+                    mastering_wrapping_of_flex_items: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_flexible_box_layout/Mastering_wrapping_of_flex_items",
+                      messages: [
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/css-flexbox-1/#visibility-collapse"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 css_fonts: {
                   children: {
+                    opentype_fonts_guide: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide",
+                      messages: [
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/css-fonts-4/#propdef-font-variant-alternates"
+                          ]
+                        },
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/css-fonts-4/#propdef-font-variant-alternates"
+                          ]
+                        }
+                      ]
+                    },
                     woff: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_fonts/WOFF",
@@ -33510,6 +33876,30 @@ selector {
 ~~~
 `
                           ]
+                        },
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/css3-values/#component-types"
+                          ]
+                        },
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/css-grid-1/#fr-unit"
+                          ]
+                        },
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/css-color-4/"
+                          ]
+                        },
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/css-images-3/"
+                          ]
                         }
                       ]
                     },
@@ -33544,6 +33934,18 @@ selector {
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Web/CSS/toggle"
+                          ]
+                        },
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/css-images-4/"
+                          ]
+                        },
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/css-backgrounds-3/"
                           ]
                         }
                       ]
@@ -41361,6 +41763,18 @@ element {
                     }
                   ]
                 },
+                "font-size": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/font-size",
+                  messages: [
+                    {
+                      message: "w3.org/TR link",
+                      data: [
+                        "https://www.w3.org/TR/css-fonts-3/#first-available-font"
+                      ]
+                    }
+                  ]
+                },
                 "font-size-adjust": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/font-size-adjust",
@@ -41670,6 +42084,24 @@ repeating-conic-gradient(from -45deg, red 45deg, orange, yellow, green, blue 225
                     {
                       message: "Missing syntax code block",
                       data: []
+                    }
+                  ]
+                },
+                "grid-template-columns": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/grid-template-columns",
+                  messages: [
+                    {
+                      message: "w3.org/TR link",
+                      data: [
+                        "https://www.w3.org/TR/css-sizing-3/#max-content"
+                      ]
+                    },
+                    {
+                      message: "w3.org/TR link",
+                      data: [
+                        "https://www.w3.org/TR/css-sizing-3/#min-content"
+                      ]
                     }
                   ]
                 },
@@ -42159,6 +42591,30 @@ css.properties.grid-template-rows.minmax`
                     }
                   ]
                 },
+                "named-color": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/named-color",
+                  messages: [
+                    {
+                      message: "w3.org/TR link",
+                      data: [
+                        "https://www.w3.org/TR/css-color-3/#svg-color"
+                      ]
+                    },
+                    {
+                      message: "w3.org/TR link",
+                      data: [
+                        "https://www.w3.org/TR/css-color-4/#named-colors"
+                      ]
+                    },
+                    {
+                      message: "w3.org/TR link",
+                      data: [
+                        "https://www.w3.org/TR/css-color-4/#interpolation-alpha"
+                      ]
+                    }
+                  ]
+                },
                 number: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/number",
@@ -42199,6 +42655,30 @@ css.properties.grid-template-rows.minmax`
                     }
                   ]
                 },
+                order: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/order",
+                  messages: [
+                    {
+                      message: "w3.org/TR link",
+                      data: [
+                        "https://www.w3.org/TR/css-speech-1/"
+                      ]
+                    }
+                  ]
+                },
+                "outline-style": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/outline-style",
+                  messages: [
+                    {
+                      message: "w3.org/TR link",
+                      data: [
+                        "https://www.w3.org/TR/css-ui-3/#outline-style"
+                      ]
+                    }
+                  ]
+                },
                 percentage: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/percentage",
@@ -42206,6 +42686,24 @@ css.properties.grid-template-rows.minmax`
                     {
                       message: "Missing syntax code block",
                       data: []
+                    }
+                  ]
+                },
+                position: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/position",
+                  messages: [
+                    {
+                      message: "w3.org/TR link",
+                      data: [
+                        "https://www.w3.org/TR/CSS2/visudet.html#containing-block-details"
+                      ]
+                    },
+                    {
+                      message: "w3.org/TR link",
+                      data: [
+                        "https://www.w3.org/TR/css-transforms-1/#propdef-transform"
+                      ]
                     }
                   ]
                 },
@@ -42973,6 +43471,18 @@ form {
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/CSS/xywh"
+                      ]
+                    },
+                    {
+                      message: "w3.org/TR link",
+                      data: [
+                        "https://www.w3.org/TR/css-syntax-3/#intro"
+                      ]
+                    },
+                    {
+                      message: "w3.org/TR link",
+                      data: [
+                        "https://www.w3.org/TR/cssom/#introduction"
                       ]
                     }
                   ]
@@ -44031,6 +44541,24 @@ url(https://example.com/image.png)
                         }
                       ]
                     },
+                    "author_fast-loading_html_pages": {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTML/How_to/Author_fast-loading_HTML_pages",
+                      messages: [
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/css-flexbox-1/"
+                          ]
+                        },
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/css-grid-1/"
+                          ]
+                        }
+                      ]
+                    },
                     define_terms_with_html: {
                       children: {},
                       slug: "/en-US/docs/Web/HTML/How_to/Define_terms_with_HTML",
@@ -44527,6 +45055,12 @@ http.headers.Use-As-Dictionary`,
                       slug: "/en-US/docs/Web/HTTP/Guides/CORS",
                       messages: [
                         {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/css-fonts-3/#font-fetching-requirements"
+                          ]
+                        },
+                        {
                           message: "Unexpected BCD keys",
                           data: [
                             "Actual:",
@@ -44649,6 +45183,18 @@ http.headers.Use-As-Dictionary`,
                               ]
                             }
                           }
+                        },
+                        dnt: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/DNT",
+                          messages: [
+                            {
+                              message: "w3.org/TR link",
+                              data: [
+                                "https://www.w3.org/TR/tracking-dnt/#dnt-header-field"
+                              ]
+                            }
+                          ]
                         },
                         forwarded: {
                           children: {},
@@ -45137,19 +45683,6 @@ console.log(bar.next()); // {value: 10, done: false}
                             }
                           ]
                         },
-                        live_streaming_web_audio_and_video: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/Live_streaming_web_audio_and_video",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://larryjordan.com/articles/basics-of-http-live-streaming/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         webaudio_playbackrate_explained: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/WebAudio_playbackRate_explained",
@@ -45237,6 +45770,19 @@ console.log(bar.next()); // {value: 10, done: false}
                     },
                     formats: {
                       children: {
+                        image_types: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Image_types",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://ev.buaa.edu.cn/",
+                                403
+                              ]
+                            }
+                          ]
+                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -45840,6 +46386,42 @@ html.elements.script.integrity`,
 </svg>
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    },
+                    content_type: {
+                      children: {},
+                      slug: "/en-US/docs/Web/SVG/Guides/Content_type",
+                      messages: [
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/SVG/linking.html#IRIReference"
+                          ]
+                        }
+                      ]
+                    },
+                    namespaces_crash_course: {
+                      children: {},
+                      slug: "/en-US/docs/Web/SVG/Guides/Namespaces_crash_course",
+                      messages: [
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/REC-DOM-Level-1/"
+                          ]
+                        }
+                      ]
+                    },
+                    svg_animation_with_smil: {
+                      children: {},
+                      slug: "/en-US/docs/Web/SVG/Guides/SVG_animation_with_SMIL",
+                      messages: [
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/SVG/animate.html"
                           ]
                         }
                       ]
@@ -46992,6 +47574,18 @@ html.elements.script.integrity`,
 </svg>
 ~~~
 `
+                              ]
+                            }
+                          ]
+                        },
+                        "dominant-baseline": {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/dominant-baseline",
+                          messages: [
+                            {
+                              message: "w3.org/TR link",
+                              data: [
+                                "https://www.w3.org/TR/css3-values/#comb-one"
                               ]
                             }
                           ]
@@ -54222,8 +54816,494 @@ svg.elements.feSpotLight.z`
                 },
                 xpath: {
                   children: {
+                    guides: {
+                      children: {
+                        snippets: {
+                          children: {},
+                          slug: "/en-US/docs/Web/XML/XPath/Guides/Snippets",
+                          messages: [
+                            {
+                              message: "w3.org/TR link",
+                              data: [
+                                "https://www.w3.org/TR/DOM-Level-3-XPath/"
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/Web/XML/XPath/Guides",
+                      messages: [
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/DOM-Level-3-XPath/"
+                          ]
+                        }
+                      ]
+                    },
                     reference: {
-                      children: {},
+                      children: {
+                        axes: {
+                          children: {},
+                          slug: "/en-US/docs/Web/XML/XPath/Reference/Axes",
+                          messages: [
+                            {
+                              message: "w3.org/TR link",
+                              data: [
+                                "https://www.w3.org/TR/xpath-30/#axes"
+                              ]
+                            }
+                          ]
+                        },
+                        functions: {
+                          children: {
+                            boolean: {
+                              children: {},
+                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/boolean",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-boolean"
+                                  ]
+                                }
+                              ]
+                            },
+                            ceiling: {
+                              children: {},
+                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/ceiling",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-ceiling"
+                                  ]
+                                }
+                              ]
+                            },
+                            concat: {
+                              children: {},
+                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/concat",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-concat"
+                                  ]
+                                }
+                              ]
+                            },
+                            contains: {
+                              children: {},
+                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/contains",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-contains"
+                                  ]
+                                }
+                              ]
+                            },
+                            count: {
+                              children: {},
+                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/count",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-count"
+                                  ]
+                                }
+                              ]
+                            },
+                            current: {
+                              children: {},
+                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/current",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/1999/REC-xslt-19991116/#function-current"
+                                  ]
+                                }
+                              ]
+                            },
+                            document: {
+                              children: {},
+                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/document",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/1999/REC-xslt-19991116/#function-document"
+                                  ]
+                                }
+                              ]
+                            },
+                            "element-available": {
+                              children: {},
+                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/element-available",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/1999/REC-xslt-19991116/#function-element-available"
+                                  ]
+                                }
+                              ]
+                            },
+                            false: {
+                              children: {},
+                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/false",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-false"
+                                  ]
+                                }
+                              ]
+                            },
+                            floor: {
+                              children: {},
+                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/floor",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-floor"
+                                  ]
+                                }
+                              ]
+                            },
+                            "format-number": {
+                              children: {},
+                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/format-number",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/1999/REC-xslt-19991116/#function-format-number"
+                                  ]
+                                }
+                              ]
+                            },
+                            "function-available": {
+                              children: {},
+                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/function-available",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/1999/REC-xslt-19991116/#function-function-available"
+                                  ]
+                                }
+                              ]
+                            },
+                            "generate-id": {
+                              children: {},
+                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/generate-id",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/1999/REC-xslt-19991116/#function-generate-id"
+                                  ]
+                                }
+                              ]
+                            },
+                            id: {
+                              children: {},
+                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/id",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/xpath/#unique-id"
+                                  ]
+                                },
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-id"
+                                  ]
+                                }
+                              ]
+                            },
+                            key: {
+                              children: {},
+                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/key",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/1999/REC-xslt-19991116/#function-key"
+                                  ]
+                                }
+                              ]
+                            },
+                            lang: {
+                              children: {},
+                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/lang",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-lang"
+                                  ]
+                                }
+                              ]
+                            },
+                            last: {
+                              children: {},
+                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/last",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-last"
+                                  ]
+                                }
+                              ]
+                            },
+                            "local-name": {
+                              children: {},
+                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/local-name",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/xpath/#dt-expanded-name"
+                                  ]
+                                },
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-local-name"
+                                  ]
+                                }
+                              ]
+                            },
+                            name: {
+                              children: {},
+                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/name",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-local-name"
+                                  ]
+                                }
+                              ]
+                            },
+                            "namespace-uri": {
+                              children: {},
+                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/namespace-uri",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-local-name"
+                                  ]
+                                }
+                              ]
+                            },
+                            "normalize-space": {
+                              children: {},
+                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/normalize-space",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-normalize-space"
+                                  ]
+                                }
+                              ]
+                            },
+                            not: {
+                              children: {},
+                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/not",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-not"
+                                  ]
+                                }
+                              ]
+                            },
+                            number: {
+                              children: {},
+                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/number",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-number"
+                                  ]
+                                }
+                              ]
+                            },
+                            position: {
+                              children: {},
+                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/position",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-position"
+                                  ]
+                                }
+                              ]
+                            },
+                            round: {
+                              children: {},
+                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/round",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-round"
+                                  ]
+                                }
+                              ]
+                            },
+                            "starts-with": {
+                              children: {},
+                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/starts-with",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-starts-with"
+                                  ]
+                                }
+                              ]
+                            },
+                            string: {
+                              children: {},
+                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/string",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-string"
+                                  ]
+                                }
+                              ]
+                            },
+                            "string-length": {
+                              children: {},
+                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/string-length",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-string-length"
+                                  ]
+                                }
+                              ]
+                            },
+                            substring: {
+                              children: {},
+                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/substring",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-substring"
+                                  ]
+                                }
+                              ]
+                            },
+                            "substring-after": {
+                              children: {},
+                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/substring-after",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-substring-after"
+                                  ]
+                                }
+                              ]
+                            },
+                            "substring-before": {
+                              children: {},
+                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/substring-before",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-substring-before"
+                                  ]
+                                }
+                              ]
+                            },
+                            sum: {
+                              children: {},
+                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/sum",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-sum"
+                                  ]
+                                }
+                              ]
+                            },
+                            "system-property": {
+                              children: {},
+                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/system-property",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/1999/REC-xslt-19991116/#function-system-property"
+                                  ]
+                                }
+                              ]
+                            },
+                            translate: {
+                              children: {},
+                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/translate",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-translate"
+                                  ]
+                                }
+                              ]
+                            },
+                            true: {
+                              children: {},
+                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/true",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-true"
+                                  ]
+                                }
+                              ]
+                            },
+                            "unparsed-entity-url": {
+                              children: {},
+                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/unparsed-entity-url",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/1999/REC-xslt-19991116/#function-unparsed-entity-uri"
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      },
                       slug: "/en-US/docs/Web/XML/XPath/Reference",
                       messages: [
                         {
@@ -54232,7 +55312,16 @@ svg.elements.feSpotLight.z`
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/XML/XPath",
+                  messages: [
+                    {
+                      message: "w3.org/TR link",
+                      data: [
+                        "https://www.w3.org/TR/DOM-Level-3-XPath/"
+                      ]
+                    }
+                  ]
                 },
                 xslt: {
                   children: {
@@ -54638,7 +55727,8 @@ function displayWarnings() {
       "External sandbox link",
       "HTTP link",
       "Redirected external link",
-      "Unshortened bug link"
+      "Unshortened bug link",
+      "w3.org/TR link"
     ].includes(message[0])) {
       externalLinkIssues.append(option);
     } else if ([
