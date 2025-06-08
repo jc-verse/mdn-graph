@@ -331,6 +331,7 @@ function displayWarnings() {
         "HTTP link",
         "Redirected external link",
         "Unshortened bug link",
+        "w3.org/TR link",
       ].includes(message[0])
     ) {
       externalLinkIssues.append(option);

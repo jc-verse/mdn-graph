@@ -27,6 +27,26 @@ const knownRedirects = new Map(
   }),
 );
 
+const allowedW3Links = await (async () => {
+  const data = (await readConfig("allowed-w3-links.txt")).map((x) =>
+    x.split("\t"),
+  );
+  const res = new Map<string, string[]>();
+  for (const [link, page] of data) {
+    if (!page) {
+      if (res.get(link)?.length) {
+        throw new Error(`${link} should either match one page or all pages`);
+      }
+      res.set(link, []);
+    } else {
+      const pages = res.get(link) || [];
+      pages.push(page);
+      res.set(link, pages);
+    }
+  }
+  return res;
+})();
+
 // TODO: there's something wrong with Bun's timeout when it
 // cannot reach the server
 function fetchWithTimeout(url: string, options?: RequestInit) {
@@ -188,6 +208,29 @@ export function createLinkRequests(
     visitLinks: for (const link of node.data.links) {
       if (/^https:\/\/(jsfiddle\.net|codepen\.io|jsbin\.com)\/./.test(link)) {
         report(node, "External sandbox link", link);
+        continue;
+      }
+      if (/^https:\/\/www\.w3\.org\/TR\//.test(link)) {
+        const linkSegments = link
+          .slice("https://www.w3.org/TR/".length)
+          .split("/");
+        const w3LinkShort = /^\d{4}$/.test(linkSegments[0])
+          ? `${linkSegments[0]}/${linkSegments[1]}`
+          : linkSegments[0];
+        const allowedPages = allowedW3Links.get(w3LinkShort);
+        if (
+          allowedPages &&
+          (allowedPages.length === 0 ||
+            allowedPages.some(
+              (page) =>
+                (page.endsWith("/**") &&
+                  node.id.startsWith(page.slice(0, -3))) ||
+                node.id === page,
+            ))
+        ) {
+          continue;
+        }
+        report(node, "w3.org/TR link", link);
         continue;
       }
       const bugLinkShortener = bugLinkShorteners.find(([prefix]) =>

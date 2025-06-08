@@ -149,6 +149,15 @@ async function checkJS(
           )
         )
           return;
+        const reportingLine = content
+          .split("\n")
+          .slice(msg.line - 1, msg.endLine ? msg.endLine : msg.line)
+          .join("\n");
+        if (
+          msg.ruleId === "no-useless-concat" &&
+          reportingLine.match(/<[`"'] \+ [`"']\/script/)
+        )
+          return;
         reportIfUnexpected(
           path,
           "js",
@@ -158,10 +167,7 @@ async function checkJS(
           msg.endLine
             ? `${msg.line}:${msg.column} - ${msg.endLine}:${msg.endColumn}`
             : `${msg.line}:${msg.column}`,
-          content
-            .split("\n")
-            .slice(msg.line - 1, msg.endLine ? msg.endLine : msg.line)
-            .join("\n"),
+          reportingLine,
           report,
         );
       });

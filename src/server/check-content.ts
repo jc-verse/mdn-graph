@@ -310,6 +310,8 @@ export function checkContent(
     report("Missing data", "CSS formal syntax");
   if (rawContent.includes("Value not found in DB"))
     report("Missing data", "CSS info");
+  if (rawContent.includes("invalid templ: No svginfo for class"))
+    report("Missing data", "SVG info");
 }
 
 export function postCheckContent() {

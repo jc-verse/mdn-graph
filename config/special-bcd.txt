@@ -16,6 +16,7 @@
 /en-US/docs/Web/API/HTMLDetailsElement	api.HTMLDetailsElement,api.HTMLElement.toggle_event.details_elements
 /en-US/docs/Web/API/HTMLDialogElement	api.HTMLDialogElement,api.HTMLElement.beforetoggle_event.dialog_elements,api.HTMLElement.toggle_event.dialog_elements
 /en-US/docs/Web/API/PublicKeyCredentialCreationOptions	api.CredentialsContainer.create.publicKey_option
+/en-US/docs/Web/API/SanitizerConfig	api.Sanitizer.get,api.Sanitizer.Sanitizer
   These pages coalesce multiple methods into one, and only display one BCD
 /en-US/docs/Web/API/WebGL2RenderingContext/clearBuffer	api.WebGL2RenderingContext.clearBufferiv
 /en-US/docs/Web/API/WebGL2RenderingContext/samplerParameter	api.WebGL2RenderingContext.samplerParameteri

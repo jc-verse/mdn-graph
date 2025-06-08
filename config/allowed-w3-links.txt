@@ -1,0 +1,78 @@
+  https://www.w3.org/TR/ links that do not get reported.
+  Each entry is a spec identifier. It can either match all pages or only the
+  listed pages (one page per line).
+  Use two-space indent for comments.
+
+adapt-tools
+arabic-math
+ATAG20
+css
+emma
+html-longdesc
+jsgf
+ldp
+media-frags
+rdf-primer
+semantic-interpretation
+SMIL
+smil-animation
+soap12-part1
+speech-synthesis
+ttml
+ttml10-sdp-us
+UAAG20
+UNDERSTANDING-WCAG20
+WCAG20-TECHS
+xinclude-11
+xlink
+xml
+xml-names
+xml-stylesheet
+xpath-3
+xslt-30
+  https://www.w3.org/TR/SOAP redirects here
+2000/NOTE-SOAP-20000508
+
+CSS1	/en-US/docs/Web/CSS/named-color
+CSS2	/en-US/docs/Web/CSS/named-color
+SVG11	/en-US/docs/Web/CSS/named-color
+CSS2	/en-US/docs/Web/CSS/CSS_cascade/Value_processing
+CSS2	/en-US/docs/Web/CSS/CSS_display/Block_and_inline_layout_in_normal_flow
+CSS1	/en-US/docs/Mozilla/Firefox/Releases/1.5
+CSS22	/en-US/docs/Mozilla/Firefox/Releases/1.5
+DOM-Level-1	/en-US/docs/Mozilla/Firefox/Releases/1.5
+html401	/en-US/docs/Mozilla/Firefox/Releases/1.5
+xhtml1	/en-US/docs/Mozilla/Firefox/Releases/1.5
+xpath-10	/en-US/docs/Mozilla/Firefox/Releases/1.5
+xslt-10	/en-US/docs/Mozilla/Firefox/Releases/1.5
+DOM-Level-1	/en-US/docs/Web/SVG/Guides/Namespaces_crash_course
+DOM-Level-2-Core	/en-US/docs/Web/SVG/Guides/Namespaces_crash_course
+DOM-Level-2-Style	/en-US/docs/Web/API/CSSPrimitiveValue/**
+DOM-Level-2-Style	/en-US/docs/Web/API/CSSStyleDeclaration/getPropertyCSSValue
+DOM-Level-2-Style	/en-US/docs/Web/API/CSSValue/**
+DOM-Level-2-Style	/en-US/docs/Web/API/CSSValueList/**
+DOM-Level-2-Traversal-Range	/en-US/docs/MDN/Writing_guidelines/Page_structures/Specification_tables
+MathML3	/en-US/docs/Mozilla/Firefox/Releases/15
+MathML3	/en-US/docs/Web/MathML/Reference/Values
+SVG11	/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Introduction
+xml-names11	/en-US/docs/Web/SVG/Guides/Namespaces_crash_course
+  "xpath" and "xslt" are not real specs, use one of its versions instead
+xpath	/en-US/docs/Web/XML/XSLT/Guides/Transforming_XML_with_XSLT
+xslt	/en-US/docs/Web/XML/XSLT/Guides/Transforming_XML_with_XSLT
+2009/WD-css3-2d-transforms-20090320	/en-US/docs/Web/API/WebKitPoint
+2009/WD-css3-2d-transforms-20090320	/en-US/docs/Web/API/Window/webkitConvertPointFromNodeToPage
+2009/WD-css3-2d-transforms-20090320	/en-US/docs/Web/API/Window/webkitConvertPointFromPageToNode
+2009/WD-DOM-Level-3-Events-20090908	/en-US/docs/Web/API/KeyboardEvent/keyIdentifier
+2012/WD-css3-conditional-20120911	/en-US/docs/Web/CSS/@document
+2012/WD-css3-conditional-20121213	/en-US/docs/Web/CSS/@document
+2014/REC-cors-20140116	/en-US/docs/Web/HTTP/Guides/CORS
+2015/CR-mixed-content-20150317	/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/block-all-mixed-content
+2018/SPSD-html32-20180315	/en-US/docs/Glossary/html_color_codes
+
+  TODO: remove
+presentation-api
+
+  TODO: possible to remove these?
+xforms11	/en-US/docs/Web/XML/XPath/Reference/Functions/**
+xpath10	/en-US/docs/Web/XML/XPath/Reference/Functions/**
+xslt10	/en-US/docs/Web/XML/XPath/Reference/Functions/**

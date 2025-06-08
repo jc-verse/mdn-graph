@@ -129,7 +129,6 @@
 /en-US/docs/Web/API/XRPermissionStatus
 
 /en-US/docs/Web/HTTP/Reference/Headers/Accept-Signature
-/en-US/docs/Web/HTTP/Reference/Headers/Ranges
 /en-US/docs/Web/HTTP/Reference/Headers/Signature
 /en-US/docs/Web/HTTP/Reference/Headers/Signed-Headers
 /en-US/docs/Web/HTTP/Reference/Methods/TRACK
