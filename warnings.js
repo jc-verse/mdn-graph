@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-smyvy32d.js";
+} from "./chunk-gyxvm0sx.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -21,45 +21,8 @@ var warnings_processed_default = {
                 }
               ]
             },
-            publishing_games: {
-              children: {
-                game_distribution: {
-                  children: {},
-                  slug: "/en-US/docs/Games/Publishing_games/Game_distribution",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://gamesaturn.com/",
-                        403
-                      ]
-                    }
-                  ]
-                }
-              }
-            },
             techniques: {
               children: {
-                "2d_collision_detection": {
-                  children: {},
-                  slug: "/en-US/docs/Games/Techniques/2D_collision_detection",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.sevenson.com.au/programming/sat/",
-                        "Cannot reach server and Bun hangs"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.metanetsoftware.com/technique/tutorialA.html",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 audio_for_web_games: {
                   children: {},
                   slug: "/en-US/docs/Games/Techniques/Audio_for_Web_Games",
@@ -464,18 +427,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            attribute: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Attribute",
-              messages: [
-                {
-                  message: "w3.org/TR link",
-                  data: [
-                    "https://www.w3.org/TR/xml#sec-starttags"
-                  ]
-                }
-              ]
-            },
             baseline: {
               children: {
                 compatibility: {
@@ -698,18 +649,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            flexbox: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Flexbox",
-              messages: [
-                {
-                  message: "w3.org/TR link",
-                  data: [
-                    "https://www.w3.org/TR/css-flexbox-1/"
-                  ]
-                }
-              ]
-            },
             fragmentainer: {
               children: {},
               slug: "/en-US/docs/Glossary/Fragmentainer",
@@ -717,12 +656,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                },
-                {
-                  message: "w3.org/TR link",
-                  data: [
-                    "https://www.w3.org/TR/css-break-3/"
-                  ]
                 }
               ]
             },
@@ -756,14 +689,22 @@ var warnings_processed_default = {
                 }
               ]
             },
-            guaranteed_invalid_value: {
+            gpl: {
               children: {},
-              slug: "/en-US/docs/Glossary/guaranteed_invalid_value",
+              slug: "/en-US/docs/Glossary/GPL",
               messages: [
                 {
-                  message: "w3.org/TR link",
+                  message: "Broken external link",
                   data: [
-                    "https://www.w3.org/TR/css-variables-1/#guaranteed-invalid"
+                    "https://www.gnu.org/licenses/gpl-faq.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
                   ]
                 }
               ]
@@ -848,38 +789,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            intrinsic_size: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Intrinsic_Size",
-              messages: [
-                {
-                  message: "w3.org/TR link",
-                  data: [
-                    "https://www.w3.org/TR/css-sizing-3/#intrinsic-sizes"
-                  ]
-                }
-              ]
-            },
-            itu: {
-              children: {},
-              slug: "/en-US/docs/Glossary/ITU",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.itu.int/",
-                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.itu.int/en/history/Pages/ITUsHistory.aspx",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             khronos: {
               children: {},
               slug: "/en-US/docs/Glossary/Khronos",
@@ -887,6 +796,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            lgpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/LGPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/lgpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
                 }
               ]
             },
@@ -1361,18 +1283,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            xlink: {
-              children: {},
-              slug: "/en-US/docs/Glossary/XLink",
-              messages: [
-                {
-                  message: "w3.org/TR link",
-                  data: [
-                    "https://www.w3.org/TR/xlink11/"
-                  ]
-                }
-              ]
-            },
             xmlhttprequest: {
               children: {},
               slug: "/en-US/docs/Glossary/XMLHttpRequest",
@@ -1380,24 +1290,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            xpath: {
-              children: {},
-              slug: "/en-US/docs/Glossary/XPath",
-              messages: [
-                {
-                  message: "w3.org/TR link",
-                  data: [
-                    "https://www.w3.org/TR/xpath-30/"
-                  ]
-                },
-                {
-                  message: "w3.org/TR link",
-                  data: [
-                    "https://www.w3.org/TR/?tag=xml"
-                  ]
                 }
               ]
             },
@@ -1433,7 +1325,7 @@ var warnings_processed_default = {
                   message: "Redirected external link",
                   data: [
                     "https://github.com/mdn/curriculum/releases/latest/download/MDN-Curriculum.pdf",
-                    "https://release-assets.githubusercontent.com/github-production-release-asset/671867945/3868fdd9-9c75-44f7-b29c-650871c4046d?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-06-10T01%3A03%3A07Z&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2025-06-10T00%3A54%3A58Z&ske=2025-06-10T01%3A55%3A23Z&sks=b&skv=2018-11-09&sig=4wzxDnsZh8NuY7qowoN5T3hUHBvOxtUGVoodixQ1CB0%3D&jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc0OTUxNzM4NywibmJmIjoxNzQ5NTE3MDg3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.Hdly4qf02JMJ95VCROdhsmxKQS5CasFea_ETrhq6VZk&response-content-disposition=attachment%3B%20filename%3DMDN-Curriculum.pdf&response-content-type=application%2Foctet-stream"
+                    "https://objects.githubusercontent.com/github-production-release-asset-2e65be/671867945/3868fdd9-9c75-44f7-b29c-650871c4046d?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250610%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250610T150321Z&X-Amz-Expires=300&X-Amz-Signature=2250bf9791916398c21feb023e9ad0bcc4e54be1d04b7a2113402c7d62071700&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3DMDN-Curriculum.pdf&response-content-type=application%2Foctet-stream"
                   ]
                 }
               ]
@@ -1685,8 +1577,8 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://new.drupal.org/",
-                            403
+                            "https://phabricator.wikimedia.org/T241180",
+                            "429 Retry-After: 1000"
                           ]
                         }
                       ]
@@ -1911,6 +1803,26 @@ var warnings_processed_default = {
 ~~~
 `
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://wiki.creativecommons.org/wiki/Best_practices_for_attribution",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    html_images: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     },
@@ -2028,7 +1940,7 @@ var warnings_processed_default = {
                   message: "Redirected external link",
                   data: [
                     "https://github.com/mdn/curriculum/releases/latest/download/MDN-Curriculum.pdf",
-                    "https://release-assets.githubusercontent.com/github-production-release-asset/671867945/3868fdd9-9c75-44f7-b29c-650871c4046d?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-06-10T01%3A03%3A07Z&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2025-06-10T00%3A54%3A58Z&ske=2025-06-10T01%3A55%3A23Z&sks=b&skv=2018-11-09&sig=4wzxDnsZh8NuY7qowoN5T3hUHBvOxtUGVoodixQ1CB0%3D&jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc0OTUxNzM4NywibmJmIjoxNzQ5NTE3MDg3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.Hdly4qf02JMJ95VCROdhsmxKQS5CasFea_ETrhq6VZk&response-content-disposition=attachment%3B%20filename%3DMDN-Curriculum.pdf&response-content-type=application%2Foctet-stream"
+                    "https://objects.githubusercontent.com/github-production-release-asset-2e65be/671867945/3868fdd9-9c75-44f7-b29c-650871c4046d?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250610%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250610T150321Z&X-Amz-Expires=300&X-Amz-Signature=2250bf9791916398c21feb023e9ad0bcc4e54be1d04b7a2113402c7d62071700&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3DMDN-Curriculum.pdf&response-content-type=application%2Foctet-stream"
                   ]
                 }
               ]
@@ -2093,6 +2005,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.uxforthemasses.com/forms-usability/",
+                            "unknown certificate verification error"
+                          ]
                         }
                       ]
                     },
@@ -2113,18 +2032,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via page",
                           data: []
-                        }
-                      ]
-                    },
-                    "ui_pseudo-classes": {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes",
-                      messages: [
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/CSS21/selector.html#dynamic-pseudo-classes"
-                          ]
                         }
                       ]
                     },
@@ -2164,6 +2071,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -2190,6 +2104,58 @@ var warnings_processed_default = {
                           data: []
                         }
                       ]
+                    },
+                    django: {
+                      children: {
+                        deployment: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Deployment",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://devcenter.heroku.com/articles/django-app-configuration",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://devcenter.heroku.com/articles/getting-started-with-python",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://devcenter.heroku.com/articles/django-assets",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://devcenter.heroku.com/articles/python-concurrency-and-database-connections",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://devcenter.heroku.com/articles/python-gunicorn",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://devcenter.heroku.com/categories/working-with-django",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
                     },
                     express_nodejs: {
                       children: {
@@ -2514,6 +2480,19 @@ var warnings_processed_default = {
             },
             writing_guidelines: {
               children: {
+                attrib_copyright_license: {
+                  children: {},
+                  slug: "/en-US/docs/MDN/Writing_guidelines/Attrib_copyright_license",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 changelog: {
                   children: {},
                   slug: "/en-US/docs/MDN/Writing_guidelines/Changelog",
@@ -4617,42 +4596,6 @@ else if (e.target.id === "tabs-alert-info") {
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "w3.org/TR link",
-                              data: [
-                                "https://www.w3.org/TR/SVG11/extend.html#ForeignObjectElement"
-                              ]
-                            },
-                            {
-                              message: "w3.org/TR link",
-                              data: [
-                                "https://www.w3.org/TR/SVG11/pservers.html#PatternElement"
-                              ]
-                            },
-                            {
-                              message: "w3.org/TR link",
-                              data: [
-                                "https://www.w3.org/TR/SVG11/masking.html#MaskElement"
-                              ]
-                            },
-                            {
-                              message: "w3.org/TR link",
-                              data: [
-                                "https://www.w3.org/TR/SVG11/filters.html"
-                              ]
-                            },
-                            {
-                              message: "w3.org/TR link",
-                              data: [
-                                "https://www.w3.org/TR/SVG/text.html#WhiteSpace"
-                              ]
-                            },
-                            {
-                              message: "w3.org/TR link",
-                              data: [
-                                "https://www.w3.org/TR/SVG/painting.html#SpecifyingPaint"
-                              ]
                             }
                           ]
                         },
@@ -6168,18 +6111,6 @@ else if (e.target.id === "tabs-alert-info") {
                         }
                       ]
                     },
-                    "20": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/20",
-                      messages: [
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/css-masking-1/#the-mask-type"
-                          ]
-                        }
-                      ]
-                    },
                     "21": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/21",
@@ -6216,6 +6147,13 @@ else if (e.target.id === "tabs-alert-info") {
                           data: [
                             "http://asmjs.org/spec/latest/",
                             ""
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/22.0beta/releasenotes/",
+                            "unknown certificate verification error"
                           ]
                         }
                       ]
@@ -7067,18 +7005,6 @@ else if (e.target.id === "tabs-alert-info") {
                         }
                       ]
                     },
-                    "76": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/76",
-                      messages: [
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/css-color-4/#typedef-system-color"
-                          ]
-                        }
-                      ]
-                    },
                     "90": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/90",
@@ -7176,18 +7102,6 @@ else if (e.target.id === "tabs-alert-info") {
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Web/API/RTCMediaSourceStats"
-                          ]
-                        }
-                      ]
-                    },
-                    "119": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/119",
-                      messages: [
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/css-values-3/#lengths"
                           ]
                         }
                       ]
@@ -7399,18 +7313,6 @@ else if (e.target.id === "tabs-alert-info") {
                           message: "No link to child page",
                           data: [
                             "/en-US/docs/Mozilla/Firefox/Releases/1.5/Changing_the_priority_of_HTTP_requests"
-                          ]
-                        },
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/xslt/"
-                          ]
-                        },
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/xpath/"
                           ]
                         }
                       ]
@@ -7752,12 +7654,6 @@ else if (e.target.id === "tabs-alert-info") {
                           data: [
                             "/en-US/docs/XPCOM_Interface_Reference/nsIAccessibleEvent"
                           ]
-                        },
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/css3-values/#lengths"
-                          ]
                         }
                       ]
                     }
@@ -7789,24 +7685,6 @@ else if (e.target.id === "tabs-alert-info") {
                     {
                       message: "w3.org/TR link",
                       data: [
-                        "https://www.w3.org/TR/ttml-imsc/all/"
-                      ]
-                    },
-                    {
-                      message: "w3.org/TR link",
-                      data: [
-                        "https://www.w3.org/TR/ttml-imsc1.0.1/#smpte-tt-smpte-st-2052-1"
-                      ]
-                    },
-                    {
-                      message: "w3.org/TR link",
-                      data: [
-                        "https://www.w3.org/TR/ttml-imsc1.1/#cff-tt"
-                      ]
-                    },
-                    {
-                      message: "w3.org/TR link",
-                      data: [
                         "https://www.w3.org/TR/ttml-imsc1.0.1/"
                       ]
                     },
@@ -7817,29 +7695,8 @@ else if (e.target.id === "tabs-alert-info") {
                       ]
                     }
                   ]
-                },
-                namespaces: {
-                  children: {},
-                  slug: "/en-US/docs/Related/IMSC/Namespaces",
-                  messages: [
-                    {
-                      message: "w3.org/TR link",
-                      data: [
-                        "https://www.w3.org/TR/ttml-imsc1.0.1/#namespaces"
-                      ]
-                    }
-                  ]
                 }
-              },
-              slug: "/en-US/docs/Related/IMSC",
-              messages: [
-                {
-                  message: "w3.org/TR link",
-                  data: [
-                    "https://www.w3.org/TR/ttml-imsc/all/"
-                  ]
-                }
-              ]
+              }
             }
           },
           slug: "/en-US/docs/Related",
@@ -7908,12 +7765,6 @@ else if (e.target.id === "tabs-alert-info") {
                       slug: "/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance",
                       messages: [
                         {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/css-color-4/"
-                          ]
-                        },
-                        {
                           message: "Broken external link",
                           data: [
                             "https://colorusage.arc.nasa.gov/design_lum_1.php",
@@ -7940,30 +7791,6 @@ else if (e.target.id === "tabs-alert-info") {
                       children: {},
                       slug: "/en-US/docs/Web/Accessibility/Guides/Seizure_disorders",
                       messages: [
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/css-animations-1/#animation-play-state"
-                          ]
-                        },
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/web-animations-1/"
-                          ]
-                        },
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/css-color-3/"
-                          ]
-                        },
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/web-animations-1/"
-                          ]
-                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -8423,20 +8250,7 @@ api.MessagePort`,
                   ]
                 },
                 css_object_model: {
-                  children: {
-                    determining_the_dimensions_of_elements: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSS_Object_Model/Determining_the_dimensions_of_elements",
-                      messages: [
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/cssom-view-1/"
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/API/CSS_Object_Model",
                   messages: [
                     {
@@ -8488,44 +8302,6 @@ api.MessagePort`,
                           message: "Unused image",
                           data: [
                             "magic-wand.png"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                csspropertyrule: {
-                  children: {
-                    initialvalue: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSSPropertyRule/initialValue",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/CSS/declaration-value"
-                          ]
-                        },
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/css-syntax-3/#typedef-declaration-value"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                cssrule: {
-                  children: {
-                    csstext: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSSRule/cssText",
-                      messages: [
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/cssom-1/#changes-from-5-december-2013"
                           ]
                         }
                       ]
@@ -8693,6 +8469,59 @@ api.MessagePort`,
                     }
                   }
                 },
+                delegatedinktrailpresenter: {
+                  children: {
+                    expectedimprovement: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/DelegatedInkTrailPresenter/expectedImprovement",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://blogs.windows.com/msedgedev/2021/08/18/enhancing-inking-on-the-web/",
+                            404
+                          ]
+                        }
+                      ]
+                    },
+                    presentationarea: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/DelegatedInkTrailPresenter/presentationArea",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://blogs.windows.com/msedgedev/2021/08/18/enhancing-inking-on-the-web/",
+                            404
+                          ]
+                        }
+                      ]
+                    },
+                    updateinktrailstartpoint: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/DelegatedInkTrailPresenter/updateInkTrailStartPoint",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://blogs.windows.com/msedgedev/2021/08/18/enhancing-inking-on-the-web/",
+                            404
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/DelegatedInkTrailPresenter",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://blogs.windows.com/msedgedev/2021/08/18/enhancing-inking-on-the-web/",
+                        404
+                      ]
+                    }
+                  ]
+                },
                 device_orientation_events: {
                   children: {
                     detecting_device_orientation: {
@@ -8832,30 +8661,6 @@ api.DeviceOrientationEvent`,
                           message: "Missing image",
                           data: [
                             "image1.gif"
-                          ]
-                        }
-                      ]
-                    },
-                    whitespace: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document_Object_Model/Whitespace",
-                      messages: [
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/css-text-3/"
-                          ]
-                        },
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/css-text-3/#white-space-property"
-                          ]
-                        },
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/css-text-3/#white-space-processing"
                           ]
                         }
                       ]
@@ -9025,24 +8830,6 @@ http.headers.Permissions-Policy.deferred-fetch-minimal`,
                       ]
                     }
                   }
-                },
-                fontfaceset: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/FontFaceSet",
-                  messages: [
-                    {
-                      message: "w3.org/TR link",
-                      data: [
-                        "https://www.w3.org/TR/css-font-loading-3/#css-connected"
-                      ]
-                    },
-                    {
-                      message: "w3.org/TR link",
-                      data: [
-                        "https://www.w3.org/TR/css-font-loading-3/#css-connected"
-                      ]
-                    }
-                  ]
                 },
                 fullscreen_api: {
                   children: {
@@ -10704,18 +10491,6 @@ api.Document.fullscreen`,
                     }
                   ]
                 },
-                iirfilternode: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/IIRFilterNode",
-                  messages: [
-                    {
-                      message: "External sandbox link",
-                      data: [
-                        "https://codepen.io/Rumyra/pen/oPxvYB/"
-                      ]
-                    }
-                  ]
-                },
                 indexeddb_api: {
                   children: {
                     checking_when_a_deadline_is_due: {
@@ -10939,6 +10714,46 @@ function checkDeadlines() {
                       ]
                     }
                   }
+                },
+                ink: {
+                  children: {
+                    requestpresenter: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Ink/requestPresenter",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://blogs.windows.com/msedgedev/2021/08/18/enhancing-inking-on-the-web/",
+                            404
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/Ink",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://blogs.windows.com/msedgedev/2021/08/18/enhancing-inking-on-the-web/",
+                        404
+                      ]
+                    }
+                  ]
+                },
+                ink_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Ink_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://blogs.windows.com/msedgedev/2021/08/18/enhancing-inking-on-the-web/",
+                        404
+                      ]
+                    }
+                  ]
                 },
                 inputevent: {
                   children: {
@@ -12035,18 +11850,6 @@ function checkDeadlines() {
                     }
                   }
                 },
-                mutationobserver: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/MutationObserver",
-                  messages: [
-                    {
-                      message: "External sandbox link",
-                      data: [
-                        "https://codepen.io/milofultz/pen/LYjPXPw"
-                      ]
-                    }
-                  ]
-                },
                 mutationrecord: {
                   children: {
                     attributename: {
@@ -12172,18 +11975,6 @@ function checkDeadlines() {
                 },
                 navigator: {
                   children: {
-                    donottrack: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Navigator/doNotTrack",
-                      messages: [
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/tracking-dnt/#dom-navigator-donottrack"
-                          ]
-                        }
-                      ]
-                    },
                     getbattery: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Navigator/getBattery",
@@ -12198,6 +11989,19 @@ function checkDeadlines() {
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/battery"
+                          ]
+                        }
+                      ]
+                    },
+                    ink: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Navigator/ink",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://blogs.windows.com/msedgedev/2021/08/18/enhancing-inking-on-the-web/",
+                            404
                           ]
                         }
                       ]
@@ -14041,9 +13845,92 @@ function checkDeadlines() {
                       slug: "/en-US/docs/Web/API/ReadableStream/cancel",
                       messages: [
                         {
-                          message: "External sandbox link",
+                          message: "JS code issue",
                           data: [
-                            "https://jsbin.com/gameboy/edit?js,console"
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '  output.textContent += text + "\\n";',
+                            "4:25 - 4:36",
+                            `/en-US/docs/Web/API/ReadableStream/cancel
+[prefer-template] Unexpected string concatenation.
+~~~
+const output = document.getElementById("output");
+
+function log(text) {
+  output.textContent += text + "\\n";
+}
+
+const searchTerm = "service workers";
+// Chars to show either side of the result in the match
+const contextBefore = 30;
+const contextAfter = 30;
+const caseInsensitive = true;
+const url = "https://html.spec.whatwg.org/";
+
+log(\`Searching '\${url}' for '\${searchTerm}'\`);
+
+fetch(url)
+  .then((response) => {
+    log("Received headers");
+
+    const decoder = new TextDecoder();
+    const reader = response.body.getReader();
+    const toMatch = caseInsensitive ? searchTerm.toLowerCase() : searchTerm;
+    const bufferSize = Math.max(toMatch.length - 1, contextBefore);
+
+    let bytesReceived = 0;
+    let buffer = "";
+    let matchFoundAt = -1;
+
+    return reader.read().then(function process(result) {
+      if (result.done) {
+        log("Failed to find match");
+        return;
+      }
+
+      bytesReceived += result.value.length;
+      log(\`Received \${bytesReceived} bytes of data so far\`);
+
+      buffer += decoder.decode(result.value, { stream: true });
+
+      // already found match & just context-gathering?
+      if (matchFoundAt === -1) {
+        matchFoundAt = (
+          caseInsensitive ? buffer.toLowerCase() : buffer
+        ).indexOf(toMatch);
+      }
+
+      if (matchFoundAt === -1) {
+        buffer = buffer.slice(-bufferSize);
+      } else if (
+        buffer.slice(matchFoundAt + toMatch.length).length >= contextAfter
+      ) {
+        log("Here's the match:");
+        log(
+          buffer.slice(
+            Math.max(0, matchFoundAt - contextBefore),
+            matchFoundAt + toMatch.length + contextAfter,
+          ),
+        );
+        log("Cancelling fetch");
+        reader.cancel();
+        return;
+      } else {
+        log("Found match, but need more context…");
+      }
+
+      // keep reading
+      return reader.read().then(process);
+    });
+  })
+  .catch((err) => {
+    log(
+      "Something went wrong. See devtools for details. Does the response lack CORS headers?",
+    );
+    throw err;
+  });
+~~~
+`
                           ]
                         }
                       ]
@@ -17712,34 +17599,6 @@ function checkDeadlines() {
                     }
                   ]
                 },
-                svgrect: {
-                  children: {
-                    x: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGRect/x",
-                      messages: [
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/css3-values/#lengths"
-                          ]
-                        },
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/css3-values/#percentages"
-                          ]
-                        },
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/SVG11/types.html#DataTypeLength"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 svgrenderingintent: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SVGRenderingIntent",
@@ -18897,48 +18756,6 @@ async function handleTranslation(e) {
                 },
                 web_audio_api: {
                   children: {
-                    best_practices: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Web_Audio_API/Best_practices",
-                      messages: [
-                        {
-                          message: "External sandbox link",
-                          data: [
-                            "https://codepen.io/Wilto/pen/ZoGoQm?editors=1100"
-                          ]
-                        }
-                      ]
-                    },
-                    using_iir_filters: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Web_Audio_API/Using_IIR_filters",
-                      messages: [
-                        {
-                          message: "External sandbox link",
-                          data: [
-                            "https://codepen.io/Rumyra/pen/oPxvYB/"
-                          ]
-                        }
-                      ]
-                    },
-                    using_web_audio_api: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API",
-                      messages: [
-                        {
-                          message: "External sandbox link",
-                          data: [
-                            "https://codepen.io/Rumyra/pen/qyMzqN/"
-                          ]
-                        },
-                        {
-                          message: "External sandbox link",
-                          data: [
-                            "https://codepen.io/Rumyra/pen/qyMzqN/"
-                          ]
-                        }
-                      ]
-                    },
                     visualizations_with_web_audio_api: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Visualizations_with_Web_Audio_API",
@@ -18994,18 +18811,6 @@ function draw() {
   canvasCtx.fillRect(0, 0, WIDTH, HEIGHT);
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    web_audio_spatialization_basics: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Web_Audio_API/Web_audio_spatialization_basics",
-                      messages: [
-                        {
-                          message: "External sandbox link",
-                          data: [
-                            "https://codepen.io/Rumyra/pen/MqayoK?editors=0100"
                           ]
                         }
                       ]
@@ -20189,62 +19994,7 @@ alert(emulateMessage(example5).constructor); // Object
                   ]
                 },
                 webgl_api: {
-                  children: {
-                    webgl_best_practices: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WebGL_API/WebGL_best_practices",
-                      messages: [
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/resize-observer/#resize-observer-interface"
-                          ]
-                        }
-                      ]
-                    },
-                    webgl_model_view_projection: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WebGL_API/WebGL_model_view_projection",
-                      messages: [
-                        {
-                          message: "External sandbox link",
-                          data: [
-                            "https://jsfiddle.net/tatumcreative/mff99yu5/"
-                          ]
-                        },
-                        {
-                          message: "External sandbox link",
-                          data: [
-                            "https://jsfiddle.net/tatumcreative/5jofzgsh/"
-                          ]
-                        },
-                        {
-                          message: "External sandbox link",
-                          data: [
-                            "https://jsfiddle.net/tatumcreative/vk9r8h2c/"
-                          ]
-                        },
-                        {
-                          message: "External sandbox link",
-                          data: [
-                            "https://jsfiddle.net/tatumcreative/zwyLLcbw/"
-                          ]
-                        },
-                        {
-                          message: "External sandbox link",
-                          data: [
-                            "https://jsfiddle.net/tatumcreative/Lzxw7e1q/"
-                          ]
-                        },
-                        {
-                          message: "External sandbox link",
-                          data: [
-                            "https://jsfiddle.net/tatumcreative/86fd797g/"
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/API/WebGL_API",
                   messages: [
                     {
@@ -20258,6 +20008,26 @@ alert(emulateMessage(example5).constructor); // Object
                       data: [
                         "http://www.webglacademy.com/",
                         ""
+                      ]
+                    }
+                  ]
+                },
+                webgl_compressed_texture_astc: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/WEBGL_compressed_texture_astc",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://developer.nvidia.com/astc-texture-compression-for-game-assets",
+                        503
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://developer.nvidia.com/astc-texture-compression-for-game-assets",
+                        503
                       ]
                     }
                   ]
@@ -21164,12 +20934,6 @@ function displayPoseStats(pose) {
                         {
                           message: "Broken browser compat anchor",
                           data: []
-                        },
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/webxr-ar-module-1/"
-                          ]
                         }
                       ]
                     }
@@ -21340,18 +21104,6 @@ function displayPoseStats(pose) {
 </script>
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/cssom-1/#dom-window-getcomputedstyle"
-                          ]
-                        },
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/css-pseudo-4/"
                           ]
                         }
                       ]
@@ -23889,31 +23641,6 @@ function displayPoseStats(pose) {
                       ]
                     }
                   ]
-                },
-                xsltprocessor: {
-                  children: {
-                    importstylesheet: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/XSLTProcessor/importStylesheet",
-                      messages: [
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/xslt/#result-element-stylesheet"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/XSLTProcessor",
-                  messages: [
-                    {
-                      message: "w3.org/TR link",
-                      data: [
-                        "https://www.w3.org/TR/xslt/#result-element-stylesheet"
-                      ]
-                    }
-                  ]
                 }
               }
             },
@@ -25168,12 +24895,6 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/css-color-adjust-1/#forced"
-                          ]
                         }
                       ]
                     },
@@ -27307,6 +27028,45 @@ body {
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Mozilla/Tech/XUL"
+                      ]
+                    }
+                  ]
+                },
+                "break-after": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/break-after",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.smashingmagazine.com/2019/02/css-fragmentation/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "break-before": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/break-before",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.smashingmagazine.com/2019/02/css-fragmentation/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "break-inside": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/break-inside",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.smashingmagazine.com/2019/02/css-fragmentation/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -29523,12 +29283,6 @@ form {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/css-variables/#custom-property"
-                          ]
                         }
                       ]
                     }
@@ -30578,24 +30332,6 @@ rgb(from red r g b / alpha)
                         }
                       ]
                     },
-                    flow_layout_and_overflow: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_display/Flow_layout_and_overflow",
-                      messages: [
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/css-overflow-3/"
-                          ]
-                        },
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/css-overflow-3/"
-                          ]
-                        }
-                      ]
-                    },
                     "multi-keyword_syntax_of_display": {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_display/multi-keyword_syntax_of_display",
@@ -30634,24 +30370,6 @@ rgb(from red r g b / alpha)
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/css-display-3/#outer-role"
-                          ]
-                        },
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/css-display-3/#inner-model"
-                          ]
-                        },
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/css-display-3/#legacy-display"
-                          ]
                         }
                       ]
                     }
@@ -30671,42 +30389,8 @@ rgb(from red r g b / alpha)
                     }
                   }
                 },
-                css_flexible_box_layout: {
-                  children: {
-                    mastering_wrapping_of_flex_items: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_flexible_box_layout/Mastering_wrapping_of_flex_items",
-                      messages: [
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/css-flexbox-1/#visibility-collapse"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 css_fonts: {
                   children: {
-                    opentype_fonts_guide: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide",
-                      messages: [
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/css-fonts-4/#propdef-font-variant-alternates"
-                          ]
-                        },
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/css-fonts-4/#propdef-font-variant-alternates"
-                          ]
-                        }
-                      ]
-                    },
                     woff: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_fonts/WOFF",
@@ -32853,30 +32537,6 @@ selector {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/css3-values/#component-types"
-                          ]
-                        },
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/css-grid-1/#fr-unit"
-                          ]
-                        },
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/css-color-4/"
-                          ]
-                        },
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/css-images-3/"
-                          ]
                         }
                       ]
                     },
@@ -32911,18 +32571,6 @@ selector {
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Web/CSS/toggle"
-                          ]
-                        },
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/css-images-4/"
-                          ]
-                        },
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/css-backgrounds-3/"
                           ]
                         }
                       ]
@@ -40740,18 +40388,6 @@ element {
                     }
                   ]
                 },
-                "font-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-size",
-                  messages: [
-                    {
-                      message: "w3.org/TR link",
-                      data: [
-                        "https://www.w3.org/TR/css-fonts-3/#first-available-font"
-                      ]
-                    }
-                  ]
-                },
                 "font-size-adjust": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/font-size-adjust",
@@ -41061,24 +40697,6 @@ repeating-conic-gradient(from -45deg, red 45deg, orange, yellow, green, blue 225
                     {
                       message: "Missing syntax code block",
                       data: []
-                    }
-                  ]
-                },
-                "grid-template-columns": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid-template-columns",
-                  messages: [
-                    {
-                      message: "w3.org/TR link",
-                      data: [
-                        "https://www.w3.org/TR/css-sizing-3/#max-content"
-                      ]
-                    },
-                    {
-                      message: "w3.org/TR link",
-                      data: [
-                        "https://www.w3.org/TR/css-sizing-3/#min-content"
-                      ]
                     }
                   ]
                 },
@@ -41568,30 +41186,6 @@ css.properties.grid-template-rows.minmax`
                     }
                   ]
                 },
-                "named-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/named-color",
-                  messages: [
-                    {
-                      message: "w3.org/TR link",
-                      data: [
-                        "https://www.w3.org/TR/css-color-3/#svg-color"
-                      ]
-                    },
-                    {
-                      message: "w3.org/TR link",
-                      data: [
-                        "https://www.w3.org/TR/css-color-4/#named-colors"
-                      ]
-                    },
-                    {
-                      message: "w3.org/TR link",
-                      data: [
-                        "https://www.w3.org/TR/css-color-4/#interpolation-alpha"
-                      ]
-                    }
-                  ]
-                },
                 number: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/number",
@@ -41632,30 +41226,6 @@ css.properties.grid-template-rows.minmax`
                     }
                   ]
                 },
-                order: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/order",
-                  messages: [
-                    {
-                      message: "w3.org/TR link",
-                      data: [
-                        "https://www.w3.org/TR/css-speech-1/"
-                      ]
-                    }
-                  ]
-                },
-                "outline-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/outline-style",
-                  messages: [
-                    {
-                      message: "w3.org/TR link",
-                      data: [
-                        "https://www.w3.org/TR/css-ui-3/#outline-style"
-                      ]
-                    }
-                  ]
-                },
                 percentage: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/percentage",
@@ -41663,24 +41233,6 @@ css.properties.grid-template-rows.minmax`
                     {
                       message: "Missing syntax code block",
                       data: []
-                    }
-                  ]
-                },
-                position: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/position",
-                  messages: [
-                    {
-                      message: "w3.org/TR link",
-                      data: [
-                        "https://www.w3.org/TR/CSS2/visudet.html#containing-block-details"
-                      ]
-                    },
-                    {
-                      message: "w3.org/TR link",
-                      data: [
-                        "https://www.w3.org/TR/css-transforms-1/#propdef-transform"
-                      ]
                     }
                   ]
                 },
@@ -42448,18 +42000,6 @@ form {
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/CSS/xywh"
-                      ]
-                    },
-                    {
-                      message: "w3.org/TR link",
-                      data: [
-                        "https://www.w3.org/TR/css-syntax-3/#intro"
-                      ]
-                    },
-                    {
-                      message: "w3.org/TR link",
-                      data: [
-                        "https://www.w3.org/TR/cssom/#introduction"
                       ]
                     }
                   ]
@@ -43518,24 +43058,6 @@ url(https://example.com/image.png)
                         }
                       ]
                     },
-                    "author_fast-loading_html_pages": {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/How_to/Author_fast-loading_HTML_pages",
-                      messages: [
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/css-flexbox-1/"
-                          ]
-                        },
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/css-grid-1/"
-                          ]
-                        }
-                      ]
-                    },
                     define_terms_with_html: {
                       children: {},
                       slug: "/en-US/docs/Web/HTML/How_to/Define_terms_with_HTML",
@@ -44032,12 +43554,6 @@ http.headers.Use-As-Dictionary`,
                       slug: "/en-US/docs/Web/HTTP/Guides/CORS",
                       messages: [
                         {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/css-fonts-3/#font-fetching-requirements"
-                          ]
-                        },
-                        {
                           message: "Unexpected BCD keys",
                           data: [
                             "Actual:",
@@ -44117,6 +43633,19 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         "available-dictionary": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Available-Dictionary",
@@ -44160,18 +43689,6 @@ http.headers.Use-As-Dictionary`,
                               ]
                             }
                           }
-                        },
-                        dnt: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/DNT",
-                          messages: [
-                            {
-                              message: "w3.org/TR link",
-                              data: [
-                                "https://www.w3.org/TR/tracking-dnt/#dnt-header-field"
-                              ]
-                            }
-                          ]
                         },
                         forwarded: {
                           children: {},
@@ -44765,38 +44282,10 @@ console.log(bar.next()); // {value: 10, done: false}
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
                           messages: [
                             {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.itu.int/",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.itu.int/",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            },
-                            {
                               message: "HTTP link",
                               data: [
                                 "http://hevc.info/",
                                 ""
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.itu.int/",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.itu.int/",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                               ]
                             }
                           ]
@@ -45391,42 +44880,6 @@ html.elements.script.integrity`,
 </svg>
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    content_type: {
-                      children: {},
-                      slug: "/en-US/docs/Web/SVG/Guides/Content_type",
-                      messages: [
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/SVG/linking.html#IRIReference"
-                          ]
-                        }
-                      ]
-                    },
-                    namespaces_crash_course: {
-                      children: {},
-                      slug: "/en-US/docs/Web/SVG/Guides/Namespaces_crash_course",
-                      messages: [
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/REC-DOM-Level-1/"
-                          ]
-                        }
-                      ]
-                    },
-                    svg_animation_with_smil: {
-                      children: {},
-                      slug: "/en-US/docs/Web/SVG/Guides/SVG_animation_with_SMIL",
-                      messages: [
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/SVG/animate.html"
                           ]
                         }
                       ]
@@ -46579,18 +46032,6 @@ html.elements.script.integrity`,
 </svg>
 ~~~
 `
-                              ]
-                            }
-                          ]
-                        },
-                        "dominant-baseline": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/dominant-baseline",
-                          messages: [
-                            {
-                              message: "w3.org/TR link",
-                              data: [
-                                "https://www.w3.org/TR/css3-values/#comb-one"
                               ]
                             }
                           ]
@@ -53821,45 +53262,8 @@ svg.elements.feSpotLight.z`
                 },
                 xpath: {
                   children: {
-                    guides: {
-                      children: {
-                        snippets: {
-                          children: {},
-                          slug: "/en-US/docs/Web/XML/XPath/Guides/Snippets",
-                          messages: [
-                            {
-                              message: "w3.org/TR link",
-                              data: [
-                                "https://www.w3.org/TR/DOM-Level-3-XPath/"
-                              ]
-                            }
-                          ]
-                        }
-                      },
-                      slug: "/en-US/docs/Web/XML/XPath/Guides",
-                      messages: [
-                        {
-                          message: "w3.org/TR link",
-                          data: [
-                            "https://www.w3.org/TR/DOM-Level-3-XPath/"
-                          ]
-                        }
-                      ]
-                    },
                     reference: {
                       children: {
-                        axes: {
-                          children: {},
-                          slug: "/en-US/docs/Web/XML/XPath/Reference/Axes",
-                          messages: [
-                            {
-                              message: "w3.org/TR link",
-                              data: [
-                                "https://www.w3.org/TR/xpath-30/#axes"
-                              ]
-                            }
-                          ]
-                        },
                         functions: {
                           children: {
                             boolean: {
@@ -53869,7 +53273,7 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-boolean"
+                                    "https://www.w3.org/TR/xpath-10/#function-boolean"
                                   ]
                                 }
                               ]
@@ -53881,7 +53285,7 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-ceiling"
+                                    "https://www.w3.org/TR/xpath-10/#function-ceiling"
                                   ]
                                 }
                               ]
@@ -53893,7 +53297,7 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-concat"
+                                    "https://www.w3.org/TR/xpath-10/#function-concat"
                                   ]
                                 }
                               ]
@@ -53905,7 +53309,7 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-contains"
+                                    "https://www.w3.org/TR/xpath-10/#function-contains"
                                   ]
                                 }
                               ]
@@ -53917,7 +53321,7 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-count"
+                                    "https://www.w3.org/TR/xpath-10/#function-count"
                                   ]
                                 }
                               ]
@@ -53929,7 +53333,7 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/1999/REC-xslt-19991116/#function-current"
+                                    "https://www.w3.org/TR/xslt-10/#function-current"
                                   ]
                                 }
                               ]
@@ -53941,7 +53345,7 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/1999/REC-xslt-19991116/#function-document"
+                                    "https://www.w3.org/TR/xslt-10/#function-document"
                                   ]
                                 }
                               ]
@@ -53953,7 +53357,7 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/1999/REC-xslt-19991116/#function-element-available"
+                                    "https://www.w3.org/TR/xslt-10/#function-element-available"
                                   ]
                                 }
                               ]
@@ -53965,7 +53369,7 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-false"
+                                    "https://www.w3.org/TR/xpath-10/#function-false"
                                   ]
                                 }
                               ]
@@ -53977,7 +53381,7 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-floor"
+                                    "https://www.w3.org/TR/xpath-10/#function-floor"
                                   ]
                                 }
                               ]
@@ -53989,7 +53393,7 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/1999/REC-xslt-19991116/#function-format-number"
+                                    "https://www.w3.org/TR/xslt-10/#function-format-number"
                                   ]
                                 }
                               ]
@@ -54001,7 +53405,7 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/1999/REC-xslt-19991116/#function-function-available"
+                                    "https://www.w3.org/TR/xslt-10/#function-function-available"
                                   ]
                                 }
                               ]
@@ -54013,7 +53417,7 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/1999/REC-xslt-19991116/#function-generate-id"
+                                    "https://www.w3.org/TR/xslt-10/#function-generate-id"
                                   ]
                                 }
                               ]
@@ -54025,13 +53429,13 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/xpath/#unique-id"
+                                    "https://www.w3.org/TR/xpath-10/#unique-id"
                                   ]
                                 },
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-id"
+                                    "https://www.w3.org/TR/xpath-10/#function-id"
                                   ]
                                 }
                               ]
@@ -54043,7 +53447,7 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/1999/REC-xslt-19991116/#function-key"
+                                    "https://www.w3.org/TR/xslt-10/#function-key"
                                   ]
                                 }
                               ]
@@ -54055,7 +53459,7 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-lang"
+                                    "https://www.w3.org/TR/xpath-10/#function-lang"
                                   ]
                                 }
                               ]
@@ -54067,7 +53471,7 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-last"
+                                    "https://www.w3.org/TR/xpath-10/#function-last"
                                   ]
                                 }
                               ]
@@ -54079,13 +53483,13 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/xpath/#dt-expanded-name"
+                                    "https://www.w3.org/TR/xpath-10/#dt-expanded-name"
                                   ]
                                 },
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-local-name"
+                                    "https://www.w3.org/TR/xpath-10/#function-local-name"
                                   ]
                                 }
                               ]
@@ -54097,7 +53501,7 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-local-name"
+                                    "https://www.w3.org/TR/xpath-10/#function-local-name"
                                   ]
                                 }
                               ]
@@ -54109,7 +53513,7 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-local-name"
+                                    "https://www.w3.org/TR/xpath-10/#function-local-name"
                                   ]
                                 }
                               ]
@@ -54121,7 +53525,7 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-normalize-space"
+                                    "https://www.w3.org/TR/xpath-10/#function-normalize-space"
                                   ]
                                 }
                               ]
@@ -54133,7 +53537,7 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-not"
+                                    "https://www.w3.org/TR/xpath-10/#function-not"
                                   ]
                                 }
                               ]
@@ -54145,7 +53549,7 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-number"
+                                    "https://www.w3.org/TR/xpath-10/#function-number"
                                   ]
                                 }
                               ]
@@ -54157,7 +53561,7 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-position"
+                                    "https://www.w3.org/TR/xpath-10/#function-position"
                                   ]
                                 }
                               ]
@@ -54169,7 +53573,7 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-round"
+                                    "https://www.w3.org/TR/xpath-10/#function-round"
                                   ]
                                 }
                               ]
@@ -54181,7 +53585,7 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-starts-with"
+                                    "https://www.w3.org/TR/xpath-10/#function-starts-with"
                                   ]
                                 }
                               ]
@@ -54193,7 +53597,7 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-string"
+                                    "https://www.w3.org/TR/xpath-10/#function-string"
                                   ]
                                 }
                               ]
@@ -54205,7 +53609,7 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-string-length"
+                                    "https://www.w3.org/TR/xpath-10/#function-string-length"
                                   ]
                                 }
                               ]
@@ -54217,7 +53621,7 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-substring"
+                                    "https://www.w3.org/TR/xpath-10/#function-substring"
                                   ]
                                 }
                               ]
@@ -54229,7 +53633,7 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-substring-after"
+                                    "https://www.w3.org/TR/xpath-10/#function-substring-after"
                                   ]
                                 }
                               ]
@@ -54241,7 +53645,7 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-substring-before"
+                                    "https://www.w3.org/TR/xpath-10/#function-substring-before"
                                   ]
                                 }
                               ]
@@ -54253,7 +53657,7 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-sum"
+                                    "https://www.w3.org/TR/xpath-10/#function-sum"
                                   ]
                                 }
                               ]
@@ -54265,7 +53669,7 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/1999/REC-xslt-19991116/#function-system-property"
+                                    "https://www.w3.org/TR/xslt-10/#function-system-property"
                                   ]
                                 }
                               ]
@@ -54277,7 +53681,7 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-translate"
+                                    "https://www.w3.org/TR/xpath-10/#function-translate"
                                   ]
                                 }
                               ]
@@ -54289,7 +53693,7 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/1999/REC-xpath-19991116/#function-true"
+                                    "https://www.w3.org/TR/xpath-10/#function-true"
                                   ]
                                 }
                               ]
@@ -54301,7 +53705,7 @@ svg.elements.feSpotLight.z`
                                 {
                                   message: "w3.org/TR link",
                                   data: [
-                                    "https://www.w3.org/TR/1999/REC-xslt-19991116/#function-unparsed-entity-uri"
+                                    "https://www.w3.org/TR/xslt-10/#function-unparsed-entity-uri"
                                   ]
                                 }
                               ]
@@ -54317,16 +53721,7 @@ svg.elements.feSpotLight.z`
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/XML/XPath",
-                  messages: [
-                    {
-                      message: "w3.org/TR link",
-                      data: [
-                        "https://www.w3.org/TR/DOM-Level-3-XPath/"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 xslt: {
                   children: {
