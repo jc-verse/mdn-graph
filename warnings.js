@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-03fq6yzx.js";
+} from "./chunk-smyvy32d.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -35,37 +35,31 @@ var warnings_processed_default = {
                       ]
                     }
                   ]
-                },
-                game_monetization: {
-                  children: {},
-                  slug: "/en-US/docs/Games/Publishing_games/Game_monetization",
-                  messages: [
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://gamedevelopment.tutsplus.com/",
-                        "https://code.tutsplus.com/c/game-development"
-                      ]
-                    }
-                  ]
-                },
-                game_promotion: {
-                  children: {},
-                  slug: "/en-US/docs/Games/Publishing_games/Game_promotion",
-                  messages: [
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://gamedevelopment.tutsplus.com/",
-                        "https://code.tutsplus.com/c/game-development"
-                      ]
-                    }
-                  ]
                 }
               }
             },
             techniques: {
               children: {
+                "2d_collision_detection": {
+                  children: {},
+                  slug: "/en-US/docs/Games/Techniques/2D_collision_detection",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.sevenson.com.au/programming/sat/",
+                        "Cannot reach server and Bun hangs"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.metanetsoftware.com/technique/tutorialA.html",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 audio_for_web_games: {
                   children: {},
                   slug: "/en-US/docs/Games/Techniques/Audio_for_Web_Games",
@@ -454,13 +448,6 @@ var warnings_processed_default = {
               data: [
                 "http://creativejs.com/",
                 ""
-              ]
-            },
-            {
-              message: "Redirected external link",
-              data: [
-                "https://gamedevelopment.tutsplus.com/",
-                "https://code.tutsplus.com/c/game-development"
               ]
             }
           ]
@@ -869,6 +856,26 @@ var warnings_processed_default = {
                   message: "w3.org/TR link",
                   data: [
                     "https://www.w3.org/TR/css-sizing-3/#intrinsic-sizes"
+                  ]
+                }
+              ]
+            },
+            itu: {
+              children: {},
+              slug: "/en-US/docs/Glossary/ITU",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.itu.int/",
+                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.itu.int/en/history/Pages/ITUsHistory.aspx",
+                    "The operation timed out."
                   ]
                 }
               ]
@@ -1418,6 +1425,19 @@ var warnings_processed_default = {
         },
         learn_web_development: {
           children: {
+            about: {
+              children: {},
+              slug: "/en-US/docs/Learn_web_development/About",
+              messages: [
+                {
+                  message: "Redirected external link",
+                  data: [
+                    "https://github.com/mdn/curriculum/releases/latest/download/MDN-Curriculum.pdf",
+                    "https://release-assets.githubusercontent.com/github-production-release-asset/671867945/3868fdd9-9c75-44f7-b29c-650871c4046d?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-06-10T01%3A03%3A07Z&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2025-06-10T00%3A54%3A58Z&ske=2025-06-10T01%3A55%3A23Z&sks=b&skv=2018-11-09&sig=4wzxDnsZh8NuY7qowoN5T3hUHBvOxtUGVoodixQ1CB0%3D&jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc0OTUxNzM4NywibmJmIjoxNzQ5NTE3MDg3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.Hdly4qf02JMJ95VCROdhsmxKQS5CasFea_ETrhq6VZk&response-content-disposition=attachment%3B%20filename%3DMDN-Curriculum.pdf&response-content-type=application%2Foctet-stream"
+                  ]
+                }
+              ]
+            },
             core: {
               children: {
                 accessibility: {
@@ -1660,13 +1680,6 @@ var warnings_processed_default = {
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/mxmason/pen/XWbPNmw"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://phabricator.wikimedia.org/T241180",
-                            "429 Retry-After: 1000"
                           ]
                         },
                         {
@@ -1921,6 +1934,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "HTTP link",
+                          data: [
+                            "http://tavmjong.free.fr/INKSCAPE/MANUAL/html/Web-Inkscape.html",
+                            ""
+                          ]
                         }
                       ]
                     }
@@ -1996,6 +2016,19 @@ var warnings_processed_default = {
                   message: "No link to child page",
                   data: [
                     "/en-US/docs/Learn_web_development/Core/Challenges"
+                  ]
+                }
+              ]
+            },
+            educators: {
+              children: {},
+              slug: "/en-US/docs/Learn_web_development/Educators",
+              messages: [
+                {
+                  message: "Redirected external link",
+                  data: [
+                    "https://github.com/mdn/curriculum/releases/latest/download/MDN-Curriculum.pdf",
+                    "https://release-assets.githubusercontent.com/github-production-release-asset/671867945/3868fdd9-9c75-44f7-b29c-650871c4046d?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-06-10T01%3A03%3A07Z&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2025-06-10T00%3A54%3A58Z&ske=2025-06-10T01%3A55%3A23Z&sks=b&skv=2018-11-09&sig=4wzxDnsZh8NuY7qowoN5T3hUHBvOxtUGVoodixQ1CB0%3D&jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc0OTUxNzM4NywibmJmIjoxNzQ5NTE3MDg3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.Hdly4qf02JMJ95VCROdhsmxKQS5CasFea_ETrhq6VZk&response-content-disposition=attachment%3B%20filename%3DMDN-Curriculum.pdf&response-content-type=application%2Foctet-stream"
                   ]
                 }
               ]
@@ -9505,766 +9538,8 @@ api.Document.fullscreen`,
                       slug: "/en-US/docs/Web/API/HTML_Sanitizer_API/Using_the_HTML_Sanitizer_API",
                       messages: [
                         {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Web/API/HTML_Sanitizer_API/Using_the_HTML_Sanitizer_API"
-                          ]
-                        },
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "removeAttributes",
-                            "Text after code:",
-                            "in one call. Attempting to do so will raise an exc"
-                          ]
-                        },
-                        {
                           message: "Unreachable via page",
                           data: []
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "object-shorthand",
-                            "Expected property shorthand.",
-                            "  setHTMLElement.setHTML(unsafeHTMLString, { sanitizer: sanitizer });",
-                            "30:46 - 30:66",
-                            `/en-US/docs/Web/API/HTML_Sanitizer_API/Using_the_HTML_Sanitizer_API
-[object-shorthand] Expected property shorthand.
-~~~
-const logElement = document.querySelector("#log");
-function log(text) {
-  logElement.textContent = text;
-}
-
-if ("Sanitizer" in window) {
-  // Define unsafe string of HTML
-  const initialHTMLString =
-    \`<div id="mainDiv"><!-- HTML comment -->
-    <p data-paratest="true">This is a paragraph. <button onclick="alert('You clicked the button!')">Click me</button></p>
-    <p>Be <b>bold</b> and brave!</p>
-    <script>alert(1)<\` + "/script></div>";
-
-  // Set unsafe string as a text node of first element
-  const unmodifiedElement = document.querySelector("#unmodified");
-  unmodifiedElement.innerText = initialHTMLString;
-  unsafeHTMLString = unmodifiedElement.innerText;
-
-  const setHTMLElement = document.querySelector("#setHTML");
-  const setHTMLUnsafeElement = document.querySelector("#setHTMLUnsafe");
-  // Create and apply default sanitizer when we start
-  let sanitizer = new Sanitizer({});
-  applySanitizer(sanitizer);
-
-function applySanitizer(sanitizer) {
-  // Get string to parse into element
-  unsafeHTMLString = unmodifiedElement.innerText;
-
-  // Sanitize string using safe method and then display as text
-  setHTMLElement.setHTML(unsafeHTMLString, { sanitizer: sanitizer });
-  setHTMLElement.innerText = setHTMLElement.innerHTML;
-
-  // Sanitize string using unsafe method and then display as text
-  setHTMLUnsafeElement.setHTMLUnsafe(unsafeHTMLString, {
-    sanitizer: sanitizer,
-  });
-  setHTMLUnsafeElement.innerText = setHTMLUnsafeElement.innerHTML;
-
-  // Display sanitizer configuration
-  const sanitizerConfig = sanitizer.get();
-  log(JSON.stringify(sanitizerConfig, null, 2));
-}
-
-const defaultSanitizerBtn = document.querySelector("#defaultSanitizerBtn");
-const emptySanitizerBtn = document.querySelector("#emptySanitizerBtn");
-const allowElementSelect = document.querySelector("#allowElementSelect");
-const removeElementSelect = document.querySelector("#removeElementSelect");
-const allowAttributeSelect = document.querySelector("#allowAttributeSelect");
-const removeAttributeSelect = document.querySelector("#removeAttributeSelect");
-
-const toggleCommentsBtn = document.querySelector("#toggleCommentsBtn");
-const toggleDataAttributesBtn = document.querySelector(
-  "#toggleDataAttributesBtn",
-);
-
-defaultSanitizerBtn.addEventListener("click", () => {
-  sanitizer = new Sanitizer();
-  applySanitizer(sanitizer);
-});
-
-emptySanitizerBtn.addEventListener("click", () => {
-  sanitizer = new Sanitizer({});
-  applySanitizer(sanitizer);
-});
-
-allowElementSelect.addEventListener("change", (event) => {
-  if (event.target.value != "") {
-    sanitizer.allowElement(event.target.value);
-    applySanitizer(sanitizer);
-  }
-});
-removeElementSelect.addEventListener("change", (event) => {
-  if (event.target.value != "") {
-    sanitizer.removeElement(event.target.value);
-    applySanitizer(sanitizer);
-  }
-});
-allowAttributeSelect.addEventListener("change", (event) => {
-  if (event.target.value != "") {
-    sanitizer.allowAttribute(event.target.value);
-    applySanitizer(sanitizer);
-  }
-});
-removeAttributeSelect.addEventListener("change", (event) => {
-  if (event.target.value != "") {
-    sanitizer.removeAttribute(event.target.value);
-    applySanitizer(sanitizer);
-  }
-});
-
-let dataAttributesActive = true;
-let commentsActive = true;
-
-toggleCommentsBtn.addEventListener("click", () => {
-  commentsActive = !commentsActive;
-  sanitizer.setComments(commentsActive);
-  applySanitizer(sanitizer);
-});
-
-toggleDataAttributesBtn.addEventListener("click", () => {
-  dataAttributesActive = !dataAttributesActive;
-  sanitizer.setDataAttributes(dataAttributesActive);
-  applySanitizer(sanitizer);
-});
-
-
-} else {
-  log("The HTML Sanitizer API is NOT supported in this browser.");
-  // Provide fallback or alternative behavior
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "object-shorthand",
-                            "Expected property shorthand.",
-                            "    sanitizer: sanitizer,",
-                            "35:5 - 35:25",
-                            `/en-US/docs/Web/API/HTML_Sanitizer_API/Using_the_HTML_Sanitizer_API
-[object-shorthand] Expected property shorthand.
-~~~
-const logElement = document.querySelector("#log");
-function log(text) {
-  logElement.textContent = text;
-}
-
-if ("Sanitizer" in window) {
-  // Define unsafe string of HTML
-  const initialHTMLString =
-    \`<div id="mainDiv"><!-- HTML comment -->
-    <p data-paratest="true">This is a paragraph. <button onclick="alert('You clicked the button!')">Click me</button></p>
-    <p>Be <b>bold</b> and brave!</p>
-    <script>alert(1)<\` + "/script></div>";
-
-  // Set unsafe string as a text node of first element
-  const unmodifiedElement = document.querySelector("#unmodified");
-  unmodifiedElement.innerText = initialHTMLString;
-  unsafeHTMLString = unmodifiedElement.innerText;
-
-  const setHTMLElement = document.querySelector("#setHTML");
-  const setHTMLUnsafeElement = document.querySelector("#setHTMLUnsafe");
-  // Create and apply default sanitizer when we start
-  let sanitizer = new Sanitizer({});
-  applySanitizer(sanitizer);
-
-function applySanitizer(sanitizer) {
-  // Get string to parse into element
-  unsafeHTMLString = unmodifiedElement.innerText;
-
-  // Sanitize string using safe method and then display as text
-  setHTMLElement.setHTML(unsafeHTMLString, { sanitizer: sanitizer });
-  setHTMLElement.innerText = setHTMLElement.innerHTML;
-
-  // Sanitize string using unsafe method and then display as text
-  setHTMLUnsafeElement.setHTMLUnsafe(unsafeHTMLString, {
-    sanitizer: sanitizer,
-  });
-  setHTMLUnsafeElement.innerText = setHTMLUnsafeElement.innerHTML;
-
-  // Display sanitizer configuration
-  const sanitizerConfig = sanitizer.get();
-  log(JSON.stringify(sanitizerConfig, null, 2));
-}
-
-const defaultSanitizerBtn = document.querySelector("#defaultSanitizerBtn");
-const emptySanitizerBtn = document.querySelector("#emptySanitizerBtn");
-const allowElementSelect = document.querySelector("#allowElementSelect");
-const removeElementSelect = document.querySelector("#removeElementSelect");
-const allowAttributeSelect = document.querySelector("#allowAttributeSelect");
-const removeAttributeSelect = document.querySelector("#removeAttributeSelect");
-
-const toggleCommentsBtn = document.querySelector("#toggleCommentsBtn");
-const toggleDataAttributesBtn = document.querySelector(
-  "#toggleDataAttributesBtn",
-);
-
-defaultSanitizerBtn.addEventListener("click", () => {
-  sanitizer = new Sanitizer();
-  applySanitizer(sanitizer);
-});
-
-emptySanitizerBtn.addEventListener("click", () => {
-  sanitizer = new Sanitizer({});
-  applySanitizer(sanitizer);
-});
-
-allowElementSelect.addEventListener("change", (event) => {
-  if (event.target.value != "") {
-    sanitizer.allowElement(event.target.value);
-    applySanitizer(sanitizer);
-  }
-});
-removeElementSelect.addEventListener("change", (event) => {
-  if (event.target.value != "") {
-    sanitizer.removeElement(event.target.value);
-    applySanitizer(sanitizer);
-  }
-});
-allowAttributeSelect.addEventListener("change", (event) => {
-  if (event.target.value != "") {
-    sanitizer.allowAttribute(event.target.value);
-    applySanitizer(sanitizer);
-  }
-});
-removeAttributeSelect.addEventListener("change", (event) => {
-  if (event.target.value != "") {
-    sanitizer.removeAttribute(event.target.value);
-    applySanitizer(sanitizer);
-  }
-});
-
-let dataAttributesActive = true;
-let commentsActive = true;
-
-toggleCommentsBtn.addEventListener("click", () => {
-  commentsActive = !commentsActive;
-  sanitizer.setComments(commentsActive);
-  applySanitizer(sanitizer);
-});
-
-toggleDataAttributesBtn.addEventListener("click", () => {
-  dataAttributesActive = !dataAttributesActive;
-  sanitizer.setDataAttributes(dataAttributesActive);
-  applySanitizer(sanitizer);
-});
-
-
-} else {
-  log("The HTML Sanitizer API is NOT supported in this browser.");
-  // Provide fallback or alternative behavior
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "eqeqeq",
-                            "Expected '!==' and instead saw '!='.",
-                            '  if (event.target.value != "") {',
-                            "67:26 - 67:28",
-                            `/en-US/docs/Web/API/HTML_Sanitizer_API/Using_the_HTML_Sanitizer_API
-[eqeqeq] Expected '!==' and instead saw '!='.
-~~~
-const logElement = document.querySelector("#log");
-function log(text) {
-  logElement.textContent = text;
-}
-
-if ("Sanitizer" in window) {
-  // Define unsafe string of HTML
-  const initialHTMLString =
-    \`<div id="mainDiv"><!-- HTML comment -->
-    <p data-paratest="true">This is a paragraph. <button onclick="alert('You clicked the button!')">Click me</button></p>
-    <p>Be <b>bold</b> and brave!</p>
-    <script>alert(1)<\` + "/script></div>";
-
-  // Set unsafe string as a text node of first element
-  const unmodifiedElement = document.querySelector("#unmodified");
-  unmodifiedElement.innerText = initialHTMLString;
-  unsafeHTMLString = unmodifiedElement.innerText;
-
-  const setHTMLElement = document.querySelector("#setHTML");
-  const setHTMLUnsafeElement = document.querySelector("#setHTMLUnsafe");
-  // Create and apply default sanitizer when we start
-  let sanitizer = new Sanitizer({});
-  applySanitizer(sanitizer);
-
-function applySanitizer(sanitizer) {
-  // Get string to parse into element
-  unsafeHTMLString = unmodifiedElement.innerText;
-
-  // Sanitize string using safe method and then display as text
-  setHTMLElement.setHTML(unsafeHTMLString, { sanitizer: sanitizer });
-  setHTMLElement.innerText = setHTMLElement.innerHTML;
-
-  // Sanitize string using unsafe method and then display as text
-  setHTMLUnsafeElement.setHTMLUnsafe(unsafeHTMLString, {
-    sanitizer: sanitizer,
-  });
-  setHTMLUnsafeElement.innerText = setHTMLUnsafeElement.innerHTML;
-
-  // Display sanitizer configuration
-  const sanitizerConfig = sanitizer.get();
-  log(JSON.stringify(sanitizerConfig, null, 2));
-}
-
-const defaultSanitizerBtn = document.querySelector("#defaultSanitizerBtn");
-const emptySanitizerBtn = document.querySelector("#emptySanitizerBtn");
-const allowElementSelect = document.querySelector("#allowElementSelect");
-const removeElementSelect = document.querySelector("#removeElementSelect");
-const allowAttributeSelect = document.querySelector("#allowAttributeSelect");
-const removeAttributeSelect = document.querySelector("#removeAttributeSelect");
-
-const toggleCommentsBtn = document.querySelector("#toggleCommentsBtn");
-const toggleDataAttributesBtn = document.querySelector(
-  "#toggleDataAttributesBtn",
-);
-
-defaultSanitizerBtn.addEventListener("click", () => {
-  sanitizer = new Sanitizer();
-  applySanitizer(sanitizer);
-});
-
-emptySanitizerBtn.addEventListener("click", () => {
-  sanitizer = new Sanitizer({});
-  applySanitizer(sanitizer);
-});
-
-allowElementSelect.addEventListener("change", (event) => {
-  if (event.target.value != "") {
-    sanitizer.allowElement(event.target.value);
-    applySanitizer(sanitizer);
-  }
-});
-removeElementSelect.addEventListener("change", (event) => {
-  if (event.target.value != "") {
-    sanitizer.removeElement(event.target.value);
-    applySanitizer(sanitizer);
-  }
-});
-allowAttributeSelect.addEventListener("change", (event) => {
-  if (event.target.value != "") {
-    sanitizer.allowAttribute(event.target.value);
-    applySanitizer(sanitizer);
-  }
-});
-removeAttributeSelect.addEventListener("change", (event) => {
-  if (event.target.value != "") {
-    sanitizer.removeAttribute(event.target.value);
-    applySanitizer(sanitizer);
-  }
-});
-
-let dataAttributesActive = true;
-let commentsActive = true;
-
-toggleCommentsBtn.addEventListener("click", () => {
-  commentsActive = !commentsActive;
-  sanitizer.setComments(commentsActive);
-  applySanitizer(sanitizer);
-});
-
-toggleDataAttributesBtn.addEventListener("click", () => {
-  dataAttributesActive = !dataAttributesActive;
-  sanitizer.setDataAttributes(dataAttributesActive);
-  applySanitizer(sanitizer);
-});
-
-
-} else {
-  log("The HTML Sanitizer API is NOT supported in this browser.");
-  // Provide fallback or alternative behavior
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "eqeqeq",
-                            "Expected '!==' and instead saw '!='.",
-                            '  if (event.target.value != "") {',
-                            "73:26 - 73:28",
-                            `/en-US/docs/Web/API/HTML_Sanitizer_API/Using_the_HTML_Sanitizer_API
-[eqeqeq] Expected '!==' and instead saw '!='.
-~~~
-const logElement = document.querySelector("#log");
-function log(text) {
-  logElement.textContent = text;
-}
-
-if ("Sanitizer" in window) {
-  // Define unsafe string of HTML
-  const initialHTMLString =
-    \`<div id="mainDiv"><!-- HTML comment -->
-    <p data-paratest="true">This is a paragraph. <button onclick="alert('You clicked the button!')">Click me</button></p>
-    <p>Be <b>bold</b> and brave!</p>
-    <script>alert(1)<\` + "/script></div>";
-
-  // Set unsafe string as a text node of first element
-  const unmodifiedElement = document.querySelector("#unmodified");
-  unmodifiedElement.innerText = initialHTMLString;
-  unsafeHTMLString = unmodifiedElement.innerText;
-
-  const setHTMLElement = document.querySelector("#setHTML");
-  const setHTMLUnsafeElement = document.querySelector("#setHTMLUnsafe");
-  // Create and apply default sanitizer when we start
-  let sanitizer = new Sanitizer({});
-  applySanitizer(sanitizer);
-
-function applySanitizer(sanitizer) {
-  // Get string to parse into element
-  unsafeHTMLString = unmodifiedElement.innerText;
-
-  // Sanitize string using safe method and then display as text
-  setHTMLElement.setHTML(unsafeHTMLString, { sanitizer: sanitizer });
-  setHTMLElement.innerText = setHTMLElement.innerHTML;
-
-  // Sanitize string using unsafe method and then display as text
-  setHTMLUnsafeElement.setHTMLUnsafe(unsafeHTMLString, {
-    sanitizer: sanitizer,
-  });
-  setHTMLUnsafeElement.innerText = setHTMLUnsafeElement.innerHTML;
-
-  // Display sanitizer configuration
-  const sanitizerConfig = sanitizer.get();
-  log(JSON.stringify(sanitizerConfig, null, 2));
-}
-
-const defaultSanitizerBtn = document.querySelector("#defaultSanitizerBtn");
-const emptySanitizerBtn = document.querySelector("#emptySanitizerBtn");
-const allowElementSelect = document.querySelector("#allowElementSelect");
-const removeElementSelect = document.querySelector("#removeElementSelect");
-const allowAttributeSelect = document.querySelector("#allowAttributeSelect");
-const removeAttributeSelect = document.querySelector("#removeAttributeSelect");
-
-const toggleCommentsBtn = document.querySelector("#toggleCommentsBtn");
-const toggleDataAttributesBtn = document.querySelector(
-  "#toggleDataAttributesBtn",
-);
-
-defaultSanitizerBtn.addEventListener("click", () => {
-  sanitizer = new Sanitizer();
-  applySanitizer(sanitizer);
-});
-
-emptySanitizerBtn.addEventListener("click", () => {
-  sanitizer = new Sanitizer({});
-  applySanitizer(sanitizer);
-});
-
-allowElementSelect.addEventListener("change", (event) => {
-  if (event.target.value != "") {
-    sanitizer.allowElement(event.target.value);
-    applySanitizer(sanitizer);
-  }
-});
-removeElementSelect.addEventListener("change", (event) => {
-  if (event.target.value != "") {
-    sanitizer.removeElement(event.target.value);
-    applySanitizer(sanitizer);
-  }
-});
-allowAttributeSelect.addEventListener("change", (event) => {
-  if (event.target.value != "") {
-    sanitizer.allowAttribute(event.target.value);
-    applySanitizer(sanitizer);
-  }
-});
-removeAttributeSelect.addEventListener("change", (event) => {
-  if (event.target.value != "") {
-    sanitizer.removeAttribute(event.target.value);
-    applySanitizer(sanitizer);
-  }
-});
-
-let dataAttributesActive = true;
-let commentsActive = true;
-
-toggleCommentsBtn.addEventListener("click", () => {
-  commentsActive = !commentsActive;
-  sanitizer.setComments(commentsActive);
-  applySanitizer(sanitizer);
-});
-
-toggleDataAttributesBtn.addEventListener("click", () => {
-  dataAttributesActive = !dataAttributesActive;
-  sanitizer.setDataAttributes(dataAttributesActive);
-  applySanitizer(sanitizer);
-});
-
-
-} else {
-  log("The HTML Sanitizer API is NOT supported in this browser.");
-  // Provide fallback or alternative behavior
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "eqeqeq",
-                            "Expected '!==' and instead saw '!='.",
-                            '  if (event.target.value != "") {',
-                            "79:26 - 79:28",
-                            `/en-US/docs/Web/API/HTML_Sanitizer_API/Using_the_HTML_Sanitizer_API
-[eqeqeq] Expected '!==' and instead saw '!='.
-~~~
-const logElement = document.querySelector("#log");
-function log(text) {
-  logElement.textContent = text;
-}
-
-if ("Sanitizer" in window) {
-  // Define unsafe string of HTML
-  const initialHTMLString =
-    \`<div id="mainDiv"><!-- HTML comment -->
-    <p data-paratest="true">This is a paragraph. <button onclick="alert('You clicked the button!')">Click me</button></p>
-    <p>Be <b>bold</b> and brave!</p>
-    <script>alert(1)<\` + "/script></div>";
-
-  // Set unsafe string as a text node of first element
-  const unmodifiedElement = document.querySelector("#unmodified");
-  unmodifiedElement.innerText = initialHTMLString;
-  unsafeHTMLString = unmodifiedElement.innerText;
-
-  const setHTMLElement = document.querySelector("#setHTML");
-  const setHTMLUnsafeElement = document.querySelector("#setHTMLUnsafe");
-  // Create and apply default sanitizer when we start
-  let sanitizer = new Sanitizer({});
-  applySanitizer(sanitizer);
-
-function applySanitizer(sanitizer) {
-  // Get string to parse into element
-  unsafeHTMLString = unmodifiedElement.innerText;
-
-  // Sanitize string using safe method and then display as text
-  setHTMLElement.setHTML(unsafeHTMLString, { sanitizer: sanitizer });
-  setHTMLElement.innerText = setHTMLElement.innerHTML;
-
-  // Sanitize string using unsafe method and then display as text
-  setHTMLUnsafeElement.setHTMLUnsafe(unsafeHTMLString, {
-    sanitizer: sanitizer,
-  });
-  setHTMLUnsafeElement.innerText = setHTMLUnsafeElement.innerHTML;
-
-  // Display sanitizer configuration
-  const sanitizerConfig = sanitizer.get();
-  log(JSON.stringify(sanitizerConfig, null, 2));
-}
-
-const defaultSanitizerBtn = document.querySelector("#defaultSanitizerBtn");
-const emptySanitizerBtn = document.querySelector("#emptySanitizerBtn");
-const allowElementSelect = document.querySelector("#allowElementSelect");
-const removeElementSelect = document.querySelector("#removeElementSelect");
-const allowAttributeSelect = document.querySelector("#allowAttributeSelect");
-const removeAttributeSelect = document.querySelector("#removeAttributeSelect");
-
-const toggleCommentsBtn = document.querySelector("#toggleCommentsBtn");
-const toggleDataAttributesBtn = document.querySelector(
-  "#toggleDataAttributesBtn",
-);
-
-defaultSanitizerBtn.addEventListener("click", () => {
-  sanitizer = new Sanitizer();
-  applySanitizer(sanitizer);
-});
-
-emptySanitizerBtn.addEventListener("click", () => {
-  sanitizer = new Sanitizer({});
-  applySanitizer(sanitizer);
-});
-
-allowElementSelect.addEventListener("change", (event) => {
-  if (event.target.value != "") {
-    sanitizer.allowElement(event.target.value);
-    applySanitizer(sanitizer);
-  }
-});
-removeElementSelect.addEventListener("change", (event) => {
-  if (event.target.value != "") {
-    sanitizer.removeElement(event.target.value);
-    applySanitizer(sanitizer);
-  }
-});
-allowAttributeSelect.addEventListener("change", (event) => {
-  if (event.target.value != "") {
-    sanitizer.allowAttribute(event.target.value);
-    applySanitizer(sanitizer);
-  }
-});
-removeAttributeSelect.addEventListener("change", (event) => {
-  if (event.target.value != "") {
-    sanitizer.removeAttribute(event.target.value);
-    applySanitizer(sanitizer);
-  }
-});
-
-let dataAttributesActive = true;
-let commentsActive = true;
-
-toggleCommentsBtn.addEventListener("click", () => {
-  commentsActive = !commentsActive;
-  sanitizer.setComments(commentsActive);
-  applySanitizer(sanitizer);
-});
-
-toggleDataAttributesBtn.addEventListener("click", () => {
-  dataAttributesActive = !dataAttributesActive;
-  sanitizer.setDataAttributes(dataAttributesActive);
-  applySanitizer(sanitizer);
-});
-
-
-} else {
-  log("The HTML Sanitizer API is NOT supported in this browser.");
-  // Provide fallback or alternative behavior
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "eqeqeq",
-                            "Expected '!==' and instead saw '!='.",
-                            '  if (event.target.value != "") {',
-                            "85:26 - 85:28",
-                            `/en-US/docs/Web/API/HTML_Sanitizer_API/Using_the_HTML_Sanitizer_API
-[eqeqeq] Expected '!==' and instead saw '!='.
-~~~
-const logElement = document.querySelector("#log");
-function log(text) {
-  logElement.textContent = text;
-}
-
-if ("Sanitizer" in window) {
-  // Define unsafe string of HTML
-  const initialHTMLString =
-    \`<div id="mainDiv"><!-- HTML comment -->
-    <p data-paratest="true">This is a paragraph. <button onclick="alert('You clicked the button!')">Click me</button></p>
-    <p>Be <b>bold</b> and brave!</p>
-    <script>alert(1)<\` + "/script></div>";
-
-  // Set unsafe string as a text node of first element
-  const unmodifiedElement = document.querySelector("#unmodified");
-  unmodifiedElement.innerText = initialHTMLString;
-  unsafeHTMLString = unmodifiedElement.innerText;
-
-  const setHTMLElement = document.querySelector("#setHTML");
-  const setHTMLUnsafeElement = document.querySelector("#setHTMLUnsafe");
-  // Create and apply default sanitizer when we start
-  let sanitizer = new Sanitizer({});
-  applySanitizer(sanitizer);
-
-function applySanitizer(sanitizer) {
-  // Get string to parse into element
-  unsafeHTMLString = unmodifiedElement.innerText;
-
-  // Sanitize string using safe method and then display as text
-  setHTMLElement.setHTML(unsafeHTMLString, { sanitizer: sanitizer });
-  setHTMLElement.innerText = setHTMLElement.innerHTML;
-
-  // Sanitize string using unsafe method and then display as text
-  setHTMLUnsafeElement.setHTMLUnsafe(unsafeHTMLString, {
-    sanitizer: sanitizer,
-  });
-  setHTMLUnsafeElement.innerText = setHTMLUnsafeElement.innerHTML;
-
-  // Display sanitizer configuration
-  const sanitizerConfig = sanitizer.get();
-  log(JSON.stringify(sanitizerConfig, null, 2));
-}
-
-const defaultSanitizerBtn = document.querySelector("#defaultSanitizerBtn");
-const emptySanitizerBtn = document.querySelector("#emptySanitizerBtn");
-const allowElementSelect = document.querySelector("#allowElementSelect");
-const removeElementSelect = document.querySelector("#removeElementSelect");
-const allowAttributeSelect = document.querySelector("#allowAttributeSelect");
-const removeAttributeSelect = document.querySelector("#removeAttributeSelect");
-
-const toggleCommentsBtn = document.querySelector("#toggleCommentsBtn");
-const toggleDataAttributesBtn = document.querySelector(
-  "#toggleDataAttributesBtn",
-);
-
-defaultSanitizerBtn.addEventListener("click", () => {
-  sanitizer = new Sanitizer();
-  applySanitizer(sanitizer);
-});
-
-emptySanitizerBtn.addEventListener("click", () => {
-  sanitizer = new Sanitizer({});
-  applySanitizer(sanitizer);
-});
-
-allowElementSelect.addEventListener("change", (event) => {
-  if (event.target.value != "") {
-    sanitizer.allowElement(event.target.value);
-    applySanitizer(sanitizer);
-  }
-});
-removeElementSelect.addEventListener("change", (event) => {
-  if (event.target.value != "") {
-    sanitizer.removeElement(event.target.value);
-    applySanitizer(sanitizer);
-  }
-});
-allowAttributeSelect.addEventListener("change", (event) => {
-  if (event.target.value != "") {
-    sanitizer.allowAttribute(event.target.value);
-    applySanitizer(sanitizer);
-  }
-});
-removeAttributeSelect.addEventListener("change", (event) => {
-  if (event.target.value != "") {
-    sanitizer.removeAttribute(event.target.value);
-    applySanitizer(sanitizer);
-  }
-});
-
-let dataAttributesActive = true;
-let commentsActive = true;
-
-toggleCommentsBtn.addEventListener("click", () => {
-  commentsActive = !commentsActive;
-  sanitizer.setComments(commentsActive);
-  applySanitizer(sanitizer);
-});
-
-toggleDataAttributesBtn.addEventListener("click", () => {
-  dataAttributesActive = !dataAttributesActive;
-  sanitizer.setDataAttributes(dataAttributesActive);
-  applySanitizer(sanitizer);
-});
-
-
-} else {
-  log("The HTML Sanitizer API is NOT supported in this browser.");
-  // Provide fallback or alternative behavior
-}
-~~~
-`
-                          ]
                         }
                       ]
                     }
@@ -15085,141 +14360,6 @@ function checkDeadlines() {
                       ]
                     }
                   }
-                },
-                sanitizer: {
-                  children: {
-                    removeattribute: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Sanitizer/removeAttribute",
-                      messages: [
-                        {
-                          message: "Bad href",
-                          data: [
-                            "2/en-US/docs/Web/API/SanitizerConfig#removeattributes_2"
-                          ]
-                        }
-                      ]
-                    },
-                    replaceelementwithchildren: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Sanitizer/replaceElementWithChildren",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "object-shorthand",
-                            "Expected property shorthand.",
-                            "divElement.setHTML(unsanitizedString, { sanitizer: sanitizer });",
-                            "22:41 - 22:61",
-                            `/en-US/docs/Web/API/Sanitizer/replaceElementWithChildren
-[object-shorthand] Expected property shorthand.
-~~~
-const logElement = document.querySelector("#log");
-function log(text) {
-  logElement.textContent += text;
-}
-
-if ("Sanitizer" in window) {
-
-// Create sanitizer using SanitizerConfig
-const sanitizer = new Sanitizer({
-  elements: ["p", "em", "strong"],
-});
-
-// Replace the <strong> element
-sanitizer.replaceElementWithChildren("strong");
-
-const unsanitizedString = \`<p>This is a with <strong>important</strong> text <em>highlighted</em>.</p>\`;
-log(\`unsanitizedHTMLString:\\n \${unsanitizedString}\`);
-
-// Create a <div> element
-const divElement = document.createElement("div");
-
-divElement.setHTML(unsanitizedString, { sanitizer: sanitizer });
-log(\`\\n\\nsanitizedHTML:\\n \${divElement.innerHTML}\`);
-
-// Log the sanitizer configuration
-const sanitizerConfig = sanitizer.get();
-log(\`\\n\\nsanitizerConfig:\\n \${JSON.stringify(sanitizerConfig, null, 2)}\`);
-
-} else {
-  log("The HTML Sanitizer API is NOT supported in this browser.");
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    sanitizer: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Sanitizer/Sanitizer",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "object-shorthand",
-                            "Expected property shorthand.",
-                            "setHTMLElement.setHTML(unsafeHTMLString, { sanitizer: sanitizer });",
-                            "25:44 - 25:64",
-                            `/en-US/docs/Web/API/Sanitizer/Sanitizer
-[object-shorthand] Expected property shorthand.
-~~~
-const logElement = document.querySelector("#log");
-function log(text) {
-  logElement.textContent = text;
-}
-
-if ("Sanitizer" in window) {
-
-// Define unsafe string of HTML
-const unsafeHTMLString = \`
-  <div>
-    <p>This is a paragraph. <span onclick="alert('You clicked the span!')">Click me</span></p>
-    <script src="path/to/amodule.js" type="module"
-  </div>
-\`;
-
-// Set unsafe string as a text node of first element
-const unmodifiedElement = document.querySelector("#unmodified");
-unmodifiedElement.innerText = unsafeHTMLString;
-
-// Create sanitizer using a SanitizerConfig that allows script (and other elements)
-const sanitizer = new Sanitizer({ elements: ["div", "p", "span", "script"] });
-
-// Use the sanitizer to set the HTML of the second element using the safe method
-const setHTMLElement = document.querySelector("#setHTML");
-setHTMLElement.setHTML(unsafeHTMLString, { sanitizer: sanitizer });
-
-// Get that HTML and set it back to the element as a text node
-// (so we can see the elements)
-setHTMLElement.innerText = setHTMLElement.innerHTML;
-
-// Log the configuration
-const sanitizerConfig = sanitizer.get();
-log(JSON.stringify(sanitizerConfig, null, 2));
-
-} else {
-  log("The HTML Sanitizer API is NOT supported in this browser.");
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/Sanitizer",
-                  messages: [
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "removeAttribute()",
-                        "Text before code:",
-                        " to the array of elements to be removed, and"
-                      ]
-                    }
-                  ]
                 },
                 screen_capture_api: {
                   children: {
@@ -45520,6 +44660,19 @@ console.log(bar.next()); // {value: 10, done: false}
                             }
                           ]
                         },
+                        live_streaming_web_audio_and_video: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/Live_streaming_web_audio_and_video",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://larryjordan.com/articles/basics-of-http-live-streaming/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         webaudio_playbackrate_explained: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/WebAudio_playbackRate_explained",
@@ -45612,10 +44765,38 @@ console.log(bar.next()); // {value: 10, done: false}
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
                           messages: [
                             {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.itu.int/",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.itu.int/",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                              ]
+                            },
+                            {
                               message: "HTTP link",
                               data: [
                                 "http://hevc.info/",
                                 ""
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.itu.int/",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.itu.int/",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                               ]
                             }
                           ]
