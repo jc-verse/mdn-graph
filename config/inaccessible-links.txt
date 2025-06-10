@@ -13,6 +13,8 @@ https://x.com/{.*}
 https://automate.browserstack.com/dashboard/
 https://chatgpt.com/
 https://openai.com/{.*}
+https://gamesaturn.com/
+https://new.drupal.org/
 
   404 on purpose:
 https://konmari.com/404

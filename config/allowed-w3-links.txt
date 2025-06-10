@@ -74,5 +74,5 @@ presentation-api
 
   TODO: possible to remove these?
 xforms11	/en-US/docs/Web/XML/XPath/Reference/Functions/**
-xpath10	/en-US/docs/Web/XML/XPath/Reference/Functions/**
-xslt10	/en-US/docs/Web/XML/XPath/Reference/Functions/**
+xpath-10	/en-US/docs/Web/XML/XPath/Reference/Functions/**
+xslt-10	/en-US/docs/Web/XML/XPath/Reference/Functions/**
