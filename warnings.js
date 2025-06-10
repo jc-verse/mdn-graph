@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-gyxvm0sx.js";
+} from "./chunk-pr3sb8a1.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -689,26 +689,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            gpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/GPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/gpl-faq.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/gpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                }
-              ]
-            },
             "high-level_programming_language": {
               children: {},
               slug: "/en-US/docs/Glossary/High-level_programming_language",
@@ -796,19 +776,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            lgpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/LGPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/lgpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
                 }
               ]
             },
@@ -900,6 +867,13 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://wiki.whatwg.org/wiki/Specs/howto",
+                    500
+                  ]
                 }
               ]
             },
@@ -910,6 +884,13 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://wiki.whatwg.org/wiki/Specs/howto",
+                    500
+                  ]
                 }
               ]
             },
@@ -1060,6 +1041,13 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://router.vuejs.org/",
+                    "unknown certificate verification error"
+                  ]
                 }
               ]
             },
@@ -1317,19 +1305,6 @@ var warnings_processed_default = {
         },
         learn_web_development: {
           children: {
-            about: {
-              children: {},
-              slug: "/en-US/docs/Learn_web_development/About",
-              messages: [
-                {
-                  message: "Redirected external link",
-                  data: [
-                    "https://github.com/mdn/curriculum/releases/latest/download/MDN-Curriculum.pdf",
-                    "https://objects.githubusercontent.com/github-production-release-asset-2e65be/671867945/3868fdd9-9c75-44f7-b29c-650871c4046d?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250610%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250610T150321Z&X-Amz-Expires=300&X-Amz-Signature=2250bf9791916398c21feb023e9ad0bcc4e54be1d04b7a2113402c7d62071700&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3DMDN-Curriculum.pdf&response-content-type=application%2Foctet-stream"
-                  ]
-                }
-              ]
-            },
             core: {
               children: {
                 accessibility: {
@@ -1803,26 +1778,6 @@ var warnings_processed_default = {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://wiki.creativecommons.org/wiki/Best_practices_for_attribution",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    html_images: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     },
@@ -1932,19 +1887,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            educators: {
-              children: {},
-              slug: "/en-US/docs/Learn_web_development/Educators",
-              messages: [
-                {
-                  message: "Redirected external link",
-                  data: [
-                    "https://github.com/mdn/curriculum/releases/latest/download/MDN-Curriculum.pdf",
-                    "https://objects.githubusercontent.com/github-production-release-asset-2e65be/671867945/3868fdd9-9c75-44f7-b29c-650871c4046d?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250610%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250610T150321Z&X-Amz-Expires=300&X-Amz-Signature=2250bf9791916398c21feb023e9ad0bcc4e54be1d04b7a2113402c7d62071700&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3DMDN-Curriculum.pdf&response-content-type=application%2Foctet-stream"
-                  ]
-                }
-              ]
-            },
             extensions: {
               children: {
                 advanced_javascript_objects: {
@@ -2005,13 +1947,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.uxforthemasses.com/forms-usability/",
-                            "unknown certificate verification error"
-                          ]
                         }
                       ]
                     },
@@ -2044,6 +1979,19 @@ var warnings_processed_default = {
                           data: []
                         }
                       ]
+                    },
+                    your_first_form: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Your_first_form",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2011/11/extensive-guide-web-form-usability/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Learn_web_development/Extensions/Forms",
@@ -2071,13 +2019,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/gzip/",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     }
@@ -2114,41 +2055,6 @@ var warnings_processed_default = {
                             {
                               message: "Broken external link",
                               data: [
-                                "https://devcenter.heroku.com/articles/django-app-configuration",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://devcenter.heroku.com/articles/getting-started-with-python",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://devcenter.heroku.com/articles/django-assets",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://devcenter.heroku.com/articles/python-concurrency-and-database-connections",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://devcenter.heroku.com/articles/python-gunicorn",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
                                 "https://devcenter.heroku.com/categories/working-with-django",
                                 "The operation timed out."
                               ]
@@ -2168,6 +2074,19 @@ var warnings_processed_default = {
                               data: [
                                 "http://callbackhell.com/",
                                 ""
+                              ]
+                            }
+                          ]
+                        },
+                        skeleton_website: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/skeleton_website",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://github.com/expressjs/express/wiki",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                               ]
                             }
                           ]
@@ -2480,19 +2399,6 @@ var warnings_processed_default = {
             },
             writing_guidelines: {
               children: {
-                attrib_copyright_license: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Writing_guidelines/Attrib_copyright_license",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 changelog: {
                   children: {},
                   slug: "/en-US/docs/MDN/Writing_guidelines/Changelog",
@@ -4217,6 +4123,13 @@ for (let i = 0; i < bgBtns.length; i++) {
   bgBtns[i].onclick = (e) => {
 ~~~
 `
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/webextensions-examples/blob/main/cookie-bg-picker/manifest.json",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -6135,6 +6048,13 @@ else if (e.target.id === "tabs-alert-info") {
                             "/en-US/docs/Web/API/XMLHttpRequest",
                             "#setrequestheader"
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/21.0/releasenotes/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
                         }
                       ]
                     },
@@ -6147,13 +6067,6 @@ else if (e.target.id === "tabs-alert-info") {
                           data: [
                             "http://asmjs.org/spec/latest/",
                             ""
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/22.0beta/releasenotes/",
-                            "unknown certificate verification error"
                           ]
                         }
                       ]
@@ -27032,45 +26945,6 @@ body {
                     }
                   ]
                 },
-                "break-after": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/break-after",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.smashingmagazine.com/2019/02/css-fragmentation/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "break-before": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/break-before",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.smashingmagazine.com/2019/02/css-fragmentation/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "break-inside": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/break-inside",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.smashingmagazine.com/2019/02/css-fragmentation/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 calc: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/calc",
@@ -43633,19 +43507,6 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
-                        accept: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.gnu.org/software/wget/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
                         "available-dictionary": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Available-Dictionary",
@@ -44177,19 +44038,6 @@ console.log(bar.next()); // {value: 10, done: false}
                             }
                           ]
                         },
-                        live_streaming_web_audio_and_video: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/Live_streaming_web_audio_and_video",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://larryjordan.com/articles/basics-of-http-live-streaming/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
                         webaudio_playbackrate_explained: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/WebAudio_playbackRate_explained",
@@ -44286,6 +44134,13 @@ console.log(bar.next()); // {value: 10, done: false}
                               data: [
                                 "http://hevc.info/",
                                 ""
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://about.att.com/innovation/ip/patents",
+                                403
                               ]
                             }
                           ]
@@ -53094,6 +52949,23 @@ svg.elements.feSpotLight.z`
             },
             uri: {
               children: {
+                guides: {
+                  children: {
+                    "choosing_between_www_and_non-www_urls": {
+                      children: {},
+                      slug: "/en-US/docs/Web/URI/Guides/Choosing_between_www_and_non-www_URLs",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.chrisfinke.com/2011/07/25/what-do-people-type-in-the-address-bar/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 reference: {
                   children: {
                     fragment: {
@@ -53263,456 +53135,7 @@ svg.elements.feSpotLight.z`
                 xpath: {
                   children: {
                     reference: {
-                      children: {
-                        functions: {
-                          children: {
-                            boolean: {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/boolean",
-                              messages: [
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xpath-10/#function-boolean"
-                                  ]
-                                }
-                              ]
-                            },
-                            ceiling: {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/ceiling",
-                              messages: [
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xpath-10/#function-ceiling"
-                                  ]
-                                }
-                              ]
-                            },
-                            concat: {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/concat",
-                              messages: [
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xpath-10/#function-concat"
-                                  ]
-                                }
-                              ]
-                            },
-                            contains: {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/contains",
-                              messages: [
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xpath-10/#function-contains"
-                                  ]
-                                }
-                              ]
-                            },
-                            count: {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/count",
-                              messages: [
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xpath-10/#function-count"
-                                  ]
-                                }
-                              ]
-                            },
-                            current: {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/current",
-                              messages: [
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xslt-10/#function-current"
-                                  ]
-                                }
-                              ]
-                            },
-                            document: {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/document",
-                              messages: [
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xslt-10/#function-document"
-                                  ]
-                                }
-                              ]
-                            },
-                            "element-available": {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/element-available",
-                              messages: [
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xslt-10/#function-element-available"
-                                  ]
-                                }
-                              ]
-                            },
-                            false: {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/false",
-                              messages: [
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xpath-10/#function-false"
-                                  ]
-                                }
-                              ]
-                            },
-                            floor: {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/floor",
-                              messages: [
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xpath-10/#function-floor"
-                                  ]
-                                }
-                              ]
-                            },
-                            "format-number": {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/format-number",
-                              messages: [
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xslt-10/#function-format-number"
-                                  ]
-                                }
-                              ]
-                            },
-                            "function-available": {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/function-available",
-                              messages: [
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xslt-10/#function-function-available"
-                                  ]
-                                }
-                              ]
-                            },
-                            "generate-id": {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/generate-id",
-                              messages: [
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xslt-10/#function-generate-id"
-                                  ]
-                                }
-                              ]
-                            },
-                            id: {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/id",
-                              messages: [
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xpath-10/#unique-id"
-                                  ]
-                                },
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xpath-10/#function-id"
-                                  ]
-                                }
-                              ]
-                            },
-                            key: {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/key",
-                              messages: [
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xslt-10/#function-key"
-                                  ]
-                                }
-                              ]
-                            },
-                            lang: {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/lang",
-                              messages: [
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xpath-10/#function-lang"
-                                  ]
-                                }
-                              ]
-                            },
-                            last: {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/last",
-                              messages: [
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xpath-10/#function-last"
-                                  ]
-                                }
-                              ]
-                            },
-                            "local-name": {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/local-name",
-                              messages: [
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xpath-10/#dt-expanded-name"
-                                  ]
-                                },
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xpath-10/#function-local-name"
-                                  ]
-                                }
-                              ]
-                            },
-                            name: {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/name",
-                              messages: [
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xpath-10/#function-local-name"
-                                  ]
-                                }
-                              ]
-                            },
-                            "namespace-uri": {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/namespace-uri",
-                              messages: [
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xpath-10/#function-local-name"
-                                  ]
-                                }
-                              ]
-                            },
-                            "normalize-space": {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/normalize-space",
-                              messages: [
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xpath-10/#function-normalize-space"
-                                  ]
-                                }
-                              ]
-                            },
-                            not: {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/not",
-                              messages: [
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xpath-10/#function-not"
-                                  ]
-                                }
-                              ]
-                            },
-                            number: {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/number",
-                              messages: [
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xpath-10/#function-number"
-                                  ]
-                                }
-                              ]
-                            },
-                            position: {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/position",
-                              messages: [
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xpath-10/#function-position"
-                                  ]
-                                }
-                              ]
-                            },
-                            round: {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/round",
-                              messages: [
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xpath-10/#function-round"
-                                  ]
-                                }
-                              ]
-                            },
-                            "starts-with": {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/starts-with",
-                              messages: [
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xpath-10/#function-starts-with"
-                                  ]
-                                }
-                              ]
-                            },
-                            string: {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/string",
-                              messages: [
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xpath-10/#function-string"
-                                  ]
-                                }
-                              ]
-                            },
-                            "string-length": {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/string-length",
-                              messages: [
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xpath-10/#function-string-length"
-                                  ]
-                                }
-                              ]
-                            },
-                            substring: {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/substring",
-                              messages: [
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xpath-10/#function-substring"
-                                  ]
-                                }
-                              ]
-                            },
-                            "substring-after": {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/substring-after",
-                              messages: [
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xpath-10/#function-substring-after"
-                                  ]
-                                }
-                              ]
-                            },
-                            "substring-before": {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/substring-before",
-                              messages: [
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xpath-10/#function-substring-before"
-                                  ]
-                                }
-                              ]
-                            },
-                            sum: {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/sum",
-                              messages: [
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xpath-10/#function-sum"
-                                  ]
-                                }
-                              ]
-                            },
-                            "system-property": {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/system-property",
-                              messages: [
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xslt-10/#function-system-property"
-                                  ]
-                                }
-                              ]
-                            },
-                            translate: {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/translate",
-                              messages: [
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xpath-10/#function-translate"
-                                  ]
-                                }
-                              ]
-                            },
-                            true: {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/true",
-                              messages: [
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xpath-10/#function-true"
-                                  ]
-                                }
-                              ]
-                            },
-                            "unparsed-entity-url": {
-                              children: {},
-                              slug: "/en-US/docs/Web/XML/XPath/Reference/Functions/unparsed-entity-url",
-                              messages: [
-                                {
-                                  message: "w3.org/TR link",
-                                  data: [
-                                    "https://www.w3.org/TR/xslt-10/#function-unparsed-entity-uri"
-                                  ]
-                                }
-                              ]
-                            }
-                          }
-                        }
-                      },
+                      children: {},
                       slug: "/en-US/docs/Web/XML/XPath/Reference",
                       messages: [
                         {
