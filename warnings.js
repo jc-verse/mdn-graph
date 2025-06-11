@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-pr3sb8a1.js";
+} from "./chunk-byvn03c9.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -867,13 +867,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://wiki.whatwg.org/wiki/Specs/howto",
-                    500
-                  ]
                 }
               ]
             },
@@ -884,13 +877,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://wiki.whatwg.org/wiki/Specs/howto",
-                    500
-                  ]
                 }
               ]
             },
@@ -1041,13 +1027,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://router.vuejs.org/",
-                    "unknown certificate verification error"
-                  ]
                 }
               ]
             },
@@ -1781,19 +1760,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    html_video_and_audio: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_video_and_audio",
-                      messages: [
-                        {
-                          message: "HTTP link",
-                          data: [
-                            "http://www.mirovideoconverter.com/",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
                     including_vector_graphics_in_html: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Including_vector_graphics_in_HTML",
@@ -1801,12 +1767,23 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        }
+                      ]
+                    },
+                    structuring_documents: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Structuring_documents",
+                      messages: [
+                        {
+                          message: "Unknown asset type",
+                          data: [
+                            "site-structure.drawio"
+                          ]
                         },
                         {
-                          message: "HTTP link",
+                          message: "Unknown asset type",
                           data: [
-                            "http://tavmjong.free.fr/INKSCAPE/MANUAL/html/Web-Inkscape.html",
-                            ""
+                            "site-map.drawio"
                           ]
                         }
                       ]
@@ -1979,19 +1956,6 @@ var warnings_processed_default = {
                           data: []
                         }
                       ]
-                    },
-                    your_first_form: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Your_first_form",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2011/11/extensive-guide-web-form-usability/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Learn_web_development/Extensions/Forms",
@@ -2046,23 +2010,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    django: {
-                      children: {
-                        deployment: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Deployment",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://devcenter.heroku.com/categories/working-with-django",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
                     express_nodejs: {
                       children: {
                         introduction: {
@@ -2077,19 +2024,6 @@ var warnings_processed_default = {
                               ]
                             }
                           ]
-                        },
-                        skeleton_website: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/skeleton_website",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/expressjs/express/wiki",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
                         }
                       }
                     },
@@ -2100,6 +2034,27 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            getting_started: {
+              children: {
+                soft_skills: {
+                  children: {
+                    finding_a_job: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Finding_a_job",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.upwork.com/",
+                            403
+                          ]
                         }
                       ]
                     }
@@ -2292,6 +2247,19 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    how_do_you_host_your_website_on_google_app_engine: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gaesamplesite.appspot.com/",
+                            503
+                          ]
                         }
                       ]
                     }
@@ -4123,13 +4091,6 @@ for (let i = 0; i < bgBtns.length; i++) {
   bgBtns[i].onclick = (e) => {
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webextensions-examples/blob/main/cookie-bg-picker/manifest.json",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -6048,13 +6009,6 @@ else if (e.target.id === "tabs-alert-info") {
                             "/en-US/docs/Web/API/XMLHttpRequest",
                             "#setrequestheader"
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/21.0/releasenotes/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
                         }
                       ]
                     },
@@ -7722,6 +7676,19 @@ else if (e.target.id === "tabs-alert-info") {
                     },
                     understanding_wcag: {
                       children: {
+                        operable: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Operable",
+                          messages: [
+                            {
+                              message: "Broken anchor",
+                              data: [
+                                "/en-US/docs/Learn_web_development/Core/Structuring_content/Creating_links",
+                                "#active_learning_creating_a_navigation_menu"
+                              ]
+                            }
+                          ]
+                        },
                         perceivable: {
                           children: {
                             color_contrast: {
@@ -18669,6 +18636,19 @@ async function handleTranslation(e) {
                 },
                 web_audio_api: {
                   children: {
+                    using_iir_filters: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Web_Audio_API/Using_IIR_filters",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.mathworks.com/help/dsphdl/ref/biquadfilter.html",
+                            403
+                          ]
+                        }
+                      ]
+                    },
                     visualizations_with_web_audio_api: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Visualizations_with_Web_Audio_API",
@@ -19921,26 +19901,6 @@ alert(emulateMessage(example5).constructor); // Object
                       data: [
                         "http://www.webglacademy.com/",
                         ""
-                      ]
-                    }
-                  ]
-                },
-                webgl_compressed_texture_astc: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/WEBGL_compressed_texture_astc",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://developer.nvidia.com/astc-texture-compression-for-game-assets",
-                        503
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://developer.nvidia.com/astc-texture-compression-for-game-assets",
-                        503
                       ]
                     }
                   ]
@@ -43905,6 +43865,13 @@ http.headers.Use-As-Dictionary`,
                         {
                           message: "Broken external link",
                           data: [
+                            "https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5Cp%7BGeneral_Category%3DSpace_Separator%7D",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5Cp%7BID_Start%7D",
                             "The operation timed out."
                           ]
@@ -43929,6 +43896,23 @@ http.headers.Use-As-Dictionary`,
                               data: [
                                 "http://perfectionkills.com/understanding-delete/",
                                 ""
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    regular_expressions: {
+                      children: {
+                        unicode_character_class_escape: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Unicode_character_class_escape",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -44134,13 +44118,6 @@ console.log(bar.next()); // {value: 10, done: false}
                               data: [
                                 "http://hevc.info/",
                                 ""
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://about.att.com/innovation/ip/patents",
-                                403
                               ]
                             }
                           ]
@@ -52949,23 +52926,6 @@ svg.elements.feSpotLight.z`
             },
             uri: {
               children: {
-                guides: {
-                  children: {
-                    "choosing_between_www_and_non-www_urls": {
-                      children: {},
-                      slug: "/en-US/docs/Web/URI/Guides/Choosing_between_www_and_non-www_URLs",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.chrisfinke.com/2011/07/25/what-do-people-type-in-the-address-bar/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 reference: {
                   children: {
                     fragment: {
