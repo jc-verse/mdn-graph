@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-byvn03c9.js";
+} from "./chunk-vgj1d47a.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -21,8 +21,38 @@ var warnings_processed_default = {
                 }
               ]
             },
+            publishing_games: {
+              children: {
+                game_distribution: {
+                  children: {},
+                  slug: "/en-US/docs/Games/Publishing_games/Game_distribution",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.intel.com/content/www/us/en/developer/tools/overview.html",
+                        403
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
             techniques: {
               children: {
+                "3d_on_the_web": {
+                  children: {},
+                  slug: "/en-US/docs/Games/Techniques/3D_on_the_web",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://unity.com/",
+                        403
+                      ]
+                    }
+                  ]
+                },
                 audio_for_web_games: {
                   children: {},
                   slug: "/en-US/docs/Games/Techniques/Audio_for_Web_Games",
@@ -55,6 +85,13 @@ var warnings_processed_default = {
                       message: "External sandbox link",
                       data: [
                         "https://jsfiddle.net/c87z11jj/2/"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://pupunzi.open-lab.com/2013/03/13/making-html5-audio-actually-work-on-mobile/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -1760,6 +1797,19 @@ var warnings_processed_default = {
                         }
                       ]
                     },
+                    html_images: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2020/03/setting-height-width-images-important-again/",
+                            "unknown certificate verification error"
+                          ]
+                        }
+                      ]
+                    },
                     including_vector_graphics_in_html: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Including_vector_graphics_in_HTML",
@@ -1767,6 +1817,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "HTTP link",
+                          data: [
+                            "http://tavmjong.free.fr/INKSCAPE/MANUAL/html/Web-Inkscape.html",
+                            ""
+                          ]
                         }
                       ]
                     },
@@ -1777,16 +1834,251 @@ var warnings_processed_default = {
                         {
                           message: "Unknown asset type",
                           data: [
-                            "site-structure.drawio"
+                            "site-map.drawio"
                           ]
                         },
                         {
                           message: "Unknown asset type",
                           data: [
-                            "site-map.drawio"
+                            "site-structure.drawio"
                           ]
                         }
                       ]
+                    },
+                    table_accessibility: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    <col style="background-color:#97DB9A;" />',
+                            "6:9 - 6:42",
+                            `/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility
+[no-style-attr] Do not use the style attribute.
+~~~
+<table>
+  <caption>
+    Florence's weekly lesson timetable
+  </caption>
+  <colgroup>
+    <col span="2" />
+    <col style="background-color:#97DB9A;" />
+    <col style="width:42px;" />
+    <col style="background-color:#97DB9A;" />
+    <col style="background-color:#DCC48E; border:4px solid #C1437A;" />
+    <col span="2" style="width:42px;" />
+  </colgroup>
+  <tr>
+
+    <!-- Rest of code omitted for brevity -->
+
+</table>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    <col style="width:42px;" />',
+                            "7:9 - 7:28",
+                            `/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility
+[no-style-attr] Do not use the style attribute.
+~~~
+<table>
+  <caption>
+    Florence's weekly lesson timetable
+  </caption>
+  <colgroup>
+    <col span="2" />
+    <col style="background-color:#97DB9A;" />
+    <col style="width:42px;" />
+    <col style="background-color:#97DB9A;" />
+    <col style="background-color:#DCC48E; border:4px solid #C1437A;" />
+    <col span="2" style="width:42px;" />
+  </colgroup>
+  <tr>
+
+    <!-- Rest of code omitted for brevity -->
+
+</table>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    <col style="background-color:#97DB9A;" />',
+                            "8:9 - 8:42",
+                            `/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility
+[no-style-attr] Do not use the style attribute.
+~~~
+<table>
+  <caption>
+    Florence's weekly lesson timetable
+  </caption>
+  <colgroup>
+    <col span="2" />
+    <col style="background-color:#97DB9A;" />
+    <col style="width:42px;" />
+    <col style="background-color:#97DB9A;" />
+    <col style="background-color:#DCC48E; border:4px solid #C1437A;" />
+    <col span="2" style="width:42px;" />
+  </colgroup>
+  <tr>
+
+    <!-- Rest of code omitted for brevity -->
+
+</table>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    <col style="background-color:#DCC48E; border:4px solid #C1437A;" />',
+                            "9:9 - 9:68",
+                            `/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility
+[no-style-attr] Do not use the style attribute.
+~~~
+<table>
+  <caption>
+    Florence's weekly lesson timetable
+  </caption>
+  <colgroup>
+    <col span="2" />
+    <col style="background-color:#97DB9A;" />
+    <col style="width:42px;" />
+    <col style="background-color:#97DB9A;" />
+    <col style="background-color:#DCC48E; border:4px solid #C1437A;" />
+    <col span="2" style="width:42px;" />
+  </colgroup>
+  <tr>
+
+    <!-- Rest of code omitted for brevity -->
+
+</table>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    <col span="2" style="width:42px;" />',
+                            "10:18 - 10:37",
+                            `/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility
+[no-style-attr] Do not use the style attribute.
+~~~
+<table>
+  <caption>
+    Florence's weekly lesson timetable
+  </caption>
+  <colgroup>
+    <col span="2" />
+    <col style="background-color:#97DB9A;" />
+    <col style="width:42px;" />
+    <col style="background-color:#97DB9A;" />
+    <col style="background-color:#DCC48E; border:4px solid #C1437A;" />
+    <col span="2" style="width:42px;" />
+  </colgroup>
+  <tr>
+
+    <!-- Rest of code omitted for brevity -->
+
+</table>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    test_your_skills: {
+                      children: {
+                        audio_and_video: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Audio_and_video",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "CssSyntaxError",
+                                "Unclosed block (CssSyntaxError)",
+                                "* {",
+                                "13:1",
+                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Audio_and_video
+[CssSyntaxError] Unclosed block (CssSyntaxError)
+~~~
+body {
+  background-color: #fff;
+  color: #333;
+  font:
+    1em / 1.4 Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+  padding: 1em;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+
+audio, video {
+  border: 1px solid black;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "CssSyntaxError",
+                                "Unclosed block (CssSyntaxError)",
+                                "* {",
+                                "13:1",
+                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Audio_and_video
+[CssSyntaxError] Unclosed block (CssSyntaxError)
+~~~
+body {
+  background-color: #fff;
+  color: #333;
+  font:
+    1em / 1.4 Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+  padding: 1em;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+
+audio, video {
+  border: 1px solid black;
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        }
+                      }
                     }
                   }
                 },
@@ -1976,6 +2268,19 @@ var warnings_processed_default = {
                 },
                 performance: {
                   children: {
+                    css: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/CSS",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2016/12/gpu-animation-doing-it-right/",
+                            "unknown certificate verification error"
+                          ]
+                        }
+                      ]
+                    },
                     web_performance_basics: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Web_Performance_Basics",
@@ -2010,6 +2315,19 @@ var warnings_processed_default = {
                         }
                       ]
                     },
+                    django: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://wiki.python.org/moin/BeginnersGuide/NonProgrammers",
+                            503
+                          ]
+                        }
+                      ]
+                    },
                     express_nodejs: {
                       children: {
                         introduction: {
@@ -2038,22 +2356,18 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                }
-              }
-            },
-            getting_started: {
-              children: {
-                soft_skills: {
+                },
+                testing: {
                   children: {
-                    finding_a_job: {
+                    testing_strategies: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Finding_a_job",
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
                       messages: [
                         {
-                          message: "Broken external link",
+                          message: "Redirected external link",
                           data: [
-                            "https://www.upwork.com/",
-                            403
+                            "https://github.com/jazzband/django-waffle",
+                            "https://github.com/django-waffle/django-waffle"
                           ]
                         }
                       ]
@@ -2250,15 +2564,15 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    how_do_you_host_your_website_on_google_app_engine: {
+                    what_software_do_i_need: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://gaesamplesite.appspot.com/",
-                            503
+                            "https://browsershots.org/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -2351,6 +2665,19 @@ var warnings_processed_default = {
                     {
                       message: "Unreachable via page",
                       data: []
+                    }
+                  ]
+                },
+                open_source_etiquette: {
+                  children: {},
+                  slug: "/en-US/docs/MDN/Community/Open_source_etiquette",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://stackoverflow.blog/2020/08/03/getting-started-with-contributing-to-open-source/",
+                        "unknown certificate verification error"
+                      ]
                     }
                   ]
                 }
@@ -3824,19 +4151,6 @@ webextensions.api.clipboard`,
                         }
                       ]
                     },
-                    internationalization: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Internationalization",
-                      messages: [
-                        {
-                          message: "HTTP link",
-                          data: [
-                            "http://i18njs.com/",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
                     "manifest.json": {
                       children: {
                         version: {
@@ -4837,12 +5151,6 @@ else if (e.target.id === "tabs-alert-info") {
                         {
                           message: "No link to child page",
                           data: [
-                            "/en-US/docs/Mozilla/Firefox/Releases/3/WAI_ARIA_Live_Regions_API_Support"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
                             "/en-US/docs/Mozilla/Firefox/Releases/3/XUL_improvements_in_Firefox_3"
                           ]
                         },
@@ -4850,6 +5158,12 @@ else if (e.target.id === "tabs-alert-info") {
                           message: "No link to child page",
                           data: [
                             "/en-US/docs/Mozilla/Firefox/Releases/3/Templates"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Mozilla/Firefox/Releases/3/WAI_ARIA_Live_Regions_API_Support"
                           ]
                         },
                         {
@@ -6193,6 +6507,20 @@ else if (e.target.id === "tabs-alert-info") {
                         }
                       ]
                     },
+                    "33": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/33",
+                      messages: [
+                        {
+                          message: "Replace DT link with real target",
+                          data: [
+                            "/en-US/docs/Web/HTML/Reference/Elements/meta#name",
+                            "/en-US/docs/Web/HTML/Reference/Elements/meta/name",
+                            []
+                          ]
+                        }
+                      ]
+                    },
                     "34": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/34",
@@ -7173,13 +7501,13 @@ else if (e.target.id === "tabs-alert-info") {
                         {
                           message: "No link to child page",
                           data: [
-                            "/en-US/docs/Mozilla/Firefox/Releases/1.5/What_s_new_in_1.5_alpha"
+                            "/en-US/docs/Mozilla/Firefox/Releases/1.5/Changing_the_priority_of_HTTP_requests"
                           ]
                         },
                         {
                           message: "No link to child page",
                           data: [
-                            "/en-US/docs/Mozilla/Firefox/Releases/1.5/Changing_the_priority_of_HTTP_requests"
+                            "/en-US/docs/Mozilla/Firefox/Releases/1.5/What_s_new_in_1.5_alpha"
                           ]
                         }
                       ]
@@ -7635,7 +7963,7 @@ else if (e.target.id === "tabs-alert-info") {
                           message: "Broken external link",
                           data: [
                             "https://colorusage.arc.nasa.gov/design_lum_1.php",
-                            "Unable to connect. Is the computer able to access the url?"
+                            "Was there a typo in the url or port?"
                           ]
                         },
                         {
@@ -7649,7 +7977,7 @@ else if (e.target.id === "tabs-alert-info") {
                           message: "Broken external link",
                           data: [
                             "https://colorusage.arc.nasa.gov/design_lum_1.php",
-                            "Unable to connect. Is the computer able to access the url?"
+                            "Was there a typo in the url or port?"
                           ]
                         }
                       ]
@@ -7918,72 +8246,6 @@ else if (e.target.id === "tabs-alert-info") {
                   children: {
                     tutorial: {
                       children: {
-                        advanced_animations: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '<canvas id="canvas" style="border: 1px solid" width="600" height="300"></canvas>',
-                                "0:20 - 0:45",
-                                `/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations
-[no-style-attr] Do not use the style attribute.
-~~~
-<canvas id="canvas" style="border: 1px solid" width="600" height="300"></canvas>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '<canvas id="canvas" style="border: 1px solid" width="600" height="300"></canvas>',
-                                "0:20 - 0:45",
-                                `/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations
-[no-style-attr] Do not use the style attribute.
-~~~
-<canvas id="canvas" style="border: 1px solid" width="600" height="300"></canvas>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '<canvas id="canvas" style="border: 1px solid" width="600" height="300"></canvas>',
-                                "0:20 - 0:45",
-                                `/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations
-[no-style-attr] Do not use the style attribute.
-~~~
-<canvas id="canvas" style="border: 1px solid" width="600" height="300"></canvas>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '<canvas id="canvas" style="border: 1px solid" width="600" height="300"></canvas>',
-                                "0:20 - 0:45",
-                                `/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations
-[no-style-attr] Do not use the style attribute.
-~~~
-<canvas id="canvas" style="border: 1px solid" width="600" height="300"></canvas>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
                         finale: {
                           children: {},
                           slug: "/en-US/docs/Web/API/Canvas_API/Tutorial/Finale",
@@ -8136,13 +8398,13 @@ api.MessagePort`,
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/CSS_Object_Model/CSS_Declaration_Block"
+                        "/en-US/docs/Web/API/CSS_Object_Model/Using_dynamic_styling_information"
                       ]
                     },
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/CSS_Object_Model/Using_dynamic_styling_information"
+                        "/en-US/docs/Web/API/CSS_Object_Model/CSS_Declaration_Block"
                       ]
                     },
                     {
@@ -8446,13 +8708,13 @@ api.DeviceOrientationEvent`,
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Device_orientation_events/Orientation_and_motion_data_explained"
+                        "/en-US/docs/Web/API/Device_orientation_events/Using_device_orientation_with_3D_transforms"
                       ]
                     },
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Device_orientation_events/Using_device_orientation_with_3D_transforms"
+                        "/en-US/docs/Web/API/Device_orientation_events/Orientation_and_motion_data_explained"
                       ]
                     }
                   ]
@@ -8551,19 +8813,13 @@ api.DeviceOrientationEvent`,
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Document_Object_Model/Using_the_Document_Object_Model"
+                        "/en-US/docs/Web/API/Document_Object_Model/Reflected_attributes"
                       ]
                     },
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Document_Object_Model/Transforming_with_XSLT"
-                      ]
-                    },
-                    {
-                      message: "No link to child page",
-                      data: [
-                        "/en-US/docs/Web/API/Document_Object_Model/Traversing_an_HTML_table_with_JavaScript_and_DOM_Interfaces"
+                        "/en-US/docs/Web/API/Document_Object_Model/Whitespace"
                       ]
                     },
                     {
@@ -8575,13 +8831,19 @@ api.DeviceOrientationEvent`,
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Document_Object_Model/Reflected_attributes"
+                        "/en-US/docs/Web/API/Document_Object_Model/Transforming_with_XSLT"
                       ]
                     },
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Document_Object_Model/Whitespace"
+                        "/en-US/docs/Web/API/Document_Object_Model/Using_the_Document_Object_Model"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/Document_Object_Model/Traversing_an_HTML_table_with_JavaScript_and_DOM_Interfaces"
                       ]
                     }
                   ]
@@ -8789,399 +9051,13 @@ api.Document.fullscreen`,
                   ]
                 },
                 html_drag_and_drop_api: {
-                  children: {
-                    file_drag_and_drop: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTML_Drag_and_Drop_API/File_drag_and_drop",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "ondrop".',
-                            '<div id="drop_zone" ondrop="dropHandler(event);">',
-                            "0:20 - 0:48",
-                            `/en-US/docs/Web/API/HTML_Drag_and_Drop_API/File_drag_and_drop
-[no-inline-event-handlers] Do not use inline event handler "ondrop".
-~~~
-<div id="drop_zone" ondrop="dropHandler(event);">
-  <p>Drag one or more files to this <i>drop zone</i>.</p>
-</div>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "ondrop".',
-                            '  ondrop="dropHandler(event);"',
-                            "2:2 - 2:30",
-                            `/en-US/docs/Web/API/HTML_Drag_and_Drop_API/File_drag_and_drop
-[no-inline-event-handlers] Do not use inline event handler "ondrop".
-~~~
-<div
-  id="drop_zone"
-  ondrop="dropHandler(event);"
-  ondragover="dragOverHandler(event);">
-  <p>Drag one or more files to this <i>drop zone</i>.</p>
-</div>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "ondragover".',
-                            '  ondragover="dragOverHandler(event);">',
-                            "3:2 - 3:38",
-                            `/en-US/docs/Web/API/HTML_Drag_and_Drop_API/File_drag_and_drop
-[no-inline-event-handlers] Do not use inline event handler "ondragover".
-~~~
-<div
-  id="drop_zone"
-  ondrop="dropHandler(event);"
-  ondragover="dragOverHandler(event);">
-  <p>Drag one or more files to this <i>drop zone</i>.</p>
-</div>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/API/HTML_Drag_and_Drop_API",
                   messages: [
                     {
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/HTML_Drag_and_Drop_API/File_drag_and_drop"
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-script",
-                        "Do not write JS within the <script> element; use separate JS blocks instead.",
-                        `<script>
-  function dragstartHandler(ev) {
-    // Add the target element's id to the data transfer object
-    ev.dataTransfer.setData("text/plain", ev.target.id);
-  }
-
-  window.addEventListener("DOMContentLoaded", () => {
-    // Get the element by id
-    const element = document.getElementById("p1");
-    // Add the ondragstart event listener
-    element.addEventListener("dragstart", dragstartHandler);
-  });
-</script>`,
-                        "0:0 - 12:9",
-                        `/en-US/docs/Web/API/HTML_Drag_and_Drop_API
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<script>
-  function dragstartHandler(ev) {
-    // Add the target element's id to the data transfer object
-    ev.dataTransfer.setData("text/plain", ev.target.id);
-  }
-
-  window.addEventListener("DOMContentLoaded", () => {
-    // Get the element by id
-    const element = document.getElementById("p1");
-    // Add the ondragstart event listener
-    element.addEventListener("dragstart", dragstartHandler);
-  });
-</script>
-
-<p id="p1" draggable="true">This element is draggable.</p>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-script",
-                        "Do not write JS within the <script> element; use separate JS blocks instead.",
-                        `<script>
-  function dragoverHandler(ev) {
-    ev.preventDefault();
-    ev.dataTransfer.dropEffect = "move";
-  }
-  function dropHandler(ev) {
-    ev.preventDefault();
-    // Get the id of the target and add the moved element to the target's DOM
-    const data = ev.dataTransfer.getData("text/plain");
-    ev.target.appendChild(document.getElementById(data));
-  }
-</script>`,
-                        "0:0 - 11:9",
-                        `/en-US/docs/Web/API/HTML_Drag_and_Drop_API
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<script>
-  function dragoverHandler(ev) {
-    ev.preventDefault();
-    ev.dataTransfer.dropEffect = "move";
-  }
-  function dropHandler(ev) {
-    ev.preventDefault();
-    // Get the id of the target and add the moved element to the target's DOM
-    const data = ev.dataTransfer.getData("text/plain");
-    ev.target.appendChild(document.getElementById(data));
-  }
-</script>
-
-<p id="target" ondrop="dropHandler(event)" ondragover="dragoverHandler(event)">
-  Drop Zone
-</p>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "ondrop".',
-                        '<p id="target" ondrop="dropHandler(event)" ondragover="dragoverHandler(event)">',
-                        "13:15 - 13:42",
-                        `/en-US/docs/Web/API/HTML_Drag_and_Drop_API
-[no-inline-event-handlers] Do not use inline event handler "ondrop".
-~~~
-<script>
-  function dragoverHandler(ev) {
-    ev.preventDefault();
-    ev.dataTransfer.dropEffect = "move";
-  }
-  function dropHandler(ev) {
-    ev.preventDefault();
-    // Get the id of the target and add the moved element to the target's DOM
-    const data = ev.dataTransfer.getData("text/plain");
-    ev.target.appendChild(document.getElementById(data));
-  }
-</script>
-
-<p id="target" ondrop="dropHandler(event)" ondragover="dragoverHandler(event)">
-  Drop Zone
-</p>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "ondragover".',
-                        '<p id="target" ondrop="dropHandler(event)" ondragover="dragoverHandler(event)">',
-                        "13:43 - 13:78",
-                        `/en-US/docs/Web/API/HTML_Drag_and_Drop_API
-[no-inline-event-handlers] Do not use inline event handler "ondragover".
-~~~
-<script>
-  function dragoverHandler(ev) {
-    ev.preventDefault();
-    ev.dataTransfer.dropEffect = "move";
-  }
-  function dropHandler(ev) {
-    ev.preventDefault();
-    // Get the id of the target and add the moved element to the target's DOM
-    const data = ev.dataTransfer.getData("text/plain");
-    ev.target.appendChild(document.getElementById(data));
-  }
-</script>
-
-<p id="target" ondrop="dropHandler(event)" ondragover="dragoverHandler(event)">
-  Drop Zone
-</p>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-script",
-                        "Do not write JS within the <script> element; use separate JS blocks instead.",
-                        `<script>
-  function dragstartHandler(ev) {
-    // Add the target element's id to the data transfer object
-    ev.dataTransfer.setData("application/my-app", ev.target.id);
-    ev.dataTransfer.effectAllowed = "move";
-  }
-  function dragoverHandler(ev) {
-    ev.preventDefault();
-    ev.dataTransfer.dropEffect = "move";
-  }
-  function dropHandler(ev) {
-    ev.preventDefault();
-    // Get the id of the target and add the moved element to the target's DOM
-    const data = ev.dataTransfer.getData("application/my-app");
-    ev.target.appendChild(document.getElementById(data));
-  }
-</script>`,
-                        "0:0 - 16:9",
-                        `/en-US/docs/Web/API/HTML_Drag_and_Drop_API
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<script>
-  function dragstartHandler(ev) {
-    // Add the target element's id to the data transfer object
-    ev.dataTransfer.setData("application/my-app", ev.target.id);
-    ev.dataTransfer.effectAllowed = "move";
-  }
-  function dragoverHandler(ev) {
-    ev.preventDefault();
-    ev.dataTransfer.dropEffect = "move";
-  }
-  function dropHandler(ev) {
-    ev.preventDefault();
-    // Get the id of the target and add the moved element to the target's DOM
-    const data = ev.dataTransfer.getData("application/my-app");
-    ev.target.appendChild(document.getElementById(data));
-  }
-</script>
-
-<p id="p1" draggable="true" ondragstart="dragstartHandler(event)">
-  This element is draggable.
-</p>
-<div
-  id="target"
-  ondrop="dropHandler(event)"
-  ondragover="dragoverHandler(event)">
-  Drop Zone
-</div>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "ondragstart".',
-                        '<p id="p1" draggable="true" ondragstart="dragstartHandler(event)">',
-                        "18:28 - 18:65",
-                        `/en-US/docs/Web/API/HTML_Drag_and_Drop_API
-[no-inline-event-handlers] Do not use inline event handler "ondragstart".
-~~~
-<script>
-  function dragstartHandler(ev) {
-    // Add the target element's id to the data transfer object
-    ev.dataTransfer.setData("application/my-app", ev.target.id);
-    ev.dataTransfer.effectAllowed = "move";
-  }
-  function dragoverHandler(ev) {
-    ev.preventDefault();
-    ev.dataTransfer.dropEffect = "move";
-  }
-  function dropHandler(ev) {
-    ev.preventDefault();
-    // Get the id of the target and add the moved element to the target's DOM
-    const data = ev.dataTransfer.getData("application/my-app");
-    ev.target.appendChild(document.getElementById(data));
-  }
-</script>
-
-<p id="p1" draggable="true" ondragstart="dragstartHandler(event)">
-  This element is draggable.
-</p>
-<div
-  id="target"
-  ondrop="dropHandler(event)"
-  ondragover="dragoverHandler(event)">
-  Drop Zone
-</div>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "ondrop".',
-                        '  ondrop="dropHandler(event)"',
-                        "23:2 - 23:29",
-                        `/en-US/docs/Web/API/HTML_Drag_and_Drop_API
-[no-inline-event-handlers] Do not use inline event handler "ondrop".
-~~~
-<script>
-  function dragstartHandler(ev) {
-    // Add the target element's id to the data transfer object
-    ev.dataTransfer.setData("application/my-app", ev.target.id);
-    ev.dataTransfer.effectAllowed = "move";
-  }
-  function dragoverHandler(ev) {
-    ev.preventDefault();
-    ev.dataTransfer.dropEffect = "move";
-  }
-  function dropHandler(ev) {
-    ev.preventDefault();
-    // Get the id of the target and add the moved element to the target's DOM
-    const data = ev.dataTransfer.getData("application/my-app");
-    ev.target.appendChild(document.getElementById(data));
-  }
-</script>
-
-<p id="p1" draggable="true" ondragstart="dragstartHandler(event)">
-  This element is draggable.
-</p>
-<div
-  id="target"
-  ondrop="dropHandler(event)"
-  ondragover="dragoverHandler(event)">
-  Drop Zone
-</div>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "ondragover".',
-                        '  ondragover="dragoverHandler(event)">',
-                        "24:2 - 24:37",
-                        `/en-US/docs/Web/API/HTML_Drag_and_Drop_API
-[no-inline-event-handlers] Do not use inline event handler "ondragover".
-~~~
-<script>
-  function dragstartHandler(ev) {
-    // Add the target element's id to the data transfer object
-    ev.dataTransfer.setData("application/my-app", ev.target.id);
-    ev.dataTransfer.effectAllowed = "move";
-  }
-  function dragoverHandler(ev) {
-    ev.preventDefault();
-    ev.dataTransfer.dropEffect = "move";
-  }
-  function dropHandler(ev) {
-    ev.preventDefault();
-    // Get the id of the target and add the moved element to the target's DOM
-    const data = ev.dataTransfer.getData("application/my-app");
-    ev.target.appendChild(document.getElementById(data));
-  }
-</script>
-
-<p id="p1" draggable="true" ondragstart="dragstartHandler(event)">
-  This element is draggable.
-</p>
-<div
-  id="target"
-  ondrop="dropHandler(event)"
-  ondragover="dragoverHandler(event)">
-  Drop Zone
-</div>
-~~~
-`
                       ]
                     },
                     {
@@ -9233,972 +9109,6 @@ api.Document.fullscreen`,
                     }
                   ]
                 },
-                htmldialogelement: {
-                  children: {
-                    close: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLDialogElement/close",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-script",
-                            "Do not write JS within the <script> element; use separate JS blocks instead.",
-                            `<script>
-  (() => {
-    const updateButton = document.getElementById("updateDetails");
-    const closeButton = document.getElementById("close");
-    const dialog = document.getElementById("favDialog");
-    dialog.returnValue = "favAnimal";
-
-    function openCheck(dialog) {
-      if (dialog.open) {
-        console.log("Dialog open");
-      } else {
-        console.log("Dialog closed");
-      }
-    }
-
-    // Update button opens a modal dialog
-    updateButton.addEventListener("click", () => {
-      dialog.showModal();
-      openCheck(dialog);
-    });
-
-    // Form close button closes the dialog box
-    closeButton.addEventListener("click", () => {
-      dialog.close("animalNotChosen");
-      openCheck(dialog);
-    });
-  })();
-</script>`,
-                            "26:0 - 53:9",
-                            `/en-US/docs/Web/API/HTMLDialogElement/close
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<!-- Simple pop-up dialog box, containing a form -->
-<dialog id="favDialog">
-  <form method="dialog">
-    <button id="close" aria-label="close" formnovalidate>X</button>
-    <section>
-      <p>
-        <label for="favAnimal">Favorite animal:</label>
-        <select id="favAnimal" name="favAnimal">
-          <option></option>
-          <option>Brine shrimp</option>
-          <option>Red panda</option>
-          <option>Spider monkey</option>
-        </select>
-      </p>
-    </section>
-    <menu>
-      <button type="reset">Reset</button>
-      <button type="submit">Confirm</button>
-    </menu>
-  </form>
-</dialog>
-
-<menu>
-  <button id="updateDetails">Update details</button>
-</menu>
-
-<script>
-  (() => {
-    const updateButton = document.getElementById("updateDetails");
-    const closeButton = document.getElementById("close");
-    const dialog = document.getElementById("favDialog");
-    dialog.returnValue = "favAnimal";
-
-    function openCheck(dialog) {
-      if (dialog.open) {
-        console.log("Dialog open");
-      } else {
-        console.log("Dialog closed");
-      }
-    }
-
-    // Update button opens a modal dialog
-    updateButton.addEventListener("click", () => {
-      dialog.showModal();
-      openCheck(dialog);
-    });
-
-    // Form close button closes the dialog box
-    closeButton.addEventListener("click", () => {
-      dialog.close("animalNotChosen");
-      openCheck(dialog);
-    });
-  })();
-</script>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    open: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLDialogElement/open",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-script",
-                            "Do not write JS within the <script> element; use separate JS blocks instead.",
-                            `<script>
-  (() => {
-    const openDialog = document.getElementById("openDialog");
-    const dialog = document.getElementById("dialog");
-    const text = document.getElementById("dialogStatus");
-
-    function openCheck(dialog) {
-      if (dialog.open) {
-        text.innerText = "Dialog open";
-      } else {
-        text.innerText = "Dialog closed";
-      }
-    }
-
-    // Update button opens a modal dialog
-    openDialog.addEventListener("click", () => {
-      dialog.showModal();
-      openCheck(dialog);
-    });
-
-    dialog.addEventListener("close", () => {
-      openCheck(dialog);
-    });
-  })();
-</script>`,
-                            "12:0 - 36:9",
-                            `/en-US/docs/Web/API/HTMLDialogElement/open
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<!-- Simple pop-up dialog box -->
-<dialog id="dialog">
-  <form method="dialog">
-    <button type="submit">Close</button>
-  </form>
-</dialog>
-
-<p>
-  <button id="openDialog">Open Dialog</button>
-</p>
-<p id="dialogStatus"></p>
-
-<script>
-  (() => {
-    const openDialog = document.getElementById("openDialog");
-    const dialog = document.getElementById("dialog");
-    const text = document.getElementById("dialogStatus");
-
-    function openCheck(dialog) {
-      if (dialog.open) {
-        text.innerText = "Dialog open";
-      } else {
-        text.innerText = "Dialog closed";
-      }
-    }
-
-    // Update button opens a modal dialog
-    openDialog.addEventListener("click", () => {
-      dialog.showModal();
-      openCheck(dialog);
-    });
-
-    dialog.addEventListener("close", () => {
-      openCheck(dialog);
-    });
-  })();
-</script>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    show: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLDialogElement/show",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-script",
-                            "Do not write JS within the <script> element; use separate JS blocks instead.",
-                            `<script>
-  (() => {
-    const updateButton = document.getElementById("updateDetails");
-    const cancelButton = document.getElementById("cancel");
-    const dialog = document.getElementById("favDialog");
-    dialog.returnValue = "favAnimal";
-
-    function openCheck(dialog) {
-      if (dialog.open) {
-        console.log("Dialog open");
-      } else {
-        console.log("Dialog closed");
-      }
-    }
-
-    // Update button opens a modeless dialog
-    updateButton.addEventListener("click", () => {
-      dialog.show();
-      openCheck(dialog);
-    });
-
-    // Form cancel button closes the dialog box
-    cancelButton.addEventListener("click", () => {
-      dialog.close("animalNotChosen");
-      openCheck(dialog);
-    });
-  })();
-</script>`,
-                            "25:0 - 52:9",
-                            `/en-US/docs/Web/API/HTMLDialogElement/show
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<!-- Simple pop-up dialog box, containing a form -->
-<dialog id="favDialog">
-  <form method="dialog">
-    <section>
-      <p>
-        <label for="favAnimal">Favorite animal:</label>
-        <select id="favAnimal" name="favAnimal">
-          <option></option>
-          <option>Brine shrimp</option>
-          <option>Red panda</option>
-          <option>Spider monkey</option>
-        </select>
-      </p>
-    </section>
-    <menu>
-      <button id="cancel" type="reset">Cancel</button>
-      <button type="submit">Confirm</button>
-    </menu>
-  </form>
-</dialog>
-
-<menu>
-  <button id="updateDetails">Update details</button>
-</menu>
-
-<script>
-  (() => {
-    const updateButton = document.getElementById("updateDetails");
-    const cancelButton = document.getElementById("cancel");
-    const dialog = document.getElementById("favDialog");
-    dialog.returnValue = "favAnimal";
-
-    function openCheck(dialog) {
-      if (dialog.open) {
-        console.log("Dialog open");
-      } else {
-        console.log("Dialog closed");
-      }
-    }
-
-    // Update button opens a modeless dialog
-    updateButton.addEventListener("click", () => {
-      dialog.show();
-      openCheck(dialog);
-    });
-
-    // Form cancel button closes the dialog box
-    cancelButton.addEventListener("click", () => {
-      dialog.close("animalNotChosen");
-      openCheck(dialog);
-    });
-  })();
-</script>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                htmlelement: {
-                  children: {
-                    attributestylemap: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLElement/attributeStyleMap",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '<div style="white-space: pre-line;">',
-                            "0:5 - 0:35",
-                            `/en-US/docs/Web/API/HTMLElement/attributeStyleMap
-[no-style-attr] Do not use the style attribute.
-~~~
-<div style="white-space: pre-line;">
-  <div id="el" style="border-top: 1px solid blue; color: red;">
-    An example element
-  </div>
-  <div id="output"></div>
-</div>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '  <div id="el" style="border-top: 1px solid blue; color: red;">',
-                            "1:15 - 1:62",
-                            `/en-US/docs/Web/API/HTMLElement/attributeStyleMap
-[no-style-attr] Do not use the style attribute.
-~~~
-<div style="white-space: pre-line;">
-  <div id="el" style="border-top: 1px solid blue; color: red;">
-    An example element
-  </div>
-  <div id="output"></div>
-</div>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    blur: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLElement/blur",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onclick".',
-                            '<button type="button" onclick="focusInput()">Click me to gain focus</button>',
-                            "1:22 - 1:44",
-                            `/en-US/docs/Web/API/HTMLElement/blur
-[no-inline-event-handlers] Do not use inline event handler "onclick".
-~~~
-<input type="text" id="sampleText" value="Sample Text" /> <br /><br />
-<button type="button" onclick="focusInput()">Click me to gain focus</button>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    click: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLElement/click",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onmouseover".',
-                            '    onmouseover="myFunction()"',
-                            "4:4 - 4:30",
-                            `/en-US/docs/Web/API/HTMLElement/click
-[no-inline-event-handlers] Do not use inline event handler "onmouseover".
-~~~
-<form>
-  <input
-    type="checkbox"
-    id="myCheck"
-    onmouseover="myFunction()"
-    onclick="alert('click event occurred')" />
-</form>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onclick".',
-                            `    onclick="alert('click event occurred')" />`,
-                            "5:4 - 5:43",
-                            `/en-US/docs/Web/API/HTMLElement/click
-[no-inline-event-handlers] Do not use inline event handler "onclick".
-~~~
-<form>
-  <input
-    type="checkbox"
-    id="myCheck"
-    onmouseover="myFunction()"
-    onclick="alert('click event occurred')" />
-</form>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    focus: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLElement/focus",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '  <button id="myButton" style="margin-top: 500px;">Button</button>',
-                            "6:24 - 6:50",
-                            `/en-US/docs/Web/API/HTMLElement/focus
-[no-style-attr] Do not use the style attribute.
-~~~
-<button id="focus_scroll">Click to set focus on off-screen button</button>
-<button id="focus_no_scroll">
-  Click to set focus on offscreen button without scrolling
-</button>
-
-<div id="container">
-  <button id="myButton" style="margin-top: 500px;">Button</button>
-</div>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    load_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLElement/load_event",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onclick".',
-                            '<div><button onclick="reload()">Reload</button></div>',
-                            "5:13 - 5:31",
-                            `/en-US/docs/Web/API/HTMLElement/load_event
-[no-inline-event-handlers] Do not use inline event handler "onclick".
-~~~
-<img
-  id="image"
-  src="/shared-assets/images/examples/favicon144.png"
-  alt="MDN logo"
-  width="72" />
-<div><button onclick="reload()">Reload</button></div>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    offsetleft: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLElement/offsetLeft",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '  style="width: 300px; border-color:blue; border-style:solid; border-width:1;">',
-                            "1:2 - 1:78",
-                            `/en-US/docs/Web/API/HTMLElement/offsetLeft
-[no-style-attr] Do not use the style attribute.
-~~~
-<div
-  style="width: 300px; border-color:blue; border-style:solid; border-width:1;">
-  <span>Short span. </span>
-  <span id="long-span">Long span that wraps within this div.</span>
-</div>
-
-<div
-  id="box"
-  style="position: absolute; border-color: red; border-width: 1; border-style: solid; z-index: 10"></div>
-
-<script>
-  const box = document.getElementById("box");
-  const longSpan = document.getElementById("long-span");
-  box.style.left = \`\${longSpan.offsetLeft}\${document.body.scrollLeft}px\`;
-  box.style.top = \`\${longSpan.offsetTop}\${document.body.scrollTop}px\`;
-  box.style.width = \`\${longSpan.offsetWidth}px\`;
-  box.style.height = \`\${longSpan.offsetHeight}px\`;
-</script>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '  style="position: absolute; border-color: red; border-width: 1; border-style: solid; z-index: 10"></div>',
-                            "8:2 - 8:98",
-                            `/en-US/docs/Web/API/HTMLElement/offsetLeft
-[no-style-attr] Do not use the style attribute.
-~~~
-<div
-  style="width: 300px; border-color:blue; border-style:solid; border-width:1;">
-  <span>Short span. </span>
-  <span id="long-span">Long span that wraps within this div.</span>
-</div>
-
-<div
-  id="box"
-  style="position: absolute; border-color: red; border-width: 1; border-style: solid; z-index: 10"></div>
-
-<script>
-  const box = document.getElementById("box");
-  const longSpan = document.getElementById("long-span");
-  box.style.left = \`\${longSpan.offsetLeft}\${document.body.scrollLeft}px\`;
-  box.style.top = \`\${longSpan.offsetTop}\${document.body.scrollTop}px\`;
-  box.style.width = \`\${longSpan.offsetWidth}px\`;
-  box.style.height = \`\${longSpan.offsetHeight}px\`;
-</script>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-script",
-                            "Do not write JS within the <script> element; use separate JS blocks instead.",
-                            '<script>\n  const box = document.getElementById("box");\n  const longSpan = document.getElementById("long-span");\n  box.style.left = `${longSpan.offsetLeft}${document.body.scrollLeft}px`;\n  box.style.top = `${longSpan.offsetTop}${document.body.scrollTop}px`;\n  box.style.width = `${longSpan.offsetWidth}px`;\n  box.style.height = `${longSpan.offsetHeight}px`;\n</script>',
-                            "10:0 - 17:9",
-                            `/en-US/docs/Web/API/HTMLElement/offsetLeft
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<div
-  style="width: 300px; border-color:blue; border-style:solid; border-width:1;">
-  <span>Short span. </span>
-  <span id="long-span">Long span that wraps within this div.</span>
-</div>
-
-<div
-  id="box"
-  style="position: absolute; border-color: red; border-width: 1; border-style: solid; z-index: 10"></div>
-
-<script>
-  const box = document.getElementById("box");
-  const longSpan = document.getElementById("long-span");
-  box.style.left = \`\${longSpan.offsetLeft}\${document.body.scrollLeft}px\`;
-  box.style.top = \`\${longSpan.offsetTop}\${document.body.scrollTop}px\`;
-  box.style.width = \`\${longSpan.offsetWidth}px\`;
-  box.style.height = \`\${longSpan.offsetHeight}px\`;
-</script>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    style: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLElement/style",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '  <body style="font-weight:bold">',
-                            "2:8 - 2:32",
-                            `/en-US/docs/Web/API/HTMLElement/style
-[no-style-attr] Do not use the style attribute.
-~~~
-<!doctype html>
-<html lang="en-US">
-  <body style="font-weight:bold">
-    <div style="border-top: 1px solid blue; color:red" id="elt">
-      An example div
-    </div>
-    <pre id="out"></pre>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    <div style="border-top: 1px solid blue; color:red" id="elt">',
-                            "3:9 - 3:54",
-                            `/en-US/docs/Web/API/HTMLElement/style
-[no-style-attr] Do not use the style attribute.
-~~~
-<!doctype html>
-<html lang="en-US">
-  <body style="font-weight:bold">
-    <div style="border-top: 1px solid blue; color:red" id="elt">
-      An example div
-    </div>
-    <pre id="out"></pre>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                htmlformelement: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/HTMLFormElement",
-                  messages: [
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "onclick".',
-                        '    <button type="button" onclick="getFormInfo();">Info</button>',
-                        "3:26 - 3:50",
-                        `/en-US/docs/Web/API/HTMLFormElement
-[no-inline-event-handlers] Do not use inline event handler "onclick".
-~~~
-<form name="formA" action="/cgi-bin/test" method="post">
-  <p>Press "Info" for form details, or "Set" to change those details.</p>
-  <p>
-    <button type="button" onclick="getFormInfo();">Info</button>
-    <button type="button" onclick="setFormInfo(this.form);">Set</button>
-    <button type="reset">Reset</button>
-  </p>
-
-  <textarea id="form-info" rows="15" cols="20"></textarea>
-</form>
-
-<script>
-  function getFormInfo() {
-    // Get a reference to the form via its name
-    const f = document.forms["formA"];
-    // The form properties we're interested in
-    const properties = [
-      "elements",
-      "length",
-      "name",
-      "charset",
-      "action",
-      "acceptCharset",
-      "action",
-      "enctype",
-      "method",
-      "target",
-    ];
-    // Iterate over the properties, turning them into a string that we can display to the user
-    const info = properties
-      .map((property) => \`\${property}: \${f[property]}\`)
-      .join("\\n");
-
-    // Set the form's <textarea> to display the form's properties
-    document.forms["formA"].elements["form-info"].value = info; // document.forms["formA"]['form-info'].value would also work
-  }
-
-  function setFormInfo(f) {
-    // Argument should be a form element reference.
-    f.action = "a-different-url.cgi";
-    f.name = "a-different-name";
-  }
-</script>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "onclick".',
-                        '    <button type="button" onclick="setFormInfo(this.form);">Set</button>',
-                        "4:26 - 4:59",
-                        `/en-US/docs/Web/API/HTMLFormElement
-[no-inline-event-handlers] Do not use inline event handler "onclick".
-~~~
-<form name="formA" action="/cgi-bin/test" method="post">
-  <p>Press "Info" for form details, or "Set" to change those details.</p>
-  <p>
-    <button type="button" onclick="getFormInfo();">Info</button>
-    <button type="button" onclick="setFormInfo(this.form);">Set</button>
-    <button type="reset">Reset</button>
-  </p>
-
-  <textarea id="form-info" rows="15" cols="20"></textarea>
-</form>
-
-<script>
-  function getFormInfo() {
-    // Get a reference to the form via its name
-    const f = document.forms["formA"];
-    // The form properties we're interested in
-    const properties = [
-      "elements",
-      "length",
-      "name",
-      "charset",
-      "action",
-      "acceptCharset",
-      "action",
-      "enctype",
-      "method",
-      "target",
-    ];
-    // Iterate over the properties, turning them into a string that we can display to the user
-    const info = properties
-      .map((property) => \`\${property}: \${f[property]}\`)
-      .join("\\n");
-
-    // Set the form's <textarea> to display the form's properties
-    document.forms["formA"].elements["form-info"].value = info; // document.forms["formA"]['form-info'].value would also work
-  }
-
-  function setFormInfo(f) {
-    // Argument should be a form element reference.
-    f.action = "a-different-url.cgi";
-    f.name = "a-different-name";
-  }
-</script>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-script",
-                        "Do not write JS within the <script> element; use separate JS blocks instead.",
-                        `<script>
-  function getFormInfo() {
-    // Get a reference to the form via its name
-    const f = document.forms["formA"];
-    // The form properties we're interested in
-    const properties = [
-      "elements",
-      "length",
-      "name",
-      "charset",
-      "action",
-      "acceptCharset",
-      "action",
-      "enctype",
-      "method",
-      "target",
-    ];
-    // Iterate over the properties, turning them into a string that we can display to the user
-    const info = properties
-      .map((property) => \`\${property}: \${f[property]}\`)
-      .join("\\n");
-
-    // Set the form's <textarea> to display the form's properties
-    document.forms["formA"].elements["form-info"].value = info; // document.forms["formA"]['form-info'].value would also work
-  }
-
-  function setFormInfo(f) {
-    // Argument should be a form element reference.
-    f.action = "a-different-url.cgi";
-    f.name = "a-different-name";
-  }
-</script>`,
-                        "11:0 - 42:9",
-                        `/en-US/docs/Web/API/HTMLFormElement
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<form name="formA" action="/cgi-bin/test" method="post">
-  <p>Press "Info" for form details, or "Set" to change those details.</p>
-  <p>
-    <button type="button" onclick="getFormInfo();">Info</button>
-    <button type="button" onclick="setFormInfo(this.form);">Set</button>
-    <button type="reset">Reset</button>
-  </p>
-
-  <textarea id="form-info" rows="15" cols="20"></textarea>
-</form>
-
-<script>
-  function getFormInfo() {
-    // Get a reference to the form via its name
-    const f = document.forms["formA"];
-    // The form properties we're interested in
-    const properties = [
-      "elements",
-      "length",
-      "name",
-      "charset",
-      "action",
-      "acceptCharset",
-      "action",
-      "enctype",
-      "method",
-      "target",
-    ];
-    // Iterate over the properties, turning them into a string that we can display to the user
-    const info = properties
-      .map((property) => \`\${property}: \${f[property]}\`)
-      .join("\\n");
-
-    // Set the form's <textarea> to display the form's properties
-    document.forms["formA"].elements["form-info"].value = info; // document.forms["formA"]['form-info'].value would also work
-  }
-
-  function setFormInfo(f) {
-    // Argument should be a form element reference.
-    f.action = "a-different-url.cgi";
-    f.name = "a-different-name";
-  }
-</script>
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                htmlinputelement: {
-                  children: {
-                    select: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLInputElement/select",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onClick".',
-                            '<input onClick="this.select();" value="Sample Text" />',
-                            "0:7 - 0:31",
-                            `/en-US/docs/Web/API/HTMLInputElement/select
-[no-inline-event-handlers] Do not use inline event handler "onClick".
-~~~
-<input onClick="this.select();" value="Sample Text" />
-<!-- equivalent to -->
-<input
-  onClick="this.setSelectionRange(0, this.value.length);"
-  value="Sample Text" />
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onClick".',
-                            '  onClick="this.setSelectionRange(0, this.value.length);"',
-                            "3:2 - 3:57",
-                            `/en-US/docs/Web/API/HTMLInputElement/select
-[no-inline-event-handlers] Do not use inline event handler "onClick".
-~~~
-<input onClick="this.select();" value="Sample Text" />
-<!-- equivalent to -->
-<input
-  onClick="this.setSelectionRange(0, this.value.length);"
-  value="Sample Text" />
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onclick".',
-                            '<button onclick="selectText()">Select text</button>',
-                            "1:8 - 1:30",
-                            `/en-US/docs/Web/API/HTMLInputElement/select
-[no-inline-event-handlers] Do not use inline event handler "onclick".
-~~~
-<input type="text" id="text-box" size="20" value="Hello world!" />
-<button onclick="selectText()">Select text</button>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    setrangetext: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLInputElement/setRangeText",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onclick".',
-                            '<button onclick="selectText()">Update text</button>',
-                            "5:8 - 5:30",
-                            `/en-US/docs/Web/API/HTMLInputElement/setRangeText
-[no-inline-event-handlers] Do not use inline event handler "onclick".
-~~~
-<input
-  type="text"
-  id="text-box"
-  size="30"
-  value="This text has NOT been updated." />
-<button onclick="selectText()">Update text</button>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    setselectionrange: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLInputElement/setSelectionRange",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onclick".',
-                            '<button onclick="selectText()">Select text</button>',
-                            "1:8 - 1:30",
-                            `/en-US/docs/Web/API/HTMLInputElement/setSelectionRange
-[no-inline-event-handlers] Do not use inline event handler "onclick".
-~~~
-<input type="text" id="text-box" size="20" value="Mozilla" />
-<button onclick="selectText()">Select text</button>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                htmlmarqueeelement: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/HTMLMarqueeElement",
-                  messages: [
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-style-attr",
-                        "Do not use the style attribute.",
-                        '  style="border:solid">',
-                        "9:2 - 9:22",
-                        `/en-US/docs/Web/API/HTMLMarqueeElement
-[no-style-attr] Do not use the style attribute.
-~~~
-<marquee>This text will scroll from right to left</marquee>
-
-<marquee direction="up">This text will scroll from bottom to top</marquee>
-
-<marquee
-  direction="down"
-  width="250"
-  height="200"
-  behavior="alternate"
-  style="border:solid">
-  <marquee behavior="alternate">This text will bounce</marquee>
-</marquee>
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 htmlolistelement: {
                   children: {},
                   slug: "/en-US/docs/Web/API/HTMLOListElement",
@@ -10220,143 +9130,6 @@ api.Document.fullscreen`,
                       message: "Not in BCD",
                       data: [
                         "api.HTMLSelectedContentElement"
-                      ]
-                    }
-                  ]
-                },
-                htmlstyleelement: {
-                  children: {
-                    media: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLStyleElement/media",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-script",
-                            "Do not write JS within the <script> element; use separate JS blocks instead.",
-                            `    <script>
-      console.log(
-        "LinkedStyle: ",
-        document.getElementById("LinkedStyle").media,
-      ); // 'screen'
-      console.log(
-        "InlineStyle: ",
-        document.getElementById("InlineStyle").media,
-      ); // 'screen, print'
-    </script>`,
-                            "19:4 - 28:13",
-                            `/en-US/docs/Web/API/HTMLStyleElement/media
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Test page</title>
-
-    <link
-      id="LinkedStyle"
-      rel="stylesheet"
-      href="document.css"
-      media="screen" />
-    <style id="InlineStyle" rel="stylesheet" media="screen, print">
-      p {
-        color: blue;
-      }
-    </style>
-  </head>
-  <body>
-    <script>
-      console.log(
-        "LinkedStyle: ",
-        document.getElementById("LinkedStyle").media,
-      ); // 'screen'
-      console.log(
-        "InlineStyle: ",
-        document.getElementById("InlineStyle").media,
-      ); // 'screen, print'
-    </script>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    sheet: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLStyleElement/sheet",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-elem",
-                            "Do not use the <style> element; use separate CSS blocks instead.",
-                            '    <style media="print"></style>',
-                            "2:4 - 2:33",
-                            `/en-US/docs/Web/API/HTMLStyleElement/sheet
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
-~~~
-<html>
-  <header>
-    <style media="print"></style>
-    …
-  </header>
-</html>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "empty-style",
-                            "Style element should have non-empty text.",
-                            '    <style media="print"></style>',
-                            "2:4 - 2:33",
-                            `/en-US/docs/Web/API/HTMLStyleElement/sheet
-[empty-style] Style element should have non-empty text.
-~~~
-<html>
-  <header>
-    <style media="print"></style>
-    …
-  </header>
-</html>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                htmltextareaelement: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/HTMLTextAreaElement",
-                  messages: [
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "onkeyup".',
-                        '    <p><textarea class="no-scrollbars" onkeyup="autoGrow(this);"></textarea></p>',
-                        "3:39 - 3:64",
-                        `/en-US/docs/Web/API/HTMLTextAreaElement
-[no-inline-event-handlers] Do not use inline event handler "onkeyup".
-~~~
-<form>
-  <fieldset>
-    <legend>Your comments</legend>
-    <p><textarea class="no-scrollbars" onkeyup="autoGrow(this);"></textarea></p>
-    <p><input type="submit" value="Send" /></p>
-  </fieldset>
-</form>
-~~~
-`
                       ]
                     }
                   ]
@@ -10635,46 +9408,6 @@ function checkDeadlines() {
                     }
                   ]
                 },
-                inputevent: {
-                  children: {
-                    inputtype: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/InputEvent/inputType",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '  style="margin: 20px;padding: 20px;border:2px dashed red;">',
-                            "3:2 - 3:59",
-                            `/en-US/docs/Web/API/InputEvent/inputType
-[no-style-attr] Do not use the style attribute.
-~~~
-<p id="log">Input type:</p>
-<div
-  contenteditable="true"
-  style="margin: 20px;padding: 20px;border:2px dashed red;">
-  <p>
-    Some sample text. Try inserting line breaks, or deleting text in different
-    ways, or pasting different content in.
-  </p>
-  <hr />
-  <ul>
-    <li>A sample</li>
-    <li>bulleted</li>
-    <li>list.</li>
-  </ul>
-  <p>Another paragraph.</p>
-</div>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 insertable_streams_for_mediastreamtrack_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/Insertable_Streams_for_MediaStreamTrack_API",
@@ -10695,93 +9428,6 @@ function checkDeadlines() {
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Gecko_Keypress_Event"
-                          ]
-                        }
-                      ]
-                    },
-                    metakey: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/KeyboardEvent/metaKey",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onclick".',
-                            '<button onclick="ismetaKey(event)">Click me with the meta key</button>',
-                            "0:8 - 0:34",
-                            `/en-US/docs/Web/API/KeyboardEvent/metaKey
-[no-inline-event-handlers] Do not use inline event handler "onclick".
-~~~
-<button onclick="ismetaKey(event)">Click me with the meta key</button>
-
-<p id="output"></p>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                mathmlelement: {
-                  children: {
-                    attributestylemap: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MathMLElement/attributeStyleMap",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '<div style="white-space: pre-line;">',
-                            "0:5 - 0:35",
-                            `/en-US/docs/Web/API/MathMLElement/attributeStyleMap
-[no-style-attr] Do not use the style attribute.
-~~~
-<div style="white-space: pre-line;">
-  <math>
-    <mrow>
-      <mi>f</mi>
-      <mo stretchy="false">(</mo>
-      <mi id="el" style="border-top: 1px solid blue; color: red;">x</mi>
-      <mo stretchy="false">)</mo>
-      <mo>=</mo>
-      <mi>x</mi>
-    </mrow>
-  </math>
-  <div id="output"></div>
-</div>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '      <mi id="el" style="border-top: 1px solid blue; color: red;">x</mi>',
-                            "5:18 - 5:65",
-                            `/en-US/docs/Web/API/MathMLElement/attributeStyleMap
-[no-style-attr] Do not use the style attribute.
-~~~
-<div style="white-space: pre-line;">
-  <math>
-    <mrow>
-      <mi>f</mi>
-      <mo stretchy="false">(</mo>
-      <mi id="el" style="border-top: 1px solid blue; color: red;">x</mi>
-      <mo stretchy="false">)</mo>
-      <mo>=</mo>
-      <mi>x</mi>
-    </mrow>
-  </math>
-  <div id="output"></div>
-</div>
-~~~
-`
                           ]
                         }
                       ]
@@ -10937,713 +9583,6 @@ function checkDeadlines() {
                 },
                 mouseevent: {
                   children: {
-                    button: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MouseEvent/button",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "oncontextmenu".',
-                            '<button id="button" oncontextmenu="event.preventDefault();">',
-                            "0:20 - 0:59",
-                            `/en-US/docs/Web/API/MouseEvent/button
-[no-inline-event-handlers] Do not use inline event handler "oncontextmenu".
-~~~
-<button id="button" oncontextmenu="event.preventDefault();">
-  Click here with your mouse…
-</button>
-<p id="log"></p>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    initmouseevent: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MouseEvent/initMouseEvent",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '<div style="background:red; width:180px; padding:10px;">',
-                            "0:5 - 0:55",
-                            `/en-US/docs/Web/API/MouseEvent/initMouseEvent
-[no-style-attr] Do not use the style attribute.
-~~~
-<div style="background:red; width:180px; padding:10px;">
-  <div id="out"></div>
-  <input type="text" />
-</div>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    layerx: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MouseEvent/layerX",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-script",
-                            "Do not write JS within the <script> element; use separate JS blocks instead.",
-                            `    <script>
-      function showCoords(evt) {
-        const form = document.forms.form_coords;
-        const parent_id = evt.target.parentNode.id;
-        form.parentId.value = parent_id;
-        form.pageXCoords.value = evt.pageX;
-        form.pageYCoords.value = evt.pageY;
-        form.layerXCoords.value = evt.layerX;
-        form.layerYCoords.value = evt.layerY;
-      }
-    </script>`,
-                            "4:4 - 14:13",
-                            `/en-US/docs/Web/API/MouseEvent/layerX
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<html lang="en">
-  <head>
-    <title>pageX\\pageY & layerX\\layerY example</title>
-
-    <script>
-      function showCoords(evt) {
-        const form = document.forms.form_coords;
-        const parent_id = evt.target.parentNode.id;
-        form.parentId.value = parent_id;
-        form.pageXCoords.value = evt.pageX;
-        form.pageYCoords.value = evt.pageY;
-        form.layerXCoords.value = evt.layerX;
-        form.layerYCoords.value = evt.layerY;
-      }
-    </script>
-
-    <style>
-      #d1 {
-        border: solid blue 1px;
-        padding: 20px;
-      }
-
-      #d2 {
-        position: absolute;
-        top: 180px;
-        left: 80%;
-        right: auto;
-        width: 40%;
-        border: solid blue 1px;
-        padding: 20px;
-      }
-
-      #d3 {
-        position: absolute;
-        top: 240px;
-        left: 20%;
-        width: 50%;
-        border: solid blue 1px;
-        padding: 10px;
-      }
-    </style>
-  </head>
-
-  <body onmousedown="showCoords(event)">
-    <p>To display the mouse coordinates please click anywhere on the page.</p>
-
-    <div id="d1">
-      <span>
-        This is an un-positioned div so clicking it will return layerX/layerY
-        values almost the same as pageX/PageY values.
-      </span>
-    </div>
-
-    <div id="d2">
-      <span>
-        This is a positioned div so clicking it will return layerX/layerY values
-        that are relative to the top-left corner of this positioned element.
-        Note the pageX\\pageY properties still return the absolute position in
-        the document, including page scrolling.
-      </span>
-
-      <span>
-        Make the page scroll more! This is a positioned div so clicking it will
-        return layerX/layerY values that are relative to the top-left corner of
-        this positioned element. Note the pageX\\pageY properties still return
-        the absolute position in the document, including page scrolling.
-      </span>
-    </div>
-
-    <div id="d3">
-      <form name="form_coords" id="form1">
-        Parent Element id: <input type="text" name="parentId" size="7" /><br />
-        pageX: <input type="text" name="pageXCoords" size="7" /> pageY:
-        <input type="text" name="pageYCoords" size="7" /><br />
-        layerX: <input type="text" name="layerXCoords" size="7" /> layerY:
-        <input type="text" name="layerYCoords" size="7" />
-      </form>
-    </div>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-elem",
-                            "Do not use the <style> element; use separate CSS blocks instead.",
-                            `    <style>
-      #d1 {
-        border: solid blue 1px;
-        padding: 20px;
-      }
-
-      #d2 {
-        position: absolute;
-        top: 180px;
-        left: 80%;
-        right: auto;
-        width: 40%;
-        border: solid blue 1px;
-        padding: 20px;
-      }
-
-      #d3 {
-        position: absolute;
-        top: 240px;
-        left: 20%;
-        width: 50%;
-        border: solid blue 1px;
-        padding: 10px;
-      }
-    </style>`,
-                            "16:4 - 40:12",
-                            `/en-US/docs/Web/API/MouseEvent/layerX
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
-~~~
-<html lang="en">
-  <head>
-    <title>pageX\\pageY & layerX\\layerY example</title>
-
-    <script>
-      function showCoords(evt) {
-        const form = document.forms.form_coords;
-        const parent_id = evt.target.parentNode.id;
-        form.parentId.value = parent_id;
-        form.pageXCoords.value = evt.pageX;
-        form.pageYCoords.value = evt.pageY;
-        form.layerXCoords.value = evt.layerX;
-        form.layerYCoords.value = evt.layerY;
-      }
-    </script>
-
-    <style>
-      #d1 {
-        border: solid blue 1px;
-        padding: 20px;
-      }
-
-      #d2 {
-        position: absolute;
-        top: 180px;
-        left: 80%;
-        right: auto;
-        width: 40%;
-        border: solid blue 1px;
-        padding: 20px;
-      }
-
-      #d3 {
-        position: absolute;
-        top: 240px;
-        left: 20%;
-        width: 50%;
-        border: solid blue 1px;
-        padding: 10px;
-      }
-    </style>
-  </head>
-
-  <body onmousedown="showCoords(event)">
-    <p>To display the mouse coordinates please click anywhere on the page.</p>
-
-    <div id="d1">
-      <span>
-        This is an un-positioned div so clicking it will return layerX/layerY
-        values almost the same as pageX/PageY values.
-      </span>
-    </div>
-
-    <div id="d2">
-      <span>
-        This is a positioned div so clicking it will return layerX/layerY values
-        that are relative to the top-left corner of this positioned element.
-        Note the pageX\\pageY properties still return the absolute position in
-        the document, including page scrolling.
-      </span>
-
-      <span>
-        Make the page scroll more! This is a positioned div so clicking it will
-        return layerX/layerY values that are relative to the top-left corner of
-        this positioned element. Note the pageX\\pageY properties still return
-        the absolute position in the document, including page scrolling.
-      </span>
-    </div>
-
-    <div id="d3">
-      <form name="form_coords" id="form1">
-        Parent Element id: <input type="text" name="parentId" size="7" /><br />
-        pageX: <input type="text" name="pageXCoords" size="7" /> pageY:
-        <input type="text" name="pageYCoords" size="7" /><br />
-        layerX: <input type="text" name="layerXCoords" size="7" /> layerY:
-        <input type="text" name="layerYCoords" size="7" />
-      </form>
-    </div>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onmousedown".',
-                            '  <body onmousedown="showCoords(event)">',
-                            "43:8 - 43:39",
-                            `/en-US/docs/Web/API/MouseEvent/layerX
-[no-inline-event-handlers] Do not use inline event handler "onmousedown".
-~~~
-<html lang="en">
-  <head>
-    <title>pageX\\pageY & layerX\\layerY example</title>
-
-    <script>
-      function showCoords(evt) {
-        const form = document.forms.form_coords;
-        const parent_id = evt.target.parentNode.id;
-        form.parentId.value = parent_id;
-        form.pageXCoords.value = evt.pageX;
-        form.pageYCoords.value = evt.pageY;
-        form.layerXCoords.value = evt.layerX;
-        form.layerYCoords.value = evt.layerY;
-      }
-    </script>
-
-    <style>
-      #d1 {
-        border: solid blue 1px;
-        padding: 20px;
-      }
-
-      #d2 {
-        position: absolute;
-        top: 180px;
-        left: 80%;
-        right: auto;
-        width: 40%;
-        border: solid blue 1px;
-        padding: 20px;
-      }
-
-      #d3 {
-        position: absolute;
-        top: 240px;
-        left: 20%;
-        width: 50%;
-        border: solid blue 1px;
-        padding: 10px;
-      }
-    </style>
-  </head>
-
-  <body onmousedown="showCoords(event)">
-    <p>To display the mouse coordinates please click anywhere on the page.</p>
-
-    <div id="d1">
-      <span>
-        This is an un-positioned div so clicking it will return layerX/layerY
-        values almost the same as pageX/PageY values.
-      </span>
-    </div>
-
-    <div id="d2">
-      <span>
-        This is a positioned div so clicking it will return layerX/layerY values
-        that are relative to the top-left corner of this positioned element.
-        Note the pageX\\pageY properties still return the absolute position in
-        the document, including page scrolling.
-      </span>
-
-      <span>
-        Make the page scroll more! This is a positioned div so clicking it will
-        return layerX/layerY values that are relative to the top-left corner of
-        this positioned element. Note the pageX\\pageY properties still return
-        the absolute position in the document, including page scrolling.
-      </span>
-    </div>
-
-    <div id="d3">
-      <form name="form_coords" id="form1">
-        Parent Element id: <input type="text" name="parentId" size="7" /><br />
-        pageX: <input type="text" name="pageXCoords" size="7" /> pageY:
-        <input type="text" name="pageYCoords" size="7" /><br />
-        layerX: <input type="text" name="layerXCoords" size="7" /> layerY:
-        <input type="text" name="layerYCoords" size="7" />
-      </form>
-    </div>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    layery: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MouseEvent/layerY",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-script",
-                            "Do not write JS within the <script> element; use separate JS blocks instead.",
-                            `    <script>
-      function showCoords(evt) {
-        const form = document.forms.form_coords;
-        const parent_id = evt.target.parentNode.id;
-        form.parentId.value = parent_id;
-        form.pageXCoords.value = evt.pageX;
-        form.pageYCoords.value = evt.pageY;
-        form.layerXCoords.value = evt.layerX;
-        form.layerYCoords.value = evt.layerY;
-      }
-    </script>`,
-                            "4:4 - 14:13",
-                            `/en-US/docs/Web/API/MouseEvent/layerY
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<html lang="en">
-  <head>
-    <title>pageX\\pageY & layerX\\layerY example</title>
-
-    <script>
-      function showCoords(evt) {
-        const form = document.forms.form_coords;
-        const parent_id = evt.target.parentNode.id;
-        form.parentId.value = parent_id;
-        form.pageXCoords.value = evt.pageX;
-        form.pageYCoords.value = evt.pageY;
-        form.layerXCoords.value = evt.layerX;
-        form.layerYCoords.value = evt.layerY;
-      }
-    </script>
-
-    <style>
-      #d1 {
-        border: solid blue 1px;
-        padding: 20px;
-      }
-
-      #d2 {
-        position: absolute;
-        top: 180px;
-        left: 80%;
-        right: auto;
-        width: 40%;
-        border: solid blue 1px;
-        padding: 20px;
-      }
-
-      #d3 {
-        position: absolute;
-        top: 240px;
-        left: 20%;
-        width: 50%;
-        border: solid blue 1px;
-        padding: 10px;
-      }
-    </style>
-  </head>
-
-  <body onmousedown="showCoords(event)">
-    <p>To display the mouse coordinates please click anywhere on the page.</p>
-
-    <div id="d1">
-      <span>
-        This is an un-positioned div so clicking it will return layerX/layerY
-        values almost the same as pageX/PageY values.
-      </span>
-    </div>
-
-    <div id="d2">
-      <span>
-        This is a positioned div so clicking it will return layerX/layerY values
-        that are relative to the top-left corner of this positioned element.
-        Note the pageX\\pageY properties still return the absolute position in
-        the document, including page scrolling.
-      </span>
-
-      <span>
-        Make the page scroll more! This is a positioned div so clicking it will
-        return layerX/layerY values that are relative to the top-left corner of
-        this positioned element. Note the pageX\\pageY properties still return
-        the absolute position in the document, including page scrolling.
-      </span>
-    </div>
-
-    <div id="d3">
-      <form name="form_coords" id="form1">
-        <label for="parentId">Parent Element id: </label>
-        <input type="text" name="parentId" size="7" /><br />
-        <label for="pageXCoords">pageX: </label>
-        <input type="text" name="pageXCoords" size="7" />
-        <label for="pageYCoords">pageY: </label>
-        <input type="text" name="pageYCoords" size="7" /><br />
-        <label for="layerXCoords">layerX: </label>
-        <input type="text" name="layerXCoords" size="7" />
-        <label for="layerYCoords">layerY: </label>
-        <input type="text" name="layerYCoords" size="7" />
-      </form>
-    </div>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-elem",
-                            "Do not use the <style> element; use separate CSS blocks instead.",
-                            `    <style>
-      #d1 {
-        border: solid blue 1px;
-        padding: 20px;
-      }
-
-      #d2 {
-        position: absolute;
-        top: 180px;
-        left: 80%;
-        right: auto;
-        width: 40%;
-        border: solid blue 1px;
-        padding: 20px;
-      }
-
-      #d3 {
-        position: absolute;
-        top: 240px;
-        left: 20%;
-        width: 50%;
-        border: solid blue 1px;
-        padding: 10px;
-      }
-    </style>`,
-                            "16:4 - 40:12",
-                            `/en-US/docs/Web/API/MouseEvent/layerY
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
-~~~
-<html lang="en">
-  <head>
-    <title>pageX\\pageY & layerX\\layerY example</title>
-
-    <script>
-      function showCoords(evt) {
-        const form = document.forms.form_coords;
-        const parent_id = evt.target.parentNode.id;
-        form.parentId.value = parent_id;
-        form.pageXCoords.value = evt.pageX;
-        form.pageYCoords.value = evt.pageY;
-        form.layerXCoords.value = evt.layerX;
-        form.layerYCoords.value = evt.layerY;
-      }
-    </script>
-
-    <style>
-      #d1 {
-        border: solid blue 1px;
-        padding: 20px;
-      }
-
-      #d2 {
-        position: absolute;
-        top: 180px;
-        left: 80%;
-        right: auto;
-        width: 40%;
-        border: solid blue 1px;
-        padding: 20px;
-      }
-
-      #d3 {
-        position: absolute;
-        top: 240px;
-        left: 20%;
-        width: 50%;
-        border: solid blue 1px;
-        padding: 10px;
-      }
-    </style>
-  </head>
-
-  <body onmousedown="showCoords(event)">
-    <p>To display the mouse coordinates please click anywhere on the page.</p>
-
-    <div id="d1">
-      <span>
-        This is an un-positioned div so clicking it will return layerX/layerY
-        values almost the same as pageX/PageY values.
-      </span>
-    </div>
-
-    <div id="d2">
-      <span>
-        This is a positioned div so clicking it will return layerX/layerY values
-        that are relative to the top-left corner of this positioned element.
-        Note the pageX\\pageY properties still return the absolute position in
-        the document, including page scrolling.
-      </span>
-
-      <span>
-        Make the page scroll more! This is a positioned div so clicking it will
-        return layerX/layerY values that are relative to the top-left corner of
-        this positioned element. Note the pageX\\pageY properties still return
-        the absolute position in the document, including page scrolling.
-      </span>
-    </div>
-
-    <div id="d3">
-      <form name="form_coords" id="form1">
-        <label for="parentId">Parent Element id: </label>
-        <input type="text" name="parentId" size="7" /><br />
-        <label for="pageXCoords">pageX: </label>
-        <input type="text" name="pageXCoords" size="7" />
-        <label for="pageYCoords">pageY: </label>
-        <input type="text" name="pageYCoords" size="7" /><br />
-        <label for="layerXCoords">layerX: </label>
-        <input type="text" name="layerXCoords" size="7" />
-        <label for="layerYCoords">layerY: </label>
-        <input type="text" name="layerYCoords" size="7" />
-      </form>
-    </div>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onmousedown".',
-                            '  <body onmousedown="showCoords(event)">',
-                            "43:8 - 43:39",
-                            `/en-US/docs/Web/API/MouseEvent/layerY
-[no-inline-event-handlers] Do not use inline event handler "onmousedown".
-~~~
-<html lang="en">
-  <head>
-    <title>pageX\\pageY & layerX\\layerY example</title>
-
-    <script>
-      function showCoords(evt) {
-        const form = document.forms.form_coords;
-        const parent_id = evt.target.parentNode.id;
-        form.parentId.value = parent_id;
-        form.pageXCoords.value = evt.pageX;
-        form.pageYCoords.value = evt.pageY;
-        form.layerXCoords.value = evt.layerX;
-        form.layerYCoords.value = evt.layerY;
-      }
-    </script>
-
-    <style>
-      #d1 {
-        border: solid blue 1px;
-        padding: 20px;
-      }
-
-      #d2 {
-        position: absolute;
-        top: 180px;
-        left: 80%;
-        right: auto;
-        width: 40%;
-        border: solid blue 1px;
-        padding: 20px;
-      }
-
-      #d3 {
-        position: absolute;
-        top: 240px;
-        left: 20%;
-        width: 50%;
-        border: solid blue 1px;
-        padding: 10px;
-      }
-    </style>
-  </head>
-
-  <body onmousedown="showCoords(event)">
-    <p>To display the mouse coordinates please click anywhere on the page.</p>
-
-    <div id="d1">
-      <span>
-        This is an un-positioned div so clicking it will return layerX/layerY
-        values almost the same as pageX/PageY values.
-      </span>
-    </div>
-
-    <div id="d2">
-      <span>
-        This is a positioned div so clicking it will return layerX/layerY values
-        that are relative to the top-left corner of this positioned element.
-        Note the pageX\\pageY properties still return the absolute position in
-        the document, including page scrolling.
-      </span>
-
-      <span>
-        Make the page scroll more! This is a positioned div so clicking it will
-        return layerX/layerY values that are relative to the top-left corner of
-        this positioned element. Note the pageX\\pageY properties still return
-        the absolute position in the document, including page scrolling.
-      </span>
-    </div>
-
-    <div id="d3">
-      <form name="form_coords" id="form1">
-        <label for="parentId">Parent Element id: </label>
-        <input type="text" name="parentId" size="7" /><br />
-        <label for="pageXCoords">pageX: </label>
-        <input type="text" name="pageXCoords" size="7" />
-        <label for="pageYCoords">pageY: </label>
-        <input type="text" name="pageYCoords" size="7" /><br />
-        <label for="layerXCoords">layerX: </label>
-        <input type="text" name="layerXCoords" size="7" />
-        <label for="layerYCoords">layerY: </label>
-        <input type="text" name="layerYCoords" size="7" />
-      </form>
-    </div>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     mozinputsource: {
                       children: {},
                       slug: "/en-US/docs/Web/API/MouseEvent/mozInputSource",
@@ -11730,129 +9669,6 @@ function checkDeadlines() {
                     }
                   }
                 },
-                mutationrecord: {
-                  children: {
-                    attributename: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MutationRecord/attributeName",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '<h1 class="blue" style="color:black;" id="hiMom">Hi, Mom!</h1>',
-                            "0:17 - 0:37",
-                            `/en-US/docs/Web/API/MutationRecord/attributeName
-[no-style-attr] Do not use the style attribute.
-~~~
-<h1 class="blue" style="color:black;" id="hiMom">Hi, Mom!</h1>
-
-<button id="redButton">Set class to "red"</button>
-<button id="blueButton">Set class to "blue"</button>
-<button id="whiteButton">Set style to "color:white;"</button>
-<button id="blackButton">Set style to "color:black;"</button>
-
-<p id="log">Updated attribute name:</p>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    oldvalue: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MutationRecord/oldValue",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '<h1 id="h1" style="color: rgb(0 0 0);">Hi, Mom!</h1>',
-                            "0:12 - 0:38",
-                            `/en-US/docs/Web/API/MutationRecord/oldValue
-[no-style-attr] Do not use the style attribute.
-~~~
-<h1 id="h1" style="color: rgb(0 0 0);">Hi, Mom!</h1>
-<button id="changeColorButton">Change color</button>
-<p id="log"></p>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                namednodemap: {
-                  children: {
-                    item: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/NamedNodeMap/item",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "one".',
-                            '<pre zero="test" one="test" two="test"></pre>',
-                            "0:17 - 0:27",
-                            `/en-US/docs/Web/API/NamedNodeMap/item
-[no-inline-event-handlers] Do not use inline event handler "one".
-~~~
-<pre zero="test" one="test" two="test"></pre>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    length: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/NamedNodeMap/length",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "one".',
-                            '<pre zero="test" one="test" two="test"></pre>',
-                            "0:17 - 0:27",
-                            `/en-US/docs/Web/API/NamedNodeMap/length
-[no-inline-event-handlers] Do not use inline event handler "one".
-~~~
-<pre zero="test" one="test" two="test"></pre>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    setnameditem: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/NamedNodeMap/setNamedItem",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "one".',
-                            '<span one="one" two="two"></span>',
-                            "0:6 - 0:15",
-                            `/en-US/docs/Web/API/NamedNodeMap/setNamedItem
-[no-inline-event-handlers] Do not use inline event handler "one".
-~~~
-<span one="one" two="two"></span>
-<pre test="testValue"></pre>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 navigator: {
                   children: {
                     getbattery: {
@@ -11890,168 +9706,6 @@ function checkDeadlines() {
                 },
                 node: {
                   children: {
-                    firstchild: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Node/firstChild",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-script",
-                            "Do not write JS within the <script> element; use separate JS blocks instead.",
-                            `<script>
-  const p01 = document.getElementById("para-01");
-  console.log(p01.firstChild.nodeName);
-</script>`,
-                            "4:0 - 7:9",
-                            `/en-US/docs/Web/API/Node/firstChild
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<p id="para-01">
-  <span>First span</span>
-</p>
-
-<script>
-  const p01 = document.getElementById("para-01");
-  console.log(p01.firstChild.nodeName);
-</script>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-script",
-                            "Do not write JS within the <script> element; use separate JS blocks instead.",
-                            `<script>
-  const p01 = document.getElementById("para-01");
-  console.log(p01.firstChild.nodeName);
-</script>`,
-                            "2:0 - 5:9",
-                            `/en-US/docs/Web/API/Node/firstChild
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<p id="para-01"><span>First span</span></p>
-
-<script>
-  const p01 = document.getElementById("para-01");
-  console.log(p01.firstChild.nodeName);
-</script>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    insertbefore: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Node/insertBefore",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-script",
-                            "Do not write JS within the <script> element; use separate JS blocks instead.",
-                            `<script>
-  // Create the new node to insert
-  const newNode = document.createElement("span");
-
-  // Get a reference to the parent node
-  const parentDiv = document.getElementById("childElement").parentNode;
-
-  // Begin test case [ 1 ] : Existing childElement (all works correctly)
-  let sp2 = document.getElementById("childElement");
-  parentDiv.insertBefore(newNode, sp2);
-  // End test case [ 1 ]
-
-  // Begin test case [ 2 ] : childElement is of Type undefined
-  sp2 = undefined; // Non-existent node of id "childElement"
-  parentDiv.insertBefore(newNode, sp2); // Implicit dynamic cast to type Node
-  // End test case [ 2 ]
-
-  // Begin test case [ 3 ] : childElement is of Type "undefined" (string)
-  sp2 = "undefined"; // Non-existent node of id "childElement"
-  parentDiv.insertBefore(newNode, sp2); // Generates "Type Error: Invalid Argument"
-  // End test case [ 3 ]
-</script>`,
-                            "4:0 - 25:9",
-                            `/en-US/docs/Web/API/Node/insertBefore
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<div id="parentElement">
-  <span id="childElement">foo bar</span>
-</div>
-
-<script>
-  // Create the new node to insert
-  const newNode = document.createElement("span");
-
-  // Get a reference to the parent node
-  const parentDiv = document.getElementById("childElement").parentNode;
-
-  // Begin test case [ 1 ] : Existing childElement (all works correctly)
-  let sp2 = document.getElementById("childElement");
-  parentDiv.insertBefore(newNode, sp2);
-  // End test case [ 1 ]
-
-  // Begin test case [ 2 ] : childElement is of Type undefined
-  sp2 = undefined; // Non-existent node of id "childElement"
-  parentDiv.insertBefore(newNode, sp2); // Implicit dynamic cast to type Node
-  // End test case [ 2 ]
-
-  // Begin test case [ 3 ] : childElement is of Type "undefined" (string)
-  sp2 = "undefined"; // Non-existent node of id "childElement"
-  parentDiv.insertBefore(newNode, sp2); // Generates "Type Error: Invalid Argument"
-  // End test case [ 3 ]
-</script>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-script",
-                            "Do not write JS within the <script> element; use separate JS blocks instead.",
-                            `<script>
-  // Create a new, plain <span> element
-  let sp1 = document.createElement("span");
-
-  // Get the reference element
-  let sp2 = document.getElementById("childElement");
-  // Get the parent element
-  let parentDiv = sp2.parentNode;
-
-  // Insert the new element into before sp2
-  parentDiv.insertBefore(sp1, sp2);
-</script>`,
-                            "4:0 - 15:9",
-                            `/en-US/docs/Web/API/Node/insertBefore
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<div id="parentElement">
-  <span id="childElement">foo bar</span>
-</div>
-
-<script>
-  // Create a new, plain <span> element
-  let sp1 = document.createElement("span");
-
-  // Get the reference element
-  let sp2 = document.getElementById("childElement");
-  // Get the parent element
-  let parentDiv = sp2.parentNode;
-
-  // Insert the new element into before sp2
-  parentDiv.insertBefore(sp1, sp2);
-</script>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     lookupnamespaceuri: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Node/lookupNamespaceURI",
@@ -12106,49 +9760,6 @@ function checkDeadlines() {
                     }
                   }
                 },
-                notification: {
-                  children: {
-                    requestpermission_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Notification/requestPermission_static",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onclick".',
-                            '<button onclick="notifyMe()">Notify me!</button>',
-                            "0:8 - 0:28",
-                            `/en-US/docs/Web/API/Notification/requestPermission_static
-[no-inline-event-handlers] Do not use inline event handler "onclick".
-~~~
-<button onclick="notifyMe()">Notify me!</button>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/Notification",
-                  messages: [
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "onclick".',
-                        '<button onclick="notifyMe()">Notify me!</button>',
-                        "0:8 - 0:28",
-                        `/en-US/docs/Web/API/Notification
-[no-inline-event-handlers] Do not use inline event handler "onclick".
-~~~
-<button onclick="notifyMe()">Notify me!</button>
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 notifications_api: {
                   children: {
                     using_the_notifications_api: {
@@ -12162,85 +9773,6 @@ function checkDeadlines() {
                       ]
                     }
                   }
-                },
-                paintworkletglobalscope: {
-                  children: {
-                    registerpaint: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PaintWorkletGlobalScope/registerPaint",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-script",
-                            "Do not write JS within the <script> element; use separate JS blocks instead.",
-                            `<script>
-  CSS.paintWorklet.addModule("checkboardWorklet.js");
-</script>`,
-                            "0:0 - 2:9",
-                            `/en-US/docs/Web/API/PaintWorkletGlobalScope/registerPaint
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<script>
-  CSS.paintWorklet.addModule("checkboardWorklet.js");
-</script>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/PaintWorkletGlobalScope",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-block-no-duplicate-properties",
-                        'Unexpected duplicate "background-image" (declaration-block-no-duplicate-properties)',
-                        "    background-image: url(checkerboard);",
-                        "3:5 - 3:21",
-                        `/en-US/docs/Web/API/PaintWorkletGlobalScope
-[declaration-block-no-duplicate-properties] Unexpected duplicate "background-image" (declaration-block-no-duplicate-properties)
-~~~
-<style>
-  textarea {
-    background-image: url(checkerboard);
-    background-image: paint(checkerboard);
-  }
-</style>
-<textarea></textarea>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-style-elem",
-                        "Do not use the <style> element; use separate CSS blocks instead.",
-                        `<style>
-  textarea {
-    background-image: url(checkerboard);
-    background-image: paint(checkerboard);
-  }
-</style>`,
-                        "0:0 - 5:8",
-                        `/en-US/docs/Web/API/PaintWorkletGlobalScope
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
-~~~
-<style>
-  textarea {
-    background-image: url(checkerboard);
-    background-image: paint(checkerboard);
-  }
-</style>
-<textarea></textarea>
-~~~
-`
-                      ]
-                    }
-                  ]
                 },
                 payment_request_api: {
                   children: {
@@ -12422,155 +9954,6 @@ function checkDeadlines() {
                         {
                           message: "Unreachable via page",
                           data: []
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-elem",
-                            "Do not use the <style> element; use separate CSS blocks instead.",
-                            `<style>
-  div {
-    margin: 0em;
-    padding: 2em;
-  }
-  #target1 {
-    background: white;
-    border: 1px solid black;
-  }
-  #target2 {
-    background: white;
-    border: 1px solid black;
-  }
-  #target3 {
-    background: white;
-    border: 1px solid black;
-  }
-</style>`,
-                            "0:0 - 17:8",
-                            `/en-US/docs/Web/API/Pointer_events/Multi-touch_interaction
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
-~~~
-<style>
-  div {
-    margin: 0em;
-    padding: 2em;
-  }
-  #target1 {
-    background: white;
-    border: 1px solid black;
-  }
-  #target2 {
-    background: white;
-    border: 1px solid black;
-  }
-  #target3 {
-    background: white;
-    border: 1px solid black;
-  }
-</style>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onload".',
-                            '<body onload="init();" style="touch-action:none">',
-                            "0:6 - 0:22",
-                            `/en-US/docs/Web/API/Pointer_events/Multi-touch_interaction
-[no-inline-event-handlers] Do not use inline event handler "onload".
-~~~
-<body onload="init();" style="touch-action:none">
-  <div id="target1">Tap, Hold or Swipe me 1</div>
-  <div id="target2">Tap, Hold or Swipe me 2</div>
-  <div id="target3">Tap, Hold or Swipe me 3</div>
-
-  <!-- UI for logging/debugging -->
-  <button id="log" onclick="enableLog(event);">Start/Stop event logging</button>
-  <button id="clearlog" onclick="clearLog(event);">Clear the log</button>
-  <p></p>
-  <output></output>
-</body>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '<body onload="init();" style="touch-action:none">',
-                            "0:23 - 0:48",
-                            `/en-US/docs/Web/API/Pointer_events/Multi-touch_interaction
-[no-style-attr] Do not use the style attribute.
-~~~
-<body onload="init();" style="touch-action:none">
-  <div id="target1">Tap, Hold or Swipe me 1</div>
-  <div id="target2">Tap, Hold or Swipe me 2</div>
-  <div id="target3">Tap, Hold or Swipe me 3</div>
-
-  <!-- UI for logging/debugging -->
-  <button id="log" onclick="enableLog(event);">Start/Stop event logging</button>
-  <button id="clearlog" onclick="clearLog(event);">Clear the log</button>
-  <p></p>
-  <output></output>
-</body>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onclick".',
-                            '  <button id="log" onclick="enableLog(event);">Start/Stop event logging</button>',
-                            "6:19 - 6:46",
-                            `/en-US/docs/Web/API/Pointer_events/Multi-touch_interaction
-[no-inline-event-handlers] Do not use inline event handler "onclick".
-~~~
-<body onload="init();" style="touch-action:none">
-  <div id="target1">Tap, Hold or Swipe me 1</div>
-  <div id="target2">Tap, Hold or Swipe me 2</div>
-  <div id="target3">Tap, Hold or Swipe me 3</div>
-
-  <!-- UI for logging/debugging -->
-  <button id="log" onclick="enableLog(event);">Start/Stop event logging</button>
-  <button id="clearlog" onclick="clearLog(event);">Clear the log</button>
-  <p></p>
-  <output></output>
-</body>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onclick".',
-                            '  <button id="clearlog" onclick="clearLog(event);">Clear the log</button>',
-                            "7:24 - 7:50",
-                            `/en-US/docs/Web/API/Pointer_events/Multi-touch_interaction
-[no-inline-event-handlers] Do not use inline event handler "onclick".
-~~~
-<body onload="init();" style="touch-action:none">
-  <div id="target1">Tap, Hold or Swipe me 1</div>
-  <div id="target2">Tap, Hold or Swipe me 2</div>
-  <div id="target3">Tap, Hold or Swipe me 3</div>
-
-  <!-- UI for logging/debugging -->
-  <button id="log" onclick="enableLog(event);">Start/Stop event logging</button>
-  <button id="clearlog" onclick="clearLog(event);">Clear the log</button>
-  <p></p>
-  <output></output>
-</body>
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -12581,143 +9964,6 @@ function checkDeadlines() {
                         {
                           message: "Unreachable via page",
                           data: []
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-elem",
-                            "Do not use the <style> element; use separate CSS blocks instead.",
-                            `<style>
-  div {
-    margin: 0em;
-    padding: 2em;
-  }
-  #target {
-    background: white;
-    border: 1px solid black;
-  }
-</style>`,
-                            "0:0 - 9:8",
-                            `/en-US/docs/Web/API/Pointer_events/Pinch_zoom_gestures
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
-~~~
-<style>
-  div {
-    margin: 0em;
-    padding: 2em;
-  }
-  #target {
-    background: white;
-    border: 1px solid black;
-  }
-</style>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onload".',
-                            '<body onload="init();" style="touch-action:none">',
-                            "0:6 - 0:22",
-                            `/en-US/docs/Web/API/Pointer_events/Pinch_zoom_gestures
-[no-inline-event-handlers] Do not use inline event handler "onload".
-~~~
-<body onload="init();" style="touch-action:none">
-  <div id="target">
-    Touch and Hold with 2 pointers, then pinch in or out.<br />
-    The background color will change to pink if the pinch is opening (Zoom In)
-    or changes to lightblue if the pinch is closing (Zoom out).
-  </div>
-  <!-- UI for logging/debugging -->
-  <button id="log" onclick="enableLog(event);">Start/Stop event logging</button>
-  <button id="clearlog" onclick="clearLog(event);">Clear the log</button>
-  <p></p>
-  <output></output>
-</body>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '<body onload="init();" style="touch-action:none">',
-                            "0:23 - 0:48",
-                            `/en-US/docs/Web/API/Pointer_events/Pinch_zoom_gestures
-[no-style-attr] Do not use the style attribute.
-~~~
-<body onload="init();" style="touch-action:none">
-  <div id="target">
-    Touch and Hold with 2 pointers, then pinch in or out.<br />
-    The background color will change to pink if the pinch is opening (Zoom In)
-    or changes to lightblue if the pinch is closing (Zoom out).
-  </div>
-  <!-- UI for logging/debugging -->
-  <button id="log" onclick="enableLog(event);">Start/Stop event logging</button>
-  <button id="clearlog" onclick="clearLog(event);">Clear the log</button>
-  <p></p>
-  <output></output>
-</body>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onclick".',
-                            '  <button id="log" onclick="enableLog(event);">Start/Stop event logging</button>',
-                            "7:19 - 7:46",
-                            `/en-US/docs/Web/API/Pointer_events/Pinch_zoom_gestures
-[no-inline-event-handlers] Do not use inline event handler "onclick".
-~~~
-<body onload="init();" style="touch-action:none">
-  <div id="target">
-    Touch and Hold with 2 pointers, then pinch in or out.<br />
-    The background color will change to pink if the pinch is opening (Zoom In)
-    or changes to lightblue if the pinch is closing (Zoom out).
-  </div>
-  <!-- UI for logging/debugging -->
-  <button id="log" onclick="enableLog(event);">Start/Stop event logging</button>
-  <button id="clearlog" onclick="clearLog(event);">Clear the log</button>
-  <p></p>
-  <output></output>
-</body>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onclick".',
-                            '  <button id="clearlog" onclick="clearLog(event);">Clear the log</button>',
-                            "8:24 - 8:50",
-                            `/en-US/docs/Web/API/Pointer_events/Pinch_zoom_gestures
-[no-inline-event-handlers] Do not use inline event handler "onclick".
-~~~
-<body onload="init();" style="touch-action:none">
-  <div id="target">
-    Touch and Hold with 2 pointers, then pinch in or out.<br />
-    The background color will change to pink if the pinch is opening (Zoom In)
-    or changes to lightblue if the pinch is closing (Zoom out).
-  </div>
-  <!-- UI for logging/debugging -->
-  <button id="log" onclick="enableLog(event);">Start/Stop event logging</button>
-  <button id="clearlog" onclick="clearLog(event);">Clear the log</button>
-  <p></p>
-  <output></output>
-</body>
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -12746,12 +9992,6 @@ function checkDeadlines() {
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Pointer_events/Pinch_zoom_gestures"
-                      ]
-                    },
-                    {
-                      message: "No link to child page",
-                      data: [
                         "/en-US/docs/Web/API/Pointer_events/Multi-touch_interaction"
                       ]
                     },
@@ -12762,22 +10002,9 @@ function checkDeadlines() {
                       ]
                     },
                     {
-                      message: "HTML code issue",
+                      message: "No link to child page",
                       data: [
-                        "no-style-attr",
-                        "Do not use the style attribute.",
-                        `    <div style="touch-action:none;">Can't touch this…</div>`,
-                        "2:9 - 2:35",
-                        `/en-US/docs/Web/API/Pointer_events
-[no-style-attr] Do not use the style attribute.
-~~~
-<html lang="en">
-  <body>
-    <div style="touch-action:none;">Can't touch this…</div>
-  </body>
-</html>
-~~~
-`
+                        "/en-US/docs/Web/API/Pointer_events/Pinch_zoom_gestures"
                       ]
                     }
                   ]
@@ -12797,161 +10024,6 @@ function checkDeadlines() {
 [no-style-attr] Do not use the style attribute.
 ~~~
 <button id="presentBtn" style="display: none;">Present</button>
-<script>
-  // The Present button is visible if at least one presentation display is available
-  const presentBtn = document.getElementById("presentBtn");
-
-  // It is also possible to use relative presentation URL e.g. "presentation.html"
-  const presUrls = [
-    "https://example.com/presentation.html",
-    "https://example.net/alternate.html",
-  ];
-
-  // Show or hide present button depending on display availability
-  const handleAvailabilityChange = (available) => {
-    presentBtn.style.display = available ? "inline" : "none";
-  };
-
-  // Promise is resolved as soon as the presentation display availability is known.
-  const request = new PresentationRequest(presUrls);
-  request
-    .getAvailability()
-    .then((availability) => {
-      // availability.value may be kept up-to-date by the controlling UA as long
-      // as the availability object is alive. It is advised for the web developers
-      // to discard the object as soon as it's not needed.
-      handleAvailabilityChange(availability.value);
-      availability.onchange = () => {
-        handleAvailabilityChange(availability.value);
-      };
-    })
-    .catch(() => {
-      // Availability monitoring is not supported by the platform, so discovery of
-      // presentation displays will happen only after request.start() is called.
-      // Pretend the devices are available for simplicity; or, one could implement
-      // a third state for the button.
-      handleAvailabilityChange(true);
-    });
-</script>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-script",
-                        "Do not write JS within the <script> element; use separate JS blocks instead.",
-                        `<script>
-  // The Present button is visible if at least one presentation display is available
-  const presentBtn = document.getElementById("presentBtn");
-
-  // It is also possible to use relative presentation URL e.g. "presentation.html"
-  const presUrls = [
-    "https://example.com/presentation.html",
-    "https://example.net/alternate.html",
-  ];
-
-  // Show or hide present button depending on display availability
-  const handleAvailabilityChange = (available) => {
-    presentBtn.style.display = available ? "inline" : "none";
-  };
-
-  // Promise is resolved as soon as the presentation display availability is known.
-  const request = new PresentationRequest(presUrls);
-  request
-    .getAvailability()
-    .then((availability) => {
-      // availability.value may be kept up-to-date by the controlling UA as long
-      // as the availability object is alive. It is advised for the web developers
-      // to discard the object as soon as it's not needed.
-      handleAvailabilityChange(availability.value);
-      availability.onchange = () => {
-        handleAvailabilityChange(availability.value);
-      };
-    })
-    .catch(() => {
-      // Availability monitoring is not supported by the platform, so discovery of
-      // presentation displays will happen only after request.start() is called.
-      // Pretend the devices are available for simplicity; or, one could implement
-      // a third state for the button.
-      handleAvailabilityChange(true);
-    });
-</script>`,
-                        "1:0 - 36:9",
-                        `/en-US/docs/Web/API/Presentation_API
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<button id="presentBtn" style="display: none;">Present</button>
-<script>
-  // The Present button is visible if at least one presentation display is available
-  const presentBtn = document.getElementById("presentBtn");
-
-  // It is also possible to use relative presentation URL e.g. "presentation.html"
-  const presUrls = [
-    "https://example.com/presentation.html",
-    "https://example.net/alternate.html",
-  ];
-
-  // Show or hide present button depending on display availability
-  const handleAvailabilityChange = (available) => {
-    presentBtn.style.display = available ? "inline" : "none";
-  };
-
-  // Promise is resolved as soon as the presentation display availability is known.
-  const request = new PresentationRequest(presUrls);
-  request
-    .getAvailability()
-    .then((availability) => {
-      // availability.value may be kept up-to-date by the controlling UA as long
-      // as the availability object is alive. It is advised for the web developers
-      // to discard the object as soon as it's not needed.
-      handleAvailabilityChange(availability.value);
-      availability.onchange = () => {
-        handleAvailabilityChange(availability.value);
-      };
-    })
-    .catch(() => {
-      // Availability monitoring is not supported by the platform, so discovery of
-      // presentation displays will happen only after request.start() is called.
-      // Pretend the devices are available for simplicity; or, one could implement
-      // a third state for the button.
-      handleAvailabilityChange(true);
-    });
-</script>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-script",
-                        "Do not write JS within the <script> element; use separate JS blocks instead.",
-                        `<script>
-  presentBtn.onclick = () => {
-    // Start new presentation.
-    request
-      .start()
-      // The connection to the presentation will be passed to setConnection on success.
-      .then(setConnection);
-    // Otherwise, the user canceled the selection dialog or no screens were found.
-  };
-</script>`,
-                        "0:0 - 9:9",
-                        `/en-US/docs/Web/API/Presentation_API
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<script>
-  presentBtn.onclick = () => {
-    // Start new presentation.
-    request
-      .start()
-      // The connection to the presentation will be passed to setConnection on success.
-      .then(setConnection);
-    // Otherwise, the user canceled the selection dialog or no screens were found.
-  };
-</script>
 ~~~
 `
                       ]
@@ -12967,102 +10039,6 @@ function checkDeadlines() {
 [no-style-attr] Do not use the style attribute.
 ~~~
 <button id="reconnectBtn" style="display: none;">Reconnect</button>
-<script>
-  const reconnect = () => {
-    // read presId from localStorage if exists
-    const presId = localStorage["presId"];
-    // presId is mandatory when reconnecting to a presentation.
-    if (presId) {
-      request
-        .reconnect(presId)
-        // The new connection to the presentation will be passed to
-        // setConnection on success.
-        .then(setConnection);
-      // No connection found for presUrl and presId, or an error occurred.
-    }
-  };
-  // On navigation of the controller, reconnect automatically.
-  document.addEventListener("DOMContentLoaded", reconnect);
-  // Or allow manual reconnection.
-  reconnectBtn.onclick = reconnect;
-</script>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-script",
-                        "Do not write JS within the <script> element; use separate JS blocks instead.",
-                        `<script>
-  const reconnect = () => {
-    // read presId from localStorage if exists
-    const presId = localStorage["presId"];
-    // presId is mandatory when reconnecting to a presentation.
-    if (presId) {
-      request
-        .reconnect(presId)
-        // The new connection to the presentation will be passed to
-        // setConnection on success.
-        .then(setConnection);
-      // No connection found for presUrl and presId, or an error occurred.
-    }
-  };
-  // On navigation of the controller, reconnect automatically.
-  document.addEventListener("DOMContentLoaded", reconnect);
-  // Or allow manual reconnection.
-  reconnectBtn.onclick = reconnect;
-</script>`,
-                        "1:0 - 19:9",
-                        `/en-US/docs/Web/API/Presentation_API
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<button id="reconnectBtn" style="display: none;">Reconnect</button>
-<script>
-  const reconnect = () => {
-    // read presId from localStorage if exists
-    const presId = localStorage["presId"];
-    // presId is mandatory when reconnecting to a presentation.
-    if (presId) {
-      request
-        .reconnect(presId)
-        // The new connection to the presentation will be passed to
-        // setConnection on success.
-        .then(setConnection);
-      // No connection found for presUrl and presId, or an error occurred.
-    }
-  };
-  // On navigation of the controller, reconnect automatically.
-  document.addEventListener("DOMContentLoaded", reconnect);
-  // Or allow manual reconnection.
-  reconnectBtn.onclick = reconnect;
-</script>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-script",
-                        "Do not write JS within the <script> element; use separate JS blocks instead.",
-                        `<script>
-  navigator.presentation.defaultRequest = new PresentationRequest(presUrls);
-  navigator.presentation.defaultRequest.onconnectionavailable = (evt) => {
-    setConnection(evt.connection);
-  };
-</script>`,
-                        "0:0 - 5:9",
-                        `/en-US/docs/Web/API/Presentation_API
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<script>
-  navigator.presentation.defaultRequest = new PresentationRequest(presUrls);
-  navigator.presentation.defaultRequest.onconnectionavailable = (evt) => {
-    setConnection(evt.connection);
-  };
-</script>
 ~~~
 `
                       ]
@@ -13080,76 +10056,6 @@ function checkDeadlines() {
 <button id="disconnectBtn" style="display: none;">Disconnect</button>
 <button id="stopBtn" style="display: none;">Stop</button>
 <button id="reconnectBtn" style="display: none;">Reconnect</button>
-<script>
-  let connection;
-
-  // The Disconnect and Stop buttons are visible if there is a connected presentation
-  const stopBtn = document.querySelector("#stopBtn");
-  const reconnectBtn = document.querySelector("#reconnectBtn");
-  const disconnectBtn = document.querySelector("#disconnectBtn");
-
-  stopBtn.onclick = () => {
-    connection?.terminate();
-  };
-
-  disconnectBtn.onclick = () => {
-    connection?.close();
-  };
-
-  function setConnection(newConnection) {
-    // Disconnect from existing presentation, if not attempting to reconnect
-    if (
-      connection &&
-      connection !== newConnection &&
-      connection.state !== "closed"
-    ) {
-      connection.onclose = undefined;
-      connection.close();
-    }
-
-    // Set the new connection and save the presentation ID
-    connection = newConnection;
-    localStorage["presId"] = connection.id;
-
-    function showConnectedUI() {
-      // Allow the user to disconnect from or terminate the presentation
-      stopBtn.style.display = "inline";
-      disconnectBtn.style.display = "inline";
-      reconnectBtn.style.display = "none";
-    }
-
-    function showDisconnectedUI() {
-      disconnectBtn.style.display = "none";
-      stopBtn.style.display = "none";
-      reconnectBtn.style.display = localStorage["presId"] ? "inline" : "none";
-    }
-
-    // Monitor the connection state
-    connection.onconnect = () => {
-      showConnectedUI();
-
-      // Register message handler
-      connection.onmessage = (message) => {
-        console.log(\`Received message: \${message.data}\`);
-      };
-
-      // Send initial message to presentation page
-      connection.send("Say hello");
-    };
-
-    connection.onclose = () => {
-      connection = null;
-      showDisconnectedUI();
-    };
-
-    connection.onterminate = () => {
-      // Remove presId from localStorage if exists
-      delete localStorage["presId"];
-      connection = null;
-      showDisconnectedUI();
-    };
-  }
-</script>
 ~~~
 `
                       ]
@@ -13167,76 +10073,6 @@ function checkDeadlines() {
 <button id="disconnectBtn" style="display: none;">Disconnect</button>
 <button id="stopBtn" style="display: none;">Stop</button>
 <button id="reconnectBtn" style="display: none;">Reconnect</button>
-<script>
-  let connection;
-
-  // The Disconnect and Stop buttons are visible if there is a connected presentation
-  const stopBtn = document.querySelector("#stopBtn");
-  const reconnectBtn = document.querySelector("#reconnectBtn");
-  const disconnectBtn = document.querySelector("#disconnectBtn");
-
-  stopBtn.onclick = () => {
-    connection?.terminate();
-  };
-
-  disconnectBtn.onclick = () => {
-    connection?.close();
-  };
-
-  function setConnection(newConnection) {
-    // Disconnect from existing presentation, if not attempting to reconnect
-    if (
-      connection &&
-      connection !== newConnection &&
-      connection.state !== "closed"
-    ) {
-      connection.onclose = undefined;
-      connection.close();
-    }
-
-    // Set the new connection and save the presentation ID
-    connection = newConnection;
-    localStorage["presId"] = connection.id;
-
-    function showConnectedUI() {
-      // Allow the user to disconnect from or terminate the presentation
-      stopBtn.style.display = "inline";
-      disconnectBtn.style.display = "inline";
-      reconnectBtn.style.display = "none";
-    }
-
-    function showDisconnectedUI() {
-      disconnectBtn.style.display = "none";
-      stopBtn.style.display = "none";
-      reconnectBtn.style.display = localStorage["presId"] ? "inline" : "none";
-    }
-
-    // Monitor the connection state
-    connection.onconnect = () => {
-      showConnectedUI();
-
-      // Register message handler
-      connection.onmessage = (message) => {
-        console.log(\`Received message: \${message.data}\`);
-      };
-
-      // Send initial message to presentation page
-      connection.send("Say hello");
-    };
-
-    connection.onclose = () => {
-      connection = null;
-      showDisconnectedUI();
-    };
-
-    connection.onterminate = () => {
-      // Remove presId from localStorage if exists
-      delete localStorage["presId"];
-      connection = null;
-      showDisconnectedUI();
-    };
-  }
-</script>
 ~~~
 `
                       ]
@@ -13254,399 +10090,6 @@ function checkDeadlines() {
 <button id="disconnectBtn" style="display: none;">Disconnect</button>
 <button id="stopBtn" style="display: none;">Stop</button>
 <button id="reconnectBtn" style="display: none;">Reconnect</button>
-<script>
-  let connection;
-
-  // The Disconnect and Stop buttons are visible if there is a connected presentation
-  const stopBtn = document.querySelector("#stopBtn");
-  const reconnectBtn = document.querySelector("#reconnectBtn");
-  const disconnectBtn = document.querySelector("#disconnectBtn");
-
-  stopBtn.onclick = () => {
-    connection?.terminate();
-  };
-
-  disconnectBtn.onclick = () => {
-    connection?.close();
-  };
-
-  function setConnection(newConnection) {
-    // Disconnect from existing presentation, if not attempting to reconnect
-    if (
-      connection &&
-      connection !== newConnection &&
-      connection.state !== "closed"
-    ) {
-      connection.onclose = undefined;
-      connection.close();
-    }
-
-    // Set the new connection and save the presentation ID
-    connection = newConnection;
-    localStorage["presId"] = connection.id;
-
-    function showConnectedUI() {
-      // Allow the user to disconnect from or terminate the presentation
-      stopBtn.style.display = "inline";
-      disconnectBtn.style.display = "inline";
-      reconnectBtn.style.display = "none";
-    }
-
-    function showDisconnectedUI() {
-      disconnectBtn.style.display = "none";
-      stopBtn.style.display = "none";
-      reconnectBtn.style.display = localStorage["presId"] ? "inline" : "none";
-    }
-
-    // Monitor the connection state
-    connection.onconnect = () => {
-      showConnectedUI();
-
-      // Register message handler
-      connection.onmessage = (message) => {
-        console.log(\`Received message: \${message.data}\`);
-      };
-
-      // Send initial message to presentation page
-      connection.send("Say hello");
-    };
-
-    connection.onclose = () => {
-      connection = null;
-      showDisconnectedUI();
-    };
-
-    connection.onterminate = () => {
-      // Remove presId from localStorage if exists
-      delete localStorage["presId"];
-      connection = null;
-      showDisconnectedUI();
-    };
-  }
-</script>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-script",
-                        "Do not write JS within the <script> element; use separate JS blocks instead.",
-                        `<script>
-  let connection;
-
-  // The Disconnect and Stop buttons are visible if there is a connected presentation
-  const stopBtn = document.querySelector("#stopBtn");
-  const reconnectBtn = document.querySelector("#reconnectBtn");
-  const disconnectBtn = document.querySelector("#disconnectBtn");
-
-  stopBtn.onclick = () => {
-    connection?.terminate();
-  };
-
-  disconnectBtn.onclick = () => {
-    connection?.close();
-  };
-
-  function setConnection(newConnection) {
-    // Disconnect from existing presentation, if not attempting to reconnect
-    if (
-      connection &&
-      connection !== newConnection &&
-      connection.state !== "closed"
-    ) {
-      connection.onclose = undefined;
-      connection.close();
-    }
-
-    // Set the new connection and save the presentation ID
-    connection = newConnection;
-    localStorage["presId"] = connection.id;
-
-    function showConnectedUI() {
-      // Allow the user to disconnect from or terminate the presentation
-      stopBtn.style.display = "inline";
-      disconnectBtn.style.display = "inline";
-      reconnectBtn.style.display = "none";
-    }
-
-    function showDisconnectedUI() {
-      disconnectBtn.style.display = "none";
-      stopBtn.style.display = "none";
-      reconnectBtn.style.display = localStorage["presId"] ? "inline" : "none";
-    }
-
-    // Monitor the connection state
-    connection.onconnect = () => {
-      showConnectedUI();
-
-      // Register message handler
-      connection.onmessage = (message) => {
-        console.log(\`Received message: \${message.data}\`);
-      };
-
-      // Send initial message to presentation page
-      connection.send("Say hello");
-    };
-
-    connection.onclose = () => {
-      connection = null;
-      showDisconnectedUI();
-    };
-
-    connection.onterminate = () => {
-      // Remove presId from localStorage if exists
-      delete localStorage["presId"];
-      connection = null;
-      showDisconnectedUI();
-    };
-  }
-</script>`,
-                        "3:0 - 72:9",
-                        `/en-US/docs/Web/API/Presentation_API
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<button id="disconnectBtn" style="display: none;">Disconnect</button>
-<button id="stopBtn" style="display: none;">Stop</button>
-<button id="reconnectBtn" style="display: none;">Reconnect</button>
-<script>
-  let connection;
-
-  // The Disconnect and Stop buttons are visible if there is a connected presentation
-  const stopBtn = document.querySelector("#stopBtn");
-  const reconnectBtn = document.querySelector("#reconnectBtn");
-  const disconnectBtn = document.querySelector("#disconnectBtn");
-
-  stopBtn.onclick = () => {
-    connection?.terminate();
-  };
-
-  disconnectBtn.onclick = () => {
-    connection?.close();
-  };
-
-  function setConnection(newConnection) {
-    // Disconnect from existing presentation, if not attempting to reconnect
-    if (
-      connection &&
-      connection !== newConnection &&
-      connection.state !== "closed"
-    ) {
-      connection.onclose = undefined;
-      connection.close();
-    }
-
-    // Set the new connection and save the presentation ID
-    connection = newConnection;
-    localStorage["presId"] = connection.id;
-
-    function showConnectedUI() {
-      // Allow the user to disconnect from or terminate the presentation
-      stopBtn.style.display = "inline";
-      disconnectBtn.style.display = "inline";
-      reconnectBtn.style.display = "none";
-    }
-
-    function showDisconnectedUI() {
-      disconnectBtn.style.display = "none";
-      stopBtn.style.display = "none";
-      reconnectBtn.style.display = localStorage["presId"] ? "inline" : "none";
-    }
-
-    // Monitor the connection state
-    connection.onconnect = () => {
-      showConnectedUI();
-
-      // Register message handler
-      connection.onmessage = (message) => {
-        console.log(\`Received message: \${message.data}\`);
-      };
-
-      // Send initial message to presentation page
-      connection.send("Say hello");
-    };
-
-    connection.onclose = () => {
-      connection = null;
-      showDisconnectedUI();
-    };
-
-    connection.onterminate = () => {
-      // Remove presId from localStorage if exists
-      delete localStorage["presId"];
-      connection = null;
-      showDisconnectedUI();
-    };
-  }
-</script>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-script",
-                        "Do not write JS within the <script> element; use separate JS blocks instead.",
-                        `<script>
-  connection.send('{"string": "你好，世界!", "lang": "zh-CN"}');
-  connection.send('{"string": "こんにちは、世界!", "lang": "ja"}');
-  connection.send('{"string": "안녕하세요, 세계!", "lang": "ko"}');
-  connection.send('{"string": "Hello, world!", "lang": "en-US"}');
-</script>`,
-                        "0:0 - 5:9",
-                        `/en-US/docs/Web/API/Presentation_API
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<script>
-  connection.send('{"string": "你好，世界!", "lang": "zh-CN"}');
-  connection.send('{"string": "こんにちは、世界!", "lang": "ja"}');
-  connection.send('{"string": "안녕하세요, 세계!", "lang": "ko"}');
-  connection.send('{"string": "Hello, world!", "lang": "en-US"}');
-</script>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-script",
-                        "Do not write JS within the <script> element; use separate JS blocks instead.",
-                        `<script>
-  connection.onmessage = (message) => {
-    const messageObj = JSON.parse(message.data);
-    const spanElt = document.createElement("SPAN");
-    spanElt.lang = messageObj.lang;
-    spanElt.textContent = messageObj.string;
-    document.body.appendChild(spanElt);
-  };
-</script>`,
-                        "0:0 - 8:9",
-                        `/en-US/docs/Web/API/Presentation_API
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<script>
-  connection.onmessage = (message) => {
-    const messageObj = JSON.parse(message.data);
-    const spanElt = document.createElement("SPAN");
-    spanElt.lang = messageObj.lang;
-    spanElt.textContent = messageObj.string;
-    document.body.appendChild(spanElt);
-  };
-</script>
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                prioritized_task_scheduling_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Prioritized_Task_Scheduling_API",
-                  messages: [
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-style-attr",
-                        "Do not use the style attribute.",
-                        '<textarea id="log" style="min-height: 20px; width: 95%"></textarea>',
-                        "0:19 - 0:55",
-                        `/en-US/docs/Web/API/Prioritized_Task_Scheduling_API
-[no-style-attr] Do not use the style attribute.
-~~~
-<textarea id="log" style="min-height: 20px; width: 95%"></textarea>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-style-attr",
-                        "Do not use the style attribute.",
-                        '<textarea id="log" style="min-height: 20px; width: 95%"></textarea>',
-                        "0:19 - 0:55",
-                        `/en-US/docs/Web/API/Prioritized_Task_Scheduling_API
-[no-style-attr] Do not use the style attribute.
-~~~
-<textarea id="log" style="min-height: 20px; width: 95%"></textarea>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-style-attr",
-                        "Do not use the style attribute.",
-                        '<textarea id="log" style="min-height: 100px; width: 95%"></textarea>',
-                        "0:19 - 0:56",
-                        `/en-US/docs/Web/API/Prioritized_Task_Scheduling_API
-[no-style-attr] Do not use the style attribute.
-~~~
-<textarea id="log" style="min-height: 100px; width: 95%"></textarea>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-style-attr",
-                        "Do not use the style attribute.",
-                        '<textarea id="log" style="min-height: 120px; width: 95%"></textarea>',
-                        "0:19 - 0:56",
-                        `/en-US/docs/Web/API/Prioritized_Task_Scheduling_API
-[no-style-attr] Do not use the style attribute.
-~~~
-<textarea id="log" style="min-height: 120px; width: 95%"></textarea>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-style-attr",
-                        "Do not use the style attribute.",
-                        '<textarea id="log" style="min-height: 70px; width: 95%"></textarea>',
-                        "0:19 - 0:55",
-                        `/en-US/docs/Web/API/Prioritized_Task_Scheduling_API
-[no-style-attr] Do not use the style attribute.
-~~~
-<textarea id="log" style="min-height: 70px; width: 95%"></textarea>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-style-attr",
-                        "Do not use the style attribute.",
-                        '<textarea id="log" style="min-height: 50px; width: 95%"></textarea>',
-                        "0:19 - 0:55",
-                        `/en-US/docs/Web/API/Prioritized_Task_Scheduling_API
-[no-style-attr] Do not use the style attribute.
-~~~
-<textarea id="log" style="min-height: 50px; width: 95%"></textarea>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-style-attr",
-                        "Do not use the style attribute.",
-                        '<textarea id="log" style="min-height: 50px; width: 95%"></textarea>',
-                        "0:19 - 0:55",
-                        `/en-US/docs/Web/API/Prioritized_Task_Scheduling_API
-[no-style-attr] Do not use the style attribute.
-~~~
-<textarea id="log" style="min-height: 50px; width: 95%"></textarea>
 ~~~
 `
                       ]
@@ -13862,31 +10305,6 @@ fetch(url)
                       ]
                     }
                   ]
-                },
-                response: {
-                  children: {
-                    arraybuffer: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Response/arrayBuffer",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onchange".',
-                            '<input type="file" onchange="readFile(this.files[0])" />',
-                            "0:19 - 0:53",
-                            `/en-US/docs/Web/API/Response/arrayBuffer
-[no-inline-event-handlers] Do not use inline event handler "onchange".
-~~~
-<input type="file" onchange="readFile(this.files[0])" />
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 rtcicecandidatepair: {
                   children: {
@@ -14147,36 +10565,6 @@ fetch(url)
                     }
                   }
                 },
-                selection: {
-                  children: {
-                    containsnode: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Selection/containsNode",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '  Hmm, where <span id="secret" style="color:transparent">SECRET</span> could it',
-                            "2:31 - 2:56",
-                            `/en-US/docs/Web/API/Selection/containsNode
-[no-style-attr] Do not use the style attribute.
-~~~
-<p>Can you find the secret word?</p>
-<p>
-  Hmm, where <span id="secret" style="color:transparent">SECRET</span> could it
-  be?
-</p>
-<p id="win" hidden>You found it!</p>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 "server-sent_events": {
                   children: {
                     "using_server-sent_events": {
@@ -14355,80 +10743,6 @@ fetch(url)
                 },
                 stylesheet: {
                   children: {
-                    href: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/StyleSheet/href",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-script",
-                            "Do not write JS within the <script> element; use separate JS blocks instead.",
-                            `    <script>
-      function printRef() {
-        alert(document.styleSheets[0].href);
-      }
-    </script>`,
-                            "7:4 - 11:13",
-                            `/en-US/docs/Web/API/StyleSheet/href
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>href example</title>
-    <link rel="styleSheet" href="example.css" />
-    <script>
-      function printRef() {
-        alert(document.styleSheets[0].href);
-      }
-    </script>
-  </head>
-  <body>
-    <div class="thunder">Thunder</div>
-    <button onclick="printRef()">ss</button>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onclick".',
-                            '    <button onclick="printRef()">ss</button>',
-                            "15:12 - 15:32",
-                            `/en-US/docs/Web/API/StyleSheet/href
-[no-inline-event-handlers] Do not use inline event handler "onclick".
-~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>href example</title>
-    <link rel="styleSheet" href="example.css" />
-    <script>
-      function printRef() {
-        alert(document.styleSheets[0].href);
-      }
-    </script>
-  </head>
-  <body>
-    <div class="thunder">Thunder</div>
-    <button onclick="printRef()">ss</button>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     media: {
                       children: {},
                       slug: "/en-US/docs/Web/API/StyleSheet/media",
@@ -14438,154 +10752,21 @@ fetch(url)
                           data: [
                             "no-style-elem",
                             "Do not use the <style> element; use separate CSS blocks instead.",
-                            `    <style rel="stylesheet" media="screen, print">
-      body {
-        background-color: snow;
-      }
-    </style>`,
-                            "7:4 - 11:12",
+                            `<style rel="stylesheet" media="screen, print">
+  body {
+    background-color: snow;
+  }
+</style>`,
+                            "1:0 - 5:8",
                             `/en-US/docs/Web/API/StyleSheet/media
 [no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
 ~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Test page</title>
-    <link rel="stylesheet" href="document.css" media="screen" />
-    <style rel="stylesheet" media="screen, print">
-      body {
-        background-color: snow;
-      }
-    </style>
-  </head>
-  <body>
-    <script>
-      for (let i = 0; i < document.styleSheets.length; i++) {
-        console.log(
-          \`document.styleSheets[\${i}].media: \${JSON.stringify(
-            document.styleSheets[i].media,
-          )}\`,
-        );
-        if (i === 0) document.styleSheets[i].media.appendMedium("handheld");
-        if (i === 1) document.styleSheets[i].media.deleteMedium("print");
-        console.log(
-          \`document.styleSheets[\${i}].media: \${JSON.stringify(
-            document.styleSheets[i].media,
-          )}\`,
-        );
-      }
-      // This will log:
-      // document.styleSheets[0].media: {"0":"screen"}
-      // document.styleSheets[0].media: {"0":"screen","1":"handheld"}
-      // document.styleSheets[1].media: {"0":"screen","1":"print"}
-      // document.styleSheets[1].media: {"0":"screen"}
-    </script>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-script",
-                            "Do not write JS within the <script> element; use separate JS blocks instead.",
-                            `    <script>
-      for (let i = 0; i < document.styleSheets.length; i++) {
-        console.log(
-          \`document.styleSheets[\${i}].media: \${JSON.stringify(
-            document.styleSheets[i].media,
-          )}\`,
-        );
-        if (i === 0) document.styleSheets[i].media.appendMedium("handheld");
-        if (i === 1) document.styleSheets[i].media.deleteMedium("print");
-        console.log(
-          \`document.styleSheets[\${i}].media: \${JSON.stringify(
-            document.styleSheets[i].media,
-          )}\`,
-        );
-      }
-      // This will log:
-      // document.styleSheets[0].media: {"0":"screen"}
-      // document.styleSheets[0].media: {"0":"screen","1":"handheld"}
-      // document.styleSheets[1].media: {"0":"screen","1":"print"}
-      // document.styleSheets[1].media: {"0":"screen"}
-    </script>`,
-                            "14:4 - 34:13",
-                            `/en-US/docs/Web/API/StyleSheet/media
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Test page</title>
-    <link rel="stylesheet" href="document.css" media="screen" />
-    <style rel="stylesheet" media="screen, print">
-      body {
-        background-color: snow;
-      }
-    </style>
-  </head>
-  <body>
-    <script>
-      for (let i = 0; i < document.styleSheets.length; i++) {
-        console.log(
-          \`document.styleSheets[\${i}].media: \${JSON.stringify(
-            document.styleSheets[i].media,
-          )}\`,
-        );
-        if (i === 0) document.styleSheets[i].media.appendMedium("handheld");
-        if (i === 1) document.styleSheets[i].media.deleteMedium("print");
-        console.log(
-          \`document.styleSheets[\${i}].media: \${JSON.stringify(
-            document.styleSheets[i].media,
-          )}\`,
-        );
-      }
-      // This will log:
-      // document.styleSheets[0].media: {"0":"screen"}
-      // document.styleSheets[0].media: {"0":"screen","1":"handheld"}
-      // document.styleSheets[1].media: {"0":"screen","1":"print"}
-      // document.styleSheets[1].media: {"0":"screen"}
-    </script>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    ownernode: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/StyleSheet/ownerNode",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onclick".',
-                            '    <button onclick="alert(document.styleSheets[0].ownerNode)">',
-                            "5:12 - 5:62",
-                            `/en-US/docs/Web/API/StyleSheet/ownerNode
-[no-inline-event-handlers] Do not use inline event handler "onclick".
-~~~
-<html lang="en">
-  <head>
-    <link rel="stylesheet" href="example.css" />
-  </head>
-  <body>
-    <button onclick="alert(document.styleSheets[0].ownerNode)">
-      Show example.css's ownerNode
-    </button>
-  </body>
-</html>
-// Displays "object HTMLLinkElement"
+<link rel="stylesheet" href="document.css" media="screen" />
+<style rel="stylesheet" media="screen, print">
+  body {
+    background-color: snow;
+  }
+</style>
 ~~~
 `
                           ]
@@ -14638,93 +10819,26 @@ fetch(url)
                           data: [
                             "no-style-attr",
                             "Do not use the style attribute.",
-                            '<div style="white-space: pre-line;">',
-                            "0:5 - 0:35",
+                            '    style="border-top: 1px solid blue; color: red;" />',
+                            "12:4 - 12:51",
                             `/en-US/docs/Web/API/SVGElement/attributeStyleMap
 [no-style-attr] Do not use the style attribute.
 ~~~
-<div style="white-space: pre-line;">
-  <svg
-    width="50"
-    height="50"
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 250 250"
-    width="250"
-    height="250"
-    style="white-space: pre-line;">
-    <circle
-      cx="100"
-      cy="100"
-      r="50"
-      id="el"
-      style="border-top: 1px solid blue; color: red;" />
-  </svg>
-  <div id="output"></div>
-</div>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="white-space: pre-line;">',
-                            "8:4 - 8:34",
-                            `/en-US/docs/Web/API/SVGElement/attributeStyleMap
-[no-style-attr] Do not use the style attribute.
-~~~
-<div style="white-space: pre-line;">
-  <svg
-    width="50"
-    height="50"
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 250 250"
-    width="250"
-    height="250"
-    style="white-space: pre-line;">
-    <circle
-      cx="100"
-      cy="100"
-      r="50"
-      id="el"
-      style="border-top: 1px solid blue; color: red;" />
-  </svg>
-  <div id="output"></div>
-</div>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '      style="border-top: 1px solid blue; color: red;" />',
-                            "14:6 - 14:53",
-                            `/en-US/docs/Web/API/SVGElement/attributeStyleMap
-[no-style-attr] Do not use the style attribute.
-~~~
-<div style="white-space: pre-line;">
-  <svg
-    width="50"
-    height="50"
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 250 250"
-    width="250"
-    height="250"
-    style="white-space: pre-line;">
-    <circle
-      cx="100"
-      cy="100"
-      r="50"
-      id="el"
-      style="border-top: 1px solid blue; color: red;" />
-  </svg>
-  <div id="output"></div>
-</div>
+<svg
+  width="50"
+  height="50"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 250 250"
+  width="250"
+  height="250">
+  <circle
+    cx="100"
+    cy="100"
+    r="50"
+    id="el"
+    style="border-top: 1px solid blue; color: red;" />
+</svg>
+<div id="output"></div>
 ~~~
 `
                           ]
@@ -17883,63 +13997,6 @@ fetch(url)
                         {
                           message: "HTML code issue",
                           data: [
-                            "no-style-elem",
-                            "Do not use the <style> element; use separate CSS blocks instead.",
-                            `<style>
-  div {
-    margin: 0em;
-    padding: 2em;
-  }
-  #target1 {
-    background: white;
-    border: 1px solid black;
-  }
-  #target2 {
-    background: white;
-    border: 1px solid black;
-  }
-  #target3 {
-    background: white;
-    border: 1px solid black;
-  }
-  #target4 {
-    background: white;
-    border: 1px solid black;
-  }
-</style>`,
-                            "0:0 - 21:8",
-                            `/en-US/docs/Web/API/Touch_events/Multi-touch_interaction
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
-~~~
-<style>
-  div {
-    margin: 0em;
-    padding: 2em;
-  }
-  #target1 {
-    background: white;
-    border: 1px solid black;
-  }
-  #target2 {
-    background: white;
-    border: 1px solid black;
-  }
-  #target3 {
-    background: white;
-    border: 1px solid black;
-  }
-  #target4 {
-    background: white;
-    border: 1px solid black;
-  }
-</style>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
                             "no-inline-event-handlers",
                             'Do not use inline event handler "onclick".',
                             '<button id="log" onclick="enableLog(event);">Start/Stop event logging</button>',
@@ -18003,13 +14060,13 @@ fetch(url)
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Touch_events/Using_Touch_Events"
+                        "/en-US/docs/Web/API/Touch_events/Multi-touch_interaction"
                       ]
                     },
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Touch_events/Multi-touch_interaction"
+                        "/en-US/docs/Web/API/Touch_events/Using_Touch_Events"
                       ]
                     },
                     {
@@ -18156,13 +14213,13 @@ async function handleTranslation(e) {
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/UI_Events/Keyboard_event_key_values"
+                        "/en-US/docs/Web/API/UI_Events/Keyboard_event_code_values"
                       ]
                     },
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/UI_Events/Keyboard_event_code_values"
+                        "/en-US/docs/Web/API/UI_Events/Keyboard_event_key_values"
                       ]
                     }
                   ]
@@ -18617,7 +14674,7 @@ async function handleTranslation(e) {
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats"
+                        "/en-US/docs/Web/API/Web_Animations_API/Tips"
                       ]
                     },
                     {
@@ -18629,7 +14686,7 @@ async function handleTranslation(e) {
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Web_Animations_API/Tips"
+                        "/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats"
                       ]
                     }
                   ]
@@ -18744,7 +14801,7 @@ api.CredentialsContainer.get.publicKey_option.extensions`,
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Web_Authentication_API/WebAuthn_extensions"
+                        "/en-US/docs/Web/API/Web_Authentication_API/Authenticator_data"
                       ]
                     },
                     {
@@ -18756,7 +14813,7 @@ api.CredentialsContainer.get.publicKey_option.extensions`,
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Web_Authentication_API/Authenticator_data"
+                        "/en-US/docs/Web/API/Web_Authentication_API/WebAuthn_extensions"
                       ]
                     }
                   ]
@@ -19926,7 +15983,7 @@ alert(emulateMessage(example5).constructor); // Object
                             {
                               message: "No link to child page",
                               data: [
-                                "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers/Creating_a_call"
+                                "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers/Show_hide_html"
                               ]
                             },
                             {
@@ -19938,19 +15995,19 @@ alert(emulateMessage(example5).constructor); // Object
                             {
                               message: "No link to child page",
                               data: [
-                                "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers/Show_hide_html"
-                              ]
-                            },
-                            {
-                              message: "No link to child page",
-                              data: [
-                                "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers/Answer_a_call"
+                                "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers/Creating_a_call"
                               ]
                             },
                             {
                               message: "No link to child page",
                               data: [
                                 "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers/End_a_call"
+                              ]
+                            },
+                            {
+                              message: "No link to child page",
+                              data: [
+                                "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers/Answer_a_call"
                               ]
                             }
                           ]
@@ -23151,13 +19208,13 @@ function displayPoseStats(pose) {
                         {
                           message: "Unknown asset type",
                           data: [
-                            "primary-screen-left-source.drawio"
+                            "primary-screen-right-source.drawio"
                           ]
                         },
                         {
                           message: "Unknown asset type",
                           data: [
-                            "primary-screen-right-source.drawio"
+                            "primary-screen-left-source.drawio"
                           ]
                         }
                       ]
@@ -23419,7 +19476,13 @@ function displayPoseStats(pose) {
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/XMLHttpRequest_API/Synchronous_and_Asynchronous_Requests"
+                        "/en-US/docs/Web/API/XMLHttpRequest_API/Using_FormData_Objects"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/API/XMLHttpRequest_API/HTML_in_XMLHttpRequest"
                       ]
                     },
                     {
@@ -23431,13 +19494,7 @@ function displayPoseStats(pose) {
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/XMLHttpRequest_API/Using_FormData_Objects"
-                      ]
-                    },
-                    {
-                      message: "No link to child page",
-                      data: [
-                        "/en-US/docs/Web/API/XMLHttpRequest_API/HTML_in_XMLHttpRequest"
+                        "/en-US/docs/Web/API/XMLHttpRequest_API/Synchronous_and_Asynchronous_Requests"
                       ]
                     }
                   ]
@@ -24303,13 +20360,13 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unknown asset type",
                           data: [
-                            "ofl.txt"
+                            "montecarlo-regular.woff2"
                           ]
                         },
                         {
                           message: "Unknown asset type",
                           data: [
-                            "montecarlo-regular.woff2"
+                            "ofl.txt"
                           ]
                         },
                         {
@@ -24900,6 +20957,14 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Missing syntax code block",
                           data: []
+                        },
+                        {
+                          message: "Replace DT link with real target",
+                          data: [
+                            "/en-US/docs/Web/HTML/Reference/Elements/meta/name#color-scheme",
+                            "/en-US/docs/Web/HTML/Reference/Elements/meta/name/color-scheme",
+                            []
+                          ]
                         },
                         {
                           message: "Unreachable via sidebar",
@@ -25715,6 +21780,19 @@ div.box-5 {
 }
 ~~~
 `
+                      ]
+                    }
+                  ]
+                },
+                "aspect-ratio": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/aspect-ratio",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.smashingmagazine.com/2020/03/setting-height-width-images-important-again/",
+                        "unknown certificate verification error"
                       ]
                     }
                   ]
@@ -28222,6 +24300,28 @@ oklch(63.612% 0.1522 78.748)
                     }
                   ]
                 },
+                "color-scheme": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/color-scheme",
+                  messages: [
+                    {
+                      message: "Replace DT link with real target",
+                      data: [
+                        "/en-US/docs/Web/HTML/Reference/Elements/meta/name#color-scheme",
+                        "/en-US/docs/Web/HTML/Reference/Elements/meta/name/color-scheme",
+                        []
+                      ]
+                    },
+                    {
+                      message: "Replace DT link with real target",
+                      data: [
+                        "/en-US/docs/Web/HTML/Reference/Elements/meta/name#color-scheme",
+                        "/en-US/docs/Web/HTML/Reference/Elements/meta/name/color-scheme",
+                        []
+                      ]
+                    }
+                  ]
+                },
                 column_combinator: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/Column_combinator",
@@ -28469,10 +24569,6 @@ cross-fade(url(white.png), url(black.png), 100%); /* fully white */
                       slug: "/en-US/docs/Web/CSS/CSS_anchor_positioning/Try_options_hiding",
                       messages: [
                         {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        },
-                        {
                           message: "CSS code issue",
                           data: [
                             "at-rule-descriptor-value-no-unknown",
@@ -28545,10 +24641,6 @@ form {
                           data: [
                             "position-area.drawio"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     }
@@ -28950,10 +25042,6 @@ form {
                       slug: "/en-US/docs/Web/CSS/CSS_cascade/Cascade",
                       messages: [
                         {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        },
-                        {
                           message: "HTML code issue",
                           data: [
                             "no-style-elem",
@@ -29005,34 +25093,10 @@ form {
                         }
                       ]
                     },
-                    inheritance: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_cascade/Inheritance",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    shorthand_properties: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_cascade/Shorthand_properties",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
                     specificity: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_cascade/Specificity",
                       messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        },
                         {
                           message: "HTML code issue",
                           data: [
@@ -29101,22 +25165,64 @@ form {
                       slug: "/en-US/docs/Web/CSS/CSS_cascade/Value_processing",
                       messages: [
                         {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                css_cascading_variables: {
-                  children: {
-                    using_css_custom_properties: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_cascading_variables/Using_CSS_custom_properties",
-                      messages: [
+                          message: "Broken anchor",
+                          data: [
+                            "#property-values"
+                          ]
+                        },
                         {
-                          message: "Unreachable via sidebar",
-                          data: []
+                          message: "Broken anchor",
+                          data: [
+                            "#processing-stages"
+                          ]
+                        },
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "#initial-value"
+                          ]
+                        },
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "#specified-value"
+                          ]
+                        },
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "#computed-value"
+                          ]
+                        },
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "#used-value"
+                          ]
+                        },
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "#rendered-values"
+                          ]
+                        },
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "#actual-value"
+                          ]
+                        },
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "#resolved-value"
+                          ]
+                        },
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "#see-also"
+                          ]
                         }
                       ]
                     }
@@ -30209,20 +26315,6 @@ rgb(from red r g b / alpha)
                     }
                   }
                 },
-                css_filter_effects: {
-                  children: {
-                    using_filter_effects: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_filter_effects/Using_filter_effects",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
                 css_fonts: {
                   children: {
                     woff: {
@@ -31064,20 +27156,6 @@ css.properties.grid-template-rows.masonry`,
                     }
                   ]
                 },
-                css_inline_layout: {
-                  children: {
-                    inline_formatting_context: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_inline_layout/Inline_formatting_context",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
                 css_masking: {
                   children: {
                     clipping: {
@@ -31566,10 +27644,6 @@ element.my-class {
                           data: [
                             "carousel.drawio"
                           ]
-                        },
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     }
@@ -32049,10 +28123,6 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                       slug: "/en-US/docs/Web/CSS/CSS_scroll_anchoring/Scroll_anchoring",
                       messages: [
                         {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        },
-                        {
                           message: "Unexpected BCD keys",
                           data: [
                             "Actual:",
@@ -32063,7 +28133,16 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/CSS/CSS_scroll_anchoring",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/CSS/CSS_scroll_anchoring/Scroll_anchoring"
+                      ]
+                    }
+                  ]
                 },
                 css_scroll_snap: {
                   children: {
@@ -32089,50 +28168,6 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                       ]
                     }
                   ]
-                },
-                css_selectors: {
-                  children: {
-                    privacy_and_the_visited_selector: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_selectors/Privacy_and_the_visited_selector",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    selector_structure: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_selectors/Selector_structure",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    selectors_and_combinators: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_selectors/Selectors_and_combinators",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    "using_the__colon_target_pseudo-class_in_selectors": {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_selectors/Using_the_:target_pseudo-class_in_selectors",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
                 },
                 css_shapes: {
                   children: {
@@ -32167,10 +28202,6 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                       slug: "/en-US/docs/Web/CSS/CSS_syntax/At-rule_functions",
                       messages: [
                         {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        },
-                        {
                           message: "CSS code issue",
                           data: [
                             "at-rule-no-unknown",
@@ -32187,34 +28218,21 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                           ]
                         }
                       ]
-                    },
-                    comments: {
+                    }
+                  }
+                },
+                css_text: {
+                  children: {
+                    wrapping_breaking_text: {
                       children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_syntax/Comments",
+                      slug: "/en-US/docs/Web/CSS/CSS_text/Wrapping_breaking_text",
                       messages: [
                         {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    error_handling: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_syntax/Error_handling",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    syntax: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_syntax/Syntax",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2019/09/overflow-data-loss-css/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -40266,13 +36284,13 @@ element {
                     {
                       message: "Unknown asset type",
                       data: [
-                        "ofl.txt"
+                        "montecarlo-regular.woff2"
                       ]
                     },
                     {
                       message: "Unknown asset type",
                       data: [
-                        "montecarlo-regular.woff2"
+                        "ofl.txt"
                       ]
                     }
                   ]
@@ -40746,6 +36764,60 @@ image-set('cat.jpg' 1x, 'dog.jpg' 1x) /* every image in an image set must have a
                       },
                       slug: "/en-US/docs/Web/CSS/Layout_cookbook/Contribute_a_recipe",
                       messages: [
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "#what-makes-a-good-recipe"
+                          ]
+                        },
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "#steps-to-publish-a-recipe"
+                          ]
+                        },
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "#1-build-a-pattern"
+                          ]
+                        },
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "#2-create-a-live-example"
+                          ]
+                        },
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "#useful-tips"
+                          ]
+                        },
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "#3-create-a-downloadable-version"
+                          ]
+                        },
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "#4-open-a-pull-request-with-your-example"
+                          ]
+                        },
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "#5-create-your-page"
+                          ]
+                        },
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "#see-also"
+                          ]
+                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -42933,6 +39005,24 @@ url(https://example.com/image.png)
                   children: {
                     attributes: {
                       children: {
+                        content: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/content",
+                          messages: [
+                            {
+                              message: "Code with space",
+                              data: [
+                                "<meta> name"
+                              ]
+                            },
+                            {
+                              message: "Code with space",
+                              data: [
+                                "<meta> name"
+                              ]
+                            }
+                          ]
+                        },
                         disabled: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Attributes/disabled",
@@ -42998,6 +39088,19 @@ html.elements.textarea.disabled`
                                     "html.elements.link.rel.me",
                                     "Expected:",
                                     "[None]"
+                                  ]
+                                }
+                              ]
+                            },
+                            preload: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/preload",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/",
+                                    "The operation timed out."
                                   ]
                                 }
                               ]
@@ -43249,6 +39352,12 @@ html.elements.select.size`
                           data: [
                             "/en-US/docs/Web/HTML/Reference/Attributes/width"
                           ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/HTML/Reference/Attributes/content"
+                          ]
                         }
                       ]
                     },
@@ -43257,16 +39366,116 @@ html.elements.select.size`
                         meta: {
                           children: {
                             name: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/meta/name",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
+                              children: {
+                                "color-scheme": {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/HTML/Reference/Elements/meta/name/color-scheme",
+                                  messages: [
+                                    {
+                                      message: "Replace DT link with real target",
+                                      data: [
+                                        "/en-US/docs/Web/HTML/Reference/Elements/meta#name",
+                                        "/en-US/docs/Web/HTML/Reference/Elements/meta/name",
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                referrer: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/HTML/Reference/Elements/meta/name/referrer",
+                                  messages: [
+                                    {
+                                      message: "Replace DT link with real target",
+                                      data: [
+                                        "/en-US/docs/Web/HTML/Reference/Elements/meta#name",
+                                        "/en-US/docs/Web/HTML/Reference/Elements/meta/name",
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                robots: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/HTML/Reference/Elements/meta/name/robots",
+                                  messages: [
+                                    {
+                                      message: "Replace DT link with real target",
+                                      data: [
+                                        "/en-US/docs/Web/HTML/Reference/Elements/meta#name",
+                                        "/en-US/docs/Web/HTML/Reference/Elements/meta/name",
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "theme-color": {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/HTML/Reference/Elements/meta/name/theme-color",
+                                  messages: [
+                                    {
+                                      message: "Replace DT link with real target",
+                                      data: [
+                                        "/en-US/docs/Web/HTML/Reference/Elements/meta#name",
+                                        "/en-US/docs/Web/HTML/Reference/Elements/meta/name",
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                },
+                                viewport: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/HTML/Reference/Elements/meta/name/viewport",
+                                  messages: [
+                                    {
+                                      message: "Replace DT link with real target",
+                                      data: [
+                                        "/en-US/docs/Web/HTML/Reference/Elements/meta#name",
+                                        "/en-US/docs/Web/HTML/Reference/Elements/meta/name",
+                                        []
+                                      ]
+                                    },
+                                    {
+                                      message: "Unexpected BCD keys",
+                                      data: [
+                                        "Actual:",
+                                        "html.elements.meta.name.viewport",
+                                        "Expected:",
+                                        "[None]"
+                                      ]
+                                    }
+                                  ]
                                 }
+                              }
+                            }
+                          },
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/meta",
+                          messages: [
+                            {
+                              message: "Replace DT link with real target",
+                              data: [
+                                "#name",
+                                "/en-US/docs/Web/HTML/Reference/Elements/meta/name",
+                                []
+                              ]
+                            },
+                            {
+                              message: "Replace DT link with real target",
+                              data: [
+                                "#name",
+                                "/en-US/docs/Web/HTML/Reference/Elements/meta/name",
+                                []
+                              ]
+                            },
+                            {
+                              message: "Replace DT link with real target",
+                              data: [
+                                "#name",
+                                "/en-US/docs/Web/HTML/Reference/Elements/meta/name",
+                                []
                               ]
                             }
-                          }
+                          ]
                         },
                         object: {
                           children: {},
@@ -43279,20 +39488,6 @@ html.elements.select.size`
                               ]
                             }
                           ]
-                        },
-                        script: {
-                          children: {
-                            type: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/script/type",
-                              messages: [
-                                {
-                                  message: "Unreachable via sidebar",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
                         },
                         td: {
                           children: {},
@@ -43583,6 +39778,20 @@ http.headers.Use-As-Dictionary`,
                             }
                           ]
                         },
+                        "referrer-policy": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Referrer-Policy",
+                          messages: [
+                            {
+                              message: "Replace DT link with real target",
+                              data: [
+                                "/en-US/docs/Web/HTML/Reference/Elements/meta#name",
+                                "/en-US/docs/Web/HTML/Reference/Elements/meta/name",
+                                []
+                              ]
+                            }
+                          ]
+                        },
                         "sec-ch-ua": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-CH-UA",
@@ -43790,6 +39999,23 @@ http.headers.Use-As-Dictionary`,
                             }
                           }
                         },
+                        atomics: {
+                          children: {
+                            pause: {
+                              children: {},
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Atomics/pause",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://www.intel.com/content/www/us/en/content-details/671488/intel-64-and-ia-32-architectures-optimization-reference-manual-volume-1.html",
+                                    403
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        },
                         function: {
                           children: {
                             prototype: {
@@ -43865,13 +40091,6 @@ http.headers.Use-As-Dictionary`,
                         {
                           message: "Broken external link",
                           data: [
-                            "https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5Cp%7BGeneral_Category%3DSpace_Separator%7D",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5Cp%7BID_Start%7D",
                             "The operation timed out."
                           ]
@@ -43896,23 +40115,6 @@ http.headers.Use-As-Dictionary`,
                               data: [
                                 "http://perfectionkills.com/understanding-delete/",
                                 ""
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    regular_expressions: {
-                      children: {
-                        unicode_character_class_escape: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Unicode_character_class_escape",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp",
-                                "The operation timed out."
                               ]
                             }
                           ]
@@ -44119,6 +40321,13 @@ console.log(bar.next()); // {value: 10, done: false}
                                 "http://hevc.info/",
                                 ""
                               ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://about.att.com/innovation/ip/patents",
+                                403
+                              ]
                             }
                           ]
                         }
@@ -44141,6 +40350,19 @@ console.log(bar.next()); // {value: 10, done: false}
                           data: [
                             "http://velocityjs.org/",
                             ""
+                          ]
+                        }
+                      ]
+                    },
+                    speculative_loading: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Performance/Guides/Speculative_loading",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -44308,6 +40530,20 @@ console.log(bar.next()); // {value: 10, done: false}
                     }
                   ]
                 },
+                referer_header_colon__privacy_and_security_concerns: {
+                  children: {},
+                  slug: "/en-US/docs/Web/Security/Referer_header:_privacy_and_security_concerns",
+                  messages: [
+                    {
+                      message: "Replace DT link with real target",
+                      data: [
+                        "/en-US/docs/Web/HTML/Reference/Elements/meta#name",
+                        "/en-US/docs/Web/HTML/Reference/Elements/meta/name",
+                        []
+                      ]
+                    }
+                  ]
+                },
                 subdomain_takeovers: {
                   children: {},
                   slug: "/en-US/docs/Web/Security/Subdomain_takeovers",
@@ -44340,12 +40576,6 @@ html.elements.script.integrity`,
                 {
                   message: "No link to child page",
                   data: [
-                    "/en-US/docs/Web/Security/Firefox_Security_Guidelines"
-                  ]
-                },
-                {
-                  message: "No link to child page",
-                  data: [
                     "/en-US/docs/Web/Security/Attacks"
                   ]
                 },
@@ -44353,6 +40583,12 @@ html.elements.script.integrity`,
                   message: "No link to child page",
                   data: [
                     "/en-US/docs/Web/Security/Subdomain_takeovers"
+                  ]
+                },
+                {
+                  message: "No link to child page",
+                  data: [
+                    "/en-US/docs/Web/Security/Firefox_Security_Guidelines"
                   ]
                 },
                 {
@@ -52910,6 +49146,13 @@ svg.elements.feSpotLight.z`
                           slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Tools_for_SVG",
                           messages: [
                             {
+                              message: "Broken external link",
+                              data: [
+                                "https://imagemagick.org/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
                               message: "HTTP link",
                               data: [
                                 "http://snapsvg.io/",
@@ -53164,12 +49407,6 @@ svg.elements.feSpotLight.z`
             {
               message: "No link to child page",
               data: [
-                "/en-US/docs/Mozilla"
-              ]
-            },
-            {
-              message: "No link to child page",
-              data: [
                 "/en-US/docs/Related"
               ]
             },
@@ -53183,6 +49420,12 @@ svg.elements.feSpotLight.z`
               message: "No link to child page",
               data: [
                 "/en-US/docs/Learn_web_development"
+              ]
+            },
+            {
+              message: "No link to child page",
+              data: [
+                "/en-US/docs/Mozilla"
               ]
             },
             {
