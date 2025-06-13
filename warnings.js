@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-vgj1d47a.js";
+} from "./chunk-wn9hz6hw.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -85,13 +85,6 @@ var warnings_processed_default = {
                       message: "External sandbox link",
                       data: [
                         "https://jsfiddle.net/c87z11jj/2/"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://pupunzi.open-lab.com/2013/03/13/making-html5-audio-actually-work-on-mobile/",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -461,6 +454,52 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            adobe_flash: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Adobe_Flash",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://webkit.org/blog/7839/adobe-announces-flash-distribution-and-updates-to-end/",
+                    'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/blog/7839/adobe-announces-flash-distribution-and-updates-to-end/". For more information, pass `verbose: true` in the second argument to fetch()'
+                  ]
+                }
+              ]
+            },
+            algorithm: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Algorithm",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://optimization.cbe.cornell.edu/index.php?title=Traveling_salesman_problem",
+                    "certificate has expired"
+                  ]
+                }
+              ]
+            },
+            apple_safari: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Apple_Safari",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://webkit.org/",
+                    'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/". For more information, pass `verbose: true` in the second argument to fetch()'
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://webkit.org/build-archives/",
+                    'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/build-archives/". For more information, pass `verbose: true` in the second argument to fetch()'
+                  ]
                 }
               ]
             },
@@ -1267,6 +1306,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            web_standards: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Web_standards",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://webkit.org/standards-positions/",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
             webm: {
               children: {},
               slug: "/en-US/docs/Glossary/WebM",
@@ -1691,6 +1743,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/guide/introduction.html",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -1804,8 +1863,8 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.smashingmagazine.com/2020/03/setting-height-width-images-important-again/",
-                            "unknown certificate verification error"
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -2125,7 +2184,28 @@ audio, video {
                       ]
                     },
                     test_your_skills: {
-                      children: {},
+                      children: {
+                        values: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Values",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://convertingcolors.com/hex-color-86DEFA.html",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://convertingcolors.com/hex-color-86DEFA.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      },
                       slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills",
                       messages: [
                         {
@@ -2144,6 +2224,23 @@ audio, video {
                       ]
                     }
                   ]
+                },
+                text_styling: {
+                  children: {
+                    web_fonts: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.exljbris.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 }
               },
               slug: "/en-US/docs/Learn_web_development/Core",
@@ -2268,19 +2365,6 @@ audio, video {
                 },
                 performance: {
                   children: {
-                    css: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/CSS",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2016/12/gpu-animation-doing-it-right/",
-                            "unknown certificate verification error"
-                          ]
-                        }
-                      ]
-                    },
                     web_performance_basics: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Web_Performance_Basics",
@@ -2288,6 +2372,13 @@ audio, video {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -2312,19 +2403,6 @@ audio, video {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    },
-                    django: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://wiki.python.org/moin/BeginnersGuide/NonProgrammers",
-                            503
-                          ]
                         }
                       ]
                     },
@@ -2368,6 +2446,27 @@ audio, video {
                           data: [
                             "https://github.com/jazzband/django-waffle",
                             "https://github.com/django-waffle/django-waffle"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            getting_started: {
+              children: {
+                soft_skills: {
+                  children: {
+                    collaboration_and_teamwork: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Collaboration_and_teamwork",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.geeksforgeeks.org/software-development-life-cycle-sdlc/",
+                            "https://www.geeksforgeeks.org/software-engineering/software-development-life-cycle-sdlc/"
                           ]
                         }
                       ]
@@ -2554,6 +2653,33 @@ audio, video {
                 },
                 tools_and_setup: {
                   children: {
+                    available_text_editors: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -2564,10 +2690,71 @@ audio, video {
                         }
                       ]
                     },
+                    how_do_you_host_your_website_on_google_app_engine: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gaesamplesite.appspot.com/",
+                            503
+                          ]
+                        }
+                      ]
+                    },
+                    what_are_browser_developer_tools: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_are_browser_developer_tools",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/web-inspector/elements-tab/",
+                            'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/web-inspector/elements-tab/". For more information, pass `verbose: true` in the second argument to fetch()'
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/web-inspector/sources-tab/",
+                            'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/web-inspector/sources-tab/". For more information, pass `verbose: true` in the second argument to fetch()'
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/web-inspector/console-object-api/",
+                            'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/web-inspector/console-object-api/". For more information, pass `verbose: true` in the second argument to fetch()'
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/web-inspector/console-command-line-api/",
+                            'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/web-inspector/console-command-line-api/". For more information, pass `verbose: true` in the second argument to fetch()'
+                          ]
+                        }
+                      ]
+                    },
                     what_software_do_i_need: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.ucweb.com/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -2667,19 +2854,6 @@ audio, video {
                       data: []
                     }
                   ]
-                },
-                open_source_etiquette: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Community/Open_source_etiquette",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://stackoverflow.blog/2020/08/03/getting-started-with-contributing-to-open-source/",
-                        "unknown certificate verification error"
-                      ]
-                    }
-                  ]
                 }
               },
               slug: "/en-US/docs/MDN/Community",
@@ -2706,6 +2880,19 @@ audio, video {
                 },
                 howto: {
                   children: {
+                    research_technology: {
+                      children: {},
+                      slug: "/en-US/docs/MDN/Writing_guidelines/Howto/Research_technology",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/downloads/",
+                            'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/downloads/". For more information, pass `verbose: true` in the second argument to fetch()'
+                          ]
+                        }
+                      ]
+                    },
                     write_an_api_reference: {
                       children: {
                         information_contained_in_a_webidl_file: {
@@ -7908,6 +8095,23 @@ else if (e.target.id === "tabs-alert-info") {
               children: {
                 aria: {
                   children: {
+                    how_to: {
+                      children: {
+                        "file_aria-related_bugs": {
+                          children: {},
+                          slug: "/en-US/docs/Web/Accessibility/ARIA/How_to/File_ARIA-related_bugs",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.webkit.org/reporting-bugs/",
+                                'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://www.webkit.org/reporting-bugs/". For more information, pass `verbose: true` in the second argument to fetch()'
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     reference: {
                       children: {
                         attributes: {
@@ -8183,7 +8387,17 @@ else if (e.target.id === "tabs-alert-info") {
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/Animation",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webkit.org/blog/7551/responsive-design-for-motion/",
+                        'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/blog/7551/responsive-design-for-motion/". For more information, pass `verbose: true` in the second argument to fetch()'
+                      ]
+                    }
+                  ]
                 },
                 attribution_reporting_api: {
                   children: {
@@ -8241,6 +8455,19 @@ else if (e.target.id === "tabs-alert-info") {
                       ]
                     }
                   }
+                },
+                beacon_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Beacon_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webkit.org/blog/8821/link-click-analytics-and-privacy/",
+                        'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/blog/8821/link-click-analytics-and-privacy/". For more information, pass `verbose: true` in the second argument to fetch()'
+                      ]
+                    }
+                  ]
                 },
                 canvas_api: {
                   children: {
@@ -8378,6 +8605,19 @@ api.MessagePort`,
                       ]
                     }
                   }
+                },
+                console_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Console_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webkit.org/web-inspector/console-object-api/",
+                        'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/web-inspector/console-object-api/". For more information, pass `verbose: true` in the second argument to fetch()'
+                      ]
+                    }
+                  ]
                 },
                 convolvernode: {
                   children: {},
@@ -8755,6 +8995,32 @@ api.DeviceOrientationEvent`,
                         }
                       ]
                     },
+                    hasstorageaccess: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document/hasStorageAccess",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/blog/8124/introducing-storage-access-api/",
+                            'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/blog/8124/introducing-storage-access-api/". For more information, pass `verbose: true` in the second argument to fetch()'
+                          ]
+                        }
+                      ]
+                    },
+                    hasunpartitionedcookieaccess: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document/hasUnpartitionedCookieAccess",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/blog/8124/introducing-storage-access-api/",
+                            'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/blog/8124/introducing-storage-access-api/". For more information, pass `verbose: true` in the second argument to fetch()'
+                          ]
+                        }
+                      ]
+                    },
                     mozsetimageelement: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Document/mozSetImageElement",
@@ -8778,6 +9044,32 @@ api.DeviceOrientationEvent`,
 }
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    },
+                    requeststorageaccess: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document/requestStorageAccess",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/blog/8124/introducing-storage-access-api/",
+                            'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/blog/8124/introducing-storage-access-api/". For more information, pass `verbose: true` in the second argument to fetch()'
+                          ]
+                        }
+                      ]
+                    },
+                    requeststorageaccessfor: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document/requestStorageAccessFor",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/blog/8124/introducing-storage-access-api/",
+                            'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/blog/8124/introducing-storage-access-api/". For more information, pass `verbose: true` in the second argument to fetch()'
                           ]
                         }
                       ]
@@ -9783,6 +10075,13 @@ function checkDeadlines() {
                         {
                           message: "Broken browser compat anchor",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/blog/8182/introducing-the-payment-request-api-for-apple-pay/",
+                            'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/blog/8182/introducing-the-payment-request-api-for-apple-pay/". For more information, pass `verbose: true` in the second argument to fetch()'
+                          ]
                         }
                       ]
                     },
@@ -9813,6 +10112,13 @@ function checkDeadlines() {
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/Payment_Request_API/Using_secure_payment_confirmation"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webkit.org/blog/8182/introducing-the-payment-request-api-for-apple-pay/",
+                        'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/blog/8182/introducing-the-payment-request-api-for-apple-pay/". For more information, pass `verbose: true` in the second argument to fetch()'
                       ]
                     }
                   ]
@@ -10740,6 +11046,50 @@ fetch(url)
                       ]
                     }
                   ]
+                },
+                storage_access_api: {
+                  children: {
+                    related_website_sets: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Storage_Access_API/Related_website_sets",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/standards-positions/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/Storage_Access_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webkit.org/blog/8124/introducing-storage-access-api/",
+                        'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/blog/8124/introducing-storage-access-api/". For more information, pass `verbose: true` in the second argument to fetch()'
+                      ]
+                    }
+                  ]
+                },
+                storage_api: {
+                  children: {
+                    storage_quotas_and_eviction_criteria: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Storage_API/Storage_quotas_and_eviction_criteria",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.webkit.org/blog/14403/updates-to-storage-policy/",
+                            'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://www.webkit.org/blog/14403/updates-to-storage-policy/". For more information, pass `verbose: true` in the second argument to fetch()'
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 stylesheet: {
                   children: {
@@ -13980,6 +14330,19 @@ fetch(url)
 <div id="editor" style="height:200px;background:#eee;"></div>
 ~~~
 `
+                      ]
+                    }
+                  ]
+                },
+                topics_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Topics_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webkit.org/standards-positions/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -20041,6 +20404,13 @@ function displayPoseStats(pose) {
                   slug: "/en-US/docs/Web/CSS/::-webkit-scrollbar",
                   messages: [
                     {
+                      message: "Broken external link",
+                      data: [
+                        "https://webkit.org/blog/363/styling-scrollbars/",
+                        'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/blog/363/styling-scrollbars/". For more information, pass `verbose: true` in the second argument to fetch()'
+                      ]
+                    },
+                    {
                       message: "Unexpected BCD keys",
                       data: [
                         "Actual:",
@@ -20149,6 +20519,32 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
+                "-webkit-box-reflect": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/-webkit-box-reflect",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webkit.org/blog/182/css-reflections/",
+                        'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/blog/182/css-reflections/". For more information, pass `verbose: true` in the second argument to fetch()'
+                      ]
+                    }
+                  ]
+                },
+                "-webkit-text-fill-color": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/-webkit-text-fill-color",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webkit.org/blog/85/introducing-text-stroke/",
+                        'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/blog/85/introducing-text-stroke/". For more information, pass `verbose: true` in the second argument to fetch()'
+                      ]
+                    }
+                  ]
+                },
                 "-webkit-text-stroke": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/-webkit-text-stroke",
@@ -20156,6 +20552,39 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webkit.org/blog/85/introducing-text-stroke/",
+                        'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/blog/85/introducing-text-stroke/". For more information, pass `verbose: true` in the second argument to fetch()'
+                      ]
+                    }
+                  ]
+                },
+                "-webkit-text-stroke-color": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/-webkit-text-stroke-color",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webkit.org/blog/85/introducing-text-stroke/",
+                        'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/blog/85/introducing-text-stroke/". For more information, pass `verbose: true` in the second argument to fetch()'
+                      ]
+                    }
+                  ]
+                },
+                "-webkit-text-stroke-width": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/-webkit-text-stroke-width",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webkit.org/blog/85/introducing-text-stroke/",
+                        'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/blog/85/introducing-text-stroke/". For more information, pass `verbose: true` in the second argument to fetch()'
+                      ]
                     }
                   ]
                 },
@@ -21011,6 +21440,13 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/blog/7551/responsive-design-for-motion/",
+                            'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/blog/7551/responsive-design-for-motion/". For more information, pass `verbose: true` in the second argument to fetch()'
+                          ]
                         }
                       ]
                     },
@@ -21568,6 +22004,19 @@ div.box-5 {
                     }
                   ]
                 },
+                animation: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/animation",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webkit.org/blog/7551/responsive-design-for-motion/",
+                        'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/blog/7551/responsive-design-for-motion/". For more information, pass `verbose: true` in the second argument to fetch()'
+                      ]
+                    }
+                  ]
+                },
                 asin: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/asin",
@@ -21780,19 +22229,6 @@ div.box-5 {
 }
 ~~~
 `
-                      ]
-                    }
-                  ]
-                },
-                "aspect-ratio": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/aspect-ratio",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.smashingmagazine.com/2020/03/setting-height-width-images-important-again/",
-                        "unknown certificate verification error"
                       ]
                     }
                   ]
@@ -23564,6 +24000,138 @@ color(from hsl(0 100% 50%) xyz calc(x - 0.3) calc(y + 0.3) calc(z + 0.3) / calc(
 ~~~
 `
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/blog/10042/wide-gamut-color-in-css-with-display-p3/",
+                            'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/blog/10042/wide-gamut-color-in-css-with-display-p3/". For more information, pass `verbose: true` in the second argument to fetch()'
+                          ]
+                        }
+                      ]
+                    },
+                    "contrast-color": {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/color_value/contrast-color",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "function-no-unknown",
+                            'Unexpected unknown function "contrast-color" (function-no-unknown)',
+                            "  color: contrast-color(var(--button-color));",
+                            "9:10 - 9:24",
+                            `/en-US/docs/Web/CSS/color_value/contrast-color
+[function-no-unknown] Unexpected unknown function "contrast-color" (function-no-unknown)
+~~~
+:root {
+  --button-color: lightblue;
+}
+
+button {
+  background-color: var(--button-color);
+
+  /* Set contrasting text color automatically */
+  color: contrast-color(var(--button-color));
+}
+
+body {
+  padding: 1rem;
+}
+
+button {
+  margin: 3rem;
+  padding: 1rem;
+  width: 150px;
+  font-size: 2rem;
+  border-radius: 1rem;
+}
+
+@supports not (color: contrast-color(red)) {
+  body::before {
+    content: "Your browser doesn't support the contrast-color() function.";
+    background-color: wheat;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  body > * {
+    display: none;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "function-no-unknown",
+                            'Unexpected unknown function "contrast-color" (function-no-unknown)',
+                            "  color: contrast-color(var(--background-color));",
+                            "14:10 - 14:24",
+                            `/en-US/docs/Web/CSS/color_value/contrast-color
+[function-no-unknown] Unexpected unknown function "contrast-color" (function-no-unknown)
+~~~
+:root {
+  --background-color: navy;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-color: wheat;
+  }
+}
+
+body,
+a {
+  background-color: var(--background-color);
+  color: contrast-color(var(--background-color));
+}
+
+body {
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+
+pre {
+  margin-top: 3rem;
+}
+
+@supports not (color: contrast-color(red)) {
+  body::before {
+    content: "Your browser doesn't support the contrast-color() function.";
+    background-color: wheat;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  body {
+    background-color: white;
+  }
+
+  body > * {
+    display: none;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "w3.org/TR link",
+                          data: [
+                            "https://www.w3.org/TR/WCAG21/#contrast-minimum"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/blog/16929/contrast-color/",
+                            'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/blog/16929/contrast-color/". For more information, pass `verbose: true` in the second argument to fetch()'
+                          ]
                         }
                       ]
                     },
@@ -23840,6 +24408,20 @@ lab(from hsl(0 100% 50%) calc(l + 20) calc(a - 20) calc(b - 40) / calc(alpha - 0
 ~~~
 `
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://lea.verou.me/blog/2020/04/lch-colors-in-css-what-why-and-how/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/blog/11577/release-notes-for-safari-technology-preview-122/",
+                            'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/blog/11577/release-notes-for-safari-technology-preview-122/". For more information, pass `verbose: true` in the second argument to fetch()'
+                          ]
                         }
                       ]
                     },
@@ -23924,6 +24506,13 @@ lch(from hsl(0 100% 50% / 0.8) l c h / 0.5)
 lch(from hsl(0 100% 50%) calc(l + 20) calc(c - 20) calc(h - 40) / calc(alpha - 0.1))
 ~~~
 `
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://lea.verou.me/blog/2020/04/lch-colors-in-css-what-why-and-how/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -25222,6 +25811,169 @@ form {
                           message: "Broken anchor",
                           data: [
                             "#see-also"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                css_cascading_variables: {
+                  children: {
+                    using_css_custom_properties: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_cascading_variables/Using_CSS_custom_properties",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "peenk" for property "--box-color" (declaration-property-value-no-unknown)',
+                            "  --box-color: peenk;",
+                            "13:16 - 13:21",
+                            `/en-US/docs/Web/CSS/CSS_cascading_variables/Using_CSS_custom_properties
+[declaration-property-value-no-unknown] Unexpected unknown value "peenk" for property "--box-color" (declaration-property-value-no-unknown)
+~~~
+@property --box-color {
+  syntax: "<color>";
+  initial-value: teal;
+  inherits: false;
+}
+
+.one {
+  --box-color: pink;
+  background-color: var(--box-color);
+}
+
+.two {
+  --box-color: peenk;
+  background-color: var(--box-color);
+}
+
+.three {
+  --box-color: 2rem;
+  background-color: var(--box-color);
+}
+
+div {
+  color: white;
+  font-family: sans-serif;
+  width: 100px;
+  height: 100px;
+  margin: 4px;
+  padding: 8px;
+  border: 2px black solid;
+  display: inline-block;
+}
+
+.one {
+  color: black;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "2rem" for property "--box-color" (declaration-property-value-no-unknown)',
+                            "  --box-color: 2rem;",
+                            "18:16 - 18:20",
+                            `/en-US/docs/Web/CSS/CSS_cascading_variables/Using_CSS_custom_properties
+[declaration-property-value-no-unknown] Unexpected unknown value "2rem" for property "--box-color" (declaration-property-value-no-unknown)
+~~~
+@property --box-color {
+  syntax: "<color>";
+  initial-value: teal;
+  inherits: false;
+}
+
+.one {
+  --box-color: pink;
+  background-color: var(--box-color);
+}
+
+.two {
+  --box-color: peenk;
+  background-color: var(--box-color);
+}
+
+.three {
+  --box-color: 2rem;
+  background-color: var(--box-color);
+}
+
+div {
+  color: white;
+  font-family: sans-serif;
+  width: 100px;
+  height: 100px;
+  margin: 4px;
+  padding: 8px;
+  border: 2px black solid;
+  display: inline-block;
+}
+
+.one {
+  color: black;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "16px" for property "color" (declaration-property-value-no-unknown)',
+                            "  color: 16px;",
+                            "8:10 - 8:14",
+                            `/en-US/docs/Web/CSS/CSS_cascading_variables/Using_CSS_custom_properties
+[declaration-property-value-no-unknown] Unexpected unknown value "16px" for property "color" (declaration-property-value-no-unknown)
+~~~
+p {
+  font-weight: bold;
+  color: blue;
+}
+
+p {
+  /* oops, not a valid color */
+  color: 16px;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "16px" for property "--text-color" (declaration-property-value-no-unknown)',
+                            "  --text-color: 16px;",
+                            "8:17 - 8:21",
+                            `/en-US/docs/Web/CSS/CSS_cascading_variables/Using_CSS_custom_properties
+[declaration-property-value-no-unknown] Unexpected unknown value "16px" for property "--text-color" (declaration-property-value-no-unknown)
+~~~
+@property --text-color {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: teal;
+}
+
+:root {
+  --text-color: 16px;
+}
+
+p {
+  font-weight: bold;
+  color: blue;
+}
+
+p {
+  color: var(--text-color);
+}
+~~~
+`
                           ]
                         }
                       ]
@@ -28215,23 +28967,6 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                css_text: {
-                  children: {
-                    wrapping_breaking_text: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_text/Wrapping_breaking_text",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2019/09/overflow-data-loss-css/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -38345,6 +39080,19 @@ css.properties.list-style-type.symbols`
                     }
                   ]
                 },
+                "touch-action": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/touch-action",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webkit.org/blog/5610/more-responsive-tapping-on-ios/",
+                        'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/blog/5610/more-responsive-tapping-on-ios/". For more information, pass `verbose: true` in the second argument to fetch()'
+                      ]
+                    }
+                  ]
+                },
                 "transform-box": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/transform-box",
@@ -39091,19 +39839,6 @@ html.elements.textarea.disabled`
                                   ]
                                 }
                               ]
-                            },
-                            preload: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/preload",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
                             }
                           }
                         },
@@ -39662,6 +40397,19 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         "available-dictionary": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Available-Dictionary",
@@ -39972,6 +40720,19 @@ http.headers.Use-As-Dictionary`,
                         }
                       }
                     },
+                    execution_model: {
+                      children: {},
+                      slug: "/en-US/docs/Web/JavaScript/Reference/Execution_model",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/blog/6240/ecmascript-6-proper-tail-calls-in-webkit/",
+                            'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/blog/6240/ecmascript-6-proper-tail-calls-in-webkit/". For more information, pass `verbose: true` in the second argument to fetch()'
+                          ]
+                        }
+                      ]
+                    },
                     global_objects: {
                       children: {
                         asyncgeneratorfunction: {
@@ -40083,6 +40844,19 @@ http.headers.Use-As-Dictionary`,
                           ]
                         }
                       }
+                    },
+                    javascript_technologies_overview: {
+                      children: {},
+                      slug: "/en-US/docs/Web/JavaScript/Reference/JavaScript_technologies_overview",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://docs.webkit.org/Deep%20Dive/JSC/JavaScriptCore.html",
+                            'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://docs.webkit.org/Deep%20Dive/JSC/JavaScriptCore.html". For more information, pass `verbose: true` in the second argument to fetch()'
+                          ]
+                        }
+                      ]
                     },
                     lexical_grammar: {
                       children: {},
@@ -40309,6 +41083,19 @@ console.log(bar.next()); // {value: 10, done: false}
                         }
                       ]
                     },
+                    autoplay: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Media/Guides/Autoplay",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/blog/7734/auto-play-policy-changes-for-macos/",
+                            'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/blog/7734/auto-play-policy-changes-for-macos/". For more information, pass `verbose: true` in the second argument to fetch()'
+                          ]
+                        }
+                      ]
+                    },
                     formats: {
                       children: {
                         video_codecs: {
@@ -40327,6 +41114,13 @@ console.log(bar.next()); // {value: 10, done: false}
                               data: [
                                 "https://about.att.com/innovation/ip/patents",
                                 403
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://webkit.org/blog/8672/on-the-road-to-webrtc-1-0-including-vp8/",
+                                'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/blog/8672/on-the-road-to-webrtc-1-0-including-vp8/". For more information, pass `verbose: true` in the second argument to fetch()'
                               ]
                             }
                           ]
@@ -40350,19 +41144,6 @@ console.log(bar.next()); // {value: 10, done: false}
                           data: [
                             "http://velocityjs.org/",
                             ""
-                          ]
-                        }
-                      ]
-                    },
-                    speculative_loading: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Performance/Guides/Speculative_loading",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -40393,6 +41174,19 @@ console.log(bar.next()); // {value: 10, done: false}
                           ]
                         }
                       }
+                    },
+                    redirect_tracking_protection: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Privacy/Guides/Redirect_tracking_protection",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/",
+                            'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/". For more information, pass `verbose: true` in the second argument to fetch()'
+                          ]
+                        }
+                      ]
                     },
                     storage_access_policy: {
                       children: {
@@ -40464,6 +41258,26 @@ console.log(bar.next()); // {value: 10, done: false}
                           message: "No link to child page",
                           data: [
                             "/en-US/docs/Web/Privacy/Guides/Storage_Access_Policy/Errors"
+                          ]
+                        }
+                      ]
+                    },
+                    "third-party_cookies": {
+                      children: {},
+                      slug: "/en-US/docs/Web/Privacy/Guides/Third-party_cookies",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/tracking-prevention-policy/",
+                            'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/tracking-prevention-policy/". For more information, pass `verbose: true` in the second argument to fetch()'
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/tracking-prevention/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -46711,6 +47525,19 @@ svg.elements.feSpotLight.z`
                     },
                     element: {
                       children: {
+                        animate: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Element/animate",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://webkit.org/blog/7551/responsive-design-for-motion/",
+                                'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/blog/7551/responsive-design-for-motion/". For more information, pass `verbose: true` in the second argument to fetch()'
+                              ]
+                            }
+                          ]
+                        },
                         feblend: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Element/feBlend",
@@ -49431,6 +50258,13 @@ svg.elements.feSpotLight.z`
             {
               message: "Unreachable via sidebar",
               data: []
+            },
+            {
+              message: "Broken external link",
+              data: [
+                "https://webkit.org/web-inspector/",
+                'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://webkit.org/web-inspector/". For more information, pass `verbose: true` in the second argument to fetch()'
+              ]
             }
           ]
         },
