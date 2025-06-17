@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-3zw77wrs.js";
+} from "./chunk-8kv0j3yt.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -454,19 +454,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            algorithm: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Algorithm",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://optimization.cbe.cornell.edu/index.php?title=Traveling_salesman_problem",
-                    "certificate has expired"
-                  ]
                 }
               ]
             },
@@ -1538,6 +1525,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://cli.emberjs.com/release/advanced-use/asset-compilation/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -1717,6 +1711,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/guide/essentials/template-refs.html",
+                            "unknown certificate verification error"
+                          ]
                         }
                       ]
                     },
@@ -2138,6 +2139,19 @@ var warnings_processed_default = {
                         }
                       ]
                     },
+                    other_form_controls: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Other_form_controls",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/learning-area/blob/main/html/forms/native-form-widgets/drop-down-content.html",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        }
+                      ]
+                    },
                     sending_forms_through_javascript: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Sending_forms_through_JavaScript",
@@ -2165,6 +2179,19 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        }
+                      ]
+                    },
+                    your_first_form: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Your_first_form",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2018/08/ux-html5-mobile-form-part-1/",
+                            "unknown certificate verification error"
+                          ]
                         }
                       ]
                     }
@@ -2464,6 +2491,19 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    how_do_you_host_your_website_on_google_app_engine: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gaesamplesite.appspot.com/",
+                            503
+                          ]
                         }
                       ]
                     },
@@ -4405,7 +4445,7 @@ else if (e.target.id === "tabs-alert-info") {
                           message: "HTTP link",
                           data: [
                             "http://www.aha-soft.com/free-icons/free-retina-icon-set/",
-                            ""
+                            "has HTTPS alternative"
                           ]
                         }
                       ]
@@ -9011,6 +9051,19 @@ api.Document.fullscreen`,
                     }
                   ]
                 },
+                idbtransaction: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/IDBTransaction",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://peter.sh/2012/05/tab-sizing-string-values-for-indexeddb-and-chrome-21/",
+                        500
+                      ]
+                    }
+                  ]
+                },
                 identitycredentialrequestoptions: {
                   children: {},
                   slug: "/en-US/docs/Web/API/IdentityCredentialRequestOptions",
@@ -10515,6 +10568,19 @@ function checkDeadlines() {
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/API/SourceBuffer/updatestart_event"
+                      ]
+                    }
+                  ]
+                },
+                streams_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Streams_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://fetch-progress.anthum.com/",
+                        "certificate has expired"
                       ]
                     }
                   ]
@@ -22864,6 +22930,45 @@ body {
                     }
                   ]
                 },
+                "break-after": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/break-after",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.smashingmagazine.com/2019/02/css-fragmentation/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "break-before": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/break-before",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.smashingmagazine.com/2019/02/css-fragmentation/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "break-inside": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/break-inside",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.smashingmagazine.com/2019/02/css-fragmentation/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 calc: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/calc",
@@ -27327,6 +27432,98 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        }
+                      ]
+                    },
+                    multiple_masks: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_masking/Multiple_masks",
+                      messages: [
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "#the-mask-image-property"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/CSS_masking/Mask_properties"
+                          ]
+                        },
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "/en-US/docs/Web/CSS/CSS_masking/Masking",
+                            "#with_impoorted_images"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/CSS_masking/Mask_properties"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/CSS_masking/Mask_properties"
+                          ]
+                        },
+                        {
+                          message: "Unreachable via sidebar",
+                          data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "contain" for property "mask" (declaration-property-value-no-unknown)',
+                            "mask: url(star.svg) contain;",
+                            "1:21 - 1:28",
+                            `/en-US/docs/Web/CSS/CSS_masking/Multiple_masks
+[declaration-property-value-no-unknown] Unexpected unknown value "contain" for property "mask" (declaration-property-value-no-unknown)
+~~~
+mask: url(star.svg) contain;
+mask: url(star.svg) 10px 10px cover;
+mask: url(star.svg) top right 100px 100px;
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "cover" for property "mask" (declaration-property-value-no-unknown)',
+                            "mask: url(star.svg) 10px 10px cover;",
+                            "2:31 - 2:36",
+                            `/en-US/docs/Web/CSS/CSS_masking/Multiple_masks
+[declaration-property-value-no-unknown] Unexpected unknown value "cover" for property "mask" (declaration-property-value-no-unknown)
+~~~
+mask: url(star.svg) contain;
+mask: url(star.svg) 10px 10px cover;
+mask: url(star.svg) top right 100px 100px;
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "100px" for property "mask" (declaration-property-value-no-unknown)',
+                            "mask: url(star.svg) top right 100px 100px;",
+                            "3:31 - 3:36",
+                            `/en-US/docs/Web/CSS/CSS_masking/Multiple_masks
+[declaration-property-value-no-unknown] Unexpected unknown value "100px" for property "mask" (declaration-property-value-no-unknown)
+~~~
+mask: url(star.svg) contain;
+mask: url(star.svg) 10px 10px cover;
+mask: url(star.svg) top right 100px 100px;
+~~~
+`
+                          ]
                         }
                       ]
                     }
@@ -37065,6 +37262,22 @@ form {
                     }
                   ]
                 },
+                properties: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/Properties",
+                  messages: [
+                    {
+                      message: "Code with space",
+                      data: [
+                        "--* custom properties (CSS variables)"
+                      ]
+                    },
+                    {
+                      message: "Unreachable via page",
+                      data: []
+                    }
+                  ]
+                },
                 ratio: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/ratio",
@@ -40063,6 +40276,13 @@ console.log(bar.next()); // {value: 10, done: false}
                     {
                       message: "Unreachable via page",
                       data: []
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www-archive.mozilla.org/projects/security/components/reviewguide.html",
+                        "unknown certificate verification error"
+                      ]
                     }
                   ]
                 },
