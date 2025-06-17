@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-8kv0j3yt.js";
+} from "./chunk-h9hqejwv.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -1180,6 +1180,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            ssg: {
+              children: {},
+              slug: "/en-US/docs/Glossary/SSG",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://vitepress.dev/",
+                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                  ]
+                }
+              ]
+            },
             ssr: {
               children: {},
               slug: "/en-US/docs/Glossary/SSR",
@@ -1525,13 +1538,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://cli.emberjs.com/release/advanced-use/asset-compilation/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -1570,6 +1576,13 @@ var warnings_processed_default = {
                           data: [
                             "https://phabricator.wikimedia.org/T241180",
                             "429 Retry-After: 1000"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vitepress.dev/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -1711,13 +1724,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vuejs.org/guide/essentials/template-refs.html",
-                            "unknown certificate verification error"
-                          ]
                         }
                       ]
                     },
@@ -1738,6 +1744,20 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/guide/extras/composition-api-faq.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/guide/extras/composition-api-faq.html",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -1800,6 +1820,19 @@ var warnings_processed_default = {
 </body>
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    },
+                    html_images: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -2139,19 +2172,6 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    other_form_controls: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Other_form_controls",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/forms/native-form-widgets/drop-down-content.html",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
                     sending_forms_through_javascript: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Sending_forms_through_JavaScript",
@@ -2181,19 +2201,6 @@ var warnings_processed_default = {
                           data: []
                         }
                       ]
-                    },
-                    your_first_form: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Your_first_form",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2018/08/ux-html5-mobile-form-part-1/",
-                            "unknown certificate verification error"
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Learn_web_development/Extensions/Forms",
@@ -2221,6 +2228,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -2235,6 +2249,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://cwiki.apache.org/confluence/display/httpd/RewriteHTTPToHTTPS",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     },
@@ -2272,6 +2293,27 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            getting_started: {
+              children: {
+                soft_skills: {
+                  children: {
+                    finding_a_job: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Finding_a_job",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.upwork.com/",
+                            403
+                          ]
                         }
                       ]
                     }
@@ -2462,13 +2504,6 @@ var warnings_processed_default = {
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
                       messages: [
                         {
-                          message: "Redirected external link",
-                          data: [
-                            "https://webchat.freenode.net/?channels=brackets",
-                            "https://irc.com/?channels=brackets"
-                          ]
-                        },
-                        {
                           message: "Broken external link",
                           data: [
                             "https://www.codelobster.com/forum/index.php",
@@ -2476,10 +2511,24 @@ var warnings_processed_default = {
                           ]
                         },
                         {
-                          message: "Redirected external link",
+                          message: "Broken external link",
                           data: [
-                            "https://webchat.freenode.net/?channels=textmate",
-                            "https://irc.com/?channels=textmate"
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -2494,23 +2543,17 @@ var warnings_processed_default = {
                         }
                       ]
                     },
-                    how_do_you_host_your_website_on_google_app_engine: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gaesamplesite.appspot.com/",
-                            503
-                          ]
-                        }
-                      ]
-                    },
                     what_software_do_i_need: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -7256,42 +7299,6 @@ else if (e.target.id === "tabs-alert-info") {
                         }
                       ]
                     },
-                    "139": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/139",
-                      messages: [
-                        {
-                          message: "Unexpected page type",
-                          data: [
-                            "firefox-release-notes-active"
-                          ]
-                        }
-                      ]
-                    },
-                    "140": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/140",
-                      messages: [
-                        {
-                          message: "Unexpected page type",
-                          data: [
-                            "firefox-release-notes-active"
-                          ]
-                        }
-                      ]
-                    },
-                    "141": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/141",
-                      messages: [
-                        {
-                          message: "Unexpected page type",
-                          data: [
-                            "firefox-release-notes-active"
-                          ]
-                        }
-                      ]
-                    },
                     "1.5": {
                       children: {
                         changing_the_priority_of_http_requests: {
@@ -8780,20 +8787,192 @@ api.DeviceOrientationEvent`,
                           ]
                         }
                       ]
-                    }
-                  }
-                },
-                documenttype: {
-                  children: {
-                    before: {
+                    },
+                    write: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/DocumentType/before",
+                      slug: "/en-US/docs/Web/API/Document/write",
                       messages: [
                         {
-                          message: "Broken external link",
+                          message: "Quoted code",
                           data: [
-                            "https://en.wikipedia.org/wiki/Conditional_comment",
-                            404
+                            "<plaintext>"
+                          ]
+                        },
+                        {
+                          message: "Quoted code",
+                          data: [
+                            "<!--"
+                          ]
+                        },
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "/en-US/docs/Web/API/Document/open",
+                            "#description"
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "object-shorthand",
+                            "Expected method shorthand.",
+                            `  createHTML: (string) => {
+    return string
+      .replace("<script", "&lt;script")
+      .replace("</script", "&lt;/script");
+  },`,
+                            "2:3 - 6:4",
+                            `/en-US/docs/Web/API/Document/write
+[object-shorthand] Expected method shorthand.
+~~~
+const policy = trustedTypes.createPolicy("docPolicy", {
+  createHTML: (string) => {
+    return string
+      .replace("<script", "&lt;script")
+      .replace("</script", "&lt;/script");
+  },
+});
+
+const oneInput = "<h1>Out with the old</h1>";
+const twoInput = "<p>in with the new!</p>";
+const threeInput = "<script>alert('evil afoot')<" + "/script>";
+const replace = document.querySelector("#replace");
+
+replace.addEventListener("click", () => {
+  document.open();
+  document.write(
+    policy.createHTML(oneInput),
+    policy.createHTML(twoInput),
+    policy.createHTML(threeInput),
+  );
+  document.close();
+});
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "arrow-body-style",
+                            "Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`.",
+                            `  createHTML: (string) => {
+    return string
+      .replace("<script", "&lt;script")
+      .replace("</script", "&lt;/script");
+  },`,
+                            "2:27 - 6:4",
+                            `/en-US/docs/Web/API/Document/write
+[arrow-body-style] Unexpected block statement surrounding arrow body; move the returned value immediately after the \`=>\`.
+~~~
+const policy = trustedTypes.createPolicy("docPolicy", {
+  createHTML: (string) => {
+    return string
+      .replace("<script", "&lt;script")
+      .replace("</script", "&lt;/script");
+  },
+});
+
+const oneInput = "<h1>Out with the old</h1>";
+const twoInput = "<p>in with the new!</p>";
+const threeInput = "<script>alert('evil afoot')<" + "/script>";
+const replace = document.querySelector("#replace");
+
+replace.addEventListener("click", () => {
+  document.open();
+  document.write(
+    policy.createHTML(oneInput),
+    policy.createHTML(twoInput),
+    policy.createHTML(threeInput),
+  );
+  document.close();
+});
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    writeln: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document/writeln",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "object-shorthand",
+                            "Expected method shorthand.",
+                            `  createHTML: (string) => {
+    return string
+      .replace("<script", "&lt;script")
+      .replace("</script", "&lt;/script");
+  },`,
+                            "2:3 - 6:4",
+                            `/en-US/docs/Web/API/Document/writeln
+[object-shorthand] Expected method shorthand.
+~~~
+const policy = trustedTypes.createPolicy("docPolicy", {
+  createHTML: (string) => {
+    return string
+      .replace("<script", "&lt;script")
+      .replace("</script", "&lt;/script");
+  },
+});
+
+const replace = document.querySelector("#replace");
+const oneInput = "<h1>Out with";
+const twoInput = "the old</h1>";
+const threeInput = "<pre>in with";
+const fourInput = "the new!</pre>";
+
+replace.addEventListener("click", () => {
+  document.open();
+  document.writeln(policy.createHTML(oneInput));
+  document.writeln(policy.createHTML(twoInput), policy.createHTML(threeInput));
+  document.writeln(policy.createHTML(fourInput));
+  document.close();
+});
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "arrow-body-style",
+                            "Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`.",
+                            `  createHTML: (string) => {
+    return string
+      .replace("<script", "&lt;script")
+      .replace("</script", "&lt;/script");
+  },`,
+                            "2:27 - 6:4",
+                            `/en-US/docs/Web/API/Document/writeln
+[arrow-body-style] Unexpected block statement surrounding arrow body; move the returned value immediately after the \`=>\`.
+~~~
+const policy = trustedTypes.createPolicy("docPolicy", {
+  createHTML: (string) => {
+    return string
+      .replace("<script", "&lt;script")
+      .replace("</script", "&lt;/script");
+  },
+});
+
+const replace = document.querySelector("#replace");
+const oneInput = "<h1>Out with";
+const twoInput = "the old</h1>";
+const threeInput = "<pre>in with";
+const fourInput = "the new!</pre>";
+
+replace.addEventListener("click", () => {
+  document.open();
+  document.writeln(policy.createHTML(oneInput));
+  document.writeln(policy.createHTML(twoInput), policy.createHTML(threeInput));
+  document.writeln(policy.createHTML(fourInput));
+  document.close();
+});
+~~~
+`
                           ]
                         }
                       ]
@@ -9047,19 +9226,6 @@ api.Document.fullscreen`,
                       message: "Not in BCD",
                       data: [
                         "api.HTMLSelectedContentElement"
-                      ]
-                    }
-                  ]
-                },
-                idbtransaction: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/IDBTransaction",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://peter.sh/2012/05/tab-sizing-string-values-for-indexeddb-and-chrome-21/",
-                        500
                       ]
                     }
                   ]
@@ -14627,126 +14793,6 @@ function draw() {
                       children: {},
                       slug: "/en-US/docs/Web/API/Web_Authentication_API/WebAuthn_extensions",
                       messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: ';' expected.",
-                            "        second: nextSessionKey /* salt for next session */,",
-                            "6:9",
-                            `/en-US/docs/Web/API/Web_Authentication_API/WebAuthn_extensions
-[syntax] Parsing error: ';' expected.
-~~~
-{
-  extensions: {
-    prf: {
-      eval: {
-        first: currentSessionKey /* salt for current session */,
-        second: nextSessionKey /* salt for next session */,
-      },
-    },
-  },
-};
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: ';' expected.",
-                            '      evalByCredential: {"<credentialId>": {first: bufferOne, second: bufferTwo}, ..., "<credentialId>": {first: anotherBufferOne, second: anotherBufferTwo} }',
-                            "4:9",
-                            `/en-US/docs/Web/API/Web_Authentication_API/WebAuthn_extensions
-[syntax] Parsing error: ';' expected.
-~~~
-{
-  extensions: {
-    prf: {
-      evalByCredential: {"<credentialId>": {first: bufferOne, second: bufferTwo}, ..., "<credentialId>": {first: anotherBufferOne, second: anotherBufferTwo} }
-    },
-  },
-};
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: ';' expected.",
-                            "    results: {first: outputBuffer1, second: outputBuffer2}",
-                            "4:9",
-                            `/en-US/docs/Web/API/Web_Authentication_API/WebAuthn_extensions
-[syntax] Parsing error: ';' expected.
-~~~
-{
-  prf: {
-    enabled: true, // PRF can be used when creating credentials.
-    results: {first: outputBuffer1, second: outputBuffer2}
-  },
-};
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: Expression expected.",
-                            "  },",
-                            "4:9",
-                            `/en-US/docs/Web/API/Web_Authentication_API/WebAuthn_extensions
-[syntax] Parsing error: Expression expected.
-~~~
-{
-  prf: {
-    enabled: false, // PRF cannot be used when creating credentials.
-  },
-};
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: ';' expected.",
-                            "    results: {first: outputBuffer1, second: outputBuffer2}",
-                            "3:9",
-                            `/en-US/docs/Web/API/Web_Authentication_API/WebAuthn_extensions
-[syntax] Parsing error: ';' expected.
-~~~
-{
-  prf: {
-    results: {first: outputBuffer1, second: outputBuffer2}
-  },
-};
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: Declaration or statement expected.",
-                            "  prf: {},",
-                            "2:9",
-                            `/en-US/docs/Web/API/Web_Authentication_API/WebAuthn_extensions
-[syntax] Parsing error: Declaration or statement expected.
-~~~
-{
-  prf: {},
-};
-~~~
-`
-                          ]
-                        },
                         {
                           message: "Unexpected BCD keys",
                           data: [
@@ -22930,45 +22976,6 @@ body {
                     }
                   ]
                 },
-                "break-after": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/break-after",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.smashingmagazine.com/2019/02/css-fragmentation/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "break-before": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/break-before",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.smashingmagazine.com/2019/02/css-fragmentation/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "break-inside": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/break-inside",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.smashingmagazine.com/2019/02/css-fragmentation/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 calc: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/calc",
@@ -27440,22 +27447,9 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/CSS_masking/Multiple_masks",
                       messages: [
                         {
-                          message: "Broken anchor",
-                          data: [
-                            "#the-mask-image-property"
-                          ]
-                        },
-                        {
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Web/CSS/CSS_masking/Mask_properties"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Web/CSS/CSS_masking/Masking",
-                            "#with_impoorted_images"
                           ]
                         },
                         {
@@ -27580,64 +27574,6 @@ mask: url(star.svg) top right 100px 100px;
                       ]
                     }
                   ]
-                },
-                css_nesting: {
-                  children: {
-                    using_css_nesting: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "selector-type-no-unknown",
-                            'Unexpected unknown type selector "element" (selector-type-no-unknown)',
-                            "  element& {",
-                            "2:3 - 2:10",
-                            `/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting
-[selector-type-no-unknown] Unexpected unknown type selector "element" (selector-type-no-unknown)
-~~~
-.my-class {
-  element& {
-  }
-}
-
-/* the browser parses this to become a compound selector */
-.my-class {
-}
-element.my-class {
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "selector-type-no-unknown",
-                            'Unexpected unknown type selector "element" (selector-type-no-unknown)',
-                            "element.my-class {",
-                            "9:1 - 9:8",
-                            `/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting
-[selector-type-no-unknown] Unexpected unknown type selector "element" (selector-type-no-unknown)
-~~~
-.my-class {
-  element& {
-  }
-}
-
-/* the browser parses this to become a compound selector */
-.my-class {
-}
-element.my-class {
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 css_overflow: {
                   children: {
@@ -28197,6 +28133,13 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                       message: "External sandbox link",
                       data: [
                         "https://codepen.io/KristopherVanSant/post/css-shapes-resources"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.sarasoueidan.com/blog/css-shapes/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -37267,12 +37210,6 @@ form {
                   slug: "/en-US/docs/Web/CSS/Properties",
                   messages: [
                     {
-                      message: "Code with space",
-                      data: [
-                        "--* custom properties (CSS variables)"
-                      ]
-                    },
-                    {
                       message: "Unreachable via page",
                       data: []
                     }
@@ -39468,6 +39405,19 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         "available-dictionary": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Available-Dictionary",
@@ -39859,7 +39809,59 @@ http.headers.Use-As-Dictionary`,
                           }
                         },
                         object: {
-                          children: {}
+                          children: {
+                            hasown: {
+                              children: {},
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwn",
+                              messages: [
+                                {
+                                  message: "JS code issue",
+                                  data: [
+                                    "no-prototype-builtins",
+                                    "Do not access Object.prototype method 'hasOwnProperty' from target object.",
+                                    'console.log(foo.hasOwnProperty("bar")); // false',
+                                    "8:17 - 8:31",
+                                    `/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwn
+[no-prototype-builtins] Do not access Object.prototype method 'hasOwnProperty' from target object.
+~~~
+const foo = {
+  hasOwnProperty() {
+    return false;
+  },
+  bar: "The dragons be out of office",
+};
+
+console.log(foo.hasOwnProperty("bar")); // false
+
+console.log(Object.hasOwn(foo, "bar")); // true
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "JS code issue",
+                                  data: [
+                                    "no-prototype-builtins",
+                                    "Do not access Object.prototype method 'hasOwnProperty' from target object.",
+                                    'console.log(foo.hasOwnProperty("prop"));',
+                                    "4:17 - 4:31",
+                                    `/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwn
+[no-prototype-builtins] Do not access Object.prototype method 'hasOwnProperty' from target object.
+~~~
+const foo = Object.create(null);
+foo.prop = "exists";
+
+console.log(foo.hasOwnProperty("prop"));
+// Uncaught TypeError: foo.hasOwnProperty is not a function
+
+console.log(Object.hasOwn(foo, "prop")); // true
+~~~
+`
+                                  ]
+                                }
+                              ]
+                            }
+                          }
                         },
                         proxy: {
                           children: {},
@@ -39980,7 +39982,25 @@ console.log(bar.next()); // {value: 10, done: false}
               }
             },
             mathml: {
-              children: {},
+              children: {
+                guides: {
+                  children: {
+                    authoring: {
+                      children: {},
+                      slug: "/en-US/docs/Web/MathML/Guides/Authoring",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.lyx.org/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
               slug: "/en-US/docs/Web/MathML",
               messages: [
                 {
@@ -40276,13 +40296,6 @@ console.log(bar.next()); // {value: 10, done: false}
                     {
                       message: "Unreachable via page",
                       data: []
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www-archive.mozilla.org/projects/security/components/reviewguide.html",
-                        "unknown certificate verification error"
-                      ]
                     }
                   ]
                 },
