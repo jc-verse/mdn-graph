@@ -20,6 +20,9 @@ soap12-part1
 speech-synthesis
 ttml
 ttml10-sdp-us
+  TODO: https://github.com/mdn/content/issues/39963
+ttml-imsc1.0.1
+ttml-imsc1.1
 UAAG20
 UNDERSTANDING-WCAG20
 WCAG20-TECHS

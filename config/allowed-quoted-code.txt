@@ -7,3 +7,7 @@
 /en-US/docs/MDN/Writing_guidelines/Page_structures/Links	<input/range>
 /en-US/docs/MDN/Writing_guidelines/Page_structures/Links	<input type="range">
 /en-US/docs/MDN/Writing_guidelines/Page_structures/Links	background-color
+
+  The HTML spec typesets it like this
+/en-US/docs/Web/API/Document/write	<plaintext>
+/en-US/docs/Web/API/Document/write	<!--

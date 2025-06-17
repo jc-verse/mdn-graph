@@ -4,6 +4,7 @@ import { parse as htmlParse } from "angular-html-parser";
 import eslintConfig from "../../config/eslint-config.ts";
 import stylelintConfig from "../../config/stylelint-config.ts";
 import htmlLintConfig from "../../config/html-lint-config.ts";
+import type { Visitor } from "angular-html-parser/lib/compiler/src/ml_parser/ast.js";
 
 const sanctionedLanguages = [
   "apacheconf",
@@ -77,6 +78,149 @@ const eslint = new ESLint({
   overrideConfig: eslintConfig,
   fix: false,
 });
+
+const htmlVisitor: Visitor = {
+  visitAttribute(attr, ctx) {
+    if (attr.name.startsWith("on")) {
+      ctx.messages.push({
+        ruleId: "no-inline-event-handlers",
+        message: `Do not use inline event handler "${attr.name}".`,
+        content: ctx.content,
+        span: attr.sourceSpan,
+      });
+    } else if (attr.name === "style") {
+      if (
+        // Not worth fixing
+        (ctx.path === "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Paths" &&
+          attr.value === "display:none") ||
+        (ctx.path.startsWith("/en-US/docs/Web/API/SVG") &&
+          attr.value.match(/^fill:\w+;$/))
+      )
+        return;
+      ctx.messages.push({
+        ruleId: "no-style-attr",
+        message: `Do not use the style attribute.`,
+        content: ctx.content,
+        span: attr.sourceSpan,
+      });
+    }
+  },
+  visitElement(el, ctx) {
+    if (
+      el.name === "script" &&
+      !el.attrs.some((attr) => attr.name === "src") &&
+      !el.attrs.some(
+        (attr) =>
+          attr.name === "type" &&
+          [
+            "application/json",
+            "text/js-worker",
+            "x-shader/x-vertex",
+            "x-shader/x-fragment",
+            "speculationrules",
+            "importmap",
+          ].includes(attr.value),
+      )
+    ) {
+      if (
+        !(
+          el.children.length === 1 &&
+          el.children[0]!.type === "text" &&
+          el.children[0]!.value.trim().match(
+            /^\/\/ (?:…|Code goes below this line|Your JavaScript goes here|JavaScript goes here|JavaScript code goes here|scene setup goes here|Inline JavaScript code)$|\/\* (?:All of our JavaScript code goes here|all our JavaScript code goes here) \*\/$/,
+          )
+        ) &&
+        // If the element has an id, it is probably used by a script
+        !el.attrs.some((attr) => attr.name === "id")
+      ) {
+        ctx.messages.push({
+          ruleId: "no-inline-script",
+          message:
+            "Do not write JS within the <script> element; use separate JS blocks instead.",
+          content: ctx.content,
+          span: el.sourceSpan,
+        });
+      }
+      if (el.children.length === 1 && el.children[0]!.type === "text") {
+        ctx.otherPromises.push(
+          checkJS(
+            el.children[0]!.value,
+            "js",
+            ctx.path,
+            ctx.report,
+            ctx.content,
+          ),
+        );
+      } else {
+        ctx.messages.push({
+          ruleId: "empty-script",
+          message: "Script element should have non-empty text.",
+          content: ctx.content,
+          span: el.sourceSpan,
+        });
+      }
+    } else if (el.name === "style") {
+      if (
+        !(
+          el.children.length === 1 &&
+          el.children[0]!.type === "text" &&
+          (el.children[0]!.value.trim().match(
+            /^\/\* (?:…|Add styles here|Insert your CSS here|CSS goes here) \*\/$/,
+          ) ||
+            // Used by a few game articles
+            el.children[0]!.value.replace(/\s/g, "") ===
+              "html,body,canvas{margin:0;padding:0;width:100%;height:100%;font-size:0;}")
+        ) &&
+        !ctx.isTemplate &&
+        // If the style has an id, it is probably used by a script
+        !el.attrs.some((attr) => attr.name === "id")
+      ) {
+        ctx.messages.push({
+          ruleId: "no-style-elem",
+          message:
+            "Do not use the <style> element; use separate CSS blocks instead.",
+          content: ctx.content,
+          span: el.sourceSpan,
+        });
+      }
+      if (el.children.length === 1 && el.children[0]!.type === "text") {
+        ctx.otherPromises.push(
+          checkCSS(
+            el.children[0]!.value,
+            "css",
+            ctx.path,
+            ctx.report,
+            ctx.content,
+          ),
+        );
+      } else {
+        ctx.messages.push({
+          ruleId: "empty-style",
+          message: "Style element should have non-empty text.",
+          content: ctx.content,
+          span: el.sourceSpan,
+        });
+      }
+    }
+    if (el.name === "template") {
+      ctx.isTemplate++;
+    }
+    el.attrs.forEach((attr) => attr.visit(this, ctx));
+    el.children.forEach((child) => child.visit(this, ctx));
+    if (el.name === "template") {
+      ctx.isTemplate--;
+    }
+  },
+  visitText() {},
+  visitComment() {},
+  visitCdata() {},
+  visitDocType() {},
+  visitBlock() {},
+  visitExpansion() {},
+  visitExpansionCase() {},
+  visitLetDeclaration() {},
+  visitBlockParameter() {},
+};
 
 function reportIfUnexpected(
   path: string,
@@ -245,139 +389,14 @@ async function checkHTML(
   }[] = [];
   const otherPromises: Promise<void>[] = [];
   for (const rootNode of rootNodes) {
-    rootNode.visit(
-      {
-        visitAttribute(attr, ctx) {
-          if (attr.name.startsWith("on")) {
-            messages.push({
-              ruleId: "no-inline-event-handlers",
-              message: `Do not use inline event handler "${attr.name}".`,
-              content,
-              span: attr.sourceSpan,
-            });
-          } else if (attr.name === "style") {
-            if (
-              // Not worth fixing
-              !(
-                path ===
-                  "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Paths" &&
-                attr.value === "display:none"
-              )
-            ) {
-              messages.push({
-                ruleId: "no-style-attr",
-                message: `Do not use the style attribute.`,
-                content,
-                span: attr.sourceSpan,
-              });
-            }
-          }
-        },
-        visitElement(el, ctx) {
-          if (
-            el.name === "script" &&
-            !el.attrs.some((attr) => attr.name === "src") &&
-            !el.attrs.some(
-              (attr) =>
-                attr.name === "type" &&
-                [
-                  "application/json",
-                  "x-shader/x-vertex",
-                  "x-shader/x-fragment",
-                  "speculationrules",
-                  "importmap",
-                ].includes(attr.value),
-            )
-          ) {
-            if (
-              !(
-                el.children.length === 1 &&
-                el.children[0]!.type === "text" &&
-                el.children[0]!.value.trim().match(
-                  /^\/\/ (?:…|Code goes below this line|Your JavaScript goes here|JavaScript goes here|JavaScript code goes here|scene setup goes here|Inline JavaScript code)$|\/\* (?:All of our JavaScript code goes here|all our JavaScript code goes here) \*\/$/,
-                )
-              ) &&
-              // If the element has an id, it is probably used by a script
-              !el.attrs.some((attr) => attr.name === "id")
-            ) {
-              messages.push({
-                ruleId: "no-inline-script",
-                message:
-                  "Do not write JS within the <script> element; use separate JS blocks instead.",
-                content,
-                span: el.sourceSpan,
-              });
-            }
-            if (el.children.length === 1 && el.children[0]!.type === "text") {
-              otherPromises.push(
-                checkJS(el.children[0]!.value, "js", path, report, content),
-              );
-            } else {
-              messages.push({
-                ruleId: "empty-script",
-                message: "Script element should have non-empty text.",
-                content,
-                span: el.sourceSpan,
-              });
-            }
-          } else if (el.name === "style") {
-            if (
-              !(
-                el.children.length === 1 &&
-                el.children[0]!.type === "text" &&
-                (el.children[0]!.value.trim().match(
-                  /^\/\* (?:…|Add styles here|Insert your CSS here|CSS goes here) \*\/$/,
-                ) ||
-                  // Used by a few game articles
-                  el.children[0]!.value.replace(/\s/g, "") ===
-                    "html,body,canvas{margin:0;padding:0;width:100%;height:100%;font-size:0;}")
-              ) &&
-              !ctx.isTemplate &&
-              // If the style has an id, it is probably used by a script
-              !el.attrs.some((attr) => attr.name === "id")
-            ) {
-              messages.push({
-                ruleId: "no-style-elem",
-                message:
-                  "Do not use the <style> element; use separate CSS blocks instead.",
-                content,
-                span: el.sourceSpan,
-              });
-            }
-            if (el.children.length === 1 && el.children[0]!.type === "text") {
-              otherPromises.push(
-                checkCSS(el.children[0]!.value, "css", path, report, content),
-              );
-            } else {
-              messages.push({
-                ruleId: "empty-style",
-                message: "Style element should have non-empty text.",
-                content,
-                span: el.sourceSpan,
-              });
-            }
-          }
-          if (el.name === "template") {
-            ctx.isTemplate++;
-          }
-          el.attrs.forEach((attr) => attr.visit(this, ctx));
-          el.children.forEach((child) => child.visit(this, ctx));
-          if (el.name === "template") {
-            ctx.isTemplate--;
-          }
-        },
-        visitText() {},
-        visitComment() {},
-        visitCdata() {},
-        visitDocType() {},
-        visitBlock() {},
-        visitExpansion() {},
-        visitExpansionCase() {},
-        visitLetDeclaration() {},
-        visitBlockParameter() {},
-      },
-      { isTemplate: 0 },
-    );
+    rootNode.visit(htmlVisitor, {
+      isTemplate: 0,
+      path,
+      content,
+      messages,
+      report,
+      otherPromises,
+    });
   }
   await Promise.all(otherPromises);
   const filePath = path.replace("/en-US/docs/", "");

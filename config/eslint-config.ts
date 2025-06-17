@@ -414,6 +414,7 @@ export default [
       "Web/JavaScript/Guide/Inheritance_and_the_prototype_chain/*",
       "Web/JavaScript/Reference/Global_Objects/Object/*",
       "Web/JavaScript/Reference/Global_Objects/Object/defineProperty/*",
+      "Web/JavaScript/Reference/Global_Objects/Object/hasOwn/*",
       "Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty/*",
       "Web/JavaScript/Reference/Global_Objects/Object/isPrototypeOf/*",
       "Web/JavaScript/Reference/Global_Objects/Object/propertyIsEnumerable/*",

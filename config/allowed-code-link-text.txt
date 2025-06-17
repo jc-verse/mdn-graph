@@ -124,7 +124,6 @@ storage.managed_schema
 
 dom.enable_web_task_scheduling
 dom.events.script_execute.enable
-dom.mutation_events.enabled
 dom.performance.event_timing.enable_interactionid
 dom.security.trusted_types.enabled
 dom.shadowdom.selection_across_boundary.enabled

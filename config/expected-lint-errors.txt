@@ -487,6 +487,27 @@ if (userGuess = randomNumber) {
 </span>
 ~~~
 
+/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility
+[no-style-attr] Do not use the style attribute.
+~~~
+<table>
+  <caption>
+    Florence's weekly lesson timetable
+  </caption>
+  <colgroup>
+    <col span="2" />
+    <col style="background-color: #97DB9A;" />
+    <col style="width: 42px;" />
+    <col style="background-color: #97DB9A;" />
+    <col style="background-color: #DCC48E; border: 4px solid #C1437A;" />
+    <col span="2" style="width: 42px;" />
+  </colgroup>
+  <tr>
+    <!-- Rest of code omitted for brevity -->
+  </tr>
+</table>
+~~~
+
 /en-US/docs/Learn_web_development/Core/Styling_basics/Cascade_layers
 [no-style-attr] Do not use the style attribute.
 ~~~
@@ -1571,17 +1592,6 @@ window.requestFileSystem(
 <textarea id="innerTextOutput" rows="6" cols="30" readonly>…</textarea>
 ~~~
 
-/en-US/docs/Web/API/HTMLElement/style
-[no-style-attr] Do not use the style attribute.
-~~~
-<div style="font-weight: bold;">
-  <div style="border-top: 1px solid blue; color: red;" id="elt">
-    An example div
-  </div>
-  <pre id="out"></pre>
-</div>
-~~~
-
 /en-US/docs/Web/API/HTMLImageElement/border
 [no-style-attr] Do not use the style attribute.
 ~~~
@@ -1978,6 +1988,37 @@ if (done) {
 }
 ~~~
 
+/en-US/docs/Web/API/StyleSheet/media
+[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+~~~
+<link rel="stylesheet" href="document.css" media="screen" />
+<style rel="stylesheet" media="screen, print">
+  body {
+    background-color: snow;
+  }
+</style>
+~~~
+
+/en-US/docs/Web/API/SVGElement/attributeStyleMap
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg
+  width="50"
+  height="50"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 250 250"
+  width="250"
+  height="250">
+  <circle
+    cx="100"
+    cy="100"
+    r="50"
+    id="el"
+    style="border-top: 1px solid blue; color: red;" />
+</svg>
+<div id="output"></div>
+~~~
+
 /en-US/docs/Web/API/URL_Pattern_API
 [prefer-regex-literals] Use a regular expression literal instead of the 'RegExp' constructor.
 ~~~
@@ -1997,6 +2038,74 @@ new URLPattern({ pathname: "([\\(\\)])" }); // ok
 
 new RegExp("[()]"); // ok
 new RegExp("[\\(\\)]"); // ok
+~~~
+
+/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>MDN Example - Embedded worker</title>
+    <script type="text/js-worker">
+      // This script WON'T be parsed by JS engines because its MIME type is text/js-worker.
+      const myVar = "Hello World!";
+      // Rest of your worker code goes here.
+    </script>
+    <script>
+      // This script WILL be parsed by JS engines because its MIME type is text/javascript.
+      function pageLog(sMsg) {
+        // Use a fragment: browser will only render/reflow once.
+        const frag = document.createDocumentFragment();
+        frag.appendChild(document.createTextNode(sMsg));
+        frag.appendChild(document.createElement("br"));
+        document.querySelector("#logDisplay").appendChild(frag);
+      }
+    </script>
+    <script type="text/js-worker">
+      // This script WON'T be parsed by JS engines because its MIME type is text/js-worker.
+      onmessage = (event) => {
+        postMessage(myVar);
+      };
+      // Rest of your worker code goes here.
+    </script>
+    <script>
+      // This script WILL be parsed by JS engines because its MIME type is text/javascript.
+
+      // In the past blob builder existed, but now we use Blob
+      const blob = new Blob(
+        Array.prototype.map.call(
+          document.querySelectorAll("script[type='text/js-worker']"),
+          (script) => script.textContent,
+        ),
+        { type: "text/javascript" },
+      );
+
+      // Creating a new document.worker property containing all our "text/js-worker" scripts.
+      document.worker = new Worker(window.URL.createObjectURL(blob));
+
+      document.worker.onmessage = (event) => {
+        pageLog(`Received: ${event.data}`);
+      };
+
+      // Start the worker.
+      window.onload = () => {
+        document.worker.postMessage("");
+      };
+    </script>
+  </head>
+  <body>
+    <div id="logDisplay"></div>
+  </body>
+</html>
+~~~
+
+/en-US/docs/Web/API/Window
+[no-inline-event-handlers] Do not use inline event handler "onresize".
+~~~
+<body onresize="console.log(event.currentTarget)"></body>
 ~~~
 
 /en-US/docs/Web/API/Window/frames
@@ -2067,6 +2176,52 @@ setTimeout(function () {
 setTimeout(function () {
   myArray.myMethod("1");
 }, 2.5 * 1000); // prints "one" after 2.5 seconds
+~~~
+
+/en-US/docs/Web/API/Window/unload_event
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Parent Frame</title>
+    <script>
+      window.addEventListener("beforeunload", (event) => {
+        console.log("I am the 1st one.");
+      });
+      window.addEventListener("unload", (event) => {
+        console.log("I am the 3rd one.");
+      });
+    </script>
+  </head>
+  <body>
+    <iframe src="child-frame.html"></iframe>
+  </body>
+</html>
+~~~
+
+/en-US/docs/Web/API/Window/unload_event
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Child Frame</title>
+    <script>
+      window.addEventListener("beforeunload", (event) => {
+        console.log("I am the 2nd one.");
+      });
+      window.addEventListener("unload", (event) => {
+        console.log("I am the 4th and last one…");
+      });
+    </script>
+  </head>
+  <body>
+    ☻
+  </body>
+</html>
 ~~~
 
 /en-US/docs/Web/API/Window/window
@@ -2184,6 +2339,18 @@ color: -internal-light-dark(black, white) !important;
 </section>
 ~~~
 
+/en-US/docs/Web/CSS/@scope
+[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+~~~
+<parent-element>
+  <style>
+    @scope {
+      /* rulesets */
+    }
+  </style>
+</parent-element>
+~~~
+
 /en-US/docs/Web/CSS/attr
 [declaration-property-value-no-unknown] Cannot parse property value "url(attr(data-icon))" for property "background-image" (declaration-property-value-no-unknown)
 ~~~
@@ -2274,7 +2441,7 @@ p {
 @property --text-color {
   syntax: "<color>";
   inherits: false;
-  initial-value: cornflowerblue;
+  initial-value: teal;
 }
 
 :root {
@@ -2282,6 +2449,7 @@ p {
 }
 
 p {
+  font-weight: bold;
   color: blue;
 }
 
@@ -2294,6 +2462,7 @@ p {
 [declaration-property-value-no-unknown] Unexpected unknown value "16px" for property "color" (declaration-property-value-no-unknown)
 ~~~
 p {
+  font-weight: bold;
   color: blue;
 }
 
@@ -2304,22 +2473,22 @@ p {
 ~~~
 
 /en-US/docs/Web/CSS/CSS_cascading_variables/Using_CSS_custom_properties
-[declaration-property-value-no-unknown] Unexpected unknown value "aqumarine" for property "--box-color" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Unexpected unknown value "peenk" for property "--box-color" (declaration-property-value-no-unknown)
 [declaration-property-value-no-unknown] Unexpected unknown value "2rem" for property "--box-color" (declaration-property-value-no-unknown)
 ~~~
 @property --box-color {
   syntax: "<color>";
-  initial-value: cornflowerblue;
+  initial-value: teal;
   inherits: false;
 }
 
 .one {
-  --box-color: aquamarine;
+  --box-color: pink;
   background-color: var(--box-color);
 }
 
 .two {
-  --box-color: aqumarine;
+  --box-color: peenk;
   background-color: var(--box-color);
 }
 
@@ -2338,6 +2507,7 @@ div {
   border: 2px black solid;
   display: inline-block;
 }
+
 .one {
   color: black;
 }

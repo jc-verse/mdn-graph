@@ -46,6 +46,10 @@ export default {
       rules: { "empty-script": "off" },
     },
     {
+      files: ["Web/API/HTMLElement/style", "Web/API/SVGElement/style"],
+      rules: { "no-style-attr": "off" },
+    },
+    {
       files: ["Web/CSS/CSS_syntax/Error_handling"],
       rules: {
         "no-style-attr": "off",
