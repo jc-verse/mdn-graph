@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-hxgyaqa4.js";
+} from "./chunk-m0654p5m.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -2031,7 +2031,28 @@ var warnings_processed_default = {
                       ]
                     },
                     test_your_skills: {
-                      children: {},
+                      children: {
+                        values: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Values",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://convertingcolors.com/hex-color-86DEFA.html",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://convertingcolors.com/hex-color-86DEFA.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      },
                       slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills",
                       messages: [
                         {
@@ -2236,45 +2257,11 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                testing: {
-                  children: {
-                    testing_strategies: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://help.ubuntu.com/community/WindowsDualBoot",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 }
               }
             },
             getting_started: {
               children: {
-                environment_setup: {
-                  children: {
-                    browsing_the_web: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Browsing_the_web",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gemini.google.com/app",
-                            502
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 your_first_website: {
                   children: {
                     what_will_your_website_look_like: {
@@ -2481,13 +2468,6 @@ var warnings_processed_default = {
                             "https://www.codelobster.com/forum/index.php",
                             503
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://mail.gnu.org/mailman/listinfo/help-gnu-emacs",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     },
@@ -2505,6 +2485,41 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://shiftedit.net/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://shiftedit.net/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://shiftedit.net/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://shiftedit.net/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://shiftedit.net/",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -3260,15 +3275,6 @@ var warnings_processed_default = {
                                       data: [
                                         "webextensions.api.types.BrowserSetting.clear"
                                       ]
-                                    },
-                                    {
-                                      message: "Unexpected BCD keys",
-                                      data: [
-                                        "Actual:",
-                                        "[None]",
-                                        "Expected:",
-                                        "webextensions.api.types.BrowserSetting.clear"
-                                      ]
                                     }
                                   ]
                                 },
@@ -3283,15 +3289,6 @@ var warnings_processed_default = {
                                     {
                                       message: "Not in BCD",
                                       data: [
-                                        "webextensions.api.types.BrowserSetting.get"
-                                      ]
-                                    },
-                                    {
-                                      message: "Unexpected BCD keys",
-                                      data: [
-                                        "Actual:",
-                                        "[None]",
-                                        "Expected:",
                                         "webextensions.api.types.BrowserSetting.get"
                                       ]
                                     }
@@ -3318,15 +3315,6 @@ var warnings_processed_default = {
                                     {
                                       message: "Not in BCD",
                                       data: [
-                                        "webextensions.api.types.BrowserSetting.set"
-                                      ]
-                                    },
-                                    {
-                                      message: "Unexpected BCD keys",
-                                      data: [
-                                        "Actual:",
-                                        "[None]",
-                                        "Expected:",
                                         "webextensions.api.types.BrowserSetting.set"
                                       ]
                                     }
@@ -4077,19 +4065,6 @@ webextensions.api.clipboard`,
                     },
                     "manifest.json": {
                       children: {
-                        commands: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/commands",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://bug1303384.bmoattachments.org/attachment.cgi?id=9051647",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         version: {
                           children: {
                             format: {
@@ -9617,15 +9592,6 @@ function checkDeadlines() {
                           data: [
                             "api.MouseEvent.mozInputSource"
                           ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "[None]",
-                            "Expected:",
-                            "api.MouseEvent.mozInputSource"
-                          ]
                         }
                       ]
                     },
@@ -9636,15 +9602,6 @@ function checkDeadlines() {
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.MouseEvent.WEBKIT_FORCE_AT_FORCE_MOUSE_DOWN_static"
-                          ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "[None]",
-                            "Expected:",
                             "api.MouseEvent.WEBKIT_FORCE_AT_FORCE_MOUSE_DOWN_static"
                           ]
                         }
@@ -9659,15 +9616,6 @@ function checkDeadlines() {
                           data: [
                             "api.MouseEvent.WEBKIT_FORCE_AT_MOUSE_DOWN_static"
                           ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "[None]",
-                            "Expected:",
-                            "api.MouseEvent.WEBKIT_FORCE_AT_MOUSE_DOWN_static"
-                          ]
                         }
                       ]
                     },
@@ -9678,15 +9626,6 @@ function checkDeadlines() {
                         {
                           message: "Not in BCD",
                           data: [
-                            "api.MouseEvent.webkitForce"
-                          ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "[None]",
-                            "Expected:",
                             "api.MouseEvent.webkitForce"
                           ]
                         }
@@ -16508,15 +16447,6 @@ function displayPoseStats(pose) {
                       data: [
                         "css.selectors.-moz-drag-over"
                       ]
-                    },
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        "[None]",
-                        "Expected:",
-                        "css.selectors.-moz-drag-over"
-                      ]
                     }
                   ]
                 },
@@ -16527,15 +16457,6 @@ function displayPoseStats(pose) {
                     {
                       message: "Not in BCD",
                       data: [
-                        "css.selectors.-moz-handler-blocked"
-                      ]
-                    },
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        "[None]",
-                        "Expected:",
                         "css.selectors.-moz-handler-blocked"
                       ]
                     }
@@ -16550,15 +16471,6 @@ function displayPoseStats(pose) {
                       data: [
                         "css.selectors.-moz-handler-crashed"
                       ]
-                    },
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        "[None]",
-                        "Expected:",
-                        "css.selectors.-moz-handler-crashed"
-                      ]
                     }
                   ]
                 },
@@ -16569,15 +16481,6 @@ function displayPoseStats(pose) {
                     {
                       message: "Not in BCD",
                       data: [
-                        "css.selectors.-moz-handler-disabled"
-                      ]
-                    },
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        "[None]",
-                        "Expected:",
                         "css.selectors.-moz-handler-disabled"
                       ]
                     }
@@ -16592,15 +16495,6 @@ function displayPoseStats(pose) {
                       data: [
                         "css.selectors.-moz-loading"
                       ]
-                    },
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        "[None]",
-                        "Expected:",
-                        "css.selectors.-moz-loading"
-                      ]
                     }
                   ]
                 },
@@ -16611,15 +16505,6 @@ function displayPoseStats(pose) {
                     {
                       message: "Not in BCD",
                       data: [
-                        "css.selectors.-moz-locale-dir_ltr"
-                      ]
-                    },
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        "[None]",
-                        "Expected:",
                         "css.selectors.-moz-locale-dir_ltr"
                       ]
                     }
@@ -16634,15 +16519,6 @@ function displayPoseStats(pose) {
                       data: [
                         "css.selectors.-moz-locale-dir_rtl"
                       ]
-                    },
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        "[None]",
-                        "Expected:",
-                        "css.selectors.-moz-locale-dir_rtl"
-                      ]
                     }
                   ]
                 },
@@ -16653,15 +16529,6 @@ function displayPoseStats(pose) {
                     {
                       message: "Not in BCD",
                       data: [
-                        "css.selectors.-moz-suppressed"
-                      ]
-                    },
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        "[None]",
-                        "Expected:",
                         "css.selectors.-moz-suppressed"
                       ]
                     }
@@ -16676,15 +16543,6 @@ function displayPoseStats(pose) {
                       data: [
                         "css.selectors.-moz-user-disabled"
                       ]
-                    },
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        "[None]",
-                        "Expected:",
-                        "css.selectors.-moz-user-disabled"
-                      ]
                     }
                   ]
                 },
@@ -16697,15 +16555,6 @@ function displayPoseStats(pose) {
                       data: [
                         "css.selectors.blank"
                       ]
-                    },
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        "[None]",
-                        "Expected:",
-                        "css.selectors.blank"
-                      ]
                     }
                   ]
                 },
@@ -16716,15 +16565,6 @@ function displayPoseStats(pose) {
                     {
                       message: "Not in BCD",
                       data: [
-                        "css.selectors.current"
-                      ]
-                    },
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        "[None]",
-                        "Expected:",
                         "css.selectors.current"
                       ]
                     }
@@ -16784,15 +16624,6 @@ function displayPoseStats(pose) {
                     {
                       message: "Not in BCD",
                       data: [
-                        "css.selectors.local-link"
-                      ]
-                    },
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        "[None]",
-                        "Expected:",
                         "css.selectors.local-link"
                       ]
                     }
@@ -16882,15 +16713,6 @@ function displayPoseStats(pose) {
                     {
                       message: "Not in BCD",
                       data: [
-                        "css.selectors.target-within"
-                      ]
-                    },
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        "[None]",
-                        "Expected:",
                         "css.selectors.target-within"
                       ]
                     }
@@ -17089,15 +16911,6 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Not in BCD",
                       data: [
-                        "css.at-rules.color-profile"
-                      ]
-                    },
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        "[None]",
-                        "Expected:",
                         "css.at-rules.color-profile"
                       ]
                     }
@@ -17395,15 +17208,6 @@ css.selectors.-webkit-resizer`,
                           data: [
                             "css.at-rules.font-feature-values.font-display"
                           ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "[None]",
-                            "Expected:",
-                            "css.at-rules.font-feature-values.font-display"
-                          ]
                         }
                       ]
                     }
@@ -17597,15 +17401,6 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Not in BCD",
                           data: [
-                            "css.at-rules.media.aural"
-                          ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "[None]",
-                            "Expected:",
                             "css.at-rules.media.aural"
                           ]
                         }
@@ -18006,15 +17801,6 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Not in BCD",
                           data: [
-                            "css.at-rules.media.shape"
-                          ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "[None]",
-                            "Expected:",
                             "css.at-rules.media.shape"
                           ]
                         }
@@ -20567,15 +20353,6 @@ pre {
                         {
                           message: "Not in BCD",
                           data: [
-                            "css.types.color.device-cmyk"
-                          ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "[None]",
-                            "Expected:",
                             "css.types.color.device-cmyk"
                           ]
                         }
@@ -23984,6 +23761,13 @@ body {
 </div>
 ~~~
 `
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/native-css-masonry-layout-css-grid/",
+                            "The operation timed out."
                           ]
                         },
                         {
@@ -32935,15 +32719,6 @@ css.properties.width.fit-content_function`
                       data: [
                         "css.types.frequency"
                       ]
-                    },
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        "[None]",
-                        "Expected:",
-                        "css.types.frequency"
-                      ]
                     }
                   ]
                 },
@@ -32958,15 +32733,6 @@ css.properties.width.fit-content_function`
                     {
                       message: "Not in BCD",
                       data: [
-                        "css.types.frequency-percentage"
-                      ]
-                    },
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        "[None]",
-                        "Expected:",
                         "css.types.frequency-percentage"
                       ]
                     }
@@ -33246,15 +33012,6 @@ repeating-conic-gradient(from -45deg, red 45deg, orange, yellow, green, blue 225
                           data: [
                             "css.types.image.image"
                           ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "[None]",
-                            "Expected:",
-                            "css.types.image.image"
-                          ]
                         }
                       ]
                     }
@@ -33320,15 +33077,6 @@ image-set('cat.jpg' 1x, 'dog.jpg' 1x) /* every image in an image set must have a
                     {
                       message: "Not in BCD",
                       data: [
-                        "css.properties.image-resolution"
-                      ]
-                    },
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        "[None]",
-                        "Expected:",
                         "css.properties.image-resolution"
                       ]
                     }
@@ -33498,15 +33246,6 @@ image-set('cat.jpg' 1x, 'dog.jpg' 1x) /* every image in an image set must have a
                     {
                       message: "Not in BCD",
                       data: [
-                        "css.properties.mask-border-mode"
-                      ]
-                    },
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        "[None]",
-                        "Expected:",
                         "css.properties.mask-border-mode"
                       ]
                     }
@@ -36432,15 +36171,6 @@ http.headers.Use-As-Dictionary`,
                                   data: [
                                     "javascript.builtins.AsyncGeneratorFunction.prototype"
                                   ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "[None]",
-                                    "Expected:",
-                                    "javascript.builtins.AsyncGeneratorFunction.prototype"
-                                  ]
                                 }
                               ]
                             }
@@ -36474,15 +36204,6 @@ http.headers.Use-As-Dictionary`,
                                   data: [
                                     "javascript.builtins.Function.prototype"
                                   ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "[None]",
-                                    "Expected:",
-                                    "javascript.builtins.Function.prototype"
-                                  ]
                                 }
                               ]
                             }
@@ -36497,15 +36218,6 @@ http.headers.Use-As-Dictionary`,
                                 {
                                   message: "Not in BCD",
                                   data: [
-                                    "javascript.builtins.GeneratorFunction.prototype"
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "[None]",
-                                    "Expected:",
                                     "javascript.builtins.GeneratorFunction.prototype"
                                   ]
                                 }
@@ -36565,6 +36277,19 @@ http.headers.Use-As-Dictionary`,
                               ]
                             }
                           ]
+                        },
+                        grouping: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Operators/Grouping",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://standardjs.com/rules.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         }
                       }
                     },
@@ -36577,15 +36302,6 @@ http.headers.Use-As-Dictionary`,
                             {
                               message: "Not in BCD",
                               data: [
-                                "javascript.statements.expression_statement"
-                              ]
-                            },
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                "[None]",
-                                "Expected:",
                                 "javascript.statements.expression_statement"
                               ]
                             }
@@ -36758,6 +36474,19 @@ console.log(bar.next()); // {value: 10, done: false}
                     },
                     formats: {
                       children: {
+                        image_types: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Image_types",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://ev.buaa.edu.cn/",
+                                403
+                              ]
+                            }
+                          ]
+                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
