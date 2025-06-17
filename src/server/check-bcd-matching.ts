@@ -537,32 +537,40 @@ export function checkBCDMatching(
   report: (node: any, message: string, ...data: string[]) => void,
 ) {
   for (const node of nodes) {
-    const expected = expectedBCD(node);
-    if (expected === "Unexpected page type") {
+    const expectedRaw = expectedBCD(node);
+    if (expectedRaw === "Unexpected page type") {
       report(node, "Unexpected page type", node.data.metadata.pageType);
       continue;
-    } else if (expected === "ignore") {
+    } else if (expectedRaw === "ignore") {
       continue;
     }
-    // There are three circles: expected, actual, BCD.
-    // We want to report any mismatch between these three circles:
-    // - Expected but not in BCD
-    // - Actual but not in BCD
-    // - Expected (existing) and actual don't match
-    const expectedExisting = expected.filter((x) => getBCD(bcdData, x));
-    const expectedShouldHaveBCD = expected.filter((x) => !configHas(noBCD, x));
-    if (expectedExisting.length < expectedShouldHaveBCD.length) {
-      report(node, "Not in BCD", expectedShouldHaveBCD.join("\n"));
-    }
+    // This is the real "expected" set, with all fiction removed
+    const expected = new Set(expectedRaw.filter((x) => !configHas(noBCD, x)));
+    const expectedInBCD = new Set(
+      Array.from(expected).filter((x) => getBCD(bcdData, x)),
+    );
     const actual = new Set(node.data.metadata.browserCompat);
-    if (actual.symmetricDifference(new Set(expectedShouldHaveBCD)).size) {
+    // There are three circles: expected, actual, BCD.
+    // We want to report any mismatch between these three circles.
+    // We don't need to report BCD \ actual \ expected, and for the remaining
+    // regions we split into two reports:
+    // - "Not in BCD": expected \ BCD
+    // - "Unexpected BCD keys": (actual \ expected) ∪ ((BCD \ actual) ∩ expected)
+    const notInBCD = Array.from(expected).filter((x) => !getBCD(bcdData, x));
+    if (notInBCD.length) {
+      report(node, "Not in BCD", notInBCD.join("\n"));
+    }
+    const unexpected = actual
+      .difference(expected)
+      .union(expectedInBCD.difference(actual));
+    if (unexpected.size) {
       report(
         node,
         "Unexpected BCD keys",
         "Actual:",
         Array.from(actual).join("\n") || "[None]",
         "Expected:",
-        expectedShouldHaveBCD.join("\n") || "[None]",
+        Array.from(expected).join("\n") || "[None]",
       );
     }
   }
