@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-m0654p5m.js";
+} from "./chunk-b052ngpx.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -1557,13 +1557,6 @@ var warnings_processed_default = {
                           data: [
                             "https://codepen.io/mxmason/pen/XWbPNmw"
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://phabricator.wikimedia.org/T241180",
-                            "429 Retry-After: 1000"
-                          ]
                         }
                       ]
                     },
@@ -2485,41 +2478,6 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://shiftedit.net/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://shiftedit.net/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://shiftedit.net/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://shiftedit.net/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://shiftedit.net/",
-                            "The operation timed out."
-                          ]
-                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -8095,6 +8053,100 @@ else if (e.target.id === "tabs-alert-info") {
                   children: {
                     tutorial: {
                       children: {
+                        basic_usage: {
+                          children: {},
+                          slug: "/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_usage",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-style-elem",
+                                "Do not use the <style> element; use separate CSS blocks instead.",
+                                `    <style>
+      canvas {
+        border: 1px solid black;
+      }
+    </style>`,
+                                "5:4 - 9:12",
+                                `/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_usage
+[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Canvas tutorial</title>
+    <style>
+      canvas {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas" width="150" height="150"></canvas>
+    <script>
+      function draw() {
+        const canvas = document.getElementById("canvas");
+        if (canvas.getContext) {
+          const ctx = canvas.getContext("2d");
+        }
+      }
+      window.addEventListener("load", draw);
+    </script>
+  </body>
+</html>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-inline-script",
+                                "Do not write JS within the <script> element; use separate JS blocks instead.",
+                                `    <script>
+      function draw() {
+        const canvas = document.getElementById("canvas");
+        if (canvas.getContext) {
+          const ctx = canvas.getContext("2d");
+        }
+      }
+      window.addEventListener("load", draw);
+    </script>`,
+                                "13:4 - 21:13",
+                                `/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_usage
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Canvas tutorial</title>
+    <style>
+      canvas {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas" width="150" height="150"></canvas>
+    <script>
+      function draw() {
+        const canvas = document.getElementById("canvas");
+        if (canvas.getContext) {
+          const ctx = canvas.getContext("2d");
+        }
+      }
+      window.addEventListener("load", draw);
+    </script>
+  </body>
+</html>
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
                         finale: {
                           children: {},
                           slug: "/en-US/docs/Web/API/Canvas_API/Tutorial/Finale",
@@ -23764,13 +23816,6 @@ body {
                           ]
                         },
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/native-css-masonry-layout-css-grid/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
                           message: "Unexpected BCD keys",
                           data: [
                             "Actual:",
@@ -36277,19 +36322,6 @@ http.headers.Use-As-Dictionary`,
                               ]
                             }
                           ]
-                        },
-                        grouping: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Operators/Grouping",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://standardjs.com/rules.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
                         }
                       }
                     },
@@ -36351,7 +36383,25 @@ console.log(bar.next()); // {value: 10, done: false}
               }
             },
             mathml: {
-              children: {},
+              children: {
+                guides: {
+                  children: {
+                    authoring: {
+                      children: {},
+                      slug: "/en-US/docs/Web/MathML/Guides/Authoring",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.lyx.org/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
               slug: "/en-US/docs/Web/MathML",
               messages: [
                 {
@@ -36474,19 +36524,6 @@ console.log(bar.next()); // {value: 10, done: false}
                     },
                     formats: {
                       children: {
-                        image_types: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Image_types",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://ev.buaa.edu.cn/",
-                                403
-                              ]
-                            }
-                          ]
-                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -45294,13 +45331,6 @@ svg.elements.feSpotLight.z`
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Tools_for_SVG",
                           messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://imagemagick.org/",
-                                "The operation timed out."
-                              ]
-                            },
                             {
                               message: "HTTP link",
                               data: [
