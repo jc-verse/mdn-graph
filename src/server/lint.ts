@@ -327,6 +327,18 @@ async function checkCSS(
   fullContent: string = content,
 ) {
   const isPropertyOnly = !content.includes("{");
+  const origConsoleWarn = console.warn;
+  console.warn = (msg: string) => {
+    if (msg === "[csstree-match] BREAK after 15000 iterations") {
+      origConsoleWarn(
+        "[csstree-match] BREAK after 15000 iterations",
+        path,
+        content,
+      );
+    } else {
+      origConsoleWarn(msg);
+    }
+  };
   const results = await stylelint.lint({
     code: content,
     codeFilename: `${path.replace("/en-US/docs/", "")}/test.${language}`,
@@ -335,6 +347,7 @@ async function checkCSS(
     fix: false,
     validate: false,
   });
+  console.warn = origConsoleWarn;
   for (const result of results.results) {
     result.warnings.forEach((msg) => {
       reportIfUnexpected(

@@ -481,6 +481,15 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
         },
       },
       {
+        files: ["Web/CSS/scroll-behavior/*"],
+        rules: {
+          "selector-type-no-unknown": [
+            true,
+            { ignoreTypes: ["scroll-container", "scroll-page"] },
+          ],
+        },
+      },
+      {
         files: ["Web/CSS/text-justify/*"],
         rules: {
           "declaration-property-value-keyword-no-deprecated": [
