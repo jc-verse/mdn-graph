@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-b052ngpx.js";
+} from "./chunk-a8xgzd1r.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -716,6 +716,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            gzip_compression: {
+              children: {},
+              slug: "/en-US/docs/Glossary/gzip_compression",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gzip.org/",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -2024,28 +2037,7 @@ var warnings_processed_default = {
                       ]
                     },
                     test_your_skills: {
-                      children: {
-                        values: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Values",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://convertingcolors.com/hex-color-86DEFA.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://convertingcolors.com/hex-color-86DEFA.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      },
+                      children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills",
                       messages: [
                         {
@@ -2255,6 +2247,23 @@ var warnings_processed_default = {
             },
             getting_started: {
               children: {
+                soft_skills: {
+                  children: {
+                    collaboration_and_teamwork: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Collaboration_and_teamwork",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://discord.me/frontenddevelopers",
+                            403
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 your_first_website: {
                   children: {
                     what_will_your_website_look_like: {
@@ -2455,6 +2464,13 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.codelobster.com/",
+                            "unknown certificate verification error"
+                          ]
+                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -7196,6 +7212,18 @@ else if (e.target.id === "tabs-alert-info") {
                         }
                       ]
                     },
+                    "140": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/140",
+                      messages: [
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/SVG/Reference/Attribute/fetchpriority"
+                          ]
+                        }
+                      ]
+                    },
                     "1.5": {
                       children: {
                         changing_the_priority_of_http_requests: {
@@ -10654,19 +10682,6 @@ function checkDeadlines() {
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/API/SourceBuffer/updatestart_event"
-                      ]
-                    }
-                  ]
-                },
-                streams_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Streams_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://fetch-progress.anthum.com/",
-                        "certificate has expired"
                       ]
                     }
                   ]
@@ -21957,6 +21972,13 @@ form {
 ~~~
 `
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://specifishity.com/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -23876,6 +23898,19 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    using_css_gradients: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://standardista.com/cssgradients/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -32733,6 +32768,77 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
+                "font-synthesis-style": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/font-synthesis-style",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "oblique" for property "font-synthesis-style" (declaration-property-value-no-unknown)',
+                        "  font-synthesis-style: oblique;",
+                        "24:25 - 24:32",
+                        `/en-US/docs/Web/CSS/font-synthesis-style
+[declaration-property-value-no-unknown] Unexpected unknown value "oblique" for property "font-synthesis-style" (declaration-property-value-no-unknown)
+~~~
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+}
+
+@supports not (font-synthesis-style: oblique-only) {
+  body::before {
+    content: "Your browser doesn't support the 'oblique-only' value.";
+    background-color: #ffcd33;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Specify style of the font synthesis */
+.fss-none {
+  font-synthesis-style: none;
+}
+
+.fss-oblique {
+  font-synthesis-style: oblique;
+}
+
+.fss-oblique-only {
+  font-synthesis-style: oblique-only;
+}
+
+/* Set font styles */
+.oblique {
+  font-style: oblique;
+}
+
+.italic {
+  font-style: italic;
+}
+
+/* Styles for the demonstration */
+.oblique::after {
+  content: " (font-style: oblique)";
+  font-size: 0.8rem;
+  vertical-align: sub;
+}
+
+.italic::after {
+  content: " (font-style: italic)";
+  font-size: 0.8rem;
+  vertical-align: sub;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
                 "font-variant-alternates": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/font-variant-alternates",
@@ -35423,25 +35529,6 @@ html.elements.textarea.disabled`
                               ]
                             }
                           ]
-                        },
-                        rel: {
-                          children: {
-                            me: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/me",
-                              messages: [
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    "html.elements.link.rel.me",
-                                    "Expected:",
-                                    "[None]"
-                                  ]
-                                }
-                              ]
-                            }
-                          }
                         },
                         size: {
                           children: {},
