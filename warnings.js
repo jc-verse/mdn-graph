@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-a8xgzd1r.js";
+} from "./chunk-exfn6es8.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -237,65 +237,6 @@ var warnings_processed_default = {
       function preload() {}
       function create() {}
       function update() {}
-    </script>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                "2d_breakout_game_pure_javascript": {
-                  children: {
-                    create_the_canvas_and_draw_on_it: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Create_the_Canvas_and_draw_on_it",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-elem",
-                            "Do not use the <style> element; use separate CSS blocks instead.",
-                            `    <style>
-      * {
-        padding: 0;
-        margin: 0;
-      }
-      canvas {
-        background: #eee;
-        display: block;
-        margin: 0 auto;
-      }
-    </style>`,
-                            "5:4 - 15:12",
-                            `/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Create_the_Canvas_and_draw_on_it
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
-~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <title>Gamedev Canvas Workshop</title>
-    <style>
-      * {
-        padding: 0;
-        margin: 0;
-      }
-      canvas {
-        background: #eee;
-        display: block;
-        margin: 0 auto;
-      }
-    </style>
-  </head>
-  <body>
-    <canvas id="myCanvas" width="480" height="320"></canvas>
-
-    <script>
-      // JavaScript code goes here
     </script>
   </body>
 </html>
@@ -716,19 +657,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            gzip_compression: {
-              children: {},
-              slug: "/en-US/docs/Glossary/gzip_compression",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gzip.org/",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -1590,6 +1518,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://docs.gitlab.com/user/ssh/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -1745,6 +1680,834 @@ var warnings_processed_default = {
                     }
                   }
                 },
+                scripting: {
+                  children: {
+                    arrays: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Arrays",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '<div class="output" style="min-height: 150px;">',
+                            "2:20 - 2:46",
+                            `/en-US/docs/Learn_web_development/Core/Scripting/Arrays
+[no-style-attr] Do not use the style attribute.
+~~~
+<h2>Live output</h2>
+
+<div class="output" style="min-height: 150px;">
+  <ul></ul>
+
+  <p></p>
+</div>
+
+<h2>Editable code</h2>
+
+<p class="a11y-label">
+  Press Esc to move focus away from the code area (Tab inserts a tab character).
+</p>
+
+<textarea id="code" class="playable-code" style="height: 410px;width: 95%">
+const list = document.querySelector('.output ul');
+const totalBox = document.querySelector('.output p');
+let total = 0;
+list.textContent = "";
+totalBox.textContent = "";
+// number 1
+                'Underpants:6.99'
+                'Socks:5.99'
+                'T-shirt:14.99'
+                'Trousers:31.99'
+                'Shoes:23.99';
+
+// number 2
+
+  // number 3
+
+  // number 4
+
+  // number 5
+  let itemText = 0;
+
+  const listItem = document.createElement('li');
+  listItem.textContent = itemText;
+  list.appendChild(listItem);
+
+// number 6
+
+totalBox.textContent = 'Total: $' + total.toFixed(2);
+</textarea>
+
+<div class="playable-buttons">
+  <input id="reset" type="button" value="Reset" />
+  <input id="solution" type="button" value="Show solution" />
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '<textarea id="code" class="playable-code" style="height: 410px;width: 95%">',
+                            "14:42 - 14:74",
+                            `/en-US/docs/Learn_web_development/Core/Scripting/Arrays
+[no-style-attr] Do not use the style attribute.
+~~~
+<h2>Live output</h2>
+
+<div class="output" style="min-height: 150px;">
+  <ul></ul>
+
+  <p></p>
+</div>
+
+<h2>Editable code</h2>
+
+<p class="a11y-label">
+  Press Esc to move focus away from the code area (Tab inserts a tab character).
+</p>
+
+<textarea id="code" class="playable-code" style="height: 410px;width: 95%">
+const list = document.querySelector('.output ul');
+const totalBox = document.querySelector('.output p');
+let total = 0;
+list.textContent = "";
+totalBox.textContent = "";
+// number 1
+                'Underpants:6.99'
+                'Socks:5.99'
+                'T-shirt:14.99'
+                'Trousers:31.99'
+                'Shoes:23.99';
+
+// number 2
+
+  // number 3
+
+  // number 4
+
+  // number 5
+  let itemText = 0;
+
+  const listItem = document.createElement('li');
+  listItem.textContent = itemText;
+  list.appendChild(listItem);
+
+// number 6
+
+totalBox.textContent = 'Total: $' + total.toFixed(2);
+</textarea>
+
+<div class="playable-buttons">
+  <input id="reset" type="button" value="Reset" />
+  <input id="solution" type="button" value="Show solution" />
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '<div class="output" style="min-height: 150px;">',
+                            "1:20 - 1:46",
+                            `/en-US/docs/Learn_web_development/Core/Scripting/Arrays
+[no-style-attr] Do not use the style attribute.
+~~~
+<h2>Live output</h2>
+<div class="output" style="min-height: 150px;">
+  <input type="text" /><button>Search</button>
+
+  <ul></ul>
+</div>
+
+<h2>Editable code</h2>
+
+<p class="a11y-label">
+  Press Esc to move focus away from the code area (Tab inserts a tab character).
+</p>
+
+<textarea id="code" class="playable-code" style="height: 370px; width: 95%">
+const list = document.querySelector('.output ul');
+const searchInput = document.querySelector('.output input');
+const searchBtn = document.querySelector('.output button');
+
+list.textContent = "";
+
+const myHistory = [];
+const MAX_HISTORY = 5;
+
+searchBtn.onclick = () => {
+  // we will only allow a term to be entered if the search input isn't empty
+  if (searchInput.value !== '') {
+    // number 1
+
+    // empty the list so that we don't display duplicate entries
+    // the display is regenerated every time a search term is entered.
+    list.textContent = "";
+
+    // loop through the array, and display all the search terms in the list
+    for (const itemText of myHistory) {
+      const listItem = document.createElement('li');
+      listItem.textContent = itemText;
+      list.appendChild(listItem);
+    }
+
+    // If the array length is 5 or more, remove the oldest search term
+    if (myHistory.length >= MAX_HISTORY) {
+      // number 2
+    }
+
+    // empty the search input and focus it, ready for the next term to be entered
+    searchInput.value = '';
+    searchInput.focus();
+  }
+}
+</textarea>
+
+<div class="playable-buttons">
+  <input id="reset" type="button" value="Reset" />
+  <input id="solution" type="button" value="Show solution" />
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '<textarea id="code" class="playable-code" style="height: 370px; width: 95%">',
+                            "13:42 - 13:75",
+                            `/en-US/docs/Learn_web_development/Core/Scripting/Arrays
+[no-style-attr] Do not use the style attribute.
+~~~
+<h2>Live output</h2>
+<div class="output" style="min-height: 150px;">
+  <input type="text" /><button>Search</button>
+
+  <ul></ul>
+</div>
+
+<h2>Editable code</h2>
+
+<p class="a11y-label">
+  Press Esc to move focus away from the code area (Tab inserts a tab character).
+</p>
+
+<textarea id="code" class="playable-code" style="height: 370px; width: 95%">
+const list = document.querySelector('.output ul');
+const searchInput = document.querySelector('.output input');
+const searchBtn = document.querySelector('.output button');
+
+list.textContent = "";
+
+const myHistory = [];
+const MAX_HISTORY = 5;
+
+searchBtn.onclick = () => {
+  // we will only allow a term to be entered if the search input isn't empty
+  if (searchInput.value !== '') {
+    // number 1
+
+    // empty the list so that we don't display duplicate entries
+    // the display is regenerated every time a search term is entered.
+    list.textContent = "";
+
+    // loop through the array, and display all the search terms in the list
+    for (const itemText of myHistory) {
+      const listItem = document.createElement('li');
+      listItem.textContent = itemText;
+      list.appendChild(listItem);
+    }
+
+    // If the array length is 5 or more, remove the oldest search term
+    if (myHistory.length >= MAX_HISTORY) {
+      // number 2
+    }
+
+    // empty the search input and focus it, ready for the next term to be entered
+    searchInput.value = '';
+    searchInput.focus();
+  }
+}
+</textarea>
+
+<div class="playable-buttons">
+  <input id="reset" type="button" value="Reset" />
+  <input id="solution" type="button" value="Show solution" />
+</div>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    conditionals: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Conditionals",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '<textarea id="code" class="playable-code" style="height: 400px;width: 95%">',
+                            "8:42 - 8:74",
+                            `/en-US/docs/Learn_web_development/Core/Scripting/Conditionals
+[no-style-attr] Do not use the style attribute.
+~~~
+<h2>Live output</h2>
+<iframe id="output" width="100%" height="600px"></iframe>
+
+<h2>Editable code</h2>
+<p class="a11y-label">
+  Press Esc to move focus away from the code area (Tab inserts a tab character).
+</p>
+
+<textarea id="code" class="playable-code" style="height: 400px;width: 95%">
+const select = document.querySelector("select");
+const list = document.querySelector("ul");
+const h1 = document.querySelector("h1");
+
+select.addEventListener("change", () => {
+  const choice = select.value;
+  createCalendar(choice);
+});
+
+function createCalendar(month) {
+  let days = 31;
+
+  // ADD CONDITIONAL HERE
+
+  list.textContent = "";
+  h1.textContent = month;
+  for (let i = 1; i <= days; i++) {
+    const listItem = document.createElement("li");
+    listItem.textContent = i;
+    list.appendChild(listItem);
+  }
+}
+
+select.value = "January";
+createCalendar("January");
+</textarea>
+
+<div class="playable-buttons">
+  <input id="reset" type="button" value="Reset" />
+  <input id="solution" type="button" value="Show solution" />
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '<textarea id="code" class="playable-code" style="height: 400px;width: 95%">',
+                            "8:42 - 8:74",
+                            `/en-US/docs/Learn_web_development/Core/Scripting/Conditionals
+[no-style-attr] Do not use the style attribute.
+~~~
+<h2>Live output</h2>
+<iframe id="output" width="100%" height="350px"></iframe>
+
+<h2>Editable code</h2>
+<p class="a11y-label">
+  Press Esc to move focus away from the code area (Tab inserts a tab character).
+</p>
+
+<textarea id="code" class="playable-code" style="height: 400px;width: 95%">
+const select = document.querySelector('select');
+const html = document.querySelector('.output');
+
+select.addEventListener('change', () => {
+  const choice = select.value;
+
+  // ADD SWITCH STATEMENT
+});
+
+function update(bgColor, textColor) {
+  html.style.backgroundColor = bgColor;
+  html.style.color = textColor;
+}
+</textarea>
+
+<div class="playable-buttons">
+  <input id="reset" type="button" value="Reset" />
+  <input id="solution" type="button" value="Show solution" />
+</div>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    loops: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Loops",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '<div class="output" style="height: 410px;overflow: auto;"></div>',
+                            "1:20 - 1:57",
+                            `/en-US/docs/Learn_web_development/Core/Scripting/Loops
+[no-style-attr] Do not use the style attribute.
+~~~
+<h2>Live output</h2>
+<div class="output" style="height: 410px;overflow: auto;"></div>
+
+<h2>Editable code</h2>
+<p class="a11y-label">
+  Press Esc to move focus away from the code area (Tab inserts a tab character).
+</p>
+<textarea id="code" class="playable-code" style="height: 300px;width: 95%">
+const output = document.querySelector('.output');
+output.textContent = "";
+
+// let i = 10;
+
+// const para = document.createElement('p');
+// para.textContent = ;
+// output.appendChild(para);
+</textarea>
+
+<div class="playable-buttons">
+  <input id="reset" type="button" value="Reset" />
+  <input id="solution" type="button" value="Show solution" />
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '<textarea id="code" class="playable-code" style="height: 300px;width: 95%">',
+                            "7:42 - 7:74",
+                            `/en-US/docs/Learn_web_development/Core/Scripting/Loops
+[no-style-attr] Do not use the style attribute.
+~~~
+<h2>Live output</h2>
+<div class="output" style="height: 410px;overflow: auto;"></div>
+
+<h2>Editable code</h2>
+<p class="a11y-label">
+  Press Esc to move focus away from the code area (Tab inserts a tab character).
+</p>
+<textarea id="code" class="playable-code" style="height: 300px;width: 95%">
+const output = document.querySelector('.output');
+output.textContent = "";
+
+// let i = 10;
+
+// const para = document.createElement('p');
+// para.textContent = ;
+// output.appendChild(para);
+</textarea>
+
+<div class="playable-buttons">
+  <input id="reset" type="button" value="Reset" />
+  <input id="solution" type="button" value="Show solution" />
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '<div class="output" style="height: 100px;overflow: auto;">',
+                            "1:20 - 1:57",
+                            `/en-US/docs/Learn_web_development/Core/Scripting/Loops
+[no-style-attr] Do not use the style attribute.
+~~~
+<h2>Live output</h2>
+<div class="output" style="height: 100px;overflow: auto;">
+  <p class="admitted">Admit:</p>
+  <p class="refused">Refuse:</p>
+</div>
+
+<h2>Editable code</h2>
+<p class="a11y-label">
+  Press Esc to move focus away from the code area (Tab inserts a tab character).
+</p>
+<textarea id="code" class="playable-code" style="height: 400px;width: 95%">
+const people = ['Chris', 'Anne', 'Colin', 'Terri', 'Phil', 'Lola', 'Sam', 'Kay', 'Bruce'];
+
+const admitted = document.querySelector('.admitted');
+const refused = document.querySelector('.refused');
+admitted.textContent = 'Admit: ';
+refused.textContent = 'Refuse: ';
+
+// loop starts here
+
+// refused.textContent += ;
+// admitted.textContent += ;
+
+</textarea>
+
+<div class="playable-buttons">
+  <input id="reset" type="button" value="Reset" />
+  <input id="solution" type="button" value="Show solution" />
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '<textarea id="code" class="playable-code" style="height: 400px;width: 95%">',
+                            "10:42 - 10:74",
+                            `/en-US/docs/Learn_web_development/Core/Scripting/Loops
+[no-style-attr] Do not use the style attribute.
+~~~
+<h2>Live output</h2>
+<div class="output" style="height: 100px;overflow: auto;">
+  <p class="admitted">Admit:</p>
+  <p class="refused">Refuse:</p>
+</div>
+
+<h2>Editable code</h2>
+<p class="a11y-label">
+  Press Esc to move focus away from the code area (Tab inserts a tab character).
+</p>
+<textarea id="code" class="playable-code" style="height: 400px;width: 95%">
+const people = ['Chris', 'Anne', 'Colin', 'Terri', 'Phil', 'Lola', 'Sam', 'Kay', 'Bruce'];
+
+const admitted = document.querySelector('.admitted');
+const refused = document.querySelector('.refused');
+admitted.textContent = 'Admit: ';
+refused.textContent = 'Refuse: ';
+
+// loop starts here
+
+// refused.textContent += ;
+// admitted.textContent += ;
+
+</textarea>
+
+<div class="playable-buttons">
+  <input id="reset" type="button" value="Reset" />
+  <input id="solution" type="button" value="Show solution" />
+</div>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    useful_string_methods: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Useful_string_methods",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '<div class="output" style="min-height: 125px;">',
+                            "2:20 - 2:46",
+                            `/en-US/docs/Learn_web_development/Core/Scripting/Useful_string_methods
+[no-style-attr] Do not use the style attribute.
+~~~
+<h2>Live output</h2>
+
+<div class="output" style="min-height: 125px;">
+  <ul></ul>
+</div>
+
+<h2>Editable code</h2>
+<p class="a11y-label">
+  Press Esc to move focus away from the code area (Tab inserts a tab character).
+</p>
+
+<textarea id="code" class="playable-code" style="height: 290px; width: 95%">
+const list = document.querySelector('.output ul');
+list.textContent = "";
+const greetings = ['Happy Birthday!',
+                 'Merry Christmas my love',
+                 'A happy Christmas to all the family',
+                 'You\\'re all I want for Christmas',
+                 'Get well soon'];
+
+for (const greeting of greetings) {
+  // Your conditional test needs to go inside the parentheses
+  // in the line below, replacing what's currently there
+  if (greeting) {
+    const listItem = document.createElement('li');
+    listItem.textContent = greeting;
+    list.appendChild(listItem);
+  }
+}
+</textarea>
+
+<div class="playable-buttons">
+  <input id="reset" type="button" value="Reset" />
+  <input id="solution" type="button" value="Show solution" />
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '<textarea id="code" class="playable-code" style="height: 290px; width: 95%">',
+                            "11:42 - 11:75",
+                            `/en-US/docs/Learn_web_development/Core/Scripting/Useful_string_methods
+[no-style-attr] Do not use the style attribute.
+~~~
+<h2>Live output</h2>
+
+<div class="output" style="min-height: 125px;">
+  <ul></ul>
+</div>
+
+<h2>Editable code</h2>
+<p class="a11y-label">
+  Press Esc to move focus away from the code area (Tab inserts a tab character).
+</p>
+
+<textarea id="code" class="playable-code" style="height: 290px; width: 95%">
+const list = document.querySelector('.output ul');
+list.textContent = "";
+const greetings = ['Happy Birthday!',
+                 'Merry Christmas my love',
+                 'A happy Christmas to all the family',
+                 'You\\'re all I want for Christmas',
+                 'Get well soon'];
+
+for (const greeting of greetings) {
+  // Your conditional test needs to go inside the parentheses
+  // in the line below, replacing what's currently there
+  if (greeting) {
+    const listItem = document.createElement('li');
+    listItem.textContent = greeting;
+    list.appendChild(listItem);
+  }
+}
+</textarea>
+
+<div class="playable-buttons">
+  <input id="reset" type="button" value="Reset" />
+  <input id="solution" type="button" value="Show solution" />
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '<div class="output" style="min-height: 125px;">',
+                            "2:20 - 2:46",
+                            `/en-US/docs/Learn_web_development/Core/Scripting/Useful_string_methods
+[no-style-attr] Do not use the style attribute.
+~~~
+<h2>Live output</h2>
+
+<div class="output" style="min-height: 125px;">
+  <ul></ul>
+</div>
+
+<h2>Editable code</h2>
+<p class="a11y-label">
+  Press Esc to move focus away from the code area (Tab inserts a tab character).
+</p>
+
+<textarea id="code" class="playable-code" style="height: 250px; width: 95%">
+const list = document.querySelector('.output ul');
+list.textContent = "";
+const cities = ['lonDon', 'ManCHESTer', 'BiRmiNGHAM', 'liVERpoOL'];
+
+for (const city of cities) {
+  // write your code just below here
+
+  const result = city;
+  const listItem = document.createElement('li');
+  listItem.textContent = result;
+  list.appendChild(listItem);
+}
+</textarea>
+
+<div class="playable-buttons">
+  <input id="reset" type="button" value="Reset" />
+  <input id="solution" type="button" value="Show solution" />
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '<textarea id="code" class="playable-code" style="height: 250px; width: 95%">',
+                            "11:42 - 11:75",
+                            `/en-US/docs/Learn_web_development/Core/Scripting/Useful_string_methods
+[no-style-attr] Do not use the style attribute.
+~~~
+<h2>Live output</h2>
+
+<div class="output" style="min-height: 125px;">
+  <ul></ul>
+</div>
+
+<h2>Editable code</h2>
+<p class="a11y-label">
+  Press Esc to move focus away from the code area (Tab inserts a tab character).
+</p>
+
+<textarea id="code" class="playable-code" style="height: 250px; width: 95%">
+const list = document.querySelector('.output ul');
+list.textContent = "";
+const cities = ['lonDon', 'ManCHESTer', 'BiRmiNGHAM', 'liVERpoOL'];
+
+for (const city of cities) {
+  // write your code just below here
+
+  const result = city;
+  const listItem = document.createElement('li');
+  listItem.textContent = result;
+  list.appendChild(listItem);
+}
+</textarea>
+
+<div class="playable-buttons">
+  <input id="reset" type="button" value="Reset" />
+  <input id="solution" type="button" value="Show solution" />
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '<div class="output" style="min-height: 125px;">',
+                            "2:20 - 2:46",
+                            `/en-US/docs/Learn_web_development/Core/Scripting/Useful_string_methods
+[no-style-attr] Do not use the style attribute.
+~~~
+<h2>Live output</h2>
+
+<div class="output" style="min-height: 125px;">
+  <ul></ul>
+</div>
+
+<h2>Editable code</h2>
+<p class="a11y-label">
+  Press Esc to move focus away from the code area (Tab inserts a tab character).
+</p>
+
+<textarea id="code" class="playable-code" style="height: 285px; width: 95%">
+const list = document.querySelector('.output ul');
+list.textContent = "";
+const stations = ['MAN675847583748sjt567654;Manchester Piccadilly',
+                  'GNF576746573fhdg4737dh4;Greenfield',
+                  'LIV5hg65hd737456236dch46dg4;Liverpool Lime Street',
+                  'SYB4f65hf75f736463;Stalybridge',
+                  'HUD5767ghtyfyr4536dh45dg45dg3;Huddersfield'];
+
+for (const station of stations) {
+  // write your code just below here
+
+  const result = station;
+  const listItem = document.createElement('li');
+  listItem.textContent = result;
+  list.appendChild(listItem);
+}
+</textarea>
+
+<div class="playable-buttons">
+  <input id="reset" type="button" value="Reset" />
+  <input id="solution" type="button" value="Show solution" />
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '<textarea id="code" class="playable-code" style="height: 285px; width: 95%">',
+                            "11:42 - 11:75",
+                            `/en-US/docs/Learn_web_development/Core/Scripting/Useful_string_methods
+[no-style-attr] Do not use the style attribute.
+~~~
+<h2>Live output</h2>
+
+<div class="output" style="min-height: 125px;">
+  <ul></ul>
+</div>
+
+<h2>Editable code</h2>
+<p class="a11y-label">
+  Press Esc to move focus away from the code area (Tab inserts a tab character).
+</p>
+
+<textarea id="code" class="playable-code" style="height: 285px; width: 95%">
+const list = document.querySelector('.output ul');
+list.textContent = "";
+const stations = ['MAN675847583748sjt567654;Manchester Piccadilly',
+                  'GNF576746573fhdg4737dh4;Greenfield',
+                  'LIV5hg65hd737456236dch46dg4;Liverpool Lime Street',
+                  'SYB4f65hf75f736463;Stalybridge',
+                  'HUD5767ghtyfyr4536dh45dg45dg3;Huddersfield'];
+
+for (const station of stations) {
+  // write your code just below here
+
+  const result = station;
+  const listItem = document.createElement('li');
+  listItem.textContent = result;
+  list.appendChild(listItem);
+}
+</textarea>
+
+<div class="playable-buttons">
+  <input id="reset" type="button" value="Reset" />
+  <input id="solution" type="button" value="Show solution" />
+</div>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 structuring_content: {
                   children: {
                     general_embedding_technologies: {
@@ -1758,38 +2521,63 @@ var warnings_processed_default = {
                         {
                           message: "HTML code issue",
                           data: [
-                            "no-style-elem",
-                            "Do not use the <style> element; use separate CSS blocks instead.",
-                            `  <style>
-    iframe {
-      border: none;
-    }
-  </style>`,
-                            "1:2 - 5:10",
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '<div class="output" style="min-height: 250px;"></div>',
+                            "2:20 - 2:46",
                             `/en-US/docs/Learn_web_development/Core/Structuring_content/General_embedding_technologies
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+[no-style-attr] Do not use the style attribute.
 ~~~
-<head>
-  <style>
-    iframe {
-      border: none;
-    }
-  </style>
-</head>
-<body>
-  <iframe
-    src="https://developer.mozilla.org/en-US/docs/Glossary"
-    width="100%"
-    height="500"
-    allowfullscreen
-    sandbox>
-    <p>
-      <a href="/en-US/docs/Glossary">
-        Fallback link for browsers that don't support iframes
-      </a>
-    </p>
-  </iframe>
-</body>
+<h2>Live output</h2>
+
+<div class="output" style="min-height: 250px;"></div>
+
+<h2>Editable code</h2>
+<p class="a11y-label">
+  Press Esc to move focus away from the code area (Tab inserts a tab character).
+</p>
+
+<textarea
+  id="code"
+  class="input"
+  style="width: 95%;min-height: 100px;"></textarea>
+
+<div class="playable-buttons">
+  <input id="reset" type="button" value="Reset" />
+  <input id="solution" type="button" value="Show solution" />
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '  style="width: 95%;min-height: 100px;"></textarea>',
+                            "12:2 - 12:39",
+                            `/en-US/docs/Learn_web_development/Core/Structuring_content/General_embedding_technologies
+[no-style-attr] Do not use the style attribute.
+~~~
+<h2>Live output</h2>
+
+<div class="output" style="min-height: 250px;"></div>
+
+<h2>Editable code</h2>
+<p class="a11y-label">
+  Press Esc to move focus away from the code area (Tab inserts a tab character).
+</p>
+
+<textarea
+  id="code"
+  class="input"
+  style="width: 95%;min-height: 100px;"></textarea>
+
+<div class="playable-buttons">
+  <input id="reset" type="button" value="Reset" />
+  <input id="solution" type="button" value="Show solution" />
+</div>
 ~~~
 `
                           ]
@@ -1803,6 +2591,84 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '<div class="output" style="min-height: 50px;"></div>',
+                            "2:20 - 2:45",
+                            `/en-US/docs/Learn_web_development/Core/Structuring_content/Including_vector_graphics_in_HTML
+[no-style-attr] Do not use the style attribute.
+~~~
+<h2>Live output</h2>
+
+<div class="output" style="min-height: 50px;"></div>
+
+<h2>Editable code</h2>
+<p class="a11y-label">
+  Press Esc to move focus away from the code area (Tab inserts a tab character).
+</p>
+
+<textarea id="code" class="input" style="width: 95%;min-height: 200px;">
+  <svg width="100%" height="100%">
+    <rect width="100%" height="100%" fill="red" />
+    <circle cx="100%" cy="100%" r="150" fill="blue" stroke="black" />
+    <polygon points="120,0 240,225 0,225" fill="green"/>
+    <text x="50" y="100" font-family="Verdana" font-size="55"
+          fill="white" stroke="black" stroke-width="2">
+            Hello!
+    </text>
+  </svg>
+</textarea>
+
+<div class="playable-buttons">
+  <input id="reset" type="button" value="Reset" />
+  <input id="solution" type="button" value="Show solution" disabled />
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '<textarea id="code" class="input" style="width: 95%;min-height: 200px;">',
+                            "9:34 - 9:71",
+                            `/en-US/docs/Learn_web_development/Core/Structuring_content/Including_vector_graphics_in_HTML
+[no-style-attr] Do not use the style attribute.
+~~~
+<h2>Live output</h2>
+
+<div class="output" style="min-height: 50px;"></div>
+
+<h2>Editable code</h2>
+<p class="a11y-label">
+  Press Esc to move focus away from the code area (Tab inserts a tab character).
+</p>
+
+<textarea id="code" class="input" style="width: 95%;min-height: 200px;">
+  <svg width="100%" height="100%">
+    <rect width="100%" height="100%" fill="red" />
+    <circle cx="100%" cy="100%" r="150" fill="blue" stroke="black" />
+    <polygon points="120,0 240,225 0,225" fill="green"/>
+    <text x="50" y="100" font-family="Verdana" font-size="55"
+          fill="white" stroke="black" stroke-width="2">
+            Hello!
+    </text>
+  </svg>
+</textarea>
+
+<div class="playable-buttons">
+  <input id="reset" type="button" value="Reset" />
+  <input id="solution" type="button" value="Show solution" disabled />
+</div>
+~~~
+`
+                          ]
                         },
                         {
                           message: "HTTP link",
@@ -1827,167 +2693,6 @@ var warnings_processed_default = {
                           message: "Unknown asset type",
                           data: [
                             "site-structure.drawio"
-                          ]
-                        }
-                      ]
-                    },
-                    table_accessibility: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    <col style="background-color:#97DB9A;" />',
-                            "6:9 - 6:42",
-                            `/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility
-[no-style-attr] Do not use the style attribute.
-~~~
-<table>
-  <caption>
-    Florence's weekly lesson timetable
-  </caption>
-  <colgroup>
-    <col span="2" />
-    <col style="background-color:#97DB9A;" />
-    <col style="width:42px;" />
-    <col style="background-color:#97DB9A;" />
-    <col style="background-color:#DCC48E; border:4px solid #C1437A;" />
-    <col span="2" style="width:42px;" />
-  </colgroup>
-  <tr>
-
-    <!-- Rest of code omitted for brevity -->
-
-</table>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    <col style="width:42px;" />',
-                            "7:9 - 7:28",
-                            `/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility
-[no-style-attr] Do not use the style attribute.
-~~~
-<table>
-  <caption>
-    Florence's weekly lesson timetable
-  </caption>
-  <colgroup>
-    <col span="2" />
-    <col style="background-color:#97DB9A;" />
-    <col style="width:42px;" />
-    <col style="background-color:#97DB9A;" />
-    <col style="background-color:#DCC48E; border:4px solid #C1437A;" />
-    <col span="2" style="width:42px;" />
-  </colgroup>
-  <tr>
-
-    <!-- Rest of code omitted for brevity -->
-
-</table>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    <col style="background-color:#97DB9A;" />',
-                            "8:9 - 8:42",
-                            `/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility
-[no-style-attr] Do not use the style attribute.
-~~~
-<table>
-  <caption>
-    Florence's weekly lesson timetable
-  </caption>
-  <colgroup>
-    <col span="2" />
-    <col style="background-color:#97DB9A;" />
-    <col style="width:42px;" />
-    <col style="background-color:#97DB9A;" />
-    <col style="background-color:#DCC48E; border:4px solid #C1437A;" />
-    <col span="2" style="width:42px;" />
-  </colgroup>
-  <tr>
-
-    <!-- Rest of code omitted for brevity -->
-
-</table>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    <col style="background-color:#DCC48E; border:4px solid #C1437A;" />',
-                            "9:9 - 9:68",
-                            `/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility
-[no-style-attr] Do not use the style attribute.
-~~~
-<table>
-  <caption>
-    Florence's weekly lesson timetable
-  </caption>
-  <colgroup>
-    <col span="2" />
-    <col style="background-color:#97DB9A;" />
-    <col style="width:42px;" />
-    <col style="background-color:#97DB9A;" />
-    <col style="background-color:#DCC48E; border:4px solid #C1437A;" />
-    <col span="2" style="width:42px;" />
-  </colgroup>
-  <tr>
-
-    <!-- Rest of code omitted for brevity -->
-
-</table>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    <col span="2" style="width:42px;" />',
-                            "10:18 - 10:37",
-                            `/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility
-[no-style-attr] Do not use the style attribute.
-~~~
-<table>
-  <caption>
-    Florence's weekly lesson timetable
-  </caption>
-  <colgroup>
-    <col span="2" />
-    <col style="background-color:#97DB9A;" />
-    <col style="width:42px;" />
-    <col style="background-color:#97DB9A;" />
-    <col style="background-color:#DCC48E; border:4px solid #C1437A;" />
-    <col span="2" style="width:42px;" />
-  </colgroup>
-  <tr>
-
-    <!-- Rest of code omitted for brevity -->
-
-</table>
-~~~
-`
                           ]
                         }
                       ]
@@ -2263,22 +2968,6 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                your_first_website: {
-                  children: {
-                    what_will_your_website_look_like: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/What_will_your_website_look_like",
-                      messages: [
-                        {
-                          message: "Bad href",
-                          data: [
-                            "/docs/Learn_web_development/Getting_started/Soft_skills/Workflows_and_processes#user_experience_ux_designer"
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 }
               }
             },
@@ -2464,13 +3153,6 @@ var warnings_processed_default = {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.codelobster.com/",
-                            "unknown certificate verification error"
-                          ]
-                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -7212,18 +7894,6 @@ else if (e.target.id === "tabs-alert-info") {
                         }
                       ]
                     },
-                    "140": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/140",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/SVG/Reference/Attribute/fetchpriority"
-                          ]
-                        }
-                      ]
-                    },
                     "1.5": {
                       children: {
                         changing_the_priority_of_http_requests: {
@@ -8081,100 +8751,6 @@ else if (e.target.id === "tabs-alert-info") {
                   children: {
                     tutorial: {
                       children: {
-                        basic_usage: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_usage",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-elem",
-                                "Do not use the <style> element; use separate CSS blocks instead.",
-                                `    <style>
-      canvas {
-        border: 1px solid black;
-      }
-    </style>`,
-                                "5:4 - 9:12",
-                                `/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_usage
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
-~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <title>Canvas tutorial</title>
-    <style>
-      canvas {
-        border: 1px solid black;
-      }
-    </style>
-  </head>
-  <body>
-    <canvas id="canvas" width="150" height="150"></canvas>
-    <script>
-      function draw() {
-        const canvas = document.getElementById("canvas");
-        if (canvas.getContext) {
-          const ctx = canvas.getContext("2d");
-        }
-      }
-      window.addEventListener("load", draw);
-    </script>
-  </body>
-</html>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-inline-script",
-                                "Do not write JS within the <script> element; use separate JS blocks instead.",
-                                `    <script>
-      function draw() {
-        const canvas = document.getElementById("canvas");
-        if (canvas.getContext) {
-          const ctx = canvas.getContext("2d");
-        }
-      }
-      window.addEventListener("load", draw);
-    </script>`,
-                                "13:4 - 21:13",
-                                `/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_usage
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <title>Canvas tutorial</title>
-    <style>
-      canvas {
-        border: 1px solid black;
-      }
-    </style>
-  </head>
-  <body>
-    <canvas id="canvas" width="150" height="150"></canvas>
-    <script>
-      function draw() {
-        const canvas = document.getElementById("canvas");
-        if (canvas.getContext) {
-          const ctx = canvas.getContext("2d");
-        }
-      }
-      window.addEventListener("load", draw);
-    </script>
-  </body>
-</html>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
                         finale: {
                           children: {},
                           slug: "/en-US/docs/Web/API/Canvas_API/Tutorial/Finale",
@@ -8183,35 +8759,6 @@ else if (e.target.id === "tabs-alert-info") {
                               message: "External sandbox link",
                               data: [
                                 "https://codepen.io/search/pens?q=canvas"
-                              ]
-                            }
-                          ]
-                        },
-                        using_images: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/Canvas_API/Tutorial/Using_images",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '<div style="display: none;">',
-                                "1:5 - 1:27",
-                                `/en-US/docs/Web/API/Canvas_API/Tutorial/Using_images
-[no-style-attr] Do not use the style attribute.
-~~~
-<canvas id="canvas" width="150" height="150"></canvas>
-<div style="display: none;">
-  <img
-    id="source"
-    src="https://mdn.github.io/shared-assets/images/examples/rhino.jpg"
-    width="300"
-    height="227" />
-  <img id="frame" src="canvas_picture_frame.png" width="132" height="150" />
-</div>
-~~~
-`
                               ]
                             }
                           ]
@@ -8229,64 +8776,6 @@ else if (e.target.id === "tabs-alert-info") {
                       ]
                     }
                   ]
-                },
-                canvasrenderingcontext2d: {
-                  children: {
-                    drawimage: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CanvasRenderingContext2D/drawImage",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '<div style="display:none;">',
-                            "1:5 - 1:26",
-                            `/en-US/docs/Web/API/CanvasRenderingContext2D/drawImage
-[no-style-attr] Do not use the style attribute.
-~~~
-<canvas id="canvas"></canvas>
-<div style="display:none;">
-  <img
-    id="source"
-    src="https://mdn.github.io/shared-assets/images/examples/rhino.jpg"
-    width="300"
-    height="227" />
-</div>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    filter: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CanvasRenderingContext2D/filter",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '<div style="display:none;">',
-                            "1:5 - 1:26",
-                            `/en-US/docs/Web/API/CanvasRenderingContext2D/filter
-[no-style-attr] Do not use the style attribute.
-~~~
-<canvas id="canvas" width="400" height="150"></canvas>
-<div style="display:none;">
-  <img
-    id="source"
-    src="https://mdn.github.io/shared-assets/images/examples/rhino.jpg" />
-</div>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 channel_messaging_api: {
                   children: {
@@ -8793,170 +9282,6 @@ api.DeviceOrientationEvent`,
                           data: [
                             "/en-US/docs/Web/API/Document/open",
                             "#description"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "object-shorthand",
-                            "Expected method shorthand.",
-                            `  createHTML: (string) => {
-    return string
-      .replace("<script", "&lt;script")
-      .replace("</script", "&lt;/script");
-  },`,
-                            "2:3 - 6:4",
-                            `/en-US/docs/Web/API/Document/write
-[object-shorthand] Expected method shorthand.
-~~~
-const policy = trustedTypes.createPolicy("docPolicy", {
-  createHTML: (string) => {
-    return string
-      .replace("<script", "&lt;script")
-      .replace("</script", "&lt;/script");
-  },
-});
-
-const oneInput = "<h1>Out with the old</h1>";
-const twoInput = "<p>in with the new!</p>";
-const threeInput = "<script>alert('evil afoot')<" + "/script>";
-const replace = document.querySelector("#replace");
-
-replace.addEventListener("click", () => {
-  document.open();
-  document.write(
-    policy.createHTML(oneInput),
-    policy.createHTML(twoInput),
-    policy.createHTML(threeInput),
-  );
-  document.close();
-});
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "arrow-body-style",
-                            "Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`.",
-                            `  createHTML: (string) => {
-    return string
-      .replace("<script", "&lt;script")
-      .replace("</script", "&lt;/script");
-  },`,
-                            "2:27 - 6:4",
-                            `/en-US/docs/Web/API/Document/write
-[arrow-body-style] Unexpected block statement surrounding arrow body; move the returned value immediately after the \`=>\`.
-~~~
-const policy = trustedTypes.createPolicy("docPolicy", {
-  createHTML: (string) => {
-    return string
-      .replace("<script", "&lt;script")
-      .replace("</script", "&lt;/script");
-  },
-});
-
-const oneInput = "<h1>Out with the old</h1>";
-const twoInput = "<p>in with the new!</p>";
-const threeInput = "<script>alert('evil afoot')<" + "/script>";
-const replace = document.querySelector("#replace");
-
-replace.addEventListener("click", () => {
-  document.open();
-  document.write(
-    policy.createHTML(oneInput),
-    policy.createHTML(twoInput),
-    policy.createHTML(threeInput),
-  );
-  document.close();
-});
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    writeln: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/writeln",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "object-shorthand",
-                            "Expected method shorthand.",
-                            `  createHTML: (string) => {
-    return string
-      .replace("<script", "&lt;script")
-      .replace("</script", "&lt;/script");
-  },`,
-                            "2:3 - 6:4",
-                            `/en-US/docs/Web/API/Document/writeln
-[object-shorthand] Expected method shorthand.
-~~~
-const policy = trustedTypes.createPolicy("docPolicy", {
-  createHTML: (string) => {
-    return string
-      .replace("<script", "&lt;script")
-      .replace("</script", "&lt;/script");
-  },
-});
-
-const replace = document.querySelector("#replace");
-const oneInput = "<h1>Out with";
-const twoInput = "the old</h1>";
-const threeInput = "<pre>in with";
-const fourInput = "the new!</pre>";
-
-replace.addEventListener("click", () => {
-  document.open();
-  document.writeln(policy.createHTML(oneInput));
-  document.writeln(policy.createHTML(twoInput), policy.createHTML(threeInput));
-  document.writeln(policy.createHTML(fourInput));
-  document.close();
-});
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "arrow-body-style",
-                            "Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`.",
-                            `  createHTML: (string) => {
-    return string
-      .replace("<script", "&lt;script")
-      .replace("</script", "&lt;/script");
-  },`,
-                            "2:27 - 6:4",
-                            `/en-US/docs/Web/API/Document/writeln
-[arrow-body-style] Unexpected block statement surrounding arrow body; move the returned value immediately after the \`=>\`.
-~~~
-const policy = trustedTypes.createPolicy("docPolicy", {
-  createHTML: (string) => {
-    return string
-      .replace("<script", "&lt;script")
-      .replace("</script", "&lt;/script");
-  },
-});
-
-const replace = document.querySelector("#replace");
-const oneInput = "<h1>Out with";
-const twoInput = "the old</h1>";
-const threeInput = "<pre>in with";
-const fourInput = "the new!</pre>";
-
-replace.addEventListener("click", () => {
-  document.open();
-  document.writeln(policy.createHTML(oneInput));
-  document.writeln(policy.createHTML(twoInput), policy.createHTML(threeInput));
-  document.writeln(policy.createHTML(fourInput));
-  document.close();
-});
-~~~
-`
                           ]
                         }
                       ]
@@ -10053,93 +10378,6 @@ function checkDeadlines() {
                     }
                   ]
                 },
-                presentation_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Presentation_API",
-                  messages: [
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-style-attr",
-                        "Do not use the style attribute.",
-                        '<button id="presentBtn" style="display: none;">Present</button>',
-                        "0:24 - 0:46",
-                        `/en-US/docs/Web/API/Presentation_API
-[no-style-attr] Do not use the style attribute.
-~~~
-<button id="presentBtn" style="display: none;">Present</button>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-style-attr",
-                        "Do not use the style attribute.",
-                        '<button id="reconnectBtn" style="display: none;">Reconnect</button>',
-                        "0:26 - 0:48",
-                        `/en-US/docs/Web/API/Presentation_API
-[no-style-attr] Do not use the style attribute.
-~~~
-<button id="reconnectBtn" style="display: none;">Reconnect</button>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-style-attr",
-                        "Do not use the style attribute.",
-                        '<button id="disconnectBtn" style="display: none;">Disconnect</button>',
-                        "0:27 - 0:49",
-                        `/en-US/docs/Web/API/Presentation_API
-[no-style-attr] Do not use the style attribute.
-~~~
-<button id="disconnectBtn" style="display: none;">Disconnect</button>
-<button id="stopBtn" style="display: none;">Stop</button>
-<button id="reconnectBtn" style="display: none;">Reconnect</button>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-style-attr",
-                        "Do not use the style attribute.",
-                        '<button id="stopBtn" style="display: none;">Stop</button>',
-                        "1:21 - 1:43",
-                        `/en-US/docs/Web/API/Presentation_API
-[no-style-attr] Do not use the style attribute.
-~~~
-<button id="disconnectBtn" style="display: none;">Disconnect</button>
-<button id="stopBtn" style="display: none;">Stop</button>
-<button id="reconnectBtn" style="display: none;">Reconnect</button>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-style-attr",
-                        "Do not use the style attribute.",
-                        '<button id="reconnectBtn" style="display: none;">Reconnect</button>',
-                        "2:26 - 2:48",
-                        `/en-US/docs/Web/API/Presentation_API
-[no-style-attr] Do not use the style attribute.
-~~~
-<button id="disconnectBtn" style="display: none;">Disconnect</button>
-<button id="stopBtn" style="display: none;">Stop</button>
-<button id="reconnectBtn" style="display: none;">Reconnect</button>
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 profiler: {
                   children: {
                     samplebufferfull_event: {
@@ -10201,52 +10439,6 @@ function checkDeadlines() {
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/Push_API/Best_Practices"
-                      ]
-                    }
-                  ]
-                },
-                remote_playback_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Remote_Playback_API",
-                  messages: [
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-style-attr",
-                        "Do not use the style attribute.",
-                        '  <button id="deviceBtn" style="display: none;">Pick device</button>',
-                        "1:25 - 1:47",
-                        `/en-US/docs/Web/API/Remote_Playback_API
-[no-style-attr] Do not use the style attribute.
-~~~
-<video id="videoElement" src="https://example.org/media.ext">
-  <button id="deviceBtn" style="display: none;">Pick device</button>
-</video>
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                remoteplayback: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/RemotePlayback",
-                  messages: [
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-style-attr",
-                        "Do not use the style attribute.",
-                        '  <button id="deviceBtn" style="display: none;">Pick device</button>',
-                        "1:25 - 1:47",
-                        `/en-US/docs/Web/API/RemotePlayback
-[no-style-attr] Do not use the style attribute.
-~~~
-<video id="videoElement" src="https://example.org/media.ext">
-  <button id="deviceBtn" style="display: none;">Pick device</button>
-</video>
-~~~
-`
                       ]
                     }
                   ]
@@ -10686,96 +10878,6 @@ function checkDeadlines() {
                     }
                   ]
                 },
-                svgcircleelement: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/SVGCircleElement",
-                  messages: [
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "onclick".',
-                        '    onclick="clickCircle();" />',
-                        "11:4 - 11:28",
-                        `/en-US/docs/Web/API/SVGCircleElement
-[no-inline-event-handlers] Do not use inline event handler "onclick".
-~~~
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 250 250"
-  width="250"
-  height="250">
-  <circle
-    cx="100"
-    cy="100"
-    r="50"
-    fill="gold"
-    id="circle"
-    onclick="clickCircle();" />
-</svg>
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                svgellipseelement: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/SVGEllipseElement",
-                  messages: [
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "onclick".',
-                        '    onclick="outputSize();" />',
-                        "7:4 - 7:27",
-                        `/en-US/docs/Web/API/SVGEllipseElement
-[no-inline-event-handlers] Do not use inline event handler "onclick".
-~~~
-<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
-  <ellipse
-    cx="100"
-    cy="100"
-    rx="100"
-    ry="60"
-    id="ellipse"
-    onclick="outputSize();" />
-</svg>
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                svgrectelement: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/SVGRectElement",
-                  messages: [
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-style-attr",
-                        "Do not use the style attribute.",
-                        '    style="fill:rgb(0 0 255);stroke-width:1;stroke:rgb(0 0 0)" />',
-                        "5:4 - 5:62",
-                        `/en-US/docs/Web/API/SVGRectElement
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-  <rect
-    width="300"
-    height="100"
-    id="myrect"
-    style="fill:rgb(0 0 255);stroke-width:1;stroke:rgb(0 0 0)" />
-  <text x="60" y="40" fill="white" font-size="40">Click Me</text>
-</svg>
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 svgrenderingintent: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SVGRenderingIntent",
@@ -10793,62 +10895,6 @@ function checkDeadlines() {
                       ]
                     }
                   ]
-                },
-                svgstopelement: {
-                  children: {
-                    offset: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGStopElement/offset",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '      <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />',
-                            "3:24 - 3:72",
-                            `/en-US/docs/Web/API/SVGStopElement/offset
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200">
-  <defs>
-    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
-      <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
-    </linearGradient>
-  </defs>
-  <rect width="100%" height="100%" fill="url(#grad1)" />
-</svg>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '      <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />',
-                            "4:26 - 4:72",
-                            `/en-US/docs/Web/API/SVGStopElement/offset
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200">
-  <defs>
-    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
-      <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
-    </linearGradient>
-  </defs>
-  <rect width="100%" height="100%" fill="url(#grad1)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 svgsvgelement: {
                   children: {},
@@ -10898,275 +10944,6 @@ function checkDeadlines() {
                     }
                   ]
                 },
-                svgtransformlist: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/SVGTransformList",
-                  messages: [
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "onclick".',
-                        '    onclick="transformMe(evt)" />',
-                        "38:4 - 38:30",
-                        `/en-US/docs/Web/API/SVGTransformList
-[no-inline-event-handlers] Do not use inline event handler "onclick".
-~~~
-<svg
-  id="my-svg"
-  viewBox="0 0 300 280"
-  xmlns="http://www.w3.org/2000/svg"
-  version="1.1">
-  <desc>
-    Example showing how to transform svg elements that using SVGTransform
-    objects
-  </desc>
-  <script>
-    <![CDATA[
-      function transformMe(evt) {
-        // svg root element to access the createSVGTransform() function
-        const svgRoot = evt.target.parentNode;
-        // SVGTransformList of the element that has been clicked on
-        const tfmList = evt.target.transform.baseVal;
-
-        // Create a separate transform object for each transform
-        const translate = svgRoot.createSVGTransform();
-        translate.setTranslate(50,5);
-        const rotate = svgRoot.createSVGTransform();
-        rotate.setRotate(10,0,0);
-        const scale = svgRoot.createSVGTransform();
-        scale.setScale(0.8,0.8);
-
-        // apply the transformations by appending the SVGTransform objects to the SVGTransformList associated with the element
-        tfmList.appendItem(translate);
-        tfmList.appendItem(rotate);
-        tfmList.appendItem(scale);
-      }
-    ]]>
-  </script>
-
-  <polygon
-    fill="orange"
-    stroke="black"
-    stroke-width="5"
-    points="100,225 100,115 130,115 70,15 70,15 10,115 40,115 40,225"
-    onclick="transformMe(evt)" />
-  <rect
-    x="200"
-    y="100"
-    width="100"
-    height="100"
-    fill="yellow"
-    stroke="black"
-    stroke-width="5"
-    onclick="transformMe(evt)" />
-  <text x="40" y="250" font-family="Verdana" font-size="16" fill="green">
-    Click on a shape to transform it
-  </text>
-</svg>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "onclick".',
-                        '    onclick="transformMe(evt)" />',
-                        "47:4 - 47:30",
-                        `/en-US/docs/Web/API/SVGTransformList
-[no-inline-event-handlers] Do not use inline event handler "onclick".
-~~~
-<svg
-  id="my-svg"
-  viewBox="0 0 300 280"
-  xmlns="http://www.w3.org/2000/svg"
-  version="1.1">
-  <desc>
-    Example showing how to transform svg elements that using SVGTransform
-    objects
-  </desc>
-  <script>
-    <![CDATA[
-      function transformMe(evt) {
-        // svg root element to access the createSVGTransform() function
-        const svgRoot = evt.target.parentNode;
-        // SVGTransformList of the element that has been clicked on
-        const tfmList = evt.target.transform.baseVal;
-
-        // Create a separate transform object for each transform
-        const translate = svgRoot.createSVGTransform();
-        translate.setTranslate(50,5);
-        const rotate = svgRoot.createSVGTransform();
-        rotate.setRotate(10,0,0);
-        const scale = svgRoot.createSVGTransform();
-        scale.setScale(0.8,0.8);
-
-        // apply the transformations by appending the SVGTransform objects to the SVGTransformList associated with the element
-        tfmList.appendItem(translate);
-        tfmList.appendItem(rotate);
-        tfmList.appendItem(scale);
-      }
-    ]]>
-  </script>
-
-  <polygon
-    fill="orange"
-    stroke="black"
-    stroke-width="5"
-    points="100,225 100,115 130,115 70,15 70,15 10,115 40,115 40,225"
-    onclick="transformMe(evt)" />
-  <rect
-    x="200"
-    y="100"
-    width="100"
-    height="100"
-    fill="yellow"
-    stroke="black"
-    stroke-width="5"
-    onclick="transformMe(evt)" />
-  <text x="40" y="250" font-family="Verdana" font-size="16" fill="green">
-    Click on a shape to transform it
-  </text>
-</svg>
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                tasksignal: {
-                  children: {
-                    prioritychange_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/TaskSignal/prioritychange_event",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '<textarea id="log" style="min-height: 70px; width: 95%"></textarea>',
-                            "0:19 - 0:55",
-                            `/en-US/docs/Web/API/TaskSignal/prioritychange_event
-[no-style-attr] Do not use the style attribute.
-~~~
-<textarea id="log" style="min-height: 70px; width: 95%"></textarea>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                textformat: {
-                  children: {
-                    rangeend: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/TextFormat/rangeEnd",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '<div id="editor" style="height:200px;background:#eee;"></div>',
-                            "0:17 - 0:54",
-                            `/en-US/docs/Web/API/TextFormat/rangeEnd
-[no-style-attr] Do not use the style attribute.
-~~~
-<div id="editor" style="height:200px;background:#eee;"></div>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    rangestart: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/TextFormat/rangeStart",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '<div id="editor" style="height:200px;background:#eee;"></div>',
-                            "0:17 - 0:54",
-                            `/en-US/docs/Web/API/TextFormat/rangeStart
-[no-style-attr] Do not use the style attribute.
-~~~
-<div id="editor" style="height:200px;background:#eee;"></div>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    underlinestyle: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/TextFormat/underlineStyle",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '<div id="editor" style="height:200px;background:#eee;"></div>',
-                            "0:17 - 0:54",
-                            `/en-US/docs/Web/API/TextFormat/underlineStyle
-[no-style-attr] Do not use the style attribute.
-~~~
-<div id="editor" style="height:200px;background:#eee;"></div>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    underlinethickness: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/TextFormat/underlineThickness",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '<div id="editor" style="height:200px;background:#eee;"></div>',
-                            "0:17 - 0:54",
-                            `/en-US/docs/Web/API/TextFormat/underlineThickness
-[no-style-attr] Do not use the style attribute.
-~~~
-<div id="editor" style="height:200px;background:#eee;"></div>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/TextFormat",
-                  messages: [
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-style-attr",
-                        "Do not use the style attribute.",
-                        '<div id="editor" style="height:200px;background:#eee;"></div>',
-                        "0:17 - 0:54",
-                        `/en-US/docs/Web/API/TextFormat
-[no-style-attr] Do not use the style attribute.
-~~~
-<div id="editor" style="height:200px;background:#eee;"></div>
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 touch_events: {
                   children: {
                     "multi-touch_interaction": {
@@ -11176,54 +10953,6 @@ function checkDeadlines() {
                         {
                           message: "Unreachable via page",
                           data: []
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onclick".',
-                            '<button id="log" onclick="enableLog(event);">Start/Stop event logging</button>',
-                            "6:17 - 6:44",
-                            `/en-US/docs/Web/API/Touch_events/Multi-touch_interaction
-[no-inline-event-handlers] Do not use inline event handler "onclick".
-~~~
-<div id="target1">Tap, Hold or Swipe me 1</div>
-<div id="target2">Tap, Hold or Swipe me 2</div>
-<div id="target3">Tap, Hold or Swipe me 3</div>
-<div id="target4">Tap, Hold or Swipe me 4</div>
-
-<!-- UI for logging/debugging -->
-<button id="log" onclick="enableLog(event);">Start/Stop event logging</button>
-<button id="clearlog" onclick="clearLog(event);">Clear the log</button>
-<p></p>
-<output></output>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onclick".',
-                            '<button id="clearlog" onclick="clearLog(event);">Clear the log</button>',
-                            "7:22 - 7:48",
-                            `/en-US/docs/Web/API/Touch_events/Multi-touch_interaction
-[no-inline-event-handlers] Do not use inline event handler "onclick".
-~~~
-<div id="target1">Tap, Hold or Swipe me 1</div>
-<div id="target2">Tap, Hold or Swipe me 2</div>
-<div id="target3">Tap, Hold or Swipe me 3</div>
-<div id="target4">Tap, Hold or Swipe me 4</div>
-
-<!-- UI for logging/debugging -->
-<button id="log" onclick="enableLog(event);">Start/Stop event logging</button>
-<button id="clearlog" onclick="clearLog(event);">Clear the log</button>
-<p></p>
-<output></output>
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -11250,46 +10979,6 @@ function checkDeadlines() {
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/Touch_events/Using_Touch_Events"
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-style-attr",
-                        "Do not use the style attribute.",
-                        '<canvas id="canvas" width="600" height="600" style="border:solid black 1px;">',
-                        "0:45 - 0:76",
-                        `/en-US/docs/Web/API/Touch_events
-[no-style-attr] Do not use the style attribute.
-~~~
-<canvas id="canvas" width="600" height="600" style="border:solid black 1px;">
-  Your browser does not support canvas element.
-</canvas>
-<br />
-Log:
-<pre id="log" style="border: 1px solid #ccc;"></pre>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-style-attr",
-                        "Do not use the style attribute.",
-                        '<pre id="log" style="border: 1px solid #ccc;"></pre>',
-                        "5:14 - 5:45",
-                        `/en-US/docs/Web/API/Touch_events
-[no-style-attr] Do not use the style attribute.
-~~~
-<canvas id="canvas" width="600" height="600" style="border:solid black 1px;">
-  Your browser does not support canvas element.
-</canvas>
-<br />
-Log:
-<pre id="log" style="border: 1px solid #ccc;"></pre>
-~~~
-`
                       ]
                     }
                   ]
@@ -11407,145 +11096,6 @@ async function handleTranslation(e) {
                     }
                   ]
                 },
-                uievent: {
-                  children: {
-                    which: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/UIEvent/which",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-script",
-                            "Do not write JS within the <script> element; use separate JS blocks instead.",
-                            "    <script>\n      function showKeyPress(evt) {\n        alert(\n          `onkeypress handler:\\n` +\n            `keyCode property: ${evt.keyCode}\\n` +\n            `which property: ${evt.which}\\n` +\n            `charCode property: ${evt.charCode}\\n` +\n            `Character Key Pressed: ${String.fromCharCode(evt.charCode)}\\n`,\n        );\n      }\n\n      function keyDown(evt) {\n        alert(\n          `onkeydown handler:\\n` +\n            `keyCode property: ${evt.keyCode}\\n` +\n            `which property: ${evt.which}\\n`,\n        );\n      }\n    </script>",
-                            "4:4 - 22:13",
-                            `/en-US/docs/Web/API/UIEvent/which
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<html lang="en">
-  <head>
-    <title>charCode/keyCode/which example</title>
-
-    <script>
-      function showKeyPress(evt) {
-        alert(
-          \`onkeypress handler:\\n\` +
-            \`keyCode property: \${evt.keyCode}\\n\` +
-            \`which property: \${evt.which}\\n\` +
-            \`charCode property: \${evt.charCode}\\n\` +
-            \`Character Key Pressed: \${String.fromCharCode(evt.charCode)}\\n\`,
-        );
-      }
-
-      function keyDown(evt) {
-        alert(
-          \`onkeydown handler:\\n\` +
-            \`keyCode property: \${evt.keyCode}\\n\` +
-            \`which property: \${evt.which}\\n\`,
-        );
-      }
-    </script>
-  </head>
-
-  <body onkeypress="showKeyPress(event);" onkeydown="keyDown(event);">
-    <p>Please press any key.</p>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onkeypress".',
-                            '  <body onkeypress="showKeyPress(event);" onkeydown="keyDown(event);">',
-                            "25:8 - 25:41",
-                            `/en-US/docs/Web/API/UIEvent/which
-[no-inline-event-handlers] Do not use inline event handler "onkeypress".
-~~~
-<html lang="en">
-  <head>
-    <title>charCode/keyCode/which example</title>
-
-    <script>
-      function showKeyPress(evt) {
-        alert(
-          \`onkeypress handler:\\n\` +
-            \`keyCode property: \${evt.keyCode}\\n\` +
-            \`which property: \${evt.which}\\n\` +
-            \`charCode property: \${evt.charCode}\\n\` +
-            \`Character Key Pressed: \${String.fromCharCode(evt.charCode)}\\n\`,
-        );
-      }
-
-      function keyDown(evt) {
-        alert(
-          \`onkeydown handler:\\n\` +
-            \`keyCode property: \${evt.keyCode}\\n\` +
-            \`which property: \${evt.which}\\n\`,
-        );
-      }
-    </script>
-  </head>
-
-  <body onkeypress="showKeyPress(event);" onkeydown="keyDown(event);">
-    <p>Please press any key.</p>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onkeydown".',
-                            '  <body onkeypress="showKeyPress(event);" onkeydown="keyDown(event);">',
-                            "25:42 - 25:69",
-                            `/en-US/docs/Web/API/UIEvent/which
-[no-inline-event-handlers] Do not use inline event handler "onkeydown".
-~~~
-<html lang="en">
-  <head>
-    <title>charCode/keyCode/which example</title>
-
-    <script>
-      function showKeyPress(evt) {
-        alert(
-          \`onkeypress handler:\\n\` +
-            \`keyCode property: \${evt.keyCode}\\n\` +
-            \`which property: \${evt.which}\\n\` +
-            \`charCode property: \${evt.charCode}\\n\` +
-            \`Character Key Pressed: \${String.fromCharCode(evt.charCode)}\\n\`,
-        );
-      }
-
-      function keyDown(evt) {
-        alert(
-          \`onkeydown handler:\\n\` +
-            \`keyCode property: \${evt.keyCode}\\n\` +
-            \`which property: \${evt.which}\\n\`,
-        );
-      }
-    </script>
-  </head>
-
-  <body onkeypress="showKeyPress(event);" onkeydown="keyDown(event);">
-    <p>Please press any key.</p>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 url_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/URL_API",
@@ -11554,176 +11104,6 @@ async function handleTranslation(e) {
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/URL_API/Resolving_relative_references"
-                      ]
-                    }
-                  ]
-                },
-                view_transition_api: {
-                  children: {
-                    using: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/View_Transition_API/Using",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-script",
-                            "Do not write JS within the <script> element; use separate JS blocks instead.",
-                            '    <script async href="layout.js" blocking="render"></script>',
-                            "8:4 - 8:62",
-                            `/en-US/docs/Web/API/View_Transition_API/Using
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- This will be render-blocking by default -->
-    <link rel="stylesheet" href="style.css" />
-
-    <!-- Marking critical scripts as render blocking will
-         ensure they're run before the view transition is activated -->
-    <script async href="layout.js" blocking="render"></script>
-
-    <!-- Use rel="expect" and blocking="render" to ensure the
-         #lead-content element is visible and fully parsed before
-         activating the transition -->
-    <link rel="expect" href="#lead-content" blocking="render" />
-  </head>
-  <body>
-    <h1>Page title</h1>
-    <nav>...</nav>
-    <div id="lead-content">
-      <section id="first-section">The first section</section>
-      <section>The second section</section>
-    </div>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "empty-script",
-                            "Script element should have non-empty text.",
-                            '    <script async href="layout.js" blocking="render"></script>',
-                            "8:4 - 8:62",
-                            `/en-US/docs/Web/API/View_Transition_API/Using
-[empty-script] Script element should have non-empty text.
-~~~
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- This will be render-blocking by default -->
-    <link rel="stylesheet" href="style.css" />
-
-    <!-- Marking critical scripts as render blocking will
-         ensure they're run before the view transition is activated -->
-    <script async href="layout.js" blocking="render"></script>
-
-    <!-- Use rel="expect" and blocking="render" to ensure the
-         #lead-content element is visible and fully parsed before
-         activating the transition -->
-    <link rel="expect" href="#lead-content" blocking="render" />
-  </head>
-  <body>
-    <h1>Page title</h1>
-    <nav>...</nav>
-    <div id="lead-content">
-      <section id="first-section">The first section</section>
-      <section>The second section</section>
-    </div>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                virtualkeyboard_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/VirtualKeyboard_API",
-                  messages: [
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-style-elem",
-                        "Do not use the <style> element; use separate CSS blocks instead.",
-                        `<style>
-  body {
-    display: grid;
-    margin: 0;
-    height: 100vh;
-    grid-template:
-      "messages" 1fr
-      "input" auto
-      "keyboard" env(keyboard-inset-height, 0px);
-  }
-</style>`,
-                        "0:0 - 10:8",
-                        `/en-US/docs/Web/API/VirtualKeyboard_API
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
-~~~
-<style>
-  body {
-    display: grid;
-    margin: 0;
-    height: 100vh;
-    grid-template:
-      "messages" 1fr
-      "input" auto
-      "keyboard" env(keyboard-inset-height, 0px);
-  }
-</style>
-<ul id="messages"></ul>
-<input type="text" />
-<script>
-  if ("virtualKeyboard" in navigator) {
-    navigator.virtualKeyboard.overlaysContent = true;
-  }
-</script>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-script",
-                        "Do not write JS within the <script> element; use separate JS blocks instead.",
-                        `<script>
-  if ("virtualKeyboard" in navigator) {
-    navigator.virtualKeyboard.overlaysContent = true;
-  }
-</script>`,
-                        "13:0 - 17:9",
-                        `/en-US/docs/Web/API/VirtualKeyboard_API
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<style>
-  body {
-    display: grid;
-    margin: 0;
-    height: 100vh;
-    grid-template:
-      "messages" 1fr
-      "input" auto
-      "keyboard" env(keyboard-inset-height, 0px);
-  }
-</style>
-<ul id="messages"></ul>
-<input type="text" />
-<script>
-  if ("virtualKeyboard" in navigator) {
-    navigator.virtualKeyboard.overlaysContent = true;
-  }
-</script>
-~~~
-`
                       ]
                     }
                   ]
@@ -12029,55 +11409,7 @@ connectedMoveCallback() {
                   }
                 },
                 web_crypto_api: {
-                  children: {
-                    "non-cryptographic_uses_of_subtle_crypto": {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Web_Crypto_API/Non-cryptographic_uses_of_subtle_crypto",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '<output style="display:block;font-family:monospace;"></output>',
-                            "5:8 - 5:52",
-                            `/en-US/docs/Web/API/Web_Crypto_API/Non-cryptographic_uses_of_subtle_crypto
-[no-style-attr] Do not use the style attribute.
-~~~
-<h3>Demonstration of hashing a file with SHA256</h3>
-
-<label
-  >Choose file(s) to hash <input type="file" id="file" name="file" multiple
-/></label>
-<output style="display:block;font-family:monospace;"></output>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '<output style="display:block;font-family:monospace;"></output>',
-                            "6:8 - 6:52",
-                            `/en-US/docs/Web/API/Web_Crypto_API/Non-cryptographic_uses_of_subtle_crypto
-[no-style-attr] Do not use the style attribute.
-~~~
-<h3>Demonstration of how git uses SHA1 for files</h3>
-
-<label
-  >Choose file(s) to hash <input type="file" id="file" name="file" multiple
-/></label>
-
-<output style="display:block;font-family:monospace;"></output>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/API/Web_Crypto_API",
                   messages: [
                     {
@@ -12285,672 +11617,101 @@ alert(emulateMessage(example5).constructor); // Object
                           data: [
                             "@typescript-eslint/no-this-alias",
                             "Unexpected aliasing of 'this' to local variable.",
-                            "        const instance = this;",
-                            "11:15 - 11:23",
+                            "  const instance = this;",
+                            "10:9 - 10:17",
                             `/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
 [@typescript-eslint/no-this-alias] Unexpected aliasing of 'this' to local variable.
 ~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>MDN Example - Queryable worker</title>
-    <script>
-      // QueryableWorker instances methods:
-      //   * sendQuery(queryable function name, argument to pass 1, argument to pass 2, etc. etc.): calls a Worker's queryable function
-      //   * postMessage(string or JSON Data): see Worker.prototype.postMessage()
-      //   * terminate(): terminates the Worker
-      //   * addListener(name, function): adds a listener
-      //   * removeListener(name): removes a listener
-      // QueryableWorker instances properties:
-      //   * defaultListener: the default listener executed only when the Worker calls the postMessage() function directly
-      function QueryableWorker(url, defaultListener, onError) {
-        const instance = this;
-        const worker = new Worker(url);
-        const listeners = {};
+// QueryableWorker instances methods:
+//   * sendQuery(queryable function name, argument to pass 1, argument to pass 2, etc. etc.): calls a Worker's queryable function
+//   * postMessage(string or JSON Data): see Worker.prototype.postMessage()
+//   * terminate(): terminates the Worker
+//   * addListener(name, function): adds a listener
+//   * removeListener(name): removes a listener
+// QueryableWorker instances properties:
+//   * defaultListener: the default listener executed only when the Worker calls the postMessage() function directly
+function QueryableWorker(url, defaultListener, onError) {
+  const instance = this;
+  const worker = new Worker(url);
+  const listeners = {};
 
-        this.defaultListener = defaultListener ?? (() => {});
+  this.defaultListener = defaultListener ?? (() => {});
 
-        if (onError) {
-          worker.onerror = onError;
-        }
+  if (onError) {
+    worker.onerror = onError;
+  }
 
-        this.postMessage = (message) => {
-          worker.postMessage(message);
-        };
+  this.postMessage = (message) => {
+    worker.postMessage(message);
+  };
 
-        this.terminate = () => {
-          worker.terminate();
-        };
+  this.terminate = () => {
+    worker.terminate();
+  };
 
-        this.addListener = (name, listener) => {
-          listeners[name] = listener;
-        };
+  this.addListener = (name, listener) => {
+    listeners[name] = listener;
+  };
 
-        this.removeListener = (name) => {
-          delete listeners[name];
-        };
+  this.removeListener = (name) => {
+    delete listeners[name];
+  };
 
-        // This functions takes at least one argument, the method name we want to query.
-        // Then we can pass in the arguments that the method needs.
-        this.sendQuery = (queryMethod, ...queryMethodArguments) => {
-          if (!queryMethod) {
-            throw new TypeError(
-              "QueryableWorker.sendQuery takes at least one argument",
-            );
-          }
-          worker.postMessage({
-            queryMethod,
-            queryMethodArguments,
-          });
-        };
-
-        worker.onmessage = (event) => {
-          if (
-            event.data instanceof Object &&
-            Object.hasOwn(event.data, "queryMethodListener") &&
-            Object.hasOwn(event.data, "queryMethodArguments")
-          ) {
-            listeners[event.data.queryMethodListener].apply(
-              instance,
-              event.data.queryMethodArguments,
-            );
-          } else {
-            this.defaultListener.call(instance, event.data);
-          }
-        };
-      }
-
-      // your custom "queryable" worker
-      const myTask = new QueryableWorker("my_task.js");
-
-      // your custom "listeners"
-      myTask.addListener("printStuff", (result) => {
-        document
-          .getElementById("firstLink")
-          .parentNode.appendChild(
-            document.createTextNode(\`The difference is \${result}!\`),
-          );
-      });
-
-      myTask.addListener("doAlert", (time, unit) => {
-        alert(\`Worker waited for \${time} \${unit} :-)\`);
-      });
-    </script>
-  </head>
-  <body>
-    <ul>
-      <li>
-        <a
-          id="firstLink"
-          href="javascript:myTask.sendQuery('getDifference', 5, 3);"
-          >What is the difference between 5 and 3?</a
-        >
-      </li>
-      <li>
-        <a href="javascript:myTask.sendQuery('waitSomeTime');"
-          >Wait 3 seconds</a
-        >
-      </li>
-      <li>
-        <a href="javascript:myTask.terminate();">terminate() the Worker</a>
-      </li>
-    </ul>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-script",
-                            "Do not write JS within the <script> element; use separate JS blocks instead.",
-                            `    <script>
-      // QueryableWorker instances methods:
-      //   * sendQuery(queryable function name, argument to pass 1, argument to pass 2, etc. etc.): calls a Worker's queryable function
-      //   * postMessage(string or JSON Data): see Worker.prototype.postMessage()
-      //   * terminate(): terminates the Worker
-      //   * addListener(name, function): adds a listener
-      //   * removeListener(name): removes a listener
-      // QueryableWorker instances properties:
-      //   * defaultListener: the default listener executed only when the Worker calls the postMessage() function directly
-      function QueryableWorker(url, defaultListener, onError) {
-        const instance = this;
-        const worker = new Worker(url);
-        const listeners = {};
-
-        this.defaultListener = defaultListener ?? (() => {});
-
-        if (onError) {
-          worker.onerror = onError;
-        }
-
-        this.postMessage = (message) => {
-          worker.postMessage(message);
-        };
-
-        this.terminate = () => {
-          worker.terminate();
-        };
-
-        this.addListener = (name, listener) => {
-          listeners[name] = listener;
-        };
-
-        this.removeListener = (name) => {
-          delete listeners[name];
-        };
-
-        // This functions takes at least one argument, the method name we want to query.
-        // Then we can pass in the arguments that the method needs.
-        this.sendQuery = (queryMethod, ...queryMethodArguments) => {
-          if (!queryMethod) {
-            throw new TypeError(
-              "QueryableWorker.sendQuery takes at least one argument",
-            );
-          }
-          worker.postMessage({
-            queryMethod,
-            queryMethodArguments,
-          });
-        };
-
-        worker.onmessage = (event) => {
-          if (
-            event.data instanceof Object &&
-            Object.hasOwn(event.data, "queryMethodListener") &&
-            Object.hasOwn(event.data, "queryMethodArguments")
-          ) {
-            listeners[event.data.queryMethodListener].apply(
-              instance,
-              event.data.queryMethodArguments,
-            );
-          } else {
-            this.defaultListener.call(instance, event.data);
-          }
-        };
-      }
-
-      // your custom "queryable" worker
-      const myTask = new QueryableWorker("my_task.js");
-
-      // your custom "listeners"
-      myTask.addListener("printStuff", (result) => {
-        document
-          .getElementById("firstLink")
-          .parentNode.appendChild(
-            document.createTextNode(\`The difference is \${result}!\`),
-          );
-      });
-
-      myTask.addListener("doAlert", (time, unit) => {
-        alert(\`Worker waited for \${time} \${unit} :-)\`);
-      });
-    </script>`,
-                            "6:4 - 87:13",
-                            `/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>MDN Example - Queryable worker</title>
-    <script>
-      // QueryableWorker instances methods:
-      //   * sendQuery(queryable function name, argument to pass 1, argument to pass 2, etc. etc.): calls a Worker's queryable function
-      //   * postMessage(string or JSON Data): see Worker.prototype.postMessage()
-      //   * terminate(): terminates the Worker
-      //   * addListener(name, function): adds a listener
-      //   * removeListener(name): removes a listener
-      // QueryableWorker instances properties:
-      //   * defaultListener: the default listener executed only when the Worker calls the postMessage() function directly
-      function QueryableWorker(url, defaultListener, onError) {
-        const instance = this;
-        const worker = new Worker(url);
-        const listeners = {};
-
-        this.defaultListener = defaultListener ?? (() => {});
-
-        if (onError) {
-          worker.onerror = onError;
-        }
-
-        this.postMessage = (message) => {
-          worker.postMessage(message);
-        };
-
-        this.terminate = () => {
-          worker.terminate();
-        };
-
-        this.addListener = (name, listener) => {
-          listeners[name] = listener;
-        };
-
-        this.removeListener = (name) => {
-          delete listeners[name];
-        };
-
-        // This functions takes at least one argument, the method name we want to query.
-        // Then we can pass in the arguments that the method needs.
-        this.sendQuery = (queryMethod, ...queryMethodArguments) => {
-          if (!queryMethod) {
-            throw new TypeError(
-              "QueryableWorker.sendQuery takes at least one argument",
-            );
-          }
-          worker.postMessage({
-            queryMethod,
-            queryMethodArguments,
-          });
-        };
-
-        worker.onmessage = (event) => {
-          if (
-            event.data instanceof Object &&
-            Object.hasOwn(event.data, "queryMethodListener") &&
-            Object.hasOwn(event.data, "queryMethodArguments")
-          ) {
-            listeners[event.data.queryMethodListener].apply(
-              instance,
-              event.data.queryMethodArguments,
-            );
-          } else {
-            this.defaultListener.call(instance, event.data);
-          }
-        };
-      }
-
-      // your custom "queryable" worker
-      const myTask = new QueryableWorker("my_task.js");
-
-      // your custom "listeners"
-      myTask.addListener("printStuff", (result) => {
-        document
-          .getElementById("firstLink")
-          .parentNode.appendChild(
-            document.createTextNode(\`The difference is \${result}!\`),
-          );
-      });
-
-      myTask.addListener("doAlert", (time, unit) => {
-        alert(\`Worker waited for \${time} \${unit} :-)\`);
-      });
-    </script>
-  </head>
-  <body>
-    <ul>
-      <li>
-        <a
-          id="firstLink"
-          href="javascript:myTask.sendQuery('getDifference', 5, 3);"
-          >What is the difference between 5 and 3?</a
-        >
-      </li>
-      <li>
-        <a href="javascript:myTask.sendQuery('waitSomeTime');"
-          >Wait 3 seconds</a
-        >
-      </li>
-      <li>
-        <a href="javascript:myTask.terminate();">terminate() the Worker</a>
-      </li>
-    </ul>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-script",
-                            "Do not write JS within the <script> element; use separate JS blocks instead.",
-                            `    <script>
-      // This script WILL be parsed by JS engines because its MIME type is text/javascript.
-      function pageLog(sMsg) {
-        // Use a fragment: browser will only render/reflow once.
-        const frag = document.createDocumentFragment();
-        frag.appendChild(document.createTextNode(sMsg));
-        frag.appendChild(document.createElement("br"));
-        document.querySelector("#logDisplay").appendChild(frag);
-      }
-    </script>`,
-                            "11:4 - 20:13",
-                            `/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>MDN Example - Embedded worker</title>
-    <script type="text/js-worker">
-      // This script WON'T be parsed by JS engines because its MIME type is text/js-worker.
-      const myVar = 'Hello World!';
-      // Rest of your worker code goes here.
-    </script>
-    <script>
-      // This script WILL be parsed by JS engines because its MIME type is text/javascript.
-      function pageLog(sMsg) {
-        // Use a fragment: browser will only render/reflow once.
-        const frag = document.createDocumentFragment();
-        frag.appendChild(document.createTextNode(sMsg));
-        frag.appendChild(document.createElement("br"));
-        document.querySelector("#logDisplay").appendChild(frag);
-      }
-    </script>
-    <script type="text/js-worker">
-      // This script WON'T be parsed by JS engines because its MIME type is text/js-worker.
-      onmessage = (event) => {
-        postMessage(myVar);
-      };
-      // Rest of your worker code goes here.
-    </script>
-    <script>
-      // This script WILL be parsed by JS engines because its MIME type is text/javascript.
-
-      // In the past blob builder existed, but now we use Blob
-      const blob = new Blob(
-        Array.prototype.map.call(
-          document.querySelectorAll("script[type='text/js-worker']"),
-          (script) => script.textContent,
-        ),
-        { type: "text/javascript" },
+  // This functions takes at least one argument, the method name we want to query.
+  // Then we can pass in the arguments that the method needs.
+  this.sendQuery = (queryMethod, ...queryMethodArguments) => {
+    if (!queryMethod) {
+      throw new TypeError(
+        "QueryableWorker.sendQuery takes at least one argument",
       );
+    }
+    worker.postMessage({
+      queryMethod,
+      queryMethodArguments,
+    });
+  };
 
-      // Creating a new document.worker property containing all our "text/js-worker" scripts.
-      document.worker = new Worker(window.URL.createObjectURL(blob));
-
-      document.worker.onmessage = (event) => {
-        pageLog(\`Received: \${event.data}\`);
-      };
-
-      // Start the worker.
-      window.onload = () => {
-        document.worker.postMessage("");
-      };
-    </script>
-  </head>
-  <body>
-    <div id="logDisplay"></div>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-script",
-                            "Do not write JS within the <script> element; use separate JS blocks instead.",
-                            `    <script>
-      // This script WILL be parsed by JS engines because its MIME type is text/javascript.
-
-      // In the past blob builder existed, but now we use Blob
-      const blob = new Blob(
-        Array.prototype.map.call(
-          document.querySelectorAll("script[type='text/js-worker']"),
-          (script) => script.textContent,
-        ),
-        { type: "text/javascript" },
+  worker.onmessage = (event) => {
+    if (
+      event.data instanceof Object &&
+      Object.hasOwn(event.data, "queryMethodListener") &&
+      Object.hasOwn(event.data, "queryMethodArguments")
+    ) {
+      listeners[event.data.queryMethodListener].apply(
+        instance,
+        event.data.queryMethodArguments,
       );
+    } else {
+      this.defaultListener.call(instance, event.data);
+    }
+  };
+}
 
-      // Creating a new document.worker property containing all our "text/js-worker" scripts.
-      document.worker = new Worker(window.URL.createObjectURL(blob));
+// your custom "queryable" worker
+const myTask = new QueryableWorker("my_task.js");
 
-      document.worker.onmessage = (event) => {
-        pageLog(\`Received: \${event.data}\`);
-      };
+// your custom "listeners"
+myTask.addListener("printStuff", (result) => {
+  document
+    .getElementById("firstLink")
+    .parentNode.appendChild(
+      document.createTextNode(\`The difference is \${result}!\`),
+    );
+});
 
-      // Start the worker.
-      window.onload = () => {
-        document.worker.postMessage("");
-      };
-    </script>`,
-                            "28:4 - 51:13",
-                            `/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>MDN Example - Embedded worker</title>
-    <script type="text/js-worker">
-      // This script WON'T be parsed by JS engines because its MIME type is text/js-worker.
-      const myVar = 'Hello World!';
-      // Rest of your worker code goes here.
-    </script>
-    <script>
-      // This script WILL be parsed by JS engines because its MIME type is text/javascript.
-      function pageLog(sMsg) {
-        // Use a fragment: browser will only render/reflow once.
-        const frag = document.createDocumentFragment();
-        frag.appendChild(document.createTextNode(sMsg));
-        frag.appendChild(document.createElement("br"));
-        document.querySelector("#logDisplay").appendChild(frag);
-      }
-    </script>
-    <script type="text/js-worker">
-      // This script WON'T be parsed by JS engines because its MIME type is text/js-worker.
-      onmessage = (event) => {
-        postMessage(myVar);
-      };
-      // Rest of your worker code goes here.
-    </script>
-    <script>
-      // This script WILL be parsed by JS engines because its MIME type is text/javascript.
+myTask.addListener("doAlert", (time, unit) => {
+  alert(\`Worker waited for \${time} \${unit} :-)\`);
+});
 
-      // In the past blob builder existed, but now we use Blob
-      const blob = new Blob(
-        Array.prototype.map.call(
-          document.querySelectorAll("script[type='text/js-worker']"),
-          (script) => script.textContent,
-        ),
-        { type: "text/javascript" },
-      );
-
-      // Creating a new document.worker property containing all our "text/js-worker" scripts.
-      document.worker = new Worker(window.URL.createObjectURL(blob));
-
-      document.worker.onmessage = (event) => {
-        pageLog(\`Received: \${event.data}\`);
-      };
-
-      // Start the worker.
-      window.onload = () => {
-        document.worker.postMessage("");
-      };
-    </script>
-  </head>
-  <body>
-    <div id="logDisplay"></div>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-elem",
-                            "Do not use the <style> element; use separate CSS blocks instead.",
-                            `    <style>
-      body {
-        width: 500px;
-      }
-
-      div,
-      p {
-        margin-bottom: 20px;
-      }
-    </style>`,
-                            "5:4 - 14:12",
-                            `/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
-~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Fibonacci number generator</title>
-    <style>
-      body {
-        width: 500px;
-      }
-
-      div,
-      p {
-        margin-bottom: 20px;
-      }
-    </style>
-  </head>
-  <body>
-    <form>
-      <div>
-        <label for="number"
-          >Enter a number that is a zero-based index position in the fibonacci
-          sequence to see what number is in that position. For example, enter 6
-          and you'll get a result of 8 — the fibonacci number at index position
-          6 is 8.</label
-        >
-        <input type="number" id="number" />
-      </div>
-      <div>
-        <input type="submit" />
-      </div>
-    </form>
-
-    <p id="result"></p>
-
-    <script>
-      const form = document.querySelector("form");
-      const input = document.querySelector('input[type="number"]');
-      const result = document.querySelector("p#result");
-      const worker = new Worker("fibonacci.js");
-
-      worker.onmessage = (event) => {
-        result.textContent = event.data;
-        console.log(\`Got: \${event.data}\`);
-      };
-
-      worker.onerror = (error) => {
-        console.log(\`Worker error: \${error.message}\`);
-        throw error;
-      };
-
-      form.onsubmit = (e) => {
-        e.preventDefault();
-        worker.postMessage(input.value);
-        input.value = "";
-      };
-    </script>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-script",
-                            "Do not write JS within the <script> element; use separate JS blocks instead.",
-                            `    <script>
-      const form = document.querySelector("form");
-      const input = document.querySelector('input[type="number"]');
-      const result = document.querySelector("p#result");
-      const worker = new Worker("fibonacci.js");
-
-      worker.onmessage = (event) => {
-        result.textContent = event.data;
-        console.log(\`Got: \${event.data}\`);
-      };
-
-      worker.onerror = (error) => {
-        console.log(\`Worker error: \${error.message}\`);
-        throw error;
-      };
-
-      form.onsubmit = (e) => {
-        e.preventDefault();
-        worker.postMessage(input.value);
-        input.value = "";
-      };
-    </script>`,
-                            "34:4 - 55:13",
-                            `/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Fibonacci number generator</title>
-    <style>
-      body {
-        width: 500px;
-      }
-
-      div,
-      p {
-        margin-bottom: 20px;
-      }
-    </style>
-  </head>
-  <body>
-    <form>
-      <div>
-        <label for="number"
-          >Enter a number that is a zero-based index position in the fibonacci
-          sequence to see what number is in that position. For example, enter 6
-          and you'll get a result of 8 — the fibonacci number at index position
-          6 is 8.</label
-        >
-        <input type="number" id="number" />
-      </div>
-      <div>
-        <input type="submit" />
-      </div>
-    </form>
-
-    <p id="result"></p>
-
-    <script>
-      const form = document.querySelector("form");
-      const input = document.querySelector('input[type="number"]');
-      const result = document.querySelector("p#result");
-      const worker = new Worker("fibonacci.js");
-
-      worker.onmessage = (event) => {
-        result.textContent = event.data;
-        console.log(\`Got: \${event.data}\`);
-      };
-
-      worker.onerror = (error) => {
-        console.log(\`Worker error: \${error.message}\`);
-        throw error;
-      };
-
-      form.onsubmit = (e) => {
-        e.preventDefault();
-        worker.postMessage(input.value);
-        input.value = "";
-      };
-    </script>
-  </body>
-</html>
+document.getElementById("first-action").addEventListener("click", () => {
+  myTask.sendQuery("getDifference", 5, 3);
+});
+document.getElementById("second-action").addEventListener("click", () => {
+  myTask.sendQuery("waitSomeTime");
+});
+document.getElementById("terminate").addEventListener("click", () => {
+  myTask.terminate();
+});
 ~~~
 `
                           ]
@@ -13054,33 +11815,6 @@ alert(emulateMessage(example5).constructor); // Object
                         }
                       ]
                     },
-                    signaling_and_video_calling: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WebRTC_API/Signaling_and_video_calling",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onclick".',
-                            '    <button id="hangup-button" onclick="hangUpCall();" disabled>Hang Up</button>',
-                            "4:31 - 4:54",
-                            `/en-US/docs/Web/API/WebRTC_API/Signaling_and_video_calling
-[no-inline-event-handlers] Do not use inline event handler "onclick".
-~~~
-<div class="flexChild" id="camera-container">
-  <div class="camera-box">
-    <video id="received_video" autoplay></video>
-    <video id="local_video" autoplay muted></video>
-    <button id="hangup-button" onclick="hangUpCall();" disabled>Hang Up</button>
-  </div>
-</div>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     using_encoded_transforms: {
                       children: {},
                       slug: "/en-US/docs/Web/API/WebRTC_API/Using_Encoded_Transforms",
@@ -13106,493 +11840,6 @@ alert(emulateMessage(example5).constructor); // Object
                       ]
                     }
                   ]
-                },
-                websockets_api: {
-                  children: {
-                    using_websocketstream: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WebSockets_API/Using_WebSocketStream",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-script",
-                            "Do not write JS within the <script> element; use separate JS blocks instead.",
-                            `    <script>
-      const output = document.querySelector("#output");
-      const closeBtn = document.querySelector("#close");
-
-      function writeToScreen(message) {
-        const pElem = document.createElement("p");
-        pElem.textContent = message;
-        output.appendChild(pElem);
-      }
-
-      if (!("WebSocketStream" in self)) {
-        writeToScreen("Your browser does not support WebSocketStream");
-      } else {
-        const wsURL = "ws://127.0.0.1/";
-        const wss = new WebSocketStream(wsURL);
-
-        console.log(wss.url);
-
-        async function start() {
-          const { readable, writable, extensions, protocol } = await wss.opened;
-          writeToScreen("CONNECTED");
-          closeBtn.disabled = false;
-          const reader = readable.getReader();
-          const writer = writable.getWriter();
-
-          writer.write("ping");
-          writeToScreen("SENT: ping");
-
-          while (true) {
-            const { value, done } = await reader.read();
-            writeToScreen(\`RECEIVED: \${value}\`);
-            if (done) {
-              break;
-            }
-
-            setTimeout(() => {
-              writer.write("ping");
-              writeToScreen("SENT: ping");
-            }, 5000);
-          }
-        }
-
-        start();
-
-        wss.closed.then((result) => {
-          writeToScreen(
-            \`DISCONNECTED: code \${result.closeCode}, message "\${result.reason}"\`,
-          );
-          console.log("Socket closed", result.closeCode, result.reason);
-        });
-
-        closeBtn.addEventListener("click", () => {
-          wss.close({
-            code: 1000,
-            reason: "That's all folks",
-          });
-
-          closeBtn.disabled = true;
-        });
-      }
-    </script>`,
-                            "12:4 - 72:13",
-                            `/en-US/docs/Web/API/WebSockets_API/Using_WebSocketStream
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>WebSocketStream Test</title>
-  </head>
-
-  <body>
-    <h2>WebSocketStream Test</h2>
-    <p>Sends a ping every five seconds</p>
-    <button id="close" disabled>Close socket connection</button>
-    <div id="output"></div>
-    <script>
-      const output = document.querySelector("#output");
-      const closeBtn = document.querySelector("#close");
-
-      function writeToScreen(message) {
-        const pElem = document.createElement("p");
-        pElem.textContent = message;
-        output.appendChild(pElem);
-      }
-
-      if (!("WebSocketStream" in self)) {
-        writeToScreen("Your browser does not support WebSocketStream");
-      } else {
-        const wsURL = "ws://127.0.0.1/";
-        const wss = new WebSocketStream(wsURL);
-
-        console.log(wss.url);
-
-        async function start() {
-          const { readable, writable, extensions, protocol } = await wss.opened;
-          writeToScreen("CONNECTED");
-          closeBtn.disabled = false;
-          const reader = readable.getReader();
-          const writer = writable.getWriter();
-
-          writer.write("ping");
-          writeToScreen("SENT: ping");
-
-          while (true) {
-            const { value, done } = await reader.read();
-            writeToScreen(\`RECEIVED: \${value}\`);
-            if (done) {
-              break;
-            }
-
-            setTimeout(() => {
-              writer.write("ping");
-              writeToScreen("SENT: ping");
-            }, 5000);
-          }
-        }
-
-        start();
-
-        wss.closed.then((result) => {
-          writeToScreen(
-            \`DISCONNECTED: code \${result.closeCode}, message "\${result.reason}"\`,
-          );
-          console.log("Socket closed", result.closeCode, result.reason);
-        });
-
-        closeBtn.addEventListener("click", () => {
-          wss.close({
-            code: 1000,
-            reason: "That's all folks",
-          });
-
-          closeBtn.disabled = true;
-        });
-      }
-    </script>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    writing_a_websocket_server_in_javascript_deno: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WebSockets_API/Writing_a_WebSocket_server_in_JavaScript_Deno",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-script",
-                            "Do not write JS within the <script> element; use separate JS blocks instead.",
-                            `<script>
-  const wsUri = "ws://127.0.0.1/";
-  const output = document.querySelector("#output");
-  const websocket = new WebSocket(wsUri);
-  let pingInterval;
-
-  function writeToScreen(message) {
-    output.insertAdjacentHTML("afterbegin", \`<p>\${message}</p>\`);
-  }
-
-  function sendMessage(message) {
-    writeToScreen(\`SENT: \${message}\`);
-    websocket.send(message);
-  }
-
-  websocket.onopen = (e) => {
-    writeToScreen("CONNECTED");
-    sendMessage("ping");
-    pingInterval = setInterval(() => {
-      sendMessage("ping");
-    }, 5000);
-  };
-
-  websocket.onclose = (e) => {
-    writeToScreen("DISCONNECTED");
-    clearInterval(pingInterval);
-  };
-
-  websocket.onmessage = (e) => {
-    writeToScreen(\`RECEIVED: \${e.data}\`);
-  };
-
-  websocket.onerror = (e) => {
-    writeToScreen(\`ERROR: \${e.data}\`);
-  };
-</script>`,
-                            "4:0 - 39:9",
-                            `/en-US/docs/Web/API/WebSockets_API/Writing_a_WebSocket_server_in_JavaScript_Deno
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<!doctype html>
-<h2>WebSocket Test</h2>
-<p>Sends a ping every five seconds</p>
-<div id="output"></div>
-<script>
-  const wsUri = "ws://127.0.0.1/";
-  const output = document.querySelector("#output");
-  const websocket = new WebSocket(wsUri);
-  let pingInterval;
-
-  function writeToScreen(message) {
-    output.insertAdjacentHTML("afterbegin", \`<p>\${message}</p>\`);
-  }
-
-  function sendMessage(message) {
-    writeToScreen(\`SENT: \${message}\`);
-    websocket.send(message);
-  }
-
-  websocket.onopen = (e) => {
-    writeToScreen("CONNECTED");
-    sendMessage("ping");
-    pingInterval = setInterval(() => {
-      sendMessage("ping");
-    }, 5000);
-  };
-
-  websocket.onclose = (e) => {
-    writeToScreen("DISCONNECTED");
-    clearInterval(pingInterval);
-  };
-
-  websocket.onmessage = (e) => {
-    writeToScreen(\`RECEIVED: \${e.data}\`);
-  };
-
-  websocket.onerror = (e) => {
-    writeToScreen(\`ERROR: \${e.data}\`);
-  };
-</script>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    writing_websocket_server: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_server",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-elem",
-                            "Do not use the <style> element; use separate CSS blocks instead.",
-                            `  <style>
-    textarea {
-      vertical-align: bottom;
-    }
-    #output {
-      overflow: auto;
-    }
-    #output > p {
-      overflow-wrap: break-word;
-    }
-    #output span {
-      color: blue;
-    }
-    #output span.error {
-      color: red;
-    }
-  </style>`,
-                            "2:2 - 18:10",
-                            `/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_server
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
-~~~
-<!doctype html>
-<html lang="en">
-  <style>
-    textarea {
-      vertical-align: bottom;
-    }
-    #output {
-      overflow: auto;
-    }
-    #output > p {
-      overflow-wrap: break-word;
-    }
-    #output span {
-      color: blue;
-    }
-    #output span.error {
-      color: red;
-    }
-  </style>
-  <body>
-    <h2>WebSocket Test</h2>
-    <textarea cols="60" rows="6"></textarea>
-    <button>send</button>
-    <div id="output"></div>
-  </body>
-  <script>
-    // http://www.websocket.org/echo.html
-    const button = document.querySelector("button");
-    const output = document.querySelector("#output");
-    const textarea = document.querySelector("textarea");
-    const wsUri = "ws://127.0.0.1/";
-    const websocket = new WebSocket(wsUri);
-
-    button.addEventListener("click", onClickButton);
-
-    websocket.onopen = (e) => {
-      writeToScreen("CONNECTED");
-      doSend("WebSocket rocks");
-    };
-
-    websocket.onclose = (e) => {
-      writeToScreen("DISCONNECTED");
-    };
-
-    websocket.onmessage = (e) => {
-      writeToScreen(\`<span>RESPONSE: \${e.data}</span>\`);
-    };
-
-    websocket.onerror = (e) => {
-      writeToScreen(\`<span class="error">ERROR:</span> \${e.data}\`);
-    };
-
-    function doSend(message) {
-      writeToScreen(\`SENT: \${message}\`);
-      websocket.send(message);
-    }
-
-    function writeToScreen(message) {
-      output.insertAdjacentHTML("afterbegin", \`<p>\${message}</p>\`);
-    }
-
-    function onClickButton() {
-      const text = textarea.value;
-
-      text && doSend(text);
-      textarea.value = "";
-      textarea.focus();
-    }
-  </script>
-</html>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-script",
-                            "Do not write JS within the <script> element; use separate JS blocks instead.",
-                            `  <script>
-    // http://www.websocket.org/echo.html
-    const button = document.querySelector("button");
-    const output = document.querySelector("#output");
-    const textarea = document.querySelector("textarea");
-    const wsUri = "ws://127.0.0.1/";
-    const websocket = new WebSocket(wsUri);
-
-    button.addEventListener("click", onClickButton);
-
-    websocket.onopen = (e) => {
-      writeToScreen("CONNECTED");
-      doSend("WebSocket rocks");
-    };
-
-    websocket.onclose = (e) => {
-      writeToScreen("DISCONNECTED");
-    };
-
-    websocket.onmessage = (e) => {
-      writeToScreen(\`<span>RESPONSE: \${e.data}</span>\`);
-    };
-
-    websocket.onerror = (e) => {
-      writeToScreen(\`<span class="error">ERROR:</span> \${e.data}\`);
-    };
-
-    function doSend(message) {
-      writeToScreen(\`SENT: \${message}\`);
-      websocket.send(message);
-    }
-
-    function writeToScreen(message) {
-      output.insertAdjacentHTML("afterbegin", \`<p>\${message}</p>\`);
-    }
-
-    function onClickButton() {
-      const text = textarea.value;
-
-      text && doSend(text);
-      textarea.value = "";
-      textarea.focus();
-    }
-  </script>`,
-                            "25:2 - 68:11",
-                            `/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_server
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<!doctype html>
-<html lang="en">
-  <style>
-    textarea {
-      vertical-align: bottom;
-    }
-    #output {
-      overflow: auto;
-    }
-    #output > p {
-      overflow-wrap: break-word;
-    }
-    #output span {
-      color: blue;
-    }
-    #output span.error {
-      color: red;
-    }
-  </style>
-  <body>
-    <h2>WebSocket Test</h2>
-    <textarea cols="60" rows="6"></textarea>
-    <button>send</button>
-    <div id="output"></div>
-  </body>
-  <script>
-    // http://www.websocket.org/echo.html
-    const button = document.querySelector("button");
-    const output = document.querySelector("#output");
-    const textarea = document.querySelector("textarea");
-    const wsUri = "ws://127.0.0.1/";
-    const websocket = new WebSocket(wsUri);
-
-    button.addEventListener("click", onClickButton);
-
-    websocket.onopen = (e) => {
-      writeToScreen("CONNECTED");
-      doSend("WebSocket rocks");
-    };
-
-    websocket.onclose = (e) => {
-      writeToScreen("DISCONNECTED");
-    };
-
-    websocket.onmessage = (e) => {
-      writeToScreen(\`<span>RESPONSE: \${e.data}</span>\`);
-    };
-
-    websocket.onerror = (e) => {
-      writeToScreen(\`<span class="error">ERROR:</span> \${e.data}\`);
-    };
-
-    function doSend(message) {
-      writeToScreen(\`SENT: \${message}\`);
-      websocket.send(message);
-    }
-
-    function writeToScreen(message) {
-      output.insertAdjacentHTML("afterbegin", \`<p>\${message}</p>\`);
-    }
-
-    function onClickButton() {
-      const text = textarea.value;
-
-      text && doSend(text);
-      textarea.value = "";
-      textarea.focus();
-    }
-  </script>
-</html>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 webtransport_api: {
                   children: {},
@@ -13931,2234 +12178,6 @@ function displayPoseStats(pose) {
                     }
                   ]
                 },
-                window: {
-                  children: {
-                    crypto: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/crypto",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onClick".',
-                            '<button type="button" onClick="genRandomNumbers()">',
-                            "1:22 - 1:50",
-                            `/en-US/docs/Web/API/Window/crypto
-[no-inline-event-handlers] Do not use inline event handler "onClick".
-~~~
-<p id="myRandText">The random numbers are:</p>
-<button type="button" onClick="genRandomNumbers()">
-  Generate 10 random numbers
-</button>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    find: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/find",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onClick".',
-                            `<button type="button" onClick='findString("Apples")'>Search for Apples</button>`,
-                            "1:22 - 1:52",
-                            `/en-US/docs/Web/API/Window/find
-[no-inline-event-handlers] Do not use inline event handler "onClick".
-~~~
-<p>Apples, Bananas, and Oranges.</p>
-<button type="button" onClick='findString("Apples")'>Search for Apples</button>
-<button type="button" onClick='findString("Bananas")'>
-  Search for Bananas
-</button>
-<button type="button" onClick='findString("Orange")'>Search for Orange</button>
-
-<p id="output"></p>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onClick".',
-                            `<button type="button" onClick='findString("Bananas")'>`,
-                            "2:22 - 2:53",
-                            `/en-US/docs/Web/API/Window/find
-[no-inline-event-handlers] Do not use inline event handler "onClick".
-~~~
-<p>Apples, Bananas, and Oranges.</p>
-<button type="button" onClick='findString("Apples")'>Search for Apples</button>
-<button type="button" onClick='findString("Bananas")'>
-  Search for Bananas
-</button>
-<button type="button" onClick='findString("Orange")'>Search for Orange</button>
-
-<p id="output"></p>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onClick".',
-                            `<button type="button" onClick='findString("Orange")'>Search for Orange</button>`,
-                            "5:22 - 5:52",
-                            `/en-US/docs/Web/API/Window/find
-[no-inline-event-handlers] Do not use inline event handler "onClick".
-~~~
-<p>Apples, Bananas, and Oranges.</p>
-<button type="button" onClick='findString("Apples")'>Search for Apples</button>
-<button type="button" onClick='findString("Bananas")'>
-  Search for Bananas
-</button>
-<button type="button" onClick='findString("Orange")'>Search for Orange</button>
-
-<p id="output"></p>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    getcomputedstyle: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/getComputedStyle",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-elem",
-                            "Do not use the <style> element; use separate CSS blocks instead.",
-                            `<style>
-  h3::after {
-    content: " rocks!";
-  }
-</style>`,
-                            "0:0 - 4:8",
-                            `/en-US/docs/Web/API/Window/getComputedStyle
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
-~~~
-<style>
-  h3::after {
-    content: " rocks!";
-  }
-</style>
-
-<h3>Generated content</h3>
-
-<script>
-  const h3 = document.querySelector("h3");
-  const result = getComputedStyle(h3, ":after").content;
-
-  console.log("the generated content is: ", result); // returns ' rocks!'
-</script>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-script",
-                            "Do not write JS within the <script> element; use separate JS blocks instead.",
-                            `<script>
-  const h3 = document.querySelector("h3");
-  const result = getComputedStyle(h3, ":after").content;
-
-  console.log("the generated content is: ", result); // returns ' rocks!'
-</script>`,
-                            "8:0 - 13:9",
-                            `/en-US/docs/Web/API/Window/getComputedStyle
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<style>
-  h3::after {
-    content: " rocks!";
-  }
-</style>
-
-<h3>Generated content</h3>
-
-<script>
-  const h3 = document.querySelector("h3");
-  const result = getComputedStyle(h3, ":after").content;
-
-  console.log("the generated content is: ", result); // returns ' rocks!'
-</script>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    getdefaultcomputedstyle: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/getDefaultComputedStyle",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-elem",
-                            "Do not use the <style> element; use separate CSS blocks instead.",
-                            `<style>
-  #elem-container {
-    position: absolute;
-    left: 100px;
-    top: 200px;
-    height: 100px;
-  }
-</style>`,
-                            "0:0 - 7:8",
-                            `/en-US/docs/Web/API/Window/getDefaultComputedStyle
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
-~~~
-<style>
-  #elem-container {
-    position: absolute;
-    left: 100px;
-    top: 200px;
-    height: 100px;
-  }
-</style>
-
-<div id="elem-container">dummy</div>
-<div id="output"></div>
-
-<script>
-  const elem = document.getElementById("elem-container");
-  const theCSSprop = window.getDefaultComputedStyle(elem).position;
-  document.getElementById("output").textContent = theCSSprop; // Will output "static"
-</script>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-script",
-                            "Do not write JS within the <script> element; use separate JS blocks instead.",
-                            `<script>
-  const elem = document.getElementById("elem-container");
-  const theCSSprop = window.getDefaultComputedStyle(elem).position;
-  document.getElementById("output").textContent = theCSSprop; // Will output "static"
-</script>`,
-                            "12:0 - 16:9",
-                            `/en-US/docs/Web/API/Window/getDefaultComputedStyle
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<style>
-  #elem-container {
-    position: absolute;
-    left: 100px;
-    top: 200px;
-    height: 100px;
-  }
-</style>
-
-<div id="elem-container">dummy</div>
-<div id="output"></div>
-
-<script>
-  const elem = document.getElementById("elem-container");
-  const theCSSprop = window.getDefaultComputedStyle(elem).position;
-  document.getElementById("output").textContent = theCSSprop; // Will output "static"
-</script>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-elem",
-                            "Do not use the <style> element; use separate CSS blocks instead.",
-                            `<style>
-  h3:after {
-    content: " rocks!";
-  }
-</style>`,
-                            "0:0 - 4:8",
-                            `/en-US/docs/Web/API/Window/getDefaultComputedStyle
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
-~~~
-<style>
-  h3:after {
-    content: " rocks!";
-  }
-</style>
-
-<h3>generated content</h3>
-
-<script>
-  const h3 = document.querySelector("h3");
-  const result = getDefaultComputedStyle(h3, ":after").content;
-
-  console.log("the generated content is: ", result); // returns 'none'
-</script>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-script",
-                            "Do not write JS within the <script> element; use separate JS blocks instead.",
-                            `<script>
-  const h3 = document.querySelector("h3");
-  const result = getDefaultComputedStyle(h3, ":after").content;
-
-  console.log("the generated content is: ", result); // returns 'none'
-</script>`,
-                            "8:0 - 13:9",
-                            `/en-US/docs/Web/API/Window/getDefaultComputedStyle
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<style>
-  h3:after {
-    content: " rocks!";
-  }
-</style>
-
-<h3>generated content</h3>
-
-<script>
-  const h3 = document.querySelector("h3");
-  const result = getDefaultComputedStyle(h3, ":after").content;
-
-  console.log("the generated content is: ", result); // returns 'none'
-</script>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    location: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/location",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-script",
-                            "Do not write JS within the <script> element; use separate JS blocks instead.",
-                            `    <script>
-      function showNode(node) {
-        document.documentElement.scrollTop = node.offsetTop;
-        document.documentElement.scrollLeft = node.offsetLeft;
-      }
-
-      function showBookmark(bookmark, useHash) {
-        if (arguments.length === 1 || useHash) {
-          location.hash = bookmark;
-          return;
-        }
-        const bookmarkElement = document.querySelector(bookmark);
-        if (bookmarkElement) {
-          showNode(bookmarkElement);
-        }
-      }
-    </script>`,
-                            "5:4 - 21:13",
-                            `/en-US/docs/Web/API/Window/location
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8" />
-    <title>MDN Example</title>
-    <script>
-      function showNode(node) {
-        document.documentElement.scrollTop = node.offsetTop;
-        document.documentElement.scrollLeft = node.offsetLeft;
-      }
-
-      function showBookmark(bookmark, useHash) {
-        if (arguments.length === 1 || useHash) {
-          location.hash = bookmark;
-          return;
-        }
-        const bookmarkElement = document.querySelector(bookmark);
-        if (bookmarkElement) {
-          showNode(bookmarkElement);
-        }
-      }
-    </script>
-    <style>
-      span.intLink {
-        cursor: pointer;
-        color: #0000ff;
-        text-decoration: underline;
-      }
-    </style>
-  </head>
-
-  <body>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultrices
-      dolor ac dolor imperdiet ullamcorper. Suspendisse quam libero, luctus
-      auctor mollis sed, malesuada condimentum magna. Quisque in ante tellus, in
-      placerat est. Pellentesque habitant morbi tristique senectus et netus et
-      malesuada fames ac turpis egestas. Donec a mi magna, quis mattis dolor.
-      Etiam sit amet ligula quis urna auctor imperdiet nec faucibus ante. Mauris
-      vel consectetur dolor. Nunc eget elit eget velit pulvinar fringilla
-      consectetur aliquam purus. Curabitur convallis, justo posuere porta
-      egestas, velit erat ornare tortor, non viverra justo diam eget arcu.
-      Phasellus adipiscing fermentum nibh ac commodo. Nam turpis nunc, suscipit
-      a hendrerit vitae, volutpat non ipsum.
-    </p>
-    <p>
-      Duis lobortis sapien quis nisl luctus porttitor. In tempor semper libero,
-      eu tincidunt dolor eleifend sit amet. Ut nec velit in dolor tincidunt
-      rhoncus non diam. Morbi auctor ornare orci, non euismod felis gravida nec.
-      Curabitur elementum nisi a eros rutrum nec blandit diam placerat. Aenean
-      tincidunt risus ut nisi consectetur cursus. Ut vitae quam elit. Donec
-      dignissim est in quam tempor consequat. Aliquam diam non felis convallis
-      suscipit. Nulla facilisi. Donec lacus risus, dignissim et fringilla et,
-      egestas vel eros. Duis malesuada accumsan dui, at fringilla mauris
-      bibendum quis. Cras adipiscing ultricies fermentum. Praesent bibendum
-      condimentum feugiat.
-    </p>
-    <p id="myBookmark1">
-      [&nbsp;<span class="intLink" onclick="showBookmark('#myBookmark2');"
-        >Go to bookmark #2</span
-      >&nbsp;]
-    </p>
-    <p>
-      Vivamus blandit massa ut metus mattis in fringilla lectus imperdiet. Proin
-      ac ante a felis ornare vehicula. Fusce pellentesque lacus vitae eros
-      convallis ut mollis magna pellentesque. Pellentesque placerat enim at
-      lacus ultricies vitae facilisis nisi fringilla. In tincidunt tincidunt
-      tincidunt. Nulla vitae tempor nisl. Etiam congue, elit vitae egestas
-      mollis, ipsum nisi malesuada turpis, a volutpat arcu arcu id risus.
-    </p>
-    <p>
-      Nam faucibus, ligula eu fringilla pulvinar, lectus tellus iaculis nunc,
-      vitae scelerisque metus leo non metus. Proin mattis lobortis lobortis.
-      Quisque accumsan faucibus erat, vel varius tortor ultricies ac. Lorem
-      ipsum dolor sit amet, consectetur adipiscing elit. Sed nec libero nunc.
-      Nullam tortor nunc, elementum a consectetur et, ultrices eu orci. Lorem
-      ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a nisl eu
-      sem vehicula egestas.
-    </p>
-    <p>
-      Aenean viverra varius mauris, sed elementum lacus interdum non. Phasellus
-      sit amet lectus vitae eros egestas pellentesque fermentum eget magna.
-      Quisque mauris nisl, gravida vitae placerat et, condimentum id metus.
-      Nulla eu est dictum dolor pulvinar volutpat. Pellentesque vitae
-      sollicitudin nunc. Donec neque magna, lobortis id egestas nec, sodales
-      quis lectus. Fusce cursus sollicitudin porta. Suspendisse ut tortor in
-      mauris tincidunt rhoncus. Maecenas tincidunt fermentum facilisis.
-      Pellentesque habitant morbi tristique senectus et netus et malesuada fames
-      ac turpis egestas.
-    </p>
-    <p>
-      Suspendisse turpis nisl, consectetur in lacinia ut, ornare vel mi. Lorem
-      ipsum dolor sit amet, consectetur adipiscing elit. Proin non lectus eu
-      turpis vulputate cursus. Mauris interdum tincidunt erat id pharetra.
-      Nullam in libero elit, sed consequat lectus. Morbi odio nisi, porta vitae
-      molestie ut, gravida ut nunc. Ut non est dui, id ullamcorper orci.
-      Praesent vel elementum felis. Maecenas ornare, dui quis auctor hendrerit,
-      turpis sem ullamcorper odio, in auctor magna metus quis leo. Morbi at odio
-      ante.
-    </p>
-    <p>
-      Curabitur est ipsum, porta ac viverra faucibus, eleifend sed eros. In sit
-      amet vehicula tortor. Vestibulum viverra pellentesque erat a elementum.
-      Integer commodo ultricies lorem, eget tincidunt risus viverra et. In enim
-      turpis, porttitor ac ornare et, suscipit sit amet nisl. Vestibulum ante
-      ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-      Pellentesque vel ultrices nibh. Sed commodo aliquam aliquam. Nulla
-      euismod, odio ut eleifend mollis, nisi dui gravida nibh, vitae laoreet
-      turpis purus id ipsum. Donec convallis, velit non scelerisque bibendum,
-      diam nulla auctor nunc, vel dictum risus ipsum sit amet est. Praesent ut
-      nibh sit amet nibh congue pulvinar. Suspendisse dictum porttitor tempor.
-    </p>
-    <p>
-      Vestibulum dignissim erat vitae lectus auctor ac bibendum eros semper.
-      Integer aliquet, leo non ornare faucibus, risus arcu tristique dolor, a
-      aliquet massa mauris quis arcu. In porttitor, lectus ac semper egestas,
-      ligula magna laoreet libero, eu commodo mauris odio id ante. In hac
-      habitasse platea dictumst. In pretium erat diam, nec consequat eros.
-      Praesent augue mi, consequat sed porttitor at, volutpat vitae eros. Sed
-      pretium pharetra dapibus. Donec auctor interdum erat, lacinia molestie
-      nibh commodo ut. Maecenas vestibulum vulputate felis, ut ullamcorper arcu
-      faucibus in. Curabitur id arcu est. In semper mollis lorem at
-      pellentesque. Sed lectus nisl, vestibulum id scelerisque eu, feugiat et
-      tortor. Pellentesque porttitor facilisis ultricies.
-    </p>
-    <p id="myBookmark2">
-      [&nbsp;<span class="intLink" onclick="showBookmark('#myBookmark1');"
-        >Go to bookmark #1</span
-      >
-      |
-      <span class="intLink" onclick="showBookmark('#myBookmark1', false);"
-        >Go to bookmark #1 without using location.hash</span
-      >
-      |
-      <span class="intLink" onclick="showBookmark('#myBookmark3');"
-        >Go to bookmark #3</span
-      >&nbsp;]
-    </p>
-    <p>
-      Phasellus tempus fringilla nunc, eget sagittis orci molestie vel. Nulla
-      sollicitudin diam non quam iaculis ac porta justo venenatis. Quisque
-      tellus urna, molestie vitae egestas sit amet, suscipit sed sem. Quisque
-      nec lorem eu velit faucibus tristique ut ut dolor. Cras eu tortor ut
-      libero placerat venenatis ut ut massa. Sed quis libero augue, et consequat
-      libero. Morbi rutrum augue sed turpis elementum sed luctus nisl molestie.
-      Aenean vitae purus risus, a semper nisl. Pellentesque malesuada, est id
-      sagittis consequat, libero mauris tincidunt tellus, eu sagittis arcu purus
-      rutrum eros. Quisque eget eleifend mi. Duis pharetra mi ac eros mattis
-      lacinia rutrum ipsum varius.
-    </p>
-    <p>
-      Fusce cursus pulvinar aliquam. Duis justo enim, ornare vitae elementum
-      sed, porta a quam. Aliquam eu enim eu libero mollis tempus. Morbi ornare
-      aliquam posuere. Proin faucibus luctus libero, sed ultrices lorem sagittis
-      et. Vestibulum malesuada, ante nec molestie vehicula, quam diam mollis
-      ipsum, rhoncus posuere mauris lectus in eros. Nullam feugiat ultrices
-      augue, ac sodales sem mollis in.
-    </p>
-    <p id="myBookmark3"><em>Here is the bookmark #3</em></p>
-    <p>
-      Proin vitae sem non lorem pellentesque molestie. Nam tempus massa et
-      turpis placerat sit amet sollicitudin orci sodales. Pellentesque enim
-      enim, sagittis a lobortis ut, tempus sed arcu. Aliquam augue turpis,
-      varius vel bibendum ut, aliquam at diam. Nam lobortis, dui eu hendrerit
-      pellentesque, sem neque porttitor erat, non dapibus velit lectus in metus.
-      Vestibulum sit amet felis enim. In quis est vitae nunc malesuada consequat
-      nec nec sapien. Suspendisse aliquam massa placerat dui lacinia luctus sed
-      vitae risus. Fusce tempus, neque id ultrices volutpat, mi urna auctor
-      arcu, viverra semper libero sem vel enim. Mauris dictum, elit non placerat
-      malesuada, libero elit euismod nibh, nec posuere massa arcu eu risus.
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer urna
-      velit, dapibus eget varius feugiat, pellentesque sit amet ligula. Maecenas
-      nulla nisl, facilisis eu egestas scelerisque, mollis eget metus.
-      Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-      cubilia Curae; Morbi sed congue mi.
-    </p>
-    <p>
-      Fusce metus velit, pharetra at vestibulum nec, facilisis porttitor mi.
-      Curabitur ligula sapien, fermentum vel porttitor id, rutrum sit amet
-      magna. Sed sit amet sollicitudin turpis. Aenean luctus rhoncus dolor, et
-      pulvinar ante egestas et. Donec ac massa orci, quis dapibus augue. Vivamus
-      consectetur auctor pellentesque. Praesent vestibulum tincidunt ante sed
-      consectetur. Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Fusce purus metus, imperdiet vitae iaculis
-      convallis, bibendum vitae turpis.
-    </p>
-    <p>
-      Fusce aliquet molestie dolor, in ornare dui sodales nec. In molestie
-      sollicitudin felis a porta. Mauris nec orci sit amet orci blandit
-      tristique congue nec nunc. Praesent et tellus sollicitudin mauris accumsan
-      fringilla. Morbi sodales, justo eu sollicitudin lacinia, lectus sapien
-      ullamcorper eros, quis molestie urna elit bibendum risus. Proin eget
-      tincidunt quam. Nam luctus commodo mauris, eu posuere nunc luctus non.
-      Nulla facilisi. Vivamus eget leo rhoncus quam accumsan fringilla. Aliquam
-      sit amet lorem est. Nullam vel tellus nibh, id imperdiet orci. Integer
-      egestas leo eu turpis blandit scelerisque.
-    </p>
-    <p>
-      Etiam in blandit tellus. Integer sed varius quam. Vestibulum dapibus mi
-      gravida arcu viverra blandit. Praesent tristique augue id sem adipiscing
-      pellentesque. Sed sollicitudin, leo sed interdum elementum, nisi ante
-      condimentum leo, eget ornare libero diam semper quam. Vivamus augue urna,
-      porta eget ultrices et, dapibus ut ligula. Ut laoreet consequat faucibus.
-      Praesent at lectus ut lectus malesuada mollis. Nam interdum adipiscing
-      eros, nec sodales mi porta nec. Proin et quam vitae sem interdum aliquet.
-      Proin vel odio at lacus vehicula aliquet.
-    </p>
-    <p>
-      Etiam placerat dui ut sem ornare vel vestibulum augue mattis. Sed semper
-      malesuada mi, eu bibendum lacus lobortis nec. Etiam fringilla elementum
-      risus, eget consequat urna laoreet nec. Etiam mollis quam non sem
-      convallis vel consectetur lectus ullamcorper. Aenean mattis lacus quis
-      ligula mattis eget vestibulum diam hendrerit. In non placerat mauris.
-      Praesent faucibus nunc quis eros sagittis viverra. In hac habitasse platea
-      dictumst. Suspendisse eget nisl erat, ac molestie massa. Praesent mollis
-      vestibulum tincidunt. Fusce suscipit laoreet malesuada. Aliquam erat
-      volutpat. Aliquam dictum elementum rhoncus. Praesent in est massa,
-      pulvinar sodales nunc. Pellentesque gravida euismod mi ac convallis.
-    </p>
-    <p>
-      Mauris vel odio vel nulla facilisis lacinia. Aliquam ultrices est at leo
-      blandit tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et
-      ultrices posuere cubilia Curae; Suspendisse porttitor adipiscing
-      facilisis. Duis cursus quam iaculis augue interdum porttitor. Vestibulum
-      ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-      Curae; Duis vulputate magna ac metus pretium condimentum. In tempus, est
-      eget vestibulum blandit, velit massa dignissim nisl, ut scelerisque lorem
-      neque vel velit. Maecenas fermentum commodo viverra. Curabitur a nibh non
-      velit aliquam cursus. Integer semper condimentum tortor a pellentesque.
-      Pellentesque semper, nisl id porttitor vehicula, sem dui feugiat lacus,
-      vitae consequat augue urna vel odio.
-    </p>
-    <p>
-      Vestibulum id neque nec turpis iaculis pulvinar et a massa. Vestibulum sed
-      nibh vitae arcu eleifend egestas. Mauris fermentum ultrices blandit.
-      Suspendisse vitae lorem libero. Aenean et pellentesque tellus. Morbi quis
-      neque orci, eu dignissim dui. Fusce sollicitudin mauris ac arcu vestibulum
-      imperdiet. Proin ultricies nisl sit amet enim imperdiet eu ornare dui
-      tempus. Maecenas lobortis nisi a tortor vestibulum vel eleifend tellus
-      vestibulum. Donec metus sapien, hendrerit a fermentum id, dictum quis
-      libero.
-    </p>
-    <p>
-      Pellentesque a lorem nulla, in tempor justo. Duis odio nisl, dignissim sed
-      consequat sit amet, hendrerit ac neque. Nunc ac augue nec massa tempor
-      rhoncus. Nam feugiat, tellus a varius euismod, justo nisl faucibus velit,
-      ut vulputate justo massa eu nibh. Sed bibendum urna quis magna facilisis
-      in accumsan dolor malesuada. Morbi sit amet nunc risus, in faucibus sem.
-      Nullam sollicitudin magna sed sem mollis id commodo libero condimentum.
-      Duis eu massa et lacus semper molestie ut adipiscing sem.
-    </p>
-    <p>
-      Sed id nulla mi, eget suscipit eros. Aliquam tempus molestie rutrum. In
-      quis varius elit. Nullam dignissim neque nec velit vulputate porttitor.
-      Mauris ac ligula sit amet elit fermentum rhoncus. In tellus urna, pulvinar
-      quis condimentum ut, porta nec justo. In hac habitasse platea dictumst.
-      Proin volutpat elit id quam molestie ac commodo lacus sagittis. Quisque
-      placerat, augue tempor placerat pulvinar, nisi nisi venenatis urna, eget
-      convallis eros velit quis magna. Suspendisse volutpat iaculis quam, ut
-      tristique lacus luctus quis.
-    </p>
-    <p>
-      Nullam commodo suscipit lacus non aliquet. Phasellus ac nisl lorem, sed
-      facilisis ligula. Nam cursus lobortis placerat. Sed dui nisi, elementum eu
-      sodales ac, placerat sit amet mauris. Pellentesque dapibus tellus ut ipsum
-      aliquam eu auctor dui vehicula. Quisque ultrices laoreet erat, at ultrices
-      tortor sodales non. Sed venenatis luctus magna, ultricies ultricies nunc
-      fringilla eget. Praesent scelerisque urna vitae nibh tristique varius
-      consequat neque luctus. Integer ornare, erat a porta tempus, velit justo
-      fermentum elit, a fermentum metus nisi eu ipsum. Vivamus eget augue vel
-      dui viverra adipiscing congue ut massa. Praesent vitae eros erat, pulvinar
-      laoreet magna. Maecenas vestibulum mollis nunc in posuere. Pellentesque
-      sit amet metus a turpis lobortis tempor eu vel tortor. Cras sodales
-      eleifend interdum.
-    </p>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-elem",
-                            "Do not use the <style> element; use separate CSS blocks instead.",
-                            `    <style>
-      span.intLink {
-        cursor: pointer;
-        color: #0000ff;
-        text-decoration: underline;
-      }
-    </style>`,
-                            "22:4 - 28:12",
-                            `/en-US/docs/Web/API/Window/location
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
-~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8" />
-    <title>MDN Example</title>
-    <script>
-      function showNode(node) {
-        document.documentElement.scrollTop = node.offsetTop;
-        document.documentElement.scrollLeft = node.offsetLeft;
-      }
-
-      function showBookmark(bookmark, useHash) {
-        if (arguments.length === 1 || useHash) {
-          location.hash = bookmark;
-          return;
-        }
-        const bookmarkElement = document.querySelector(bookmark);
-        if (bookmarkElement) {
-          showNode(bookmarkElement);
-        }
-      }
-    </script>
-    <style>
-      span.intLink {
-        cursor: pointer;
-        color: #0000ff;
-        text-decoration: underline;
-      }
-    </style>
-  </head>
-
-  <body>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultrices
-      dolor ac dolor imperdiet ullamcorper. Suspendisse quam libero, luctus
-      auctor mollis sed, malesuada condimentum magna. Quisque in ante tellus, in
-      placerat est. Pellentesque habitant morbi tristique senectus et netus et
-      malesuada fames ac turpis egestas. Donec a mi magna, quis mattis dolor.
-      Etiam sit amet ligula quis urna auctor imperdiet nec faucibus ante. Mauris
-      vel consectetur dolor. Nunc eget elit eget velit pulvinar fringilla
-      consectetur aliquam purus. Curabitur convallis, justo posuere porta
-      egestas, velit erat ornare tortor, non viverra justo diam eget arcu.
-      Phasellus adipiscing fermentum nibh ac commodo. Nam turpis nunc, suscipit
-      a hendrerit vitae, volutpat non ipsum.
-    </p>
-    <p>
-      Duis lobortis sapien quis nisl luctus porttitor. In tempor semper libero,
-      eu tincidunt dolor eleifend sit amet. Ut nec velit in dolor tincidunt
-      rhoncus non diam. Morbi auctor ornare orci, non euismod felis gravida nec.
-      Curabitur elementum nisi a eros rutrum nec blandit diam placerat. Aenean
-      tincidunt risus ut nisi consectetur cursus. Ut vitae quam elit. Donec
-      dignissim est in quam tempor consequat. Aliquam diam non felis convallis
-      suscipit. Nulla facilisi. Donec lacus risus, dignissim et fringilla et,
-      egestas vel eros. Duis malesuada accumsan dui, at fringilla mauris
-      bibendum quis. Cras adipiscing ultricies fermentum. Praesent bibendum
-      condimentum feugiat.
-    </p>
-    <p id="myBookmark1">
-      [&nbsp;<span class="intLink" onclick="showBookmark('#myBookmark2');"
-        >Go to bookmark #2</span
-      >&nbsp;]
-    </p>
-    <p>
-      Vivamus blandit massa ut metus mattis in fringilla lectus imperdiet. Proin
-      ac ante a felis ornare vehicula. Fusce pellentesque lacus vitae eros
-      convallis ut mollis magna pellentesque. Pellentesque placerat enim at
-      lacus ultricies vitae facilisis nisi fringilla. In tincidunt tincidunt
-      tincidunt. Nulla vitae tempor nisl. Etiam congue, elit vitae egestas
-      mollis, ipsum nisi malesuada turpis, a volutpat arcu arcu id risus.
-    </p>
-    <p>
-      Nam faucibus, ligula eu fringilla pulvinar, lectus tellus iaculis nunc,
-      vitae scelerisque metus leo non metus. Proin mattis lobortis lobortis.
-      Quisque accumsan faucibus erat, vel varius tortor ultricies ac. Lorem
-      ipsum dolor sit amet, consectetur adipiscing elit. Sed nec libero nunc.
-      Nullam tortor nunc, elementum a consectetur et, ultrices eu orci. Lorem
-      ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a nisl eu
-      sem vehicula egestas.
-    </p>
-    <p>
-      Aenean viverra varius mauris, sed elementum lacus interdum non. Phasellus
-      sit amet lectus vitae eros egestas pellentesque fermentum eget magna.
-      Quisque mauris nisl, gravida vitae placerat et, condimentum id metus.
-      Nulla eu est dictum dolor pulvinar volutpat. Pellentesque vitae
-      sollicitudin nunc. Donec neque magna, lobortis id egestas nec, sodales
-      quis lectus. Fusce cursus sollicitudin porta. Suspendisse ut tortor in
-      mauris tincidunt rhoncus. Maecenas tincidunt fermentum facilisis.
-      Pellentesque habitant morbi tristique senectus et netus et malesuada fames
-      ac turpis egestas.
-    </p>
-    <p>
-      Suspendisse turpis nisl, consectetur in lacinia ut, ornare vel mi. Lorem
-      ipsum dolor sit amet, consectetur adipiscing elit. Proin non lectus eu
-      turpis vulputate cursus. Mauris interdum tincidunt erat id pharetra.
-      Nullam in libero elit, sed consequat lectus. Morbi odio nisi, porta vitae
-      molestie ut, gravida ut nunc. Ut non est dui, id ullamcorper orci.
-      Praesent vel elementum felis. Maecenas ornare, dui quis auctor hendrerit,
-      turpis sem ullamcorper odio, in auctor magna metus quis leo. Morbi at odio
-      ante.
-    </p>
-    <p>
-      Curabitur est ipsum, porta ac viverra faucibus, eleifend sed eros. In sit
-      amet vehicula tortor. Vestibulum viverra pellentesque erat a elementum.
-      Integer commodo ultricies lorem, eget tincidunt risus viverra et. In enim
-      turpis, porttitor ac ornare et, suscipit sit amet nisl. Vestibulum ante
-      ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-      Pellentesque vel ultrices nibh. Sed commodo aliquam aliquam. Nulla
-      euismod, odio ut eleifend mollis, nisi dui gravida nibh, vitae laoreet
-      turpis purus id ipsum. Donec convallis, velit non scelerisque bibendum,
-      diam nulla auctor nunc, vel dictum risus ipsum sit amet est. Praesent ut
-      nibh sit amet nibh congue pulvinar. Suspendisse dictum porttitor tempor.
-    </p>
-    <p>
-      Vestibulum dignissim erat vitae lectus auctor ac bibendum eros semper.
-      Integer aliquet, leo non ornare faucibus, risus arcu tristique dolor, a
-      aliquet massa mauris quis arcu. In porttitor, lectus ac semper egestas,
-      ligula magna laoreet libero, eu commodo mauris odio id ante. In hac
-      habitasse platea dictumst. In pretium erat diam, nec consequat eros.
-      Praesent augue mi, consequat sed porttitor at, volutpat vitae eros. Sed
-      pretium pharetra dapibus. Donec auctor interdum erat, lacinia molestie
-      nibh commodo ut. Maecenas vestibulum vulputate felis, ut ullamcorper arcu
-      faucibus in. Curabitur id arcu est. In semper mollis lorem at
-      pellentesque. Sed lectus nisl, vestibulum id scelerisque eu, feugiat et
-      tortor. Pellentesque porttitor facilisis ultricies.
-    </p>
-    <p id="myBookmark2">
-      [&nbsp;<span class="intLink" onclick="showBookmark('#myBookmark1');"
-        >Go to bookmark #1</span
-      >
-      |
-      <span class="intLink" onclick="showBookmark('#myBookmark1', false);"
-        >Go to bookmark #1 without using location.hash</span
-      >
-      |
-      <span class="intLink" onclick="showBookmark('#myBookmark3');"
-        >Go to bookmark #3</span
-      >&nbsp;]
-    </p>
-    <p>
-      Phasellus tempus fringilla nunc, eget sagittis orci molestie vel. Nulla
-      sollicitudin diam non quam iaculis ac porta justo venenatis. Quisque
-      tellus urna, molestie vitae egestas sit amet, suscipit sed sem. Quisque
-      nec lorem eu velit faucibus tristique ut ut dolor. Cras eu tortor ut
-      libero placerat venenatis ut ut massa. Sed quis libero augue, et consequat
-      libero. Morbi rutrum augue sed turpis elementum sed luctus nisl molestie.
-      Aenean vitae purus risus, a semper nisl. Pellentesque malesuada, est id
-      sagittis consequat, libero mauris tincidunt tellus, eu sagittis arcu purus
-      rutrum eros. Quisque eget eleifend mi. Duis pharetra mi ac eros mattis
-      lacinia rutrum ipsum varius.
-    </p>
-    <p>
-      Fusce cursus pulvinar aliquam. Duis justo enim, ornare vitae elementum
-      sed, porta a quam. Aliquam eu enim eu libero mollis tempus. Morbi ornare
-      aliquam posuere. Proin faucibus luctus libero, sed ultrices lorem sagittis
-      et. Vestibulum malesuada, ante nec molestie vehicula, quam diam mollis
-      ipsum, rhoncus posuere mauris lectus in eros. Nullam feugiat ultrices
-      augue, ac sodales sem mollis in.
-    </p>
-    <p id="myBookmark3"><em>Here is the bookmark #3</em></p>
-    <p>
-      Proin vitae sem non lorem pellentesque molestie. Nam tempus massa et
-      turpis placerat sit amet sollicitudin orci sodales. Pellentesque enim
-      enim, sagittis a lobortis ut, tempus sed arcu. Aliquam augue turpis,
-      varius vel bibendum ut, aliquam at diam. Nam lobortis, dui eu hendrerit
-      pellentesque, sem neque porttitor erat, non dapibus velit lectus in metus.
-      Vestibulum sit amet felis enim. In quis est vitae nunc malesuada consequat
-      nec nec sapien. Suspendisse aliquam massa placerat dui lacinia luctus sed
-      vitae risus. Fusce tempus, neque id ultrices volutpat, mi urna auctor
-      arcu, viverra semper libero sem vel enim. Mauris dictum, elit non placerat
-      malesuada, libero elit euismod nibh, nec posuere massa arcu eu risus.
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer urna
-      velit, dapibus eget varius feugiat, pellentesque sit amet ligula. Maecenas
-      nulla nisl, facilisis eu egestas scelerisque, mollis eget metus.
-      Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-      cubilia Curae; Morbi sed congue mi.
-    </p>
-    <p>
-      Fusce metus velit, pharetra at vestibulum nec, facilisis porttitor mi.
-      Curabitur ligula sapien, fermentum vel porttitor id, rutrum sit amet
-      magna. Sed sit amet sollicitudin turpis. Aenean luctus rhoncus dolor, et
-      pulvinar ante egestas et. Donec ac massa orci, quis dapibus augue. Vivamus
-      consectetur auctor pellentesque. Praesent vestibulum tincidunt ante sed
-      consectetur. Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Fusce purus metus, imperdiet vitae iaculis
-      convallis, bibendum vitae turpis.
-    </p>
-    <p>
-      Fusce aliquet molestie dolor, in ornare dui sodales nec. In molestie
-      sollicitudin felis a porta. Mauris nec orci sit amet orci blandit
-      tristique congue nec nunc. Praesent et tellus sollicitudin mauris accumsan
-      fringilla. Morbi sodales, justo eu sollicitudin lacinia, lectus sapien
-      ullamcorper eros, quis molestie urna elit bibendum risus. Proin eget
-      tincidunt quam. Nam luctus commodo mauris, eu posuere nunc luctus non.
-      Nulla facilisi. Vivamus eget leo rhoncus quam accumsan fringilla. Aliquam
-      sit amet lorem est. Nullam vel tellus nibh, id imperdiet orci. Integer
-      egestas leo eu turpis blandit scelerisque.
-    </p>
-    <p>
-      Etiam in blandit tellus. Integer sed varius quam. Vestibulum dapibus mi
-      gravida arcu viverra blandit. Praesent tristique augue id sem adipiscing
-      pellentesque. Sed sollicitudin, leo sed interdum elementum, nisi ante
-      condimentum leo, eget ornare libero diam semper quam. Vivamus augue urna,
-      porta eget ultrices et, dapibus ut ligula. Ut laoreet consequat faucibus.
-      Praesent at lectus ut lectus malesuada mollis. Nam interdum adipiscing
-      eros, nec sodales mi porta nec. Proin et quam vitae sem interdum aliquet.
-      Proin vel odio at lacus vehicula aliquet.
-    </p>
-    <p>
-      Etiam placerat dui ut sem ornare vel vestibulum augue mattis. Sed semper
-      malesuada mi, eu bibendum lacus lobortis nec. Etiam fringilla elementum
-      risus, eget consequat urna laoreet nec. Etiam mollis quam non sem
-      convallis vel consectetur lectus ullamcorper. Aenean mattis lacus quis
-      ligula mattis eget vestibulum diam hendrerit. In non placerat mauris.
-      Praesent faucibus nunc quis eros sagittis viverra. In hac habitasse platea
-      dictumst. Suspendisse eget nisl erat, ac molestie massa. Praesent mollis
-      vestibulum tincidunt. Fusce suscipit laoreet malesuada. Aliquam erat
-      volutpat. Aliquam dictum elementum rhoncus. Praesent in est massa,
-      pulvinar sodales nunc. Pellentesque gravida euismod mi ac convallis.
-    </p>
-    <p>
-      Mauris vel odio vel nulla facilisis lacinia. Aliquam ultrices est at leo
-      blandit tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et
-      ultrices posuere cubilia Curae; Suspendisse porttitor adipiscing
-      facilisis. Duis cursus quam iaculis augue interdum porttitor. Vestibulum
-      ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-      Curae; Duis vulputate magna ac metus pretium condimentum. In tempus, est
-      eget vestibulum blandit, velit massa dignissim nisl, ut scelerisque lorem
-      neque vel velit. Maecenas fermentum commodo viverra. Curabitur a nibh non
-      velit aliquam cursus. Integer semper condimentum tortor a pellentesque.
-      Pellentesque semper, nisl id porttitor vehicula, sem dui feugiat lacus,
-      vitae consequat augue urna vel odio.
-    </p>
-    <p>
-      Vestibulum id neque nec turpis iaculis pulvinar et a massa. Vestibulum sed
-      nibh vitae arcu eleifend egestas. Mauris fermentum ultrices blandit.
-      Suspendisse vitae lorem libero. Aenean et pellentesque tellus. Morbi quis
-      neque orci, eu dignissim dui. Fusce sollicitudin mauris ac arcu vestibulum
-      imperdiet. Proin ultricies nisl sit amet enim imperdiet eu ornare dui
-      tempus. Maecenas lobortis nisi a tortor vestibulum vel eleifend tellus
-      vestibulum. Donec metus sapien, hendrerit a fermentum id, dictum quis
-      libero.
-    </p>
-    <p>
-      Pellentesque a lorem nulla, in tempor justo. Duis odio nisl, dignissim sed
-      consequat sit amet, hendrerit ac neque. Nunc ac augue nec massa tempor
-      rhoncus. Nam feugiat, tellus a varius euismod, justo nisl faucibus velit,
-      ut vulputate justo massa eu nibh. Sed bibendum urna quis magna facilisis
-      in accumsan dolor malesuada. Morbi sit amet nunc risus, in faucibus sem.
-      Nullam sollicitudin magna sed sem mollis id commodo libero condimentum.
-      Duis eu massa et lacus semper molestie ut adipiscing sem.
-    </p>
-    <p>
-      Sed id nulla mi, eget suscipit eros. Aliquam tempus molestie rutrum. In
-      quis varius elit. Nullam dignissim neque nec velit vulputate porttitor.
-      Mauris ac ligula sit amet elit fermentum rhoncus. In tellus urna, pulvinar
-      quis condimentum ut, porta nec justo. In hac habitasse platea dictumst.
-      Proin volutpat elit id quam molestie ac commodo lacus sagittis. Quisque
-      placerat, augue tempor placerat pulvinar, nisi nisi venenatis urna, eget
-      convallis eros velit quis magna. Suspendisse volutpat iaculis quam, ut
-      tristique lacus luctus quis.
-    </p>
-    <p>
-      Nullam commodo suscipit lacus non aliquet. Phasellus ac nisl lorem, sed
-      facilisis ligula. Nam cursus lobortis placerat. Sed dui nisi, elementum eu
-      sodales ac, placerat sit amet mauris. Pellentesque dapibus tellus ut ipsum
-      aliquam eu auctor dui vehicula. Quisque ultrices laoreet erat, at ultrices
-      tortor sodales non. Sed venenatis luctus magna, ultricies ultricies nunc
-      fringilla eget. Praesent scelerisque urna vitae nibh tristique varius
-      consequat neque luctus. Integer ornare, erat a porta tempus, velit justo
-      fermentum elit, a fermentum metus nisi eu ipsum. Vivamus eget augue vel
-      dui viverra adipiscing congue ut massa. Praesent vitae eros erat, pulvinar
-      laoreet magna. Maecenas vestibulum mollis nunc in posuere. Pellentesque
-      sit amet metus a turpis lobortis tempor eu vel tortor. Cras sodales
-      eleifend interdum.
-    </p>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onclick".',
-                            `      [&nbsp;<span class="intLink" onclick="showBookmark('#myBookmark2');"`,
-                            "58:35 - 58:74",
-                            `/en-US/docs/Web/API/Window/location
-[no-inline-event-handlers] Do not use inline event handler "onclick".
-~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8" />
-    <title>MDN Example</title>
-    <script>
-      function showNode(node) {
-        document.documentElement.scrollTop = node.offsetTop;
-        document.documentElement.scrollLeft = node.offsetLeft;
-      }
-
-      function showBookmark(bookmark, useHash) {
-        if (arguments.length === 1 || useHash) {
-          location.hash = bookmark;
-          return;
-        }
-        const bookmarkElement = document.querySelector(bookmark);
-        if (bookmarkElement) {
-          showNode(bookmarkElement);
-        }
-      }
-    </script>
-    <style>
-      span.intLink {
-        cursor: pointer;
-        color: #0000ff;
-        text-decoration: underline;
-      }
-    </style>
-  </head>
-
-  <body>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultrices
-      dolor ac dolor imperdiet ullamcorper. Suspendisse quam libero, luctus
-      auctor mollis sed, malesuada condimentum magna. Quisque in ante tellus, in
-      placerat est. Pellentesque habitant morbi tristique senectus et netus et
-      malesuada fames ac turpis egestas. Donec a mi magna, quis mattis dolor.
-      Etiam sit amet ligula quis urna auctor imperdiet nec faucibus ante. Mauris
-      vel consectetur dolor. Nunc eget elit eget velit pulvinar fringilla
-      consectetur aliquam purus. Curabitur convallis, justo posuere porta
-      egestas, velit erat ornare tortor, non viverra justo diam eget arcu.
-      Phasellus adipiscing fermentum nibh ac commodo. Nam turpis nunc, suscipit
-      a hendrerit vitae, volutpat non ipsum.
-    </p>
-    <p>
-      Duis lobortis sapien quis nisl luctus porttitor. In tempor semper libero,
-      eu tincidunt dolor eleifend sit amet. Ut nec velit in dolor tincidunt
-      rhoncus non diam. Morbi auctor ornare orci, non euismod felis gravida nec.
-      Curabitur elementum nisi a eros rutrum nec blandit diam placerat. Aenean
-      tincidunt risus ut nisi consectetur cursus. Ut vitae quam elit. Donec
-      dignissim est in quam tempor consequat. Aliquam diam non felis convallis
-      suscipit. Nulla facilisi. Donec lacus risus, dignissim et fringilla et,
-      egestas vel eros. Duis malesuada accumsan dui, at fringilla mauris
-      bibendum quis. Cras adipiscing ultricies fermentum. Praesent bibendum
-      condimentum feugiat.
-    </p>
-    <p id="myBookmark1">
-      [&nbsp;<span class="intLink" onclick="showBookmark('#myBookmark2');"
-        >Go to bookmark #2</span
-      >&nbsp;]
-    </p>
-    <p>
-      Vivamus blandit massa ut metus mattis in fringilla lectus imperdiet. Proin
-      ac ante a felis ornare vehicula. Fusce pellentesque lacus vitae eros
-      convallis ut mollis magna pellentesque. Pellentesque placerat enim at
-      lacus ultricies vitae facilisis nisi fringilla. In tincidunt tincidunt
-      tincidunt. Nulla vitae tempor nisl. Etiam congue, elit vitae egestas
-      mollis, ipsum nisi malesuada turpis, a volutpat arcu arcu id risus.
-    </p>
-    <p>
-      Nam faucibus, ligula eu fringilla pulvinar, lectus tellus iaculis nunc,
-      vitae scelerisque metus leo non metus. Proin mattis lobortis lobortis.
-      Quisque accumsan faucibus erat, vel varius tortor ultricies ac. Lorem
-      ipsum dolor sit amet, consectetur adipiscing elit. Sed nec libero nunc.
-      Nullam tortor nunc, elementum a consectetur et, ultrices eu orci. Lorem
-      ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a nisl eu
-      sem vehicula egestas.
-    </p>
-    <p>
-      Aenean viverra varius mauris, sed elementum lacus interdum non. Phasellus
-      sit amet lectus vitae eros egestas pellentesque fermentum eget magna.
-      Quisque mauris nisl, gravida vitae placerat et, condimentum id metus.
-      Nulla eu est dictum dolor pulvinar volutpat. Pellentesque vitae
-      sollicitudin nunc. Donec neque magna, lobortis id egestas nec, sodales
-      quis lectus. Fusce cursus sollicitudin porta. Suspendisse ut tortor in
-      mauris tincidunt rhoncus. Maecenas tincidunt fermentum facilisis.
-      Pellentesque habitant morbi tristique senectus et netus et malesuada fames
-      ac turpis egestas.
-    </p>
-    <p>
-      Suspendisse turpis nisl, consectetur in lacinia ut, ornare vel mi. Lorem
-      ipsum dolor sit amet, consectetur adipiscing elit. Proin non lectus eu
-      turpis vulputate cursus. Mauris interdum tincidunt erat id pharetra.
-      Nullam in libero elit, sed consequat lectus. Morbi odio nisi, porta vitae
-      molestie ut, gravida ut nunc. Ut non est dui, id ullamcorper orci.
-      Praesent vel elementum felis. Maecenas ornare, dui quis auctor hendrerit,
-      turpis sem ullamcorper odio, in auctor magna metus quis leo. Morbi at odio
-      ante.
-    </p>
-    <p>
-      Curabitur est ipsum, porta ac viverra faucibus, eleifend sed eros. In sit
-      amet vehicula tortor. Vestibulum viverra pellentesque erat a elementum.
-      Integer commodo ultricies lorem, eget tincidunt risus viverra et. In enim
-      turpis, porttitor ac ornare et, suscipit sit amet nisl. Vestibulum ante
-      ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-      Pellentesque vel ultrices nibh. Sed commodo aliquam aliquam. Nulla
-      euismod, odio ut eleifend mollis, nisi dui gravida nibh, vitae laoreet
-      turpis purus id ipsum. Donec convallis, velit non scelerisque bibendum,
-      diam nulla auctor nunc, vel dictum risus ipsum sit amet est. Praesent ut
-      nibh sit amet nibh congue pulvinar. Suspendisse dictum porttitor tempor.
-    </p>
-    <p>
-      Vestibulum dignissim erat vitae lectus auctor ac bibendum eros semper.
-      Integer aliquet, leo non ornare faucibus, risus arcu tristique dolor, a
-      aliquet massa mauris quis arcu. In porttitor, lectus ac semper egestas,
-      ligula magna laoreet libero, eu commodo mauris odio id ante. In hac
-      habitasse platea dictumst. In pretium erat diam, nec consequat eros.
-      Praesent augue mi, consequat sed porttitor at, volutpat vitae eros. Sed
-      pretium pharetra dapibus. Donec auctor interdum erat, lacinia molestie
-      nibh commodo ut. Maecenas vestibulum vulputate felis, ut ullamcorper arcu
-      faucibus in. Curabitur id arcu est. In semper mollis lorem at
-      pellentesque. Sed lectus nisl, vestibulum id scelerisque eu, feugiat et
-      tortor. Pellentesque porttitor facilisis ultricies.
-    </p>
-    <p id="myBookmark2">
-      [&nbsp;<span class="intLink" onclick="showBookmark('#myBookmark1');"
-        >Go to bookmark #1</span
-      >
-      |
-      <span class="intLink" onclick="showBookmark('#myBookmark1', false);"
-        >Go to bookmark #1 without using location.hash</span
-      >
-      |
-      <span class="intLink" onclick="showBookmark('#myBookmark3');"
-        >Go to bookmark #3</span
-      >&nbsp;]
-    </p>
-    <p>
-      Phasellus tempus fringilla nunc, eget sagittis orci molestie vel. Nulla
-      sollicitudin diam non quam iaculis ac porta justo venenatis. Quisque
-      tellus urna, molestie vitae egestas sit amet, suscipit sed sem. Quisque
-      nec lorem eu velit faucibus tristique ut ut dolor. Cras eu tortor ut
-      libero placerat venenatis ut ut massa. Sed quis libero augue, et consequat
-      libero. Morbi rutrum augue sed turpis elementum sed luctus nisl molestie.
-      Aenean vitae purus risus, a semper nisl. Pellentesque malesuada, est id
-      sagittis consequat, libero mauris tincidunt tellus, eu sagittis arcu purus
-      rutrum eros. Quisque eget eleifend mi. Duis pharetra mi ac eros mattis
-      lacinia rutrum ipsum varius.
-    </p>
-    <p>
-      Fusce cursus pulvinar aliquam. Duis justo enim, ornare vitae elementum
-      sed, porta a quam. Aliquam eu enim eu libero mollis tempus. Morbi ornare
-      aliquam posuere. Proin faucibus luctus libero, sed ultrices lorem sagittis
-      et. Vestibulum malesuada, ante nec molestie vehicula, quam diam mollis
-      ipsum, rhoncus posuere mauris lectus in eros. Nullam feugiat ultrices
-      augue, ac sodales sem mollis in.
-    </p>
-    <p id="myBookmark3"><em>Here is the bookmark #3</em></p>
-    <p>
-      Proin vitae sem non lorem pellentesque molestie. Nam tempus massa et
-      turpis placerat sit amet sollicitudin orci sodales. Pellentesque enim
-      enim, sagittis a lobortis ut, tempus sed arcu. Aliquam augue turpis,
-      varius vel bibendum ut, aliquam at diam. Nam lobortis, dui eu hendrerit
-      pellentesque, sem neque porttitor erat, non dapibus velit lectus in metus.
-      Vestibulum sit amet felis enim. In quis est vitae nunc malesuada consequat
-      nec nec sapien. Suspendisse aliquam massa placerat dui lacinia luctus sed
-      vitae risus. Fusce tempus, neque id ultrices volutpat, mi urna auctor
-      arcu, viverra semper libero sem vel enim. Mauris dictum, elit non placerat
-      malesuada, libero elit euismod nibh, nec posuere massa arcu eu risus.
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer urna
-      velit, dapibus eget varius feugiat, pellentesque sit amet ligula. Maecenas
-      nulla nisl, facilisis eu egestas scelerisque, mollis eget metus.
-      Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-      cubilia Curae; Morbi sed congue mi.
-    </p>
-    <p>
-      Fusce metus velit, pharetra at vestibulum nec, facilisis porttitor mi.
-      Curabitur ligula sapien, fermentum vel porttitor id, rutrum sit amet
-      magna. Sed sit amet sollicitudin turpis. Aenean luctus rhoncus dolor, et
-      pulvinar ante egestas et. Donec ac massa orci, quis dapibus augue. Vivamus
-      consectetur auctor pellentesque. Praesent vestibulum tincidunt ante sed
-      consectetur. Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Fusce purus metus, imperdiet vitae iaculis
-      convallis, bibendum vitae turpis.
-    </p>
-    <p>
-      Fusce aliquet molestie dolor, in ornare dui sodales nec. In molestie
-      sollicitudin felis a porta. Mauris nec orci sit amet orci blandit
-      tristique congue nec nunc. Praesent et tellus sollicitudin mauris accumsan
-      fringilla. Morbi sodales, justo eu sollicitudin lacinia, lectus sapien
-      ullamcorper eros, quis molestie urna elit bibendum risus. Proin eget
-      tincidunt quam. Nam luctus commodo mauris, eu posuere nunc luctus non.
-      Nulla facilisi. Vivamus eget leo rhoncus quam accumsan fringilla. Aliquam
-      sit amet lorem est. Nullam vel tellus nibh, id imperdiet orci. Integer
-      egestas leo eu turpis blandit scelerisque.
-    </p>
-    <p>
-      Etiam in blandit tellus. Integer sed varius quam. Vestibulum dapibus mi
-      gravida arcu viverra blandit. Praesent tristique augue id sem adipiscing
-      pellentesque. Sed sollicitudin, leo sed interdum elementum, nisi ante
-      condimentum leo, eget ornare libero diam semper quam. Vivamus augue urna,
-      porta eget ultrices et, dapibus ut ligula. Ut laoreet consequat faucibus.
-      Praesent at lectus ut lectus malesuada mollis. Nam interdum adipiscing
-      eros, nec sodales mi porta nec. Proin et quam vitae sem interdum aliquet.
-      Proin vel odio at lacus vehicula aliquet.
-    </p>
-    <p>
-      Etiam placerat dui ut sem ornare vel vestibulum augue mattis. Sed semper
-      malesuada mi, eu bibendum lacus lobortis nec. Etiam fringilla elementum
-      risus, eget consequat urna laoreet nec. Etiam mollis quam non sem
-      convallis vel consectetur lectus ullamcorper. Aenean mattis lacus quis
-      ligula mattis eget vestibulum diam hendrerit. In non placerat mauris.
-      Praesent faucibus nunc quis eros sagittis viverra. In hac habitasse platea
-      dictumst. Suspendisse eget nisl erat, ac molestie massa. Praesent mollis
-      vestibulum tincidunt. Fusce suscipit laoreet malesuada. Aliquam erat
-      volutpat. Aliquam dictum elementum rhoncus. Praesent in est massa,
-      pulvinar sodales nunc. Pellentesque gravida euismod mi ac convallis.
-    </p>
-    <p>
-      Mauris vel odio vel nulla facilisis lacinia. Aliquam ultrices est at leo
-      blandit tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et
-      ultrices posuere cubilia Curae; Suspendisse porttitor adipiscing
-      facilisis. Duis cursus quam iaculis augue interdum porttitor. Vestibulum
-      ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-      Curae; Duis vulputate magna ac metus pretium condimentum. In tempus, est
-      eget vestibulum blandit, velit massa dignissim nisl, ut scelerisque lorem
-      neque vel velit. Maecenas fermentum commodo viverra. Curabitur a nibh non
-      velit aliquam cursus. Integer semper condimentum tortor a pellentesque.
-      Pellentesque semper, nisl id porttitor vehicula, sem dui feugiat lacus,
-      vitae consequat augue urna vel odio.
-    </p>
-    <p>
-      Vestibulum id neque nec turpis iaculis pulvinar et a massa. Vestibulum sed
-      nibh vitae arcu eleifend egestas. Mauris fermentum ultrices blandit.
-      Suspendisse vitae lorem libero. Aenean et pellentesque tellus. Morbi quis
-      neque orci, eu dignissim dui. Fusce sollicitudin mauris ac arcu vestibulum
-      imperdiet. Proin ultricies nisl sit amet enim imperdiet eu ornare dui
-      tempus. Maecenas lobortis nisi a tortor vestibulum vel eleifend tellus
-      vestibulum. Donec metus sapien, hendrerit a fermentum id, dictum quis
-      libero.
-    </p>
-    <p>
-      Pellentesque a lorem nulla, in tempor justo. Duis odio nisl, dignissim sed
-      consequat sit amet, hendrerit ac neque. Nunc ac augue nec massa tempor
-      rhoncus. Nam feugiat, tellus a varius euismod, justo nisl faucibus velit,
-      ut vulputate justo massa eu nibh. Sed bibendum urna quis magna facilisis
-      in accumsan dolor malesuada. Morbi sit amet nunc risus, in faucibus sem.
-      Nullam sollicitudin magna sed sem mollis id commodo libero condimentum.
-      Duis eu massa et lacus semper molestie ut adipiscing sem.
-    </p>
-    <p>
-      Sed id nulla mi, eget suscipit eros. Aliquam tempus molestie rutrum. In
-      quis varius elit. Nullam dignissim neque nec velit vulputate porttitor.
-      Mauris ac ligula sit amet elit fermentum rhoncus. In tellus urna, pulvinar
-      quis condimentum ut, porta nec justo. In hac habitasse platea dictumst.
-      Proin volutpat elit id quam molestie ac commodo lacus sagittis. Quisque
-      placerat, augue tempor placerat pulvinar, nisi nisi venenatis urna, eget
-      convallis eros velit quis magna. Suspendisse volutpat iaculis quam, ut
-      tristique lacus luctus quis.
-    </p>
-    <p>
-      Nullam commodo suscipit lacus non aliquet. Phasellus ac nisl lorem, sed
-      facilisis ligula. Nam cursus lobortis placerat. Sed dui nisi, elementum eu
-      sodales ac, placerat sit amet mauris. Pellentesque dapibus tellus ut ipsum
-      aliquam eu auctor dui vehicula. Quisque ultrices laoreet erat, at ultrices
-      tortor sodales non. Sed venenatis luctus magna, ultricies ultricies nunc
-      fringilla eget. Praesent scelerisque urna vitae nibh tristique varius
-      consequat neque luctus. Integer ornare, erat a porta tempus, velit justo
-      fermentum elit, a fermentum metus nisi eu ipsum. Vivamus eget augue vel
-      dui viverra adipiscing congue ut massa. Praesent vitae eros erat, pulvinar
-      laoreet magna. Maecenas vestibulum mollis nunc in posuere. Pellentesque
-      sit amet metus a turpis lobortis tempor eu vel tortor. Cras sodales
-      eleifend interdum.
-    </p>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onclick".',
-                            `      [&nbsp;<span class="intLink" onclick="showBookmark('#myBookmark1');"`,
-                            "126:35 - 126:74",
-                            `/en-US/docs/Web/API/Window/location
-[no-inline-event-handlers] Do not use inline event handler "onclick".
-~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8" />
-    <title>MDN Example</title>
-    <script>
-      function showNode(node) {
-        document.documentElement.scrollTop = node.offsetTop;
-        document.documentElement.scrollLeft = node.offsetLeft;
-      }
-
-      function showBookmark(bookmark, useHash) {
-        if (arguments.length === 1 || useHash) {
-          location.hash = bookmark;
-          return;
-        }
-        const bookmarkElement = document.querySelector(bookmark);
-        if (bookmarkElement) {
-          showNode(bookmarkElement);
-        }
-      }
-    </script>
-    <style>
-      span.intLink {
-        cursor: pointer;
-        color: #0000ff;
-        text-decoration: underline;
-      }
-    </style>
-  </head>
-
-  <body>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultrices
-      dolor ac dolor imperdiet ullamcorper. Suspendisse quam libero, luctus
-      auctor mollis sed, malesuada condimentum magna. Quisque in ante tellus, in
-      placerat est. Pellentesque habitant morbi tristique senectus et netus et
-      malesuada fames ac turpis egestas. Donec a mi magna, quis mattis dolor.
-      Etiam sit amet ligula quis urna auctor imperdiet nec faucibus ante. Mauris
-      vel consectetur dolor. Nunc eget elit eget velit pulvinar fringilla
-      consectetur aliquam purus. Curabitur convallis, justo posuere porta
-      egestas, velit erat ornare tortor, non viverra justo diam eget arcu.
-      Phasellus adipiscing fermentum nibh ac commodo. Nam turpis nunc, suscipit
-      a hendrerit vitae, volutpat non ipsum.
-    </p>
-    <p>
-      Duis lobortis sapien quis nisl luctus porttitor. In tempor semper libero,
-      eu tincidunt dolor eleifend sit amet. Ut nec velit in dolor tincidunt
-      rhoncus non diam. Morbi auctor ornare orci, non euismod felis gravida nec.
-      Curabitur elementum nisi a eros rutrum nec blandit diam placerat. Aenean
-      tincidunt risus ut nisi consectetur cursus. Ut vitae quam elit. Donec
-      dignissim est in quam tempor consequat. Aliquam diam non felis convallis
-      suscipit. Nulla facilisi. Donec lacus risus, dignissim et fringilla et,
-      egestas vel eros. Duis malesuada accumsan dui, at fringilla mauris
-      bibendum quis. Cras adipiscing ultricies fermentum. Praesent bibendum
-      condimentum feugiat.
-    </p>
-    <p id="myBookmark1">
-      [&nbsp;<span class="intLink" onclick="showBookmark('#myBookmark2');"
-        >Go to bookmark #2</span
-      >&nbsp;]
-    </p>
-    <p>
-      Vivamus blandit massa ut metus mattis in fringilla lectus imperdiet. Proin
-      ac ante a felis ornare vehicula. Fusce pellentesque lacus vitae eros
-      convallis ut mollis magna pellentesque. Pellentesque placerat enim at
-      lacus ultricies vitae facilisis nisi fringilla. In tincidunt tincidunt
-      tincidunt. Nulla vitae tempor nisl. Etiam congue, elit vitae egestas
-      mollis, ipsum nisi malesuada turpis, a volutpat arcu arcu id risus.
-    </p>
-    <p>
-      Nam faucibus, ligula eu fringilla pulvinar, lectus tellus iaculis nunc,
-      vitae scelerisque metus leo non metus. Proin mattis lobortis lobortis.
-      Quisque accumsan faucibus erat, vel varius tortor ultricies ac. Lorem
-      ipsum dolor sit amet, consectetur adipiscing elit. Sed nec libero nunc.
-      Nullam tortor nunc, elementum a consectetur et, ultrices eu orci. Lorem
-      ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a nisl eu
-      sem vehicula egestas.
-    </p>
-    <p>
-      Aenean viverra varius mauris, sed elementum lacus interdum non. Phasellus
-      sit amet lectus vitae eros egestas pellentesque fermentum eget magna.
-      Quisque mauris nisl, gravida vitae placerat et, condimentum id metus.
-      Nulla eu est dictum dolor pulvinar volutpat. Pellentesque vitae
-      sollicitudin nunc. Donec neque magna, lobortis id egestas nec, sodales
-      quis lectus. Fusce cursus sollicitudin porta. Suspendisse ut tortor in
-      mauris tincidunt rhoncus. Maecenas tincidunt fermentum facilisis.
-      Pellentesque habitant morbi tristique senectus et netus et malesuada fames
-      ac turpis egestas.
-    </p>
-    <p>
-      Suspendisse turpis nisl, consectetur in lacinia ut, ornare vel mi. Lorem
-      ipsum dolor sit amet, consectetur adipiscing elit. Proin non lectus eu
-      turpis vulputate cursus. Mauris interdum tincidunt erat id pharetra.
-      Nullam in libero elit, sed consequat lectus. Morbi odio nisi, porta vitae
-      molestie ut, gravida ut nunc. Ut non est dui, id ullamcorper orci.
-      Praesent vel elementum felis. Maecenas ornare, dui quis auctor hendrerit,
-      turpis sem ullamcorper odio, in auctor magna metus quis leo. Morbi at odio
-      ante.
-    </p>
-    <p>
-      Curabitur est ipsum, porta ac viverra faucibus, eleifend sed eros. In sit
-      amet vehicula tortor. Vestibulum viverra pellentesque erat a elementum.
-      Integer commodo ultricies lorem, eget tincidunt risus viverra et. In enim
-      turpis, porttitor ac ornare et, suscipit sit amet nisl. Vestibulum ante
-      ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-      Pellentesque vel ultrices nibh. Sed commodo aliquam aliquam. Nulla
-      euismod, odio ut eleifend mollis, nisi dui gravida nibh, vitae laoreet
-      turpis purus id ipsum. Donec convallis, velit non scelerisque bibendum,
-      diam nulla auctor nunc, vel dictum risus ipsum sit amet est. Praesent ut
-      nibh sit amet nibh congue pulvinar. Suspendisse dictum porttitor tempor.
-    </p>
-    <p>
-      Vestibulum dignissim erat vitae lectus auctor ac bibendum eros semper.
-      Integer aliquet, leo non ornare faucibus, risus arcu tristique dolor, a
-      aliquet massa mauris quis arcu. In porttitor, lectus ac semper egestas,
-      ligula magna laoreet libero, eu commodo mauris odio id ante. In hac
-      habitasse platea dictumst. In pretium erat diam, nec consequat eros.
-      Praesent augue mi, consequat sed porttitor at, volutpat vitae eros. Sed
-      pretium pharetra dapibus. Donec auctor interdum erat, lacinia molestie
-      nibh commodo ut. Maecenas vestibulum vulputate felis, ut ullamcorper arcu
-      faucibus in. Curabitur id arcu est. In semper mollis lorem at
-      pellentesque. Sed lectus nisl, vestibulum id scelerisque eu, feugiat et
-      tortor. Pellentesque porttitor facilisis ultricies.
-    </p>
-    <p id="myBookmark2">
-      [&nbsp;<span class="intLink" onclick="showBookmark('#myBookmark1');"
-        >Go to bookmark #1</span
-      >
-      |
-      <span class="intLink" onclick="showBookmark('#myBookmark1', false);"
-        >Go to bookmark #1 without using location.hash</span
-      >
-      |
-      <span class="intLink" onclick="showBookmark('#myBookmark3');"
-        >Go to bookmark #3</span
-      >&nbsp;]
-    </p>
-    <p>
-      Phasellus tempus fringilla nunc, eget sagittis orci molestie vel. Nulla
-      sollicitudin diam non quam iaculis ac porta justo venenatis. Quisque
-      tellus urna, molestie vitae egestas sit amet, suscipit sed sem. Quisque
-      nec lorem eu velit faucibus tristique ut ut dolor. Cras eu tortor ut
-      libero placerat venenatis ut ut massa. Sed quis libero augue, et consequat
-      libero. Morbi rutrum augue sed turpis elementum sed luctus nisl molestie.
-      Aenean vitae purus risus, a semper nisl. Pellentesque malesuada, est id
-      sagittis consequat, libero mauris tincidunt tellus, eu sagittis arcu purus
-      rutrum eros. Quisque eget eleifend mi. Duis pharetra mi ac eros mattis
-      lacinia rutrum ipsum varius.
-    </p>
-    <p>
-      Fusce cursus pulvinar aliquam. Duis justo enim, ornare vitae elementum
-      sed, porta a quam. Aliquam eu enim eu libero mollis tempus. Morbi ornare
-      aliquam posuere. Proin faucibus luctus libero, sed ultrices lorem sagittis
-      et. Vestibulum malesuada, ante nec molestie vehicula, quam diam mollis
-      ipsum, rhoncus posuere mauris lectus in eros. Nullam feugiat ultrices
-      augue, ac sodales sem mollis in.
-    </p>
-    <p id="myBookmark3"><em>Here is the bookmark #3</em></p>
-    <p>
-      Proin vitae sem non lorem pellentesque molestie. Nam tempus massa et
-      turpis placerat sit amet sollicitudin orci sodales. Pellentesque enim
-      enim, sagittis a lobortis ut, tempus sed arcu. Aliquam augue turpis,
-      varius vel bibendum ut, aliquam at diam. Nam lobortis, dui eu hendrerit
-      pellentesque, sem neque porttitor erat, non dapibus velit lectus in metus.
-      Vestibulum sit amet felis enim. In quis est vitae nunc malesuada consequat
-      nec nec sapien. Suspendisse aliquam massa placerat dui lacinia luctus sed
-      vitae risus. Fusce tempus, neque id ultrices volutpat, mi urna auctor
-      arcu, viverra semper libero sem vel enim. Mauris dictum, elit non placerat
-      malesuada, libero elit euismod nibh, nec posuere massa arcu eu risus.
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer urna
-      velit, dapibus eget varius feugiat, pellentesque sit amet ligula. Maecenas
-      nulla nisl, facilisis eu egestas scelerisque, mollis eget metus.
-      Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-      cubilia Curae; Morbi sed congue mi.
-    </p>
-    <p>
-      Fusce metus velit, pharetra at vestibulum nec, facilisis porttitor mi.
-      Curabitur ligula sapien, fermentum vel porttitor id, rutrum sit amet
-      magna. Sed sit amet sollicitudin turpis. Aenean luctus rhoncus dolor, et
-      pulvinar ante egestas et. Donec ac massa orci, quis dapibus augue. Vivamus
-      consectetur auctor pellentesque. Praesent vestibulum tincidunt ante sed
-      consectetur. Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Fusce purus metus, imperdiet vitae iaculis
-      convallis, bibendum vitae turpis.
-    </p>
-    <p>
-      Fusce aliquet molestie dolor, in ornare dui sodales nec. In molestie
-      sollicitudin felis a porta. Mauris nec orci sit amet orci blandit
-      tristique congue nec nunc. Praesent et tellus sollicitudin mauris accumsan
-      fringilla. Morbi sodales, justo eu sollicitudin lacinia, lectus sapien
-      ullamcorper eros, quis molestie urna elit bibendum risus. Proin eget
-      tincidunt quam. Nam luctus commodo mauris, eu posuere nunc luctus non.
-      Nulla facilisi. Vivamus eget leo rhoncus quam accumsan fringilla. Aliquam
-      sit amet lorem est. Nullam vel tellus nibh, id imperdiet orci. Integer
-      egestas leo eu turpis blandit scelerisque.
-    </p>
-    <p>
-      Etiam in blandit tellus. Integer sed varius quam. Vestibulum dapibus mi
-      gravida arcu viverra blandit. Praesent tristique augue id sem adipiscing
-      pellentesque. Sed sollicitudin, leo sed interdum elementum, nisi ante
-      condimentum leo, eget ornare libero diam semper quam. Vivamus augue urna,
-      porta eget ultrices et, dapibus ut ligula. Ut laoreet consequat faucibus.
-      Praesent at lectus ut lectus malesuada mollis. Nam interdum adipiscing
-      eros, nec sodales mi porta nec. Proin et quam vitae sem interdum aliquet.
-      Proin vel odio at lacus vehicula aliquet.
-    </p>
-    <p>
-      Etiam placerat dui ut sem ornare vel vestibulum augue mattis. Sed semper
-      malesuada mi, eu bibendum lacus lobortis nec. Etiam fringilla elementum
-      risus, eget consequat urna laoreet nec. Etiam mollis quam non sem
-      convallis vel consectetur lectus ullamcorper. Aenean mattis lacus quis
-      ligula mattis eget vestibulum diam hendrerit. In non placerat mauris.
-      Praesent faucibus nunc quis eros sagittis viverra. In hac habitasse platea
-      dictumst. Suspendisse eget nisl erat, ac molestie massa. Praesent mollis
-      vestibulum tincidunt. Fusce suscipit laoreet malesuada. Aliquam erat
-      volutpat. Aliquam dictum elementum rhoncus. Praesent in est massa,
-      pulvinar sodales nunc. Pellentesque gravida euismod mi ac convallis.
-    </p>
-    <p>
-      Mauris vel odio vel nulla facilisis lacinia. Aliquam ultrices est at leo
-      blandit tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et
-      ultrices posuere cubilia Curae; Suspendisse porttitor adipiscing
-      facilisis. Duis cursus quam iaculis augue interdum porttitor. Vestibulum
-      ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-      Curae; Duis vulputate magna ac metus pretium condimentum. In tempus, est
-      eget vestibulum blandit, velit massa dignissim nisl, ut scelerisque lorem
-      neque vel velit. Maecenas fermentum commodo viverra. Curabitur a nibh non
-      velit aliquam cursus. Integer semper condimentum tortor a pellentesque.
-      Pellentesque semper, nisl id porttitor vehicula, sem dui feugiat lacus,
-      vitae consequat augue urna vel odio.
-    </p>
-    <p>
-      Vestibulum id neque nec turpis iaculis pulvinar et a massa. Vestibulum sed
-      nibh vitae arcu eleifend egestas. Mauris fermentum ultrices blandit.
-      Suspendisse vitae lorem libero. Aenean et pellentesque tellus. Morbi quis
-      neque orci, eu dignissim dui. Fusce sollicitudin mauris ac arcu vestibulum
-      imperdiet. Proin ultricies nisl sit amet enim imperdiet eu ornare dui
-      tempus. Maecenas lobortis nisi a tortor vestibulum vel eleifend tellus
-      vestibulum. Donec metus sapien, hendrerit a fermentum id, dictum quis
-      libero.
-    </p>
-    <p>
-      Pellentesque a lorem nulla, in tempor justo. Duis odio nisl, dignissim sed
-      consequat sit amet, hendrerit ac neque. Nunc ac augue nec massa tempor
-      rhoncus. Nam feugiat, tellus a varius euismod, justo nisl faucibus velit,
-      ut vulputate justo massa eu nibh. Sed bibendum urna quis magna facilisis
-      in accumsan dolor malesuada. Morbi sit amet nunc risus, in faucibus sem.
-      Nullam sollicitudin magna sed sem mollis id commodo libero condimentum.
-      Duis eu massa et lacus semper molestie ut adipiscing sem.
-    </p>
-    <p>
-      Sed id nulla mi, eget suscipit eros. Aliquam tempus molestie rutrum. In
-      quis varius elit. Nullam dignissim neque nec velit vulputate porttitor.
-      Mauris ac ligula sit amet elit fermentum rhoncus. In tellus urna, pulvinar
-      quis condimentum ut, porta nec justo. In hac habitasse platea dictumst.
-      Proin volutpat elit id quam molestie ac commodo lacus sagittis. Quisque
-      placerat, augue tempor placerat pulvinar, nisi nisi venenatis urna, eget
-      convallis eros velit quis magna. Suspendisse volutpat iaculis quam, ut
-      tristique lacus luctus quis.
-    </p>
-    <p>
-      Nullam commodo suscipit lacus non aliquet. Phasellus ac nisl lorem, sed
-      facilisis ligula. Nam cursus lobortis placerat. Sed dui nisi, elementum eu
-      sodales ac, placerat sit amet mauris. Pellentesque dapibus tellus ut ipsum
-      aliquam eu auctor dui vehicula. Quisque ultrices laoreet erat, at ultrices
-      tortor sodales non. Sed venenatis luctus magna, ultricies ultricies nunc
-      fringilla eget. Praesent scelerisque urna vitae nibh tristique varius
-      consequat neque luctus. Integer ornare, erat a porta tempus, velit justo
-      fermentum elit, a fermentum metus nisi eu ipsum. Vivamus eget augue vel
-      dui viverra adipiscing congue ut massa. Praesent vitae eros erat, pulvinar
-      laoreet magna. Maecenas vestibulum mollis nunc in posuere. Pellentesque
-      sit amet metus a turpis lobortis tempor eu vel tortor. Cras sodales
-      eleifend interdum.
-    </p>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onclick".',
-                            `      <span class="intLink" onclick="showBookmark('#myBookmark1', false);"`,
-                            "130:28 - 130:74",
-                            `/en-US/docs/Web/API/Window/location
-[no-inline-event-handlers] Do not use inline event handler "onclick".
-~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8" />
-    <title>MDN Example</title>
-    <script>
-      function showNode(node) {
-        document.documentElement.scrollTop = node.offsetTop;
-        document.documentElement.scrollLeft = node.offsetLeft;
-      }
-
-      function showBookmark(bookmark, useHash) {
-        if (arguments.length === 1 || useHash) {
-          location.hash = bookmark;
-          return;
-        }
-        const bookmarkElement = document.querySelector(bookmark);
-        if (bookmarkElement) {
-          showNode(bookmarkElement);
-        }
-      }
-    </script>
-    <style>
-      span.intLink {
-        cursor: pointer;
-        color: #0000ff;
-        text-decoration: underline;
-      }
-    </style>
-  </head>
-
-  <body>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultrices
-      dolor ac dolor imperdiet ullamcorper. Suspendisse quam libero, luctus
-      auctor mollis sed, malesuada condimentum magna. Quisque in ante tellus, in
-      placerat est. Pellentesque habitant morbi tristique senectus et netus et
-      malesuada fames ac turpis egestas. Donec a mi magna, quis mattis dolor.
-      Etiam sit amet ligula quis urna auctor imperdiet nec faucibus ante. Mauris
-      vel consectetur dolor. Nunc eget elit eget velit pulvinar fringilla
-      consectetur aliquam purus. Curabitur convallis, justo posuere porta
-      egestas, velit erat ornare tortor, non viverra justo diam eget arcu.
-      Phasellus adipiscing fermentum nibh ac commodo. Nam turpis nunc, suscipit
-      a hendrerit vitae, volutpat non ipsum.
-    </p>
-    <p>
-      Duis lobortis sapien quis nisl luctus porttitor. In tempor semper libero,
-      eu tincidunt dolor eleifend sit amet. Ut nec velit in dolor tincidunt
-      rhoncus non diam. Morbi auctor ornare orci, non euismod felis gravida nec.
-      Curabitur elementum nisi a eros rutrum nec blandit diam placerat. Aenean
-      tincidunt risus ut nisi consectetur cursus. Ut vitae quam elit. Donec
-      dignissim est in quam tempor consequat. Aliquam diam non felis convallis
-      suscipit. Nulla facilisi. Donec lacus risus, dignissim et fringilla et,
-      egestas vel eros. Duis malesuada accumsan dui, at fringilla mauris
-      bibendum quis. Cras adipiscing ultricies fermentum. Praesent bibendum
-      condimentum feugiat.
-    </p>
-    <p id="myBookmark1">
-      [&nbsp;<span class="intLink" onclick="showBookmark('#myBookmark2');"
-        >Go to bookmark #2</span
-      >&nbsp;]
-    </p>
-    <p>
-      Vivamus blandit massa ut metus mattis in fringilla lectus imperdiet. Proin
-      ac ante a felis ornare vehicula. Fusce pellentesque lacus vitae eros
-      convallis ut mollis magna pellentesque. Pellentesque placerat enim at
-      lacus ultricies vitae facilisis nisi fringilla. In tincidunt tincidunt
-      tincidunt. Nulla vitae tempor nisl. Etiam congue, elit vitae egestas
-      mollis, ipsum nisi malesuada turpis, a volutpat arcu arcu id risus.
-    </p>
-    <p>
-      Nam faucibus, ligula eu fringilla pulvinar, lectus tellus iaculis nunc,
-      vitae scelerisque metus leo non metus. Proin mattis lobortis lobortis.
-      Quisque accumsan faucibus erat, vel varius tortor ultricies ac. Lorem
-      ipsum dolor sit amet, consectetur adipiscing elit. Sed nec libero nunc.
-      Nullam tortor nunc, elementum a consectetur et, ultrices eu orci. Lorem
-      ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a nisl eu
-      sem vehicula egestas.
-    </p>
-    <p>
-      Aenean viverra varius mauris, sed elementum lacus interdum non. Phasellus
-      sit amet lectus vitae eros egestas pellentesque fermentum eget magna.
-      Quisque mauris nisl, gravida vitae placerat et, condimentum id metus.
-      Nulla eu est dictum dolor pulvinar volutpat. Pellentesque vitae
-      sollicitudin nunc. Donec neque magna, lobortis id egestas nec, sodales
-      quis lectus. Fusce cursus sollicitudin porta. Suspendisse ut tortor in
-      mauris tincidunt rhoncus. Maecenas tincidunt fermentum facilisis.
-      Pellentesque habitant morbi tristique senectus et netus et malesuada fames
-      ac turpis egestas.
-    </p>
-    <p>
-      Suspendisse turpis nisl, consectetur in lacinia ut, ornare vel mi. Lorem
-      ipsum dolor sit amet, consectetur adipiscing elit. Proin non lectus eu
-      turpis vulputate cursus. Mauris interdum tincidunt erat id pharetra.
-      Nullam in libero elit, sed consequat lectus. Morbi odio nisi, porta vitae
-      molestie ut, gravida ut nunc. Ut non est dui, id ullamcorper orci.
-      Praesent vel elementum felis. Maecenas ornare, dui quis auctor hendrerit,
-      turpis sem ullamcorper odio, in auctor magna metus quis leo. Morbi at odio
-      ante.
-    </p>
-    <p>
-      Curabitur est ipsum, porta ac viverra faucibus, eleifend sed eros. In sit
-      amet vehicula tortor. Vestibulum viverra pellentesque erat a elementum.
-      Integer commodo ultricies lorem, eget tincidunt risus viverra et. In enim
-      turpis, porttitor ac ornare et, suscipit sit amet nisl. Vestibulum ante
-      ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-      Pellentesque vel ultrices nibh. Sed commodo aliquam aliquam. Nulla
-      euismod, odio ut eleifend mollis, nisi dui gravida nibh, vitae laoreet
-      turpis purus id ipsum. Donec convallis, velit non scelerisque bibendum,
-      diam nulla auctor nunc, vel dictum risus ipsum sit amet est. Praesent ut
-      nibh sit amet nibh congue pulvinar. Suspendisse dictum porttitor tempor.
-    </p>
-    <p>
-      Vestibulum dignissim erat vitae lectus auctor ac bibendum eros semper.
-      Integer aliquet, leo non ornare faucibus, risus arcu tristique dolor, a
-      aliquet massa mauris quis arcu. In porttitor, lectus ac semper egestas,
-      ligula magna laoreet libero, eu commodo mauris odio id ante. In hac
-      habitasse platea dictumst. In pretium erat diam, nec consequat eros.
-      Praesent augue mi, consequat sed porttitor at, volutpat vitae eros. Sed
-      pretium pharetra dapibus. Donec auctor interdum erat, lacinia molestie
-      nibh commodo ut. Maecenas vestibulum vulputate felis, ut ullamcorper arcu
-      faucibus in. Curabitur id arcu est. In semper mollis lorem at
-      pellentesque. Sed lectus nisl, vestibulum id scelerisque eu, feugiat et
-      tortor. Pellentesque porttitor facilisis ultricies.
-    </p>
-    <p id="myBookmark2">
-      [&nbsp;<span class="intLink" onclick="showBookmark('#myBookmark1');"
-        >Go to bookmark #1</span
-      >
-      |
-      <span class="intLink" onclick="showBookmark('#myBookmark1', false);"
-        >Go to bookmark #1 without using location.hash</span
-      >
-      |
-      <span class="intLink" onclick="showBookmark('#myBookmark3');"
-        >Go to bookmark #3</span
-      >&nbsp;]
-    </p>
-    <p>
-      Phasellus tempus fringilla nunc, eget sagittis orci molestie vel. Nulla
-      sollicitudin diam non quam iaculis ac porta justo venenatis. Quisque
-      tellus urna, molestie vitae egestas sit amet, suscipit sed sem. Quisque
-      nec lorem eu velit faucibus tristique ut ut dolor. Cras eu tortor ut
-      libero placerat venenatis ut ut massa. Sed quis libero augue, et consequat
-      libero. Morbi rutrum augue sed turpis elementum sed luctus nisl molestie.
-      Aenean vitae purus risus, a semper nisl. Pellentesque malesuada, est id
-      sagittis consequat, libero mauris tincidunt tellus, eu sagittis arcu purus
-      rutrum eros. Quisque eget eleifend mi. Duis pharetra mi ac eros mattis
-      lacinia rutrum ipsum varius.
-    </p>
-    <p>
-      Fusce cursus pulvinar aliquam. Duis justo enim, ornare vitae elementum
-      sed, porta a quam. Aliquam eu enim eu libero mollis tempus. Morbi ornare
-      aliquam posuere. Proin faucibus luctus libero, sed ultrices lorem sagittis
-      et. Vestibulum malesuada, ante nec molestie vehicula, quam diam mollis
-      ipsum, rhoncus posuere mauris lectus in eros. Nullam feugiat ultrices
-      augue, ac sodales sem mollis in.
-    </p>
-    <p id="myBookmark3"><em>Here is the bookmark #3</em></p>
-    <p>
-      Proin vitae sem non lorem pellentesque molestie. Nam tempus massa et
-      turpis placerat sit amet sollicitudin orci sodales. Pellentesque enim
-      enim, sagittis a lobortis ut, tempus sed arcu. Aliquam augue turpis,
-      varius vel bibendum ut, aliquam at diam. Nam lobortis, dui eu hendrerit
-      pellentesque, sem neque porttitor erat, non dapibus velit lectus in metus.
-      Vestibulum sit amet felis enim. In quis est vitae nunc malesuada consequat
-      nec nec sapien. Suspendisse aliquam massa placerat dui lacinia luctus sed
-      vitae risus. Fusce tempus, neque id ultrices volutpat, mi urna auctor
-      arcu, viverra semper libero sem vel enim. Mauris dictum, elit non placerat
-      malesuada, libero elit euismod nibh, nec posuere massa arcu eu risus.
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer urna
-      velit, dapibus eget varius feugiat, pellentesque sit amet ligula. Maecenas
-      nulla nisl, facilisis eu egestas scelerisque, mollis eget metus.
-      Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-      cubilia Curae; Morbi sed congue mi.
-    </p>
-    <p>
-      Fusce metus velit, pharetra at vestibulum nec, facilisis porttitor mi.
-      Curabitur ligula sapien, fermentum vel porttitor id, rutrum sit amet
-      magna. Sed sit amet sollicitudin turpis. Aenean luctus rhoncus dolor, et
-      pulvinar ante egestas et. Donec ac massa orci, quis dapibus augue. Vivamus
-      consectetur auctor pellentesque. Praesent vestibulum tincidunt ante sed
-      consectetur. Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Fusce purus metus, imperdiet vitae iaculis
-      convallis, bibendum vitae turpis.
-    </p>
-    <p>
-      Fusce aliquet molestie dolor, in ornare dui sodales nec. In molestie
-      sollicitudin felis a porta. Mauris nec orci sit amet orci blandit
-      tristique congue nec nunc. Praesent et tellus sollicitudin mauris accumsan
-      fringilla. Morbi sodales, justo eu sollicitudin lacinia, lectus sapien
-      ullamcorper eros, quis molestie urna elit bibendum risus. Proin eget
-      tincidunt quam. Nam luctus commodo mauris, eu posuere nunc luctus non.
-      Nulla facilisi. Vivamus eget leo rhoncus quam accumsan fringilla. Aliquam
-      sit amet lorem est. Nullam vel tellus nibh, id imperdiet orci. Integer
-      egestas leo eu turpis blandit scelerisque.
-    </p>
-    <p>
-      Etiam in blandit tellus. Integer sed varius quam. Vestibulum dapibus mi
-      gravida arcu viverra blandit. Praesent tristique augue id sem adipiscing
-      pellentesque. Sed sollicitudin, leo sed interdum elementum, nisi ante
-      condimentum leo, eget ornare libero diam semper quam. Vivamus augue urna,
-      porta eget ultrices et, dapibus ut ligula. Ut laoreet consequat faucibus.
-      Praesent at lectus ut lectus malesuada mollis. Nam interdum adipiscing
-      eros, nec sodales mi porta nec. Proin et quam vitae sem interdum aliquet.
-      Proin vel odio at lacus vehicula aliquet.
-    </p>
-    <p>
-      Etiam placerat dui ut sem ornare vel vestibulum augue mattis. Sed semper
-      malesuada mi, eu bibendum lacus lobortis nec. Etiam fringilla elementum
-      risus, eget consequat urna laoreet nec. Etiam mollis quam non sem
-      convallis vel consectetur lectus ullamcorper. Aenean mattis lacus quis
-      ligula mattis eget vestibulum diam hendrerit. In non placerat mauris.
-      Praesent faucibus nunc quis eros sagittis viverra. In hac habitasse platea
-      dictumst. Suspendisse eget nisl erat, ac molestie massa. Praesent mollis
-      vestibulum tincidunt. Fusce suscipit laoreet malesuada. Aliquam erat
-      volutpat. Aliquam dictum elementum rhoncus. Praesent in est massa,
-      pulvinar sodales nunc. Pellentesque gravida euismod mi ac convallis.
-    </p>
-    <p>
-      Mauris vel odio vel nulla facilisis lacinia. Aliquam ultrices est at leo
-      blandit tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et
-      ultrices posuere cubilia Curae; Suspendisse porttitor adipiscing
-      facilisis. Duis cursus quam iaculis augue interdum porttitor. Vestibulum
-      ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-      Curae; Duis vulputate magna ac metus pretium condimentum. In tempus, est
-      eget vestibulum blandit, velit massa dignissim nisl, ut scelerisque lorem
-      neque vel velit. Maecenas fermentum commodo viverra. Curabitur a nibh non
-      velit aliquam cursus. Integer semper condimentum tortor a pellentesque.
-      Pellentesque semper, nisl id porttitor vehicula, sem dui feugiat lacus,
-      vitae consequat augue urna vel odio.
-    </p>
-    <p>
-      Vestibulum id neque nec turpis iaculis pulvinar et a massa. Vestibulum sed
-      nibh vitae arcu eleifend egestas. Mauris fermentum ultrices blandit.
-      Suspendisse vitae lorem libero. Aenean et pellentesque tellus. Morbi quis
-      neque orci, eu dignissim dui. Fusce sollicitudin mauris ac arcu vestibulum
-      imperdiet. Proin ultricies nisl sit amet enim imperdiet eu ornare dui
-      tempus. Maecenas lobortis nisi a tortor vestibulum vel eleifend tellus
-      vestibulum. Donec metus sapien, hendrerit a fermentum id, dictum quis
-      libero.
-    </p>
-    <p>
-      Pellentesque a lorem nulla, in tempor justo. Duis odio nisl, dignissim sed
-      consequat sit amet, hendrerit ac neque. Nunc ac augue nec massa tempor
-      rhoncus. Nam feugiat, tellus a varius euismod, justo nisl faucibus velit,
-      ut vulputate justo massa eu nibh. Sed bibendum urna quis magna facilisis
-      in accumsan dolor malesuada. Morbi sit amet nunc risus, in faucibus sem.
-      Nullam sollicitudin magna sed sem mollis id commodo libero condimentum.
-      Duis eu massa et lacus semper molestie ut adipiscing sem.
-    </p>
-    <p>
-      Sed id nulla mi, eget suscipit eros. Aliquam tempus molestie rutrum. In
-      quis varius elit. Nullam dignissim neque nec velit vulputate porttitor.
-      Mauris ac ligula sit amet elit fermentum rhoncus. In tellus urna, pulvinar
-      quis condimentum ut, porta nec justo. In hac habitasse platea dictumst.
-      Proin volutpat elit id quam molestie ac commodo lacus sagittis. Quisque
-      placerat, augue tempor placerat pulvinar, nisi nisi venenatis urna, eget
-      convallis eros velit quis magna. Suspendisse volutpat iaculis quam, ut
-      tristique lacus luctus quis.
-    </p>
-    <p>
-      Nullam commodo suscipit lacus non aliquet. Phasellus ac nisl lorem, sed
-      facilisis ligula. Nam cursus lobortis placerat. Sed dui nisi, elementum eu
-      sodales ac, placerat sit amet mauris. Pellentesque dapibus tellus ut ipsum
-      aliquam eu auctor dui vehicula. Quisque ultrices laoreet erat, at ultrices
-      tortor sodales non. Sed venenatis luctus magna, ultricies ultricies nunc
-      fringilla eget. Praesent scelerisque urna vitae nibh tristique varius
-      consequat neque luctus. Integer ornare, erat a porta tempus, velit justo
-      fermentum elit, a fermentum metus nisi eu ipsum. Vivamus eget augue vel
-      dui viverra adipiscing congue ut massa. Praesent vitae eros erat, pulvinar
-      laoreet magna. Maecenas vestibulum mollis nunc in posuere. Pellentesque
-      sit amet metus a turpis lobortis tempor eu vel tortor. Cras sodales
-      eleifend interdum.
-    </p>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onclick".',
-                            `      <span class="intLink" onclick="showBookmark('#myBookmark3');"`,
-                            "134:28 - 134:67",
-                            `/en-US/docs/Web/API/Window/location
-[no-inline-event-handlers] Do not use inline event handler "onclick".
-~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8" />
-    <title>MDN Example</title>
-    <script>
-      function showNode(node) {
-        document.documentElement.scrollTop = node.offsetTop;
-        document.documentElement.scrollLeft = node.offsetLeft;
-      }
-
-      function showBookmark(bookmark, useHash) {
-        if (arguments.length === 1 || useHash) {
-          location.hash = bookmark;
-          return;
-        }
-        const bookmarkElement = document.querySelector(bookmark);
-        if (bookmarkElement) {
-          showNode(bookmarkElement);
-        }
-      }
-    </script>
-    <style>
-      span.intLink {
-        cursor: pointer;
-        color: #0000ff;
-        text-decoration: underline;
-      }
-    </style>
-  </head>
-
-  <body>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultrices
-      dolor ac dolor imperdiet ullamcorper. Suspendisse quam libero, luctus
-      auctor mollis sed, malesuada condimentum magna. Quisque in ante tellus, in
-      placerat est. Pellentesque habitant morbi tristique senectus et netus et
-      malesuada fames ac turpis egestas. Donec a mi magna, quis mattis dolor.
-      Etiam sit amet ligula quis urna auctor imperdiet nec faucibus ante. Mauris
-      vel consectetur dolor. Nunc eget elit eget velit pulvinar fringilla
-      consectetur aliquam purus. Curabitur convallis, justo posuere porta
-      egestas, velit erat ornare tortor, non viverra justo diam eget arcu.
-      Phasellus adipiscing fermentum nibh ac commodo. Nam turpis nunc, suscipit
-      a hendrerit vitae, volutpat non ipsum.
-    </p>
-    <p>
-      Duis lobortis sapien quis nisl luctus porttitor. In tempor semper libero,
-      eu tincidunt dolor eleifend sit amet. Ut nec velit in dolor tincidunt
-      rhoncus non diam. Morbi auctor ornare orci, non euismod felis gravida nec.
-      Curabitur elementum nisi a eros rutrum nec blandit diam placerat. Aenean
-      tincidunt risus ut nisi consectetur cursus. Ut vitae quam elit. Donec
-      dignissim est in quam tempor consequat. Aliquam diam non felis convallis
-      suscipit. Nulla facilisi. Donec lacus risus, dignissim et fringilla et,
-      egestas vel eros. Duis malesuada accumsan dui, at fringilla mauris
-      bibendum quis. Cras adipiscing ultricies fermentum. Praesent bibendum
-      condimentum feugiat.
-    </p>
-    <p id="myBookmark1">
-      [&nbsp;<span class="intLink" onclick="showBookmark('#myBookmark2');"
-        >Go to bookmark #2</span
-      >&nbsp;]
-    </p>
-    <p>
-      Vivamus blandit massa ut metus mattis in fringilla lectus imperdiet. Proin
-      ac ante a felis ornare vehicula. Fusce pellentesque lacus vitae eros
-      convallis ut mollis magna pellentesque. Pellentesque placerat enim at
-      lacus ultricies vitae facilisis nisi fringilla. In tincidunt tincidunt
-      tincidunt. Nulla vitae tempor nisl. Etiam congue, elit vitae egestas
-      mollis, ipsum nisi malesuada turpis, a volutpat arcu arcu id risus.
-    </p>
-    <p>
-      Nam faucibus, ligula eu fringilla pulvinar, lectus tellus iaculis nunc,
-      vitae scelerisque metus leo non metus. Proin mattis lobortis lobortis.
-      Quisque accumsan faucibus erat, vel varius tortor ultricies ac. Lorem
-      ipsum dolor sit amet, consectetur adipiscing elit. Sed nec libero nunc.
-      Nullam tortor nunc, elementum a consectetur et, ultrices eu orci. Lorem
-      ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a nisl eu
-      sem vehicula egestas.
-    </p>
-    <p>
-      Aenean viverra varius mauris, sed elementum lacus interdum non. Phasellus
-      sit amet lectus vitae eros egestas pellentesque fermentum eget magna.
-      Quisque mauris nisl, gravida vitae placerat et, condimentum id metus.
-      Nulla eu est dictum dolor pulvinar volutpat. Pellentesque vitae
-      sollicitudin nunc. Donec neque magna, lobortis id egestas nec, sodales
-      quis lectus. Fusce cursus sollicitudin porta. Suspendisse ut tortor in
-      mauris tincidunt rhoncus. Maecenas tincidunt fermentum facilisis.
-      Pellentesque habitant morbi tristique senectus et netus et malesuada fames
-      ac turpis egestas.
-    </p>
-    <p>
-      Suspendisse turpis nisl, consectetur in lacinia ut, ornare vel mi. Lorem
-      ipsum dolor sit amet, consectetur adipiscing elit. Proin non lectus eu
-      turpis vulputate cursus. Mauris interdum tincidunt erat id pharetra.
-      Nullam in libero elit, sed consequat lectus. Morbi odio nisi, porta vitae
-      molestie ut, gravida ut nunc. Ut non est dui, id ullamcorper orci.
-      Praesent vel elementum felis. Maecenas ornare, dui quis auctor hendrerit,
-      turpis sem ullamcorper odio, in auctor magna metus quis leo. Morbi at odio
-      ante.
-    </p>
-    <p>
-      Curabitur est ipsum, porta ac viverra faucibus, eleifend sed eros. In sit
-      amet vehicula tortor. Vestibulum viverra pellentesque erat a elementum.
-      Integer commodo ultricies lorem, eget tincidunt risus viverra et. In enim
-      turpis, porttitor ac ornare et, suscipit sit amet nisl. Vestibulum ante
-      ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-      Pellentesque vel ultrices nibh. Sed commodo aliquam aliquam. Nulla
-      euismod, odio ut eleifend mollis, nisi dui gravida nibh, vitae laoreet
-      turpis purus id ipsum. Donec convallis, velit non scelerisque bibendum,
-      diam nulla auctor nunc, vel dictum risus ipsum sit amet est. Praesent ut
-      nibh sit amet nibh congue pulvinar. Suspendisse dictum porttitor tempor.
-    </p>
-    <p>
-      Vestibulum dignissim erat vitae lectus auctor ac bibendum eros semper.
-      Integer aliquet, leo non ornare faucibus, risus arcu tristique dolor, a
-      aliquet massa mauris quis arcu. In porttitor, lectus ac semper egestas,
-      ligula magna laoreet libero, eu commodo mauris odio id ante. In hac
-      habitasse platea dictumst. In pretium erat diam, nec consequat eros.
-      Praesent augue mi, consequat sed porttitor at, volutpat vitae eros. Sed
-      pretium pharetra dapibus. Donec auctor interdum erat, lacinia molestie
-      nibh commodo ut. Maecenas vestibulum vulputate felis, ut ullamcorper arcu
-      faucibus in. Curabitur id arcu est. In semper mollis lorem at
-      pellentesque. Sed lectus nisl, vestibulum id scelerisque eu, feugiat et
-      tortor. Pellentesque porttitor facilisis ultricies.
-    </p>
-    <p id="myBookmark2">
-      [&nbsp;<span class="intLink" onclick="showBookmark('#myBookmark1');"
-        >Go to bookmark #1</span
-      >
-      |
-      <span class="intLink" onclick="showBookmark('#myBookmark1', false);"
-        >Go to bookmark #1 without using location.hash</span
-      >
-      |
-      <span class="intLink" onclick="showBookmark('#myBookmark3');"
-        >Go to bookmark #3</span
-      >&nbsp;]
-    </p>
-    <p>
-      Phasellus tempus fringilla nunc, eget sagittis orci molestie vel. Nulla
-      sollicitudin diam non quam iaculis ac porta justo venenatis. Quisque
-      tellus urna, molestie vitae egestas sit amet, suscipit sed sem. Quisque
-      nec lorem eu velit faucibus tristique ut ut dolor. Cras eu tortor ut
-      libero placerat venenatis ut ut massa. Sed quis libero augue, et consequat
-      libero. Morbi rutrum augue sed turpis elementum sed luctus nisl molestie.
-      Aenean vitae purus risus, a semper nisl. Pellentesque malesuada, est id
-      sagittis consequat, libero mauris tincidunt tellus, eu sagittis arcu purus
-      rutrum eros. Quisque eget eleifend mi. Duis pharetra mi ac eros mattis
-      lacinia rutrum ipsum varius.
-    </p>
-    <p>
-      Fusce cursus pulvinar aliquam. Duis justo enim, ornare vitae elementum
-      sed, porta a quam. Aliquam eu enim eu libero mollis tempus. Morbi ornare
-      aliquam posuere. Proin faucibus luctus libero, sed ultrices lorem sagittis
-      et. Vestibulum malesuada, ante nec molestie vehicula, quam diam mollis
-      ipsum, rhoncus posuere mauris lectus in eros. Nullam feugiat ultrices
-      augue, ac sodales sem mollis in.
-    </p>
-    <p id="myBookmark3"><em>Here is the bookmark #3</em></p>
-    <p>
-      Proin vitae sem non lorem pellentesque molestie. Nam tempus massa et
-      turpis placerat sit amet sollicitudin orci sodales. Pellentesque enim
-      enim, sagittis a lobortis ut, tempus sed arcu. Aliquam augue turpis,
-      varius vel bibendum ut, aliquam at diam. Nam lobortis, dui eu hendrerit
-      pellentesque, sem neque porttitor erat, non dapibus velit lectus in metus.
-      Vestibulum sit amet felis enim. In quis est vitae nunc malesuada consequat
-      nec nec sapien. Suspendisse aliquam massa placerat dui lacinia luctus sed
-      vitae risus. Fusce tempus, neque id ultrices volutpat, mi urna auctor
-      arcu, viverra semper libero sem vel enim. Mauris dictum, elit non placerat
-      malesuada, libero elit euismod nibh, nec posuere massa arcu eu risus.
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer urna
-      velit, dapibus eget varius feugiat, pellentesque sit amet ligula. Maecenas
-      nulla nisl, facilisis eu egestas scelerisque, mollis eget metus.
-      Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-      cubilia Curae; Morbi sed congue mi.
-    </p>
-    <p>
-      Fusce metus velit, pharetra at vestibulum nec, facilisis porttitor mi.
-      Curabitur ligula sapien, fermentum vel porttitor id, rutrum sit amet
-      magna. Sed sit amet sollicitudin turpis. Aenean luctus rhoncus dolor, et
-      pulvinar ante egestas et. Donec ac massa orci, quis dapibus augue. Vivamus
-      consectetur auctor pellentesque. Praesent vestibulum tincidunt ante sed
-      consectetur. Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Fusce purus metus, imperdiet vitae iaculis
-      convallis, bibendum vitae turpis.
-    </p>
-    <p>
-      Fusce aliquet molestie dolor, in ornare dui sodales nec. In molestie
-      sollicitudin felis a porta. Mauris nec orci sit amet orci blandit
-      tristique congue nec nunc. Praesent et tellus sollicitudin mauris accumsan
-      fringilla. Morbi sodales, justo eu sollicitudin lacinia, lectus sapien
-      ullamcorper eros, quis molestie urna elit bibendum risus. Proin eget
-      tincidunt quam. Nam luctus commodo mauris, eu posuere nunc luctus non.
-      Nulla facilisi. Vivamus eget leo rhoncus quam accumsan fringilla. Aliquam
-      sit amet lorem est. Nullam vel tellus nibh, id imperdiet orci. Integer
-      egestas leo eu turpis blandit scelerisque.
-    </p>
-    <p>
-      Etiam in blandit tellus. Integer sed varius quam. Vestibulum dapibus mi
-      gravida arcu viverra blandit. Praesent tristique augue id sem adipiscing
-      pellentesque. Sed sollicitudin, leo sed interdum elementum, nisi ante
-      condimentum leo, eget ornare libero diam semper quam. Vivamus augue urna,
-      porta eget ultrices et, dapibus ut ligula. Ut laoreet consequat faucibus.
-      Praesent at lectus ut lectus malesuada mollis. Nam interdum adipiscing
-      eros, nec sodales mi porta nec. Proin et quam vitae sem interdum aliquet.
-      Proin vel odio at lacus vehicula aliquet.
-    </p>
-    <p>
-      Etiam placerat dui ut sem ornare vel vestibulum augue mattis. Sed semper
-      malesuada mi, eu bibendum lacus lobortis nec. Etiam fringilla elementum
-      risus, eget consequat urna laoreet nec. Etiam mollis quam non sem
-      convallis vel consectetur lectus ullamcorper. Aenean mattis lacus quis
-      ligula mattis eget vestibulum diam hendrerit. In non placerat mauris.
-      Praesent faucibus nunc quis eros sagittis viverra. In hac habitasse platea
-      dictumst. Suspendisse eget nisl erat, ac molestie massa. Praesent mollis
-      vestibulum tincidunt. Fusce suscipit laoreet malesuada. Aliquam erat
-      volutpat. Aliquam dictum elementum rhoncus. Praesent in est massa,
-      pulvinar sodales nunc. Pellentesque gravida euismod mi ac convallis.
-    </p>
-    <p>
-      Mauris vel odio vel nulla facilisis lacinia. Aliquam ultrices est at leo
-      blandit tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et
-      ultrices posuere cubilia Curae; Suspendisse porttitor adipiscing
-      facilisis. Duis cursus quam iaculis augue interdum porttitor. Vestibulum
-      ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-      Curae; Duis vulputate magna ac metus pretium condimentum. In tempus, est
-      eget vestibulum blandit, velit massa dignissim nisl, ut scelerisque lorem
-      neque vel velit. Maecenas fermentum commodo viverra. Curabitur a nibh non
-      velit aliquam cursus. Integer semper condimentum tortor a pellentesque.
-      Pellentesque semper, nisl id porttitor vehicula, sem dui feugiat lacus,
-      vitae consequat augue urna vel odio.
-    </p>
-    <p>
-      Vestibulum id neque nec turpis iaculis pulvinar et a massa. Vestibulum sed
-      nibh vitae arcu eleifend egestas. Mauris fermentum ultrices blandit.
-      Suspendisse vitae lorem libero. Aenean et pellentesque tellus. Morbi quis
-      neque orci, eu dignissim dui. Fusce sollicitudin mauris ac arcu vestibulum
-      imperdiet. Proin ultricies nisl sit amet enim imperdiet eu ornare dui
-      tempus. Maecenas lobortis nisi a tortor vestibulum vel eleifend tellus
-      vestibulum. Donec metus sapien, hendrerit a fermentum id, dictum quis
-      libero.
-    </p>
-    <p>
-      Pellentesque a lorem nulla, in tempor justo. Duis odio nisl, dignissim sed
-      consequat sit amet, hendrerit ac neque. Nunc ac augue nec massa tempor
-      rhoncus. Nam feugiat, tellus a varius euismod, justo nisl faucibus velit,
-      ut vulputate justo massa eu nibh. Sed bibendum urna quis magna facilisis
-      in accumsan dolor malesuada. Morbi sit amet nunc risus, in faucibus sem.
-      Nullam sollicitudin magna sed sem mollis id commodo libero condimentum.
-      Duis eu massa et lacus semper molestie ut adipiscing sem.
-    </p>
-    <p>
-      Sed id nulla mi, eget suscipit eros. Aliquam tempus molestie rutrum. In
-      quis varius elit. Nullam dignissim neque nec velit vulputate porttitor.
-      Mauris ac ligula sit amet elit fermentum rhoncus. In tellus urna, pulvinar
-      quis condimentum ut, porta nec justo. In hac habitasse platea dictumst.
-      Proin volutpat elit id quam molestie ac commodo lacus sagittis. Quisque
-      placerat, augue tempor placerat pulvinar, nisi nisi venenatis urna, eget
-      convallis eros velit quis magna. Suspendisse volutpat iaculis quam, ut
-      tristique lacus luctus quis.
-    </p>
-    <p>
-      Nullam commodo suscipit lacus non aliquet. Phasellus ac nisl lorem, sed
-      facilisis ligula. Nam cursus lobortis placerat. Sed dui nisi, elementum eu
-      sodales ac, placerat sit amet mauris. Pellentesque dapibus tellus ut ipsum
-      aliquam eu auctor dui vehicula. Quisque ultrices laoreet erat, at ultrices
-      tortor sodales non. Sed venenatis luctus magna, ultricies ultricies nunc
-      fringilla eget. Praesent scelerisque urna vitae nibh tristique varius
-      consequat neque luctus. Integer ornare, erat a porta tempus, velit justo
-      fermentum elit, a fermentum metus nisi eu ipsum. Vivamus eget augue vel
-      dui viverra adipiscing congue ut massa. Praesent vitae eros erat, pulvinar
-      laoreet magna. Maecenas vestibulum mollis nunc in posuere. Pellentesque
-      sit amet metus a turpis lobortis tempor eu vel tortor. Cras sodales
-      eleifend interdum.
-    </p>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    name: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/name",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-script",
-                            "Do not write JS within the <script> element; use separate JS blocks instead.",
-                            `<script>
-  // Open a tab with a specific browsing context name
-  const otherTab = window.open("url1", "_blank");
-  if (otherTab) otherTab.name = "other-tab";
-</script>`,
-                            "0:0 - 4:9",
-                            `/en-US/docs/Web/API/Window/name
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<script>
-  // Open a tab with a specific browsing context name
-  const otherTab = window.open("url1", "_blank");
-  if (otherTab) otherTab.name = "other-tab";
-</script>
-<a href="url2" target="other-tab">This link will be opened in the other tab.</a>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    scroll: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/scroll",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onclick".',
-                            '<button onclick="scroll(0, 100);">click to scroll to the 100th pixel</button>',
-                            "2:8 - 2:33",
-                            `/en-US/docs/Web/API/Window/scroll
-[no-inline-event-handlers] Do not use inline event handler "onclick".
-~~~
-<!-- put the 100th vertical pixel at the top of the window -->
-
-<button onclick="scroll(0, 100);">click to scroll to the 100th pixel</button>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    scrollbylines: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/scrollByLines",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onclick".',
-                            '<button id="scroll-up" onclick="scrollByLines(-5);">Up 5 lines</button>',
-                            "1:23 - 1:51",
-                            `/en-US/docs/Web/API/Window/scrollByLines
-[no-inline-event-handlers] Do not use inline event handler "onclick".
-~~~
-<!-- Scroll up the document by 5 lines -->
-<button id="scroll-up" onclick="scrollByLines(-5);">Up 5 lines</button>
-
-<!-- Scroll down the document by 5 lines -->
-<button id="scroll-down" onclick="scrollByLines(5);">Down 5 lines</button>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onclick".',
-                            '<button id="scroll-down" onclick="scrollByLines(5);">Down 5 lines</button>',
-                            "4:25 - 4:52",
-                            `/en-US/docs/Web/API/Window/scrollByLines
-[no-inline-event-handlers] Do not use inline event handler "onclick".
-~~~
-<!-- Scroll up the document by 5 lines -->
-<button id="scroll-up" onclick="scrollByLines(-5);">Up 5 lines</button>
-
-<!-- Scroll down the document by 5 lines -->
-<button id="scroll-down" onclick="scrollByLines(5);">Down 5 lines</button>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    settimeout: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/setTimeout",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onclick".',
-                            '<button onclick="delayedMessage();">Show a message after two seconds</button>',
-                            "0:8 - 0:35",
-                            `/en-US/docs/Web/API/Window/setTimeout
-[no-inline-event-handlers] Do not use inline event handler "onclick".
-~~~
-<button onclick="delayedMessage();">Show a message after two seconds</button>
-<button onclick="clearMessage();">Cancel message before it happens</button>
-
-<div id="output"></div>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onclick".',
-                            '<button onclick="clearMessage();">Cancel message before it happens</button>',
-                            "1:8 - 1:33",
-                            `/en-US/docs/Web/API/Window/setTimeout
-[no-inline-event-handlers] Do not use inline event handler "onclick".
-~~~
-<button onclick="delayedMessage();">Show a message after two seconds</button>
-<button onclick="clearMessage();">Cancel message before it happens</button>
-
-<div id="output"></div>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 windowsharedstorage: {
                   children: {
                     run: {
@@ -16334,52 +12353,6 @@ function displayPoseStats(pose) {
                             "api.XMLHttpRequest",
                             "Expected:",
                             "[None]"
-                          ]
-                        }
-                      ]
-                    },
-                    synchronous_and_asynchronous_requests: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/XMLHttpRequest_API/Synchronous_and_Asynchronous_Requests",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-script",
-                            "Do not write JS within the <script> element; use separate JS blocks instead.",
-                            `    <script>
-      const worker = new Worker("myTask.js");
-      worker.onmessage = (event) => {
-        alert(\`Worker said: \${event.data}\`);
-      };
-
-      worker.postMessage("Hello");
-    </script>`,
-                            "6:4 - 13:13",
-                            `/en-US/docs/Web/API/XMLHttpRequest_API/Synchronous_and_Asynchronous_Requests
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>MDN Example</title>
-    <script>
-      const worker = new Worker("myTask.js");
-      worker.onmessage = (event) => {
-        alert(\`Worker said: \${event.data}\`);
-      };
-
-      worker.postMessage("Hello");
-    </script>
-  </head>
-  <body>
-    …
-  </body>
-</html>
-~~~
-`
                           ]
                         }
                       ]
@@ -24746,6 +20719,23 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
 }
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                css_text: {
+                  children: {
+                    wrapping_breaking_text: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_text/Wrapping_breaking_text",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2019/09/overflow-data-loss-css/",
+                            "unknown certificate verification error"
                           ]
                         }
                       ]
@@ -34510,86 +30500,6 @@ div.box-5 {
                     }
                   ]
                 },
-                "scroll-behavior": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-behavior",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "selector-type-no-unknown",
-                        'Unexpected unknown type selector "scroll-container" (selector-type-no-unknown)',
-                        "scroll-container {",
-                        "9:1 - 9:17",
-                        `/en-US/docs/Web/CSS/scroll-behavior
-[selector-type-no-unknown] Unexpected unknown type selector "scroll-container" (selector-type-no-unknown)
-~~~
-.container {
-  flex-direction: column;
-}
-
-.nav a {
-  color: #009e5f;
-}
-
-scroll-container {
-  border: 1px solid black;
-  display: block;
-  height: 200px;
-  overflow-y: scroll;
-  width: 200px;
-}
-
-scroll-page {
-  align-items: center;
-  display: flex;
-  font-size: 5em;
-  height: 100%;
-  justify-content: center;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "selector-type-no-unknown",
-                        'Unexpected unknown type selector "scroll-page" (selector-type-no-unknown)',
-                        "scroll-page {",
-                        "17:1 - 17:12",
-                        `/en-US/docs/Web/CSS/scroll-behavior
-[selector-type-no-unknown] Unexpected unknown type selector "scroll-page" (selector-type-no-unknown)
-~~~
-.container {
-  flex-direction: column;
-}
-
-.nav a {
-  color: #009e5f;
-}
-
-scroll-container {
-  border: 1px solid black;
-  display: block;
-  height: 200px;
-  overflow-y: scroll;
-  width: 200px;
-}
-
-scroll-page {
-  align-items: center;
-  display: flex;
-  font-size: 5em;
-  height: 100%;
-  justify-content: center;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 "scroll-marker-group": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/scroll-marker-group",
@@ -36470,25 +32380,7 @@ console.log(bar.next()); // {value: 10, done: false}
               }
             },
             mathml: {
-              children: {
-                guides: {
-                  children: {
-                    authoring: {
-                      children: {},
-                      slug: "/en-US/docs/Web/MathML/Guides/Authoring",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.lyx.org/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                }
-              },
+              children: {},
               slug: "/en-US/docs/Web/MathML",
               messages: [
                 {
@@ -36774,6 +32666,27 @@ console.log(bar.next()); // {value: 10, done: false}
                   ]
                 }
               ]
+            },
+            progressive_web_apps: {
+              children: {
+                guides: {
+                  children: {
+                    making_pwas_installable: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Progressive_web_apps/Guides/Making_PWAs_installable",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://developers.meta.com/horizon/documentation/web/pwa-submit-app/",
+                            "https://developers.meta.com/horizon/resources/publish-submit/"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
             },
             security: {
               children: {
@@ -38816,6 +34729,45 @@ svg.elements.feGaussianBlur.edgeMode`
 </svg>
 ~~~
 `
+                              ]
+                            }
+                          ]
+                        },
+                        fetchpriority: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/fetchpriority",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "syntax",
+                                'Unexpected character "EOF"',
+                                "</svg>",
+                                "8:0 - 8:0",
+                                `/en-US/docs/Web/SVG/Reference/Attribute/fetchpriority
+[syntax] Unexpected character "EOF"
+~~~
+<svg
+  viewBox="0 0 10 10"
+  height="120px"
+  width="120px"
+  xmlns="http://www.w3.org/2000/svg">
+  <circle id="normal" cx="5" cy="5" r="4" />
+  <script href="./color-change.js" fetchpriority="high" />
+</svg>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                `svg.elements.feimage.fetchpriority
+svg.elements.image.fetchpriority
+svg.elements.script.fetchpriority`,
+                                "Expected:",
+                                "[None]"
                               ]
                             }
                           ]
@@ -42979,6 +38931,12 @@ svg.elements.feSpotLight.z`
                           data: [
                             "/en-US/docs/Web/SVG/Reference/Attribute/autoReverse"
                           ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/SVG/Reference/Attribute/fetchpriority"
+                          ]
                         }
                       ]
                     },
@@ -44766,6 +40724,12 @@ svg.elements.feSpotLight.z`
                           slug: "/en-US/docs/Web/SVG/Reference/Element/feImage",
                           messages: [
                             {
+                              message: "Bad DL",
+                              data: [
+                                ": Provides a hint of the relative priority to use "
+                              ]
+                            },
+                            {
                               message: "HTML code issue",
                               data: [
                                 "no-style-attr",
@@ -45664,30 +41628,6 @@ svg.elements.feSpotLight.z`
           },
           slug: "/en-US/docs/Web",
           messages: [
-            {
-              message: "Asset without content page",
-              data: [
-                "en-us/learn_web_development/core/styling_basics/test_your_skills/writing_modes/mdn-writing-modes2.png"
-              ]
-            },
-            {
-              message: "Asset without content page",
-              data: [
-                "en-us/learn_web_development/core/styling_basics/test_your_skills/writing_modes/mdn-writing-modes3.png"
-              ]
-            },
-            {
-              message: "Asset without content page",
-              data: [
-                "en-us/learn_web_development/core/styling_basics/test_your_skills/writing_modes/mdn-writing-modes1.png"
-              ]
-            },
-            {
-              message: "Asset without content page",
-              data: [
-                "en-us/learn_web_development/core/styling_basics/test_your_skills/tables/mdn-table-bands.png"
-              ]
-            },
             {
               message: "No link to child page",
               data: [
