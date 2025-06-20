@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-exfn6es8.js";
+} from "./chunk-gs90je2x.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -1518,13 +1518,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://docs.gitlab.com/user/ssh/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2906,6 +2899,13 @@ for (const station of stations) {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://cwiki.apache.org/confluence/display/httpd/RewriteHTTPToHTTPS",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     },
@@ -2943,6 +2943,23 @@ for (const station of stations) {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        }
+                      ]
+                    }
+                  }
+                },
+                testing: {
+                  children: {
+                    testing_strategies: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://help.ubuntu.com/community/WindowsDualBoot",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -3169,6 +3186,19 @@ for (const station of stations) {
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    how_do_you_host_your_website_on_google_app_engine: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gaesamplesite.appspot.com/",
+                            503
+                          ]
                         }
                       ]
                     },
@@ -10162,6 +10192,20 @@ function checkDeadlines() {
                         {
                           message: "Broken browser compat anchor",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.emvco.com/emv-technologies/3-d-secure/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.emvco.com/emv-technologies/secure-remote-commerce/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -20719,23 +20763,6 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                css_text: {
-                  children: {
-                    wrapping_breaking_text: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_text/Wrapping_breaking_text",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2019/09/overflow-data-loss-css/",
-                            "unknown certificate verification error"
                           ]
                         }
                       ]
@@ -32380,7 +32407,25 @@ console.log(bar.next()); // {value: 10, done: false}
               }
             },
             mathml: {
-              children: {},
+              children: {
+                guides: {
+                  children: {
+                    authoring: {
+                      children: {},
+                      slug: "/en-US/docs/Web/MathML/Guides/Authoring",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.lyx.org/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
               slug: "/en-US/docs/Web/MathML",
               messages: [
                 {
@@ -32412,6 +32457,19 @@ console.log(bar.next()); // {value: 10, done: false}
                               message: "External sandbox link",
                               data: [
                                 "https://jsbin.com/badimipi/1/edit"
+                              ]
+                            }
+                          ]
+                        },
+                        live_streaming_web_audio_and_video: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/Live_streaming_web_audio_and_video",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://larryjordan.com/articles/basics-of-http-live-streaming/",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -41382,6 +41440,13 @@ svg.elements.feSpotLight.z`
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Tools_for_SVG",
                           messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://imagemagick.org/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            },
                             {
                               message: "HTTP link",
                               data: [
