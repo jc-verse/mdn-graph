@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-gs90je2x.js";
+} from "./chunk-ad2gdzmq.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -407,6 +407,13 @@ var warnings_processed_default = {
                     {
                       message: "Unreachable via page",
                       data: []
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://a11ysupport.io/",
+                        523
+                      ]
                     }
                   ]
                 }
@@ -1498,6 +1505,13 @@ var warnings_processed_default = {
                           data: [
                             "https://codepen.io/mxmason/pen/XWbPNmw"
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://phabricator.wikimedia.org/T241180",
+                            "429 Retry-After: 1000"
+                          ]
                         }
                       ]
                     },
@@ -1518,6 +1532,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://bitbucket.org/product/",
+                            503
+                          ]
                         }
                       ]
                     },
@@ -2754,6 +2775,19 @@ for (const station of stations) {
                       ]
                     }
                   ]
+                },
+                version_control: {
+                  children: {},
+                  slug: "/en-US/docs/Learn_web_development/Core/Version_control",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.sourcetreeapp.com/",
+                        503
+                      ]
+                    }
+                  ]
                 }
               },
               slug: "/en-US/docs/Learn_web_development/Core",
@@ -2801,6 +2835,36 @@ for (const station of stations) {
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/mikethomas/pen/kQjKLW"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                "client-side_tools": {
+                  children: {
+                    introducing_complete_toolchain: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.atlassian.com/software/bitbucket",
+                            503
+                          ]
+                        }
+                      ]
+                    },
+                    overview: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://bitbucket.org/product/",
+                            503
                           ]
                         }
                       ]
@@ -2899,13 +2963,6 @@ for (const station of stations) {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://cwiki.apache.org/confluence/display/httpd/RewriteHTTPToHTTPS",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     },
@@ -2947,23 +3004,6 @@ for (const station of stations) {
                       ]
                     }
                   }
-                },
-                testing: {
-                  children: {
-                    testing_strategies: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://help.ubuntu.com/community/WindowsDualBoot",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 }
               }
             },
@@ -2979,6 +3019,19 @@ for (const station of stations) {
                           message: "Broken external link",
                           data: [
                             "https://discord.me/frontenddevelopers",
+                            403
+                          ]
+                        }
+                      ]
+                    },
+                    finding_a_job: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Finding_a_job",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.upwork.com/",
                             403
                           ]
                         }
@@ -3186,19 +3239,6 @@ for (const station of stations) {
                         {
                           message: "Unreachable via page",
                           data: []
-                        }
-                      ]
-                    },
-                    how_do_you_host_your_website_on_google_app_engine: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gaesamplesite.appspot.com/",
-                            503
-                          ]
                         }
                       ]
                     },
@@ -8459,7 +8499,41 @@ else if (e.target.id === "tabs-alert-info") {
                     reference: {
                       children: {
                         attributes: {
-                          children: {},
+                          children: {
+                            "aria-describedby": {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-describedby",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://a11ysupport.io/tech/aria/aria-describedby_attribute",
+                                    523
+                                  ]
+                                }
+                              ]
+                            },
+                            "aria-owns": {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-owns",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://a11ysupport.io/tech/aria/aria-owns_attribute",
+                                    523
+                                  ]
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://a11ysupport.io/tech/aria/aria-owns_attribute",
+                                    523
+                                  ]
+                                }
+                              ]
+                            }
+                          },
                           slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes",
                           messages: [
                             {
@@ -10192,20 +10266,6 @@ function checkDeadlines() {
                         {
                           message: "Broken browser compat anchor",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.emvco.com/emv-technologies/3-d-secure/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.emvco.com/emv-technologies/secure-remote-commerce/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -32407,25 +32467,7 @@ console.log(bar.next()); // {value: 10, done: false}
               }
             },
             mathml: {
-              children: {
-                guides: {
-                  children: {
-                    authoring: {
-                      children: {},
-                      slug: "/en-US/docs/Web/MathML/Guides/Authoring",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.lyx.org/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                }
-              },
+              children: {},
               slug: "/en-US/docs/Web/MathML",
               messages: [
                 {
@@ -34825,7 +34867,9 @@ svg.elements.feGaussianBlur.edgeMode`
 svg.elements.image.fetchpriority
 svg.elements.script.fetchpriority`,
                                 "Expected:",
-                                "[None]"
+                                `svg.elements.feImage.fetchpriority
+svg.elements.image.fetchpriority
+svg.elements.script.fetchpriority`
                               ]
                             }
                           ]
@@ -41440,13 +41484,6 @@ svg.elements.feSpotLight.z`
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Tools_for_SVG",
                           messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://imagemagick.org/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            },
                             {
                               message: "HTTP link",
                               data: [
