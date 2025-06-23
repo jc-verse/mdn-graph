@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-f5j9tmv9.js";
+} from "./chunk-ktvqt2hh.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -1502,8 +1502,15 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.smashingmagazine.com/2018/02/jquery-vue-javascript/",
+                            "https://cli.vuejs.org/guide/browser-compatibility.html",
                             "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://phabricator.wikimedia.org/T241180",
+                            "429 Retry-After: 1000"
                           ]
                         }
                       ]
@@ -1665,13 +1672,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://v3-migration.vuejs.org/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
                         }
                       ]
                     },
@@ -2749,28 +2749,7 @@ for (const station of stations) {
                       ]
                     },
                     test_your_skills: {
-                      children: {
-                        values: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Values",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://convertingcolors.com/hex-color-86DEFA.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://convertingcolors.com/hex-color-86DEFA.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      },
+                      children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills",
                       messages: [
                         {
@@ -2844,22 +2823,15 @@ for (const station of stations) {
                 },
                 "client-side_tools": {
                   children: {
-                    introducing_complete_toolchain: {
+                    overview: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://vite.dev/guide/features.html",
-                            "unknown certificate verification error"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vite.dev/guide/features.html",
-                            "unknown certificate verification error"
+                            "https://css-tricks.com/",
+                            521
                           ]
                         }
                       ]
@@ -2999,28 +2971,28 @@ for (const station of stations) {
                       ]
                     }
                   }
-                },
-                testing: {
-                  children: {
-                    testing_strategies: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://help.ubuntu.com/community/WindowsDualBoot",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 }
               }
             },
             getting_started: {
               children: {
+                environment_setup: {
+                  children: {
+                    browsing_the_web: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Browsing_the_web",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gemini.google.com/app",
+                            502
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 soft_skills: {
                   children: {
                     collaboration_and_teamwork: {
@@ -3225,8 +3197,22 @@ for (const station of stations) {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://www.codelobster.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://www.codelobster.com/forum/index.php",
-                            "unknown certificate verification error"
+                            "Unable to connect. Is the computer able to access the url?"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.codelobsteride.com/help/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -3248,7 +3234,7 @@ for (const station of stations) {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://gaesamplesite.appspot.com/",
+                            "https://gaesamplesite.appspot.com/downloads.html",
                             503
                           ]
                         }
@@ -3566,6 +3552,20 @@ for (const station of stations) {
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
+                                    },
+                                    {
+                                      message: "HTTP link",
+                                      data: [
+                                        "http://www.softwareishard.com/blog/har-12-spec/",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      message: "HTTP link",
+                                      data: [
+                                        "http://www.softwareishard.com/blog/har-12-spec/",
+                                        ""
+                                      ]
                                     }
                                   ]
                                 },
@@ -3586,10 +3586,34 @@ for (const station of stations) {
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
+                                    },
+                                    {
+                                      message: "HTTP link",
+                                      data: [
+                                        "http://www.softwareishard.com/blog/har-12-spec/",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      message: "HTTP link",
+                                      data: [
+                                        "http://www.softwareishard.com/blog/har-12-spec/",
+                                        ""
+                                      ]
                                     }
                                   ]
                                 }
-                              }
+                              },
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
+                              messages: [
+                                {
+                                  message: "HTTP link",
+                                  data: [
+                                    "http://www.softwareishard.com/blog/har-12-spec/",
+                                    ""
+                                  ]
+                                }
+                              ]
                             },
                             panels: {
                               children: {
@@ -5115,19 +5139,6 @@ else if (e.target.id === "tabs-alert-info") {
   }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    your_second_webextension: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_second_WebExtension",
-                      messages: [
-                        {
-                          message: "HTTP link",
-                          data: [
-                            "http://www.aha-soft.com/free-icons/free-retina-icon-set/",
-                            "has HTTPS alternative"
                           ]
                         }
                       ]
@@ -8556,6 +8567,13 @@ else if (e.target.id === "tabs-alert-info") {
                           ]
                         },
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/revisiting-prefers-reduced-motion/",
+                            503
+                          ]
+                        },
+                        {
                           message: "HTTP link",
                           data: [
                             "http://diagramcenter.org/",
@@ -8790,36 +8808,6 @@ else if (e.target.id === "tabs-alert-info") {
                       ]
                     }
                   }
-                },
-                baseaudiocontext: {
-                  children: {
-                    createoscillator: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/BaseAudioContext/createOscillator",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webaudio-examples/blob/main/violent-theremin/scripts/app.js",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                beacon_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Beacon_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://webkit.org/blog/8821/link-click-analytics-and-privacy/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 },
                 canvas_api: {
                   children: {
@@ -10217,59 +10205,6 @@ function checkDeadlines() {
                     }
                   }
                 },
-                oscillatornode: {
-                  children: {
-                    detune: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/OscillatorNode/detune",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webaudio-examples/blob/main/violent-theremin/scripts/app.js",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
-                    frequency: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/OscillatorNode/frequency",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webaudio-examples/blob/main/violent-theremin/scripts/app.js",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
-                    type: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/OscillatorNode/type",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webaudio-examples/blob/main/violent-theremin/scripts/app.js",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/OscillatorNode",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/webaudio-examples/blob/main/violent-theremin/scripts/app.js",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                      ]
-                    }
-                  ]
-                },
                 payment_request_api: {
                   children: {
                     concepts: {
@@ -10289,20 +10224,6 @@ function checkDeadlines() {
                         {
                           message: "Broken browser compat anchor",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.emvco.com/emv-technologies/3-d-secure/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.emvco.com/emv-technologies/secure-remote-commerce/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -11469,7 +11390,17 @@ function draw() {
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/Web_Audio_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://css-tricks.com/form-validation-web-audio/",
+                        503
+                      ]
+                    }
+                  ]
                 },
                 web_authentication_api: {
                   children: {
@@ -11855,13 +11786,6 @@ document.getElementById("terminate").addEventListener("click", () => {
 });
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vite.dev/guide/features.html",
-                            "unknown certificate verification error"
                           ]
                         }
                       ]
@@ -12283,40 +12207,6 @@ function displayPoseStats(pose) {
                         }
                       ]
                     },
-                    performance: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WebXR_Device_API/Performance",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/immersive-web/webxr/blob/master/explainer.md",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/immersive-web/webxr/blob/master/explainer.md",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/immersive-web/webxr/blob/master/explainer.md",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/immersive-web/webxr/blob/master/explainer.md",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
                     startup_and_shutdown: {
                       children: {},
                       slug: "/en-US/docs/Web/API/WebXR_Device_API/Startup_and_shutdown",
@@ -12431,23 +12321,6 @@ function displayPoseStats(pose) {
                           message: "Not in BCD",
                           data: [
                             "api.WorkerNavigator.setAppBadge"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                worker: {
-                  children: {
-                    worker: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Worker/Worker",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vite.dev/guide/features.html",
-                            "unknown certificate verification error"
                           ]
                         }
                       ]
@@ -13234,6 +13107,13 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/lets-talk-speech-css/",
+                            503
+                          ]
                         }
                       ]
                     },
@@ -14454,36 +14334,6 @@ div.box-5 {
 ~~~
 `
                       ]
-                    }
-                  ]
-                },
-                "alpha-value": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/alpha-value",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
-                },
-                angle: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/angle",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
-                },
-                "angle-percentage": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/angle-percentage",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
                     }
                   ]
                 },
@@ -15798,24 +15648,7 @@ body {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/CSS/basic-shape",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
-                },
-                "blend-mode": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/blend-mode",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
+                  }
                 },
                 "box-flex": {
                   children: {},
@@ -16001,10 +15834,6 @@ p {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/calc-keyword",
                   messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    },
                     {
                       message: "Broken link",
                       data: [
@@ -16262,10 +16091,6 @@ section:focus {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/calc-sum",
                   messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    },
                     {
                       message: "Broken link",
                       data: [
@@ -17205,6 +17030,67 @@ rgb(from hsl(0 100% 50%) calc(r/2) calc(g + 25) calc(b + 175) / calc(alpha - 0.1
                       message: "CSS code issue",
                       data: [
                         "CssSyntaxError",
+                        "Unknown word rebeccapurple (CssSyntaxError)",
+                        "rebeccapurple",
+                        "2:1 - 2:14",
+                        `/en-US/docs/Web/CSS/color_value
+[CssSyntaxError] Unknown word rebeccapurple (CssSyntaxError)
+~~~
+/* Named colors */
+rebeccapurple
+aliceblue
+
+/* RGB Hexadecimal */
+#f09
+#ff0099
+
+/* RGB (Red, Green, Blue) */
+rgb(255 0 153)
+rgb(255 0 153 / 80%)
+
+/* HSL (Hue, Saturation, Lightness) */
+hsl(150 30% 60%)
+hsl(150 30% 60% / 80%)
+
+/* HWB (Hue, Whiteness, Blackness) */
+hwb(12 50% 0%)
+hwb(194 0% 0% / 0.5)
+
+/* LAB (Lightness, A-axis, B-axis) */
+lab(50% 40 59.5)
+lab(50% 40 59.5 / 0.5)
+
+/* LCH (Lightness, Chroma, Hue) */
+lch(52.2% 72.2 50)
+lch(52.2% 72.2 50 / 0.5)
+
+/* Oklab (Lightness, A-axis, B-axis) */
+oklab(59% 0.1 0.1)
+oklab(59% 0.1 0.1 / 0.5)
+
+/* Oklch (Lightness, Chroma, Hue) */
+oklch(60% 0.15 50)
+oklch(60% 0.15 50 / 0.5)
+
+/* Relative CSS colors */
+/* HSL hue change */
+hsl(from red 240deg s l)
+/* HWB alpha channel change */
+hwb(from green h w b / 0.5)
+/* LCH lightness change */
+lch(from blue calc(l + 20) c h)
+
+/* light-dark */
+light-dark(white, black)
+light-dark(rgb(255 255 255), rgb(0 0 0))
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "CssSyntaxError",
                         "Unknown word color-mix (CssSyntaxError)",
                         "color-mix(in oklch, oklch(none 0.2 10), oklch(60% none 30))",
                         "1:1 - 1:10",
@@ -17296,16 +17182,6 @@ oklch(63.612% 0.1522 78.748)
 ~~~
 `
                       ]
-                    }
-                  ]
-                },
-                "color-interpolation-method": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/color-interpolation-method",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
                     }
                   ]
                 },
@@ -18776,9 +18652,23 @@ color(from origin-color colorspace channel1 channel2 channel3 / alpha)
 ~~~
 red
 rgb(255 0 0)
-rgb(from red r g b)
-rgb(from red 255 g b)
 rgb(from red 255 0 0)
+rgb(from red 255 0 0 / 1)
+rgb(from red 255 0 0 / 100%)
+
+rgb(from red 255 g b)
+rgb(from red r 0 0)
+rgb(from red r g b / 1)
+rgb(from red r g b / 100%)
+
+rgb(from red r g b)
+rgb(from red r g b / alpha)
+
+/* With \`red\`, the g and b are the same, making them interchangeable */
+rgb(from red r g g)
+rgb(from red r b b)
+rgb(from red 255 g g)
+rgb(from red 255 b b)
 ~~~
 `
                           ]
@@ -18899,7 +18789,7 @@ rgb(from red r g b / alpha)
                           data: [
                             "declaration-property-value-no-unknown",
                             'Unexpected unknown value "g" for property "background-color" (declaration-property-value-no-unknown)',
-                            "  background-color: rgb(from red 200 g b);",
+                            "  background-color: rgb(from red 150 g b / alpha);",
                             "18:38 - 18:39",
                             `/en-US/docs/Web/CSS/CSS_colors/Relative_colors
 [declaration-property-value-no-unknown] Unexpected unknown value "g" for property "background-color" (declaration-property-value-no-unknown)
@@ -18921,7 +18811,7 @@ rgb(from red r g b / alpha)
 }
 
 #two {
-  background-color: rgb(from red 200 g b);
+  background-color: rgb(from red 150 g b / alpha);
 }
 ~~~
 `
@@ -19274,6 +19164,19 @@ css.at-rules.font-face.WOFF_2`,
                 },
                 css_grid_layout: {
                   children: {
+                    grid_layout_and_accessibility: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_and_accessibility",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://css-tricks.com/grid-content-re-ordering-and-accessibility/",
+                            503
+                          ]
+                        }
+                      ]
+                    },
                     grids_logical_values_and_writing_modes: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_grid_layout/Grids_logical_values_and_writing_modes",
@@ -20097,23 +20000,6 @@ css.properties.grid-template-rows.masonry`,
                     }
                   ]
                 },
-                css_logical_properties_and_values: {
-                  children: {
-                    basic_concepts_of_logical_properties_and_values: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_logical_properties_and_values/Basic_concepts_of_logical_properties_and_values",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2018/03/understanding-logical-properties-values/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 css_masking: {
                   children: {
                     clipping: {
@@ -20853,16 +20739,7 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/CSS/CSS_scroll_anchoring",
-                  messages: [
-                    {
-                      message: "No link to child page",
-                      data: [
-                        "/en-US/docs/Web/CSS/CSS_scroll_anchoring/Scroll_anchoring"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 css_scroll_snap: {
                   children: {
@@ -21197,96 +21074,6 @@ property: clamp(<minimum value>, <value to be clamped>, <maximum value>);
                     }
                   }
                 },
-                "custom-ident": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/custom-ident",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
-                },
-                "dashed-ident": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/dashed-ident",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
-                },
-                dimension: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/dimension",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
-                },
-                "display-box": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/display-box",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
-                },
-                "display-inside": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/display-inside",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
-                },
-                "display-internal": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/display-internal",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
-                },
-                "display-legacy": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/display-legacy",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
-                },
-                "display-listitem": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/display-listitem",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
-                },
-                "display-outside": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/display-outside",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
-                },
                 "easing-function": {
                   children: {
                     "cubic-bezier": {
@@ -21460,7 +21247,47 @@ steps(0, jump-none)
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/CSS/easing-function",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "CssSyntaxError",
+                        "Unknown word linear (CssSyntaxError)",
+                        "linear                /* linear(0, 1) */",
+                        "2:1 - 2:7",
+                        `/en-US/docs/Web/CSS/easing-function
+[CssSyntaxError] Unknown word linear (CssSyntaxError)
+~~~
+/* Keyword linear easing function */
+linear                /* linear(0, 1) */
+
+/* Custom linear easing functions */
+linear(0, 0.25, 1)
+linear(0, 0.25 75%, 1)
+
+/* Keyword cubic Bézier easing functions */
+ease                  /* cubic-bezier(0.25, 0.1, 0.25, 1) */
+ease-in               /* cubic-bezier(0.42, 0, 1, 1) */
+ease-out              /* cubic-bezier(0, 0, 0.58, 1) */
+ease-in-out           /* cubic-bezier(0.42, 0, 0.58, 1) */
+
+/* Custom cubic Bézier easing function */
+cubic-bezier(0.25, 0.1, 0.25, 1)
+
+/* Keyword step easing functions */
+step-start            /* steps(1, jump-start) */
+step-end              /* steps(1, jump-end) */
+
+/* Custom step easing functions */
+steps(4, end)
+steps(10, jump-both)
+~~~
+`
+                      ]
+                    }
+                  ]
                 },
                 element: {
                   children: {},
@@ -22350,10 +22177,6 @@ sepia(100%)
                   slug: "/en-US/docs/Web/CSS/filter-function",
                   messages: [
                     {
-                      message: "Missing syntax code block",
-                      data: []
-                    },
-                    {
                       message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
@@ -22440,16 +22263,6 @@ css.properties.min-inline-size.fit-content_function
 css.properties.min-width.fit-content_function
 css.properties.width.fit-content_function`
                       ]
-                    }
-                  ]
-                },
-                flex_value: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/flex_value",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
                     }
                   ]
                 },
@@ -22617,6 +22430,13 @@ css.properties.width.fit-content_function`
 </div>
 ~~~
 `
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://css-tricks.com/flex-grow-is-weird/",
+                        503
                       ]
                     }
                   ]
@@ -29051,10 +28871,6 @@ p {
                   slug: "/en-US/docs/Web/CSS/frequency",
                   messages: [
                     {
-                      message: "Missing syntax code block",
-                      data: []
-                    },
-                    {
                       message: "Not in BCD",
                       data: [
                         "css.types.frequency"
@@ -29067,13 +28883,31 @@ p {
                   slug: "/en-US/docs/Web/CSS/frequency-percentage",
                   messages: [
                     {
-                      message: "Missing syntax code block",
-                      data: []
-                    },
-                    {
                       message: "Not in BCD",
                       data: [
                         "css.types.frequency-percentage"
+                      ]
+                    }
+                  ]
+                },
+                "generic-family": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/generic-family",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "CssSyntaxError",
+                        "Unknown word <generic-family> (CssSyntaxError)",
+                        "<generic-family> = serif | sans-serif | monospace | cursive | fantasy | system-ui |",
+                        "1:1 - 1:17",
+                        `/en-US/docs/Web/CSS/generic-family
+[CssSyntaxError] Unknown word <generic-family> (CssSyntaxError)
+~~~
+<generic-family> = serif | sans-serif | monospace | cursive | fantasy | system-ui |
+   ui-serif | ui-sans-serif | ui-monospace | ui-rounded | emoji | math | fangsong
+~~~
+`
                       ]
                     }
                   ]
@@ -29276,33 +29110,12 @@ repeating-conic-gradient(from -45deg, red 45deg, orange, yellow, green, blue 225
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/CSS/gradient",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
-                },
-                hue: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/hue",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
+                  }
                 },
                 "hue-interpolation-method": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/hue-interpolation-method",
                   messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    },
                     {
                       message: "Unexpected BCD keys",
                       data: [
@@ -29311,16 +29124,6 @@ repeating-conic-gradient(from -45deg, red 45deg, orange, yellow, green, blue 225
                         "Expected:",
                         "[None]"
                       ]
-                    }
-                  ]
-                },
-                ident: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/ident",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
                     }
                   ]
                 },
@@ -29358,10 +29161,6 @@ repeating-conic-gradient(from -45deg, red 45deg, orange, yellow, green, blue 225
                   },
                   slug: "/en-US/docs/Web/CSS/image",
                   messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    },
                     {
                       message: "CSS code issue",
                       data: [
@@ -29452,16 +29251,6 @@ image-set('cat.jpg' 1x, 'dog.jpg' 1x) /* every image in an image set must have a
                     }
                   ]
                 },
-                integer: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/integer",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
-                },
                 layout_cookbook: {
                   children: {
                     contribute_a_recipe: {
@@ -29487,26 +29276,6 @@ image-set('cat.jpg' 1x, 'dog.jpg' 1x) /* every image in an image set must have a
                     }
                   }
                 },
-                length: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/length",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
-                },
-                "length-percentage": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/length-percentage",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
-                },
                 "line-height-step": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/line-height-step",
@@ -29523,6 +29292,21 @@ image-set('cat.jpg' 1x, 'dog.jpg' 1x) /* every image in an image set must have a
                   children: {},
                   slug: "/en-US/docs/Web/CSS/line-style",
                   messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "CssSyntaxError",
+                        "Unknown word <line-style> (CssSyntaxError)",
+                        "<line-style> = none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset",
+                        "1:1 - 1:13",
+                        `/en-US/docs/Web/CSS/line-style
+[CssSyntaxError] Unknown word <line-style> (CssSyntaxError)
+~~~
+<line-style> = none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset
+~~~
+`
+                      ]
+                    },
                     {
                       message: "HTML code issue",
                       data: [
@@ -29744,16 +29528,6 @@ css.properties.grid-template-rows.minmax`
                     }
                   ]
                 },
-                number: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/number",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
-                },
                 "offset-path": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/offset-path",
@@ -29784,13 +29558,16 @@ css.properties.grid-template-rows.minmax`
                     }
                   ]
                 },
-                percentage: {
+                "paint-order": {
                   children: {},
-                  slug: "/en-US/docs/Web/CSS/percentage",
+                  slug: "/en-US/docs/Web/CSS/paint-order",
                   messages: [
                     {
-                      message: "Missing syntax code block",
-                      data: []
+                      message: "Broken external link",
+                      data: [
+                        "https://css-tricks.com/almanac/properties/p/paint-order/",
+                        503
+                      ]
                     }
                   ]
                 },
@@ -29798,10 +29575,6 @@ css.properties.grid-template-rows.minmax`
                   children: {},
                   slug: "/en-US/docs/Web/CSS/position_value",
                   messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    },
                     {
                       message: "CSS code issue",
                       data: [
@@ -30008,16 +29781,6 @@ form {
                   messages: [
                     {
                       message: "Unreachable via page",
-                      data: []
-                    }
-                  ]
-                },
-                ratio: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/ratio",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
                       data: []
                     }
                   ]
@@ -30609,16 +30372,6 @@ css.properties.grid-template-rows.repeat`
                     }
                   ]
                 },
-                resolution: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/resolution",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
-                },
                 revert: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/revert",
@@ -30770,10 +30523,6 @@ div.box-5 {
                   slug: "/en-US/docs/Web/CSS/shape",
                   messages: [
                     {
-                      message: "Missing syntax code block",
-                      data: []
-                    },
-                    {
                       message: "CSS code issue",
                       data: [
                         "CssSyntaxError",
@@ -30817,10 +30566,6 @@ div {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/string",
                   messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    },
                     {
                       message: "CSS code issue",
                       data: [
@@ -30897,33 +30642,26 @@ css.properties.list-style-type.symbols`
                     }
                   ]
                 },
-                "system-color": {
+                "text-edge": {
                   children: {},
-                  slug: "/en-US/docs/Web/CSS/system-color",
+                  slug: "/en-US/docs/Web/CSS/text-edge",
                   messages: [
                     {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
-                },
-                time: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/time",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
-                },
-                "time-percentage": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/time-percentage",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
+                      message: "CSS code issue",
+                      data: [
+                        "CssSyntaxError",
+                        "Unknown word <text-edge> (CssSyntaxError)",
+                        "<text-edge> =",
+                        "1:1 - 1:12",
+                        `/en-US/docs/Web/CSS/text-edge
+[CssSyntaxError] Unknown word <text-edge> (CssSyntaxError)
+~~~
+<text-edge> =
+  [ text | ideographic | ideographic-ink ] |
+  [ text | ideographic | ideographic-ink | cap | ex ] [ text | ideographic | ideographic-ink | alphabetic ]
+~~~
+`
+                      ]
                     }
                   ]
                 },
@@ -31226,14 +30964,7 @@ skew(ax, ay)
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/CSS/transform-function",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
+                  }
                 },
                 tutorials: {
                   children: {},
@@ -31895,6 +31626,23 @@ html.elements.select.size`
                     },
                     elements: {
                       children: {
+                        input: {
+                          children: {
+                            range: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/range",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://css-tricks.com/sliding-nightmare-understanding-range-input/",
+                                    503
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        },
                         meta: {
                           children: {
                             name: {
@@ -32216,6 +31964,19 @@ http.headers.Use-As-Dictionary`,
                             {
                               message: "Missing syntax code block",
                               data: []
+                            }
+                          ]
+                        },
+                        "save-data": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Save-Data",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://css-tricks.com/help-users-save-data/",
+                                503
+                              ]
                             }
                           ]
                         },
@@ -32865,27 +32626,6 @@ console.log(bar.next()); // {value: 10, done: false}
                   ]
                 }
               ]
-            },
-            progressive_web_apps: {
-              children: {
-                guides: {
-                  children: {
-                    making_pwas_installable: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Progressive_web_apps/Guides/Making_PWAs_installable",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://developers.meta.com/horizon/documentation/web/pwa-submit-app/",
-                            "https://developers.meta.com/horizon/resources/publish-submit/"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                }
-              }
             },
             security: {
               children: {
@@ -40924,12 +40664,6 @@ svg.elements.feSpotLight.z`
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Element/feImage",
                           messages: [
-                            {
-                              message: "Bad DL",
-                              data: [
-                                ": Provides a hint of the relative priority to use "
-                              ]
-                            },
                             {
                               message: "HTML code issue",
                               data: [
