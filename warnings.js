@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-ktvqt2hh.js";
+} from "./chunk-eem0rd53.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -1502,13 +1502,6 @@ var warnings_processed_default = {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://cli.vuejs.org/guide/browser-compatibility.html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://phabricator.wikimedia.org/T241180",
                             "429 Retry-After: 1000"
                           ]
@@ -2821,23 +2814,6 @@ for (const station of stations) {
                     }
                   }
                 },
-                "client-side_tools": {
-                  children: {
-                    overview: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/",
-                            521
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 forms: {
                   children: {
                     how_to_build_custom_form_controls: {
@@ -2930,6 +2906,13 @@ for (const station of stations) {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://cwiki.apache.org/confluence/display/httpd/RewriteHTTPToHTTPS",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     },
@@ -2976,23 +2959,6 @@ for (const station of stations) {
             },
             getting_started: {
               children: {
-                environment_setup: {
-                  children: {
-                    browsing_the_web: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Browsing_the_web",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gemini.google.com/app",
-                            502
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 soft_skills: {
                   children: {
                     collaboration_and_teamwork: {
@@ -3003,6 +2969,19 @@ for (const station of stations) {
                           message: "Broken external link",
                           data: [
                             "https://discord.me/frontenddevelopers",
+                            403
+                          ]
+                        }
+                      ]
+                    },
+                    finding_a_job: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Finding_a_job",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.upwork.com/",
                             403
                           ]
                         }
@@ -3205,7 +3184,7 @@ for (const station of stations) {
                           message: "Broken external link",
                           data: [
                             "https://www.codelobster.com/forum/index.php",
-                            "Unable to connect. Is the computer able to access the url?"
+                            "The operation timed out."
                           ]
                         },
                         {
@@ -3224,19 +3203,6 @@ for (const station of stations) {
                         {
                           message: "Unreachable via page",
                           data: []
-                        }
-                      ]
-                    },
-                    how_do_you_host_your_website_on_google_app_engine: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gaesamplesite.appspot.com/downloads.html",
-                            503
-                          ]
                         }
                       ]
                     },
@@ -3448,6 +3414,19 @@ for (const station of stations) {
                       }
                     }
                   }
+                },
+                writing_style_guide: {
+                  children: {},
+                  slug: "/en-US/docs/MDN/Writing_guidelines/Writing_style_guide",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://websites.umich.edu/~jlawler/aue.html",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 }
               },
               slug: "/en-US/docs/MDN/Writing_guidelines",
@@ -8567,13 +8546,6 @@ else if (e.target.id === "tabs-alert-info") {
                           ]
                         },
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/revisiting-prefers-reduced-motion/",
-                            503
-                          ]
-                        },
-                        {
                           message: "HTTP link",
                           data: [
                             "http://diagramcenter.org/",
@@ -10573,6 +10545,14 @@ function checkDeadlines() {
                       slug: "/en-US/docs/Web/API/RTCIceCandidatePairStats/selected",
                       messages: [
                         {
+                          message: "Replace DT link with real target",
+                          data: [
+                            "/en-US/docs/Web/API/RTCTransportStats#selectedcandidatepairid",
+                            "/en-US/docs/Web/API/RTCTransportStats/selectedCandidatePairId",
+                            []
+                          ]
+                        },
+                        {
                           message: "Not in BCD",
                           data: [
                             "api.RTCStatsReport.type_candidate-pair.selected"
@@ -11390,17 +11370,7 @@ function draw() {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/Web_Audio_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://css-tricks.com/form-validation-web-audio/",
-                        503
-                      ]
-                    }
-                  ]
+                  }
                 },
                 web_authentication_api: {
                   children: {
@@ -13107,13 +13077,6 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/lets-talk-speech-css/",
-                            503
-                          ]
                         }
                       ]
                     },
@@ -19164,19 +19127,6 @@ css.at-rules.font-face.WOFF_2`,
                 },
                 css_grid_layout: {
                   children: {
-                    grid_layout_and_accessibility: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_and_accessibility",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://css-tricks.com/grid-content-re-ordering-and-accessibility/",
-                            503
-                          ]
-                        }
-                      ]
-                    },
                     grids_logical_values_and_writing_modes: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_grid_layout/Grids_logical_values_and_writing_modes",
@@ -22430,13 +22380,6 @@ css.properties.width.fit-content_function`
 </div>
 ~~~
 `
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://css-tricks.com/flex-grow-is-weird/",
-                        503
                       ]
                     }
                   ]
@@ -29558,19 +29501,6 @@ css.properties.grid-template-rows.minmax`
                     }
                   ]
                 },
-                "paint-order": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/paint-order",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://css-tricks.com/almanac/properties/p/paint-order/",
-                        503
-                      ]
-                    }
-                  ]
-                },
                 position_value: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/position_value",
@@ -31626,23 +31556,6 @@ html.elements.select.size`
                     },
                     elements: {
                       children: {
-                        input: {
-                          children: {
-                            range: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/range",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://css-tricks.com/sliding-nightmare-understanding-range-input/",
-                                    503
-                                  ]
-                                }
-                              ]
-                            }
-                          }
-                        },
                         meta: {
                           children: {
                             name: {
@@ -31964,19 +31877,6 @@ http.headers.Use-As-Dictionary`,
                             {
                               message: "Missing syntax code block",
                               data: []
-                            }
-                          ]
-                        },
-                        "save-data": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Save-Data",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://css-tricks.com/help-users-save-data/",
-                                503
-                              ]
                             }
                           ]
                         },
@@ -32463,6 +32363,19 @@ console.log(bar.next()); // {value: 10, done: false}
                     },
                     formats: {
                       children: {
+                        audio_codecs: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Audio_codecs",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://lame.sourceforge.io/",
+                                "https://sourceforge.net/projects/lame/"
+                              ]
+                            }
+                          ]
+                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -32636,6 +32549,13 @@ console.log(bar.next()); // {value: 10, done: false}
                     {
                       message: "Unreachable via page",
                       data: []
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www-archive.mozilla.org/projects/security/components/reviewguide.html",
+                        "unknown certificate verification error"
+                      ]
                     }
                   ]
                 },
