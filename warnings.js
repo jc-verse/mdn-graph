@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-eem0rd53.js";
+} from "./chunk-n4rwxcez.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -1665,6 +1665,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://cli.vuejs.org/guide/deployment.html",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
                         }
                       ]
                     },
@@ -1682,6 +1689,108 @@ var warnings_processed_default = {
                 },
                 scripting: {
                   children: {
+                    a_first_splash: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/A_first_splash",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-elem",
+                            "Do not use the <style> element; use separate CSS blocks instead.",
+                            `    <style>
+      html {
+        font-family: sans-serif;
+      }
+
+      body {
+        width: 50%;
+        max-width: 800px;
+        min-width: 480px;
+        margin: 0 auto;
+      }
+
+      .form input[type="number"] {
+        width: 200px;
+      }
+
+      .lastResult {
+        color: white;
+        padding: 3px;
+      }
+    </style>`,
+                            "7:4 - 27:12",
+                            `/en-US/docs/Learn_web_development/Core/Scripting/A_first_splash
+[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Number guessing game</title>
+
+    <style>
+      html {
+        font-family: sans-serif;
+      }
+
+      body {
+        width: 50%;
+        max-width: 800px;
+        min-width: 480px;
+        margin: 0 auto;
+      }
+
+      .form input[type="number"] {
+        width: 200px;
+      }
+
+      .lastResult {
+        color: white;
+        padding: 3px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Number guessing game</h1>
+
+    <p>
+      We have selected a random number between 1 and 100. See if you can guess
+      it in 10 turns or fewer. We'll tell you if your guess was too high or too
+      low.
+    </p>
+
+    <div class="form">
+      <label for="guessField">Enter a guess: </label>
+      <input
+        type="number"
+        min="1"
+        max="100"
+        required
+        id="guessField"
+        class="guessField" />
+      <input type="submit" value="Submit guess" class="guessSubmit" />
+    </div>
+
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+    </div>
+
+    <script>
+      // Your JavaScript goes here
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
                     arrays: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/Arrays",
@@ -2223,283 +2332,33 @@ refused.textContent = 'Refuse: ';
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/Useful_string_methods",
                       messages: [
                         {
-                          message: "HTML code issue",
+                          message: "JS code issue",
                           data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '<div class="output" style="min-height: 125px;">',
-                            "2:20 - 2:46",
+                            "no-useless-escape",
+                            "Unnecessary escape character: \\'.",
+                            '  "You\\\'re all I want for Christmas",',
+                            "6:7 - 6:8",
                             `/en-US/docs/Learn_web_development/Core/Scripting/Useful_string_methods
-[no-style-attr] Do not use the style attribute.
+[no-useless-escape] Unnecessary escape character: \\'.
 ~~~
-<h2>Live output</h2>
-
-<div class="output" style="min-height: 125px;">
-  <ul></ul>
-</div>
-
-<h2>Editable code</h2>
-<p class="a11y-label">
-  Press Esc to move focus away from the code area (Tab inserts a tab character).
-</p>
-
-<textarea id="code" class="playable-code" style="height: 290px; width: 95%">
-const list = document.querySelector('.output ul');
-list.textContent = "";
-const greetings = ['Happy Birthday!',
-                 'Merry Christmas my love',
-                 'A happy Christmas to all the family',
-                 'You\\'re all I want for Christmas',
-                 'Get well soon'];
+const list = document.querySelector("ul");
+const greetings = [
+  "Happy Birthday!",
+  "Merry Christmas my love",
+  "A happy Christmas to all the family",
+  "You\\'re all I want for Christmas",
+  "Get well soon",
+];
 
 for (const greeting of greetings) {
   // Your conditional test needs to go inside the parentheses
   // in the line below, replacing what's currently there
   if (greeting) {
-    const listItem = document.createElement('li');
+    const listItem = document.createElement("li");
     listItem.textContent = greeting;
     list.appendChild(listItem);
   }
 }
-</textarea>
-
-<div class="playable-buttons">
-  <input id="reset" type="button" value="Reset" />
-  <input id="solution" type="button" value="Show solution" />
-</div>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '<textarea id="code" class="playable-code" style="height: 290px; width: 95%">',
-                            "11:42 - 11:75",
-                            `/en-US/docs/Learn_web_development/Core/Scripting/Useful_string_methods
-[no-style-attr] Do not use the style attribute.
-~~~
-<h2>Live output</h2>
-
-<div class="output" style="min-height: 125px;">
-  <ul></ul>
-</div>
-
-<h2>Editable code</h2>
-<p class="a11y-label">
-  Press Esc to move focus away from the code area (Tab inserts a tab character).
-</p>
-
-<textarea id="code" class="playable-code" style="height: 290px; width: 95%">
-const list = document.querySelector('.output ul');
-list.textContent = "";
-const greetings = ['Happy Birthday!',
-                 'Merry Christmas my love',
-                 'A happy Christmas to all the family',
-                 'You\\'re all I want for Christmas',
-                 'Get well soon'];
-
-for (const greeting of greetings) {
-  // Your conditional test needs to go inside the parentheses
-  // in the line below, replacing what's currently there
-  if (greeting) {
-    const listItem = document.createElement('li');
-    listItem.textContent = greeting;
-    list.appendChild(listItem);
-  }
-}
-</textarea>
-
-<div class="playable-buttons">
-  <input id="reset" type="button" value="Reset" />
-  <input id="solution" type="button" value="Show solution" />
-</div>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '<div class="output" style="min-height: 125px;">',
-                            "2:20 - 2:46",
-                            `/en-US/docs/Learn_web_development/Core/Scripting/Useful_string_methods
-[no-style-attr] Do not use the style attribute.
-~~~
-<h2>Live output</h2>
-
-<div class="output" style="min-height: 125px;">
-  <ul></ul>
-</div>
-
-<h2>Editable code</h2>
-<p class="a11y-label">
-  Press Esc to move focus away from the code area (Tab inserts a tab character).
-</p>
-
-<textarea id="code" class="playable-code" style="height: 250px; width: 95%">
-const list = document.querySelector('.output ul');
-list.textContent = "";
-const cities = ['lonDon', 'ManCHESTer', 'BiRmiNGHAM', 'liVERpoOL'];
-
-for (const city of cities) {
-  // write your code just below here
-
-  const result = city;
-  const listItem = document.createElement('li');
-  listItem.textContent = result;
-  list.appendChild(listItem);
-}
-</textarea>
-
-<div class="playable-buttons">
-  <input id="reset" type="button" value="Reset" />
-  <input id="solution" type="button" value="Show solution" />
-</div>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '<textarea id="code" class="playable-code" style="height: 250px; width: 95%">',
-                            "11:42 - 11:75",
-                            `/en-US/docs/Learn_web_development/Core/Scripting/Useful_string_methods
-[no-style-attr] Do not use the style attribute.
-~~~
-<h2>Live output</h2>
-
-<div class="output" style="min-height: 125px;">
-  <ul></ul>
-</div>
-
-<h2>Editable code</h2>
-<p class="a11y-label">
-  Press Esc to move focus away from the code area (Tab inserts a tab character).
-</p>
-
-<textarea id="code" class="playable-code" style="height: 250px; width: 95%">
-const list = document.querySelector('.output ul');
-list.textContent = "";
-const cities = ['lonDon', 'ManCHESTer', 'BiRmiNGHAM', 'liVERpoOL'];
-
-for (const city of cities) {
-  // write your code just below here
-
-  const result = city;
-  const listItem = document.createElement('li');
-  listItem.textContent = result;
-  list.appendChild(listItem);
-}
-</textarea>
-
-<div class="playable-buttons">
-  <input id="reset" type="button" value="Reset" />
-  <input id="solution" type="button" value="Show solution" />
-</div>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '<div class="output" style="min-height: 125px;">',
-                            "2:20 - 2:46",
-                            `/en-US/docs/Learn_web_development/Core/Scripting/Useful_string_methods
-[no-style-attr] Do not use the style attribute.
-~~~
-<h2>Live output</h2>
-
-<div class="output" style="min-height: 125px;">
-  <ul></ul>
-</div>
-
-<h2>Editable code</h2>
-<p class="a11y-label">
-  Press Esc to move focus away from the code area (Tab inserts a tab character).
-</p>
-
-<textarea id="code" class="playable-code" style="height: 285px; width: 95%">
-const list = document.querySelector('.output ul');
-list.textContent = "";
-const stations = ['MAN675847583748sjt567654;Manchester Piccadilly',
-                  'GNF576746573fhdg4737dh4;Greenfield',
-                  'LIV5hg65hd737456236dch46dg4;Liverpool Lime Street',
-                  'SYB4f65hf75f736463;Stalybridge',
-                  'HUD5767ghtyfyr4536dh45dg45dg3;Huddersfield'];
-
-for (const station of stations) {
-  // write your code just below here
-
-  const result = station;
-  const listItem = document.createElement('li');
-  listItem.textContent = result;
-  list.appendChild(listItem);
-}
-</textarea>
-
-<div class="playable-buttons">
-  <input id="reset" type="button" value="Reset" />
-  <input id="solution" type="button" value="Show solution" />
-</div>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '<textarea id="code" class="playable-code" style="height: 285px; width: 95%">',
-                            "11:42 - 11:75",
-                            `/en-US/docs/Learn_web_development/Core/Scripting/Useful_string_methods
-[no-style-attr] Do not use the style attribute.
-~~~
-<h2>Live output</h2>
-
-<div class="output" style="min-height: 125px;">
-  <ul></ul>
-</div>
-
-<h2>Editable code</h2>
-<p class="a11y-label">
-  Press Esc to move focus away from the code area (Tab inserts a tab character).
-</p>
-
-<textarea id="code" class="playable-code" style="height: 285px; width: 95%">
-const list = document.querySelector('.output ul');
-list.textContent = "";
-const stations = ['MAN675847583748sjt567654;Manchester Piccadilly',
-                  'GNF576746573fhdg4737dh4;Greenfield',
-                  'LIV5hg65hd737456236dch46dg4;Liverpool Lime Street',
-                  'SYB4f65hf75f736463;Stalybridge',
-                  'HUD5767ghtyfyr4536dh45dg45dg3;Huddersfield'];
-
-for (const station of stations) {
-  // write your code just below here
-
-  const result = station;
-  const listItem = document.createElement('li');
-  listItem.textContent = result;
-  list.appendChild(listItem);
-}
-</textarea>
-
-<div class="playable-buttons">
-  <input id="reset" type="button" value="Reset" />
-  <input id="solution" type="button" value="Show solution" />
-</div>
 ~~~
 `
                           ]
@@ -2906,13 +2765,6 @@ for (const station of stations) {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://cwiki.apache.org/confluence/display/httpd/RewriteHTTPToHTTPS",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     },
@@ -2926,6 +2778,23 @@ for (const station of stations) {
                         }
                       ]
                     },
+                    django: {
+                      children: {
+                        testing: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Testing",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://toastdriven.com/blog/2011/apr/09/guide-to-testing-in-django/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     express_nodejs: {
                       children: {
                         introduction: {
@@ -2937,6 +2806,23 @@ for (const station of stations) {
                               data: [
                                 "http://callbackhell.com/",
                                 ""
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    first_steps: {
+                      children: {
+                        "client-server_overview": {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.telerik.com/download/fiddler",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -2969,19 +2855,6 @@ for (const station of stations) {
                           message: "Broken external link",
                           data: [
                             "https://discord.me/frontenddevelopers",
-                            403
-                          ]
-                        }
-                      ]
-                    },
-                    finding_a_job: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Finding_a_job",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.upwork.com/",
                             403
                           ]
                         }
@@ -3184,7 +3057,7 @@ for (const station of stations) {
                           message: "Broken external link",
                           data: [
                             "https://www.codelobster.com/forum/index.php",
-                            "The operation timed out."
+                            "Unable to connect. Is the computer able to access the url?"
                           ]
                         },
                         {
@@ -3192,6 +3065,13 @@ for (const station of stations) {
                           data: [
                             "https://www.codelobsteride.com/help/",
                             "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vimdoc.sourceforge.net/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -3309,6 +3189,19 @@ for (const station of stations) {
                       data: []
                     }
                   ]
+                },
+                translated_content: {
+                  children: {},
+                  slug: "/en-US/docs/MDN/Community/Translated_content",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/hochan222",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 }
               },
               slug: "/en-US/docs/MDN/Community",
@@ -3414,19 +3307,6 @@ for (const station of stations) {
                       }
                     }
                   }
-                },
-                writing_style_guide: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Writing_guidelines/Writing_style_guide",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://websites.umich.edu/~jlawler/aue.html",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 }
               },
               slug: "/en-US/docs/MDN/Writing_guidelines",
@@ -9561,18 +9441,6 @@ api.Document.fullscreen`,
                     }
                   ]
                 },
-                htmlselectedcontentelement: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/HTMLSelectedContentElement",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "api.HTMLSelectedContentElement"
-                      ]
-                    }
-                  ]
-                },
                 identitycredentialrequestoptions: {
                   children: {},
                   slug: "/en-US/docs/Web/API/IdentityCredentialRequestOptions",
@@ -9854,6 +9722,27 @@ function checkDeadlines() {
                     {
                       message: "Broken browser compat anchor",
                       data: []
+                    }
+                  ]
+                },
+                integrityviolationreportbody: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/IntegrityViolationReportBody",
+                  messages: [
+                    {
+                      message: "Not in BCD",
+                      data: [
+                        "api.IntegrityViolationReportBody"
+                      ]
+                    },
+                    {
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        "http.headers.Integrity-Policy",
+                        "Expected:",
+                        "api.IntegrityViolationReportBody"
+                      ]
                     }
                   ]
                 },
@@ -31591,6 +31480,19 @@ html.elements.select.size`
                             }
                           ]
                         },
+                        script: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/script",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://flaviocopes.com/javascript-async-defer/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         td: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/td",
@@ -32014,7 +31916,22 @@ http.headers.Use-As-Dictionary`,
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/HTTP/Reference/Headers",
+                      messages: [
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/HTTP/Reference/Headers/Integrity-Policy-Report-Only"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/HTTP/Reference/Headers/Integrity-Policy"
+                          ]
+                        }
+                      ]
                     }
                   }
                 }
@@ -32363,19 +32280,6 @@ console.log(bar.next()); // {value: 10, done: false}
                     },
                     formats: {
                       children: {
-                        audio_codecs: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Audio_codecs",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://lame.sourceforge.io/",
-                                "https://sourceforge.net/projects/lame/"
-                              ]
-                            }
-                          ]
-                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -32549,13 +32453,6 @@ console.log(bar.next()); // {value: 10, done: false}
                     {
                       message: "Unreachable via page",
                       data: []
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www-archive.mozilla.org/projects/security/components/reviewguide.html",
-                        "unknown certificate verification error"
-                      ]
                     }
                   ]
                 },
