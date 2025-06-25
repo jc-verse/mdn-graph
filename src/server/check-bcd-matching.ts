@@ -163,9 +163,12 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
       const attrName = match[4];
       const attrValue = match[5];
       const attrBCD = htmlAttrToBCD(attrName, elemName);
-      return attrBCD
-        .filter((k) => attrValue in getBCD(bcdData, k))
-        .map((k) => `${k}.${attrValue}`);
+      if (elemName === "Attributes") {
+        return attrBCD
+          .filter((k) => attrValue in getBCD(bcdData, k))
+          .map((k) => `${k}.${attrValue}`);
+      }
+      return attrBCD.map((k) => `${k}.${attrValue}`);
     }
     case "html-element": {
       const match = node.id.match(
