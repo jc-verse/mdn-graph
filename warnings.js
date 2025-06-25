@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-n4rwxcez.js";
+} from "./chunk-mztnqmj9.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -1498,13 +1498,6 @@ var warnings_processed_default = {
                           data: [
                             "https://codepen.io/mxmason/pen/XWbPNmw"
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://phabricator.wikimedia.org/T241180",
-                            "429 Retry-After: 1000"
-                          ]
                         }
                       ]
                     },
@@ -1665,13 +1658,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://cli.vuejs.org/guide/deployment.html",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
                         }
                       ]
                     },
@@ -2778,23 +2764,6 @@ for (const greeting of greetings) {
                         }
                       ]
                     },
-                    django: {
-                      children: {
-                        testing: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Testing",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://toastdriven.com/blog/2011/apr/09/guide-to-testing-in-django/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
                     express_nodejs: {
                       children: {
                         introduction: {
@@ -2806,23 +2775,6 @@ for (const greeting of greetings) {
                               data: [
                                 "http://callbackhell.com/",
                                 ""
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    first_steps: {
-                      children: {
-                        "client-server_overview": {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.telerik.com/download/fiddler",
-                                "The operation timed out."
                               ]
                             }
                           ]
@@ -3057,7 +3009,7 @@ for (const greeting of greetings) {
                           message: "Broken external link",
                           data: [
                             "https://www.codelobster.com/forum/index.php",
-                            "Unable to connect. Is the computer able to access the url?"
+                            "The operation timed out."
                           ]
                         },
                         {
@@ -3065,13 +3017,6 @@ for (const greeting of greetings) {
                           data: [
                             "https://www.codelobsteride.com/help/",
                             "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vimdoc.sourceforge.net/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -3083,6 +3028,19 @@ for (const greeting of greetings) {
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    how_do_you_host_your_website_on_google_app_engine: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gaesamplesite.appspot.com/",
+                            503
+                          ]
                         }
                       ]
                     },
@@ -3187,19 +3145,6 @@ for (const greeting of greetings) {
                     {
                       message: "Unreachable via page",
                       data: []
-                    }
-                  ]
-                },
-                translated_content: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Community/Translated_content",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/hochan222",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 }
@@ -10809,6 +10754,19 @@ function checkDeadlines() {
                     }
                   ]
                 },
+                streams_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Streams_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://fetch-progress.anthum.com/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 svgrenderingintent: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SVGRenderingIntent",
@@ -13650,6 +13608,13 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.mozilla.org/en-US/questions/1271928",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -31449,17 +31414,26 @@ html.elements.select.size`
                           children: {
                             name: {
                               children: {
+                                robots: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/HTML/Reference/Elements/meta/name/robots",
+                                  messages: [
+                                    {
+                                      message: "Not in BCD",
+                                      data: [
+                                        "html.elements.meta.name.robots"
+                                      ]
+                                    }
+                                  ]
+                                },
                                 viewport: {
                                   children: {},
                                   slug: "/en-US/docs/Web/HTML/Reference/Elements/meta/name/viewport",
                                   messages: [
                                     {
-                                      message: "Unexpected BCD keys",
+                                      message: "Not in BCD",
                                       data: [
-                                        "Actual:",
-                                        "html.elements.meta.name.viewport",
-                                        "Expected:",
-                                        "[None]"
+                                        "html.elements.meta.name.viewport"
                                       ]
                                     }
                                   ]
@@ -31476,19 +31450,6 @@ html.elements.select.size`
                               message: "Missing image",
                               data: [
                                 "path/image.jpg"
-                              ]
-                            }
-                          ]
-                        },
-                        script: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/script",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://flaviocopes.com/javascript-async-defer/",
-                                "Cannot reach server and Bun hangs"
                               ]
                             }
                           ]
