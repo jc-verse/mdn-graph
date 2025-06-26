@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-mztnqmj9.js";
+} from "./chunk-w7fjv3vr.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -660,6 +660,26 @@ var warnings_processed_default = {
                 }
               ]
             },
+            gpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/GPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-faq.html",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-3.0.html",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
             "high-level_programming_language": {
               children: {},
               slug: "/en-US/docs/Glossary/High-level_programming_language",
@@ -747,6 +767,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            lgpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/LGPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/lgpl-3.0.html",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -1497,6 +1530,20 @@ var warnings_processed_default = {
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/mxmason/pen/XWbPNmw"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://cli.vuejs.org/guide/browser-compatibility.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://phabricator.wikimedia.org/T241180",
+                            "429 Retry-After: 1000"
                           ]
                         }
                       ]
@@ -2429,6 +2476,19 @@ for (const greeting of greetings) {
                         }
                       ]
                     },
+                    html_images: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     including_vector_graphics_in_html: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Including_vector_graphics_in_HTML",
@@ -2737,6 +2797,13 @@ for (const greeting of greetings) {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -2781,6 +2848,23 @@ for (const greeting of greetings) {
                         }
                       }
                     },
+                    first_steps: {
+                      children: {
+                        web_frameworks: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Web_frameworks",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://dotnet.microsoft.com/en-us/apps/aspnet",
+                                403
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     node_server_without_framework: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Node_server_without_framework",
@@ -2807,6 +2891,19 @@ for (const greeting of greetings) {
                           message: "Broken external link",
                           data: [
                             "https://discord.me/frontenddevelopers",
+                            403
+                          ]
+                        }
+                      ]
+                    },
+                    finding_a_job: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Finding_a_job",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.upwork.com/",
                             403
                           ]
                         }
@@ -3018,6 +3115,27 @@ for (const greeting of greetings) {
                             "https://www.codelobsteride.com/help/",
                             "The operation timed out."
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -3038,6 +3156,13 @@ for (const greeting of greetings) {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://gaesamplesite.appspot.com/downloads.html",
+                            503
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://gaesamplesite.appspot.com/",
                             503
                           ]
@@ -3048,6 +3173,13 @@ for (const greeting of greetings) {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -10754,19 +10886,6 @@ function checkDeadlines() {
                     }
                   ]
                 },
-                streams_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Streams_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://fetch-progress.anthum.com/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 svgrenderingintent: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SVGRenderingIntent",
@@ -11730,6 +11849,19 @@ document.getElementById("terminate").addEventListener("click", () => {
                     }
                   ]
                 },
+                websockets_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/WebSockets_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://dotnet.microsoft.com/en-us/apps/aspnet/signalr",
+                        403
+                      ]
+                    }
+                  ]
+                },
                 webtransport_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/WebTransport_API",
@@ -12035,6 +12167,19 @@ function displayPoseStats(pose) {
                       ]
                     }
                   }
+                },
+                window_controls_overlay_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Window_Controls_Overlay_API",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/how-to/window-controls-overlay",
+                        "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps/how-to/window-controls-overlay"
+                      ]
+                    }
+                  ]
                 },
                 window_management_api: {
                   children: {
@@ -12359,6 +12504,19 @@ function displayPoseStats(pose) {
                       data: [
                         "/en-US/docs/Web/API/WebXR_Device_API/Fundamentals",
                         "#the_webxr_compositor"
+                      ]
+                    }
+                  ]
+                },
+                xsltprocessor: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/XSLTProcessor",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.ibiblio.org/xml/books/bible3/chapters/ch15.html",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -13608,13 +13766,6 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://support.mozilla.org/en-US/questions/1271928",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -21207,6 +21358,19 @@ steps(10, jump-both)
 </div>
 ~~~
 `
+                      ]
+                    }
+                  ]
+                },
+                env: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/env",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/how-to/window-controls-overlay",
+                        "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps/how-to/window-controls-overlay"
                       ]
                     }
                   ]
@@ -31627,6 +31791,19 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         "available-dictionary": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Available-Dictionary",
@@ -32210,6 +32387,13 @@ console.log(bar.next()); // {value: 10, done: false}
                           data: [
                             "https://jsbin.com/gekatoge/7/edit"
                           ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://jwplayer.com/",
+                            "https://jwpconnatix.com/"
+                          ]
                         }
                       ]
                     },
@@ -32401,6 +32585,147 @@ console.log(bar.next()); // {value: 10, done: false}
                   message: "No link to child page",
                   data: [
                     "/en-US/docs/Web/Privacy/Guides"
+                  ]
+                }
+              ]
+            },
+            progressive_web_apps: {
+              children: {
+                guides: {
+                  children: {
+                    best_practices: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Progressive_web_apps/Guides/Best_practices",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/how-to/best-practices",
+                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps/how-to/best-practices"
+                          ]
+                        }
+                      ]
+                    },
+                    making_pwas_installable: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Progressive_web_apps/Guides/Making_PWAs_installable",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/how-to/microsoft-store",
+                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps/how-to/microsoft-store"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                how_to: {
+                  children: {
+                    associate_files_with_your_pwa: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Progressive_web_apps/How_to/Associate_files_with_your_PWA",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/how-to/handle-files",
+                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps/how-to/handle-files"
+                          ]
+                        }
+                      ]
+                    },
+                    define_app_icons: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Progressive_web_apps/How_to/Define_app_icons",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/how-to/icon-theme-color",
+                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps/how-to/icon-theme-color"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/how-to/icon-theme-color",
+                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps/how-to/icon-theme-color"
+                          ]
+                        }
+                      ]
+                    },
+                    display_badge_on_app_icon: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Progressive_web_apps/How_to/Display_badge_on_app_icon",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/how-to/notifications-badges",
+                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps/how-to/notifications-badges"
+                          ]
+                        }
+                      ]
+                    },
+                    expose_common_actions_as_shortcuts: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Progressive_web_apps/How_to/Expose_common_actions_as_shortcuts",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/how-to/shortcuts",
+                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps/how-to/shortcuts"
+                          ]
+                        }
+                      ]
+                    },
+                    share_data_between_apps: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Progressive_web_apps/How_to/Share_data_between_apps",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/how-to/share",
+                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps/how-to/share"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                manifest: {
+                  children: {
+                    reference: {
+                      children: {
+                        file_handlers: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/file_handlers",
+                          messages: [
+                            {
+                              message: "Redirected external link",
+                              data: [
+                                "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/how-to/handle-files",
+                                "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps/how-to/handle-files"
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              slug: "/en-US/docs/Web/Progressive_web_apps",
+              messages: [
+                {
+                  message: "Redirected external link",
+                  data: [
+                    "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/",
+                    "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps/"
                   ]
                 }
               ]
