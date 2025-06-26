@@ -151,13 +151,6 @@ const checkAllTodos = (completed) => {
 export let autofocus: boolean = false;
 ~~~
 
-/en-US/docs/Learn_web_development/Core/Scripting/A_first_splash
-[operator-assignment] Assignment (=) can be replaced with operator assignment (+=).
-~~~
-let number2 = 1;
-number2 = number2 + 2;
-~~~
-
 /en-US/docs/Learn_web_development/Core/Scripting/Build_your_own_function
 [syntax] Parsing error: '}' expected.
 ~~~

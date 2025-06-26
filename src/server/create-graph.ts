@@ -338,6 +338,7 @@ export default async function createContentGraph() {
         part.value.id === "syntax" &&
         ![
           "guide",
+          "css-media-feature",
           "css-type",
           "html-attribute",
           "mdn-writing-guide",

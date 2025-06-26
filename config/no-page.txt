@@ -70,7 +70,6 @@
 /en-US/docs/Web/API/RTCSentRtpStreamStats/bytesSent
 /en-US/docs/Web/API/RTCSentRtpStreamStats/framesEncoded
 /en-US/docs/Web/API/RTCSentRtpStreamStats/packetsSent
-/en-US/docs/Web/API/RTCTransportStats/selectedCandidatePairId
 /en-US/docs/Web/API/RTCVideoReceiverStats
 
 /en-US/docs/Web/API/SVGAElement/hash
