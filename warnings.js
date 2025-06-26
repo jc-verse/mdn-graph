@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-azqjm729.js";
+} from "./chunk-38pr48gv.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -2156,19 +2156,6 @@ function update(bgColor, textColor) {
                         }
                       ]
                     },
-                    event_bubbling: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Event_bubbling",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.quirksmode.org/js/events_order.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     loops: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/Loops",
@@ -2588,23 +2575,6 @@ refused.textContent = 'Refuse: ';
                       ]
                     }
                   ]
-                },
-                text_styling: {
-                  children: {
-                    web_fonts: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.exljbris.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 }
               },
               slug: "/en-US/docs/Learn_web_development/Core",
@@ -2697,19 +2667,6 @@ refused.textContent = 'Refuse: ';
                         {
                           message: "Unreachable via page",
                           data: []
-                        }
-                      ]
-                    },
-                    "ui_pseudo-classes": {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/forms/pseudo-classes/required-optional-generated.html",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
                         }
                       ]
                     },
@@ -3021,13 +2978,34 @@ refused.textContent = 'Refuse: ';
                           message: "Broken external link",
                           data: [
                             "https://www.codelobster.com/forum/index.php",
-                            "Unable to connect. Is the computer able to access the url?"
+                            "The operation timed out."
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
                             "https://www.codelobsteride.com/help/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
                             "The operation timed out."
                           ]
                         }
@@ -3047,6 +3025,13 @@ refused.textContent = 'Refuse: ';
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -9161,23 +9146,6 @@ api.DeviceOrientationEvent`,
                     }
                   }
                 },
-                eventtarget: {
-                  children: {
-                    addeventlistener: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/EventTarget/addEventListener",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.quirksmode.org/js/events_order.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 fetchevent: {
                   children: {
                     replacesclientid: {
@@ -10314,19 +10282,6 @@ function checkDeadlines() {
                     }
                   ]
                 },
-                response: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Response",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/dom-examples/tree/main/fetch/basic-fetch",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                      ]
-                    }
-                  ]
-                },
                 rtcicecandidatepair: {
                   children: {
                     local: {
@@ -10746,19 +10701,6 @@ function checkDeadlines() {
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/API/SourceBuffer/updatestart_event"
-                      ]
-                    }
-                  ]
-                },
-                streams_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Streams_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://fetch-progress.anthum.com/",
-                        "Cannot reach server and Bun hangs"
                       ]
                     }
                   ]
@@ -12484,53 +12426,6 @@ function displayPoseStats(pose) {
                     }
                   ]
                 },
-                _colon_dir: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:dir",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
-                },
-                _colon_is: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:is",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "selector-type-no-unknown",
-                        'Unexpected unknown type selector "<forgiving-selector-list" (selector-type-no-unknown)',
-                        ":is(<forgiving-selector-list>) {",
-                        "1:5 - 1:29",
-                        `/en-US/docs/Web/CSS/:is
-[selector-type-no-unknown] Unexpected unknown type selector "<forgiving-selector-list" (selector-type-no-unknown)
-~~~
-:is(<forgiving-selector-list>) {
-  /* ... */
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                _colon_lang: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:lang",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
-                },
                 "_colon_local-link": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/:local-link",
@@ -12543,83 +12438,6 @@ function displayPoseStats(pose) {
                     }
                   ]
                 },
-                _colon_not: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:not",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "selector-type-no-unknown",
-                        'Unexpected unknown type selector "<complex-selector-list" (selector-type-no-unknown)',
-                        ":not(<complex-selector-list>) {",
-                        "1:6 - 1:28",
-                        `/en-US/docs/Web/CSS/:not
-[selector-type-no-unknown] Unexpected unknown type selector "<complex-selector-list" (selector-type-no-unknown)
-~~~
-:not(<complex-selector-list>) {
-  /* ... */
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "_colon_nth-child": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:nth-child",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
-                },
-                "_colon_nth-last-child": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:nth-last-child",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
-                },
-                "_colon_nth-last-of-type": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:nth-last-of-type",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
-                },
-                "_colon_nth-of-type": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:nth-of-type",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
-                },
-                _colon_state: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:state",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
-                },
                 "_colon_target-within": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/:target-within",
@@ -12628,33 +12446,6 @@ function displayPoseStats(pose) {
                       message: "Not in BCD",
                       data: [
                         "css.selectors.target-within"
-                      ]
-                    }
-                  ]
-                },
-                _colon_where: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:where",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "selector-type-no-unknown",
-                        'Unexpected unknown type selector "<complex-selector-list" (selector-type-no-unknown)',
-                        ":where(<complex-selector-list>) {",
-                        "1:8 - 1:30",
-                        `/en-US/docs/Web/CSS/:where
-[selector-type-no-unknown] Unexpected unknown type selector "<complex-selector-list" (selector-type-no-unknown)
-~~~
-:where(<complex-selector-list>) {
-  /* ... */
-}
-~~~
-`
                       ]
                     }
                   ]
@@ -12716,16 +12507,6 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                "-moz-force-broken-image-icon": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-moz-force-broken-image-icon",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
-                },
                 "-moz-image-region": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/-moz-image-region",
@@ -12747,16 +12528,6 @@ css.selectors.-webkit-resizer`,
                       data: [
                         "/en-US/docs/Web/CSS/:-moz-tree-checkbox"
                       ]
-                    }
-                  ]
-                },
-                "-moz-orient": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-moz-orient",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
                     }
                   ]
                 },
@@ -12808,16 +12579,6 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                "-webkit-text-stroke": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-webkit-text-stroke",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
-                },
                 "@color-profile": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/@color-profile",
@@ -12827,16 +12588,6 @@ css.selectors.-webkit-resizer`,
                       data: [
                         "css.at-rules.color-profile"
                       ]
-                    }
-                  ]
-                },
-                "@container": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/@container",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
                     }
                   ]
                 },
@@ -13175,10 +12926,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@media/-moz-device-pixel-ratio",
                       messages: [
                         {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -13189,19 +12936,8 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@media/-webkit-animation",
                       messages: [
                         {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.quirksmode.org/css/tests/mediaqueries/animation.html",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -13209,10 +12945,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@media/-webkit-device-pixel-ratio",
                       messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -13224,19 +12956,8 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@media/-webkit-transform-2d",
                       messages: [
                         {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.quirksmode.org/css/tests/mediaqueries/animation.html",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -13245,19 +12966,8 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@media/-webkit-transform-3d",
                       messages: [
                         {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.quirksmode.org/css/tests/mediaqueries/animation.html",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -13268,13 +12978,6 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.quirksmode.org/css/tests/mediaqueries/animation.html",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -13282,10 +12985,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@media/any-hover",
                       messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -13297,10 +12996,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@media/any-pointer",
                       messages: [
                         {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -13311,10 +13006,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@media/aspect-ratio",
                       messages: [
                         {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -13324,10 +13015,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@media/aural",
                       messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
                         {
                           message: "Broken browser compat anchor",
                           data: []
@@ -13353,10 +13040,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@media/color",
                       messages: [
                         {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -13366,10 +13049,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@media/color-gamut",
                       messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -13381,10 +13060,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@media/color-index",
                       messages: [
                         {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -13394,10 +13069,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@media/device-aspect-ratio",
                       messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -13409,10 +13080,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@media/device-height",
                       messages: [
                         {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -13422,10 +13089,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@media/device-posture",
                       messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -13437,10 +13100,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@media/device-width",
                       messages: [
                         {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -13450,10 +13109,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@media/display-mode",
                       messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -13465,10 +13120,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@media/dynamic-range",
                       messages: [
                         {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -13478,10 +13129,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@media/forced-colors",
                       messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -13493,10 +13140,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@media/grid",
                       messages: [
                         {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -13507,10 +13150,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@media/height",
                       messages: [
                         {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -13520,10 +13159,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@media/hover",
                       messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -13545,10 +13180,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@media/monochrome",
                       messages: [
                         {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -13558,10 +13189,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@media/orientation",
                       messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -13573,10 +13200,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@media/overflow-block",
                       messages: [
                         {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -13586,10 +13209,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@media/overflow-inline",
                       messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -13601,10 +13220,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@media/pointer",
                       messages: [
                         {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -13614,10 +13229,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@media/prefers-color-scheme",
                       messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -13629,10 +13240,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@media/prefers-contrast",
                       messages: [
                         {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -13642,10 +13249,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@media/prefers-reduced-data",
                       messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -13657,10 +13260,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@media/prefers-reduced-motion",
                       messages: [
                         {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -13670,10 +13269,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@media/prefers-reduced-transparency",
                       messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -13685,10 +13280,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@media/resolution",
                       messages: [
                         {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -13698,10 +13289,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@media/scan",
                       messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -13719,10 +13306,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@media/scripting",
                       messages: [
                         {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -13732,10 +13315,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@media/shape",
                       messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -13752,10 +13331,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@media/update",
                       messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -13818,10 +13393,6 @@ css.selectors.-webkit-resizer`,
                       slug: "/en-US/docs/Web/CSS/@media/video-dynamic-range",
                       messages: [
                         {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -13831,10 +13402,6 @@ css.selectors.-webkit-resizer`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@media/width",
                       messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -15045,62 +14612,6 @@ div {
                 },
                 "basic-shape": {
                   children: {
-                    path: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/basic-shape/path",
-                      messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "CssSyntaxError",
-                            "Unknown word path (CssSyntaxError)",
-                            "path(<string>)",
-                            "1:1 - 1:5",
-                            `/en-US/docs/Web/CSS/basic-shape/path
-[CssSyntaxError] Unknown word path (CssSyntaxError)
-~~~
-path(<string>)
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "CssSyntaxError",
-                            "Unknown word path (CssSyntaxError)",
-                            "path( [<fill-rule>,]? <string> )",
-                            "1:1 - 1:5",
-                            `/en-US/docs/Web/CSS/basic-shape/path
-[CssSyntaxError] Unknown word path (CssSyntaxError)
-~~~
-path( [<fill-rule>,]? <string> )
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "CssSyntaxError",
-                            "Unknown word path (CssSyntaxError)",
-                            'path("M 10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80");',
-                            "1:1 - 1:5",
-                            `/en-US/docs/Web/CSS/basic-shape/path
-[CssSyntaxError] Unknown word path (CssSyntaxError)
-~~~
-path("M 10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80");
-path(evenodd,"M 10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80");
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     shape: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/basic-shape/shape",
@@ -21316,25 +20827,6 @@ filter: <filter-function> [<filter-function>]* | none;
                       slug: "/en-US/docs/Web/CSS/filter-function/blur",
                       messages: [
                         {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "CssSyntaxError",
-                            "Unknown word blur (CssSyntaxError)",
-                            "blur(radius)",
-                            "1:1 - 1:5",
-                            `/en-US/docs/Web/CSS/filter-function/blur
-[CssSyntaxError] Unknown word blur (CssSyntaxError)
-~~~
-blur(radius)
-~~~
-`
-                          ]
-                        },
-                        {
                           message: "CSS code issue",
                           data: [
                             "CssSyntaxError",
@@ -21746,25 +21238,6 @@ grayscale(100%)
                       slug: "/en-US/docs/Web/CSS/filter-function/hue-rotate",
                       messages: [
                         {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "CssSyntaxError",
-                            "Unknown word hue-rotate (CssSyntaxError)",
-                            "hue-rotate(angle)",
-                            "1:1 - 1:11",
-                            `/en-US/docs/Web/CSS/filter-function/hue-rotate
-[CssSyntaxError] Unknown word hue-rotate (CssSyntaxError)
-~~~
-hue-rotate(angle)
-~~~
-`
-                          ]
-                        },
-                        {
                           message: "CSS code issue",
                           data: [
                             "CssSyntaxError",
@@ -22037,32 +21510,6 @@ div {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/fit-content_function",
                   messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "CssSyntaxError",
-                        "Unknown word fit-content (CssSyntaxError)",
-                        "fit-content(200px)",
-                        "2:1 - 2:12",
-                        `/en-US/docs/Web/CSS/fit-content_function
-[CssSyntaxError] Unknown word fit-content (CssSyntaxError)
-~~~
-/* <length> values */
-fit-content(200px)
-fit-content(5cm)
-fit-content(30vw)
-fit-content(100ch)
-
-/* <percentage> value */
-fit-content(40%)
-~~~
-`
-                      ]
-                    },
                     {
                       message: "Unexpected BCD keys",
                       data: [
@@ -29278,32 +28725,12 @@ mask-border-width: 30 fill;
                     }
                   ]
                 },
-                max: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/max",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
-                },
                 "max-content": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/max-content",
                   messages: [
                     {
                       message: "Unreachable via sidebar",
-                      data: []
-                    }
-                  ]
-                },
-                min: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/min",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
                       data: []
                     }
                   ]
@@ -30486,289 +29913,6 @@ css.properties.list-style-type.symbols`
                     }
                   ]
                 },
-                "transform-function": {
-                  children: {
-                    matrix: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/transform-function/matrix",
-                      messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "CssSyntaxError",
-                            "Unknown word matrix (CssSyntaxError)",
-                            "matrix(a, b, c, d, tx, ty)",
-                            "1:1 - 1:7",
-                            `/en-US/docs/Web/CSS/transform-function/matrix
-[CssSyntaxError] Unknown word matrix (CssSyntaxError)
-~~~
-matrix(a, b, c, d, tx, ty)
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    matrix3d: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/transform-function/matrix3d",
-                      messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "CssSyntaxError",
-                            "Unknown word matrix3d (CssSyntaxError)",
-                            "matrix3d(a1, b1, c1, d1, a2, b2, c2, d2, a3, b3, c3, d3, a4, b4, c4, d4)",
-                            "1:1 - 1:9",
-                            `/en-US/docs/Web/CSS/transform-function/matrix3d
-[CssSyntaxError] Unknown word matrix3d (CssSyntaxError)
-~~~
-matrix3d(a1, b1, c1, d1, a2, b2, c2, d2, a3, b3, c3, d3, a4, b4, c4, d4)
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    perspective: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/transform-function/perspective",
-                      messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "CssSyntaxError",
-                            "Unknown word perspective (CssSyntaxError)",
-                            "perspective(d)",
-                            "1:1 - 1:12",
-                            `/en-US/docs/Web/CSS/transform-function/perspective
-[CssSyntaxError] Unknown word perspective (CssSyntaxError)
-~~~
-perspective(d)
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    rotate: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/transform-function/rotate",
-                      messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "CssSyntaxError",
-                            "Unknown word rotate (CssSyntaxError)",
-                            "rotate(a)",
-                            "1:1 - 1:7",
-                            `/en-US/docs/Web/CSS/transform-function/rotate
-[CssSyntaxError] Unknown word rotate (CssSyntaxError)
-~~~
-rotate(a)
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    rotate3d: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/transform-function/rotate3d",
-                      messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "CssSyntaxError",
-                            "Unknown word rotate3d (CssSyntaxError)",
-                            "rotate3d(x, y, z, a)",
-                            "1:1 - 1:9",
-                            `/en-US/docs/Web/CSS/transform-function/rotate3d
-[CssSyntaxError] Unknown word rotate3d (CssSyntaxError)
-~~~
-rotate3d(x, y, z, a)
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    rotatex: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/transform-function/rotateX",
-                      messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "CssSyntaxError",
-                            "Unknown word rotateX (CssSyntaxError)",
-                            "rotateX(a)",
-                            "1:1 - 1:8",
-                            `/en-US/docs/Web/CSS/transform-function/rotateX
-[CssSyntaxError] Unknown word rotateX (CssSyntaxError)
-~~~
-rotateX(a)
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    rotatey: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/transform-function/rotateY",
-                      messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "CssSyntaxError",
-                            "Unknown word rotateY (CssSyntaxError)",
-                            "rotateY(a)",
-                            "1:1 - 1:8",
-                            `/en-US/docs/Web/CSS/transform-function/rotateY
-[CssSyntaxError] Unknown word rotateY (CssSyntaxError)
-~~~
-rotateY(a)
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    rotatez: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/transform-function/rotateZ",
-                      messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "CssSyntaxError",
-                            "Unknown word rotateZ (CssSyntaxError)",
-                            "rotateZ(a)",
-                            "1:1 - 1:8",
-                            `/en-US/docs/Web/CSS/transform-function/rotateZ
-[CssSyntaxError] Unknown word rotateZ (CssSyntaxError)
-~~~
-rotateZ(a)
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    scale: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/transform-function/scale",
-                      messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "CssSyntaxError",
-                            "Unknown word scale (CssSyntaxError)",
-                            "scale(sx)",
-                            "1:1 - 1:6",
-                            `/en-US/docs/Web/CSS/transform-function/scale
-[CssSyntaxError] Unknown word scale (CssSyntaxError)
-~~~
-scale(sx)
-
-scale(sx, sy)
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    scale3d: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/transform-function/scale3d",
-                      messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "CssSyntaxError",
-                            "Unknown word scale3d (CssSyntaxError)",
-                            "scale3d(sx, sy, sz)",
-                            "1:1 - 1:8",
-                            `/en-US/docs/Web/CSS/transform-function/scale3d
-[CssSyntaxError] Unknown word scale3d (CssSyntaxError)
-~~~
-scale3d(sx, sy, sz)
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    skew: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/transform-function/skew",
-                      messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "CssSyntaxError",
-                            "Unknown word skew (CssSyntaxError)",
-                            "skew(ax)",
-                            "1:1 - 1:5",
-                            `/en-US/docs/Web/CSS/transform-function/skew
-[CssSyntaxError] Unknown word skew (CssSyntaxError)
-~~~
-skew(ax)
-
-skew(ax, ay)
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 tutorials: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/Tutorials",
@@ -30797,10 +29941,6 @@ skew(ax, ay)
                   children: {},
                   slug: "/en-US/docs/Web/CSS/url_function",
                   messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    },
                     {
                       message: "CSS code issue",
                       data: [
@@ -30847,23 +29987,6 @@ content: url(star.svg) url(star.svg) url(star.svg) url(star.svg) url(star.svg);
 @document url("https://www.example.com/") { /* … */ }
 @import url("https://www.example.com/style.css");
 @namespace url(http://www.w3.org/1999/xhtml);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "CssSyntaxError",
-                        "Unknown word url (CssSyntaxError)",
-                        'url("https://example.com/image.png")',
-                        "1:1 - 1:4",
-                        `/en-US/docs/Web/CSS/url_function
-[CssSyntaxError] Unknown word url (CssSyntaxError)
-~~~
-url("https://example.com/image.png")
-url('https://example.com/image.png')
-url(https://example.com/image.png)
 ~~~
 `
                       ]
