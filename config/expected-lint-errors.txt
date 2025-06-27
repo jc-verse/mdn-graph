@@ -2336,18 +2336,6 @@ color: -internal-light-dark(black, white) !important;
 /en-US/docs/Web/CSS/@scope
 [no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
 ~~~
-<parent-element>
-  <style>
-    @scope {
-      rulesets
-    }
-  </style>
-</parent-element>
-~~~
-
-/en-US/docs/Web/CSS/@scope
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
-~~~
 <section class="article-body">
   <style>
     @scope {
@@ -2633,6 +2621,16 @@ div {
 </div>
 ~~~
 
+/en-US/docs/Web/CSS/CSS_masking/Multiple_masks
+[declaration-property-value-no-unknown] Unexpected unknown value "contain" for property "mask" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Unexpected unknown value "cover" for property "mask" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Unexpected unknown value "100px" for property "mask" (declaration-property-value-no-unknown)
+~~~
+mask: url(star.svg) contain;
+mask: url(star.svg) 10px 10px cover;
+mask: url(star.svg) top right 100px 100px;
+~~~
+
 /en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting
 [selector-type-no-unknown] Unexpected unknown type selector "element" (selector-type-no-unknown)
 ~~~
@@ -2878,6 +2876,16 @@ selector {
     position-area: CHANGEME;
   }
 </style>
+~~~
+
+/en-US/docs/Web/CSS/repeat
+[declaration-property-value-no-unknown] Unexpected unknown value "max-content" for property "grid-template-columns" (declaration-property-value-no-unknown)
+~~~
+.wrapper {
+  grid-template-columns:
+    repeat(auto-fill, 10px)
+    repeat(2, minmax(min-content, max-content));
+}
 ~~~
 
 /en-US/docs/Web/CSS/revert

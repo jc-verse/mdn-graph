@@ -45,7 +45,7 @@ function mergeSyntaxes(...entries) {
 }
 
 // console.log(Object.keys(parsedFiles).sort().join("\n"));
-// console.log(mergeSyntaxes(toTypesSyntax(parsedFiles["css-shapes-2"])));
+// console.log(mergeSyntaxes(toTypesSyntax(parsedFiles["fill-stroke"])));
 
 export default function stylelintConfig(isPropertyOnly: boolean) {
   return {
@@ -76,6 +76,8 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
           toPropertiesSyntax(parsedFiles["css-box"]),
           toPropertiesSyntax(parsedFiles["css-conditional-5"]),
           toPropertiesSyntax(parsedFiles["css-fonts"]),
+          toPropertiesSyntax(parsedFiles["css-fonts-5"]),
+          toPropertiesSyntax(parsedFiles["css-grid-3"]),
           toPropertiesSyntax(parsedFiles["css-images"]),
           toPropertiesSyntax(parsedFiles["css-inline"]),
           toPropertiesSyntax(parsedFiles["css-text-4"]),
@@ -93,11 +95,18 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
             "box-pack": "start | center | end | stretch",
             "text-justify": "| distribute", // TODO: remove
             "fill-opacity": "<'opacity'>", // csstree incorrect
+            // horizontal & vertical are FF-only
+            "scroll-timeline-axis":
+              "[ block | inline | x | y | horizontal | vertical ]#",
             // NEW: calc-size
             // https://github.com/stylelint/stylelint/issues/8320
             // I can't extend the length type, only each property
             height: "| <calc-size()>",
             width: "| <calc-size()>",
+            // TODO: No way to say that every property accepts <attr()>
+            "background-color": "| <attr()>",
+            rotate: "| <attr()>",
+            "view-transition-name": "| <attr()>",
             // csstree bugs?
             "-webkit-mask-repeat-x": "[ repeat | no-repeat | space | round ]#",
             "-webkit-mask-repeat-y": "[ repeat | no-repeat | space | round ]#",
@@ -115,8 +124,39 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
           toTypesSyntax(parsedFiles["css-fonts"]),
           toTypesSyntax(parsedFiles["css-images"]),
           toTypesSyntax(parsedFiles["css-images-4"]),
-          { image: "| <paint()>" }, // TODO
+          {
+            // LEGACY
+            "cross-fade()": "| cross-fade( <image> , <image> , <percentage> )",
+            "-webkit-cross-fade()":
+              "-webkit-cross-fade( <image> , <image> , <percentage> )",
+            // TODO: paint() should be added to <image> in webref
+            image: "| <paint()> | <-webkit-cross-fade()>",
+          },
+          toTypesSyntax(parsedFiles["css-shapes"]),
           toTypesSyntax(parsedFiles["css-shapes-2"]),
+          {
+            // TODO: why is this not in webref?
+            "basic-shape": "| <shape()>",
+            "move-command": "move <command-end-point>",
+            "line-command": "line <command-end-point>",
+            "horizontal-line-command":
+              "hline [ to [ <length-percentage> | left | center | right | x-start | x-end ] | by <length-percentage> ]",
+            "vertical-line-command":
+              "vline [ to [ <length-percentage> | top | center | bottom | y-start | y-end ] | by <length-percentage> ]",
+            "curve-command":
+              "curve [ [ to <position> with <control-point> [ / <control-point> ]? ] | [ by <coordinate-pair> with <relative-control-point> [ / <relative-control-point> ]? ] ]",
+            "smooth-command":
+              "smooth [ [ to <position> [ with <control-point> ]? ] | [ by <coordinate-pair> [ with <relative-control-point> ]? ] ]",
+            "arc-command":
+              "arc <command-end-point> [ [ of <length-percentage>{1,2} ] && <arc-sweep>? && <arc-size>? && [rotate <angle>]? ]",
+            "command-end-point": "[ to <position> | by <coordinate-pair> ]",
+            "control-point": "[ <position> | <relative-control-point> ]",
+            "relative-control-point":
+              "<coordinate-pair> [ from [ start | end | origin ] ]?",
+            "coordinate-pair": "<length-percentage>{2}",
+            "arc-sweep": "cw | ccw",
+            "arc-size": "large | small",
+          },
           toTypesSyntax(parsedFiles["css-text-4"]),
           toTypesSyntax(parsedFiles["css-values-5"]),
           {
@@ -134,7 +174,13 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
             // without declaring the latter as a type
             "mix-blend-mode": "<blend-mode> | plus-darker | plus-lighter",
           },
+          // TODO There's some incompatibility between fill-stroke and SVG.
+          // Namely SVG defines fill = <paint> but fill-stroke considers it a shorthand
+          // For now we manually patch the part we need
           // toTypesSyntax(parsedFiles["fill-stroke"]),
+          {
+            paint: "| <image>",
+          },
           {
             // LEGACY
             image: "| <-moz-element()> | <-moz-image-rect()>",
@@ -189,7 +235,15 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
         },
       ],
       "declaration-property-value-no-unknown": true,
-      "function-no-unknown": true,
+      "function-no-unknown": [
+        true,
+        {
+          ignoreFunctions: [
+            // NEW
+            "contrast-color",
+          ],
+        },
+      ],
       "media-feature-name-no-unknown": [
         true,
         { ignoreMediaFeatureNames: ["media-feature-rule"] },
@@ -271,6 +325,11 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
             },
           ],
         },
+      },
+      {
+        files: ["Web/API/Document/mozSetImageElement/*"],
+        // TODO it reports on -moz-element(#canvas-bg)
+        rules: { "color-no-invalid-hex": null },
       },
       {
         files: [

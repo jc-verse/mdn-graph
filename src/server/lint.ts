@@ -350,6 +350,61 @@ async function checkCSS(
   console.warn = origConsoleWarn;
   for (const result of results.results) {
     result.warnings.forEach((msg) => {
+      const reportRegion = content
+        .split("\n")
+        .slice(msg.line - 1, msg.endLine ? msg.endLine : msg.line)
+        .join("\n");
+      // TODO: csstree does not recognize trig functions
+      if (
+        msg.rule === "declaration-property-value-no-unknown" &&
+        msg.text.match(
+          /Unexpected unknown value "(?:asin|acos|atan|atan2)\([^)]+\)" for property "transform" \(declaration-property-value-no-unknown\)/,
+        ) &&
+        reportRegion.match(
+          /^\s*transform: rotate\((?:asin|acos|atan|atan2)\([^)]+\)\);$/,
+        )
+      ) {
+        return;
+      }
+      if (
+        msg.rule === "declaration-property-value-no-unknown" &&
+        msg.text.match(
+          /Unexpected unknown value "round\([^)]+\)" for property "height" \(declaration-property-value-no-unknown\)/,
+        ) &&
+        reportRegion.match(/^\s*height: round\([^)]+\);$/)
+      ) {
+        return;
+      }
+      if (
+        msg.rule === "declaration-property-value-no-unknown" &&
+        msg.text.match(
+          /Unexpected unknown value "sign\([^)]+\)" for property "background-position" \(declaration-property-value-no-unknown\)/,
+        ) &&
+        reportRegion.match(/^\s*background-position: sign\([^)]+\);$/)
+      ) {
+        return;
+      }
+      // TODO: csstree does not recognize size in calc-size or relative color functions
+      if (
+        msg.rule === "declaration-property-value-no-unknown" &&
+        msg.text.match(
+          /Unexpected unknown value "size" for property "(?:width|height)" \(declaration-property-value-no-unknown\)/,
+        ) &&
+        reportRegion.match(/^\s*(?:width|height): calc-size\(.*\);$/)
+      ) {
+        return;
+      }
+      if (
+        msg.rule === "declaration-property-value-no-unknown" &&
+        msg.text.match(
+          /Unexpected unknown value "(?:l|c|h|r|g|b)" for property "(?:background-color|color)" \(declaration-property-value-no-unknown\)/,
+        ) &&
+        reportRegion.match(
+          /^\s*(?:background-color|color): (?:rgb|lch)\(from .*\);$/,
+        )
+      ) {
+        return;
+      }
       reportIfUnexpected(
         path,
         "css",
@@ -359,10 +414,7 @@ async function checkCSS(
         msg.endLine
           ? `${msg.line}:${msg.column} - ${msg.endLine}:${msg.endColumn}`
           : `${msg.line}:${msg.column}`,
-        content
-          .split("\n")
-          .slice(msg.line - 1, msg.endLine ? msg.endLine : msg.line)
-          .join("\n"),
+        reportRegion,
         report,
       );
     });
