@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-38pr48gv.js";
+} from "./chunk-27cqp842.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -653,6 +653,16 @@ var warnings_processed_default = {
             git: {
               children: {},
               slug: "/en-US/docs/Glossary/Git",
+              messages: [
+                {
+                  message: "Unreachable via page",
+                  data: []
+                }
+              ]
+            },
+            hash_routing: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Hash_routing",
               messages: [
                 {
                   message: "Unreachable via page",
@@ -1446,6 +1456,13 @@ var warnings_processed_default = {
                             "http://corber.io/",
                             ""
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/ember-cli/ember-cli/blob/master/blueprints/app/files/ember-cli-build.js",
+                            404
+                          ]
                         }
                       ]
                     },
@@ -1497,13 +1514,6 @@ var warnings_processed_default = {
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/mxmason/pen/XWbPNmw"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://phabricator.wikimedia.org/T241180",
-                            "429 Retry-After: 1000"
                           ]
                         }
                       ]
@@ -2750,6 +2760,23 @@ refused.textContent = 'Refuse: ';
                         }
                       }
                     },
+                    first_steps: {
+                      children: {
+                        web_frameworks: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Web_frameworks",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.techuseful.com/drone-definitions-learning-the-drone-lingo/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     node_server_without_framework: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Node_server_without_framework",
@@ -2987,27 +3014,6 @@ refused.textContent = 'Refuse: ';
                             "https://www.codelobsteride.com/help/",
                             "The operation timed out."
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/efaq.html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -3025,13 +3031,6 @@ refused.textContent = 'Refuse: ';
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "The operation timed out."
-                          ]
-                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -8617,6 +8616,13 @@ else if (e.target.id === "tabs-alert-info") {
                         "http://paperjs.org/",
                         ""
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://ptsjs.org/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -11155,7 +11161,17 @@ function draw() {
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/Web_Audio_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://ptsjs.org/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 web_authentication_api: {
                   children: {
@@ -30625,6 +30641,13 @@ html.elements.select.size`
                       slug: "/en-US/docs/Web/HTTP/Guides/Compression_dictionary_transport",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://use-as-dictionary.com/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
                           message: "Unexpected BCD keys",
                           data: [
                             "Actual:",
@@ -31634,6 +31657,13 @@ http.headers.Use-As-Dictionary`,
                     {
                       message: "Unreachable via page",
                       data: []
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www-archive.mozilla.org/projects/security/components/reviewguide.html",
+                        "unknown certificate verification error"
+                      ]
                     }
                   ]
                 },
