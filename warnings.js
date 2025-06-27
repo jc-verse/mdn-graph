@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-27cqp842.js";
+} from "./chunk-36pj0461.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -40,6 +40,19 @@ var warnings_processed_default = {
             },
             techniques: {
               children: {
+                "2d_collision_detection": {
+                  children: {},
+                  slug: "/en-US/docs/Games/Techniques/2D_collision_detection",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.sevenson.com.au/programming/sat/",
+                        "Cannot reach server and Bun hangs"
+                      ]
+                    }
+                  ]
+                },
                 "3d_on_the_web": {
                   children: {},
                   slug: "/en-US/docs/Games/Techniques/3D_on_the_web",
@@ -1515,6 +1528,13 @@ var warnings_processed_default = {
                           data: [
                             "https://codepen.io/mxmason/pen/XWbPNmw"
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://phabricator.wikimedia.org/T241180",
+                            "429 Retry-After: 1000"
+                          ]
                         }
                       ]
                     },
@@ -1675,6 +1695,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://cli.vuejs.org/",
+                            "unknown certificate verification error"
+                          ]
                         }
                       ]
                     },
@@ -2601,6 +2628,32 @@ refused.textContent = 'Refuse: ';
               children: {
                 advanced_javascript_objects: {
                   children: {
+                    adding_bouncing_balls_features: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Adding_bouncing_balls_features",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/learning-area/blob/main/javascript/oojs/bouncing-balls/style.css",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    object_building_practice: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Object_building_practice",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/learning-area/blob/main/javascript/oojs/bouncing-balls/style.css",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     test_your_skills: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Test_your_skills",
@@ -2638,8 +2691,38 @@ refused.textContent = 'Refuse: ';
                     }
                   }
                 },
+                "client-side_tools": {
+                  children: {
+                    deployment: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Deployment",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/new",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 forms: {
                   children: {
+                    form_validation: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/learning-area/blob/main/html/forms/form-validation/custom-error-message.html",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        }
+                      ]
+                    },
                     how_to_build_custom_form_controls: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls",
@@ -2671,7 +2754,21 @@ refused.textContent = 'Refuse: ';
                       ]
                     },
                     test_your_skills: {
-                      children: {},
+                      children: {
+                        basic_controls: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Test_your_skills/Basic_controls",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://github.com/mdn/learning-area/blob/main/html/forms/tasks/basic-controls/basic-controls1-download.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      },
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Test_your_skills",
                       messages: [
                         {
@@ -2760,23 +2857,6 @@ refused.textContent = 'Refuse: ';
                         }
                       }
                     },
-                    first_steps: {
-                      children: {
-                        web_frameworks: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Web_frameworks",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.techuseful.com/drone-definitions-learning-the-drone-lingo/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
                     node_server_without_framework: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Node_server_without_framework",
@@ -2804,6 +2884,36 @@ refused.textContent = 'Refuse: ';
                           data: [
                             "https://discord.me/frontenddevelopers",
                             403
+                          ]
+                        }
+                      ]
+                    },
+                    finding_a_job: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Finding_a_job",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.upwork.com/",
+                            403
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                your_first_website: {
+                  children: {
+                    publishing_your_website: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Publishing_your_website",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/new",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -8616,13 +8726,6 @@ else if (e.target.id === "tabs-alert-info") {
                         "http://paperjs.org/",
                         ""
                       ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://ptsjs.org/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -9151,6 +9254,19 @@ api.DeviceOrientationEvent`,
                       ]
                     }
                   }
+                },
+                fenced_frame_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Fenced_frame_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/mozilla/standards-positions/issues/781",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 fetchevent: {
                   children: {
@@ -9787,12 +9903,222 @@ function checkDeadlines() {
                     }
                   }
                 },
+                mediarecorder: {
+                  children: {
+                    dataavailable_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/MediaRecorder/dataavailable_event",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    mediarecorder: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/MediaRecorder/MediaRecorder",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    mimetype: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/MediaRecorder/mimeType",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    pause: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/MediaRecorder/pause",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    pause_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/MediaRecorder/pause_event",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    requestdata: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/MediaRecorder/requestData",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    resume: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/MediaRecorder/resume",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    resume_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/MediaRecorder/resume_event",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    start: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/MediaRecorder/start",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    start_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/MediaRecorder/start_event",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    state: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/MediaRecorder/state",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    stop: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/MediaRecorder/stop",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    stop_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/MediaRecorder/stop_event",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    stream: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/MediaRecorder/stream",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/MediaRecorder",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 mediastream_recording_api: {
                   children: {
                     using_the_mediastream_recording_api: {
                       children: {},
                       slug: "/en-US/docs/Web/API/MediaStream_Recording_API/Using_the_MediaStream_Recording_API",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "Unexpected BCD keys",
                           data: [
@@ -11161,17 +11487,7 @@ function draw() {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/Web_Audio_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://ptsjs.org/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
+                  }
                 },
                 web_authentication_api: {
                   children: {
@@ -13461,7 +13777,17 @@ css.selectors.-webkit-resizer`,
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/CSS/@page",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://pagedjs.org/documentation/1-the-big-picture/",
+                        "Unable to connect. Is the computer able to access the url?"
+                      ]
+                    }
+                  ]
                 },
                 "@property": {
                   children: {
@@ -13524,870 +13850,6 @@ css.selectors.-webkit-resizer`,
                     {
                       message: "Missing syntax code block",
                       data: []
-                    }
-                  ]
-                },
-                acos: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/acos",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "acos(1)" for property "transform" (declaration-property-value-no-unknown)',
-                        "  transform: rotate(acos(1));",
-                        "15:21 - 15:28",
-                        `/en-US/docs/Web/CSS/acos
-[declaration-property-value-no-unknown] Unexpected unknown value "acos(1)" for property "transform" (declaration-property-value-no-unknown)
-~~~
-body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-}
-
-div.box {
-  width: 100px;
-  height: 100px;
-  background: linear-gradient(orange, red);
-}
-div.box-1 {
-  transform: rotate(acos(1));
-}
-div.box-2 {
-  transform: rotate(acos(0.5));
-}
-div.box-3 {
-  transform: rotate(acos(0));
-}
-div.box-4 {
-  transform: rotate(acos(-0.5));
-}
-div.box-5 {
-  transform: rotate(acos(-1));
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "acos(0.5)" for property "transform" (declaration-property-value-no-unknown)',
-                        "  transform: rotate(acos(0.5));",
-                        "18:21 - 18:30",
-                        `/en-US/docs/Web/CSS/acos
-[declaration-property-value-no-unknown] Unexpected unknown value "acos(0.5)" for property "transform" (declaration-property-value-no-unknown)
-~~~
-body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-}
-
-div.box {
-  width: 100px;
-  height: 100px;
-  background: linear-gradient(orange, red);
-}
-div.box-1 {
-  transform: rotate(acos(1));
-}
-div.box-2 {
-  transform: rotate(acos(0.5));
-}
-div.box-3 {
-  transform: rotate(acos(0));
-}
-div.box-4 {
-  transform: rotate(acos(-0.5));
-}
-div.box-5 {
-  transform: rotate(acos(-1));
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "acos(0)" for property "transform" (declaration-property-value-no-unknown)',
-                        "  transform: rotate(acos(0));",
-                        "21:21 - 21:28",
-                        `/en-US/docs/Web/CSS/acos
-[declaration-property-value-no-unknown] Unexpected unknown value "acos(0)" for property "transform" (declaration-property-value-no-unknown)
-~~~
-body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-}
-
-div.box {
-  width: 100px;
-  height: 100px;
-  background: linear-gradient(orange, red);
-}
-div.box-1 {
-  transform: rotate(acos(1));
-}
-div.box-2 {
-  transform: rotate(acos(0.5));
-}
-div.box-3 {
-  transform: rotate(acos(0));
-}
-div.box-4 {
-  transform: rotate(acos(-0.5));
-}
-div.box-5 {
-  transform: rotate(acos(-1));
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "acos(-0.5)" for property "transform" (declaration-property-value-no-unknown)',
-                        "  transform: rotate(acos(-0.5));",
-                        "24:21 - 24:31",
-                        `/en-US/docs/Web/CSS/acos
-[declaration-property-value-no-unknown] Unexpected unknown value "acos(-0.5)" for property "transform" (declaration-property-value-no-unknown)
-~~~
-body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-}
-
-div.box {
-  width: 100px;
-  height: 100px;
-  background: linear-gradient(orange, red);
-}
-div.box-1 {
-  transform: rotate(acos(1));
-}
-div.box-2 {
-  transform: rotate(acos(0.5));
-}
-div.box-3 {
-  transform: rotate(acos(0));
-}
-div.box-4 {
-  transform: rotate(acos(-0.5));
-}
-div.box-5 {
-  transform: rotate(acos(-1));
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "acos(-1)" for property "transform" (declaration-property-value-no-unknown)',
-                        "  transform: rotate(acos(-1));",
-                        "27:21 - 27:29",
-                        `/en-US/docs/Web/CSS/acos
-[declaration-property-value-no-unknown] Unexpected unknown value "acos(-1)" for property "transform" (declaration-property-value-no-unknown)
-~~~
-body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-}
-
-div.box {
-  width: 100px;
-  height: 100px;
-  background: linear-gradient(orange, red);
-}
-div.box-1 {
-  transform: rotate(acos(1));
-}
-div.box-2 {
-  transform: rotate(acos(0.5));
-}
-div.box-3 {
-  transform: rotate(acos(0));
-}
-div.box-4 {
-  transform: rotate(acos(-0.5));
-}
-div.box-5 {
-  transform: rotate(acos(-1));
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                asin: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/asin",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "asin(1)" for property "transform" (declaration-property-value-no-unknown)',
-                        "  transform: rotate(asin(1));",
-                        "15:21 - 15:28",
-                        `/en-US/docs/Web/CSS/asin
-[declaration-property-value-no-unknown] Unexpected unknown value "asin(1)" for property "transform" (declaration-property-value-no-unknown)
-~~~
-body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-}
-
-div.box {
-  width: 100px;
-  height: 100px;
-  background: linear-gradient(orange, red);
-}
-div.box-1 {
-  transform: rotate(asin(1));
-}
-div.box-2 {
-  transform: rotate(asin(0.5));
-}
-div.box-3 {
-  transform: rotate(asin(0));
-}
-div.box-4 {
-  transform: rotate(asin(-0.5));
-}
-div.box-5 {
-  transform: rotate(asin(-1));
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "asin(0.5)" for property "transform" (declaration-property-value-no-unknown)',
-                        "  transform: rotate(asin(0.5));",
-                        "18:21 - 18:30",
-                        `/en-US/docs/Web/CSS/asin
-[declaration-property-value-no-unknown] Unexpected unknown value "asin(0.5)" for property "transform" (declaration-property-value-no-unknown)
-~~~
-body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-}
-
-div.box {
-  width: 100px;
-  height: 100px;
-  background: linear-gradient(orange, red);
-}
-div.box-1 {
-  transform: rotate(asin(1));
-}
-div.box-2 {
-  transform: rotate(asin(0.5));
-}
-div.box-3 {
-  transform: rotate(asin(0));
-}
-div.box-4 {
-  transform: rotate(asin(-0.5));
-}
-div.box-5 {
-  transform: rotate(asin(-1));
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "asin(0)" for property "transform" (declaration-property-value-no-unknown)',
-                        "  transform: rotate(asin(0));",
-                        "21:21 - 21:28",
-                        `/en-US/docs/Web/CSS/asin
-[declaration-property-value-no-unknown] Unexpected unknown value "asin(0)" for property "transform" (declaration-property-value-no-unknown)
-~~~
-body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-}
-
-div.box {
-  width: 100px;
-  height: 100px;
-  background: linear-gradient(orange, red);
-}
-div.box-1 {
-  transform: rotate(asin(1));
-}
-div.box-2 {
-  transform: rotate(asin(0.5));
-}
-div.box-3 {
-  transform: rotate(asin(0));
-}
-div.box-4 {
-  transform: rotate(asin(-0.5));
-}
-div.box-5 {
-  transform: rotate(asin(-1));
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "asin(-0.5)" for property "transform" (declaration-property-value-no-unknown)',
-                        "  transform: rotate(asin(-0.5));",
-                        "24:21 - 24:31",
-                        `/en-US/docs/Web/CSS/asin
-[declaration-property-value-no-unknown] Unexpected unknown value "asin(-0.5)" for property "transform" (declaration-property-value-no-unknown)
-~~~
-body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-}
-
-div.box {
-  width: 100px;
-  height: 100px;
-  background: linear-gradient(orange, red);
-}
-div.box-1 {
-  transform: rotate(asin(1));
-}
-div.box-2 {
-  transform: rotate(asin(0.5));
-}
-div.box-3 {
-  transform: rotate(asin(0));
-}
-div.box-4 {
-  transform: rotate(asin(-0.5));
-}
-div.box-5 {
-  transform: rotate(asin(-1));
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "asin(-1)" for property "transform" (declaration-property-value-no-unknown)',
-                        "  transform: rotate(asin(-1));",
-                        "27:21 - 27:29",
-                        `/en-US/docs/Web/CSS/asin
-[declaration-property-value-no-unknown] Unexpected unknown value "asin(-1)" for property "transform" (declaration-property-value-no-unknown)
-~~~
-body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-}
-
-div.box {
-  width: 100px;
-  height: 100px;
-  background: linear-gradient(orange, red);
-}
-div.box-1 {
-  transform: rotate(asin(1));
-}
-div.box-2 {
-  transform: rotate(asin(0.5));
-}
-div.box-3 {
-  transform: rotate(asin(0));
-}
-div.box-4 {
-  transform: rotate(asin(-0.5));
-}
-div.box-5 {
-  transform: rotate(asin(-1));
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                atan: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/atan",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "atan(-99999)" for property "transform" (declaration-property-value-no-unknown)',
-                        "  transform: rotate(atan(-99999));",
-                        "15:21 - 15:33",
-                        `/en-US/docs/Web/CSS/atan
-[declaration-property-value-no-unknown] Unexpected unknown value "atan(-99999)" for property "transform" (declaration-property-value-no-unknown)
-~~~
-body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-}
-
-div.box {
-  width: 100px;
-  height: 100px;
-  background: linear-gradient(orange, red);
-}
-div.box-1 {
-  transform: rotate(atan(-99999));
-}
-div.box-2 {
-  transform: rotate(atan(-1));
-}
-div.box-3 {
-  transform: rotate(atan(0));
-}
-div.box-4 {
-  transform: rotate(atan(1));
-}
-div.box-5 {
-  transform: rotate(atan(99999));
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "atan(-1)" for property "transform" (declaration-property-value-no-unknown)',
-                        "  transform: rotate(atan(-1));",
-                        "18:21 - 18:29",
-                        `/en-US/docs/Web/CSS/atan
-[declaration-property-value-no-unknown] Unexpected unknown value "atan(-1)" for property "transform" (declaration-property-value-no-unknown)
-~~~
-body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-}
-
-div.box {
-  width: 100px;
-  height: 100px;
-  background: linear-gradient(orange, red);
-}
-div.box-1 {
-  transform: rotate(atan(-99999));
-}
-div.box-2 {
-  transform: rotate(atan(-1));
-}
-div.box-3 {
-  transform: rotate(atan(0));
-}
-div.box-4 {
-  transform: rotate(atan(1));
-}
-div.box-5 {
-  transform: rotate(atan(99999));
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "atan(0)" for property "transform" (declaration-property-value-no-unknown)',
-                        "  transform: rotate(atan(0));",
-                        "21:21 - 21:28",
-                        `/en-US/docs/Web/CSS/atan
-[declaration-property-value-no-unknown] Unexpected unknown value "atan(0)" for property "transform" (declaration-property-value-no-unknown)
-~~~
-body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-}
-
-div.box {
-  width: 100px;
-  height: 100px;
-  background: linear-gradient(orange, red);
-}
-div.box-1 {
-  transform: rotate(atan(-99999));
-}
-div.box-2 {
-  transform: rotate(atan(-1));
-}
-div.box-3 {
-  transform: rotate(atan(0));
-}
-div.box-4 {
-  transform: rotate(atan(1));
-}
-div.box-5 {
-  transform: rotate(atan(99999));
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "atan(1)" for property "transform" (declaration-property-value-no-unknown)',
-                        "  transform: rotate(atan(1));",
-                        "24:21 - 24:28",
-                        `/en-US/docs/Web/CSS/atan
-[declaration-property-value-no-unknown] Unexpected unknown value "atan(1)" for property "transform" (declaration-property-value-no-unknown)
-~~~
-body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-}
-
-div.box {
-  width: 100px;
-  height: 100px;
-  background: linear-gradient(orange, red);
-}
-div.box-1 {
-  transform: rotate(atan(-99999));
-}
-div.box-2 {
-  transform: rotate(atan(-1));
-}
-div.box-3 {
-  transform: rotate(atan(0));
-}
-div.box-4 {
-  transform: rotate(atan(1));
-}
-div.box-5 {
-  transform: rotate(atan(99999));
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "atan(99999)" for property "transform" (declaration-property-value-no-unknown)',
-                        "  transform: rotate(atan(99999));",
-                        "27:21 - 27:32",
-                        `/en-US/docs/Web/CSS/atan
-[declaration-property-value-no-unknown] Unexpected unknown value "atan(99999)" for property "transform" (declaration-property-value-no-unknown)
-~~~
-body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-}
-
-div.box {
-  width: 100px;
-  height: 100px;
-  background: linear-gradient(orange, red);
-}
-div.box-1 {
-  transform: rotate(atan(-99999));
-}
-div.box-2 {
-  transform: rotate(atan(-1));
-}
-div.box-3 {
-  transform: rotate(atan(0));
-}
-div.box-4 {
-  transform: rotate(atan(1));
-}
-div.box-5 {
-  transform: rotate(atan(99999));
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                atan2: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/atan2",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "atan2(3, 2)" for property "transform" (declaration-property-value-no-unknown)',
-                        "  transform: rotate(atan2(3, 2));",
-                        "15:21 - 15:32",
-                        `/en-US/docs/Web/CSS/atan2
-[declaration-property-value-no-unknown] Unexpected unknown value "atan2(3, 2)" for property "transform" (declaration-property-value-no-unknown)
-~~~
-body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-}
-
-div.box {
-  width: 100px;
-  height: 100px;
-  background: linear-gradient(orange, red);
-}
-div.box-1 {
-  transform: rotate(atan2(3, 2));
-}
-div.box-2 {
-  transform: rotate(atan2(3%, -2%));
-}
-div.box-3 {
-  transform: rotate(atan2(-1, 0.5));
-}
-div.box-4 {
-  transform: rotate(atan2(1, 0.5));
-}
-div.box-5 {
-  transform: rotate(atan2(1rem, -0.5rem));
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "atan2(3%, -2%)" for property "transform" (declaration-property-value-no-unknown)',
-                        "  transform: rotate(atan2(3%, -2%));",
-                        "18:21 - 18:35",
-                        `/en-US/docs/Web/CSS/atan2
-[declaration-property-value-no-unknown] Unexpected unknown value "atan2(3%, -2%)" for property "transform" (declaration-property-value-no-unknown)
-~~~
-body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-}
-
-div.box {
-  width: 100px;
-  height: 100px;
-  background: linear-gradient(orange, red);
-}
-div.box-1 {
-  transform: rotate(atan2(3, 2));
-}
-div.box-2 {
-  transform: rotate(atan2(3%, -2%));
-}
-div.box-3 {
-  transform: rotate(atan2(-1, 0.5));
-}
-div.box-4 {
-  transform: rotate(atan2(1, 0.5));
-}
-div.box-5 {
-  transform: rotate(atan2(1rem, -0.5rem));
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "atan2(-1, 0.5)" for property "transform" (declaration-property-value-no-unknown)',
-                        "  transform: rotate(atan2(-1, 0.5));",
-                        "21:21 - 21:35",
-                        `/en-US/docs/Web/CSS/atan2
-[declaration-property-value-no-unknown] Unexpected unknown value "atan2(-1, 0.5)" for property "transform" (declaration-property-value-no-unknown)
-~~~
-body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-}
-
-div.box {
-  width: 100px;
-  height: 100px;
-  background: linear-gradient(orange, red);
-}
-div.box-1 {
-  transform: rotate(atan2(3, 2));
-}
-div.box-2 {
-  transform: rotate(atan2(3%, -2%));
-}
-div.box-3 {
-  transform: rotate(atan2(-1, 0.5));
-}
-div.box-4 {
-  transform: rotate(atan2(1, 0.5));
-}
-div.box-5 {
-  transform: rotate(atan2(1rem, -0.5rem));
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "atan2(1, 0.5)" for property "transform" (declaration-property-value-no-unknown)',
-                        "  transform: rotate(atan2(1, 0.5));",
-                        "24:21 - 24:34",
-                        `/en-US/docs/Web/CSS/atan2
-[declaration-property-value-no-unknown] Unexpected unknown value "atan2(1, 0.5)" for property "transform" (declaration-property-value-no-unknown)
-~~~
-body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-}
-
-div.box {
-  width: 100px;
-  height: 100px;
-  background: linear-gradient(orange, red);
-}
-div.box-1 {
-  transform: rotate(atan2(3, 2));
-}
-div.box-2 {
-  transform: rotate(atan2(3%, -2%));
-}
-div.box-3 {
-  transform: rotate(atan2(-1, 0.5));
-}
-div.box-4 {
-  transform: rotate(atan2(1, 0.5));
-}
-div.box-5 {
-  transform: rotate(atan2(1rem, -0.5rem));
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "atan2(1rem, -0.5rem)" for property "transform" (declaration-property-value-no-unknown)',
-                        "  transform: rotate(atan2(1rem, -0.5rem));",
-                        "27:21 - 27:41",
-                        `/en-US/docs/Web/CSS/atan2
-[declaration-property-value-no-unknown] Unexpected unknown value "atan2(1rem, -0.5rem)" for property "transform" (declaration-property-value-no-unknown)
-~~~
-body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-}
-
-div.box {
-  width: 100px;
-  height: 100px;
-  background: linear-gradient(orange, red);
-}
-div.box-1 {
-  transform: rotate(atan2(3, 2));
-}
-div.box-2 {
-  transform: rotate(atan2(3%, -2%));
-}
-div.box-3 {
-  transform: rotate(atan2(-1, 0.5));
-}
-div.box-4 {
-  transform: rotate(atan2(1, 0.5));
-}
-div.box-5 {
-  transform: rotate(atan2(1rem, -0.5rem));
-}
-~~~
-`
-                      ]
                     }
                   ]
                 },
@@ -15072,114 +14534,6 @@ body {
                     }
                   ]
                 },
-                calc: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/calc",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "l" for property "color" (declaration-property-value-no-unknown)',
-                        "  color: lch(from rebeccapurple l c calc(h + 80));",
-                        "11:33 - 11:34",
-                        `/en-US/docs/Web/CSS/calc
-[declaration-property-value-no-unknown] Unexpected unknown value "l" for property "color" (declaration-property-value-no-unknown)
-~~~
-p {
-  font-family: monospace;
-  font-size: 16px;
-}
-
-.original {
-  color: rebeccapurple;
-}
-
-.increase-hue {
-  color: lch(from rebeccapurple l c calc(h + 80));
-}
-
-.increase-lightness {
-  color: lch(from rebeccapurple calc(l + 20) c h);
-}
-
-.decrease-lightness {
-  color: lch(from rebeccapurple calc(l - 10) c h);
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "c" for property "color" (declaration-property-value-no-unknown)',
-                        "  color: lch(from rebeccapurple calc(l + 20) c h);",
-                        "15:46 - 15:47",
-                        `/en-US/docs/Web/CSS/calc
-[declaration-property-value-no-unknown] Unexpected unknown value "c" for property "color" (declaration-property-value-no-unknown)
-~~~
-p {
-  font-family: monospace;
-  font-size: 16px;
-}
-
-.original {
-  color: rebeccapurple;
-}
-
-.increase-hue {
-  color: lch(from rebeccapurple l c calc(h + 80));
-}
-
-.increase-lightness {
-  color: lch(from rebeccapurple calc(l + 20) c h);
-}
-
-.decrease-lightness {
-  color: lch(from rebeccapurple calc(l - 10) c h);
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "c" for property "color" (declaration-property-value-no-unknown)',
-                        "  color: lch(from rebeccapurple calc(l - 10) c h);",
-                        "19:46 - 19:47",
-                        `/en-US/docs/Web/CSS/calc
-[declaration-property-value-no-unknown] Unexpected unknown value "c" for property "color" (declaration-property-value-no-unknown)
-~~~
-p {
-  font-family: monospace;
-  font-size: 16px;
-}
-
-.original {
-  color: rebeccapurple;
-}
-
-.increase-hue {
-  color: lch(from rebeccapurple l c calc(h + 80));
-}
-
-.increase-lightness {
-  color: lch(from rebeccapurple calc(l + 20) c h);
-}
-
-.decrease-lightness {
-  color: lch(from rebeccapurple calc(l - 10) c h);
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 "calc-keyword": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/calc-keyword",
@@ -15194,245 +14548,6 @@ p {
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/CSS/calc-value"
-                      ]
-                    }
-                  ]
-                },
-                "calc-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/calc-size",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "size" for property "height" (declaration-property-value-no-unknown)',
-                        "  height: calc-size(calc-size(max-content, size), size + 2rem);",
-                        "2:44 - 2:48",
-                        `/en-US/docs/Web/CSS/calc-size
-[declaration-property-value-no-unknown] Unexpected unknown value "size" for property "height" (declaration-property-value-no-unknown)
-~~~
-section {
-  height: calc-size(calc-size(max-content, size), size + 2rem);
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "size" for property "height" (declaration-property-value-no-unknown)',
-                        "  height: calc-size(300px + 2rem, size / 2);",
-                        "2:35 - 2:39",
-                        `/en-US/docs/Web/CSS/calc-size
-[declaration-property-value-no-unknown] Unexpected unknown value "size" for property "height" (declaration-property-value-no-unknown)
-~~~
-section {
-  height: calc-size(300px + 2rem, size / 2);
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "size" for property "width" (declaration-property-value-no-unknown)',
-                        "  width: calc-size(auto, size);",
-                        "8:26 - 8:30",
-                        `/en-US/docs/Web/CSS/calc-size
-[declaration-property-value-no-unknown] Unexpected unknown value "size" for property "width" (declaration-property-value-no-unknown)
-~~~
-section {
-  width: 0;
-  transition: width ease 1s;
-}
-
-section:hover,
-section:focus {
-  width: calc-size(auto, size);
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "size" for property "width" (declaration-property-value-no-unknown)',
-                        "  width: calc-size(auto, size + 2rem);",
-                        "8:26 - 8:30",
-                        `/en-US/docs/Web/CSS/calc-size
-[declaration-property-value-no-unknown] Unexpected unknown value "size" for property "width" (declaration-property-value-no-unknown)
-~~~
-section {
-  width: 0;
-  transition: width ease 1s;
-}
-
-section:hover,
-section:focus {
-  width: calc-size(auto, size + 2rem);
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "size" for property "width" (declaration-property-value-no-unknown)',
-                        "  width: calc-size(fit-content, size + 6rem);",
-                        "28:33 - 28:37",
-                        `/en-US/docs/Web/CSS/calc-size
-[declaration-property-value-no-unknown] Unexpected unknown value "size" for property "width" (declaration-property-value-no-unknown)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-section {
-  font-family: Arial, Helvetica, sans-serif;
-  border: 1px solid black;
-}
-
-h2 {
-  margin: 0;
-  font-weight: 400;
-  font-size: 1.1rem;
-  text-align: center;
-  letter-spacing: 1px;
-}
-
-p {
-  font-size: 0.8rem;
-}
-
-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  width: calc-size(fit-content, size + 6rem);
-  height: calc-size(auto, size * 2);
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "size" for property "height" (declaration-property-value-no-unknown)',
-                        "  height: calc-size(auto, size * 2);",
-                        "29:27 - 29:31",
-                        `/en-US/docs/Web/CSS/calc-size
-[declaration-property-value-no-unknown] Unexpected unknown value "size" for property "height" (declaration-property-value-no-unknown)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-section {
-  font-family: Arial, Helvetica, sans-serif;
-  border: 1px solid black;
-}
-
-h2 {
-  margin: 0;
-  font-weight: 400;
-  font-size: 1.1rem;
-  text-align: center;
-  letter-spacing: 1px;
-}
-
-p {
-  font-size: 0.8rem;
-}
-
-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  width: calc-size(fit-content, size + 6rem);
-  height: calc-size(auto, size * 2);
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "size" for property "height" (declaration-property-value-no-unknown)',
-                        "  height: calc-size(max-content, size + 2rem);",
-                        "50:34 - 50:38",
-                        `/en-US/docs/Web/CSS/calc-size
-[declaration-property-value-no-unknown] Unexpected unknown value "size" for property "height" (declaration-property-value-no-unknown)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-section {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 175px;
-  border-radius: 5px;
-  background: #eee;
-  box-shadow:
-    inset 1px 1px 4px rgb(255 255 255 / 0.5),
-    inset -1px -1px 4px rgb(0 0 0 / 0.5);
-}
-
-header {
-  padding: 10px;
-  border-bottom: 2px solid #ccc;
-}
-
-main {
-  padding: 0.7rem;
-}
-
-h2 {
-  margin: 0;
-  font-weight: 400;
-  font-size: 1.1rem;
-  text-align: center;
-  letter-spacing: 1px;
-}
-
-p,
-li {
-  font-size: 0.8rem;
-  line-height: 1.5;
-}
-
-p {
-  margin-top: 0;
-}
-
-section {
-  height: 2.5rem;
-  overflow: hidden;
-  transition: height ease 1s;
-}
-
-section:hover,
-section:focus {
-  height: calc-size(max-content, size + 2rem);
-}
-~~~
-`
                       ]
                     }
                   ]
@@ -15642,118 +14757,6 @@ color(from hsl(0 100% 50%) srgb calc(r - 0.4) calc(g + 0.1) calc(b + 0.6) / calc
 
 color(from hsl(0 100% 50%) xyz calc(x - 0.3) calc(y + 0.3) calc(z + 0.3) / calc(alpha - 0.1))
 /* Computed output color: color(xyz-d65 0.112426 0.512648 0.319317 / 0.9) */
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    "contrast-color": {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/color_value/contrast-color",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "function-no-unknown",
-                            'Unexpected unknown function "contrast-color" (function-no-unknown)',
-                            "  color: contrast-color(var(--button-color));",
-                            "9:10 - 9:24",
-                            `/en-US/docs/Web/CSS/color_value/contrast-color
-[function-no-unknown] Unexpected unknown function "contrast-color" (function-no-unknown)
-~~~
-:root {
-  --button-color: lightblue;
-}
-
-button {
-  background-color: var(--button-color);
-
-  /* Set contrasting text color automatically */
-  color: contrast-color(var(--button-color));
-}
-
-body {
-  padding: 1rem;
-}
-
-button {
-  margin: 3rem;
-  padding: 1rem;
-  width: 150px;
-  font-size: 2rem;
-  border-radius: 1rem;
-}
-
-@supports not (color: contrast-color(red)) {
-  body::before {
-    content: "Your browser doesn't support the contrast-color() function.";
-    background-color: wheat;
-    display: block;
-    width: 100%;
-    text-align: center;
-  }
-
-  body > * {
-    display: none;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "function-no-unknown",
-                            'Unexpected unknown function "contrast-color" (function-no-unknown)',
-                            "  color: contrast-color(var(--background-color));",
-                            "14:10 - 14:24",
-                            `/en-US/docs/Web/CSS/color_value/contrast-color
-[function-no-unknown] Unexpected unknown function "contrast-color" (function-no-unknown)
-~~~
-:root {
-  --background-color: navy;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --background-color: wheat;
-  }
-}
-
-body,
-a {
-  background-color: var(--background-color);
-  color: contrast-color(var(--background-color));
-}
-
-body {
-  padding: 2rem;
-  font-size: 1.2rem;
-}
-
-pre {
-  margin-top: 3rem;
-}
-
-@supports not (color: contrast-color(red)) {
-  body::before {
-    content: "Your browser doesn't support the contrast-color() function.";
-    background-color: wheat;
-    display: block;
-    width: 100%;
-    text-align: center;
-  }
-
-  body {
-    background-color: white;
-  }
-
-  body > * {
-    display: none;
-  }
-}
 ~~~
 `
                           ]
@@ -16742,26 +15745,6 @@ cross-fade(url(white.png), url(black.png), 100%); /* fully white */
                         "4:21 - 4:74",
                         `/en-US/docs/Web/CSS/cross-fade
 [declaration-property-value-no-unknown] Unexpected unknown value "-webkit-cross-fade(url("br.png"), url("tr.png"), 75%)" for property "background-image" (declaration-property-value-no-unknown)
-~~~
-.cross-fade {
-  width: 300px;
-  height: 300px;
-  background-image: -webkit-cross-fade(url("br.png"), url("tr.png"), 75%);
-  background-image: cross-fade(url("br.png"), url("tr.png"), 75%);
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "" for property "background-image" (declaration-property-value-no-unknown)',
-                        '  background-image: cross-fade(url("br.png"), url("tr.png"), 75%);',
-                        "5:66 - 5:67",
-                        `/en-US/docs/Web/CSS/cross-fade
-[declaration-property-value-no-unknown] Unexpected unknown value "" for property "background-image" (declaration-property-value-no-unknown)
 ~~~
 .cross-fade {
   width: 300px;
@@ -18130,39 +17113,6 @@ oklch(from red l c h / alpha)
 /* rgb() with and without alpha channel */
 rgb(from red r g b)
 rgb(from red r g b / alpha)
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Unexpected unknown value "g" for property "background-color" (declaration-property-value-no-unknown)',
-                            "  background-color: rgb(from red 150 g b / alpha);",
-                            "18:38 - 18:39",
-                            `/en-US/docs/Web/CSS/CSS_colors/Relative_colors
-[declaration-property-value-no-unknown] Unexpected unknown value "g" for property "background-color" (declaration-property-value-no-unknown)
-~~~
-#container {
-  display: flex;
-  width: 100vw;
-  height: 100vh;
-  box-sizing: border-box;
-}
-
-.item {
-  flex: 1;
-  margin: 20px;
-}
-
-#one {
-  background-color: red;
-}
-
-#two {
-  background-color: rgb(from red 150 g b / alpha);
-}
 ~~~
 `
                           ]
@@ -28019,43 +26969,6 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
-                "font-size-adjust": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-size-adjust",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "cap-height" for property "font-size-adjust" (declaration-property-value-no-unknown)',
-                        "  font-size-adjust: cap-height 0.73;",
-                        "16:21 - 16:31",
-                        `/en-US/docs/Web/CSS/font-size-adjust
-[declaration-property-value-no-unknown] Unexpected unknown value "cap-height" for property "font-size-adjust" (declaration-property-value-no-unknown)
-~~~
-.times {
-  font-family: Times, serif;
-  font-size: 14px;
-}
-
-.verdana {
-  font-family: Verdana, sans-serif;
-  font-size: 14px;
-}
-
-.adj-times-ex-height {
-  font-size-adjust: 0.545;
-}
-
-.adj-times-cap-height {
-  font-size-adjust: cap-height 0.73;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 "font-synthesis-style": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/font-synthesis-style",
@@ -29638,54 +28551,6 @@ css.properties.grid-template-rows.repeat`
                     }
                   ]
                 },
-                round: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/round",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "round(117px, 25px)" for property "height" (declaration-property-value-no-unknown)',
-                        "  height: round(117px, 25px);",
-                        "27:11 - 27:29",
-                        `/en-US/docs/Web/CSS/round
-[declaration-property-value-no-unknown] Unexpected unknown value "round(117px, 25px)" for property "height" (declaration-property-value-no-unknown)
-~~~
-body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-}
-
-div.box {
-  width: 100px;
-  height: 100px;
-  background: lightblue;
-  --rounding-interval: 25px;
-}
-
-div.box-2 {
-  height: round(up, 101px, var(--rounding-interval));
-}
-div.box-3 {
-  height: round(down, 122px, var(--rounding-interval));
-}
-div.box-4 {
-  height: round(to-zero, 120px, var(--rounding-interval));
-}
-
-div.box-5 {
-  height: round(117px, 25px);
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 "ruby-align": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/ruby-align",
@@ -29779,29 +28644,6 @@ div.box-5 {
 [CssSyntaxError] Unknown word rect (CssSyntaxError)
 ~~~
 rect(top, right, bottom, left)
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                sign: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/sign",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "sign(10%)" for property "background-position" (declaration-property-value-no-unknown)',
-                        "  background-position: sign(10%);",
-                        "2:24 - 2:33",
-                        `/en-US/docs/Web/CSS/sign
-[declaration-property-value-no-unknown] Unexpected unknown value "sign(10%)" for property "background-position" (declaration-property-value-no-unknown)
-~~~
-div {
-  background-position: sign(10%);
-}
 ~~~
 `
                       ]
@@ -30641,13 +29483,6 @@ html.elements.select.size`
                       slug: "/en-US/docs/Web/HTTP/Guides/Compression_dictionary_transport",
                       messages: [
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://use-as-dictionary.com/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
                           message: "Unexpected BCD keys",
                           data: [
                             "Actual:",
@@ -30968,6 +29803,19 @@ http.headers.Use-As-Dictionary`,
                             {
                               message: "Missing syntax code block",
                               data: []
+                            }
+                          ]
+                        },
+                        via: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Via",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://github.com/heroku/vegur",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         },
@@ -31307,6 +30155,13 @@ http.headers.Use-As-Dictionary`,
                           ]
                         },
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/kripken/speak.js/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "Redirected external link",
                           data: [
                             "https://jwplayer.com/",
@@ -31348,10 +30203,10 @@ http.headers.Use-As-Dictionary`,
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
                           messages: [
                             {
-                              message: "HTTP link",
+                              message: "Broken external link",
                               data: [
                                 "http://hevc.info/",
-                                ""
+                                "The operation timed out."
                               ]
                             },
                             {
@@ -31483,6 +30338,19 @@ http.headers.Use-As-Dictionary`,
                           message: "No link to child page",
                           data: [
                             "/en-US/docs/Web/Privacy/Guides/Storage_Access_Policy/Errors"
+                          ]
+                        }
+                      ]
+                    },
+                    "third-party_cookies": {
+                      children: {},
+                      slug: "/en-US/docs/Web/Privacy/Guides/Third-party_cookies",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.oag.ca.gov/privacy/ccpa",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -31635,6 +30503,27 @@ http.headers.Use-As-Dictionary`,
                       }
                     }
                   }
+                },
+                tutorials: {
+                  children: {
+                    cycletracker: {
+                      children: {
+                        service_workers: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Progressive_web_apps/Tutorials/CycleTracker/Service_workers",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://github.com/mdn/pwa-examples/blob/main/cycletracker/manifest_file/cycletracker.json",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
                 }
               },
               slug: "/en-US/docs/Web/Progressive_web_apps",
@@ -31657,13 +30546,6 @@ http.headers.Use-As-Dictionary`,
                     {
                       message: "Unreachable via page",
                       data: []
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www-archive.mozilla.org/projects/security/components/reviewguide.html",
-                        "unknown certificate verification error"
-                      ]
                     }
                   ]
                 },
