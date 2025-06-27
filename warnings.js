@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-36pj0461.js";
+} from "./chunk-yscdyk0w.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -40,19 +40,6 @@ var warnings_processed_default = {
             },
             techniques: {
               children: {
-                "2d_collision_detection": {
-                  children: {},
-                  slug: "/en-US/docs/Games/Techniques/2D_collision_detection",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.sevenson.com.au/programming/sat/",
-                        "Cannot reach server and Bun hangs"
-                      ]
-                    }
-                  ]
-                },
                 "3d_on_the_web": {
                   children: {},
                   slug: "/en-US/docs/Games/Techniques/3D_on_the_web",
@@ -1528,13 +1515,6 @@ var warnings_processed_default = {
                           data: [
                             "https://codepen.io/mxmason/pen/XWbPNmw"
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://phabricator.wikimedia.org/T241180",
-                            "429 Retry-After: 1000"
-                          ]
                         }
                       ]
                     },
@@ -1695,13 +1675,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://cli.vuejs.org/",
-                            "unknown certificate verification error"
-                          ]
                         }
                       ]
                     },
@@ -2628,32 +2601,6 @@ refused.textContent = 'Refuse: ';
               children: {
                 advanced_javascript_objects: {
                   children: {
-                    adding_bouncing_balls_features: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Adding_bouncing_balls_features",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/javascript/oojs/bouncing-balls/style.css",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    object_building_practice: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Object_building_practice",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/javascript/oojs/bouncing-balls/style.css",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     test_your_skills: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Test_your_skills",
@@ -2691,38 +2638,8 @@ refused.textContent = 'Refuse: ';
                     }
                   }
                 },
-                "client-side_tools": {
-                  children: {
-                    deployment: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Deployment",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/new",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 forms: {
                   children: {
-                    form_validation: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/forms/form-validation/custom-error-message.html",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
                     how_to_build_custom_form_controls: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls",
@@ -2754,21 +2671,7 @@ refused.textContent = 'Refuse: ';
                       ]
                     },
                     test_your_skills: {
-                      children: {
-                        basic_controls: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Test_your_skills/Basic_controls",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/learning-area/blob/main/html/forms/tasks/basic-controls/basic-controls1-download.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      },
+                      children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Test_your_skills",
                       messages: [
                         {
@@ -2884,36 +2787,6 @@ refused.textContent = 'Refuse: ';
                           data: [
                             "https://discord.me/frontenddevelopers",
                             403
-                          ]
-                        }
-                      ]
-                    },
-                    finding_a_job: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Finding_a_job",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.upwork.com/",
-                            403
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                your_first_website: {
-                  children: {
-                    publishing_your_website: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Publishing_your_website",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/new",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -3134,6 +3007,19 @@ refused.textContent = 'Refuse: ';
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    how_do_you_host_your_website_on_google_app_engine: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gaesamplesite.appspot.com/",
+                            503
+                          ]
                         }
                       ]
                     },
@@ -9197,33 +9083,6 @@ api.DeviceOrientationEvent`,
                           ]
                         }
                       ]
-                    },
-                    mozsetimageelement: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/mozSetImageElement",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-no-invalid-hex",
-                            'Unexpected invalid hex color "#canvas" (color-no-invalid-hex)',
-                            "  background-image: -moz-element(#canvas-bg);",
-                            "2:34 - 2:41",
-                            `/en-US/docs/Web/API/Document/mozSetImageElement
-[color-no-invalid-hex] Unexpected invalid hex color "#canvas" (color-no-invalid-hex)
-~~~
-#my-box {
-  background-image: -moz-element(#canvas-bg);
-  text-align: center;
-  width: 400px;
-  height: 400px;
-  cursor: pointer;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
                     }
                   }
                 },
@@ -9254,19 +9113,6 @@ api.DeviceOrientationEvent`,
                       ]
                     }
                   }
-                },
-                fenced_frame_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Fenced_frame_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mozilla/standards-positions/issues/781",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 },
                 fetchevent: {
                   children: {
@@ -9903,222 +9749,12 @@ function checkDeadlines() {
                     }
                   }
                 },
-                mediarecorder: {
-                  children: {
-                    dataavailable_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaRecorder/dataavailable_event",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    mediarecorder: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaRecorder/MediaRecorder",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    mimetype: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaRecorder/mimeType",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    pause: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaRecorder/pause",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    pause_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaRecorder/pause_event",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    requestdata: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaRecorder/requestData",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    resume: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaRecorder/resume",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    resume_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaRecorder/resume_event",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    start: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaRecorder/start",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    start_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaRecorder/start_event",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    state: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaRecorder/state",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    stop: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaRecorder/stop",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    stop_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaRecorder/stop_event",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    stream: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaRecorder/stream",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/MediaRecorder",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone",
-                        "The operation timed out."
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 mediastream_recording_api: {
                   children: {
                     using_the_mediastream_recording_api: {
                       children: {},
                       slug: "/en-US/docs/Web/API/MediaStream_Recording_API/Using_the_MediaStream_Recording_API",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone",
-                            "The operation timed out."
-                          ]
-                        },
                         {
                           message: "Unexpected BCD keys",
                           data: [
@@ -13964,38 +13600,6 @@ attr(data-rotation deg)
                       message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "attr(data-rotation deg, 1.5deg)" for property "rotate" (declaration-property-value-no-unknown)',
-                        "  rotate: attr(data-rotation deg, 1.5deg);",
-                        "17:11 - 17:42",
-                        `/en-US/docs/Web/CSS/attr
-[declaration-property-value-no-unknown] Unexpected unknown value "attr(data-rotation deg, 1.5deg)" for property "rotate" (declaration-property-value-no-unknown)
-~~~
-body {
-  min-height: 100svh;
-  display: grid;
-  place-content: center;
-  gap: 1em;
-}
-div {
-  margin: 0 auto;
-  border: 1px solid;
-  border-radius: 0.25em;
-  padding: 0.5em;
-}
-
-div {
-  width: fit-content;
-  transform-origin: 50% 50%;
-  rotate: attr(data-rotation deg, 1.5deg);
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
                         'Cannot parse property value "attr(id type(<custom-ident>), none)" for property "view-transition-name" (declaration-property-value-no-unknown)',
                         "  view-transition-name: attr(id type(<custom-ident>), none);",
                         "68:25 - 68:60",
@@ -14087,380 +13691,6 @@ div {
                       data: []
                     }
                   ]
-                },
-                "basic-shape": {
-                  children: {
-                    shape: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/basic-shape/shape",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            `Unexpected unknown value "shape(
-    from 30% 60px,
-    curve to 180px 180px with 90px 190px,
-    close,
-    move by 0px 150px,
-    hline by 40%
-  )" for property "offset-path" (declaration-property-value-no-unknown)`,
-                            `  offset-path: shape(
-    from 30% 60px,
-    curve to 180px 180px with 90px 190px,
-    close,
-    move by 0px 150px,
-    hline by 40%
-  );`,
-                            "36:16 - 42:4",
-                            `/en-US/docs/Web/CSS/basic-shape/shape
-[declaration-property-value-no-unknown] Unexpected unknown value "shape(
-    from 30% 60px,
-    curve to 180px 180px with 90px 190px,
-    close,
-    move by 0px 150px,
-    hline by 40%
-  )" for property "offset-path" (declaration-property-value-no-unknown)
-~~~
-body {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-}
-
-.container {
-  position: relative;
-  display: inline-block;
-  width: 250px;
-  height: 250px;
-  border: 2px dotted green;
-  margin: 20px;
-}
-
-@supports not (offset-path: shape(from 0 0, move to 0 0)) {
-  .container {
-    display: none;
-  }
-  body::after {
-    content: "Your browser doesn't support the \`shape()\` function yet.";
-  }
-}
-
-.shape {
-  width: 50px;
-  height: 50px;
-  background: #2bc4a2;
-  position: absolute;
-  text-align: center;
-  line-height: 50px;
-  animation: move 6s infinite linear;
-}
-
-.shape1 {
-  offset-path: shape(
-    from 30% 60px,
-    curve to 180px 180px with 90px 190px,
-    close,
-    move by 0px 150px,
-    hline by 40%
-  );
-}
-
-.shape2 {
-  offset-path: shape(
-    from 50px 90px,
-    hline to 8em,
-    move to 50px 90px,
-    vline by 20%,
-    close
-  );
-}
-
-@keyframes move {
-  0% {
-    offset-distance: 0%;
-  }
-  100% {
-    offset-distance: 100%;
-    background-color: hotpink;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            `Unexpected unknown value "shape(
-    from 50px 90px,
-    hline to 8em,
-    move to 50px 90px,
-    vline by 20%,
-    close
-  )" for property "offset-path" (declaration-property-value-no-unknown)`,
-                            `  offset-path: shape(
-    from 50px 90px,
-    hline to 8em,
-    move to 50px 90px,
-    vline by 20%,
-    close
-  );`,
-                            "46:16 - 52:4",
-                            `/en-US/docs/Web/CSS/basic-shape/shape
-[declaration-property-value-no-unknown] Unexpected unknown value "shape(
-    from 50px 90px,
-    hline to 8em,
-    move to 50px 90px,
-    vline by 20%,
-    close
-  )" for property "offset-path" (declaration-property-value-no-unknown)
-~~~
-body {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-}
-
-.container {
-  position: relative;
-  display: inline-block;
-  width: 250px;
-  height: 250px;
-  border: 2px dotted green;
-  margin: 20px;
-}
-
-@supports not (offset-path: shape(from 0 0, move to 0 0)) {
-  .container {
-    display: none;
-  }
-  body::after {
-    content: "Your browser doesn't support the \`shape()\` function yet.";
-  }
-}
-
-.shape {
-  width: 50px;
-  height: 50px;
-  background: #2bc4a2;
-  position: absolute;
-  text-align: center;
-  line-height: 50px;
-  animation: move 6s infinite linear;
-}
-
-.shape1 {
-  offset-path: shape(
-    from 30% 60px,
-    curve to 180px 180px with 90px 190px,
-    close,
-    move by 0px 150px,
-    hline by 40%
-  );
-}
-
-.shape2 {
-  offset-path: shape(
-    from 50px 90px,
-    hline to 8em,
-    move to 50px 90px,
-    vline by 20%,
-    close
-  );
-}
-
-@keyframes move {
-  0% {
-    offset-distance: 0%;
-  }
-  100% {
-    offset-distance: 100%;
-    background-color: hotpink;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Unexpected unknown value "shape(from 0% 0%, line to 100% 0%, line to 50% 100%, close)" for property "clip-path" (declaration-property-value-no-unknown)',
-                            "  clip-path: shape(from 0% 0%, line to 100% 0%, line to 50% 100%, close);",
-                            "36:14 - 36:73",
-                            `/en-US/docs/Web/CSS/basic-shape/shape
-[declaration-property-value-no-unknown] Unexpected unknown value "shape(from 0% 0%, line to 100% 0%, line to 50% 100%, close)" for property "clip-path" (declaration-property-value-no-unknown)
-~~~
-body {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-}
-
-.container {
-  position: relative;
-  display: inline-block;
-  width: 200px;
-  height: 200px;
-  margin: 20px;
-  background-color: lightgray;
-}
-
-@supports not (clip-path: shape(from 0 0, move to 0 0)) {
-  .container {
-    display: none;
-  }
-  body::after {
-    content: "Your browser doesn't support the \`shape()\` function yet.";
-  }
-}
-
-.shape {
-  width: 100%;
-  height: 100%;
-  background: #2bc4a2;
-  position: absolute;
-  text-align: center;
-  line-height: 50px;
-}
-
-/* Triangular clipping region */
-.shape1 {
-  clip-path: shape(from 0% 0%, line to 100% 0%, line to 50% 100%, close);
-}
-
-/* A Heart clipping region using curve and arc transitions
-   and a box using hline and vline transitions */
-.shape2 {
-  clip-path: shape(
-    from 20px 70px,
-    arc to 100px 70px of 1% cw,
-    arc to 180px 70px of 1% cw,
-    curve to 100px 190px with 180px 130px,
-    curve to 20px 70px with 20px 130px,
-    close,
-    move to 150px 150px,
-    hline by 40px,
-    vline by 40px,
-    hline by -40px,
-    close
-  );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            `Unexpected unknown value "shape(
-    from 20px 70px,
-    arc to 100px 70px of 1% cw,
-    arc to 180px 70px of 1% cw,
-    curve to 100px 190px with 180px 130px,
-    curve to 20px 70px with 20px 130px,
-    close,
-    move to 150px 150px,
-    hline by 40px,
-    vline by 40px,
-    hline by -40px,
-    close
-  )" for property "clip-path" (declaration-property-value-no-unknown)`,
-                            `  clip-path: shape(
-    from 20px 70px,
-    arc to 100px 70px of 1% cw,
-    arc to 180px 70px of 1% cw,
-    curve to 100px 190px with 180px 130px,
-    curve to 20px 70px with 20px 130px,
-    close,
-    move to 150px 150px,
-    hline by 40px,
-    vline by 40px,
-    hline by -40px,
-    close
-  );`,
-                            "42:14 - 54:4",
-                            `/en-US/docs/Web/CSS/basic-shape/shape
-[declaration-property-value-no-unknown] Unexpected unknown value "shape(
-    from 20px 70px,
-    arc to 100px 70px of 1% cw,
-    arc to 180px 70px of 1% cw,
-    curve to 100px 190px with 180px 130px,
-    curve to 20px 70px with 20px 130px,
-    close,
-    move to 150px 150px,
-    hline by 40px,
-    vline by 40px,
-    hline by -40px,
-    close
-  )" for property "clip-path" (declaration-property-value-no-unknown)
-~~~
-body {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-}
-
-.container {
-  position: relative;
-  display: inline-block;
-  width: 200px;
-  height: 200px;
-  margin: 20px;
-  background-color: lightgray;
-}
-
-@supports not (clip-path: shape(from 0 0, move to 0 0)) {
-  .container {
-    display: none;
-  }
-  body::after {
-    content: "Your browser doesn't support the \`shape()\` function yet.";
-  }
-}
-
-.shape {
-  width: 100%;
-  height: 100%;
-  background: #2bc4a2;
-  position: absolute;
-  text-align: center;
-  line-height: 50px;
-}
-
-/* Triangular clipping region */
-.shape1 {
-  clip-path: shape(from 0% 0%, line to 100% 0%, line to 50% 100%, close);
-}
-
-/* A Heart clipping region using curve and arc transitions
-   and a box using hline and vline transitions */
-.shape2 {
-  clip-path: shape(
-    from 20px 70px,
-    arc to 100px 70px of 1% cw,
-    arc to 180px 70px of 1% cw,
-    curve to 100px 190px with 180px 130px,
-    curve to 20px 70px with 20px 130px,
-    close,
-    move to 150px 150px,
-    hline by 40px,
-    vline by 40px,
-    hline by -40px,
-    close
-  );
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 "box-flex": {
                   children: {},
@@ -14566,99 +13796,6 @@ body {
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/CSS/calc-value"
-                      ]
-                    }
-                  ]
-                },
-                "clip-path": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/clip-path",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "shape(from 50% 0, line to 100% 100%, line to 0 100%, close)" for property "clip-path" (declaration-property-value-no-unknown)',
-                        "  clip-path: shape(from 50% 0, line to 100% 100%, line to 0 100%, close);",
-                        "26:14 - 26:73",
-                        `/en-US/docs/Web/CSS/clip-path
-[declaration-property-value-no-unknown] Unexpected unknown value "shape(from 50% 0, line to 100% 100%, line to 0 100%, close)" for property "clip-path" (declaration-property-value-no-unknown)
-~~~
-body {
-  display: flex;
-  gap: 20px;
-  flex-flow: row wrap;
-}
-
-div {
-  height: 200px;
-  width: 200px;
-  box-sizing: border-box;
-  background-color: rebeccapurple;
-  border: 20px solid magenta;
-
-  clip-path: polygon(50% 0, 100% 100%, 0 100%);
-}
-
-div:last-of-type {
-  clip-path: content-box polygon(50% 0, 100% 100%, 0 100%);
-}
-
-div {
-  clip-path: path("M100 0 L200 200 L0 200 Z");
-}
-
-div:last-of-type {
-  clip-path: shape(from 50% 0, line to 100% 100%, line to 0 100%, close);
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "shape(from 50% 0, line to 100% 100%, line to 0 100%, close)" for property "clip-path" (declaration-property-value-no-unknown)',
-                        "  clip-path: shape(from 50% 0, line to 100% 100%, line to 0 100%, close);",
-                        "26:14 - 26:73",
-                        `/en-US/docs/Web/CSS/clip-path
-[declaration-property-value-no-unknown] Unexpected unknown value "shape(from 50% 0, line to 100% 100%, line to 0 100%, close)" for property "clip-path" (declaration-property-value-no-unknown)
-~~~
-body {
-  display: flex;
-  gap: 20px;
-  flex-flow: row wrap;
-}
-
-div {
-  height: 200px;
-  width: 200px;
-  box-sizing: border-box;
-  background-color: rebeccapurple;
-  border: 20px solid magenta;
-
-  clip-path: polygon(50% 0, 100% 100%, 0 100%);
-}
-
-div:last-of-type {
-  clip-path: content-box polygon(50% 0, 100% 100%, 0 100%);
-}
-
-div {
-  clip-path: path("M100 0 L200 200 L0 200 Z");
-}
-
-div:last-of-type {
-  clip-path: shape(from 50% 0, line to 100% 100%, line to 0 100%, close);
-}
-
-div {
-  width: 250px;
-  height: 250px;
-}
-~~~
-`
                       ]
                     }
                   ]
@@ -15735,26 +14872,6 @@ cross-fade(url(white.png), url(black.png), 100%); /* fully white */
 ~~~
 `
                       ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "-webkit-cross-fade(url("br.png"), url("tr.png"), 75%)" for property "background-image" (declaration-property-value-no-unknown)',
-                        '  background-image: -webkit-cross-fade(url("br.png"), url("tr.png"), 75%);',
-                        "4:21 - 4:74",
-                        `/en-US/docs/Web/CSS/cross-fade
-[declaration-property-value-no-unknown] Unexpected unknown value "-webkit-cross-fade(url("br.png"), url("tr.png"), 75%)" for property "background-image" (declaration-property-value-no-unknown)
-~~~
-.cross-fade {
-  width: 300px;
-  height: 300px;
-  background-image: -webkit-cross-fade(url("br.png"), url("tr.png"), 75%);
-  background-image: cross-fade(url("br.png"), url("tr.png"), 75%);
-}
-~~~
-`
-                      ]
                     }
                   ]
                 },
@@ -16352,13 +15469,6 @@ form {
 </style>
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://specifishity.com/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -18302,78 +17412,6 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            `Unexpected unknown value "shape(
-    from 20px 70px,
-    arc to 100px 70px of 1% cw,
-    arc to 180px 70px of 1% cw,
-    curve to 100px 190px with 180px 130px,
-    curve to 20px 70px with 20px 130px
-  )" for property "clip-path" (declaration-property-value-no-unknown)`,
-                            `  clip-path: shape(
-    from 20px 70px,
-    arc to 100px 70px of 1% cw,
-    arc to 180px 70px of 1% cw,
-    curve to 100px 190px with 180px 130px,
-    curve to 20px 70px with 20px 130px
-  );`,
-                            "2:14 - 8:4",
-                            `/en-US/docs/Web/CSS/CSS_masking/Clipping
-[declaration-property-value-no-unknown] Unexpected unknown value "shape(
-    from 20px 70px,
-    arc to 100px 70px of 1% cw,
-    arc to 180px 70px of 1% cw,
-    curve to 100px 190px with 180px 130px,
-    curve to 20px 70px with 20px 130px
-  )" for property "clip-path" (declaration-property-value-no-unknown)
-~~~
-.heart {
-  clip-path: shape(
-    from 20px 70px,
-    arc to 100px 70px of 1% cw,
-    arc to 180px 70px of 1% cw,
-    curve to 100px 190px with 180px 130px,
-    curve to 20px 70px with 20px 130px
-  );
-}
-
-:root {
-  --m: 10;
-}
-.heart {
-  width: calc(20px * var(--m));
-  height: calc(20px * var(--m));
-  display: inline-block;
-  background: linear-gradient(rebeccapurple, magenta) blue;
-  clip-path: border-box
-    shape(
-      from calc(2px * var(--m)) calc(7px * var(--m)),
-      arc to calc(10px * var(--m)) calc(7px * var(--m)) of 1% cw,
-      arc to calc(18px * var(--m)) calc(7px * var(--m)) of 1% cw,
-      curve to calc(10px * var(--m)) calc(19px * var(--m)) with
-        calc(18px * var(--m)) calc(13px * var(--m)),
-      curve to calc(2px * var(--m)) calc(7px * var(--m)) with
-        calc(2px * var(--m)) calc(13px * var(--m))
-    );
-}
-.small {
-  --m: 4;
-}
-
-.medium {
-  --m: 8;
-}
-
-.large {
-  --m: 12;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -18418,57 +17456,6 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Unexpected unknown value "contain" for property "mask" (declaration-property-value-no-unknown)',
-                            "mask: url(star.svg) contain;",
-                            "1:21 - 1:28",
-                            `/en-US/docs/Web/CSS/CSS_masking/Multiple_masks
-[declaration-property-value-no-unknown] Unexpected unknown value "contain" for property "mask" (declaration-property-value-no-unknown)
-~~~
-mask: url(star.svg) contain;
-mask: url(star.svg) 10px 10px cover;
-mask: url(star.svg) top right 100px 100px;
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Unexpected unknown value "cover" for property "mask" (declaration-property-value-no-unknown)',
-                            "mask: url(star.svg) 10px 10px cover;",
-                            "2:31 - 2:36",
-                            `/en-US/docs/Web/CSS/CSS_masking/Multiple_masks
-[declaration-property-value-no-unknown] Unexpected unknown value "cover" for property "mask" (declaration-property-value-no-unknown)
-~~~
-mask: url(star.svg) contain;
-mask: url(star.svg) 10px 10px cover;
-mask: url(star.svg) top right 100px 100px;
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Unexpected unknown value "100px" for property "mask" (declaration-property-value-no-unknown)',
-                            "mask: url(star.svg) top right 100px 100px;",
-                            "3:31 - 3:36",
-                            `/en-US/docs/Web/CSS/CSS_masking/Multiple_masks
-[declaration-property-value-no-unknown] Unexpected unknown value "100px" for property "mask" (declaration-property-value-no-unknown)
-~~~
-mask: url(star.svg) contain;
-mask: url(star.svg) 10px 10px cover;
-mask: url(star.svg) top right 100px 100px;
-~~~
-`
-                          ]
                         }
                       ]
                     }
@@ -28499,25 +27486,6 @@ form {
                   slug: "/en-US/docs/Web/CSS/repeat",
                   messages: [
                     {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "max-content" for property "grid-template-columns" (declaration-property-value-no-unknown)',
-                        "    repeat(2, minmax(min-content, max-content));",
-                        "4:35 - 4:46",
-                        `/en-US/docs/Web/CSS/repeat
-[declaration-property-value-no-unknown] Unexpected unknown value "max-content" for property "grid-template-columns" (declaration-property-value-no-unknown)
-~~~
-.wrapper {
-  grid-template-columns:
-    repeat(auto-fill, 10px)
-    repeat(2, minmax(min-content, max-content));
-}
-~~~
-`
-                      ]
-                    },
-                    {
                       message: "Unexpected BCD keys",
                       data: [
                         "Actual:",
@@ -28575,60 +27543,6 @@ css.properties.grid-template-rows.repeat`
                     }
                   ]
                 },
-                "scroll-timeline": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-timeline",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "vertical" for property "scroll-timeline" (declaration-property-value-no-unknown)',
-                        "  scroll-timeline: --squareTimeline vertical;",
-                        "6:37 - 6:45",
-                        `/en-US/docs/Web/CSS/scroll-timeline
-[declaration-property-value-no-unknown] Unexpected unknown value "vertical" for property "scroll-timeline" (declaration-property-value-no-unknown)
-~~~
-#container {
-  height: 300px;
-  overflow-y: scroll;
-  scroll-timeline: --squareTimeline y;
-  /* Firefox supports the older "vertical" syntax */
-  scroll-timeline: --squareTimeline vertical;
-  position: relative;
-}
-
-#square {
-  background-color: deeppink;
-  width: 100px;
-  height: 100px;
-  animation-name: rotateAnimation;
-  animation-duration: 1ms; /* Firefox requires this to apply the animation */
-  animation-timeline: --squareTimeline;
-  position: absolute;
-  bottom: 0;
-}
-
-#stretcher {
-  height: 600px;
-  background: #dedede;
-}
-
-@keyframes rotateAnimation {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 shape: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/shape",
@@ -28682,32 +27596,6 @@ rect(top, right, bottom, left)
 "A really long \\
 awesome string"
 "A really long awesome string"
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                stroke: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "linear-gradient(90deg, green, white)" for property "stroke" (declaration-property-value-no-unknown)',
-                        "  stroke: linear-gradient(90deg, green, white);",
-                        "5:11 - 5:47",
-                        `/en-US/docs/Web/CSS/stroke
-[declaration-property-value-no-unknown] Unexpected unknown value "linear-gradient(90deg, green, white)" for property "stroke" (declaration-property-value-no-unknown)
-~~~
-rect {
-  stroke: url(#greenwhite);
-}
-circle {
-  stroke: linear-gradient(90deg, green, white);
-}
 ~~~
 `
                       ]
@@ -29806,19 +28694,6 @@ http.headers.Use-As-Dictionary`,
                             }
                           ]
                         },
-                        via: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Via",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/heroku/vegur",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         "want-content-digest": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Want-Content-Digest",
@@ -29856,6 +28731,23 @@ http.headers.Use-As-Dictionary`,
                             {
                               message: "Missing syntax code block",
                               data: []
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    status: {
+                      children: {
+                        "422": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/422",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://ruby-doc.org/3.3.2/stdlibs/base64/Base64.html",
+                                "Unable to connect. Is the computer able to access the url?"
+                              ]
                             }
                           ]
                         }
@@ -30155,13 +29047,6 @@ http.headers.Use-As-Dictionary`,
                           ]
                         },
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/kripken/speak.js/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
                           message: "Redirected external link",
                           data: [
                             "https://jwplayer.com/",
@@ -30203,10 +29088,10 @@ http.headers.Use-As-Dictionary`,
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
                           messages: [
                             {
-                              message: "Broken external link",
+                              message: "HTTP link",
                               data: [
                                 "http://hevc.info/",
-                                "The operation timed out."
+                                ""
                               ]
                             },
                             {
@@ -30338,19 +29223,6 @@ http.headers.Use-As-Dictionary`,
                           message: "No link to child page",
                           data: [
                             "/en-US/docs/Web/Privacy/Guides/Storage_Access_Policy/Errors"
-                          ]
-                        }
-                      ]
-                    },
-                    "third-party_cookies": {
-                      children: {},
-                      slug: "/en-US/docs/Web/Privacy/Guides/Third-party_cookies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.oag.ca.gov/privacy/ccpa",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -30496,27 +29368,6 @@ http.headers.Use-As-Dictionary`,
                               data: [
                                 "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/how-to/handle-files",
                                 "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps/how-to/handle-files"
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  }
-                },
-                tutorials: {
-                  children: {
-                    cycletracker: {
-                      children: {
-                        service_workers: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Tutorials/CycleTracker/Service_workers",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/pwa-examples/blob/main/cycletracker/manifest_file/cycletracker.json",
-                                "The operation timed out."
                               ]
                             }
                           ]
