@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-yscdyk0w.js";
+} from "./chunk-8x9x7t6n.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -3017,7 +3017,7 @@ refused.textContent = 'Refuse: ';
                         {
                           message: "Broken external link",
                           data: [
-                            "https://gaesamplesite.appspot.com/",
+                            "https://gaesamplesite.appspot.com/downloads.html",
                             503
                           ]
                         }
@@ -3335,20 +3335,6 @@ refused.textContent = 'Refuse: ';
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
-                                    },
-                                    {
-                                      message: "HTTP link",
-                                      data: [
-                                        "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
-                                      ]
-                                    },
-                                    {
-                                      message: "HTTP link",
-                                      data: [
-                                        "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
-                                      ]
                                     }
                                   ]
                                 },
@@ -3369,34 +3355,10 @@ refused.textContent = 'Refuse: ';
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
-                                    },
-                                    {
-                                      message: "HTTP link",
-                                      data: [
-                                        "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
-                                      ]
-                                    },
-                                    {
-                                      message: "HTTP link",
-                                      data: [
-                                        "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
-                                      ]
                                     }
                                   ]
                                 }
-                              },
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
-                              messages: [
-                                {
-                                  message: "HTTP link",
-                                  data: [
-                                    "http://www.softwareishard.com/blog/har-12-spec/",
-                                    ""
-                                  ]
-                                }
-                              ]
+                              }
                             },
                             panels: {
                               children: {
@@ -9969,6 +9931,20 @@ function checkDeadlines() {
                         {
                           message: "Broken browser compat anchor",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.emvco.com/emv-technologies/3-d-secure/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.emvco.com/emv-technologies/secure-remote-commerce/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -11060,6 +11036,13 @@ async function handleTranslation(e) {
                           data: [
                             "https://www.mathworks.com/help/dsphdl/ref/biquadfilter.html",
                             403
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.dspguide.com/CH20.PDF",
+                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -13420,7 +13403,7 @@ css.selectors.-webkit-resizer`,
                       message: "Broken external link",
                       data: [
                         "https://pagedjs.org/documentation/1-the-big-picture/",
-                        "Unable to connect. Is the computer able to access the url?"
+                        'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://pagedjs.org/documentation/1-the-big-picture/". For more information, pass `verbose: true` in the second argument to fetch()'
                       ]
                     }
                   ]
@@ -28731,23 +28714,6 @@ http.headers.Use-As-Dictionary`,
                             {
                               message: "Missing syntax code block",
                               data: []
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    status: {
-                      children: {
-                        "422": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/422",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://ruby-doc.org/3.3.2/stdlibs/base64/Base64.html",
-                                "Unable to connect. Is the computer able to access the url?"
-                              ]
                             }
                           ]
                         }
