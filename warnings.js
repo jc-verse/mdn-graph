@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-8x9x7t6n.js";
+} from "./chunk-7p9psjt9.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -40,6 +40,19 @@ var warnings_processed_default = {
             },
             techniques: {
               children: {
+                "2d_collision_detection": {
+                  children: {},
+                  slug: "/en-US/docs/Games/Techniques/2D_collision_detection",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.sevenson.com.au/programming/sat/",
+                        "Cannot reach server and Bun hangs"
+                      ]
+                    }
+                  ]
+                },
                 "3d_on_the_web": {
                   children: {},
                   slug: "/en-US/docs/Games/Techniques/3D_on_the_web",
@@ -1515,6 +1528,13 @@ var warnings_processed_default = {
                           data: [
                             "https://codepen.io/mxmason/pen/XWbPNmw"
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://phabricator.wikimedia.org/T241180",
+                            "429 Retry-After: 1000"
+                          ]
                         }
                       ]
                     },
@@ -2790,6 +2810,19 @@ refused.textContent = 'Refuse: ';
                           ]
                         }
                       ]
+                    },
+                    finding_a_job: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Finding_a_job",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.upwork.com/",
+                            403
+                          ]
+                        }
+                      ]
                     }
                   }
                 }
@@ -2988,7 +3021,7 @@ refused.textContent = 'Refuse: ';
                           message: "Broken external link",
                           data: [
                             "https://www.codelobster.com/forum/index.php",
-                            "The operation timed out."
+                            "Unable to connect. Is the computer able to access the url?"
                           ]
                         },
                         {
@@ -3017,7 +3050,7 @@ refused.textContent = 'Refuse: ';
                         {
                           message: "Broken external link",
                           data: [
-                            "https://gaesamplesite.appspot.com/downloads.html",
+                            "https://gaesamplesite.appspot.com/",
                             503
                           ]
                         }
@@ -3335,6 +3368,20 @@ refused.textContent = 'Refuse: ';
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
+                                    },
+                                    {
+                                      message: "HTTP link",
+                                      data: [
+                                        "http://www.softwareishard.com/blog/har-12-spec/",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      message: "HTTP link",
+                                      data: [
+                                        "http://www.softwareishard.com/blog/har-12-spec/",
+                                        ""
+                                      ]
                                     }
                                   ]
                                 },
@@ -3355,10 +3402,34 @@ refused.textContent = 'Refuse: ';
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
+                                    },
+                                    {
+                                      message: "HTTP link",
+                                      data: [
+                                        "http://www.softwareishard.com/blog/har-12-spec/",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      message: "HTTP link",
+                                      data: [
+                                        "http://www.softwareishard.com/blog/har-12-spec/",
+                                        ""
+                                      ]
                                     }
                                   ]
                                 }
-                              }
+                              },
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
+                              messages: [
+                                {
+                                  message: "HTTP link",
+                                  data: [
+                                    "http://www.softwareishard.com/blog/har-12-spec/",
+                                    ""
+                                  ]
+                                }
+                              ]
                             },
                             panels: {
                               children: {
@@ -4884,6 +4955,26 @@ else if (e.target.id === "tabs-alert-info") {
   }
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    },
+                    your_second_webextension: {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_second_WebExtension",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iconbeast.com/free/",
+                            "https://www.iconbeast.com/cgi-sys/suspendedpage.cgi"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.iconbeast.com/faq/",
+                            "https://www.iconbeast.com/cgi-sys/suspendedpage.cgi"
                           ]
                         }
                       ]
@@ -9076,6 +9167,23 @@ api.DeviceOrientationEvent`,
                     }
                   }
                 },
+                fetch_api: {
+                  children: {
+                    using_fetch: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Fetch_API/Using_Fetch",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/dom-examples/tree/main/fetch",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 fetchevent: {
                   children: {
                     replacesclientid: {
@@ -9270,19 +9378,6 @@ api.Document.fullscreen`,
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/API/window/scroll_event"
-                      ]
-                    }
-                  ]
-                },
-                htmlolistelement: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/HTMLOListElement",
-                  messages: [
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/HTML/Reference/Elements/ol",
-                        "#compact"
                       ]
                     }
                   ]
@@ -9931,20 +10026,6 @@ function checkDeadlines() {
                         {
                           message: "Broken browser compat anchor",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.emvco.com/emv-technologies/3-d-secure/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.emvco.com/emv-technologies/secure-remote-commerce/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -10003,99 +10084,6 @@ function checkDeadlines() {
                       ]
                     }
                   }
-                },
-                periodicsyncevent: {
-                  children: {
-                    periodicsyncevent: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PeriodicSyncEvent/PeriodicSyncEvent",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
-                            "Unable to connect. Is the computer able to access the url?"
-                          ]
-                        }
-                      ]
-                    },
-                    tag: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PeriodicSyncEvent/tag",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
-                            "Unable to connect. Is the computer able to access the url?"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/PeriodicSyncEvent",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
-                        "Unable to connect. Is the computer able to access the url?"
-                      ]
-                    }
-                  ]
-                },
-                periodicsyncmanager: {
-                  children: {
-                    gettags: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PeriodicSyncManager/getTags",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
-                            "Unable to connect. Is the computer able to access the url?"
-                          ]
-                        }
-                      ]
-                    },
-                    register: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PeriodicSyncManager/register",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
-                            "Unable to connect. Is the computer able to access the url?"
-                          ]
-                        }
-                      ]
-                    },
-                    unregister: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PeriodicSyncManager/unregister",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
-                            "Unable to connect. Is the computer able to access the url?"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/PeriodicSyncManager",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
-                        "Unable to connect. Is the computer able to access the url?"
-                      ]
-                    }
-                  ]
                 },
                 pointer_events: {
                   children: {
@@ -10504,53 +10492,6 @@ function checkDeadlines() {
                     }
                   }
                 },
-                serviceworkerglobalscope: {
-                  children: {
-                    periodicsync_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/ServiceWorkerGlobalScope/periodicsync_event",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
-                            "Unable to connect. Is the computer able to access the url?"
-                          ]
-                        }
-                      ]
-                    },
-                    sync_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/ServiceWorkerGlobalScope/sync_event",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
-                            "Unable to connect. Is the computer able to access the url?"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                serviceworkerregistration: {
-                  children: {
-                    periodicsync: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/ServiceWorkerRegistration/periodicSync",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
-                            "Unable to connect. Is the computer able to access the url?"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 sharedstorageoperation: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SharedStorageOperation",
@@ -10715,6 +10656,23 @@ function checkDeadlines() {
                     }
                   ]
                 },
+                textdecoder: {
+                  children: {
+                    ignorebom: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/TextDecoder/ignoreBOM",
+                      messages: [
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "/en-US/docs/Web/API/TextDecoder/TextDecoder",
+                            "#ignoreBOM"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 touch_events: {
                   children: {
                     "multi-touch_interaction": {
@@ -10734,6 +10692,13 @@ function checkDeadlines() {
                         {
                           message: "Unreachable via page",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://codicode.com/art/easy_way_to_add_touch_support_to_your_website.aspx",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -11037,13 +11002,6 @@ async function handleTranslation(e) {
                             "https://www.mathworks.com/help/dsphdl/ref/biquadfilter.html",
                             403
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.dspguide.com/CH20.PDF",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     },
@@ -11194,19 +11152,6 @@ connectedMoveCallback() {
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/Web_Crypto_API/Non-cryptographic_uses_of_subtle_crypto"
-                      ]
-                    }
-                  ]
-                },
-                web_periodic_background_synchronization_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Web_Periodic_Background_Synchronization_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
-                        "Unable to connect. Is the computer able to access the url?"
                       ]
                     }
                   ]
@@ -13396,17 +13341,7 @@ css.selectors.-webkit-resizer`,
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/CSS/@page",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://pagedjs.org/documentation/1-the-big-picture/",
-                        'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://pagedjs.org/documentation/1-the-big-picture/". For more information, pass `verbose: true` in the second argument to fetch()'
-                      ]
-                    }
-                  ]
+                  }
                 },
                 "@property": {
                   children: {
@@ -16479,6 +16414,19 @@ rgb(from red r g b / alpha)
 </section>
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    },
+                    flow_layout_and_writing_modes: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_display/Flow_layout_and_writing_modes",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2019/08/writing-modes-layout/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -28852,6 +28800,13 @@ http.headers.Use-As-Dictionary`,
                       children: {},
                       slug: "/en-US/docs/Web/JavaScript/Reference/Lexical_grammar",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5Cp%7BGeneral_Category%3DSpace_Separator%7D",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "Broken external link",
                           data: [
