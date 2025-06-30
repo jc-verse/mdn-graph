@@ -91,10 +91,8 @@ const htmlVisitor: Visitor = {
     } else if (attr.name === "style") {
       if (
         // Not worth fixing
-        (ctx.path === "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Paths" &&
-          attr.value === "display:none") ||
-        (ctx.path.startsWith("/en-US/docs/Web/API/SVG") &&
-          attr.value.match(/^fill:\w+;$/))
+        ctx.path === "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Paths" &&
+        attr.value === "display:none"
       )
         return;
       ctx.messages.push({

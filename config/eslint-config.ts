@@ -447,7 +447,7 @@ export default [
     files: [
       "Web/JavaScript/Guide/Using_classes/*",
       "Web/JavaScript/Reference/Classes/extends/*",
-      "Web/JavaScript/Reference/Classes/Private_properties/*",
+      "Web/JavaScript/Reference/Classes/Private_elements/*",
       "Web/JavaScript/Reference/Errors/Invalid_derived_return/*",
       "Web/JavaScript/Reference/Errors/Private_double_initialization/*",
       "Web/JavaScript/Reference/Operators/this/*",

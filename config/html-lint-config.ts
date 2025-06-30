@@ -25,7 +25,12 @@ export default {
       rules: { "empty-script": "off" },
     },
     {
-      files: ["Web/API/HTMLElement/style", "Web/API/SVGElement/style"],
+      files: [
+        "Web/API/HTMLElement/style",
+        "Web/API/SVGElement/style",
+        "Web/HTML/Reference/Global_attributes/style",
+        "Web/SVG/Reference/Attribute/style",
+      ],
       rules: { "no-style-attr": "off" },
     },
     {
@@ -54,10 +59,6 @@ export default {
     {
       files: ["Web/HTML/Reference/Elements/style"],
       rules: { "no-style-attr": "off", "no-style-elem": "off" },
-    },
-    {
-      files: ["Web/HTML/Reference/Global_attributes/style"],
-      rules: { "no-style-attr": "off" },
     },
     {
       files: ["Web/JavaScript/Guide/Modules"],

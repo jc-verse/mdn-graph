@@ -2437,6 +2437,28 @@ border-top-style: dotted;
 border-top: none thick green;
 ~~~
 
+/en-US/docs/Web/CSS/CSS_cascade/Cascade
+[no-style-attr] Do not use the style attribute.
+~~~
+<p style="line-height: 1.6em; text-decoration: overline !important;">Hello</p>
+~~~
+
+/en-US/docs/Web/CSS/CSS_cascade/Cascade
+[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+~~~
+<style>
+  @import "unlayeredStyles.css";
+  @import "AStyles.css" layer(A);
+  @import "moreUnlayeredStyles.css";
+  @import "BStyles.css" layer(B);
+  @import "CStyles.css" layer(C);
+  p {
+    color: red;
+    padding: 1em !important;
+  }
+</style>
+~~~
+
 /en-US/docs/Web/CSS/CSS_cascade/Shorthand_properties
 [declaration-block-no-shorthand-property-overrides] Unexpected shorthand "background" after "background-color" (declaration-block-no-shorthand-property-overrides)
 ~~~
@@ -2444,6 +2466,12 @@ p {
   background-color: red;
   background: url(images/bg.gif) no-repeat left top;
 }
+~~~
+
+/en-US/docs/Web/CSS/CSS_cascade/Specificity
+[no-style-attr] Do not use the style attribute.
+~~~
+<p style="color: purple">…</p>
 ~~~
 
 /en-US/docs/Web/CSS/CSS_cascading_variables/Using_CSS_custom_properties
@@ -2779,36 +2807,6 @@ selector {
   property: value !important; /* important declaration (preferred) */
   property: value ! important; /* important declaration (not preferred) */
 }
-~~~
-
-/en-US/docs/Web/CSS/line-style
-[no-style-attr] Do not use the style attribute.
-~~~
-<section>
-  <div style="border-color: #000000"></div>
-  <div style="border-color: #000001"></div>
-  <div style="border-color: #ffffff"></div>
-
-  <div style="border-color: #ff00ff"></div>
-  <div style="border-color: #ffff00"></div>
-  <div style="border-color: #00ffff"></div>
-
-  <div style="border-color: #cc33cc"></div>
-  <div style="border-color: #cccc33"></div>
-  <div style="border-color: #33cccc"></div>
-
-  <div style="border-color: #ff0000"></div>
-  <div style="border-color: #00ff00"></div>
-  <div style="border-color: #0000ff"></div>
-
-  <div style="border-color: #cc3333"></div>
-  <div style="border-color: #33cc33"></div>
-  <div style="border-color: #3333cc"></div>
-
-  <div style="border-color: #993333"></div>
-  <div style="border-color: #339933"></div>
-  <div style="border-color: #333399"></div>
-</section>
 ~~~
 
 /en-US/docs/Web/CSS/log
@@ -5258,7 +5256,7 @@ function fn() {} // Function declaration
 const obj = { key: "value" }; // Object keys
 // Class declaration
 class C {
-  #priv = "value"; // Private property
+  #priv = "value"; // Private element
 }
 lbl: console.log(1); // Label
 ~~~
@@ -6189,6 +6187,50 @@ const bad = `bad escape sequence: \unicode`;
     alert("hello!");
   </script>
 </div>
+~~~
+
+/en-US/docs/Web/SVG/Reference/Attribute/fill-opacity
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Default fill opacity: 1 -->
+  <circle cx="50" cy="50" r="40" />
+
+  <!-- Fill opacity as a number -->
+  <circle cx="150" cy="50" r="40" fill-opacity="0.7" />
+
+  <!-- Fill opacity as a percentage -->
+  <circle cx="250" cy="50" r="40" fill-opacity="50%" />
+
+  <!-- Fill opacity as a CSS property -->
+  <circle cx="350" cy="50" r="40" style="fill-opacity: .25;" />
+</svg>
+~~~
+
+/en-US/docs/Web/SVG/Reference/Attribute/stroke-opacity
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 40 10" xmlns="http://www.w3.org/2000/svg">
+  <!-- Default stroke opacity: 1 -->
+  <circle cx="5" cy="5" r="4" stroke="green" />
+
+  <!-- Stroke opacity as a number -->
+  <circle cx="15" cy="5" r="4" stroke="green" stroke-opacity="0.7" />
+
+  <!-- Stroke opacity as a percentage -->
+  <circle cx="25" cy="5" r="4" stroke="green" stroke-opacity="50%" />
+
+  <!-- Stroke opacity as a CSS property -->
+  <circle cx="35" cy="5" r="4" stroke="green" style="stroke-opacity: .3;" />
+</svg>
+~~~
+
+/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/SVG_and_CSS
+[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+~~~
+<style>
+  @import url(style8.css);
+</style>
 ~~~
 
 /en-US/docs/Web/URI/Reference/Schemes/javascript
