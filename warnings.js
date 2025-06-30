@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-7p9psjt9.js";
+} from "./chunk-nw8q5d3k.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -40,19 +40,6 @@ var warnings_processed_default = {
             },
             techniques: {
               children: {
-                "2d_collision_detection": {
-                  children: {},
-                  slug: "/en-US/docs/Games/Techniques/2D_collision_detection",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.sevenson.com.au/programming/sat/",
-                        "Cannot reach server and Bun hangs"
-                      ]
-                    }
-                  ]
-                },
                 "3d_on_the_web": {
                   children: {},
                   slug: "/en-US/docs/Games/Techniques/3D_on_the_web",
@@ -2428,6 +2415,19 @@ refused.textContent = 'Refuse: ';
                         }
                       ]
                     },
+                    html_images: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
                     including_vector_graphics_in_html: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Including_vector_graphics_in_HTML",
@@ -2736,6 +2736,13 @@ refused.textContent = 'Refuse: ';
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -2839,6 +2846,20 @@ refused.textContent = 'Refuse: ';
                         {
                           message: "Unreachable via page",
                           data: []
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://optipng.sourceforge.net/",
+                            "https://sourceforge.net/projects/optipng/"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://pmt.sourceforge.io/pngcrush/",
+                            403
+                          ]
                         }
                       ]
                     },
@@ -3011,6 +3032,13 @@ refused.textContent = 'Refuse: ';
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
                       messages: [
                         {
+                          message: "Redirected external link",
+                          data: [
+                            "https://bluefish.openoffice.nl/",
+                            "https://sourceforge.net/projects/bluefish/"
+                          ]
+                        },
+                        {
                           message: "Broken external link",
                           data: [
                             "https://www.codelobster.com/",
@@ -3021,7 +3049,7 @@ refused.textContent = 'Refuse: ';
                           message: "Broken external link",
                           data: [
                             "https://www.codelobster.com/forum/index.php",
-                            "Unable to connect. Is the computer able to access the url?"
+                            "The operation timed out."
                           ]
                         },
                         {
@@ -3029,6 +3057,41 @@ refused.textContent = 'Refuse: ';
                           data: [
                             "https://www.codelobsteride.com/help/",
                             "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vimdoc.sourceforge.net/htmldoc/uganda.html",
+                            403
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vimdoc.sourceforge.net/",
+                            500
                           ]
                         }
                       ]
@@ -3043,15 +3106,15 @@ refused.textContent = 'Refuse: ';
                         }
                       ]
                     },
-                    how_do_you_host_your_website_on_google_app_engine: {
+                    how_much_does_it_cost: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_much_does_it_cost",
                       messages: [
                         {
-                          message: "Broken external link",
+                          message: "Redirected external link",
                           data: [
-                            "https://gaesamplesite.appspot.com/",
-                            503
+                            "https://bluefish.openoffice.nl/index.html",
+                            "https://sourceforge.net/projects/bluefish/"
                           ]
                         }
                       ]
@@ -3060,6 +3123,13 @@ refused.textContent = 'Refuse: ';
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -9167,23 +9237,6 @@ api.DeviceOrientationEvent`,
                     }
                   }
                 },
-                fetch_api: {
-                  children: {
-                    using_fetch: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Fetch_API/Using_Fetch",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/dom-examples/tree/main/fetch",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 fetchevent: {
                   children: {
                     replacesclientid: {
@@ -10692,13 +10745,6 @@ function checkDeadlines() {
                         {
                           message: "Unreachable via page",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://codicode.com/art/easy_way_to_add_touch_support_to_your_website.aspx",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     }
@@ -16414,19 +16460,6 @@ rgb(from red r g b / alpha)
 </section>
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    flow_layout_and_writing_modes: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_display/Flow_layout_and_writing_modes",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2019/08/writing-modes-layout/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -28200,6 +28233,32 @@ html.elements.select.size`
                       children: {
                         meta: {
                           children: {
+                            "http-equiv": {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Elements/meta/http-equiv",
+                              messages: [
+                                {
+                                  message: "Broken anchor",
+                                  data: [
+                                    "#charset"
+                                  ]
+                                },
+                                {
+                                  message: "Broken anchor",
+                                  data: [
+                                    "/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Operable",
+                                    "#guideline_2.%E2%80%94_enough_time_provide_users_enough_time_to_read_and_use_content"
+                                  ]
+                                },
+                                {
+                                  message: "Broken anchor",
+                                  data: [
+                                    "/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Understandable",
+                                    "#guideline_3.%E2%80%94_predictable_make_web_pages_appear_and_operate_in_predictable_ways"
+                                  ]
+                                }
+                              ]
+                            },
                             name: {
                               children: {
                                 robots: {
@@ -28228,7 +28287,26 @@ html.elements.select.size`
                                 }
                               }
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/meta",
+                          messages: [
+                            {
+                              message: "Replace DT link with real target",
+                              data: [
+                                "#http-equiv",
+                                "/en-US/docs/Web/HTML/Reference/Elements/meta/http-equiv",
+                                []
+                              ]
+                            },
+                            {
+                              message: "Replace DT link with real target",
+                              data: [
+                                "#http-equiv",
+                                "/en-US/docs/Web/HTML/Reference/Elements/meta/http-equiv",
+                                []
+                              ]
+                            }
+                          ]
                         },
                         object: {
                           children: {},
@@ -28319,6 +28397,19 @@ http.headers.Use-As-Dictionary`,
                         }
                       ]
                     },
+                    content_negotiation: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTTP/Guides/Content_negotiation",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.eff.org/deeplinks/2010/01/primer-information-theory-and-privacy",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     cookies: {
                       children: {},
                       slug: "/en-US/docs/Web/HTTP/Guides/Cookies",
@@ -28377,7 +28468,17 @@ http.headers.Use-As-Dictionary`,
                             }
                           }
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/HTTP/Guides/CSP",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.netlify.com/blog/general-availability-content-security-policy-csp-nonce-integration/",
+                            "unknown certificate verification error"
+                          ]
+                        }
+                      ]
                     },
                     network_error_logging: {
                       children: {},
@@ -28415,6 +28516,19 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         "available-dictionary": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Available-Dictionary",
@@ -28528,6 +28642,19 @@ http.headers.Use-As-Dictionary`,
                             {
                               message: "Missing syntax code block",
                               data: []
+                            }
+                          ]
+                        },
+                        refresh: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Refresh",
+                          messages: [
+                            {
+                              message: "Broken anchor",
+                              data: [
+                                "/en-US/docs/Web/HTML/Reference/Elements/meta",
+                                "#refresh"
+                              ]
                             }
                           ]
                         },
@@ -28693,7 +28820,53 @@ http.headers.Use-As-Dictionary`,
                 reference: {
                   children: {
                     classes: {
-                      children: {}
+                      children: {
+                        private_elements: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Classes/Private_elements",
+                          messages: [
+                            {
+                              message: "JS code issue",
+                              data: [
+                                "no-constructor-return",
+                                "Unexpected return statement in constructor.",
+                                "    return obj;",
+                                "4:5 - 4:16",
+                                `/en-US/docs/Web/JavaScript/Reference/Classes/Private_elements
+[no-constructor-return] Unexpected return statement in constructor.
+~~~
+class Stamper extends class {
+  // A base class whose constructor returns the object it's given
+  constructor(obj) {
+    return obj;
+  }
+} {
+  // This declaration will "stamp" the private field onto the object
+  // returned by the base class constructor
+  #stamp = 42;
+  static getStamp(obj) {
+    return obj.#stamp;
+  }
+}
+
+const obj = {};
+new Stamper(obj);
+// \`Stamper\` calls \`Base\`, which returns \`obj\`, so \`obj\` is
+// now the \`this\` value. \`Stamper\` then defines \`#stamp\` on \`obj\`
+
+console.log(obj); // In some dev tools, it shows {#stamp: 42}
+console.log(Stamper.getStamp(obj)); // 42
+console.log(obj instanceof Stamper); // false
+
+// You cannot stamp private elements twice
+new Stamper(obj); // Error: Initializing an object twice is an error with private fields
+~~~
+`
+                              ]
+                            }
+                          ]
+                        }
+                      }
                     },
                     errors: {
                       children: {
@@ -28801,10 +28974,25 @@ http.headers.Use-As-Dictionary`,
                       slug: "/en-US/docs/Web/JavaScript/Reference/Lexical_grammar",
                       messages: [
                         {
-                          message: "Broken external link",
+                          message: "JS code issue",
                           data: [
-                            "https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5Cp%7BGeneral_Category%3DSpace_Separator%7D",
-                            "The operation timed out."
+                            "no-unused-labels",
+                            "'lbl:' is defined but never used.",
+                            "lbl: console.log(1); // Label",
+                            "8:1 - 8:4",
+                            `/en-US/docs/Web/JavaScript/Reference/Lexical_grammar
+[no-unused-labels] 'lbl:' is defined but never used.
+~~~
+const decl = 1; // Variable declaration (may also be \`let\` or \`var\`)
+function fn() {} // Function declaration
+const obj = { key: "value" }; // Object keys
+// Class declaration
+class C {
+  #priv = "value"; // Private field
+}
+lbl: console.log(1); // Label
+~~~
+`
                           ]
                         },
                         {
