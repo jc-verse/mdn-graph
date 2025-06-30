@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-nw8q5d3k.js";
+} from "./chunk-7576peae.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -2422,8 +2422,8 @@ refused.textContent = 'Refuse: ';
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
-                            "Cannot reach server and Bun hangs"
+                            "https://www.shutterstock.com/",
+                            403
                           ]
                         }
                       ]
@@ -2605,6 +2605,23 @@ refused.textContent = 'Refuse: ';
                       ]
                     }
                   ]
+                },
+                text_styling: {
+                  children: {
+                    web_fonts: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.exljbris.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 }
               },
               slug: "/en-US/docs/Learn_web_development/Core",
@@ -2736,13 +2753,6 @@ refused.textContent = 'Refuse: ';
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/gzip/",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     }
@@ -2817,19 +2827,6 @@ refused.textContent = 'Refuse: ';
                           ]
                         }
                       ]
-                    },
-                    finding_a_job: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Finding_a_job",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.upwork.com/",
-                            403
-                          ]
-                        }
-                      ]
                     }
                   }
                 }
@@ -2846,20 +2843,6 @@ refused.textContent = 'Refuse: ';
                         {
                           message: "Unreachable via page",
                           data: []
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://optipng.sourceforge.net/",
-                            "https://sourceforge.net/projects/optipng/"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://pmt.sourceforge.io/pngcrush/",
-                            403
-                          ]
                         }
                       ]
                     },
@@ -3032,13 +3015,6 @@ refused.textContent = 'Refuse: ';
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
                       messages: [
                         {
-                          message: "Redirected external link",
-                          data: [
-                            "https://bluefish.openoffice.nl/",
-                            "https://sourceforge.net/projects/bluefish/"
-                          ]
-                        },
-                        {
                           message: "Broken external link",
                           data: [
                             "https://www.codelobster.com/",
@@ -3058,41 +3034,6 @@ refused.textContent = 'Refuse: ';
                             "https://www.codelobsteride.com/help/",
                             "The operation timed out."
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/efaq.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vimdoc.sourceforge.net/htmldoc/uganda.html",
-                            403
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vimdoc.sourceforge.net/",
-                            500
-                          ]
                         }
                       ]
                     },
@@ -3106,30 +3047,10 @@ refused.textContent = 'Refuse: ';
                         }
                       ]
                     },
-                    how_much_does_it_cost: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_much_does_it_cost",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://bluefish.openoffice.nl/index.html",
-                            "https://sourceforge.net/projects/bluefish/"
-                          ]
-                        }
-                      ]
-                    },
                     what_software_do_i_need: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -8758,6 +8679,244 @@ api.MessagePort`,
                     }
                   }
                 },
+                console: {
+                  children: {
+                    assert_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/console/assert_static",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api",
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api"
+                          ]
+                        }
+                      ]
+                    },
+                    clear_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/console/clear_static",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api",
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api"
+                          ]
+                        }
+                      ]
+                    },
+                    count_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/console/count_static",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api",
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api"
+                          ]
+                        }
+                      ]
+                    },
+                    countreset_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/console/countReset_static",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api",
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api"
+                          ]
+                        }
+                      ]
+                    },
+                    debug_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/console/debug_static",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api",
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api"
+                          ]
+                        }
+                      ]
+                    },
+                    dir_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/console/dir_static",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api",
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api"
+                          ]
+                        }
+                      ]
+                    },
+                    dirxml_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/console/dirxml_static",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api",
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api"
+                          ]
+                        }
+                      ]
+                    },
+                    error_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/console/error_static",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api",
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api"
+                          ]
+                        }
+                      ]
+                    },
+                    group_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/console/group_static",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api",
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api"
+                          ]
+                        }
+                      ]
+                    },
+                    groupcollapsed_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/console/groupCollapsed_static",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api",
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api"
+                          ]
+                        }
+                      ]
+                    },
+                    groupend_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/console/groupEnd_static",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api",
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api"
+                          ]
+                        }
+                      ]
+                    },
+                    info_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/console/info_static",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api",
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api"
+                          ]
+                        }
+                      ]
+                    },
+                    log_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/console/log_static",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api",
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api"
+                          ]
+                        }
+                      ]
+                    },
+                    table_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/console/table_static",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api",
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api"
+                          ]
+                        }
+                      ]
+                    },
+                    time_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/console/time_static",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api",
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api"
+                          ]
+                        }
+                      ]
+                    },
+                    timeend_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/console/timeEnd_static",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api",
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api"
+                          ]
+                        }
+                      ]
+                    },
+                    trace_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/console/trace_static",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api",
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api"
+                          ]
+                        }
+                      ]
+                    },
+                    warn_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/console/warn_static",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api",
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 convolvernode: {
                   children: {},
                   slug: "/en-US/docs/Web/API/ConvolverNode",
@@ -9231,6 +9390,19 @@ api.DeviceOrientationEvent`,
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/rachelnabors/pen/rxpmJL/?editors=0010"
+                          ]
+                        }
+                      ]
+                    },
+                    setattribute: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Element/setAttribute",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/css/inspect",
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/css/inspect"
                           ]
                         }
                       ]
@@ -10060,6 +10232,19 @@ function checkDeadlines() {
                     }
                   }
                 },
+                ovr_multiview2: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/OVR_multiview2",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://community.arm.com/arm-community-blogs/b/mobile-graphics-and-gaming-blog/posts/optimizing-virtual-reality-understanding-multiview",
+                        503
+                      ]
+                    }
+                  ]
+                },
                 payment_request_api: {
                   children: {
                     concepts: {
@@ -10137,6 +10322,99 @@ function checkDeadlines() {
                       ]
                     }
                   }
+                },
+                periodicsyncevent: {
+                  children: {
+                    periodicsyncevent: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PeriodicSyncEvent/PeriodicSyncEvent",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
+                    tag: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PeriodicSyncEvent/tag",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/PeriodicSyncEvent",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
+                        "Cannot reach server and Bun hangs"
+                      ]
+                    }
+                  ]
+                },
+                periodicsyncmanager: {
+                  children: {
+                    gettags: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PeriodicSyncManager/getTags",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
+                    register: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PeriodicSyncManager/register",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
+                    unregister: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PeriodicSyncManager/unregister",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/PeriodicSyncManager",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
+                        "Cannot reach server and Bun hangs"
+                      ]
+                    }
+                  ]
                 },
                 pointer_events: {
                   children: {
@@ -10545,6 +10823,70 @@ function checkDeadlines() {
                     }
                   }
                 },
+                service_worker_api: {
+                  children: {
+                    using_service_workers: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/service-workers/",
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/service-workers/"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                serviceworkerglobalscope: {
+                  children: {
+                    periodicsync_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/ServiceWorkerGlobalScope/periodicsync_event",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
+                    sync_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/ServiceWorkerGlobalScope/sync_event",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                serviceworkerregistration: {
+                  children: {
+                    periodicsync: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/ServiceWorkerRegistration/periodicSync",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 sharedstorageoperation: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SharedStorageOperation",
@@ -10643,6 +10985,2660 @@ function checkDeadlines() {
                     }
                   ]
                 },
+                svgfeblendelement: {
+                  children: {
+                    in1: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEBlendElement/in1",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:red;"',
+                            "10:4 - 10:21",
+                            `/en-US/docs/Web/API/SVGFEBlendElement/in1
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <filter id="blend-filter">
+    <feBlend in="SourceGraphic" operator="over" />
+    <feBlend in="BackgroundImage" operator="in" />
+  </filter>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:red;"
+    filter="url(#blend-filter)" />
+  <circle
+    cx="100"
+    cy="100"
+    r="50"
+    style="fill:blue;"
+    filter="url(#blend-filter)" />
+</svg>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:blue;"',
+                            "16:4 - 16:22",
+                            `/en-US/docs/Web/API/SVGFEBlendElement/in1
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <filter id="blend-filter">
+    <feBlend in="SourceGraphic" operator="over" />
+    <feBlend in="BackgroundImage" operator="in" />
+  </filter>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:red;"
+    filter="url(#blend-filter)" />
+  <circle
+    cx="100"
+    cy="100"
+    r="50"
+    style="fill:blue;"
+    filter="url(#blend-filter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    in2: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEBlendElement/in2",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:red;"',
+                            "10:4 - 10:21",
+                            `/en-US/docs/Web/API/SVGFEBlendElement/in2
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <filter id="blend-filter">
+    <feBlend in="SourceGraphic" in2="SourceAlpha" operator="over" />
+    <feBlend in="SourceGraphic" in2="BackgroundImage" operator="in" />
+  </filter>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:red;"
+    filter="url(#blend-filter)" />
+  <circle
+    cx="100"
+    cy="100"
+    r="50"
+    style="fill:blue;"
+    filter="url(#blend-filter)" />
+</svg>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:blue;"',
+                            "16:4 - 16:22",
+                            `/en-US/docs/Web/API/SVGFEBlendElement/in2
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <filter id="blend-filter">
+    <feBlend in="SourceGraphic" in2="SourceAlpha" operator="over" />
+    <feBlend in="SourceGraphic" in2="BackgroundImage" operator="in" />
+  </filter>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:red;"
+    filter="url(#blend-filter)" />
+  <circle
+    cx="100"
+    cy="100"
+    r="50"
+    style="fill:blue;"
+    filter="url(#blend-filter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    mode: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEBlendElement/mode",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:red;"',
+                            "10:4 - 10:21",
+                            `/en-US/docs/Web/API/SVGFEBlendElement/mode
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <filter id="blend-filter">
+    <feBlend in="SourceGraphic" in2="SourceAlpha" mode="multiply" />
+    <feBlend in="SourceGraphic" in2="BackgroundImage" mode="screen" />
+  </filter>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:red;"
+    filter="url(#blend-filter)" />
+  <circle
+    cx="100"
+    cy="100"
+    r="50"
+    style="fill:blue;"
+    filter="url(#blend-filter)" />
+</svg>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:blue;"',
+                            "16:4 - 16:22",
+                            `/en-US/docs/Web/API/SVGFEBlendElement/mode
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <filter id="blend-filter">
+    <feBlend in="SourceGraphic" in2="SourceAlpha" mode="multiply" />
+    <feBlend in="SourceGraphic" in2="BackgroundImage" mode="screen" />
+  </filter>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:red;"
+    filter="url(#blend-filter)" />
+  <circle
+    cx="100"
+    cy="100"
+    r="50"
+    style="fill:blue;"
+    filter="url(#blend-filter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                svgfecolormatrixelement: {
+                  children: {
+                    in1: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEColorMatrixElement/in1",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:red;"',
+                            "16:4 - 16:21",
+                            `/en-US/docs/Web/API/SVGFEColorMatrixElement/in1
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <filter id="color-matrix-filter">
+    <feColorMatrix
+      in="SourceGraphic"
+      type="matrix"
+      values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" />
+    <feColorMatrix
+      in="BackgroundImage"
+      type="matrix"
+      values="0.5 0 0 0 0 0 0.5 0 0 0 0 0 0.5 0 0 0 0 0 1 0" />
+  </filter>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:red;"
+    filter="url(#color-matrix-filter)" />
+  <circle
+    cx="100"
+    cy="100"
+    r="50"
+    style="fill:blue;"
+    filter="url(#color-matrix-filter)" />
+</svg>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:blue;"',
+                            "22:4 - 22:22",
+                            `/en-US/docs/Web/API/SVGFEColorMatrixElement/in1
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <filter id="color-matrix-filter">
+    <feColorMatrix
+      in="SourceGraphic"
+      type="matrix"
+      values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" />
+    <feColorMatrix
+      in="BackgroundImage"
+      type="matrix"
+      values="0.5 0 0 0 0 0 0.5 0 0 0 0 0 0.5 0 0 0 0 0 1 0" />
+  </filter>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:red;"
+    filter="url(#color-matrix-filter)" />
+  <circle
+    cx="100"
+    cy="100"
+    r="50"
+    style="fill:blue;"
+    filter="url(#color-matrix-filter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    type: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEColorMatrixElement/type",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:red;"',
+                            "12:4 - 12:21",
+                            `/en-US/docs/Web/API/SVGFEColorMatrixElement/type
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <filter id="color-matrix-filter">
+    <feColorMatrix
+      type="matrix"
+      values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" />
+    <feColorMatrix type="saturate" values="0.5" />
+  </filter>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:red;"
+    filter="url(#color-matrix-filter)" />
+  <circle
+    cx="100"
+    cy="100"
+    r="50"
+    style="fill:blue;"
+    filter="url(#color-matrix-filter)" />
+</svg>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:blue;"',
+                            "18:4 - 18:22",
+                            `/en-US/docs/Web/API/SVGFEColorMatrixElement/type
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <filter id="color-matrix-filter">
+    <feColorMatrix
+      type="matrix"
+      values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" />
+    <feColorMatrix type="saturate" values="0.5" />
+  </filter>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:red;"
+    filter="url(#color-matrix-filter)" />
+  <circle
+    cx="100"
+    cy="100"
+    r="50"
+    style="fill:blue;"
+    filter="url(#color-matrix-filter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    values: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEColorMatrixElement/values",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:red;"',
+                            "11:4 - 11:21",
+                            `/en-US/docs/Web/API/SVGFEColorMatrixElement/values
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <filter id="color-matrix-filter">
+    <feColorMatrix
+      type="matrix"
+      values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" />
+  </filter>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:red;"
+    filter="url(#color-matrix-filter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                svgfecomponenttransferelement: {
+                  children: {
+                    in1: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEComponentTransferElement/in1",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:red;"',
+                            "14:4 - 14:21",
+                            `/en-US/docs/Web/API/SVGFEComponentTransferElement/in1
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <filter id="filter1">
+    <feComponentTransfer in="SourceGraphic">
+      <feFuncR type="table" tableValues="0 1" />
+    </feComponentTransfer>
+    <feComponentTransfer in="BackgroundImage">
+      <feFuncR type="table" tableValues="0.5 1" />
+    </feComponentTransfer>
+  </filter>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:red;"
+    filter="url(#filter1)" />
+  <circle cx="100" cy="100" r="50" style="fill:blue;" filter="url(#filter1)" />
+</svg>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '  <circle cx="100" cy="100" r="50" style="fill:blue;" filter="url(#filter1)" />',
+                            "16:35 - 16:53",
+                            `/en-US/docs/Web/API/SVGFEComponentTransferElement/in1
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <filter id="filter1">
+    <feComponentTransfer in="SourceGraphic">
+      <feFuncR type="table" tableValues="0 1" />
+    </feComponentTransfer>
+    <feComponentTransfer in="BackgroundImage">
+      <feFuncR type="table" tableValues="0.5 1" />
+    </feComponentTransfer>
+  </filter>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:red;"
+    filter="url(#filter1)" />
+  <circle cx="100" cy="100" r="50" style="fill:blue;" filter="url(#filter1)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                svgfeconvolvematrixelement: {
+                  children: {
+                    bias: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEConvolveMatrixElement/bias",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:lightblue;"',
+                            "15:4 - 15:27",
+                            `/en-US/docs/Web/API/SVGFEConvolveMatrixElement/bias
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="convolveFilterWithBias">
+      <feConvolveMatrix
+        in="SourceGraphic"
+        order="3"
+        kernelMatrix="0 -1 0 -1 5 -1 0 -1 0"
+        bias="0.25" />
+    </filter>
+  </defs>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:lightblue;"
+    filter="url(#convolveFilterWithBias)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    divisor: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEConvolveMatrixElement/divisor",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:lightgreen;"',
+                            "15:4 - 15:28",
+                            `/en-US/docs/Web/API/SVGFEConvolveMatrixElement/divisor
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="convolveFilterWithDivisor">
+      <feConvolveMatrix
+        in="SourceGraphic"
+        order="3"
+        kernelMatrix="0 -1 0 -1 4 -1 0 -1 0"
+        divisor="1" />
+    </filter>
+  </defs>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:lightgreen;"
+    filter="url(#convolveFilterWithDivisor)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    in1: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEConvolveMatrixElement/in1",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:lightblue;"',
+                            "14:4 - 14:27",
+                            `/en-US/docs/Web/API/SVGFEConvolveMatrixElement/in1
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="convolveFilter">
+      <feConvolveMatrix
+        in="SourceGraphic"
+        order="3"
+        kernelMatrix="0 -1 0 -1 4 -1 0 -1 0" />
+    </filter>
+  </defs>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:lightblue;"
+    filter="url(#convolveFilter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                svgfediffuselightingelement: {
+                  children: {
+                    diffuseconstant: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEDiffuseLightingElement/diffuseConstant",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:lightblue;"',
+                            "16:4 - 16:27",
+                            `/en-US/docs/Web/API/SVGFEDiffuseLightingElement/diffuseConstant
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="diffuseLightingFilter">
+      <feDiffuseLighting
+        in="SourceGraphic"
+        diffuseConstant="1.5"
+        lighting-color="white">
+        <feDistantLight azimuth="45" elevation="55" />
+      </feDiffuseLighting>
+    </filter>
+  </defs>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:lightblue;"
+    filter="url(#diffuseLightingFilter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    in1: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEDiffuseLightingElement/in1",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:lightblue;"',
+                            "17:4 - 17:27",
+                            `/en-US/docs/Web/API/SVGFEDiffuseLightingElement/in1
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="diffuseLightingFilter">
+      <feDiffuseLighting
+        in="SourceGraphic"
+        result="diffuseLightingResult"
+        lighting-color="white"
+        surfaceScale="1">
+        <feDistantLight azimuth="45" elevation="55" />
+      </feDiffuseLighting>
+    </filter>
+  </defs>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:lightblue;"
+    filter="url(#diffuseLightingFilter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    surfacescale: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEDiffuseLightingElement/surfaceScale",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:lightblue;"',
+                            "16:4 - 16:27",
+                            `/en-US/docs/Web/API/SVGFEDiffuseLightingElement/surfaceScale
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="diffuseLightingFilter">
+      <feDiffuseLighting
+        in="SourceGraphic"
+        surfaceScale="2"
+        lighting-color="white">
+        <feDistantLight azimuth="45" elevation="55" />
+      </feDiffuseLighting>
+    </filter>
+  </defs>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:lightblue;"
+    filter="url(#diffuseLightingFilter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                svgfedisplacementmapelement: {
+                  children: {
+                    in1: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEDisplacementMapElement/in1",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:red;"',
+                            "19:4 - 19:21",
+                            `/en-US/docs/Web/API/SVGFEDisplacementMapElement/in1
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="filter1">
+      <!-- First Displacement Map -->
+      <feDisplacementMap in="SourceGraphic" scale="20">
+        <feFuncR type="table" tableValues="0 1" />
+      </feDisplacementMap>
+
+      <!-- Second Displacement Map -->
+      <feDisplacementMap in="BackgroundImage" scale="30">
+        <feFuncR type="table" tableValues="0.5 1" />
+      </feDisplacementMap>
+    </filter>
+  </defs>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:red;"
+    filter="url(#filter1)" />
+  <circle cx="100" cy="100" r="50" style="fill:blue;" filter="url(#filter1)" />
+</svg>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '  <circle cx="100" cy="100" r="50" style="fill:blue;" filter="url(#filter1)" />',
+                            "21:35 - 21:53",
+                            `/en-US/docs/Web/API/SVGFEDisplacementMapElement/in1
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="filter1">
+      <!-- First Displacement Map -->
+      <feDisplacementMap in="SourceGraphic" scale="20">
+        <feFuncR type="table" tableValues="0 1" />
+      </feDisplacementMap>
+
+      <!-- Second Displacement Map -->
+      <feDisplacementMap in="BackgroundImage" scale="30">
+        <feFuncR type="table" tableValues="0.5 1" />
+      </feDisplacementMap>
+    </filter>
+  </defs>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:red;"
+    filter="url(#filter1)" />
+  <circle cx="100" cy="100" r="50" style="fill:blue;" filter="url(#filter1)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    in2: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEDisplacementMapElement/in2",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:red;"',
+                            "19:4 - 19:21",
+                            `/en-US/docs/Web/API/SVGFEDisplacementMapElement/in2
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="filter1">
+      <!-- First Displacement Map -->
+      <feDisplacementMap in="SourceGraphic" in2="BackgroundImage" scale="20">
+        <feFuncR type="table" tableValues="0 1" />
+      </feDisplacementMap>
+
+      <!-- Second Displacement Map -->
+      <feDisplacementMap in="SourceGraphic" in2="BackgroundImage" scale="30">
+        <feFuncR type="table" tableValues="0.5 1" />
+      </feDisplacementMap>
+    </filter>
+  </defs>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:red;"
+    filter="url(#filter1)" />
+  <circle cx="100" cy="100" r="50" style="fill:blue;" filter="url(#filter1)" />
+</svg>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '  <circle cx="100" cy="100" r="50" style="fill:blue;" filter="url(#filter1)" />',
+                            "21:35 - 21:53",
+                            `/en-US/docs/Web/API/SVGFEDisplacementMapElement/in2
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="filter1">
+      <!-- First Displacement Map -->
+      <feDisplacementMap in="SourceGraphic" in2="BackgroundImage" scale="20">
+        <feFuncR type="table" tableValues="0 1" />
+      </feDisplacementMap>
+
+      <!-- Second Displacement Map -->
+      <feDisplacementMap in="SourceGraphic" in2="BackgroundImage" scale="30">
+        <feFuncR type="table" tableValues="0.5 1" />
+      </feDisplacementMap>
+    </filter>
+  </defs>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:red;"
+    filter="url(#filter1)" />
+  <circle cx="100" cy="100" r="50" style="fill:blue;" filter="url(#filter1)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    scale: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEDisplacementMapElement/scale",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:red;"',
+                            "14:4 - 14:21",
+                            `/en-US/docs/Web/API/SVGFEDisplacementMapElement/scale
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="filter1">
+      <!-- Displacement Map -->
+      <feDisplacementMap in="SourceGraphic" scale="20">
+        <feFuncR type="table" tableValues="0 1" />
+      </feDisplacementMap>
+    </filter>
+  </defs>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:red;"
+    filter="url(#filter1)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    xchannelselector: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEDisplacementMapElement/xChannelSelector",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:red;"',
+                            "14:4 - 14:21",
+                            `/en-US/docs/Web/API/SVGFEDisplacementMapElement/xChannelSelector
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="displacementFilter">
+      <!-- Displacement Map with xChannelSelector set to Red Channel -->
+      <feDisplacementMap in="SourceGraphic" scale="20" xChannelSelector="R">
+        <feFuncR type="table" tableValues="0 1" />
+      </feDisplacementMap>
+    </filter>
+  </defs>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:red;"
+    filter="url(#displacementFilter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    ychannelselector: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEDisplacementMapElement/yChannelSelector",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:green;"',
+                            "14:4 - 14:23",
+                            `/en-US/docs/Web/API/SVGFEDisplacementMapElement/yChannelSelector
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="displacementFilter">
+      <!-- Displacement Map with yChannelSelector set to Red Channel -->
+      <feDisplacementMap in="SourceGraphic" scale="20" yChannelSelector="G">
+        <feFuncR type="table" tableValues="0 1" />
+      </feDisplacementMap>
+    </filter>
+  </defs>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:green;"
+    filter="url(#displacementFilter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                svgfedistantlightelement: {
+                  children: {
+                    azimuth: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEDistantLightElement/azimuth",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:yellow;"',
+                            "14:4 - 14:24",
+                            `/en-US/docs/Web/API/SVGFEDistantLightElement/azimuth
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="lightingFilter">
+      <feDistantLight azimuth="45" elevation="30" />
+      <feDiffuseLighting result="light" lighting-color="white" surfaceScale="2">
+        <feDistantLight azimuth="45" elevation="30" />
+      </feDiffuseLighting>
+    </filter>
+  </defs>
+  <rect
+    x="50"
+    y="50"
+    width="100"
+    height="100"
+    style="fill:yellow;"
+    filter="url(#lightingFilter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    elevation: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEDistantLightElement/elevation",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:yellow;"',
+                            "14:4 - 14:24",
+                            `/en-US/docs/Web/API/SVGFEDistantLightElement/elevation
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="lightingFilter">
+      <feDistantLight azimuth="45" elevation="30" />
+      <feDiffuseLighting result="light" lighting-color="white" surfaceScale="2">
+        <feDistantLight azimuth="45" elevation="30" />
+      </feDiffuseLighting>
+    </filter>
+  </defs>
+  <rect
+    x="50"
+    y="50"
+    width="100"
+    height="100"
+    style="fill:yellow;"
+    filter="url(#lightingFilter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                svgfedropshadowelement: {
+                  children: {
+                    dx: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEDropShadowElement/dx",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:red;"',
+                            "19:4 - 19:21",
+                            `/en-US/docs/Web/API/SVGFEDropShadowElement/dx
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="drop-shadow-filter">
+      <!-- Drop Shadow with dx property set to 10 -->
+      <feDropShadow
+        in="SourceGraphic"
+        dx="10"
+        dy="10"
+        stdDeviation="5"
+        flood-color="red" />
+    </filter>
+  </defs>
+
+  <!-- Rectangle with a red shadow -->
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:red;"
+    filter="url(#drop-shadow-filter)" />
+
+  <!-- Circle with a red shadow -->
+  <circle
+    cx="100"
+    cy="100"
+    r="50"
+    style="fill:blue;"
+    filter="url(#drop-shadow-filter)" />
+</svg>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:blue;"',
+                            "27:4 - 27:22",
+                            `/en-US/docs/Web/API/SVGFEDropShadowElement/dx
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="drop-shadow-filter">
+      <!-- Drop Shadow with dx property set to 10 -->
+      <feDropShadow
+        in="SourceGraphic"
+        dx="10"
+        dy="10"
+        stdDeviation="5"
+        flood-color="red" />
+    </filter>
+  </defs>
+
+  <!-- Rectangle with a red shadow -->
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:red;"
+    filter="url(#drop-shadow-filter)" />
+
+  <!-- Circle with a red shadow -->
+  <circle
+    cx="100"
+    cy="100"
+    r="50"
+    style="fill:blue;"
+    filter="url(#drop-shadow-filter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    dy: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEDropShadowElement/dy",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:red;"',
+                            "19:4 - 19:21",
+                            `/en-US/docs/Web/API/SVGFEDropShadowElement/dy
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="drop-shadow-filter">
+      <!-- Drop Shadow with dy property set to 10 -->
+      <feDropShadow
+        in="SourceGraphic"
+        dx="10"
+        dy="10"
+        stdDeviation="5"
+        flood-color="red" />
+    </filter>
+  </defs>
+
+  <!-- Rectangle with a red shadow -->
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:red;"
+    filter="url(#drop-shadow-filter)" />
+
+  <!-- Circle with a red shadow -->
+  <circle
+    cx="100"
+    cy="100"
+    r="50"
+    style="fill:blue;"
+    filter="url(#drop-shadow-filter)" />
+</svg>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:blue;"',
+                            "27:4 - 27:22",
+                            `/en-US/docs/Web/API/SVGFEDropShadowElement/dy
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="drop-shadow-filter">
+      <!-- Drop Shadow with dy property set to 10 -->
+      <feDropShadow
+        in="SourceGraphic"
+        dx="10"
+        dy="10"
+        stdDeviation="5"
+        flood-color="red" />
+    </filter>
+  </defs>
+
+  <!-- Rectangle with a red shadow -->
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:red;"
+    filter="url(#drop-shadow-filter)" />
+
+  <!-- Circle with a red shadow -->
+  <circle
+    cx="100"
+    cy="100"
+    r="50"
+    style="fill:blue;"
+    filter="url(#drop-shadow-filter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    in1: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEDropShadowElement/in1",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:red;"',
+                            "25:4 - 25:21",
+                            `/en-US/docs/Web/API/SVGFEDropShadowElement/in1
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="drop-shadow-filter">
+      <!-- First Drop Shadow applied to the SourceGraphic -->
+      <feDropShadow
+        in="SourceGraphic"
+        dx="10"
+        dy="10"
+        stdDeviation="5"
+        flood-color="red" />
+      <!-- Second Drop Shadow applied to the BackgroundImage -->
+      <feDropShadow
+        in="BackgroundImage"
+        dx="-10"
+        dy="-10"
+        stdDeviation="5"
+        flood-color="blue" />
+    </filter>
+  </defs>
+  <!-- Rectangle with red shadow -->
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:red;"
+    filter="url(#drop-shadow-filter)" />
+  <!-- Circle with blue shadow -->
+  <circle
+    cx="100"
+    cy="100"
+    r="50"
+    style="fill:blue;"
+    filter="url(#drop-shadow-filter)" />
+</svg>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:blue;"',
+                            "32:4 - 32:22",
+                            `/en-US/docs/Web/API/SVGFEDropShadowElement/in1
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="drop-shadow-filter">
+      <!-- First Drop Shadow applied to the SourceGraphic -->
+      <feDropShadow
+        in="SourceGraphic"
+        dx="10"
+        dy="10"
+        stdDeviation="5"
+        flood-color="red" />
+      <!-- Second Drop Shadow applied to the BackgroundImage -->
+      <feDropShadow
+        in="BackgroundImage"
+        dx="-10"
+        dy="-10"
+        stdDeviation="5"
+        flood-color="blue" />
+    </filter>
+  </defs>
+  <!-- Rectangle with red shadow -->
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:red;"
+    filter="url(#drop-shadow-filter)" />
+  <!-- Circle with blue shadow -->
+  <circle
+    cx="100"
+    cy="100"
+    r="50"
+    style="fill:blue;"
+    filter="url(#drop-shadow-filter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    setstddeviation: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEDropShadowElement/setStdDeviation",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:red;"',
+                            "18:4 - 18:21",
+                            `/en-US/docs/Web/API/SVGFEDropShadowElement/setStdDeviation
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg height="200" width="200" viewBox="0 0 200 200">
+  <defs>
+    <filter id="drop-shadow-filter">
+      <feDropShadow
+        in="SourceGraphic"
+        dx="10"
+        dy="10"
+        stdDeviation="5 5"
+        flood-color="gray" />
+    </filter>
+  </defs>
+
+  <!-- Rectangle with an initial gray shadow -->
+  <rect
+    x="50"
+    y="50"
+    width="100"
+    height="100"
+    style="fill:red;"
+    filter="url(#drop-shadow-filter)" />
+</svg>
+
+<!-- Button to update the shadow -->
+<button id="updateShadow" type="button">Update Shadow</button>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    stddeviationx: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEDropShadowElement/stdDeviationX",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:red;"',
+                            "19:4 - 19:21",
+                            `/en-US/docs/Web/API/SVGFEDropShadowElement/stdDeviationX
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="drop-shadow-filter">
+      <!-- Drop Shadow with stdDeviationY property set to 10 for vertical blur -->
+      <feDropShadow
+        in="SourceGraphic"
+        dx="10"
+        dy="10"
+        stdDeviation="5 10"
+        flood-color="gray" />
+    </filter>
+  </defs>
+
+  <!-- Rectangle with a gray shadow -->
+  <rect
+    x="50"
+    y="50"
+    width="100"
+    height="100"
+    style="fill:red;"
+    filter="url(#drop-shadow-filter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    stddeviationy: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEDropShadowElement/stdDeviationY",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:red;"',
+                            "19:4 - 19:21",
+                            `/en-US/docs/Web/API/SVGFEDropShadowElement/stdDeviationY
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="drop-shadow-filter">
+      <!-- Drop Shadow with stdDeviationY property set to 10 for vertical blur -->
+      <feDropShadow
+        in="SourceGraphic"
+        dx="10"
+        dy="10"
+        stdDeviation="5 10"
+        flood-color="gray" />
+    </filter>
+  </defs>
+
+  <!-- Rectangle with a gray shadow -->
+  <rect
+    x="50"
+    y="50"
+    width="100"
+    height="100"
+    style="fill:red;"
+    filter="url(#drop-shadow-filter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                svgfegaussianblurelement: {
+                  children: {
+                    in1: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEGaussianBlurElement/in1",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:rebeccapurple;"',
+                            "22:4 - 22:31",
+                            `/en-US/docs/Web/API/SVGFEGaussianBlurElement/in1
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="gaussian-blur-filter">
+      <!-- Gaussian blur applied to the SourceGraphic -->
+      <feGaussianBlur
+        in="SourceGraphic"
+        stdDeviation="5"
+        result="blurred-source" />
+      <!-- Gaussian blur applied to the BackgroundImage -->
+      <feGaussianBlur
+        in="BackgroundImage"
+        stdDeviation="10"
+        result="blurred-background" />
+    </filter>
+  </defs>
+
+  <!-- Rectangle with SourceGraphic blur effect -->
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:rebeccapurple;"
+    filter="url(#gaussian-blur-filter)" />
+
+  <!-- Circle with BackgroundImage blur effect -->
+  <circle
+    cx="150"
+    cy="100"
+    r="50"
+    style="fill:hotpink;"
+    filter="url(#gaussian-blur-filter)" />
+</svg>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:hotpink;"',
+                            "30:4 - 30:25",
+                            `/en-US/docs/Web/API/SVGFEGaussianBlurElement/in1
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="gaussian-blur-filter">
+      <!-- Gaussian blur applied to the SourceGraphic -->
+      <feGaussianBlur
+        in="SourceGraphic"
+        stdDeviation="5"
+        result="blurred-source" />
+      <!-- Gaussian blur applied to the BackgroundImage -->
+      <feGaussianBlur
+        in="BackgroundImage"
+        stdDeviation="10"
+        result="blurred-background" />
+    </filter>
+  </defs>
+
+  <!-- Rectangle with SourceGraphic blur effect -->
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:rebeccapurple;"
+    filter="url(#gaussian-blur-filter)" />
+
+  <!-- Circle with BackgroundImage blur effect -->
+  <circle
+    cx="150"
+    cy="100"
+    r="50"
+    style="fill:hotpink;"
+    filter="url(#gaussian-blur-filter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    setstddeviation: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEGaussianBlurElement/setStdDeviation",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:hotpink;"',
+                            "16:4 - 16:25",
+                            `/en-US/docs/Web/API/SVGFEGaussianBlurElement/setStdDeviation
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="gaussian-blur-filter">
+      <feGaussianBlur
+        in="SourceGraphic"
+        stdDeviation="5 5"
+        result="blurred-graphic" />
+    </filter>
+  </defs>
+
+  <!-- Rectangle with an initial blur effect -->
+  <rect
+    x="50"
+    y="50"
+    width="100"
+    height="100"
+    style="fill:hotpink;"
+    filter="url(#gaussian-blur-filter)" />
+</svg>
+
+<!-- Button to update the blur -->
+<button id="updateBlur">Update Blur</button>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    stddeviationx: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEGaussianBlurElement/stdDeviationX",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:hotpink;"',
+                            "17:4 - 17:25",
+                            `/en-US/docs/Web/API/SVGFEGaussianBlurElement/stdDeviationX
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="gaussian-blur-filter">
+      <!-- Apply Gaussian Blur with stdDeviationX set to 5 and stdDeviationY set to 10 -->
+      <feGaussianBlur
+        in="SourceGraphic"
+        stdDeviation="5 10"
+        result="blurred-graphic" />
+    </filter>
+  </defs>
+
+  <!-- Rectangle with a Gaussian blur effect -->
+  <rect
+    x="50"
+    y="50"
+    width="100"
+    height="100"
+    style="fill:hotpink;"
+    filter="url(#gaussian-blur-filter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    stddeviationy: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEGaussianBlurElement/stdDeviationY",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:hotpink;"',
+                            "17:4 - 17:25",
+                            `/en-US/docs/Web/API/SVGFEGaussianBlurElement/stdDeviationY
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="gaussian-blur-filter">
+      <!-- Apply Gaussian Blur with stdDeviationY set to 5 and stdDeviationY set to 10 -->
+      <feGaussianBlur
+        in="SourceGraphic"
+        stdDeviation="5 10"
+        result="blurred-graphic" />
+    </filter>
+  </defs>
+
+  <!-- Rectangle with a Gaussian blur effect -->
+  <rect
+    x="50"
+    y="50"
+    width="100"
+    height="100"
+    style="fill:hotpink;"
+    filter="url(#gaussian-blur-filter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                svgfeimageelement: {
+                  children: {
+                    href: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEImageElement/href",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:blue;"',
+                            "19:4 - 19:22",
+                            `/en-US/docs/Web/API/SVGFEImageElement/href
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200">
+  <defs>
+    <filter id="image-filter">
+      <!-- feImage element referencing an external image -->
+      <feImage
+        href="https://via.placeholder.com/150"
+        x="0"
+        y="0"
+        width="150"
+        height="150" />
+    </filter>
+  </defs>
+
+  <!-- Rectangle with the filter applied -->
+  <rect
+    x="50"
+    y="50"
+    width="200"
+    height="100"
+    style="fill:blue;"
+    filter="url(#image-filter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    preserveaspectratio: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEImageElement/preserveAspectRatio",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:blue;"',
+                            "20:4 - 20:22",
+                            `/en-US/docs/Web/API/SVGFEImageElement/preserveAspectRatio
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200">
+  <defs>
+    <filter id="image-filter">
+      <!-- feImage element with preserveAspectRatio attribute -->
+      <feImage
+        href="https://via.placeholder.com/150"
+        x="0"
+        y="0"
+        width="150"
+        height="150"
+        preserveAspectRatio="xMidYMid meet" />
+    </filter>
+  </defs>
+
+  <!-- Rectangle with the filter applied -->
+  <rect
+    x="50"
+    y="50"
+    width="200"
+    height="100"
+    style="fill:blue;"
+    filter="url(#image-filter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                svgfemergenodeelement: {
+                  children: {
+                    in1: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEMergeNodeElement/in1",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:lightblue;"',
+                            "15:4 - 15:27",
+                            `/en-US/docs/Web/API/SVGFEMergeNodeElement/in1
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="mergeFilter">
+      <!-- Merges two inputs -->
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="BackgroundImage" />
+      </feMerge>
+    </filter>
+  </defs>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:lightblue;"
+    filter="url(#mergeFilter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                svgfemorphologyelement: {
+                  children: {
+                    in1: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEMorphologyElement/in1",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:lightblue;"',
+                            "12:4 - 12:27",
+                            `/en-US/docs/Web/API/SVGFEMorphologyElement/in1
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="morphologyFilter">
+      <!-- Applies a morphology filter to the SourceGraphic -->
+      <feMorphology in="SourceGraphic" operator="dilate" radius="2" />
+    </filter>
+  </defs>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:lightblue;"
+    filter="url(#morphologyFilter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    operator: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEMorphologyElement/operator",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:lightblue;"',
+                            "12:4 - 12:27",
+                            `/en-US/docs/Web/API/SVGFEMorphologyElement/operator
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="morphologyFilter">
+      <!-- Applies a morphology filter with the "dilate" operator -->
+      <feMorphology in="SourceGraphic" operator="dilate" radius="3" />
+    </filter>
+  </defs>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:lightblue;"
+    filter="url(#morphologyFilter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    radiusx: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEMorphologyElement/radiusX",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:lightblue;"',
+                            "12:4 - 12:27",
+                            `/en-US/docs/Web/API/SVGFEMorphologyElement/radiusX
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="morphologyFilter">
+      <!-- Applies a morphology filter with a specific radius -->
+      <feMorphology in="SourceGraphic" operator="dilate" radius="5 3" />
+    </filter>
+  </defs>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:lightblue;"
+    filter="url(#morphologyFilter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    radiusy: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEMorphologyElement/radiusY",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:lightblue;"',
+                            "12:4 - 12:27",
+                            `/en-US/docs/Web/API/SVGFEMorphologyElement/radiusY
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="morphologyFilter">
+      <!-- Applies a morphology filter with a specific radius -->
+      <feMorphology in="SourceGraphic" operator="dilate" radius="5 3" />
+    </filter>
+  </defs>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:lightblue;"
+    filter="url(#morphologyFilter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                svgfeoffsetelement: {
+                  children: {
+                    dx: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEOffsetElement/dx",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:lightblue;"',
+                            "12:4 - 12:27",
+                            `/en-US/docs/Web/API/SVGFEOffsetElement/dx
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="offsetFilter">
+      <!-- Applies an offset to the SourceGraphic -->
+      <feOffset in="SourceGraphic" dx="15" dy="10" />
+    </filter>
+  </defs>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:lightblue;"
+    filter="url(#offsetFilter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    dy: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEOffsetElement/dy",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:lightblue;"',
+                            "12:4 - 12:27",
+                            `/en-US/docs/Web/API/SVGFEOffsetElement/dy
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="offsetFilter">
+      <!-- Applies an offset to the SourceGraphic -->
+      <feOffset in="SourceGraphic" dx="15" dy="10" />
+    </filter>
+  </defs>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:lightblue;"
+    filter="url(#offsetFilter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    in1: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFEOffsetElement/in1",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:lightblue;"',
+                            "12:4 - 12:27",
+                            `/en-US/docs/Web/API/SVGFEOffsetElement/in1
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="offsetFilter">
+      <!-- Applies an offset to the SourceGraphic -->
+      <feOffset in="SourceGraphic" dx="10" dy="10" />
+    </filter>
+  </defs>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:lightblue;"
+    filter="url(#offsetFilter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                svgfespecularlightingelement: {
+                  children: {
+                    in1: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFESpecularLightingElement/in1",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:lightblue;"',
+                            "18:4 - 18:27",
+                            `/en-US/docs/Web/API/SVGFESpecularLightingElement/in1
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="specularLightingFilter">
+      <!-- Adds specular lighting effect to the SourceGraphic -->
+      <feSpecularLighting
+        in="SourceGraphic"
+        specularExponent="20"
+        lighting-color="hotpink"
+        surfaceScale="2">
+        <fePointLight x="50" y="50" z="30" />
+      </feSpecularLighting>
+    </filter>
+  </defs>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:lightblue;"
+    filter="url(#specularLightingFilter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    specularconstant: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFESpecularLightingElement/specularConstant",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:lightblue;"',
+                            "17:4 - 17:27",
+                            `/en-US/docs/Web/API/SVGFESpecularLightingElement/specularConstant
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="specularLightingFilter">
+      <!-- Applies specular lighting with a constant specular reflectance -->
+      <feSpecularLighting
+        in="SourceGraphic"
+        specularConstant="0.5"
+        lighting-color="hotpink">
+        <fePointLight x="50" y="50" z="30" />
+      </feSpecularLighting>
+    </filter>
+  </defs>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:lightblue;"
+    filter="url(#specularLightingFilter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    specularexponent: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFESpecularLightingElement/specularExponent",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:lightblue;"',
+                            "17:4 - 17:27",
+                            `/en-US/docs/Web/API/SVGFESpecularLightingElement/specularExponent
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="specularLightingFilter">
+      <!-- Adds specular lighting with a specified exponent -->
+      <feSpecularLighting
+        in="SourceGraphic"
+        specularExponent="40"
+        lighting-color="hotpink">
+        <fePointLight x="50" y="50" z="30" />
+      </feSpecularLighting>
+    </filter>
+  </defs>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:lightblue;"
+    filter="url(#specularLightingFilter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    surfacescale: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFESpecularLightingElement/surfaceScale",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:lightblue;"',
+                            "18:4 - 18:27",
+                            `/en-US/docs/Web/API/SVGFESpecularLightingElement/surfaceScale
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="specularLightingFilter">
+      <!-- Adds specular lighting with a surface scale -->
+      <feSpecularLighting
+        in="SourceGraphic"
+        specularExponent="20"
+        lighting-color="hotpink"
+        surfaceScale="3">
+        <fePointLight x="50" y="50" z="30" />
+      </feSpecularLighting>
+    </filter>
+  </defs>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:lightblue;"
+    filter="url(#specularLightingFilter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                svgfespotlightelement: {
+                  children: {
+                    limitingconeangle: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFESpotLightElement/limitingConeAngle",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:lightblue;"',
+                            "26:4 - 26:27",
+                            `/en-US/docs/Web/API/SVGFESpotLightElement/limitingConeAngle
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="specularLightingFilter">
+      <!-- Apply a specular light effect to the SourceGraphic -->
+      <feSpecularLighting
+        in="SourceGraphic"
+        specularExponent="40"
+        lighting-color="lime"
+        surfaceScale="5">
+        <feSpotLight
+          x="100"
+          y="100"
+          z="50"
+          pointsAtX="100"
+          pointsAtY="100"
+          limitingConeAngle="30"
+          specularExponent="40" />
+      </feSpecularLighting>
+    </filter>
+  </defs>
+
+  <!-- A circle to display the effect of the lighting -->
+  <circle
+    cx="100"
+    cy="100"
+    r="50"
+    style="fill:lightblue;"
+    filter="url(#specularLightingFilter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    specularexponent: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFESpotLightElement/specularExponent",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:lightblue;"',
+                            "23:4 - 23:27",
+                            `/en-US/docs/Web/API/SVGFESpotLightElement/specularExponent
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="specularLightingFilter">
+      <!-- Apply a specular light effect to the SourceGraphic -->
+      <feSpecularLighting
+        in="SourceGraphic"
+        specularExponent="40"
+        lighting-color="hotpink"
+        surfaceScale="5">
+        <feSpotLight
+          x="100"
+          y="100"
+          z="50"
+          pointsAtX="100"
+          pointsAtY="100"
+          specularExponent="40" />
+      </feSpecularLighting>
+    </filter>
+  </defs>
+  <circle
+    cx="100"
+    cy="100"
+    r="50"
+    style="fill:lightblue;"
+    filter="url(#specularLightingFilter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                svgfetileelement: {
+                  children: {
+                    in1: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFETileElement/in1",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:hotpink;"',
+                            "12:4 - 12:25",
+                            `/en-US/docs/Web/API/SVGFETileElement/in1
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="tileFilter">
+      <!-- Tiles the SourceGraphic -->
+      <feTile in="SourceGraphic" />
+    </filter>
+  </defs>
+  <rect
+    x="20"
+    y="20"
+    width="100"
+    height="100"
+    style="fill:hotpink;"
+    filter="url(#tileFilter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                svgfeturbulenceelement: {
+                  children: {
+                    basefrequencyx: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFETurbulenceElement/baseFrequencyX",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:lightblue;"',
+                            "15:4 - 15:27",
+                            `/en-US/docs/Web/API/SVGFETurbulenceElement/baseFrequencyX
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="turbulenceFilter">
+      <feTurbulence
+        type="fractalNoise"
+        baseFrequency="0.5 0.25"
+        numOctaves="4" />
+    </filter>
+  </defs>
+
+  <rect
+    x="20"
+    y="20"
+    width="160"
+    height="160"
+    style="fill:lightblue;"
+    filter="url(#turbulenceFilter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    basefrequencyy: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFETurbulenceElement/baseFrequencyY",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:lightblue;"',
+                            "15:4 - 15:27",
+                            `/en-US/docs/Web/API/SVGFETurbulenceElement/baseFrequencyY
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="turbulenceFilter">
+      <feTurbulence
+        type="fractalNoise"
+        baseFrequency="0.5 0.25"
+        numOctaves="4" />
+    </filter>
+  </defs>
+
+  <rect
+    x="20"
+    y="20"
+    width="160"
+    height="160"
+    style="fill:lightblue;"
+    filter="url(#turbulenceFilter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    numoctaves: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFETurbulenceElement/numOctaves",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:lightblue;"',
+                            "12:4 - 12:27",
+                            `/en-US/docs/Web/API/SVGFETurbulenceElement/numOctaves
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="turbulenceFilter">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="4" />
+    </filter>
+  </defs>
+
+  <rect
+    x="20"
+    y="20"
+    width="160"
+    height="160"
+    style="fill:lightblue;"
+    filter="url(#turbulenceFilter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    seed: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFETurbulenceElement/seed",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:lightblue;"',
+                            "16:4 - 16:27",
+                            `/en-US/docs/Web/API/SVGFETurbulenceElement/seed
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="turbulenceFilter">
+      <feTurbulence
+        type="fractalNoise"
+        baseFrequency="0.05"
+        numOctaves="3"
+        seed="1234" />
+    </filter>
+  </defs>
+
+  <rect
+    x="20"
+    y="20"
+    width="160"
+    height="160"
+    style="fill:lightblue;"
+    filter="url(#turbulenceFilter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    stitchtiles: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFETurbulenceElement/stitchTiles",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:lightblue;"',
+                            "16:4 - 16:27",
+                            `/en-US/docs/Web/API/SVGFETurbulenceElement/stitchTiles
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="turbulenceFilter">
+      <feTurbulence
+        type="fractalNoise"
+        baseFrequency="0.05"
+        numOctaves="3"
+        stitchTiles="stitch" />
+    </filter>
+  </defs>
+
+  <rect
+    x="20"
+    y="20"
+    width="160"
+    height="160"
+    style="fill:lightblue;"
+    filter="url(#turbulenceFilter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    type: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGFETurbulenceElement/type",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    style="fill:lightblue;"',
+                            "16:4 - 16:27",
+                            `/en-US/docs/Web/API/SVGFETurbulenceElement/type
+[no-style-attr] Do not use the style attribute.
+~~~
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="turbulenceFilter">
+      <feTurbulence
+        type="fractalNoise"
+        baseFrequency="0.05"
+        numOctaves="3"
+        result="turbulence" />
+    </filter>
+  </defs>
+
+  <rect
+    x="20"
+    y="20"
+    width="160"
+    height="160"
+    style="fill:lightblue;"
+    filter="url(#turbulenceFilter)" />
+</svg>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 svgrenderingintent: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SVGRenderingIntent",
@@ -10708,23 +13704,6 @@ function checkDeadlines() {
                       ]
                     }
                   ]
-                },
-                textdecoder: {
-                  children: {
-                    ignorebom: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/TextDecoder/ignoreBOM",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Web/API/TextDecoder/TextDecoder",
-                            "#ignoreBOM"
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 touch_events: {
                   children: {
@@ -11198,6 +14177,19 @@ connectedMoveCallback() {
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/Web_Crypto_API/Non-cryptographic_uses_of_subtle_crypto"
+                      ]
+                    }
+                  ]
+                },
+                web_periodic_background_synchronization_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Web_Periodic_Background_Synchronization_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
+                        "Cannot reach server and Bun hangs"
                       ]
                     }
                   ]
@@ -11891,19 +14883,6 @@ function displayPoseStats(pose) {
                       ]
                     }
                   }
-                },
-                window_controls_overlay_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Window_Controls_Overlay_API",
-                  messages: [
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/how-to/window-controls-overlay",
-                        "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps/how-to/window-controls-overlay"
-                      ]
-                    }
-                  ]
                 },
                 window_management_api: {
                   children: {
@@ -15314,81 +18293,10 @@ form {
                 },
                 css_cascade: {
                   children: {
-                    cascade: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_cascade/Cascade",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-elem",
-                            "Do not use the <style> element; use separate CSS blocks instead.",
-                            `<style>
-  @import "unlayeredStyles.css";
-  @import "AStyles.css" layer(A);
-  @import "moreUnlayeredStyles.css";
-  @import "BStyles.css" layer(B);
-  @import "CStyles.css" layer(C);
-  p {
-    color: red;
-    padding: 1em !important;
-  }
-</style>`,
-                            "0:0 - 10:8",
-                            `/en-US/docs/Web/CSS/CSS_cascade/Cascade
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
-~~~
-<style>
-  @import "unlayeredStyles.css";
-  @import "AStyles.css" layer(A);
-  @import "moreUnlayeredStyles.css";
-  @import "BStyles.css" layer(B);
-  @import "CStyles.css" layer(C);
-  p {
-    color: red;
-    padding: 1em !important;
-  }
-</style>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '<p style="line-height: 1.6em; text-decoration: overline !important;">Hello</p>',
-                            "0:3 - 0:68",
-                            `/en-US/docs/Web/CSS/CSS_cascade/Cascade
-[no-style-attr] Do not use the style attribute.
-~~~
-<p style="line-height: 1.6em; text-decoration: overline !important;">Hello</p>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     specificity: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_cascade/Specificity",
                       messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '<p style="color: purple">…</p>',
-                            "0:3 - 0:24",
-                            `/en-US/docs/Web/CSS/CSS_cascade/Specificity
-[no-style-attr] Do not use the style attribute.
-~~~
-<p style="color: purple">…</p>
-~~~
-`
-                          ]
-                        },
                         {
                           message: "HTML code issue",
                           data: [
@@ -16275,79 +19183,6 @@ rgb(from red r g b / alpha)
                       ]
                     }
                   ]
-                },
-                css_conditional_rules: {
-                  children: {
-                    using_feature_queries: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_conditional_rules/Using_feature_queries",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "at-rule-prelude-no-invalid",
-                            'Unexpected invalid prelude "<support-condition>" for at-rule "@supports" (at-rule-prelude-no-invalid)',
-                            "@supports <support-condition> {",
-                            "2:11 - 2:30",
-                            `/en-US/docs/Web/CSS/CSS_conditional_rules/Using_feature_queries
-[at-rule-prelude-no-invalid] Unexpected invalid prelude "<support-condition>" for at-rule "@supports" (at-rule-prelude-no-invalid)
-~~~
-/* \`@supports\` at-rule */
-@supports <support-condition> {
-  /* CSS rules to apply */
-}
-
-/* \`supports()\` function */
-@import url_to_import supports(<declaration>);
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "at-rule-prelude-no-invalid",
-                            'Unexpected invalid prelude "url_to_import supports(<declaration>)" for at-rule "@import" (at-rule-prelude-no-invalid)',
-                            "@import url_to_import supports(<declaration>);",
-                            "7:9 - 7:46",
-                            `/en-US/docs/Web/CSS/CSS_conditional_rules/Using_feature_queries
-[at-rule-prelude-no-invalid] Unexpected invalid prelude "url_to_import supports(<declaration>)" for at-rule "@import" (at-rule-prelude-no-invalid)
-~~~
-/* \`@supports\` at-rule */
-@supports <support-condition> {
-  /* CSS rules to apply */
-}
-
-/* \`supports()\` function */
-@import url_to_import supports(<declaration>);
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "no-invalid-position-at-import-rule",
-                            "Unexpected invalid position @import rule (no-invalid-position-at-import-rule)",
-                            "@import url_to_import supports(<declaration>);",
-                            "7:1 - 7:46",
-                            `/en-US/docs/Web/CSS/CSS_conditional_rules/Using_feature_queries
-[no-invalid-position-at-import-rule] Unexpected invalid position @import rule (no-invalid-position-at-import-rule)
-~~~
-/* \`@supports\` at-rule */
-@supports <support-condition> {
-  /* CSS rules to apply */
-}
-
-/* \`supports()\` function */
-@import url_to_import supports(<declaration>);
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 css_containment: {
                   children: {
@@ -17304,29 +20139,6 @@ css.properties.grid-template-rows.masonry`,
                 },
                 css_images: {
                   children: {
-                    implementing_image_sprites_in_css: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_images/Implementing_image_sprites_in_CSS",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Cannot parse property value "<pixels shifted right>px <pixels shifted down>px" for property "background-position" (declaration-property-value-no-unknown)',
-                            "  background-position: <pixels shifted right>px <pixels shifted down>px;",
-                            "2:24 - 2:72",
-                            `/en-US/docs/Web/CSS/CSS_images/Implementing_image_sprites_in_CSS
-[declaration-property-value-no-unknown] Cannot parse property value "<pixels shifted right>px <pixels shifted down>px" for property "background-position" (declaration-property-value-no-unknown)
-~~~
-#btn:hover {
-  background-position: <pixels shifted right>px <pixels shifted down>px;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     replaced_element_properties: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_images/Replaced_element_properties",
@@ -18030,32 +20842,6 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                     }
                   ]
                 },
-                css_syntax: {
-                  children: {
-                    "at-rule_functions": {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_syntax/At-rule_functions",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "at-rule-no-unknown",
-                            'Unexpected unknown at-rule "@identifier" (at-rule-no-unknown)',
-                            "@identifier function([argument]? [, argument]!) {",
-                            "1:1 - 1:12",
-                            `/en-US/docs/Web/CSS/CSS_syntax/At-rule_functions
-[at-rule-no-unknown] Unexpected unknown at-rule "@identifier" (at-rule-no-unknown)
-~~~
-@identifier function([argument]? [, argument]!) {
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 css_transforms: {
                   children: {
                     using_css_transforms: {
@@ -18112,23 +20898,6 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_transitions/Using_CSS_transitions",
                       messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Cannot parse property value "<property> <duration> <timing-function> <delay>" for property "transition" (declaration-property-value-no-unknown)',
-                            "  transition: <property> <duration> <timing-function> <delay>;",
-                            "2:15 - 2:62",
-                            `/en-US/docs/Web/CSS/CSS_transitions/Using_CSS_transitions
-[declaration-property-value-no-unknown] Cannot parse property value "<property> <duration> <timing-function> <delay>" for property "transition" (declaration-property-value-no-unknown)
-~~~
-div {
-  transition: <property> <duration> <timing-function> <delay>;
-}
-~~~
-`
-                          ]
-                        },
                         {
                           message: "HTML code issue",
                           data: [
@@ -18190,46 +20959,6 @@ div {
                           data: [
                             "/en-US/docs/Web/CSS/calc-value"
                           ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Cannot parse property value "<unit-data-type>" for property "property" (declaration-property-value-no-unknown)',
-                            "  property: <unit-data-type>;",
-                            "2:13 - 2:29",
-                            `/en-US/docs/Web/CSS/CSS_Values_and_Units/CSS_data_types
-[declaration-property-value-no-unknown] Cannot parse property value "<unit-data-type>" for property "property" (declaration-property-value-no-unknown)
-~~~
-selector {
-  property: <unit-data-type>;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    css_value_functions: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_Values_and_Units/CSS_Value_Functions",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Cannot parse property value "function([argument]? [, argument]!)" for property "property" (declaration-property-value-no-unknown)',
-                            "  property: function([argument]? [, argument]!);",
-                            "2:13 - 2:48",
-                            `/en-US/docs/Web/CSS/CSS_Values_and_Units/CSS_Value_Functions
-[declaration-property-value-no-unknown] Cannot parse property value "function([argument]? [, argument]!)" for property "property" (declaration-property-value-no-unknown)
-~~~
-selector {
-  property: function([argument]? [, argument]!);
-}
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -18241,57 +20970,6 @@ selector {
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Web/CSS/toggle"
-                          ]
-                        }
-                      ]
-                    },
-                    using_css_math_functions: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_Values_and_Units/Using_CSS_math_functions",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Cannot parse property value "min(<first value>, <second value>, <third value>, ...)" for property "property" (declaration-property-value-no-unknown)',
-                            "property: min(<first value>, <second value>, <third value>, ...);",
-                            "1:11 - 1:65",
-                            `/en-US/docs/Web/CSS/CSS_Values_and_Units/Using_CSS_math_functions
-[declaration-property-value-no-unknown] Cannot parse property value "min(<first value>, <second value>, <third value>, ...)" for property "property" (declaration-property-value-no-unknown)
-~~~
-property: min(<first value>, <second value>, <third value>, ...);
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Cannot parse property value "max(<first value>, <second value>, <third value>, ...)" for property "property" (declaration-property-value-no-unknown)',
-                            "property: max(<first value>, <second value>, <third value>, ...);",
-                            "1:11 - 1:65",
-                            `/en-US/docs/Web/CSS/CSS_Values_and_Units/Using_CSS_math_functions
-[declaration-property-value-no-unknown] Cannot parse property value "max(<first value>, <second value>, <third value>, ...)" for property "property" (declaration-property-value-no-unknown)
-~~~
-property: max(<first value>, <second value>, <third value>, ...);
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Cannot parse property value "clamp(<minimum value>, <value to be clamped>, <maximum value>)" for property "property" (declaration-property-value-no-unknown)',
-                            "property: clamp(<minimum value>, <value to be clamped>, <maximum value>);",
-                            "1:11 - 1:73",
-                            `/en-US/docs/Web/CSS/CSS_Values_and_Units/Using_CSS_math_functions
-[declaration-property-value-no-unknown] Cannot parse property value "clamp(<minimum value>, <value to be clamped>, <maximum value>)" for property "property" (declaration-property-value-no-unknown)
-~~~
-property: clamp(<minimum value>, <value to be clamped>, <maximum value>);
-~~~
-`
                           ]
                         }
                       ]
@@ -18645,38 +21323,10 @@ steps(10, jump-both)
                     }
                   ]
                 },
-                env: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/env",
-                  messages: [
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/how-to/window-controls-overlay",
-                        "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps/how-to/window-controls-overlay"
-                      ]
-                    }
-                  ]
-                },
                 filter: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/filter",
                   messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Cannot parse property value "<filter-function> [<filter-function>]* | none" for property "filter" (declaration-property-value-no-unknown)',
-                        "filter: <filter-function> [<filter-function>]* | none;",
-                        "1:9 - 1:54",
-                        `/en-US/docs/Web/CSS/filter
-[declaration-property-value-no-unknown] Cannot parse property value "<filter-function> [<filter-function>]* | none" for property "filter" (declaration-property-value-no-unknown)
-~~~
-filter: <filter-function> [<filter-function>]* | none;
-~~~
-`
-                      ]
-                    },
                     {
                       message: "HTML code issue",
                       data: [
@@ -19386,32 +22036,7 @@ sepia(100%)
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/CSS/filter-function",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Cannot parse property value "<filter-function>(<value>)" for property "filter" (declaration-property-value-no-unknown)',
-                        "  filter: <filter-function>(<value>);",
-                        "7:11 - 7:37",
-                        `/en-US/docs/Web/CSS/filter-function
-[declaration-property-value-no-unknown] Cannot parse property value "<filter-function>(<value>)" for property "filter" (declaration-property-value-no-unknown)
-~~~
-div {
-  width: 100%;
-  height: 512px;
-  background: url(fx-nightly-512.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  filter: <filter-function>(<value>);
-}
-~~~
-`
-                      ]
-                    }
-                  ]
+                  }
                 },
                 "fit-content": {
                   children: {},
@@ -25920,77 +28545,6 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
-                "font-synthesis-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-synthesis-style",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "oblique" for property "font-synthesis-style" (declaration-property-value-no-unknown)',
-                        "  font-synthesis-style: oblique;",
-                        "24:25 - 24:32",
-                        `/en-US/docs/Web/CSS/font-synthesis-style
-[declaration-property-value-no-unknown] Unexpected unknown value "oblique" for property "font-synthesis-style" (declaration-property-value-no-unknown)
-~~~
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-
-p {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
-}
-
-@supports not (font-synthesis-style: oblique-only) {
-  body::before {
-    content: "Your browser doesn't support the 'oblique-only' value.";
-    background-color: #ffcd33;
-    display: block;
-    width: 100%;
-    text-align: center;
-  }
-}
-
-/* Specify style of the font synthesis */
-.fss-none {
-  font-synthesis-style: none;
-}
-
-.fss-oblique {
-  font-synthesis-style: oblique;
-}
-
-.fss-oblique-only {
-  font-synthesis-style: oblique-only;
-}
-
-/* Set font styles */
-.oblique {
-  font-style: oblique;
-}
-
-.italic {
-  font-style: italic;
-}
-
-/* Styles for the demonstration */
-.oblique::after {
-  content: " (font-style: oblique)";
-  font-size: 0.8rem;
-  vertical-align: sub;
-}
-
-.italic::after {
-  content: " (font-style: italic)";
-  font-size: 0.8rem;
-  vertical-align: sub;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 "font-variant-alternates": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/font-variant-alternates",
@@ -26029,28 +28583,6 @@ p {
                       message: "Not in BCD",
                       data: [
                         "css.types.frequency-percentage"
-                      ]
-                    }
-                  ]
-                },
-                "generic-family": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/generic-family",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "CssSyntaxError",
-                        "Unknown word <generic-family> (CssSyntaxError)",
-                        "<generic-family> = serif | sans-serif | monospace | cursive | fantasy | system-ui |",
-                        "1:1 - 1:17",
-                        `/en-US/docs/Web/CSS/generic-family
-[CssSyntaxError] Unknown word <generic-family> (CssSyntaxError)
-~~~
-<generic-family> = serif | sans-serif | monospace | cursive | fantasy | system-ui |
-   ui-serif | ui-sans-serif | ui-monospace | ui-rounded | emoji | math | fangsong
-~~~
-`
                       ]
                     }
                   ]
@@ -26436,21 +28968,6 @@ image-set('cat.jpg' 1x, 'dog.jpg' 1x) /* every image in an image set must have a
                   slug: "/en-US/docs/Web/CSS/line-style",
                   messages: [
                     {
-                      message: "CSS code issue",
-                      data: [
-                        "CssSyntaxError",
-                        "Unknown word <line-style> (CssSyntaxError)",
-                        "<line-style> = none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset",
-                        "1:1 - 1:13",
-                        `/en-US/docs/Web/CSS/line-style
-[CssSyntaxError] Unknown word <line-style> (CssSyntaxError)
-~~~
-<line-style> = none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset
-~~~
-`
-                      ]
-                    },
-                    {
                       message: "HTML code issue",
                       data: [
                         "no-style-attr",
@@ -26461,6 +28978,708 @@ image-set('cat.jpg' 1x, 'dog.jpg' 1x) /* every image in an image set must have a
 [no-style-attr] Do not use the style attribute.
 ~~~
 <div style="border-color: #000000"></div>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-style-attr",
+                        "Do not use the style attribute.",
+                        '  <div style="border-color: #000000"></div>',
+                        "1:7 - 1:36",
+                        `/en-US/docs/Web/CSS/line-style
+[no-style-attr] Do not use the style attribute.
+~~~
+<section>
+  <div style="border-color: #000000"></div>
+  <div style="border-color: #000001"></div>
+  <div style="border-color: #ffffff"></div>
+
+  <div style="border-color: #ff00ff"></div>
+  <div style="border-color: #ffff00"></div>
+  <div style="border-color: #00ffff"></div>
+
+  <div style="border-color: #cc33cc"></div>
+  <div style="border-color: #cccc33"></div>
+  <div style="border-color: #33cccc"></div>
+
+  <div style="border-color: #ff0000"></div>
+  <div style="border-color: #00ff00"></div>
+  <div style="border-color: #0000ff"></div>
+
+  <div style="border-color: #cc3333"></div>
+  <div style="border-color: #33cc33"></div>
+  <div style="border-color: #3333cc"></div>
+
+  <div style="border-color: #993333"></div>
+  <div style="border-color: #339933"></div>
+  <div style="border-color: #333399"></div>
+</section>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-style-attr",
+                        "Do not use the style attribute.",
+                        '  <div style="border-color: #000001"></div>',
+                        "2:7 - 2:36",
+                        `/en-US/docs/Web/CSS/line-style
+[no-style-attr] Do not use the style attribute.
+~~~
+<section>
+  <div style="border-color: #000000"></div>
+  <div style="border-color: #000001"></div>
+  <div style="border-color: #ffffff"></div>
+
+  <div style="border-color: #ff00ff"></div>
+  <div style="border-color: #ffff00"></div>
+  <div style="border-color: #00ffff"></div>
+
+  <div style="border-color: #cc33cc"></div>
+  <div style="border-color: #cccc33"></div>
+  <div style="border-color: #33cccc"></div>
+
+  <div style="border-color: #ff0000"></div>
+  <div style="border-color: #00ff00"></div>
+  <div style="border-color: #0000ff"></div>
+
+  <div style="border-color: #cc3333"></div>
+  <div style="border-color: #33cc33"></div>
+  <div style="border-color: #3333cc"></div>
+
+  <div style="border-color: #993333"></div>
+  <div style="border-color: #339933"></div>
+  <div style="border-color: #333399"></div>
+</section>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-style-attr",
+                        "Do not use the style attribute.",
+                        '  <div style="border-color: #ffffff"></div>',
+                        "3:7 - 3:36",
+                        `/en-US/docs/Web/CSS/line-style
+[no-style-attr] Do not use the style attribute.
+~~~
+<section>
+  <div style="border-color: #000000"></div>
+  <div style="border-color: #000001"></div>
+  <div style="border-color: #ffffff"></div>
+
+  <div style="border-color: #ff00ff"></div>
+  <div style="border-color: #ffff00"></div>
+  <div style="border-color: #00ffff"></div>
+
+  <div style="border-color: #cc33cc"></div>
+  <div style="border-color: #cccc33"></div>
+  <div style="border-color: #33cccc"></div>
+
+  <div style="border-color: #ff0000"></div>
+  <div style="border-color: #00ff00"></div>
+  <div style="border-color: #0000ff"></div>
+
+  <div style="border-color: #cc3333"></div>
+  <div style="border-color: #33cc33"></div>
+  <div style="border-color: #3333cc"></div>
+
+  <div style="border-color: #993333"></div>
+  <div style="border-color: #339933"></div>
+  <div style="border-color: #333399"></div>
+</section>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-style-attr",
+                        "Do not use the style attribute.",
+                        '  <div style="border-color: #ff00ff"></div>',
+                        "5:7 - 5:36",
+                        `/en-US/docs/Web/CSS/line-style
+[no-style-attr] Do not use the style attribute.
+~~~
+<section>
+  <div style="border-color: #000000"></div>
+  <div style="border-color: #000001"></div>
+  <div style="border-color: #ffffff"></div>
+
+  <div style="border-color: #ff00ff"></div>
+  <div style="border-color: #ffff00"></div>
+  <div style="border-color: #00ffff"></div>
+
+  <div style="border-color: #cc33cc"></div>
+  <div style="border-color: #cccc33"></div>
+  <div style="border-color: #33cccc"></div>
+
+  <div style="border-color: #ff0000"></div>
+  <div style="border-color: #00ff00"></div>
+  <div style="border-color: #0000ff"></div>
+
+  <div style="border-color: #cc3333"></div>
+  <div style="border-color: #33cc33"></div>
+  <div style="border-color: #3333cc"></div>
+
+  <div style="border-color: #993333"></div>
+  <div style="border-color: #339933"></div>
+  <div style="border-color: #333399"></div>
+</section>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-style-attr",
+                        "Do not use the style attribute.",
+                        '  <div style="border-color: #ffff00"></div>',
+                        "6:7 - 6:36",
+                        `/en-US/docs/Web/CSS/line-style
+[no-style-attr] Do not use the style attribute.
+~~~
+<section>
+  <div style="border-color: #000000"></div>
+  <div style="border-color: #000001"></div>
+  <div style="border-color: #ffffff"></div>
+
+  <div style="border-color: #ff00ff"></div>
+  <div style="border-color: #ffff00"></div>
+  <div style="border-color: #00ffff"></div>
+
+  <div style="border-color: #cc33cc"></div>
+  <div style="border-color: #cccc33"></div>
+  <div style="border-color: #33cccc"></div>
+
+  <div style="border-color: #ff0000"></div>
+  <div style="border-color: #00ff00"></div>
+  <div style="border-color: #0000ff"></div>
+
+  <div style="border-color: #cc3333"></div>
+  <div style="border-color: #33cc33"></div>
+  <div style="border-color: #3333cc"></div>
+
+  <div style="border-color: #993333"></div>
+  <div style="border-color: #339933"></div>
+  <div style="border-color: #333399"></div>
+</section>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-style-attr",
+                        "Do not use the style attribute.",
+                        '  <div style="border-color: #00ffff"></div>',
+                        "7:7 - 7:36",
+                        `/en-US/docs/Web/CSS/line-style
+[no-style-attr] Do not use the style attribute.
+~~~
+<section>
+  <div style="border-color: #000000"></div>
+  <div style="border-color: #000001"></div>
+  <div style="border-color: #ffffff"></div>
+
+  <div style="border-color: #ff00ff"></div>
+  <div style="border-color: #ffff00"></div>
+  <div style="border-color: #00ffff"></div>
+
+  <div style="border-color: #cc33cc"></div>
+  <div style="border-color: #cccc33"></div>
+  <div style="border-color: #33cccc"></div>
+
+  <div style="border-color: #ff0000"></div>
+  <div style="border-color: #00ff00"></div>
+  <div style="border-color: #0000ff"></div>
+
+  <div style="border-color: #cc3333"></div>
+  <div style="border-color: #33cc33"></div>
+  <div style="border-color: #3333cc"></div>
+
+  <div style="border-color: #993333"></div>
+  <div style="border-color: #339933"></div>
+  <div style="border-color: #333399"></div>
+</section>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-style-attr",
+                        "Do not use the style attribute.",
+                        '  <div style="border-color: #cc33cc"></div>',
+                        "9:7 - 9:36",
+                        `/en-US/docs/Web/CSS/line-style
+[no-style-attr] Do not use the style attribute.
+~~~
+<section>
+  <div style="border-color: #000000"></div>
+  <div style="border-color: #000001"></div>
+  <div style="border-color: #ffffff"></div>
+
+  <div style="border-color: #ff00ff"></div>
+  <div style="border-color: #ffff00"></div>
+  <div style="border-color: #00ffff"></div>
+
+  <div style="border-color: #cc33cc"></div>
+  <div style="border-color: #cccc33"></div>
+  <div style="border-color: #33cccc"></div>
+
+  <div style="border-color: #ff0000"></div>
+  <div style="border-color: #00ff00"></div>
+  <div style="border-color: #0000ff"></div>
+
+  <div style="border-color: #cc3333"></div>
+  <div style="border-color: #33cc33"></div>
+  <div style="border-color: #3333cc"></div>
+
+  <div style="border-color: #993333"></div>
+  <div style="border-color: #339933"></div>
+  <div style="border-color: #333399"></div>
+</section>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-style-attr",
+                        "Do not use the style attribute.",
+                        '  <div style="border-color: #cccc33"></div>',
+                        "10:7 - 10:36",
+                        `/en-US/docs/Web/CSS/line-style
+[no-style-attr] Do not use the style attribute.
+~~~
+<section>
+  <div style="border-color: #000000"></div>
+  <div style="border-color: #000001"></div>
+  <div style="border-color: #ffffff"></div>
+
+  <div style="border-color: #ff00ff"></div>
+  <div style="border-color: #ffff00"></div>
+  <div style="border-color: #00ffff"></div>
+
+  <div style="border-color: #cc33cc"></div>
+  <div style="border-color: #cccc33"></div>
+  <div style="border-color: #33cccc"></div>
+
+  <div style="border-color: #ff0000"></div>
+  <div style="border-color: #00ff00"></div>
+  <div style="border-color: #0000ff"></div>
+
+  <div style="border-color: #cc3333"></div>
+  <div style="border-color: #33cc33"></div>
+  <div style="border-color: #3333cc"></div>
+
+  <div style="border-color: #993333"></div>
+  <div style="border-color: #339933"></div>
+  <div style="border-color: #333399"></div>
+</section>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-style-attr",
+                        "Do not use the style attribute.",
+                        '  <div style="border-color: #33cccc"></div>',
+                        "11:7 - 11:36",
+                        `/en-US/docs/Web/CSS/line-style
+[no-style-attr] Do not use the style attribute.
+~~~
+<section>
+  <div style="border-color: #000000"></div>
+  <div style="border-color: #000001"></div>
+  <div style="border-color: #ffffff"></div>
+
+  <div style="border-color: #ff00ff"></div>
+  <div style="border-color: #ffff00"></div>
+  <div style="border-color: #00ffff"></div>
+
+  <div style="border-color: #cc33cc"></div>
+  <div style="border-color: #cccc33"></div>
+  <div style="border-color: #33cccc"></div>
+
+  <div style="border-color: #ff0000"></div>
+  <div style="border-color: #00ff00"></div>
+  <div style="border-color: #0000ff"></div>
+
+  <div style="border-color: #cc3333"></div>
+  <div style="border-color: #33cc33"></div>
+  <div style="border-color: #3333cc"></div>
+
+  <div style="border-color: #993333"></div>
+  <div style="border-color: #339933"></div>
+  <div style="border-color: #333399"></div>
+</section>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-style-attr",
+                        "Do not use the style attribute.",
+                        '  <div style="border-color: #ff0000"></div>',
+                        "13:7 - 13:36",
+                        `/en-US/docs/Web/CSS/line-style
+[no-style-attr] Do not use the style attribute.
+~~~
+<section>
+  <div style="border-color: #000000"></div>
+  <div style="border-color: #000001"></div>
+  <div style="border-color: #ffffff"></div>
+
+  <div style="border-color: #ff00ff"></div>
+  <div style="border-color: #ffff00"></div>
+  <div style="border-color: #00ffff"></div>
+
+  <div style="border-color: #cc33cc"></div>
+  <div style="border-color: #cccc33"></div>
+  <div style="border-color: #33cccc"></div>
+
+  <div style="border-color: #ff0000"></div>
+  <div style="border-color: #00ff00"></div>
+  <div style="border-color: #0000ff"></div>
+
+  <div style="border-color: #cc3333"></div>
+  <div style="border-color: #33cc33"></div>
+  <div style="border-color: #3333cc"></div>
+
+  <div style="border-color: #993333"></div>
+  <div style="border-color: #339933"></div>
+  <div style="border-color: #333399"></div>
+</section>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-style-attr",
+                        "Do not use the style attribute.",
+                        '  <div style="border-color: #00ff00"></div>',
+                        "14:7 - 14:36",
+                        `/en-US/docs/Web/CSS/line-style
+[no-style-attr] Do not use the style attribute.
+~~~
+<section>
+  <div style="border-color: #000000"></div>
+  <div style="border-color: #000001"></div>
+  <div style="border-color: #ffffff"></div>
+
+  <div style="border-color: #ff00ff"></div>
+  <div style="border-color: #ffff00"></div>
+  <div style="border-color: #00ffff"></div>
+
+  <div style="border-color: #cc33cc"></div>
+  <div style="border-color: #cccc33"></div>
+  <div style="border-color: #33cccc"></div>
+
+  <div style="border-color: #ff0000"></div>
+  <div style="border-color: #00ff00"></div>
+  <div style="border-color: #0000ff"></div>
+
+  <div style="border-color: #cc3333"></div>
+  <div style="border-color: #33cc33"></div>
+  <div style="border-color: #3333cc"></div>
+
+  <div style="border-color: #993333"></div>
+  <div style="border-color: #339933"></div>
+  <div style="border-color: #333399"></div>
+</section>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-style-attr",
+                        "Do not use the style attribute.",
+                        '  <div style="border-color: #0000ff"></div>',
+                        "15:7 - 15:36",
+                        `/en-US/docs/Web/CSS/line-style
+[no-style-attr] Do not use the style attribute.
+~~~
+<section>
+  <div style="border-color: #000000"></div>
+  <div style="border-color: #000001"></div>
+  <div style="border-color: #ffffff"></div>
+
+  <div style="border-color: #ff00ff"></div>
+  <div style="border-color: #ffff00"></div>
+  <div style="border-color: #00ffff"></div>
+
+  <div style="border-color: #cc33cc"></div>
+  <div style="border-color: #cccc33"></div>
+  <div style="border-color: #33cccc"></div>
+
+  <div style="border-color: #ff0000"></div>
+  <div style="border-color: #00ff00"></div>
+  <div style="border-color: #0000ff"></div>
+
+  <div style="border-color: #cc3333"></div>
+  <div style="border-color: #33cc33"></div>
+  <div style="border-color: #3333cc"></div>
+
+  <div style="border-color: #993333"></div>
+  <div style="border-color: #339933"></div>
+  <div style="border-color: #333399"></div>
+</section>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-style-attr",
+                        "Do not use the style attribute.",
+                        '  <div style="border-color: #cc3333"></div>',
+                        "17:7 - 17:36",
+                        `/en-US/docs/Web/CSS/line-style
+[no-style-attr] Do not use the style attribute.
+~~~
+<section>
+  <div style="border-color: #000000"></div>
+  <div style="border-color: #000001"></div>
+  <div style="border-color: #ffffff"></div>
+
+  <div style="border-color: #ff00ff"></div>
+  <div style="border-color: #ffff00"></div>
+  <div style="border-color: #00ffff"></div>
+
+  <div style="border-color: #cc33cc"></div>
+  <div style="border-color: #cccc33"></div>
+  <div style="border-color: #33cccc"></div>
+
+  <div style="border-color: #ff0000"></div>
+  <div style="border-color: #00ff00"></div>
+  <div style="border-color: #0000ff"></div>
+
+  <div style="border-color: #cc3333"></div>
+  <div style="border-color: #33cc33"></div>
+  <div style="border-color: #3333cc"></div>
+
+  <div style="border-color: #993333"></div>
+  <div style="border-color: #339933"></div>
+  <div style="border-color: #333399"></div>
+</section>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-style-attr",
+                        "Do not use the style attribute.",
+                        '  <div style="border-color: #33cc33"></div>',
+                        "18:7 - 18:36",
+                        `/en-US/docs/Web/CSS/line-style
+[no-style-attr] Do not use the style attribute.
+~~~
+<section>
+  <div style="border-color: #000000"></div>
+  <div style="border-color: #000001"></div>
+  <div style="border-color: #ffffff"></div>
+
+  <div style="border-color: #ff00ff"></div>
+  <div style="border-color: #ffff00"></div>
+  <div style="border-color: #00ffff"></div>
+
+  <div style="border-color: #cc33cc"></div>
+  <div style="border-color: #cccc33"></div>
+  <div style="border-color: #33cccc"></div>
+
+  <div style="border-color: #ff0000"></div>
+  <div style="border-color: #00ff00"></div>
+  <div style="border-color: #0000ff"></div>
+
+  <div style="border-color: #cc3333"></div>
+  <div style="border-color: #33cc33"></div>
+  <div style="border-color: #3333cc"></div>
+
+  <div style="border-color: #993333"></div>
+  <div style="border-color: #339933"></div>
+  <div style="border-color: #333399"></div>
+</section>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-style-attr",
+                        "Do not use the style attribute.",
+                        '  <div style="border-color: #3333cc"></div>',
+                        "19:7 - 19:36",
+                        `/en-US/docs/Web/CSS/line-style
+[no-style-attr] Do not use the style attribute.
+~~~
+<section>
+  <div style="border-color: #000000"></div>
+  <div style="border-color: #000001"></div>
+  <div style="border-color: #ffffff"></div>
+
+  <div style="border-color: #ff00ff"></div>
+  <div style="border-color: #ffff00"></div>
+  <div style="border-color: #00ffff"></div>
+
+  <div style="border-color: #cc33cc"></div>
+  <div style="border-color: #cccc33"></div>
+  <div style="border-color: #33cccc"></div>
+
+  <div style="border-color: #ff0000"></div>
+  <div style="border-color: #00ff00"></div>
+  <div style="border-color: #0000ff"></div>
+
+  <div style="border-color: #cc3333"></div>
+  <div style="border-color: #33cc33"></div>
+  <div style="border-color: #3333cc"></div>
+
+  <div style="border-color: #993333"></div>
+  <div style="border-color: #339933"></div>
+  <div style="border-color: #333399"></div>
+</section>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-style-attr",
+                        "Do not use the style attribute.",
+                        '  <div style="border-color: #993333"></div>',
+                        "21:7 - 21:36",
+                        `/en-US/docs/Web/CSS/line-style
+[no-style-attr] Do not use the style attribute.
+~~~
+<section>
+  <div style="border-color: #000000"></div>
+  <div style="border-color: #000001"></div>
+  <div style="border-color: #ffffff"></div>
+
+  <div style="border-color: #ff00ff"></div>
+  <div style="border-color: #ffff00"></div>
+  <div style="border-color: #00ffff"></div>
+
+  <div style="border-color: #cc33cc"></div>
+  <div style="border-color: #cccc33"></div>
+  <div style="border-color: #33cccc"></div>
+
+  <div style="border-color: #ff0000"></div>
+  <div style="border-color: #00ff00"></div>
+  <div style="border-color: #0000ff"></div>
+
+  <div style="border-color: #cc3333"></div>
+  <div style="border-color: #33cc33"></div>
+  <div style="border-color: #3333cc"></div>
+
+  <div style="border-color: #993333"></div>
+  <div style="border-color: #339933"></div>
+  <div style="border-color: #333399"></div>
+</section>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-style-attr",
+                        "Do not use the style attribute.",
+                        '  <div style="border-color: #339933"></div>',
+                        "22:7 - 22:36",
+                        `/en-US/docs/Web/CSS/line-style
+[no-style-attr] Do not use the style attribute.
+~~~
+<section>
+  <div style="border-color: #000000"></div>
+  <div style="border-color: #000001"></div>
+  <div style="border-color: #ffffff"></div>
+
+  <div style="border-color: #ff00ff"></div>
+  <div style="border-color: #ffff00"></div>
+  <div style="border-color: #00ffff"></div>
+
+  <div style="border-color: #cc33cc"></div>
+  <div style="border-color: #cccc33"></div>
+  <div style="border-color: #33cccc"></div>
+
+  <div style="border-color: #ff0000"></div>
+  <div style="border-color: #00ff00"></div>
+  <div style="border-color: #0000ff"></div>
+
+  <div style="border-color: #cc3333"></div>
+  <div style="border-color: #33cc33"></div>
+  <div style="border-color: #3333cc"></div>
+
+  <div style="border-color: #993333"></div>
+  <div style="border-color: #339933"></div>
+  <div style="border-color: #333399"></div>
+</section>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-style-attr",
+                        "Do not use the style attribute.",
+                        '  <div style="border-color: #333399"></div>',
+                        "23:7 - 23:36",
+                        `/en-US/docs/Web/CSS/line-style
+[no-style-attr] Do not use the style attribute.
+~~~
+<section>
+  <div style="border-color: #000000"></div>
+  <div style="border-color: #000001"></div>
+  <div style="border-color: #ffffff"></div>
+
+  <div style="border-color: #ff00ff"></div>
+  <div style="border-color: #ffff00"></div>
+  <div style="border-color: #00ffff"></div>
+
+  <div style="border-color: #cc33cc"></div>
+  <div style="border-color: #cccc33"></div>
+  <div style="border-color: #33cccc"></div>
+
+  <div style="border-color: #ff0000"></div>
+  <div style="border-color: #00ff00"></div>
+  <div style="border-color: #0000ff"></div>
+
+  <div style="border-color: #cc3333"></div>
+  <div style="border-color: #33cc33"></div>
+  <div style="border-color: #3333cc"></div>
+
+  <div style="border-color: #993333"></div>
+  <div style="border-color: #339933"></div>
+  <div style="border-color: #333399"></div>
+</section>
 ~~~
 `
                       ]
@@ -26526,13 +29745,15 @@ image-set('cat.jpg' 1x, 'dog.jpg' 1x) /* every image in an image set must have a
                       message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "fill" for property "mask-border-width" (declaration-property-value-no-unknown)',
-                        "mask-border-width: 30 fill;",
-                        "1:23 - 1:27",
+                        'Unexpected unknown value "30px" for property "mask-border-slice" (declaration-property-value-no-unknown)',
+                        "mask-border-slice: 30px;",
+                        "2:20 - 2:24",
                         `/en-US/docs/Web/CSS/mask-border-width
-[declaration-property-value-no-unknown] Unexpected unknown value "fill" for property "mask-border-width" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Unexpected unknown value "30px" for property "mask-border-slice" (declaration-property-value-no-unknown)
 ~~~
-mask-border-width: 30 fill;
+/* Final mask scaled down to 20px wide */
+mask-border-slice: 30px;
+mask-border-width: 20px;
 ~~~
 `
                       ]
@@ -27582,29 +30803,6 @@ css.properties.list-style-type.symbols`
                     }
                   ]
                 },
-                "text-edge": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-edge",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "CssSyntaxError",
-                        "Unknown word <text-edge> (CssSyntaxError)",
-                        "<text-edge> =",
-                        "1:1 - 1:12",
-                        `/en-US/docs/Web/CSS/text-edge
-[CssSyntaxError] Unknown word <text-edge> (CssSyntaxError)
-~~~
-<text-edge> =
-  [ text | ideographic | ideographic-ink ] |
-  [ text | ideographic | ideographic-ink | cap | ex ] [ text | ideographic | ideographic-ink | alphabetic ]
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 "transform-box": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/transform-box",
@@ -28233,32 +31431,6 @@ html.elements.select.size`
                       children: {
                         meta: {
                           children: {
-                            "http-equiv": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/meta/http-equiv",
-                              messages: [
-                                {
-                                  message: "Broken anchor",
-                                  data: [
-                                    "#charset"
-                                  ]
-                                },
-                                {
-                                  message: "Broken anchor",
-                                  data: [
-                                    "/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Operable",
-                                    "#guideline_2.%E2%80%94_enough_time_provide_users_enough_time_to_read_and_use_content"
-                                  ]
-                                },
-                                {
-                                  message: "Broken anchor",
-                                  data: [
-                                    "/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Understandable",
-                                    "#guideline_3.%E2%80%94_predictable_make_web_pages_appear_and_operate_in_predictable_ways"
-                                  ]
-                                }
-                              ]
-                            },
                             name: {
                               children: {
                                 robots: {
@@ -28287,26 +31459,7 @@ html.elements.select.size`
                                 }
                               }
                             }
-                          },
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/meta",
-                          messages: [
-                            {
-                              message: "Replace DT link with real target",
-                              data: [
-                                "#http-equiv",
-                                "/en-US/docs/Web/HTML/Reference/Elements/meta/http-equiv",
-                                []
-                              ]
-                            },
-                            {
-                              message: "Replace DT link with real target",
-                              data: [
-                                "#http-equiv",
-                                "/en-US/docs/Web/HTML/Reference/Elements/meta/http-equiv",
-                                []
-                              ]
-                            }
-                          ]
+                          }
                         },
                         object: {
                           children: {},
@@ -28397,19 +31550,6 @@ http.headers.Use-As-Dictionary`,
                         }
                       ]
                     },
-                    content_negotiation: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTTP/Guides/Content_negotiation",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.eff.org/deeplinks/2010/01/primer-information-theory-and-privacy",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     cookies: {
                       children: {},
                       slug: "/en-US/docs/Web/HTTP/Guides/Cookies",
@@ -28468,17 +31608,7 @@ http.headers.Use-As-Dictionary`,
                             }
                           }
                         }
-                      },
-                      slug: "/en-US/docs/Web/HTTP/Guides/CSP",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.netlify.com/blog/general-availability-content-security-policy-csp-nonce-integration/",
-                            "unknown certificate verification error"
-                          ]
-                        }
-                      ]
+                      }
                     },
                     network_error_logging: {
                       children: {},
@@ -28516,19 +31646,6 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
-                        accept: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.gnu.org/software/wget/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
                         "available-dictionary": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Available-Dictionary",
@@ -28802,6 +31919,19 @@ http.headers.Use-As-Dictionary`,
               children: {
                 guide: {
                   children: {
+                    introduction: {
+                      children: {},
+                      slug: "/en-US/docs/Web/JavaScript/Guide/Introduction",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/",
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/"
+                          ]
+                        }
+                      ]
+                    },
                     using_promises: {
                       children: {},
                       slug: "/en-US/docs/Web/JavaScript/Guide/Using_promises",
@@ -28820,53 +31950,7 @@ http.headers.Use-As-Dictionary`,
                 reference: {
                   children: {
                     classes: {
-                      children: {
-                        private_elements: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Classes/Private_elements",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "no-constructor-return",
-                                "Unexpected return statement in constructor.",
-                                "    return obj;",
-                                "4:5 - 4:16",
-                                `/en-US/docs/Web/JavaScript/Reference/Classes/Private_elements
-[no-constructor-return] Unexpected return statement in constructor.
-~~~
-class Stamper extends class {
-  // A base class whose constructor returns the object it's given
-  constructor(obj) {
-    return obj;
-  }
-} {
-  // This declaration will "stamp" the private field onto the object
-  // returned by the base class constructor
-  #stamp = 42;
-  static getStamp(obj) {
-    return obj.#stamp;
-  }
-}
-
-const obj = {};
-new Stamper(obj);
-// \`Stamper\` calls \`Base\`, which returns \`obj\`, so \`obj\` is
-// now the \`this\` value. \`Stamper\` then defines \`#stamp\` on \`obj\`
-
-console.log(obj); // In some dev tools, it shows {#stamp: 42}
-console.log(Stamper.getStamp(obj)); // 42
-console.log(obj instanceof Stamper); // false
-
-// You cannot stamp private elements twice
-new Stamper(obj); // Error: Initializing an object twice is an error with private fields
-~~~
-`
-                              ]
-                            }
-                          ]
-                        }
-                      }
+                      children: {}
                     },
                     errors: {
                       children: {
@@ -29154,13 +32238,6 @@ lbl: console.log(1); // Label
                           data: [
                             "https://jsbin.com/gekatoge/7/edit"
                           ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://jwplayer.com/",
-                            "https://jwpconnatix.com/"
-                          ]
                         }
                       ]
                     },
@@ -29352,147 +32429,6 @@ lbl: console.log(1); // Label
                   message: "No link to child page",
                   data: [
                     "/en-US/docs/Web/Privacy/Guides"
-                  ]
-                }
-              ]
-            },
-            progressive_web_apps: {
-              children: {
-                guides: {
-                  children: {
-                    best_practices: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Progressive_web_apps/Guides/Best_practices",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/how-to/best-practices",
-                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps/how-to/best-practices"
-                          ]
-                        }
-                      ]
-                    },
-                    making_pwas_installable: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Progressive_web_apps/Guides/Making_PWAs_installable",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/how-to/microsoft-store",
-                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps/how-to/microsoft-store"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                how_to: {
-                  children: {
-                    associate_files_with_your_pwa: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Progressive_web_apps/How_to/Associate_files_with_your_PWA",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/how-to/handle-files",
-                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps/how-to/handle-files"
-                          ]
-                        }
-                      ]
-                    },
-                    define_app_icons: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Progressive_web_apps/How_to/Define_app_icons",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/how-to/icon-theme-color",
-                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps/how-to/icon-theme-color"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/how-to/icon-theme-color",
-                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps/how-to/icon-theme-color"
-                          ]
-                        }
-                      ]
-                    },
-                    display_badge_on_app_icon: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Progressive_web_apps/How_to/Display_badge_on_app_icon",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/how-to/notifications-badges",
-                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps/how-to/notifications-badges"
-                          ]
-                        }
-                      ]
-                    },
-                    expose_common_actions_as_shortcuts: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Progressive_web_apps/How_to/Expose_common_actions_as_shortcuts",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/how-to/shortcuts",
-                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps/how-to/shortcuts"
-                          ]
-                        }
-                      ]
-                    },
-                    share_data_between_apps: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Progressive_web_apps/How_to/Share_data_between_apps",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/how-to/share",
-                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps/how-to/share"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                manifest: {
-                  children: {
-                    reference: {
-                      children: {
-                        file_handlers: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/file_handlers",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/how-to/handle-files",
-                                "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps/how-to/handle-files"
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  }
-                }
-              },
-              slug: "/en-US/docs/Web/Progressive_web_apps",
-              messages: [
-                {
-                  message: "Redirected external link",
-                  data: [
-                    "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/",
-                    "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps/"
                   ]
                 }
               ]
@@ -31579,39 +34515,6 @@ svg.elements.script.fetchpriority`,
                                 `svg.elements.feImage.fetchpriority
 svg.elements.image.fetchpriority
 svg.elements.script.fetchpriority`
-                              ]
-                            }
-                          ]
-                        },
-                        "fill-opacity": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/fill-opacity",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <circle cx="350" cy="50" r="40" style="fill-opacity: .25;" />',
-                                "11:34 - 11:60",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/fill-opacity
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg">
-  <!-- Default fill opacity: 1 -->
-  <circle cx="50" cy="50" r="40" />
-
-  <!-- Fill opacity as a number -->
-  <circle cx="150" cy="50" r="40" fill-opacity="0.7" />
-
-  <!-- Fill opacity as a percentage -->
-  <circle cx="250" cy="50" r="40" fill-opacity="50%" />
-
-  <!-- Fill opacity as a CSS property -->
-  <circle cx="350" cy="50" r="40" style="fill-opacity: .25;" />
-</svg>
-~~~
-`
                               ]
                             }
                           ]
@@ -35136,67 +38039,6 @@ svg.elements.feSpotLight.specularExponent`
                             }
                           ]
                         },
-                        "stroke-opacity": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/stroke-opacity",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <circle cx="35" cy="5" r="4" stroke="green" style="stroke-opacity: .3;" />',
-                                "11:46 - 11:73",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/stroke-opacity
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 40 10" xmlns="http://www.w3.org/2000/svg">
-  <!-- Default stroke opacity: 1 -->
-  <circle cx="5" cy="5" r="4" stroke="green" />
-
-  <!-- Stroke opacity as a number -->
-  <circle cx="15" cy="5" r="4" stroke="green" stroke-opacity="0.7" />
-
-  <!-- Stroke opacity as a percentage -->
-  <circle cx="25" cy="5" r="4" stroke="green" stroke-opacity="50%" />
-
-  <!-- Stroke opacity as a CSS property -->
-  <circle cx="35" cy="5" r="4" stroke="green" style="stroke-opacity: .3;" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        style: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/style",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="fill: skyblue; stroke: cadetblue; stroke-width: 2;" />',
-                                "6:4 - 6:62",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/style
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 100 60" xmlns="http://www.w3.org/2000/svg">
-  <rect
-    width="80"
-    height="40"
-    x="10"
-    y="10"
-    style="fill: skyblue; stroke: cadetblue; stroke-width: 2;" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
                         surfacescale: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/surfaceScale",
@@ -38152,35 +40994,17 @@ svg.elements.feSpotLight.z`
                             }
                           ]
                         },
-                        svg_and_css: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/SVG_and_CSS",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-elem",
-                                "Do not use the <style> element; use separate CSS blocks instead.",
-                                `<style>
-  @import url(style8.css);
-</style>`,
-                                "0:0 - 2:8",
-                                `/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/SVG_and_CSS
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
-~~~
-<style>
-  @import url(style8.css);
-</style>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
                         tools_for_svg: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Tools_for_SVG",
                           messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://imagemagick.org/",
+                                "Unable to connect. Is the computer able to access the url?"
+                              ]
+                            },
                             {
                               message: "HTTP link",
                               data: [
@@ -38460,6 +41284,13 @@ svg.elements.feSpotLight.z`
             {
               message: "Unreachable via sidebar",
               data: []
+            },
+            {
+              message: "Redirected external link",
+              data: [
+                "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/landing/",
+                "https://learn.microsoft.com/en-us/microsoft-edge/devtools/landing/"
+              ]
             }
           ]
         },
