@@ -98,6 +98,24 @@ This is the second subsection of my content. I think is more interesting than
 the last one.
 ~~~
 
+/en-US/docs/Learn_web_development/Core/CSS_layout/Media_queries
+[media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
+~~~
+@media (min-width: 30em) and (max-width: 50em) {
+  /* … */
+}
+~~~
+
+/en-US/docs/Learn_web_development/Core/CSS_layout/Media_queries
+[media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
+~~~
+@media screen and (max-width: 600px) {
+  body {
+    color: blue;
+  }
+}
+~~~
+
 /en-US/docs/Learn_web_development/Core/CSS_layout/Supporting_Older_Browsers
 [declaration-block-no-duplicate-properties] Unexpected duplicate "display" (declaration-block-no-duplicate-properties)
 ~~~
@@ -362,28 +380,15 @@ if (userGuess = randomNumber) {
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Structuring_content/Debugging_HTML
-[syntax] Unexpected character "EOF"
+[syntax] Unexpected closing tag "em". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+[syntax] Unexpected closing tag "strong". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
 ~~~
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML debugging examples</title>
-  </head>
-
-  <body>
-    <h1>HTML debugging examples</h1>
-    <p>What causes errors in HTML?
-    <ul>
-      <li>Unclosed elements: If an element is <strong>not closed properly,then its effect can spread to areas you didn't intend
-      <li>Badly nested elements: Nesting elements properly is also very important for code behaving correctly. <strong>strong <em>strong emphasized?</strong> what is this?</em>
-      <li>Unclosed attributes: Another common source of HTML problems. Let's look at an example: <a href="https://www.mozilla.org/>link to Mozilla homepage</a>
-    </ul>
-  </body>
-</html>
+<p>I didn't expect to find the <em>next-door neighbor's <strong>cat</em></strong> here!</p>
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Structuring_content/Debugging_HTML
+[syntax] Unexpected closing tag "em". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+[syntax] Unexpected closing tag "strong". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
 [syntax] Unexpected character "EOF"
 ~~~
 <h1>HTML debugging examples</h1>
@@ -405,15 +410,11 @@ if (userGuess = randomNumber) {
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Structuring_content/Debugging_HTML
+[syntax] Unexpected closing tag "strong". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
 [syntax] Unexpected closing tag "em". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+[syntax] Unexpected character "EOF"
 ~~~
-<p>I didn't expect to find the <em>next-door neighbor's <strong>cat</em></strong> here!</p>
-~~~
-
-/en-US/docs/Learn_web_development/Core/Structuring_content/Debugging_HTML
-[syntax] Unexpected closing tag "em". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-~~~
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-US">
   <head>
     <meta charset="utf-8">
@@ -430,76 +431,6 @@ if (userGuess = randomNumber) {
     </ul>
   </body>
 </html>
-~~~
-
-/en-US/docs/Learn_web_development/Core/Structuring_content/Debugging_HTML
-[syntax] Unexpected closing tag "em". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-~~~
-<h1>HTML debugging examples</h1>
-
-<p>What causes errors in HTML?
-
-<ul>
-  <li>Unclosed elements: If an element is <strong>not closed properly,
-      then its effect can spread to areas you didn't intend
-
-  <li>Badly nested elements: Nesting elements properly is also very important
-      for code behaving correctly. <strong>strong <em>strong emphasized?</strong>
-      what is this?</em>
-
-  <li>Unclosed attributes: Another common source of HTML problems. Let's
-      look at an example: <a href="https://www.mozilla.org/>link to Mozilla
-      homepage</a>
-</ul>
-~~~
-
-/en-US/docs/Learn_web_development/Core/Structuring_content/Debugging_HTML
-[syntax] Unexpected closing tag "strong". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-~~~
-<p>I didn't expect to find the <em>next-door neighbor's <strong>cat</em></strong> here!</p>
-~~~
-
-/en-US/docs/Learn_web_development/Core/Structuring_content/Debugging_HTML
-[syntax] Unexpected closing tag "strong". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-~~~
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML debugging examples</title>
-  </head>
-
-  <body>
-    <h1>HTML debugging examples</h1>
-    <p>What causes errors in HTML?
-    <ul>
-      <li>Unclosed elements: If an element is <strong>not closed properly,then its effect can spread to areas you didn't intend
-      <li>Badly nested elements: Nesting elements properly is also very important for code behaving correctly. <strong>strong <em>strong emphasized?</strong> what is this?</em>
-      <li>Unclosed attributes: Another common source of HTML problems. Let's look at an example: <a href="https://www.mozilla.org/>link to Mozilla homepage</a>
-    </ul>
-  </body>
-</html>
-~~~
-
-/en-US/docs/Learn_web_development/Core/Structuring_content/Debugging_HTML
-[syntax] Unexpected closing tag "strong". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-~~~
-<h1>HTML debugging examples</h1>
-
-<p>What causes errors in HTML?
-
-<ul>
-  <li>Unclosed elements: If an element is <strong>not closed properly,
-      then its effect can spread to areas you didn't intend
-
-  <li>Badly nested elements: Nesting elements properly is also very important
-      for code behaving correctly. <strong>strong <em>strong emphasized?</strong>
-      what is this?</em>
-
-  <li>Unclosed attributes: Another common source of HTML problems. Let's
-      look at an example: <a href="https://www.mozilla.org/>link to Mozilla
-      homepage</a>
-</ul>
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Structuring_content/Headings_and_paragraphs
@@ -1199,6 +1130,51 @@ div#header {
 </div>
 ~~~
 
+/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
+[color-function-notation] Expected modern color-function notation (color-function-notation)
+~~~
+/* named color */
+color: magenta;
+
+/* sRGB value with percentage values */
+color: rgb(100% 0% 100%);
+color: rgb(100% 0% 100% / 100%);
+
+/* by sRGB numeric values */
+color: rgb(255 0 255);
+color: rgb(255 0 255 / 1);
+
+/* legacy rgb and rgba notation */
+color: rgb(100%, 0%, 100%);
+color: rgba(255, 0, 255, 1);
+
+/* by sRGB value in hex */
+color: #f0f; /* #rgb, a shorthand for #rrggbb */
+color: #ff00ff; /* #rrggbb */
+color: #f0ff; /* #rgba */
+color: #ff00ffff; /* #rrggbbaa */
+
+/* by HSL representation of the sRGB value */
+color: hsl(300 100% 50%);
+color: hsl(300deg 100% 50% / 100%);
+
+/* by HWB representation of the sRGB value */
+color: hwb(300deg 0% 0%);
+color: hwb(300 0% 0% / 1);
+
+/* by LAB representation of the sRGB value*/
+color: lab(60 93.56 -60.5);
+color: lab(60 93.56 -60.5 / 1);
+
+/* representation in the CIELAB color spaces */
+color: oklch(0.7 0.32 328.37);
+color: oklch(0.7 0.32 328.37 / 1);
+
+/* color() function in the XYZ color space */
+color: color(xyz-d65 0.59 0.28 0.96);
+color: color(xyz-d65 0.59 0.28 0.96 / 1);
+~~~
+
 /en-US/docs/Web/API/BaseAudioContext/state
 [no-useless-return] Unnecessary return statement.
 ~~~
@@ -1423,6 +1399,13 @@ worker.postMessage({ cmd: "list" });
 </script>
 ~~~
 
+/en-US/docs/Web/API/DOMTokenList
+[no-duplicate-class] Duplicate class "d".
+[unformatted-class] Element class should be a list of tokens separated by single spaces.
+~~~
+<span class="    d   d e f"></span>
+~~~
+
 /en-US/docs/Web/API/Element/currentCSSZoom
 [no-style-attr] Do not use the style attribute.
 ~~~
@@ -1636,6 +1619,28 @@ startButton.addEventListener("click", async () => {
     return;
   }
 });
+~~~
+
+/en-US/docs/Web/API/IndexedDB_API/Checking_when_a_deadline_is_due
+[no-useless-return] Unnecessary return statement.
+~~~
+function addData(e) {
+  e.preventDefault();
+
+  if (
+    !title.value ||
+    !hours.value ||
+    !minutes.value ||
+    !day.value ||
+    !month.value ||
+    !year.value
+  ) {
+    note.appendChild(document.createElement("li")).textContent =
+      "Data not submitted — form incomplete.";
+    return;
+  }
+  // ...
+}
 ~~~
 
 /en-US/docs/Web/API/InputEvent/dataTransfer
@@ -1860,7 +1865,7 @@ if (navigator.getUserMedia) {
 [no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
 ~~~
 <!doctype html>
-<html>
+<html lang="en-US">
   <body>
     <script>
       const html = document.querySelector("html");
@@ -2026,8 +2031,6 @@ if (done) {
 [no-style-attr] Do not use the style attribute.
 ~~~
 <svg
-  width="50"
-  height="50"
   xmlns="http://www.w3.org/2000/svg"
   viewBox="0 0 250 250"
   width="250"
@@ -2263,6 +2266,39 @@ background-image: none !important;
 color: -internal-light-dark(black, white) !important;
 ~~~
 
+/en-US/docs/Web/CSS/:not
+[selector-not-notation] Expected complex :not() pseudo-class notation (selector-not-notation)
+~~~
+.fancy {
+  text-shadow: 2px 2px 3px gold;
+}
+
+/* <p> elements that don't have a class `.fancy` */
+p:not(.fancy) {
+  color: green;
+}
+
+/* Elements that are not <p> elements */
+body :not(p) {
+  text-decoration: underline;
+}
+
+/* Elements that are not <div>s or `.fancy` */
+body :not(div):not(.fancy) {
+  font-weight: bold;
+}
+
+/* Elements that are not <div>s or `.fancy` */
+body :not(div, .fancy) {
+  text-decoration: overline underline;
+}
+
+/* Elements inside an <h2> that aren't a <span> with a class of `.foo` */
+h2 :not(span.foo) {
+  color: red;
+}
+~~~
+
 /en-US/docs/Web/CSS/@import
 [no-invalid-position-at-import-rule] Unexpected invalid position @import rule (no-invalid-position-at-import-rule)
 ~~~
@@ -2435,6 +2471,79 @@ border-top: thick green;
 ~~~
 border-top-style: dotted;
 border-top: none thick green;
+~~~
+
+/en-US/docs/Web/CSS/color_value/hsl
+[color-function-notation] Expected modern color-function notation (color-function-notation)
+~~~
+div {
+  width: 100px;
+  height: 50px;
+  margin: 1rem;
+}
+
+div.space-separated {
+  background-color: hsl(0 100% 50% / 50%);
+}
+
+div.comma-separated {
+  background-color: hsl(0, 100%, 50%, 0.5);
+}
+~~~
+
+/en-US/docs/Web/CSS/color_value/hsl
+[color-function-notation] Expected modern color-function notation (color-function-notation)
+~~~
+div {
+  width: 100px;
+  min-height: 50px;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  display: flex;
+  gap: 20px;
+}
+
+div.modern {
+  background-color: hsl(90 80% 50%);
+}
+
+div.legacy {
+  background-color: hsl(90, 80%, 50%);
+}
+
+div.modernWithAlpha {
+  background-color: hsl(90 80% 50% / 50%);
+}
+
+div.modernHSLA {
+  background-color: hsla(90 80% 50% / 50%);
+}
+
+div.legacyHSLA {
+  background-color: hsla(90, 80%, 50%, 0.5);
+}
+~~~
+
+/en-US/docs/Web/CSS/color_value/rgb
+[color-function-notation] Expected modern color-function notation (color-function-notation)
+~~~
+div {
+  width: 100px;
+  height: 50px;
+  margin: 1rem;
+}
+
+div.space-separated {
+  background-color: rgb(255 0 0 / 50%);
+}
+
+div.comma-separated {
+  background-color: rgb(255, 0, 0, 0.5);
+}
 ~~~
 
 /en-US/docs/Web/CSS/CSS_cascade/Cascade
@@ -2659,6 +2768,30 @@ mask: url(star.svg) 10px 10px cover;
 mask: url(star.svg) top right 100px 100px;
 ~~~
 
+/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries
+[media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
+~~~
+@media (max-width: 1250px) {
+  /* … */
+}
+~~~
+
+/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries
+[media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
+~~~
+@media (min-width: 30em) and (max-width: 50em) {
+  /* … */
+}
+
+@media (30em <= width <= 50em) {
+  /* … */
+}
+
+@media (50em >= width >= 30em) {
+  /* … */
+}
+~~~
+
 /en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting
 [selector-type-no-unknown] Unexpected unknown type selector "element" (selector-type-no-unknown)
 ~~~
@@ -2749,6 +2882,33 @@ p {
   height: 32px;
   background-size: 80%;
   border: dashed;
+}
+~~~
+
+/en-US/docs/Web/CSS/element
+[color-no-invalid-hex] Unexpected invalid hex color "#my" (color-no-invalid-hex)
+~~~
+#target-box {
+  width: 400px;
+  height: 400px;
+  background: -moz-element(#my-background) no-repeat;
+}
+
+#background-container {
+  overflow: hidden;
+  height: 0;
+}
+
+#my-background {
+  width: 1024px;
+  height: 1024px;
+  background-image: linear-gradient(to right, red, orange, yellow, white);
+}
+
+#my-background p {
+  transform-origin: 0 0;
+  rotate: 45deg;
+  color: white;
 }
 ~~~
 
@@ -2877,7 +3037,7 @@ selector {
 ~~~
 
 /en-US/docs/Web/CSS/repeat
-[declaration-property-value-no-unknown] Unexpected unknown value "max-content" for property "grid-template-columns" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Unexpected unknown value "repeat(2, minmax(min-content, max-content))" for property "grid-template-columns" (declaration-property-value-no-unknown)
 ~~~
 .wrapper {
   grid-template-columns:
@@ -2961,12 +3121,12 @@ text-bottom: <img style="vertical-align: text-bottom" src="star.png" alt="star"/
     rel="preload"
     href="bg-image-narrow.png"
     as="image"
-    media="(max-width: 600px)" />
+    media="(width <= 600px)" />
   <link
     rel="preload"
     href="bg-image-wide.png"
     as="image"
-    media="(min-width: 601px)" />
+    media="(width > 600px)" />
 
   <link rel="stylesheet" href="main.css" />
 </head>
@@ -2976,7 +3136,7 @@ text-bottom: <img style="vertical-align: text-bottom" src="star.png" alt="star"/
   </header>
 
   <script>
-    const mediaQueryList = window.matchMedia("(max-width: 600px)");
+    const mediaQueryList = window.matchMedia("(width <= 600px)");
     const header = document.querySelector("header");
 
     if (mediaQueryList.matches) {
@@ -3139,6 +3299,14 @@ if (navigator.userAgent.includes("Chrome")) {
 }
 console.log(splitUpString("fooBar")); // ["fooB", "ar"]
 console.log(splitUpString("jQWhy")); // ["jQ", "W", "hy"]
+~~~
+
+/en-US/docs/Web/HTTP/Guides/Evolution_of_HTTP
+[html-has-lang] HTML element should have a lang attribute.
+~~~
+<html>
+  An text-only web page
+</html>
 ~~~
 
 /en-US/docs/Web/HTTP/Reference/Headers/X-XSS-Protection
@@ -5256,7 +5424,7 @@ function fn() {} // Function declaration
 const obj = { key: "value" }; // Object keys
 // Class declaration
 class C {
-  #priv = "value"; // Private element
+  #priv = "value"; // Private field
 }
 lbl: console.log(1); // Label
 ~~~

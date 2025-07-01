@@ -101,6 +101,48 @@ const htmlVisitor: Visitor = {
         content: ctx.content,
         span: attr.sourceSpan,
       });
+    } else if (["id", "class"].includes(attr.name)) {
+      if (attr.value.match(/[A-Z]/)) {
+        // TODO
+        // ctx.messages.push({
+        //   ruleId: "no-uppercase-id-class",
+        //   message: `Element ${attr.name} should consist entirely of lowercase letters.`,
+        //   content: ctx.content,
+        //   span: attr.sourceSpan,
+        // });
+      }
+      if (attr.name === "id" && attr.value.includes(" ")) {
+        ctx.messages.push({
+          ruleId: "no-spaces-in-id",
+          message: `Element id should not contain spaces.`,
+          content: ctx.content,
+          span: attr.sourceSpan,
+        });
+      }
+      if (attr.name === "class") {
+        if (!attr.value.match(/^(?:\S+)(?: \S+)*$/)) {
+          ctx.messages.push({
+            ruleId: "unformatted-class",
+            message:
+              "Element class should be a list of tokens separated by single spaces.",
+            content: ctx.content,
+            span: attr.sourceSpan,
+          });
+        }
+        const allClasses = attr.value.split(/\s+/).filter(Boolean);
+        const seen = new Set<string>();
+        for (const cls of allClasses) {
+          if (seen.has(cls)) {
+            ctx.messages.push({
+              ruleId: "no-duplicate-class",
+              message: `Duplicate class "${cls}".`,
+              content: ctx.content,
+              span: attr.sourceSpan,
+            });
+          }
+          seen.add(cls);
+        }
+      }
     }
   },
   visitElement(el, ctx) {
@@ -199,14 +241,58 @@ const htmlVisitor: Visitor = {
           span: el.sourceSpan,
         });
       }
+    } else if (el.name === "html") {
+      if (!el.attrs.some((attr) => attr.name === "lang")) {
+        ctx.messages.push({
+          ruleId: "html-has-lang",
+          message: "HTML element should have a lang attribute.",
+          content: ctx.content,
+          span: el.sourceSpan,
+        });
+      }
     }
+    if (
+      el.children.length > 0 &&
+      el.children[0].type === "text" &&
+      el.children[0].value.match(/\s*<\!\[CDATA\[/) &&
+      !ctx.isSVG &&
+      !ctx.isMathML
+    ) {
+      ctx.messages.push({
+        ruleId: "no-cdata",
+        message: "CDATA is not a thing in HTML.",
+        content: ctx.content,
+        span: el.children[0].sourceSpan,
+      });
+    }
+    const allAttrs = { __proto__: null } as never as Record<string, string>;
+    for (const a of el.attrs) {
+      if (a.name in allAttrs) {
+        ctx.messages.push({
+          ruleId: "no-duplicate-attribute",
+          message: `Duplicate attribute "${a.name}".`,
+          content: ctx.content,
+          span: el.startSourceSpan,
+        });
+      }
+      allAttrs[a.name] = a.value;
+    }
+    // TODO: validate allAttrs
     if (el.name === "template") {
       ctx.isTemplate++;
+    } else if (el.name === ":svg:svg") {
+      ctx.isSVG++;
+    } else if (el.name === ":math:math") {
+      ctx.isMathML++;
     }
     el.attrs.forEach((attr) => attr.visit(this, ctx));
     el.children.forEach((child) => child.visit(this, ctx));
     if (el.name === "template") {
       ctx.isTemplate--;
+    } else if (el.name === ":svg:svg") {
+      ctx.isSVG--;
+    } else if (el.name === ":math:math") {
+      ctx.isMathML--;
     }
   },
   visitText() {},
@@ -356,7 +442,7 @@ async function checkCSS(
       if (
         msg.rule === "declaration-property-value-no-unknown" &&
         msg.text.match(
-          /Unexpected unknown value "(?:asin|acos|atan|atan2)\([^)]+\)" for property "transform" \(declaration-property-value-no-unknown\)/,
+          /Unexpected unknown value "rotate\((?:asin|acos|atan|atan2)\([^)]+\)\)" for property "transform" \(declaration-property-value-no-unknown\)/,
         ) &&
         reportRegion.match(
           /^\s*transform: rotate\((?:asin|acos|atan|atan2)\([^)]+\)\);$/,
@@ -454,6 +540,8 @@ async function checkHTML(
   for (const rootNode of rootNodes) {
     rootNode.visit(htmlVisitor, {
       isTemplate: 0,
+      isSVG: 0,
+      isMathML: 0,
       path,
       content,
       messages,

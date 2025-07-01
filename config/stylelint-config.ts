@@ -308,6 +308,18 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
         },
       ],
       "unit-no-unknown": true,
+      "alpha-value-notation": null, // TODO
+      "color-function-alias-notation": null, // TODO
+      "color-function-notation": "modern",
+      "color-hex-length": null, // TODO
+      "font-weight-notation": null, // TODO
+      "hue-degree-notation": null, // TODO
+      "import-notation": null, // TODO
+      "keyframe-selector-notation": null, // TODO
+      "lightness-notation": null, // TODO
+      "media-feature-range-notation": "context",
+      "selector-not-notation": "complex",
+      "selector-pseudo-element-colon-notation": "double",
     },
     overrides: [
       {
@@ -365,6 +377,10 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
       {
         files: ["Web/CSS/@keyframes/*"],
         rules: { "keyframe-declaration-no-important": null },
+      },
+      {
+        files: ["Web/CSS/@media/**"],
+        rules: { "media-feature-range-notation": null },
       },
       {
         files: ["Web/CSS/@media/-moz-device-pixel-ratio/*"],
